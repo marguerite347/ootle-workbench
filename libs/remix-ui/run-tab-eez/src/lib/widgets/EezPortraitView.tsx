@@ -1,6 +1,10 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
+import { Dropdown } from 'react-bootstrap'
 import { EezAppContext } from '../contexts'
-import { resolveProxyAddresses, previewProxyCreation, createProxy, loadCreatedProxyWithSelectedAbi } from '../actions'
+import { resolveProxyAddresses, previewProxyCreation, createProxy } from '../actions'
+import { FormattedMessage } from 'react-intl'
+import { CopyToClipboard } from '@remix-ui/clipboard'
+import { CustomMenu, CustomToggle, getTimeAgo } from '@remix-ui/helper'
 
 function shorten(address: string) {
   if (!address) return ''
@@ -8,12 +12,19 @@ function shorten(address: string) {
 }
 
 function EezPortraitView() {
-  const { plugin, widgetState, dispatch } = useContext(EezAppContext)
-  const { networks, addressInput, isResolving, resolutionRows, resolutionError, creator } = widgetState
-  const [loadStatus, setLoadStatus] = useState<string | null>(null)
+  const { plugin, widgetState, dispatch, themeQuality } = useContext(EezAppContext)
+  const { networks, addressInput, isResolving, resolutionRows, resolutionError, showCreateDialog, createdProxies, creator } = widgetState
 
   const handleResolve = () => {
     resolveProxyAddresses(plugin, dispatch, networks, addressInput.trim())
+  }
+
+  const handleOpenCreateDialog = () => {
+    dispatch({ type: 'SHOW_CREATE_DIALOG', payload: true })
+  }
+
+  const handleCloseCreateDialog = () => {
+    dispatch({ type: 'SHOW_CREATE_DIALOG', payload: false })
   }
 
   const handlePreview = () => {
@@ -24,132 +35,280 @@ function EezPortraitView() {
     createProxy(plugin, dispatch, networks, creator.originNetworkId, creator.originAddress.trim())
   }
 
-  const handleLoadWithAbi = async () => {
-    setLoadStatus(null)
-    try {
-      await loadCreatedProxyWithSelectedAbi(plugin, creator.previewAddress)
-      setLoadStatus('Loaded in Deployed Contracts.')
-    } catch (e) {
-      setLoadStatus(e?.message || 'Unable to load proxy with the currently selected contract ABI.')
-    }
+  const handleLoadResolvedProxy = async (proxyAddress: string) => {
+    window.dispatchEvent(new CustomEvent('udapp:switchTab', { detail: { tab: 'contracts' } }))
+    await plugin.call('udappDeployedContracts', 'openAddContractDialog', proxyAddress)
   }
 
   return (
-    <div className="p-3" data-id="eezPortraitView">
-      <h6>EEZ Cross-Chain Proxy</h6>
-
-      {networks.length === 0 && (
-        <div className="alert alert-warning py-2 px-2 small mb-3">
-          No EEZ networks configured. Add RPC URL, EEZ contract address, rollup id and chain id per network in
-          <strong> Settings &gt; EEZ</strong>.
+    <div className="d-flex flex-column gap-2 text-theme-contrast" data-id="eezPortraitView">
+      <div className="d-flex align-items-center justify-content-between px-3 py-1">
+        <div className='d-flex align-items-center gap-2 text-nowrap'>
+          <h6 className="my-auto" style={{ margin: '0px', fontSize: '14px', fontWeight: '700', color: 'var(--bs-emphasis-color)' }}>
+            <FormattedMessage id="udapp.eezCrossChainProxy" defaultMessage="EEZ Cross-Chain Proxy" />
+          </h6>
+          <span className="text-secondary" data-id="eezBadge">0</span>
+        </div>
+        <div className="ms-1 me-1 d-flex">
+          <button className="btn btn-primary btn-sm small d-flex align-items-center justify-content-between flex-nowrap" style={{ fontSize: '0.7rem' }} onClick={handleOpenCreateDialog} data-id="createProxyButton">
+            <i className="fa-solid fa-plus me-1"></i>
+            <span className="text-nowrap">Create Proxy</span>
+          </button>
+        </div>
+      </div>
+      {showCreateDialog && (
+        <div className="m-3 mt-0 p-3 rounded" data-id="eezCreateDialog" style={{ backgroundColor: 'var(--custom-onsurface-layer-2)' }}>
+          <div className="d-flex justify-content-between align-items-center mb-2">
+            <p className="mb-0" style={{ color: themeQuality === 'dark' ? 'white' : 'black', fontSize: '0.9rem' }}>
+              Create cross-chain proxy
+            </p>
+            <button
+              className="btn btn-sm"
+              onClick={handleCloseCreateDialog}
+              data-id="eezCloseCreateDialog"
+              style={{
+                background: 'transparent',
+                border: 'none',
+                color: 'var(--bs-quaternary)',
+                fontSize: '1.5rem',
+                lineHeight: 1,
+                padding: 0
+              }}
+            > × </button>
+          </div>
+          <div className="mb-2">
+            <label className="mb-0 d-block" style={{ color: 'var(--bs-tertiary)' }}>
+              Origin network
+            </label>
+            <Dropdown className="w-100">
+              <Dropdown.Toggle
+                as={CustomToggle}
+                className="w-100 d-inline-block border form-control"
+                style={{ backgroundColor: 'var(--bs-body-bg)', color: themeQuality === 'dark' ? 'white' : 'black', fontSize: '0.75rem', padding: '0.75rem' }}
+                data-id="eezCreatorOriginNetworkToggle"
+                icon="fas fa-caret-down"
+                useDefaultIcon={false}
+              >
+                {networks.find((n) => n.id === creator.originNetworkId)?.label || 'Select origin network...'}
+              </Dropdown.Toggle>
+              <Dropdown.Menu
+                as={CustomMenu}
+                className="w-100 custom-dropdown-items overflow-hidden"
+                style={{ backgroundColor: 'var(--custom-onsurface-layer-1)', '--theme-text-color': themeQuality === 'dark' ? 'white' : 'black', padding: '4px' } as React.CSSProperties}
+                data-id="eezCreatorOriginNetworkMenu"
+              >
+                {networks.map((n) => (
+                  <Dropdown.Item
+                    key={n.id}
+                    className="d-flex align-items-center contract-dropdown-item-hover px-2"
+                    onClick={() => dispatch({ type: 'SET_CREATOR_ORIGIN_NETWORK', payload: n.id })}
+                    style={{ color: themeQuality === 'dark' ? 'white' : 'black', fontSize: '0.75rem' }}
+                  >
+                    {n.label}
+                  </Dropdown.Item>
+                ))}
+              </Dropdown.Menu>
+            </Dropdown>
+          </div>
+          <div className="d-flex align-items-center mb-2">
+            <label className="mb-0 me-2" style={{ color: 'var(--bs-tertiary)' }}>
+              Origin address
+            </label>
+          </div>
+          <div className="position-relative flex-fill mb-2">
+            <input
+              type="text"
+              className="form-control"
+              data-id="eezCreatorOriginAddress"
+              placeholder="0x..."
+              value={creator.originAddress}
+              onChange={(e) => dispatch({ type: 'SET_CREATOR_ORIGIN_ADDRESS', payload: e.target.value })}
+              style={{ backgroundColor: 'var(--bs-body-bg)', color: themeQuality === 'dark' ? 'white' : 'black', flex: 1, padding: '0.75rem', paddingRight: '5.5rem', fontSize: '0.75rem' }}
+            />
+            <button
+              className="btn btn-sm btn-secondary"
+              data-id="eezPreviewButton"
+              disabled={creator.isPreviewing || !creator.originNetworkId || !creator.originAddress}
+              onClick={handlePreview}
+              style={{ position: 'absolute', right: '0.5rem', top: '50%', transform: 'translateY(-50%)', zIndex: 2, fontSize: '0.65rem', fontWeight: 'bold' }}
+            >
+              {creator.isPreviewing ? 'Previewing...' : 'Preview'}
+            </button>
+          </div>
+          {creator.previewError && <div className="text-danger small mb-2">{creator.previewError}</div>}
+          {creator.previewAddress && (
+            <div className="d-flex align-items-center justify-content-between p-2 rounded mb-2" style={{ backgroundColor: 'var(--custom-onsurface-layer-3)' }}>
+              <div className="d-flex flex-column" style={{ minWidth: 0 }}>
+                <span style={{ fontSize: '10px', color: 'var(--bs-tertiary)' }}>Predicted proxy address</span>
+                <div className="d-flex align-items-center gap-1">
+                  <span style={{ fontSize: '10px', fontFamily: 'Monaco, monospace', color: 'var(--text-tertiary, #a2a3bd)' }}>
+                    {shorten(creator.previewAddress)}
+                  </span>
+                  <CopyToClipboard tip="Copy proxy address" icon="fa-copy" direction="top" getContent={() => creator.previewAddress}>
+                    <i className="fa-solid fa-copy" style={{ fontSize: '10px', cursor: 'pointer', color: 'var(--text-tertiary, #a2a3bd)' }}></i>
+                  </CopyToClipboard>
+                </div>
+              </div>
+              <div className="d-flex flex-column align-items-end gap-1 flex-shrink-0">
+                <span
+                  className="badge"
+                  style={{
+                    backgroundColor: creator.previewIsDeployed ? '#2ecc7114' : 'var(--custom-onsurface-layer-4)',
+                    color: creator.previewIsDeployed ? '#2ecc71' : 'var(--text-tertiary, #a2a3bd)',
+                    fontSize: '10px',
+                    fontWeight: 700
+                  }}
+                >
+                  {creator.previewIsDeployed ? 'Deployed' : 'Not deployed'}
+                </span>
+                {creator.previewIsDeployed && (
+                  <button
+                    className="btn btn-sm"
+                    data-id="eezLoadPreviewedProxy"
+                    style={{ backgroundColor: '#64C4FF14', color: '#64c4ff', border: 'none', fontSize: '10px', fontWeight: 700, padding: '3px 10px' }}
+                    onClick={() => handleLoadResolvedProxy(creator.previewAddress)}
+                  >
+                    Load
+                  </button>
+                )}
+              </div>
+            </div>
+          )}
+          {creator.previewAddress && !creator.previewIsDeployed && (
+            <button className="btn btn-sm btn-primary w-100" data-id="eezCreateButton" disabled={creator.isCreating} onClick={handleCreate}>
+              {creator.isCreating ? 'Creating...' : 'Create proxy'}
+            </button>
+          )}
         </div>
       )}
-
-      <div className="mb-4">
-        <h6 className="text-uppercase small text-secondary">Resolve proxy address</h6>
-        <p className="small text-secondary">
-          Enter an address to see its proxy on every configured network. On the destination chain, <code>msg.sender</code> is
-          the proxy, not the original account — access-control code must expect the proxy address.
+      <div className="m-3 mt-0 p-3 rounded" style={{ backgroundColor: 'var(--custom-onsurface-layer-2)' }}>
+        <p className="mb-0" style={{ color: themeQuality === 'dark' ? 'white' : 'black', fontSize: '0.9rem', fontWeight: 700 }}>
+          Find Cross-Chain Proxies
         </p>
-        <div className="d-flex gap-2 mb-2">
+        <p style={{ color: 'var(--bs-tertiary)', fontSize: '0.7rem' }} className="mb-2 fw-light">
+          Enter a local address to see its proxy on every network in the zone.
+        </p>
+        <div className="d-flex align-items-center mb-2">
+          <label className="mb-0 me-2" style={{ color: 'var(--bs-tertiary)' }}>
+            Address
+          </label>
+        </div>
+        <div className="position-relative flex-fill mb-2">
           <input
+            type="text"
             className="form-control"
             data-id="eezResolveAddressInput"
             placeholder="0x..."
             value={addressInput}
             onChange={(e) => dispatch({ type: 'SET_ADDRESS_INPUT', payload: e.target.value })}
+            style={{ backgroundColor: 'var(--bs-body-bg)', color: themeQuality === 'dark' ? 'white' : 'black', flex: 1, padding: '0.75rem', paddingRight: '5.5rem', fontSize: '0.75rem' }}
           />
-          <button className="btn btn-primary text-nowrap" data-id="eezResolveButton" disabled={isResolving || !addressInput} onClick={handleResolve}>
+          <button
+            className="btn btn-sm btn-primary"
+            data-id="eezResolveButton"
+            disabled={isResolving || !addressInput}
+            onClick={handleResolve}
+            style={{ position: 'absolute', right: '0.5rem', top: '50%', transform: 'translateY(-50%)', zIndex: 2, fontSize: '0.65rem', fontWeight: 'bold' }}
+          >
             {isResolving ? 'Resolving...' : 'Resolve'}
           </button>
         </div>
-        {resolutionError && <div className="text-danger small">{resolutionError}</div>}
-        {resolutionRows.length > 0 && (
-          <table className="table table-sm mb-0">
-            <thead>
-              <tr>
-                <th>Network</th>
-                <th>Proxy address</th>
-                <th>Deployed</th>
-              </tr>
-            </thead>
-            <tbody>
-              {resolutionRows.map((row) => (
-                <tr key={row.network.id} className={row.isOrigin ? 'text-muted' : ''}>
-                  <td>{row.network.label}{row.isOrigin ? ' (current — same-network proxy N/A)' : ''}</td>
-                  <td>{row.isOrigin ? '—' : row.error ? <span className="text-danger">{row.error}</span> : shorten(row.proxyAddress || '')}</td>
-                  <td>{row.isOrigin ? '—' : row.isDeployed === null ? '' : row.isDeployed ? 'Yes' : 'No'}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        {resolutionError && <div className="text-danger small mb-2">{resolutionError}</div>}
+        {resolutionRows.filter((row) => !row.isOrigin).length > 0 && (
+          <div className="d-flex flex-column gap-1 mt-2">
+            {resolutionRows.filter((row) => !row.isOrigin).map((row) => (
+              <div
+                key={row.network.id}
+                className="d-flex align-items-center justify-content-between p-2 rounded"
+                style={{ backgroundColor: 'var(--custom-onsurface-layer-3)' }}
+              >
+                <div className="d-flex flex-column" style={{ minWidth: 0 }}>
+                  <span style={{ fontSize: '11px', fontWeight: 700, color: themeQuality === 'dark' ? 'white' : 'black' }}>
+                    {row.network.label}
+                  </span>
+                  {row.error ? (
+                    <span className="text-danger" style={{ fontSize: '10px' }}>{row.error}</span>
+                  ) : (
+                    <div className="d-flex align-items-center gap-1">
+                      <span style={{ fontSize: '10px', fontFamily: 'Monaco, monospace', color: 'var(--text-tertiary, #a2a3bd)' }}>
+                        {shorten(row.proxyAddress || '')}
+                      </span>
+                      {row.proxyAddress && (
+                        <CopyToClipboard tip="Copy proxy address" icon="fa-copy" direction="top" getContent={() => row.proxyAddress}>
+                          <i className="fa-solid fa-copy" style={{ fontSize: '10px', cursor: 'pointer', color: 'var(--text-tertiary, #a2a3bd)' }}></i>
+                        </CopyToClipboard>
+                      )}
+                    </div>
+                  )}
+                </div>
+                {row.isDeployed !== null && (
+                  <span
+                    className="badge flex-shrink-0"
+                    style={{
+                      backgroundColor: row.isDeployed ? '#2ecc7114' : 'var(--custom-onsurface-layer-4)',
+                      color: row.isDeployed ? '#2ecc71' : 'var(--text-tertiary, #a2a3bd)',
+                      fontSize: '10px',
+                      fontWeight: 700
+                    }}
+                  >
+                    {row.isDeployed ? 'Deployed' : 'Not deployed'}
+                  </span>
+                )}
+              </div>
+            ))}
+          </div>
         )}
       </div>
 
-      <div>
-        <h6 className="text-uppercase small text-secondary">Create proxy</h6>
-        <p className="small text-secondary">
-          Create the proxy for a remote account (living on another network) here on the currently connected network, so you
-          can call it locally. This does not create your own proxy — the protocol auto-creates that on the destination when
-          you make a cross-chain call.
-        </p>
-        <div className="mb-2">
-          <select
-            className="form-select form-select-sm"
-            data-id="eezCreatorOriginNetwork"
-            value={creator.originNetworkId}
-            onChange={(e) => dispatch({ type: 'SET_CREATOR_ORIGIN_NETWORK', payload: e.target.value })}
-          >
-            <option value="">Select origin network...</option>
-            {networks.map((n) => (
-              <option key={n.id} value={n.id}>{n.label}</option>
+      {createdProxies.length > 0 && (
+        <div className="m-3 mt-0 p-3 rounded" data-id="eezCreatedProxiesSection" style={{ backgroundColor: 'var(--custom-onsurface-layer-2)' }}>
+          <p className="mb-0" style={{ color: themeQuality === 'dark' ? 'white' : 'black', fontSize: '0.9rem', fontWeight: 700 }}>
+            Created proxies
+          </p>
+          <p style={{ color: 'var(--bs-tertiary)', fontSize: '0.7rem' }} className="mb-2 fw-light">
+            Proxies you've created from this panel, newest first.
+          </p>
+          <div className="d-flex flex-column gap-1 mt-2">
+            {createdProxies.map((p, i) => (
+              <div
+                key={`${p.proxyAddress}-${p.timestamp}-${i}`}
+                className="d-flex align-items-center justify-content-between p-2 rounded"
+                style={{ backgroundColor: 'var(--custom-onsurface-layer-3)' }}
+              >
+                <div className="d-flex flex-column" style={{ minWidth: 0 }}>
+                  <span style={{ fontSize: '11px', fontWeight: 700, color: themeQuality === 'dark' ? 'white' : 'black' }}>
+                    {p.originNetworkLabel} → {p.destinationNetworkLabel}
+                  </span>
+                  <div className="d-flex align-items-center gap-1">
+                    <span style={{ fontSize: '10px', fontFamily: 'Monaco, monospace', color: 'var(--text-tertiary, #a2a3bd)' }}>
+                      {shorten(p.proxyAddress)}
+                    </span>
+                    <CopyToClipboard tip="Copy proxy address" icon="fa-copy" direction="top" getContent={() => p.proxyAddress}>
+                      <i className="fa-solid fa-copy" style={{ fontSize: '10px', cursor: 'pointer', color: 'var(--text-tertiary, #a2a3bd)' }}></i>
+                    </CopyToClipboard>
+                  </div>
+                  <span className="text-secondary" style={{ fontSize: '10px' }}>
+                    {getTimeAgo(p.timestamp, { truncateTimeAgo: true })} ago · origin {shorten(p.originAddress)}
+                  </span>
+                </div>
+                <div className="d-flex flex-column align-items-end gap-1 flex-shrink-0">
+                  <span className="badge" style={{ backgroundColor: '#2ecc7114', color: '#2ecc71', fontSize: '10px', fontWeight: 700 }}>
+                    Deployed
+                  </span>
+                  <button
+                    className="btn btn-sm"
+                    data-id={`eezLoadCreatedProxy-${p.proxyAddress}`}
+                    style={{ backgroundColor: '#64C4FF14', color: '#64c4ff', border: 'none', fontSize: '10px', fontWeight: 700, padding: '3px 10px' }}
+                    onClick={() => handleLoadResolvedProxy(p.proxyAddress)}
+                  >
+                    Load
+                  </button>
+                </div>
+              </div>
             ))}
-          </select>
-        </div>
-        <div className="d-flex gap-2 mb-2">
-          <input
-            className="form-control"
-            data-id="eezCreatorOriginAddress"
-            placeholder="Origin address 0x..."
-            value={creator.originAddress}
-            onChange={(e) => dispatch({ type: 'SET_CREATOR_ORIGIN_ADDRESS', payload: e.target.value })}
-          />
-          <button
-            className="btn btn-secondary text-nowrap"
-            data-id="eezPreviewButton"
-            disabled={creator.isPreviewing || !creator.originNetworkId || !creator.originAddress}
-            onClick={handlePreview}
-          >
-            {creator.isPreviewing ? 'Previewing...' : 'Preview'}
-          </button>
-        </div>
-        {creator.previewError && <div className="text-danger small mb-2">{creator.previewError}</div>}
-        {creator.previewAddress && (
-          <div className="small mb-2">
-            Predicted proxy address: <code>{creator.previewAddress}</code> — {creator.previewIsDeployed ? 'already deployed' : 'not deployed yet'}
           </div>
-        )}
-        {creator.previewAddress && !creator.previewIsDeployed && (
-          <button className="btn btn-primary btn-sm" data-id="eezCreateButton" disabled={creator.isCreating} onClick={handleCreate}>
-            {creator.isCreating ? 'Creating...' : 'Create proxy'}
-          </button>
-        )}
-        {creator.previewAddress && creator.previewIsDeployed && (
-          <button className="btn btn-outline-primary btn-sm" data-id="eezLoadWithAbiButton" onClick={handleLoadWithAbi}>
-            Load with selected contract ABI
-          </button>
-        )}
-        {creator.createError && <div className="text-danger small mt-2">{creator.createError}</div>}
-        {creator.createdTxHash && (
-          <div className="small mt-2">
-            Proxy created — tx <code>{shorten(creator.createdTxHash)}</code>
-            <button className="btn btn-outline-primary btn-sm ms-2" data-id="eezLoadWithAbiButtonAfterCreate" onClick={handleLoadWithAbi}>
-              Load with selected contract ABI
-            </button>
-          </div>
-        )}
-        {loadStatus && <div className="small mt-2">{loadStatus}</div>}
-      </div>
+        </div>
+      )}
     </div>
   )
 }

@@ -28,8 +28,9 @@ const profile = {
 const UDAPP_TAB_KEY = 'udapp.activeTab'
 const EV_DEPLOYED = 'udapp:deployedCountChanged'
 const EV_TX = 'udapp:txCountChanged'
+const EV_SWITCH_TAB = 'udapp:switchTab'
 
-type UdappTab = 'deploy' | 'contracts' | 'history'
+type UdappTab = 'deploy' | 'contracts' | 'history' | 'eez'
 
 function UdappBody() {
   const [tab, setTab] = useState<UdappTab>(() => {
@@ -57,11 +58,17 @@ function UdappBody() {
     const onTx = (e: Event) => {
       setTxCount((e as CustomEvent<{ count: number }>).detail.count)
     }
+    const onSwitchTab = (e: Event) => {
+      const nextTab = (e as CustomEvent<{ tab: UdappTab }>).detail?.tab
+      if (nextTab) switchTab(nextTab)
+    }
     window.addEventListener(EV_DEPLOYED, onDeployed)
     window.addEventListener(EV_TX, onTx)
+    window.addEventListener(EV_SWITCH_TAB, onSwitchTab)
     return () => {
       window.removeEventListener(EV_DEPLOYED, onDeployed)
       window.removeEventListener(EV_TX, onTx)
+      window.removeEventListener(EV_SWITCH_TAB, onSwitchTab)
     }
   }, [])
 
@@ -81,6 +88,9 @@ function UdappBody() {
             Transactions history
             {txCount > 0 && <span className="udapp-tab-badge">{txCount}</span>}
           </button>
+          <button data-id="udappEezTab" role="tab" aria-selected={tab === 'eez'} className={`udapp-tab${tab === 'eez' ? ' active' : ''}`} onClick={() => switchTab('eez')}>
+            EEZ
+          </button>
         </nav>
       </div>
       <div id="udappScrollableContent" onScroll={(e) => {
@@ -91,6 +101,7 @@ function UdappBody() {
         <div id="udappDeployComponent" style={{ display: tab === 'deploy' ? '' : 'none' }}></div>
         <div id="udappDeployedContractsComponent" style={{ display: tab === 'contracts' ? '' : 'none' }}></div>
         <div id="udappTransactionsComponent" style={{ display: tab === 'history' ? '' : 'none' }}></div>
+        <div id="udappEezComponent" style={{ display: tab === 'eez' ? '' : 'none' }}></div>
       </div>
     </div>
   )
@@ -106,6 +117,7 @@ export class RunTab extends ViewPlugin {
   private deployUI: React.ReactNode = null
   private deployedContractsUI: React.ReactNode = null
   private transactionsUI: React.ReactNode = null
+  private eezUI: React.ReactNode = null
 
   constructor(blockchain: Blockchain, engine: any) {
     super(profile)
@@ -138,6 +150,10 @@ export class RunTab extends ViewPlugin {
           window.dispatchEvent(new CustomEvent(EV_TX, { detail: { count: txs.length } }))
         })
       }
+      if (profile.name === 'udappEez') {
+        this.eezUI = await this.call('udappEez', 'getUI')
+        this.renderComponent()
+      }
     })
   }
 
@@ -156,16 +172,19 @@ export class RunTab extends ViewPlugin {
       envUI: this.envUI,
       deployUI: this.deployUI,
       deployedContractsUI: this.deployedContractsUI,
-      transactionsUI: this.transactionsUI
+      transactionsUI: this.transactionsUI,
+      eezUI: this.eezUI
     })
   }
 
   updateComponent() {
+    const eezContainer = document.getElementById('udappEezComponent')
     return (<>
       { this.envUI && createPortal(this.envUI, document.getElementById('udappEnvComponent')) }
       { this.deployUI && createPortal(this.deployUI, document.getElementById('udappDeployComponent')) }
       { this.deployedContractsUI && createPortal(this.deployedContractsUI, document.getElementById('udappDeployedContractsComponent')) }
       { this.transactionsUI && createPortal(this.transactionsUI, document.getElementById('udappTransactionsComponent')) }
+      { this.eezUI && eezContainer && createPortal(this.eezUI, eezContainer) }
     </>)
   }
 

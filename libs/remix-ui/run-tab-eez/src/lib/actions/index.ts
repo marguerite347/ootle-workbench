@@ -165,16 +165,46 @@ export async function createProxy(
 
   try {
     const iface = new Interface(EEZ_ABI)
-    const dataHex = iface.encodeFunctionData('createCrossChainProxy', [originAddress, BigInt(originNetwork.rollupId)])
+    const funArgs = [originAddress, BigInt(originNetwork.rollupId)]
+    const dataHex = iface.encodeFunctionData('createCrossChainProxy', funArgs)
+    const funAbi = {
+      name: 'createCrossChainProxy',
+      type: 'function',
+      inputs: [
+        { name: 'originalAddress', type: 'address' },
+        { name: 'originalRollupId', type: 'uint64' }
+      ],
+      outputs: [{ name: '', type: 'address' }],
+      stateMutability: 'nonpayable',
+      payable: false
+    }
 
     const result = await plugin.call('blockchain', 'runTx', {
       to: destinationNetwork.eezContractAddress,
       useCall: false,
-      data: { dataHex, value: '0x0', gasLimit: '3000000', timestamp: Date.now() }
+      data: { dataHex, value: '0x0', gasLimit: '0x' + (3000000).toString(16), timestamp: Date.now(), funAbi, funArgs, contractName: 'EEZ' }
     })
 
     const txHash = result?.txResult?.transactionHash || result?.txResult?.receipt?.transactionHash || ''
-    dispatch({ type: 'CREATE_SUCCESS', payload: { txHash } })
+
+    const { provider, contract } = contractFor(destinationNetwork)
+    let proxyAddress = ''
+    try {
+      proxyAddress = await contract.computeCrossChainProxyAddress(originAddress, BigInt(originNetwork.rollupId))
+    } finally {
+      provider.destroy()
+    }
+
+    dispatch({
+      type: 'CREATE_SUCCESS',
+      payload: {
+        txHash,
+        proxyAddress,
+        originNetworkLabel: originNetwork.label,
+        originAddress,
+        destinationNetworkLabel: destinationNetwork.label
+      }
+    })
   } catch (e) {
     const message = e?.message || 'Failed to create proxy'
     const friendly = /SameNetworkProxy/.test(message)

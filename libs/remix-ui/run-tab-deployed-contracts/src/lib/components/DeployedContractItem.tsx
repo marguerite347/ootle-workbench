@@ -27,12 +27,13 @@ const REMIX_VM_DAPP_WORKSPACE_MESSAGE = 'Creating another DApp from a DApp works
 interface DeployedContractItemProps {
   contract: DeployedContract
   index: number
+  collapseSignal?: number
   registerRef?: (ref: HTMLDivElement | null) => void
   isKebabMenuOpen?: boolean
   onKebabMenuToggle?: (isOpen: boolean) => void
 }
 
-export function DeployedContractItem({ contract, index, registerRef, isKebabMenuOpen = false, onKebabMenuToggle }: DeployedContractItemProps) {
+export function DeployedContractItem({ contract, index, collapseSignal, registerRef, isKebabMenuOpen = false, onKebabMenuToggle }: DeployedContractItemProps) {
   const { widgetState, dispatch, plugin, themeQuality } = useContext(DeployedContractsAppContext)
   const { trackMatomoEvent } = useContext(TrackingContext)
   const intl = useIntl()
@@ -81,6 +82,15 @@ export function DeployedContractItem({ contract, index, registerRef, isKebabMenu
       setContractABI(contract.abi)
     }
   }, [])
+
+  const isFirstCollapseSignal = useRef(true)
+  useEffect(() => {
+    if (isFirstCollapseSignal.current) {
+      isFirstCollapseSignal.current = false
+      return
+    }
+    setIsExpanded(false)
+  }, [collapseSignal])
 
   // Intersection Observer to detect when contract becomes visible
   useEffect(() => {

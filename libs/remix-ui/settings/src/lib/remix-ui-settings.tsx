@@ -329,6 +329,19 @@ const settingsSections: SettingsSection[] = [
           }]
         }]
       }]
+  },
+  {
+    key: 'eez', label: 'settings.eez', description: 'settings.eezDescription', subSections: [
+      {
+        title: 'settings.eezNetworksSection',
+        options: [{
+          name: 'eez-networks-config',
+          label: '',
+          type: 'custom' as const,
+          customComponent: 'eezNetworksConfig'
+        }]
+      }
+    ]
   }
 ]
 

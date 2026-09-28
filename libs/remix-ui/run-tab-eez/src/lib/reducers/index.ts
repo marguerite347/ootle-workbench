@@ -7,6 +7,8 @@ export const eezInitialState: EezWidgetState = {
   isResolving: false,
   resolutionRows: [],
   resolutionError: null,
+  showCreateDialog: false,
+  createdProxies: [],
   creator: {
     originNetworkId: '',
     originAddress: '',
@@ -30,6 +32,9 @@ export const eezReducer = (state: EezWidgetState, action: Actions): EezWidgetSta
 
   case 'SET_ADDRESS_INPUT':
     return { ...state, addressInput: action.payload }
+
+  case 'SHOW_CREATE_DIALOG':
+    return { ...state, showCreateDialog: action.payload }
 
   case 'START_RESOLVE':
     return { ...state, isResolving: true, resolutionError: null }
@@ -74,10 +79,45 @@ export const eezReducer = (state: EezWidgetState, action: Actions): EezWidgetSta
     return { ...state, creator: { ...state.creator, isCreating: true, createError: null, createdTxHash: null } }
 
   case 'CREATE_SUCCESS':
-    return { ...state, creator: { ...state.creator, isCreating: false, createdTxHash: action.payload.txHash, previewIsDeployed: true } }
+    return {
+      ...state,
+      createdProxies: [
+        {
+          proxyAddress: action.payload.proxyAddress,
+          txHash: action.payload.txHash,
+          originNetworkLabel: action.payload.originNetworkLabel,
+          originAddress: action.payload.originAddress,
+          destinationNetworkLabel: action.payload.destinationNetworkLabel,
+          timestamp: Date.now()
+        },
+        ...state.createdProxies
+      ],
+      creator: { ...state.creator, isCreating: false, createdTxHash: action.payload.txHash, previewIsDeployed: true }
+    }
 
   case 'CREATE_ERROR':
     return { ...state, creator: { ...state.creator, isCreating: false, createError: action.payload } }
+
+  case 'NETWORK_CHANGED':
+    return {
+      ...state,
+      addressInput: '',
+      isResolving: false,
+      resolutionRows: [],
+      resolutionError: null,
+      creator: {
+        ...state.creator,
+        originNetworkId: '',
+        originAddress: '',
+        isPreviewing: false,
+        previewAddress: null,
+        previewIsDeployed: null,
+        previewError: null,
+        isCreating: false,
+        createError: null,
+        createdTxHash: null
+      }
+    }
 
   default:
     return state

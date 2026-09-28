@@ -19,6 +19,15 @@ export interface ResolutionRow {
   error: string | null
 }
 
+export interface CreatedProxyEntry {
+  proxyAddress: string
+  txHash: string
+  originNetworkLabel: string
+  originAddress: string
+  destinationNetworkLabel: string
+  timestamp: number
+}
+
 export interface EezWidgetState {
   networks: EezNetworkEntry[]
   originNetworkChainId: string | null
@@ -26,6 +35,8 @@ export interface EezWidgetState {
   isResolving: boolean
   resolutionRows: ResolutionRow[]
   resolutionError: string | null
+  showCreateDialog: boolean
+  createdProxies: CreatedProxyEntry[]
   creator: {
     originNetworkId: string
     originAddress: string
@@ -50,6 +61,7 @@ export type Actions =
   | { type: 'SET_NETWORKS'; payload: EezNetworkEntry[] }
   | { type: 'SET_ORIGIN_NETWORK_CHAIN_ID'; payload: string | null }
   | { type: 'SET_ADDRESS_INPUT'; payload: string }
+  | { type: 'SHOW_CREATE_DIALOG'; payload: boolean }
   | { type: 'START_RESOLVE' }
   | { type: 'RESOLVE_SUCCESS'; payload: ResolutionRow[] }
   | { type: 'RESOLVE_ERROR'; payload: string }
@@ -59,6 +71,7 @@ export type Actions =
   | { type: 'PREVIEW_SUCCESS'; payload: { previewAddress: string; previewIsDeployed: boolean } }
   | { type: 'PREVIEW_ERROR'; payload: string }
   | { type: 'START_CREATE' }
-  | { type: 'CREATE_SUCCESS'; payload: { txHash: string } }
+  | { type: 'CREATE_SUCCESS'; payload: { txHash: string; proxyAddress: string; originNetworkLabel: string; originAddress: string; destinationNetworkLabel: string } }
   | { type: 'CREATE_ERROR'; payload: string }
   | { type: 'SET_THEME_QUALITY'; payload: string }
+  | { type: 'NETWORK_CHANGED' }

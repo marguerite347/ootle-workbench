@@ -33,10 +33,14 @@ function EezWidget({ plugin }: { plugin: EezPlugin }) {
     loadNetworks(plugin, localDispatch)
 
     const handleContextChanged = () => {
+      localDispatch({ type: 'NETWORK_CHANGED' })
+      loadNetworks(plugin, localDispatch)
+    }
+    const handleConfigChanged = () => {
       loadNetworks(plugin, localDispatch)
     }
     plugin.on('blockchain', 'contextChanged', handleContextChanged)
-    plugin.on('config', 'configChanged', handleContextChanged)
+    plugin.on('config', 'configChanged', handleConfigChanged)
     return () => {
       plugin.off('blockchain', 'contextChanged')
       plugin.off('config', 'configChanged')

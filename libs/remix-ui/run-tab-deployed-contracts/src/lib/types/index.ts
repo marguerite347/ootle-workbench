@@ -27,6 +27,8 @@ export interface DeployedContractsWidgetState {
   currentFile: string
   lastLoadedChainId: string | null
   lastLoadedWorkspace: string | null
+  collapseAllSignal: number
+  highlightAddDialog: boolean
 }
 
 export interface DeployedContractsAppContextType {
@@ -53,3 +55,5 @@ export type Actions =
   | { type: 'UPDATE_CONTRACT_BALANCE'; payload: { address: string; balance: string } }
   | { type: 'SET_LAST_LOADED_CHAIN_ID'; payload: string | null }
   | { type: 'SET_LAST_LOADED_WORKSPACE'; payload: string | null }
+  | { type: 'COLLAPSE_ALL' }
+  | { type: 'HIGHLIGHT_ADD_DIALOG'; payload: boolean }

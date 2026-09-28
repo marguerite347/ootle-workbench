@@ -63,9 +63,7 @@ export const EezNetworksConfig: React.FC<EezNetworksConfigProps> = ({ plugin }) 
   return (
     <div data-id="eezNetworksConfig">
       <p className="small text-secondary">
-        Configure the RPC endpoint and EEZ contract for each network in your zone. Devnet host ports change on every
-        restart — re-check them with your devnet tooling (e.g. <code>kurtosis port print</code>) and update this list
-        accordingly. <code>rollupId</code> is the EEZ network id (not the EVM chain id).
+        Configure the RPC endpoint and EEZ contract for each network in your zone.
       </p>
       {networks.map((network) => (
         <div key={network.id} className="border rounded p-2 mb-2">
