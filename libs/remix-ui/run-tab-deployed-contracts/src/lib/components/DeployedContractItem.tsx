@@ -8,7 +8,7 @@ import { parseUnits } from 'ethers'
 import { FuncABI } from '@remix-project/core-plugin'
 import { DeployedContractsAppContext } from '../contexts'
 import { DeployedContract } from '../types'
-import { runTransactions } from '../actions'
+import { runTransactions, checkCrossChainProxy, CrossChainProxyInfo } from '../actions'
 import { ContractKebabMenu } from './ContractKebabMenu'
 import { EnsNaming } from './EnsNaming'
 import { QuickDappContractSelector, QuickDappFigmaPreparationResult, QuickDappSetupOptions } from '@remix-ui/quick-dapp-v2'
@@ -62,6 +62,7 @@ export function DeployedContractItem({ contract, index, collapseSignal, register
   const [showQuickDappContractSelector, setShowQuickDappContractSelector] = useState<boolean>(false)
   const [quickDappFixedFrontendMode, setQuickDappFixedFrontendMode] = useState<'inline' | 'workspace' | undefined>()
   const [quickDappEnvironmentId, setQuickDappEnvironmentId] = useState<string>()
+  const [crossChainProxyInfo, setCrossChainProxyInfo] = useState<CrossChainProxyInfo | null>(null)
 
   useEffect(() => {
     plugin.call('udappEnv', 'getNetwork').then((net) => {
@@ -81,6 +82,14 @@ export function DeployedContractItem({ contract, index, collapseSignal, register
     } else {
       setContractABI(contract.abi)
     }
+  }, [])
+
+  useEffect(() => {
+    checkCrossChainProxy(plugin, contract.address).then((info) => {
+      if (!info) return
+      setCrossChainProxyInfo(info)
+      setGasLimit((current) => (current === 0 ? 5000000 : current))
+    })
   }, [])
 
   const isFirstCollapseSignal = useRef(true)
@@ -805,6 +814,22 @@ For Inline mode, preserve the existing /frontend overwrite confirmation flow. Co
                     <i className="fa-solid fa-copy small ms-1" style={{ cursor: 'pointer' }}></i>
                   </CopyToClipboard>
                 </div>
+                {crossChainProxyInfo && (
+                  <CustomTooltip
+                    placement="top"
+                    tooltipClasses="text-nowrap"
+                    tooltipId={`udapp_crossChainProxyTooltip-${index}`}
+                    tooltipText={`Cross-chain proxy for ${crossChainProxyInfo.originalAddress} on ${crossChainProxyInfo.originNetworkLabel || `rollup ${crossChainProxyInfo.originalRollupId}`} — interacting with it sends a cross-chain call. Gas limit was auto-set to custom since it can't be estimated.`}
+                  >
+                    <span
+                      className="badge d-inline-flex align-items-center gap-1"
+                      style={{ backgroundColor: '#a56eff14', color: '#a56eff', fontSize: '9px', fontWeight: 700, marginTop: '2px', cursor: 'default' }}
+                    >
+                      <i className="fa-solid fa-shuffle" style={{ fontSize: '8px' }}></i>
+                      Cross-chain proxy
+                    </span>
+                  </CustomTooltip>
+                )}
               </div>
             </div>
             <div className='d-flex align-items-center gap-2'>
