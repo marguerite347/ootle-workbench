@@ -76,5 +76,3 @@ const execution = {
   forkAt
 }
 export { EventManager, helpers, Storage, util, execution, hash, eip7702Constants, TxResult }
-export { KMSSigner, kmsGetAddress, kmsCreateKey } from './execution/kms-signer'
-export type { KMSSignerConfig } from './execution/kms-signer'

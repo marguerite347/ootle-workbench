@@ -95,6 +95,7 @@ export class KMSSigner extends AbstractSigner {
   async signTransaction(tx: ethers.TransactionLike): Promise<string> {
     const address = await this.getAddress()
     const populated = await this.populateTransaction(tx)
+    delete populated.from
     const unsigned = Transaction.from(populated)
     const digest = unsigned.unsignedHash
     const sig = await kmsSignDigest(this.config, this.kms, digest, address)
