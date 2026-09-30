@@ -110,3 +110,145 @@ export function defaultCaptureTarget(): HTMLElement {
     document.getElementById('root') ||
     document.body) as HTMLElement
 }
+
+// ---------------------------------------------------------------------------
+// Set-of-marks annotation
+// ---------------------------------------------------------------------------
+
+/**
+ * One interactive element to badge on a capture.
+ *
+ * `label` is the digits of the `inspect_ui` ref (`e12` → `12`), so the badge
+ * the model reads in the image is the handle it passes to `click_element`.
+ * `rect` is in viewport coordinates — the same space `getBoundingClientRect`
+ * returns — and is translated into image space by `annotatePngWithMarks`.
+ */
+export interface ElementMark {
+  label: string
+  rect: { left: number; top: number; width: number; height: number }
+}
+
+/** Badge fill. Chosen to stay legible over both IDE themes. */
+const MARK_COLOR = '#e11d48'
+const MARK_TEXT_COLOR = '#ffffff'
+const MARK_FONT = 'bold 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif'
+const BADGE_HEIGHT = 16
+const BADGE_PAD = 4
+
+interface Box { x: number; y: number; w: number; h: number }
+
+const overlaps = (a: Box, b: Box): boolean =>
+  a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y
+
+/**
+ * Places a badge near the element's top-left without landing on a badge that
+ * is already down. Above the box reads best — it sits in the gap between
+ * controls instead of covering the label the model needs to read — so that is
+ * tried first, then inside the box, then below it.
+ */
+function placeBadge(target: Box, placed: Box[], canvas: Box): Box {
+  const candidates: Box[] = [
+    { x: target.x, y: target.y - target.h, w: target.w, h: target.h },
+    { x: target.x, y: target.y, w: target.w, h: target.h },
+    { x: target.x, y: target.y + target.h, w: target.w, h: target.h }
+  ]
+
+  for (const candidate of candidates) {
+    const box = {
+      ...candidate,
+      x: Math.min(Math.max(0, candidate.x), Math.max(0, canvas.w - candidate.w)),
+      y: Math.min(Math.max(0, candidate.y), Math.max(0, canvas.h - candidate.h))
+    }
+    if (!placed.some((p) => overlaps(box, p))) return box
+  }
+
+  // Everything around the element is taken — slide right until there is room,
+  // so two controls sharing an edge still get distinguishable badges.
+  const fallback = { x: target.x, y: target.y, w: target.w, h: target.h }
+  for (let i = 0; i < 8; i++) {
+    fallback.x = Math.min(fallback.x + target.w, Math.max(0, canvas.w - target.w))
+    if (!placed.some((p) => overlaps(fallback, p))) break
+  }
+  return fallback
+}
+
+/**
+ * Draws numbered badges onto a captured PNG — the "set of marks" that turns a
+ * screenshot from something the model can only describe into something it can
+ * act on: every badge is an `inspect_ui` ref, so "the highlighted button" has a
+ * handle `click_element` accepts.
+ *
+ * `origin` is the captured element's own viewport rect; marks are translated
+ * into image space against it and dropped when they fall outside.
+ *
+ * Returns the original data URL untouched when there is nothing to draw or the
+ * canvas is unavailable — an un-annotated screenshot is still useful, so this
+ * never fails the capture.
+ */
+export async function annotatePngWithMarks(
+  dataUrl: string,
+  origin: { left: number; top: number; width: number; height: number },
+  marks: ElementMark[]
+): Promise<{ dataUrl: string; drawn: number }> {
+  if (!marks.length || typeof document === 'undefined') return { dataUrl, drawn: 0 }
+
+  try {
+    const img = await new Promise<HTMLImageElement>((resolve, reject) => {
+      const image = new Image()
+      image.onload = () => resolve(image)
+      image.onerror = () => reject(new Error('could not reload the capture for annotation'))
+      image.src = dataUrl
+    })
+
+    const canvas = document.createElement('canvas')
+    canvas.width = img.width
+    canvas.height = img.height
+    const ctx = canvas.getContext('2d')
+    if (!ctx) return { dataUrl, drawn: 0 }
+
+    ctx.drawImage(img, 0, 0)
+    // `captureElementPng` renders at pixelRatio 1 with the element's own box as
+    // the canvas size, but a capture whose target overflowed its rect can still
+    // come back a little different — scale rather than assume 1:1.
+    const scaleX = img.width / Math.max(1, origin.width)
+    const scaleY = img.height / Math.max(1, origin.height)
+
+    ctx.font = MARK_FONT
+    ctx.textBaseline = 'middle'
+    ctx.lineWidth = 1.5
+
+    const placed: Box[] = []
+    const canvasBox: Box = { x: 0, y: 0, w: canvas.width, h: canvas.height }
+    let drawn = 0
+
+    for (const mark of marks) {
+      const x = (mark.rect.left - origin.left) * scaleX
+      const y = (mark.rect.top - origin.top) * scaleY
+      const w = mark.rect.width * scaleX
+      const h = mark.rect.height * scaleY
+      if (x + w < 0 || y + h < 0 || x > canvas.width || y > canvas.height) continue
+
+      // Outline the element itself, so a badge pushed aside by a neighbour is
+      // still unambiguously attached to its control.
+      ctx.strokeStyle = MARK_COLOR
+      ctx.globalAlpha = 0.9
+      ctx.strokeRect(x + 0.5, y + 0.5, Math.max(1, w - 1), Math.max(1, h - 1))
+      ctx.globalAlpha = 1
+
+      const badgeWidth = Math.ceil(ctx.measureText(mark.label).width) + BADGE_PAD * 2
+      const box = placeBadge({ x, y, w: badgeWidth, h: BADGE_HEIGHT }, placed, canvasBox)
+      placed.push(box)
+
+      ctx.fillStyle = MARK_COLOR
+      ctx.fillRect(box.x, box.y, box.w, box.h)
+      ctx.fillStyle = MARK_TEXT_COLOR
+      ctx.fillText(mark.label, box.x + BADGE_PAD, box.y + BADGE_HEIGHT / 2)
+      drawn++
+    }
+
+    return { dataUrl: canvas.toDataURL('image/png'), drawn }
+  } catch (e) {
+    remixAILogger.warn('[domCapture] set-of-marks annotation failed, returning the plain capture:', describeCaptureError(e))
+    return { dataUrl, drawn: 0 }
+  }
+}

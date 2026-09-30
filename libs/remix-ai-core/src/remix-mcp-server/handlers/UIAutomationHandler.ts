@@ -4,7 +4,7 @@ import { RemixToolDefinition, ToolCategory } from '../types/mcpTools'
 import { BaseToolHandler } from '../registry/RemixToolRegistry'
 import { remixAILogger } from '../../helpers/logger'
 import { screenshotBuffer, screenshotMarker } from '../../inferencers/deepagent/visionBuffer'
-import { captureElementPng, defaultCaptureTarget } from '../../helpers/domCapture'
+import { captureElementPng, defaultCaptureTarget, annotatePngWithMarks, ElementMark } from '../../helpers/domCapture'
 import remixUiMap from '../context/remixUiMap.json'
 
 /**
@@ -346,7 +346,8 @@ export class InspectUIHandler extends BaseToolHandler {
       }
 
       const body = lines.map((l) => `${'  '.repeat(l.depth)}- ${l.text}`).join('\n')
-      const header = `UI snapshot (${lines.length} nodes, ${elementRefs.size} interactive refs)${truncated ? ' — TRUNCATED, narrow the scope with `selector`' : ''}:`
+      const header = `UI snapshot (${lines.length} nodes, ${elementRefs.size} interactive refs)${truncated ? ' — TRUNCATED, narrow the scope with `selector`' : ''}. ` +
+        'A capture_ui_screenshot taken now will badge these refs onto the image:'
       return this.createSuccessResult(`${header}\n${body}`)
     } catch (e: any) {
       remixAILogger.error('[inspect_ui] failed', e)
@@ -452,11 +453,55 @@ export class GetUIStateHandler extends BaseToolHandler {
 // capture_ui_screenshot
 // ---------------------------------------------------------------------------
 
-interface CaptureArgs { selector?: string; reason?: string }
+interface CaptureArgs { selector?: string; ref?: string; reason?: string; marks?: boolean }
+
+/**
+ * Badges past this point stop helping: the image turns into a wall of numbers
+ * and the boxes underneath become unreadable. The refs left unbadged are still
+ * in the `inspect_ui` snapshot, so nothing is lost — narrow the capture with
+ * `ref`/`selector` to badge a dense region.
+ */
+const MAX_MARKS = 60
+
+/** Below this an element is too small to carry a legible badge. */
+const MIN_MARK_EDGE = 8
+
+/**
+ * Collects the live `inspect_ui` refs that fall inside the captured region.
+ *
+ * Returned in ref order, so the numbering the model reads in the image runs in
+ * the same order as the snapshot it already has.
+ */
+function marksInRegion(origin: DOMRect): { marks: ElementMark[]; total: number } {
+  const marks: ElementMark[] = []
+  let total = 0
+
+  for (const [ref, el] of elementRefs) {
+    if (!el.isConnected) continue
+    const rect = el.getBoundingClientRect()
+    if (rect.width < MIN_MARK_EDGE || rect.height < MIN_MARK_EDGE) continue
+    // Intersection, not containment: a control clipped by the region's edge is
+    // still worth badging.
+    if (rect.right < origin.left || rect.bottom < origin.top) continue
+    if (rect.left > origin.right || rect.top > origin.bottom) continue
+
+    total++
+    if (marks.length >= MAX_MARKS) continue
+
+    marks.push({
+      // The badge is the ref without its `e` prefix — `e12` draws as `12` —
+      // so reading a number off the image is enough to call click_element.
+      label: ref.replace(/^e/, ''),
+      rect: { left: rect.left, top: rect.top, width: rect.width, height: rect.height }
+    })
+  }
+
+  return { marks, total }
+}
 
 export class CaptureUIScreenshotHandler extends BaseToolHandler {
   name = 'capture_ui_screenshot'
-  description = 'Render what is currently on screen in the Remix IDE to an image and attach it to the conversation so you can look at it. Use only when the visual appearance matters (layout, colours, a rendered DApp, a chart) — for structure and labels use inspect_ui instead, which is far cheaper. Cross-origin plugin iframes render blank and the code editor renders imperfectly.'
+  description = 'Render what is currently on screen in the Remix IDE to an image and attach it to the conversation so you can look at it. Use only when the visual appearance matters (layout, colours, a rendered DApp, a chart) — for structure and labels use inspect_ui instead, which is far cheaper. If you ran inspect_ui first, every interactive element is outlined and badged with its ref number, so you can act on what you see: the badge reading 12 is ref "e12" for click_element. Cross-origin plugin iframes render blank and the code editor renders imperfectly.'
   inputSchema = {
     type: 'object',
     properties: {
@@ -464,9 +509,17 @@ export class CaptureUIScreenshotHandler extends BaseToolHandler {
         type: 'string',
         description: 'Optional CSS selector to capture just one region (e.g. "#side-panel"). Defaults to the whole IDE window.'
       },
+      ref: {
+        type: 'string',
+        description: 'Optional element ref from the latest inspect_ui snapshot (e.g. "e12") to capture just that element. Use this instead of guessing a selector for something the snapshot already identified.'
+      },
       reason: {
         type: 'string',
         description: 'Short note on what you are trying to see. Shown to the user.'
+      },
+      marks: {
+        type: 'boolean',
+        description: 'Draw the numbered ref badges. Default true. Set false when the raw appearance is what matters — judging a DApp\'s design, reading a chart — and the overlay would get in the way.'
       }
     },
     required: []
@@ -479,17 +532,54 @@ export class CaptureUIScreenshotHandler extends BaseToolHandler {
     if (domError) return this.createErrorResult(domError)
 
     try {
-      const { root, error } = args?.selector ? resolveScope(args.selector) : { root: defaultCaptureTarget(), error: undefined }
-      if (error) return this.createErrorResult(error)
-      const target = root as HTMLElement
+      let target: HTMLElement
+      let label: string
 
-      const label = args?.selector || 'the Remix IDE'
-      const { dataUrl, width, height, degraded } = await captureElementPng(target)
+      if (args?.ref) {
+        const el = resolveRef(args.ref)
+        if (!el) return this.createErrorResult(`Unknown or stale ref "${args.ref}". ${STALE_REF_HINT}`)
+        target = el as HTMLElement
+        label = `${args.ref} (${describe(el, true)})`
+      } else {
+        const { root, error } = args?.selector ? resolveScope(args.selector) : { root: defaultCaptureTarget(), error: undefined }
+        if (error) return this.createErrorResult(error)
+        target = root as HTMLElement
+        label = args?.selector || 'the Remix IDE'
+      }
+
+      const origin = target.getBoundingClientRect()
+      const capture = await captureElementPng(target)
+      let { dataUrl } = capture
+      const { width, height, degraded } = capture
+
+      // Set of marks: the badges are the bridge between seeing and acting. The
+      // model can only draw on refs it already holds, so a capture taken before
+      // any inspect_ui simply comes back plain.
+      let drawn = 0
+      let skipped = 0
+      if (args?.marks !== false) {
+        const { marks, total } = marksInRegion(origin)
+        if (marks.length > 0) {
+          const annotated = await annotatePngWithMarks(dataUrl, origin, marks)
+          dataUrl = annotated.dataUrl
+          drawn = annotated.drawn
+          skipped = total - drawn
+        }
+      }
+
       const id = screenshotBuffer.put({ dataUrl, width, height, label, capturedAt: Date.now() })
+
+      const marksNote = drawn > 0
+        ? ` ${drawn} interactive element(s) are outlined and badged with their ref number — the badge reading 12 is ref "e12", which click_element and type_into_element accept. The badges are only valid until the next inspect_ui.` +
+          (skipped > 0 ? ` ${skipped} further ref(s) in view were left unbadged to keep the image readable — capture a narrower region with \`ref\` or \`selector\` to badge those.` : '')
+        : (args?.marks === false
+          ? ''
+          : ' No ref badges were drawn — run inspect_ui first if you need to act on what you see.')
 
       return this.createSuccessResult(
         `Screenshot of ${label} captured (${width}×${height}).` +
         (degraded ? ' Some images could not be inlined and render blank.' : '') +
+        marksNote +
         ` The image follows this message. ${screenshotMarker(id)}`
       )
     } catch (e: any) {
