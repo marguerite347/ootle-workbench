@@ -28,6 +28,7 @@ import { IndexedDBCheckpointSaver } from '../../storage/IndexedDBCheckpointSaver
 import type { DeepAgent } from 'deepagents'
 import { RemixDeepAgentMiddleware } from './deepAgentMiddleWare'
 import { RemixVisionMiddleware } from './visionMiddleware'
+import { screenshotBuffer } from './visionBuffer'
 
 import './AsyncLocalStorageInit'
 import { createModelInstance } from './ModelFactory'
@@ -134,11 +135,13 @@ export class DeepAgentInferencer implements ICompletions, IGeneration {
     const oldId = this.sessionThreadId
     this.sessionThreadId = DeepAgentInferencer.generateThreadId()
     remixAILogger.log('[DeepAgent-Thread] resetSessionThread:', this.sessionThreadId, '(was:', oldId, ')')
+    screenshotBuffer.setThread(this.sessionThreadId)
   }
 
   setSessionThreadId(threadId: string): void {
     remixAILogger.log('[DeepAgent-Thread] setSessionThreadId:', threadId, '(was:', this.sessionThreadId, ')')
     this.sessionThreadId = threadId
+    screenshotBuffer.setThread(threadId)
   }
 
   /**
@@ -185,6 +188,11 @@ export class DeepAgentInferencer implements ICompletions, IGeneration {
     this.event = new EventEmitter()
     this.fallbackInferencer = fallbackInferencer
     this.streamEventHandler = new StreamEventHandler(this.event, () => this.sessionThreadId)
+    // Tag captures with this instance's thread from the start, so a rebuilt
+    // inferencer (model switch, cancel → reinitialize) starts with an empty
+    // buffer: it gets a fresh thread id and its graph checkpoint is gone, so
+    // the markers those screenshots belonged to are gone with it.
+    screenshotBuffer.setThread(this.sessionThreadId)
 
     // The OpenRouter transport reports the model that actually served each
     // request — the only way to know what `auto` picked.

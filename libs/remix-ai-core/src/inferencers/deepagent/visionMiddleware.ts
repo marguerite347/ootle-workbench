@@ -3,22 +3,6 @@ import { AgentMiddleware, HumanMessage, ModelRequest, ToolMessage, WrapModelCall
 import { imageBlock } from '../../helpers/multimodal'
 import { screenshotBuffer, SCREENSHOT_MARKER_RE } from './visionBuffer'
 
-/**
- * Makes tool-captured screenshots actually visible to the model.
- *
- * `capture_ui_screenshot` can only return text — image parts are illegal inside
- * a tool message for every OpenAI-compatible provider, and OpenRouter carries
- * all of our hosted models. So the tool returns a summary containing a
- * `[remix-screenshot:<id>]` marker and parks the PNG in `screenshotBuffer`.
- *
- * Right before each model call this middleware walks the message list, and for
- * every tool message carrying a live marker it inserts a following user message
- * holding the image. That is an ordinary multimodal user turn, so it works the
- * same on OpenRouter, Bedrock and Ollama.
- *
- * Markers whose screenshot has been evicted from the buffer are stripped, which
- * is how older screenshots quietly fall out of context.
- */
 export class RemixVisionMiddleware implements AgentMiddleware {
   name = 'RemixVisionMiddleware'
 
@@ -49,7 +33,9 @@ export function attachBufferedScreenshots(request: ModelRequest): void {
   if (!Array.isArray(messages) || messages.length === 0) return
 
   const rebuilt: any[] = []
+  const attachedIds: string[] = []
   let attached = 0
+  let markersSeen = false
 
   for (const msg of messages) {
     if (!isToolMessage(msg)) {
@@ -64,20 +50,25 @@ export function attachBufferedScreenshots(request: ModelRequest): void {
       rebuilt.push(msg)
       continue
     }
+    markersSeen = true
 
     // The marker is bookkeeping, not something the model should reason about.
     // Strip it into a *copy* — mutating the original would remove the marker
     // from the graph's own state, so the image would reach the model exactly
     // once instead of staying visible until it falls out of the buffer.
+    const live = ids.filter((id) => !!screenshotBuffer.get(id))
     const stripped = text.replace(SCREENSHOT_MARKER_RE, '').replace(/\s{2,}/g, ' ').trim()
+    const decayNote = live.length === 0
+      ? ' (The image from this capture is no longer in context — call capture_ui_screenshot again if you need to look at it.)'
+      : ''
     rebuilt.push(new ToolMessage({
-      content: stripped,
+      content: stripped + decayNote,
       tool_call_id: (msg as any).tool_call_id,
       name: (msg as any).name,
       status: (msg as any).status
     }))
 
-    for (const id of ids) {
+    for (const id of live) {
       const shot = screenshotBuffer.get(id)
       if (!shot) continue
       rebuilt.push(new HumanMessage({
@@ -86,12 +77,17 @@ export function attachBufferedScreenshots(request: ModelRequest): void {
           { type: 'text', text: `Screenshot of ${shot.label} (${shot.width}×${shot.height}).` }
         ] as any
       }))
+      attachedIds.push(id)
       attached++
     }
   }
 
-  if (attached > 0) {
+  if (markersSeen) {
     request.messages = rebuilt
+  }
+  if (attached > 0) {
     remixAILogger.log('[RemixVisionMiddleware] attached', attached, 'screenshot(s) to the model request')
   }
+
+  if (attachedIds.length > 0) screenshotBuffer.tick(attachedIds)
 }
