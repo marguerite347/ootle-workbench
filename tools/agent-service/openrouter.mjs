@@ -46,7 +46,8 @@ export class OpenRouter {
     const pending = await this.store.transaction(async () => {
       await this.store.lock('openrouter-pending', hash(state))
       const p = await this.store.get('openrouter-pending', hash(state))
-      if (!p || p.owner !== owner || p.binding !== binding) throw new Problem(400, 'OpenRouter authorization belongs to another session or has expired.')
+      if (!p) throw new Problem(400, 'This connection attempt expired after 10 minutes or was already used. Return to Connected agents, click Connect OpenRouter, and authorize the new request. Your Workbench files are safe.')
+      if (p.owner !== owner || p.binding !== binding) throw new Problem(400, 'OpenRouter authorization belongs to another session. Return to Connected agents and start a new connection in this browser.')
       await this.store.delete('openrouter-pending', hash(state))
       return p
     })
