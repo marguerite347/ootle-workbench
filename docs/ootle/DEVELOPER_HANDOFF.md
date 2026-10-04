@@ -33,6 +33,12 @@ Copy the temporary token printed in **your** terminal into Tari tools → Connec
 
 The companion only listens on `127.0.0.1`; default allowed origins are `http://127.0.0.1:8080` and `http://localhost:8080`. For another IDE origin, pass its exact origin using `--origins https://your-ide.example`. No wildcard. Browser local-network permissions and mixed-content policies can prevent a hosted page reaching a local service; use the localhost IDE in that case.
 
+For the public Ootle Workbench deployment, explicitly allow that origin:
+
+```sh
+node tools/tari-companion/server.mjs --allow-run --origins https://ootle-workbench.vercel.app
+```
+
 **Trusted local development only.** Rust build scripts and tests execute as your OS user. Authentication, path checks and limits are not a sandbox. Never expose this runner publicly or use it for untrusted community submissions. It strips unrelated environment variables but does not provide filesystem/network isolation. Run failures stay failures. Artifacts/cache live in `.ootle-companion/`; stop the server before deleting that directory to reclaim disk space. Requests are serialized and time out after 20 minutes.
 
 The browser currently sends Cargo.toml, Cargo.lock, Rust and TOML files. Templates that need other build inputs must use the CLI until a reviewed input manifest is implemented. The runner requires a root Cargo.lock; it does not generate one silently.
