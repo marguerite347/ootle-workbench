@@ -48,3 +48,6 @@ See the developer handoff for locations and completion criteria. The preview mus
 - Production IDE build passed with 26 inherited warnings; four existing local-companion regression tests passed.
 
 - Backend source revision `9bb73e6` deployed to https://ootle-workbench-agents.vercel.app (deployment `dpl_4hVSx6X7MRNQXk2J89PaCUKGZwSQ`). Live health confirms builds configured and GitHub login not configured; OAuth metadata advertises exactly the supported public-client auth method and read/edit/build scopes. No live login success is claimed.
+
+- Production IDE revision `9bb73e65d3ba71ca6bb3e8f6ebc5a80920bea9ed` deployed to https://ootle-workbench.vercel.app (`dpl_39eC6EunpNMHDe5d81uQm47gp1CF`). Chrome confirmed the cloud-build entry, configured Agents panel and popup into the correct service. Public build receipt matches the commit.
+- Native Codex CLI 0.160.0 initiated real DCR and PKCE against the local fixture, discovered scopes and displayed project-specific consent. Chrome blocked consent navigation with ERR_BLOCKED_BY_CLIENT; token exchange was not completed, so native-client authorization remains unverified. The consent CSP now permits the exact registered callback origin, with a regression assertion; this does not establish that the browser block is resolved. No browser protection was disabled.

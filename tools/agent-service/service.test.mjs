@@ -39,6 +39,7 @@ async function fixture(t, options = {}) {
     const consentPath = start.headers.get('location')
     const consent = await request(consentPath, { user })
     assert.equal(consent.status, 200)
+    assert.ok(consent.headers.get('content-security-policy').includes(`form-action 'self' ${new URL(client.redirect_uris[0]).origin}`))
     const pending = new URL(consentPath, origin).searchParams.get('request')
     const approved = await request('/consent', { user, method: 'POST', form: { request: pending, csrf: user.csrf, decision: 'allow', project: projectId, ...(write ? { write: 'yes' } : {}), ...(build ? { build: 'yes' } : {}) } })
     if (approved.status !== 302) return { approved, client, pending, verifier }
