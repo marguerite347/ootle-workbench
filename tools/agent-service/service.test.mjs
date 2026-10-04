@@ -43,7 +43,8 @@ async function fixture(t, options = {}) {
     assert.ok(consent.headers.get('content-security-policy').includes(`form-action 'self' ${new URL(client.redirect_uris[0]).origin}`))
     const pending = new URL(consentPath, origin).searchParams.get('request')
     const approved = await request('/consent', { user, method: 'POST', form: { request: pending, csrf: user.csrf, decision: 'allow', project: projectId, ...(write ? { write: 'yes' } : {}), ...(build ? { build: 'yes' } : {}) } })
-    if (approved.status !== 302) return { approved, client, pending, verifier }
+    if (approved.status >= 400) return { approved, client, pending, verifier }
+    assert.equal(approved.status, 303, 'consent must change POST to GET at the client callback')
     const callback = new URL(approved.headers.get('location'))
     assert.equal(callback.searchParams.get('state'), 'test-state')
     const code = callback.searchParams.get('code')

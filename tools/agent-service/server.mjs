@@ -161,7 +161,9 @@ export function createService({ store, origin, ideOrigins, githubClientId, githu
       return redirect
     })
     res.set('Content-Security-Policy', res.get('Content-Security-Policy').replace("form-action 'self'", `form-action 'self' ${redirect.origin}`))
-    res.redirect(redirect.href)
+    // Consent is a POST. Explicitly switch to GET at the callback: the hosting
+    // response helper defaults to 307, which would forward the form body.
+    res.redirect(303, redirect.href)
   })
   const authOptions = { provider: oauth, issuerUrl: base, resourceServerUrl: new URL(`${origin}/mcp`), scopesSupported: SCOPES, resourceName: 'Ootle Workbench' }
   const metadata = createOAuthMetadata(authOptions)
