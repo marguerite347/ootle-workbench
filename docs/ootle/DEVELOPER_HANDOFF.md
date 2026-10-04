@@ -10,10 +10,15 @@ Use Node 24.3.0 and Yarn 1.22.22 (upstream `.nvmrc`).
 yarn install --frozen-lockfile --ignore-engines
 NX_NO_CLOUD=true NX_DAEMON=false yarn build:libs
 yarn build:production
+node tools/package-web.mjs
 python3 -m http.server 8080 --bind 127.0.0.1 --directory dist/apps/remix-ide
 ```
 
-Open `http://127.0.0.1:8080`. The static build can be self-hosted. Hosting the IDE does **not** automatically supply Cargo workers, wallets, AI providers, user authentication, app hosting or a publication database.
+Open `http://127.0.0.1:8080`. `vercel.json` supplies the same install/build/output settings for a source deployment. `tools/package-web.mjs` includes the upstream license and committed revision in the static output. The static build can be self-hosted. Hosting the IDE does **not** automatically supply Cargo workers, wallets, AI providers, user authentication, app hosting or a publication database.
+
+## Workspace recovery
+
+The former Lobby editor is no longer the Workbench entry. Visit `https://ootle-lobby-preview.vercel.app/workbench-backup` in the browser where the old files were saved. Download its JSON backup, then choose **Import earlier Workbench backup** on the new home screen. Imports validate paths and create new workspaces; original browser storage is not deleted. This is file migration, not cross-device cloud sync.
 
 ## Real local compilation and tests
 
