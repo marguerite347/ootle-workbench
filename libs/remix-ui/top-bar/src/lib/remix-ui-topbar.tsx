@@ -1095,7 +1095,7 @@ export function RemixUiTopbar() {
             )}
           </div>
           {showJoinBetaTopButton && <BetaPromoPill plugin={plugin} />}
-          <a className="btn btn-sm btn-outline-secondary ms-2" href="https://ootle-lobby-preview.vercel.app/">Back to Lobby</a>
+          <a className="btn btn-sm btn-outline-secondary ms-2" style={{ color: 'var(--text)' }} href="https://ootle-lobby-preview.vercel.app/">Back to Lobby</a>
           {false && showNotificationBell && <NotificationBell className="ms-3" />}
           {supportEnabled && isAuthenticated && token && (
             <CustomTooltip placement="bottom" tooltipText="Premium Support">
@@ -1141,7 +1141,7 @@ export function RemixUiTopbar() {
           >
             <i className="fa fa-cog"></i>
           </span>
-          <button className="btn btn-sm btn-outline-secondary ms-3" onClick={async () => {
+          <button className="btn btn-sm btn-outline-secondary ms-3" style={{ color: 'var(--text)' }} onClick={async () => {
             await plugin.call('manager', 'activatePlugin', 'tari')
             await plugin.call('tari', 'open', 'assistant')
           }}>Tari AI</button>
