@@ -1095,7 +1095,10 @@ export function RemixUiTopbar() {
             )}
           </div>
           {showJoinBetaTopButton && <BetaPromoPill plugin={plugin} />}
-          <a className="btn btn-sm btn-outline-secondary ms-2" style={{ color: 'var(--text)' }} href="https://ootle-lobby-preview.vercel.app/">Back to Lobby</a>
+          <a className="btn btn-sm btn-outline-secondary ms-2" style={{ color: 'var(--text)' }} href="https://ootle-lobby-preview.vercel.app/" target="_blank" rel="noopener noreferrer" title="Open Lobby in a new tab">Back to Lobby</a>
+          <a className="ms-3 topbar-icon-btn" style={{ color: 'var(--text)' }} href="https://github.com/marguerite347/ootle-workbench" target="_blank" rel="noopener noreferrer" aria-label="Ootle Workbench on GitHub" title="Ootle Workbench on GitHub" data-id="topbar-github-link">
+            <i className="fab fa-github" aria-hidden="true"></i>
+          </a>
           {false && showNotificationBell && <NotificationBell className="ms-3" />}
           {supportEnabled && isAuthenticated && token && (
             <CustomTooltip placement="bottom" tooltipText="Premium Support">

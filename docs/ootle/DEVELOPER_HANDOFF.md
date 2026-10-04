@@ -16,10 +16,6 @@ python3 -m http.server 8080 --bind 127.0.0.1 --directory dist/apps/remix-ide
 
 Open `http://127.0.0.1:8080`. `vercel.json` supplies the same install/build/output settings for a source deployment. `tools/package-web.mjs` includes the upstream license and committed revision in the static output. The static build can be self-hosted. Hosting the IDE does **not** automatically supply Cargo workers, wallets, AI providers, user authentication, app hosting or a publication database.
 
-## Workspace recovery
-
-The former Lobby editor is no longer the Workbench entry. Visit `https://ootle-lobby-preview.vercel.app/workbench-backup` in the browser where the old files were saved. Download its JSON backup, then choose **Import earlier Workbench backup** on the new home screen. Imports validate paths and create new workspaces; original browser storage is not deleted. This is file migration, not cross-device cloud sync.
-
 ## Real local compilation and tests
 
 Install a Rust toolchain compatible with edition 2024 and the WASM target. The checked-in Counter pins `tari_template_lib = 0.32.0`, `tari_template_test_tooling = 0.41.0` and its Cargo.lock. It is deliberately not silently upgraded to the latest moving SDK.
@@ -64,12 +60,14 @@ Search source for `DEV_REQUIRED[` to find active adapter boundaries. The table a
 | TEMPLATE-REGISTRY | `libs/remix-ws-templates/src/templates/tariCounter/` | More pinned official templates, dependencies/licensing/provenance, version compatibility and engine tests | Each offered runnable starter builds and tests from a clean checkout; do not relabel ERC examples as Tari |
 | GIT-SHARED | upstream file panel/dgit/auth | Verify clone/import/remix, OAuth installation for this fork, branch/commit/push/PR identity and error handling | Round-trip a user-owned test repo; do not assume upstream Remix cloud credentials work in the fork |
 | APP-HOSTING | upstream QuickDApp/frontends | Tari wallet frontend SDK binding, preview isolation, frontend build worker, hosting provider integration | Real deployed app uses the recorded network/component and has a working public URL |
-| WORKSPACE-SYNC | upstream filesystem/cloud | Authenticated cross-device persistence, export/import migration from the previous Lobby editor, conflict resolution, backups | Reload and second-device recovery with no data loss; browser-local saves remain accurately labeled |
+| WORKSPACE-SYNC | upstream filesystem/cloud | Authenticated cross-device persistence, conflict resolution, backups | Reload and second-device recovery with no data loss; browser-local saves remain accurately labeled |
 | FORK-SERVICES | app bootstrap / upstream providers | Audit upstream auth, billing, telemetry, notifications, AI and plugin-registry dependencies; replace/configure per fork | No upstream account/billing is described as an Ootle service; documented service ownership and configuration |
 
 Deployment and public submissions are separate operations. Publishing a WASM template does not instantiate every component. A locally exported submission draft does not enter a contest, create a GitHub repo, post on a forum or host an app.
 
 ## Selection receipt
+
+- 2026-10-04 correction: the earlier Lobby editor was a non-working prototype with no user-created projects. Removed its migration controls and importer. Reuse the existing Remix file import/export workflow for current workspaces; no replacement migration pipeline is needed.
 
 - Reuse: Remix v2.6.5 editor, plugin engine, workspace/files, Git and export infrastructure; matches the supplied reference and avoids another imitation.
 - Reuse: existing Lobby Counter and its pinned lockfile/engine tests from `marguerite347/ootle-lobby-community` revision `d44f4aa`, based on the Tari development skill example. Source model/reference: Tari Ootle revision `ebca9f42a1570261a6434ee79ea4cd52f3d61fcc`.
