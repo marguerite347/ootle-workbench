@@ -12,19 +12,21 @@ import { z } from 'zod'
 import { Store, Problem, random, hash, now } from './store.mjs'
 import { provider, SCOPES } from './oauth.mjs'
 import { Jobs } from './jobs.mjs'
+import { OpenRouter } from './openrouter.mjs'
 import { sandboxDriver } from './sandbox-driver.mjs'
 const directory = dirname(fileURLToPath(import.meta.url))
 const escape = (value) => String(value).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c])
 const page = (title, body) => `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} · Ootle</title><link rel="stylesheet" href="/service.css"><main><a class="brand" href="/connect">ootle <span>connected agents</span></a><h1>${escape(title)}</h1>${body}</main></html>`
 const digest = (value) => createHash('sha256').update(value).digest('base64url')
 
-export function createService({ store, origin, ideOrigins, githubClientId, githubClientSecret, githubFetch = fetch, allowedLogins = [], proxyHops = 0, buildDriver = sandboxDriver(process.env.BUILD_SNAPSHOT_ID) }) {
+export function createService({ store, origin, ideOrigins, githubClientId, githubClientSecret, githubFetch = fetch, openrouterFetch = fetch, providerEncryptionKey = process.env.PROVIDER_ENCRYPTION_KEY, allowedLogins = [], proxyHops = 0, buildDriver = sandboxDriver(process.env.BUILD_SNAPSHOT_ID) }) {
   const base = new URL(origin)
   if (base.origin !== origin || (base.protocol !== 'https:' && !['127.0.0.1', 'localhost'].includes(base.hostname))) throw new Error('PUBLIC_URL must be an HTTPS origin (HTTP loopback only for development).')
   const app = express(),
     oauth = provider(store, origin),
     secure = base.protocol === 'https:'
   const jobs = new Jobs(store, buildDriver)
+  const openrouter = new OpenRouter(store, origin, providerEncryptionKey, openrouterFetch)
   const cookieName = secure ? '__Host-ootle_session' : 'ootle_session'
   const cookieOptions = { httpOnly: true, secure, sameSite: 'lax', path: '/', maxAge: 8 * 3600 * 1000 }
   if (proxyHops) app.set('trust proxy', proxyHops)
@@ -94,10 +96,23 @@ export function createService({ store, origin, ideOrigins, githubClientId, githu
     res.send(
       page(
         'Connected agents',
-        '<p id="identity"></p><div id="status" role="status" aria-live="polite"></div><section id="incoming" hidden><h2>Share this workspace</h2><p id="incoming-summary"></p><p>These text files will be stored in your Workbench account. Only agents you authorize can access them. Review your code for embedded secrets before sharing.</p><details><summary>Files to share</summary><ul id="file-list"></ul></details><button id="share">Share workspace</button></section><section><h2>Your shared workspaces</h2><div id="projects"></div></section><section><h2>Builds and tests</h2><p>Results use the shared version at start. Review and upload your latest local changes first. Pilot: one active job and six jobs per day per account; 20 minutes per job. Results are retained for seven days.</p><div id="jobs"></div></section><section><h2>Connect an agent</h2><p>In your agent, add this remote MCP server. Its authorization page will let you select one project and approve read, edit or build access.</p><label>Agent<select id="agent"><option>Claude Cowork</option><option>Codex</option><option>Other MCP client</option></select></label><p id="instructions"></p><label>MCP server URL<input id="endpoint" readonly></label><button id="copy">Copy connection details</button><pre id="config"></pre><p class="muted">Compatibility is based on MCP. Provider-specific acceptance must be tested in each client. Build access is optional and requires separate consent. Deployments and wallet actions are unavailable.</p></section><section><h2>Authorized connections</h2><div id="connections"></div></section><section><h2>Recent activity</h2><ul id="activity"></ul></section><button id="logout">Sign out</button><script src="/dashboard.js" defer></script>',
+        '<p id="identity"></p><div id="status" role="status" aria-live="polite"></div><section id="incoming" hidden><h2>Share this workspace</h2><p id="incoming-summary"></p><p>These text files will be stored in your Workbench account. Only agents you authorize can access them. Review your code for embedded secrets before sharing.</p><details><summary>Files to share</summary><ul id="file-list"></ul></details><button id="share">Share workspace</button></section><section><h2>Your shared workspaces</h2><div id="projects"></div></section><section><h2>Builds and tests</h2><p>Results use the shared version at start. Review and upload your latest local changes first. Pilot: one active job and six jobs per day per account; 20 minutes per job. Results are retained for seven days.</p><div id="jobs"></div></section><section><h2>Connect an agent</h2><p>In your agent, add this remote MCP server. Its authorization page will let you select one project and approve read, edit or build access.</p><label>Agent<select id="agent"><option>Claude Cowork</option><option>Codex</option><option>Cursor</option><option>Other MCP client</option></select></label><p id="instructions"></p><a id="cursor-install" class="button" hidden>Add to Cursor</a><label>MCP server URL<input id="endpoint" readonly></label><button id="copy">Copy connection details</button><pre id="config"></pre><p class="muted">Compatibility is based on MCP. Provider-specific acceptance must be tested in each client. Build access is optional and requires separate consent. Deployments and wallet actions are unavailable.</p></section><section id="model-connection"><h2>OpenRouter chat</h2><p>Ask a model about selected files in a shared workspace. Each request sends only your question and checked files to OpenRouter and its model provider. Replies do not change files or run tools.</p><div id="model-account"></div><div id="model-chat" hidden><label>Workspace<select id="model-project"></select></label><label>Free model<select id="model-choice"></select></label><p class="muted">Free models only; paid routing is blocked. Pilot: 20 requests per UTC day. Each question is independent. The latest 20 replies are saved for 30 days.</p><details><summary>Choose files to include (none by default)</summary><div id="model-files"></div></details><label>Question<textarea id="model-prompt" rows="4" maxlength="4000"></textarea></label><button id="model-send">Send question</button><div id="model-status" role="status" aria-live="polite"></div><div id="model-replies"></div></div></section><section><h2>Authorized connections</h2><div id="connections"></div></section><section><h2>Recent activity</h2><ul id="activity"></ul></section><button id="logout">Sign out</button><script src="/dashboard.js" defer></script>',
       ),
     )
   })
+  app.get('/api/openrouter', signedIn, async (req, res) => res.json(await openrouter.status(req.session.user.id)))
+  app.post('/api/openrouter/connect', signedIn, csrf, async (req, res) => res.json({ url: await openrouter.begin(req.session.user.id, hash(req.session.csrf)) }))
+  app.get('/openrouter/callback', signedIn, async (req, res) => {
+    await openrouter.finish(req.session.user.id, hash(req.session.csrf), req.query.state, req.query.code)
+    res.redirect(303, '/connect')
+  })
+  app.post('/api/openrouter/disconnect', signedIn, csrf, async (req, res) => {
+    await openrouter.disconnect(req.session.user.id)
+    res.json({ ok: true })
+  })
+  app.get('/api/openrouter/models', signedIn, async (_req, res) => res.json(await openrouter.models()))
+  app.get('/api/projects/:id/chat', signedIn, async (req, res) => res.json(await openrouter.history(req.session.user.id, req.params.id)))
+  app.post('/api/projects/:id/chat', signedIn, csrf, async (req, res) => res.json(await openrouter.chat(req.session.user.id, req.params.id, req.body)))
   app.get('/api/me', signedIn, async (req, res) => res.json({ user: req.session.user, csrf: req.session.csrf, ideOrigins, endpoint: `${origin}/mcp`, projects: await store.projects(req.session.user.id), connections: await store.grants(req.session.user.id), activity: await store.activity(req.session.user.id), buildsConfigured: jobs.configured }))
   app.post('/api/projects', signedIn, csrf, async (req, res) => res.status(201).json(await store.createProject(req.session.user.id, req.body.name, req.body.files)))
   app.get('/api/projects/:id', signedIn, async (req, res) => res.json(await store.project(req.params.id, req.session.user.id)))

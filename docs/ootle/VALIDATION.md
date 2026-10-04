@@ -59,3 +59,14 @@ See the developer handoff for locations and completion criteria. The preview mus
 - Native Codex CLI 0.160.0 completed DCR, S256 PKCE, consent API exchange and local credential persistence against the explicitly labeled LOCAL ACCEPTANCE FIXTURE. The harness submitted consent through the fixture HTTP API and supplied the returned callback to the CLI's documented no-browser flow; it did not complete Chrome consent or real GitHub sign-in. Hidden terminal input requires a carriage-return Enter key. The fixture CLI credential was removed afterward.
 - Chrome still reports ERR_BLOCKED_BY_CLIENT when submitting the local consent form. No browser security protection was disabled. Production browser/native acceptance remains pending.
 - Latest backend deployment from a545c10: dpl_3Qw4wwTUteVdLNns6P1JUsZ2pNiJ. Post-deploy health reports buildsConfigured=true, loginConfigured=false.
+
+## Production acceptance after OAuth fixes — 2026-10-04
+Supersedes the earlier pending GitHub/Codex/Cowork checkpoints above.
+- Real GitHub sign-in succeeded as marguerite347. Fresh real editor workspace Tari_Counter_muu7drsj was shared as project 57c287b3-3b2a-446f-992f-90697067a47d.
+- Native Codex CLI 0.160.0 completed OAuth against production, read src/lib.rs, created AGENT_ACCEPTANCE.md with optimistic version 1 -> 2, and read it back. The real model called the service, not a fixture.
+- Codex initiated cloud test job 0606783d-efe0-4fd0-a052-d43352d0841e, succeeded exit 0. The editor reviewed and applied the added file using Remix's file permission flow; unchanged local files were preserved.
+- Production dashboard compiled shared version 2: job ac09f61c-2952-4450-b857-031419655862, exit 0, source digest ec61884e9fcd7498f793ab82a65ad811a53cb33f75e96cf2b05a179fc249e7f4. Download event completed; WASM 107595 bytes, SHA-256 a8141b0df0e861ff1c3d339243130bac442eff4c7a9f32f54daaede04e86a594.
+- Native Claude Cowork connected after preserving same-origin Referrer-Policy and explicitly returning HTTP 303 from consent. Production logs showed the previous implicit redirect used 307, forwarding POST to Claude's GET-only callback. Strict Origin/CSRF validation remains enabled.
+- Cowork listed projects, read Counter, wrote CLAUDE_ACCEPTANCE.md, and read it back. Independent database read confirms shared version 3 and the genuine Counter description.
+- Twelve backend tests pass, including new OpenRouter PKCE/session/replay/encryption, ownership/CSRF, selected-file context, free-price enforcement, quota and provider failure coverage. Provider responses in unit tests are fixtures.
+- Cursor detected the real MCP server and reached the existing consent screen. Final approval is pending. OpenRouter public models API trial returned 18 free text models; actual authorization/answer remains pending.

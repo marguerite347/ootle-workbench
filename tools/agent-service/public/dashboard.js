@@ -97,6 +97,7 @@ async function refresh() {
       $('status').textContent = 'Disconnected. This agent can no longer access the project.'
     })
   }
+  await refreshModelConnection()
   await refreshJobs()
   for (const event of account.activity) node('li', `${event.agent}: ${event.action} · ${new Date(event.at * 1000).toLocaleString()}`, $('activity'))
 }
@@ -155,13 +156,18 @@ setInterval(() => {
 }, 5000)
 function instructions() {
   const codex = $('agent').value === 'Codex',
-    claude = $('agent').value === 'Claude Cowork'
+    claude = $('agent').value === 'Claude Cowork',
+    cursor = $('agent').value === 'Cursor'
   $('instructions').textContent = claude
     ? 'In Claude, open Customize → Connectors → Add custom connector. Paste the URL below, then authorize your chosen Ootle project. If prompted for OAuth client settings, choose automatic registration.'
     : codex
       ? 'In Codex MCP settings, add this HTTP server and authenticate. For the CLI, run the commands below.'
-      : 'Add a Streamable HTTP MCP server with OAuth authorization and automatic client registration. Request workspace:read and optionally workspace:write and workspace:build.'
-  $('config').textContent = codex ? `codex mcp add ootle-workbench --url ${account.endpoint}\ncodex mcp login ootle-workbench` : account.endpoint
+      : cursor
+        ? 'Click Add to Cursor, confirm the server, then connect it in Cursor Settings → Tools & MCP. Authorize your selected project. You can also copy the mcp.json configuration below.'
+        : 'Add a Streamable HTTP MCP server with OAuth authorization and automatic client registration. Request workspace:read and optionally workspace:write and workspace:build.'
+  $('config').textContent = codex ? `codex mcp add ootle-workbench --url ${account.endpoint}\ncodex mcp login ootle-workbench` : cursor ? JSON.stringify({ mcpServers: { 'ootle-workbench': { url: account.endpoint } } }, null, 2) : account.endpoint
+  $('cursor-install').hidden = !cursor
+  $('cursor-install').href = 'cursor://anysphere.cursor-deeplink/mcp/install?' + new URLSearchParams({ name: 'ootle-workbench', config: btoa(JSON.stringify({ url: account.endpoint })) })
 }
 $('agent').onchange = instructions
 $('copy').onclick = () =>
@@ -200,3 +206,91 @@ task(async () => {
   await refresh()
   if (window.opener) for (const origin of account.ideOrigins) window.opener.postMessage({ type: 'ootle:ready' }, origin)
 })
+
+let modelProject
+async function refreshModelConnection() {
+  const status = await api('/api/openrouter'),
+    root = $('model-account')
+  root.replaceChildren()
+  $('model-chat').hidden = !status.connected
+  if (!status.configured) {
+    node('p', 'OpenRouter setup is not complete.', root)
+    return
+  }
+  if (!status.connected) {
+    button('Connect OpenRouter', root, async () => {
+      const result = await api('/api/openrouter/connect', 'POST', {})
+      location.assign(result.url)
+    })
+    return
+  }
+  node('p', `Connected until ${new Date(status.expires * 1000).toLocaleDateString()}.`, root)
+  const settings = node('a', 'Manage or revoke key in OpenRouter', root)
+  settings.href = status.settingsUrl
+  settings.target = '_blank'
+  settings.rel = 'noopener noreferrer'
+  button('Disconnect OpenRouter', root, async () => {
+    await api('/api/openrouter/disconnect', 'POST', {})
+    await refreshModelConnection()
+    $('status').textContent = 'OpenRouter credential removed from Workbench. Revoke the key in OpenRouter settings if you also want it invalidated there.'
+  })
+  const selected = $('model-project').value
+  $('model-project').replaceChildren()
+  for (const p of account.projects) {
+    const option = node('option', p.name, $('model-project'))
+    option.value = p.id
+  }
+  if (account.projects.some((p) => p.id === selected)) $('model-project').value = selected
+  try {
+    const models = await api('/api/openrouter/models')
+    $('model-choice').replaceChildren()
+    for (const m of models) {
+      const option = node('option', m.name, $('model-choice'))
+      option.value = m.id
+    }
+    if (models.some((m) => m.id === 'openrouter/free')) $('model-choice').value = 'openrouter/free'
+    if (!models.length) $('model-status').textContent = 'No free models are available right now.'
+    await loadModelProject()
+  } catch (e) {
+    $('model-status').textContent = e.message
+  }
+}
+async function loadModelProject() {
+  $('model-files').replaceChildren()
+  $('model-replies').replaceChildren()
+  modelProject = null
+  if (!$('model-project').value) {
+    $('model-status').textContent = 'Share a workspace first.'
+    return
+  }
+  modelProject = await api(`/api/projects/${$('model-project').value}`)
+  for (const path of Object.keys(modelProject.files)) {
+    const label = node('label', '', $('model-files'), 'check'),
+      input = document.createElement('input')
+    input.type = 'checkbox'
+    input.value = path
+    label.append(input)
+    label.append(document.createTextNode(path))
+  }
+  for (const reply of await api(`/api/projects/${modelProject.id}/chat`)) renderReply(reply)
+}
+function renderReply(reply) {
+  const row = node('div', '', $('model-replies'), 'row')
+  node('p', `${reply.model} · shared version ${reply.version} · ${reply.paths.length} files`, row, 'muted')
+  node('strong', reply.question, row)
+  node('pre', reply.answer, row)
+}
+$('model-project').onchange = () => task(loadModelProject)
+$('model-send').onclick = () =>
+  task(async () => {
+    if (!modelProject) throw new Error('Choose a shared workspace first.')
+    $('model-status').textContent = 'Waiting for the model…'
+    try {
+      const reply = await api(`/api/projects/${modelProject.id}/chat`, 'POST', { version: modelProject.version, model: $('model-choice').value, prompt: $('model-prompt').value, paths: [...$('model-files').querySelectorAll('input:checked')].map((input) => input.value) })
+      renderReply(reply)
+      $('model-prompt').value = ''
+      $('model-status').textContent = 'Reply received. Your files are unchanged.'
+    } catch (e) {
+      $('model-status').textContent = e.message
+    }
+  })
