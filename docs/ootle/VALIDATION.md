@@ -9,7 +9,6 @@
 - Four companion protocol test cases passed: path/bounds/lockfile validation, exact origin/authentication, trusted-action gating, failure truthfulness, request serialization and artifact checks. Their injected runner is a **unit fixture**, not a real build.
 - [Linux validation run](https://github.com/marguerite347/ootle-workbench/actions/runs/37220525489): Tari job passed its locked engine tests and release WASM compilation on Rust 1.95.0. The compiled artifact was downloaded from the run. This validates the pinned starter; it is not a live-network deployment.
 
-- Earlier-editor backup import was exercised in Chrome: a fixture workspace appeared in the native file explorer and its Rust source preserved the expected value. Editing that value from 42 to 43 survived reopening the workspace in a fresh tab. The importer validates paths and creates new workspace names.
 - Bundled Counter file map matches every tested Cargo/Rust source file.
 - Downloaded Linux Counter artifact: 107,667 bytes; SHA-256 `f90dc3ddf6e392caca94af47ca510735018190f0e65a072ed8a1cc657ab27a37`; WebAssembly validation passed.
 - [Real companion smoke test](https://github.com/marguerite347/ootle-workbench/actions/runs/37221046410) passed in Linux CI: an authenticated HTTP request ran Cargo, returned WASM bytes, and passed checksum/size/WebAssembly validation.
