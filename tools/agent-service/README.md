@@ -49,7 +49,7 @@ Default limits: 20 projects/account, 50 active grants/account, 300 text files an
 
 ## Acceptance status
 
-See `docs/ootle/VALIDATION.md` for observed results. Passing SDK protocol tests does not certify every Codex or Cowork release. Native-client login acceptance and the production GitHub callback require a real OAuth app; keep them pending until exercised. Hosted builds require `BUILD_SNAPSHOT_ID` and the Vercel project OIDC identity. Deployment and wallet permissions remain unavailable.
+See `docs/ootle/VALIDATION.md` for observed results. Passing SDK protocol tests does not certify every Codex or Cowork release. GitHub OAuth app 3904623 is registered; its production client secret still requires account verification and credential setup. Native Codex token exchange passed with the local fixture using the no-browser callback flow. Production browser consent, GitHub callback and native-client acceptance remain pending until exercised. Hosted builds require `BUILD_SNAPSHOT_ID` and the Vercel project OIDC identity. Deployment and wallet permissions remain unavailable.
 
 ## Hosted compile/test operations
 Run `node --env-file=.env.local bootstrap-sandbox.mjs` from this directory after linking the dedicated Vercel project and pulling its OIDC development token. This operator-only command creates a clean Linux VM, installs pinned Rust 1.95.0, passes the Counter tests and build, removes the baseline source and saves a reusable toolchain/dependency snapshot. Set its returned `BUILD_SNAPSHOT_ID` on the service. Never bootstrap from user files. The production SDK uses Vercel's automatic OIDC identity; no Vercel token is passed to a build VM.
