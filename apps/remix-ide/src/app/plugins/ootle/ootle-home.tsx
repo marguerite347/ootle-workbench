@@ -51,7 +51,8 @@ export function OotleHome({ plugin }: { plugin: any }) {
     <h2>Develop</h2>
     <div className="ootle-home-grid">
       <button onClick={() => tools('build')}><b>Compile & test</b><span>Run Cargo through your local companion</span></button>
-      <button onClick={() => tools('assistant')}><b>Tari assistant</b><span>Connect a local Ollama model; review suggested changes</span></button>
+      <button onClick={() => tools('agents')}><b>Connect your agent</b><span>Codex, Claude Cowork and other MCP agents</span></button>
+      <button onClick={() => tools('assistant')}><b>Local assistant</b><span>Use an installed Ollama model through your companion</span></button>
       <button onClick={() => tools('deploy')}><b>Deploy a template</b><span>Download WASM and follow the official Tari guide</span></button>
       <button onClick={() => tools('publish')}><b>Share your project</b><span>Prepare an October or Community submission</span></button>
     </div>

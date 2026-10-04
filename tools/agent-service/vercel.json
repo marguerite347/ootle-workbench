@@ -1,0 +1,1 @@
+{"version":2,"builds":[{"src":"api.mjs","use":"@vercel/node","config":{"includeFiles":["public/**","certs/**"]}}],"routes":[{"src":"/(.*)","dest":"/api.mjs"}]}

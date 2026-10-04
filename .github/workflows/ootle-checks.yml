@@ -24,6 +24,8 @@ jobs:
         env:
           PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
           PUPPETEER_SKIP_DOWNLOAD: 'true'
+      - run: npm ci --prefix tools/agent-service --ignore-scripts
+      - run: npm test --prefix tools/agent-service
       - run: node --test tools/tari-companion/server.test.mjs
       - run: yarn build:libs
         env:

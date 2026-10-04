@@ -23,3 +23,13 @@
 - Rust highlighting is implemented; Rust language-server completion, formatting and debugging are not.
 
 See the developer handoff for locations and completion criteria. The preview must not be advertised as a fully operational hosted Tari IDE.
+
+## Connected agents — implementation verification, 2026-10-04
+
+- Production Remix build passed after resolving the browser TypeScript library compatibility error; 26 inherited warnings remain.
+- Five Node integration tests passed using the official MCP SDK client and embedded PostgreSQL: OAuth code exchange and PKCE, read/write, stale-version rejection, cross-account/project denial, read-only grants, resource binding, refresh rotation/replay revocation, CSRF and redirect checks, immediate disconnect, concurrent code consumption, and storage reopen recovery.
+- GitHub responses and signed-in browser sessions in those tests are explicit fixtures. They do not prove real GitHub login, Codex login or Cowork login.
+- Four existing local Cargo companion regression tests passed.
+- Dedicated hosted Supabase project `jjjnmdtiffgdmdhisuzv` provisioned after the user approved GitHub sign-in, dedicated storage, the organization, and the provider's quoted $0/month creation flow. Private `ootle_agents` schema uses RLS, a dedicated server-only role and verified TLS.
+- Hosted PostgreSQL smoke check created a disposable project, wrote version 2, read it from a separate connection, rejected a stale update, and removed its test rows. No user workspace data was used.
+- Native-client acceptance, actual GitHub OAuth callback, browser round trip and release status remain pending below until observed. Builds and deployment tools are intentionally unavailable to remote agents.

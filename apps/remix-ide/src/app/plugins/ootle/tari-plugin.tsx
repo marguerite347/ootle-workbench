@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { ViewPlugin } from '@remixproject/engine-web'
 import './ootle.css'
+import { ConnectedAgents } from './connected-agents'
 
-type Section = 'build' | 'assistant' | 'deploy' | 'publish'
+type Section = 'agents' | 'build' | 'assistant' | 'deploy' | 'publish'
 type Capabilities = { build: boolean; test: boolean; assistant: boolean; model?: string }
 const HANDOFF = 'https://github.com/marguerite347/ootle-workbench/blob/ootle/docs/ootle/DEVELOPER_HANDOFF.md'
 
@@ -104,7 +105,7 @@ function TariTools({ plugin }: { plugin: TariPlugin }) {
   })
   return <section className="ootle-tools">
     <h1>Tari tools</h1>
-    <nav aria-label="Tari workflow">{(['build', 'assistant', 'deploy', 'publish'] as Section[]).map(tab => <button key={tab} aria-pressed={section === tab} onClick={() => setSection(tab)}>{({ build: 'Build', assistant: 'AI', deploy: 'Deploy', publish: 'Publish' })[tab]}</button>)}</nav>
+    <nav aria-label="Tari workflow">{(['agents', 'build', 'assistant', 'deploy', 'publish'] as Section[]).map(tab => <button key={tab} aria-pressed={section === tab} onClick={() => setSection(tab)}>{({ agents: 'Agents', build: 'Build', assistant: 'AI', deploy: 'Deploy', publish: 'Publish' })[tab]}</button>)}</nav>
     {(section === 'build' || section === 'assistant') && <details open={!cap}>
       <summary>{cap ? 'Local companion connected' : 'Connect local companion'}</summary>
       <p>Run the companion from the public repo, then paste its temporary token. <a href={HANDOFF} target="_blank" rel="noreferrer">Setup instructions</a></p>
@@ -113,8 +114,9 @@ function TariTools({ plugin }: { plugin: TariPlugin }) {
       <button disabled={busy || !token} onClick={() => task(async () => { setCap(null); const data = await request('/capabilities'); if (data.version !== 1) throw new Error('Unsupported companion version.'); setCap(data) })}>Connect</button>
     </details>}
     {error && <p role="alert" className="ootle-error">{error}</p>}
+    {section === 'agents' && <ConnectedAgents plugin={plugin} />}
     {section === 'build' && <>
-      <h2>Rust / WASM</h2>
+      <h2>Build environment · local Cargo</h2>
       <label className="ootle-check"><input type="checkbox" checked={trusted} onChange={e => setTrusted(e.target.checked)} />I trust this workspace. Cargo build scripts and tests run on my computer.</label>
       <div className="ootle-actions"><button disabled={busy || !cap?.build || !trusted} onClick={() => run('build')}>Compile WASM</button><button disabled={busy || !cap?.test || !trusted} onClick={() => run('test')}>Run tests</button></div>
       <pre aria-live="polite" className="ootle-output">{output}</pre>

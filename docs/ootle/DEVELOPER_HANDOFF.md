@@ -92,3 +92,9 @@ Deployment and public submissions are separate operations. Publishing a WASM tem
 4. Connect AI with versioned sources and reviewable edits; repeat compile/test after every accepted edit.
 5. Connect repo publishing and app hosting, then durable Lobby/contest submission with moderation.
 6. Validate the entire journey in a second browser/account before producing a how-to video.
+
+## Connected agents implementation
+
+See [task instructions](CONNECTED_AGENTS_TASK.md) and [service setup](../../tools/agent-service/README.md). The `feat/connected-agents` branch adds a dedicated GitHub-authenticated workspace service with MCP OAuth, scoped read/edit grants, PostgreSQL persistence, version conflict protection and immediate revocation. Home → Connect your agent and Tari tools → Agents open the sharing/authorization flow. Hosted availability and provider acceptance are recorded in VALIDATION.md.
+
+`DEV_REQUIRED[AGENT-OAUTH-APP]`: configure the dedicated GitHub OAuth application at the stable service callback and verify actual sign-in before calling an agent connected. `DEV_REQUIRED[AGENT-PROVIDER-ACCEPTANCE]`: exercise actual Codex and Cowork clients; official SDK tests alone only prove the protocol. `DEV_REQUIRED[AGENT-PUBLIC-SCALE]`: the hosted pilot is account-allowlisted; shared abuse limits, quotas and backup operations must be reviewed before wider access.
