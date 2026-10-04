@@ -107,9 +107,9 @@ function TariTools({ plugin }: { plugin: TariPlugin }) {
     <h1>Tari tools</h1>
     <nav aria-label="Tari workflow">{(['agents', 'build', 'assistant', 'deploy', 'publish'] as Section[]).map(tab => <button key={tab} aria-pressed={section === tab} onClick={() => setSection(tab)}>{({ agents: 'Agents', build: 'Build', assistant: 'AI', deploy: 'Deploy', publish: 'Publish' })[tab]}</button>)}</nav>
     {(section === 'build' || section === 'assistant') && <div className="ootle-artifact">
-      <h2>{section === 'build' ? 'Build in the cloud' : 'Work with your agent'}</h2>
-      <p>{section === 'build' ? 'Share this workspace, then compile WASM or run tests in an isolated Linux worker. See real diagnostics and download the result from your shared workspace.' : 'Connect Codex, Claude Cowork or another MCP agent to your shared project. Approve file edits and build access separately.'}</p>
-      <button onClick={() => setSection('agents')}>{section === 'build' ? 'Open shared workspace & builds' : 'Connect your agent'}</button>
+      <h2>{section === 'build' ? 'Build in the cloud' : 'Agents & OpenRouter'}</h2>
+      <p>{section === 'build' ? 'Share this workspace, then compile WASM or run tests in an isolated Linux worker. See real diagnostics and download the result from your shared workspace.' : 'Connect Codex, Claude Cowork or Cursor to your shared project, or use OpenRouter chat with selected files. Manage accounts and permissions in the connection window.'}</p>
+      <button onClick={() => setSection('agents')}>{section === 'build' ? 'Open shared workspace & builds' : 'Open agents & OpenRouter'}</button>
     </div>}
     {(section === 'build' || section === 'assistant') && <details>
       <summary>{cap ? 'Local companion connected' : 'Connect local companion'}</summary>
@@ -128,7 +128,7 @@ function TariTools({ plugin }: { plugin: TariPlugin }) {
       {artifacts.map(artifact => <div key={artifact.name} className="ootle-artifact"><b>{artifact.name}</b><p>{artifact.size.toLocaleString()} bytes</p><button onClick={() => download(artifact.name, Uint8Array.from(atob(artifact.base64), char => char.charCodeAt(0)), 'application/wasm')}>Download WASM</button><details><summary>Build identity</summary><code>WASM SHA-256: {artifact.sha256}<br />Source SHA-256: {sourceDigest}</code><p>This artifact belongs to the workspace snapshot used for this build. Rebuild after editing.</p></details></div>)}
     </>}
     {section === 'assistant' && <>
-      <h2>Tari assistant</h2><p>{cap?.assistant ? `Local model: ${cap.model}` : 'Connect a companion with an installed Ollama model. No AI provider is connected yet.'}</p>
+      <h2>Local assistant</h2><p>{cap?.assistant ? `Local model: ${cap.model}` : 'For local chat, connect a companion with an installed Ollama model. Hosted OpenRouter chat is available in the connection window above.'}</p>
       <div className="ootle-chat">{messages.map((message, i) => <div key={i}><b>{message.role === 'user' ? 'You' : 'Assistant'}</b><pre>{message.content}</pre></div>)}</div>
       <label>Message<textarea value={question} onChange={e => setQuestion(e.target.value)} placeholder="Ask about your Tari template…" /></label>
       <label className="ootle-check"><input type="checkbox" checked={includeFile} onChange={e => setIncludeFile(e.target.checked)} />Include the open file</label>
