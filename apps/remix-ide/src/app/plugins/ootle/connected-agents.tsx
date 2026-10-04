@@ -11,7 +11,7 @@ function checked(files: any): Files {
   if (!entries.length || entries.length > 300) throw new Error('Expected 1–300 shared text files.')
   let size = 0
   for (const [path, content] of entries) {
-    if (path.length > 240 || !/^[a-zA-Z0-9_.@ /-]+$/.test(path) || path.startsWith('/') || path.split('/').some(p => !p || p === '.' || p === '..' || omitted.test(p)) || typeof content !== 'string' || content.includes('\0')) throw new Error('The shared workspace contains an unsupported file.')
+    if (!textFile.test(path.split('/').pop()) || path.length > 240 || !/^[a-zA-Z0-9_.@ /-]+$/.test(path) || path.startsWith('/') || path.split('/').some(p => !p || p === '.' || p === '..' || omitted.test(p)) || typeof content !== 'string' || content.includes('\0')) throw new Error('The shared workspace contains an unsupported file.')
     size += new TextEncoder().encode(content as string).length
   }
   if (size > 3 * 1024 * 1024) throw new Error('The shared workspace exceeds 3 MiB.')
@@ -36,6 +36,7 @@ async function snapshot(plugin: any): Promise<Snapshot> {
   if (after?.name !== workspace.name) throw new Error('Workspace changed during sharing. Try again.')
   return { name: workspace.name, files: checked(files) }
 }
+const linkKey = (origin: string, name: string) => `ootle.agentLink:${origin}:${name}`
 const same = (a: Files, b: Files) => Object.keys(a).length === Object.keys(b).length && Object.keys(a).every(path => a[path] === b[path])
 
 export function ConnectedAgents({ plugin }: { plugin: any }) {
@@ -88,7 +89,11 @@ export function ConnectedAgents({ plugin }: { plugin: any }) {
     popup.current = connection
     task(async () => {
       const local = await snapshot(plugin)
-      outgoing.current = { ...local, ...(linked?.name === local.name ? { projectId: linked.id, version: linked.version } : {}) }
+      let saved = linked?.name === local.name ? linked : null
+      try { saved ||= JSON.parse(localStorage.getItem(linkKey(endpoint.origin, local.name)) || 'null') } catch {}
+      if (saved && (typeof saved.id !== 'string' || !Number.isSafeInteger(saved.version) || saved.version < 1)) saved = null
+      setLinked(saved)
+      outgoing.current = { ...local, ...(saved ? { projectId: saved.id, version: saved.version } : {}) }
       setBaseline(local); setPending(null)
       channel.current = crypto.randomUUID(); serviceOrigin.current = endpoint.origin
       connection.location.href = `${endpoint.origin}/connect`
@@ -106,11 +111,13 @@ export function ConnectedAgents({ plugin }: { plugin: any }) {
       for (const [path, content] of changes) {
         if ((await plugin.call('filePanel', 'getCurrentWorkspace'))?.name !== baseline.name) throw new Error('Workspace changed during apply.')
         // Include files outside the default share manifest in collision protection.
+        if (Object.prototype.hasOwnProperty.call(current.files, path) && await plugin.call('fileManager', 'readFile', path) !== current.files[path]) throw new Error(`Local file changed during apply: ${path}`)
         if (!Object.prototype.hasOwnProperty.call(current.files, path) && await plugin.call('fileManager', 'exists', path)) throw new Error(`Unshared local file already exists: ${path}`)
         await plugin.call('fileManager', 'writeFile', path, content); written.push(path)
       }
     } catch (e) { throw new Error(`${e.message} ${written.length} file(s) were applied. The shared version is still available; review before retrying.`) }
     const updated = await snapshot(plugin)
+    try { localStorage.setItem(linkKey(serviceOrigin.current, updated.name), JSON.stringify({ id: pending.id, version: pending.version, name: updated.name })) } catch {}
     setLinked({ id: pending.id, version: pending.version, name: updated.name }); setBaseline(updated); setPending(null)
     setStatus(`${changes.length} file(s) applied. Linked to shared workspace version ${pending.version}. Local files are preserved.`)
   })
@@ -120,6 +127,7 @@ export function ConnectedAgents({ plugin }: { plugin: any }) {
     await plugin.call('filePanel', 'createWorkspace', name, 'blank')
     await plugin.call('filePanel', 'switchToWorkspace', { name, isLocalHost: false })
     for (const [path, content] of Object.entries(pending.files)) await plugin.call('fileManager', 'writeFile', path, content)
+    try { localStorage.setItem(linkKey(serviceOrigin.current, name), JSON.stringify({ id: pending.id, version: pending.version, name })) } catch {}
     setLinked({ id: pending.id, version: pending.version, name }); setBaseline(await snapshot(plugin)); setPending(null)
     setStatus('Shared files imported into a new workspace. Your original workspace is unchanged.')
   })
@@ -131,8 +139,8 @@ export function ConnectedAgents({ plugin }: { plugin: any }) {
     <ol className="ootle-agent-steps"><li>Sign in with GitHub</li><li>Share a workspace</li><li>Authorize your agent</li></ol>
     {!configured && <p className="ootle-note">Hosted agent connections are not configured for this deployment. You can connect a separately hosted Workbench agent service below.</p>}
     <details open={!configured}><summary>Connection service</summary><label>Workbench service URL<input value={service} onChange={e => { setService(e.target.value); setLinked(null) }} placeholder="https://your-workbench-agent-service.example" /></label><p>Use a service you trust. After sign-in, the connection window receives this workspace’s supported text files so you can review and share them. Environment files, private-key files and build output are excluded.</p></details>
-    <button disabled={busy || !service} onClick={open}>{busy ? 'Preparing workspace…' : linked ? 'Manage agents & sync' : 'Connect an agent'}</button>
-    <p className="ootle-note">Read and edit access are granted per project. Build environments and deployment permissions are separate. Local workspaces stay in your browser until you share them.</p>
+    <button disabled={busy || !service} onClick={open}>{busy ? 'Preparing workspace…' : linked ? 'Manage agents, builds & sync' : 'Connect an agent'}</button>
+    <p className="ootle-note">Read, edit and cloud-build access are granted per project. Compile and test shared versions in the connection window. Deployment permissions are separate. Local workspaces stay in your browser until you share them.</p>
     {error && <p className="ootle-error" role="alert">{error}</p>}
     {status && <p role="status" aria-live="polite">{status}</p>}
     {pending && <div className="ootle-agent-review"><h2>Review shared changes</h2><p>{pending.name} · version {pending.version} · {changed.length} changed files</p>{changed.map(path => <details key={path}><summary>{path}</summary><b>Local</b><pre>{baseline?.files[path] ?? '(new file)'}</pre><b>Shared</b><pre>{pending.files[path]}</pre></details>)}<div className="ootle-actions"><button disabled={busy} onClick={apply}>Apply to current workspace</button><button disabled={busy} onClick={recover}>Import as new workspace</button><button disabled={busy} onClick={() => setPending(null)}>Dismiss</button></div></div>}

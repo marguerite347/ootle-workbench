@@ -3,7 +3,8 @@ let account,
   incoming,
   openerOrigin,
   channel,
-  busy = false
+  busy = false,
+  watchedJob = null
 async function api(path, method = 'GET', body) {
   const res = await fetch(path, { method, headers: { 'Content-Type': 'application/json', 'X-CSRF-Token': account?.csrf || '' }, body: body ? JSON.stringify(body) : undefined })
   const data = await res.json()
@@ -48,6 +49,7 @@ function sendProject(project) {
 async function refresh() {
   account = await api('/api/me')
   $('identity').textContent = `Signed in as ${account.user.login}`
+  if (!window.opener) $('status').textContent = 'To share files or review changes in the editor, return to Workbench and click Connect an agent again. Your sign-in is ready.'
   $('endpoint').value = account.endpoint
   instructions()
   for (const id of ['projects', 'connections', 'activity']) $(id).replaceChildren()
@@ -56,6 +58,16 @@ async function refresh() {
     const row = node('div', '', $('projects'), 'row')
     node('strong', project.name, row)
     node('p', `Version ${project.version}`, row, 'muted')
+    if (account.buildsConfigured) {
+      for (const action of ['build', 'test'])
+        button(action === 'build' ? 'Compile WASM' : 'Run tests', row, async () => {
+          $('status').textContent = 'Starting an isolated build worker…'
+          const job = await api(`/api/projects/${project.id}/jobs`, 'POST', { version: project.version, action })
+          watchedJob = job.id
+          $('status').textContent = `${action === 'build' ? 'Compilation' : 'Tests'} ${job.status} for shared version ${project.version}.`
+          await refreshJobs()
+        })
+    } else node('p', 'Hosted builds are awaiting service configuration.', row, 'muted')
     button('Review in Workbench', row, async () => sendProject(await api(`/api/projects/${project.id}`)))
     button('Download backup', row, async () => {
       const p = await api(`/api/projects/${project.id}`),
@@ -78,15 +90,69 @@ async function refresh() {
   for (const grant of active) {
     const row = node('div', '', $('connections'), 'row')
     node('strong', grant.name, row)
-    node('p', `${grant.projectName} · ${grant.scopes.includes('workspace:write') ? 'Read and edit' : 'Read only'} · expires ${new Date(grant.expires * 1000).toLocaleDateString()}`, row, 'muted')
+    node('p', `${grant.projectName} · ${grant.scopes.includes('workspace:write') ? 'Read and edit' : 'Read only'}${grant.scopes.includes('workspace:build') ? ' + builds/tests' : ''} · expires ${new Date(grant.expires * 1000).toLocaleDateString()}`, row, 'muted')
     button('Disconnect', row, async () => {
       await api(`/api/connections/${grant.id}/revoke`, 'POST', {})
       await refresh()
       $('status').textContent = 'Disconnected. This agent can no longer access the project.'
     })
   }
+  await refreshJobs()
   for (const event of account.activity) node('li', `${event.agent}: ${event.action} · ${new Date(event.at * 1000).toLocaleString()}`, $('activity'))
 }
+let pollingJobs = false
+async function refreshJobs() {
+  if (pollingJobs || !account) return
+  pollingJobs = true
+  try {
+    const list = await api('/api/jobs')
+    const jobs = await Promise.all(list.map((job) => (['starting', 'running'].includes(job.status) ? api(`/api/jobs/${job.id}`) : job)))
+    if (watchedJob) {
+      const watched = jobs.find((job) => job.id === watchedJob)
+      if (watched && !['starting', 'running'].includes(watched.status)) {
+        $('status').textContent = `${watched.action === 'build' ? 'Compilation' : 'Tests'} ${watched.status} for shared version ${watched.version}.`
+        watchedJob = null
+      }
+    }
+    const root = $('jobs')
+    const signature = JSON.stringify(jobs)
+    if (root.dataset.render === signature) return
+    root.dataset.render = signature
+    const expanded = new Set([...root.querySelectorAll('details[open]')].map((d) => d.dataset.job))
+    root.replaceChildren()
+    if (!jobs.length) node('p', 'No builds yet. Compile or test a shared workspace above.', root)
+    for (const job of jobs) {
+      const row = node('div', '', root, 'row')
+      node('strong', `${job.projectName} · ${job.action === 'build' ? 'Compile' : 'Tests'} · ${job.status}`, row)
+      node('p', `Version ${job.version} · ${new Date(job.created * 1000).toLocaleString()}${job.exitCode !== null ? ` · Exit ${job.exitCode}` : ''}`, row, 'muted')
+      const detail = node('details', '', row)
+      detail.dataset.job = job.id
+      detail.open = expanded.has(job.id)
+      node('summary', 'Diagnostics and source digest', detail)
+      node('p', `Source SHA-256: ${job.digest}`, detail, 'digest')
+      node('pre', job.logs || (job.status === 'starting' ? 'Preparing the isolated worker…' : 'No compiler output yet.'), detail)
+      if (['running', 'starting'].includes(job.status))
+        button('Cancel', row, async () => {
+          await api(`/api/jobs/${job.id}/cancel`, 'POST', {})
+          await refreshJobs()
+        })
+      if (job.artifact) {
+        node('p', `WASM · ${job.artifact.bytes.toLocaleString()} bytes · SHA-256: ${job.artifact.sha256}`, row, 'digest')
+        const link = node('a', 'Download WASM', row, 'button')
+        link.href = `/api/jobs/${job.id}/artifact`
+        link.download = 'template.wasm'
+      }
+    }
+  } finally {
+    pollingJobs = false
+  }
+}
+setInterval(() => {
+  if (!busy && !document.hidden)
+    refreshJobs().catch((e) => {
+      $('status').textContent = e.message
+    })
+}, 5000)
 function instructions() {
   const codex = $('agent').value === 'Codex',
     claude = $('agent').value === 'Claude Cowork'
@@ -94,7 +160,7 @@ function instructions() {
     ? 'In Claude, open Customize → Connectors → Add custom connector. Paste the URL below, then authorize your chosen Ootle project. If prompted for OAuth client settings, choose automatic registration.'
     : codex
       ? 'In Codex MCP settings, add this HTTP server and authenticate. For the CLI, run the commands below.'
-      : 'Add a Streamable HTTP MCP server with OAuth authorization and automatic client registration. Request workspace:read and optionally workspace:write.'
+      : 'Add a Streamable HTTP MCP server with OAuth authorization and automatic client registration. Request workspace:read and optionally workspace:write and workspace:build.'
   $('config').textContent = codex ? `codex mcp add ootle-workbench --url ${account.endpoint}\ncodex mcp login ootle-workbench` : account.endpoint
 }
 $('agent').onchange = instructions

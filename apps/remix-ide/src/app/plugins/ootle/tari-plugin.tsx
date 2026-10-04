@@ -106,7 +106,12 @@ function TariTools({ plugin }: { plugin: TariPlugin }) {
   return <section className="ootle-tools">
     <h1>Tari tools</h1>
     <nav aria-label="Tari workflow">{(['agents', 'build', 'assistant', 'deploy', 'publish'] as Section[]).map(tab => <button key={tab} aria-pressed={section === tab} onClick={() => setSection(tab)}>{({ agents: 'Agents', build: 'Build', assistant: 'AI', deploy: 'Deploy', publish: 'Publish' })[tab]}</button>)}</nav>
-    {(section === 'build' || section === 'assistant') && <details open={!cap}>
+    {(section === 'build' || section === 'assistant') && <div className="ootle-artifact">
+      <h2>{section === 'build' ? 'Build in the cloud' : 'Work with your agent'}</h2>
+      <p>{section === 'build' ? 'Share this workspace, then compile WASM or run tests in an isolated Linux worker. See real diagnostics and download the result from your shared workspace.' : 'Connect Codex, Claude Cowork or another MCP agent to your shared project. Approve file edits and build access separately.'}</p>
+      <button onClick={() => setSection('agents')}>{section === 'build' ? 'Open shared workspace & builds' : 'Connect your agent'}</button>
+    </div>}
+    {(section === 'build' || section === 'assistant') && <details>
       <summary>{cap ? 'Local companion connected' : 'Connect local companion'}</summary>
       <p>Run the companion from the public repo, then paste its temporary token. <a href={HANDOFF} target="_blank" rel="noreferrer">Setup instructions</a></p>
       <label>Companion URL<input value={url} onChange={e => { setUrl(e.target.value); setCap(null) }} /></label>

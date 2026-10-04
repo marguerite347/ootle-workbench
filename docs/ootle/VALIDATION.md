@@ -33,3 +33,16 @@ See the developer handoff for locations and completion criteria. The preview mus
 - Dedicated hosted Supabase project `jjjnmdtiffgdmdhisuzv` provisioned after the user approved GitHub sign-in, dedicated storage, the organization, and the provider's quoted $0/month creation flow. Private `ootle_agents` schema uses RLS, a dedicated server-only role and verified TLS.
 - Hosted PostgreSQL smoke check created a disposable project, wrote version 2, read it from a separate connection, rejected a stale update, and removed its test rows. No user workspace data was used.
 - Native-client acceptance, actual GitHub OAuth callback, browser round trip and release status remain pending below until observed. Builds and deployment tools are intentionally unavailable to remote agents.
+
+## Operational Workbench extension — 2026-10-04
+- Written execution/acceptance instructions: `OPERATIONAL_WORKBENCH_TASK.md`.
+- Official Vercel Sandbox SDK 3.5.1 created isolated Ubuntu Linux workers through the dedicated project's OIDC identity. The pinned Rust 1.95.0 Counter passed both real engine tests and release WASM compilation. First cold trial: 2m08s test compilation, 13.97s WASM compilation.
+- Real service job adapter: successful build and valid 107595-byte WASM; SHA-256 `a8141b0df0e861ff1c3d339243130bac442eff4c7a9f32f54daaede04e86a594`. Cached compilation about one second; cached test compilation 4.56s and both engine tests passed in 11.19s.
+- Intentional Rust syntax error returned actual Cargo exit 101 and source diagnostics. Actual worker cancellation passed.
+- A completed worker was stopped/snapshotted before collection; a fresh adapter recovered the valid artifact and then deleted the job VM/private snapshot. This tests browser-closure recovery, not only process-local memory.
+- A deny-all egress trial failed to reach example.com (curl exit 6). Deployed build policy permits only crates.io index/artifact hosts. No provider or database credentials are forwarded into the worker.
+- Nine backend tests pass: OAuth/PKCE/replay/revoke, owner/project isolation, CSRF, file/version validation, persistence, job snapshots/quotas/cancellation/timeout/invalid-WASM rejection, and explicitly approved build tools. Job unit-test runners are fixtures; compilation proof comes from the separate real Sandbox tests above.
+- GitHub OAuth app registration/credentials and native Codex/Cowork acceptance remain pending. Do not advertise live agent authorization as verified.
+
+- Browser dashboard with explicitly labeled LOCAL ACCEPTANCE FIXTURE identity initiated a real Vercel build from shared version 2, displayed Cargo exit 0, diagnostics/source digest and the matching 107595-byte WASM. Desktop and 390px layouts were inspected. This does not validate real GitHub sign-in. Chrome blocked navigation to the direct artifact download with ERR_BLOCKED_BY_CLIENT; browser download acceptance remains unresolved, while service artifact bytes were independently validated.
+- Production IDE build passed with 26 inherited warnings; four existing local-companion regression tests passed.

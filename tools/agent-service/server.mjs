@@ -6,22 +6,25 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 import { createHash } from 'node:crypto'
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js'
-import { mcpAuthRouter } from '@modelcontextprotocol/sdk/server/auth/router.js'
+import { mcpAuthRouter, mcpAuthMetadataRouter, createOAuthMetadata } from '@modelcontextprotocol/sdk/server/auth/router.js'
 import { requireBearerAuth } from '@modelcontextprotocol/sdk/server/auth/middleware/bearerAuth.js'
 import { z } from 'zod'
 import { Store, Problem, random, hash, now } from './store.mjs'
 import { provider, SCOPES } from './oauth.mjs'
+import { Jobs } from './jobs.mjs'
+import { sandboxDriver } from './sandbox-driver.mjs'
 const directory = dirname(fileURLToPath(import.meta.url))
 const escape = (value) => String(value).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c])
 const page = (title, body) => `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} · Ootle</title><link rel="stylesheet" href="/service.css"><main><a class="brand" href="/connect">ootle <span>connected agents</span></a><h1>${escape(title)}</h1>${body}</main></html>`
 const digest = (value) => createHash('sha256').update(value).digest('base64url')
 
-export function createService({ store, origin, ideOrigins, githubClientId, githubClientSecret, githubFetch = fetch, allowedLogins = [], proxyHops = 0 }) {
+export function createService({ store, origin, ideOrigins, githubClientId, githubClientSecret, githubFetch = fetch, allowedLogins = [], proxyHops = 0, buildDriver = sandboxDriver(process.env.BUILD_SNAPSHOT_ID) }) {
   const base = new URL(origin)
   if (base.origin !== origin || (base.protocol !== 'https:' && !['127.0.0.1', 'localhost'].includes(base.hostname))) throw new Error('PUBLIC_URL must be an HTTPS origin (HTTP loopback only for development).')
   const app = express(),
     oauth = provider(store, origin),
     secure = base.protocol === 'https:'
+  const jobs = new Jobs(store, buildDriver)
   const cookieName = secure ? '__Host-ootle_session' : 'ootle_session'
   const cookieOptions = { httpOnly: true, secure, sameSite: 'lax', path: '/', maxAge: 8 * 3600 * 1000 }
   if (proxyHops) app.set('trust proxy', proxyHops)
@@ -47,7 +50,7 @@ export function createService({ store, origin, ideOrigins, githubClientId, githu
     next()
   }
   const loginConfigured = Boolean(githubClientId && githubClientSecret)
-  app.get('/health', (_req, res) => res.json({ name: 'Ootle agent service', version: 1, loginConfigured, mcp: `${origin}/mcp` }))
+  app.get('/health', (_req, res) => res.json({ name: 'Ootle agent service', version: 1, loginConfigured, buildsConfigured: jobs.configured, mcp: `${origin}/mcp` }))
   app.get('/service.css', (_req, res) => res.sendFile(resolve(directory, 'public/service.css')))
   app.get('/dashboard.js', (_req, res) => res.sendFile(resolve(directory, 'public/dashboard.js')))
   app.get('/login', async (req, res) => {
@@ -91,17 +94,26 @@ export function createService({ store, origin, ideOrigins, githubClientId, githu
     res.send(
       page(
         'Connected agents',
-        '<p id="identity"></p><div id="status" role="status" aria-live="polite"></div><section id="incoming" hidden><h2>Share this workspace</h2><p id="incoming-summary"></p><p>These text files will be stored in your Workbench account. Only agents you authorize can access them. Review your code for embedded secrets before sharing.</p><details><summary>Files to share</summary><ul id="file-list"></ul></details><button id="share">Share workspace</button></section><section><h2>Your shared workspaces</h2><div id="projects"></div></section><section><h2>Connect an agent</h2><p>In your agent, add this remote MCP server. Its authorization page will let you select one project and approve read or edit access.</p><label>Agent<select id="agent"><option>Claude Cowork</option><option>Codex</option><option>Other MCP client</option></select></label><p id="instructions"></p><label>MCP server URL<input id="endpoint" readonly></label><button id="copy">Copy connection details</button><pre id="config"></pre><p class="muted">Compatibility is based on MCP. Provider-specific acceptance must be tested in each client. Build and deploy permissions are not available.</p></section><section><h2>Authorized connections</h2><div id="connections"></div></section><section><h2>Recent activity</h2><ul id="activity"></ul></section><button id="logout">Sign out</button><script src="/dashboard.js" defer></script>',
+        '<p id="identity"></p><div id="status" role="status" aria-live="polite"></div><section id="incoming" hidden><h2>Share this workspace</h2><p id="incoming-summary"></p><p>These text files will be stored in your Workbench account. Only agents you authorize can access them. Review your code for embedded secrets before sharing.</p><details><summary>Files to share</summary><ul id="file-list"></ul></details><button id="share">Share workspace</button></section><section><h2>Your shared workspaces</h2><div id="projects"></div></section><section><h2>Builds and tests</h2><p>Results use the shared version at start. Review and upload your latest local changes first. Pilot: one active job and six jobs per day per account; 20 minutes per job. Results are retained for seven days.</p><div id="jobs"></div></section><section><h2>Connect an agent</h2><p>In your agent, add this remote MCP server. Its authorization page will let you select one project and approve read, edit or build access.</p><label>Agent<select id="agent"><option>Claude Cowork</option><option>Codex</option><option>Other MCP client</option></select></label><p id="instructions"></p><label>MCP server URL<input id="endpoint" readonly></label><button id="copy">Copy connection details</button><pre id="config"></pre><p class="muted">Compatibility is based on MCP. Provider-specific acceptance must be tested in each client. Build access is optional and requires separate consent. Deployments and wallet actions are unavailable.</p></section><section><h2>Authorized connections</h2><div id="connections"></div></section><section><h2>Recent activity</h2><ul id="activity"></ul></section><button id="logout">Sign out</button><script src="/dashboard.js" defer></script>',
       ),
     )
   })
-  app.get('/api/me', signedIn, async (req, res) => res.json({ user: req.session.user, csrf: req.session.csrf, ideOrigins, endpoint: `${origin}/mcp`, projects: await store.projects(req.session.user.id), connections: await store.grants(req.session.user.id), activity: await store.activity(req.session.user.id) }))
+  app.get('/api/me', signedIn, async (req, res) => res.json({ user: req.session.user, csrf: req.session.csrf, ideOrigins, endpoint: `${origin}/mcp`, projects: await store.projects(req.session.user.id), connections: await store.grants(req.session.user.id), activity: await store.activity(req.session.user.id), buildsConfigured: jobs.configured }))
   app.post('/api/projects', signedIn, csrf, async (req, res) => res.status(201).json(await store.createProject(req.session.user.id, req.body.name, req.body.files)))
   app.get('/api/projects/:id', signedIn, async (req, res) => res.json(await store.project(req.params.id, req.session.user.id)))
   app.put('/api/projects/:id', signedIn, csrf, async (req, res) => res.json(await store.updateProject(req.params.id, req.session.user.id, req.body.version, req.body.files)))
   app.post('/api/connections/:id/revoke', signedIn, csrf, async (req, res) => {
     await store.revoke(req.params.id, req.session.user.id)
     res.json({ ok: true })
+  })
+  app.get('/api/jobs', signedIn, async (req, res) => res.json(await jobs.list(req.session.user.id)))
+  app.post('/api/projects/:id/jobs', signedIn, csrf, async (req, res) => res.status(202).json(await jobs.start(req.session.user.id, req.params.id, req.body.version, req.body.action)))
+  app.get('/api/jobs/:id', signedIn, async (req, res) => res.json(await jobs.inspect(req.params.id, req.session.user.id)))
+  app.post('/api/jobs/:id/cancel', signedIn, csrf, async (req, res) => res.json(await jobs.cancel(req.params.id, req.session.user.id)))
+  app.get('/api/jobs/:id/artifact', signedIn, async (req, res) => {
+    const artifact = await jobs.artifact(req.params.id, req.session.user.id)
+    res.set({ 'Content-Type': 'application/wasm', 'Content-Disposition': 'attachment; filename="template.wasm"', 'X-Artifact-SHA256': artifact.sha256, 'X-Source-SHA256': artifact.sourceDigest })
+    res.send(Buffer.from(artifact.base64, 'base64'))
   })
   app.get('/consent', async (req, res) => {
     const request = typeof req.query.request === 'string' ? req.query.request : '',
@@ -116,7 +128,7 @@ export function createService({ store, origin, ideOrigins, githubClientId, githu
     res.send(
       page(
         'Authorize an agent',
-        `<p><strong>${escape(pending.name)}</strong> requests access to your Workbench.</p><p class="muted">Client names are self-reported. Continue only if you started this request in your agent.</p><p>Signed in as <strong>${escape(user.user.login)}</strong></p><details><summary>Connection identity</summary><p>Client: ${escape(pending.client)}</p><p>Returns to: ${escape(pending.redirectUri)}</p></details><form method="post" action="/consent"><input type="hidden" name="request" value="${escape(request)}"><input type="hidden" name="csrf" value="${escape(user.csrf)}"><label>Project<select name="project" required>${options}</select></label><p>Read files in this project.</p>${pending.scopes.includes('workspace:write') ? '<label class="check"><input type="checkbox" name="write" value="yes">Also allow file edits</label>' : ''}<p>Access expires in 30 days. Disconnect sooner from Connected agents. This does not authorize builds, deployments, wallet actions or publishing.</p>${!projects.length ? '<p>Share a workspace from the IDE before authorizing an agent.</p>' : '<button name="decision" value="allow">Authorize selected project</button>'}<button class="secondary" name="decision" value="deny">Deny</button></form>`,
+        `<p><strong>${escape(pending.name)}</strong> requests access to your Workbench.</p><p class="muted">Client names are self-reported. Continue only if you started this request in your agent.</p><p>Signed in as <strong>${escape(user.user.login)}</strong></p><details><summary>Connection identity</summary><p>Client: ${escape(pending.client)}</p><p>Returns to: ${escape(pending.redirectUri)}</p></details><form method="post" action="/consent"><input type="hidden" name="request" value="${escape(request)}"><input type="hidden" name="csrf" value="${escape(user.csrf)}"><label>Project<select name="project" required>${options}</select></label><p>Read files in this project.</p>${pending.scopes.includes('workspace:write') ? '<label class="check"><input type="checkbox" name="write" value="yes">Also allow file edits</label>' : ''}${pending.scopes.includes('workspace:build') && jobs.configured ? '<label class="check"><input type="checkbox" name="build" value="yes">Also allow isolated cloud builds and tests (uses your build allowance)</label>' : ''}<p>Access expires in 30 days. Disconnect sooner from Connected agents. This does not authorize deployments, wallet actions or publishing.</p>${!projects.length ? '<p>Share a workspace from the IDE before authorizing an agent.</p>' : '<button name="decision" value="allow">Authorize selected project</button>'}<button class="secondary" name="decision" value="deny">Deny</button></form>`,
       ),
     )
   })
@@ -131,6 +143,7 @@ export function createService({ store, origin, ideOrigins, githubClientId, githu
       else if (req.body.decision === 'allow') {
         const scopes = ['workspace:read']
         if (req.body.write === 'yes' && pending.scopes.includes('workspace:write')) scopes.push('workspace:write')
+        if (req.body.build === 'yes' && pending.scopes.includes('workspace:build') && jobs.configured) scopes.push('workspace:build')
         const code = random()
         {
           const grant = await store.grant(req.session.user.id, req.body.project, pending.client, pending.name, scopes)
@@ -143,7 +156,12 @@ export function createService({ store, origin, ideOrigins, githubClientId, githu
     })
     res.redirect(redirect.href)
   })
-  app.use(mcpAuthRouter({ provider: oauth, issuerUrl: base, resourceServerUrl: new URL(`${origin}/mcp`), scopesSupported: SCOPES, resourceName: 'Ootle Workbench' }))
+  const authOptions = { provider: oauth, issuerUrl: base, resourceServerUrl: new URL(`${origin}/mcp`), scopesSupported: SCOPES, resourceName: 'Ootle Workbench' }
+  const metadata = createOAuthMetadata(authOptions)
+  metadata.token_endpoint_auth_methods_supported = ['none']
+  metadata.revocation_endpoint_auth_methods_supported = ['none']
+  app.use(mcpAuthMetadataRouter({ oauthMetadata: metadata, resourceServerUrl: authOptions.resourceServerUrl, resourceName: authOptions.resourceName, scopesSupported: SCOPES }))
+  app.use(mcpAuthRouter(authOptions))
   app.all(
     '/mcp',
     (req, res, next) => {
@@ -159,7 +177,7 @@ export function createService({ store, origin, ideOrigins, githubClientId, githu
         try {
           // Re-check revocation for every tool call, including calls after initialization.
           const current = await oauth.verifyAccessToken(req.auth.token)
-          if (!current.scopes.includes(scope)) throw new Problem(403, 'This connection does not have edit permission.')
+          if (!current.scopes.includes(scope)) throw new Problem(403, 'This connection does not have the required permission.')
           const result = await action(args)
           return { content: [{ type: 'text', text: JSON.stringify(result) }] }
         } catch (error) {
@@ -207,6 +225,31 @@ export function createService({ store, origin, ideOrigins, githubClientId, githu
             return { version: updated.version, path, status: 'saved', ide_sync: 'pending user review' }
           }),
         )
+      if (jobs.configured && req.auth.scopes.includes('workspace:build')) {
+        server.registerTool(
+          'start_build',
+          { description: 'Compile or test an immutable shared project version in isolated Linux. Returns a job ID; poll get_build for real logs and result. Uses the account build allowance.', inputSchema: { ...projectSchema, expected_version: z.number().int().positive(), action: z.enum(['build', 'test']) }, annotations: { readOnlyHint: false, destructiveHint: false } },
+          execute('workspace:build', async ({ project_id, expected_version, action }) => {
+            await own(project_id)
+            return jobs.start(auth.owner, project_id, expected_version, action, auth.name)
+          }),
+        )
+        server.registerTool(
+          'get_build',
+          { description: 'Read build status and bounded diagnostics. Results refer to the source version and digest recorded at job creation.', inputSchema: { job_id: z.string().uuid() }, annotations: { readOnlyHint: true } },
+          execute('workspace:build', async ({ job_id }) => jobs.inspect(job_id, auth.owner, auth.project)),
+        )
+        server.registerTool(
+          'cancel_build',
+          { description: 'Stop an isolated build job for this authorized project.', inputSchema: { job_id: z.string().uuid() }, annotations: { readOnlyHint: false, destructiveHint: false } },
+          execute('workspace:build', async ({ job_id }) => jobs.cancel(job_id, auth.owner, auth.project)),
+        )
+        server.registerTool(
+          'get_build_artifact',
+          { description: 'Retrieve a verified WASM artifact and its SHA-256/source digest. Bytes are base64 encoded.', inputSchema: { job_id: z.string().uuid() }, annotations: { readOnlyHint: true } },
+          execute('workspace:build', async ({ job_id }) => jobs.artifact(job_id, auth.owner, auth.project)),
+        )
+      }
       const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined, enableJsonResponse: true })
       res.on('close', () => {
         transport.close()
@@ -222,7 +265,7 @@ export function createService({ store, origin, ideOrigins, githubClientId, githu
     if (req.path.startsWith('/api/') || req.path === '/mcp') res.status(status).json({ error: message })
     else res.status(status).send(page('Could not complete request', `<p role="alert">${escape(message)}</p><a href="/connect">Return to Connected agents</a>`))
   })
-  return { app, oauth, cookieName }
+  return { app, oauth, cookieName, jobs }
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

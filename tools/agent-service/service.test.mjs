@@ -9,7 +9,7 @@ import { createService } from './server.mjs'
 import { Client } from '@modelcontextprotocol/sdk/client/index.js'
 import { StreamableHTTPClientTransport } from '@modelcontextprotocol/sdk/client/streamableHttp.js'
 
-async function fixture(t) {
+async function fixture(t, options = {}) {
   const dir = mkdtempSync(join(tmpdir(), 'ootle-agent-test-')),
     store = await Store.embedded(join(dir, 'test-pg'))
   // Bind an ephemeral port before setting the exact issuer/host. No public test-login route exists.
@@ -18,7 +18,7 @@ async function fixture(t) {
   const http = createServer((req, res) => app(req, res))
   await new Promise((resolve) => http.listen(0, '127.0.0.1', resolve))
   const origin = `http://127.0.0.1:${http.address().port}`
-  const created = createService({ store, origin, ideOrigins: ['http://127.0.0.1:8080'], githubClientId: 'test-id', githubClientSecret: 'test-secret', githubFetch: async (url) => new Response(JSON.stringify(url.includes('access_token') ? { access_token: 'fixture-github-token' } : { id: 12, login: 'fixture' }), { status: 200 }) })
+  const created = createService({ ...options, store, origin, ideOrigins: ['http://127.0.0.1:8080'], githubClientId: 'test-id', githubClientSecret: 'test-secret', githubFetch: async (url) => new Response(JSON.stringify(url.includes('access_token') ? { access_token: 'fixture-github-token' } : { id: 12, login: 'fixture' }), { status: 200 }) })
   app = created.app
   const a = await store.session({ id: 'github:1', login: 'alice' }),
     b = await store.session({ id: 'github:2', login: 'bob' })
@@ -29,18 +29,18 @@ async function fixture(t) {
     rmSync(dir, { recursive: true, force: true })
   })
   const project = await (await request('/api/projects', { method: 'POST', body: { name: 'Counter', files: { 'src/lib.rs': 'pub fn value() -> u64 { 1 }' } } })).json()
-  async function authorize({ write = true, client, projectId = project.id, user = a } = {}) {
+  async function authorize({ write = true, build = false, client, projectId = project.id, user = a } = {}) {
     client ||= await (await request('/register', { user: null, method: 'POST', body: { client_name: 'Integration test agent', redirect_uris: ['http://127.0.0.1:9876/callback'], token_endpoint_auth_method: 'none', grant_types: ['authorization_code', 'refresh_token'], response_types: ['code'] } })).json()
     const verifier = random(),
       challenge = createHash('sha256').update(verifier).digest('base64url')
-    const query = new URLSearchParams({ client_id: client.client_id, redirect_uri: client.redirect_uris[0], response_type: 'code', code_challenge: challenge, code_challenge_method: 'S256', state: 'test-state', scope: write ? 'workspace:read workspace:write' : 'workspace:read', resource: `${origin}/mcp` })
+    const query = new URLSearchParams({ client_id: client.client_id, redirect_uri: client.redirect_uris[0], response_type: 'code', code_challenge: challenge, code_challenge_method: 'S256', state: 'test-state', scope: ['workspace:read', ...(write ? ['workspace:write'] : []), ...(build ? ['workspace:build'] : [])].join(' '), resource: `${origin}/mcp` })
     const start = await request(`/authorize?${query}`, { user })
     assert.equal(start.status, 302)
     const consentPath = start.headers.get('location')
     const consent = await request(consentPath, { user })
     assert.equal(consent.status, 200)
     const pending = new URL(consentPath, origin).searchParams.get('request')
-    const approved = await request('/consent', { user, method: 'POST', form: { request: pending, csrf: user.csrf, decision: 'allow', project: projectId, ...(write ? { write: 'yes' } : {}) } })
+    const approved = await request('/consent', { user, method: 'POST', form: { request: pending, csrf: user.csrf, decision: 'allow', project: projectId, ...(write ? { write: 'yes' } : {}), ...(build ? { build: 'yes' } : {}) } })
     if (approved.status !== 302) return { approved, client, pending, verifier }
     const callback = new URL(approved.headers.get('location'))
     assert.equal(callback.searchParams.get('state'), 'test-state')
@@ -52,8 +52,11 @@ async function fixture(t) {
 }
 
 test('OAuth + official SDK client: read/edit/conflict, account isolation and immediate revoke', async (t) => {
-  const f = await fixture(t),
-    flow = await f.authorize()
+  const f = await fixture(t)
+  const metadata = await (await f.request('/.well-known/oauth-authorization-server', { user: null })).json()
+  assert.deepEqual(metadata.token_endpoint_auth_methods_supported, ['none'])
+  assert.deepEqual(metadata.revocation_endpoint_auth_methods_supported, ['none'])
+  const flow = await f.authorize()
   const bad = await flow.exchange({ grant_type: 'authorization_code', code: flow.code, code_verifier: random(), redirect_uri: flow.client.redirect_uris[0] })
   assert.equal(bad.status, 400)
   const exchanged = await flow.exchange({ grant_type: 'authorization_code', code: flow.code, code_verifier: flow.verifier, redirect_uri: flow.client.redirect_uris[0] })
@@ -147,4 +150,31 @@ test('durable embedded PostgreSQL survives a close and reopen', async () => {
     await store.close()
     rmSync(dir, { recursive: true, force: true })
   }
+})
+
+test('build tools require explicit scope; job APIs enforce owner, version and CSRF', async (t) => {
+  const buildDriver = { start: async () => ({ command: 'fixture' }), inspect: async () => ({ exitCode: 0, logs: 'fixture test output' }), stop: async () => {} }
+  const f = await fixture(t, { buildDriver })
+  await f.store.updateProject(f.project.id, 'github:1', 1, { 'Cargo.toml': '[package]', 'Cargo.lock': 'version=4', 'src/lib.rs': '// test' })
+  const plain = await f.authorize({ write: true })
+  const token = await (await plain.exchange({ grant_type: 'authorization_code', code: plain.code, code_verifier: plain.verifier, redirect_uri: plain.client.redirect_uris[0] })).json()
+  const client = new Client({ name: 'no-build-permission', version: '1' })
+  await client.connect(new StreamableHTTPClientTransport(new URL(`${f.origin}/mcp`), { requestInit: { headers: { Authorization: `Bearer ${token.access_token}` } } }))
+  t.after(() => client.close())
+  assert.ok(!(await client.listTools()).tools.some((t) => t.name === 'start_build'))
+  const flow = await f.authorize({ write: false, build: true })
+  const auth = await (await flow.exchange({ grant_type: 'authorization_code', code: flow.code, code_verifier: flow.verifier, redirect_uri: flow.client.redirect_uris[0] })).json()
+  const builder = new Client({ name: 'authorized-build-client', version: '1' })
+  await builder.connect(new StreamableHTTPClientTransport(new URL(`${f.origin}/mcp`), { requestInit: { headers: { Authorization: `Bearer ${auth.access_token}` } } }))
+  t.after(() => builder.close())
+  assert.ok((await builder.listTools()).tools.some((t) => t.name === 'start_build'))
+  const result = await builder.callTool({ name: 'start_build', arguments: { project_id: f.project.id, expected_version: 2, action: 'test' } })
+  assert.ok(!result.isError)
+  const job = JSON.parse(result.content[0].text)
+  assert.equal((await f.request(`/api/jobs/${job.id}`, { user: f.b })).status, 404)
+  assert.equal((await f.request(`/api/jobs/${job.id}/cancel`, { user: f.b, method: 'POST', body: {} })).status, 404)
+  assert.equal((await f.request(`/api/jobs/${job.id}/artifact`, { user: f.b })).status, 404)
+  assert.equal((await f.request(`/api/jobs/${job.id}/cancel`, { method: 'POST', body: {}, headers: { 'X-CSRF-Token': 'wrong' } })).status, 403)
+  const complete = await builder.callTool({ name: 'get_build', arguments: { job_id: job.id } })
+  assert.equal(JSON.parse(complete.content[0].text).status, 'succeeded')
 })

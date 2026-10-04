@@ -50,7 +50,7 @@ export function OotleHome({ plugin }: { plugin: any }) {
     }} />
     <h2>Develop</h2>
     <div className="ootle-home-grid">
-      <button onClick={() => tools('build')}><b>Compile & test</b><span>Run Cargo through your local companion</span></button>
+      <button onClick={() => tools('build')}><b>Compile & test</b><span>Use an isolated cloud worker or local Cargo</span></button>
       <button onClick={() => tools('agents')}><b>Connect your agent</b><span>Codex, Claude Cowork and other MCP agents</span></button>
       <button onClick={() => tools('assistant')}><b>Local assistant</b><span>Use an installed Ollama model through your companion</span></button>
       <button onClick={() => tools('deploy')}><b>Deploy a template</b><span>Download WASM and follow the official Tari guide</span></button>
@@ -61,7 +61,7 @@ export function OotleHome({ plugin }: { plugin: any }) {
       <a href="https://ootle.tari.com/" target="_blank" rel="noreferrer"><b>Tari developer guides</b><span>Templates, authorization, wallets and transactions</span></a>
       <a href="https://github.com/tari-project/wasm-template" target="_blank" rel="noreferrer"><b>Official template sources</b><span>Explore Counter, tokens, NFTs, swaps and more</span></a>
     </div>
-    <p className="ootle-note">Workspaces save in this browser. Export backups from the file explorer. Network deployment, shared hosting and Lobby publishing are separate integrations.</p>
+    <p className="ootle-note">Workspaces save in this browser. Share a workspace to sync agent edits and use cloud builds. Export backups from the file explorer. Network deployment and Lobby publishing are separate integrations.</p>
     <footer><a href="https://github.com/marguerite347/ootle-workbench">Source & developer handoff</a> · Built on <a href="https://github.com/remix-project-org/remix-project">Remix v2.6.5</a></footer>
   </main>
 }

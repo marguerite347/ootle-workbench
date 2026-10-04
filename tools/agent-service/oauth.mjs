@@ -1,6 +1,6 @@
 import { InvalidClientMetadataError, InvalidGrantError, InvalidTokenError, InvalidScopeError, InvalidTargetError, InvalidRequestError } from '@modelcontextprotocol/sdk/server/auth/errors.js'
 import { random, hash, now } from './store.mjs'
-export const SCOPES = ['workspace:read', 'workspace:write']
+export const SCOPES = ['workspace:read', 'workspace:write', 'workspace:build']
 export function provider(store, origin) {
   const resource = `${origin}/mcp`
   function checkResource(value) {

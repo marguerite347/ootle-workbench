@@ -12,13 +12,14 @@ export class Problem extends Error {
     this.status = status
   }
 }
+const textFile = /(?:\.(?:rs|toml|lock|md|txt|json|ts|tsx|js|jsx|mjs|cjs|css|html|yaml|yml|svg)|^(?:Dockerfile|LICENSE|Makefile|\.gitignore))$/i
 export function validateFiles(files) {
   if (!files || typeof files !== 'object' || Array.isArray(files)) throw new Problem(400, 'Expected a file map.')
   const entries = Object.entries(files)
   if (!entries.length || entries.length > 300) throw new Problem(400, 'Share between 1 and 300 text files.')
   let bytes = 0
   for (const [path, content] of entries) {
-    if (path.length > 240 || !/^[a-zA-Z0-9_.@ /-]+$/.test(path) || path.startsWith('/') || path.split('/').some((p) => !p || p === '.' || p === '..' || /^(\.git|node_modules|target|\.deps|\.env(?:\..*)?|.*\.(?:pem|key|p12|pfx))$/i.test(p))) throw new Problem(400, `File cannot be shared: ${path.slice(0, 240)}`)
+    if (!textFile.test(path.split('/').pop()) || path.length > 240 || !/^[a-zA-Z0-9_.@ /-]+$/.test(path) || path.startsWith('/') || path.split('/').some((p) => !p || p === '.' || p === '..' || /^(\.git|node_modules|target|\.deps|\.env(?:\..*)?|.*\.(?:pem|key|p12|pfx))$/i.test(p))) throw new Problem(400, `File cannot be shared: ${path.slice(0, 240)}`)
     if (typeof content !== 'string' || content.includes('\0')) throw new Problem(400, 'Only UTF-8 text files can be shared.')
     bytes += Buffer.byteLength(content)
   }

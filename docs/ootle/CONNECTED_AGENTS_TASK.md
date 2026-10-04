@@ -43,3 +43,6 @@ Gap: the deployed Workbench is static and has no account service or durable data
 
 ## Release and evidence
 Document exact setup variables, callback URL, persistent storage, start/test commands, backup/restore and revocation semantics. Use a dedicated disposable project for tests. State whether Codex and Cowork were actually exercised, not merely compatible by protocol. Record external requirements explicitly as DEV_REQUIRED identifiers. If deployment needs credentials, account creation, spending or permissions not available, finish code, tests and a reviewable PR first and identify the specific remaining action. Do not claim the user's goal complete while deployment/provider acceptance remains outstanding.
+
+## Scope extension approved by the user
+The user subsequently approved hosted compilation/testing and a fully usable agent-to-build workflow. Follow [Operational Workbench instructions](OPERATIONAL_WORKBENCH_TASK.md) for the separately scoped build capability and release acceptance. The original prohibition on exposing the local Cargo companion still applies.
