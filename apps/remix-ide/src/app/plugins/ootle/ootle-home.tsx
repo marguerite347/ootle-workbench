@@ -1,5 +1,4 @@
-import React, { useState, useRef } from 'react'
-import { legacyWorkspaces } from './import-legacy'
+import React, { useState } from 'react'
 import './ootle.css'
 
 export const OotleBrand = () => <span className="ootle-brand"><img src="assets/ootle/mark.svg" alt="" /><span className="ootle-wordmark"><strong>ootle</strong>workbench</span></span>
@@ -7,7 +6,6 @@ export const OotleBrand = () => <span className="ootle-brand"><img src="assets/o
 export function OotleHome({ plugin }: { plugin: any }) {
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(false)
-  const backupInput = useRef<HTMLInputElement>(null)
   const action = async (fn: () => Promise<any>) => { setBusy(true); setError(''); try { await fn() } catch (e) { setError(e.message) } finally { setBusy(false) } }
   const create = () => action(async () => {
     const name = `Tari_Counter_${Date.now().toString(36)}`
@@ -30,24 +28,7 @@ export function OotleHome({ plugin }: { plugin: any }) {
     <div className="ootle-home-grid">
       <button disabled={busy} onClick={() => action(() => plugin.call('filePanel', 'clone'))}><b>Clone a repository</b><span>Use Remix’s Git workflow</span></button>
       <button disabled={busy} onClick={() => action(() => plugin.call('menuicons', 'select', 'filePanel'))}><b>Open your files</b><span>File explorer, import, search and version control</span></button>
-      <button disabled={busy} onClick={() => backupInput.current?.click()}><b>Import earlier Workbench backup</b><span>Restore your files into new Remix workspaces</span></button>
-      <a href="https://ootle-lobby-preview.vercel.app/workbench-backup" target="_blank" rel="noreferrer"><b>Recover earlier workspaces</b><span>Download the files saved in this browser by the previous editor</span></a>
     </div>
-    <input ref={backupInput} type="file" accept=".json,application/json" hidden aria-label="Earlier Workbench backup" onChange={event => {
-      const file = event.target.files?.[0]; event.target.value = ''
-      if (!file) return
-      action(async () => {
-        if (file.size > 24 * 1024 * 1024) throw new Error('Backup exceeds 24 MiB.')
-        const workspaces = legacyWorkspaces(await file.text())
-        for (const [index, workspace] of workspaces.entries()) {
-          const name = `Imported_${workspace.name.replace(/[^a-zA-Z0-9_-]/g, '_').slice(0, 30)}_${Date.now().toString(36)}_${index}`
-          await plugin.call('filePanel', 'createWorkspace', name, 'blank')
-          await plugin.call('filePanel', 'switchToWorkspace', { name, isLocalHost: false })
-          for (const [path, content] of Object.entries(workspace.files)) await plugin.call('fileManager', 'writeFile', path, content)
-        }
-        await plugin.call('menuicons', 'select', 'filePanel')
-      })
-    }} />
     <h2>Develop</h2>
     <div className="ootle-home-grid">
       <button onClick={() => tools('build')}><b>Compile & test</b><span>Run Cargo through your local companion</span></button>
