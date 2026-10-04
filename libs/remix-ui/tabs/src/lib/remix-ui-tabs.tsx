@@ -114,7 +114,7 @@ const tabsReducer = (state: ITabsState, action: ITabsAction) => {
     return state
   }
 }
-const PlayExtList = ['js', 'ts', 'sol', 'circom', 'vy', 'nr', 'yul', 'sql', 'subgraph']
+const PlayExtList = ['rs', 'js', 'ts', 'sol', 'circom', 'vy', 'nr', 'yul', 'sql', 'subgraph']
 
 export const TabsUI = (props: TabsUIProps) => {
 
@@ -504,6 +504,11 @@ export const TabsUI = (props: TabsUIProps) => {
   }
 
   const handleCompileClick = async () => {
+    if (tabsState.currentExt === 'rs') {
+      await props.plugin.call('manager', 'activatePlugin', 'tari')
+      await props.plugin.call('tari', 'open', 'build')
+      return
+    }
     if (canRunScenario) {
       await handleRunScenario()
       return
@@ -852,7 +857,9 @@ For Inline mode, preserve the existing /frontend overwrite confirmation flow.`
   // })()
 
   let mainLabel = ''
-  if (canRunScenario) {
+  if (tabsState.currentExt === 'rs') {
+    mainLabel = 'Build Tari'
+  } else if (canRunScenario) {
     mainLabel = compileState === 'compiling' ? 'Running...' : 'Run'
   } else if (tabsState.currentExt === 'sql') {
     mainLabel = 'Run SQL'

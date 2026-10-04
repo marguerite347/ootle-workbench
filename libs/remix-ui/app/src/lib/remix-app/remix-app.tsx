@@ -5,7 +5,6 @@ import 'libs/remix-ui/remix-ai-assistant/src/css/remix-ai-assistant.css'
 import { RemixUIMainPanel } from '@remix-ui/panel'
 import MatomoDialog from './components/modals/matomo'
 import ManagePreferencesDialog from './components/modals/managePreferences'
-import { OriginWarning } from './components/modals/origin-warning'
 import { NudgeBanner } from './components/modals/nudge-banner'
 import DragBar from './components/dragbar/dragbar'
 import { AppProvider } from './context/provider'
@@ -370,7 +369,7 @@ const RemixApp = (props: IRemixAppUi) => {
               <MatomoDialog hide={!appReady} managePreferencesFn={() => setShowManagePreferencesDialog(true)}></MatomoDialog>
               {showManagePreferencesDialog && <ManagePreferencesDialog></ManagePreferencesDialog>}
               <div className="d-flex flex-column col-12 vh-100">
-                <OriginWarning />
+                {/* This self-hostable fork has its own origin and backup migration; upstream Remix relocation banners do not apply. */}
                 <NudgeBanner />
                 {!props.app.desktopClientMode && (
                   <div ref={topBarRef} className='top-bar'>

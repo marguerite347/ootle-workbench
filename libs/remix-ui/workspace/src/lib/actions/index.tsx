@@ -115,10 +115,10 @@ const cleanupCodeSampleWorkspaces = (workspaces: { name: string; isGitRepo: bool
 
 const basicWorkspaceInit = async (workspaces: { name: string; isGitRepo: boolean; }[], workspaceProvider) => {
   if (workspaces.length === 0) {
-    await createWorkspaceTemplate('default_workspace', 'remixDefault')
-    plugin.setWorkspace({ name: 'default_workspace', isLocalhost: false })
-    dispatch(setCurrentWorkspace({ name: 'default_workspace', isGitRepo: false }))
-    await loadWorkspacePreset('remixDefault')
+    await createWorkspaceTemplate('tari_workspace', 'tariCounter')
+    plugin.setWorkspace({ name: 'tari_workspace', isLocalhost: false })
+    dispatch(setCurrentWorkspace({ name: 'tari_workspace', isGitRepo: false }))
+    await loadWorkspacePreset('tariCounter')
   } else {
     if (workspaces.length > 0) {
       const workspace = workspaces[workspaces.length - 1]

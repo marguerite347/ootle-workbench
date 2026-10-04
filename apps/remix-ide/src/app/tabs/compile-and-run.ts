@@ -25,7 +25,11 @@ export class CompileAndRun extends Plugin {
       if ((e.metaKey || e.ctrlKey) && e.shiftKey && e.keyCode === 83) {
         const file = await this.call('fileManager', 'file')
         if (file) {
-          if (file.endsWith('.sol')) {
+          if (file.endsWith('.rs')) {
+            e.preventDefault()
+            await this.call('manager', 'activatePlugin', 'tari')
+            await this.call('tari', 'open', 'build')
+          } else if (file.endsWith('.sol')) {
             e.preventDefault()
             this.targetFileName = file
             await this.call('solidity', 'compile', file)

@@ -1,0 +1,57 @@
+name: Ootle validation
+on:
+  push:
+    branches: [ootle, feat/tari-workbench]
+  pull_request:
+    branches: [ootle]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ootle-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  ide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.3.0'
+      - run: npm install --global yarn@1.22.22
+      - run: yarn install --frozen-lockfile --ignore-engines --non-interactive
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+          PUPPETEER_SKIP_DOWNLOAD: 'true'
+      - run: node --test tools/tari-companion/server.test.mjs
+      - run: yarn build:libs
+        env:
+          NX_NO_CLOUD: 'true'
+          NX_DAEMON: 'false'
+      - run: yarn build:production
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ootle-workbench-web
+          path: dist/apps/remix-ide
+          retention-days: 7
+  tari:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: '1.95.0'
+          targets: wasm32-unknown-unknown
+      - run: cargo test --locked --manifest-path templates/tari-counter/Cargo.toml
+      - run: cargo build --locked --release --target wasm32-unknown-unknown --manifest-path templates/tari-counter/Cargo.toml
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.3.0'
+      - run: node tools/tari-companion/smoke.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tari-counter-wasm
+          path: templates/tari-counter/target/wasm32-unknown-unknown/release/*.wasm
+          retention-days: 7

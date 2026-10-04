@@ -1,3 +1,4 @@
+export { default as tariCounter } from './templates/tariCounter'
 export { default as remixDefault } from './templates/remixDefault'
 export { default as simpleEip7702 } from './templates/simpleEip7702'
 export { default as introToEIP7702 } from './templates/introToEIP7702'

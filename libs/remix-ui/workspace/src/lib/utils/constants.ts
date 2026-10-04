@@ -2,6 +2,7 @@ import { TemplateType } from '../types'
 export const ROOT_PATH = '/'
 
 export const TEMPLATE_NAMES = {
+  tariCounter: 'Tari Counter',
   'remixDefault': 'Basic',
   'blank': 'Blank',
   'ozerc20': 'OpenZeppelin ERC20',

@@ -1,0 +1,6 @@
+{
+  "framework": null,
+  "installCommand": "yarn install --frozen-lockfile --ignore-engines --non-interactive",
+  "buildCommand": "NX_NO_CLOUD=true NX_DAEMON=false yarn build:libs && yarn build:production && node tools/package-web.mjs",
+  "outputDirectory": "dist/apps/remix-ide"
+}

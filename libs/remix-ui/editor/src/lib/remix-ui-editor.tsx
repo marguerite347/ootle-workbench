@@ -554,7 +554,10 @@ export const EditorUI = (props: EditorUIProps) => {
     editorRef.current.updateOptions({
       readOnly: editorModelsState[props.currentFile].readOnly,
     })
-    if (file.language === 'sol') {
+    // DEV_REQUIRED[RUST-LSP]: syntax coloring only; wire rust-analyzer for Cargo-aware diagnostics.
+    if (file.language === 'rs') {
+      monacoRef.current.editor.setModelLanguage(file.model, 'rust')
+    } else if (file.language === 'sol') {
       monacoRef.current.editor.setModelLanguage(file.model, 'remix-solidity')
     } else if (file.language === 'cairo') {
       monacoRef.current.editor.setModelLanguage(file.model, 'remix-cairo')
@@ -2420,7 +2423,7 @@ For Inline mode, preserve the existing /frontend overwrite confirmation flow.`
       )}
 
       {/* Floating Action Button for AI Tools */}
-      {!props.isDiff && props.currentFile && (
+      {!props.isDiff && props.currentFile?.endsWith('.sol') && (
         <FloatingActionButton
           onEditWithAI={handleEditWithAI}
           onExplainContract={handleExplainContract}
