@@ -2,6 +2,7 @@ import { TemplateGroup } from "@remix-ui/workspace"
 export const templates = (intl: any, plugin: any): TemplateGroup[] => {
 
   return [
+    { name: "Tari Ootle", items: [{ value: "tariCounter", tagList: ["Rust", "WASM"], displayName: "Tari Counter", description: "Pinned Rust starter with owner authorization and local engine tests" }] },
     {
       name: "Generic",
       items: [

@@ -299,8 +299,8 @@ export const Preload = (props: PreloadProps) => {
       <div className="preload-container" >
         <div className="preload-main">
           <div className="preload-logo text-center">
-            <img src="assets/img/remix-logo-blue.png" alt="Remix logo" width="64" height="64" />
-            <div className="preload-title">REMIX IDE</div>
+            <img src="assets/ootle/mark.svg" alt="Ootle Workbench" width="64" height="64" />
+            <div className="preload-title">ootleworkbench</div>
             <div className="preload-sub"><span className="version">v{version}</span></div>
           </div>
           {!supported ? (
@@ -357,10 +357,7 @@ export const Preload = (props: PreloadProps) => {
           ) : null}
         </div>
         <div className="preload-bottom opt-out">
-          { tip && <div className='remix_tips text-center mt-3'>
-            <div><b>DID YOU KNOW</b></div>
-            <span>{tip}</span>
-          </div> }
+          <div className="text-center">Tari Rust/WASM workspace · built on Remix</div>
         </div>
       </div>
     </>

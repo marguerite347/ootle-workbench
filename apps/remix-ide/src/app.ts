@@ -1,3 +1,4 @@
+import { TariPlugin } from './app/plugins/ootle/tari-plugin'
 'use strict'
 import { RunTab, makeUdapp } from './app/udapp'
 import { RemixEngine } from './remixEngine'
@@ -668,6 +669,8 @@ class AppComponent {
     const filePanel = new Filepanel(appManager, contentImport)
     this.statusBar = new StatusBar(filePanel, this.menuicons)
     this.topBar = new Topbar(filePanel, git, this.desktopClientMode)
+    const tariTools = new TariPlugin()
+    this.engine.register(tariTools)
     const landingPage = new LandingPage(appManager, this.menuicons, fileManager, filePanel, contentImport)
     this.settings = new SettingsTab(Registry.getInstance().get('config').api, editor)//, appManager)
 
@@ -799,19 +802,19 @@ class AppComponent {
       'compilerloader',
       'assistantState',
       'remixAI',
-      'remixaiassistant'
+      'tari'
     ])
 
     await this.appManager.activatePlugin(['auth'])
     await this.appManager.activatePlugin(['invitationManager'])
     await this.appManager.activatePlugin(['membershipRequest'])
-    await this.appManager.activatePlugin(['betaCornerWidget'])
-    await this.appManager.activatePlugin(['nudgePlugin'])
+    // DEV_REQUIRED[FORK-SERVICES]: upstream paid-service promotions are not Tari features.
+    // Upstream marketing nudges are not activated in Ootle.
     await this.appManager.activatePlugin(['notificationCenter'])
     await this.appManager.activatePlugin(['feedback'])
     await this.appManager.activatePlugin(['settings'])
 
-    await this.appManager.activatePlugin(['storage', 'storageMonitor', 'search', 'compileAndRun', 'dgitApi', 'dgit', 'helpPlugin', 'planManager'])
+    await this.appManager.activatePlugin(['storage', 'storageMonitor', 'search', 'compileAndRun', 'dgitApi', 'dgit', 'helpPlugin'])
     await this.appManager.activatePlugin(['solidity-script', 'remix-templates'])
 
     if (isElectron()) {
@@ -860,7 +863,7 @@ class AppComponent {
       document.body.appendChild(loadedElement)
 
       // Fire lifecycle event into nudge engine so context-aware rules can activate
-      this.appManager.call('nudgePlugin', 'fire', 'lifecycle:APP_LOADED').catch(() => {})
+      // Ootle does not activate upstream subscription promotions.
     })
 
     // Editor mounted: activate workspace plugins, then signal readiness
@@ -961,7 +964,7 @@ class AppComponent {
     })
 
     // activate solidity plugin
-    this.appManager.activatePlugin(['solidity', 'udapp', 'deploy-libraries', 'link-libraries', 'openzeppelin-proxy', 'scriptRunnerBridge', 'resolutionIndex'])
+    this.appManager.activatePlugin(['scriptRunnerBridge', 'resolutionIndex'])
 
     if (isElectron()) {
       this.appManager.activatePlugin(['desktopHost'])

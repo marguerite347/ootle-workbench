@@ -2,15 +2,15 @@
 import React from 'react' // eslint-disable-line
 import * as packageJson from '../../../../../../package.json'
 import { ViewPlugin } from '@remixproject/engine-web'
-import { RemixUiHomeTab } from '@remix-ui/home-tab' // eslint-disable-line
+import { OotleHome } from '../../plugins/ootle/ootle-home' // eslint-disable-line
 
 const profile = {
   name: 'home',
   displayName: 'Home',
   methods: [],
   events: [],
-  description: 'Remix Home',
-  icon: 'assets/img/remix-logo-blue.png',
+  description: 'Ootle Workbench Home',
+  icon: 'assets/ootle/mark.svg',
   location: 'mainPanel',
   version: packageJson.version
 }
@@ -31,7 +31,7 @@ export class LandingPage extends ViewPlugin {
 
   render () {
     return <div id='landingPageHomeContainer' className='remixui_homeContainer justify-content-between bg-light d-flex overflow-y-hidden' data-id='landingPageHomeContainer'>
-      <RemixUiHomeTab plugin={this} />
+      <OotleHome plugin={this} />
     </div>
   }
 }
