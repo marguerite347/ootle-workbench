@@ -123,6 +123,9 @@ export function createService({ store, origin, ideOrigins, githubClientId, githu
     if (!user) return res.redirect(`/login?next=${encodeURIComponent(`/consent?request=${request}`)}`)
     if (pending.session && pending.session !== hash(cookies(req)[cookieName])) throw new Problem(403, 'Authorization belongs to another session. Restart from your agent.')
     await store.put('consent', hash(request), { ...pending, session: hash(cookies(req)[cookieName]) }, now() + 600)
+    // no-referrer makes native form POSTs send Origin: null. Preserve the
+    // same-origin Origin needed by CSRF checks without leaking cross-site URLs.
+    res.set('Referrer-Policy', 'same-origin')
     // Browsers apply form-action to OAuth redirects as well as the form target.
     // Permit only this request's already-validated, registered callback origin.
     res.set('Content-Security-Policy', res.get('Content-Security-Policy').replace("form-action 'self'", `form-action 'self' ${new URL(pending.redirectUri).origin}`))
