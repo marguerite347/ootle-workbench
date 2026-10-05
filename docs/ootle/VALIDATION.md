@@ -79,3 +79,8 @@ Supersedes the earlier pending GitHub/Codex/Cowork checkpoints above.
 - The production dashboard shows OpenRouter connected until 2026-11-03. Selected only src/lib.rs from shared Counter version 3 and submitted a real request to openrouter/free. The actual answer correctly described the zero initial value, public value() access, default denial of increment(), and checked overflow panic. No project writes were performed.
 - Reloading the dashboard preserved the connected state and actual saved answer. The earlier OpenRouter pending-auth/response checkpoints above are superseded. Cursor's final grant approval and native tool acceptance remain pending.
 - The IDE was rebuilt from e131fa8, including current ootle changes through af29461; production build passed and the served build.json matched e131fa83c17821b0cc3d11dbf8a77d6be9f8ff12. Real Chrome inspection verified Agents & OpenRouter in the AI panel while retaining both agent acceptance files and current product links.
+
+## Until-disconnected authorization — 2026-10-04
+- Fourteen backend tests pass, including six-month clock advance, expiring access tokens, persistent rotating refresh tokens, replay revocation, immediate disconnect, encrypted provider credential persistence, and owner-scoped duration migration. Existing finite, expired or revoked grants remain enforced.
+- Cursor completed a real native read of Counter src/lib.rs at shared version 3; independently confirmed in production activity. Its approved scope is read-only, so no edit was attempted and no CURSOR_ACCEPTANCE.md exists.
+- Production lifetime migration and OpenRouter No expiration reconnection are pending deployment verification below.

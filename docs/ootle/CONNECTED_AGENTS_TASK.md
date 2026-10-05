@@ -15,7 +15,7 @@ Build the direct authorization experience requested by the user: agents connect 
 3. Explicitly share a selected workspace; show files/limits and what leaves the browser.
 4. Copy a real MCP endpoint and follow client-specific instructions. The client initiates OAuth; Ootle presents the actual client identity/redirect, chosen project and requested permissions.
 5. Consent grants read access and optional edit access. No build/deploy permissions unless a real implementation enforces them.
-6. List authorized connections, project scope, expiry and recent activity. Disconnect revokes access server-side immediately.
+6. List authorized connections, project scope, Until disconnected duration and recent activity. Disconnect revokes access server-side immediately.
 7. Review remote changes and synchronize using version checks. Concurrent edits must produce a recoverable conflict, never silent overwrite. Recover cloud files into a new local workspace if needed.
 
 ## Architecture and resource selection receipt

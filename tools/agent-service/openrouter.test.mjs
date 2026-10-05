@@ -56,6 +56,11 @@ test('OpenRouter PKCE is session-bound, single-use, encrypted per owner and revo
   assert.throws(() => f.client.unseal('bob', stored))
   assert.equal((await f.client.status('bob')).connected, false)
   assert.equal((await f.client.status('alice')).settingsUrl, `https://openrouter.ai/keys/${hash('fixture-provider-key')}`)
+  assert.equal(stored.expires, null)
+  const future = Date.now() + 180 * 86400000
+  t.mock.method(Date, 'now', () => future)
+  await f.store.cleanup()
+  assert.equal((await f.client.status('alice')).connected, true)
   await f.client.disconnect('alice')
   assert.equal((await f.client.status('alice')).connected, false)
 })

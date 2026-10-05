@@ -85,12 +85,12 @@ async function refresh() {
         await refresh()
       })
   }
-  const active = account.connections.filter((g) => !g.revoked && g.expires > Date.now() / 1000)
+  const active = account.connections.filter((g) => !g.revoked && (g.expires === null || g.expires > Date.now() / 1000))
   if (!active.length) node('p', 'No agents authorized. Adding a server in your agent will start authorization.', $('connections'))
   for (const grant of active) {
     const row = node('div', '', $('connections'), 'row')
     node('strong', grant.name, row)
-    node('p', `${grant.projectName} · ${grant.scopes.includes('workspace:write') ? 'Read and edit' : 'Read only'}${grant.scopes.includes('workspace:build') ? ' + builds/tests' : ''} · expires ${new Date(grant.expires * 1000).toLocaleDateString()}`, row, 'muted')
+    node('p', `${grant.projectName} · ${grant.scopes.includes('workspace:write') ? 'Read and edit' : 'Read only'}${grant.scopes.includes('workspace:build') ? ' + builds/tests' : ''} · ${grant.expires === null ? 'Until disconnected' : `expires ${new Date(grant.expires * 1000).toLocaleDateString()}`}`, row, 'muted')
     button('Disconnect', row, async () => {
       await api(`/api/connections/${grant.id}/revoke`, 'POST', {})
       await refresh()
@@ -224,7 +224,12 @@ async function refreshModelConnection() {
     })
     return
   }
-  node('p', `Connected until ${new Date(status.expires * 1000).toLocaleDateString()}.`, root)
+  node('p', status.expires === null ? 'Connected until you disconnect.' : `Connected until ${new Date(status.expires * 1000).toLocaleDateString()}.`, root)
+  node('p', 'OpenRouter controls its own key expiration. To remove an existing expiration, reconnect and choose No expiration on its approval screen.', root, 'muted')
+  button('Reconnect OpenRouter', root, async () => {
+    const result = await api('/api/openrouter/connect', 'POST', {})
+    location.assign(result.url)
+  })
   const settings = node('a', 'Manage or revoke key in OpenRouter', root)
   settings.href = status.settingsUrl
   settings.target = '_blank'

@@ -54,7 +54,7 @@ export class OpenRouter {
     const response = await this.request(`${API}/auth/keys`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ code, code_verifier: pending.verifier, code_challenge_method: 'S256' }), signal: AbortSignal.timeout(15000) })
     const data = await response.json()
     if (!response.ok || typeof data.key !== 'string' || !data.key || data.key.length > 4096) throw new Problem(400, 'OpenRouter could not authorize this connection. Connect again.')
-    const expires = now() + 30 * 86400
+    const expires = null
     await this.store.put('openrouter-key', owner, { ...this.seal(owner, data.key), keyHash: hash(data.key), expires }, expires)
   }
   async disconnect(owner) {

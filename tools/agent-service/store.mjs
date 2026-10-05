@@ -35,6 +35,7 @@ export class Store {
     const { PGlite } = await import('@electric-sql/pglite')
     const db = new PGlite(directory)
     await db.exec(await readFile(new URL('./migrations/001_agent_service.sql', import.meta.url), 'utf8'))
+    await db.exec(await readFile(new URL('./migrations/002_connection_duration.sql', import.meta.url), 'utf8'))
     return new Store(db)
   }
   static postgres(connectionString) {
@@ -127,17 +128,36 @@ export class Store {
   async grant(owner, project, client, name, scopes) {
     await this.project(project, owner)
     await this.query('SELECT pg_advisory_xact_lock(hashtext($1))', [owner])
-    if ((await this.grants(owner)).filter((g) => !g.revoked && g.expires > now()).length >= 50) throw new Problem(409, 'Disconnect an existing agent before adding more.')
+    if ((await this.grants(owner)).filter((g) => !g.revoked && (g.expires === null || g.expires > now())).length >= 50) throw new Problem(409, 'Disconnect an existing agent before adding more.')
     const id = randomUUID()
-    await this.query('INSERT INTO ootle_agents.grants VALUES($1,$2,$3,$4,$5,$6,$7,$8,NULL)', [id, owner, project, client, name.slice(0, 100), JSON.stringify(scopes), now(), now() + 30 * 86400])
+    await this.query('INSERT INTO ootle_agents.grants VALUES($1,$2,$3,$4,$5,$6,$7,$8,NULL)', [id, owner, project, client, name.slice(0, 100), JSON.stringify(scopes), now(), null])
     await this.log(owner, project, name, 'Authorized')
     return id
   }
   async getGrant(id) {
-    return (await this.query('SELECT * FROM ootle_agents.grants WHERE id=$1 AND revoked IS NULL AND expires>$2', [id, now()])).rows[0]
+    return (await this.query('SELECT * FROM ootle_agents.grants WHERE id=$1 AND revoked IS NULL AND (expires IS NULL OR expires>$2)', [id, now()])).rows[0]
   }
   async grants(owner) {
     return (await this.query('SELECT g.*,p.name AS "projectName" FROM ootle_agents.grants g JOIN ootle_agents.projects p ON p.id=g.project WHERE g.owner=$1 ORDER BY g.created DESC', [owner])).rows
+  }
+  // Explicit owner-scoped migration: never revive expired or revoked connections.
+  async keepConnectionsUntilDisconnected(owner) {
+    return this.transaction(async () => {
+      const changed = await this.query('UPDATE ootle_agents.grants SET expires=NULL WHERE owner=$1 AND revoked IS NULL AND expires>$2 RETURNING id,project,name', [owner, now()])
+      await this.query(
+        `UPDATE ootle_agents.records r SET expires=NULL FROM ootle_agents.grants g
+        WHERE r.kind='refresh' AND r.value->>'grant'=g.id AND g.owner=$1
+        AND g.revoked IS NULL AND g.expires IS NULL AND r.expires>$2`,
+        [owner, now()],
+      )
+      const provider = await this.query(
+        `UPDATE ootle_agents.records SET expires=NULL, value=jsonb_set(value,'{expires}','null'::jsonb)
+        WHERE kind='openrouter-key' AND id=$1 AND expires>$2 RETURNING id`,
+        [owner, now()],
+      )
+      for (const grant of changed.rows) await this.log(owner, grant.project, grant.name, 'Connection duration changed to until disconnected')
+      return { agents: changed.rows.length, openrouter: provider.rows.length }
+    })
   }
   async revoke(id, owner) {
     const g = (await this.query('UPDATE ootle_agents.grants SET revoked=$1 WHERE id=$2 AND owner=$3 RETURNING *', [now(), id, owner])).rows[0]
