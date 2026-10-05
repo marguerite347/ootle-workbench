@@ -1,3 +1,4 @@
+import { BrowserWallet } from './wallet-client.js'
 const $ = (id) => document.getElementById(id)
 let account,
   incoming,
@@ -350,3 +351,31 @@ async function refreshDeployments() {
     }
   }
 }
+
+
+const browserWallet = new BrowserWallet(() => window.tari, renderWallet)
+function walletButton(label, parent, action) {
+  const control = node('button', label, parent)
+  control.onclick = action
+  return control
+}
+function renderWallet(state) {
+  const root = $('browser-wallet')
+  root.replaceChildren()
+  node('h3', 'Browser wallet · Sapient', root)
+  node('p', state.message || 'Connect your existing Sapient wallet to check its public account and Esmeralda network.', root)
+  if (state.status === 'connecting') return
+  if (state.status === 'connected') {
+    node('p', `${state.name} · Esmeralda testnet`, root)
+    node('p', `Account: ${state.account}`, root, 'digest')
+    node('p', 'Revealed balances (private balances are not requested):', root, 'muted')
+    if (!state.balances.length) node('p', 'No revealed balances returned by the wallet.', root)
+    for (const balance of state.balances) node('p', `${balance.amount} ${balance.symbol}`, root)
+    node('p', 'Connection is ready for supported wallet operations. This Sapient adapter cannot upload a new template. The prepared WASM and official-wallet publication path remain available below.', root)
+    walletButton('Refresh wallet', root, () => browserWallet.connect(false))
+    walletButton('Disconnect wallet', root, () => browserWallet.disconnect())
+  } else {
+    walletButton('Connect Sapient', root, () => browserWallet.connect(true))
+  }
+}
+renderWallet(browserWallet.state)
