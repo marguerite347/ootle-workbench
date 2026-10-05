@@ -97,9 +97,8 @@ async function refresh() {
       $('status').textContent = 'Disconnected. This agent can no longer access the project.'
     })
   }
-  await refreshModelConnection()
-  await refreshJobs()
-  await refreshDeployments()
+  const refreshed = await Promise.allSettled([refreshModelConnection(), refreshJobs(), refreshDeployments()])
+  for (const result of refreshed) if (result.status === 'rejected') $('status').textContent = result.reason.message
   for (const event of account.activity) node('li', `${event.agent}: ${event.action} · ${new Date(event.at * 1000).toLocaleString()}`, $('activity'))
 }
 let pollingJobs = false
