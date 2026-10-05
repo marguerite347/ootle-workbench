@@ -352,7 +352,6 @@ async function refreshDeployments() {
   }
 }
 
-
 const browserWallet = new BrowserWallet(() => window.tari, renderWallet)
 function walletButton(label, parent, action) {
   const control = node('button', label, parent)
@@ -379,3 +378,4 @@ function renderWallet(state) {
   }
 }
 renderWallet(browserWallet.state)
+if (window.tari) browserWallet.connect(false)
