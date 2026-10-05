@@ -39,7 +39,7 @@ async function snapshot(plugin: any): Promise<Snapshot> {
 const linkKey = (origin: string, name: string) => `ootle.agentLink:${origin}:${name}`
 const same = (a: Files, b: Files) => Object.keys(a).length === Object.keys(b).length && Object.keys(a).every(path => a[path] === b[path])
 
-export function ConnectedAgents({ plugin }: { plugin: any }) {
+export function ConnectedAgents({ plugin, mode = 'agents' }: { plugin: any; mode?: 'agents' | 'deploy' }) {
   const [service, setService] = useState('')
   const [configured, setConfigured] = useState(false)
   const [busy, setBusy] = useState(false)
@@ -96,7 +96,7 @@ export function ConnectedAgents({ plugin }: { plugin: any }) {
       outgoing.current = { ...local, ...(saved ? { projectId: saved.id, version: saved.version } : {}) }
       setBaseline(local); setPending(null)
       channel.current = crypto.randomUUID(); serviceOrigin.current = endpoint.origin
-      connection.location.href = `${endpoint.origin}/connect`
+      connection.location.href = `${endpoint.origin}/connect${mode === 'deploy' ? '#deploy' : ''}`
       setStatus('Complete GitHub sign-in and workspace sharing in the connection window.')
     }).catch(() => {})
   }
@@ -133,13 +133,13 @@ export function ConnectedAgents({ plugin }: { plugin: any }) {
   })
   const changed = pending ? Object.keys(pending.files).filter(path => baseline?.files[path] !== pending.files[path]) : []
   return <section className="ootle-agents" aria-label="Connected agents">
-    <h2>Agents & OpenRouter</h2>
-    <p>Connect Codex, Claude Cowork or Cursor to a workspace you choose. Review their changes here, or open the connection window to chat through OpenRouter.</p>
-    <div className="ootle-agent-options"><span>Codex</span><span>Claude Cowork</span><span>Cursor</span><span>OpenRouter</span><span>Other MCP agents</span></div>
-    <ol className="ootle-agent-steps"><li>Sign in with GitHub</li><li>Share a workspace</li><li>Authorize your agent</li></ol>
+    <h2>{mode === 'deploy' ? 'Publish a tested template' : 'Agents & OpenRouter'}</h2>
+    <p>{mode === 'deploy' ? 'Open your shared workspace, prepare a passing build, and publish its WASM through the official Tari wallet. Save the transaction to verify its network result and template ABI.' : 'Connect Codex, Claude Cowork or Cursor to a workspace you choose. Review their changes here, or open the connection window to chat through OpenRouter.'}</p>
+    {mode === 'agents' && <div className="ootle-agent-options"><span>Codex</span><span>Claude Cowork</span><span>Cursor</span><span>OpenRouter</span><span>Other MCP agents</span></div>}
+    <ol className="ootle-agent-steps"><li>{mode === 'deploy' ? 'Compile and test shared source' : 'Sign in with GitHub'}</li><li>{mode === 'deploy' ? 'Publish with your testnet wallet' : 'Share a workspace'}</li><li>{mode === 'deploy' ? 'Verify and save the receipt' : 'Authorize your agent'}</li></ol>
     {!configured && <p className="ootle-note">Hosted agent connections are not configured for this deployment. You can connect a separately hosted Workbench agent service below.</p>}
     <details open={!configured}><summary>Connection service</summary><label>Workbench service URL<input value={service} onChange={e => { setService(e.target.value); setLinked(null) }} placeholder="https://your-workbench-agent-service.example" /></label><p>Use a service you trust. After sign-in, the connection window receives this workspace’s supported text files so you can review and share them. Environment files, private-key files and build output are excluded.</p></details>
-    <button disabled={busy || !service} onClick={open}>{busy ? 'Preparing workspace…' : linked ? 'Manage agents, builds & sync' : 'Open connections'}</button>
+    <button disabled={busy || !service} onClick={open}>{busy ? 'Preparing workspace…' : mode === 'deploy' ? 'Open template publications' : linked ? 'Manage agents, builds & sync' : 'Open connections'}</button>
     <p className="ootle-note">Read, edit and cloud-build access are granted per project. Compile and test shared versions in the connection window. Deployment permissions are separate. Local workspaces stay in your browser until you share them.</p>
     {error && <p className="ootle-error" role="alert">{error}</p>}
     {status && <p role="status" aria-live="polite">{status}</p>}

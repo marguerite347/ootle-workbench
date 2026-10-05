@@ -99,6 +99,7 @@ async function refresh() {
   }
   await refreshModelConnection()
   await refreshJobs()
+  await refreshDeployments()
   for (const event of account.activity) node('li', `${event.agent}: ${event.action} · ${new Date(event.at * 1000).toLocaleString()}`, $('activity'))
 }
 let pollingJobs = false
@@ -142,6 +143,11 @@ async function refreshJobs() {
         const link = node('a', 'Download WASM', row, 'button')
         link.href = `/api/jobs/${job.id}/artifact`
         link.download = 'template.wasm'
+        button('Prepare publication', row, async () => {
+          await api(`/api/jobs/${job.id}/deployment`, 'POST', {})
+          await refreshDeployments()
+          $('deploy').scrollIntoView({ behavior: 'smooth' })
+        })
       }
     }
   } finally {
@@ -299,3 +305,49 @@ $('model-send').onclick = () =>
       $('model-status').textContent = e.message
     }
   })
+
+async function refreshDeployments() {
+  const root = $('deployments')
+  const records = await api('/api/deployments')
+  root.replaceChildren()
+  if (!records.length) node('p', 'Run tests and compile the same shared source, then choose Prepare publication on its successful build.', root)
+  for (const record of records) {
+    const row = node('div', '', root, 'row')
+    node('strong', `${record.projectName} · version ${record.version} · ${record.status.replaceAll('_', ' ')}`, row)
+    node('p', record.message, row)
+    node('p', 'Network: Esmeralda testnet', row)
+    const details = node('details', '', row)
+    node('summary', 'Build identity and publication evidence', details)
+    node('p', `Build SHA-256: ${record.artifactSha256}`, details, 'digest')
+    node('p', `Source SHA-256: ${record.sourceDigest}`, details, 'digest')
+    if (record.publishedBinaryHash) node('p', `Published SHA-256: ${record.publishedBinaryHash}`, details, 'digest')
+    if (record.templateAddress) node('p', `Template address: ${record.templateAddress}`, row, 'digest')
+    if (record.definition) node('pre', JSON.stringify(record.definition, null, 2), details)
+    if (record.fees !== undefined) node('p', `Reported fees paid (atomic units): ${record.fees ?? 'unknown'}`, details)
+    const wasm = node('a', 'Download prepared WASM', row, 'button')
+    wasm.href = `/api/deployments/${record.id}/artifact`
+    const receipt = node('a', 'Download receipt', row, 'button')
+    receipt.href = `/api/deployments/${record.id}/receipt`
+    const wallet = node('a', 'Open official local wallet', row, 'button')
+    wallet.href = 'http://localhost:5100/'
+    wallet.target = '_blank'; wallet.rel = 'noopener noreferrer'
+    const guide = node('a', 'Wallet setup and publication guide', row)
+    guide.href = 'https://ootle.tari.com/guides/publishing-templates/'
+    guide.target = '_blank'; guide.rel = 'noopener noreferrer'
+    if (!record.transactionId) node('p', 'In your running wallet: select Esmeralda, choose a funded fee account, upload the prepared WASM, estimate the fee, and approve Publish. Copy its transaction ID below. Closing this page before publishing leaves the preparation saved; nothing is submitted by Workbench.', row)
+    const label = node('label', 'Publication transaction ID', row)
+    const input = node('input', '', label)
+    input.value = record.transactionId || ''; input.maxLength = 64
+    input.readOnly = Boolean(record.transactionId)
+    input.autocomplete = 'off'; input.spellcheck = false
+    if (record.status !== 'verified') button(record.transactionId ? 'Check saved transaction' : 'Save transaction and verify', row, async () => {
+      await api(`/api/deployments/${record.id}/verify`, 'POST', { transactionId: input.value.trim().toLowerCase() })
+      await refreshDeployments()
+    })
+    if (record.transactionId) {
+      const result = node('a', 'View public transaction result', row)
+      result.href = `${record.indexer}/transactions/${record.transactionId}/result`
+      result.target = '_blank'; result.rel = 'noopener noreferrer'
+    }
+  }
+}

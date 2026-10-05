@@ -136,10 +136,9 @@ function TariTools({ plugin }: { plugin: TariPlugin }) {
       <p className="ootle-note">Suggestions only. Review and apply edits yourself. The assistant cannot run code or transact.</p>
     </>}
     {section === 'deploy' && <>
-      <h2>Deploy on Tari</h2><p>Compile and download your WASM, then publish it using the official Tari wallet or CLI workflow.</p>
-      <a className="ootle-link" href="https://ootle.tari.com/guides/publishing-templates/" target="_blank" rel="noreferrer">Open the Tari deployment guide</a>
-      {/* DEV_REQUIRED[TARI-DEPLOY]: wallet pairing, network/account selection, fee approval and accepted finalization. */}
-      <p className="ootle-note">Wallet connection and deployment inside this IDE are not connected. Publishing a template is separate from creating and calling a component.</p>
+      <ConnectedAgents plugin={plugin} mode="deploy" />
+      <p className="ootle-note">Esmeralda testnet. Signing and fee approval happen in the official wallet. Workbench retains the build and checks publication evidence; it does not hold your wallet keys. Publishing a template is separate from creating a component or hosting an app.</p>
+      {/* DEV_REQUIRED[TARI-WALLET-TRANSPORT]: direct wallet pairing remains separate from the supported official-wallet handoff. */}
     </>}
     {section === 'publish' && <>
       <h2>Publish to the Lobby</h2><p>Prepare your project details. Shared submission publishing is not connected yet.</p>

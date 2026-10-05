@@ -34,7 +34,7 @@ export function OotleHome({ plugin }: { plugin: any }) {
       <button onClick={() => tools('build')}><b>Compile & test</b><span>Use an isolated cloud worker or local Cargo</span></button>
       <button onClick={() => tools('agents')}><b>Connect your agent</b><span>Codex, Claude Cowork and other MCP agents</span></button>
       <button onClick={() => tools('assistant')}><b>Local assistant</b><span>Use an installed Ollama model through your companion</span></button>
-      <button onClick={() => tools('deploy')}><b>Deploy a template</b><span>Download WASM and follow the official Tari guide</span></button>
+      <button onClick={() => tools('deploy')}><b>Deploy a template</b><span>Prepare a tested build · publish with your wallet · verify the receipt</span></button>
       <button onClick={() => tools('publish')}><b>Share your project</b><span>Prepare an October or Community submission</span></button>
     </div>
     <h2>Learn & remix</h2>
