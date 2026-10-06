@@ -1,5 +1,7 @@
 # Ootle Workbench
 
+**Open contributor access:** [Join Lobby and Workbench](https://github.com/marguerite347/ootle-contributor-access/issues/new?template=join.yml). Anyone who requests access is automatically invited to both repositories until the owner changes the policy. Accept both invitations, then developers and their agents can commit, push and merge without a mandatory review gate. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
 A Tari Rust/WASM adaptation of **the actual Remix IDE**, forked from [Remix Project](https://github.com/remix-project-org/remix-project) v2.6.5. The product branch is `ootle`; upstream history remains available on `master`.
 
 The editor, files, workspaces and plugin infrastructure come from Remix. Tari support adds a pinned Counter starter, a local Cargo companion, an optional local AI adapter and clear integration boundaries. It is not a fully connected hosted Tari product yet.
