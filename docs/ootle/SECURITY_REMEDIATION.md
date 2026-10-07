@@ -29,3 +29,7 @@ Status starts pending. Each task must have code, tests/evidence and an honest di
 ## Implementation checkpoint
 
 S1-S4 and S6-S16 have implementations; final acceptance remains in progress. Eleven security regressions and 21 existing agent-service tests pass. First production build passed on baseline dependencies; upgraded clean-install build and browser verification are underway. Browser startup found and corrected a Matomo no-op compatibility regression. Dependency scope/dispositions are in [security/DEPENDENCIES.md](security/DEPENDENCIES.md). No production deployment has been claimed at this checkpoint.
+
+## Linux validation, first pass
+
+Run https://github.com/marguerite347/ootle-workbench/actions/runs/37675961804 at `2e09c7f`: both real Counter engine tests passed (public read/denied write, rollback); release WASM and encrypted HTTP companion smoke passed. Downloaded WASM: 108,043 bytes, SHA-256 `f65e329e896f41e3a9a0259d0b650a1151edcc47489bbeb24204010c2f017243`. Rust audit: zero vulnerabilities, zero yanked dependencies, three unsuppressed maintenance warnings; complete report in `security/rust-audit.json`. Web build found Handlebars' updated `Template` union type at the doc-generator partial call; narrowed it to the function type actually registered by this renderer. Final web build still required.

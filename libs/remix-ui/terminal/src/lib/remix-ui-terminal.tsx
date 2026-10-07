@@ -25,7 +25,6 @@ import RenderCall from './components/RenderCall' // eslint-disable-line
 import RenderKnownTransactions from './components/RenderKnownTransactions' // eslint-disable-line
 import DebuggerCallStack from './components/DebuggerCallStack' // eslint-disable-line
 import { showCopyableValues } from './components/CopyableValues' // eslint-disable-line
-import parse from 'html-react-parser'
 import { EMPTY_BLOCK, KNOWN_TRANSACTION, RemixUiTerminalProps, SET_ISVM, SET_OPEN, UNKNOWN_TRANSACTION, COPYABLE_VALUES } from './types/terminalTypes'
 import { wrapScript } from './utils/wrapScript'
 import { TerminalContext } from './context'

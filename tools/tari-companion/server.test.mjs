@@ -22,10 +22,11 @@ async function fixture(t, options = {}) {
 const failedRun = async () => ({ success: false, exitCode: 101, output: 'compile error', command: 'cargo build' })
 test('rejects escaping paths, normalization aliases, overrides, binary data and missing lockfiles', () => {
   for (const name of ['../outside', '/etc/file', 'src/../../file', 'src\\outside', 'C:/outside', 'a//b', '.git/config', 'target/file', 'e\u0301.rs', 'src/\n.rs']) assert.throws(() => validateFiles({ ...files, [name]: 'x' }), /Unsafe/)
-  for (const name of ['.cargo/config.toml', 'nested/.cargo/config', 'rust-toolchain', 'rust-toolchain.toml']) assert.throws(() => validateFiles({ ...files, [name]: 'x' }), /overrides/)
+  for (const name of ['.cargo/config.toml', 'nested/.cargo/config', 'rust-toolchain', 'rust-toolchain.toml', '.CARGO/config.toml', 'RUST-TOOLCHAIN']) assert.throws(() => validateFiles({ ...files, [name]: 'x' }), /overrides/)
   assert.throws(() => validateFiles({ ...files, 'x.rs': 12 }), /text/)
   assert.throws(() => validateFiles({ ...files, 'x.rs': 'x'.repeat(1024 * 1024 + 1) }), /text/)
   assert.throws(() => validateFiles({ 'Cargo.toml': '' }), /Cargo.lock/)
+  assert.throws(() => validateFiles({ ...files, 'cargo.toml': 'duplicate' }), /collide/)
   assert.throws(() => validateFiles(null), /file map/)
   assert.equal(sourceDigest(files), sourceDigest(Object.fromEntries(Object.entries(files).reverse())))
 })
@@ -115,4 +116,26 @@ test('private existing root is repaired; symlink roots are rejected', async t =>
   assert.equal((await stat(root)).mode & 0o777, 0o700)
   const link = root + '-link'; await symlink(root, link); t.after(() => rm(link))
   await assert.rejects(secureRoot(link), /Unsafe/)
+})
+
+test('expired approvals cannot run and a run failure still removes all disk state', async t => {
+  let now = Date.now(); let called = 0
+  const { request, root } = await fixture(t, { allowRun: true, now: () => now, approve: async () => true, run: async () => { called++; throw new Error('/Users/private-name/secrets failed') } })
+  const first = await request('/approve', { action: 'test', files })
+  now += 60001
+  await assert.rejects(request('/run', { approvalToken: first.approvalToken }), /fresh/)
+  assert.equal(called, 0)
+  const second = await request('/approve', { action: 'test', files })
+  await assert.rejects(request('/run', { approvalToken: second.approvalToken }), e => !e.message.includes('private-name') && /operation failed/.test(e.message))
+  assert.equal(called, 1); assert.deepEqual(await readdir(root), [])
+})
+test('ancestor Cargo configuration is refused, including hidden global wrappers', async t => {
+  const { root } = await fixture(t)
+  await mkdir(join(root, '.cargo')); await writeFile(join(root, '.cargo/config.toml'), '[build]\nrustc-wrapper="unexpected"')
+  await assert.rejects(secureRoot(join(root, 'child')), /ancestor Cargo/)
+})
+test('headless production approval fails closed', async t => {
+  if (process.stdin.isTTY) return t.skip('This regression specifically exercises non-TTY execution')
+  const { request } = await fixture(t, { allowRun: true, run: () => { throw new Error('Must never execute') } })
+  await assert.rejects(request('/approve', { action: 'build', files }), /declined/)
 })

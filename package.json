@@ -189,7 +189,7 @@
     "deep-equal": "^1.0.1",
     "deepagents": "^1.13.1",
     "document-register-element": "1.13.1",
-    "dompurify": "^3.2.5",
+    "dompurify": "3.4.16",
     "driver.js": "^1.4.0",
     "effect": "^3.19.8",
     "electron-squirrel-startup": "^1.0.0",
@@ -289,7 +289,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
-    "@babel/core": "^7.19.6",
+    "@babel/core": "7.29.7",
     "@babel/plugin-transform-modules-amd": "^7.10.4",
     "@babel/plugin-transform-modules-commonjs": "^7.19.6",
     "@babel/plugin-transform-object-assign": "^7.2.0",

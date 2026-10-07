@@ -30,3 +30,11 @@ test('terminal renders object-valued HTML as text and deployed CSP restricts scr
   assert.doesNotMatch(csp, /script-src[^;]*(?:'unsafe-inline'|'unsafe-eval'|https:)/)
   assert.match(config.installCommand, /--ignore-scripts/)
 })
+test('restored or URL-requested upstream service activation is denied', async () => {
+  const source = await read('apps/remix-ide/src/remixAppManager.ts')
+  const start = source.indexOf('export function canActivate(from, to) {')
+  const method = source.slice(start, source.indexOf('\n}\n', start) + 2).replace('export ', '')
+  const canActivate = vm.runInNewContext(`(${method})`, { isNative: () => true })
+  for (const name of ['auth', 'invitationManager', 'membershipRequest', 'notificationCenter', 'feedback', 'remixAI']) assert.equal(canActivate({ name: 'manager' }, { name }), false)
+  assert.equal(canActivate({ name: 'manager' }, { name: 'tari' }), true)
+})

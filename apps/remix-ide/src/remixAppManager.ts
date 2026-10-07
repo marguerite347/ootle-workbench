@@ -241,6 +241,9 @@ export function isNative(name) {
  * @returns {boolean}
  */
 export function canActivate(from, to) {
+  // These upstream cloud accounts/services do not belong to the Ootle fork.
+  // Block restored/plugin-requested activation as well as the startup list.
+  if (['auth', 'invitationManager', 'membershipRequest', 'notificationCenter', 'feedback', 'remixAI'].includes(to?.name)) return false
   return ['ethdoc'].includes(from.name) || isNative(from.name) || (to && from && from.canActivate && from.canActivate.includes(to.name))
 }
 

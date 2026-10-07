@@ -38,8 +38,8 @@ function itemPartial(item: DocItemWithContext, options?: RuntimeOptions) {
     throw new Error(`Partial 'item' used in unsupported context (not a doc item)`);
   }
   const partial = options?.partials?.[itemPartialName(item)];
-  if (!partial) {
-    throw new Error(`Missing partial '${itemPartialName(item)}'`);
+  if (typeof partial !== 'function') {
+    throw new Error(`Missing compiled partial '${itemPartialName(item)}'`);
   }
   return partial(item, options);
 }

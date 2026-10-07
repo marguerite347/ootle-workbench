@@ -25,7 +25,7 @@ async function collectFiles(plugin: TariPlugin) {
     const entries = await plugin.call('fileManager', 'readdir', dir)
     for (const [path, info] of Object.entries(entries)) {
       const name = path.replace(/^\/+/, '')
-      if (name.split('/').some(part => part === '.cargo' || part.startsWith('rust-toolchain'))) throw new Error('Local companion builds do not accept workspace Cargo or toolchain overrides. Use a separately reviewed CLI environment.')
+      if (name.split('/').some(part => part.toLowerCase() === '.cargo' || part.toLowerCase().startsWith('rust-toolchain'))) throw new Error('Local companion builds do not accept workspace Cargo or toolchain overrides. Use a separately reviewed CLI environment.')
       if (name.split('/').some(part => ['.git', 'target', 'node_modules', '.deps'].includes(part))) continue
       if ((info as any).isDirectory) await visit(path)
       else if (/(^|\/)(Cargo\.(toml|lock)|build\.rs)$|\.(rs|toml)$/.test(name)) {
@@ -66,6 +66,7 @@ function TariTools({ plugin }: { plugin: TariPlugin }) {
   const [title, setTitle] = useState('')
   const [description, setDescription] = useState('')
   const [repo, setRepo] = useState('')
+  const [commit, setCommit] = useState('')
   useEffect(() => { plugin.show = setSection; return () => { plugin.show = () => {} } }, [plugin])
   const task = async (fn: () => Promise<void>) => { setBusy(true); setError(''); try { await fn() } catch (e) { setError(e.message) } finally { setBusy(false) } }
   const request = async (path: string, body?: any) => {
@@ -101,8 +102,9 @@ function TariTools({ plugin }: { plugin: TariPlugin }) {
   const exportSubmission = () => task(async () => {
     if (!title.trim() || !description.trim()) throw new Error('Add a project title and description.')
     if (repo && !/^https:\/\/github\.com\/[^/]+\/[^/?#]+\/?$/.test(repo)) throw new Error('Use the project’s https://github.com/owner/repository URL.')
+    if (commit && !/^[a-f0-9]{40}$/i.test(commit)) throw new Error('Use a complete 40-character Git commit SHA, or leave it blank.')
     // DEV_REQUIRED[LOBBY-PUBLISH]: draft export only; no write API or publication receipt exists yet.
-    download('ootle-submission.json', JSON.stringify({ schemaVersion: 2, status: 'unauthenticated-draft', ownershipVerified: false, repositoryCommit: null, repositoryCommitVerified: false, sourceDigest: sourceDigest || null, artifacts: artifacts.map(({ name, sha256, size }) => ({ name, sha256, size })), artifactBinding: artifacts.length ? 'locally-built-snapshot-not-current-workspace-attestation' : 'none', destination, title: title.trim(), description: description.trim(), repositoryUrl: repo || null, template: 'Verify the template provenance for your project', createdAt: new Date().toISOString() }, null, 2), 'application/json')
+    download('ootle-submission.json', JSON.stringify({ schemaVersion: 2, status: 'unauthenticated-draft', ownershipVerified: false, repositoryCommit: commit || null, repositoryCommitVerified: false, sourceDigest: sourceDigest || null, artifacts: artifacts.map(({ name, sha256, size }) => ({ name, sha256, size })), artifactBinding: artifacts.length ? 'locally-built-snapshot-not-current-workspace-attestation' : 'none', destination, title: title.trim(), description: description.trim(), repositoryUrl: repo || null, template: 'Verify the template provenance for your project', createdAt: new Date().toISOString() }, null, 2), 'application/json')
   })
   return <section className="ootle-tools">
     <h1>Tari tools</h1>
@@ -147,6 +149,7 @@ function TariTools({ plugin }: { plugin: TariPlugin }) {
       <label>Project title<input value={title} onChange={e => setTitle(e.target.value)} /></label>
       <label>Description<textarea value={description} onChange={e => setDescription(e.target.value)} /></label>
       <label>GitHub repository<input type="url" value={repo} onChange={e => setRepo(e.target.value)} placeholder="https://github.com/owner/project" /></label>
+      <label>Repository commit (optional, unverified)<input value={commit} onChange={e => setCommit(e.target.value)} placeholder="Full Git commit SHA" /></label>
       <button disabled={busy} onClick={exportSubmission}>Export submission draft</button><p className="ootle-note">This unauthenticated draft does not prove repository ownership or a commit. Artifact hashes refer to the last local build snapshot. Exporting does not publish, host your app or enter the contest.</p>
       <a href="https://ootle-lobby-preview.vercel.app/#october-submissions" target="_blank" rel="noreferrer">View submissions in the Lobby</a>
     </>}

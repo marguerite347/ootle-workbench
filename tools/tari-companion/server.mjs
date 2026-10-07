@@ -6,7 +6,7 @@ import { resolve, dirname, join, isAbsolute } from 'node:path'
 import { homedir, tmpdir } from 'node:os'
 import { spawn } from 'node:child_process'
 import { createInterface } from 'node:readline/promises'
-import { constants } from 'node:fs'
+import { constants, openSync, closeSync, writeSync, fstatSync, fchmodSync, renameSync } from 'node:fs'
 import { pathToFileURL } from 'node:url'
 import { pairingKey, seal, open, boundedJson } from '../../apps/remix-ide/src/app/plugins/ootle/companion-protocol.mjs'
 
@@ -21,9 +21,12 @@ export function validateFiles(files) {
   const entries = Object.entries(files)
   if (!entries.length || entries.length > 300) throw failure('Expected 1–300 text files.')
   let total = 0
+  const paths = new Set()
   for (const [name, content] of entries) {
     if (!name || name.length > 240 || name !== name.normalize('NFC') || /[\\\x00-\x1f\x7f\u202a-\u202e\u2066-\u2069]/.test(name) || name.startsWith('/') || name.split('/').some(p => !p || p === '.' || p === '..' || p === '.git' || p === 'target') || /^[a-z]:/i.test(name)) throw failure('Unsafe workspace path.')
-    if (name.split('/').some(p => p === '.cargo' || p.startsWith('rust-toolchain'))) throw failure('Workspace Cargo and toolchain overrides are not supported. Use a separately reviewed CLI environment.')
+    if (paths.has(name.toLowerCase())) throw failure('Workspace paths collide on a case-insensitive filesystem.')
+    paths.add(name.toLowerCase())
+    if (name.split('/').some(p => p.toLowerCase() === '.cargo' || p.toLowerCase().startsWith('rust-toolchain'))) throw failure('Workspace Cargo and toolchain overrides are not supported. Use a separately reviewed CLI environment.')
     if (typeof content !== 'string' || Buffer.byteLength(content) > 1024 * 1024) throw failure('Only bounded text files are supported.')
     total += Buffer.byteLength(content)
   }
@@ -49,7 +52,7 @@ export async function secureRoot(root) {
 export async function terminalApproval({ action, files, digest, identity, signal }) {
   if (!process.stdin.isTTY || !process.stdout.isTTY) return false
   console.log(`\nLOCAL EXECUTION REQUEST: ${action}\nToolchain: ${TOOLCHAIN}\nSource SHA-256: ${digest}\nBuild inputs SHA-256: ${identity}\nFiles (name, bytes, SHA-256):`)
-  for (const [name, content] of Object.entries(files)) console.log(`${name === 'build.rs' || name.endsWith('/build.rs') ? 'BUILD SCRIPT! ' : ''}${JSON.stringify(name)}  ${Buffer.byteLength(content)}  ${hash(content)}`)
+  for (const [name, content] of Object.entries(files)) console.log(`${name.toLowerCase() === 'build.rs' || name.toLowerCase().endsWith('/build.rs') ? 'BUILD SCRIPT! ' : ''}${JSON.stringify(name)}  ${Buffer.byteLength(content)}  ${hash(content)}`)
   console.log('Review these exact contents in the IDE. Cargo build scripts, procedural macros and tests execute as your OS user, can read private files and use the network. Disposable caches do NOT sandbox code. Decline unfamiliar or changed code.')
   const rl = createInterface({ input: process.stdin, output: process.stdout })
   const challenge = randomBytes(4).toString('hex')
@@ -87,7 +90,7 @@ async function jsonBody(req) {
   for await (const chunk of req) { size += chunk.length; if (size > MAX_BODY) throw failure('Request exceeds the size limit.', 413); chunks.push(chunk) }
   try { return JSON.parse(Buffer.concat(chunks).toString()) } catch { throw failure('Invalid JSON.') }
 }
-export function createCompanion({ token, origins, root, allowRun = false, model = '', cpu = false, run = cargoRun, approve = terminalApproval, audit = event => console.log(JSON.stringify(event)) }) {
+export function createCompanion({ token, origins, root, allowRun = false, model = '', cpu = false, run = cargoRun, approve = terminalApproval, audit = event => console.log(JSON.stringify(event)), now = Date.now }) {
   if (!/^[a-f0-9]{64}$/.test(token)) throw new Error('Use a random 32-byte hexadecimal pairing key.')
   for (const origin of origins) {
     const url = new URL(origin)
@@ -166,13 +169,13 @@ export function createCompanion({ token, origins, root, allowRun = false, model 
         busy = true; grant = null
         try {
           const accepted = await approve({ action: body.action, files, digest, identity, signal: controller.signal })
+          audit({ event: 'approval', id, action: body.action, sourceDigest: digest, buildInputsDigest: identity, fileCount: Object.keys(files).length, accepted: accepted && !controller.signal.aborted })
           if (!accepted || controller.signal.aborted) throw failure('Local terminal approval was declined or expired.', 403)
-          grant = { token: randomBytes(32).toString('hex'), action: body.action, files, digest, identity, origin, expires: Date.now() + 60000 }
-          audit({ event: 'approval', id, action: body.action, sourceDigest: digest, buildInputsDigest: identity, fileCount: Object.keys(files).length, accepted: true })
+          grant = { token: randomBytes(32).toString('hex'), action: body.action, files, digest, identity, origin, expires: now() + 60000 }
           await reply(200, { approvalToken: grant.token, sourceDigest: digest, buildInputsDigest: identity, expires: grant.expires }); return
         } finally { busy = false }
       }
-      if (!grant || grant.expires < Date.now() || grant.origin !== origin || typeof body.approvalToken !== 'string' || body.approvalToken !== grant.token || Object.keys(body).some(k => k !== 'approvalToken')) throw failure('A fresh local terminal approval is required.', 403)
+      if (!grant || grant.expires < now() || grant.origin !== origin || typeof body.approvalToken !== 'string' || body.approvalToken !== grant.token || Object.keys(body).some(k => k !== 'approvalToken')) throw failure('A fresh local terminal approval is required.', 403)
       const approved = grant; grant = null; busy = true
       let workspace
       try {
@@ -203,6 +206,7 @@ export function createCompanion({ token, origins, root, allowRun = false, model 
           }
           if (!artifacts.length) throw failure('Cargo produced no WASM artifact.', 422)
         }
+        audit({ event: 'execution', id, action: approved.action, sourceDigest: approved.digest, buildInputsDigest: approved.identity, success: result.success, exitCode: result.exitCode, timedOut: result.timedOut, durationMs: result.durationMs, artifacts: artifacts.map(({ sha256, size }) => ({ sha256, size })) })
         await reply(200, { ...result, sourceDigest: approved.digest, buildInputsDigest: approved.identity, toolchain: TOOLCHAIN, artifacts })
       } finally { if (workspace) await rm(workspace, { recursive: true, force: true }); busy = false }
     } catch (err) { if (!res.headersSent) await reply(err.status || 500, { error: err.status ? err.message : 'Companion operation failed. Check the local environment.' }) }
@@ -216,6 +220,24 @@ export function createCompanion({ token, origins, root, allowRun = false, model 
   server.requestTimeout = 30000; server.headersTimeout = 10000; server.maxConnections = 16
   return server
 }
+// Private, bounded audit journal. Credential/source/log bodies are never passed to this sink.
+export function auditJournal(root) {
+  const path = join(root, 'audit.jsonl')
+  return event => {
+    let fd = openSync(path, constants.O_APPEND | constants.O_CREAT | constants.O_WRONLY | constants.O_NOFOLLOW, 0o600)
+    try {
+      const info = fstatSync(fd)
+      if (!info.isFile() || (process.getuid && info.uid !== process.getuid())) throw new Error('Unsafe audit journal.')
+      fchmodSync(fd, 0o600)
+      if (info.size >= 2 * 1024 * 1024) {
+        closeSync(fd); fd = undefined
+        renameSync(path, path + '.previous')
+        fd = openSync(path, constants.O_APPEND | constants.O_CREAT | constants.O_EXCL | constants.O_WRONLY | constants.O_NOFOLLOW, 0o600)
+      }
+      writeSync(fd, JSON.stringify({ time: new Date().toISOString(), ...event }) + '\n')
+    } finally { if (fd !== undefined) closeSync(fd) }
+  }
+}
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
   const args = process.argv.slice(2)
   const option = (name, fallback) => args.includes(name) ? args[args.indexOf(name) + 1] : fallback
@@ -228,7 +250,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
   const keyFile = join(root, 'pairing-key')
   try { const info = await lstat(keyFile); if (!info.isFile() || info.isSymbolicLink() || (process.getuid && info.uid !== process.getuid())) throw new Error('Unsafe pairing key file.'); await rm(keyFile) } catch (err) { if (err.code !== 'ENOENT') throw err }
   await writeFile(keyFile, token, { mode: 0o600, flag: 'wx' })
-  const server = createCompanion({ token, origins, root, allowRun: args.includes('--allow-run'), model: option('--model', ''), cpu: args.includes('--cpu') })
+  const server = createCompanion({ token, origins, root, allowRun: args.includes('--allow-run'), model: option('--model', ''), cpu: args.includes('--cpu'), audit: auditJournal(root) })
   for (const signal of ['SIGINT', 'SIGTERM']) process.once(signal, async () => { await server.shutdown(); await rm(keyFile, { force: true }) })
-  server.listen(port, '127.0.0.1', () => console.log(`Ootle companion v2: http://127.0.0.1:${port}\nPairing key file (private): ${keyFile}\nAllowed local origins: ${origins.join(', ')}\nCargo requires a fresh approval in this terminal for every snapshot. No headless approvals.\nNo wallet or publishing authority.`))
+  server.listen(port, '127.0.0.1', () => console.log(`Ootle companion v2: http://127.0.0.1:${port}\nPairing key file (private): ${keyFile}\nAudit journal (private, rotated): ${join(root, 'audit.jsonl')}\nAllowed local origins: ${origins.join(', ')}\nCargo requires a fresh approval in this terminal for every snapshot. No headless approvals.\nNo wallet or publishing authority.`))
 }

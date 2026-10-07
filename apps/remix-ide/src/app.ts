@@ -801,7 +801,6 @@ class AppComponent {
       'gistHandler',
       'compilerloader',
       'assistantState',
-      'remixAI',
       'tari'
     ])
 
