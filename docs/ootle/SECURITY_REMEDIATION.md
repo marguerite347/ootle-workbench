@@ -33,3 +33,11 @@ S1-S4 and S6-S16 have implementations; final acceptance remains in progress. Ele
 ## Linux validation, first pass
 
 Run https://github.com/marguerite347/ootle-workbench/actions/runs/37675961804 at `2e09c7f`: both real Counter engine tests passed (public read/denied write, rollback); release WASM and encrypted HTTP companion smoke passed. Downloaded WASM: 108,043 bytes, SHA-256 `f65e329e896f41e3a9a0259d0b650a1151edcc47489bbeb24204010c2f017243`. Rust audit: zero vulnerabilities, zero yanked dependencies, three unsuppressed maintenance warnings; complete report in `security/rust-audit.json`. Web build found Handlebars' updated `Template` union type at the doc-generator partial call; narrowed it to the function type actually registered by this renderer. Final web build still required.
+
+## Consent and resource acceptance
+
+Interactive terminal fixture: the real `terminalApproval` displayed the action/toolchain, source/build-input digests, every filename/size/hash and a BUILD SCRIPT warning. Typing `deny` refused execution. Typing the fresh challenge authorized exactly one explicitly labelled fixture call; replay was refused. This tests terminal consent, not a simulated native compilation. Real Cargo acceptance is the separate passing Linux smoke run above.
+
+The security suite now also covers case-insensitive path aliases, expired approvals, non-TTY denial, bounded log tails, private audit rotation, assistant concurrency, artifact count/size/symlink rejection and cleanup after exceptions. Existing agent-service tests remain unchanged and pass.
+
+Build workflow refinement: the updated web bundle compiled in Linux run 37676836247, but packaging correctly failed on an obsolete script tag inside an HTML comment. Packaging now ignores commented tags and the obsolete comment is removed. The packager and hash verifier were exercised against the existing static output before another CI run. Local native-loader stalls were resolved by reusing preinstalled `.node` modules only after exact SHA-256 equality checks; dependencies were not downgraded and no OS protections were changed.

@@ -4,7 +4,7 @@ import assert from 'node:assert/strict'
 import { mkdtemp, mkdir, writeFile, rm, readdir, stat, realpath, chmod, symlink } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
-import { createCompanion, validateFiles, sourceDigest, secureRoot } from './server.mjs'
+import { createCompanion, validateFiles, sourceDigest, secureRoot, boundedLog, auditJournal } from './server.mjs'
 import { companionRequest, pairingKey, seal, open, validateResult, validateCapabilities } from '../../apps/remix-ide/src/app/plugins/ootle/companion-protocol.mjs'
 const files = { 'Cargo.toml': '[package]\nname="test"', 'Cargo.lock': 'version = 4', 'src/lib.rs': 'pub fn value() -> u64 { 1 }' }
 const token = 'a'.repeat(64); const origin = 'http://127.0.0.1:8080'
@@ -138,4 +138,55 @@ test('headless production approval fails closed', async t => {
   if (process.stdin.isTTY) return t.skip('This regression specifically exercises non-TTY execution')
   const { request } = await fixture(t, { allowRun: true, run: () => { throw new Error('Must never execute') } })
   await assert.rejects(request('/approve', { action: 'build', files }), /declined/)
+})
+
+test('log ring retains the bounded tail without repeated whole-log copies', () => {
+  const log = boundedLog(16)
+  log.append(Buffer.from('0123456789')); log.append(Buffer.from('abcdefghij'))
+  assert.equal(log.text(), '456789abcdefghij')
+  log.append(Buffer.from('x'.repeat(32))); assert.equal(log.text(), 'x'.repeat(16))
+  for (let i = 0; i < 10000; i++) log.append(Buffer.from('y'))
+  assert.equal(log.text(), 'y'.repeat(16))
+})
+test('audit journal is private and rotates at its disk limit', async t => {
+  const { root } = await fixture(t)
+  const log = auditJournal(root)
+  log({ event: 'fixture', id: 'one' })
+  assert.equal((await stat(join(root, 'audit.jsonl'))).mode & 0o777, 0o600)
+  await writeFile(join(root, 'audit.jsonl'), 'x'.repeat(2 * 1024 * 1024))
+  log({ event: 'fixture', id: 'two' })
+  assert.ok((await stat(join(root, 'audit.jsonl'))).size < 1024)
+  assert.equal((await stat(join(root, 'audit.jsonl.previous'))).size, 2 * 1024 * 1024)
+})
+test('assistant requests are serialized and model text stays bounded', async t => {
+  const realFetch = globalThis.fetch
+  let entered; let release
+  const started = new Promise(resolve => { entered = resolve })
+  globalThis.fetch = (url, init) => {
+    if (String(url) === 'http://127.0.0.1:11434/api/chat') { entered(); return new Promise(resolve => { release = resolve }) }
+    return realFetch(url, init)
+  }
+  t.after(() => { globalThis.fetch = realFetch })
+  const { request } = await fixture(t, { model: 'test-fixture-model' })
+  const first = request('/assistant', { messages: [{ role: 'user', content: 'test' }] })
+  await started
+  await assert.rejects(request('/assistant', { messages: [{ role: 'user', content: 'overlap' }] }), /Another assistant/)
+  release(new Response(JSON.stringify({ message: { content: 'Fixture advice only' } })))
+  assert.equal((await first).content, 'Fixture advice only')
+  await assert.rejects(request('/assistant', { messages: [null] }), /Invalid conversation/)
+})
+test('companion rejects too many artifacts, oversized artifacts and artifact symlinks', async t => {
+  let mode = 'count'
+  const { request, root } = await fixture(t, { allowRun: true, approve: async () => true, run: async (_action, cwd, targetDir) => {
+    const dir = join(targetDir, 'wasm32-unknown-unknown/release'); await mkdir(dir, { recursive: true })
+    if (mode === 'count') for (let i = 0; i < 5; i++) await writeFile(join(dir, `${i}.wasm`), wasm)
+    if (mode === 'size') await writeFile(join(dir, 'large.wasm'), Buffer.alloc(8 * 1024 * 1024 + 1))
+    if (mode === 'symlink') await symlink(join(cwd, 'Cargo.toml'), join(dir, 'link.wasm'))
+    return { success: true, exitCode: 0, output: 'artifact validation fixture', command: 'fixture' }
+  } })
+  for (mode of ['count', 'size', 'symlink']) {
+    const approval = await request('/approve', { action: 'build', files })
+    await assert.rejects(request('/run', { approvalToken: approval.approvalToken }), /artifact|Artifact/)
+    assert.deepEqual(await readdir(root), [])
+  }
 })

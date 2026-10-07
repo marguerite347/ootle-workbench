@@ -3,9 +3,10 @@ import http from 'node:http'
 import { readFile } from 'node:fs/promises'
 import { resolve, extname } from 'node:path'
 const config = JSON.parse(await readFile('vercel.json', 'utf8'))
-const root = resolve('dist/apps/remix-ide')
+const root = resolve(process.env.OOTLE_WEB_ROOT || 'dist/apps/remix-ide')
+const port = Number(process.env.PORT || 8080)
 http.createServer(async (req, res) => {
-  for (const h of config.headers[0].headers) res.setHeader(h.key, h.value.replace('; upgrade-insecure-requests', '').replace("connect-src 'self'", "connect-src 'self' http://127.0.0.1:4510 http://localhost:4510"))
+  for (const h of config.headers[0].headers) res.setHeader(h.key, h.value.replace('; upgrade-insecure-requests', '').replace("connect-src 'self'", "connect-src 'self' http://127.0.0.1:* http://localhost:*"))
   res.setHeader('Cache-Control', 'no-store')
   try {
     const path = resolve(root, '.' + decodeURIComponent(new URL(req.url, 'http://localhost').pathname))
@@ -14,4 +15,4 @@ http.createServer(async (req, res) => {
     res.setHeader('Content-Type', ({ '.js': 'text/javascript', '.mjs': 'text/javascript', '.html': 'text/html', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.wasm': 'application/wasm' })[extname(path)] || (path === root ? 'text/html' : 'application/octet-stream'))
     res.end(data)
   } catch { res.statusCode = 404; res.end('Not found') }
-}).listen(8087, '127.0.0.1', () => console.log('Security acceptance server http://127.0.0.1:8087'))
+}).listen(port, '127.0.0.1', () => console.log(`Workbench static server http://localhost:${port}`))

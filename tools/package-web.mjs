@@ -17,7 +17,7 @@ const { createHash } = await import('node:crypto')
 const { join } = await import('node:path')
 const digest = (bytes, algorithm = 'sha256', encoding = 'hex') => createHash(algorithm).update(bytes).digest(encoding)
 let html = await readFile(`${out}/index.html`, 'utf8')
-for (const match of [...html.matchAll(/<script\b[^>]*\bsrc="([^"]+)"[^>]*>/g)]) {
+for (const match of [...html.replace(/<!--[\s\S]*?-->/g, '').matchAll(/<script\b[^>]*\bsrc="([^"]+)"[^>]*>/g)]) {
   const src = match[1]
   if (/^(?:https?:)?\/\//.test(src) || src.includes('..')) throw new Error('Unexpected external script in static output')
   const integrity = `sha384-${digest(await readFile(join(out, src.replace(/^\//, ''))), 'sha384', 'base64')}`

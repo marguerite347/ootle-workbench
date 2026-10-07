@@ -11,7 +11,7 @@ yarn install --frozen-lockfile --ignore-engines --ignore-scripts
 NX_NO_CLOUD=true NX_DAEMON=false yarn build:libs
 yarn build:production
 node tools/package-web.mjs
-python3 -m http.server 8080 --bind 127.0.0.1 --directory dist/apps/remix-ide
+node tools/security/serve.mjs
 ```
 
 Open `http://127.0.0.1:8080`. `vercel.json` supplies the same install/build/output settings for a source deployment. `tools/package-web.mjs` includes the upstream license and committed revision in the static output. The static build can be self-hosted. Hosting the IDE does **not** automatically supply Cargo workers, wallets, AI providers, user authentication, app hosting or a publication database.
@@ -27,7 +27,7 @@ node tools/tari-companion/server.mjs --allow-run
 
 The v2 companion writes a private 0600 pairing-key file in its private OS temporary directory and prints only its path. Read that local file and paste the key into Tari tools on a **locally served HTTP IDE**. The key is memory-only in the page, never sent as a bearer credential. Requests and responses use authenticated AES-GCM encryption, fresh nonces, replay rejection and response binding. A counterfeit listener cannot decrypt workspace files or forge a reply without the key.
 
-Use `http://localhost:8080` or `http://127.0.0.1:8080`. Other exact local HTTP origins can be supplied with `--origins`; hosted origins are rejected even if explicitly configured. **The public hosted Workbench uses isolated cloud builds. Do not connect it to local native execution.** For a local server with production-equivalent CSP, use `node tools/security/serve.mjs` (port 8087) and companion `--origins http://localhost:8087`.
+Use `http://localhost:8080` or `http://127.0.0.1:8080`. Other exact local HTTP origins can be supplied with `--origins`; hosted origins are rejected even if explicitly configured. **The public hosted Workbench uses isolated cloud builds. Do not connect it to local native execution.** The supplied local server sets production-equivalent CSP plus the loopback RPC exception. To use another port, set `PORT` and pass the matching exact companion `--origins`.
 
 Click Compile or Run tests, then review the exact file list, each file's SHA-256, source digest, action and pinned toolchain displayed in the companion terminal. Type the fresh approval challenge there. Approval expires, applies to that snapshot/action only, and produces a new one-use token consumed by the run. There is no trust checkbox or headless production approval switch. Workspace edits require a new snapshot and local approval. The old v1 bearer protocol is deliberately unsupported.
 
