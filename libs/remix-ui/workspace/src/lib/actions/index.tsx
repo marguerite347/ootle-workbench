@@ -208,7 +208,7 @@ export const initWorkspace = (filePanelPlugin) => async (reducerDispatch: React.
         let count = 0
         try {
           let etherscanKey = await plugin.call('config', 'getAppParameter', 'etherscan-access-token')
-          if (!etherscanKey) etherscanKey = '2HKUX5ZVASZIKWJM8MIQVCRUVZ6JAWT531'
+          if (!etherscanKey) throw new Error('Configure your own Etherscan access token before importing verified contracts.')
           const workspaceName = `code-sample-${await generateRandomSuffix(params.address)}`
           let filePath
           const foundOnNetworks = []
@@ -357,7 +357,7 @@ export const initWorkspace = (filePanelPlugin) => async (reducerDispatch: React.
         let count = 0
         try {
           let etherscanKey = await plugin.call('config', 'getAppParameter', 'etherscan-access-token')
-          if (!etherscanKey) etherscanKey = '2HKUX5ZVASZIKWJM8MIQVCRUVZ6JAWT531'
+          if (!etherscanKey) throw new Error('Configure your own Etherscan access token before importing verified contracts.')
           const workspaceName = `code-sample-${await generateRandomSuffix(params.address)}`
           let filePath
           const foundOnNetworks = []

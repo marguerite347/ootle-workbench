@@ -1,23 +1,22 @@
 // Real Cargo/HTTP smoke test. Unit fixtures are deliberately separate in server.test.mjs.
 import assert from 'node:assert/strict'
-import { readFile, mkdtemp, rm } from 'node:fs/promises'
+import { readFile, mkdtemp, rm, realpath } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join, resolve } from 'node:path'
 import { randomBytes, createHash } from 'node:crypto'
 import { createCompanion } from './server.mjs'
+import { companionRequest } from '../../apps/remix-ide/src/app/plugins/ootle/companion-protocol.mjs'
 
-const root = await mkdtemp(join(tmpdir(), 'ootle-cargo-smoke-'))
+const root = await realpath(await mkdtemp(join(tmpdir(), 'ootle-cargo-smoke-')))
+const origin = 'http://127.0.0.1:8080'
 const token = randomBytes(32).toString('hex')
-const files = Object.fromEntries(await Promise.all(['Cargo.toml', 'Cargo.lock', 'src/lib.rs', 'tests/counter.rs'].map(async name => [name, await readFile(resolve('templates/tari-counter', name), 'utf8')])))
-const server = createCompanion({ token, origins: [], root, allowRun: true })
+const files = JSON.parse(await readFile('libs/remix-ws-templates/src/templates/tariCounter/files.json', 'utf8'))
+const server = createCompanion({ token, origins: [origin], root, allowRun: true, approve: async ({ digest }) => { console.log('CI fixture authorizes only the checked-in Counter snapshot:', digest); return true } })
 await new Promise(resolve => server.listen(0, '127.0.0.1', resolve))
 try {
-  const response = await fetch(`http://127.0.0.1:${server.address().port}/run`, {
-    method: 'POST', headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ action: 'build', files, trusted: true })
-  })
-  const result = await response.json()
-  assert.equal(response.status, 200, JSON.stringify(result))
+  const request = (path, body) => companionRequest(`http://127.0.0.1:${server.address().port}`, token, origin, path, body, (url, init) => fetch(url, { ...init, headers: { ...init.headers, Origin: origin } }))
+  const approval = await request('/approve', { action: 'build', files })
+  const result = await request('/run', { approvalToken: approval.approvalToken })
   assert.equal(result.success, true, result.output)
   assert.equal(result.exitCode, 0)
   assert.ok(result.artifacts.length)

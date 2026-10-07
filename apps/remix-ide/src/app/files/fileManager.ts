@@ -633,11 +633,7 @@ export default class FileManager extends Plugin {
   async setFileContent(path, content, options?) {
     if (this.currentRequest) {
       const canCall = await this.askUserPermission(`writeFile`, `modifying ${path} ...`)
-      const required = this.appManager.isRequired(this.currentRequest.from)
-      /*if (canCall && !required && !options?.silent) {
-        // inform the user about modification after permission is granted and even if permission was saved before
-        this.call('notification', 'toast', fileChangedToastMsg(this.currentRequest.from, path))
-      }*/
+      if (!canCall) throw createError({ code: 'EACCES', message: 'File write permission denied.' })
     }
     return await this._setFileInternal(path, content, options)
   }

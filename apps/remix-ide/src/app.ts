@@ -805,13 +805,13 @@ class AppComponent {
       'tari'
     ])
 
-    await this.appManager.activatePlugin(['auth'])
-    await this.appManager.activatePlugin(['invitationManager'])
-    await this.appManager.activatePlugin(['membershipRequest'])
+    // Ootle: upstream auth service is not activated.
+    // Ootle: upstream invitationManager service is not activated.
+    // Ootle: upstream membershipRequest service is not activated.
     // DEV_REQUIRED[FORK-SERVICES]: upstream paid-service promotions are not Tari features.
     // Upstream marketing nudges are not activated in Ootle.
-    await this.appManager.activatePlugin(['notificationCenter'])
-    await this.appManager.activatePlugin(['feedback'])
+    // Ootle: upstream notificationCenter service is not activated.
+    // Ootle: upstream feedback service is not activated.
     await this.appManager.activatePlugin(['settings'])
 
     await this.appManager.activatePlugin(['storage', 'storageMonitor', 'search', 'compileAndRun', 'dgitApi', 'dgit', 'helpPlugin'])
@@ -916,16 +916,7 @@ class AppComponent {
         }
       }
 
-      if (this.params.call) {
-        const callDetails = this.params.call.split('//')
-        if (callDetails.length > 1) {
-          this.appManager.call('notification', 'toast', `initiating ${callDetails[0]} and calling "${callDetails[1]}" ...`)
-          this.track({ category: 'App', action: 'queryParams-calls', name: this.params.call, isClick: false })
-          //@ts-ignore
-          await this.appManager.call(...callDetails).catch(console.error)
-        }
-      }
-
+      // Ootle: URL parameters must never dispatch arbitrary plugin methods.
       // Handoff link from the old domain: land the user straight on the import step.
       if (this.params.migrate) {
         try {
@@ -937,22 +928,7 @@ class AppComponent {
         }
       }
 
-      if (this.params.calls) {
-        const calls = this.params.calls.split('///')
-        for (const call of calls) {
-          this.track({ category: 'App', action: 'queryParams-calls', name: call, isClick: false })
-          const callDetails = call.split('//')
-          if (callDetails.length > 1) {
-            this.appManager.call('notification', 'toast', `initiating ${callDetails[0]} and calling "${callDetails[1]}" ...`)
-            try {
-              //@ts-ignore
-              await this.appManager.call(...callDetails)
-            } catch (e) {
-              console.error(e)
-            }
-          }
-        }
-      }
+
     })
 
     this.appManager.on('rightSidePanel', 'pinnedPlugin', (pluginProfile) => {

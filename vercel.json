@@ -1,6 +1,42 @@
 {
   "framework": null,
-  "installCommand": "yarn install --frozen-lockfile --ignore-engines --non-interactive",
+  "installCommand": "yarn install --frozen-lockfile --ignore-engines --non-interactive --ignore-scripts",
   "buildCommand": "NX_NO_CLOUD=true NX_DAEMON=false yarn build:libs && yarn build:production && node tools/package-web.mjs",
-  "outputDirectory": "dist/apps/remix-ide"
+  "outputDirectory": "dist/apps/remix-ide",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self' https://ootle-workbench-agents.vercel.app https://api.github.com https://raw.githubusercontent.com https://binaries.soliditylang.org; worker-src 'self' blob:; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'; upgrade-insecure-requests"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    },
+    {
+      "source": "/assets/ootle/build.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    }
+  ]
 }

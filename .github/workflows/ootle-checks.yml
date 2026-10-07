@@ -1,7 +1,7 @@
 name: Ootle validation
 on:
   push:
-    branches: [ootle, feat/tari-workbench]
+    branches: [ootle, feat/connected-agents, fix/security-audit]
   pull_request:
     branches: [ootle]
   workflow_dispatch:
@@ -15,45 +15,75 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: '24.3.0'
       - run: npm install --global yarn@1.22.22
-      - run: yarn install --frozen-lockfile --ignore-engines --non-interactive
+      - run: yarn install --frozen-lockfile --ignore-engines --non-interactive --ignore-scripts
         env:
           PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
           PUPPETEER_SKIP_DOWNLOAD: 'true'
       - run: npm ci --prefix tools/agent-service --ignore-scripts
       - run: npm test --prefix tools/agent-service
-      - run: node --test tools/tari-companion/server.test.mjs
+      - run: node --test tools/tari-companion/server.test.mjs tools/security/regression.test.mjs
+      - run: node tools/security/template-parity.mjs
       - run: yarn build:libs
         env:
           NX_NO_CLOUD: 'true'
           NX_DAEMON: 'false'
       - run: yarn build:production
-      - uses: actions/upload-artifact@v4
+      - run: node tools/package-web.mjs
+        if: github.job == 'ide'
+      - run: node tools/security/verify-web-artifacts.mjs
+        if: github.job == 'ide'
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: github.event_name == 'push'
         with:
-          name: ootle-workbench-web
+          name: ootle-workbench-web-${{ github.sha }}
           path: dist/apps/remix-ide
           retention-days: 7
   tari:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
-      - uses: actions/checkout@v4
-      - uses: dtolnay/rust-toolchain@master
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@7e38f4b43b4db5c8dd498af069a4f6196df1d067
         with:
           toolchain: '1.95.0'
           targets: wasm32-unknown-unknown
       - run: cargo test --locked --manifest-path templates/tari-counter/Cargo.toml
       - run: cargo build --locked --release --target wasm32-unknown-unknown --manifest-path templates/tari-counter/Cargo.toml
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: '24.3.0'
       - run: node tools/tari-companion/smoke.mjs
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: github.event_name == 'push'
         with:
-          name: tari-counter-wasm
+          name: tari-counter-wasm-${{ github.sha }}
           path: templates/tari-counter/target/wasm32-unknown-unknown/release/*.wasm
           retention-days: 7
+
+  dependency-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@7e38f4b43b4db5c8dd498af069a4f6196df1d067
+        with:
+          toolchain: '1.95.0'
+      - run: cargo install cargo-audit --version 0.22.2 --locked
+      - run: cargo audit --file templates/tari-counter/Cargo.lock --json > rust-audit.json
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always() && github.event_name == 'push'
+        with:
+          name: rust-advisories-${{ github.sha }}
+          path: rust-audit.json
+          retention-days: 30

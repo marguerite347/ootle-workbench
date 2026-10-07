@@ -21,6 +21,9 @@
  *   matomo.trackEvent('test', 'action', 'label');
  */
 
+// The fork must never initialize upstream telemetry, even when localStorage opts in.
+const OOTLE_TELEMETRY_ENABLED = false;
+
 import { MatomoEvent } from '@remix-api';
 import { getDomainCustomDimensions, DomainCustomDimensions, ENABLE_MATOMO_LOCALHOST, getSiteIdForTracking } from './MatomoConfig';
 import { BotDetector, BotDetectionResult } from './BotDetector';
@@ -255,6 +258,12 @@ export class MatomoManager implements IMatomoManager {
     this.eventQueue = [];
     this.listeners = new Map();
 
+    if (!OOTLE_TELEMETRY_ENABLED) {
+      // Keep upstream call sites harmless without retaining or transmitting events.
+      window._paq = { push: () => 0 };
+      return;
+    }
+
     // Derive siteId from matomoDomains if not explicitly provided or is default
     // (moved after listeners initialization so logging works)
     if (!config.siteId || config.siteId === 0) {
@@ -423,6 +432,7 @@ export class MatomoManager implements IMatomoManager {
    * Initialize Matomo with different patterns
    */
   async initialize(pattern: InitializationPattern = 'cookie-consent', options: InitializationOptions = {}): Promise<void> {
+    if (!OOTLE_TELEMETRY_ENABLED) return;
     if (this.state.initialized) {
       this.log('Already initialized, skipping');
       return;
@@ -839,6 +849,7 @@ export class MatomoManager implements IMatomoManager {
   trackEvent(event: MatomoEvent): number;
   trackEvent(category: string, action: string, name?: string, value?: string | number): number;
   trackEvent(eventObjOrCategory: MatomoEvent | string, action?: string, name?: string, value?: string | number): number {
+    if (!OOTLE_TELEMETRY_ENABLED) return 0;
     const eventId = ++this.state.lastEventId;
 
     // Extract event parameters
@@ -1015,6 +1026,7 @@ export class MatomoManager implements IMatomoManager {
   // ================== SCRIPT LOADING ==================
 
   async loadScript(): Promise<void> {
+    if (!OOTLE_TELEMETRY_ENABLED) return;
     // Skip script loading in Electron - we use IPC bridge instead
     if (this.isElectronApp()) {
       this.log('Electron detected - skipping Matomo script load (using IPC bridge)');

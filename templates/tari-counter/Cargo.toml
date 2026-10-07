@@ -20,3 +20,8 @@ strip = true
 opt-level = 2
 [profile.dev.package.wasmer-compiler-cranelift]
 opt-level = 2
+
+# Security-only parent patches: retain Tari ABI while selecting repaired transitive crates.
+[patch.crates-io]
+gix-hash = { path = "vendor/gix-hash-0.15.1" }
+shared-buffer = { path = "vendor/shared-buffer-0.1.4" }

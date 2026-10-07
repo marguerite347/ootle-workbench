@@ -791,7 +791,7 @@ export const RemixUiTerminal = (props: RemixUiTerminalProps) => {
                       if (msg.value && isHtml(msg.value)) {
                         return (
                           <div className={classNameBlock} data-id="block" key={i}>
-                            <span className={x.style}>{parse(msg.value)} </span>
+                            <span className={x.style}>{String(msg.value)} </span>
                           </div>
                         )
                       }

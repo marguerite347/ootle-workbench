@@ -7,7 +7,7 @@ This is an actual fork of Remix v2.6.5 (`59f2e9c43971a216c6981e30796a40141d4a78b
 Use Node 24.3.0 and Yarn 1.22.22 (upstream `.nvmrc`).
 
 ```sh
-yarn install --frozen-lockfile --ignore-engines
+yarn install --frozen-lockfile --ignore-engines --ignore-scripts
 NX_NO_CLOUD=true NX_DAEMON=false yarn build:libs
 yarn build:production
 node tools/package-web.mjs
@@ -21,23 +21,23 @@ Open `http://127.0.0.1:8080`. `vercel.json` supplies the same install/build/outp
 Install a Rust toolchain compatible with edition 2024 and the WASM target. The checked-in Counter pins `tari_template_lib = 0.32.0`, `tari_template_test_tooling = 0.41.0` and its Cargo.lock. It is deliberately not silently upgraded to the latest moving SDK.
 
 ```sh
-rustup target add wasm32-unknown-unknown
+rustup toolchain install 1.95.0 --profile minimal --target wasm32-unknown-unknown
 node tools/tari-companion/server.mjs --allow-run
 ```
 
-Copy the temporary token printed in **your** terminal into Tari tools → Connect. The token stays in browser memory only. Review the workspace, enable the trust checkbox, then Compile WASM or Run tests. The current Rust workspace snapshot is sent to the loopback process. Cargo's actual exit status, diagnostics and WASM bytes determine the result. Download includes its SHA-256 and source snapshot digest. Rebuild after edits.
+The v2 companion writes a private 0600 pairing-key file in its private OS temporary directory and prints only its path. Read that local file and paste the key into Tari tools on a **locally served HTTP IDE**. The key is memory-only in the page, never sent as a bearer credential. Requests and responses use authenticated AES-GCM encryption, fresh nonces, replay rejection and response binding. A counterfeit listener cannot decrypt workspace files or forge a reply without the key.
 
-The companion only listens on `127.0.0.1`; default allowed origins are `http://127.0.0.1:8080` and `http://localhost:8080`. For another IDE origin, pass its exact origin using `--origins https://your-ide.example`. No wildcard. Browser local-network permissions and mixed-content policies can prevent a hosted page reaching a local service; use the localhost IDE in that case.
+Use `http://localhost:8080` or `http://127.0.0.1:8080`. Other exact local HTTP origins can be supplied with `--origins`; hosted origins are rejected even if explicitly configured. **The public hosted Workbench uses isolated cloud builds. Do not connect it to local native execution.** For a local server with production-equivalent CSP, use `node tools/security/serve.mjs` (port 8087) and companion `--origins http://localhost:8087`.
 
-For the public Ootle Workbench deployment, explicitly allow that origin:
+Click Compile or Run tests, then review the exact file list, each file's SHA-256, source digest, action and pinned toolchain displayed in the companion terminal. Type the fresh approval challenge there. Approval expires, applies to that snapshot/action only, and produces a new one-use token consumed by the run. There is no trust checkbox or headless production approval switch. Workspace edits require a new snapshot and local approval. The old v1 bearer protocol is deliberately unsupported.
 
-```sh
-node tools/tari-companion/server.mjs --allow-run --origins https://ootle-workbench.vercel.app
-```
+**Trusted local development only, not a sandbox.** Build scripts, procedural macros and tests run native code as your OS user, can read private files (including through `include_bytes!`) and use the network. Never approve unfamiliar source. Cargo/toolchain configuration overrides (`.cargo/`, `rust-toolchain*`) are rejected. The runner also refuses ancestor Cargo configuration, strips unrelated environment variables, pins Rust 1.95.0 and disables automatic toolchain installation. The installed compiler/Rustup remain trusted host software.
 
-**Trusted local development only.** Rust build scripts and tests execute as your OS user. Authentication, path checks and limits are not a sandbox. Never expose this runner publicly or use it for untrusted community submissions. It strips unrelated environment variables but does not provide filesystem/network isolation. Run failures stay failures. Artifacts/cache live in `.ootle-companion/`; stop the server before deleting that directory to reclaim disk space. Requests are serialized and time out after 20 minutes.
+Each run receives its own source directory, `CARGO_HOME`, temporary HOME and target directory; all are removed after success, failure or cancellation. Warm dependency caches are deliberately not shared. This prevents accidental cache carryover; approved malicious native code still has the OS user's authority and could attack files outside these directories. Use cloud workers for untrusted code. Builds are serialized and limited to 20 minutes. AI has a separate one-request concurrency limit and three-minute timeout. Requests, approvals and results emit structured audit events without source bodies or credentials; retain stdout securely if durable local audit history is required.
 
-The browser currently sends Cargo.toml, Cargo.lock, Rust and TOML files. Templates that need other build inputs must use the CLI until a reviewed input manifest is implemented. The runner requires a root Cargo.lock; it does not generate one silently.
+The browser validates response shapes and independently verifies WASM bytes/hashes before download. Source and build-input digests identify inputs, **not trustworthy provenance or a reproducible build guarantee**. Total returned WASM is bounded to 8 MiB and four files. Files are bounded to 300 text entries / 3 MiB with root Cargo.toml and Cargo.lock required. Additional non-text inputs need a separately reviewed CLI workflow.
+
+Security changes, dependency exceptions, tests and deployment evidence are tracked in [SECURITY_REMEDIATION.md](SECURITY_REMEDIATION.md).
 
 ## Optional real local AI
 
@@ -61,7 +61,7 @@ Search source for `DEV_REQUIRED[` to find active adapter boundaries. The table a
 | GIT-SHARED | upstream file panel/dgit/auth | Verify clone/import/remix, OAuth installation for this fork, branch/commit/push/PR identity and error handling | Round-trip a user-owned test repo; do not assume upstream Remix cloud credentials work in the fork |
 | APP-HOSTING | upstream QuickDApp/frontends | Tari wallet frontend SDK binding, preview isolation, frontend build worker, hosting provider integration | Real deployed app uses the recorded network/component and has a working public URL |
 | WORKSPACE-SYNC | upstream filesystem/cloud | Authenticated cross-device persistence, conflict resolution, backups | Reload and second-device recovery with no data loss; browser-local saves remain accurately labeled |
-| FORK-SERVICES | app bootstrap / upstream providers | Audit upstream auth, billing, telemetry, notifications, AI and plugin-registry dependencies; replace/configure per fork | No upstream account/billing is described as an Ootle service; documented service ownership and configuration |
+| FORK-SERVICES | app bootstrap / upstream providers | Upstream cloud startup, billing/survey scripts and Matomo disabled; CSP restricts external code and frames. Explicit future fork-owned integrations require separate configuration. | See security regression and live acceptance evidence |
 
 Deployment and public submissions are separate operations. Publishing a WASM template does not instantiate every component. A locally exported submission draft does not enter a contest, create a GitHub repo, post on a forum or host an app.
 
