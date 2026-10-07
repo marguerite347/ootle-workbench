@@ -24,7 +24,7 @@ Checked tasks have an implementation and the evidence/disposition below. Depende
 - [x] S14 / LOW prompt injection: delimit untrusted context, reinforce no-tools advisory behavior; do not describe model guidance as verified evidence.
 - [x] S15 / LOW template parity: CI compares embedded Cargo/source/test files against canonical template files; prove drift fails.
 - [x] S16 / LOW submission draft: include artifact/source binding and explicit unverified repository commit/ownership status; reject publication claims, preserve separate authenticated future publishing boundary.
-- [ ] S17 / delivery: run regression suite, production build, desktop/mobile UI and harmful-link negative checks; commit/push, deploy exact revision, verify live revision and response headers. Record remaining limitations without marking untested claims fixed.
+- [x] S17 / delivery: run regression suite, production build, desktop/mobile UI and harmful-link negative checks; commit/push, deploy exact revision, verify live revision and response headers. Record remaining limitations without marking untested claims fixed.
 
 ## Implementation checkpoint
 
@@ -73,3 +73,17 @@ Build workflow refinement: the updated web bundle compiled in Linux run 37676836
 - Three Rust maintenance warnings remain in Tari test tooling: bincode, paste and proc-macro-error2. They are not part of the release WASM's normal dependency closure.
 - Local terminal consent authorizes native code as the developer OS user. Disposable directories reduce accidental shared-cache reuse; they do not contain deliberately malicious code after approval or a compromised installed toolchain.
 - Source/checksum binding proves which bytes were submitted/downloaded, not trustworthy source, toolchain, ownership or on-chain publication.
+
+## Final CI and artifact acceptance
+
+[Run 37679684605](https://github.com/marguerite347/ootle-workbench/actions/runs/37679684605), revision `a174c148e28022fdad3ff2eef42e31989ed817dd`: **all three jobs passed** (IDE, Tari and dependency audit). This includes clean lifecycle-disabled installs, 21 agent-service tests, 19 security tests, template parity, production bundle, packaging/hash verification, actual Counter engine tests, WASM and encrypted companion smoke. Earlier cancelled runs are not acceptance evidence.
+
+The downloaded CI archive matched the manifest for every substantive file. GitHub's artifact upload default omitted two empty `.gitkeep` entries; their zero-byte content was restored against the manifest's SHA-256, then all 793 entries verified. Future web artifact uploads explicitly include hidden files. This upload-only workflow setting does not alter the compiled code. The production artifact is the CI bundle at `a174c14`; later report/workflow commits do not relabel that runtime revision.
+
+The hosted preview opened successfully with the production headers, no companion pairing control and disabled local Cargo buttons. Browser network evidence confirmed CSP, frame-ancestors, DENY, no-referrer, nosniff and Permissions-Policy; static entry-script SRI was present. Existing agent service configuration loaded. The native Vercel binary stalled on this Mac; its documented Node fallback completed the deployment without changing system security settings.
+
+## Production delivery
+
+Deployed the verified CI artifact to **https://ootle-workbench.vercel.app/**, deployment `dpl_9R4mLXsV5ReVwbfj4hqb2qfm3pKs` (`https://ootle-workbench-7zspaz9cw-peekaboo4.vercel.app`). The public site's build metadata returns HTTP 200 without credentials and revision **a174c148e28022fdad3ff2eef42e31989ed817dd**. The live document returns HTTP 200 with the expected strict CSP, DENY, no-referrer, nosniff and permissions headers. Browser rendering verified the disabled hosted native-Cargo controls, absence of companion pairing UI, and SRI-bearing CI entry scripts (`main.0bf864eb82b666da.js`, `runtime.8bcc70d5e5028f9c.js`). Existing browser workspaces were retained. Test companion/server processes were stopped and temporary probe frames/tabs removed.
+
+The final report and artifact-upload metadata follow-up do not change application code. YAML parsing verified `include-hidden-files: true` on the web artifact step; all downloaded substantive bytes and the two restored empty placeholders match the CI manifest. Application acceptance remains the successful CI run and live artifact identified above.

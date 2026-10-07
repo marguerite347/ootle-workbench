@@ -44,6 +44,7 @@ jobs:
         with:
           name: ootle-workbench-web-${{ github.sha }}
           path: dist/apps/remix-ide
+          include-hidden-files: true
           retention-days: 7
   tari:
     runs-on: ubuntu-latest
