@@ -9,9 +9,6 @@ import { AppAction } from 'libs/remix-ui/app/src/lib/remix-app/actions/app'
 import FilePanel from '../panels/file-panel'
 import { WorkspaceMetadata } from 'libs/remix-ui/workspace/src/lib/types'
 import { gitUIPanels } from '@remix-ui/git'
-import { HOME_TAB_NEW_UPDATES } from 'libs/remix-ui/home-tab/src/lib/components/constant'
-import axios from 'axios'
-import { UpdateInfo } from 'libs/remix-ui/home-tab/src/lib/components/types/carouselTypes'
 import { GitPlugin } from '../plugins/git'
 import { createWorkspace, deleteWorkspace, getWorkspaces, renameWorkspace, WorkspaceType } from 'libs/remix-ui/workspace/src/lib/actions'
 import { Registry } from '@remix-project/remix-lib'
@@ -147,22 +144,8 @@ export class Topbar extends Plugin {
     await this.call('dgit', 'open', gitUIPanels.GITHUB)
   }
 
-  async getLatestUpdates() {
-    try {
-      const response = await axios.get(HOME_TAB_NEW_UPDATES)
-      return response.data
-    } catch (error) {
-      console.error('Error fetching plugin list:', error)
-    }
-  }
-
   async getLatestReleaseNotesUrl () {
-    const response = await this.getLatestUpdates()
-    const data: UpdateInfo[] = response
-    const interim = data.find(x => x.action.label.toLowerCase().includes('release notes'))
-    const targetUrl = interim?.action?.url
-    const currentReleaseVersion = packageJson.version
-    return [targetUrl, currentReleaseVersion]
+    return ['https://github.com/marguerite347/ootle-workbench/releases', packageJson.version]
   }
 
   setDispatch(dispatch: React.Dispatch<any>) {
