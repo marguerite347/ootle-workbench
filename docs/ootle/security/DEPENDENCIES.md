@@ -1,8 +1,8 @@
 # Dependency remediation evidence
 
-## Follow-up — 2026-10-09 (validation in progress)
+## Follow-up — 2026-10-09
 
-The current lockfile inventory contains 34 affected names out of 2,964 locked names, down from 80 after the first pass and 116 at baseline. These are package/advisory matches, not 36 demonstrated exploits. The first planning script skipped every multi-line dependency; the corrected tool evaluates each parent and refuses downgrades or incompatible major overrides. Yarn re-resolved vulnerable selectors within declared ranges, followed by reviewed parent-specific patch/minor overrides.
+The current lockfile inventory contains 34 affected names out of 2,964 locked names, down from 80 after the first pass and 116 at baseline. These are package/advisory matches, not 34 demonstrated exploits. The first planning script skipped every multi-line dependency; the corrected tool evaluates each parent and refuses downgrades or incompatible major overrides. Yarn re-resolved vulnerable selectors within declared ranges, followed by reviewed parent-specific patch/minor overrides.
 
 Unused npm-install-version (including its npm 4 dependency), Lerna publishing, Nx Cloud, local transformer model, request/RSS, obsolete Babel 6 presets/plugins and browserify reload dependencies were removed after checking source and configuration references. The Git UI had an undeclared dateformat dependency supplied incidentally by removed tooling; it is now declared directly. TOML used by the editor is 4.2.0; an older transitive TOML remains under the inherited Amp CLI. Normal Counter TOML and prototype-isolation smoke checks pass.
 
@@ -27,7 +27,7 @@ The other 32 flagged names are not present at vulnerable versions in the emitted
 - `tari_template_test_tooling → tari_engine → wasmer → paste 1.0.15`, also through Wasmer compiler → libwild → linker-utils. [RustSec](https://rustsec.org/advisories/RUSTSEC-2024-0436.html) recommends pastey; both parent manifests must migrate the dependency alias. There is no patched paste release.
 - `tari_template_test_tooling → tari_engine → wasmer → wasmer-derive → proc-macro-error2 2.0.1`. Wasmer's derive uses the attribute and abort macro for invalid ValueType layouts. [RustSec](https://rustsec.org/advisories/RUSTSEC-2026-0173.html) lists no patched release; replacing it requires changing the parent procedural macro and checking compile-failure diagnostics.
 
-These remain unsuppressed maintenance warnings, not fixed defects. The release WASM dependency closure excludes all three. Existing security patches repair faster-hex/memmap2 and replace yanked yoke-derive; Linux CI remains the acceptance route for real Counter engine tests, WASM and encrypted companion compilation.
+These remain unsuppressed maintenance warnings, not fixed defects. The release WASM dependency closure excludes all three. Existing security patches repair faster-hex/memmap2 and replace yanked yoke-derive; Linux CI run 37947266225 passed the real Counter engine tests, WASM and encrypted companion compilation. Its fresh Rust audit reports zero vulnerabilities and three unmaintained warnings, with no yanked or unsound warnings; see rust-audit-followup.json.
 
 ## Earlier delivery evidence
 

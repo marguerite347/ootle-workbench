@@ -1,0 +1,1875 @@
+{
+  "checkedAt": "2026-10-09T15:00:57.115Z",
+  "advisoryCheckedAt": "2026-10-09T14:49:11.929Z",
+  "scope": "Lockfile paths plus package presence in the emitted main webpack bundle. Presence is not vulnerable-call reachability; absence does not cover copied static plugin applications or developer tooling.",
+  "bundleEvidenceAvailable": true,
+  "findings": [
+    {
+      "name": "@fastify/busboy",
+      "versions": [
+        "2.1.1"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-x8mw-p69m-v3mx",
+          "title": "@fastify/busboy vulnerable to Denial of Service via prototype-named multipart part header",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-gxm5-99cw-xjw9",
+          "title": "@fastify/busboy vulnerable to CRLF injection via multipart Content-Disposition filename and name",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "2.1.1": [
+          [
+            "devDependencies:hardhat",
+            "undici@5.29.0",
+            "@fastify/busboy@2.1.1"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "@graphql-tools/utils",
+      "versions": [
+        "10.11.0"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-7mx3-vvmw-hjmv",
+          "title": "GraphQL Tools has prototype pollution in well-established utility function `mergeDeep`",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "10.11.0": [
+          [
+            "devDependencies:@graphql-codegen/cli",
+            "@graphql-tools/utils@10.11.0"
+          ],
+          [
+            "devDependencies:@graphql-codegen/client-preset",
+            "@graphql-tools/utils@10.11.0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "adm-zip",
+      "versions": [
+        "0.4.16"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-xcpc-8h2w-3j85",
+          "title": "adm-zip: Crafted ZIP file triggers 4GB memory allocation",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-7q85-xj36-vmfc",
+          "title": "adm-zip: Uncontrolled memory allocation via the declared uncompressed size (DoS)",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-rcw4-f5rp-g42v",
+          "title": "adm-zip: Decompression-bomb protection (fix for CVE-2026-39244) can be bypassed by declaring uncompressed size as 0",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-j5f4-cc29-5x44",
+          "title": "adm-zip extraction preserves SUID/SGID bits from untrusted ZIPs -> local privilege escalation",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-p634-w6r4-rjp2",
+          "title": "adm-zip: Duplicate ZIP entry names: getEntry() and extractAllTo() resolve to different content",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-c6fg-446q-cg94",
+          "title": "adm-zip: getDataAsync() bypasses the maxOutputLength size guard enforced by the synchronous getData() path",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-8238-w5pm-2374",
+          "title": "adm-zip: Unhandled error event in async DEFLATE decompression crashes Node.js process (DoS)",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "0.4.16": [
+          [
+            "devDependencies:hardhat",
+            "adm-zip@0.4.16"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "axios",
+      "versions": [
+        "0.21.4"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-jr5f-v2jv-69x6",
+          "title": "axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-fvcv-3m26-pcqx",
+          "title": "Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-62hf-57xw-28j9",
+          "title": "Axios: unbounded recursion in toFormData causes DoS via deeply nested request data",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-hfxv-24rg-xrqf",
+          "title": "Axios: Regular Expression Denial of Service (ReDoS) via Cookie Name Injection",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-p92q-9vqr-4j8v",
+          "title": "Axios: Proxy-Authorization Credential Leak to Origin Server Across HTTP-to-HTTPS Redirect in Axios Node.js HTTP Adapter",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-j5f8-grm9-p9fc",
+          "title": "Axios: Proxy-Authorization header leaks to redirect target when proxy is re-evaluated to direct connection",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-3g43-6gmg-66jw",
+          "title": "axios Vulnerable to Credential Theft and Response Hijacking via Prototype Pollution Gadget in Config Merge",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-898c-q2cr-xwhg",
+          "title": "axios has DoS & Header Injection via Prototype Pollution Read-Side Gadgets in axios merge functions",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-3p68-rc4w-qgx5",
+          "title": "Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-w9j2-pvgh-6h63",
+          "title": "Axios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-pmwg-cvhr-8vh7",
+          "title": "Axios: Incomplete Fix for CVE-2025-62718 — NO_PROXY Protection Bypassed via RFC 1122 Loopback Subnet (127.0.0.0/8) in Axios 1.15.0",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-xhjh-pmcv-23jw",
+          "title": "Axios: Null Byte Injection via Reverse-Encoding in AxiosURLSearchParams",
+          "severity": "low"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-m7pr-hjqh-92cm",
+          "title": "Axios: no_proxy bypass via IP alias allows SSRF",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-5c9x-8gcm-mpgx",
+          "title": "Axios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-vf2m-468p-8v99",
+          "title": "Axios: HTTP adapter streamed responses bypass maxContentLength",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-pf86-5x62-jrwf",
+          "title": "Axios: Prototype Pollution Gadgets - Response Tampering, Data Exfiltration, and Request Hijacking",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-6chq-wfr3-2hj9",
+          "title": "Axios: Header Injection via Prototype Pollution",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-xx6v-rp6x-q39c",
+          "title": "Axios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-43fc-jf86-j433",
+          "title": "Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-pjwm-pj3p-43mv",
+          "title": "axios's shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-wf5p-g6vw-rhxx",
+          "title": "Axios Cross-Site Request Forgery Vulnerability",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-mmx7-hfxf-jppx",
+          "title": "Axios: Prototype pollution gadgets can alter axios request construction",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-7q8q-rj6j-mhjq",
+          "title": "Axios: Nested axios option objects can consume polluted prototype values",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "0.21.4": [
+          [
+            "dependencies:@remixproject/plugin-webview",
+            "axios@0.21.4"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "braces",
+      "versions": [
+        "1.8.5",
+        "2.3.2",
+        "3.0.3"
+      ],
+      "mainBundleVulnerableVersions": [
+        "3.0.3"
+      ],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-grv7-fg5c-xmjg",
+          "title": "Uncontrolled resource consumption in braces",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+          "title": "braces vulnerable to stack-exhaustion denial of service through deeply nested patterns",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "1.8.5": [
+          [
+            "devDependencies:onchange",
+            "chokidar@1.7.0",
+            "anymatch@1.3.2",
+            "micromatch@2.3.11",
+            "braces@1.8.5"
+          ]
+        ],
+        "2.3.2": [
+          [
+            "dependencies:chokidar",
+            "braces@2.3.2"
+          ],
+          [
+            "devDependencies:gulp",
+            "glob-watcher@5.0.5",
+            "chokidar@2.1.8",
+            "braces@2.3.2"
+          ],
+          [
+            "devDependencies:onchange",
+            "chokidar@1.7.0",
+            "readdirp@2.2.1",
+            "micromatch@3.1.10",
+            "braces@2.3.2"
+          ],
+          [
+            "devDependencies:watchify",
+            "chokidar@2.1.8",
+            "braces@2.3.2"
+          ]
+        ],
+        "3.0.3": [
+          [
+            "dependencies:@effect/platform-node",
+            "@effect/platform-node-shared@0.56.0",
+            "@parcel/watcher@2.5.1",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ],
+          [
+            "dependencies:@reown/appkit",
+            "@walletconnect/types@2.20.2",
+            "@walletconnect/keyvaluestorage@1.1.1",
+            "unstorage@1.10.1",
+            "chokidar@3.5.3",
+            "braces@3.0.3"
+          ],
+          [
+            "dependencies:@reown/appkit-adapter-ethers",
+            "@walletconnect/universal-provider@2.20.2",
+            "@walletconnect/keyvaluestorage@1.1.1",
+            "unstorage@1.10.1",
+            "chokidar@3.5.3",
+            "braces@3.0.3"
+          ],
+          [
+            "dependencies:deepagents",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ],
+          [
+            "dependencies:ts-loader",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@babel/cli",
+            "chokidar@3.5.3",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@electron-forge/cli",
+            "@electron-forge/core@6.1.1",
+            "fast-glob@3.2.12",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@graphql-codegen/cli",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/cli",
+            "nx@15.7.1",
+            "fast-glob@3.2.7",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/eslint-plugin-nx",
+            "@typescript-eslint/utils@5.40.1",
+            "@typescript-eslint/typescript-estree@5.40.1",
+            "globby@11.1.0",
+            "fast-glob@3.2.12",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/js",
+            "@nrwl/workspace@15.7.1",
+            "chokidar@3.5.2",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/node",
+            "@nrwl/webpack@15.7.1",
+            "chokidar@3.5.2",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/react",
+            "@nrwl/workspace@15.7.1",
+            "chokidar@3.5.2",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/tao",
+            "nx@15.7.1",
+            "fast-glob@3.2.7",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/web",
+            "chokidar@3.5.2",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/webpack",
+            "chokidar@3.5.2",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/workspace",
+            "chokidar@3.5.2",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/type-utils@5.40.1",
+            "@typescript-eslint/typescript-estree@5.40.1",
+            "globby@11.1.0",
+            "fast-glob@3.2.12",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:@typescript-eslint/parser",
+            "@typescript-eslint/typescript-estree@5.40.1",
+            "globby@11.1.0",
+            "fast-glob@3.2.12",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:copy-webpack-plugin",
+            "fast-glob@3.2.12",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:hardhat",
+            "chokidar@3.5.3",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:lint-staged",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:mocha",
+            "chokidar@3.5.1",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:nightwatch",
+            "mocha@9.2.2",
+            "chokidar@3.5.3",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:nodemon",
+            "chokidar@3.5.3",
+            "braces@3.0.3"
+          ],
+          [
+            "devDependencies:nx",
+            "fast-glob@3.2.7",
+            "micromatch@4.0.8",
+            "braces@3.0.3"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "cookie",
+      "versions": [
+        "0.6.0",
+        "0.4.2"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-pxg6-pf52-xh8x",
+          "title": "cookie accepts cookie name, path, and domain with out of bounds characters",
+          "severity": "low"
+        }
+      ],
+      "paths": {
+        "0.6.0": [
+          [
+            "dependencies:express",
+            "cookie@0.6.0"
+          ],
+          [
+            "devDependencies:@nrwl/node",
+            "@nrwl/webpack@15.7.1",
+            "webpack-dev-server@4.15.2",
+            "express@4.21.0",
+            "cookie@0.6.0"
+          ],
+          [
+            "devDependencies:@nrwl/webpack",
+            "webpack-dev-server@4.15.2",
+            "express@4.21.0",
+            "cookie@0.6.0"
+          ]
+        ],
+        "0.4.2": [
+          [
+            "devDependencies:hardhat",
+            "@sentry/node@5.30.0",
+            "cookie@0.4.2"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "cross-spawn",
+      "versions": [
+        "4.0.2",
+        "5.1.0"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-3xgq-45jj-v275",
+          "title": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "4.0.2": [
+          [
+            "devDependencies:nyc",
+            "foreground-child@1.5.6",
+            "cross-spawn@4.0.2"
+          ]
+        ],
+        "5.1.0": [
+          [
+            "devDependencies:npm-merge-driver",
+            "yargs@10.0.3",
+            "os-locale@2.1.0",
+            "execa@0.7.0",
+            "cross-spawn@5.1.0"
+          ],
+          [
+            "devDependencies:onchange",
+            "cross-spawn@5.1.0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "decode-uri-component",
+      "versions": [
+        "0.2.2"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-vcc3-ghjq-m6fr",
+          "title": "decode-uri-component: Denial of service via exponential decoding of malformed percent-encoded input",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "0.2.2": [
+          [
+            "dependencies:@reown/appkit",
+            "@walletconnect/universal-provider@2.20.2",
+            "@walletconnect/utils@2.20.2",
+            "query-string@7.1.3",
+            "decode-uri-component@0.2.2"
+          ],
+          [
+            "dependencies:@reown/appkit-adapter-ethers",
+            "@walletconnect/universal-provider@2.20.2",
+            "@walletconnect/utils@2.20.2",
+            "query-string@7.1.3",
+            "decode-uri-component@0.2.2"
+          ],
+          [
+            "dependencies:chokidar",
+            "braces@2.3.2",
+            "snapdragon@0.8.2",
+            "source-map-resolve@0.5.3",
+            "decode-uri-component@0.2.2"
+          ],
+          [
+            "devDependencies:@nrwl/node",
+            "@nrwl/webpack@15.7.1",
+            "stylus@0.55.0",
+            "css@3.0.0",
+            "source-map-resolve@0.6.0",
+            "decode-uri-component@0.2.2"
+          ],
+          [
+            "devDependencies:@nrwl/webpack",
+            "stylus@0.55.0",
+            "css@3.0.0",
+            "source-map-resolve@0.6.0",
+            "decode-uri-component@0.2.2"
+          ],
+          [
+            "devDependencies:gulp",
+            "glob-watcher@5.0.5",
+            "anymatch@2.0.0",
+            "micromatch@3.1.10",
+            "snapdragon@0.8.2",
+            "source-map-resolve@0.5.3",
+            "decode-uri-component@0.2.2"
+          ],
+          [
+            "devDependencies:onchange",
+            "chokidar@1.7.0",
+            "readdirp@2.2.1",
+            "micromatch@3.1.10",
+            "snapdragon@0.8.2",
+            "source-map-resolve@0.5.3",
+            "decode-uri-component@0.2.2"
+          ],
+          [
+            "devDependencies:watchify",
+            "anymatch@2.0.0",
+            "micromatch@3.1.10",
+            "snapdragon@0.8.2",
+            "source-map-resolve@0.5.3",
+            "decode-uri-component@0.2.2"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "elliptic",
+      "versions": [
+        "6.5.4",
+        "6.6.1"
+      ],
+      "mainBundleVulnerableVersions": [
+        "6.6.1"
+      ],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-vjh7-7g9h-fjfh",
+          "title": "Elliptic's private key extraction in ECDSA upon signing a malformed input (e.g. a string)",
+          "severity": "critical"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-fc9h-whq2-v747",
+          "title": "Valid ECDSA signatures erroneously rejected in Elliptic",
+          "severity": "low"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-434g-2637-qmqr",
+          "title": "Elliptic's verify function omits uniqueness validation",
+          "severity": "low"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-848j-6mx2-7j84",
+          "title": "Elliptic Uses a Cryptographic Primitive with a Risky Implementation",
+          "severity": "low"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-f7q4-pwc6-w24p",
+          "title": "Elliptic's EDDSA missing signature length check",
+          "severity": "low"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-977x-g7h5-7qgw",
+          "title": "Elliptic's ECDSA missing check for whether leading bit of r and s is zero",
+          "severity": "low"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-49q7-c7j4-3p7m",
+          "title": "Elliptic allows BER-encoded signatures",
+          "severity": "low"
+        }
+      ],
+      "paths": {
+        "6.5.4": [
+          [
+            "dependencies:sol2uml",
+            "ethers@5.7.2",
+            "@ethersproject/signing-key@5.7.0",
+            "elliptic@6.5.4"
+          ],
+          [
+            "devDependencies:hardhat",
+            "@nomicfoundation/ethereumjs-block@5.0.1",
+            "ethers@5.7.2",
+            "@ethersproject/signing-key@5.7.0",
+            "elliptic@6.5.4"
+          ]
+        ],
+        "6.6.1": [
+          [
+            "dependencies:@ethersphere/bee-js",
+            "elliptic@6.6.1"
+          ],
+          [
+            "dependencies:@openzeppelin/upgrades-core",
+            "ethereumjs-util@7.1.5",
+            "ethereum-cryptography@0.1.3",
+            "secp256k1@4.0.5",
+            "elliptic@6.6.1"
+          ],
+          [
+            "dependencies:ganache",
+            "secp256k1@4.0.5",
+            "elliptic@6.6.1"
+          ],
+          [
+            "devDependencies:browserify",
+            "crypto-browserify@3.12.0",
+            "browserify-sign@4.2.2",
+            "elliptic@6.6.1"
+          ],
+          [
+            "devDependencies:crypto-browserify",
+            "browserify-sign@4.2.2",
+            "elliptic@6.6.1"
+          ],
+          [
+            "devDependencies:hardhat",
+            "@metamask/eth-sig-util@4.0.1",
+            "ethereumjs-util@6.2.1",
+            "elliptic@6.6.1"
+          ],
+          [
+            "devDependencies:watchify",
+            "browserify@16.5.2",
+            "crypto-browserify@3.12.0",
+            "browserify-sign@4.2.2",
+            "elliptic@6.6.1"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "extract-zip",
+      "versions": [
+        "2.0.1"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-jmr9-qjv8-65gv",
+          "title": "extract-zip unvalidated symlink path traversal",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-7pqw-9j4j-h8q3",
+          "title": "extract-zip allows arbitrary file writes through symlink archive entries",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "2.0.1": [
+          [
+            "dependencies:sol2uml",
+            "convert-svg-to-png@0.6.4",
+            "convert-svg-core@0.6.4",
+            "puppeteer@13.7.0",
+            "extract-zip@2.0.1"
+          ],
+          [
+            "devDependencies:@electron-forge/cli",
+            "@electron-forge/core@6.1.1",
+            "electron-packager@17.1.1",
+            "extract-zip@2.0.1"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "got",
+      "versions": [
+        "9.6.0"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-pfrx-2q88-qq97",
+          "title": "Got allows a redirect to a UNIX socket",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "9.6.0": [
+          [
+            "dependencies:latest-version",
+            "package-json@6.5.0",
+            "got@9.6.0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "ip",
+      "versions": [
+        "2.0.1"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-2p57-rm9w-gvfp",
+          "title": "ip SSRF improper categorization in isPublic",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "2.0.1": [
+          [
+            "devDependencies:@electron-forge/cli",
+            "@electron-forge/core@6.1.1",
+            "@electron/rebuild@3.2.13",
+            "node-gyp@9.3.1",
+            "make-fetch-happen@10.2.1",
+            "socks-proxy-agent@7.0.0",
+            "socks@2.7.1",
+            "ip@2.0.1"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "json5",
+      "versions": [
+        "0.5.1"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-9c47-m6qq-7p4h",
+          "title": "Prototype Pollution in JSON5 via Parse Method",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "0.5.1": [
+          [
+            "devDependencies:babel-plugin-module-resolver",
+            "find-babel-config@1.2.0",
+            "json5@0.5.1"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "lodash.pick",
+      "versions": [
+        "4.4.0"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-p6mc-m468-83gw",
+          "title": "Prototype Pollution in lodash",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "4.4.0": [
+          [
+            "dependencies:sol2uml",
+            "convert-svg-to-png@0.6.4",
+            "convert-svg-core@0.6.4",
+            "lodash.pick@4.4.0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "mem",
+      "versions": [
+        "1.1.0"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-4xcv-9jjx-gfj3",
+          "title": "Denial of Service in mem",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "1.1.0": [
+          [
+            "devDependencies:npm-merge-driver",
+            "yargs@10.0.3",
+            "os-locale@2.1.0",
+            "mem@1.1.0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "micromatch",
+      "versions": [
+        "2.3.11",
+        "3.1.10"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-952p-6rrq-rcjv",
+          "title": "Regular Expression Denial of Service (ReDoS) in micromatch",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "2.3.11": [
+          [
+            "devDependencies:onchange",
+            "chokidar@1.7.0",
+            "anymatch@1.3.2",
+            "micromatch@2.3.11"
+          ]
+        ],
+        "3.1.10": [
+          [
+            "dependencies:chokidar",
+            "anymatch@2.0.0",
+            "micromatch@3.1.10"
+          ],
+          [
+            "devDependencies:gulp",
+            "glob-watcher@5.0.5",
+            "anymatch@2.0.0",
+            "micromatch@3.1.10"
+          ],
+          [
+            "devDependencies:onchange",
+            "chokidar@1.7.0",
+            "readdirp@2.2.1",
+            "micromatch@3.1.10"
+          ],
+          [
+            "devDependencies:watchify",
+            "anymatch@2.0.0",
+            "micromatch@3.1.10"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "minimatch",
+      "versions": [
+        "4.2.1",
+        "5.0.1"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
+          "title": "minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
+          "title": "minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-7r86-cg39-jmmj",
+          "title": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-7r86-cg39-jmmj",
+          "title": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-23c5-xmqv-rm74",
+          "title": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-23c5-xmqv-rm74",
+          "title": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "4.2.1": [
+          [
+            "devDependencies:nightwatch",
+            "mocha@9.2.2",
+            "minimatch@4.2.1"
+          ]
+        ],
+        "5.0.1": [
+          [
+            "devDependencies:hardhat",
+            "mocha@10.2.0",
+            "minimatch@5.0.1"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "minimist",
+      "versions": [
+        "0.0.5",
+        "0.0.8",
+        "0.0.10"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-xvch-5gv4-984h",
+          "title": "Prototype Pollution in minimist",
+          "severity": "critical"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-vh95-rmgr-6w4m",
+          "title": "Prototype Pollution in minimist",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "0.0.5": [
+          [
+            "devDependencies:exorcist",
+            "minimist@0.0.5"
+          ]
+        ],
+        "0.0.8": [
+          [
+            "devDependencies:js-beautify",
+            "mkdirp@0.5.1",
+            "minimist@0.0.8"
+          ],
+          [
+            "devDependencies:mkdirp",
+            "minimist@0.0.8"
+          ],
+          [
+            "devDependencies:npm-merge-driver",
+            "mkdirp@0.5.1",
+            "minimist@0.0.8"
+          ],
+          [
+            "devDependencies:nyc",
+            "spawn-wrap@1.4.2",
+            "mkdirp@0.5.1",
+            "minimist@0.0.8"
+          ],
+          [
+            "devDependencies:tslint",
+            "mkdirp@0.5.1",
+            "minimist@0.0.8"
+          ]
+        ],
+        "0.0.10": [
+          [
+            "devDependencies:npm-link-local",
+            "optimist@0.6.1",
+            "minimist@0.0.10"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "node-forge",
+      "versions": [
+        "1.4.0"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-86w9-cpqp-85rv",
+          "title": "node-forge RSA PKCS#1 v1.5 signature verification accepts extra nested DigestAlgorithm elements",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "1.4.0": [
+          [
+            "dependencies:@reown/appkit",
+            "@walletconnect/types@2.20.2",
+            "@walletconnect/keyvaluestorage@1.1.1",
+            "unstorage@1.10.1",
+            "listhen@1.5.6",
+            "node-forge@1.4.0"
+          ],
+          [
+            "dependencies:@reown/appkit-adapter-ethers",
+            "@walletconnect/universal-provider@2.20.2",
+            "@walletconnect/keyvaluestorage@1.1.1",
+            "unstorage@1.10.1",
+            "listhen@1.5.6",
+            "node-forge@1.4.0"
+          ],
+          [
+            "devDependencies:@nrwl/node",
+            "@nrwl/webpack@15.7.1",
+            "webpack-dev-server@4.15.2",
+            "selfsigned@2.1.1",
+            "node-forge@1.4.0"
+          ],
+          [
+            "devDependencies:@nrwl/webpack",
+            "webpack-dev-server@4.15.2",
+            "selfsigned@2.1.1",
+            "node-forge@1.4.0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "nx",
+      "versions": [
+        "15.7.1"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-w2vw-w76x-qr89",
+          "title": "Nx: OS command injection via git revisions and remote refs",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-w3vv-58gj-gw77",
+          "title": "Nx daemon and plugin worker sockets are accessible to other local users",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-hrvq-x7jp-36xv",
+          "title": "Nx: Path traversal in nx migrate package-migrations extraction",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "15.7.1": [
+          [
+            "devDependencies:@nrwl/cli",
+            "nx@15.7.1"
+          ],
+          [
+            "devDependencies:@nrwl/js",
+            "@nrwl/workspace@15.7.1",
+            "nx@15.7.1"
+          ],
+          [
+            "devDependencies:@nrwl/node",
+            "@nrwl/workspace@15.7.1",
+            "nx@15.7.1"
+          ],
+          [
+            "devDependencies:@nrwl/react",
+            "@nrwl/workspace@15.7.1",
+            "nx@15.7.1"
+          ],
+          [
+            "devDependencies:@nrwl/tao",
+            "nx@15.7.1"
+          ],
+          [
+            "devDependencies:@nrwl/web",
+            "@nrwl/workspace@15.7.1",
+            "nx@15.7.1"
+          ],
+          [
+            "devDependencies:@nrwl/webpack",
+            "@nrwl/workspace@15.7.1",
+            "nx@15.7.1"
+          ],
+          [
+            "devDependencies:@nrwl/workspace",
+            "nx@15.7.1"
+          ],
+          [
+            "devDependencies:nx"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "postcss-selector-parser",
+      "versions": [
+        "6.1.4"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+          "title": "PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "6.1.4": [
+          [
+            "devDependencies:@nrwl/node",
+            "@nrwl/webpack@15.7.1",
+            "css-loader@6.7.1",
+            "postcss-modules-local-by-default@4.0.0",
+            "postcss-selector-parser@6.1.4"
+          ],
+          [
+            "devDependencies:@nrwl/web",
+            "@nrwl/rollup@15.7.1",
+            "rollup-plugin-postcss@4.0.2",
+            "postcss-modules@4.3.1",
+            "postcss-modules-local-by-default@4.0.0",
+            "postcss-selector-parser@6.1.4"
+          ],
+          [
+            "devDependencies:@nrwl/webpack",
+            "css-loader@6.7.1",
+            "postcss-modules-local-by-default@4.0.0",
+            "postcss-selector-parser@6.1.4"
+          ],
+          [
+            "devDependencies:css-loader",
+            "postcss-modules-local-by-default@4.0.0",
+            "postcss-selector-parser@6.1.4"
+          ],
+          [
+            "devDependencies:css-minimizer-webpack-plugin",
+            "cssnano@5.1.14",
+            "cssnano-preset-default@5.2.13",
+            "postcss-calc@8.2.4",
+            "postcss-selector-parser@6.1.4"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "react-router",
+      "versions": [
+        "6.21.0"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-9jcx-v3wj-wh4m",
+          "title": "React Router has unexpected external redirect via untrusted paths",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-wrjc-x8rr-h8h6",
+          "title": "React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-337j-9hxr-rhxg",
+          "title": "React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-2j2x-hqr9-3h42",
+          "title": "React Router's same-origin redirect with path starting // causes open redirect via protocol-relative URL reinterpretation",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "6.21.0": [
+          [
+            "dependencies:react-router-dom",
+            "react-router@6.21.0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "serialize-javascript",
+      "versions": [
+        "5.0.1",
+        "6.0.0",
+        "6.0.2"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-qj8w-gfj5-8c6v",
+          "title": "Serialize JavaScript has CPU Exhaustion Denial of Service via crafted array-like objects",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-5c6j-r48x-rmvq",
+          "title": "Serialize JavaScript is Vulnerable to RCE via RegExp.flags and Date.prototype.toISOString()",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-76p7-773f-r4q5",
+          "title": "Cross-site Scripting (XSS) in serialize-javascript",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "5.0.1": [
+          [
+            "devDependencies:mocha",
+            "serialize-javascript@5.0.1"
+          ]
+        ],
+        "6.0.0": [
+          [
+            "devDependencies:hardhat",
+            "mocha@10.2.0",
+            "serialize-javascript@6.0.0"
+          ],
+          [
+            "devDependencies:nightwatch",
+            "mocha@9.2.2",
+            "serialize-javascript@6.0.0"
+          ]
+        ],
+        "6.0.2": [
+          [
+            "devDependencies:@nrwl/node",
+            "@nrwl/webpack@15.7.1",
+            "copy-webpack-plugin@10.2.4",
+            "serialize-javascript@6.0.2"
+          ],
+          [
+            "devDependencies:@nrwl/webpack",
+            "copy-webpack-plugin@10.2.4",
+            "serialize-javascript@6.0.2"
+          ],
+          [
+            "devDependencies:copy-webpack-plugin",
+            "serialize-javascript@6.0.2"
+          ],
+          [
+            "devDependencies:css-minimizer-webpack-plugin",
+            "serialize-javascript@6.0.2"
+          ],
+          [
+            "devDependencies:terser-webpack-plugin",
+            "serialize-javascript@6.0.2"
+          ],
+          [
+            "devDependencies:webpack",
+            "terser-webpack-plugin@5.3.16",
+            "serialize-javascript@6.0.2"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "sprintf-js",
+      "versions": [
+        "1.1.3",
+        "1.0.3"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-hp3w-g68c-fv3c",
+          "title": "sprintf-js vulnerable to denial of service through unbounded precision specifiers",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "1.1.3": [
+          [
+            "devDependencies:@electron-forge/cli",
+            "@electron/get@2.0.2",
+            "global-agent@3.0.0",
+            "roarr@2.15.4",
+            "sprintf-js@1.1.3"
+          ]
+        ],
+        "1.0.3": [
+          [
+            "devDependencies:@nrwl/cli",
+            "nx@15.7.1",
+            "@yarnpkg/parsers@3.0.0-rc.22",
+            "js-yaml@3.15.2",
+            "argparse@1.0.10",
+            "sprintf-js@1.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/js",
+            "@nrwl/workspace@15.7.1",
+            "nx@15.7.1",
+            "@yarnpkg/parsers@3.0.0-rc.22",
+            "js-yaml@3.15.2",
+            "argparse@1.0.10",
+            "sprintf-js@1.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/node",
+            "@nrwl/workspace@15.7.1",
+            "nx@15.7.1",
+            "@yarnpkg/parsers@3.0.0-rc.22",
+            "js-yaml@3.15.2",
+            "argparse@1.0.10",
+            "sprintf-js@1.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/react",
+            "@nrwl/workspace@15.7.1",
+            "nx@15.7.1",
+            "@yarnpkg/parsers@3.0.0-rc.22",
+            "js-yaml@3.15.2",
+            "argparse@1.0.10",
+            "sprintf-js@1.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/tao",
+            "nx@15.7.1",
+            "@yarnpkg/parsers@3.0.0-rc.22",
+            "js-yaml@3.15.2",
+            "argparse@1.0.10",
+            "sprintf-js@1.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/web",
+            "@nrwl/workspace@15.7.1",
+            "nx@15.7.1",
+            "@yarnpkg/parsers@3.0.0-rc.22",
+            "js-yaml@3.15.2",
+            "argparse@1.0.10",
+            "sprintf-js@1.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/webpack",
+            "@nrwl/workspace@15.7.1",
+            "nx@15.7.1",
+            "@yarnpkg/parsers@3.0.0-rc.22",
+            "js-yaml@3.15.2",
+            "argparse@1.0.10",
+            "sprintf-js@1.0.3"
+          ],
+          [
+            "devDependencies:@nrwl/workspace",
+            "nx@15.7.1",
+            "@yarnpkg/parsers@3.0.0-rc.22",
+            "js-yaml@3.15.2",
+            "argparse@1.0.10",
+            "sprintf-js@1.0.3"
+          ],
+          [
+            "devDependencies:nx",
+            "@yarnpkg/parsers@3.0.0-rc.22",
+            "js-yaml@3.15.2",
+            "argparse@1.0.10",
+            "sprintf-js@1.0.3"
+          ],
+          [
+            "devDependencies:tslint",
+            "js-yaml@3.15.2",
+            "argparse@1.0.10",
+            "sprintf-js@1.0.3"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "stream-json",
+      "versions": [
+        "1.9.1"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-hqr4-qq8f-hg3x",
+          "title": "stream-json: JSONC parser and verifier re-scan the whole accumulated comment on every input chunk",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-mjw6-4jj6-33hc",
+          "title": "stream-json has a prototype pollution issue: Assembler writes this.current[this.key] on plain objects",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-528h-pc64-c93x",
+          "title": "stream-json: pick/ignore/filter/replace filters are O(depth²) on nested input — small crafted JSON blocks the event loop for seconds→minutes (DoS)",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "1.9.1": [
+          [
+            "dependencies:@base-org/account",
+            "@coinbase/cdp-sdk@1.44.1",
+            "@solana/web3.js@1.98.4",
+            "jayson@4.3.0",
+            "stream-json@1.9.1"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "tar",
+      "versions": [
+        "6.2.1"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-34x7-hfp2-rc4v",
+          "title": "node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-8qq5-rm4j-mr97",
+          "title": "node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-83g3-92jg-28cx",
+          "title": "Arbitrary File Read/Write via Hardlink Target Escape Through Symlink Chain in node-tar Extraction",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-qffp-2rhf-9h96",
+          "title": "tar has Hardlink Path Traversal via Drive-Relative Linkpath",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-9ppj-qmqm-q256",
+          "title": "node-tar Symlink Path Traversal via Drive-Relative Linkpath",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-vmf3-w455-68vh",
+          "title": "node-tar applies PAX size override to intermediary GNU long-name/long-link headers, causing tar parser interpretation differential (file smuggling)",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-r6q2-hw4h-h46w",
+          "title": "Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-w8wr-v893-vjvp",
+          "title": "node-tar: Process crash via PAX numeric path type confusion",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-23hp-3jrh-7fpw",
+          "title": "node-tar: Decompression/parse DoS via unlimited input",
+          "severity": "critical"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-8x88-c5mf-7j5w",
+          "title": "node-tar: Negative tar entry size causes infinite loop in archive replace",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-gvwx-54wh-qm9j",
+          "title": "node-tar: Uncaught Exception DoS via NUL byte in PAX path/linkpath records",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-r292-9mhp-454m",
+          "title": "node-tar: Uncontrolled recursion in mapHas/filesFilter allows uncatchable stack-overflow DoS via crafted long-path tar with member selection",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "6.2.1": [
+          [
+            "devDependencies:@electron-forge/cli",
+            "@electron-forge/core@6.1.1",
+            "@electron/rebuild@3.2.13",
+            "tar@6.2.1"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "tmp",
+      "versions": [
+        "0.0.33"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-52f5-9888-hmc6",
+          "title": "tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter",
+          "severity": "low"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-ph9p-34f9-6g65",
+          "title": "tmp has Path Traversal via unsanitized prefix/postfix that enables directory escape",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "0.0.33": [
+          [
+            "devDependencies:@graphql-codegen/cli",
+            "inquirer@8.2.6",
+            "external-editor@3.1.0",
+            "tmp@0.0.33"
+          ],
+          [
+            "devDependencies:hardhat",
+            "solc@0.7.3",
+            "tmp@0.0.33"
+          ],
+          [
+            "devDependencies:solc",
+            "tmp@0.0.33"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "toml",
+      "versions": [
+        "3.0.0"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-82x6-q7mm-w9cf",
+          "title": "toml-node: Uncontrolled Recursion",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-v5mp-jgw5-2x6j",
+          "title": "toml-node: Prototype Pollution Leads to `Object.prototype` Corruption via `__proto__` Key-Path Desynchronization",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "3.0.0": [
+          [
+            "dependencies:@edgeandnode/amp",
+            "@effect/cli@0.72.1",
+            "toml@3.0.0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "trim",
+      "versions": [
+        "0.0.1"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-w5p7-h5w8-2hfq",
+          "title": "Regular Expression Denial of Service in trim",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "0.0.1": [
+          [
+            "devDependencies:tap-spec",
+            "tap-out@2.1.0",
+            "trim@0.0.1"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "undici",
+      "versions": [
+        "5.29.0"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-g9mf-h72j-4rw9",
+          "title": "Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-2mjp-6q6p-2qxm",
+          "title": "Undici has an HTTP Request/Response Smuggling issue",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-vrm6-8vpv-qv8q",
+          "title": "Undici has Unbounded Memory Consumption in WebSocket permessage-deflate Decompression",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-v9p9-hfj2-hcw8",
+          "title": "Undici has Unhandled Exception in WebSocket Client Due to Invalid server_max_window_bits Validation",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-4992-7rv2-5pvq",
+          "title": "Undici has CRLF Injection in undici via `upgrade` option",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-8xcm-r25x-g524",
+          "title": "undici vulnerable to downstream response desynchronization via retry interceptor",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-m8rv-5g2x-5cg5",
+          "title": "undici vulnerable to CRLF Injection via blob-like body 'type' property",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-v3r7-h72x-cjcm",
+          "title": "undici vulnerable to cookie attribute injection via unsanitized domain and unparsed setCookie fields",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-p88m-4jfj-68fv",
+          "title": "undici vulnerable to HTTP header injection via Set-Cookie percent-decoding",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-vxpw-j846-p89q",
+          "title": "undici WebSocket client vulnerable to denial of service via fragment count bypass",
+          "severity": "high"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-g8m3-5g58-fq7m",
+          "title": "undici vulnerable to Set-Cookie SameSite attribute downgrade via permissive substring matching",
+          "severity": "low"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-35p6-xmwp-9g52",
+          "title": "undici vulnerable to HTTP response queue poisoning via keep-alive socket reuse",
+          "severity": "low"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-r53p-7pc4-xj5r",
+          "title": "undici vulnerable to downstream response splitting via retry interceptor",
+          "severity": "low"
+        }
+      ],
+      "paths": {
+        "5.29.0": [
+          [
+            "devDependencies:hardhat",
+            "undici@5.29.0"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "uuid",
+      "versions": [
+        "3.4.0",
+        "9.0.1"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
+          "title": "uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "3.4.0": [
+          [
+            "devDependencies:nyc",
+            "uuid@3.4.0"
+          ]
+        ],
+        "9.0.1": [
+          [
+            "dependencies:@metamask/eth-sig-util",
+            "@metamask/abi-utils@2.0.2",
+            "@metamask/utils@8.5.0",
+            "uuid@9.0.1"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "webpack-dev-middleware",
+      "versions": [
+        "5.3.4"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-g84c-rxfj-3j2c",
+          "title": "webpack-dev-middleware vulnerable to Path Traversal via non-slash-terminated publicPath",
+          "severity": "high"
+        }
+      ],
+      "paths": {
+        "5.3.4": [
+          [
+            "devDependencies:@nrwl/node",
+            "@nrwl/webpack@15.7.1",
+            "webpack-dev-server@4.15.2",
+            "webpack-dev-middleware@5.3.4"
+          ],
+          [
+            "devDependencies:@nrwl/webpack",
+            "webpack-dev-server@4.15.2",
+            "webpack-dev-middleware@5.3.4"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "webpack-dev-server",
+      "versions": [
+        "4.15.2"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-9jgg-88mc-972h",
+          "title": "webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browser",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-4v9v-hfq4-rm2v",
+          "title": "webpack-dev-server users' source code may be stolen when they access a malicious web site",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-79cf-xcqc-c78w",
+          "title": "webpack-dev-server vulnerable to cross-origin source code exposure on non-HTTPS origins",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-mx8g-39q3-5c79",
+          "title": "webpack-dev-server vulnerable to HMR WebSocket interception via permissive user proxies",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-f5vj-f2hx-8m93",
+          "title": "webpack-dev-server vulnerable to cross-site request forgery via internal developer endpoints",
+          "severity": "moderate"
+        },
+        {
+          "url": "https://github.com/advisories/GHSA-m28w-2pqf-7qgj",
+          "title": "webpack-dev-server vulnerable to denial of service via a malformed Host or Origin header",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "4.15.2": [
+          [
+            "devDependencies:@nrwl/node",
+            "@nrwl/webpack@15.7.1",
+            "webpack-dev-server@4.15.2"
+          ],
+          [
+            "devDependencies:@nrwl/webpack",
+            "webpack-dev-server@4.15.2"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "yargs-parser",
+      "versions": [
+        "11.1.1",
+        "8.1.0"
+      ],
+      "mainBundleVulnerableVersions": [],
+      "advisories": [
+        {
+          "url": "https://github.com/advisories/GHSA-p9pc-299p-vxgp",
+          "title": "yargs-parser Vulnerable to Prototype Pollution",
+          "severity": "moderate"
+        }
+      ],
+      "paths": {
+        "11.1.1": [
+          [
+            "devDependencies:nyc",
+            "yargs-parser@11.1.1"
+          ]
+        ],
+        "8.1.0": [
+          [
+            "devDependencies:npm-merge-driver",
+            "yargs@10.0.3",
+            "yargs-parser@8.1.0"
+          ]
+        ]
+      }
+    }
+  ]
+}
