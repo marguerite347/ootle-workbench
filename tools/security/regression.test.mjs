@@ -41,7 +41,7 @@ test('restored or URL-requested upstream service activation is denied', async ()
 
 test('Workbench startup does not discover upstream services or fetch promotional feeds', async () => {
   const preload = await read('apps/remix-ide/src/app/components/preload.tsx')
-  assert.doesNotMatch(preload, /initEndpoints|maybeRedirectFreshVisitor|remix-dynamics/)
+  assert.doesNotMatch(preload, /initEndpoints|maybeRedirectFreshVisitor|remix-dynamics|mobile\.remix\.live|location\.replace/)
   const app = await read('apps/remix-ide/src/app.ts')
   assert.doesNotMatch(app, /activatePlugin\(\[[^\]]*'scriptRunnerBridge'/)
   const statusbar = await read('libs/remix-ui/statusbar/src/lib/remixui-statusbar-panel.tsx')

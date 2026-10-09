@@ -9,6 +9,7 @@ const audit = JSON.parse(await readFile('docs/ootle/security/node-advisories-fol
 const names = new Set()
 let stats
 try { stats = JSON.parse(await readFile('reports/security/browser-stats.json', 'utf8')) } catch (e) { if (e.code !== 'ENOENT') throw e }
+if (!stats && process.argv.includes('--require-bundle')) throw new Error('Production webpack evidence is required')
 function visit(modules, parentInChunk = false) {
   for (const module of modules || []) {
     const inChunk = parentInChunk || module.chunks?.length > 0
