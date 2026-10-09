@@ -216,6 +216,7 @@ module.exports = composePlugins(withNx(), withReact(), (config) => {
         openAnalyzer: false,
         reportFilename: 'bundle-report.html',
         generateStatsFile: true,
+        statsOptions: process.env.ANALYZE === 'security' ? { all: false, modules: true, nestedModules: true, ids: true, source: false, reasons: false } : undefined,
         statsFilename: process.env.ANALYZE === 'security' ? path.resolve(__dirname, '../../reports/security/browser-stats.json') : 'bundle-stats.json',
       })
     )
