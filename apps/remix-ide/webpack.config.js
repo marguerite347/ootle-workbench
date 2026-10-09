@@ -209,15 +209,17 @@ module.exports = composePlugins(withNx(), withReact(), (config) => {
   )
 
   // Optional: generate static bundle analysis when ANALYZE env var is set
-  if (process.env.ANALYZE) {
+  if (process.env.ANALYZE === 'security') {
+    const { SecurityBundleInventoryPlugin } = require('../../tools/security/bundle-inventory.cjs')
+    config.plugins.push(new SecurityBundleInventoryPlugin())
+  } else if (process.env.ANALYZE) {
     config.plugins.push(
       new BundleAnalyzerPlugin({
-        analyzerMode: process.env.ANALYZE === 'security' ? 'disabled' : 'static',
+        analyzerMode: 'static',
         openAnalyzer: false,
         reportFilename: 'bundle-report.html',
         generateStatsFile: true,
-        statsOptions: process.env.ANALYZE === 'security' ? { all: false, modules: true, nestedModules: true, ids: true, source: false, reasons: false } : undefined,
-        statsFilename: process.env.ANALYZE === 'security' ? path.resolve(__dirname, '../../reports/security/browser-stats.json') : 'bundle-stats.json',
+        statsFilename: 'bundle-stats.json',
       })
     )
   }

@@ -10,17 +10,8 @@ const names = new Set()
 let stats
 try { stats = JSON.parse(await readFile('reports/security/browser-stats.json', 'utf8')) } catch (e) { if (e.code !== 'ENOENT') throw e }
 if (!stats && process.argv.includes('--require-bundle')) throw new Error('Production webpack evidence is required')
-function visit(modules, parentInChunk = false) {
-  for (const module of modules || []) {
-    const inChunk = parentInChunk || module.chunks?.length > 0
-    if (inChunk) {
-      const text = module.name || module.identifier || ''
-      for (const match of text.matchAll(/node_modules\/(\@[^/]+\/[^/]+|[^/!]+)/g)) names.add(match[1])
-    }
-    visit(module.modules, inChunk)
-  }
-}
-visit(stats?.modules)
+if (stats && (stats.schemaVersion !== 1 || !Array.isArray(stats.packages) || !stats.emittedModuleCount)) throw new Error('Invalid production module evidence')
+for (const pkg of stats?.packages || []) names.add(`${pkg.name}@${pkg.version}`)
 const paths = new Map()
 for (const group of ['dependencies', 'devDependencies']) {
   for (const [name, range] of Object.entries(root[group] || {})) {
@@ -40,8 +31,8 @@ for (const group of ['dependencies', 'devDependencies']) {
 const findings = []
 for (const [name, advisories] of Object.entries(audit.advisories)) {
   const versions = [...new Set(Object.entries(lock).filter(([s, e]) => s.slice(0, s.indexOf('@', 1)) === name && advisories.some(a => semver.satisfies(e.version, a.vulnerable_versions))).map(([, e]) => e.version))]
-  findings.push({ name, versions, mainBundlePackagePresent: stats ? names.has(name) : null, advisories: advisories.map(a => ({ url: a.url, title: a.title, severity: a.severity })), paths: Object.fromEntries(versions.map(v => [v, paths.get(`${name}@${v}`) || []])) })
+  findings.push({ name, versions, mainBundleVulnerableVersions: stats ? versions.filter(version => names.has(`${name}@${version}`)) : null, advisories: advisories.map(a => ({ url: a.url, title: a.title, severity: a.severity })), paths: Object.fromEntries(versions.map(v => [v, paths.get(`${name}@${v}`) || []])) })
 }
 await mkdir('reports/security', { recursive: true })
 await writeFile('reports/security/dependency-paths.json', JSON.stringify({ checkedAt: new Date().toISOString(), advisoryCheckedAt: audit.checkedAt, scope: 'Lockfile paths plus package presence in the emitted main webpack bundle. Presence is not vulnerable-call reachability; absence does not cover copied static plugin applications or developer tooling.', bundleEvidenceAvailable: !!stats, findings }, null, 2) + '\n')
-console.log(JSON.stringify({ assessedPackageNames: findings.length, mainBundlePackageMatches: stats ? findings.filter(f => f.mainBundlePackagePresent).map(f => f.name) : null }))
+console.log(JSON.stringify({ assessedPackageNames: findings.length, mainBundlePackageMatches: stats ? findings.filter(f => f.mainBundleVulnerableVersions.length).map(f => f.name) : null }))
