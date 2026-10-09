@@ -939,7 +939,7 @@ class AppComponent {
     })
 
     // activate solidity plugin
-    this.appManager.activatePlugin(['scriptRunnerBridge', 'resolutionIndex'])
+    this.appManager.activatePlugin(['resolutionIndex'])
 
     if (isElectron()) {
       this.appManager.activatePlugin(['desktopHost'])

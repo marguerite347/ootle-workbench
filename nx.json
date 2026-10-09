@@ -27,7 +27,7 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/nx-cloud",
+      "runner": "nx/tasks-runners/default",
       "options": {
         "cacheableOperations": [
           "build",
@@ -35,32 +35,44 @@
           "lint",
           "e2e"
         ],
-  "accessToken": "env:NX_CLOUD_ACCESS_TOKEN",
         "runtimeCacheInputs": [
           "node -v",
           "yarn -v",
           "echo $WALLET_CONNECT_PROJECT_ID",
           "echo $NX_DESKTOP_FROM_DIST"
-        ]
+        ],
+        "useDaemonProcess": false
       }
     }
   },
   "targetDefaults": {
     "build": {
       "cache": true,
-      "inputs": ["default", "^default"]
+      "inputs": [
+        "default",
+        "^default"
+      ]
     },
     "test": {
       "cache": true,
-      "inputs": ["default", "^production"]
+      "inputs": [
+        "default",
+        "^production"
+      ]
     },
     "lint": {
       "cache": true,
-      "inputs": ["default", "{workspaceRoot}/.eslintrc.json"]
+      "inputs": [
+        "default",
+        "{workspaceRoot}/.eslintrc.json"
+      ]
     },
     "e2e": {
       "cache": true,
-      "inputs": ["default", "^default"]
+      "inputs": [
+        "default",
+        "^default"
+      ]
     }
   },
   "defaultBase": "master",

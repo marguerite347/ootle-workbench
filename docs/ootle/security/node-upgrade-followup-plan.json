@@ -1,0 +1,1117 @@
+{
+  "checkedAt": "2026-10-09T14:25:10.375Z",
+  "suggestions": {
+    "**/sol2uml/axios": "1.20.0",
+    "**/npm/chownr": "1.1.4",
+    "**/mocha/diff": "5.2.2",
+    "**/request/form-data": "2.5.6",
+    "**/npm/hosted-git-info": "2.8.9",
+    "**/@ardatan/relay-compiler/immutable": "3.8.4",
+    "**/mocha/js-yaml": "4.3.2",
+    "**/nx/js-yaml": "4.3.2",
+    "**/@nrwl/js/minimatch": "3.1.5",
+    "**/@nrwl/react/minimatch": "3.1.5",
+    "**/@nrwl/workspace/minimatch": "3.1.5",
+    "**/nightwatch/minimatch": "3.1.5",
+    "**/nx/minimatch": "3.1.5",
+    "**/@nrwl/cypress/semver": "7.8.5",
+    "**/@nrwl/devkit/semver": "7.8.5",
+    "**/@nrwl/eslint-plugin-nx/semver": "7.8.5",
+    "**/@nrwl/workspace/semver": "7.8.5",
+    "**/nightwatch/semver": "7.8.5",
+    "**/npm/semver": "5.7.2",
+    "**/nx/semver": "7.8.5",
+    "**/simple-update-notifier/semver": "7.8.5",
+    "**/puppeteer/tar-fs": "2.1.5",
+    "**/@ethersproject/providers/ws": "7.5.13",
+    "**/@trufflesuite/uws-js-unofficial/ws": "8.22.0",
+    "**/browserify-reload/ws": "1.0.1",
+    "**/ethers/ws": "8.22.0",
+    "**/puppeteer/ws": "8.22.0",
+    "**/viem/ws": "8.22.0"
+  },
+  "deferred": {
+    "**/undici/@fastify/busboy": {
+      "installed": [
+        "2.1.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "3.2.2"
+    },
+    "**/@graphql-codegen/cli/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-codegen/client-preset/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-codegen/core/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-codegen/gql-tag-operations/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-codegen/plugin-helpers/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-codegen/schema-ast/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-codegen/visitor-plugin-common/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/apollo-engine-loader/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/batch-execute/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/code-file-loader/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/delegate/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/executor-graphql-ws/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/executor-http/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/executor/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/git-loader/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/github-loader/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/graphql-file-loader/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/graphql-tag-pluck/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/import/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/json-file-loader/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/load/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/merge/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/prisma-loader/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/relay-operation-optimizer/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/schema/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/url-loader/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@graphql-tools/wrap/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/graphql-config/@graphql-tools/utils": {
+      "installed": [
+        "10.11.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.0.3"
+    },
+    "**/@octokit/rest/@octokit/plugin-paginate-rest": {
+      "installed": [
+        "1.1.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "16.0.0"
+    },
+    "**/@octokit/request/@octokit/request-error": {
+      "installed": [
+        "7.1.0",
+        "2.1.0"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "7.1.2"
+    },
+    "**/@octokit/rest/@octokit/request-error": {
+      "installed": [
+        "1.2.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.1.2"
+    },
+    "**/@octokit/rest/@octokit/request": {
+      "installed": [
+        "5.6.3"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "10.0.16"
+    },
+    "**/hardhat/adm-zip": {
+      "installed": [
+        "0.4.16"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "0.6.1"
+    },
+    "**/har-validator/ajv": {
+      "installed": [
+        "4.11.8",
+        "6.15.0"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "8.20.0"
+    },
+    "**/@ethersphere/bee-js/axios": {
+      "installed": [
+        "0.28.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "1.20.0"
+    },
+    "**/@remixproject/plugin-webview/axios": {
+      "installed": [
+        "0.21.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "1.20.0"
+    },
+    "**/babel-helper-call-delegate/babel-traverse": {
+      "installed": [
+        "6.26.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/babel-helper-explode-assignable-expression/babel-traverse": {
+      "installed": [
+        "6.26.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/babel-helper-function-name/babel-traverse": {
+      "installed": [
+        "6.26.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/babel-helper-remap-async-to-generator/babel-traverse": {
+      "installed": [
+        "6.26.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/babel-helper-replace-supers/babel-traverse": {
+      "installed": [
+        "6.26.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/babel-plugin-transform-es2015-block-scoping/babel-traverse": {
+      "installed": [
+        "6.26.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/babel-plugin-transform-es2015-classes/babel-traverse": {
+      "installed": [
+        "6.26.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/babel-plugin-transform-es2015-parameters/babel-traverse": {
+      "installed": [
+        "6.26.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/babel-template/babel-traverse": {
+      "installed": [
+        "6.26.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/chokidar/braces": {
+      "installed": [
+        "3.0.3",
+        "2.3.2"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": null
+    },
+    "**/micromatch/braces": {
+      "installed": [
+        "1.8.5",
+        "2.3.2",
+        "3.0.3"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": null
+    },
+    "**/babel-preset-env/browserslist": {
+      "installed": [
+        "3.2.8"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "4.29.3"
+    },
+    "**/@sentry/node/cookie": {
+      "installed": [
+        "0.4.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "2.0.1"
+    },
+    "**/express/cookie": {
+      "installed": [
+        "0.6.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "2.0.1"
+    },
+    "**/execa/cross-spawn": {
+      "installed": [
+        "5.1.0",
+        "6.0.6",
+        "7.0.6"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "7.0.6"
+    },
+    "**/foreground-child/cross-spawn": {
+      "installed": [
+        "4.0.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.0.6"
+    },
+    "**/onchange/cross-spawn": {
+      "installed": [
+        "5.1.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.0.6"
+    },
+    "**/query-string/decode-uri-component": {
+      "installed": [
+        "0.2.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "0.5.0"
+    },
+    "**/source-map-resolve/decode-uri-component": {
+      "installed": [
+        "0.2.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "0.5.0"
+    },
+    "**/rc/deep-extend": {
+      "installed": [
+        "0.4.2",
+        "0.6.0"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "0.6.0"
+    },
+    "**/@ethersphere/bee-js/elliptic": {
+      "installed": [
+        "6.6.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/@ethersproject/signing-key/elliptic": {
+      "installed": [
+        "6.5.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/browserify-sign/elliptic": {
+      "installed": [
+        "6.6.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/create-ecdh/elliptic": {
+      "installed": [
+        "6.6.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/ethereumjs-util/elliptic": {
+      "installed": [
+        "6.6.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/secp256k1/elliptic": {
+      "installed": [
+        "6.6.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/electron-packager/extract-zip": {
+      "installed": [
+        "2.0.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/puppeteer/extract-zip": {
+      "installed": [
+        "2.0.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/package-json/got": {
+      "installed": [
+        "6.7.1",
+        "9.6.0"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "16.0.0"
+    },
+    "**/request/hawk": {
+      "installed": [
+        "3.1.3"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "9.0.2"
+    },
+    "**/boom/hoek": {
+      "installed": [
+        "2.16.3"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/hawk/hoek": {
+      "installed": [
+        "2.16.3"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/sntp/hoek": {
+      "installed": [
+        "2.16.3"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/make-fetch-happen/http-cache-semantics": {
+      "installed": [
+        "4.3.0",
+        "3.8.1"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "4.3.0"
+    },
+    "**/socks/ip": {
+      "installed": [
+        "2.0.1",
+        "1.1.5"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": null
+    },
+    "**/jsprim/json-schema": {
+      "installed": [
+        "0.2.3"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "0.4.0"
+    },
+    "**/find-babel-config/json5": {
+      "installed": [
+        "0.5.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "2.2.3"
+    },
+    "**/convert-svg-core/lodash.pick": {
+      "installed": [
+        "4.4.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/@octokit/rest/lodash.set": {
+      "installed": [
+        "4.3.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/cli-usage/marked": {
+      "installed": [
+        "0.7.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "18.1.0"
+    },
+    "**/os-locale/mem": {
+      "installed": [
+        "1.1.0",
+        "4.3.0"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "9.0.2"
+    },
+    "**/anymatch/micromatch": {
+      "installed": [
+        "2.3.11",
+        "3.1.10"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "4.0.8"
+    },
+    "**/fast-glob/micromatch": {
+      "installed": [
+        "4.0.8",
+        "3.1.10"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "4.0.8"
+    },
+    "**/findup-sync/micromatch": {
+      "installed": [
+        "3.1.10"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "4.0.8"
+    },
+    "**/matchdep/micromatch": {
+      "installed": [
+        "3.1.10"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "4.0.8"
+    },
+    "**/readdirp/micromatch": {
+      "installed": [
+        "3.1.10"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "4.0.8"
+    },
+    "**/mocha/minimatch": {
+      "installed": [
+        "4.2.1",
+        "5.0.1",
+        "3.0.4"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "10.2.6"
+    },
+    "**/exorcist/minimist": {
+      "installed": [
+        "0.0.5"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "1.2.8"
+    },
+    "**/mkdirp/minimist": {
+      "installed": [
+        "1.2.8",
+        "0.0.8",
+        "1.2.6"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "1.2.8"
+    },
+    "**/optimist/minimist": {
+      "installed": [
+        "0.0.10"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "1.2.8"
+    },
+    "**/listhen/node-forge": {
+      "installed": [
+        "1.4.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/selfsigned/node-forge": {
+      "installed": [
+        "1.4.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/notify-error/node-notifier": {
+      "installed": [
+        "4.6.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "10.0.1"
+    },
+    "**/npm/npm-user-validate": {
+      "installed": [
+        "0.1.5"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "5.0.0"
+    },
+    "**/npm-install-version/npm": {
+      "installed": [
+        "4.6.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "12.2.0"
+    },
+    "**/@nrwl/cli/nx": {
+      "installed": [
+        "15.7.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "23.3.0"
+    },
+    "**/@nrwl/tao/nx": {
+      "installed": [
+        "15.7.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "23.3.0"
+    },
+    "**/@nrwl/workspace/nx": {
+      "installed": [
+        "15.7.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "23.3.0"
+    },
+    "**/ipfs-http-client/parse-duration": {
+      "installed": [
+        "0.4.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "2.1.9"
+    },
+    "**/github-base/parse-link-header": {
+      "installed": [
+        "0.4.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "2.0.0"
+    },
+    "**/parse-url/parse-path": {
+      "installed": [
+        "4.0.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.1.0"
+    },
+    "**/git-up/parse-url": {
+      "installed": [
+        "6.0.5"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "11.1.0"
+    },
+    "**/postcss-calc/postcss-selector-parser": {
+      "installed": [
+        "6.1.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.1.6"
+    },
+    "**/postcss-merge-rules/postcss-selector-parser": {
+      "installed": [
+        "6.1.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.1.6"
+    },
+    "**/postcss-minify-selectors/postcss-selector-parser": {
+      "installed": [
+        "6.1.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.1.6"
+    },
+    "**/postcss-modules-local-by-default/postcss-selector-parser": {
+      "installed": [
+        "6.1.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.1.6"
+    },
+    "**/postcss-modules-scope/postcss-selector-parser": {
+      "installed": [
+        "6.1.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.1.6"
+    },
+    "**/postcss-unique-selectors/postcss-selector-parser": {
+      "installed": [
+        "6.1.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.1.6"
+    },
+    "**/stylehacks/postcss-selector-parser": {
+      "installed": [
+        "6.1.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.1.6"
+    },
+    "**/onnx-proto/protobufjs": {
+      "installed": [
+        "6.11.6"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "8.8.0"
+    },
+    "**/react-router-dom/react-router": {
+      "installed": [
+        "6.21.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "8.4.0"
+    },
+    "**/node-gyp/request": {
+      "installed": [
+        "2.88.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/npm-registry-client/request": {
+      "installed": [
+        "2.88.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/npm/request": {
+      "installed": [
+        "2.81.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/node-gyp/semver": {
+      "installed": [
+        "5.7.2",
+        "7.5.2",
+        "5.3.0"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "7.8.5"
+    },
+    "**/copy-webpack-plugin/serialize-javascript": {
+      "installed": [
+        "6.0.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.1.2"
+    },
+    "**/css-minimizer-webpack-plugin/serialize-javascript": {
+      "installed": [
+        "6.0.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.1.2"
+    },
+    "**/mocha/serialize-javascript": {
+      "installed": [
+        "6.0.0",
+        "5.0.1"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "7.1.2"
+    },
+    "**/terser-webpack-plugin/serialize-javascript": {
+      "installed": [
+        "6.0.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.1.2"
+    },
+    "**/@xenova/transformers/sharp": {
+      "installed": [
+        "0.32.6"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "0.35.5"
+    },
+    "**/npm-install-version/shelljs": {
+      "installed": [
+        "0.7.8"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "0.10.0"
+    },
+    "**/argparse/sprintf-js": {
+      "installed": [
+        "1.0.3"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/roarr/sprintf-js": {
+      "installed": [
+        "1.1.3"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/jayson/stream-json": {
+      "installed": [
+        "1.9.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "3.7.0"
+    },
+    "**/@electron/rebuild/tar": {
+      "installed": [
+        "6.2.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.5.22"
+    },
+    "**/@evocateur/pacote/tar": {
+      "installed": [
+        "4.4.19"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.5.22"
+    },
+    "**/@lerna/get-packed/tar": {
+      "installed": [
+        "4.4.19"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.5.22"
+    },
+    "**/@lerna/pack-directory/tar": {
+      "installed": [
+        "4.4.19"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.5.22"
+    },
+    "**/cacache/tar": {
+      "installed": [
+        "6.2.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.5.22"
+    },
+    "**/node-gyp/tar": {
+      "installed": [
+        "4.4.19",
+        "6.2.1",
+        "2.2.2"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "7.5.22"
+    },
+    "**/npm/tar": {
+      "installed": [
+        "2.2.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.5.22"
+    },
+    "**/nx-cloud/tar": {
+      "installed": [
+        "6.2.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "7.5.22"
+    },
+    "**/external-editor/tmp": {
+      "installed": [
+        "0.0.33"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "0.2.7"
+    },
+    "**/solc/tmp": {
+      "installed": [
+        "0.0.33"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "0.2.7"
+    },
+    "**/@effect/cli/toml": {
+      "installed": [
+        "3.0.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "5.0.0"
+    },
+    "**/request/tough-cookie": {
+      "installed": [
+        "2.5.0",
+        "2.3.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "6.0.2"
+    },
+    "**/meow/trim-newlines": {
+      "installed": [
+        "1.0.0",
+        "2.0.0",
+        "3.0.1"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "5.0.0"
+    },
+    "**/tap-out/trim": {
+      "installed": [
+        "0.0.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": null
+    },
+    "**/hardhat/undici": {
+      "installed": [
+        "5.29.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "8.11.2"
+    },
+    "**/@metamask/utils/uuid": {
+      "installed": [
+        "9.0.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "14.0.2"
+    },
+    "**/hardhat/uuid": {
+      "installed": [
+        "8.3.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "14.0.2"
+    },
+    "**/jayson/uuid": {
+      "installed": [
+        "8.3.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "14.0.2"
+    },
+    "**/npm/uuid": {
+      "installed": [
+        "3.0.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "14.0.2"
+    },
+    "**/nyc/uuid": {
+      "installed": [
+        "3.4.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "14.0.2"
+    },
+    "**/request/uuid": {
+      "installed": [
+        "3.4.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "14.0.2"
+    },
+    "**/rpc-websockets/uuid": {
+      "installed": [
+        "8.3.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "14.0.2"
+    },
+    "**/sockjs/uuid": {
+      "installed": [
+        "8.3.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "14.0.2"
+    },
+    "**/temp-write/uuid": {
+      "installed": [
+        "3.4.0"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "14.0.2"
+    },
+    "**/webpack-dev-server/webpack-dev-middleware": {
+      "installed": [
+        "5.3.4"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "8.3.0"
+    },
+    "**/@nrwl/webpack/webpack-dev-server": {
+      "installed": [
+        "4.15.2"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "6.0.0"
+    },
+    "**/rss-parser/xml2js": {
+      "installed": [
+        "0.4.23"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "0.6.2"
+    },
+    "**/nyc/yargs-parser": {
+      "installed": [
+        "11.1.1"
+      ],
+      "reason": "No advisory-free compatible release",
+      "latestSafe": "22.0.0"
+    },
+    "**/yargs/yargs-parser": {
+      "installed": [
+        "20.2.4",
+        "8.1.0",
+        "11.1.1",
+        "15.0.3",
+        "18.1.3",
+        "21.1.1",
+        "5.0.1"
+      ],
+      "reason": "Parent has multiple compatibility lines; requires parent-specific migration",
+      "latestSafe": "22.0.0"
+    }
+  }
+}

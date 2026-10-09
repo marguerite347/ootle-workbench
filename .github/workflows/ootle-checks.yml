@@ -35,6 +35,9 @@ jobs:
           NX_NO_CLOUD: 'true'
           NX_DAEMON: 'false'
       - run: yarn build:production
+        env:
+          ANALYZE: security
+      - run: node tools/security/dependency-paths.mjs
       - run: node tools/package-web.mjs
         env:
           OOTLE_AGENT_SERVICE_URL: https://ootle-workbench-agents.vercel.app
@@ -46,6 +49,12 @@ jobs:
           path: dist/apps/remix-ide
           include-hidden-files: true
           retention-days: 7
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: github.event_name == 'push'
+        with:
+          name: node-exposure-${{ github.sha }}
+          path: reports/security/dependency-paths.json
+          retention-days: 30
   tari:
     runs-on: ubuntu-latest
     timeout-minutes: 35

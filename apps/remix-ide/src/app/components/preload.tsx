@@ -1,5 +1,4 @@
 import { RemixApp } from '@remix-ui/app'
-import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
 import { useTracking, TrackingProvider } from '../contexts/TrackingContext'
 import { TrackingFunction } from '../utils/TrackingFunction'
@@ -11,8 +10,6 @@ import { localStorageFS } from '../files/filesystems/localStorage'
 import { fileSystemUtility, migrationTestData } from '../files/filesystems/fileSystemUtility'
 import './styles/preload.css'
 import isElectron from 'is-electron'
-import { initEndpoints } from '@remix-endpoints-helper'
-import { isFreshBrowser, maybeRedirectFreshVisitor, setVisitFreshness } from '../utils/freshUserRedirect'
 
 // _paq.push(['trackEvent', 'App', 'Preload', 'start'])
 
@@ -120,7 +117,6 @@ function checkAndPersistNoMobileRedirect(): 'url' | 'storage' | 'none' {
 
 export const Preload = (props: PreloadProps) => {
   const { trackMatomoEvent } = useTracking()
-  const [tip, setTip] = useState<string>('')
   const [supported, setSupported] = useState<boolean>(true)
   const [error, setError] = useState<boolean>(false)
   const [showDownloader, setShowDownloader] = useState<boolean>(false)
@@ -186,7 +182,7 @@ export const Preload = (props: PreloadProps) => {
       errorPreload('Error detecting mobile device:', e)
     }
 
-    initEndpoints().then(() => import('../../app'))
+    import('../../app')
       .then((AppComponent) => {
         const appComponent = new AppComponent.default()
         appComponent.run().then(() => {
@@ -253,9 +249,6 @@ export const Preload = (props: PreloadProps) => {
       return
     }
 
-    // Started here rather than in loadAppComponent so the redirect checks below
-    // resolve against the right API; the call is deduped.
-    initEndpoints()
 
     async function loadStorage() {
       ; (await remixFileSystems.current.addFileSystem(remixIndexedDB.current)) || trackMatomoEvent?.({ category: 'Storage', action: 'error', name: 'indexedDB not supported', isClick: false })
@@ -266,32 +259,13 @@ export const Preload = (props: PreloadProps) => {
 
       // Last moment at which "fresh" is still knowable: the IDE creates a
       // default workspace as soon as it boots.
-      setVisitFreshness(isFreshBrowser(!!remixIndexedDB.current.hasWorkSpaces || !!localStorageFileSystem.current.hasWorkSpaces))
-      if (await maybeRedirectFreshVisitor()) return
 
       remixIndexedDB.current.loaded && (remixIndexedDB.current.hasWorkSpaces || !localStorageFileSystem.current.hasWorkSpaces ? await setFileSystems() : setShowDownloader(true))
       !remixIndexedDB.current.loaded && (await setFileSystems())
     }
     loadStorage()
 
-    const abortController = new AbortController()
-    const signal = abortController.signal
-    async function showRemixTips() {
-      const response = await axios.get('https://raw.githubusercontent.com/remix-project-org/remix-dynamics/main/ide/tips.json', { signal })
-      if (signal.aborted) return
-      const tips = response.data
-      const index = Math.floor(Math.random() * (tips.length - 1))
-      setTip(tips[index])
-    }
-    try {
-      showRemixTips()
-    } catch (e) {
-      logPreload(e)
-    }
 
-    return () => {
-      abortController.abort();
-    };
   }, [])
 
   return (

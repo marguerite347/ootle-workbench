@@ -212,11 +212,11 @@ module.exports = composePlugins(withNx(), withReact(), (config) => {
   if (process.env.ANALYZE) {
     config.plugins.push(
       new BundleAnalyzerPlugin({
-        analyzerMode: 'static',
+        analyzerMode: process.env.ANALYZE === 'security' ? 'disabled' : 'static',
         openAnalyzer: false,
         reportFilename: 'bundle-report.html',
         generateStatsFile: true,
-        statsFilename: 'bundle-stats.json',
+        statsFilename: process.env.ANALYZE === 'security' ? path.resolve(__dirname, '../../reports/security/browser-stats.json') : 'bundle-stats.json',
       })
     )
   }

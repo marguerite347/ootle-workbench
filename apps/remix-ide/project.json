@@ -4,20 +4,24 @@
   "sourceRoot": "apps/remix-ide/src",
   "projectType": "application",
   "implicitDependencies": [
-    "doc-gen", 
-    "doc-viewer", 
-    "contract-verification", 
-    "vyper", 
-    "solhint", 
-    "circuit-compiler", 
-    "learneth", 
+    "doc-gen",
+    "doc-viewer",
+    "contract-verification",
+    "vyper",
+    "solhint",
+    "circuit-compiler",
+    "learneth",
     "noir-compiler"
   ],
   "targets": {
     "build": {
       "executor": "@nrwl/webpack:webpack",
-      "dependsOn": ["^build"],
-      "outputs": ["{options.outputPath}"],
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "inputs": [
         "default",
         "^default",
@@ -49,7 +53,6 @@
           "optimization": false,
           "generateIndexHtml": true,
           "extractCss": false
-
         },
         "production": {
           "optimization": true,
@@ -73,33 +76,38 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "remix-ide:build"
-
       },
       "configurations": {
         "development": {
           "buildTarget": "remix-ide:build:development",
-          "host": "0.0.0.0",
+          "host": "127.0.0.1",
           "port": 8080,
           "hmr": false,
           "buildLibsFromSource": true
         },
-        "hot":{
+        "hot": {
           "buildTarget": "remix-ide:build:development",
           "port": 8080,
           "hmr": true,
-          "buildLibsFromSource": true
+          "buildLibsFromSource": true,
+          "host": "127.0.0.1"
         },
         "production": {
           "buildTarget": "remix-ide:build:production",
-          "port": 8080
+          "port": 8080,
+          "host": "127.0.0.1"
         }
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["apps/remix-ide/**/*.{ts,tsx,js,jsx}"],
+        "lintFilePatterns": [
+          "apps/remix-ide/**/*.{ts,tsx,js,jsx}"
+        ],
         "eslintConfig": "apps/remix-ide/.eslintrc"
       }
     }

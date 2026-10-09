@@ -6,25 +6,25 @@ Baseline: production feature branch `956f33c`, audit fork point `59f2e9c439`. Sc
 Reuse Node's built-in HTTP/crypto/test libraries, existing companion fixtures, Remix filesystem/plugin architecture, existing cloud workers, production Nx build and Vercel static packaging. Initial trial: existing four companion tests passed on this baseline. Gap: the existing browser trust flag and bearer token cannot establish local execution consent or authenticate a listener. Replace that protocol; no new dependency or hosted invitation service is needed.
 
 ## Task list and acceptance instructions
-Checked tasks have an implementation and the evidence/disposition below. Dependency remediation is complete to the compatible-upgrade boundary; remaining inherited advisories are explicitly open risks, not declared fixed.
+Reopened 2026-10-09: the prior compatible-upgrade boundary was not the full requested remediation. S5, S11, S13 and final acceptance remain open until the follow-up below is validated. Earlier delivery evidence describes only the earlier revision.
 
 - [x] S1 / HIGH 1: remove URL `call`/`calls` dispatch; enforce file-write permission denial. Test a harmless planted-file link in the real UI and denial in a regression test.
 - [x] S2 / HIGH 2, MEDIUM 4/7: local-only origins; companion terminal approval displaying action, file list, per-file hashes, full source digest and toolchain; expiring single-use approval token. No browser checkbox consent, no Origin bypass. Test denied/expired/replayed/changed approvals.
 - [x] S3 / HIGH 3: authenticated encrypted companion requests/responses, pairing key never transmitted; validate capabilities/results; bounded WASM-only downloads and browser SHA-256 verification; remove unsafe terminal HTML parsing. Test impersonation, object logs, wrong hashes, filenames and response limits.
 - [x] S4 / MEDIUM 5: unique disposable Cargo home, target and workspace per run, pinned toolchain and minimal environment; cleanup on success/failure/cancel; label hashes as content checks, not provenance. Test state separation and cleanup.
-- [x] S5 / MEDIUM 6: refresh dependency evidence, upgrade compatible security fixes, disable install lifecycle scripts, record build artifact checksums and deployment revision. Assess remaining upstream dependencies explicitly.
+- [ ] S5 / MEDIUM 6: refresh dependency evidence, upgrade compatible security fixes, disable install lifecycle scripts, record build artifact checksums and deployment revision. Assess remaining upstream dependencies explicitly.
 - [x] S6 / LOW action/inputs/errors: own-property action lookup, strict request schemas, safe public errors and log path redaction; regression tests for prototype actions and null.
 - [x] S7 / LOW Host/OPTIONS/headers/reclaimable names: exact loopback Host and Origin on every request, constrained preflight, CSP/frame-ancestors/Referrer-Policy/nosniff; disallow hosted origins even if configured.
 - [x] S8 / LOW CI: pin action commits, disable checkout credential persistence, push-only commit-qualified artifacts; prune inherited publishing/automation workflows and hardcoded Etherscan credential.
 - [x] S9 / LOW resources: serialize approval/build and assistant independently, bounded request/response/log/artifact totals, timeouts, disposable output and aborted-request cleanup.
 - [x] S10 / LOW compile semantics: reject workspace Cargo/toolchain configuration overrides; warn that build scripts, proc macros and tests can read host files and execute native code. No sandbox claim; review exact snapshot locally.
-- [x] S11 / LOW Rust advisories: rerun cargo audit including yanked packages, update compatible patches, document any upstream-only/no-fix advisory and validate real Counter tests/WASM in Linux CI.
+- [ ] S11 / LOW Rust advisories: rerun cargo audit including yanked packages, update compatible patches, document any upstream-only/no-fix advisory and validate real Counter tests/WASM in Linux CI.
 - [x] S12 / LOW root/digest/audit: absolute private data root with ownership/mode/symlink checks; bytewise canonical paths and toolchain/action identity; structured bounded secret-free audit events.
-- [x] S13 / LOW upstream services: remove third-party scripts, disable Matomo and automatic upstream cloud/telemetry activation; verify live browser requests/functionality.
+- [ ] S13 / LOW upstream services: remove third-party scripts, disable Matomo and automatic upstream cloud/telemetry activation; verify live browser requests/functionality.
 - [x] S14 / LOW prompt injection: delimit untrusted context, reinforce no-tools advisory behavior; do not describe model guidance as verified evidence.
 - [x] S15 / LOW template parity: CI compares embedded Cargo/source/test files against canonical template files; prove drift fails.
 - [x] S16 / LOW submission draft: include artifact/source binding and explicit unverified repository commit/ownership status; reject publication claims, preserve separate authenticated future publishing boundary.
-- [x] S17 / delivery: run regression suite, production build, desktop/mobile UI and harmful-link negative checks; commit/push, deploy exact revision, verify live revision and response headers. Record remaining limitations without marking untested claims fixed.
+- [ ] S17 / delivery: run regression suite, production build, desktop/mobile UI and harmful-link negative checks; commit/push, deploy exact revision, verify live revision and response headers. Record remaining limitations without marking untested claims fixed.
 
 ## Implementation checkpoint
 
@@ -87,3 +87,9 @@ The hosted preview opened successfully with the production headers, no companion
 Deployed the verified CI artifact to **https://ootle-workbench.vercel.app/**, deployment `dpl_9R4mLXsV5ReVwbfj4hqb2qfm3pKs` (`https://ootle-workbench-7zspaz9cw-peekaboo4.vercel.app`). The public site's build metadata returns HTTP 200 without credentials and revision **a174c148e28022fdad3ff2eef42e31989ed817dd**. The live document returns HTTP 200 with the expected strict CSP, DENY, no-referrer, nosniff and permissions headers. Browser rendering verified the disabled hosted native-Cargo controls, absence of companion pairing UI, and SRI-bearing CI entry scripts (`main.0bf864eb82b666da.js`, `runtime.8bcc70d5e5028f9c.js`). Existing browser workspaces were retained. Test companion/server processes were stopped and temporary probe frames/tabs removed.
 
 The final report and artifact-upload metadata follow-up do not change application code. YAML parsing verified `include-hidden-files: true` on the web artifact step; all downloaded substantive bytes and the two restored empty placeholders match the CI manifest. Application acceptance remains the successful CI run and live artifact identified above.
+
+## Follow-up selection receipt — 2026-10-09
+
+Reuse the existing npm advisory inventory, Yarn Classic resolver, production build, security tests and Linux Cargo validation. The first upgrade tool incorrectly skipped packages with multiple compatibility lines. Trial: invalidate only vulnerable lock selectors in five package families and let Yarn resolve their existing declared ranges; do not force incompatible global overrides. Reassess remaining dependency paths and remove upstream request callers, then validate and deliver a new exact revision.
+
+Follow-up implementation checkpoint: advisory inventory is now 36/2,964, with per-parent compatible fixes, removal of unused dependency roots and an editor TOML upgrade. Startup no longer requests Remix service discovery, fresh-visitor redirects, promotional tips/scam feeds or the remote script-runner catalog. Restored script-runner activation is denied. Local task cache replaces Nx Cloud, daemon defaults off and development binds loopback. Twenty security tests and 21 agent-service tests pass. First follow-up build caught the Git UI's undeclared dateformat import; declared it directly. A new production build and CI acceptance are pending; this checkpoint is not a production-delivery claim.

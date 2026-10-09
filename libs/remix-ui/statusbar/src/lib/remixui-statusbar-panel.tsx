@@ -4,7 +4,6 @@ import AIStatus from './components/aiStatus'
 import ScamAlertStatus from './components/scamAlertStatus'
 import ScamDetails from './components/scamDetails'
 import { FloatingFocusManager, autoUpdate, flip, offset, shift, size, useClick, useDismiss, useFloating, useInteractions, useRole } from '@floating-ui/react'
-import axios from 'axios'
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import { StatusBar } from 'apps/remix-ide/src/app/components/status-bar'
 import { StatusBarContextProvider } from '../contexts/statusbarcontext'
@@ -51,22 +50,10 @@ export function RemixUIStatusBar({ statusBarPlugin }: RemixUIStatusBarProps) {
   const appContext = useContext(AppContext)
 
   useEffect(() => {
-    const abortController = new AbortController()
-    const signal = abortController.signal
-    async function getScamAlerts() {
-      const response = await axios.get('https://raw.githubusercontent.com/remix-project-org/remix-dynamics/main/ide/scam-alerts.json', { signal })
-      if (signal.aborted) return
-      setScamAlerts(response.data.alerts)
-    }
-    getScamAlerts()
-
     statusBarPlugin.on('editor', 'typesLoading' as any, (status: string) => {
       status === 'start' ? setIsTypeLoadingActive(true) : setIsTypeLoadingActive(false)
     })
 
-    return () => {
-      abortController.abort()
-    }
   }, [])
 
   const lightAiUp = async () => {
