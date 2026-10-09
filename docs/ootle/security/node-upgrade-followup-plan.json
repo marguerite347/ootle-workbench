@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T14:40:15.694Z",
+  "checkedAt": "2026-10-09T14:50:16.815Z",
   "suggestions": {},
   "deferred": {
     "**/undici/@fastify/busboy": {
@@ -211,13 +211,6 @@
       ],
       "reason": "No advisory-free compatible release",
       "latestSafe": "0.6.1"
-    },
-    "**/@ethersphere/bee-js/axios": {
-      "installed": [
-        "0.28.1"
-      ],
-      "reason": "No advisory-free compatible release",
-      "latestSafe": "1.20.0"
     },
     "**/@remixproject/plugin-webview/axios": {
       "installed": [
@@ -481,20 +474,6 @@
       "reason": "No advisory-free compatible release",
       "latestSafe": "23.3.0"
     },
-    "**/ipfs-http-client/parse-duration": {
-      "installed": [
-        "0.4.4"
-      ],
-      "reason": "No advisory-free compatible release",
-      "latestSafe": "2.1.9"
-    },
-    "**/github-base/parse-link-header": {
-      "installed": [
-        "0.4.1"
-      ],
-      "reason": "No advisory-free compatible release",
-      "latestSafe": "2.0.0"
-    },
     "**/postcss-calc/postcss-selector-parser": {
       "installed": [
         "6.1.4"
@@ -664,37 +643,9 @@
       "reason": "No advisory-free compatible release",
       "latestSafe": "14.0.2"
     },
-    "**/hardhat/uuid": {
-      "installed": [
-        "8.3.2"
-      ],
-      "reason": "No advisory-free compatible release",
-      "latestSafe": "14.0.2"
-    },
-    "**/jayson/uuid": {
-      "installed": [
-        "8.3.2"
-      ],
-      "reason": "No advisory-free compatible release",
-      "latestSafe": "14.0.2"
-    },
     "**/nyc/uuid": {
       "installed": [
         "3.4.0"
-      ],
-      "reason": "No advisory-free compatible release",
-      "latestSafe": "14.0.2"
-    },
-    "**/rpc-websockets/uuid": {
-      "installed": [
-        "8.3.2"
-      ],
-      "reason": "No advisory-free compatible release",
-      "latestSafe": "14.0.2"
-    },
-    "**/sockjs/uuid": {
-      "installed": [
-        "8.3.2"
       ],
       "reason": "No advisory-free compatible release",
       "latestSafe": "14.0.2"

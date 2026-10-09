@@ -28,7 +28,7 @@ jobs:
           PUPPETEER_SKIP_DOWNLOAD: 'true'
       - run: npm ci --prefix tools/agent-service --ignore-scripts
       - run: npm test --prefix tools/agent-service
-      - run: node --test tools/tari-companion/server.test.mjs tools/security/regression.test.mjs
+      - run: node --test tools/tari-companion/server.test.mjs tools/security/regression.test.mjs tools/security/browser-dependencies.test.mjs
       - run: node tools/security/template-parity.mjs
       - run: yarn build:libs
         env:
