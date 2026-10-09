@@ -1,6 +1,6 @@
 # Ootle Workbench
 
-**Contributions:** automatic enrollment is closed. Contribute through a fork and pull request; individual collaborator access is owner-approved. Reviews and passing checks are required. See [CONTRIBUTING.md](CONTRIBUTING.md).
+**Contributions:** automatic enrollment is closed. Contribute through a fork and pull request; individual collaborator access is owner-approved. Reviews and passing checks are required for ordinary contributors; the owner and agents using the owner account are exempt. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 A Tari Rust/WASM adaptation of **the actual Remix IDE**, forked from [Remix Project](https://github.com/remix-project-org/remix-project) v2.6.5. The product branch is `ootle`; upstream history remains available on `master`.
 
