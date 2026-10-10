@@ -78,7 +78,7 @@
       },
       "discussionLinks": [],
       "cardSummary": "Build browser and Node integrations with Ootle clients for indexing, signing and core operations.",
-      "cardStatus": "Source only \u00b7 Pre-1.0"
+      "cardStatus": "SDK \u00b7 Pre-1.0"
     },
     {
       "id": "tari-ootle:component:ootle-python",
@@ -117,7 +117,7 @@
       },
       "discussionLinks": [],
       "cardSummary": "Access Ootle from Python with synchronous and asynchronous client APIs.",
-      "cardStatus": "Source only \u00b7 Python 3.13+"
+      "cardStatus": "SDK \u00b7 Python 3.13+"
     },
     {
       "id": "tari-ootle:component:ootle-go",
@@ -156,7 +156,7 @@
       },
       "discussionLinks": [],
       "cardSummary": "Connect Go applications to Ootle through a Rust core and native libraries.",
-      "cardStatus": "Source only \u00b7 Requires cgo"
+      "cardStatus": "SDK \u00b7 Requires cgo"
     },
     {
       "id": "tari-ootle:component:erebus-ootle-sdk",
@@ -195,7 +195,7 @@
       },
       "discussionLinks": [],
       "cardSummary": "Explore community TypeScript helpers for Ootle accounts and transactions.",
-      "cardStatus": "Early SDK \u00b7 Runtime untested"
+      "cardStatus": "Early SDK"
     },
     {
       "id": "tari-ootle:component:caravel-faucet",
@@ -239,7 +239,7 @@
         }
       ],
       "cardSummary": "Review a reusable faucet template with one claim per key and administrator pause controls.",
-      "cardStatus": "Testnet only \u00b7 Claim untested"
+      "cardStatus": "Testnet only"
     },
     {
       "id": "tari-ootle:component:ons",
@@ -278,7 +278,7 @@
       },
       "discussionLinks": [],
       "cardSummary": "Explore an Ootle name registry with a Rust template and TypeScript client.",
-      "cardStatus": "Testnet \u00b7 Runtime untested"
+      "cardStatus": "Testnet"
     },
     {
       "id": "tari-ootle:component:caravel-burn-wallet",
@@ -361,7 +361,7 @@
       },
       "discussionLinks": [],
       "cardSummary": "Explore directory and indexer source for finding published Ootle templates.",
-      "cardStatus": "Source only \u00b7 Hosting unverified"
+      "cardStatus": "Source code"
     },
     {
       "id": "tari-ootle:integration:veil",
@@ -400,7 +400,7 @@
       },
       "discussionLinks": [],
       "cardSummary": "Explore source for browsing Ootle transactions, templates and substates.",
-      "cardStatus": "Paused \u00b7 Source only"
+      "cardStatus": "Paused \u00b7 Source code"
     },
     {
       "id": "tari:component:tari-l1-wasm",
@@ -439,7 +439,7 @@
       },
       "discussionLinks": [],
       "cardSummary": "Explore browser-oriented Minotari primitives for Tari L1 integrations.",
-      "cardStatus": "Source only \u00b7 Monorepo required"
+      "cardStatus": "Source code \u00b7 Monorepo required"
     },
     {
       "id": "tari-ootle:learn:ootle-notes",
