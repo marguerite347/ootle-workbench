@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-10-10T11:54:43.251204+00:00",
+  "releases": [
+    {
+      "name": "ootle-py",
+      "source": "https://pypi.org/pypi/ootle-py/json",
+      "latest": "0.3.0"
+    },
+    {
+      "name": "tari_template_lib",
+      "source": "https://crates.io/api/v1/crates/tari_template_lib",
+      "latest": "0.34.0"
+    },
+    {
+      "name": "tari_template_test_tooling",
+      "source": "https://crates.io/api/v1/crates/tari_template_test_tooling",
+      "latest": "0.45.0"
+    },
+    {
+      "name": "ootle-go",
+      "source": "https://proxy.golang.org/github.com/tari-project/ootle-go/@v/list",
+      "latest": [
+        "v0.3.0",
+        "v0.1.0",
+        "v0.2.0"
+      ]
+    },
+    {
+      "name": "node",
+      "source": "https://nodejs.org/dist/index.json",
+      "latest": {
+        "22": "v22.23.3",
+        "24": "v24.21.0",
+        "26": "v26.11.1"
+      }
+    },
+    {
+      "name": "vercel",
+      "source": "https://registry.npmjs.org/vercel/latest",
+      "latest": "63.1.2"
+    },
+    {
+      "name": "yarn",
+      "source": "https://registry.npmjs.org/yarn/latest",
+      "latest": "1.22.22"
+    },
+    {
+      "name": "chiron-sdk",
+      "source": "https://registry.npmjs.org/@chironbuilder%2Footle-sdk/latest",
+      "latest": "0.1.20"
+    },
+    {
+      "name": "chiron-l1",
+      "source": "https://registry.npmjs.org/@chironbuilder%2Ftari-l1-wasm/latest",
+      "latest": "6.0.1-pre.2"
+    },
+    {
+      "name": "official-ootle-sdk",
+      "source": "https://registry.npmjs.org/@tari-project%2Footle/latest",
+      "latest": "0.8.0"
+    },
+    {
+      "name": "official-ootle-wasm",
+      "source": "https://registry.npmjs.org/@tari-project%2Footle-wasm/latest",
+      "latest": "0.45.0"
+    },
+    {
+      "name": "spline",
+      "source": "https://registry.npmjs.org/@splinetool%2Fruntime/latest",
+      "latest": "2.0.75"
+    }
+  ],
+  "installed": {
+    "node": "24.19.0",
+    "yarn": "1.22.22",
+    "cargo": "1.95.0",
+    "vercel": "62.2.0"
+  },
+  "disposition": {
+    "node": "Workbench pins aligned to locally tested 24.19.0; 24.21.0 and 26.11.1 recorded, host not globally upgraded. Lobby hosted engine remains 22.x.",
+    "rust": "Retain 1.95.0 and template_lib 0.32.0 / tooling 0.41.0 pending template/network/ABI migration. Rust latest 1.99.0.",
+    "vercel": "Use proven callable 62.2.0 Node fallback; 63.1.2 migration held pending separate CLI release trial.",
+    "spline": "Retain checksum-pinned 2.0.57 until wheel scene/render acceptance for 2.0.75.",
+    "agentService": "Keep deployed backend versions; changes require live OAuth/session and worker acceptance and must not restart existing agent tests.",
+    "catalogLibraries": "Listed only, not installed or runtime verified.",
+    "codexApp": "26.930.61225 build 13232; updater returned busy, availability unverified. No install/restart.",
+    "actions": "Checkout updated within v4 to verified v4.3.1 SHA. Setup-node v4.4.0 and artifact v4.6.2 pins match release tags. Latest Action majors require runner/runtime migration; retain other SHA pins. Rust action upstream head recorded, pinned compiler unchanged."
+  },
+  "actions": {
+    "checkout": {
+      "published_at": "2026-07-20T15:10:05Z",
+      "tag_name": "v7.0.1"
+    },
+    "setup-node": {
+      "published_at": "2026-10-08T02:52:34Z",
+      "tag_name": "v7.1.0"
+    },
+    "upload-artifact": {
+      "published_at": "2026-10-07T10:08:14Z",
+      "tag_name": "v7.0.2"
+    },
+    "upload-pages-artifact": {
+      "published_at": "2026-04-10T18:22:59Z",
+      "tag_name": "v5.0.0"
+    },
+    "deploy-pages": {
+      "published_at": "2026-09-01T21:31:19Z",
+      "tag_name": "v5.0.1"
+    },
+    "rust-toolchain": {
+      "date": "2026-10-09T01:48:42Z",
+      "sha": "e2a55d2ffb04f378e9626c28d38b36d230d1e12f"
+    }
+  }
+}
