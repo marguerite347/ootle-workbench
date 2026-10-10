@@ -54,7 +54,7 @@ export function createService({ store, origin, ideOrigins, githubClientId, githu
     next()
   }
   const loginConfigured = Boolean(githubClientId && githubClientSecret)
-  app.get('/health', (_req, res) => res.json({ name: 'Ootle agent service', version: 1, loginConfigured, buildsConfigured: jobs.configured, mcp: `${origin}/mcp` }))
+  app.get('/health', (_req, res) => res.json({ name: 'Ootle agent service', version: 2, loginConfigured, buildsConfigured: jobs.configured, buildProfiles: ['rust-wasm-v1', 'node-test-v1'], mcp: `${origin}/mcp` }))
   app.get('/service.css', (_req, res) => res.sendFile(resolve(directory, 'public/service.css')))
   app.get('/wallet-client.js', (_req, res) => res.sendFile(resolve(directory, 'public/wallet-client.js')))
   app.get('/dashboard.js', (_req, res) => res.sendFile(resolve(directory, 'public/dashboard.js')))

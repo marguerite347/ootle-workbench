@@ -60,7 +60,8 @@ async function refresh() {
     node('strong', project.name, row)
     node('p', `Version ${project.version}`, row, 'muted')
     if (account.buildsConfigured) {
-      for (const action of ['build', 'test'])
+      if (project.hasAppProfile) node('p', 'Node test profile · app packaging and deployment are not available yet.', row, 'muted')
+      for (const action of project.hasAppProfile ? ['test'] : ['build', 'test'])
         button(action === 'build' ? 'Compile WASM' : 'Run tests', row, async () => {
           $('status').textContent = 'Starting an isolated build worker…'
           const job = await api(`/api/projects/${project.id}/jobs`, 'POST', { version: project.version, action })

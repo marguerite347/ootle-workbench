@@ -95,7 +95,7 @@ export class Store {
     return { token, csrf }
   }
   async projects(owner) {
-    return (await this.query('SELECT id,name,version FROM ootle_agents.projects WHERE owner=$1 ORDER BY name', [owner])).rows
+    return (await this.query('SELECT id,name,version,files ? \'ootle-workbench.json\' AS "hasAppProfile" FROM ootle_agents.projects WHERE owner=$1 ORDER BY name', [owner])).rows
   }
   async project(id, owner) {
     const row = (await this.query('SELECT * FROM ootle_agents.projects WHERE id=$1 AND owner=$2', [id, owner])).rows[0]
