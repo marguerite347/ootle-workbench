@@ -37,7 +37,9 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-agent-docs-20261010.mp4",
         "source": "Source/docs walkthrough \u2014 application not demonstrated"
       },
-      "discussionLinks": []
+      "discussionLinks": [],
+      "cardSummary": "Find official guidance for Ootle templates, transactions, wallets and agent setup.",
+      "cardStatus": "Docs \u00b7 Skill links unavailable"
     },
     {
       "id": "tari-ootle:component:ootle-ts",
@@ -74,7 +76,9 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.mp4",
         "source": "Source/docs walkthrough \u2014 application not demonstrated"
       },
-      "discussionLinks": []
+      "discussionLinks": [],
+      "cardSummary": "Build browser and Node integrations with Ootle clients for indexing, signing and core operations.",
+      "cardStatus": "Source only \u00b7 Pre-1.0"
     },
     {
       "id": "tari-ootle:component:ootle-python",
@@ -111,7 +115,9 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.mp4",
         "source": "Source/docs walkthrough \u2014 application not demonstrated"
       },
-      "discussionLinks": []
+      "discussionLinks": [],
+      "cardSummary": "Access Ootle from Python with synchronous and asynchronous client APIs.",
+      "cardStatus": "Source only \u00b7 Python 3.13+"
     },
     {
       "id": "tari-ootle:component:ootle-go",
@@ -148,7 +154,9 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.mp4",
         "source": "Source/docs walkthrough \u2014 application not demonstrated"
       },
-      "discussionLinks": []
+      "discussionLinks": [],
+      "cardSummary": "Connect Go applications to Ootle through a Rust core and native libraries.",
+      "cardStatus": "Source only \u00b7 Requires cgo"
     },
     {
       "id": "tari-ootle:component:erebus-ootle-sdk",
@@ -185,7 +193,9 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.mp4",
         "source": "Source/docs walkthrough \u2014 application not demonstrated"
       },
-      "discussionLinks": []
+      "discussionLinks": [],
+      "cardSummary": "Explore community TypeScript helpers for Ootle accounts and transactions.",
+      "cardStatus": "Early SDK \u00b7 Runtime untested"
     },
     {
       "id": "tari-ootle:component:caravel-faucet",
@@ -227,7 +237,9 @@
           "url": "https://x.com/DNodeCapital/status/2108867690085421447",
           "platform": "X"
         }
-      ]
+      ],
+      "cardSummary": "Review a reusable faucet template with one claim per key and administrator pause controls.",
+      "cardStatus": "Testnet only \u00b7 Claim untested"
     },
     {
       "id": "tari-ootle:component:ons",
@@ -264,7 +276,9 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.mp4",
         "source": "Source/docs walkthrough \u2014 application not demonstrated"
       },
-      "discussionLinks": []
+      "discussionLinks": [],
+      "cardSummary": "Explore an Ootle name registry with a Rust template and TypeScript client.",
+      "cardStatus": "Testnet \u00b7 Runtime untested"
     },
     {
       "id": "tari-ootle:component:caravel-burn-wallet",
@@ -306,7 +320,9 @@
           "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
           "platform": "Reddit \u00b7 r/tari"
         }
-      ]
+      ],
+      "cardSummary": "Study a deposit-only Ootle template and its integration examples.",
+      "cardStatus": "Testnet \u00b7 Irreversible deposits"
     },
     {
       "id": "tari-ootle:integration:community-templates",
@@ -343,7 +359,9 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.mp4",
         "source": "Source/docs walkthrough \u2014 application not demonstrated"
       },
-      "discussionLinks": []
+      "discussionLinks": [],
+      "cardSummary": "Explore directory and indexer source for finding published Ootle templates.",
+      "cardStatus": "Source only \u00b7 Hosting unverified"
     },
     {
       "id": "tari-ootle:integration:veil",
@@ -380,7 +398,9 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.mp4",
         "source": "Source/docs walkthrough \u2014 application not demonstrated"
       },
-      "discussionLinks": []
+      "discussionLinks": [],
+      "cardSummary": "Explore source for browsing Ootle transactions, templates and substates.",
+      "cardStatus": "Paused \u00b7 Source only"
     },
     {
       "id": "tari:component:tari-l1-wasm",
@@ -417,7 +437,9 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-l1-wasm-20261010.mp4",
         "source": "Source/docs walkthrough \u2014 application not demonstrated"
       },
-      "discussionLinks": []
+      "discussionLinks": [],
+      "cardSummary": "Explore browser-oriented Minotari primitives for Tari L1 integrations.",
+      "cardStatus": "Source only \u00b7 Monorepo required"
     },
     {
       "id": "tari-ootle:learn:ootle-notes",
@@ -454,7 +476,9 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-notes-20261010.mp4",
         "source": "Source/docs walkthrough \u2014 application not demonstrated"
       },
-      "discussionLinks": []
+      "discussionLinks": [],
+      "cardSummary": "Read community explanations of Ootle privacy and transaction flow.",
+      "cardStatus": "Community notes \u00b7 May be outdated"
     }
   ],
   "opportunities": [
@@ -470,7 +494,9 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.mp4",
         "source": "Announcement walkthrough \u2014 recorded October 10, 2026"
-      }
+      },
+      "cardSummary": "Enter the organizers\u2019 giveaway for three one-month Claude Pro prizes.",
+      "cardStatus": "Drawing October 26 \u00b7 See entry terms"
     }
   ]
 }

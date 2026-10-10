@@ -15,3 +15,19 @@
 .ootle-agent-options{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0}.ootle-agent-options span{padding:5px 9px;border:1px solid #80639e;border-radius:20px;font-size:12px}.ootle-agent-steps{padding-left:20px;font-size:13px;line-height:1.9}.ootle-agent-review{margin-top:20px;padding-top:6px;border-top:1px solid #80639e}.ootle-agent-review pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:260px;overflow:auto;background:#13101c;color:#eee5ff;padding:10px;font-size:12px}.ootle-agents .ootle-actions{flex-wrap:wrap}.ootle-agents details p{font-size:12px}
 
 .ootle-resource-card{min-width:0;border:1px solid var(--secondary,#514461);border-radius:7px;padding:15px;display:flex;flex-direction:column;gap:8px}.ootle-resource-card figure{margin:0}.ootle-resource-card video{width:100%;aspect-ratio:16/9;background:#110d18}.ootle-resource-card figcaption{font-size:12px;line-height:1.5}.ootle-home-grid .ootle-resource-card a{display:block;border:0;padding:6px 0;text-decoration:underline}.ootle-resource-card>span{font-size:13px}
+
+/* Authored fronts share the Lobby catalog; full qualifications stay accessible. */
+.ootle-resource-grid{align-items:start;grid-template-columns:1fr}
+.ootle-resource-card{align-self:start;gap:.5rem}
+.ootle-resource-card h3{font-size:1.125rem;line-height:1.3;margin:.25rem 0 0}
+.ootle-home-grid .ootle-resource-card h3 a{font-size:inherit;padding:0;min-height:2.75rem;display:flex;flex-direction:row;justify-content:flex-start;align-items:center}
+.ootle-resource-card .ootle-card-summary{font-size:1rem;line-height:1.5;margin:0}
+.ootle-resource-grid .ootle-resource-status{display:flex;flex-wrap:wrap;gap:.25rem .75rem;font-size:.875rem;line-height:1.5;margin:0}
+.ootle-resource-status span{opacity:.8}
+.ootle-resource-card .ootle-card-byline{font-size:.875rem;line-height:1.5;margin:0}
+.ootle-card-details{border-top:1px solid var(--secondary,#514461)}
+.ootle-card-details summary{min-height:2.75rem;align-content:center;cursor:pointer;font-size:.875rem}
+.ootle-card-details p{font-size:.875rem;line-height:1.6;margin:.5rem 0}
+.ootle-card-details summary:focus-visible{outline:2px solid #cced00;outline-offset:2px}
+.ootle-home-grid .ootle-resource-card a{min-height:2.75rem}
+@media(min-width:768px){.ootle-resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
