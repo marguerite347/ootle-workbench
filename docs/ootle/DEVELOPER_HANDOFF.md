@@ -105,3 +105,7 @@ Cursor setup is available from the agent selector, with an install link and mcp.
 
 ## Template publication and Sapient
 The Deploy panel opens a durable publication dashboard. Counter v5 has real passing engine tests, compiled WASM and an immutable prepared receipt. A supported Sapient adapter now connects the existing browser wallet and verifies its public account/network; production connection on Esmeralda passed. This does not establish new-template publication support: the reviewed Sapient provider (0.6.6 source) cannot attach WASM/blob data. Use the guided official-wallet publisher or complete an explicitly scoped wallet extension change. Preserve user approval and keep wallet capabilities separate from agent grants. No on-chain publication is claimed. See TEMPLATE_DEPLOYMENT_TASK.md and VALIDATION.md for exact evidence.
+
+## Resource recordings (October 10, 2026)
+
+Builder references use reviewed source/docs screen recordings hosted under the existing Lobby `/previews/community/` media path. Workbench allows media from that exact production origin, with native controls, no autoplay or fabricated execution, and original discussion links retained separately from repositories. This adds no renderer, wallet execution or backend endpoint. Source and capture details live in `ecosystem-resources.json` and `RESOURCE_CAPTURE_HANDOFF.md`.

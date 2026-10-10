@@ -31,7 +31,13 @@
         "guides",
         "official"
       ],
-      "demoUrl": null
+      "demoUrl": null,
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-agent-docs-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-agent-docs-20261010.mp4",
+        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+      },
+      "discussionLinks": []
     },
     {
       "id": "tari-ootle:component:ootle-ts",
@@ -62,7 +68,13 @@
         "sdks",
         "official"
       ],
-      "demoUrl": null
+      "demoUrl": null,
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.mp4",
+        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+      },
+      "discussionLinks": []
     },
     {
       "id": "tari-ootle:component:ootle-python",
@@ -93,7 +105,13 @@
         "sdks",
         "official"
       ],
-      "demoUrl": null
+      "demoUrl": null,
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.mp4",
+        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+      },
+      "discussionLinks": []
     },
     {
       "id": "tari-ootle:component:ootle-go",
@@ -124,7 +142,13 @@
         "sdks",
         "official"
       ],
-      "demoUrl": null
+      "demoUrl": null,
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.mp4",
+        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+      },
+      "discussionLinks": []
     },
     {
       "id": "tari-ootle:component:erebus-ootle-sdk",
@@ -155,7 +179,13 @@
         "sdks",
         "community"
       ],
-      "demoUrl": null
+      "demoUrl": null,
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.mp4",
+        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+      },
+      "discussionLinks": []
     },
     {
       "id": "tari-ootle:component:caravel-faucet",
@@ -186,7 +216,18 @@
         "testnet",
         "community"
       ],
-      "demoUrl": null
+      "demoUrl": null,
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.mp4",
+        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+      },
+      "discussionLinks": [
+        {
+          "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+          "platform": "X"
+        }
+      ]
     },
     {
       "id": "tari-ootle:component:ons",
@@ -217,7 +258,13 @@
         "templates",
         "community"
       ],
-      "demoUrl": null
+      "demoUrl": null,
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.mp4",
+        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+      },
+      "discussionLinks": []
     },
     {
       "id": "tari-ootle:component:caravel-burn-wallet",
@@ -248,7 +295,18 @@
         "templates",
         "community"
       ],
-      "demoUrl": null
+      "demoUrl": null,
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.mp4",
+        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+      },
+      "discussionLinks": [
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
+          "platform": "Reddit \u00b7 r/tari"
+        }
+      ]
     },
     {
       "id": "tari-ootle:integration:community-templates",
@@ -279,7 +337,13 @@
         "templates",
         "official"
       ],
-      "demoUrl": null
+      "demoUrl": null,
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.mp4",
+        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+      },
+      "discussionLinks": []
     },
     {
       "id": "tari-ootle:integration:veil",
@@ -310,7 +374,13 @@
         "inspect",
         "community"
       ],
-      "demoUrl": null
+      "demoUrl": null,
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.mp4",
+        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+      },
+      "discussionLinks": []
     },
     {
       "id": "tari:component:tari-l1-wasm",
@@ -341,7 +411,13 @@
         "advanced",
         "community"
       ],
-      "demoUrl": null
+      "demoUrl": null,
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-l1-wasm-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-l1-wasm-20261010.mp4",
+        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+      },
+      "discussionLinks": []
     },
     {
       "id": "tari-ootle:learn:ootle-notes",
@@ -372,7 +448,13 @@
         "advanced",
         "community"
       ],
-      "demoUrl": null
+      "demoUrl": null,
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-notes-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-notes-20261010.mp4",
+        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+      },
+      "discussionLinks": []
     }
   ],
   "opportunities": [
@@ -383,7 +465,12 @@
       "sourceUrl": "https://x.com/DNodeCapital/status/2108867687749181816",
       "publishedAt": "2026-10-10T10:30:00Z",
       "expiresAt": "2026-10-27T00:00:00Z",
-      "status": "Organizer announcement; no entry or outcome verified"
+      "status": "Organizer announcement; no entry or outcome verified",
+      "preview": {
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.mp4",
+        "source": "Announcement walkthrough \u2014 recorded October 10, 2026"
+      }
     }
   ]
 }
