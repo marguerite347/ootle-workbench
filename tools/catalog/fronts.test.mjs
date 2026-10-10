@@ -9,10 +9,10 @@ test('builder catalog fronts use reader-facing type and availability, keeping fu
  for(const entry of [...catalog.records,...catalog.opportunities]){
   assert.ok(entry.cardSummary?.trim()&&entry.cardSummary.length<=160,`${entry.title}: short summary required`);
   assert.ok(entry.summary?.trim(),`${entry.title}: preserve full description`);
-  for(const field of ['title','cardSummary','cardStatus']) assert.doesNotMatch(entry[field]||'',internalReviewWording,`${entry.title}: ${field} must describe the resource, not internal testing`);
+  for(const field of ['title','cardSummary','cardStatus']) {assert.doesNotMatch(entry[field]||'',internalReviewWording,`${entry.title}: ${field} must describe the resource, not internal testing`);assert.doesNotMatch(entry[field]||'',/no playable demo|not deployed|skill links unavailable/i,`${entry.title}: keep absence findings dated in Details`);}
  }
  assert.match(catalog.records.find(r=>r.key==='caravel-faucet').cardStatus,/Testnet only/);
  assert.match(catalog.records.find(r=>r.key==='caravel-burn-wallet').cardStatus,/Testnet.*Irreversible deposits/);
- assert.match(catalog.records.find(r=>r.key==='veil').cardStatus,/Paused/);
+ for(const entry of catalog.records) if(/paused/i.test(entry.cardStatus||'')) assert.match(entry.cardStatus,/review/i,`${entry.title}: date volatile outage findings`);
  assert.doesNotMatch(read('apps/remix-ide/src/app/plugins/ootle/ecosystem-resources.tsx'),internalReviewWording);
 });

@@ -333,5 +333,760 @@
       "status": "out-of-general-gallery-scope",
       "reason": "Council-specific governance co-signing tool. Source discovery does not grant governance authority."
     }
-  ]
+  ],
+  "resourceReviews": {
+    "tari-ootle:app:caravel": {
+      "id": "tari-ootle:app:caravel",
+      "title": "Caravel",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/25",
+        "https://github.com/okansaglam016161-pixel/caravel",
+        "https://caravellabs.net"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:legacy-vault": {
+      "id": "tari-ootle:app:legacy-vault",
+      "title": "Legacy Vault",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/14",
+        "https://github.com/huzhazha/legacy-vault-ootle",
+        "https://huzhazha.github.io/legacy-vault-ootle/demo/"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:ootle-pay": {
+      "id": "tari-ootle:app:ootle-pay",
+      "title": "Ootle Pay",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/6",
+        "https://github.com/imphila/ootle-pay",
+        "https://imphila.github.io/ootle-pay/"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:ootle-surveys": {
+      "id": "tari-ootle:app:ootle-surveys",
+      "title": "Ootle Surveys",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/18",
+        "https://github.com/JustAResearcher/ootle-surveys"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:outruna": {
+      "id": "tari-ootle:app:outruna",
+      "title": "Outruna",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/24",
+        "https://github.com/solvetony/outruna",
+        "https://outruna.top"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:private-ballot": {
+      "id": "tari-ootle:app:private-ballot",
+      "title": "Private Ballot",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/3",
+        "https://github.com/GSXRspartan/private-ballot"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:sapient": {
+      "id": "tari-ootle:app:sapient",
+      "title": "Sapient",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/16",
+        "https://github.com/chironbuilds/tari-wallet",
+        "https://sapient.tari.mw"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:shadowtix": {
+      "id": "tari-ootle:app:shadowtix",
+      "title": "ShadowTix",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/13",
+        "https://github.com/zvovanz-a1/tari-ticket-public",
+        "https://shadowtix.shop"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:signal-vault": {
+      "id": "tari-ootle:app:signal-vault",
+      "title": "Signal Vault",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/4",
+        "https://github.com/Lrifton92/signal-vault"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:tari-l1-web-wallet": {
+      "id": "tari-ootle:app:tari-l1-web-wallet",
+      "title": "Tari L1 Web Wallet",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/19",
+        "https://github.com/chironbuilds/tari-l1-wallet-ui",
+        "https://universe.tari.mw"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:tariorg": {
+      "id": "tari-ootle:app:tariorg",
+      "title": "TariOrg",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/2",
+        "https://github.com/n0izn0iz/tariorg",
+        "https://tariorg.pages.dev"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:threshold-bounties": {
+      "id": "tari-ootle:app:threshold-bounties",
+      "title": "Bounties powered by Threshold",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/27",
+        "https://github.com/Seal-Clubber/Threshold/tree/main/crates/threshold-bounty-template",
+        "https://seal-clubber.github.io/Threshold/bounties-archive.html"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:threshold": {
+      "id": "tari-ootle:app:threshold",
+      "title": "Threshold",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/20",
+        "https://github.com/Seal-Clubber/Threshold",
+        "https://seal-clubber.github.io/Threshold/"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:app:wunschswap": {
+      "id": "tari-ootle:app:wunschswap",
+      "title": "WunschSwap",
+      "sources": [
+        "https://community.tari.com/t/september-contest-thread/324/21",
+        "https://git.disroot.org/comiama/wunschswap",
+        "https://wunschswap.com"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "project:clew": {
+      "id": "project:clew",
+      "title": "Clew",
+      "sources": [
+        "https://community.tari.com/t/clew-a-small-private-tari-wallet-for-mac/424",
+        "https://github.com/big-chief-1889/Clew"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "project:community-playground": {
+      "id": "project:community-playground",
+      "title": "Tari Ootle Playground",
+      "sources": [
+        "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/5",
+        "https://feeltherevolt-xehqj-studio.wp.build/"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "project:labyrinthos": {
+      "id": "project:labyrinthos",
+      "title": "LabyrinthOS",
+      "sources": [
+        "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1",
+        "https://labyrinthos.markets/"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "project:liquidity": {
+      "id": "project:liquidity",
+      "title": "Tari/Ootle Liquidity Protocol",
+      "sources": [
+        "https://github.com/GSXRspartan/tari-ootle-liquidity-protocol#readme",
+        "https://github.com/GSXRspartan/tari-ootle-liquidity-protocol"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "partial",
+      "reviewRequired": true,
+      "lastAttemptAt": "2026-10-10T14:04:54.350839+00:00",
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "sourceReviews": {
+        "https://api.github.com/repos/GSXRspartan/tari-ootle-liquidity-protocol/readme": {
+          "url": "https://api.github.com/repos/GSXRspartan/tari-ootle-liquidity-protocol/readme",
+          "hash": "16f650c832a2a1023583c1004256ffa9e1d32277e7607dbe99048b47c9fd9980",
+          "httpStatus": 200,
+          "lastAttemptAt": "2026-10-10T14:04:54.350839+00:00",
+          "lastSuccessfulReadAt": "2026-10-10T14:04:54.350839+00:00",
+          "error": null
+        }
+      },
+      "priorReviewBasis": null,
+      "observedAvailability": null,
+      "changedSources": [
+        "https://api.github.com/repos/GSXRspartan/tari-ootle-liquidity-protocol/readme"
+      ],
+      "reviewQueue": [
+        "copy",
+        "actions",
+        "details",
+        "recording",
+        "provenance"
+      ],
+      "checkedScope": [
+        "https://api.github.com/repos/GSXRspartan/tari-ootle-liquidity-protocol/readme"
+      ],
+      "sourceObservation": "Oct 10 README describes Esmeralda testnet, mainnet disabled and configured-not-live Cloudflare hosting. README scope only.",
+      "copyUpdated": true
+    },
+    "project:miner": {
+      "id": "project:miner",
+      "title": "TARI.Miner",
+      "sources": [
+        "https://github.com/JustAResearcher/TARI.Miner#readme",
+        "https://github.com/JustAResearcher/TARI.Miner",
+        "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "project:official-templates": {
+      "id": "project:official-templates",
+      "title": "Ootle WASM Templates",
+      "sources": [
+        "https://ootle.tari.com/guides/build-a-guessing-game/",
+        "https://github.com/tari-project/wasm-template"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "project:official-universe": {
+      "id": "project:official-universe",
+      "title": "Tari Universe",
+      "sources": [
+        "https://tari.com/downloads",
+        "https://github.com/tari-project/universe"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "project:sooon-fun": {
+      "id": "project:sooon-fun",
+      "title": "SOOON FUN",
+      "sources": [
+        "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1",
+        "https://sooon.fun/"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "project:tari-agent-pay": {
+      "id": "project:tari-agent-pay",
+      "title": "Tari Agent Pay",
+      "sources": [
+        "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/9",
+        "https://github.com/zvovanz-a1/tari-agent-pay"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "project:tari-market": {
+      "id": "project:tari-market",
+      "title": "Tari Market",
+      "sources": [
+        "https://wiki.tari.com/resources:app_directory:tari_market",
+        "https://tari-market.johnnytsunami14.chatgpt.site/"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "project:candy-summoner": {
+      "id": "project:candy-summoner",
+      "title": "Ootlejuice Candy Summoner",
+      "sources": [
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
+        "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner"
+      ],
+      "lastSuccessfulReviewAt": "2026-10-10T14:04:54.116030+00:00",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-10-10T14:04:54.116030+00:00",
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "sourceReviews": {
+        "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner": {
+          "url": "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner",
+          "hash": "487ac6b73f052bf59e8bd7090beee106511f360250b22e73eac07329939d44fe",
+          "httpStatus": 200,
+          "lastAttemptAt": "2026-10-10T14:04:54.116030+00:00",
+          "lastSuccessfulReadAt": "2026-10-10T14:04:54.116030+00:00",
+          "error": null
+        },
+        "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/readme": {
+          "url": "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/readme",
+          "hash": "d3218085255a46f121de4968e5d97883e76b49a93390401af55732100fdfd7bd",
+          "httpStatus": 200,
+          "lastAttemptAt": "2026-10-10T14:04:54.116030+00:00",
+          "lastSuccessfulReadAt": "2026-10-10T14:04:54.116030+00:00",
+          "error": null
+        },
+        "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/releases": {
+          "url": "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/releases",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "httpStatus": 200,
+          "lastAttemptAt": "2026-10-10T14:04:54.116030+00:00",
+          "lastSuccessfulReadAt": "2026-10-10T14:04:54.116030+00:00",
+          "error": null
+        },
+        "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/contents/": {
+          "url": "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/contents/",
+          "hash": "8b665d5359092ecde30e421f928eb2e39eb577011edcb1fa6dc82715cc3fa38b",
+          "httpStatus": 200,
+          "lastAttemptAt": "2026-10-10T14:04:54.116030+00:00",
+          "lastSuccessfulReadAt": "2026-10-10T14:04:54.116030+00:00",
+          "error": null
+        },
+        "https://community.tari.com/t/396.json": {
+          "url": "https://community.tari.com/t/396.json",
+          "hash": "ef7319f39b2d3aa584332117a225233e5d7c6f88f2a3c0cf24e7ef98f227ca43",
+          "httpStatus": 200,
+          "lastAttemptAt": "2026-10-10T14:04:54.116030+00:00",
+          "lastSuccessfulReadAt": "2026-10-10T14:04:54.116030+00:00",
+          "error": null
+        }
+      },
+      "priorReviewBasis": null,
+      "observedAvailability": "Oct 10 repository has README only, no homepage or releases; no demo link found in repository or complete six-post contest topic. Creator post says demo video coming. Scope excludes unlinked social posts.",
+      "changedSources": [
+        "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner",
+        "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/readme",
+        "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/releases",
+        "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/contents/",
+        "https://community.tari.com/t/396.json"
+      ],
+      "reviewQueue": [],
+      "checkedScope": [
+        "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner",
+        "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/readme",
+        "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/releases",
+        "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/contents/",
+        "https://community.tari.com/t/396.json"
+      ],
+      "sourceObservation": "Oct 10 repository has README only, no homepage or releases; no demo link found in repository or complete six-post contest topic. Creator post says demo video coming. Scope excludes unlinked social posts.",
+      "copyUpdated": true
+    },
+    "project:ghostkey": {
+      "id": "project:ghostkey",
+      "title": "GhostKey",
+      "sources": [
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6",
+        "https://github.com/Alex20Sas12/ghostkey"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:learn:official-agent-docs": {
+      "id": "tari-ootle:learn:official-agent-docs",
+      "title": "Official docs & agent setup",
+      "sources": [
+        "https://ootle.tari.com/llms.txt",
+        "https://ootle.tari.com/guides/agent-api-keys/"
+      ],
+      "lastSuccessfulReviewAt": "2026-10-10T11:48:40Z",
+      "outcome": "blocked",
+      "reviewRequired": true,
+      "lastAttemptAt": "2026-10-10T14:05:11.759275+00:00",
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "sourceReviews": {
+        "https://ootle.tari.com/llms.txt": {
+          "url": "https://ootle.tari.com/llms.txt",
+          "hash": "d3967ba75429b439bba0b237706272043e8048f4509b285dc84469f6f3da6464",
+          "httpStatus": 200,
+          "lastAttemptAt": "2026-10-10T14:05:11.759275+00:00",
+          "lastSuccessfulReadAt": "2026-10-10T14:05:11.759275+00:00",
+          "error": null
+        },
+        "https://ootle.tari.com/.well-known/skills/": {
+          "lastAttemptAt": "2026-10-10T14:05:11.759275+00:00",
+          "error": "HTTP 403"
+        },
+        "https://ootle.tari.com/.well-known/skills/openai-codex/SKILL.md": {
+          "lastAttemptAt": "2026-10-10T14:05:11.759275+00:00",
+          "error": "HTTP 403"
+        }
+      },
+      "priorReviewBasis": "Retained catalog lastCheckedAt from earlier source review; this follow-up does not imply all sources were reread",
+      "observedAvailability": null,
+      "changedSources": [
+        "https://ootle.tari.com/llms.txt"
+      ],
+      "reviewQueue": [
+        "copy",
+        "actions",
+        "details",
+        "recording",
+        "provenance"
+      ],
+      "checkedScope": [
+        "https://ootle.tari.com/llms.txt",
+        "https://ootle.tari.com/.well-known/skills/",
+        "https://ootle.tari.com/.well-known/skills/openai-codex/SKILL.md"
+      ],
+      "sourceObservation": "Index accessible. Skill index and Codex skill returned 403; availability blocked, prior review date retained.",
+      "copyUpdated": true
+    },
+    "tari-ootle:component:ootle-ts": {
+      "id": "tari-ootle:component:ootle-ts",
+      "title": "Official TypeScript SDK",
+      "sources": [
+        "https://github.com/tari-project/ootle.ts"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:component:ootle-python": {
+      "id": "tari-ootle:component:ootle-python",
+      "title": "Official Python SDK",
+      "sources": [
+        "https://github.com/tari-project/ootle-py"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:component:ootle-go": {
+      "id": "tari-ootle:component:ootle-go",
+      "title": "Official Go SDK",
+      "sources": [
+        "https://github.com/tari-project/ootle-go"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:component:erebus-ootle-sdk": {
+      "id": "tari-ootle:component:erebus-ootle-sdk",
+      "title": "Erebus / Chiron Ootle SDK",
+      "sources": [
+        "https://github.com/chironbuilds/ootle-sdk-ts"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:component:caravel-faucet": {
+      "id": "tari-ootle:component:caravel-faucet",
+      "title": "Caravel Faucet",
+      "sources": [
+        "https://github.com/okansaglam016161-pixel/caravel-faucet",
+        "https://x.com/DNodeCapital/status/2108867690085421447"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:component:ons": {
+      "id": "tari-ootle:component:ons",
+      "title": "Ootle Name Service",
+      "sources": [
+        "https://github.com/okansaglam016161-pixel/ootle-name-service"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:component:caravel-burn-wallet": {
+      "id": "tari-ootle:component:caravel-burn-wallet",
+      "title": "Caravel Burn Wallet",
+      "sources": [
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
+        "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:integration:community-templates": {
+      "id": "tari-ootle:integration:community-templates",
+      "title": "Official Community Templates",
+      "sources": [
+        "https://github.com/tari-project/community-templates"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:integration:veil": {
+      "id": "tari-ootle:integration:veil",
+      "title": "Veil Ootle Explorer",
+      "sources": [
+        "https://github.com/chironbuilds/ootle-explorer"
+      ],
+      "lastSuccessfulReviewAt": "2026-10-10T11:48:07.412636+00:00",
+      "outcome": "partial",
+      "reviewRequired": true,
+      "lastAttemptAt": "2026-10-10T14:04:36.490552+00:00",
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "sourceReviews": {
+        "https://ootle-explorer.vercel.app/": {
+          "url": "https://ootle-explorer.vercel.app/",
+          "hash": "67fe7b40c9c2760be3a6ca6e4528e28a26d158406a32be9bd4b757ba530eba56",
+          "httpStatus": 402,
+          "lastAttemptAt": "2026-10-10T14:04:36.490552+00:00",
+          "lastSuccessfulReadAt": "2026-10-10T14:04:36.490552+00:00",
+          "error": null
+        }
+      },
+      "priorReviewBasis": "Retained catalog lastCheckedAt from earlier source review; this follow-up does not imply all sources were reread",
+      "observedAvailability": null,
+      "changedSources": [
+        "https://ootle-explorer.vercel.app/"
+      ],
+      "reviewQueue": [
+        "copy",
+        "actions",
+        "details",
+        "recording",
+        "provenance"
+      ],
+      "checkedScope": [
+        "https://ootle-explorer.vercel.app/"
+      ],
+      "sourceObservation": "Oct 10 advertised deployment returned HTTP 402 DEPLOYMENT_DISABLED. Only deployment rechecked in this follow-up, not repository or original discussions.",
+      "copyUpdated": true
+    },
+    "tari:component:tari-l1-wasm": {
+      "id": "tari:component:tari-l1-wasm",
+      "title": "Chiron Tari L1 WASM",
+      "sources": [
+        "https://github.com/chironbuilds/tari-l1-wasm"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "tari-ootle:learn:ootle-notes": {
+      "id": "tari-ootle:learn:ootle-notes",
+      "title": "Ootle Internals notes",
+      "sources": [
+        "https://github.com/chironbuilds/ootle-notes"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    },
+    "dnode-giveaway": {
+      "id": "dnode-giveaway",
+      "title": "DNode / Erebus builder giveaway",
+      "sources": [
+        "https://x.com/DNodeCapital/status/2108867687749181816"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "not-rechecked-in-this-follow-up",
+      "reviewRequired": true,
+      "lastAttemptAt": null,
+      "nextReviewAt": "2026-10-11T09:00:00Z",
+      "changedFields": [],
+      "sourceReviews": {}
+    }
+  },
+  "resourceReviewSummary": {
+    "date": "2026-10-10",
+    "enumerated": 39,
+    "attempted": 4,
+    "completeWithinDeclaredScope": 1,
+    "partialOrBlocked": 3,
+    "notRechecked": 35,
+    "policy": "Revisit every existing entry each daily run, independent of discovery lookback. Partial/failed reads never advance the last successful review date.",
+    "evidence": "availability-review/source-reads.json"
+  }
 }
