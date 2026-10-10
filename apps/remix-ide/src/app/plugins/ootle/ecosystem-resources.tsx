@@ -6,7 +6,7 @@ export function EcosystemResources() {
   const records = catalog.records.filter(record => `${record.title} ${record.group} ${record.summary}`.toLowerCase().includes(query.toLowerCase()))
   return <section id="ecosystem-resources" aria-labelledby="ecosystem-resources-title">
     <h2 id="ecosystem-resources-title">Builder resources</h2>
-    <p className="ootle-note">Docs → language SDK → testnet faucet → templates. Sources checked October 10, 2026. These references do not change your workspace or install packages.</p>
+    <p className="ootle-note">Explore guides, language SDKs, testnet tools and reusable templates.</p>
     <label className="ootle-resource-search">Find a builder resource<input type="search" placeholder="Python, faucet, templates…" value={query} onChange={event => setQuery(event.target.value)} /></label>
     <div className="ootle-home-grid ootle-resource-grid">{records.map(record => <article key={record.id} className="ootle-resource-card">
       {record.preview ? <figure><video controls muted playsInline preload="none" src={record.preview.video} poster={record.preview.image} aria-label={`${record.title} recording`}/></figure> : <p className="ootle-note">Recording pending</p>}
