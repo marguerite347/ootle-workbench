@@ -4,7 +4,7 @@ This is an actual fork of Remix v2.6.5 (`59f2e9c43971a216c6981e30796a40141d4a78b
 
 ## Run the IDE
 
-Use Node 24.3.0 and Yarn 1.22.22 (upstream `.nvmrc`).
+Use Node 24.19.0 and Yarn 1.22.22 (upstream `.nvmrc`).
 
 ```sh
 yarn install --frozen-lockfile --ignore-engines --ignore-scripts

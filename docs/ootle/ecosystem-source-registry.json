@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-10T11:54:43.251204+00:00",
+  "overlapDays": 7,
+  "policy": "Retain last-good reads on failure; never advance a complete watermark from partial scans. Raw snapshots stay outside public source. Reuse monitor-contest.mjs and sourceMonitoring.mjs before adding adapters.",
+  "sources": [
+    {
+      "id": "396",
+      "url": "https://community.tari.com/t/396.json",
+      "status": "complete",
+      "posts": 6,
+      "hash": "8f16fda11aa1cd21093dd5742fa5cd3565682a030886b03d55c0e3ecf1381ddf",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "397",
+      "url": "https://community.tari.com/t/397.json",
+      "status": "complete",
+      "posts": 4,
+      "hash": "2985164f170346c7fdb4f15fd43a7f20bd81ee0ed05a8fb21c42d27fc726d4b6",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "182",
+      "url": "https://community.tari.com/t/182.json",
+      "status": "complete",
+      "posts": 17,
+      "hash": "9a64dbbbbb8e750705d1f58f3479aac4915cf3cac05dfdf4c36a00c215760470",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "424",
+      "url": "https://community.tari.com/t/424.json",
+      "status": "complete",
+      "posts": 1,
+      "hash": "c5dd74ef83fe6425658ee5c15b969e1f81b900ec6a9fd0f6564bb81bb4581da3",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "367",
+      "url": "https://community.tari.com/t/367.json",
+      "status": "complete",
+      "posts": 15,
+      "hash": "5aaf8f81b0f64643fa4e214ea5830554da110d7d84e1957778f798dfd8b6c1a7",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "410",
+      "url": "https://community.tari.com/t/410.json",
+      "status": "complete",
+      "posts": 3,
+      "hash": "cfafd9036dc57c9ffa4f3093edf3ed59f43095a2e71dc7958f1d75ae9f582713",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "267",
+      "url": "https://community.tari.com/t/267.json",
+      "status": "complete",
+      "posts": 31,
+      "hash": "28d807a10f2378c96ded6e6670d1b11c60b27a88cf694043795657247f7c4bd6",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "402",
+      "url": "https://community.tari.com/t/402.json",
+      "status": "complete",
+      "posts": 4,
+      "hash": "15137c0e1e361877b28700e5866212198d1afc1b3eb5badd8299d4dd5a8cf690",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "400",
+      "url": "https://community.tari.com/t/400.json",
+      "status": "complete",
+      "posts": 14,
+      "hash": "9fb4b8eb86e9a0d69c0f8fb347cd939d301a923a4cb44fd32d044ffaa13160ae",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "374",
+      "url": "https://community.tari.com/t/374.json",
+      "status": "complete",
+      "posts": 7,
+      "hash": "eeb9195be3574a556d3638def42470e28b68200fb6ed92ce3fb02357719b3733",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "404",
+      "url": "https://community.tari.com/t/404.json",
+      "status": "complete",
+      "posts": 5,
+      "hash": "c0e07cd753e2c40f9c6d18906eef1164b8c8da338f2d95d4f5da5c89c58ad50b",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "357",
+      "url": "https://community.tari.com/t/357.json",
+      "status": "complete",
+      "posts": 10,
+      "hash": "28e451e852310f20bbcd1a75fae18f068b8aad0e7c42132fc8c6f2671d4fe7f7",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "323",
+      "url": "https://community.tari.com/t/323.json",
+      "status": "complete",
+      "posts": 11,
+      "hash": "0e248e79239c5de3207ec9caa3b378b5128c0aadcbe686601151b0d23970ab8b",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "reddit",
+      "url": "https://www.reddit.com/r/tari/new.json?limit=100",
+      "status": "blocked",
+      "error": "HTTP Error 403: Blocked",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": null,
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "bluesky",
+      "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=kata5.bsky.social&limit=100",
+      "status": "complete",
+      "bytes": 5539,
+      "hash": "87cef958843fd4764e139c47b93ae12617e6ac252efd1a688b7e3000e8ba41bc",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+      "note": "Creator kata5.bsky.social: all four posts, no cursor. Not all Bluesky."
+    },
+    {
+      "id": "skills",
+      "url": "https://ootle.tari.com/.well-known/skills/",
+      "status": "blocked",
+      "error": "HTTP Error 404: Not Found",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": null,
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "agent-guide",
+      "url": "https://ootle.tari.com/guides/agent-api-keys/",
+      "status": "complete",
+      "bytes": 86034,
+      "hash": "cf9a97735cc7a562b66e2e4a4f5fa5f1433df40828aa85bbd898ecf4062c55b4",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": "2026-10-10T11:48:39.995863+00:00",
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "codex-skill",
+      "url": "https://ootle.tari.com/.well-known/skills/openai-codex/SKILL.md",
+      "status": "blocked",
+      "error": "HTTP Error 404: Not Found",
+      "lastAttemptAt": "2026-10-10T11:48:39.995863+00:00",
+      "lastSuccessfulReadAt": null,
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "wiki-directory",
+      "url": "https://wiki.tari.com/resources:app_directory:start",
+      "status": "partial",
+      "note": "Directory read; complete existing connector trial failed because tari_universe_web has no recognized description. Last-good catalog retained; no successful full refresh claimed.",
+      "lastAttemptAt": "2026-10-10T11:54:43.251204+00:00",
+      "lastSuccessfulReadAt": null,
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "x-builders",
+      "url": "https://x.com/search?q=(from%3Atari%20OR%20from%3ADNodeCapital%20OR%20from%3AErebus_Lab%20OR%20from%3ACaravelxyz)%20since%3A2026-10-03&f=live",
+      "status": "partial",
+      "note": "Direct browser read of two DNode posts plus scoped Latest results. Not a complete timeline export.",
+      "lastAttemptAt": "2026-10-10T11:54:43.251204+00:00",
+      "lastSuccessfulReadAt": null,
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "reddit-browser",
+      "url": "https://www.reddit.com/r/tari/new/",
+      "status": "partial",
+      "note": "API 403; browser new-post page and complete Caravel Burn Wallet post read. No comments on that post; other discussions not exhaustively paginated.",
+      "lastAttemptAt": "2026-10-10T11:54:43.251204+00:00",
+      "lastSuccessfulReadAt": null,
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "discord",
+      "url": "https://discord.com/invite/dj34vQSe6d",
+      "status": "blocked",
+      "note": "No callable authorized announcement/development channel reader; invite page is not channel coverage.",
+      "lastAttemptAt": "2026-10-10T11:54:43.251204+00:00",
+      "lastSuccessfulReadAt": null,
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "telegram",
+      "url": "https://www.tari.com/",
+      "status": "blocked",
+      "note": "No callable authorized Tari Telegram channel reader identified.",
+      "lastAttemptAt": "2026-10-10T11:54:43.251204+00:00",
+      "lastSuccessfulReadAt": null,
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    },
+    {
+      "id": "youtube",
+      "url": "https://www.youtube.com/",
+      "status": "partial",
+      "note": "Scoped web search returned no relevant current result; no channel-feed completeness claimed.",
+      "lastAttemptAt": "2026-10-10T11:54:43.251204+00:00",
+      "lastSuccessfulReadAt": null,
+      "completedWatermark": null,
+      "lookbackStart": "2026-10-03",
+      "coverageNote": "Complete applies only to the named topic/document, not the entire channel."
+    }
+  ],
+  "githubCreators": [
+    {
+      "account": "tari-project",
+      "url": "https://github.com/tari-project",
+      "scope": "Public repo metadata, releases and relevant READMEs"
+    },
+    {
+      "account": "chironbuilds",
+      "url": "https://github.com/chironbuilds",
+      "scope": "Public repo metadata, releases and relevant READMEs"
+    },
+    {
+      "account": "okansaglam016161-pixel",
+      "url": "https://github.com/okansaglam016161-pixel",
+      "scope": "Public repo metadata, releases and relevant READMEs"
+    },
+    {
+      "account": "big-chief-1889",
+      "url": "https://github.com/big-chief-1889",
+      "scope": "Public repo metadata, releases and relevant READMEs"
+    },
+    {
+      "account": "Alex20Sas12",
+      "url": "https://github.com/Alex20Sas12",
+      "scope": "Public repo metadata, releases and relevant READMEs"
+    }
+  ],
+  "newReviewQueue": [
+    {
+      "repository": "https://github.com/big-chief-1889/Macotaur",
+      "status": "hold",
+      "reason": "New Apple Metal L1 miner source; needs hardware/runtime and project relationship review before a separate gallery card."
+    },
+    {
+      "repository": "https://github.com/big-chief-1889/MacotaurGUI",
+      "status": "hold",
+      "reason": "Companion GUI to Macotaur; avoid duplicate mining listings until identity and supported releases are reconciled."
+    },
+    {
+      "repository": "https://github.com/okansaglam016161-pixel/caravel-lotto",
+      "status": "concept-hold",
+      "reason": "README explicitly says work in progress and no template code yet."
+    },
+    {
+      "repository": "https://github.com/tari-project/ootle-govapp",
+      "status": "out-of-general-gallery-scope",
+      "reason": "Council-specific governance co-signing tool. Source discovery does not grant governance authority."
+    }
+  ]
+}

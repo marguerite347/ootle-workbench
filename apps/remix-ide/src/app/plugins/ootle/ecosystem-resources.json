@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-10T11:48:40Z",
+  "records": [
+    {
+      "id": "tari-ootle:learn:official-agent-docs",
+      "key": "official-agent-docs",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Guides",
+      "title": "Official docs & agent setup",
+      "summary": "Read the official developer guides and machine-readable documentation index. Agent-key guidance is available; the linked skill index and Codex skill currently return 404.",
+      "status": "Official documentation \u00b7 skill links unavailable",
+      "sourceUrl": "https://ootle.tari.com/llms.txt",
+      "repoUrl": null,
+      "docsUrl": "https://ootle.tari.com/guides/agent-api-keys/",
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": null,
+      "network": "Ootle L2",
+      "platform": null,
+      "upstreamRevision": "d3967ba75429b439bba0b237706272043e8048f4509b285dc84469f6f3da6464",
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": "2026-10-10T11:48:40Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "guides",
+        "official"
+      ],
+      "demoUrl": null
+    },
+    {
+      "id": "tari-ootle:component:ootle-ts",
+      "key": "ootle-ts",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "SDKs",
+      "title": "Official TypeScript SDK",
+      "summary": "Core SDK, indexer and signer clients for browser and Node applications. Pre-1.0; review the versioned examples before integrating.",
+      "status": "Source reviewed \u00b7 runtime untested",
+      "sourceUrl": "https://github.com/tari-project/ootle.ts",
+      "repoUrl": "https://github.com/tari-project/ootle.ts",
+      "docsUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle L2",
+      "platform": "TypeScript / browser / Node",
+      "upstreamRevision": "865569e8a5b520d4ab3698c4dba7d4277832349c",
+      "sourceUpdatedAt": "2026-10-07T13:28:57Z",
+      "lastCheckedAt": "2026-10-10T11:48:06.017549+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "sdks",
+        "official"
+      ],
+      "demoUrl": null
+    },
+    {
+      "id": "tari-ootle:component:ootle-python",
+      "key": "ootle-python",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "SDKs",
+      "title": "Official Python SDK",
+      "summary": "Python client with sync and async APIs. Requires Python 3.13 or later; the package is ootle-py and the import is ootle.",
+      "status": "Source reviewed \u00b7 runtime untested",
+      "sourceUrl": "https://github.com/tari-project/ootle-py",
+      "repoUrl": "https://github.com/tari-project/ootle-py",
+      "docsUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle L2",
+      "platform": "Python \u22653.13",
+      "upstreamRevision": "9606db5f1d1b98d3eba2e31311ac3edd43fa87fa",
+      "sourceUpdatedAt": "2026-10-02T08:49:54Z",
+      "lastCheckedAt": "2026-10-10T11:48:06.350617+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "sdks",
+        "official"
+      ],
+      "demoUrl": null
+    },
+    {
+      "id": "tari-ootle:component:ootle-go",
+      "key": "ootle-go",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "SDKs",
+      "title": "Official Go SDK",
+      "summary": "Go client over the Rust core with cgo and platform-specific native libraries. Match the documented ABI and supported platform.",
+      "status": "Source reviewed \u00b7 runtime untested",
+      "sourceUrl": "https://github.com/tari-project/ootle-go",
+      "repoUrl": "https://github.com/tari-project/ootle-go",
+      "docsUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle L2",
+      "platform": "Go / cgo",
+      "upstreamRevision": "1af0907d2e2b73db0fbb638989db9cbf6d8a71e9",
+      "sourceUpdatedAt": "2026-10-02T08:49:14Z",
+      "lastCheckedAt": "2026-10-10T11:48:08.423103+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "sdks",
+        "official"
+      ],
+      "demoUrl": null
+    },
+    {
+      "id": "tari-ootle:component:erebus-ootle-sdk",
+      "key": "erebus-ootle-sdk",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "SDKs",
+      "title": "Erebus / Chiron Ootle SDK",
+      "summary": "Community TypeScript account and transaction helpers. Early 0.x package; maintainer documents vendored patches. Not yet wired back into the two originating wallets.",
+      "status": "Early community SDK \u00b7 runtime untested",
+      "sourceUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
+      "repoUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
+      "docsUrl": null,
+      "creator": {
+        "name": "Chiron / Erebus",
+        "url": "https://github.com/chironbuilds/ootle-sdk-ts"
+      },
+      "license": "MIT",
+      "network": "Ootle L2",
+      "platform": "TypeScript",
+      "upstreamRevision": "6c3f6b54d5af881bef1162cf416fdf2e4a6c3bca",
+      "sourceUpdatedAt": "2026-10-05T21:10:12Z",
+      "lastCheckedAt": "2026-10-10T11:48:04.458387+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "sdks",
+        "community"
+      ],
+      "demoUrl": null
+    },
+    {
+      "id": "tari-ootle:component:caravel-faucet",
+      "key": "caravel-faucet",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Testnet",
+      "title": "Caravel Faucet",
+      "summary": "Reusable Esmeralda testnet faucet template. Maintainer documents Ootle 0.45 / protocol V1 and one claim per key; the administrator can pause claims. No claim was performed.",
+      "status": "Testnet only \u00b7 claim untested",
+      "sourceUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
+      "repoUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
+      "docsUrl": null,
+      "creator": {
+        "name": "Caravel contributors",
+        "url": "https://github.com/okansaglam016161-pixel/caravel-faucet"
+      },
+      "license": "MIT",
+      "network": "Ootle Esmeralda testnet",
+      "platform": "Rust template",
+      "upstreamRevision": "c2127f7ef9f907f92dd77af126a8863266489ff9",
+      "sourceUpdatedAt": "2026-10-07T12:47:22Z",
+      "lastCheckedAt": "2026-10-10T11:48:04.423075+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "testnet",
+        "community"
+      ],
+      "demoUrl": null
+    },
+    {
+      "id": "tari-ootle:component:ons",
+      "key": "ons",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Ootle Name Service",
+      "summary": "Rust name registry and TypeScript client. Read-only resolution and signed writes are separate. Record strings do not prove cross-platform identity.",
+      "status": "Source reviewed \u00b7 on-chain use untested",
+      "sourceUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service",
+      "repoUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service",
+      "docsUrl": null,
+      "creator": {
+        "name": "Caravel contributors",
+        "url": "https://github.com/okansaglam016161-pixel/ootle-name-service"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle Esmeralda testnet",
+      "platform": "Rust / TypeScript",
+      "upstreamRevision": "5d3d65d9a24a596d6b3f9209e260b342a122be43",
+      "sourceUpdatedAt": "2026-10-08T11:52:18Z",
+      "lastCheckedAt": "2026-10-10T11:48:05.984450+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "templates",
+        "community"
+      ],
+      "demoUrl": null
+    },
+    {
+      "id": "tari-ootle:component:caravel-burn-wallet",
+      "key": "caravel-burn-wallet",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Caravel Burn Wallet",
+      "summary": "Testnet deposit-only template and integration examples. The maintainer reports no owner or withdrawal method. Source reviewed; deployment and security claims have not been independently verified.",
+      "status": "Testnet only \u00b7 irreversible deposits \u00b7 runtime untested",
+      "sourceUrl": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
+      "repoUrl": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
+      "docsUrl": null,
+      "creator": {
+        "name": "Caravel contributors",
+        "url": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet"
+      },
+      "license": "MIT",
+      "network": "Ootle Esmeralda testnet",
+      "platform": "Rust / TypeScript",
+      "upstreamRevision": "1f1b29765487cdd36aa58b92c0320551f4a0dfd3",
+      "sourceUpdatedAt": "2026-10-09T16:04:41Z",
+      "lastCheckedAt": "2026-10-10T11:52:30Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "templates",
+        "community"
+      ],
+      "demoUrl": null
+    },
+    {
+      "id": "tari-ootle:integration:community-templates",
+      "key": "community-templates",
+      "type": "integration",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Official Community Templates",
+      "summary": "Published-template directory and indexer source. Reuse this project when evaluating searchable template metadata; no authoritative hosted instance was established.",
+      "status": "Source available \u00b7 hosted endpoint unverified",
+      "sourceUrl": "https://github.com/tari-project/community-templates",
+      "repoUrl": "https://github.com/tari-project/community-templates",
+      "docsUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle L2",
+      "platform": "Rust / PostgreSQL / React",
+      "upstreamRevision": "8ea6d8b5b1a11ad0eeaca4f01d0caca6344c7ed0",
+      "sourceUpdatedAt": "2026-10-06T18:22:50Z",
+      "lastCheckedAt": "2026-10-10T11:48:06.103014+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "templates",
+        "official"
+      ],
+      "demoUrl": null
+    },
+    {
+      "id": "tari-ootle:integration:veil",
+      "key": "veil",
+      "type": "integration",
+      "ecosystem": "tari-ootle",
+      "group": "Inspect",
+      "title": "Veil Ootle Explorer",
+      "summary": "Explorer source for transactions, templates and substates. Its advertised deployment is temporarily paused; this listing links only to the repository.",
+      "status": "Deployment paused \u00b7 source only",
+      "sourceUrl": "https://github.com/chironbuilds/ootle-explorer",
+      "repoUrl": "https://github.com/chironbuilds/ootle-explorer",
+      "docsUrl": null,
+      "creator": {
+        "name": "Chiron / Erebus",
+        "url": "https://github.com/chironbuilds/ootle-explorer"
+      },
+      "license": null,
+      "network": "Ootle L2",
+      "platform": "Web",
+      "upstreamRevision": "c1dabcf43da468c1490c80db3bd55cb38fc821a6",
+      "sourceUpdatedAt": "2026-10-10T04:57:46Z",
+      "lastCheckedAt": "2026-10-10T11:48:07.412636+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "inspect",
+        "community"
+      ],
+      "demoUrl": null
+    },
+    {
+      "id": "tari:component:tari-l1-wasm",
+      "key": "tari-l1-wasm",
+      "type": "component",
+      "ecosystem": "tari",
+      "group": "Advanced",
+      "title": "Chiron Tari L1 WASM",
+      "summary": "Browser-oriented Minotari primitives. Source build requires the surrounding Tari monorepo and patches. This is L1 tooling, separate from Ootle templates.",
+      "status": "Source reviewed \u00b7 runtime untested",
+      "sourceUrl": "https://github.com/chironbuilds/tari-l1-wasm",
+      "repoUrl": "https://github.com/chironbuilds/tari-l1-wasm",
+      "docsUrl": null,
+      "creator": {
+        "name": "Chiron / Erebus",
+        "url": "https://github.com/chironbuilds/tari-l1-wasm"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Tari L1",
+      "platform": "Rust / WebAssembly",
+      "upstreamRevision": "ce8680cdd18359d88c3aa209c4ffe35c9c84c86e",
+      "sourceUpdatedAt": "2026-10-04T04:23:39Z",
+      "lastCheckedAt": "2026-10-10T11:48:07.451684+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "advanced",
+        "community"
+      ],
+      "demoUrl": null
+    },
+    {
+      "id": "tari-ootle:learn:ootle-notes",
+      "key": "ootle-notes",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Ootle Internals notes",
+      "summary": "Community explanation of privacy and transaction flow. Last source push was August 15, 2026; cross-check against current official documentation.",
+      "status": "Community reference \u00b7 may lag protocol",
+      "sourceUrl": "https://github.com/chironbuilds/ootle-notes",
+      "repoUrl": "https://github.com/chironbuilds/ootle-notes",
+      "docsUrl": null,
+      "creator": {
+        "name": "Chiron / Erebus",
+        "url": "https://github.com/chironbuilds/ootle-notes"
+      },
+      "license": null,
+      "network": "Ootle L2",
+      "platform": "Reading",
+      "upstreamRevision": "bf4460d1b884d105fe4dc67ef8b3cd1d1be1305e",
+      "sourceUpdatedAt": "2026-08-15T18:19:11Z",
+      "lastCheckedAt": "2026-10-10T11:48:07.461644+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "advanced",
+        "community"
+      ],
+      "demoUrl": null
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "dnode-giveaway",
+      "title": "DNode / Erebus builder giveaway",
+      "summary": "The organizers announce three one-month Claude Pro prizes. Drawing October 26; see their post for entry terms.",
+      "sourceUrl": "https://x.com/DNodeCapital/status/2108867687749181816",
+      "publishedAt": "2026-10-10T10:30:00Z",
+      "expiresAt": "2026-10-27T00:00:00Z",
+      "status": "Organizer announcement; no entry or outcome verified"
+    }
+  ]
+}

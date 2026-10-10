@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './ootle.css'
+import { EcosystemResources } from './ecosystem-resources'
 
 export const OotleBrand = () => <span className="ootle-brand"><img src="assets/ootle/mark.svg" alt="" /><span className="ootle-wordmark"><strong>ootle</strong>workbench</span></span>
 
@@ -42,6 +43,7 @@ export function OotleHome({ plugin }: { plugin: any }) {
       <a href="https://ootle.tari.com/" target="_blank" rel="noreferrer"><b>Tari developer guides</b><span>Templates, authorization, wallets and transactions</span></a>
       <a href="https://github.com/tari-project/wasm-template" target="_blank" rel="noreferrer"><b>Official template sources</b><span>Explore Counter, tokens, NFTs, swaps and more</span></a>
     </div>
+    <EcosystemResources />
     <p className="ootle-note">Workspaces save in this browser. Share a workspace to sync agent edits and use cloud builds. Export backups from the file explorer. Network deployment and Lobby publishing are separate integrations.</p>
     <footer><a href="https://github.com/marguerite347/ootle-workbench">Source & developer handoff</a> · Built on <a href="https://github.com/remix-project-org/remix-project">Remix v2.6.5</a></footer>
   </main>
