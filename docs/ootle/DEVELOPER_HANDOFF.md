@@ -109,3 +109,11 @@ The Deploy panel opens a durable publication dashboard. Counter v5 has real pass
 ## Resource recordings (October 10, 2026)
 
 Builder references use reviewed source/docs screen recordings hosted under the existing Lobby `/previews/community/` media path. Workbench allows media from that exact production origin, with native controls, no autoplay or fabricated execution, and original discussion links retained separately from repositories. This adds no renderer, wallet execution or backend endpoint. Source and capture details live in `ecosystem-resources.json` and `RESOURCE_CAPTURE_HANDOFF.md`.
+
+## Dead Drop execution — 2026-10-10
+
+Selection receipt: reuse the existing Remix workspace snapshot and exact-window/origin postMessage exchange. The live embedded-browser trial created a blank `Dead_Drop` workspace, but `window.open` with popup features produced no discoverable connection tab. The connection launcher now requests a normal tab, retaining its opener for the existing handshake. No permissions, OAuth scopes or file-sharing behavior were broadened.
+
+Local validation: 20 existing security/companion tests pass; `git diff --check` passes. This does not establish embedded-browser round-trip acceptance. Recheck Home → Connect your agent → Open connections on the deployed revision, complete GitHub sign-in, share Dead_Drop, and confirm the project name/version before authorizing the agent. The older Counter grant must not be overwritten as a substitute for the new project.
+
+`DEV_REQUIRED[DEAD-DROP-APP-BUILD]`: current cloud jobs only support Cargo/WASM. A Node game build, server runtime, isolated frontend preview and complete app publication still require implementation and real acceptance. The new tab fix does not close those gaps.
