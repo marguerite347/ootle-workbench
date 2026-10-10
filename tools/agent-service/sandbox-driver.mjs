@@ -1,5 +1,6 @@
 import { Sandbox } from '@vercel/sandbox'
 import { JOB_SECONDS, RETENTION_SECONDS } from './jobs.mjs'
+import { NODE_PROFILE, nodeRunner } from './node-profile.mjs'
 // Fixed wrapper: drains all compiler output but persists only a bounded tail.
 const runner = `import subprocess,sys,os,json,pathlib,shutil
 os.environ['PATH'] = str(pathlib.Path.home()/'.cargo/bin') + ':' + os.environ['PATH']
@@ -39,8 +40,17 @@ export function sandboxDriver(snapshotId) {
   if (!snapshotId) return null
   return {
     async start(job) {
-      const sandbox = await Sandbox.create({ name: job.sandbox, source: { type: 'snapshot', snapshotId }, persistent: true, snapshotExpiration: RETENTION_SECONDS * 1000, keepLastSnapshots: { count: 1, expiration: RETENTION_SECONDS * 1000 }, timeout: JOB_SECONDS * 1000, resources: { vcpus: 4 }, networkPolicy: { allow: { 'index.crates.io': [], 'static.crates.io': [] } } })
+      const isNode = job.profile === NODE_PROFILE
+      const sandbox = await Sandbox.create({ name: job.sandbox, ...(isNode ? { runtime: 'node24' } : { source: { type: 'snapshot', snapshotId } }), persistent: true, snapshotExpiration: RETENTION_SECONDS * 1000, keepLastSnapshots: { count: 1, expiration: RETENTION_SECONDS * 1000 }, timeout: JOB_SECONDS * 1000, resources: { vcpus: 4 }, networkPolicy: { allow: isNode ? { 'registry.npmjs.org': [] } : { 'index.crates.io': [], 'static.crates.io': [] } } })
       try {
+        if (isNode) {
+          await sandbox.writeFiles([{ path: '/tmp/ootle-node-runner.mjs', content: Buffer.from(nodeRunner) }, ...Object.entries(job.files).map(([path, content]) => ({ path: `/vercel/project/${path}`, content: Buffer.from(content) }))])
+          const install = await sandbox.runCommand({ cmd: 'npm', args: ['ci', '--ignore-scripts', '--no-audit', '--no-fund', '--registry=https://registry.npmjs.org'], cwd: '/vercel/project', timeoutMs: 120000 })
+          if (install.exitCode !== 0) throw new Error('Locked npm install failed')
+          await sandbox.updateNetworkPolicy('deny-all')
+          const command = await sandbox.runCommand({ cmd: 'node', args: ['/tmp/ootle-node-runner.mjs'], detached: true, timeoutMs: (JOB_SECONDS - 150) * 1000 })
+          return { command: command.cmdId }
+        }
         await sandbox.writeFiles([{ path: '/tmp/ootle-runner.py', content: Buffer.from(runner) }, ...Object.entries(job.files).map(([path, content]) => ({ path: `/vercel/project/${path}`, content: Buffer.from(content) }))])
         // Discard cached top-level WASM outputs: only this invocation may produce the downloadable artifact.
         const clean = await sandbox.runCommand('python3', ['-c', "import pathlib; [p.unlink() for p in pathlib.Path('/vercel/project/target/wasm32-unknown-unknown/release').glob('*.wasm')]"])

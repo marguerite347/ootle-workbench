@@ -1,5 +1,6 @@
 import { randomUUID } from 'node:crypto'
 import { Problem, hash, now, validateFiles } from './store.mjs'
+import { projectProfile } from './node-profile.mjs'
 export const JOB_SECONDS = 20 * 60
 export const RETENTION_SECONDS = 7 * 86400
 const terminal = (job) => ['succeeded', 'failed', 'canceled', 'timed_out'].includes(job.status)
@@ -44,7 +45,8 @@ export class Jobs {
       const p = await this.store.project(project, owner)
       if (p.version !== version) throw new Problem(409, 'Workspace changed. Refresh before starting a build.')
       validateFiles(p.files)
-      if (!p.files['Cargo.toml'] || !p.files['Cargo.lock']) throw new Problem(400, 'A root Cargo.toml and Cargo.lock are required.')
+      const profile = projectProfile(p.files, action)
+      if (profile === 'rust-wasm-v1' && (!p.files['Cargo.toml'] || !p.files['Cargo.lock'])) throw new Problem(400, 'A root Cargo.toml and Cargo.lock are required.')
       // Cargo config can replace the trusted compiler; the initial hosted runner supports standard projects only.
       if (Object.keys(p.files).some((path) => path.startsWith('.cargo/') || /(^|\/)rust-toolchain(?:\.toml)?$/.test(path))) throw new Problem(400, 'Hosted builds use the pinned Workbench toolchain; remove custom Cargo/toolchain configuration.')
       const rows = (await this.store.query("SELECT value FROM ootle_agents.records WHERE kind='job' AND (value->>'created')::bigint>$1", [now() - 86400])).rows.map((r) => r.value)
@@ -54,7 +56,7 @@ export class Jobs {
       if (rows.filter((j) => j.owner === owner).length >= 6 || rows.length >= 12) throw new Problem(429, 'Daily pilot build allowance reached. Try again tomorrow.')
       const id = randomUUID(),
         created = now()
-      const job = { id, owner, project, projectName: p.name, version, action, status: 'starting', created, deadline: created + JOB_SECONDS, digest: snapshotDigest(p.files), files: p.files, sandbox: `ootle-job-${id}`, logs: '', exitCode: null, artifact: null }
+      const job = { id, owner, project, projectName: p.name, version, action, profile, status: 'starting', created, deadline: created + JOB_SECONDS, digest: snapshotDigest(p.files), files: p.files, sandbox: `ootle-job-${id}`, logs: '', exitCode: null, artifact: null }
       await this.save(job)
       await this.store.log(owner, project, agent, `Started ${action} of version ${version}`)
       return job
