@@ -9,8 +9,8 @@
       "ecosystem": "tari-ootle",
       "group": "Guides",
       "title": "Official docs & agent setup",
-      "summary": "Read the official developer guides and machine-readable documentation index. Agent-key guidance is available; the linked skill index and Codex skill currently return 404.",
-      "status": "Official documentation \u00b7 skill links unavailable",
+      "summary": "Read the official developer guides and machine-readable documentation index. At the October 10, 2026 11:48 UTC review, the linked skill index and Codex skill returned 404. Follow-up requests on October 10 returned 403, so their current availability could not be confirmed. The documentation index itself remained accessible.",
+      "status": "Official documentation",
       "sourceUrl": "https://ootle.tari.com/llms.txt",
       "repoUrl": null,
       "docsUrl": "https://ootle.tari.com/guides/agent-api-keys/",
@@ -39,7 +39,7 @@
       },
       "discussionLinks": [],
       "cardSummary": "Find official guidance for Ootle templates, transactions, wallets and agent setup.",
-      "cardStatus": "Docs \u00b7 Skill links unavailable"
+      "cardStatus": "Docs"
     },
     {
       "id": "tari-ootle:component:ootle-ts",
@@ -370,8 +370,8 @@
       "ecosystem": "tari-ootle",
       "group": "Inspect",
       "title": "Veil Ootle Explorer",
-      "summary": "Explorer source for transactions, templates and substates. Its advertised deployment is temporarily paused; this listing links only to the repository.",
-      "status": "Deployment paused \u00b7 source only",
+      "summary": "Explorer source for transactions, templates and substates. On October 10, 2026, the advertised ootle-explorer.vercel.app deployment returned HTTP 402 with DEPLOYMENT_DISABLED. This dated observation may change; the listing links to the source repository.",
+      "status": "Deployment unavailable at October 10, 2026 review",
       "sourceUrl": "https://github.com/chironbuilds/ootle-explorer",
       "repoUrl": "https://github.com/chironbuilds/ootle-explorer",
       "docsUrl": null,
@@ -400,7 +400,7 @@
       },
       "discussionLinks": [],
       "cardSummary": "Explore source for browsing Ootle transactions, templates and substates.",
-      "cardStatus": "Paused \u00b7 Source code"
+      "cardStatus": "Paused \u00b7 Oct 10 review"
     },
     {
       "id": "tari:component:tari-l1-wasm",
@@ -478,7 +478,7 @@
       },
       "discussionLinks": [],
       "cardSummary": "Read community explanations of Ootle privacy and transaction flow.",
-      "cardStatus": "Community notes \u00b7 May be outdated"
+      "cardStatus": "Community notes"
     }
   ],
   "opportunities": [
