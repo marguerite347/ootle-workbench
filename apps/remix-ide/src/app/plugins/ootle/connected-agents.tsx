@@ -83,9 +83,11 @@ export function ConnectedAgents({ plugin, mode = 'agents' }: { plugin: any; mode
       endpoint = new URL(service)
       if (endpoint.username || endpoint.password || endpoint.pathname !== '/' || endpoint.search || endpoint.hash || (endpoint.protocol !== 'https:' && !(endpoint.protocol === 'http:' && ['127.0.0.1', 'localhost'].includes(endpoint.hostname)))) throw new Error()
     } catch { setError('Enter the HTTPS origin of your Workbench agent service, or HTTP localhost for development.'); return }
-    // Open synchronously to preserve the browser's user activation; files follow only after capture and the exact-origin handshake.
-    const connection = window.open('about:blank', '_blank', 'popup,width=820,height=850')
-    if (!connection) { setError('Allow this Workbench to open the connection window, then try again.'); return }
+    // A normal tab is discoverable in embedded browsers that do not expose popup
+    // windows. Keep the opener: the exact-window/origin handshake below needs it.
+    // Open synchronously to preserve user activation; never send files in the URL.
+    const connection = window.open('about:blank', '_blank')
+    if (!connection) { setError('Your browser blocked the connection tab. Allow this Workbench to open a new tab, then try again.'); return }
     popup.current = connection
     task(async () => {
       const local = await snapshot(plugin)
@@ -97,7 +99,7 @@ export function ConnectedAgents({ plugin, mode = 'agents' }: { plugin: any; mode
       setBaseline(local); setPending(null)
       channel.current = crypto.randomUUID(); serviceOrigin.current = endpoint.origin
       connection.location.href = `${endpoint.origin}/connect${mode === 'deploy' ? '#deploy' : ''}`
-      setStatus('Complete GitHub sign-in and workspace sharing in the connection window.')
+      setStatus('Complete GitHub sign-in and workspace sharing in the new connection tab, then return here to review changes.')
     }).catch(() => {})
   }
   const apply = () => task(async () => {
