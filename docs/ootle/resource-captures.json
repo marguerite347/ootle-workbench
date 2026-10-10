@@ -1,0 +1,564 @@
+[
+  {
+    "resourceId": "candy-summoner",
+    "title": "Ootlejuice Candy Summoner",
+    "targetUrl": "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner",
+    "originalPosts": [
+      {
+        "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
+        "platform": "Tari Community forum",
+        "author": "Ongchi",
+        "publishedAt": "2026-10-08T13:46:41.716Z",
+        "foundOn": "2026-10-10",
+        "context": "October Build Contest Thread: Spooky Secrets!",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "concept-overview",
+    "capturedAt": "2026-10-10T12:47:28.878448+00:00",
+    "observedRevision": "64d34a3260d80a423cf2357e20f15cdc3ea24532",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-candy-summoner-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-candy-summoner-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-candy-summoner",
+    "workbenchUrl": null,
+    "caption": "Concept overview \u2014 application not demonstrated",
+    "sha256": "047995d4c71d63404a32df759a5fbe726aa56e347e3f61897a0226849a466f9c",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "clew",
+    "title": "Clew",
+    "targetUrl": "https://github.com/big-chief-1889/Clew#clew",
+    "originalPosts": [
+      {
+        "url": "https://community.tari.com/t/clew-a-small-private-tari-wallet-for-mac/424/1",
+        "platform": "Tari Community forum",
+        "author": "okxmr",
+        "publishedAt": "2026-10-09T22:22:53.252Z",
+        "foundOn": "2026-10-10",
+        "context": "Clew: a small, private Tari wallet for Mac",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:50:53.922559+00:00",
+    "observedRevision": "400d570b9d6a20b2edf54e23befb11ebc2095319",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-clew-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-clew-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-clew",
+    "workbenchUrl": null,
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "800f5bd58e12857e4f362e02d8803cd4c0dbc0810a6378270979749b932e9568",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "official-agent-docs",
+    "title": "Official agent docs and skills index",
+    "targetUrl": "https://ootle.tari.com/guides/agent-api-keys/",
+    "originalPosts": [],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:48:02.430541+00:00",
+    "observedRevision": "d3967ba75429b439bba0b237706272043e8048f4509b285dc84469f6f3da6464",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-agent-docs-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-agent-docs-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:learn:official-agent-docs",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/",
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "235db140cfca2945cdcb8111a5504a7674a9f79a686409224cfac2ea1e2c4572",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "ootle-ts",
+    "title": "Official Ootle TypeScript SDK",
+    "targetUrl": "https://github.com/tari-project/ootle.ts",
+    "originalPosts": [],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:48:19.878029+00:00",
+    "observedRevision": "865569e8a5b520d4ab3698c4dba7d4277832349c",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-ts",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/",
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "685e3cbbb258a774413d84582a949b043c8163c1c6b1b4a8d7c8f621a283c2f6",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "ootle-python",
+    "title": "Official Ootle Python SDK",
+    "targetUrl": "https://github.com/tari-project/ootle-py",
+    "originalPosts": [],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:48:37.104387+00:00",
+    "observedRevision": "9606db5f1d1b98d3eba2e31311ac3edd43fa87fa",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-python",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/",
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "ff3f37410040e242369fd4bedcecd02b8546972bdf48bcb64fcc7464a33e9584",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "ootle-go",
+    "title": "Official Ootle Go SDK",
+    "targetUrl": "https://github.com/tari-project/ootle-go",
+    "originalPosts": [],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:48:54.655093+00:00",
+    "observedRevision": "1af0907d2e2b73db0fbb638989db9cbf6d8a71e9",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-go",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/",
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "31e3bcd44418be5bb15d2e44518b5904c369ae7b9d03994e7453a899f3e7382b",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "erebus-ootle-sdk",
+    "title": "Erebus / Chiron Ootle SDK",
+    "targetUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
+    "originalPosts": [],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:49:12.215444+00:00",
+    "observedRevision": "6c3f6b54d5af881bef1162cf416fdf2e4a6c3bca",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:erebus-ootle-sdk",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/",
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "dca2316555bf248018c7abe4c2cba778b5671ef887c05fb2ff6479614fa7453f",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "caravel-faucet",
+    "title": "Caravel Faucet",
+    "targetUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
+    "originalPosts": [
+      {
+        "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+        "platform": "X",
+        "author": "DNodeCapital",
+        "publishedAt": null,
+        "foundOn": "2026-10-10",
+        "context": "Resource link in the DNode announcement thread",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:49:29.577773+00:00",
+    "observedRevision": "c2127f7ef9f907f92dd77af126a8863266489ff9",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:caravel-faucet",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/",
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "cc0d43c69cf301cd1541fcbaacdde406aeeee7f72c0102e6c557d4900e2d7db5",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "ons",
+    "title": "Ootle Name Service",
+    "targetUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service",
+    "originalPosts": [],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:49:46.927355+00:00",
+    "observedRevision": "5d3d65d9a24a596d6b3f9209e260b342a122be43",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ons",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/",
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "80c6b68baa3cf14e7098944223ee927b7d2642edbf95cf16853cf6c005865aaf",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "caravel-burn-wallet",
+    "title": "Caravel Burn Wallet",
+    "targetUrl": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
+    "originalPosts": [
+      {
+        "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
+        "platform": "Reddit \u00b7 r/tari",
+        "author": null,
+        "publishedAt": null,
+        "foundOn": "2026-10-10",
+        "context": "Burn wallet builder announcement",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:50:04.551362+00:00",
+    "observedRevision": "1f1b29765487cdd36aa58b92c0320551f4a0dfd3",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:caravel-burn-wallet",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/",
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "57c6e1fc1d05c6965628907bb90c1aaa435eec41a9884953facaf7ce40eb7276",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "community-templates",
+    "title": "Official Ootle Community Templates",
+    "targetUrl": "https://github.com/tari-project/community-templates",
+    "originalPosts": [],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:50:21.795363+00:00",
+    "observedRevision": "8ea6d8b5b1a11ad0eeaca4f01d0caca6344c7ed0",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:integration:community-templates",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/",
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "65cdfdd0f974c7783452af8e2872660d497895ed68cf9fc45ae046bfa280298a",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "veil",
+    "title": "Veil Ootle Explorer",
+    "targetUrl": "https://github.com/chironbuilds/ootle-explorer",
+    "originalPosts": [],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:50:39.058620+00:00",
+    "observedRevision": "c1dabcf43da468c1490c80db3bd55cb38fc821a6",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:integration:veil",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/",
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "b0734332b8692a56710344e92eebb816adbf732c4d6f343a09b395a93c3b8bea",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "tari-l1-wasm",
+    "title": "Chiron Tari L1 WASM",
+    "targetUrl": "https://github.com/chironbuilds/tari-l1-wasm",
+    "originalPosts": [],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:50:56.442652+00:00",
+    "observedRevision": "ce8680cdd18359d88c3aa209c4ffe35c9c84c86e",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-l1-wasm-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-l1-wasm-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari:component:tari-l1-wasm",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/",
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "fa517856d4ce2ee3f9160cc8571616f1e08029b02a6d9e96913ebe046824a454",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "ootle-notes",
+    "title": "Ootle Internals notes",
+    "targetUrl": "https://github.com/chironbuilds/ootle-notes",
+    "originalPosts": [],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:51:13.846291+00:00",
+    "observedRevision": "bf4460d1b884d105fe4dc67ef8b3cd1d1be1305e",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-notes-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-notes-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:learn:ootle-notes",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/",
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "2d02a5f13fe7013d5cb5dc2f335566443314aeac7b4bc6ea68e86eb643fc62ef",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "dnode-giveaway",
+    "title": "DNode Capital / Erebus Claude Pro giveaway",
+    "targetUrl": "https://x.com/DNodeCapital/status/2108867687749181816",
+    "originalPosts": [
+      {
+        "url": "https://x.com/DNodeCapital/status/2108867687749181816",
+        "platform": "X",
+        "author": "DNodeCapital",
+        "publishedAt": null,
+        "foundOn": "2026-10-10",
+        "context": "Giveaway announcement",
+        "visibility": "public"
+      },
+      {
+        "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+        "platform": "X",
+        "author": "DNodeCapital",
+        "publishedAt": null,
+        "foundOn": "2026-10-10",
+        "context": "Follow-up in the announcement thread",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "announcement-walkthrough",
+    "capturedAt": "2026-10-10T12:51:32.218949+00:00",
+    "observedRevision": "X post 2108867687749181816",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#resource-dnode-giveaway",
+    "workbenchUrl": null,
+    "caption": "Announcement walkthrough \u2014 recorded October 10, 2026",
+    "sha256": "2f61b0a332ad805700f52626ba16d4d2e2d8b6ddbd80961ec3c4da81a82eebf0",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  },
+  {
+    "resourceId": "ghostkey",
+    "title": "GhostKey",
+    "targetUrl": "https://github.com/Alex20Sas12/ghostkey",
+    "originalPosts": [
+      {
+        "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6",
+        "platform": "Tari Community forum",
+        "author": "ghostxtm",
+        "publishedAt": "2026-10-08T19:36:01.053Z",
+        "foundOn": "2026-10-10",
+        "context": "October Build Contest Thread: Spooky Secrets!",
+        "visibility": "public"
+      },
+      {
+        "url": "https://community.tari.com/t/what-happens-when-you-send-ethereum-to-your-tari-address-wxtm-is-it-invisible-to-trackers/410/3",
+        "platform": "Tari Community forum",
+        "author": "ghostxtm",
+        "publishedAt": "2026-10-09T20:04:17.263Z",
+        "foundOn": "2026-10-10",
+        "context": "What happens when you send Ethereum to your Tari Address (wXTM)? Is it invisible to trackers?",
+        "visibility": "public"
+      },
+      {
+        "url": "https://bsky.app/profile/kata5.bsky.social/post/3mxhs52xtzi2b",
+        "platform": "Bluesky",
+        "author": "kata5.bsky.social",
+        "publishedAt": "2026-10-09T20:16:29.425730Z",
+        "foundOn": "2026-10-10",
+        "context": "GhostKey creator post",
+        "visibility": "public"
+      },
+      {
+        "url": "https://bsky.app/profile/kata5.bsky.social/post/3mxhrqmydce2l",
+        "platform": "Bluesky",
+        "author": "kata5.bsky.social",
+        "publishedAt": "2026-10-09T20:09:32.065564Z",
+        "foundOn": "2026-10-10",
+        "context": "GhostKey creator post",
+        "visibility": "public"
+      },
+      {
+        "url": "https://bsky.app/profile/kata5.bsky.social/post/3mxf63oiypy25",
+        "platform": "Bluesky",
+        "author": "kata5.bsky.social",
+        "publishedAt": "2026-10-08T19:12:28.466592Z",
+        "foundOn": "2026-10-10",
+        "context": "GhostKey creator post",
+        "visibility": "public"
+      },
+      {
+        "url": "https://bsky.app/profile/kata5.bsky.social/post/3mxblf4ilwu2l",
+        "platform": "Bluesky",
+        "author": "kata5.bsky.social",
+        "publishedAt": "2026-10-07T08:59:44.000Z",
+        "foundOn": "2026-10-10",
+        "context": "GhostKey creator post",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "source-docs-walkthrough",
+    "capturedAt": "2026-10-10T12:48:40.537282+00:00",
+    "observedRevision": "abe3b49775f9ecb8508b4d40de60a8791b2ac249",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12.0,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostkey-20261010.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostkey-20261010.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-ghostkey",
+    "workbenchUrl": null,
+    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "sha256": "9f5651cfb004deefe7ce7583ec70587d640b91c23f281478177ef7684ea2b4c5",
+    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "blocker": null
+  }
+]
