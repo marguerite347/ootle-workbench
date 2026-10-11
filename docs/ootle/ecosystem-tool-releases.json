@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-10T11:54:43.251204+00:00",
+  "checkedAt": "2026-10-11T09:19:41.933606+00:00",
   "releases": [
     {
       "name": "ootle-py",
@@ -78,13 +78,13 @@
   },
   "disposition": {
     "node": "Workbench pins aligned to locally tested 24.19.0; 24.21.0 and 26.11.1 recorded, host not globally upgraded. Lobby hosted engine remains 22.x.",
-    "rust": "Retain 1.95.0 and template_lib 0.32.0 / tooling 0.41.0 pending template/network/ABI migration. Rust latest 1.99.0.",
+    "rust": "Prior pinned 1.95.0 / template_lib 0.32.0 / tooling 0.41.0 retained. Current crates.io versions reread; cargo-audit unavailable on this host, so no fresh Rust advisory execution is claimed. Last Linux audit and ABI acceptance remain dated in SECURITY_REMEDIATION.md.",
     "vercel": "Use proven callable 62.2.0 Node fallback; 63.1.2 migration held pending separate CLI release trial.",
     "spline": "Retain checksum-pinned 2.0.57 until wheel scene/render acceptance for 2.0.75.",
     "agentService": "Keep deployed backend versions; changes require live OAuth/session and worker acceptance and must not restart existing agent tests.",
     "catalogLibraries": "Listed only, not installed or runtime verified.",
-    "codexApp": "26.930.61225 build 13232; updater returned busy, availability unverified. No install/restart.",
-    "actions": "Checkout updated within v4 to verified v4.3.1 SHA. Setup-node v4.4.0 and artifact v4.6.2 pins match release tags. Latest Action majors require runner/runtime migration; retain other SHA pins. Rust action upstream head recorded, pinned compiler unchanged."
+    "codexApp": "Not queried today; no unrelated app update or restart.",
+    "actions": "October monitor checkout brought to verified v4.3.1 SHA already used by other product workflows. Current upstream majors recorded; runner migration held for dedicated acceptance."
   },
   "actions": {
     "checkout": {
@@ -111,5 +111,43 @@
       "date": "2026-10-09T01:48:42Z",
       "sha": "e2a55d2ffb04f378e9626c28d38b36d230d1e12f"
     }
-  }
+  },
+  "dailyActionReleases": [
+    {
+      "repo": "actions/checkout",
+      "latest": "v7.0.1",
+      "url": "https://github.com/actions/checkout/releases/tag/v7.0.1",
+      "publishedAt": "2026-07-20T15:10:05Z"
+    },
+    {
+      "repo": "actions/setup-node",
+      "latest": "v7.1.0",
+      "url": "https://github.com/actions/setup-node/releases/tag/v7.1.0",
+      "publishedAt": "2026-10-08T02:52:34Z"
+    },
+    {
+      "repo": "actions/upload-artifact",
+      "latest": "v7.0.2",
+      "url": "https://github.com/actions/upload-artifact/releases/tag/v7.0.2",
+      "publishedAt": "2026-10-07T10:08:14Z"
+    },
+    {
+      "repo": "actions/upload-pages-artifact",
+      "latest": "v5.0.0",
+      "url": "https://github.com/actions/upload-pages-artifact/releases/tag/v5.0.0",
+      "publishedAt": "2026-04-10T18:22:59Z"
+    },
+    {
+      "repo": "actions/deploy-pages",
+      "latest": "v5.0.1",
+      "url": "https://github.com/actions/deploy-pages/releases/tag/v5.0.1",
+      "publishedAt": "2026-09-01T21:31:19Z"
+    },
+    {
+      "repo": "dtolnay/rust-toolchain",
+      "latest": "v1",
+      "url": "https://github.com/dtolnay/rust-toolchain/releases/tag/v1",
+      "publishedAt": "2022-07-15T18:16:27Z"
+    }
+  ]
 }
