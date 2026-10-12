@@ -127,3 +127,7 @@ This profile reuses the immutable job/quota/authorization mechanism and creates 
 The profile rejects build/artifact requests. Frontend/server packaging, browser tests, network integration, previews and full-app deployments remain unsupported. The UI omits Compile WASM for app-profile projects. Tests cannot contact testnet or receive wallet credentials.
 
 Resource receipt: reuse @vercel/sandbox 3.5.1, Jobs and scoped project grants; Rust-only runner was the observed gap. Official runtime/network documentation: https://vercel.com/docs/sandbox . A real isolated no-credential/denied-egress trial passed. Dead Drop's six tests (real SDK cryptography plus explicit fixture round tests) passed in a real worker; a separate deliberate assertion failure returned exit 1. All 23 service tests passed locally. These trials precede deployment; production acceptance is recorded in the Dead Drop build log after an actual shared-project job.
+
+## October 12 maintenance candidate
+
+Phone header navigation uses the existing React Bootstrap dropdown and preserves settings/assistant handlers. Workspace controls wrap without clipped labels; the statusbar action is shorter. Reproduce at 390×844, 768px and desktop, check Menu keyboard dismiss, Settings/Tari AI actions, layout controls, workspace persistence, source discussion links and recording playback. CI audits both pinned Cargo lockfiles independently. See ECOSYSTEM_2026-10-12.md; local tests do not establish publication.

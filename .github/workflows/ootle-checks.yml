@@ -82,6 +82,14 @@ jobs:
   dependency-audit:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: starter
+            lockfile: templates/tari-counter/Cargo.lock
+          - name: remix-example
+            lockfile: examples/ootle-counter-remix/Cargo.lock
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
         with:
@@ -90,10 +98,10 @@ jobs:
         with:
           toolchain: '1.95.0'
       - run: cargo install cargo-audit --version 0.22.2 --locked
-      - run: cargo audit --file templates/tari-counter/Cargo.lock --json > rust-audit.json
+      - run: cargo audit --file ${{ matrix.lockfile }} --json > rust-audit.json
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always() && github.event_name == 'push'
         with:
-          name: rust-advisories-${{ github.sha }}
+          name: rust-advisories-${{ matrix.name }}-${{ github.sha }}
           path: rust-audit.json
           retention-days: 30

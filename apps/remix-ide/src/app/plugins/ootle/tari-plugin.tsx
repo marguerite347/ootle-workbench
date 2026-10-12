@@ -13,7 +13,11 @@ export class TariPlugin extends ViewPlugin {
   constructor() {
     super({ name: 'tari', displayName: 'Tari tools', description: 'Rust/WASM build, tests and Tari integrations', icon: 'assets/ootle/mark.svg', location: 'sidePanel', methods: ['open'], maintainedBy: 'Ootle Workbench contributors' })
   }
-  async open(section: Section = 'build') { this.show(section); await this.call('menuicons', 'select', 'tari') }
+  async open(section: Section = 'build') {
+    this.show(section)
+    await this.call('menuicons', 'select', 'tari')
+    if (await this.call('sidePanel', 'isPanelHidden')) await this.call('sidePanel', 'togglePanel')
+  }
   render() { return <TariTools plugin={this} /> }
 }
 

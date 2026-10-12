@@ -875,6 +875,17 @@ export function RemixUiTopbar() {
     }
   ]
 
+  const openSettings = async () => {
+    const isActive = await plugin.call('manager', 'isActive', 'settings')
+    if (!isActive) await plugin.call('manager', 'activatePlugin', 'settings')
+    await plugin.call('tabs', 'focus', 'settings')
+    trackMatomoEvent({ category: 'topbar', action: 'header', name: 'Settings', isClick: true })
+  }
+  const openAssistant = async () => {
+    await plugin.call('manager', 'activatePlugin', 'tari')
+    await plugin.call('tari', 'open', 'assistant')
+  }
+
   const modeButtons = panelControls.filter(c => c.id === 'aiReviewModeBtn' || c.id === 'codeModeBtn')
   const otherButtons = panelControls.filter(c => c.id !== 'aiReviewModeBtn' && c.id !== 'codeModeBtn')
 
@@ -883,7 +894,7 @@ export function RemixUiTopbar() {
       ref={sectionRef}
       className="h-100 d-flex bg-light border-top border-bottom flex-nowrap px-2"
     >
-      <div className="d-flex flex-row align-items-center justify-content-between w-100" style={{ minWidth: 0 }}>
+      <div className="ootle-topbar-content d-flex flex-row align-items-center justify-content-between w-100" style={{ minWidth: 0 }}>
         <div
           className="d-flex flex-row align-items-center m-1"
           style={{ minWidth: 0 }}
@@ -932,7 +943,7 @@ export function RemixUiTopbar() {
           </span>
           {showCloudLoginModal && <LoginModal onClose={() => setShowCloudLoginModal(false)} plugin={plugin} />}
         </div>
-        <div className="m-1 d-flex align-self-center">
+        <div className="ootle-topbar-workspace m-1 d-flex align-self-center">
           {showCloudToggle && (
             <CloudToggle
               className="ms-2"
@@ -1013,8 +1024,9 @@ export function RemixUiTopbar() {
                     useDefaultIcon={false}
                     className="btn btn-link p-0 border-0 shadow-none"
                   >
+                    <span className="visually-hidden">Layout controls</span>
                     <CustomTooltip placement="bottom-start" tooltipText="Control layout" hide={panelControlMenuOpen}>
-                      <i className="codicon codicon-layout fs-6" />
+                      <i className="codicon codicon-layout fs-6" aria-hidden="true" />
                     </CustomTooltip>
                   </Dropdown.Toggle>
                   <Dropdown.Menu>
@@ -1044,7 +1056,7 @@ export function RemixUiTopbar() {
         </div>
         <div
           ref={rightSideRef}
-          className="d-flex flex-row align-items-center justify-content-end flex-nowrap"
+          className="d-none d-md-flex flex-row align-items-center justify-content-end flex-nowrap"
           style={{ flex: '0 0 auto', whiteSpace: 'nowrap' }}
         >
           <div className="d-flex flex-row align-items-center gap-2 flex-nowrap" style={{ whiteSpace: 'nowrap' }}>
@@ -1134,21 +1146,22 @@ export function RemixUiTopbar() {
           )}
           <span
             className="ms-3 topbar-icon-btn"
-            onClick={async () => {
-              const isActive = await plugin.call('manager', 'isActive', 'settings')
-              if (!isActive) await plugin.call('manager', 'activatePlugin', 'settings')
-              await plugin.call('tabs', 'focus', 'settings')
-              trackMatomoEvent({ category: 'topbar', action: 'header', name: 'Settings', isClick: true })
-            }}
+            onClick={openSettings}
             data-id="topbar-settingsIcon"
           >
             <i className="fa fa-cog"></i>
           </span>
-          <button className="btn btn-sm btn-outline-secondary ms-3" style={{ color: 'var(--text)' }} onClick={async () => {
-            await plugin.call('manager', 'activatePlugin', 'tari')
-            await plugin.call('tari', 'open', 'assistant')
-          }}>Tari AI</button>
+          <button className="btn btn-sm btn-outline-secondary ms-3" style={{ color: 'var(--text)' }} onClick={openAssistant}>Tari AI</button>
         </div>
+        <Dropdown className="ootle-topbar-menu d-md-none">
+          <Dropdown.Toggle variant="outline-secondary" id="ootle-navigation" style={{ color: 'var(--text)' }}>Menu</Dropdown.Toggle>
+          <Dropdown.Menu align="end">
+            <Dropdown.Item href="https://ootle-lobby-preview.vercel.app/" target="_blank" rel="noopener noreferrer">Back to Lobby</Dropdown.Item>
+            <Dropdown.Item href="https://github.com/marguerite347/ootle-workbench" target="_blank" rel="noopener noreferrer">Workbench on GitHub</Dropdown.Item>
+            <Dropdown.Item onClick={openSettings}>Settings</Dropdown.Item>
+            <Dropdown.Item onClick={openAssistant}>Tari AI</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
       </div>
       {feedbackFormUrl && (
         <FeedbackPanel

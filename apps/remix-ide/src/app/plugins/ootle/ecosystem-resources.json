@@ -9,7 +9,7 @@
       "ecosystem": "tari-ootle",
       "group": "Guides",
       "title": "Official docs & agent setup",
-      "summary": "Read official developer guides and the machine-readable documentation index. The index and agent API-key guide were accessible on October 11, 2026. The linked skill index and Codex skill returned 404 on October 11, following 404 and 403 observations on October 10; their last successful review date is retained.",
+      "summary": "Read official developer guides and the machine-readable documentation index. The index and agent API-key guide were accessible on October 11, 2026. The linked skill index and Codex skill returned 404 on October 11, following 404 and 403 observations on October 10; their last successful review date is retained. The same two skill URLs returned 404 on October 12; the index and API-key guide remain accessible.",
       "status": "Official documentation",
       "sourceUrl": "https://ootle.tari.com/llms.txt",
       "repoUrl": null,
@@ -35,9 +35,14 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-agent-docs-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-agent-docs-20261010.mp4",
-        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+        "source": "Source/docs walkthrough — application not demonstrated"
       },
-      "discussionLinks": [],
+      "discussionLinks": [
+        {
+          "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+          "platform": "X"
+        }
+      ],
       "cardSummary": "Find official guidance for Ootle templates, transactions, wallets and agent setup.",
       "cardStatus": "Docs"
     },
@@ -49,7 +54,7 @@
       "group": "SDKs",
       "title": "Official TypeScript SDK",
       "summary": "Core SDK, indexer and signer clients for browser and Node applications. Pre-1.0; review the versioned examples before integrating.",
-      "status": "Source reviewed \u00b7 runtime untested",
+      "status": "Source reviewed · runtime untested",
       "sourceUrl": "https://github.com/tari-project/ootle.ts",
       "repoUrl": "https://github.com/tari-project/ootle.ts",
       "docsUrl": null,
@@ -74,11 +79,11 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.mp4",
-        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+        "source": "Source/docs walkthrough — application not demonstrated"
       },
       "discussionLinks": [],
       "cardSummary": "Build browser and Node integrations with Ootle clients for indexing, signing and core operations.",
-      "cardStatus": "SDK \u00b7 Pre-1.0"
+      "cardStatus": "SDK · Pre-1.0"
     },
     {
       "id": "tari-ootle:component:ootle-python",
@@ -88,7 +93,7 @@
       "group": "SDKs",
       "title": "Official Python SDK",
       "summary": "Python client with sync and async APIs. Requires Python 3.13 or later; the package is ootle-py and the import is ootle.",
-      "status": "Source reviewed \u00b7 runtime untested",
+      "status": "Source reviewed · runtime untested",
       "sourceUrl": "https://github.com/tari-project/ootle-py",
       "repoUrl": "https://github.com/tari-project/ootle-py",
       "docsUrl": null,
@@ -98,7 +103,7 @@
       },
       "license": "BSD-3-Clause",
       "network": "Ootle L2",
-      "platform": "Python \u22653.13",
+      "platform": "Python ≥3.13",
       "upstreamRevision": "9606db5f1d1b98d3eba2e31311ac3edd43fa87fa",
       "sourceUpdatedAt": "2026-10-02T08:49:54Z",
       "lastCheckedAt": "2026-10-10T11:48:06.350617+00:00",
@@ -113,11 +118,11 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.mp4",
-        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+        "source": "Source/docs walkthrough — application not demonstrated"
       },
       "discussionLinks": [],
       "cardSummary": "Access Ootle from Python with synchronous and asynchronous client APIs.",
-      "cardStatus": "SDK \u00b7 Python 3.13+"
+      "cardStatus": "SDK · Python 3.13+"
     },
     {
       "id": "tari-ootle:component:ootle-go",
@@ -127,7 +132,7 @@
       "group": "SDKs",
       "title": "Official Go SDK",
       "summary": "Go client over the Rust core with cgo and platform-specific native libraries. Match the documented ABI and supported platform.",
-      "status": "Source reviewed \u00b7 runtime untested",
+      "status": "Source reviewed · runtime untested",
       "sourceUrl": "https://github.com/tari-project/ootle-go",
       "repoUrl": "https://github.com/tari-project/ootle-go",
       "docsUrl": null,
@@ -152,11 +157,11 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.mp4",
-        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+        "source": "Source/docs walkthrough — application not demonstrated"
       },
       "discussionLinks": [],
       "cardSummary": "Connect Go applications to Ootle through a Rust core and native libraries.",
-      "cardStatus": "SDK \u00b7 Requires cgo"
+      "cardStatus": "SDK · Requires cgo"
     },
     {
       "id": "tari-ootle:component:erebus-ootle-sdk",
@@ -166,7 +171,7 @@
       "group": "SDKs",
       "title": "Erebus / Chiron Ootle SDK",
       "summary": "Community TypeScript account and transaction helpers. Early 0.x package; maintainer documents vendored patches. Not yet wired back into the two originating wallets.",
-      "status": "Early community SDK \u00b7 runtime untested",
+      "status": "Early community SDK · runtime untested",
       "sourceUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
       "repoUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
       "docsUrl": null,
@@ -191,9 +196,14 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.mp4",
-        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+        "source": "Source/docs walkthrough — application not demonstrated"
       },
-      "discussionLinks": [],
+      "discussionLinks": [
+        {
+          "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+          "platform": "X"
+        }
+      ],
       "cardSummary": "Explore community TypeScript helpers for Ootle accounts and transactions.",
       "cardStatus": "Early SDK"
     },
@@ -205,7 +215,7 @@
       "group": "Testnet",
       "title": "Caravel Faucet",
       "summary": "Reusable Esmeralda testnet faucet template. Maintainer documents Ootle 0.45 / protocol V1 and one claim per key; the administrator can pause claims. No claim was performed.",
-      "status": "Testnet only \u00b7 claim untested",
+      "status": "Testnet only · claim untested",
       "sourceUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
       "repoUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
       "docsUrl": null,
@@ -230,7 +240,7 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.mp4",
-        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+        "source": "Source/docs walkthrough — application not demonstrated"
       },
       "discussionLinks": [
         {
@@ -249,7 +259,7 @@
       "group": "Templates",
       "title": "Ootle Name Service",
       "summary": "Rust name registry and TypeScript client. Read-only resolution and signed writes are separate. Record strings do not prove cross-platform identity.",
-      "status": "Source reviewed \u00b7 on-chain use untested",
+      "status": "Source reviewed · on-chain use untested",
       "sourceUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service",
       "repoUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service",
       "docsUrl": null,
@@ -274,7 +284,7 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.mp4",
-        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+        "source": "Source/docs walkthrough — application not demonstrated"
       },
       "discussionLinks": [],
       "cardSummary": "Explore an Ootle name registry with a Rust template and TypeScript client.",
@@ -288,7 +298,7 @@
       "group": "Templates",
       "title": "Caravel Burn Wallet",
       "summary": "Testnet deposit-only template and integration examples. The maintainer reports no owner or withdrawal method. Source reviewed; deployment and security claims have not been independently verified.",
-      "status": "Testnet only \u00b7 irreversible deposits \u00b7 runtime untested",
+      "status": "Testnet only · irreversible deposits · runtime untested",
       "sourceUrl": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
       "repoUrl": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
       "docsUrl": null,
@@ -313,16 +323,20 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.mp4",
-        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+        "source": "Source/docs walkthrough — application not demonstrated"
       },
       "discussionLinks": [
         {
           "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
-          "platform": "Reddit \u00b7 r/tari"
+          "platform": "Reddit · r/tari"
+        },
+        {
+          "url": "https://x.com/Caravelxyz/status/2108591594236481966",
+          "platform": "X"
         }
       ],
       "cardSummary": "Study a deposit-only Ootle template and its integration examples.",
-      "cardStatus": "Testnet \u00b7 Irreversible deposits"
+      "cardStatus": "Testnet · Irreversible deposits"
     },
     {
       "id": "tari-ootle:integration:community-templates",
@@ -332,7 +346,7 @@
       "group": "Templates",
       "title": "Official Community Templates",
       "summary": "Published-template directory and indexer source. Reuse this project when evaluating searchable template metadata; no authoritative hosted instance was established.",
-      "status": "Source available \u00b7 hosted endpoint unverified",
+      "status": "Source available · hosted endpoint unverified",
       "sourceUrl": "https://github.com/tari-project/community-templates",
       "repoUrl": "https://github.com/tari-project/community-templates",
       "docsUrl": null,
@@ -357,7 +371,7 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.mp4",
-        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+        "source": "Source/docs walkthrough — application not demonstrated"
       },
       "discussionLinks": [],
       "cardSummary": "Explore directory and indexer source for finding published Ootle templates.",
@@ -396,11 +410,11 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.mp4",
-        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+        "source": "Source/docs walkthrough — application not demonstrated"
       },
       "discussionLinks": [],
       "cardSummary": "Explore source for browsing Ootle transactions, templates and substates.",
-      "cardStatus": "Paused \u00b7 Oct 10 review"
+      "cardStatus": "Paused · Oct 10 review"
     },
     {
       "id": "tari:component:tari-l1-wasm",
@@ -410,7 +424,7 @@
       "group": "Advanced",
       "title": "Chiron Tari L1 WASM",
       "summary": "Browser-oriented Minotari primitives. Source build requires the surrounding Tari monorepo and patches. This is L1 tooling, separate from Ootle templates.",
-      "status": "Source reviewed \u00b7 runtime untested",
+      "status": "Source reviewed · runtime untested",
       "sourceUrl": "https://github.com/chironbuilds/tari-l1-wasm",
       "repoUrl": "https://github.com/chironbuilds/tari-l1-wasm",
       "docsUrl": null,
@@ -435,11 +449,11 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-l1-wasm-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-l1-wasm-20261010.mp4",
-        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+        "source": "Source/docs walkthrough — application not demonstrated"
       },
       "discussionLinks": [],
       "cardSummary": "Explore browser-oriented Minotari primitives for Tari L1 integrations.",
-      "cardStatus": "Source code \u00b7 Monorepo required"
+      "cardStatus": "Source code · Monorepo required"
     },
     {
       "id": "tari-ootle:learn:ootle-notes",
@@ -449,7 +463,7 @@
       "group": "Advanced",
       "title": "Ootle Internals notes",
       "summary": "Community explanation of privacy and transaction flow. Last source push was August 15, 2026; cross-check against current official documentation.",
-      "status": "Community reference \u00b7 may lag protocol",
+      "status": "Community reference · may lag protocol",
       "sourceUrl": "https://github.com/chironbuilds/ootle-notes",
       "repoUrl": "https://github.com/chironbuilds/ootle-notes",
       "docsUrl": null,
@@ -474,7 +488,7 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-notes-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-notes-20261010.mp4",
-        "source": "Source/docs walkthrough \u2014 application not demonstrated"
+        "source": "Source/docs walkthrough — application not demonstrated"
       },
       "discussionLinks": [],
       "cardSummary": "Read community explanations of Ootle privacy and transaction flow.",
@@ -493,10 +507,10 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.mp4",
-        "source": "Announcement walkthrough \u2014 recorded October 10, 2026"
+        "source": "Announcement walkthrough — recorded October 10, 2026"
       },
-      "cardSummary": "Enter the organizers\u2019 giveaway for three one-month Claude Pro prizes.",
-      "cardStatus": "Drawing October 26 \u00b7 See entry terms"
+      "cardSummary": "Enter the organizers’ giveaway for three one-month Claude Pro prizes.",
+      "cardStatus": "Drawing October 26 · See entry terms"
     }
   ]
 }

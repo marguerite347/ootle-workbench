@@ -461,3 +461,26 @@ span.btn.btn-sm.border.border-secondary {
     left: 128%;
   }
 }
+
+/* Phone navigation uses the existing dropdown; workspace and layout controls
+   get their own row so neither user names nor actions are clipped. */
+.ootle-topbar-content { flex-wrap: wrap; }
+.ootle-topbar-workspace { order: 1; width: calc(100% - .5rem); min-width: 0; }
+.ootle-topbar-workspace > div { width: 100%; }
+.ootle-topbar-menu .dropdown-toggle,
+.ootle-topbar-menu .dropdown-item { min-height: 44px; }
+@media (max-width: 767.98px) {
+  .top-bar { flex-shrink: 0; }
+  .ootle-topbar-workspace [data-id="workspacesSelect-togglerText"] {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  .ootle-topbar-workspace [data-id="panel-control"] { margin-left: auto !important; }
+  .ootle-topbar-workspace button { min-height: 44px; }
+  .ootle-topbar-workspace [data-id="panel-control"] button { min-width: 44px; }
+}
+@media (min-width: 768px) {
+  .ootle-topbar-content { flex-wrap: nowrap; }
+  .ootle-topbar-workspace { order: 0; width: auto; }
+  .ootle-topbar-workspace > div { width: auto; }
+}
