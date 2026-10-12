@@ -1019,14 +1019,14 @@ export function RemixUiTopbar() {
                   <Dropdown.Toggle
                     as={CustomToggle}
                     id="panel-control-compact"
-                    aria-label="Layout controls"
                     data-id="panel-control-compact-toggle"
                     icon=""
                     useDefaultIcon={false}
                     className="btn btn-link p-0 border-0 shadow-none"
                   >
+                    <span className="visually-hidden">Layout controls</span>
                     <CustomTooltip placement="bottom-start" tooltipText="Control layout" hide={panelControlMenuOpen}>
-                      <i className="codicon codicon-layout fs-6" />
+                      <i className="codicon codicon-layout fs-6" aria-hidden="true" />
                     </CustomTooltip>
                   </Dropdown.Toggle>
                   <Dropdown.Menu>
