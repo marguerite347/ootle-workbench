@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-11T09:07:44.895Z",
+  "checkedAt": "2026-10-12T09:01:25.445Z",
   "manifests": [
     {
       "repo": "workbench",
@@ -115,55 +115,11 @@
   "lockfiles": [
     {
       "repo": "workbench",
-      "file": ".nvmrc"
-    },
-    {
-      "repo": "workbench",
-      "file": "apps/contract-verification/src/app/Verifiers/BlockscoutVerifier.ts"
-    },
-    {
-      "repo": "workbench",
       "file": "apps/remix-ide-e2e/src/githttpbackend/yarn.lock"
     },
     {
       "repo": "workbench",
-      "file": "apps/remix-ide-e2e/src/tests/blockchain.test.ts"
-    },
-    {
-      "repo": "workbench",
       "file": "apps/remix-ide-e2e/yarn.lock"
-    },
-    {
-      "repo": "workbench",
-      "file": "apps/remix-ide/.nvmrc"
-    },
-    {
-      "repo": "workbench",
-      "file": "apps/remix-ide/src/blockchain/blockchain.tsx"
-    },
-    {
-      "repo": "workbench",
-      "file": "apps/remix-ide/src/blockchain/execution-context.js"
-    },
-    {
-      "repo": "workbench",
-      "file": "apps/remix-ide/src/blockchain/helper.ts"
-    },
-    {
-      "repo": "workbench",
-      "file": "apps/remix-ide/src/blockchain/providers/injected.ts"
-    },
-    {
-      "repo": "workbench",
-      "file": "apps/remix-ide/src/blockchain/providers/node.ts"
-    },
-    {
-      "repo": "workbench",
-      "file": "apps/remix-ide/src/blockchain/providers/vm.ts"
-    },
-    {
-      "repo": "workbench",
-      "file": "apps/remix-ide/src/blockchain/providers/worker-vm.ts"
     },
     {
       "repo": "workbench",
@@ -179,183 +135,7 @@
     },
     {
       "repo": "workbench",
-      "file": "examples/ootle-counter-remix/Cargo.toml"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/src/solidity-analyzer/modules/blockBlockhash.ts"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/src/solidity-analyzer/modules/blockTimestamp.ts"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/abiNamespaceCallNodes.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/assignment.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/blockHashAccess.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/blockTimestamp.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/contractDefinition.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/doWhileLoopNode.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/dynamicDeleteUnaryOp.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/externalDirect.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/forLoopNode.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/fullyQualifiedFunctionDefinition.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/funcDefForComplexParams.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/functionDefinition.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/index.js"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/inheritance.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/inlineAssembly.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/libCall.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/localCall.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/lowlevelCall.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/nowAst.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/parameterFunction.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/parameterFunctionCall.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/requireCall.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/selfdestruct.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/stateVariableContractNode.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/storageVariableNodes.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/superLocal.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/thisLocalCall.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/unaryOperation.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/astBlocks/whileLoopNode.json"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/test-contracts/solidity-v0.4.24/blockLevelCompare.sol"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-analyzer/test/analysis/test-contracts/solidity-v0.5/blockLevelCompare.sol"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-api/src/lib/plugins/matomo/events/blockchain-events.ts"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-core-plugin/src/lib/helpers/fetch-blockscout.ts"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-simulator/src/methods/blocks.ts"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-simulator/test/blocks.ts"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-ui/run-tab/src/lib/types/blockchain.d.ts"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-ui/workspace/src/lib/cloud/cloud-workspace-lock.ts"
-    },
-    {
-      "repo": "workbench",
-      "file": "libs/remix-ws-templates/src/templates/daoGovernance/contracts/DAOTimelock.sol"
-    },
-    {
-      "repo": "workbench",
       "file": "templates/tari-counter/Cargo.lock"
-    },
-    {
-      "repo": "workbench",
-      "file": "templates/tari-counter/Cargo.toml"
-    },
-    {
-      "repo": "workbench",
-      "file": "templates/tari-counter/vendor/gix-hash-0.15.1/Cargo.toml"
-    },
-    {
-      "repo": "workbench",
-      "file": "templates/tari-counter/vendor/shared-buffer-0.1.4/Cargo.toml"
     },
     {
       "repo": "workbench",
@@ -377,7 +157,7 @@
       "latestCompatible": "5.7.0",
       "latest": "5.6.1",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited EVM/E2E harness update: no corresponding upstream Nightwatch/browser fixture acceptance in this Tari web release; package is not deployed as the public agent service.",
       "latestSameMajor": "5.7.0"
     },
     {
@@ -390,7 +170,7 @@
       "latestCompatible": "5.7.0",
       "latest": "5.6.1",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited EVM/E2E harness update: no corresponding upstream Nightwatch/browser fixture acceptance in this Tari web release; package is not deployed as the public agent service.",
       "latestSameMajor": "5.7.0"
     },
     {
@@ -403,7 +183,7 @@
       "latestCompatible": "1.46.0",
       "latest": "1.46.0",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited EVM/E2E harness update: no corresponding upstream Nightwatch/browser fixture acceptance in this Tari web release; package is not deployed as the public agent service.",
       "latestSameMajor": "1.46.0"
     },
     {
@@ -416,7 +196,7 @@
       "latestCompatible": "0.10.16",
       "latest": "0.10.16",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required"
+      "disposition": "Hold inherited EVM/E2E harness update: no corresponding upstream Nightwatch/browser fixture acceptance in this Tari web release; package is not deployed as the public agent service."
     },
     {
       "repo": "workbench",
@@ -440,7 +220,7 @@
       "latestCompatible": "0.5.18",
       "latest": "0.6.1",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required"
+      "disposition": "Hold inherited EVM/E2E harness update: no corresponding upstream Nightwatch/browser fixture acceptance in this Tari web release; package is not deployed as the public agent service."
     },
     {
       "repo": "workbench",
@@ -452,7 +232,7 @@
       "latestCompatible": "1.1.2",
       "latest": "2.2.3",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited EVM/E2E harness update: no corresponding upstream Nightwatch/browser fixture acceptance in this Tari web release; package is not deployed as the public agent service.",
       "latestSameMajor": "1.1.2"
     },
     {
@@ -465,7 +245,7 @@
       "latestCompatible": "6.17.0",
       "latest": "6.17.0",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited EVM/E2E harness update: no corresponding upstream Nightwatch/browser fixture acceptance in this Tari web release; package is not deployed as the public agent service.",
       "latestSameMajor": "6.17.0"
     },
     {
@@ -517,7 +297,7 @@
       "latestCompatible": "1.20.8",
       "latest": "2.3.0",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited EVM/E2E harness update: no corresponding upstream Nightwatch/browser fixture acceptance in this Tari web release; package is not deployed as the public agent service.",
       "latestSameMajor": "1.20.8"
     },
     {
@@ -543,7 +323,7 @@
       "latestCompatible": "4.22.3",
       "latest": "5.3.0",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited EVM/E2E harness update: no corresponding upstream Nightwatch/browser fixture acceptance in this Tari web release; package is not deployed as the public agent service.",
       "latestSameMajor": "4.22.3"
     },
     {
@@ -594,7 +374,7 @@
       "latestCompatible": "22.20.5",
       "latest": "26.6.5",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited EVM/E2E harness update: no corresponding upstream Nightwatch/browser fixture acceptance in this Tari web release; package is not deployed as the public agent service.",
       "latestSameMajor": "22.20.5"
     },
     {
@@ -607,7 +387,7 @@
       "latestCompatible": "5.9.3",
       "latest": "7.0.2",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited EVM/E2E harness update: no corresponding upstream Nightwatch/browser fixture acceptance in this Tari web release; package is not deployed as the public agent service.",
       "latestSameMajor": "5.9.3"
     },
     {
@@ -692,7 +472,7 @@
       "latestCompatible": "8.18.2",
       "latest": "8.18.2",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "8.18.2"
     },
     {
@@ -705,7 +485,7 @@
       "latestCompatible": "1.18.0",
       "latest": "1.18.0",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "1.18.0"
     },
     {
@@ -718,7 +498,7 @@
       "latestCompatible": "2.0.9",
       "latest": "2.0.9",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "2.0.9"
     },
     {
@@ -731,7 +511,7 @@
       "latestCompatible": "1.20.0",
       "latest": "1.20.0",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "1.20.0"
     },
     {
@@ -757,7 +537,7 @@
       "latestCompatible": "10.0.12",
       "latest": "10.0.12",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "10.0.12"
     },
     {
@@ -770,7 +550,7 @@
       "latestCompatible": "3.6.0",
       "latest": "5.0.0",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "3.6.0"
     },
     {
@@ -783,7 +563,7 @@
       "latestCompatible": "2.8.6",
       "latest": "2.8.6",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "2.8.6"
     },
     {
@@ -809,7 +589,7 @@
       "latestCompatible": "6.8.10",
       "latest": "6.8.9",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "6.8.10"
     },
     {
@@ -822,7 +602,7 @@
       "latestCompatible": "4.22.3",
       "latest": "5.3.0",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "4.22.3"
     },
     {
@@ -832,11 +612,10 @@
       "range": "^1.24.2",
       "locked": "1.24.2",
       "installed": null,
-      "latestCompatible": "1.43.3",
-      "latest": "1.43.3",
+      "latestCompatible": "1.44.1",
+      "latest": "1.44.1",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
-      "latestSameMajor": "1.43.3"
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run."
     },
     {
       "repo": "workbench",
@@ -887,7 +666,7 @@
       "latestCompatible": "1.1.0",
       "latest": "1.1.0",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "1.1.0"
     },
     {
@@ -900,7 +679,7 @@
       "latestCompatible": "3.2.2",
       "latest": "5.0.5",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "3.2.2"
     },
     {
@@ -913,7 +692,7 @@
       "latestCompatible": "24.43.1",
       "latest": "25.13.0",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "24.43.1"
     },
     {
@@ -926,7 +705,7 @@
       "latestCompatible": "7.8.5",
       "latest": "7.8.5",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "7.8.5"
     },
     {
@@ -939,7 +718,7 @@
       "latestCompatible": "8.22.0",
       "latest": "8.22.0",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "8.22.0"
     },
     {
@@ -952,7 +731,7 @@
       "latestCompatible": "2.5.0",
       "latest": "3.1.2",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "2.5.0"
     },
     {
@@ -965,7 +744,7 @@
       "latestCompatible": "4.2.36",
       "latest": "4.2.36",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "4.2.36"
     },
     {
@@ -978,7 +757,7 @@
       "latestCompatible": "4.17.25",
       "latest": "5.0.6",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "4.17.25"
     },
     {
@@ -1017,7 +796,7 @@
       "latestCompatible": "2.3.32",
       "latest": "3.0.1",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "2.3.32"
     },
     {
@@ -1082,7 +861,7 @@
       "latestCompatible": "26.17.0",
       "latest": "26.15.3",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "26.17.0"
     },
     {
@@ -1134,7 +913,7 @@
       "latestCompatible": "2.1.0",
       "latest": "2.1.0",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "2.1.0"
     },
     {
@@ -1147,7 +926,7 @@
       "latestCompatible": "9.5.0",
       "latest": "10.0.2",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "9.5.0"
     },
     {
@@ -1173,7 +952,7 @@
       "latestCompatible": "9.6.2",
       "latest": "9.6.2",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "9.6.2"
     },
     {
@@ -1199,7 +978,7 @@
       "latestCompatible": "5.9.3",
       "latest": "7.0.2",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "5.9.3"
     },
     {
@@ -1212,7 +991,7 @@
       "latestCompatible": "5.111.1",
       "latest": "5.111.1",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "5.111.1"
     },
     {
@@ -1264,7 +1043,7 @@
       "latestCompatible": "1.22.22",
       "latest": "1.22.22",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "1.22.22"
     },
     {
@@ -1277,7 +1056,7 @@
       "latestCompatible": "1.0.88",
       "latest": "1.0.88",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited desktop-only package upgrades: this web deployment does not package Electron; native modules, updater and signed desktop build require a separate desktop acceptance run.",
       "latestSameMajor": "1.0.88"
     },
     {
@@ -1290,7 +1069,7 @@
       "latestCompatible": "3.6.2",
       "latest": "6.2.5",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required",
+      "disposition": "Hold inherited Solidity plugin updates until compiler/plugin regression acceptance; no Tari integration upgrade inferred from semver.",
       "latestSameMajor": "3.6.2"
     },
     {
@@ -1303,7 +1082,7 @@
       "latestCompatible": "0.3.208",
       "latest": "0.3.38",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required"
+      "disposition": "Hold inherited Solidity plugin updates until compiler/plugin regression acceptance; no Tari integration upgrade inferred from semver."
     },
     {
       "repo": "workbench",
@@ -1315,7 +1094,7 @@
       "latestCompatible": "0.3.208",
       "latest": "0.3.38",
       "error": null,
-      "disposition": "compatible update candidate; regression assessment required"
+      "disposition": "Hold inherited Solidity plugin updates until compiler/plugin regression acceptance; no Tari integration upgrade inferred from semver."
     },
     {
       "repo": "workbench",
@@ -5476,10 +5255,9 @@
       "locked": "3.20.0",
       "installed": "3.20.0",
       "latestCompatible": "3.22.2",
-      "latest": "4.0.2",
+      "latest": "4.0.3",
       "error": null,
-      "disposition": "Retain frozen Remix compatibility set; upstream/editor/plugin migration requires parent-specific tests. Advisory exposure stays in SECURITY_REMEDIATION.md.",
-      "latestSameMajor": "3.22.2"
+      "disposition": "Hold Effect 3.20.0 to 3.22.2 until inherited plugin call/error-flow compatibility checks; semver availability is not established integration compatibility."
     },
     {
       "repo": "workbench",
@@ -5772,11 +5550,10 @@
       "range": "^1.25.7",
       "locked": "1.25.7",
       "installed": "1.25.7",
-      "latestCompatible": "1.43.3",
-      "latest": "1.43.3",
+      "latestCompatible": "1.44.1",
+      "latest": "1.44.1",
       "error": null,
-      "disposition": "Retain frozen Remix compatibility set; upstream/editor/plugin migration requires parent-specific tests. Advisory exposure stays in SECURITY_REMEDIATION.md.",
-      "latestSameMajor": "1.43.3"
+      "disposition": "Hold 1.25.7 to 1.44.1 workspace Git migration until clone, commit, branch, conflict and persistence regression acceptance; user workspaces must remain intact."
     },
     {
       "repo": "workbench",
@@ -6675,10 +6452,9 @@
       "locked": "3.0.3",
       "installed": "3.0.3",
       "latestCompatible": "3.0.3",
-      "latest": "5.0.3",
+      "latest": "5.0.4",
       "error": null,
-      "disposition": "Retain frozen Remix compatibility set; upstream/editor/plugin migration requires parent-specific tests. Advisory exposure stays in SECURITY_REMEDIATION.md.",
-      "latestSameMajor": "3.0.3"
+      "disposition": "major/range migration deferred pending upstream compatibility"
     },
     {
       "repo": "workbench",
@@ -8660,10 +8436,9 @@
       "locked": "3.5.1",
       "installed": "3.5.1",
       "latestCompatible": "3.5.1",
-      "latest": "3.6.1",
+      "latest": "3.7.0",
       "error": null,
-      "disposition": "Hold service update: requires separate live OAuth/session and hosted-worker acceptance; no agent test restart in this run. Service audit rerun clean; prior service acceptance retained, live sessions not restarted.",
-      "latestSameMajor": "3.6.1"
+      "disposition": "major/range migration deferred pending upstream compatibility"
     },
     {
       "repo": "workbench",
@@ -8712,10 +8487,9 @@
       "locked": "3.25.76",
       "installed": "3.25.76",
       "latestCompatible": "3.25.76",
-      "latest": "4.6.5",
+      "latest": "4.6.6",
       "error": null,
-      "disposition": "Hold service update: requires separate live OAuth/session and hosted-worker acceptance; no agent test restart in this run. Service audit rerun clean; prior service acceptance retained, live sessions not restarted.",
-      "latestSameMajor": "3.25.76"
+      "disposition": "major/range migration deferred pending upstream compatibility"
     }
   ]
 }
