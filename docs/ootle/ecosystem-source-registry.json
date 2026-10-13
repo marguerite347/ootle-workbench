@@ -2212,7 +2212,7 @@
         "https://explorer.tari.mw/",
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8"
       ],
-      "lastSuccessfulReviewAt": "2026-10-13T09:29:21.819Z",
+      "lastSuccessfulReviewAt": "2026-10-10T11:48:07.412636+00:00",
       "outcome": "blocked",
       "reviewRequired": true,
       "lastAttemptAt": "2026-10-13T09:29:40.049Z",
@@ -2262,7 +2262,7 @@
         }
       },
       "priorReviewBasis": "Retained catalog lastCheckedAt from earlier source review; this follow-up does not imply all sources were reread",
-      "observedAvailability": "October 13: https://explorer.tari.mw/ renders Esmeralda explorer epochs, receipts and transaction rows in CUA. Old advertised Vercel host remains HTTP402; preserve failed-read history. Updated primary/demo action and availability together. No transaction performed.",
+      "observedAvailability": null,
       "changedSources": [],
       "reviewQueue": [],
       "checkedScope": [
@@ -2462,7 +2462,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-10-13T09:29:40.049Z",
-      "observedAvailability": "Rust escrow template and offline CLI for encrypted secret sales on Ootle. A dispute reveals the secret publicly; the contract compares delivery with the seller’s commitment, not its value. Source reviewed October 13, 2026; no hosted client or release was linked in the reviewed repository. Creator test and security-review claims were not independently reproduced. The README’s historical “Stealth XTM” wording refers to native Ootle TARI mechanisms.",
+      "observedAvailability": "Rust escrow template and offline CLI for encrypted secret sales on Ootle. A dispute reveals the secret publicly; the contract compares delivery with the seller\u2019s commitment, not its value. Source reviewed October 13, 2026; no hosted client or release was linked in the reviewed repository. Creator test and security-review claims were not independently reproduced. The README\u2019s historical \u201cStealth XTM\u201d wording refers to native Ootle TARI mechanisms.",
       "outcome": "reviewed",
       "changedSources": [],
       "reviewRequired": false,
@@ -2474,7 +2474,7 @@
         "https://github.com/Lrifton92/crypt",
         "https://bsky.app/profile/ogboy92.bsky.social/post/3mxoehhu2b22o"
       ],
-      "sourceObservation": "Rust escrow template and offline CLI for encrypted secret sales on Ootle. A dispute reveals the secret publicly; the contract compares delivery with the seller’s commitment, not its value. Source reviewed October 13, 2026; no hosted client or release was linked in the reviewed repository. Creator test and security-review claims were not independently reproduced. The README’s historical “Stealth XTM” wording refers to native Ootle TARI mechanisms.",
+      "sourceObservation": "Rust escrow template and offline CLI for encrypted secret sales on Ootle. A dispute reveals the secret publicly; the contract compares delivery with the seller\u2019s commitment, not its value. Source reviewed October 13, 2026; no hosted client or release was linked in the reviewed repository. Creator test and security-review claims were not independently reproduced. The README\u2019s historical \u201cStealth XTM\u201d wording refers to native Ootle TARI mechanisms.",
       "reviewScope": "Description, public source availability, complete forum discussion and repository metadata. Social feeds include returned posts; full social reply threads and private sources not certified. New/changed public apps additionally inspected with CUA. No wallet/runtime/security certification.",
       "copyUpdated": false
     },
