@@ -384,8 +384,8 @@
       "ecosystem": "tari-ootle",
       "group": "Inspect",
       "title": "Veil Ootle Explorer",
-      "summary": "Explorer source for transactions, templates and substates. On October 10, 2026, the advertised ootle-explorer.vercel.app deployment returned HTTP 402 with DEPLOYMENT_DISABLED. This dated observation may change; the listing links to the source repository.",
-      "status": "Deployment unavailable at October 10, 2026 review",
+      "summary": "Browse Ootle Esmeralda transactions, templates and substates. On October 13, 2026, explorer.tari.mw rendered current network data and transaction rows in the public browser. The former ootle-explorer.vercel.app address still returned HTTP 402. This is a public interface observation, not independent verification of indexer data.",
+      "status": "Public testnet explorer",
       "sourceUrl": "https://github.com/chironbuilds/ootle-explorer",
       "repoUrl": "https://github.com/chironbuilds/ootle-explorer",
       "docsUrl": null,
@@ -398,7 +398,7 @@
       "platform": "Web",
       "upstreamRevision": "c1dabcf43da468c1490c80db3bd55cb38fc821a6",
       "sourceUpdatedAt": "2026-10-10T04:57:46Z",
-      "lastCheckedAt": "2026-10-10T11:48:07.412636+00:00",
+      "lastCheckedAt": "2026-10-13T09:12:59.977051+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -406,15 +406,20 @@
         "inspect",
         "community"
       ],
-      "demoUrl": null,
+      "demoUrl": "https://explorer.tari.mw/",
       "preview": {
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.jpg",
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.mp4",
-        "source": "Source/docs walkthrough — application not demonstrated"
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261013.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261013.jpg",
+        "source": "App demo — Public read-only interface scrolling; no wallet or transaction flow demonstrated."
       },
-      "discussionLinks": [],
-      "cardSummary": "Explore source for browsing Ootle transactions, templates and substates.",
-      "cardStatus": "Paused · Oct 10 review"
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+          "platform": "Tari Community forum"
+        }
+      ],
+      "cardSummary": "Browse Ootle testnet transactions, templates and substates through a public network explorer.",
+      "cardStatus": "Web app · Testnet"
     },
     {
       "id": "tari:component:tari-l1-wasm",
@@ -493,6 +498,109 @@
       "discussionLinks": [],
       "cardSummary": "Read community explanations of Ootle privacy and transaction flow.",
       "cardStatus": "Community notes"
+    },
+    {
+      "id": "tari-ootle:component:crypt",
+      "key": "crypt",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Crypt",
+      "summary": "Rust escrow template and offline CLI for encrypted secret sales on Ootle. A dispute reveals the secret publicly; the contract compares delivery with the seller’s commitment, not its value. Source reviewed October 13, 2026; no hosted client or release was linked in the reviewed repository. Creator test and security-review claims were not independently reproduced. The README’s historical “Stealth XTM” wording refers to native Ootle TARI mechanisms.",
+      "status": "Rust template · Disputes reveal secrets",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
+      "repoUrl": "https://github.com/Lrifton92/crypt",
+      "docsUrl": "https://github.com/Lrifton92/crypt#readme",
+      "creator": {
+        "name": "Og.boy",
+        "url": "https://github.com/Lrifton92"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle L2",
+      "platform": "Rust / CLI",
+      "upstreamRevision": "7ba0cb4feadc51b9ccfc6e5a2b15d22666d8e4c7",
+      "sourceUpdatedAt": "2026-10-12T11:07:25.452Z",
+      "lastCheckedAt": "2026-10-13T09:12:59.977051+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "templates"
+      ],
+      "demoUrl": null,
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
+          "platform": "Tari Community forum"
+        },
+        {
+          "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3mxoehhu2b22o",
+          "platform": "Bluesky"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxpffkqnsk2x",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-12T20:49:53.930Z",
+          "context": "Official sharing of creator announcement"
+        }
+      ],
+      "cardSummary": "Explore encrypted secret sales with escrow and contract-settled delivery disputes.",
+      "cardStatus": "Rust template · Disputes reveal secrets",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261013.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261013.jpg",
+        "source": "Source/docs walkthrough — Public repository README scrolling; no application execution demonstrated."
+      }
+    },
+    {
+      "id": "tari-ootle:component:phantom-drop",
+      "key": "phantom-drop",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Phantom Drop",
+      "summary": "Rust CLI and library for testnet gift envelopes using native stealth outputs and claim/refund branches, without a custom template. Links can include riddles and expiry. Anyone holding a plain link can claim it; riddle strength and public transaction timing limit privacy. The creator published October 12 Esmeralda seal/open/refund evidence; this listing reviews source and those links, without executing the CLI or a wallet transaction.",
+      "status": "CLI · Esmeralda testnet",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+      "repoUrl": "https://gitlab.com/hycorange/phantom-drop",
+      "docsUrl": "https://gitlab.com/hycorange/phantom-drop#readme",
+      "creator": {
+        "name": "hycorange",
+        "url": "https://gitlab.com/hycorange"
+      },
+      "license": "MIT",
+      "network": "Ootle L2 / Esmeralda testnet",
+      "platform": "Rust / CLI",
+      "upstreamRevision": "1b6138a245813eb477b80388a8a5802b79ae0eb0",
+      "sourceUpdatedAt": "2026-10-12T13:55:52.735Z",
+      "lastCheckedAt": "2026-10-13T09:12:59.977051+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "advanced"
+      ],
+      "demoUrl": null,
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+          "platform": "Tari Community forum"
+        },
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22",
+          "platform": "Bluesky"
+        }
+      ],
+      "cardSummary": "Create expiring testnet gift links with a Rust CLI, optional riddles and refunds for unopened envelopes.",
+      "cardStatus": "CLI · Esmeralda testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-20261013.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-20261013.jpg",
+        "source": "Source/docs walkthrough — Public repository README scrolling; no application execution demonstrated."
+      }
     }
   ],
   "opportunities": [
