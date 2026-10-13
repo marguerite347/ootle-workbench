@@ -30,4 +30,5 @@
 .ootle-card-details p{font-size:.875rem;line-height:1.6;margin:.5rem 0}
 .ootle-card-details summary:focus-visible{outline:2px solid #cced00;outline-offset:2px}
 .ootle-home-grid .ootle-resource-card a{min-height:2.75rem}
-@media(min-width:768px){.ootle-resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ootle-home #ecosystem-resources{container-type:inline-size;container-name:ootle-catalog}
+@container ootle-catalog (min-width:600px){.ootle-resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
