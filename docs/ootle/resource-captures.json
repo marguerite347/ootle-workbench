@@ -32,10 +32,19 @@
     "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-candy-summoner-20261010.jpg",
     "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-candy-summoner",
     "workbenchUrl": null,
-    "caption": "Concept overview \u2014 application not demonstrated",
+    "caption": "Concept overview — application not demonstrated",
     "sha256": "047995d4c71d63404a32df759a5fbe726aa56e347e3f61897a0226849a466f9c",
     "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
+    "verification": "published; desktop and mobile playback verified",
+    "blocker": null,
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": null,
+      "workbenchMobile": null,
+      "mediaHashMatched": true,
+      "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+    }
   },
   {
     "resourceId": "clew",
@@ -70,10 +79,19 @@
     "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-clew-20261010.jpg",
     "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-clew",
     "workbenchUrl": null,
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "caption": "Source/docs walkthrough — application not demonstrated",
     "sha256": "800f5bd58e12857e4f362e02d8803cd4c0dbc0810a6378270979749b932e9568",
     "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
+    "verification": "published; desktop and mobile playback verified",
+    "blocker": null,
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": null,
+      "workbenchMobile": null,
+      "mediaHashMatched": true,
+      "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+    }
   },
   {
     "resourceId": "official-agent-docs",
@@ -98,94 +116,19 @@
     "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-agent-docs-20261010.jpg",
     "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:learn:official-agent-docs",
     "workbenchUrl": "https://ootle-workbench.vercel.app/",
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "caption": "Source/docs walkthrough — application not demonstrated",
     "sha256": "235db140cfca2945cdcb8111a5504a7674a9f79a686409224cfac2ea1e2c4572",
     "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
-  },
-  {
-    "resourceId": "ootle-ts",
-    "title": "Official Ootle TypeScript SDK",
-    "targetUrl": "https://github.com/tari-project/ootle.ts",
-    "originalPosts": [],
-    "captureType": "source-docs-walkthrough",
-    "capturedAt": "2026-10-10T12:48:19.878029+00:00",
-    "observedRevision": "865569e8a5b520d4ab3698c4dba7d4277832349c",
-    "viewport": {
-      "width": 1280,
-      "height": 800
-    },
-    "exportDimensions": {
-      "codec_name": "h264",
-      "width": 1280,
-      "height": 720,
-      "pix_fmt": "yuv420p"
-    },
-    "durationSeconds": 12.0,
-    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.mp4",
-    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.jpg",
-    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-ts",
-    "workbenchUrl": "https://ootle-workbench.vercel.app/",
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
-    "sha256": "685e3cbbb258a774413d84582a949b043c8163c1c6b1b4a8d7c8f621a283c2f6",
-    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
-  },
-  {
-    "resourceId": "ootle-python",
-    "title": "Official Ootle Python SDK",
-    "targetUrl": "https://github.com/tari-project/ootle-py",
-    "originalPosts": [],
-    "captureType": "source-docs-walkthrough",
-    "capturedAt": "2026-10-10T12:48:37.104387+00:00",
-    "observedRevision": "9606db5f1d1b98d3eba2e31311ac3edd43fa87fa",
-    "viewport": {
-      "width": 1280,
-      "height": 800
-    },
-    "exportDimensions": {
-      "codec_name": "h264",
-      "width": 1280,
-      "height": 720,
-      "pix_fmt": "yuv420p"
-    },
-    "durationSeconds": 12.0,
-    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.mp4",
-    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.jpg",
-    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-python",
-    "workbenchUrl": "https://ootle-workbench.vercel.app/",
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
-    "sha256": "ff3f37410040e242369fd4bedcecd02b8546972bdf48bcb64fcc7464a33e9584",
-    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
-  },
-  {
-    "resourceId": "ootle-go",
-    "title": "Official Ootle Go SDK",
-    "targetUrl": "https://github.com/tari-project/ootle-go",
-    "originalPosts": [],
-    "captureType": "source-docs-walkthrough",
-    "capturedAt": "2026-10-10T12:48:54.655093+00:00",
-    "observedRevision": "1af0907d2e2b73db0fbb638989db9cbf6d8a71e9",
-    "viewport": {
-      "width": 1280,
-      "height": 800
-    },
-    "exportDimensions": {
-      "codec_name": "h264",
-      "width": 1280,
-      "height": 720,
-      "pix_fmt": "yuv420p"
-    },
-    "durationSeconds": 12.0,
-    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.mp4",
-    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.jpg",
-    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-go",
-    "workbenchUrl": "https://ootle-workbench.vercel.app/",
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
-    "sha256": "31e3bcd44418be5bb15d2e44518b5904c369ae7b9d03994e7453a899f3e7382b",
-    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
+    "verification": "published; desktop and mobile playback verified",
+    "blocker": null,
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": true,
+      "workbenchMobile": true,
+      "mediaHashMatched": true,
+      "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+    }
   },
   {
     "resourceId": "erebus-ootle-sdk",
@@ -210,76 +153,19 @@
     "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.jpg",
     "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:erebus-ootle-sdk",
     "workbenchUrl": "https://ootle-workbench.vercel.app/",
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "caption": "Source/docs walkthrough — application not demonstrated",
     "sha256": "dca2316555bf248018c7abe4c2cba778b5671ef887c05fb2ff6479614fa7453f",
     "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
-  },
-  {
-    "resourceId": "caravel-faucet",
-    "title": "Caravel Faucet",
-    "targetUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
-    "originalPosts": [
-      {
-        "url": "https://x.com/DNodeCapital/status/2108867690085421447",
-        "platform": "X",
-        "author": "DNodeCapital",
-        "publishedAt": null,
-        "foundOn": "2026-10-10",
-        "context": "Resource link in the DNode announcement thread",
-        "visibility": "public"
-      }
-    ],
-    "captureType": "source-docs-walkthrough",
-    "capturedAt": "2026-10-10T12:49:29.577773+00:00",
-    "observedRevision": "c2127f7ef9f907f92dd77af126a8863266489ff9",
-    "viewport": {
-      "width": 1280,
-      "height": 800
-    },
-    "exportDimensions": {
-      "codec_name": "h264",
-      "width": 1280,
-      "height": 720,
-      "pix_fmt": "yuv420p"
-    },
-    "durationSeconds": 12.0,
-    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.mp4",
-    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.jpg",
-    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:caravel-faucet",
-    "workbenchUrl": "https://ootle-workbench.vercel.app/",
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
-    "sha256": "cc0d43c69cf301cd1541fcbaacdde406aeeee7f72c0102e6c557d4900e2d7db5",
-    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
-  },
-  {
-    "resourceId": "ons",
-    "title": "Ootle Name Service",
-    "targetUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service",
-    "originalPosts": [],
-    "captureType": "source-docs-walkthrough",
-    "capturedAt": "2026-10-10T12:49:46.927355+00:00",
-    "observedRevision": "5d3d65d9a24a596d6b3f9209e260b342a122be43",
-    "viewport": {
-      "width": 1280,
-      "height": 800
-    },
-    "exportDimensions": {
-      "codec_name": "h264",
-      "width": 1280,
-      "height": 720,
-      "pix_fmt": "yuv420p"
-    },
-    "durationSeconds": 12.0,
-    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.mp4",
-    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.jpg",
-    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ons",
-    "workbenchUrl": "https://ootle-workbench.vercel.app/",
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
-    "sha256": "80c6b68baa3cf14e7098944223ee927b7d2642edbf95cf16853cf6c005865aaf",
-    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
+    "verification": "published; desktop and mobile playback verified",
+    "blocker": null,
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": true,
+      "workbenchMobile": true,
+      "mediaHashMatched": true,
+      "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+    }
   },
   {
     "resourceId": "caravel-burn-wallet",
@@ -288,7 +174,7 @@
     "originalPosts": [
       {
         "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
-        "platform": "Reddit \u00b7 r/tari",
+        "platform": "Reddit · r/tari",
         "author": null,
         "publishedAt": null,
         "foundOn": "2026-10-10",
@@ -314,10 +200,19 @@
     "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.jpg",
     "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:caravel-burn-wallet",
     "workbenchUrl": "https://ootle-workbench.vercel.app/",
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "caption": "Source/docs walkthrough — application not demonstrated",
     "sha256": "57c6e1fc1d05c6965628907bb90c1aaa435eec41a9884953facaf7ce40eb7276",
     "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
+    "verification": "published; desktop and mobile playback verified",
+    "blocker": null,
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": true,
+      "workbenchMobile": true,
+      "mediaHashMatched": true,
+      "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+    }
   },
   {
     "resourceId": "community-templates",
@@ -342,38 +237,19 @@
     "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.jpg",
     "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:integration:community-templates",
     "workbenchUrl": "https://ootle-workbench.vercel.app/",
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "caption": "Source/docs walkthrough — application not demonstrated",
     "sha256": "65cdfdd0f974c7783452af8e2872660d497895ed68cf9fc45ae046bfa280298a",
     "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
-  },
-  {
-    "resourceId": "veil",
-    "title": "Veil Ootle Explorer",
-    "targetUrl": "https://github.com/chironbuilds/ootle-explorer",
-    "originalPosts": [],
-    "captureType": "source-docs-walkthrough",
-    "capturedAt": "2026-10-10T12:50:39.058620+00:00",
-    "observedRevision": "c1dabcf43da468c1490c80db3bd55cb38fc821a6",
-    "viewport": {
-      "width": 1280,
-      "height": 800
-    },
-    "exportDimensions": {
-      "codec_name": "h264",
-      "width": 1280,
-      "height": 720,
-      "pix_fmt": "yuv420p"
-    },
-    "durationSeconds": 12.0,
-    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.mp4",
-    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.jpg",
-    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:integration:veil",
-    "workbenchUrl": "https://ootle-workbench.vercel.app/",
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
-    "sha256": "b0734332b8692a56710344e92eebb816adbf732c4d6f343a09b395a93c3b8bea",
-    "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
+    "verification": "published; desktop and mobile playback verified",
+    "blocker": null,
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": true,
+      "workbenchMobile": true,
+      "mediaHashMatched": true,
+      "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+    }
   },
   {
     "resourceId": "tari-l1-wasm",
@@ -398,10 +274,19 @@
     "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-l1-wasm-20261010.jpg",
     "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari:component:tari-l1-wasm",
     "workbenchUrl": "https://ootle-workbench.vercel.app/",
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "caption": "Source/docs walkthrough — application not demonstrated",
     "sha256": "fa517856d4ce2ee3f9160cc8571616f1e08029b02a6d9e96913ebe046824a454",
     "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
+    "verification": "published; desktop and mobile playback verified",
+    "blocker": null,
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": true,
+      "workbenchMobile": true,
+      "mediaHashMatched": true,
+      "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+    }
   },
   {
     "resourceId": "ootle-notes",
@@ -426,10 +311,19 @@
     "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-notes-20261010.jpg",
     "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:learn:ootle-notes",
     "workbenchUrl": "https://ootle-workbench.vercel.app/",
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "caption": "Source/docs walkthrough — application not demonstrated",
     "sha256": "2d02a5f13fe7013d5cb5dc2f335566443314aeac7b4bc6ea68e86eb643fc62ef",
     "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
+    "verification": "published; desktop and mobile playback verified",
+    "blocker": null,
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": true,
+      "workbenchMobile": true,
+      "mediaHashMatched": true,
+      "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+    }
   },
   {
     "resourceId": "dnode-giveaway",
@@ -473,10 +367,19 @@
     "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.jpg",
     "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#resource-dnode-giveaway",
     "workbenchUrl": null,
-    "caption": "Announcement walkthrough \u2014 recorded October 10, 2026",
+    "caption": "Announcement walkthrough — recorded October 10, 2026",
     "sha256": "2f61b0a332ad805700f52626ba16d4d2e2d8b6ddbd80961ec3c4da81a82eebf0",
     "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-    "blocker": null
+    "verification": "published; desktop and mobile playback verified",
+    "blocker": null,
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": null,
+      "workbenchMobile": null,
+      "mediaHashMatched": true,
+      "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+    }
   },
   {
     "resourceId": "ghostkey",
@@ -556,9 +459,877 @@
     "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostkey-20261010.jpg",
     "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-ghostkey",
     "workbenchUrl": null,
-    "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+    "caption": "Source/docs walkthrough — application not demonstrated",
     "sha256": "9f5651cfb004deefe7ce7583ec70587d640b91c23f281478177ef7684ea2b4c5",
     "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+    "verification": "published; desktop and mobile playback verified",
+    "blocker": null,
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": null,
+      "workbenchMobile": null,
+      "mediaHashMatched": true,
+      "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+    }
+  },
+  {
+    "resourceId": "skydrop",
+    "title": "Skydrop",
+    "targetUrl": "https://skydrop.tari.mw/#/how",
+    "originalPosts": [
+      {
+        "url": "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1",
+        "platform": "Tari Community forum",
+        "author": "0xhra",
+        "publishedAt": "2026-10-11T11:12:03.190Z",
+        "foundOn": "2026-10-12",
+        "context": "Skydrop public testnet announcement",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "docs-walkthrough",
+    "capturedAt": "2026-10-12T09:04:33.226Z",
+    "observedRevision": null,
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 712,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-skydrop-20261012.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-skydrop-20261012.jpg",
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/#community-projects",
+    "workbenchUrl": null,
+    "caption": "Source/docs walkthrough — transfers not demonstrated",
+    "sha256": "daa1c7759c7fd383690ce8dacf00aca20105af7726fc9f7926b22b1b88bcc0f4",
+    "frameReview": "daily-2026-10-12/skydrop-final-frames.jpg",
+    "verification": "published; production desktop playback advanced and final-revision phone playback reached 12 seconds without media error",
+    "blocker": null,
+    "verifiedAt": "2026-10-12T10:45:10.162373+00:00",
+    "lobbyRevision": "3815c20ce659d0bf3a0ef64da7b0aca8a66c8ccf",
+    "playbackEvidence": "daily-2026-10-12/live-acceptance.json",
+    "posterSha256": "81c9d9803f4ba1d82bae6659706c0262da48308ca4e94ae02dcef0f31f8e3a1c"
+  },
+  {
+    "resourceId": "crypt",
+    "title": "Crypt",
+    "targetUrl": "https://github.com/Lrifton92/crypt#crypt",
+    "originalPosts": [
+      {
+        "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
+        "platform": "Tari Community forum",
+        "author": "Og.boy",
+        "publishedAt": "2026-10-12T11:07:25.452Z",
+        "foundOn": "2026-10-13",
+        "context": "October Build Contest Thread: Spooky Secrets!",
+        "visibility": "public"
+      },
+      {
+        "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3mxoehhu2b22o",
+        "platform": "Bluesky",
+        "author": "ogboy92.bsky.social",
+        "publishedAt": "2026-10-12T11:00:24.524Z",
+        "foundOn": "2026-10-13",
+        "context": "Creator announcement",
+        "visibility": "public"
+      },
+      {
+        "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxpffkqnsk2x",
+        "platform": "Bluesky",
+        "author": "tariproject.bsky.social",
+        "publishedAt": "2026-10-12T20:49:53.930Z",
+        "foundOn": "2026-10-13",
+        "context": "Official sharing of creator announcement",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "docs-walkthrough",
+    "capturedAt": "2026-10-13T09:10:14.060Z",
+    "observedRevision": "7ba0cb4feadc51b9ccfc6e5a2b15d22666d8e4c7",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261013.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261013.jpg",
+    "caption": "Docs walkthrough",
+    "method": "Public repository README scrolling; no application execution demonstrated.",
+    "sha256": "237755b8d5acd517dccd816be99f7f273958694cf84ce55b9948960bdd7b9bbd",
+    "frameReview": "Opening, middle and closing frames inspected; readable real source/page content and continuous scroll.",
+    "verification": "published; final-revision desktop and mobile playback verified",
+    "blocker": null,
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": true,
+      "workbenchMobile": true,
+      "mediaHashMatched": true,
+      "posterHashMatched": true,
+      "checkedAt": "2026-10-13T10:13:52.377043+00:00",
+      "lobbyRevision": "b1f8e9d9c6beada215cf7d8dc0a5d11151a438ff",
+      "workbenchRevision": "137d485ec0e5aa8f3300f2b256b989d4996a489f",
+      "evidence": "daily-2026-10-13/playback.json"
+    },
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-crypt",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/"
+  },
+  {
+    "resourceId": "phantom-drop",
+    "title": "Phantom Drop",
+    "targetUrl": "https://github.com/hycorange/phantom-drop#readme",
+    "originalPosts": [
+      {
+        "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+        "platform": "Tari Community forum",
+        "author": "hycorange",
+        "publishedAt": "2026-10-12T13:55:52.735Z",
+        "foundOn": "2026-10-13",
+        "context": "October Build Contest Thread: Spooky Secrets!",
+        "visibility": "public"
+      },
+      {
+        "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22",
+        "platform": "Bluesky",
+        "author": "hycorange.bsky.social",
+        "publishedAt": "2026-10-09T13:55:26.951Z",
+        "foundOn": "2026-10-13",
+        "context": "Creator announcement",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "docs-walkthrough",
+    "capturedAt": "2026-10-13T09:27:27.671Z",
+    "observedRevision": "1b6138a245813eb477b80388a8a5802b79ae0eb0",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-20261013.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-20261013.jpg",
+    "caption": "Docs walkthrough",
+    "method": "Public repository README scrolling; no application execution demonstrated.",
+    "sha256": "cbe256ce23a2e5aa2180268f29c1240fcd2e841ad806ff47177ce260393b12a5",
+    "frameReview": "Opening, middle and closing frames inspected; readable real source/page content and continuous scroll.",
+    "verification": "published; final-revision desktop and mobile playback verified",
+    "blocker": null,
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": true,
+      "workbenchMobile": true,
+      "mediaHashMatched": true,
+      "posterHashMatched": true,
+      "checkedAt": "2026-10-13T10:13:52.377043+00:00",
+      "lobbyRevision": "b1f8e9d9c6beada215cf7d8dc0a5d11151a438ff",
+      "workbenchRevision": "137d485ec0e5aa8f3300f2b256b989d4996a489f",
+      "evidence": "daily-2026-10-13/playback.json"
+    },
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-phantom-drop",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/"
+  },
+  {
+    "resourceId": "veil",
+    "title": "Veil Ootle Explorer",
+    "targetUrl": "https://explorer.tari.mw/",
+    "originalPosts": [
+      {
+        "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+        "platform": "Tari Community forum",
+        "author": "hycorange",
+        "publishedAt": "2026-10-12T13:55:52.735Z",
+        "foundOn": "2026-10-13",
+        "context": "Phantom Drop submission links proof transactions on the recovered Veil hostname; not Veil’s original announcement",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "app-demo",
+    "capturedAt": "2026-10-13T09:28:10.102Z",
+    "observedRevision": "c1dabcf43da468c1490c80db3bd55cb38fc821a6",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261013.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261013.jpg",
+    "caption": "App demo",
+    "method": "Public read-only interface scrolling; no wallet or transaction flow demonstrated.",
+    "sha256": "156ae80a9f7cbfbf6e9f5295e8d80dd7914fd3fa8d9fb6da471095017e8fa7ed",
+    "frameReview": "Opening, middle and closing frames inspected; readable real source/page content and continuous scroll.",
+    "verification": "published; final-revision desktop and mobile playback verified",
+    "blocker": null,
+    "previousCaptures": [
+      {
+        "resourceId": "veil",
+        "title": "Veil Ootle Explorer",
+        "targetUrl": "https://github.com/chironbuilds/ootle-explorer",
+        "originalPosts": [],
+        "captureType": "source-docs-walkthrough",
+        "capturedAt": "2026-10-10T12:50:39.058620+00:00",
+        "observedRevision": "c1dabcf43da468c1490c80db3bd55cb38fc821a6",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "exportDimensions": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p"
+        },
+        "durationSeconds": 12.0,
+        "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.mp4",
+        "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.jpg",
+        "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:integration:veil",
+        "workbenchUrl": "https://ootle-workbench.vercel.app/",
+        "caption": "Source/docs walkthrough — application not demonstrated",
+        "sha256": "b0734332b8692a56710344e92eebb816adbf732c4d6f343a09b395a93c3b8bea",
+        "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+        "verification": "published; desktop and mobile playback verified",
+        "blocker": null,
+        "liveVerification": {
+          "lobbyDesktop": true,
+          "lobbyMobile": true,
+          "workbenchDesktop": true,
+          "workbenchMobile": true,
+          "mediaHashMatched": true,
+          "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+        }
+      }
+    ],
+    "liveVerification": {
+      "lobbyDesktop": true,
+      "lobbyMobile": true,
+      "workbenchDesktop": true,
+      "workbenchMobile": true,
+      "mediaHashMatched": true,
+      "posterHashMatched": true,
+      "checkedAt": "2026-10-13T10:13:52.377043+00:00",
+      "lobbyRevision": "b1f8e9d9c6beada215cf7d8dc0a5d11151a438ff",
+      "workbenchRevision": "137d485ec0e5aa8f3300f2b256b989d4996a489f",
+      "evidence": "daily-2026-10-13/playback.json"
+    },
+    "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#resource-veil",
+    "workbenchUrl": "https://ootle-workbench.vercel.app/"
+  },
+  {
+    "resourceId": "macotaur",
+    "title": "Macotaur",
+    "targetUrl": "https://github.com/big-chief-1889/MacotaurGUI#readme",
+    "originalPosts": [],
+    "captureType": "docs-walkthrough",
+    "capturedAt": "2026-10-14T13:38:22.169Z",
+    "observedRevision": "480dcca4757d8c3415670a976b5f1485cce64884",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-macotaur-20261014.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-macotaur-20261014.jpg",
+    "caption": "Docs walkthrough",
+    "method": "Public repository README scrolling; no software installation or execution.",
+    "sha256": "2d6038ffe70a35211ec729fea67e466ed20bf6c01d12cec13fc1af144bcb10df",
+    "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
+    "verification": "frame-reviewed; live desktop/mobile playback pending",
+    "blocker": null
+  },
+  {
+    "resourceId": "caravel-trade",
+    "title": "Caravel Trade",
+    "targetUrl": "https://github.com/okansaglam016161-pixel/caravel-trade#readme",
+    "originalPosts": [],
+    "captureType": "concept-overview",
+    "capturedAt": "2026-10-14T13:38:39.259Z",
+    "observedRevision": "3aa8d62269b67109912d32a8e687c19b67a8b1e7",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-trade-20261014.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-trade-20261014.jpg",
+    "caption": "Concept overview",
+    "method": "Public repository README scrolling; no software installation or execution.",
+    "sha256": "a10e7d6e09f09fd74f353793bfabf4fa41e772a7512d54fa3835621852f7ee7c",
+    "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
+    "verification": "frame-reviewed; live desktop/mobile playback pending",
+    "blocker": null
+  },
+  {
+    "resourceId": "taritracker-faucet",
+    "title": "TariTracker Faucet",
+    "targetUrl": "https://testnet-faucet.taritracker.com/",
+    "originalPosts": [],
+    "captureType": "app-demo",
+    "capturedAt": "2026-10-14T13:38:55.746Z",
+    "observedRevision": null,
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261014.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261014.jpg",
+    "caption": "App demo",
+    "method": "Public landing and amount/claim interface scrolling; no address, CAPTCHA or claim submitted.",
+    "sha256": "13c773d243a79ce7dd9526d49723707a944956fab930a09fb97acb3ae9ea70e5",
+    "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
+    "verification": "frame-reviewed; live desktop/mobile playback pending",
+    "blocker": null
+  },
+  {
+    "resourceId": "hauntboard",
+    "title": "Hauntboard",
+    "targetUrl": "https://github.com/kstrycharz/hauntboard#readme",
+    "originalPosts": [
+      {
+        "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
+        "platform": "Tari Community forum",
+        "author": "_squared",
+        "publishedAt": "2026-10-12T22:16:52.102Z",
+        "foundOn": "2026-10-13",
+        "context": "October Build Contest Thread: Spooky Secrets!",
+        "visibility": "public"
+      },
+      {
+        "url": "https://www.reddit.com/r/tari/comments/1x4eany/i_built_hauntboard_for_taris_spooky_secrets/",
+        "platform": "Reddit",
+        "author": "u/Starz1428",
+        "publishedAt": null,
+        "foundOn": "2026-10-13",
+        "context": "Creator Hauntboard announcement in r/tari; browser displays zero comments",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "docs-walkthrough",
+    "capturedAt": "2026-10-14T13:39:12.940Z",
+    "observedRevision": "c493fe76c0d016c414fdc38e75a378507b71b7a3",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261014.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261014.jpg",
+    "caption": "Docs walkthrough",
+    "method": "Public repository README scrolling; no software installation or execution.",
+    "sha256": "18cdac4ecd0b56871eef5f5a580c204ddc0d1e0f926181c928d09b71efe65b3b",
+    "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
+    "verification": "frame-reviewed; live desktop/mobile playback pending",
+    "blocker": null,
+    "previousCaptures": [
+      {
+        "resourceId": "hauntboard",
+        "title": "Hauntboard",
+        "targetUrl": "https://hauntboard.taritracker.com/",
+        "originalPosts": [
+          {
+            "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
+            "platform": "Tari Community forum",
+            "author": "_squared",
+            "publishedAt": "2026-10-12T22:16:52.102Z",
+            "foundOn": "2026-10-13",
+            "context": "October Build Contest Thread: Spooky Secrets!",
+            "visibility": "public"
+          },
+          {
+            "url": "https://www.reddit.com/r/tari/comments/1x4eany/i_built_hauntboard_for_taris_spooky_secrets/",
+            "platform": "Reddit",
+            "author": "u/Starz1428",
+            "publishedAt": null,
+            "foundOn": "2026-10-13",
+            "context": "Creator Hauntboard announcement in r/tari; browser displays zero comments",
+            "visibility": "public"
+          }
+        ],
+        "captureType": "app-demo",
+        "capturedAt": "2026-10-13T09:27:48.642Z",
+        "observedRevision": "02ace501fdea2c4841c405eb4d6bf72bacb70471",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "exportDimensions": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 800,
+          "pix_fmt": "yuv420p"
+        },
+        "durationSeconds": 12,
+        "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261013.mp4",
+        "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261013.jpg",
+        "caption": "App demo",
+        "method": "Public read-only interface scrolling; no wallet or transaction flow demonstrated.",
+        "sha256": "7bfac6bf950d765c0bc23962f784be3d35ba9c283206a942b3acaff3892a2f3f",
+        "frameReview": "Opening, middle and closing frames inspected; readable real source/page content and continuous scroll.",
+        "verification": "published; final-revision desktop and mobile playback verified",
+        "blocker": null,
+        "liveVerification": {
+          "lobbyDesktop": true,
+          "lobbyMobile": true,
+          "workbenchDesktop": null,
+          "workbenchMobile": null,
+          "mediaHashMatched": true,
+          "posterHashMatched": true,
+          "checkedAt": "2026-10-13T10:13:52.377043+00:00",
+          "lobbyRevision": "b1f8e9d9c6beada215cf7d8dc0a5d11151a438ff",
+          "workbenchRevision": null,
+          "evidence": "daily-2026-10-13/playback.json"
+        },
+        "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-hauntboard",
+        "workbenchUrl": null
+      }
+    ]
+  },
+  {
+    "resourceId": "ons",
+    "title": "Ootle Name Service",
+    "targetUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service#readme",
+    "originalPosts": [],
+    "captureType": "docs-walkthrough",
+    "capturedAt": "2026-10-14T13:39:30.209Z",
+    "observedRevision": "3f88161c2e18df2a3cb31d904b709c65b0a12af5",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261014.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261014.jpg",
+    "caption": "Docs walkthrough",
+    "method": "Public repository README scrolling; no software installation or execution.",
+    "sha256": "0cce7767eb84145ffc54d2dab926fe7472712c03e66e393bab70e552f2a0ce0d",
+    "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
+    "verification": "frame-reviewed; live desktop/mobile playback pending",
+    "blocker": null,
+    "previousCaptures": [
+      {
+        "resourceId": "ons",
+        "title": "Ootle Name Service",
+        "targetUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service",
+        "originalPosts": [],
+        "captureType": "source-docs-walkthrough",
+        "capturedAt": "2026-10-10T12:49:46.927355+00:00",
+        "observedRevision": "5d3d65d9a24a596d6b3f9209e260b342a122be43",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "exportDimensions": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p"
+        },
+        "durationSeconds": 12.0,
+        "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.mp4",
+        "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.jpg",
+        "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ons",
+        "workbenchUrl": "https://ootle-workbench.vercel.app/",
+        "caption": "Source/docs walkthrough — application not demonstrated",
+        "sha256": "80c6b68baa3cf14e7098944223ee927b7d2642edbf95cf16853cf6c005865aaf",
+        "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+        "verification": "published; desktop and mobile playback verified",
+        "blocker": null,
+        "liveVerification": {
+          "lobbyDesktop": true,
+          "lobbyMobile": true,
+          "workbenchDesktop": true,
+          "workbenchMobile": true,
+          "mediaHashMatched": true,
+          "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+        }
+      }
+    ]
+  },
+  {
+    "resourceId": "caravel-faucet",
+    "title": "Caravel Faucet",
+    "targetUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet#readme",
+    "originalPosts": [
+      {
+        "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+        "platform": "X",
+        "author": "DNodeCapital",
+        "publishedAt": null,
+        "foundOn": "2026-10-10",
+        "context": "Resource link in the DNode announcement thread",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "docs-walkthrough",
+    "capturedAt": "2026-10-14T13:39:47.323Z",
+    "observedRevision": "c3a2a50af4f4088ff4ecb8fcf83bdbbd2bd00d4e",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261014.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261014.jpg",
+    "caption": "Docs walkthrough",
+    "method": "Public repository README scrolling; no software installation or execution.",
+    "sha256": "c70f94253d2630585c7a7b639d8a438b3f06c8c92fb5d1fc569da8f1a69fa0ab",
+    "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
+    "verification": "frame-reviewed; live desktop/mobile playback pending",
+    "blocker": null,
+    "previousCaptures": [
+      {
+        "resourceId": "caravel-faucet",
+        "title": "Caravel Faucet",
+        "targetUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
+        "originalPosts": [
+          {
+            "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+            "platform": "X",
+            "author": "DNodeCapital",
+            "publishedAt": null,
+            "foundOn": "2026-10-10",
+            "context": "Resource link in the DNode announcement thread",
+            "visibility": "public"
+          }
+        ],
+        "captureType": "source-docs-walkthrough",
+        "capturedAt": "2026-10-10T12:49:29.577773+00:00",
+        "observedRevision": "c2127f7ef9f907f92dd77af126a8863266489ff9",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "exportDimensions": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p"
+        },
+        "durationSeconds": 12.0,
+        "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.mp4",
+        "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.jpg",
+        "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:caravel-faucet",
+        "workbenchUrl": "https://ootle-workbench.vercel.app/",
+        "caption": "Source/docs walkthrough — application not demonstrated",
+        "sha256": "cc0d43c69cf301cd1541fcbaacdde406aeeee7f72c0102e6c557d4900e2d7db5",
+        "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+        "verification": "published; desktop and mobile playback verified",
+        "blocker": null,
+        "liveVerification": {
+          "lobbyDesktop": true,
+          "lobbyMobile": true,
+          "workbenchDesktop": true,
+          "workbenchMobile": true,
+          "mediaHashMatched": true,
+          "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+        }
+      }
+    ]
+  },
+  {
+    "resourceId": "ootle-ts",
+    "title": "Official Ootle TypeScript SDK",
+    "targetUrl": "https://github.com/tari-project/ootle.ts#readme",
+    "originalPosts": [
+      {
+        "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
+        "platform": "GitHub releases",
+        "author": "tari-project",
+        "publishedAt": null,
+        "foundOn": "2026-10-14",
+        "context": "Official 0.9.0 release notes",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "docs-walkthrough",
+    "capturedAt": "2026-10-14T13:40:04.675Z",
+    "observedRevision": "6a7a09cb238b915936bb2069d573cfd8baebfd59",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261014.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261014.jpg",
+    "caption": "Docs walkthrough",
+    "method": "Public repository README scrolling; no software installation or execution.",
+    "sha256": "c6ed9eb3cae1727b8820c74d59b3b9b243ed2888d152cf81e57835f85836fbf7",
+    "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
+    "verification": "frame-reviewed; live desktop/mobile playback pending",
+    "blocker": null,
+    "previousCaptures": [
+      {
+        "resourceId": "ootle-ts",
+        "title": "Official Ootle TypeScript SDK",
+        "targetUrl": "https://github.com/tari-project/ootle.ts",
+        "originalPosts": [],
+        "captureType": "source-docs-walkthrough",
+        "capturedAt": "2026-10-10T12:48:19.878029+00:00",
+        "observedRevision": "865569e8a5b520d4ab3698c4dba7d4277832349c",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "exportDimensions": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p"
+        },
+        "durationSeconds": 12.0,
+        "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.mp4",
+        "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.jpg",
+        "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-ts",
+        "workbenchUrl": "https://ootle-workbench.vercel.app/",
+        "caption": "Source/docs walkthrough — application not demonstrated",
+        "sha256": "685e3cbbb258a774413d84582a949b043c8163c1c6b1b4a8d7c8f621a283c2f6",
+        "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+        "verification": "published; desktop and mobile playback verified",
+        "blocker": null,
+        "liveVerification": {
+          "lobbyDesktop": true,
+          "lobbyMobile": true,
+          "workbenchDesktop": true,
+          "workbenchMobile": true,
+          "mediaHashMatched": true,
+          "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+        }
+      }
+    ]
+  },
+  {
+    "resourceId": "ootle-python",
+    "title": "Official Ootle Python SDK",
+    "targetUrl": "https://github.com/tari-project/ootle-py#readme",
+    "originalPosts": [
+      {
+        "url": "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1",
+        "platform": "GitHub releases",
+        "author": "tari-project",
+        "publishedAt": null,
+        "foundOn": "2026-10-14",
+        "context": "Official 0.3.1 release notes",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "docs-walkthrough",
+    "capturedAt": "2026-10-14T13:40:21.726Z",
+    "observedRevision": "b36dd5fdc25ad2792d05598b41086137735944da",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261014.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261014.jpg",
+    "caption": "Docs walkthrough",
+    "method": "Public repository README scrolling; no software installation or execution.",
+    "sha256": "6f8417b47a67006c1fa6c61a23d3092607349b7c92f87c6fda097c481a890285",
+    "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
+    "verification": "frame-reviewed; live desktop/mobile playback pending",
+    "blocker": null,
+    "previousCaptures": [
+      {
+        "resourceId": "ootle-python",
+        "title": "Official Ootle Python SDK",
+        "targetUrl": "https://github.com/tari-project/ootle-py",
+        "originalPosts": [],
+        "captureType": "source-docs-walkthrough",
+        "capturedAt": "2026-10-10T12:48:37.104387+00:00",
+        "observedRevision": "9606db5f1d1b98d3eba2e31311ac3edd43fa87fa",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "exportDimensions": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p"
+        },
+        "durationSeconds": 12.0,
+        "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.mp4",
+        "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.jpg",
+        "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-python",
+        "workbenchUrl": "https://ootle-workbench.vercel.app/",
+        "caption": "Source/docs walkthrough — application not demonstrated",
+        "sha256": "ff3f37410040e242369fd4bedcecd02b8546972bdf48bcb64fcc7464a33e9584",
+        "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+        "verification": "published; desktop and mobile playback verified",
+        "blocker": null,
+        "liveVerification": {
+          "lobbyDesktop": true,
+          "lobbyMobile": true,
+          "workbenchDesktop": true,
+          "workbenchMobile": true,
+          "mediaHashMatched": true,
+          "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+        }
+      }
+    ]
+  },
+  {
+    "resourceId": "ootle-go",
+    "title": "Official Ootle Go SDK",
+    "targetUrl": "https://github.com/tari-project/ootle-go#readme",
+    "originalPosts": [
+      {
+        "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0",
+        "platform": "GitHub releases",
+        "author": "tari-project",
+        "publishedAt": null,
+        "foundOn": "2026-10-14",
+        "context": "Official 0.4.0 release notes",
+        "visibility": "public"
+      }
+    ],
+    "captureType": "docs-walkthrough",
+    "capturedAt": "2026-10-14T13:40:39.074Z",
+    "observedRevision": "9e5054978f92cb1af59cc5352e2fe117a4a97504",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "exportDimensions": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "pix_fmt": "yuv420p"
+    },
+    "durationSeconds": 12,
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261014.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261014.jpg",
+    "caption": "Docs walkthrough",
+    "method": "Public repository README scrolling; no software installation or execution.",
+    "sha256": "4ef96f4b764f38d3cb93127bd3d142016a70c0af82b32155263997a1eec8b978",
+    "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
+    "verification": "frame-reviewed; live desktop/mobile playback pending",
+    "blocker": null,
+    "previousCaptures": [
+      {
+        "resourceId": "ootle-go",
+        "title": "Official Ootle Go SDK",
+        "targetUrl": "https://github.com/tari-project/ootle-go",
+        "originalPosts": [],
+        "captureType": "source-docs-walkthrough",
+        "capturedAt": "2026-10-10T12:48:54.655093+00:00",
+        "observedRevision": "1af0907d2e2b73db0fbb638989db9cbf6d8a71e9",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "exportDimensions": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p"
+        },
+        "durationSeconds": 12.0,
+        "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.mp4",
+        "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.jpg",
+        "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-go",
+        "workbenchUrl": "https://ootle-workbench.vercel.app/",
+        "caption": "Source/docs walkthrough — application not demonstrated",
+        "sha256": "31e3bcd44418be5bb15d2e44518b5904c369ae7b9d03994e7453a899f3e7382b",
+        "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+        "verification": "published; desktop and mobile playback verified",
+        "blocker": null,
+        "liveVerification": {
+          "lobbyDesktop": true,
+          "lobbyMobile": true,
+          "workbenchDesktop": true,
+          "workbenchMobile": true,
+          "mediaHashMatched": true,
+          "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+        }
+      }
+    ]
+  },
+  {
+    "resourceId": "liquidity",
+    "title": "Shadow Swap",
+    "targetUrl": "https://github.com/GSXRspartan/shadow-swap#readme",
+    "capturedAt": "2026-10-14T13:29:58.354Z",
+    "observedRevision": "1a21b9e62765d5992420f9c9c18157a889bb6e7e",
+    "captureType": "docs-walkthrough",
+    "caption": "Docs walkthrough",
+    "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-shadow-swap-20261014.mp4",
+    "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-shadow-swap-20261014.jpg",
+    "sha256": "e54320d1417813ca01fcba9ad327b7c010aff845aaf460090defcbdc31b289ad",
+    "verification": "Live desktop playback reached12seconds; mobile final acceptance pending",
+    "frameReview": "Opening/middle/closing visually inspected.",
     "blocker": null
   }
 ]
