@@ -9950,5 +9950,14 @@
   "pythonVendorRequirements": {
     "scope": "Two optional vendored requirements files (boto3, awscli, Pillow) metadata refreshed; no installed product Python environment or transitive lock found.",
     "evidence": "work/daily-2026-10-14/extra-reads.json"
+  },
+  "rustAuditFollowup": {
+    "advisory": "RUSTSEC-2026-0344",
+    "from": "0.9.0",
+    "to": "0.9.1",
+    "package": "ruzstd",
+    "initialCiRun": 38574284864,
+    "status": "patched; final CI audit pending",
+    "source": "https://rustsec.org/advisories/RUSTSEC-2026-0344.html"
   }
 }

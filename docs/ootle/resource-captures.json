@@ -1330,6 +1330,23 @@
     "sha256": "e54320d1417813ca01fcba9ad327b7c010aff845aaf460090defcbdc31b289ad",
     "verification": "Live desktop playback reached12seconds; mobile final acceptance pending",
     "frameReview": "Opening/middle/closing visually inspected.",
-    "blocker": null
+    "blocker": null,
+    "previousCaptures": [
+      {
+        "image": "/previews/community/liquidity.jpg",
+        "video": "/previews/community/liquidity.mp4",
+        "label": "Repository walkthrough · testnet interface screenshots",
+        "sourceUrl": "https://github.com/GSXRspartan/tari-ootle-liquidity-protocol#readme",
+        "capturedAt": "2026-10-04T15:32:57.764526Z",
+        "reviewedAt": "2026-10-04T15:32:57.764526Z",
+        "sha256": "3dc0541e9d500f049abd5ff4177bb0b64edb95af43c411f06b213c1bf40625e5"
+      }
+    ],
+    "method": "Genuine public README scrolling; no app execution.",
+    "durationSeconds": 12,
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    }
   }
 ]
