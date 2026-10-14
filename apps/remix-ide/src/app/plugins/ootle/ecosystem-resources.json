@@ -53,7 +53,7 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official TypeScript SDK",
-      "summary": "Core SDK, indexer and signer clients for browser and Node applications. Pre-1.0; review the versioned examples before integrating.",
+      "summary": "Core SDK, indexer and signer clients for browser and Node applications. Release 0.9.0, reviewed October 14, 2026, upgrades bindings to 1.58.0 and Ootle WASM to 0.46.0. Pre-1.0; match the network and versioned examples before integrating.",
       "status": "Source reviewed · runtime untested",
       "sourceUrl": "https://github.com/tari-project/ootle.ts",
       "repoUrl": "https://github.com/tari-project/ootle.ts",
@@ -65,9 +65,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle L2",
       "platform": "TypeScript / browser / Node",
-      "upstreamRevision": "865569e8a5b520d4ab3698c4dba7d4277832349c",
+      "upstreamRevision": "6a7a09cb238b915936bb2069d573cfd8baebfd59",
       "sourceUpdatedAt": "2026-10-07T13:28:57Z",
-      "lastCheckedAt": "2026-10-10T11:48:06.017549+00:00",
+      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -77,11 +77,18 @@
       ],
       "demoUrl": null,
       "preview": {
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.jpg",
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.mp4",
-        "source": "Source/docs walkthrough — application not demonstrated"
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261014.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261014.jpg",
+        "source": "Source/docs walkthrough — Public repository README scrolling; no software installation or execution."
       },
-      "discussionLinks": [],
+      "discussionLinks": [
+        {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
+          "platform": "GitHub",
+          "context": "Release notes",
+          "publishedAt": "2026-10-13T11:06:50Z"
+        }
+      ],
       "cardSummary": "Build browser and Node integrations with Ootle clients for indexing, signing and core operations.",
       "cardStatus": "SDK · Pre-1.0"
     },
@@ -92,7 +99,7 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official Python SDK",
-      "summary": "Python client with sync and async APIs. Requires Python 3.13 or later; the package is ootle-py and the import is ootle.",
+      "summary": "Python sync/async client requiring Python 3.13+. Release 0.3.1, reviewed October 14, 2026, updates WASM to 0.46.0, corrects Amount CBOR encoding for the 0.46 engine and improves aborted/rejected transaction handling. Package ootle-py; import ootle.",
       "status": "Source reviewed · runtime untested",
       "sourceUrl": "https://github.com/tari-project/ootle-py",
       "repoUrl": "https://github.com/tari-project/ootle-py",
@@ -104,9 +111,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle L2",
       "platform": "Python ≥3.13",
-      "upstreamRevision": "9606db5f1d1b98d3eba2e31311ac3edd43fa87fa",
+      "upstreamRevision": "b36dd5fdc25ad2792d05598b41086137735944da",
       "sourceUpdatedAt": "2026-10-02T08:49:54Z",
-      "lastCheckedAt": "2026-10-10T11:48:06.350617+00:00",
+      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -116,11 +123,18 @@
       ],
       "demoUrl": null,
       "preview": {
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.jpg",
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.mp4",
-        "source": "Source/docs walkthrough — application not demonstrated"
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261014.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261014.jpg",
+        "source": "Source/docs walkthrough — Public repository README scrolling; no software installation or execution."
       },
-      "discussionLinks": [],
+      "discussionLinks": [
+        {
+          "url": "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1",
+          "platform": "GitHub",
+          "context": "Release notes",
+          "publishedAt": "2026-10-13T12:19:30Z"
+        }
+      ],
       "cardSummary": "Access Ootle from Python with synchronous and asynchronous client APIs.",
       "cardStatus": "SDK · Python 3.13+"
     },
@@ -131,7 +145,7 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official Go SDK",
-      "summary": "Go client over the Rust core with cgo and platform-specific native libraries. Match the documented ABI and supported platform.",
+      "summary": "Go client over the Rust core with cgo and platform-specific native libraries. Release 0.4.0, reviewed October 14, 2026, vendors Ootle 0.46.0 and Protocol V2, adds INPUT_PLEDGE_TOO_LARGE handling, and retains ABI ootle-sdk-ffi-c/17. Read state or events for results.",
       "status": "Source reviewed · runtime untested",
       "sourceUrl": "https://github.com/tari-project/ootle-go",
       "repoUrl": "https://github.com/tari-project/ootle-go",
@@ -143,9 +157,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle L2",
       "platform": "Go / cgo",
-      "upstreamRevision": "1af0907d2e2b73db0fbb638989db9cbf6d8a71e9",
+      "upstreamRevision": "9e5054978f92cb1af59cc5352e2fe117a4a97504",
       "sourceUpdatedAt": "2026-10-02T08:49:14Z",
-      "lastCheckedAt": "2026-10-10T11:48:08.423103+00:00",
+      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -155,11 +169,18 @@
       ],
       "demoUrl": null,
       "preview": {
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.jpg",
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.mp4",
-        "source": "Source/docs walkthrough — application not demonstrated"
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261014.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261014.jpg",
+        "source": "Source/docs walkthrough — Public repository README scrolling; no software installation or execution."
       },
-      "discussionLinks": [],
+      "discussionLinks": [
+        {
+          "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0",
+          "platform": "GitHub",
+          "context": "Release notes",
+          "publishedAt": "2026-10-13T11:36:05Z"
+        }
+      ],
       "cardSummary": "Connect Go applications to Ootle through a Rust core and native libraries.",
       "cardStatus": "SDK · Requires cgo"
     },
@@ -214,7 +235,7 @@
       "ecosystem": "tari-ootle",
       "group": "Testnet",
       "title": "Caravel Faucet",
-      "summary": "Reusable Esmeralda testnet faucet template. Maintainer documents Ootle 0.45 / protocol V1 and one claim per key; the administrator can pause claims. No claim was performed.",
+      "summary": "Reusable Esmeralda testnet faucet template. The October 14 README documents Ootle 0.46, Protocol V2 activation at epoch 12220, SDK 0.9 and WASM 0.46.1. One claim per key; the administrator can pause claims. Deployment and dry-run claims are the maintainer’s evidence; no claim was performed here.",
       "status": "Testnet only · claim untested",
       "sourceUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
       "repoUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
@@ -226,9 +247,9 @@
       "license": "MIT",
       "network": "Ootle Esmeralda testnet",
       "platform": "Rust template",
-      "upstreamRevision": "c2127f7ef9f907f92dd77af126a8863266489ff9",
+      "upstreamRevision": "c3a2a50af4f4088ff4ecb8fcf83bdbbd2bd00d4e",
       "sourceUpdatedAt": "2026-10-07T12:47:22Z",
-      "lastCheckedAt": "2026-10-10T11:48:04.423075+00:00",
+      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -238,9 +259,9 @@
       ],
       "demoUrl": null,
       "preview": {
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.jpg",
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.mp4",
-        "source": "Source/docs walkthrough — application not demonstrated"
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261014.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261014.jpg",
+        "source": "Source/docs walkthrough — Public repository README scrolling; no software installation or execution."
       },
       "discussionLinks": [
         {
@@ -258,7 +279,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Ootle Name Service",
-      "summary": "Rust name registry and TypeScript client. Read-only resolution and signed writes are separate. Record strings do not prove cross-platform identity.",
+      "summary": "Ootle name-service template and client. The October 14 source pins template library 0.34, template build 0.15 and test tooling 0.46. The creator reports the existing 0.42 deployment running on Ootle 0.46. Source review does not independently verify registrations.",
       "status": "Source reviewed · on-chain use untested",
       "sourceUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service",
       "repoUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service",
@@ -270,9 +291,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle Esmeralda testnet",
       "platform": "Rust / TypeScript",
-      "upstreamRevision": "5d3d65d9a24a596d6b3f9209e260b342a122be43",
+      "upstreamRevision": "3f88161c2e18df2a3cb31d904b709c65b0a12af5",
       "sourceUpdatedAt": "2026-10-08T11:52:18Z",
-      "lastCheckedAt": "2026-10-10T11:48:05.984450+00:00",
+      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -282,9 +303,9 @@
       ],
       "demoUrl": null,
       "preview": {
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.jpg",
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.mp4",
-        "source": "Source/docs walkthrough — application not demonstrated"
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261014.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261014.jpg",
+        "source": "Source/docs walkthrough — Public repository README scrolling; no software installation or execution."
       },
       "discussionLinks": [],
       "cardSummary": "Explore an Ootle name registry with a Rust template and TypeScript client.",
@@ -297,7 +318,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Caravel Burn Wallet",
-      "summary": "Testnet deposit-only template and integration examples. The maintainer reports no owner or withdrawal method. Source reviewed; deployment and security claims have not been independently verified.",
+      "summary": "Deposit-only Ootle testnet contract source: no withdrawal function. Deposits are irreversible. The October 14 example uses official SDK 0.9; network validation claims remain attributed to the creator. No deposit was performed.",
       "status": "Testnet only · irreversible deposits · runtime untested",
       "sourceUrl": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
       "repoUrl": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
@@ -309,9 +330,9 @@
       "license": "MIT",
       "network": "Ootle Esmeralda testnet",
       "platform": "Rust / TypeScript",
-      "upstreamRevision": "1f1b29765487cdd36aa58b92c0320551f4a0dfd3",
+      "upstreamRevision": "7f960ace483a990ced1dbf6e6edc3c1070ed33e6",
       "sourceUpdatedAt": "2026-10-09T16:04:41Z",
-      "lastCheckedAt": "2026-10-10T11:52:30Z",
+      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -600,6 +621,51 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-20261013.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-20261013.jpg",
         "source": "Source/docs walkthrough — Public repository README scrolling; no application execution demonstrated."
+      }
+    },
+    {
+      "id": "tari-ootle:integration:taritracker-faucet",
+      "key": "taritracker-faucet",
+      "type": "integration",
+      "ecosystem": "tari-ootle",
+      "group": "Testnet",
+      "title": "TariTracker Faucet",
+      "summary": "Community-funded Esmeralda testnet faucet. On October 14, 2026 the public page showed an amount selector, once-per-wallet hourly limit and an open-claims state. No address was submitted and no receipt or funding success is claimed. Some controls still use the historical tXTR label; the page identifies the asset as native Ootle L2 TARI. Discovered through Hauntboard’s README, with no separate public announcement found.",
+      "status": "Web app · Testnet",
+      "sourceUrl": "https://testnet-faucet.taritracker.com/",
+      "repoUrl": null,
+      "docsUrl": "https://github.com/kstrycharz/hauntboard#wallet-funding",
+      "creator": {
+        "name": "TariTracker",
+        "url": "https://taritracker.com/"
+      },
+      "license": null,
+      "network": "Esmeralda testnet",
+      "platform": "Browser",
+      "upstreamRevision": null,
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "faucet",
+        "testnet"
+      ],
+      "demoUrl": "https://testnet-faucet.taritracker.com/",
+      "discussionLinks": [
+        {
+          "url": "https://github.com/kstrycharz/hauntboard#wallet-funding",
+          "platform": "GitHub",
+          "context": "Discovery page in Hauntboard documentation; not a separate announcement"
+        }
+      ],
+      "cardSummary": "Request community-funded testnet TARI for an Esmeralda Ootle wallet, with an hourly wallet limit.",
+      "cardStatus": "Web app · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261014.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261014.jpg",
+        "source": "App demo — Public landing and amount/claim interface scrolling; no address, CAPTCHA or claim submitted."
       }
     }
   ],
