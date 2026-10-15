@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-10-10T11:48:40Z",
+  "reviewedAt": "2026-10-15T09:17:59.839532+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -666,6 +666,57 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261014.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261014.jpg",
         "source": "App demo — Public landing and amount/claim interface scrolling; no address, CAPTCHA or claim submitted."
+      }
+    },
+    {
+      "id": "tari-ootle:integration:ootle-payment-gateway",
+      "key": "ootle-payment-gateway",
+      "type": "integration",
+      "ecosystem": "tari-ootle",
+      "group": "Payments",
+      "title": "Ootle Payment Gateway",
+      "summary": "WooCommerce plugin source for Ootle payment sessions, webhook handling and a customer-payment address flow. On October 15, 2026, the linked HTTP test storefront displayed one product. The maintainer reports an accepted confidential transfer in contest-verification.md; this is distinct from a completed customer checkout. The README roadmap still lists checkout wiring/reconciliation as remaining work, while current code includes a receive-address and balance-comparison path. These sources do not establish anonymous purchases or production readiness. Requires WordPress, WooCommerce, PHP and a wallet daemon. MIT source; reviewed for Esmeralda testnet. No plugin install, order, wallet or payment action was performed.",
+      "status": "Source code · Testnet",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
+      "repoUrl": "https://github.com/Luci666-Onyx/ootle-payment-gateway",
+      "docsUrl": "https://github.com/Luci666-Onyx/ootle-payment-gateway#readme",
+      "creator": {
+        "name": "luci666",
+        "url": "https://github.com/Luci666-Onyx"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "WordPress · WooCommerce · PHP",
+      "upstreamRevision": "3606ab25988eab6e33d2b93cb6189b2c2326411b",
+      "sourceUpdatedAt": "2026-10-15T04:23:25.422Z",
+      "lastCheckedAt": "2026-10-15T09:17:59.839532+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "payments",
+        "woocommerce",
+        "testnet"
+      ],
+      "demoUrl": null,
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
+          "platform": "Tari Community forum",
+          "context": "October build-contest payment-gateway submission"
+        },
+        {
+          "url": "https://bsky.app/profile/luci666-91.bsky.social/post/3mxv5ldyepc2y",
+          "platform": "Bluesky",
+          "context": "Creator announcement of WooCommerce Ootle gateway"
+        }
+      ],
+      "cardSummary": "Explore Ootle payments for WooCommerce with PHP plugin code and setup guides.",
+      "cardStatus": "Source code · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-payment-gateway-20261015.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-payment-gateway-20261015.jpg",
+        "source": "Source/docs walkthrough — Public plugin README; no checkout, wallet or payment execution."
       }
     }
   ],
