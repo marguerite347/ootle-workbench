@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-10-15T09:17:59.839532+00:00",
+  "reviewedAt": "2026-10-16T18:01:52.936641+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -717,6 +717,112 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-payment-gateway-20261015.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-payment-gateway-20261015.jpg",
         "source": "Source/docs walkthrough — Public plugin README; no checkout, wallet or payment execution."
+      }
+    },
+    {
+      "id": "tari-ootle:integration:sealed-coffin",
+      "key": "sealed-coffin",
+      "type": "integration",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Sealed Coffin",
+      "summary": "Rust/WASM source for a second-price sealed-bid auction on Ootle. Equal deposits and salted commitments conceal bid amounts until reveal; payouts use stealth outputs. Revealed bids, deposit sizes and timing are public. Unrevealed bids forfeit their deposit; losing the one-time key loses access to the refund. The lot remains off-chain. On October 16, 2026, the README states that the template has in-process engine tests and is not yet deployed to Esmeralda. MIT; tari_template_lib 0.34.0 and test tooling 0.45.0 with a committed compatibility lock. Source/docs review only; no auction or transaction executed. The creator-linked Reddit announcement was marked removed by Reddit filters on October 16; the public forum submission remains readable.",
+      "status": "Source code · Testnet · Unrevealed bids forfeit deposits",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12",
+      "repoUrl": "https://github.com/mak777uh/sealed-coffin",
+      "docsUrl": "https://github.com/mak777uh/sealed-coffin#readme",
+      "creator": {
+        "name": "sealedcoffin",
+        "url": "https://github.com/mak777uh"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Rust · WASM",
+      "upstreamRevision": "a9bd4612fb7d32f080d6e43278beeec10191f316",
+      "sourceUpdatedAt": "2026-10-15T19:20:24.651Z",
+      "lastCheckedAt": "2026-10-16T17:51:42.808645+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "auctions",
+        "template",
+        "testnet"
+      ],
+      "demoUrl": null,
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12",
+          "platform": "Tari Community forum",
+          "context": "October contest auction-template submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
+          "platform": "Reddit · r/tari",
+          "context": "Creator-linked Sealed Coffin announcement"
+        }
+      ],
+      "cardSummary": "Explore a sealed-bid auction template with equal deposits, timed reveals and stealth refunds.",
+      "cardStatus": "Source code · Testnet · Unrevealed bids forfeit deposits",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-coffin-20261016.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-coffin-20261016.jpg",
+        "source": "Source/docs walkthrough — Auction-template README; no execution."
+      }
+    },
+    {
+      "id": "tari:component:supportxtm-testnet-faucet",
+      "key": "supportxtm-testnet-faucet",
+      "type": "component",
+      "ecosystem": "tari",
+      "group": "Developer tools",
+      "title": "SupportXTM testnet faucet",
+      "summary": "Community faucet for L1 Esmeralda tXTM. The public form was reachable on October 16, 2026 and asks for a Tari L1 testnet address. Ootle L2 funding requires a separate irreversible burn and claim workflow, linked in the official guide. No claim, burn or wallet action was performed. Operator identity and source license are not established by the public page; 0xhra is the forum sharer, not an asserted operator. The recording walks through the September public discussion, including historical screenshots, not a live faucet claim.",
+      "status": "Web app · L1 testnet",
+      "sourceUrl": "https://community.tari.com/t/tari-universe-on-web/354/12",
+      "docsUrl": "https://ootle.tari.com/guides/burn-minotari/",
+      "demoUrl": "https://testnet-faucet.supportxtm.com/",
+      "creator": {
+        "name": "SupportXTM",
+        "url": "https://testnet-faucet.supportxtm.com/"
+      },
+      "license": "Not stated",
+      "network": "Esmeralda L1 testnet",
+      "platform": "Web",
+      "upstreamRevision": "50820a8979e47870dcedd60485ad58e9fbaa9eb9f3e6a3a7ff2f22caea545e70",
+      "sourceUpdatedAt": "2026-09-25T17:04:24.958Z",
+      "lastCheckedAt": "2026-10-16T18:01:52.936641+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "faucet",
+        "testnet",
+        "l1"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://hauntboard.taritracker.com/?board=component_594f90d8cb8c2d0f70d941ba1c513769727feceeabd9d2137b5b6a130a6aa28e&category=general&thread=component_59df751bd774e777c97b4cab4dc7b6723ffcbb66cd3d8656ffcb87de99630011",
+          "platform": "Hauntboard",
+          "context": "Notice on Faucet!! reply 3 links the L1 faucet; author and date not exposed in the inspected default reader."
+        },
+        {
+          "url": "https://community.tari.com/t/tari-universe-on-web/354/12",
+          "platform": "Tari Community forum",
+          "context": "Public sharing post linking SupportXTM testnet faucet"
+        },
+        {
+          "url": "https://community.tari.com/t/tari-universe-on-web/354/16",
+          "platform": "Tari Community forum",
+          "context": "Core contributor explanation: L1 tXTM faucet, separate Ootle burn"
+        }
+      ],
+      "cardSummary": "Request L1 test coins for development; funding Ootle requires a separate burn and claim workflow.",
+      "cardStatus": "Web app · L1 testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-supportxtm-testnet-faucet-20261016.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-supportxtm-testnet-faucet-20261016.jpg",
+        "source": "Source/docs walkthrough — Historical L1 faucet discussion; no claim or burn."
       }
     }
   ],
