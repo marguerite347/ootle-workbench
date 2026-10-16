@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T09:17:59.839532+00:00",
+  "updatedAt": "2026-10-16T18:01:52.936641+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -867,7 +867,7 @@
     {
       "resourceId": "hauntboard",
       "title": "Hauntboard",
-      "targetUrl": "https://hauntboard.taritracker.com/?board=component_594f90d8cb8c2d0f70d941ba1c513769727feceeabd9d2137b5b6a130a6aa28e&category=general&thread=component_59df751bd774e777c97b4cab4dc7b6723ffcbb66cd3d8656ffcb87de99630011",
+      "targetUrl": "https://hauntboard.taritracker.com/about",
       "originalPosts": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
@@ -884,32 +884,34 @@
           "author": "u/Starz1428",
           "publishedAt": null,
           "foundOn": "2026-10-13",
-          "context": "Creator Hauntboard announcement in r/tari; browser displays zero comments",
+          "context": "Creator Hauntboard announcement in r/tari; one returned reply read October 16",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/13",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-16T17:39:46.303Z",
+          "foundOn": "2026-10-16",
+          "context": "Sealed-message update and explicit public-metadata limits",
           "visibility": "public"
         }
       ],
-      "captureType": "app-demo",
-      "capturedAt": "2026-10-15T09:25:35.303Z",
-      "observedRevision": "bfdea97c85d4396df9a355ed4d62db3007c2a07d",
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-16T17:56:51.673Z",
+      "observedRevision": "0598b28c22d26c1bb2d43215b7b3f823dadadd0c",
       "viewport": {
         "width": 1280,
         "height": 800
       },
-      "exportDimensions": {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 800,
-        "pix_fmt": "yuv420p"
-      },
       "durationSeconds": 12,
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261015.mp4",
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261015.jpg",
-      "caption": "App demo",
-      "method": "Continuous public conversation reader capture; opening, middle and closing frames inspected. No wallet, posting or payment action.",
-      "sha256": "c98b2e7ca65fedd12e93afbad289bbdec3c4246a6cdd0f769c5973492648cc1d",
-      "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
-      "verification": "reviewed; final live playback pending",
-      "blocker": null,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261016.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261016.jpg",
+      "sha256": "110c3d9eda10f2db59b1d89266a974b05d63339d207525965ea3e28a5b213438",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — Public privacy explanation for sealed messages; no invitation, wallet or posting action. Continuous page scroll; frames 0, 6 and 11 seconds inspected.",
+      "status": "reviewed-publication-pending",
+      "verification": "Live final-revision playback pending",
       "previousCaptures": [
         {
           "resourceId": "hauntboard",
@@ -1031,10 +1033,71 @@
             "evidence": "daily-2026-10-14/playback.json",
             "trialEvidence": null
           }
+        },
+        {
+          "resourceId": "hauntboard",
+          "title": "Hauntboard",
+          "targetUrl": "https://hauntboard.taritracker.com/?board=component_594f90d8cb8c2d0f70d941ba1c513769727feceeabd9d2137b5b6a130a6aa28e&category=general&thread=component_59df751bd774e777c97b4cab4dc7b6723ffcbb66cd3d8656ffcb87de99630011",
+          "originalPosts": [
+            {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
+              "platform": "Tari Community forum",
+              "author": "_squared",
+              "publishedAt": "2026-10-12T22:16:52.102Z",
+              "foundOn": "2026-10-13",
+              "context": "October Build Contest Thread: Spooky Secrets!",
+              "visibility": "public"
+            },
+            {
+              "url": "https://www.reddit.com/r/tari/comments/1x4eany/i_built_hauntboard_for_taris_spooky_secrets/",
+              "platform": "Reddit",
+              "author": "u/Starz1428",
+              "publishedAt": null,
+              "foundOn": "2026-10-13",
+              "context": "Creator Hauntboard announcement in r/tari; browser displays zero comments",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "app-demo",
+          "capturedAt": "2026-10-15T09:25:35.303Z",
+          "observedRevision": "bfdea97c85d4396df9a355ed4d62db3007c2a07d",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "exportDimensions": {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 800,
+            "pix_fmt": "yuv420p"
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261015.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261015.jpg",
+          "caption": "App demo",
+          "method": "Continuous public conversation reader capture; opening, middle and closing frames inspected. No wallet, posting or payment action.",
+          "sha256": "c98b2e7ca65fedd12e93afbad289bbdec3c4246a6cdd0f769c5973492648cc1d",
+          "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
+          "verification": "published; final merged-revision desktop and phone playback verified; media/poster bytes match reviewed files",
+          "blocker": null,
+          "liveVerification": {
+            "checkedAt": "2026-10-15T09:45:20.652301+00:00",
+            "lobbyDesktop": true,
+            "lobbyMobile": true,
+            "workbenchDesktop": null,
+            "workbenchMobile": null,
+            "mediaHashMatched": true,
+            "posterHashMatched": true,
+            "lobbyRevision": "e0f3abb56a96281906e50dc5e7005d1761b53d86",
+            "workbenchRevision": null,
+            "evidence": "daily-2026-10-15/playback.json",
+            "trialEvidence": null
+          },
+          "status": "published",
+          "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-hauntboard",
+          "workbenchUrl": null
         }
-      ],
-      "liveVerification": null,
-      "status": "reviewed-publication-pending"
+      ]
     },
     {
       "resourceId": "ons",
@@ -1578,6 +1641,63 @@
       "sha256": "d31c1d7a23773a089be25fc157d249a9fa3135866e26d1de6f0a876a3d7e3f3a",
       "caption": "Docs walkthrough",
       "method": "Continuous public README capture with scrolling; frames 0, 6 and 11 seconds visually inspected.",
+      "status": "published",
+      "verification": "published; final merged-revision desktop and phone playback verified; media/poster bytes match reviewed files",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-payment-gateway-20261015.mp4",
+      "blocker": null,
+      "liveVerification": {
+        "checkedAt": "2026-10-15T09:45:20.652301+00:00",
+        "lobbyDesktop": true,
+        "lobbyMobile": true,
+        "workbenchDesktop": true,
+        "workbenchMobile": true,
+        "mediaHashMatched": true,
+        "posterHashMatched": true,
+        "lobbyRevision": "e0f3abb56a96281906e50dc5e7005d1761b53d86",
+        "workbenchRevision": "89daecaec49a5a7c2ec0312336ef88b7293a38a1",
+        "evidence": "daily-2026-10-15/playback.json",
+        "trialEvidence": "daily-2026-10-15/trial-playback.json"
+      },
+      "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-ootle-payment-gateway",
+      "workbenchUrl": "https://ootle-workbench.vercel.app/"
+    },
+    {
+      "resourceId": "sealed-coffin",
+      "title": "Sealed Coffin",
+      "targetUrl": "https://github.com/mak777uh/sealed-coffin#readme",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12",
+          "platform": "Tari Community forum",
+          "author": "sealedcoffin",
+          "publishedAt": "2026-10-15T19:20:24.651Z",
+          "foundOn": "2026-10-16",
+          "context": "October contest auction-template submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
+          "platform": "Reddit · r/tari",
+          "author": null,
+          "publishedAt": null,
+          "foundOn": "2026-10-16",
+          "context": "Creator-linked Sealed Coffin announcement",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-16T17:50:44.260Z",
+      "observedRevision": "a9bd4612fb7d32f080d6e43278beeec10191f316",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-coffin-20261016.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-coffin-20261016.jpg",
+      "sha256": "040a05df1e206af31bc098909ac6785ac27f934709261275151a021ef3572ecc",
+      "caption": "Docs walkthrough",
+      "method": "Continuous README scroll; opening, middle and 11-second closing frames inspected.",
       "status": "reviewed-publication-pending",
       "verification": {
         "framesReviewed": [
@@ -1586,49 +1706,63 @@
           11
         ],
         "livePlayback": "pending"
+      }
+    },
+    {
+      "resourceId": "supportxtm-testnet-faucet",
+      "title": "SupportXTM testnet faucet",
+      "targetUrl": "https://community.tari.com/t/tari-universe-on-web/354/16",
+      "originalPosts": [
+        {
+          "url": "https://hauntboard.taritracker.com/?board=component_594f90d8cb8c2d0f70d941ba1c513769727feceeabd9d2137b5b6a130a6aa28e&category=general&thread=component_59df751bd774e777c97b4cab4dc7b6723ffcbb66cd3d8656ffcb87de99630011",
+          "platform": "Hauntboard",
+          "author": null,
+          "publishedAt": null,
+          "foundOn": "2026-10-15",
+          "context": "Notice on Faucet!! reply 3 links the L1 faucet; author and date not exposed in the inspected default reader.",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/tari-universe-on-web/354/12",
+          "platform": "Tari Community forum",
+          "author": "0xhra",
+          "publishedAt": "2026-09-24T18:51:56.259Z",
+          "foundOn": "2026-10-16",
+          "context": "Public sharing post linking SupportXTM testnet faucet",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/tari-universe-on-web/354/16",
+          "platform": "Tari Community forum",
+          "author": "Impala",
+          "publishedAt": "2026-09-25T17:04:24.958Z",
+          "foundOn": "2026-10-16",
+          "context": "Core contributor explanation: L1 tXTM faucet, separate Ootle burn",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-16T18:00:42.334Z",
+      "observedRevision": "50820a8979e47870dcedd60485ad58e9fbaa9eb9f3e6a3a7ff2f22caea545e70",
+      "viewport": {
+        "width": 1280,
+        "height": 800
       },
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-payment-gateway-20261015.mp4"
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-supportxtm-testnet-faucet-20261016.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-supportxtm-testnet-faucet-20261016.jpg",
+      "sha256": "a608dac71004c187c6821ff9bbf7e69ae9bf127e0bb458ebba0fecfde3e0daa7",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — Public faucet discussion explains L1 test funds and the separate Ootle burn step; no wallet or claim. Continuous page scroll; frames 0, 6 and 11 seconds inspected.",
+      "status": "reviewed-publication-pending",
+      "verification": "Live final-revision playback pending"
     }
   ],
   "release": {
-    "completedAt": "2026-10-10T13:04:24.362462+00:00",
-    "lobbyRevision": "0e8f0b4818b2a01a7638194ca26617017bffdb37",
-    "workbenchRevision": "6bfef958ff070082f766f64b47be09a632b4e861",
-    "pullRequests": [
-      "https://github.com/marguerite347/ootle-lobby-community/pull/43",
-      "https://github.com/marguerite347/ootle-lobby-community/pull/44",
-      "https://github.com/marguerite347/ootle-workbench/pull/9"
-    ],
-    "ci": {
-      "lobby": {
-        "run": 38053896537,
-        "conclusion": "success"
-      },
-      "workbench": {
-        "run": 38053702031,
-        "conclusion": "success"
-      }
-    },
-    "playback": {
-      "lobby-desktop": {
-        "completed": 16,
-        "evidence": "capture-review/lobby-desktop-playback.json"
-      },
-      "lobby-mobile": {
-        "completed": 16,
-        "evidence": "capture-review/lobby-mobile-playback.json"
-      },
-      "workbench-desktop": {
-        "completed": 12,
-        "evidence": "capture-review/workbench-desktop-playback.json"
-      },
-      "workbench-mobile": {
-        "completed": 12,
-        "evidence": "capture-review/workbench-mobile-playback.json"
-      }
-    },
-    "publicMediaIntegrity": "capture-review/live-media-integrity.json",
-    "routeCheck": "Lobby /workbench redirects to production Workbench; all 12 source cards and retained discussion links render."
+    "date": "2026-10-15",
+    "lobbyRevision": "e0f3abb56a96281906e50dc5e7005d1761b53d86",
+    "workbenchRevision": "89daecaec49a5a7c2ec0312336ef88b7293a38a1",
+    "evidence": "daily-2026-10-15/release.json"
   },
   "laterPlaybackReviews": [
     {
