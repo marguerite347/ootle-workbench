@@ -2875,14 +2875,14 @@
           "url": "https://hauntboard.taritracker.com/about",
           "hash": "35995faf3026974f847ee00ca438483d4f62b2c45671c3e8b874c83ca2717b90",
           "httpStatus": 200,
-          "evidence": "daily-2026-10-16/bf3f140f99eb4cc2.txt",
-          "lastAttemptAt": "2026-10-19T12:51:41.838Z",
+          "evidence": "daily-2026-10-19/late-reads.json",
+          "lastAttemptAt": "2026-10-19T13:00:32.360029+00:00",
           "lastSuccessfulReadAt": "2026-10-16T18:02:31.325Z",
-          "error": "No successful read recorded in this run"
+          "error": "HTTP Error 403: Forbidden"
         }
       },
       "lastSuccessfulReviewAt": "2026-10-16T18:02:31.325Z",
-      "observedAvailability": "October 19: forum update 396/13 and unchanged repository revision 0598b28 revisited; creator test claims expanded. Original Reddit body and one returned reply read. The about-page read is missing this run, so the last fully successful review date is retained. Prior October16 wallet-locked privacy-page observation remains historical; no encrypted message or transaction tested.",
+      "observedAvailability": "October19 forum/repository and original Reddit thread reviewed. The about-page HTTP read returned 403; last fully successful review retained. October16 rendered privacy-page evidence remains historical. No wallet/message action.",
       "outcome": "blocked",
       "changedSources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
@@ -2910,7 +2910,7 @@
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/13",
         "https://hauntboard.taritracker.com/about"
       ],
-      "sourceObservation": "October 19: forum update 396/13 and unchanged repository revision 0598b28 revisited; creator test claims expanded. Original Reddit body and one returned reply read. The about-page read is missing this run, so the last fully successful review date is retained. Prior October16 wallet-locked privacy-page observation remains historical; no encrypted message or transaction tested.",
+      "sourceObservation": "October19 forum/repository and original Reddit thread reviewed. The about-page HTTP read returned 403; last fully successful review retained. October16 rendered privacy-page evidence remains historical. No wallet/message action.",
       "reviewScope": "Source curation only. Known forum streams and returned Bluesky reply trees read. Full X/native-chat/video streams incomplete. Rendered checks only where explicitly recorded.",
       "copyUpdated": false
     },
@@ -3245,47 +3245,47 @@
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
         "https://github.com/Luci666-Onyx/ootle-payment-gateway",
-        "https://bsky.app/profile/luci666-91.bsky.social/post/3mxv5ldyepc2y"
+        "https://bsky.app/profile/luci666-91.bsky.social/post/3mxv5ldyepc2y",
+        "http://172.105.4.177/shop/"
       ],
-      "lastAttemptAt": "2026-10-19T12:51:41.838Z",
+      "lastAttemptAt": "2026-10-19T13:01:05.720Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
           "hash": "4c46307d13a86479aa19960e7dea87d3b63a3cb0f6d5a0d9ebaf8c3fb3b72c5e",
+          "error": null,
           "evidence": "daily-2026-10-19/839dbc5a59cc28fd.txt",
-          "lastAttemptAt": "2026-10-19T12:51:41.838Z",
-          "lastSuccessfulReadAt": "2026-10-19T12:51:41.838Z",
-          "error": null
+          "lastAttemptAt": "2026-10-19T13:01:05.720Z",
+          "lastSuccessfulReadAt": "2026-10-19T13:01:05.720Z"
         },
         "https://github.com/Luci666-Onyx/ootle-payment-gateway": {
           "url": "https://github.com/Luci666-Onyx/ootle-payment-gateway",
           "hash": "4cd859552f41df013d28ebcfe47f776a2f00cf375a8a41de62f1f74a816f24c8",
+          "error": null,
           "revision": "3606ab25988eab6e33d2b93cb6189b2c2326411b",
           "evidence": "daily-2026-10-19/0b44eb496ebc1d74.txt",
-          "lastAttemptAt": "2026-10-19T12:51:41.838Z",
-          "lastSuccessfulReadAt": "2026-10-19T12:51:41.838Z",
-          "error": null
+          "lastAttemptAt": "2026-10-19T13:01:05.720Z",
+          "lastSuccessfulReadAt": "2026-10-19T13:01:05.720Z"
         },
         "https://bsky.app/profile/luci666-91.bsky.social/post/3mxv5ldyepc2y": {
           "url": "https://bsky.app/profile/luci666-91.bsky.social/post/3mxv5ldyepc2y",
           "hash": "2e93616dd61d0321bc44ff3c9cac70368bca7c32727c9d2cb0263008e1a926be",
-          "httpStatus": 200,
+          "error": null,
           "evidence": "daily-2026-10-19/3e335e9e39f2ebf5.txt",
-          "lastAttemptAt": "2026-10-19T12:51:41.838Z",
-          "lastSuccessfulReadAt": "2026-10-19T12:51:41.838Z",
-          "error": null
+          "lastAttemptAt": "2026-10-19T13:01:05.720Z",
+          "lastSuccessfulReadAt": "2026-10-19T13:01:05.720Z"
+        },
+        "http://172.105.4.177/shop/": {
+          "lastAttemptAt": "2026-10-19T13:01:05.720Z",
+          "error": "<urlopen error [Errno 61] Connection refused>"
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-19T12:51:41.838Z",
+      "lastSuccessfulReviewAt": "2026-10-16T18:02:31.325Z",
       "observedAvailability": "October 19: source unchanged at 3606ab2; October17 forum edit read. Previously linked shop HTTP endpoint refused connection. Retain source-code entry and dated outage scope; no checkout or payment tested.",
-      "outcome": "reviewed",
-      "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10"
-      ],
-      "reviewRequired": false,
-      "changedFields": [
-        "sourceEvidence"
-      ],
+      "outcome": "blocked",
+      "changedSources": [],
+      "reviewRequired": true,
+      "changedFields": [],
       "reviewQueue": [],
       "nextReviewAt": "2026-10-20T09:00:00Z",
       "checkedScope": [
@@ -3304,56 +3304,56 @@
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
         "https://github.com/Luci666-Onyx/ootle-payment-gateway",
         "https://bsky.app/profile/luci666-91.bsky.social/post/3mxv5ldyepc2y",
-        "https://github.com/Luci666-Onyx/ootle-payment-gateway#readme"
+        "https://github.com/Luci666-Onyx/ootle-payment-gateway#readme",
+        "http://172.105.4.177/shop/"
       ],
-      "lastAttemptAt": "2026-10-19T12:51:41.838Z",
+      "lastAttemptAt": "2026-10-19T13:01:05.720Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
           "hash": "4c46307d13a86479aa19960e7dea87d3b63a3cb0f6d5a0d9ebaf8c3fb3b72c5e",
+          "error": null,
           "evidence": "daily-2026-10-19/839dbc5a59cc28fd.txt",
-          "lastAttemptAt": "2026-10-19T12:51:41.838Z",
-          "lastSuccessfulReadAt": "2026-10-19T12:51:41.838Z",
-          "error": null
+          "lastAttemptAt": "2026-10-19T13:01:05.720Z",
+          "lastSuccessfulReadAt": "2026-10-19T13:01:05.720Z"
         },
         "https://github.com/Luci666-Onyx/ootle-payment-gateway": {
           "url": "https://github.com/Luci666-Onyx/ootle-payment-gateway",
           "hash": "4cd859552f41df013d28ebcfe47f776a2f00cf375a8a41de62f1f74a816f24c8",
+          "error": null,
           "revision": "3606ab25988eab6e33d2b93cb6189b2c2326411b",
           "evidence": "daily-2026-10-19/0b44eb496ebc1d74.txt",
-          "lastAttemptAt": "2026-10-19T12:51:41.838Z",
-          "lastSuccessfulReadAt": "2026-10-19T12:51:41.838Z",
-          "error": null
+          "lastAttemptAt": "2026-10-19T13:01:05.720Z",
+          "lastSuccessfulReadAt": "2026-10-19T13:01:05.720Z"
         },
         "https://bsky.app/profile/luci666-91.bsky.social/post/3mxv5ldyepc2y": {
           "url": "https://bsky.app/profile/luci666-91.bsky.social/post/3mxv5ldyepc2y",
           "hash": "2e93616dd61d0321bc44ff3c9cac70368bca7c32727c9d2cb0263008e1a926be",
-          "httpStatus": 200,
+          "error": null,
           "evidence": "daily-2026-10-19/3e335e9e39f2ebf5.txt",
-          "lastAttemptAt": "2026-10-19T12:51:41.838Z",
-          "lastSuccessfulReadAt": "2026-10-19T12:51:41.838Z",
-          "error": null
+          "lastAttemptAt": "2026-10-19T13:01:05.720Z",
+          "lastSuccessfulReadAt": "2026-10-19T13:01:05.720Z"
         },
         "https://github.com/Luci666-Onyx/ootle-payment-gateway#readme": {
           "url": "https://github.com/Luci666-Onyx/ootle-payment-gateway#readme",
           "hash": "4cd859552f41df013d28ebcfe47f776a2f00cf375a8a41de62f1f74a816f24c8",
+          "error": null,
           "revision": "3606ab25988eab6e33d2b93cb6189b2c2326411b",
           "evidence": "daily-2026-10-19/0b44eb496ebc1d74.txt",
-          "lastAttemptAt": "2026-10-19T12:51:41.838Z",
-          "lastSuccessfulReadAt": "2026-10-19T12:51:41.838Z",
-          "error": null
+          "lastAttemptAt": "2026-10-19T13:01:05.720Z",
+          "lastSuccessfulReadAt": "2026-10-19T13:01:05.720Z"
+        },
+        "http://172.105.4.177/shop/": {
+          "lastAttemptAt": "2026-10-19T13:01:05.720Z",
+          "error": "<urlopen error [Errno 61] Connection refused>"
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-19T12:51:41.838Z",
+      "lastSuccessfulReviewAt": "2026-10-16T18:02:31.325Z",
       "observedAvailability": "October 19: source unchanged at 3606ab2; October17 forum edit read. Previously linked shop HTTP endpoint refused connection. Retain source-code entry and dated outage scope; no checkout or payment tested.",
-      "outcome": "reviewed",
-      "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10"
-      ],
-      "reviewRequired": false,
-      "changedFields": [
-        "sourceEvidence"
-      ],
+      "outcome": "blocked",
+      "changedSources": [],
+      "reviewRequired": true,
+      "changedFields": [],
       "reviewQueue": [],
       "nextReviewAt": "2026-10-20T09:00:00Z",
       "checkedScope": [
@@ -3715,10 +3715,10 @@
     "enumerated": 53,
     "canonicalResources": 49,
     "attempted": 53,
-    "completeWithinDeclaredScope": 43,
-    "partialOrBlocked": 10,
-    "canonicalComplete": 40,
-    "canonicalPartialOrBlocked": 9,
+    "completeWithinDeclaredScope": 41,
+    "partialOrBlocked": 12,
+    "canonicalComplete": 39,
+    "canonicalPartialOrBlocked": 10,
     "notRechecked": 0,
     "copyChanged": 3,
     "newEntriesReviewed": 1,
