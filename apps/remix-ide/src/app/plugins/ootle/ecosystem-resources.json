@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-10-16T18:01:52.936641+00:00",
+  "reviewedAt": "2026-10-19T12:53:54.707951+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -527,8 +527,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Crypt",
-      "summary": "Rust escrow template and offline CLI for encrypted secret sales on Ootle. A dispute reveals the secret publicly; the contract compares delivery with the seller’s commitment, not its value. Source reviewed October 13, 2026; no hosted client or release was linked in the reviewed repository. Creator test and security-review claims were not independently reproduced. The README’s historical “Stealth XTM” wording refers to native Ootle TARI mechanisms.",
-      "status": "Rust template · Disputes reveal secrets",
+      "summary": "Rust escrow template and CLI for encrypted secret sales on Ootle, with a wallet-free WebAssembly browser demo. On October 19, 2026, the demo accepted real BUY, OPEN and DISPUTE clicks and reached The Forger’s Curse locally; this did not submit a network transaction. Disputes reveal the secret publicly, and the contract checks delivery against the seller’s commitment, not its value. Sale metadata, amounts and funding links remain public. The maintainer supplies Esmeralda transaction evidence separately; historical same-wallet funding is not proof of independent counterparties. BSD-3-Clause source at 242f11b. Earlier source-only availability observations remain in the maintenance history.",
+      "status": "Browser demo · Testnet source · Disputes reveal secrets",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
       "repoUrl": "https://github.com/Lrifton92/crypt",
       "docsUrl": "https://github.com/Lrifton92/crypt#readme",
@@ -537,11 +537,11 @@
         "url": "https://github.com/Lrifton92"
       },
       "license": "BSD-3-Clause",
-      "network": "Ootle L2",
-      "platform": "Rust / CLI",
-      "upstreamRevision": "7ba0cb4feadc51b9ccfc6e5a2b15d22666d8e4c7",
-      "sourceUpdatedAt": "2026-10-12T11:07:25.452Z",
-      "lastCheckedAt": "2026-10-13T09:12:59.977051+00:00",
+      "network": "Ootle Esmeralda testnet; browser demo local",
+      "platform": "Web demo / Rust / CLI",
+      "upstreamRevision": "242f11bb8d570e434ed0a21b3aecde1b71d51c91",
+      "sourceUpdatedAt": "2026-10-18T13:23:50.855Z",
+      "lastCheckedAt": "2026-10-19T12:53:54.707951+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -549,15 +549,21 @@
         "community",
         "templates"
       ],
-      "demoUrl": null,
+      "demoUrl": "https://lrifton92.github.io/crypt/",
       "discussionLinks": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
-          "platform": "Tari Community forum"
+          "platform": "Tari Community forum",
+          "author": "Og.boy",
+          "publishedAt": "2026-10-12T11:07:25.452Z",
+          "context": "October Build Contest Thread: Spooky Secrets!"
         },
         {
           "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3mxoehhu2b22o",
-          "platform": "Bluesky"
+          "platform": "Bluesky",
+          "author": "ogboy92.bsky.social",
+          "publishedAt": "2026-10-12T11:00:24.524Z",
+          "context": "Creator announcement"
         },
         {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxpffkqnsk2x",
@@ -565,14 +571,28 @@
           "author": "tariproject.bsky.social",
           "publishedAt": "2026-10-12T20:49:53.930Z",
           "context": "Official sharing of creator announcement"
+        },
+        {
+          "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
+          "platform": "Bluesky",
+          "author": "ogboy92.bsky.social",
+          "publishedAt": "2026-10-18T12:44:09.315Z",
+          "context": "Creator announces wallet-free Crypt browser demo"
+        },
+        {
+          "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l",
+          "platform": "Bluesky",
+          "author": "ogboy92.bsky.social",
+          "publishedAt": "2026-10-18T13:20:04.674Z",
+          "context": "Creator shares playable demo and contract-equivalence explanation"
         }
       ],
-      "cardSummary": "Explore encrypted secret sales with escrow and contract-settled delivery disputes.",
-      "cardStatus": "Rust template · Disputes reveal secrets",
+      "cardSummary": "Play a wallet-free secret-trading demo, choosing honest or deceptive actions to explore escrow and delivery disputes.",
+      "cardStatus": "Browser demo · Testnet source · Disputes reveal secrets",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261013.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261013.jpg",
-        "source": "Source/docs walkthrough — Public repository README scrolling; no application execution demonstrated."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261019.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261019.jpg",
+        "source": "App demo — Wallet-free local WebAssembly game; no on-chain transaction."
       }
     },
     {
@@ -675,7 +695,7 @@
       "ecosystem": "tari-ootle",
       "group": "Payments",
       "title": "Ootle Payment Gateway",
-      "summary": "WooCommerce plugin source for Ootle payment sessions, webhook handling and a customer-payment address flow. On October 15, 2026, the linked HTTP test storefront displayed one product. The maintainer reports an accepted confidential transfer in contest-verification.md; this is distinct from a completed customer checkout. The README roadmap still lists checkout wiring/reconciliation as remaining work, while current code includes a receive-address and balance-comparison path. These sources do not establish anonymous purchases or production readiness. Requires WordPress, WooCommerce, PHP and a wallet daemon. MIT source; reviewed for Esmeralda testnet. No plugin install, order, wallet or payment action was performed.",
+      "summary": "WooCommerce plugin source for Ootle payment sessions, webhook handling and a customer-payment address flow. On October 15, 2026, the linked HTTP test storefront displayed one product. The maintainer reports an accepted confidential transfer in contest-verification.md; this is distinct from a completed customer checkout. The README roadmap still lists checkout wiring/reconciliation as remaining work, while current code includes a receive-address and balance-comparison path. These sources do not establish anonymous purchases or production readiness. Requires WordPress, WooCommerce, PHP and a wallet daemon. MIT source; reviewed for Esmeralda testnet. No plugin install, order, wallet or payment action was performed. On October 19, the previously linked test shop at 172.105.4.177/shop/ refused connection; that observation does not establish permanent closure.",
       "status": "Source code · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
       "repoUrl": "https://github.com/Luci666-Onyx/ootle-payment-gateway",
@@ -688,8 +708,8 @@
       "network": "Esmeralda testnet",
       "platform": "WordPress · WooCommerce · PHP",
       "upstreamRevision": "3606ab25988eab6e33d2b93cb6189b2c2326411b",
-      "sourceUpdatedAt": "2026-10-15T04:23:25.422Z",
-      "lastCheckedAt": "2026-10-15T09:17:59.839532+00:00",
+      "sourceUpdatedAt": "2026-10-17T14:25:29Z",
+      "lastCheckedAt": "2026-10-19T12:53:54.707951+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -823,6 +843,57 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-supportxtm-testnet-faucet-20261016.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-supportxtm-testnet-faucet-20261016.jpg",
         "source": "Source/docs walkthrough — Historical L1 faucet discussion; no claim or burn."
+      }
+    },
+    {
+      "id": "tari-ootle:integration:ghostline",
+      "key": "ghostline",
+      "type": "integration",
+      "ecosystem": "tari-ootle",
+      "group": "Agents",
+      "title": "Ghostline",
+      "summary": "Payment-channel toolkit for agent API calls on Ootle: cumulative off-chain vouchers, HTTP 402 quotes, spending policies, CLI, Rust/TypeScript support and MCP tools. October 19 source review found release v0.3.1 and a hosted static motion explainer, not a live payment interface. The maintainer links Esmeralda settlement/refund evidence; service-side ledgers record call counts separately. Services see requests, prices and vouchers; fees, timing, channel metadata and funding links remain public. The experimental pooled close is not coordinator-private. Esmeralda testnet only; Linux x86-64 CLI releases. MIT. No software installation, wallet, paid call or transaction was performed in this catalog review.",
+      "status": "CLI · SDK · Testnet",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
+      "repoUrl": "https://github.com/AduAkorful/ghostline",
+      "docsUrl": "https://github.com/AduAkorful/ghostline#readme",
+      "creator": {
+        "name": "AduAkorful",
+        "url": "https://github.com/AduAkorful"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Rust · TypeScript · Linux x86-64 CLI",
+      "upstreamRevision": "5e4c754635f2b3dd1a7fc1b19d87dd95b140171d",
+      "sourceUpdatedAt": "2026-10-17T21:50:36.623Z",
+      "lastCheckedAt": "2026-10-19T12:42:15.655525+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "agents",
+        "payments",
+        "testnet"
+      ],
+      "demoUrl": "https://ghostline-ui.vercel.app/",
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
+          "platform": "Tari Community forum",
+          "context": "October contest private agent-payment channel submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/",
+          "platform": "Reddit · r/tari",
+          "context": "Original announcement updated October 19 for v0.3.1, with privacy limits and separate call-ledger evidence"
+        }
+      ],
+      "cardSummary": "Explore payment channels that let AI agents pay per API call using cumulative vouchers and one settlement.",
+      "cardStatus": "CLI · SDK · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261019.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261019.jpg",
+        "source": "Source/docs walkthrough — Hosted static motion explainer; no payment execution."
       }
     }
   ],

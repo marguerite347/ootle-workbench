@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T18:01:52.936641+00:00",
+  "updatedAt": "2026-10-19T12:53:54.707951+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -522,7 +522,7 @@
     {
       "resourceId": "crypt",
       "title": "Crypt",
-      "targetUrl": "https://github.com/Lrifton92/crypt#crypt",
+      "targetUrl": "https://lrifton92.github.io/crypt/",
       "originalPosts": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
@@ -550,44 +550,113 @@
           "foundOn": "2026-10-13",
           "context": "Official sharing of creator announcement",
           "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
+          "platform": "Bluesky",
+          "author": "ogboy92.bsky.social",
+          "publishedAt": "2026-10-18T12:44:09.315Z",
+          "foundOn": "2026-10-19",
+          "context": "Creator announces wallet-free Crypt browser demo",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l",
+          "platform": "Bluesky",
+          "author": "ogboy92.bsky.social",
+          "publishedAt": "2026-10-18T13:20:04.674Z",
+          "foundOn": "2026-10-19",
+          "context": "Creator shares playable demo and contract-equivalence explanation",
+          "visibility": "public"
         }
       ],
-      "captureType": "docs-walkthrough",
-      "capturedAt": "2026-10-13T09:10:14.060Z",
-      "observedRevision": "7ba0cb4feadc51b9ccfc6e5a2b15d22666d8e4c7",
+      "captureType": "app-demo",
+      "capturedAt": "2026-10-19T12:52:59.732Z",
+      "observedRevision": "242f11bb8d570e434ed0a21b3aecde1b71d51c91",
       "viewport": {
         "width": 1280,
         "height": 800
       },
-      "exportDimensions": {
-        "codec_name": "h264",
-        "width": 1280,
-        "height": 800,
-        "pix_fmt": "yuv420p"
-      },
-      "durationSeconds": 12,
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261013.mp4",
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261013.jpg",
-      "caption": "Docs walkthrough",
-      "method": "Public repository README scrolling; no application execution demonstrated.",
-      "sha256": "237755b8d5acd517dccd816be99f7f273958694cf84ce55b9948960bdd7b9bbd",
-      "frameReview": "Opening, middle and closing frames inspected; readable real source/page content and continuous scroll.",
-      "verification": "published; final-revision desktop and mobile playback verified",
-      "blocker": null,
-      "liveVerification": {
-        "lobbyDesktop": true,
-        "lobbyMobile": true,
-        "workbenchDesktop": true,
-        "workbenchMobile": true,
-        "mediaHashMatched": true,
-        "posterHashMatched": true,
-        "checkedAt": "2026-10-13T10:13:52.377043+00:00",
-        "lobbyRevision": "b1f8e9d9c6beada215cf7d8dc0a5d11151a438ff",
-        "workbenchRevision": "137d485ec0e5aa8f3300f2b256b989d4996a489f",
-        "evidence": "daily-2026-10-13/playback.json"
-      },
-      "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-crypt",
-      "workbenchUrl": "https://ootle-workbench.vercel.app/"
+      "durationSeconds": 24,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261019.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261019.jpg",
+      "sha256": "575d115fcca441b320767a7a25a8cac9dce05d93a798ea6128204a8a58ccd8c1",
+      "caption": "App demo",
+      "method": "Real public-demo button clicks: PLAY, BUYER, HONEST, BUY. Wallet-free local simulation; ghost seller faded after payment. Frames 0/12/23 inspected. Separate manual play reached the Forger’s Curse; not represented as this recording outcome.",
+      "status": "reviewed-publication-pending",
+      "verification": "Final live desktop/mobile playback pending",
+      "previousCaptures": [
+        {
+          "resourceId": "crypt",
+          "title": "Crypt",
+          "targetUrl": "https://github.com/Lrifton92/crypt#crypt",
+          "originalPosts": [
+            {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
+              "platform": "Tari Community forum",
+              "author": "Og.boy",
+              "publishedAt": "2026-10-12T11:07:25.452Z",
+              "foundOn": "2026-10-13",
+              "context": "October Build Contest Thread: Spooky Secrets!",
+              "visibility": "public"
+            },
+            {
+              "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3mxoehhu2b22o",
+              "platform": "Bluesky",
+              "author": "ogboy92.bsky.social",
+              "publishedAt": "2026-10-12T11:00:24.524Z",
+              "foundOn": "2026-10-13",
+              "context": "Creator announcement",
+              "visibility": "public"
+            },
+            {
+              "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxpffkqnsk2x",
+              "platform": "Bluesky",
+              "author": "tariproject.bsky.social",
+              "publishedAt": "2026-10-12T20:49:53.930Z",
+              "foundOn": "2026-10-13",
+              "context": "Official sharing of creator announcement",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "docs-walkthrough",
+          "capturedAt": "2026-10-13T09:10:14.060Z",
+          "observedRevision": "7ba0cb4feadc51b9ccfc6e5a2b15d22666d8e4c7",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "exportDimensions": {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 800,
+            "pix_fmt": "yuv420p"
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261013.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261013.jpg",
+          "caption": "Docs walkthrough",
+          "method": "Public repository README scrolling; no application execution demonstrated.",
+          "sha256": "237755b8d5acd517dccd816be99f7f273958694cf84ce55b9948960bdd7b9bbd",
+          "frameReview": "Opening, middle and closing frames inspected; readable real source/page content and continuous scroll.",
+          "verification": "published; final-revision desktop and mobile playback verified",
+          "blocker": null,
+          "liveVerification": {
+            "lobbyDesktop": true,
+            "lobbyMobile": true,
+            "workbenchDesktop": true,
+            "workbenchMobile": true,
+            "mediaHashMatched": true,
+            "posterHashMatched": true,
+            "checkedAt": "2026-10-13T10:13:52.377043+00:00",
+            "lobbyRevision": "b1f8e9d9c6beada215cf7d8dc0a5d11151a438ff",
+            "workbenchRevision": "137d485ec0e5aa8f3300f2b256b989d4996a489f",
+            "evidence": "daily-2026-10-13/playback.json"
+          },
+          "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-crypt",
+          "workbenchUrl": "https://ootle-workbench.vercel.app/"
+        }
+      ]
     },
     {
       "resourceId": "phantom-drop",
@@ -910,8 +979,17 @@
       "sha256": "110c3d9eda10f2db59b1d89266a974b05d63339d207525965ea3e28a5b213438",
       "caption": "Docs walkthrough",
       "method": "Docs walkthrough — Public privacy explanation for sealed messages; no invitation, wallet or posting action. Continuous page scroll; frames 0, 6 and 11 seconds inspected.",
-      "status": "reviewed-publication-pending",
-      "verification": "Live final-revision playback pending",
+      "status": "published-playback-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Desktop and phone playback advanced on every applicable catalog surface; see exact per-case times.",
+        "evidence": "daily-2026-10-16/playback.json",
+        "integrityEvidence": "daily-2026-10-16/media-integrity.json"
+      },
       "previousCaptures": [
         {
           "resourceId": "hauntboard",
@@ -1097,7 +1175,13 @@
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-hauntboard",
           "workbenchUrl": null
         }
-      ]
+      ],
+      "liveVerification": {
+        "date": "2026-10-16",
+        "lobbyRevision": "243978d6063a786062ce3b9a6c4654281cf1e687",
+        "workbenchRevision": "dce6364665ec5c8b763af9f17fab553618bfb520",
+        "closedOutAt": "2026-10-19T12:36:55.645950+00:00"
+      }
     },
     {
       "resourceId": "ons",
@@ -1678,10 +1762,10 @@
         {
           "url": "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
           "platform": "Reddit · r/tari",
-          "author": null,
+          "author": "u/Serious-Bad8845",
           "publishedAt": null,
           "foundOn": "2026-10-16",
-          "context": "Creator-linked Sealed Coffin announcement",
+          "context": "Creator-linked Sealed Coffin announcement; body removed by Reddit filters when inspected October16",
           "visibility": "public"
         }
       ],
@@ -1698,14 +1782,22 @@
       "sha256": "040a05df1e206af31bc098909ac6785ac27f934709261275151a021ef3572ecc",
       "caption": "Docs walkthrough",
       "method": "Continuous README scroll; opening, middle and 11-second closing frames inspected.",
-      "status": "reviewed-publication-pending",
+      "status": "published-playback-verified",
       "verification": {
         "framesReviewed": [
           0,
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": "Desktop and phone playback advanced on every applicable catalog surface; see exact per-case times.",
+        "evidence": "daily-2026-10-16/playback.json",
+        "integrityEvidence": "daily-2026-10-16/media-integrity.json"
+      },
+      "liveVerification": {
+        "date": "2026-10-16",
+        "lobbyRevision": "243978d6063a786062ce3b9a6c4654281cf1e687",
+        "workbenchRevision": "dce6364665ec5c8b763af9f17fab553618bfb520",
+        "closedOutAt": "2026-10-19T12:36:55.645950+00:00"
       }
     },
     {
@@ -1754,8 +1846,70 @@
       "sha256": "a608dac71004c187c6821ff9bbf7e69ae9bf127e0bb458ebba0fecfde3e0daa7",
       "caption": "Docs walkthrough",
       "method": "Docs walkthrough — Public faucet discussion explains L1 test funds and the separate Ootle burn step; no wallet or claim. Continuous page scroll; frames 0, 6 and 11 seconds inspected.",
+      "status": "published-playback-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Desktop and phone playback advanced on every applicable catalog surface; see exact per-case times.",
+        "evidence": "daily-2026-10-16/playback.json",
+        "integrityEvidence": "daily-2026-10-16/media-integrity.json"
+      },
+      "liveVerification": {
+        "date": "2026-10-16",
+        "lobbyRevision": "243978d6063a786062ce3b9a6c4654281cf1e687",
+        "workbenchRevision": "dce6364665ec5c8b763af9f17fab553618bfb520",
+        "closedOutAt": "2026-10-19T12:36:55.645950+00:00"
+      }
+    },
+    {
+      "resourceId": "ghostline",
+      "title": "Ghostline",
+      "targetUrl": "https://ghostline-ui.vercel.app/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
+          "platform": "Tari Community forum",
+          "author": "AduAkorful",
+          "publishedAt": "2026-10-17T21:50:36.623Z",
+          "foundOn": "2026-10-19",
+          "context": "October contest private agent-payment channel submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/",
+          "platform": "Reddit · r/tari",
+          "author": "u/Awkward_Remote_1070",
+          "publishedAt": "2026-10-17T21:40:57.460Z",
+          "foundOn": "2026-10-19",
+          "context": "Original announcement updated October 19 for v0.3.1, with privacy limits and separate call-ledger evidence",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "concept-overview",
+      "capturedAt": "2026-10-19T12:40:39.998Z",
+      "observedRevision": "5e4c754635f2b3dd1a7fc1b19d87dd95b140171d",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261019.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261019.jpg",
+      "sha256": "7c35b0218b6a70e66a2a004460dfffd748c8c5918349a7612ee7fa804d53d5b3",
+      "caption": "Concept overview",
+      "method": "Continuous static explainer scroll; opening, middle and 11-second closing frames inspected. Schematic animation is the actual hosted page, not a live transaction trace.",
       "status": "reviewed-publication-pending",
-      "verification": "Live final-revision playback pending"
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      }
     }
   ],
   "release": {
@@ -1806,6 +1960,17 @@
       "observations": 36,
       "report": "daily-2026-10-14/REPORT.md",
       "release": "daily-2026-10-14/release.json"
+    },
+    {
+      "date": "2026-10-16",
+      "resourceIds": [
+        "sealed-coffin",
+        "supportxtm-testnet-faucet",
+        "hauntboard"
+      ],
+      "cases": 10,
+      "report": "daily-2026-10-16/REPORT.md",
+      "release": "daily-2026-10-16/release.json"
     }
   ]
 }
