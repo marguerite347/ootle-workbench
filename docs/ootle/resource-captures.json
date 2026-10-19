@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T12:53:54.707951+00:00",
+  "updatedAt": "2026-10-19T13:09:38.499144+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -583,8 +583,8 @@
       "sha256": "575d115fcca441b320767a7a25a8cac9dce05d93a798ea6128204a8a58ccd8c1",
       "caption": "App demo",
       "method": "Real public-demo button clicks: PLAY, BUYER, HONEST, BUY. Wallet-free local simulation; ghost seller faded after payment. Frames 0/12/23 inspected. Separate manual play reached the Forger’s Curse; not represented as this recording outcome.",
-      "status": "reviewed-publication-pending",
-      "verification": "Final live desktop/mobile playback pending",
+      "status": "published-playback-verified",
+      "verification": "Published; desktop and phone playback verified in Lobby builder catalog and Workbench. Home gallery checked separately; Ghostline home used trial revision.",
       "previousCaptures": [
         {
           "resourceId": "crypt",
@@ -656,7 +656,20 @@
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-crypt",
           "workbenchUrl": "https://ootle-workbench.vercel.app/"
         }
-      ]
+      ],
+      "liveVerification": {
+        "lobbyDesktop": true,
+        "lobbyMobile": true,
+        "workbenchDesktop": true,
+        "workbenchMobile": true,
+        "mediaHashMatched": true,
+        "posterHashMatched": true,
+        "checkedAt": "2026-10-19T13:09:38.499144+00:00",
+        "lobbyRevision": "ede3ce64509f5cd822d52d752207e911ac340cf3",
+        "workbenchRevision": "bfe087886636f70effe4d733c71f94847beb6ff2",
+        "evidence": "daily-2026-10-19/playback.json",
+        "integrityEvidence": "daily-2026-10-19/media-integrity.json"
+      }
     },
     {
       "resourceId": "phantom-drop",
@@ -1901,22 +1914,28 @@
       "sha256": "7c35b0218b6a70e66a2a004460dfffd748c8c5918349a7612ee7fa804d53d5b3",
       "caption": "Concept overview",
       "method": "Continuous static explainer scroll; opening, middle and 11-second closing frames inspected. Schematic animation is the actual hosted page, not a live transaction trace.",
-      "status": "reviewed-publication-pending",
-      "verification": {
-        "framesReviewed": [
-          0,
-          6,
-          11
-        ],
-        "livePlayback": "pending"
+      "status": "published-playback-verified",
+      "verification": "Published; desktop and phone playback verified in Lobby builder catalog and Workbench. Home gallery checked separately; Ghostline home used trial revision.",
+      "liveVerification": {
+        "lobbyDesktop": true,
+        "lobbyMobile": true,
+        "workbenchDesktop": true,
+        "workbenchMobile": true,
+        "mediaHashMatched": true,
+        "posterHashMatched": true,
+        "checkedAt": "2026-10-19T13:09:38.499144+00:00",
+        "lobbyRevision": "ede3ce64509f5cd822d52d752207e911ac340cf3",
+        "workbenchRevision": "bfe087886636f70effe4d733c71f94847beb6ff2",
+        "evidence": "daily-2026-10-19/playback.json",
+        "integrityEvidence": "daily-2026-10-19/media-integrity.json"
       }
     }
   ],
   "release": {
-    "date": "2026-10-15",
-    "lobbyRevision": "e0f3abb56a96281906e50dc5e7005d1761b53d86",
-    "workbenchRevision": "89daecaec49a5a7c2ec0312336ef88b7293a38a1",
-    "evidence": "daily-2026-10-15/release.json"
+    "date": "2026-10-19",
+    "lobbyRevision": "ede3ce64509f5cd822d52d752207e911ac340cf3",
+    "workbenchRevision": "bfe087886636f70effe4d733c71f94847beb6ff2",
+    "evidence": "daily-2026-10-19/release.json"
   },
   "laterPlaybackReviews": [
     {
@@ -1971,6 +1990,14 @@
       "cases": 10,
       "report": "daily-2026-10-16/REPORT.md",
       "release": "daily-2026-10-16/release.json"
+    }
+  ],
+  "releaseHistory": [
+    {
+      "date": "2026-10-15",
+      "lobbyRevision": "e0f3abb56a96281906e50dc5e7005d1761b53d86",
+      "workbenchRevision": "89daecaec49a5a7c2ec0312336ef88b7293a38a1",
+      "evidence": "daily-2026-10-15/release.json"
     }
   ]
 }
