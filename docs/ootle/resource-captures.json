@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T13:09:38.499144+00:00",
+  "updatedAt": "2026-10-20T14:16:09.662491+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -674,7 +674,7 @@
     {
       "resourceId": "phantom-drop",
       "title": "Phantom Drop",
-      "targetUrl": "https://github.com/hycorange/phantom-drop#readme",
+      "targetUrl": "https://hycorange.github.io/phantom-drop/",
       "originalPosts": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
@@ -695,9 +695,9 @@
           "visibility": "public"
         }
       ],
-      "captureType": "docs-walkthrough",
-      "capturedAt": "2026-10-13T09:27:27.671Z",
-      "observedRevision": "1b6138a245813eb477b80388a8a5802b79ae0eb0",
+      "captureType": "concept-overview",
+      "capturedAt": "2026-10-20T14:27:07.275Z",
+      "observedRevision": "aa6edb6d96f3ce29d4215ad0ce98e00a9d9729c1",
       "viewport": {
         "width": 1280,
         "height": 800
@@ -709,13 +709,20 @@
         "pix_fmt": "yuv420p"
       },
       "durationSeconds": 12,
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-20261013.mp4",
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-20261013.jpg",
-      "caption": "Docs walkthrough",
-      "method": "Public repository README scrolling; no application execution demonstrated.",
-      "sha256": "cbe256ce23a2e5aa2180268f29c1240fcd2e841ad806ff47177ce260393b12a5",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-walkthrough-20261020.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-walkthrough-20261020.jpg",
+      "caption": "Concept overview",
+      "method": "Real browser input toggled Link holder, Riddle, Midnight and Gone. The page replays a narrated example; no CLI, engine or wallet execution. Opening/middle/closing frames inspected.",
+      "sha256": "3f6799c4711920b482621d9062712abeb095214466bcade6a3a8abfb0164c96e",
       "frameReview": "Opening, middle and closing frames inspected; readable real source/page content and continuous scroll.",
-      "verification": "published; final-revision desktop and mobile playback verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      },
       "blocker": null,
       "liveVerification": {
         "lobbyDesktop": true,
@@ -730,7 +737,71 @@
         "evidence": "daily-2026-10-13/playback.json"
       },
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-phantom-drop",
-      "workbenchUrl": "https://ootle-workbench.vercel.app/"
+      "workbenchUrl": "https://ootle-workbench.vercel.app/",
+      "history": [
+        {
+          "resourceId": "phantom-drop",
+          "title": "Phantom Drop",
+          "targetUrl": "https://github.com/hycorange/phantom-drop#readme",
+          "originalPosts": [
+            {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+              "platform": "Tari Community forum",
+              "author": "hycorange",
+              "publishedAt": "2026-10-12T13:55:52.735Z",
+              "foundOn": "2026-10-13",
+              "context": "October Build Contest Thread: Spooky Secrets!",
+              "visibility": "public"
+            },
+            {
+              "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22",
+              "platform": "Bluesky",
+              "author": "hycorange.bsky.social",
+              "publishedAt": "2026-10-09T13:55:26.951Z",
+              "foundOn": "2026-10-13",
+              "context": "Creator announcement",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "docs-walkthrough",
+          "capturedAt": "2026-10-13T09:27:27.671Z",
+          "observedRevision": "1b6138a245813eb477b80388a8a5802b79ae0eb0",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "exportDimensions": {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 800,
+            "pix_fmt": "yuv420p"
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-20261013.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-20261013.jpg",
+          "caption": "Docs walkthrough",
+          "method": "Public repository README scrolling; no application execution demonstrated.",
+          "sha256": "cbe256ce23a2e5aa2180268f29c1240fcd2e841ad806ff47177ce260393b12a5",
+          "frameReview": "Opening, middle and closing frames inspected; readable real source/page content and continuous scroll.",
+          "verification": "published; final-revision desktop and mobile playback verified",
+          "blocker": null,
+          "liveVerification": {
+            "lobbyDesktop": true,
+            "lobbyMobile": true,
+            "workbenchDesktop": true,
+            "workbenchMobile": true,
+            "mediaHashMatched": true,
+            "posterHashMatched": true,
+            "checkedAt": "2026-10-13T10:13:52.377043+00:00",
+            "lobbyRevision": "b1f8e9d9c6beada215cf7d8dc0a5d11151a438ff",
+            "workbenchRevision": "137d485ec0e5aa8f3300f2b256b989d4996a489f",
+            "evidence": "daily-2026-10-13/playback.json"
+          },
+          "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-phantom-drop",
+          "workbenchUrl": "https://ootle-workbench.vercel.app/"
+        }
+      ],
+      "status": "reviewed-publication-pending"
     },
     {
       "resourceId": "veil",
@@ -1705,7 +1776,7 @@
     {
       "resourceId": "ootle-payment-gateway",
       "title": "Ootle Payment Gateway",
-      "targetUrl": "https://github.com/Luci666-Onyx/ootle-payment-gateway#readme",
+      "targetUrl": "http://172.105.101.24/shop/",
       "originalPosts": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
@@ -1726,21 +1797,28 @@
           "visibility": "public"
         }
       ],
-      "captureType": "docs-walkthrough",
-      "capturedAt": "2026-10-15T09:15:50.978Z",
+      "captureType": "app-demo",
+      "capturedAt": "2026-10-20T14:14:17.294Z",
       "observedRevision": "3606ab25988eab6e33d2b93cb6189b2c2326411b",
       "viewport": {
         "width": 1280,
         "height": 800
       },
       "durationSeconds": 12,
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-payment-gateway-20261015.jpg",
-      "sha256": "d31c1d7a23773a089be25fc157d249a9fa3135866e26d1de6f0a876a3d7e3f3a",
-      "caption": "Docs walkthrough",
-      "method": "Continuous public README capture with scrolling; frames 0, 6 and 11 seconds visually inspected.",
-      "status": "published",
-      "verification": "published; final merged-revision desktop and phone playback verified; media/poster bytes match reviewed files",
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-payment-gateway-20261015.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-payment-gateway-shop-20261020.jpg",
+      "sha256": "76f86f6ab7c9d3d986a842d299229eb0ca61f525d2e26a9f9212e947b5fb500b",
+      "caption": "App demo",
+      "method": "Continuous public HTTP shop browse; no cart, checkout or transaction. Frames 0, 6 and 11 inspected.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      },
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-payment-gateway-shop-20261020.mp4",
       "blocker": null,
       "liveVerification": {
         "checkedAt": "2026-10-15T09:45:20.652301+00:00",
@@ -1756,7 +1834,65 @@
         "trialEvidence": "daily-2026-10-15/trial-playback.json"
       },
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-ootle-payment-gateway",
-      "workbenchUrl": "https://ootle-workbench.vercel.app/"
+      "workbenchUrl": "https://ootle-workbench.vercel.app/",
+      "history": [
+        {
+          "resourceId": "ootle-payment-gateway",
+          "title": "Ootle Payment Gateway",
+          "targetUrl": "https://github.com/Luci666-Onyx/ootle-payment-gateway#readme",
+          "originalPosts": [
+            {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
+              "platform": "Tari Community forum",
+              "author": "luci666",
+              "publishedAt": "2026-10-15T04:11:53.858Z",
+              "foundOn": "2026-10-15",
+              "context": "October build-contest payment-gateway submission",
+              "visibility": "public"
+            },
+            {
+              "url": "https://bsky.app/profile/luci666-91.bsky.social/post/3mxv5ldyepc2y",
+              "platform": "Bluesky",
+              "author": "luci666-91.bsky.social",
+              "publishedAt": "2026-10-15T03:45:56.664Z",
+              "foundOn": "2026-10-15",
+              "context": "Creator announcement of WooCommerce Ootle gateway",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "docs-walkthrough",
+          "capturedAt": "2026-10-15T09:15:50.978Z",
+          "observedRevision": "3606ab25988eab6e33d2b93cb6189b2c2326411b",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "durationSeconds": 12,
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-payment-gateway-20261015.jpg",
+          "sha256": "d31c1d7a23773a089be25fc157d249a9fa3135866e26d1de6f0a876a3d7e3f3a",
+          "caption": "Docs walkthrough",
+          "method": "Continuous public README capture with scrolling; frames 0, 6 and 11 seconds visually inspected.",
+          "status": "published",
+          "verification": "published; final merged-revision desktop and phone playback verified; media/poster bytes match reviewed files",
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-payment-gateway-20261015.mp4",
+          "blocker": null,
+          "liveVerification": {
+            "checkedAt": "2026-10-15T09:45:20.652301+00:00",
+            "lobbyDesktop": true,
+            "lobbyMobile": true,
+            "workbenchDesktop": true,
+            "workbenchMobile": true,
+            "mediaHashMatched": true,
+            "posterHashMatched": true,
+            "lobbyRevision": "e0f3abb56a96281906e50dc5e7005d1761b53d86",
+            "workbenchRevision": "89daecaec49a5a7c2ec0312336ef88b7293a38a1",
+            "evidence": "daily-2026-10-15/playback.json",
+            "trialEvidence": "daily-2026-10-15/trial-playback.json"
+          },
+          "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-ootle-payment-gateway",
+          "workbenchUrl": "https://ootle-workbench.vercel.app/"
+        }
+      ]
     },
     {
       "resourceId": "sealed-coffin",
@@ -1928,6 +2064,90 @@
         "workbenchRevision": "bfe087886636f70effe4d733c71f94847beb6ff2",
         "evidence": "daily-2026-10-19/playback.json",
         "integrityEvidence": "daily-2026-10-19/media-integrity.json"
+      }
+    },
+    {
+      "resourceId": "seance",
+      "title": "Séance",
+      "targetUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
+          "platform": "Tari Community forum",
+          "author": "DevXTools",
+          "publishedAt": "2026-10-20T11:25:58.437Z",
+          "foundOn": "2026-10-20",
+          "context": "October contest submission for Séance sealed group polls, with source and network proof links",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "announcement",
+      "capturedAt": "2026-10-20T14:02:39.052Z",
+      "observedRevision": "4e0dde7758593b58087bbd4d045d6d3c6f87a836",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-announcement-20261020.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-announcement-20261020.jpg",
+      "sha256": "28fd8ec11c721f32a2aa78b752ea02e0bc75bf78772c8f04d3d1b57374c80790",
+      "caption": "Announcement",
+      "method": "Continuous original forum announcement scroll; opening, middle and 11-second closing frames inspected. Earlier Radicle capture retained but rejected because outer-page scrolling did not move the inner content pane.",
+      "status": "live-trial-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": {
+          "at": "2026-10-20T14:16:09.662491+00:00",
+          "revision": "3fae948a00b72b5decd6e27d670734f064196eae",
+          "times": [
+            6.039393,
+            12
+          ],
+          "ended": true
+        }
+      }
+    },
+    {
+      "resourceId": "sealed-bids-at-midnight",
+      "title": "Sealed Bids at Midnight",
+      "targetUrl": "https://github.com/xB0unty911/sealed-bid-auction#readme",
+      "originalPosts": [
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
+          "platform": "Reddit · r/tari",
+          "author": "u/Competitive-Heart387",
+          "publishedAt": "2026-10-20T13:32:56.682Z",
+          "foundOn": "2026-10-20",
+          "context": "Original Sealed Bids at Midnight contest announcement; zero comments shown when reviewed",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-20T14:14:00.384Z",
+      "observedRevision": "f8796ec7d95590d09c8ffa56cd3623b04740759b",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261020.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261020.jpg",
+      "sha256": "49bd55845427e37635e7e6eb03a27a028c941ae1fe8b5367c44b86ea0b7ef996",
+      "caption": "Docs walkthrough",
+      "method": "Continuous GitHub README scroll including an embedded maintainer terminal GIF. No local CLI or auction execution. Frames 0, 6 and 11 inspected.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
       }
     }
   ],

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-10-19T12:53:54.707951+00:00",
+  "reviewedAt": "2026-10-20T14:16:09.662491+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -53,7 +53,7 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official TypeScript SDK",
-      "summary": "Core SDK, indexer and signer clients for browser and Node applications. Release 0.9.0, reviewed October 14, 2026, upgrades bindings to 1.58.0 and Ootle WASM to 0.46.0. Pre-1.0; match the network and versioned examples before integrating.",
+      "summary": "Core SDK, indexer and signer clients for browser and Node applications. Release v0.10.0, published October 20, 2026, is a breaking package-set update to Ootle 0.47.0. Match network and versioned examples before integrating; the catalog update does not migrate Workbench runtime dependencies.",
       "status": "Source reviewed · runtime untested",
       "sourceUrl": "https://github.com/tari-project/ootle.ts",
       "repoUrl": "https://github.com/tari-project/ootle.ts",
@@ -65,9 +65,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle L2",
       "platform": "TypeScript / browser / Node",
-      "upstreamRevision": "6a7a09cb238b915936bb2069d573cfd8baebfd59",
+      "upstreamRevision": "bcb9297b28bda67237bc6c068831f7e880f572ef",
       "sourceUpdatedAt": "2026-10-07T13:28:57Z",
-      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
+      "lastCheckedAt": "2026-10-20T14:16:09.662491+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -87,6 +87,11 @@
           "platform": "GitHub",
           "context": "Release notes",
           "publishedAt": "2026-10-13T11:06:50Z"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0",
+          "platform": "GitHub release",
+          "context": "October 20 release: breaking Ootle 0.47.0 update"
         }
       ],
       "cardSummary": "Build browser and Node integrations with Ootle clients for indexing, signing and core operations.",
@@ -99,7 +104,7 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official Python SDK",
-      "summary": "Python sync/async client requiring Python 3.13+. Release 0.3.1, reviewed October 14, 2026, updates WASM to 0.46.0, corrects Amount CBOR encoding for the 0.46 engine and improves aborted/rejected transaction handling. Package ootle-py; import ootle.",
+      "summary": "Python sync/async client requiring Python 3.13+. Release 0.3.1, reviewed October 14, 2026, updates WASM to 0.46.0, corrects Amount CBOR encoding for the 0.46 engine and improves aborted/rejected transaction handling. Package ootle-py; import ootle. October 20 registry/tag check found v0.3.2, while GitHub’s latest release page still returned v0.3.1; no v0.3.2 release-note page was available.",
       "status": "Source reviewed · runtime untested",
       "sourceUrl": "https://github.com/tari-project/ootle-py",
       "repoUrl": "https://github.com/tari-project/ootle-py",
@@ -111,9 +116,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle L2",
       "platform": "Python ≥3.13",
-      "upstreamRevision": "b36dd5fdc25ad2792d05598b41086137735944da",
+      "upstreamRevision": "d02b4790b3022583fd22dd57e0fb4135fe367d19",
       "sourceUpdatedAt": "2026-10-02T08:49:54Z",
-      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
+      "lastCheckedAt": "2026-10-20T14:16:09.662491+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -145,7 +150,7 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official Go SDK",
-      "summary": "Go client over the Rust core with cgo and platform-specific native libraries. Release 0.4.0, reviewed October 14, 2026, vendors Ootle 0.46.0 and Protocol V2, adds INPUT_PLEDGE_TOO_LARGE handling, and retains ABI ootle-sdk-ffi-c/17. Read state or events for results.",
+      "summary": "Go client over the Rust core with cgo and platform-specific native libraries. October 20 source review found tag and module-registry v0.5.0; GitHub’s latest release page still returned v0.4.0. The current README documents event streaming with WatchEvents. Use version-matched native libraries and inspect state or events for results.",
       "status": "Source reviewed · runtime untested",
       "sourceUrl": "https://github.com/tari-project/ootle-go",
       "repoUrl": "https://github.com/tari-project/ootle-go",
@@ -157,9 +162,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle L2",
       "platform": "Go / cgo",
-      "upstreamRevision": "9e5054978f92cb1af59cc5352e2fe117a4a97504",
+      "upstreamRevision": "5d86af331f173c789ca2a26c3a3f2998ed2307f8",
       "sourceUpdatedAt": "2026-10-02T08:49:14Z",
-      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
+      "lastCheckedAt": "2026-10-20T14:16:09.662491+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -602,8 +607,8 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "Phantom Drop",
-      "summary": "Rust CLI and library for testnet gift envelopes using native stealth outputs and claim/refund branches, without a custom template. Links can include riddles and expiry. Anyone holding a plain link can claim it; riddle strength and public transaction timing limit privacy. The creator published October 12 Esmeralda seal/open/refund evidence; this listing reviews source and those links, without executing the CLI or a wallet transaction.",
-      "status": "CLI · Esmeralda testnet",
+      "summary": "Rust CLI and library for testnet gift envelopes using native stealth outputs and claim/refund branches, without a custom template. Links can include riddles and expiry. Anyone holding a plain link can claim it; riddle strength and public transaction timing limit privacy. The creator published October 12 Esmeralda seal/open/refund evidence; this listing reviews source and those links, without executing the CLI or a wallet transaction. October 20: the linked browser walkthrough offers a chain/link-holder toggle and five narrated acts. Real clicks changed the riddle, expiry and replay panels. These are a replay of the maintainer example, not new engine execution or network transactions.",
+      "status": "CLI · Interactive walkthrough · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
       "repoUrl": "https://gitlab.com/hycorange/phantom-drop",
       "docsUrl": "https://gitlab.com/hycorange/phantom-drop#readme",
@@ -614,9 +619,9 @@
       "license": "MIT",
       "network": "Ootle L2 / Esmeralda testnet",
       "platform": "Rust / CLI",
-      "upstreamRevision": "1b6138a245813eb477b80388a8a5802b79ae0eb0",
+      "upstreamRevision": "aa6edb6d96f3ce29d4215ad0ce98e00a9d9729c1",
       "sourceUpdatedAt": "2026-10-12T13:55:52.735Z",
-      "lastCheckedAt": "2026-10-13T09:12:59.977051+00:00",
+      "lastCheckedAt": "2026-10-20T14:28:21.365953+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -624,7 +629,7 @@
         "community",
         "advanced"
       ],
-      "demoUrl": null,
+      "demoUrl": "https://hycorange.github.io/phantom-drop/",
       "discussionLinks": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
@@ -636,11 +641,11 @@
         }
       ],
       "cardSummary": "Create expiring testnet gift links with a Rust CLI, optional riddles and refunds for unopened envelopes.",
-      "cardStatus": "CLI · Esmeralda testnet",
+      "cardStatus": "CLI · Interactive walkthrough · Testnet",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-20261013.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-20261013.jpg",
-        "source": "Source/docs walkthrough — Public repository README scrolling; no application execution demonstrated."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-walkthrough-20261020.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-walkthrough-20261020.jpg",
+        "source": "Source/docs walkthrough — Concept overview: interactive narrated replay; no live transaction."
       }
     },
     {
@@ -695,8 +700,8 @@
       "ecosystem": "tari-ootle",
       "group": "Payments",
       "title": "Ootle Payment Gateway",
-      "summary": "WooCommerce plugin source for Ootle payment sessions, webhook handling and a customer-payment address flow. On October 15, 2026, the linked HTTP test storefront displayed one product. The maintainer reports an accepted confidential transfer in contest-verification.md; this is distinct from a completed customer checkout. The README roadmap still lists checkout wiring/reconciliation as remaining work, while current code includes a receive-address and balance-comparison path. These sources do not establish anonymous purchases or production readiness. Requires WordPress, WooCommerce, PHP and a wallet daemon. MIT source; reviewed for Esmeralda testnet. No plugin install, order, wallet or payment action was performed. On October 19, the previously linked test shop at 172.105.4.177/shop/ refused connection; that observation does not establish permanent closure.",
-      "status": "Source code · Testnet",
+      "summary": "WooCommerce gateway source for Tari Ootle payment sessions and signed webhooks. October 20 review followed the edited original contest post to a new HTTP-only test shop at http://172.105.101.24/shop/ and viewed its Test Product listing. The previous 172.105.4.177 address remained unreachable. The maintainer supplies an Esmeralda stealth-transfer receipt and WordPress screenshots; this review browsed the public shop only, without cart, checkout, wallet or payment actions. The shop is served without HTTPS; use its public browsing view only. This is a community test shop, not an official Tari storefront. README setup and daemon compatibility must be checked before integration.",
+      "status": "WordPress plugin · Testnet · HTTP-only test shop",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
       "repoUrl": "https://github.com/Luci666-Onyx/ootle-payment-gateway",
       "docsUrl": "https://github.com/Luci666-Onyx/ootle-payment-gateway#readme",
@@ -708,8 +713,8 @@
       "network": "Esmeralda testnet",
       "platform": "WordPress · WooCommerce · PHP",
       "upstreamRevision": "3606ab25988eab6e33d2b93cb6189b2c2326411b",
-      "sourceUpdatedAt": "2026-10-17T14:25:29Z",
-      "lastCheckedAt": "2026-10-19T12:53:54.707951+00:00",
+      "sourceUpdatedAt": "2026-10-19T19:40:08.601Z",
+      "lastCheckedAt": "2026-10-20T14:16:09.662491+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -718,7 +723,7 @@
         "woocommerce",
         "testnet"
       ],
-      "demoUrl": null,
+      "demoUrl": "http://172.105.101.24/shop/",
       "discussionLinks": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
@@ -731,12 +736,12 @@
           "context": "Creator announcement of WooCommerce Ootle gateway"
         }
       ],
-      "cardSummary": "Explore Ootle payments for WooCommerce with PHP plugin code and setup guides.",
-      "cardStatus": "Source code · Testnet",
+      "cardSummary": "Add Tari payments to WooCommerce using wallet-daemon payment sessions, signed webhooks and order-status updates.",
+      "cardStatus": "WordPress plugin · Testnet · HTTP-only test shop",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-payment-gateway-20261015.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-payment-gateway-20261015.jpg",
-        "source": "Source/docs walkthrough — Public plugin README; no checkout, wallet or payment execution."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-payment-gateway-shop-20261020.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-payment-gateway-shop-20261020.jpg",
+        "source": "App demo — HTTP test shop browsing; no checkout or payment action."
       }
     },
     {
@@ -894,6 +899,96 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261019.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261019.jpg",
         "source": "Source/docs walkthrough — Hosted static motion explainer; no payment execution."
+      }
+    },
+    {
+      "id": "tari-ootle:component:seance",
+      "key": "seance",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Séance",
+      "summary": "Rust CLI and Ootle template for sealed ballots in groups of 2–64. Ring signatures prove group membership without naming the voter; per-poll pseudonyms allow recasting, and commit/reveal controls when choices become public. The source also includes the reusable ootle-ring crate and Confessional example. October 20 review read the README, MIT license, manifest and maintainer-supplied Esmeralda proof. The maintainer reports 62 tests and network receipts; those are upstream claims, not tests run by this catalog. Source pins template_lib 0.34.0 and test tooling 0.46.1; the proof names wallet/network 0.47.0. Fee-pot contributions cannot be withdrawn. Losing a receipt prevents a vote from being counted; receipt holders can learn the choice. Revealed choices are public per pseudonym, and timing/funding links remain possible. Esmeralda testnet only.",
+      "status": "Source code · Testnet · Fee-pot deposits irreversible",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
+      "repoUrl": "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
+      "docsUrl": "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
+      "creator": {
+        "name": "DevXTools",
+        "url": "https://community.tari.com/u/DevXTools"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Rust CLI · Ootle template",
+      "upstreamRevision": "4e0dde7758593b58087bbd4d045d6d3c6f87a836",
+      "sourceUpdatedAt": "2026-10-20T11:25:58.437Z",
+      "lastCheckedAt": "2026-10-20T14:06:51.288529+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "voting",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
+          "platform": "Tari Community forum",
+          "context": "October contest submission for Séance sealed group polls, with source and network proof links"
+        }
+      ],
+      "cardSummary": "Create sealed group polls with anonymous eligibility, replaceable ballots and a scheduled reveal of choices.",
+      "cardStatus": "Source code · Testnet · Fee-pot deposits irreversible",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-announcement-20261020.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-announcement-20261020.jpg",
+        "source": "Source/docs walkthrough — Announcement: original contest submission; no vote executed."
+      }
+    },
+    {
+      "id": "tari-ootle:component:sealed-bids-at-midnight",
+      "key": "sealed-bids-at-midnight",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Sealed Bids at Midnight",
+      "summary": "Rust Ootle auction template and headless CLI using signer-bound, domain-separated commit/reveal bids and equal bonds. Consensus epochs define sealing, reveal and settlement; the highest qualifying revealed bid wins, with individual claims for the lot, proceeds and refunds. Unrevealed bids and bids revealed below the reserve permanently forfeit their bonds; these remain locked in the component. Revealed amounts and bidder public keys are public, and bidders with multiple commitments can choose what to reveal. October 20 review read the MIT source at f8796ec7d955. The maintainer reports 17 tests and an Esmeralda v2 lifecycle; this catalog did not execute bids, bridge funds or verify payouts. Source pins tari_template_lib 0.34. The README timeline still says forfeited bonds go to the seller; its detailed v2 description and announcement instead say they remain locked. No hosted browser demo was linked in the reviewed README; the recorded terminal animation is the maintainer’s embedded GIF.",
+      "status": "Source code · Testnet · Forfeited bonds locked forever",
+      "sourceUrl": "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
+      "repoUrl": "https://github.com/xB0unty911/sealed-bid-auction",
+      "docsUrl": "https://github.com/xB0unty911/sealed-bid-auction#readme",
+      "creator": {
+        "name": "xB0unty911",
+        "url": "https://github.com/xB0unty911"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Rust CLI · Ootle template",
+      "upstreamRevision": "f8796ec7d95590d09c8ffa56cd3623b04740759b",
+      "sourceUpdatedAt": "2026-10-20T13:32:56.682Z",
+      "lastCheckedAt": "2026-10-20T14:16:09.662491+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "auctions",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
+          "platform": "Reddit · r/tari",
+          "context": "Original Sealed Bids at Midnight contest announcement; zero comments shown when reviewed"
+        }
+      ],
+      "cardSummary": "Run sealed-bid auctions with equal entry bonds, timed reveals and separate claims for winners, sellers and losing bidders.",
+      "cardStatus": "Source code · Testnet · Forfeited bonds locked forever",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261020.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261020.jpg",
+        "source": "Source/docs walkthrough — README and maintainer GIF; no auction executed here."
       }
     }
   ],
