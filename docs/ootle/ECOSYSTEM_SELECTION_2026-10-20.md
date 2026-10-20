@@ -5,3 +5,5 @@ Reused the maintained discovery plan, review-catalog enumeration, sourceMonitori
 The representative Séance capture exposed an inner-scroll issue on Radicle. Its raw capture was retained and rejected. A real original-forum announcement capture was reviewed at 0/6/11 seconds, deployed in Lobby PR69 and played through to 12 seconds before the auction/shop/Phantom batch. All later captures also received frame inspection. Captions distinguish announcement, docs, public-shop browsing and interactive narrated replay. No wallet or unknown CLI was executed.
 
 GitHub skill/CLI reused for PRs, checks and exact revision verification. CUA used for rendered review and native Discord/Telegram. Telegram native scrolling failed with AXError.notImplemented; X redirected to sign-in. These source limitations remain explicit, with successful checkpoints retained.
+
+The exact merged Workbench CI artifact initially failed to download with GitHub storage HTTP503 / account egress-limit response. One bounded retry succeeded; the original proven CI-artifact deployment pipeline was retained. No new credentials, account, or replacement build pipeline was introduced.

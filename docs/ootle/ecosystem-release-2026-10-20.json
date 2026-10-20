@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-20",
+  "status": "completed-with-open-holds",
+  "completedAt": "2026-10-20T14:55:12.721438+00:00",
+  "scheduledTime": "05:00 America/New_York",
+  "actualStart": "2026-10-20T13:59:12.188201+00:00",
+  "onTime": false,
+  "resourceReviewSummary": {
+    "date": "2026-10-20",
+    "enumerated": 55,
+    "canonicalResources": 50,
+    "attempted": 55,
+    "completeWithinDeclaredScope": 45,
+    "partialOrBlocked": 10,
+    "canonicalComplete": 42,
+    "canonicalPartialOrBlocked": 8,
+    "notRechecked": 0,
+    "copyChanged": 6,
+    "newEntriesReviewed": 2,
+    "evidence": "daily-2026-10-20/source-reads.json"
+  },
+  "openHolds": [
+    "Eight existing canonical reviews remain partial/blocked. Preserve last-good success dates and retry exact failed sources.",
+    "Full X, native Discord/Telegram overlap, video streams and some social replies remain incomplete.",
+    "Legacy Yarn advisory graphs and Rust informational warnings remain; see dependency inventory.",
+    "Ootle 0.47 protocol/API migration assessed but not applied. Locked Workbench starter tests do not establish live network compatibility.",
+    "Inherited broad Lobby server-suite failures and packaged reference TypeScript diagnostics remain outside this scoped release validation.",
+    "Workbench optional file pane crowds phone catalog; collapse restores readability. Global header overlap at 768px persists. Existing startup file-provider/no-file-selected races carried forward.",
+    "Previously disclosed October12 Discord incident remains unresolved; no outbound social action or deletion this run."
+  ],
+  "acceptance": {
+    "checkedAt": "2026-10-20T14:55:12.721438+00:00",
+    "playbackCases": 24,
+    "newOrRefreshedRecordingsPending": 0,
+    "evidence": [
+      "live-cua-evidence.json",
+      "workbench-playback.json",
+      "served-media-hashes.json"
+    ],
+    "scope": "Catalog publication and media acceptance; third-party transactions were not tested. Workbench phone file pane collapsed. Phantom phone replay observed 9.134 to 12 seconds."
+  },
+  "resolvedFailure": "CI artifact storage returned HTTP503/account egress limit; one bounded retry succeeded. Exact merged CI artifact then deployed.",
+  "lobby": {
+    "revision": "4b664b558e4bda35dff5c6d742d2f4149f71982e",
+    "pullRequests": [
+      "https://github.com/marguerite347/ootle-lobby-community/pull/69",
+      "https://github.com/marguerite347/ootle-lobby-community/pull/70",
+      "https://github.com/marguerite347/ootle-lobby-community/pull/71",
+      "https://github.com/marguerite347/ootle-lobby-community/pull/72"
+    ],
+    "deployment": {
+      "id": "dpl_HeGQvuh5DjiXTTCZKhagqrkCC98G",
+      "url": "https://ootle-lobby-preview-703esc99q-peekaboo4.vercel.app",
+      "productionUrl": "https://ootle-lobby-preview.vercel.app",
+      "inspectorUrl": "https://vercel.com/peekaboo4/ootle-lobby-preview/HeGQvuh5DjiXTTCZKhagqrkCC98G",
+      "readyState": "READY",
+      "target": "production",
+      "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_HeGQvuh5DjiXTTCZKhagqrkCC98G",
+      "buildMachine": {
+        "cores": 2,
+        "memory": 8192,
+        "machine": "basic",
+        "selectionType": "fixed",
+        "selectionSource": "plan-default"
+      },
+      "deploymentProtection": [
+        "vercel_authentication"
+      ]
+    },
+    "ciRun": 39440705350,
+    "ciConclusion": "success"
+  },
+  "workbench": {
+    "revision": "7cc45e815bb4d15fa47a39638f3a1362b224bffc",
+    "pullRequests": [
+      "https://github.com/marguerite347/ootle-workbench/pull/27",
+      "https://github.com/marguerite347/ootle-workbench/pull/28"
+    ],
+    "deployment": {
+      "id": "dpl_5wya4PH1L3rjNqq9oepNnH4WKYj1",
+      "url": "https://ootle-workbench-ol8ockhao-peekaboo4.vercel.app",
+      "productionUrl": "https://ootle-workbench.vercel.app",
+      "inspectorUrl": "https://vercel.com/peekaboo4/ootle-workbench/5wya4PH1L3rjNqq9oepNnH4WKYj1",
+      "readyState": "READY",
+      "target": "production",
+      "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_5wya4PH1L3rjNqq9oepNnH4WKYj1",
+      "buildMachine": {
+        "cores": 2,
+        "memory": 8192,
+        "machine": "basic",
+        "selectionType": "fixed",
+        "selectionSource": "plan-default"
+      },
+      "deploymentProtection": [
+        "vercel_authentication"
+      ]
+    },
+    "ciRun": 39440321125,
+    "ciConclusion": "success"
+  }
+}
