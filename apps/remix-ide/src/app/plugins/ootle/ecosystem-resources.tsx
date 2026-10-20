@@ -1,6 +1,13 @@
 import React, { useState } from 'react'
 import catalog from './ecosystem-resources.json'
 
+function recordingLabel(source: string) {
+  if (/concept overview/i.test(source)) return 'Concept overview'
+  if (/\bannouncement\b/i.test(source)) return 'Announcement'
+  if (/^app demo\b/i.test(source)) return 'App demo'
+  return 'Docs walkthrough'
+}
+
 export function EcosystemResources() {
   const [query, setQuery] = useState('')
   const records = catalog.records.filter(record => `${record.title} ${record.group} ${record.summary}`.toLowerCase().includes(query.toLowerCase()))
@@ -12,7 +19,7 @@ export function EcosystemResources() {
       {record.preview ? <figure><video controls muted playsInline preload="none" src={record.preview.video} poster={record.preview.image} aria-label={`${record.title} recording`}/></figure> : <p className="ootle-note">Recording pending</p>}
       <h3><a href={record.demoUrl || record.repoUrl || record.sourceUrl} target="_blank" rel="noreferrer">{record.title} ↗</a></h3>
       <p className="ootle-card-summary">{record.cardSummary}</p>
-      <div className="ootle-resource-status"><strong>{record.cardStatus}</strong>{record.preview && <span>{record.preview.source.startsWith('App demo') ? 'App demo' : 'Docs walkthrough'}</span>}</div>
+      <div className="ootle-resource-status"><strong>{record.cardStatus}</strong>{record.preview && <span>{recordingLabel(record.preview.source)}</span>}</div>
       <p className="ootle-card-byline">{record.creator.name} · {record.group}</p>
       {(record.discussionLinks || []).map(post=><a key={post.url} href={post.url} target="_blank" rel="noreferrer">Discussion · {post.platform} ↗</a>)}
       <details className="ootle-card-details"><summary aria-label={`Details about ${record.title}`}>Details</summary>
