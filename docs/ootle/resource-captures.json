@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T14:16:09.662491+00:00",
+  "updatedAt": "2026-10-20T14:55:12.721438+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -721,20 +721,24 @@
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": "Actual native-control input and advancing playback on desktop and phone in Lobby gallery/builder cards and Workbench; all reached 12 seconds. Phantom Workbench phone observation covers 9.134 through 12 seconds."
       },
       "blocker": null,
       "liveVerification": {
+        "checkedAt": "2026-10-20T14:55:12.721438+00:00",
         "lobbyDesktop": true,
         "lobbyMobile": true,
         "workbenchDesktop": true,
         "workbenchMobile": true,
         "mediaHashMatched": true,
         "posterHashMatched": true,
-        "checkedAt": "2026-10-13T10:13:52.377043+00:00",
-        "lobbyRevision": "b1f8e9d9c6beada215cf7d8dc0a5d11151a438ff",
-        "workbenchRevision": "137d485ec0e5aa8f3300f2b256b989d4996a489f",
-        "evidence": "daily-2026-10-13/playback.json"
+        "lobbyRevision": "4b664b558e4bda35dff5c6d742d2f4149f71982e",
+        "workbenchRevision": "7cc45e815bb4d15fa47a39638f3a1362b224bffc",
+        "evidence": [
+          "daily-2026-10-20/live-cua-evidence.json",
+          "daily-2026-10-20/workbench-playback.json",
+          "daily-2026-10-20/served-media-hashes.json"
+        ]
       },
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-phantom-drop",
       "workbenchUrl": "https://ootle-workbench.vercel.app/",
@@ -801,7 +805,7 @@
           "workbenchUrl": "https://ootle-workbench.vercel.app/"
         }
       ],
-      "status": "reviewed-publication-pending"
+      "status": "published-verified"
     },
     {
       "resourceId": "veil",
@@ -1809,29 +1813,32 @@
       "sha256": "76f86f6ab7c9d3d986a842d299229eb0ca61f525d2e26a9f9212e947b5fb500b",
       "caption": "App demo",
       "method": "Continuous public HTTP shop browse; no cart, checkout or transaction. Frames 0, 6 and 11 inspected.",
-      "status": "reviewed-publication-pending",
+      "status": "published-verified",
       "verification": {
         "framesReviewed": [
           0,
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": "Actual native-control input and advancing playback on desktop and phone in Lobby gallery/builder cards and Workbench; all reached 12 seconds. Phantom Workbench phone observation covers 9.134 through 12 seconds."
       },
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-payment-gateway-shop-20261020.mp4",
       "blocker": null,
       "liveVerification": {
-        "checkedAt": "2026-10-15T09:45:20.652301+00:00",
+        "checkedAt": "2026-10-20T14:55:12.721438+00:00",
         "lobbyDesktop": true,
         "lobbyMobile": true,
         "workbenchDesktop": true,
         "workbenchMobile": true,
         "mediaHashMatched": true,
         "posterHashMatched": true,
-        "lobbyRevision": "e0f3abb56a96281906e50dc5e7005d1761b53d86",
-        "workbenchRevision": "89daecaec49a5a7c2ec0312336ef88b7293a38a1",
-        "evidence": "daily-2026-10-15/playback.json",
-        "trialEvidence": "daily-2026-10-15/trial-playback.json"
+        "lobbyRevision": "4b664b558e4bda35dff5c6d742d2f4149f71982e",
+        "workbenchRevision": "7cc45e815bb4d15fa47a39638f3a1362b224bffc",
+        "evidence": [
+          "daily-2026-10-20/live-cua-evidence.json",
+          "daily-2026-10-20/workbench-playback.json",
+          "daily-2026-10-20/served-media-hashes.json"
+        ]
       },
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-ootle-payment-gateway",
       "workbenchUrl": "https://ootle-workbench.vercel.app/",
@@ -2094,22 +2101,30 @@
       "sha256": "28fd8ec11c721f32a2aa78b752ea02e0bc75bf78772c8f04d3d1b57374c80790",
       "caption": "Announcement",
       "method": "Continuous original forum announcement scroll; opening, middle and 11-second closing frames inspected. Earlier Radicle capture retained but rejected because outer-page scrolling did not move the inner content pane.",
-      "status": "live-trial-verified",
+      "status": "published-verified",
       "verification": {
         "framesReviewed": [
           0,
           6,
           11
         ],
-        "livePlayback": {
-          "at": "2026-10-20T14:16:09.662491+00:00",
-          "revision": "3fae948a00b72b5decd6e27d670734f064196eae",
-          "times": [
-            6.039393,
-            12
-          ],
-          "ended": true
-        }
+        "livePlayback": "Actual native-control input and advancing playback on desktop and phone in Lobby gallery/builder cards and Workbench; all reached 12 seconds. Phantom Workbench phone observation covers 9.134 through 12 seconds."
+      },
+      "liveVerification": {
+        "checkedAt": "2026-10-20T14:55:12.721438+00:00",
+        "lobbyDesktop": true,
+        "lobbyMobile": true,
+        "workbenchDesktop": true,
+        "workbenchMobile": true,
+        "mediaHashMatched": true,
+        "posterHashMatched": true,
+        "lobbyRevision": "4b664b558e4bda35dff5c6d742d2f4149f71982e",
+        "workbenchRevision": "7cc45e815bb4d15fa47a39638f3a1362b224bffc",
+        "evidence": [
+          "daily-2026-10-20/live-cua-evidence.json",
+          "daily-2026-10-20/workbench-playback.json",
+          "daily-2026-10-20/served-media-hashes.json"
+        ]
       }
     },
     {
@@ -2140,22 +2155,38 @@
       "sha256": "49bd55845427e37635e7e6eb03a27a028c941ae1fe8b5367c44b86ea0b7ef996",
       "caption": "Docs walkthrough",
       "method": "Continuous GitHub README scroll including an embedded maintainer terminal GIF. No local CLI or auction execution. Frames 0, 6 and 11 inspected.",
-      "status": "reviewed-publication-pending",
+      "status": "published-verified",
       "verification": {
         "framesReviewed": [
           0,
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": "Actual native-control input and advancing playback on desktop and phone in Lobby gallery/builder cards and Workbench; all reached 12 seconds. Phantom Workbench phone observation covers 9.134 through 12 seconds."
+      },
+      "liveVerification": {
+        "checkedAt": "2026-10-20T14:55:12.721438+00:00",
+        "lobbyDesktop": true,
+        "lobbyMobile": true,
+        "workbenchDesktop": true,
+        "workbenchMobile": true,
+        "mediaHashMatched": true,
+        "posterHashMatched": true,
+        "lobbyRevision": "4b664b558e4bda35dff5c6d742d2f4149f71982e",
+        "workbenchRevision": "7cc45e815bb4d15fa47a39638f3a1362b224bffc",
+        "evidence": [
+          "daily-2026-10-20/live-cua-evidence.json",
+          "daily-2026-10-20/workbench-playback.json",
+          "daily-2026-10-20/served-media-hashes.json"
+        ]
       }
     }
   ],
   "release": {
-    "date": "2026-10-19",
-    "lobbyRevision": "ede3ce64509f5cd822d52d752207e911ac340cf3",
-    "workbenchRevision": "bfe087886636f70effe4d733c71f94847beb6ff2",
-    "evidence": "daily-2026-10-19/release.json"
+    "date": "2026-10-20",
+    "lobbyRevision": "4b664b558e4bda35dff5c6d742d2f4149f71982e",
+    "workbenchRevision": "7cc45e815bb4d15fa47a39638f3a1362b224bffc",
+    "evidence": "daily-2026-10-20/release.json"
   },
   "laterPlaybackReviews": [
     {
@@ -2218,6 +2249,12 @@
       "lobbyRevision": "e0f3abb56a96281906e50dc5e7005d1761b53d86",
       "workbenchRevision": "89daecaec49a5a7c2ec0312336ef88b7293a38a1",
       "evidence": "daily-2026-10-15/release.json"
+    },
+    {
+      "date": "2026-10-19",
+      "lobbyRevision": "ede3ce64509f5cd822d52d752207e911ac340cf3",
+      "workbenchRevision": "bfe087886636f70effe4d733c71f94847beb6ff2",
+      "evidence": "daily-2026-10-19/release.json"
     }
   ]
 }
