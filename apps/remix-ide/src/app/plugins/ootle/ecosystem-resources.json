@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-10-20T14:16:09.662491+00:00",
+  "reviewedAt": "2026-10-21T13:42:52.311787+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -53,7 +53,7 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official TypeScript SDK",
-      "summary": "Core SDK, indexer and signer clients for browser and Node applications. Release v0.10.0, published October 20, 2026, is a breaking package-set update to Ootle 0.47.0. Match network and versioned examples before integrating; the catalog update does not migrate Workbench runtime dependencies.",
+      "summary": "Core SDK, indexer and signer clients for browser and Node applications. October 21 release v0.11.0 changes templateAddressLiteral encoding to untagged 32-byte data, a breaking update following v0.10.0’s Ootle 0.47.0 package-set migration. Match network and versioned examples before integrating; this catalog update does not migrate Workbench runtime dependencies.",
       "status": "Source reviewed · runtime untested",
       "sourceUrl": "https://github.com/tari-project/ootle.ts",
       "repoUrl": "https://github.com/tari-project/ootle.ts",
@@ -65,9 +65,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle L2",
       "platform": "TypeScript / browser / Node",
-      "upstreamRevision": "bcb9297b28bda67237bc6c068831f7e880f572ef",
+      "upstreamRevision": "16a170955aa88e36022cff895082579587644786",
       "sourceUpdatedAt": "2026-10-07T13:28:57Z",
-      "lastCheckedAt": "2026-10-20T14:16:09.662491+00:00",
+      "lastCheckedAt": "2026-10-21T13:42:52.311787+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -92,6 +92,11 @@
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0",
           "platform": "GitHub release",
           "context": "October 20 release: breaking Ootle 0.47.0 update"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0",
+          "platform": "GitHub release",
+          "context": "October 21 breaking templateAddressLiteral encoding correction"
         }
       ],
       "cardSummary": "Build browser and Node integrations with Ootle clients for indexing, signing and core operations.",
@@ -857,11 +862,11 @@
       "ecosystem": "tari-ootle",
       "group": "Agents",
       "title": "Ghostline",
-      "summary": "Payment-channel toolkit for agent API calls on Ootle: cumulative off-chain vouchers, HTTP 402 quotes, spending policies, CLI, Rust/TypeScript support and MCP tools. October 19 source review found release v0.3.1 and a hosted static motion explainer, not a live payment interface. The maintainer links Esmeralda settlement/refund evidence; service-side ledgers record call counts separately. Services see requests, prices and vouchers; fees, timing, channel metadata and funding links remain public. The experimental pooled close is not coordinator-private. Esmeralda testnet only; Linux x86-64 CLI releases. MIT. No software installation, wallet, paid call or transaction was performed in this catalog review.",
+      "summary": "Payment-channel toolkit for agent API calls on Ootle: cumulative off-chain vouchers, HTTP 402 quotes, spending policies, CLI, Rust/TypeScript support and MCP tools. October 21 review found v0.3.2 and a guided local Esmeralda runner that checks the template, starts a sample API, asks before opening and settling, and prints finality links. The documented runner requires walletd 0.47.0 or newer and a funded test wallet; the maintainer reports 0.46.1 decoding failures. The hosted website remains a static motion explainer. Services see requests, prices and vouchers; fees, timing, funding links and channel metadata remain public. Experimental pooled close is not coordinator-private. Esmeralda only; Linux x86-64 CLI releases; MIT. This review read the pinned guide and captured its setup requirements without installing software, using a wallet or sending transactions.",
       "status": "CLI · SDK · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
       "repoUrl": "https://github.com/AduAkorful/ghostline",
-      "docsUrl": "https://github.com/AduAkorful/ghostline#readme",
+      "docsUrl": "https://github.com/AduAkorful/ghostline/blob/0b0ff7dfc5f8a774a5f8176c375b191492757b00/docs/quickstart.md#guided-esmeralda-demo",
       "creator": {
         "name": "AduAkorful",
         "url": "https://github.com/AduAkorful"
@@ -869,9 +874,9 @@
       "license": "MIT",
       "network": "Esmeralda testnet",
       "platform": "Rust · TypeScript · Linux x86-64 CLI",
-      "upstreamRevision": "5e4c754635f2b3dd1a7fc1b19d87dd95b140171d",
+      "upstreamRevision": "0b0ff7dfc5f8a774a5f8176c375b191492757b00",
       "sourceUpdatedAt": "2026-10-17T21:50:36.623Z",
-      "lastCheckedAt": "2026-10-19T12:42:15.655525+00:00",
+      "lastCheckedAt": "2026-10-21T13:42:52.311787+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -891,14 +896,19 @@
           "url": "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/",
           "platform": "Reddit · r/tari",
           "context": "Original announcement updated October 19 for v0.3.1, with privacy limits and separate call-ledger evidence"
+        },
+        {
+          "url": "https://github.com/AduAkorful/ghostline/releases/tag/v0.3.2",
+          "platform": "GitHub release",
+          "context": "v0.3.2 guided local Esmeralda setup and fee-cap changes"
         }
       ],
       "cardSummary": "Explore payment channels that let AI agents pay per API call using cumulative vouchers and one settlement.",
       "cardStatus": "CLI · SDK · Testnet",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261019.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261019.jpg",
-        "source": "Source/docs walkthrough — Hosted static motion explainer; no payment execution."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-guided-20261021.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-guided-20261021.jpg",
+        "source": "Source/docs walkthrough — Guided Esmeralda setup requirements at v0.3.2; no script or payment executed."
       }
     },
     {
@@ -953,9 +963,9 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Sealed Bids at Midnight",
-      "summary": "Rust Ootle auction template and headless CLI using signer-bound, domain-separated commit/reveal bids and equal bonds. Consensus epochs define sealing, reveal and settlement; the highest qualifying revealed bid wins, with individual claims for the lot, proceeds and refunds. Unrevealed bids and bids revealed below the reserve permanently forfeit their bonds; these remain locked in the component. Revealed amounts and bidder public keys are public, and bidders with multiple commitments can choose what to reveal. October 20 review read the MIT source at f8796ec7d955. The maintainer reports 17 tests and an Esmeralda v2 lifecycle; this catalog did not execute bids, bridge funds or verify payouts. Source pins tari_template_lib 0.34. The README timeline still says forfeited bonds go to the seller; its detailed v2 description and announcement instead say they remain locked. No hosted browser demo was linked in the reviewed README; the recorded terminal animation is the maintainer’s embedded GIF.",
+      "summary": "Rust Ootle auction template and headless CLI using signer-bound, domain-separated commit/reveal bids and equal bonds. Consensus epochs define sealing, reveal and settlement; the highest qualifying revealed bid wins, with individual claims for the lot, proceeds and refunds. Unrevealed bids and bids revealed below the reserve permanently forfeit their bonds; these remain locked in the component. Revealed amounts and bidder public keys are public, and bidders with multiple commitments can choose what to reveal. October 20 review read the MIT source at f8796ec7d955. The maintainer reports 17 tests and an Esmeralda v2 lifecycle; this catalog did not execute bids, bridge funds or verify payouts. Source pins tari_template_lib 0.34. The README timeline still says forfeited bonds go to the seller; its detailed v2 description and announcement instead say they remain locked. No hosted browser demo was linked in the reviewed README; the recorded terminal animation is the maintainer’s embedded GIF. October 21: the creator’s October forum submission was read and the unchanged source revision confirmed.",
       "status": "Source code · Testnet · Forfeited bonds locked forever",
-      "sourceUrl": "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16",
       "repoUrl": "https://github.com/xB0unty911/sealed-bid-auction",
       "docsUrl": "https://github.com/xB0unty911/sealed-bid-auction#readme",
       "creator": {
@@ -967,7 +977,7 @@
       "platform": "Rust CLI · Ootle template",
       "upstreamRevision": "f8796ec7d95590d09c8ffa56cd3623b04740759b",
       "sourceUpdatedAt": "2026-10-20T13:32:56.682Z",
-      "lastCheckedAt": "2026-10-20T14:16:09.662491+00:00",
+      "lastCheckedAt": "2026-10-21T13:42:52.311787+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -981,6 +991,11 @@
           "url": "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
           "platform": "Reddit · r/tari",
           "context": "Original Sealed Bids at Midnight contest announcement; zero comments shown when reviewed"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16",
+          "platform": "Tari Community forum",
+          "context": "October contest submission; original Reddit announcement retained"
         }
       ],
       "cardSummary": "Run sealed-bid auctions with equal entry bonds, timed reveals and separate claims for winners, sellers and losing bidders.",
@@ -989,6 +1004,56 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261020.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261020.jpg",
         "source": "Source/docs walkthrough — README and maintainer GIF; no auction executed here."
+      }
+    },
+    {
+      "id": "tari-ootle:component:seance-privacy",
+      "key": "seance-privacy",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Seance — privacy demo",
+      "summary": "Read-only browser demo comparing three views of private Esmeralda payments: public fields, a recipient view key that opens amount and memo, and a token audit key that counts amounts without opening memos. October 21 browser inspection of prepared Demo 1 returned a live indexer result; Bob’s public example key opened the memo, the audit example counted both amounts, and Eve’s wrong key stayed sealed. These intentionally public test keys are demonstrations only. The page trusts the indexer and offers a clearly labeled recorded fallback. Its Poltergeist comparison uses eleven recorded payments from one wallet and a synthetic transparent ledger; timing, fees and the spend graph still link those payments. The audit amount search is bounded to 0–0.0005 SEANCE. MIT source reviewed at e98765a19aa0. No personal key, wallet action or payment was used. Distinct from DevXTools’ Séance sealed-poll CLI.",
+      "status": "Web app · Testnet",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+      "repoUrl": "https://github.com/Kylne700/seance",
+      "docsUrl": "https://github.com/Kylne700/seance#readme",
+      "demoUrl": "https://kylne700.github.io/seance/",
+      "creator": {
+        "name": "Kylne700",
+        "url": "https://github.com/Kylne700"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser",
+      "upstreamRevision": "e98765a19aa0e4d335eaccb04a68aaeb98956033",
+      "sourceUpdatedAt": "2026-10-20T21:43:29.251Z",
+      "lastCheckedAt": "2026-10-21T13:32:02.610918+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+          "platform": "Tari Community forum",
+          "context": "October contest submission for the three-observer privacy demo"
+        },
+        {
+          "url": "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22",
+          "platform": "Bluesky",
+          "context": "Original creator announcement and demo recording"
+        }
+      ],
+      "cardSummary": "Compare what strangers, recipients and auditors can read from private testnet payments, including the metadata that remains public.",
+      "cardStatus": "Web app · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.jpg",
+        "source": "App demo — Read-only public transaction view; no payment sent."
       }
     }
   ],
@@ -1008,6 +1073,22 @@
       },
       "cardSummary": "Enter the organizers’ giveaway for three one-month Claude Pro prizes.",
       "cardStatus": "Drawing October 26 · See entry terms"
+    },
+    {
+      "id": "sapient-bonus-contest",
+      "title": "Sapient community bonus contest",
+      "summary": "Community member 0xhra offers 100,000 XTM in extra prizes for October Spooky Secrets projects using the Sapient Web Extension: 50,000, 30,000 and 20,000 XTM. Qualifying official winners receive the bonuses; otherwise the sponsor selects the best qualifying projects. Announced October 21, 2026. This is a separate community-funded offer, outside the official base prize pool. Read the original post for eligibility and sponsor decisions; it specifies no separate entry deadline.",
+      "sourceUrl": "https://community.tari.com/t/spooky-secrets-community-bonus-contest/463/1",
+      "publishedAt": "2026-10-21T10:04:59.191Z",
+      "expiresAt": "2026-11-01T00:00:00Z",
+      "status": "October Spooky Secrets community bonus; listing retires with the parent contest, not a separately announced deadline",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sapient-bonus-contest-20261021.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sapient-bonus-contest-20261021.jpg",
+        "source": "Announcement — Original sponsor post and eligibility terms; recorded October 21, 2026."
+      },
+      "cardSummary": "Use the Sapient Web Extension in an October build to qualify for community-funded bonus prizes.",
+      "cardStatus": "100,000 XTM · Community-funded · See entry terms"
     }
   ]
 }
