@@ -1,0 +1,3 @@
+# October 21 selection receipt
+
+Reuse the maintained source reader scripts, review-catalog enumeration, sourceMonitoring review helper, catalog schemas, GitHub owner PR workflow and genuine browser capture pipeline. Prior October20 deployment/media checks establish the workflow, not today's source freshness. Current clean product heads fetched before branching. Representative trial: new Seance privacy app, distinct from DevXTools sealed polls; inspect prepared public demo, record real input, publish one clip and verify deployed playback before any capture batch. No replacement pipeline, new accounts, personal keys or wallet actions. Sources and incomplete reads remain separately dated.

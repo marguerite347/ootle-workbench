@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-21",
+  "status": "published-verified-with-open-holds",
+  "lobby": {
+    "revision": "4e06ff6bf3a72ddcef795168052830f4630aca9c",
+    "url": "https://ootle-lobby-preview.vercel.app",
+    "deploymentId": "dpl_3nHSUuCQKGxnBdNfo4XZ8XPXWm2m",
+    "deploymentUrl": "https://ootle-lobby-preview-8budtzl3y-peekaboo4.vercel.app",
+    "ciRun": 39612459402,
+    "ci": "success",
+    "prs": [
+      74,
+      75,
+      76
+    ]
+  },
+  "workbench": {
+    "revision": "1323df9ae9dd3f3494d166ea11d1d1f520686884",
+    "url": "https://ootle-workbench.vercel.app",
+    "deploymentId": "dpl_9TNEMvZ1AAdnXPEabioRwkRKsp6i",
+    "deploymentUrl": "https://ootle-workbench-cl1p4azqu-peekaboo4.vercel.app",
+    "ciRun": 39610993174,
+    "ci": "success",
+    "prs": [
+      30
+    ]
+  },
+  "scope": "Source curation, catalog/UI publication and development dependency maintenance; no wallet or third-party runtime certification",
+  "sourceCoverage": {
+    "date": "2026-10-21",
+    "enumerated": 59,
+    "canonicalResources": 52,
+    "attempted": 59,
+    "completeWithinDeclaredScope": 41,
+    "partialOrBlocked": 18,
+    "canonicalComplete": 38,
+    "canonicalPartialOrBlocked": 14,
+    "notRechecked": 0,
+    "copyChanged": 3,
+    "newCanonicalEntries": 2,
+    "evidence": "daily-2026-10-21/source-reads.json"
+  },
+  "media": [
+    {
+      "resource": "ghostline",
+      "kind": "video",
+      "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-guided-20261021.mp4",
+      "sha256": "dbb34b214d931e9cb5fec5ed3df0d987dbe2ecb0e7742692a811488eb17e438e",
+      "matches": true
+    },
+    {
+      "resource": "ghostline",
+      "kind": "poster",
+      "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-guided-20261021.jpg",
+      "sha256": "bc51661fe280e487330b1e890f6f916449f1fb0449264ca6ed129a2f96ca54a1",
+      "matches": true
+    },
+    {
+      "resource": "seance-privacy",
+      "kind": "video",
+      "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.mp4",
+      "sha256": "690a421e3b86a3600a0b412846110cfa134ab1fbd5fd1ae5820a409fc75a733a",
+      "matches": true
+    },
+    {
+      "resource": "seance-privacy",
+      "kind": "poster",
+      "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.jpg",
+      "sha256": "365044aabdd75a792beaad8d28e1d403d8db073d601e56bb3d61f68a124513e5",
+      "matches": true
+    },
+    {
+      "resource": "sapient-bonus-contest",
+      "kind": "video",
+      "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sapient-bonus-contest-20261021.mp4",
+      "sha256": "ce8c219bdfdab66a081690b63bea0738f9c3002b39b65b7124cba2537d30beb3",
+      "matches": true
+    },
+    {
+      "resource": "sapient-bonus-contest",
+      "kind": "poster",
+      "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sapient-bonus-contest-20261021.jpg",
+      "sha256": "35664ef29ec4b25f9ecc08034c6fa001d16175b262151a6050a3bc17f0c71150",
+      "matches": true
+    }
+  ],
+  "holds": [
+    "14 partial/blocked canonical source reviews",
+    "Full X/native/video coverage",
+    "Ootle0.47/SDK0.11 integration migration",
+    "Legacy Yarn advisory debt and Rust informational warnings",
+    "Existing Workbench tablet global header overlap and optional file pane crowding on phone"
+  ],
+  "deploymentRecovery": "Initial Vercel command with positional stage path was unauthorized. Same existing scoped CLI from stage cwd succeeded; no grants expanded.",
+  "verifiedAt": "2026-10-21T14:06:21.504467+00:00"
+}
