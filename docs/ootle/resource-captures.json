@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T14:55:12.721438+00:00",
+  "updatedAt": "2026-10-21T13:42:52.311787+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -2023,7 +2023,7 @@
     {
       "resourceId": "ghostline",
       "title": "Ghostline",
-      "targetUrl": "https://ghostline-ui.vercel.app/",
+      "targetUrl": "https://github.com/AduAkorful/ghostline/blob/0b0ff7dfc5f8a774a5f8176c375b191492757b00/docs/quickstart.md#guided-esmeralda-demo",
       "originalPosts": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
@@ -2042,23 +2042,39 @@
           "foundOn": "2026-10-19",
           "context": "Original announcement updated October 19 for v0.3.1, with privacy limits and separate call-ledger evidence",
           "visibility": "public"
+        },
+        {
+          "url": "https://github.com/AduAkorful/ghostline/releases/tag/v0.3.2",
+          "platform": "GitHub release",
+          "author": "AduAkorful",
+          "publishedAt": "2026-10-20T20:13:49Z",
+          "foundOn": "2026-10-21",
+          "context": "Guided Esmeralda runner release v0.3.2",
+          "visibility": "public"
         }
       ],
-      "captureType": "concept-overview",
-      "capturedAt": "2026-10-19T12:40:39.998Z",
-      "observedRevision": "5e4c754635f2b3dd1a7fc1b19d87dd95b140171d",
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-21T13:41:49.616Z",
+      "observedRevision": "0b0ff7dfc5f8a774a5f8176c375b191492757b00",
       "viewport": {
         "width": 1280,
         "height": 800
       },
       "durationSeconds": 12,
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261019.mp4",
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261019.jpg",
-      "sha256": "7c35b0218b6a70e66a2a004460dfffd748c8c5918349a7612ee7fa804d53d5b3",
-      "caption": "Concept overview",
-      "method": "Continuous static explainer scroll; opening, middle and 11-second closing frames inspected. Schematic animation is the actual hosted page, not a live transaction trace.",
-      "status": "published-playback-verified",
-      "verification": "Published; desktop and phone playback verified in Lobby builder catalog and Workbench. Home gallery checked separately; Ghostline home used trial revision.",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-guided-20261021.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-guided-20261021.jpg",
+      "sha256": "dbb34b214d931e9cb5fec5ed3df0d987dbe2ecb0e7742692a811488eb17e438e",
+      "caption": "Docs walkthrough",
+      "method": "Continuous public source page scroll. Frames 0,6,11 reviewed. No wallet, script or transaction.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      },
       "liveVerification": {
         "lobbyDesktop": true,
         "lobbyMobile": true,
@@ -2071,7 +2087,62 @@
         "workbenchRevision": "bfe087886636f70effe4d733c71f94847beb6ff2",
         "evidence": "daily-2026-10-19/playback.json",
         "integrityEvidence": "daily-2026-10-19/media-integrity.json"
-      }
+      },
+      "history": [
+        {
+          "resourceId": "ghostline",
+          "title": "Ghostline",
+          "targetUrl": "https://ghostline-ui.vercel.app/",
+          "originalPosts": [
+            {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
+              "platform": "Tari Community forum",
+              "author": "AduAkorful",
+              "publishedAt": "2026-10-17T21:50:36.623Z",
+              "foundOn": "2026-10-19",
+              "context": "October contest private agent-payment channel submission",
+              "visibility": "public"
+            },
+            {
+              "url": "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/",
+              "platform": "Reddit · r/tari",
+              "author": "u/Awkward_Remote_1070",
+              "publishedAt": "2026-10-17T21:40:57.460Z",
+              "foundOn": "2026-10-19",
+              "context": "Original announcement updated October 19 for v0.3.1, with privacy limits and separate call-ledger evidence",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "concept-overview",
+          "capturedAt": "2026-10-19T12:40:39.998Z",
+          "observedRevision": "5e4c754635f2b3dd1a7fc1b19d87dd95b140171d",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261019.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261019.jpg",
+          "sha256": "7c35b0218b6a70e66a2a004460dfffd748c8c5918349a7612ee7fa804d53d5b3",
+          "caption": "Concept overview",
+          "method": "Continuous static explainer scroll; opening, middle and 11-second closing frames inspected. Schematic animation is the actual hosted page, not a live transaction trace.",
+          "status": "published-playback-verified",
+          "verification": "Published; desktop and phone playback verified in Lobby builder catalog and Workbench. Home gallery checked separately; Ghostline home used trial revision.",
+          "liveVerification": {
+            "lobbyDesktop": true,
+            "lobbyMobile": true,
+            "workbenchDesktop": true,
+            "workbenchMobile": true,
+            "mediaHashMatched": true,
+            "posterHashMatched": true,
+            "checkedAt": "2026-10-19T13:09:38.499144+00:00",
+            "lobbyRevision": "ede3ce64509f5cd822d52d752207e911ac340cf3",
+            "workbenchRevision": "bfe087886636f70effe4d733c71f94847beb6ff2",
+            "evidence": "daily-2026-10-19/playback.json",
+            "integrityEvidence": "daily-2026-10-19/media-integrity.json"
+          }
+        }
+      ]
     },
     {
       "resourceId": "seance",
@@ -2179,6 +2250,99 @@
           "daily-2026-10-20/workbench-playback.json",
           "daily-2026-10-20/served-media-hashes.json"
         ]
+      }
+    },
+    {
+      "resourceId": "seance-privacy",
+      "title": "Seance — privacy demo",
+      "targetUrl": "https://kylne700.github.io/seance/#tx=891b43606b33d8cdfcc37a44793210ef4a517312c3180772b154d86fc08a2ace",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+          "platform": "Tari Community forum",
+          "author": "Kylne700",
+          "publishedAt": "2026-10-20T18:35:07.259Z",
+          "foundOn": "2026-10-21",
+          "context": "October contest submission for the three-observer privacy demo",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22",
+          "platform": "Bluesky",
+          "author": "Kylne700",
+          "publishedAt": "2026-10-20T18:09:16.314Z",
+          "foundOn": "2026-10-21",
+          "context": "Original creator announcement and demo recording",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-10-21T13:31:11.431Z",
+      "observedRevision": "e98765a19aa0e4d335eaccb04a68aaeb98956033",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.jpg",
+      "sha256": "690a421e3b86a3600a0b412846110cfa134ab1fbd5fd1ae5820a409fc75a733a",
+      "caption": "App demo",
+      "method": "Continuous prepared public transaction inspection. Bounded 780px scroll keeps observer cards readable. Frames 0,6,11 inspected; no wallet or payment. Earlier overscrolled take retained outside Git.",
+      "status": "live-trial-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": {
+          "at": "2026-10-21T13:42:52.311787+00:00",
+          "revision": "bc3f30b894442fd264dd7903b731104796000720",
+          "times": [
+            10.39772,
+            12
+          ],
+          "ended": true
+        }
+      }
+    },
+    {
+      "resourceId": "sapient-bonus-contest",
+      "title": "Sapient community bonus contest",
+      "targetUrl": "https://community.tari.com/t/spooky-secrets-community-bonus-contest/463/1",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/spooky-secrets-community-bonus-contest/463/1",
+          "platform": "Tari Community forum",
+          "author": "0xhra",
+          "publishedAt": "2026-10-21T10:04:59.191Z",
+          "foundOn": "2026-10-21",
+          "context": "Community-funded Sapient bonus contest announcement and eligibility terms",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "announcement",
+      "capturedAt": "2026-10-21T13:41:31.983Z",
+      "observedRevision": null,
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sapient-bonus-contest-20261021.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sapient-bonus-contest-20261021.jpg",
+      "sha256": "ce8c219bdfdab66a081690b63bea0738f9c3002b39b65b7124cba2537d30beb3",
+      "caption": "Announcement",
+      "method": "Continuous public source page scroll. Frames 0,6,11 reviewed. No wallet, script or transaction.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
       }
     }
   ],
