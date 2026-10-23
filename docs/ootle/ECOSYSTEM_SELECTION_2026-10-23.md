@@ -1,0 +1,11 @@
+# October 23 selection receipt
+
+Reuse the repository catalog queue, sourceMonitoring review recorder, existing primary/API readers, dependency inventory/audit workflow and real Creator Hub capture pipeline. They were tested in the October 21 release; current source access and playback are being rechecked. No new crawler, database or renderer is needed. The current source queue and changed-source/failed-read fixture are the representative review trial. Any new media must pass one capture-to-live-playback trial before batching. Preserve older evidence and exact sharing links.
+
+No October 22 lock/report was found. This run catches up from saved checkpoints, conservatively retaining the October 8 overlap used for blocked streams. Existing source failures, Workbench tablet header overlap, startup diagnostics, advisory debt and breaking Tari compatibility upgrades carry forward until fresh evidence resolves them.
+
+Representative trial completed: PR78 merged e209878156bac6836113ddc924a8613b1ec718b8 and deployed dpl_81mA9AXsBka6tg8UYiMVTAEp6SzC; CUA observed the 16-second Graveyard Shift clip advance to 8.269 seconds before batch capture. Reused existing capture pipeline for seven further clips. Familiar was recaptured with a focused scroll because the initial button sequence left the meaningful transaction panel below the fold. No new capture pipeline was needed.
+
+The tablet toolbar follow-up reused the existing compact navigation dropdown and workspace row, extending the breakpoint from 768 to 992 pixels and removing the selector's fixed minimum below that width. The Frontend Responsive Design Standards skill guided touch-size and viewport checks. A temporary CSS trial at 820×1180 and 390×844 was removed before the committed build; PR33's merged artifact passed all four CI jobs. No alternative toolbar or UI pipeline was introduced. The production deployment and final viewport evidence are recorded in release.json.
+
+The final evidence pass reused the existing review recorder and media manifest rather than replacing last-good checkpoints. All eight current clips were matched by title and exact media URL across Lobby/Workbench desktop/phone cases; previous captures remain in history. Source failures, incomplete social streams and dependency migration debt remain explicit holds.

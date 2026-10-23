@@ -1,0 +1,749 @@
+{
+  "date": "2026-10-23",
+  "status": "published-verified-with-open-holds",
+  "lobby": {
+    "revision": "16c3a94bc99f4fa28e04f21d3fc7ebd3244c250a",
+    "url": "https://ootle-lobby-preview.vercel.app",
+    "deploymentId": "dpl_FJTz1yWTi1khedP2RKMk612H4cAK",
+    "deploymentUrl": "https://ootle-lobby-preview-guxvheejx-peekaboo4.vercel.app",
+    "ciRun": 40000275342,
+    "ci": "success",
+    "prs": [
+      78,
+      79
+    ]
+  },
+  "workbench": {
+    "revision": "78732639a7aa7334de9644b20002abdaf07c825a",
+    "url": "https://ootle-workbench.vercel.app",
+    "deploymentId": "dpl_12YaPYPKneCqPqhA7Ss2be82WVkh",
+    "deploymentUrl": "https://ootle-workbench-g8ybtr7tr-peekaboo4.vercel.app",
+    "ciRun": 40002842139,
+    "ci": "success",
+    "prs": [
+      32,
+      33
+    ],
+    "priorCatalogRevision": "3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2"
+  },
+  "agentService": {
+    "revision": "3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2",
+    "deploymentId": "dpl_FGLx9CjmMNg3Es3QfiWTn9MP7fkV",
+    "url": "https://ootle-workbench-agents.vercel.app",
+    "health": {
+      "name": "Ootle agent service",
+      "version": 2,
+      "loginConfigured": true,
+      "buildsConfigured": true,
+      "buildProfiles": [
+        "rust-wasm-v1",
+        "node-test-v1"
+      ],
+      "mcp": "https://ootle-workbench-agents.vercel.app/mcp"
+    }
+  },
+  "scope": "Source curation, catalog/media/UI publication and dependency maintenance. No wallet actions or third-party certification.",
+  "sourceCoverage": {
+    "date": "2026-10-23",
+    "enumerated": 62,
+    "canonicalResources": 54,
+    "attempted": 62,
+    "completeWithinDeclaredScope": 42,
+    "partialOrBlocked": 20,
+    "canonicalComplete": 40,
+    "canonicalPartialOrBlocked": 14,
+    "notRechecked": 0,
+    "copyChanged": 6,
+    "newCanonicalEntries": 4,
+    "newSurfaces": 10,
+    "evidence": "daily-2026-10-23/source-reads.json"
+  },
+  "media": [
+    {
+      "resourceId": "crypt",
+      "video": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261023.mp4",
+        "sha256": "4755a9465f4a21641058d04b65aef1283944ccf37cbfe9ff65a9ae8a5b5ac9bb",
+        "matches": true
+      },
+      "poster": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261023.png",
+        "sha256": "d0e9207a198ae1b5e30854458facd5c7fb2dcf791dd94a98b42ed7f98a5f2fa5",
+        "matches": true
+      }
+    },
+    {
+      "resourceId": "caravel-trade",
+      "video": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-trade-20261023.mp4",
+        "sha256": "95b850b2c3c3027aaff30daeae40fcefca21338325b738f8c17b66c737b11b0c",
+        "matches": true
+      },
+      "poster": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-trade-20261023.png",
+        "sha256": "3f61f459863ab187a149b38eda439dfddad4f0127c9de7e3ac725b39e18b4381",
+        "matches": true
+      }
+    },
+    {
+      "resourceId": "ghostline",
+      "video": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261023.mp4",
+        "sha256": "f6159411ee7f4072a2de2caabc7486b6b3a3b417e337b68c335f75e275526a09",
+        "matches": true
+      },
+      "poster": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261023.png",
+        "sha256": "4312b2334ffc885a64a97d62f72139918fa2fe37c2088764e496f7df657badf8",
+        "matches": true
+      }
+    },
+    {
+      "resourceId": "seance",
+      "video": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
+        "sha256": "93de1622ede170d24bc57d8343cc7b26db3748cdc506f84f7ea9785ffe0ebcc4",
+        "matches": true
+      },
+      "poster": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.png",
+        "sha256": "851f32847e052647f07af1214abbe040e27db70c81283483f13cb0ef38751ea6",
+        "matches": true
+      }
+    },
+    {
+      "resourceId": "graveyard-shift",
+      "video": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-graveyard-shift-20261023.mp4",
+        "sha256": "70597445045c238b20f948a6f18f56fa071e4ecab5b0208ad9e83657e199d25c",
+        "matches": true
+      },
+      "poster": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-graveyard-shift-20261023.png",
+        "sha256": "9f4529e3325d523f9cff598f2d5be8a794b7e8aaf1441d34adadf6de0b7d56ee",
+        "matches": true
+      }
+    },
+    {
+      "resourceId": "hidebox",
+      "video": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hidebox-20261023.mp4",
+        "sha256": "0c3bd34895d31ca7f46aad83026479a093012ad62f3c413e3c9cb4b166d42fb1",
+        "matches": true
+      },
+      "poster": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hidebox-20261023.png",
+        "sha256": "c7d3be4942cdfe643e01f6b2c9c5dd9a7eb78cefcfd46a4a61eb2c60354b26b1",
+        "matches": true
+      }
+    },
+    {
+      "resourceId": "familiar",
+      "video": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-familiar-20261023.mp4",
+        "sha256": "212d9728f76595c0dfb3a7e0b8ff8dd645adaddd0731f2407b2a149e417dcf59",
+        "matches": true
+      },
+      "poster": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-familiar-20261023.png",
+        "sha256": "5a836b5f189d1ab01d38816f9cd4074c13002d2b7e3c593943d637a0af1e0b9d",
+        "matches": true
+      }
+    },
+    {
+      "resourceId": "hearth",
+      "video": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hearth-20261023.mp4",
+        "sha256": "8df78b7470e5c91a1135478bd363e001a9a44737802421ff7ce29e353d27606d",
+        "matches": true
+      },
+      "poster": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hearth-20261023.png",
+        "sha256": "9859eb087d0ae0f05387684b1b1ada60a322cd99ef49af281cf93b3aa59e7427",
+        "matches": true
+      }
+    }
+  ],
+  "playbackCases": 32,
+  "toolbar": {
+    "revision": "78732639a7aa7334de9644b20002abdaf07c825a",
+    "verifiedAt": "2026-10-23T18:34:59.327Z",
+    "viewports": [
+      {
+        "items": [
+          {
+            "className": "d-flex flex-row align-items-center m-1",
+            "display": "flex",
+            "rect": {
+              "bottom": 40.5,
+              "height": 35,
+              "left": 12,
+              "right": 250.34375,
+              "top": 5.5,
+              "width": 238.34375,
+              "x": 12,
+              "y": 5.5
+            }
+          },
+          {
+            "className": "ootle-topbar-workspace m-1 d-flex align-self-center",
+            "display": "flex",
+            "rect": {
+              "bottom": 93,
+              "height": 44,
+              "left": 12,
+              "right": 363,
+              "top": 49,
+              "width": 351,
+              "x": 12,
+              "y": 49
+            }
+          },
+          {
+            "className": "d-flex rounded-md dropdown btn-group",
+            "display": "flex",
+            "rect": {
+              "bottom": 93,
+              "height": 44,
+              "left": 20,
+              "right": 319,
+              "top": 49,
+              "width": 299,
+              "x": 20,
+              "y": 49
+            }
+          },
+          {
+            "className": "d-flex gap-1 align-items-center",
+            "display": "flex",
+            "rect": {
+              "bottom": 93,
+              "height": 44,
+              "left": 319,
+              "right": 363,
+              "top": 49,
+              "width": 44,
+              "x": 319,
+              "y": 49
+            }
+          },
+          {
+            "className": "d-none d-lg-flex flex-row align-items-center justify-content-end flex-nowrap",
+            "display": "none",
+            "rect": {
+              "bottom": 0,
+              "height": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "width": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "className": "ootle-topbar-menu d-lg-none dropdown",
+            "display": "block",
+            "rect": {
+              "bottom": 45,
+              "height": 44,
+              "left": 287.65625,
+              "right": 367,
+              "top": 1,
+              "width": 79.34375,
+              "x": 287.65625,
+              "y": 1
+            }
+          }
+        ],
+        "scrollWidth": 375,
+        "width": 375,
+        "workspace": "Tari_Counter_muu7drsj"
+      },
+      {
+        "items": [
+          {
+            "className": "d-flex flex-row align-items-center m-1",
+            "display": "flex",
+            "rect": {
+              "bottom": 40.5,
+              "height": 35,
+              "left": 12,
+              "right": 250.34375,
+              "top": 5.5,
+              "width": 238.34375,
+              "x": 12,
+              "y": 5.5
+            }
+          },
+          {
+            "className": "ootle-topbar-workspace m-1 d-flex align-self-center",
+            "display": "flex",
+            "rect": {
+              "bottom": 93,
+              "height": 44,
+              "left": 12,
+              "right": 402,
+              "top": 49,
+              "width": 390,
+              "x": 12,
+              "y": 49
+            }
+          },
+          {
+            "className": "d-flex rounded-md dropdown btn-group",
+            "display": "flex",
+            "rect": {
+              "bottom": 93,
+              "height": 44,
+              "left": 20,
+              "right": 358,
+              "top": 49,
+              "width": 338,
+              "x": 20,
+              "y": 49
+            }
+          },
+          {
+            "className": "d-flex gap-1 align-items-center",
+            "display": "flex",
+            "rect": {
+              "bottom": 93,
+              "height": 44,
+              "left": 358,
+              "right": 402,
+              "top": 49,
+              "width": 44,
+              "x": 358,
+              "y": 49
+            }
+          },
+          {
+            "className": "d-none d-lg-flex flex-row align-items-center justify-content-end flex-nowrap",
+            "display": "none",
+            "rect": {
+              "bottom": 0,
+              "height": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "width": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "className": "ootle-topbar-menu d-lg-none dropdown",
+            "display": "block",
+            "rect": {
+              "bottom": 45,
+              "height": 44,
+              "left": 326.65625,
+              "right": 406,
+              "top": 1,
+              "width": 79.34375,
+              "x": 326.65625,
+              "y": 1
+            }
+          }
+        ],
+        "scrollWidth": 414,
+        "width": 414,
+        "workspace": "Tari_Counter_muu7drsj"
+      },
+      {
+        "items": [
+          {
+            "className": "d-flex flex-row align-items-center m-1",
+            "display": "flex",
+            "rect": {
+              "bottom": 40.5,
+              "height": 35,
+              "left": 12,
+              "right": 250.34375,
+              "top": 5.5,
+              "width": 238.34375,
+              "x": 12,
+              "y": 5.5
+            }
+          },
+          {
+            "className": "ootle-topbar-workspace m-1 d-flex align-self-center",
+            "display": "flex",
+            "rect": {
+              "bottom": 93,
+              "height": 44,
+              "left": 12,
+              "right": 756,
+              "top": 49,
+              "width": 744,
+              "x": 12,
+              "y": 49
+            }
+          },
+          {
+            "className": "d-flex rounded-md dropdown btn-group",
+            "display": "flex",
+            "rect": {
+              "bottom": 93,
+              "height": 44,
+              "left": 20,
+              "right": 712,
+              "top": 49,
+              "width": 692,
+              "x": 20,
+              "y": 49
+            }
+          },
+          {
+            "className": "d-flex gap-1 align-items-center",
+            "display": "flex",
+            "rect": {
+              "bottom": 93,
+              "height": 44,
+              "left": 712,
+              "right": 756,
+              "top": 49,
+              "width": 44,
+              "x": 712,
+              "y": 49
+            }
+          },
+          {
+            "className": "d-none d-lg-flex flex-row align-items-center justify-content-end flex-nowrap",
+            "display": "none",
+            "rect": {
+              "bottom": 0,
+              "height": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "width": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "className": "ootle-topbar-menu d-lg-none dropdown",
+            "display": "block",
+            "rect": {
+              "bottom": 45,
+              "height": 44,
+              "left": 680.65625,
+              "right": 760,
+              "top": 1,
+              "width": 79.34375,
+              "x": 680.65625,
+              "y": 1
+            }
+          }
+        ],
+        "scrollWidth": 768,
+        "width": 768,
+        "workspace": "Tari_Counter_muu7drsj"
+      },
+      {
+        "items": [
+          {
+            "className": "d-flex flex-row align-items-center m-1",
+            "display": "flex",
+            "rect": {
+              "bottom": 40.5,
+              "height": 35,
+              "left": 12,
+              "right": 250.34375,
+              "top": 5.5,
+              "width": 238.34375,
+              "x": 12,
+              "y": 5.5
+            }
+          },
+          {
+            "className": "ootle-topbar-workspace m-1 d-flex align-self-center",
+            "display": "flex",
+            "rect": {
+              "bottom": 93,
+              "height": 44,
+              "left": 12,
+              "right": 808,
+              "top": 49,
+              "width": 796,
+              "x": 12,
+              "y": 49
+            }
+          },
+          {
+            "className": "d-flex rounded-md dropdown btn-group",
+            "display": "flex",
+            "rect": {
+              "bottom": 93,
+              "height": 44,
+              "left": 20,
+              "right": 764,
+              "top": 49,
+              "width": 744,
+              "x": 20,
+              "y": 49
+            }
+          },
+          {
+            "className": "d-flex gap-1 align-items-center",
+            "display": "flex",
+            "rect": {
+              "bottom": 93,
+              "height": 44,
+              "left": 764,
+              "right": 808,
+              "top": 49,
+              "width": 44,
+              "x": 764,
+              "y": 49
+            }
+          },
+          {
+            "className": "d-none d-lg-flex flex-row align-items-center justify-content-end flex-nowrap",
+            "display": "none",
+            "rect": {
+              "bottom": 0,
+              "height": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "width": 0,
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "className": "ootle-topbar-menu d-lg-none dropdown",
+            "display": "block",
+            "rect": {
+              "bottom": 45,
+              "height": 44,
+              "left": 732.65625,
+              "right": 812,
+              "top": 1,
+              "width": 79.34375,
+              "x": 732.65625,
+              "y": 1
+            }
+          }
+        ],
+        "scrollWidth": 820,
+        "width": 820,
+        "workspace": "Tari_Counter_muu7drsj"
+      },
+      {
+        "items": [
+          {
+            "className": "d-flex flex-row align-items-center m-1",
+            "display": "flex",
+            "rect": {
+              "bottom": 40,
+              "height": 35,
+              "left": 12,
+              "right": 250.34375,
+              "top": 5,
+              "width": 238.34375,
+              "x": 12,
+              "y": 5
+            }
+          },
+          {
+            "className": "ootle-topbar-workspace m-1 d-flex align-self-center",
+            "display": "flex",
+            "rect": {
+              "bottom": 38,
+              "height": 31,
+              "left": 330.7421875,
+              "right": 686.7421875,
+              "top": 7,
+              "width": 356,
+              "x": 330.7421875,
+              "y": 7
+            }
+          },
+          {
+            "className": "d-flex rounded-md dropdown btn-group",
+            "display": "flex",
+            "rect": {
+              "bottom": 38,
+              "height": 31,
+              "left": 338.7421875,
+              "right": 658.7421875,
+              "top": 7,
+              "width": 320,
+              "x": 338.7421875,
+              "y": 7
+            }
+          },
+          {
+            "className": "d-flex gap-1 align-items-center",
+            "display": "flex",
+            "rect": {
+              "bottom": 33.5,
+              "height": 22,
+              "left": 670.7421875,
+              "right": 686.7421875,
+              "top": 11.5,
+              "width": 16,
+              "x": 670.7421875,
+              "y": 11.5
+            }
+          },
+          {
+            "className": "d-none d-lg-flex flex-row align-items-center justify-content-end flex-nowrap",
+            "display": "flex",
+            "rect": {
+              "bottom": 38,
+              "height": 31,
+              "left": 763.140625,
+              "right": 1016,
+              "top": 7,
+              "width": 252.859375,
+              "x": 763.140625,
+              "y": 7
+            }
+          },
+          {
+            "className": "ootle-topbar-menu d-lg-none dropdown",
+            "display": "none",
+            "rect": {
+              "bottom": 0,
+              "height": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "width": 0,
+              "x": 0,
+              "y": 0
+            }
+          }
+        ],
+        "scrollWidth": 1024,
+        "width": 1024,
+        "workspace": "Tari_Counter_muu7drsj"
+      },
+      {
+        "items": [
+          {
+            "className": "d-flex flex-row align-items-center m-1",
+            "display": "flex",
+            "rect": {
+              "bottom": 40,
+              "height": 35,
+              "left": 12,
+              "right": 250.34375,
+              "top": 5,
+              "width": 238.34375,
+              "x": 12,
+              "y": 5
+            }
+          },
+          {
+            "className": "ootle-topbar-workspace m-1 d-flex align-self-center",
+            "display": "flex",
+            "rect": {
+              "bottom": 38,
+              "height": 31,
+              "left": 500.7421875,
+              "right": 932.7421875,
+              "top": 7,
+              "width": 432,
+              "x": 500.7421875,
+              "y": 7
+            }
+          },
+          {
+            "className": "d-flex rounded-md dropdown btn-group",
+            "display": "flex",
+            "rect": {
+              "bottom": 38,
+              "height": 31,
+              "left": 508.7421875,
+              "right": 828.7421875,
+              "top": 7,
+              "width": 320,
+              "x": 508.7421875,
+              "y": 7
+            }
+          },
+          {
+            "className": "d-flex gap-1 align-items-center",
+            "display": "flex",
+            "rect": {
+              "bottom": 36.5,
+              "height": 28,
+              "left": 840.7421875,
+              "right": 932.7421875,
+              "top": 8.5,
+              "width": 92,
+              "x": 840.7421875,
+              "y": 8.5
+            }
+          },
+          {
+            "className": "d-none d-lg-flex flex-row align-items-center justify-content-end flex-nowrap",
+            "display": "flex",
+            "rect": {
+              "bottom": 38,
+              "height": 31,
+              "left": 1179.140625,
+              "right": 1432,
+              "top": 7,
+              "width": 252.859375,
+              "x": 1179.140625,
+              "y": 7
+            }
+          },
+          {
+            "className": "ootle-topbar-menu d-lg-none dropdown",
+            "display": "none",
+            "rect": {
+              "bottom": 0,
+              "height": 0,
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "width": 0,
+              "x": 0,
+              "y": 0
+            }
+          }
+        ],
+        "scrollWidth": 1440,
+        "width": 1440,
+        "workspace": "Tari_Counter_muu7drsj"
+      }
+    ],
+    "navigationMenu": "Opened: Lobby, GitHub, Settings, Tari AI",
+    "layoutMenu": "Opened: Left, Bottom and Right panel controls",
+    "temporaryStyles": "Removed before production reload",
+    "representativePlayback": {
+      "title": "HideBox",
+      "start": {
+        "paused": true,
+        "src": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hidebox-20261023.mp4",
+        "time": 0
+      },
+      "end": {
+        "duration": 12,
+        "error": null,
+        "time": 12
+      }
+    }
+  },
+  "holds": [
+    "Incomplete X search/replies, Reddit reply streams, Discord overlap and Telegram message access; full video streams unread",
+    "Current Radicle head and hidden forum post 18 unresolved",
+    "XTM-MINER prerelease announcement not an available app",
+    "Legacy Yarn advisory debt, informational Rust warnings and breaking Ootle/SDK migration",
+    "Workbench startup diagnostics retained"
+  ],
+  "schedule": {
+    "heartbeatAt": "2026-10-23T09:08:38.441Z",
+    "startedAt": "2026-10-23T17:40:54.821752+00:00",
+    "finishedAt": "2026-10-23T18:35:11.756804+00:00",
+    "gap": "Delayed local execution. No October22 receipt found."
+  }
+}

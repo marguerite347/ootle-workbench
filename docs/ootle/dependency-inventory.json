@@ -9462,7 +9462,7 @@
       ]
     },
     "today": {
-      "status": "Pending final October 23 CI; last successful audit retained in history",
+      "status": "Both October23 merged-revision Rust advisory jobs passed",
       "previousRun": {
         "status": "Both October21 merged-revision Rust advisory jobs passed",
         "previousRun": {
@@ -10074,7 +10074,35 @@
             }
           }
         ]
-      }
+      },
+      "run": 40000205782,
+      "revision": "3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2",
+      "audits": [
+        {
+          "file": "work/daily-2026-10-23/rust-audits/starter/rust-audit.json",
+          "vulnerabilities": {
+            "found": false,
+            "count": 0,
+            "list": []
+          },
+          "warningCounts": {
+            "unmaintained": 4
+          }
+        },
+        {
+          "file": "work/daily-2026-10-23/rust-audits/remix-example/rust-audit.json",
+          "vulnerabilities": {
+            "found": false,
+            "count": 0,
+            "list": []
+          },
+          "warningCounts": {
+            "unmaintained": 4,
+            "unsound": 2,
+            "yanked": 1
+          }
+        }
+      ]
     }
   },
   "pythonVendorRequirements": {
@@ -10331,7 +10359,15 @@
       "from": "10.7.3",
       "to": "10.7.4",
       "scope": "Workbench agent-service transitive lock",
-      "evidence": "23 service tests passed; zero npm advisories after patch; release pending"
+      "evidence": "23 service tests passed; zero npm advisories after patch; merged PR32 revision 3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2; deployed dpl_FGLx9CjmMNg3Es3QfiWTn9MP7fkV; production /health returned configured login/builds and both profiles."
     }
-  ]
+  ],
+  "bundleEvidence": {
+    "checkedAt": "2026-10-23T18:12:13.987Z",
+    "advisoryFixtureDate": "2026-10-09T14:49:11.929Z",
+    "scope": "Lockfile paths plus package presence in the emitted main webpack bundle. Presence is not vulnerable-call reachability; absence does not cover copied static plugin applications or developer tooling.",
+    "bundleEvidenceAvailable": true,
+    "file": "work/daily-2026-10-23/node-exposure/dependency-paths.json",
+    "note": "Bundle path evidence reuses the dated advisory fixture; October23 full lockfile audits are recorded separately. Presence is not exploitability."
+  }
 }
