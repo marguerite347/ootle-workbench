@@ -1056,7 +1056,7 @@ export function RemixUiTopbar() {
         </div>
         <div
           ref={rightSideRef}
-          className="d-none d-md-flex flex-row align-items-center justify-content-end flex-nowrap"
+          className="d-none d-lg-flex flex-row align-items-center justify-content-end flex-nowrap"
           style={{ flex: '0 0 auto', whiteSpace: 'nowrap' }}
         >
           <div className="d-flex flex-row align-items-center gap-2 flex-nowrap" style={{ whiteSpace: 'nowrap' }}>
@@ -1153,7 +1153,7 @@ export function RemixUiTopbar() {
           </span>
           <button className="btn btn-sm btn-outline-secondary ms-3" style={{ color: 'var(--text)' }} onClick={openAssistant}>Tari AI</button>
         </div>
-        <Dropdown className="ootle-topbar-menu d-md-none">
+        <Dropdown className="ootle-topbar-menu d-lg-none">
           <Dropdown.Toggle variant="outline-secondary" id="ootle-navigation" style={{ color: 'var(--text)' }}>Menu</Dropdown.Toggle>
           <Dropdown.Menu align="end">
             <Dropdown.Item href="https://ootle-lobby-preview.vercel.app/" target="_blank" rel="noopener noreferrer">Back to Lobby</Dropdown.Item>
