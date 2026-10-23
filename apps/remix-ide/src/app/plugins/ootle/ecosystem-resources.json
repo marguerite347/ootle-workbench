@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-10-21T13:42:52.311787+00:00",
+  "reviewedAt": "2026-10-23T17:58:14.186094+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -53,7 +53,7 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official TypeScript SDK",
-      "summary": "Core SDK, indexer and signer clients for browser and Node applications. October 21 release v0.11.0 changes templateAddressLiteral encoding to untagged 32-byte data, a breaking update following v0.10.0’s Ootle 0.47.0 package-set migration. Match network and versioned examples before integrating; this catalog update does not migrate Workbench runtime dependencies.",
+      "summary": "Core SDK, indexer and signer clients for browser and Node applications. October 21 release v0.11.0 changes templateAddressLiteral encoding to untagged 32-byte data, a breaking update following v0.10.0’s Ootle 0.47.0 package-set migration. Match network and versioned examples before integrating; this catalog update does not migrate Workbench runtime dependencies. October 23 update: v0.11.1 bounds SSE line/event sizes and scans each byte once in the indexer client. This is a catalog version observation; Workbench integration pins remain separately validated.",
       "status": "Source reviewed · runtime untested",
       "sourceUrl": "https://github.com/tari-project/ootle.ts",
       "repoUrl": "https://github.com/tari-project/ootle.ts",
@@ -65,9 +65,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle L2",
       "platform": "TypeScript / browser / Node",
-      "upstreamRevision": "16a170955aa88e36022cff895082579587644786",
+      "upstreamRevision": "d48899550b23317bc201bfa99b7e2f2d18ce229e",
       "sourceUpdatedAt": "2026-10-07T13:28:57Z",
-      "lastCheckedAt": "2026-10-21T13:42:52.311787+00:00",
+      "lastCheckedAt": "2026-10-23T17:58:14.186094+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -97,6 +97,11 @@
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0",
           "platform": "GitHub release",
           "context": "October 21 breaking templateAddressLiteral encoding correction"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1",
+          "platform": "GitHub release",
+          "context": "Indexer SSE size and scanning fix"
         }
       ],
       "cardSummary": "Build browser and Node integrations with Ootle clients for indexing, signing and core operations.",
@@ -328,7 +333,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Caravel Burn Wallet",
-      "summary": "Deposit-only Ootle testnet contract source: no withdrawal function. Deposits are irreversible. The October 14 example uses official SDK 0.9; network validation claims remain attributed to the creator. No deposit was performed.",
+      "summary": "Deposit-only Ootle burn template with no withdrawal method. Funds sent into it cannot be recovered. October 23 source and creator submission describe the integrated Caravel Burn page, public totals and private transfers. The public app reaches wallet setup before the Burn page; no wallet or deposit was created. Esmeralda testnet only. Existing footage is a source walkthrough, not a burn transaction.",
       "status": "Testnet only · irreversible deposits · runtime untested",
       "sourceUrl": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
       "repoUrl": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
@@ -340,9 +345,9 @@
       "license": "MIT",
       "network": "Ootle Esmeralda testnet",
       "platform": "Rust / TypeScript",
-      "upstreamRevision": "7f960ace483a990ced1dbf6e6edc3c1070ed33e6",
+      "upstreamRevision": "a1d156b5332f0b11fe87403bedfb6c38c14b22b8",
       "sourceUpdatedAt": "2026-10-09T16:04:41Z",
-      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
+      "lastCheckedAt": "2026-10-23T17:59:08.132765+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -350,7 +355,7 @@
         "templates",
         "community"
       ],
-      "demoUrl": null,
+      "demoUrl": "https://caravellabs.net",
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.mp4",
@@ -364,9 +369,19 @@
         {
           "url": "https://x.com/Caravelxyz/status/2108591594236481966",
           "platform": "X"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/",
+          "platform": "Reddit · r/tari",
+          "context": "Updated creator announcement"
         }
       ],
-      "cardSummary": "Study a deposit-only Ootle template and its integration examples.",
+      "cardSummary": "Explore a deposit-only Ootle template with public burn totals and private transfers into an irreversible vault.",
       "cardStatus": "Testnet · Irreversible deposits"
     },
     {
@@ -537,8 +552,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Crypt",
-      "summary": "Rust escrow template and CLI for encrypted secret sales on Ootle, with a wallet-free WebAssembly browser demo. On October 19, 2026, the demo accepted real BUY, OPEN and DISPUTE clicks and reached The Forger’s Curse locally; this did not submit a network transaction. Disputes reveal the secret publicly, and the contract checks delivery against the seller’s commitment, not its value. Sale metadata, amounts and funding links remain public. The maintainer supplies Esmeralda transaction evidence separately; historical same-wallet funding is not proof of independent counterparties. BSD-3-Clause source at 242f11b. Earlier source-only availability observations remain in the maintenance history.",
-      "status": "Browser demo · Testnet source · Disputes reveal secrets",
+      "summary": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. October 23 inspection of ON-CHAIN · SAPIENT found the creator’s warning that 15 test units remain in settled escrow because the browser wallet cannot yet sign the Rust SDK stealth payout; reloading mid-sale abandons the session. No wallet was connected and no funds were sent. The new recording shows this restriction and returns to the title. The original simulation footage remains in capture history. Disputes can reveal secrets; public metadata remains visible. MIT source, Esmeralda testnet.",
+      "status": "Browser demo · Testnet · Wallet payouts unavailable",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
       "repoUrl": "https://github.com/Lrifton92/crypt",
       "docsUrl": "https://github.com/Lrifton92/crypt#readme",
@@ -549,9 +564,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle Esmeralda testnet; browser demo local",
       "platform": "Web demo / Rust / CLI",
-      "upstreamRevision": "242f11bb8d570e434ed0a21b3aecde1b71d51c91",
+      "upstreamRevision": "17cf366682a59c1116e0dd50be3cc161d9d33874",
       "sourceUpdatedAt": "2026-10-18T13:23:50.855Z",
-      "lastCheckedAt": "2026-10-19T12:53:54.707951+00:00",
+      "lastCheckedAt": "2026-10-23T17:58:14.186094+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -598,11 +613,11 @@
         }
       ],
       "cardSummary": "Play a wallet-free secret-trading demo, choosing honest or deceptive actions to explore escrow and delivery disputes.",
-      "cardStatus": "Browser demo · Testnet source · Disputes reveal secrets",
+      "cardStatus": "Browser demo · Testnet · Wallet payouts unavailable",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261019.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261019.jpg",
-        "source": "App demo — Wallet-free local WebAssembly game; no on-chain transaction."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261023.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261023.png",
+        "source": "App demo — Wallet-path requirements and payout warning, then title screen; no wallet connected or transaction performed."
       }
     },
     {
@@ -862,8 +877,8 @@
       "ecosystem": "tari-ootle",
       "group": "Agents",
       "title": "Ghostline",
-      "summary": "Payment-channel toolkit for agent API calls on Ootle: cumulative off-chain vouchers, HTTP 402 quotes, spending policies, CLI, Rust/TypeScript support and MCP tools. October 21 review found v0.3.2 and a guided local Esmeralda runner that checks the template, starts a sample API, asks before opening and settling, and prints finality links. The documented runner requires walletd 0.47.0 or newer and a funded test wallet; the maintainer reports 0.46.1 decoding failures. The hosted website remains a static motion explainer. Services see requests, prices and vouchers; fees, timing, funding links and channel metadata remain public. Experimental pooled close is not coordinator-private. Esmeralda only; Linux x86-64 CLI releases; MIT. This review read the pinned guide and captured its setup requirements without installing software, using a wallet or sending transactions.",
-      "status": "CLI · SDK · Testnet",
+      "summary": "Private pay-per-call channels for AI agents, with cumulative vouchers and one settlement. October 23 inspection ran all five browser-simulated calls: the interface displayed 50 µT accepted and then an explicitly separate archived Esmeralda receipt. Those clicks did not create a transaction. Release v0.4.0 also offers a Sapient test relay; it controls the test deposit and refund, so it is a custody experiment rather than a production payment service. The service sees requests and timing; privacy is not anonymity. No wallet, relay payment or CLI was run.",
+      "status": "Browser demo · CLI · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
       "repoUrl": "https://github.com/AduAkorful/ghostline",
       "docsUrl": "https://github.com/AduAkorful/ghostline/blob/0b0ff7dfc5f8a774a5f8176c375b191492757b00/docs/quickstart.md#guided-esmeralda-demo",
@@ -874,9 +889,9 @@
       "license": "MIT",
       "network": "Esmeralda testnet",
       "platform": "Rust · TypeScript · Linux x86-64 CLI",
-      "upstreamRevision": "0b0ff7dfc5f8a774a5f8176c375b191492757b00",
+      "upstreamRevision": "894b3ed3c41936a21d8ed3ea8d281b2e95d91fd4",
       "sourceUpdatedAt": "2026-10-17T21:50:36.623Z",
-      "lastCheckedAt": "2026-10-21T13:42:52.311787+00:00",
+      "lastCheckedAt": "2026-10-23T17:58:14.186094+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -885,7 +900,7 @@
         "payments",
         "testnet"
       ],
-      "demoUrl": "https://ghostline-ui.vercel.app/",
+      "demoUrl": "https://ghostline-ui.vercel.app/play.html",
       "discussionLinks": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
@@ -901,14 +916,19 @@
           "url": "https://github.com/AduAkorful/ghostline/releases/tag/v0.3.2",
           "platform": "GitHub release",
           "context": "v0.3.2 guided local Esmeralda setup and fee-cap changes"
+        },
+        {
+          "url": "https://github.com/AduAkorful/ghostline/releases/tag/v0.4.0",
+          "platform": "GitHub release",
+          "context": "Creator v0.4.0 release"
         }
       ],
       "cardSummary": "Explore payment channels that let AI agents pay per API call using cumulative vouchers and one settlement.",
-      "cardStatus": "CLI · SDK · Testnet",
+      "cardStatus": "Browser demo · CLI · Testnet",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-guided-20261021.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-guided-20261021.jpg",
-        "source": "Source/docs walkthrough — Guided Esmeralda setup requirements at v0.3.2; no script or payment executed."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261023.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261023.png",
+        "source": "App demo — Five simulated calls and separate archived chain evidence; no wallet or payment."
       }
     },
     {
@@ -918,8 +938,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Séance",
-      "summary": "Rust CLI and Ootle template for sealed ballots in groups of 2–64. Ring signatures prove group membership without naming the voter; per-poll pseudonyms allow recasting, and commit/reveal controls when choices become public. The source also includes the reusable ootle-ring crate and Confessional example. October 20 review read the README, MIT license, manifest and maintainer-supplied Esmeralda proof. The maintainer reports 62 tests and network receipts; those are upstream claims, not tests run by this catalog. Source pins template_lib 0.34.0 and test tooling 0.46.1; the proof names wallet/network 0.47.0. Fee-pot contributions cannot be withdrawn. Losing a receipt prevents a vote from being counted; receipt holders can learn the choice. Revealed choices are public per pseudonym, and timing/funding links remain possible. Esmeralda testnet only.",
-      "status": "Source code · Testnet · Fee-pot deposits irreversible",
+      "summary": "Sealed group polls with anonymous eligibility, replaceable ballots and scheduled reveal. October 23 browser inspection cast a local Treat ballot, rejected an outsider and revealed a 0/1/0 tally; the page also read two historical Esmeralda polls and displayed matching recomputed hashes. The local browser exercise creates no chain transaction. The recorded clip tours this public interface. Prior pinned Radicle source is retained; current repository head was not established. Fee-pot contributions cannot be withdrawn. Receipt loss prevents counting; revealed choices and timing/funding links can expose information. MIT source, Esmeralda testnet.",
+      "status": "Browser demo · Testnet · Fee-pot deposits irreversible",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
       "repoUrl": "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
       "docsUrl": "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
@@ -932,7 +952,7 @@
       "platform": "Rust CLI · Ootle template",
       "upstreamRevision": "4e0dde7758593b58087bbd4d045d6d3c6f87a836",
       "sourceUpdatedAt": "2026-10-20T11:25:58.437Z",
-      "lastCheckedAt": "2026-10-20T14:06:51.288529+00:00",
+      "lastCheckedAt": "2026-10-23T17:58:14.186094+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -946,15 +966,21 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
           "platform": "Tari Community forum",
           "context": "October contest submission for Séance sealed group polls, with source and network proof links"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22",
+          "platform": "Tari Community forum",
+          "context": "Creator submission or material update"
         }
       ],
       "cardSummary": "Create sealed group polls with anonymous eligibility, replaceable ballots and a scheduled reveal of choices.",
-      "cardStatus": "Source code · Testnet · Fee-pot deposits irreversible",
+      "cardStatus": "Browser demo · Testnet · Fee-pot deposits irreversible",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-announcement-20261020.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-announcement-20261020.jpg",
-        "source": "Source/docs walkthrough — Announcement: original contest submission; no vote executed."
-      }
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.png",
+        "source": "App demo — Browser poll interface overview; local interactions and historical poll reads are separate from chain voting."
+      },
+      "demoUrl": "https://seance.madebydevx.com"
     },
     {
       "id": "tari-ootle:component:sealed-bids-at-midnight",
@@ -1054,6 +1080,281 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.jpg",
         "source": "App demo — Read-only public transaction view; no payment sent."
+      }
+    },
+    {
+      "id": "tari-ootle:component:graveyard-shift",
+      "key": "graveyard-shift",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Graveyard Shift",
+      "summary": "Confidential payroll template and interactive browser replay. October 23 inspection showed Alice’s recorded 3000 SHIFT pay stub, an auditor reconciliation to the 10000 SHIFT budget, and hidden coworker amounts. The page replays an engine transcript; it does not decrypt or pay through the browser. The original post’s empty-faucet limitation was superseded by the creator’s October 22 update linking a published Esmeralda template and two-paycheck shift transaction. The browser replay has three paychecks and is separate from that deployment evidence. Roster, roles, paid status and total budget remain public; the auditor key is fixed per payroll. MIT source; no wallet or payroll transaction performed here.",
+      "status": "Browser demo · Testnet",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/20",
+      "repoUrl": "https://github.com/XachP/graveyard-shift",
+      "docsUrl": "https://github.com/XachP/graveyard-shift#readme",
+      "demoUrl": "https://xachp.github.io/graveyard-shift/",
+      "creator": {
+        "name": "XachP",
+        "url": "https://github.com/XachP"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "a46223faac256a746a33671ff93b4c2b0c7e0d0d",
+      "sourceUpdatedAt": "2026-10-21T23:23:34.426Z",
+      "lastCheckedAt": "2026-10-23T17:45:25.701757+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/20",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/23",
+          "platform": "Tari Community forum",
+          "context": "Follow-up Esmeralda deployment evidence supersedes original faucet hold"
+        },
+        {
+          "url": "https://bsky.app/profile/zjpenterprises.bsky.social/post/3myfxphq3ps2u",
+          "platform": "Bluesky",
+          "context": "Creator announcement linked from submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xc4cdg/graveyard_shift_payroll_where_the_salaries_stay/",
+          "platform": "Reddit · r/tari",
+          "context": "Creator payroll announcement"
+        }
+      ],
+      "cardSummary": "Explore confidential payroll from employee, auditor and public perspectives, with selective disclosure of individual payslips.",
+      "cardStatus": "Browser demo · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-graveyard-shift-20261023.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-graveyard-shift-20261023.png",
+        "source": "App demo — Interactive replay of the creator’s engine transcript; four perspectives, no browser decryption or payment."
+      }
+    },
+    {
+      "id": "tari-ootle:component:hidebox",
+      "key": "hidebox",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "HideBox",
+      "summary": "Browser-encrypted file drive with link, word, address and pay-to-open sharing. The October 23 public how-it-works page describes browser-held keys, encrypted uploads and a SealLog record when a file leaves the drive. Losing the saved key loses access. The creator says the server observes padded sizes, timing and sharing rules; this is not a claim that all metadata is hidden. The public site and documentation were inspected without creating a drive, keys or wallet, uploading files, or making payments. MIT source; Esmeralda testnet. Recording shows the documentation and its illustrative UI, not an uploaded file.",
+      "status": "Web app · Testnet · Save your browser key",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/19",
+      "repoUrl": "https://github.com/c7b/hidebox",
+      "docsUrl": "https://github.com/c7b/hidebox#readme",
+      "demoUrl": "https://hidebox.app",
+      "creator": {
+        "name": "c7b",
+        "url": "https://github.com/c7b"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "c696c5466a1f6827fdc239a44a6c87bf0a93971c",
+      "sourceUpdatedAt": "2026-10-22T01:01:13.307Z",
+      "lastCheckedAt": "2026-10-23T17:57:07.924295+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/19",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xbv9r6/i_built_a_private_cloud_storage_on_the_tari_ootle/",
+          "platform": "Reddit · r/tari",
+          "context": "Creator announcement"
+        },
+        {
+          "url": "https://community.tari.com/t/467",
+          "platform": "Tari Community forum",
+          "context": "Dedicated HideBox announcement"
+        }
+      ],
+      "cardSummary": "Store encrypted files and share them through links, recipient addresses or paid access on Ootle testnet.",
+      "cardStatus": "Web app · Testnet · Save your browser key",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hidebox-20261023.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hidebox-20261023.png",
+        "source": "Source/docs walkthrough — Public how-it-works page and illustrative UI; no drive, key, upload or payment created."
+      }
+    },
+    {
+      "id": "tari-ootle:component:familiar",
+      "key": "familiar",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Familiar",
+      "summary": "Rust template and CLI for agent allowances, approved payees, pause and recall. The public walkthrough presents 27 recorded Esmeralda transactions, with 17 accepted and 10 refused according to the creator. October 23 browser inspection advanced between recorded steps 19 and 20; no agent or wallet was connected. Amount mode exposes payment amounts; coupon mode hides denominations while coupon counts and transaction fees remain public. The live-read control did not complete during inspection. MIT prototype; the footage is a source walkthrough of recorded results, not a new on-chain run. Downloaded binaries were not installed.",
+      "status": "Prototype · Testnet",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/21",
+      "repoUrl": "https://github.com/ttimesai-star/familiar-ootle",
+      "docsUrl": "https://github.com/ttimesai-star/familiar-ootle#readme",
+      "demoUrl": "https://ttimesai-star.github.io/familiar-ootle/",
+      "creator": {
+        "name": "ArturBaranouski",
+        "url": "https://github.com/ttimesai-star"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "73b01af39b1f51f1713104ed4a557b48a4f9bda2",
+      "sourceUpdatedAt": "2026-10-21T23:23:41.531Z",
+      "lastCheckedAt": "2026-10-23T17:57:07.924295+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/21",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://bsky.app/profile/zbignevich.bsky.social/post/3myg4lmvgn52f",
+          "platform": "Bluesky",
+          "context": "Creator announcement"
+        },
+        {
+          "url": "https://x.com/ArturZbignevich/status/2113023878524256561",
+          "platform": "X",
+          "context": "Creator announcement"
+        }
+      ],
+      "cardSummary": "Give AI agents a revocable testnet allowance with network-enforced spending limits and approved payees.",
+      "cardStatus": "Prototype · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-familiar-20261023.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-familiar-20261023.png",
+        "source": "Source/docs walkthrough — Creator’s recorded transaction walkthrough; no agent, wallet or new transaction."
+      }
+    },
+    {
+      "id": "tari-ootle:component:hearth",
+      "key": "hearth",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Hearth",
+      "summary": "Confidential humanitarian cash-aid prototype with household enrollment, duplicate-entitlement checks and replacement wallets. The browser replays the creator’s recorded Esmeralda verifier results; it decrypts nothing itself. October 23 inspection showed Household A’s 3000 HEARTH grant and the auditor’s different view of all amounts, with public household counts and total funding. MIT source, template and transaction links are provided by the creator. No grant or wallet transaction was performed. Cohorts, timing and public counts remain visible; privacy and duplicate-enrollment claims depend on the documented registration model. Shared for Web3 for Social Good, not presented as an October contest entry.",
+      "status": "Browser demo · Testnet",
+      "sourceUrl": "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
+      "repoUrl": "https://github.com/XachP/hearth-aid",
+      "docsUrl": "https://github.com/XachP/hearth-aid#readme",
+      "demoUrl": "https://xachp.github.io/hearth-aid/",
+      "creator": {
+        "name": "deeznertsz / XachP",
+        "url": "https://github.com/XachP"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "cfcc3324dc5fac51daf4bc61df935abd65fc8dce",
+      "sourceUpdatedAt": "2026-10-22T02:09:38.621Z",
+      "lastCheckedAt": "2026-10-23T17:57:07.924295+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
+          "platform": "Reddit · r/tari",
+          "context": "Creator humanitarian cash-aid announcement"
+        },
+        {
+          "url": "https://x.com/LUNNTHEDEV/status/2113090097620906275",
+          "platform": "X",
+          "context": "Hearth sharing post retained alongside creator announcement"
+        }
+      ],
+      "cardSummary": "Explore confidential aid grants from household, donor and auditor perspectives while keeping individual amounts selectively visible.",
+      "cardStatus": "Browser demo · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hearth-20261023.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hearth-20261023.png",
+        "source": "App demo — Interactive replay of recorded testnet verifier results; no browser decryption or aid payment."
+      }
+    },
+    {
+      "id": "tari-ootle:component:caravel-trade",
+      "key": "caravel-trade",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Caravel Trade",
+      "summary": "Caravel Trade has progressed from its October 14 README-only listing to implemented Rust templates, TypeScript integration and a creator-reported Esmeralda deployment. The October 23 source describes full-order TARI/cUSD trades, owner cancellation and a 1% fee split: 0.7% Caravel, 0.3% burn. cUSD is a test token with no value. The public app reaches wallet creation or recovery before Trade; no wallet was created and no order was placed. Source now builds against template_lib 0.35 and test tooling 0.47; deployed templates retain their older 0.46.1 build according to the maintainer. Recording is a README walkthrough, not a trade. Original repository discovery and earlier concept footage are retained.",
+      "status": "Web app · Testnet · Wallet required",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25",
+      "repoUrl": "https://github.com/okansaglam016161-pixel/caravel-trade",
+      "docsUrl": "https://github.com/okansaglam016161-pixel/caravel-trade#readme",
+      "demoUrl": "https://caravellabs.net",
+      "creator": {
+        "name": "okansaglam016161-pixel",
+        "url": "https://github.com/okansaglam016161-pixel"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "4f755d3366a32cede06e11fc32f56a325ba38eb2",
+      "sourceUpdatedAt": "2026-10-21T23:23:34.426Z",
+      "lastCheckedAt": "2026-10-23T17:58:14.186094+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25",
+          "platform": "Tari Community forum",
+          "context": "Creator submission or material update"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/",
+          "platform": "Reddit · r/tari",
+          "context": "Creator Trade announcement"
+        },
+        {
+          "url": "https://x.com/Caravelxyz/status/2113244021204131930",
+          "platform": "X",
+          "context": "Creator Trade announcement"
+        }
+      ],
+      "cardSummary": "Explore private peer-to-peer orders exchanging testnet TARI and cUSD, with full-order fills and owner cancellation.",
+      "cardStatus": "Web app · Testnet · Wallet required",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-trade-20261023.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-trade-20261023.png",
+        "source": "Source/docs walkthrough — Updated README, implementation and deployment documentation; no wallet or trade."
       }
     }
   ],
