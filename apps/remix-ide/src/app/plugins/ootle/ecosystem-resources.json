@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-10-23T17:58:14.186094+00:00",
+  "reviewedAt": "2026-10-24T14:20:27.964705+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -877,7 +877,7 @@
       "ecosystem": "tari-ootle",
       "group": "Agents",
       "title": "Ghostline",
-      "summary": "Private pay-per-call channels for AI agents, with cumulative vouchers and one settlement. October 23 inspection ran all five browser-simulated calls: the interface displayed 50 µT accepted and then an explicitly separate archived Esmeralda receipt. Those clicks did not create a transaction. Release v0.4.0 also offers a Sapient test relay; it controls the test deposit and refund, so it is a custody experiment rather than a production payment service. The service sees requests and timing; privacy is not anonymity. No wallet, relay payment or CLI was run.",
+      "summary": "Private pay-per-call channels for AI agents, with cumulative vouchers and one settlement. The October 23 recording runs five simulated browser calls and shows separate archived evidence; these clicks created no transaction. October 24 review of the creator’s recorded-runs page found a hosted Sapient run dated October 23 and CLI run dated October 22, each reporting five calls and a final settlement. Call counts come from service ledgers, not chain proof; the explorer availability labels are dated October 23 creator observations. The Sapient relay controls the test deposit and refund; browser voucher keys do not remove that custody. Requests, timing and fees remain visible. No wallet, relay payment or CLI was run here.",
       "status": "Browser demo · CLI · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
       "repoUrl": "https://github.com/AduAkorful/ghostline",
@@ -889,9 +889,9 @@
       "license": "MIT",
       "network": "Esmeralda testnet",
       "platform": "Rust · TypeScript · Linux x86-64 CLI",
-      "upstreamRevision": "894b3ed3c41936a21d8ed3ea8d281b2e95d91fd4",
+      "upstreamRevision": "c7885a6f7b9d13d5ac3e4df97b98d557ed934c7e",
       "sourceUpdatedAt": "2026-10-17T21:50:36.623Z",
-      "lastCheckedAt": "2026-10-23T17:58:14.186094+00:00",
+      "lastCheckedAt": "2026-10-24T14:20:27.954636+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -921,6 +921,11 @@
           "url": "https://github.com/AduAkorful/ghostline/releases/tag/v0.4.0",
           "platform": "GitHub release",
           "context": "Creator v0.4.0 release"
+        },
+        {
+          "url": "https://ghostline-ui.vercel.app/evidence.html",
+          "platform": "Project documentation",
+          "context": "Creator recorded runs, source-ledger call counts and dated explorer availability"
         }
       ],
       "cardSummary": "Explore payment channels that let AI agents pay per API call using cumulative vouchers and one settlement.",
@@ -1355,6 +1360,66 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-trade-20261023.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-trade-20261023.png",
         "source": "Source/docs walkthrough — Updated README, implementation and deployment documentation; no wallet or trade."
+      }
+    },
+    {
+      "id": "tari-ootle:component:grave-robber",
+      "key": "grave-robber",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Grave Robber",
+      "summary": "Gothic 2D crypt explorer with a riddle ledger and local sandbox balance. October 24 inspection switched between explorer and ledger views; the recording shows Sandbox Sim with no wallet or bounty claim. MIT React/TypeScript source stores tomb state in browser localStorage and checks answers with SHA-256. The reviewed wallet helper requests sendPrivately or shield, but can return generated transaction IDs after non-rejection errors and labels a request result confirmed without a finality check. Its claim request does not submit the riddle preimage to a bounty template. Treat the current experience as a sandbox prototype; the advertised on-chain bounty and front-running protection are not established by this implementation.",
+      "status": "Sandbox game · Testnet prototype",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/18",
+      "repoUrl": "https://github.com/grzdev/grave-robber",
+      "docsUrl": "https://github.com/grzdev/grave-robber#readme",
+      "demoUrl": "https://grave-robber.netlify.app/",
+      "creator": {
+        "name": "r4id3n",
+        "url": "https://github.com/grzdev"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · TypeScript",
+      "upstreamRevision": "a20bccb14085b9bbd6c6a1c89dcbffd6b7f34599",
+      "sourceUpdatedAt": "2026-10-23T19:24:42.018Z",
+      "lastCheckedAt": "2026-10-24T14:20:27.964705+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/18",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://community.tari.com/t/spooky-secrets-community-bonus-contest/463/4",
+          "platform": "Tari Community forum",
+          "context": "Creator Sapient bonus-contest submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/s/Z9ZhhA4BZ2",
+          "platform": "Reddit · r/tari",
+          "context": "Short sharing link retained from forum submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xbopnt/i_built_grave_robber_a_2d_gothic_crypt_heist_on/",
+          "platform": "Reddit · r/tari",
+          "context": "Resolved original post; public page says removed by Reddit filters on October 24"
+        }
+      ],
+      "cardSummary": "Explore candlelit catacombs and inspect crypt riddles in a browser sandbox with a simulated bounty ledger.",
+      "cardStatus": "Sandbox game · Testnet prototype",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-grave-robber-20261024.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-grave-robber-20261024.png",
+        "source": "App demo — Sandbox explorer and riddle ledger; no wallet, bounty claim or transaction."
       }
     }
   ],
