@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T18:24:41.786604+00:00",
+  "updatedAt": "2026-10-24T14:20:27.964705+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -4093,6 +4093,148 @@
           "workbench": "3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2"
         }
       }
+    },
+    {
+      "resourceId": "grave-robber",
+      "title": "Grave Robber",
+      "targetUrl": "https://grave-robber.netlify.app/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/18",
+          "platform": "Tari Community forum",
+          "author": "r4id3n",
+          "publishedAt": "2026-10-21T14:40:06.418Z",
+          "foundOn": "2026-10-24",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/spooky-secrets-community-bonus-contest/463/4",
+          "platform": "Tari Community forum",
+          "author": "r4id3n",
+          "publishedAt": "2026-10-21T17:28:49.660Z",
+          "foundOn": "2026-10-24",
+          "context": "Creator Sapient bonus-contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/s/Z9ZhhA4BZ2",
+          "platform": "Reddit · r/tari",
+          "author": "zayyyyyyyyy_",
+          "foundOn": "2026-10-24",
+          "context": "Short sharing link retained from forum submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xbopnt/i_built_grave_robber_a_2d_gothic_crypt_heist_on/",
+          "platform": "Reddit · r/tari",
+          "author": "zayyyyyyyyy_",
+          "foundOn": "2026-10-24",
+          "context": "Resolved original post; public page says removed by Reddit filters on October 24",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-10-24T14:19:18.812Z",
+      "observedRevision": "a20bccb14085b9bbd6c6a1c89dcbffd6b7f34599",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-24/capture-grave/resource-grave-robber-20261024.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-grave-robber-20261024.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-grave-robber-20261024.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-grave-robber-20261024.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-grave-robber-20261024.png",
+      "sha256": "aea1c23bc0dce2cb452dec43302b8bc882b4dedd66b72427578f87a86b940c30",
+      "caption": "App demo",
+      "method": "App demo — Sandbox explorer and riddle ledger; no wallet, bounty claim or transaction. Bottom 88-pixel recorder padding cropped; raw recording retained.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      },
+      "exportDimensions": {
+        "width": 1280,
+        "height": 712
+      }
+    },
+    {
+      "resourceId": "sooon-fun",
+      "title": "SOOON FUN",
+      "targetUrl": "https://sooon.fun/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1",
+          "platform": "Tari Community forum",
+          "author": "TariRari / community directory",
+          "publishedAt": "2026-08-17T12:41:11.394Z",
+          "foundOn": "2026-10-24",
+          "context": "Retained original community-directory discovery",
+          "visibility": "public"
+        },
+        {
+          "url": "https://x.com/sooonfun/status/2113043736620077141",
+          "platform": "X",
+          "author": "sooonfun",
+          "foundOn": "2026-10-24",
+          "context": "October21 creator v2 launch announcement",
+          "visibility": "public"
+        },
+        {
+          "url": "https://x.com/sooonfun/status/2113046352334819373",
+          "platform": "X",
+          "author": "sooonfun",
+          "foundOn": "2026-10-24",
+          "context": "Creator v2 Call It and prediction-market details",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "app-entry-walkthrough",
+      "capturedAt": "2026-10-24T14:34:21.390Z",
+      "observedRevision": "Public hosted revision not exposed; source response digest in source ledger",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "exportDimensions": {
+        "width": 1280,
+        "height": 712
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-24/capture-sooon/resource-sooon-fun-20261024.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-sooon-fun-20261024.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-sooon-fun-20261024.jpg",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sooon-fun-20261024.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sooon-fun-20261024.jpg",
+      "sha256": "0f8428f867083c2975ef5213899e183e1ce8f79b2fb2aee4249f891a7339619e",
+      "caption": "App entry",
+      "method": "Continuous public entry recording in isolated browser; no wallet or transaction. Bottom recorder padding cropped.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      },
+      "history": [
+        {
+          "image": "/previews/community/sooon-fun.jpg",
+          "video": "/previews/community/sooon-fun.mp4",
+          "label": "Public source walkthrough",
+          "sourceUrl": "https://community.tari.com/t/ootle-testnet-community-apps-directory/281",
+          "capturedAt": "2026-10-04T16:02:52.616125Z",
+          "reviewedAt": "2026-10-04T16:02:52.616125Z",
+          "sha256": "164f026245e883057a9a05b333bd46457425a87420ebb688992153d90630c31f"
+        }
+      ]
     }
   ],
   "release": {
