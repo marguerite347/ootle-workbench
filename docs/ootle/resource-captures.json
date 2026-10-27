@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T14:20:27.964705+00:00",
+  "updatedAt": "2026-10-27T15:44:00.221729+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -4150,14 +4150,25 @@
       "sha256": "aea1c23bc0dce2cb452dec43302b8bc882b4dedd66b72427578f87a86b940c30",
       "caption": "App demo",
       "method": "App demo — Sandbox explorer and riddle ledger; no wallet, bounty claim or transaction. Bottom 88-pixel recorder padding cropped; raw recording retained.",
-      "status": "reviewed-publication-pending",
+      "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
           0,
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": {
+          "checkedAt": "2026-10-27T15:44:00.221729+00:00",
+          "viewports": [
+            "desktop",
+            "390x844"
+          ],
+          "surfaces": [
+            "Lobby",
+            "Workbench"
+          ],
+          "evidence": "daily-2026-10-27/release.json"
+        }
       },
       "exportDimensions": {
         "width": 1280,
@@ -4213,16 +4224,26 @@
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sooon-fun-20261024.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sooon-fun-20261024.jpg",
       "sha256": "0f8428f867083c2975ef5213899e183e1ce8f79b2fb2aee4249f891a7339619e",
-      "caption": "App entry",
+      "caption": "Page walkthrough",
       "method": "Continuous public entry recording in isolated browser; no wallet or transaction. Bottom recorder padding cropped.",
-      "status": "reviewed-publication-pending",
+      "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
           0,
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": {
+          "checkedAt": "2026-10-27T15:44:00.221729+00:00",
+          "viewports": [
+            "desktop",
+            "390x844"
+          ],
+          "surfaces": [
+            "Lobby"
+          ],
+          "evidence": "daily-2026-10-27/release.json"
+        }
       },
       "history": [
         {
@@ -4238,11 +4259,11 @@
     }
   ],
   "release": {
-    "date": "2026-10-23",
-    "lobbyRevision": "16c3a94bc99f4fa28e04f21d3fc7ebd3244c250a",
-    "workbenchRevision": "3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2",
-    "evidence": "daily-2026-10-23/release.json",
-    "note": "Content playback verified at these revisions; later toolbar-only revision recorded in release evidence."
+    "date": "2026-10-27",
+    "lobbyRevision": "0877d2dbc3d0c2ad4e0e8c2f38704f2e2cb95864",
+    "workbenchRevision": "215f08d4b15af3d7b4df016b231779c45ce6e4a7",
+    "evidence": "daily-2026-10-27/release.json",
+    "note": "October 24 content and clips published and independently checked October 27; source review dates unchanged."
   },
   "laterPlaybackReviews": [
     {
@@ -4413,6 +4434,13 @@
       "lobbyRevision": "4b664b558e4bda35dff5c6d742d2f4149f71982e",
       "workbenchRevision": "7cc45e815bb4d15fa47a39638f3a1362b224bffc",
       "evidence": "daily-2026-10-20/release.json"
+    },
+    {
+      "date": "2026-10-23",
+      "lobbyRevision": "16c3a94bc99f4fa28e04f21d3fc7ebd3244c250a",
+      "workbenchRevision": "3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2",
+      "evidence": "daily-2026-10-23/release.json",
+      "note": "Content playback verified at these revisions; later toolbar-only revision recorded in release evidence."
     },
     {
       "date": "2026-10-23",
