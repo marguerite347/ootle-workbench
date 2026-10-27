@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-27",
+  "verifiedAt": "2026-10-27T15:44:00.221729+00:00",
+  "scope": "Recovery of October 24 release plus SOOON FUN controls correction; not a fresh full daily discovery run",
+  "sourceReviewDate": "2026-10-24",
+  "lobbyRevision": "0877d2dbc3d0c2ad4e0e8c2f38704f2e2cb95864",
+  "workbenchRevision": "215f08d4b15af3d7b4df016b231779c45ce6e4a7",
+  "deployments": {
+    "lobby": {
+      "id": "dpl_AMjmniJHEWk9u5p6ovre9zmXY22U",
+      "url": "https://ootle-lobby-preview-ouscl7vlb-peekaboo4.vercel.app",
+      "productionUrl": "https://ootle-lobby-preview.vercel.app",
+      "inspectorUrl": "https://vercel.com/peekaboo4/ootle-lobby-preview/AMjmniJHEWk9u5p6ovre9zmXY22U",
+      "readyState": "READY",
+      "target": "production",
+      "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_AMjmniJHEWk9u5p6ovre9zmXY22U",
+      "buildMachine": {
+        "cores": 2,
+        "memory": 8192,
+        "machine": "basic",
+        "selectionType": "fixed",
+        "selectionSource": "plan-default"
+      },
+      "deploymentProtection": [
+        "vercel_authentication"
+      ]
+    },
+    "workbench": {
+      "id": "dpl_7DzuoyNgj1Jqv71hx1QrokEvZxd4",
+      "url": "https://ootle-workbench-37edlzg78-peekaboo4.vercel.app",
+      "productionUrl": "https://ootle-workbench.vercel.app",
+      "inspectorUrl": "https://vercel.com/peekaboo4/ootle-workbench/7DzuoyNgj1Jqv71hx1QrokEvZxd4",
+      "readyState": "READY",
+      "target": "production",
+      "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_7DzuoyNgj1Jqv71hx1QrokEvZxd4",
+      "buildMachine": {
+        "cores": 2,
+        "memory": 8192,
+        "machine": "basic",
+        "selectionType": "fixed",
+        "selectionSource": "plan-default"
+      },
+      "deploymentProtection": [
+        "vercel_authentication"
+      ]
+    },
+    "agents": {
+      "id": "dpl_5fo23Ru6rUSeRVUj92hRhQeXwd4a",
+      "url": "https://ootle-workbench-agents-32wrgnai0-peekaboo4.vercel.app",
+      "productionUrl": "https://ootle-workbench-agents.vercel.app",
+      "inspectorUrl": "https://vercel.com/peekaboo4/ootle-workbench-agents/5fo23Ru6rUSeRVUj92hRhQeXwd4a",
+      "readyState": "READY",
+      "target": "production",
+      "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_5fo23Ru6rUSeRVUj92hRhQeXwd4a",
+      "buildMachine": {
+        "cores": 2,
+        "memory": 8192,
+        "machine": "basic",
+        "selectionType": "fixed",
+        "selectionSource": "plan-default"
+      },
+      "deploymentProtection": [
+        "vercel_authentication"
+      ]
+    }
+  },
+  "prs": [
+    81,
+    35,
+    82
+  ],
+  "playback": [
+    {
+      "surface": "Workbench",
+      "size": "desktop",
+      "duration": 12,
+      "ended": true,
+      "paused": true,
+      "time": 12
+    },
+    {
+      "surface": "Lobby ecosystem",
+      "size": "desktop",
+      "duration": 12,
+      "ended": true,
+      "paused": true,
+      "time": 12
+    },
+    {
+      "surface": "Workbench",
+      "size": "phone",
+      "duration": 12,
+      "ended": true,
+      "paused": true,
+      "time": 12
+    },
+    {
+      "surface": "Lobby ecosystem",
+      "size": "phone",
+      "duration": 12,
+      "ended": true,
+      "paused": true,
+      "time": 12
+    },
+    {
+      "resource": "sooon-fun",
+      "surface": "Lobby",
+      "size": "desktop",
+      "controls": true,
+      "duration": 12,
+      "ended": false,
+      "paused": false,
+      "time": 5.467996
+    },
+    {
+      "resource": "sooon-fun",
+      "surface": "Lobby expanded gallery",
+      "size": "phone",
+      "controls": true,
+      "duration": 12,
+      "ended": true,
+      "paused": true,
+      "time": 12
+    },
+    {
+      "resource": "sooon-fun",
+      "surface": "Lobby expanded gallery",
+      "size": "desktop",
+      "controls": true,
+      "duration": 12,
+      "ended": true,
+      "paused": true,
+      "time": 12
+    }
+  ],
+  "mediaHashes": [
+    {
+      "resourceId": "grave-robber",
+      "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-grave-robber-20261024.mp4",
+      "sha256": "aea1c23bc0dce2cb452dec43302b8bc882b4dedd66b72427578f87a86b940c30",
+      "matchesRecordedExport": true
+    },
+    {
+      "resourceId": "sooon-fun",
+      "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sooon-fun-20261024.mp4",
+      "sha256": "0f8428f867083c2975ef5213899e183e1ce8f79b2fb2aee4249f891a7339619e",
+      "matchesRecordedExport": true
+    }
+  ],
+  "acceptance": {
+    "desktopPhonePlayback": true,
+    "tabletLayoutsInspected": true,
+    "originalPostLinksPresent": true,
+    "lobbyHoverFocusPointerExit": [
+      {
+        "state": "keyboard focus, pointer outside",
+        "color": "rgb(201, 235, 0)",
+        "focus": true,
+        "hover": false
+      },
+      {
+        "state": "resting",
+        "color": "rgb(236, 238, 255)",
+        "focus": false,
+        "hover": false,
+        "rect": {
+          "bottom": 1295.4453125,
+          "height": 703.421875,
+          "left": 57.59375,
+          "right": 473.859375,
+          "top": 592.0234375,
+          "width": 416.265625,
+          "x": 57.59375,
+          "y": 592.0234375
+        }
+      },
+      {
+        "state": "card hover",
+        "color": "rgb(201, 235, 0)",
+        "focus": false,
+        "hover": true
+      },
+      {
+        "state": "pointer exit",
+        "color": "rgb(236, 238, 255)",
+        "focus": false,
+        "hover": false
+      }
+    ]
+  },
+  "remaining": [
+    "No completed full daily source reviews for October 25-27; October 24 observations remain dated",
+    "Previously recorded partial source streams and dependency migration holds remain",
+    "Full Hub suite previously 277/281; targeted release checks passed; no new suite-wide green claim"
+  ]
+}
