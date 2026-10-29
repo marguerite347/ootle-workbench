@@ -1,0 +1,30 @@
+{
+  "observedAt": "2026-10-29T11:12:51.586011+00:00",
+  "source": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
+  "app": "https://tari-crypt.vercel.app/",
+  "archive": "https://tari-crypt.vercel.app/crypt-source-683bc4e.zip",
+  "archiveSha256": "ec64b4e5acde3ef73819371871d54a7190aa7d32388b1a19229081e6049bb96f",
+  "license": "BSD-3-Clause",
+  "sourceSnapshot": "683bc4e",
+  "summary": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator\u2019s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN \u00b7 SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
+  "workflowSelection": {
+    "reused": "Existing sourceMonitoring, catalog JSON, capture-apps pipeline, GitHub CI artifact and Vercel production projects",
+    "reason": "Already exercised by today\u2019s seven-clip release; no new service, accounts or pipeline needed",
+    "trial": "Crypt mirror title/requirements inspected; public archive README/LICENSE read without executing downloaded code; real capture frames reviewed."
+  },
+  "status": "validated-local-publication-pending",
+  "sourceReviewSummary": {
+    "date": "2026-10-29",
+    "enumerated": 74,
+    "canonicalResources": 59,
+    "attempted": 74,
+    "completeWithinDeclaredScope": 41,
+    "partialOrBlocked": 33,
+    "notRechecked": 0,
+    "copyChanged": 3,
+    "newCanonicalEntries": 5,
+    "newSurfaces": 10,
+    "note": "Every initial surface received source comparison; complete requires all recorded sources read and editorially accepted. Partial/blocked records preserve their last successful review date. This is not full feed coverage or runtime certification.",
+    "partiallyRechecked": 33
+  }
+}

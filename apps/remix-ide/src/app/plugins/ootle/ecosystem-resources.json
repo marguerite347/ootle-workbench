@@ -552,11 +552,11 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Crypt",
-      "summary": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. October 23 inspection of ON-CHAIN · SAPIENT found the creator’s warning that 15 test units remain in settled escrow because the browser wallet cannot yet sign the Rust SDK stealth payout; reloading mid-sale abandons the session. No wallet was connected and no funds were sent. The new recording shows this restriction and returns to the title. The original simulation footage remains in capture history. Disputes can reveal secrets; public metadata remains visible. MIT source, Esmeralda testnet.",
+      "summary": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
       "status": "Browser demo · Testnet · Wallet payouts unavailable",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
-      "repoUrl": "https://github.com/Lrifton92/crypt",
-      "docsUrl": "https://github.com/Lrifton92/crypt#readme",
+      "repoUrl": "https://tari-crypt.vercel.app/crypt-source-683bc4e.zip",
+      "docsUrl": "https://tari-crypt.vercel.app/crypt-source-683bc4e.zip",
       "creator": {
         "name": "Og.boy",
         "url": "https://github.com/Lrifton92"
@@ -564,9 +564,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle Esmeralda testnet; browser demo local",
       "platform": "Web demo / Rust / CLI",
-      "upstreamRevision": "17cf366682a59c1116e0dd50be3cc161d9d33874",
-      "sourceUpdatedAt": "2026-10-18T13:23:50.855Z",
-      "lastCheckedAt": "2026-10-23T17:58:14.186094+00:00",
+      "upstreamRevision": "683bc4e",
+      "sourceUpdatedAt": "2026-10-28T15:08:16.456Z",
+      "lastCheckedAt": "2026-10-29T11:12:51.586011+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -574,7 +574,7 @@
         "community",
         "templates"
       ],
-      "demoUrl": "https://lrifton92.github.io/crypt/",
+      "demoUrl": "https://tari-crypt.vercel.app/",
       "discussionLinks": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
@@ -615,9 +615,9 @@
       "cardSummary": "Play a wallet-free secret-trading demo, choosing honest or deceptive actions to explore escrow and delivery disputes.",
       "cardStatus": "Browser demo · Testnet · Wallet payouts unavailable",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261023.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261023.png",
-        "source": "App demo — Wallet-path requirements and payout warning, then title screen; no wallet connected or transaction performed."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261029.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261029.png",
+        "source": "App demo — Replacement mirror’s testnet payout warning and title screen; no wallet or transaction."
       }
     },
     {
@@ -1457,6 +1457,12 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
           "platform": "Tari Community forum",
           "context": "October contest submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xfqeq2/arkimals_hatch_a_secret_canine_on_tari/",
+          "platform": "Reddit",
+          "author": "Black_Turtle_",
+          "context": "Creator shares the canine game in r/tari"
         }
       ],
       "cardSummary": "Receive a secret canine through an encrypted wallet memo, then choose when to reveal and mint it.",
