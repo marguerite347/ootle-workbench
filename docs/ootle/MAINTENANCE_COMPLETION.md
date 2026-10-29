@@ -20,3 +20,5 @@ Each item includes `id`, `status`, `checkedAt`, and local `evidence` paths relat
 8. If interrupted, save the unfinished queue and mark the run incomplete. Resume it in the next available turn. Report completed public changes separately from pending work and evidenced exceptions; never summarize an incomplete run as complete.
 
 Run `node --test test/maintenance-completion.test.mjs creator-hub/hub/server/test/sourceMonitoring.test.mjs` after changes to these rules. The tests cover omitted scope, unread work mislabeled blocked, stale or absent evidence, superseded URLs, and preservation of last-good dates.
+
+Public catalog `lastCheckedAt` must match the latest successful full source review for reviewed records in both catalogs. Preserve blocked records and all recording/publication dates. The completion gate rejects stale reviewed dates.

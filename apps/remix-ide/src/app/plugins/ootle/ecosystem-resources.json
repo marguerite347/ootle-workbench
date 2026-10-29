@@ -67,7 +67,7 @@
       "platform": "TypeScript / browser / Node",
       "upstreamRevision": "d48899550b23317bc201bfa99b7e2f2d18ce229e",
       "sourceUpdatedAt": "2026-10-07T13:28:57Z",
-      "lastCheckedAt": "2026-10-23T17:58:14.186094+00:00",
+      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -128,7 +128,7 @@
       "platform": "Python ≥3.13",
       "upstreamRevision": "d02b4790b3022583fd22dd57e0fb4135fe367d19",
       "sourceUpdatedAt": "2026-10-02T08:49:54Z",
-      "lastCheckedAt": "2026-10-20T14:16:09.662491+00:00",
+      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -174,7 +174,7 @@
       "platform": "Go / cgo",
       "upstreamRevision": "5d86af331f173c789ca2a26c3a3f2998ed2307f8",
       "sourceUpdatedAt": "2026-10-02T08:49:14Z",
-      "lastCheckedAt": "2026-10-20T14:16:09.662491+00:00",
+      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -220,7 +220,7 @@
       "platform": "TypeScript",
       "upstreamRevision": "6c3f6b54d5af881bef1162cf416fdf2e4a6c3bca",
       "sourceUpdatedAt": "2026-10-05T21:10:12Z",
-      "lastCheckedAt": "2026-10-10T11:48:04.458387+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -264,7 +264,7 @@
       "platform": "Rust template",
       "upstreamRevision": "c3a2a50af4f4088ff4ecb8fcf83bdbbd2bd00d4e",
       "sourceUpdatedAt": "2026-10-07T12:47:22Z",
-      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -308,7 +308,7 @@
       "platform": "Rust / TypeScript",
       "upstreamRevision": "3f88161c2e18df2a3cb31d904b709c65b0a12af5",
       "sourceUpdatedAt": "2026-10-08T11:52:18Z",
-      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
+      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -347,7 +347,7 @@
       "platform": "Rust / TypeScript",
       "upstreamRevision": "a1d156b5332f0b11fe87403bedfb6c38c14b22b8",
       "sourceUpdatedAt": "2026-10-09T16:04:41Z",
-      "lastCheckedAt": "2026-10-23T17:59:08.132765+00:00",
+      "lastCheckedAt": "2026-10-29T20:31:27.598Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -405,7 +405,7 @@
       "platform": "Rust / PostgreSQL / React",
       "upstreamRevision": "8ea6d8b5b1a11ad0eeaca4f01d0caca6344c7ed0",
       "sourceUpdatedAt": "2026-10-06T18:22:50Z",
-      "lastCheckedAt": "2026-10-10T11:48:06.103014+00:00",
+      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -451,7 +451,7 @@
       "platform": "Web",
       "upstreamRevision": "c1dabcf43da468c1490c80db3bd55cb38fc821a6",
       "sourceUpdatedAt": "2026-10-10T04:57:46Z",
-      "lastCheckedAt": "2026-10-13T09:12:59.977051+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -495,7 +495,7 @@
       "platform": "Rust / WebAssembly",
       "upstreamRevision": "ce8680cdd18359d88c3aa209c4ffe35c9c84c86e",
       "sourceUpdatedAt": "2026-10-04T04:23:39Z",
-      "lastCheckedAt": "2026-10-10T11:48:07.451684+00:00",
+      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -534,7 +534,7 @@
       "platform": "Reading",
       "upstreamRevision": "bf4460d1b884d105fe4dc67ef8b3cd1d1be1305e",
       "sourceUpdatedAt": "2026-08-15T18:19:11Z",
-      "lastCheckedAt": "2026-10-10T11:48:07.461644+00:00",
+      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -573,7 +573,7 @@
       "platform": "Web demo / Rust / CLI",
       "upstreamRevision": "683bc4e",
       "sourceUpdatedAt": "2026-10-28T15:08:16.456Z",
-      "lastCheckedAt": "2026-10-29T11:12:51.586011+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -654,7 +654,7 @@
       "platform": "Rust / CLI",
       "upstreamRevision": "aa6edb6d96f3ce29d4215ad0ce98e00a9d9729c1",
       "sourceUpdatedAt": "2026-10-12T13:55:52.735Z",
-      "lastCheckedAt": "2026-10-20T14:28:21.365953+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -702,7 +702,7 @@
       "platform": "Browser",
       "upstreamRevision": "c493fe76c0d016c414fdc38e75a378507b71b7a3",
       "sourceUpdatedAt": null,
-      "lastCheckedAt": "2026-10-14T13:33:30.550285+00:00",
+      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -747,7 +747,7 @@
       "platform": "WordPress · WooCommerce · PHP",
       "upstreamRevision": "3606ab25988eab6e33d2b93cb6189b2c2326411b",
       "sourceUpdatedAt": "2026-10-19T19:40:08.601Z",
-      "lastCheckedAt": "2026-10-20T14:16:09.662491+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -849,7 +849,7 @@
       "platform": "Web",
       "upstreamRevision": "50820a8979e47870dcedd60485ad58e9fbaa9eb9f3e6a3a7ff2f22caea545e70",
       "sourceUpdatedAt": "2026-09-25T17:04:24.958Z",
-      "lastCheckedAt": "2026-10-16T18:01:52.936641+00:00",
+      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -904,7 +904,7 @@
       "platform": "Rust · TypeScript · Linux x86-64 CLI",
       "upstreamRevision": "c7885a6f7b9d13d5ac3e4df97b98d557ed934c7e",
       "sourceUpdatedAt": "2026-10-17T21:50:36.623Z",
-      "lastCheckedAt": "2026-10-24T14:20:27.954636+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -970,7 +970,7 @@
       "platform": "Rust CLI · Ootle template",
       "upstreamRevision": "a1ef9667b34ba8a009ee850ecd23df22bbf2565e",
       "sourceUpdatedAt": "2026-10-20T11:25:58.437Z",
-      "lastCheckedAt": "2026-10-23T17:58:14.186094+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1021,7 +1021,7 @@
       "platform": "Rust CLI · Ootle template",
       "upstreamRevision": "f8796ec7d95590d09c8ffa56cd3623b04740759b",
       "sourceUpdatedAt": "2026-10-20T13:32:56.682Z",
-      "lastCheckedAt": "2026-10-21T13:42:52.311787+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1072,7 +1072,7 @@
       "platform": "Browser",
       "upstreamRevision": "0642c4ad5fc13dbbec5241ac3000e417a183203d",
       "sourceUpdatedAt": "2026-10-20T21:43:29.251Z",
-      "lastCheckedAt": "2026-10-29T10:41:24.960767+00:00",
+      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1128,7 +1128,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "a46223faac256a746a33671ff93b4c2b0c7e0d0d",
       "sourceUpdatedAt": "2026-10-21T23:23:34.426Z",
-      "lastCheckedAt": "2026-10-23T17:45:25.701757+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1188,7 +1188,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "c696c5466a1f6827fdc239a44a6c87bf0a93971c",
       "sourceUpdatedAt": "2026-10-22T01:01:13.307Z",
-      "lastCheckedAt": "2026-10-23T17:57:07.924295+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1243,7 +1243,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "73b01af39b1f51f1713104ed4a557b48a4f9bda2",
       "sourceUpdatedAt": "2026-10-21T23:23:41.531Z",
-      "lastCheckedAt": "2026-10-23T17:57:07.924295+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1298,7 +1298,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "cfcc3324dc5fac51daf4bc61df935abd65fc8dce",
       "sourceUpdatedAt": "2026-10-22T02:09:38.621Z",
-      "lastCheckedAt": "2026-10-23T17:57:07.924295+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1348,7 +1348,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "4f755d3366a32cede06e11fc32f56a325ba38eb2",
       "sourceUpdatedAt": "2026-10-21T23:23:34.426Z",
-      "lastCheckedAt": "2026-10-23T17:58:14.186094+00:00",
+      "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1463,7 +1463,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "d927e586f4e0a8830a290a32096f2351e780fae5",
       "sourceUpdatedAt": "2026-10-26T16:45:58.142Z",
-      "lastCheckedAt": "2026-10-29T09:33:14.318171+00:00",
+      "lastCheckedAt": "2026-10-29T20:24:53.197Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1514,7 +1514,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "d54da6654ed0100405e9413cabc3738a418d1b99",
       "sourceUpdatedAt": "2026-10-26T19:06:41.496Z",
-      "lastCheckedAt": "2026-10-29T10:40:36.653507+00:00",
+      "lastCheckedAt": "2026-10-29T10:44:24.044Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1564,7 +1564,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "5858ddfd31e36ad961379aff379e1618240619bc",
       "sourceUpdatedAt": "2026-10-28T20:07:16.080Z",
-      "lastCheckedAt": "2026-10-29T10:40:36.653507+00:00",
+      "lastCheckedAt": "2026-10-29T20:24:53.197Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1614,7 +1614,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "dbf816853e811f7581151202192b952f4d40ad3b",
       "sourceUpdatedAt": "2026-10-29T00:03:01.603Z",
-      "lastCheckedAt": "2026-10-29T10:40:36.653507+00:00",
+      "lastCheckedAt": "2026-10-29T10:44:24.044Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1664,7 +1664,7 @@
       "platform": "Browser · Agent tooling",
       "upstreamRevision": "e42c4982ed6dc2397993870123d7520bfc78eaca",
       "sourceUpdatedAt": "2026-10-28T03:46:15.639Z",
-      "lastCheckedAt": "2026-10-29T10:40:36.653507+00:00",
+      "lastCheckedAt": "2026-10-29T10:44:24.044Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [

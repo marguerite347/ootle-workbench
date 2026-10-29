@@ -16117,570 +16117,604 @@
       ]
     },
     "today": {
-      "status": "Final merged-revision CI pending; earlier October29 run 40863932756 passed both advisory jobs. Local source/toolchain unchanged by this correction.",
+      "status": "Both final merged-revision Rust audit jobs passed; zero reported vulnerabilities. Informational unmaintained/unsound/yanked warnings retained.",
+      "revision": "b0c57f820a749447c21fbd51f5738f62aee622f9",
+      "run": 40953690543,
+      "evidence": "work/completion-2026-10-29/rust-audits",
       "previousRun": {
-        "status": "Pending final October 24 CI; last successful audit retained in history",
+        "status": "Final merged-revision CI pending; earlier October29 run 40863932756 passed both advisory jobs. Local source/toolchain unchanged by this correction.",
         "previousRun": {
-          "status": "Both October23 merged-revision Rust advisory jobs passed",
+          "status": "Pending final October 24 CI; last successful audit retained in history",
           "previousRun": {
-            "status": "Both October21 merged-revision Rust advisory jobs passed",
+            "status": "Both October23 merged-revision Rust advisory jobs passed",
             "previousRun": {
-              "status": "Both October20 merged-revision Rust advisory jobs passed",
+              "status": "Both October21 merged-revision Rust advisory jobs passed",
               "previousRun": {
-                "status": "Both merged-revision Rust advisory jobs passed",
-                "run": 39255862869,
-                "revision": "bfe087886636f70effe4d733c71f94847beb6ff2",
+                "status": "Both October20 merged-revision Rust advisory jobs passed",
+                "previousRun": {
+                  "status": "Both merged-revision Rust advisory jobs passed",
+                  "run": 39255862869,
+                  "revision": "bfe087886636f70effe4d733c71f94847beb6ff2",
+                  "audits": [
+                    {
+                      "file": "work/daily-2026-10-19/rust-audits/rust-advisories-remix-example-bfe087886636f70effe4d733c71f94847beb6ff2/rust-audit.json",
+                      "vulnerabilities": {
+                        "found": false,
+                        "count": 0,
+                        "list": []
+                      },
+                      "warnings": {
+                        "unmaintained": [
+                          {
+                            "kind": "unmaintained",
+                            "package": {
+                              "name": "bincode",
+                              "version": "1.3.3",
+                              "source": "registry+https://github.com/rust-lang/crates.io-index",
+                              "checksum": "b1f45e9417d87227c7a56d22e471c6206462cba514c7590c09aff4cf6d1ddcad",
+                              "dependencies": [
+                                {
+                                  "name": "serde",
+                                  "version": "1.0.229",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                }
+                              ],
+                              "replace": null
+                            },
+                            "advisory": {
+                              "id": "RUSTSEC-2025-0141",
+                              "package": "bincode",
+                              "title": "Bincode is unmaintained",
+                              "description": "Due to a doxxing and harassment incident, the bincode team has taken the decision to cease development permanently.\n\nThe team considers version 1.3.3 a complete version of bincode that is not in need of any updates.\n\n## Alternatives to consider\n\n* [wincode](https://crates.io/crates/wincode)\n* [postcard](https://crates.io/crates/postcard)\n* [bitcode](https://crates.io/crates/bitcode)\n* [rkyv](https://crates.io/crates/rkyv)",
+                              "date": "2025-12-16",
+                              "aliases": [],
+                              "related": [],
+                              "collection": "crates",
+                              "categories": [],
+                              "keywords": [],
+                              "cvss": null,
+                              "informational": "unmaintained",
+                              "references": [],
+                              "source": null,
+                              "url": "https://git.sr.ht/~stygianentity/bincode/tree/v3.0/item/README.md",
+                              "withdrawn": null,
+                              "license": "CC0-1.0",
+                              "expect-deleted": false
+                            },
+                            "affected": null,
+                            "versions": {
+                              "patched": [],
+                              "unaffected": []
+                            }
+                          },
+                          {
+                            "kind": "unmaintained",
+                            "package": {
+                              "name": "paste",
+                              "version": "1.0.15",
+                              "source": "registry+https://github.com/rust-lang/crates.io-index",
+                              "checksum": "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a",
+                              "replace": null
+                            },
+                            "advisory": {
+                              "id": "RUSTSEC-2024-0436",
+                              "package": "paste",
+                              "title": "paste - no longer maintained",
+                              "description": "The creator of the crate `paste` has stated in the [`README.md`](https://github.com/dtolnay/paste/blob/master/README.md) \nthat this project is not longer maintained as well as archived the repository\n\n## Possible Alternative(s)\n\n- [`pastey`]: a fork of paste and is aimed to be a drop-in replacement with additional features for paste crate\n- [`with_builtin_macros`]: crate providing a [superset of `paste`'s functionality including general `macro_rules!` eager expansions](https://docs.rs/with_builtin_macros/0.1.0/with_builtin_macros/macro.with_eager_expansions.html)  and `concat!`/`concat_idents!` macros\n\n[`pastey`]: https://crates.io/crates/pastey\n[`with_builtin_macros`]: https://crates.io/crates/with_builtin_macros",
+                              "date": "2024-10-07",
+                              "aliases": [],
+                              "related": [],
+                              "collection": "crates",
+                              "categories": [],
+                              "keywords": [],
+                              "cvss": null,
+                              "informational": "unmaintained",
+                              "references": [],
+                              "source": null,
+                              "url": "https://github.com/dtolnay/paste",
+                              "withdrawn": null,
+                              "license": "CC0-1.0",
+                              "expect-deleted": false
+                            },
+                            "affected": null,
+                            "versions": {
+                              "patched": [],
+                              "unaffected": []
+                            }
+                          },
+                          {
+                            "kind": "unmaintained",
+                            "package": {
+                              "name": "proc-macro-error2",
+                              "version": "2.0.1",
+                              "source": "registry+https://github.com/rust-lang/crates.io-index",
+                              "checksum": "11ec05c52be0a07b08061f7dd003e7d7092e0472bc731b4af7bb1ef876109802",
+                              "dependencies": [
+                                {
+                                  "name": "proc-macro-error-attr2",
+                                  "version": "2.0.0",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                },
+                                {
+                                  "name": "proc-macro2",
+                                  "version": "1.0.107",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                },
+                                {
+                                  "name": "quote",
+                                  "version": "1.0.47",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                },
+                                {
+                                  "name": "syn",
+                                  "version": "2.0.119",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                }
+                              ],
+                              "replace": null
+                            },
+                            "advisory": {
+                              "id": "RUSTSEC-2026-0173",
+                              "package": "proc-macro-error2",
+                              "title": "proc-macro-error2 is unmaintained",
+                              "description": "The author of `proc-macro-error2` has [confirmed](https://github.com/GnomedDev/proc-macro-error-2/issues/17#issuecomment-4643215473) that the crate is no longer maintained and recommends that users migrate away from it.\n\n`proc-macro-error2` was originally created as a maintained fork of [`proc-macro-error`](https://crates.io/crates/proc-macro-error) (see [RUSTSEC-2024-0370](https://rustsec.org/advisories/RUSTSEC-2024-0370)). Both the original crate and this fork are now unmaintained.\n\n## Possible Alternative(s)\n\n- [manyhow](https://crates.io/crates/manyhow)\n- [proc-macro2-diagnostics](https://github.com/SergioBenitez/proc-macro2-diagnostics)",
+                              "date": "2026-06-07",
+                              "aliases": [],
+                              "related": [],
+                              "collection": "crates",
+                              "categories": [],
+                              "keywords": [],
+                              "cvss": null,
+                              "informational": "unmaintained",
+                              "references": [],
+                              "source": null,
+                              "url": "https://github.com/GnomedDev/proc-macro-error-2/issues/17",
+                              "withdrawn": null,
+                              "license": "CC0-1.0",
+                              "expect-deleted": false
+                            },
+                            "affected": null,
+                            "versions": {
+                              "patched": [],
+                              "unaffected": []
+                            }
+                          },
+                          {
+                            "kind": "unmaintained",
+                            "package": {
+                              "name": "unsafe-libyaml",
+                              "version": "0.2.11",
+                              "source": "registry+https://github.com/rust-lang/crates.io-index",
+                              "checksum": "673aac59facbab8a9007c7f6108d11f63b603f7cabff99fabf650fea5c32b861",
+                              "replace": null
+                            },
+                            "advisory": {
+                              "id": "RUSTSEC-2024-0449",
+                              "package": "unsafe-libyaml",
+                              "title": "unsafe-libyaml is unmaintained",
+                              "description": "The [repository](https://github.com/dtolnay/unsafe-libyaml) was archived by\nits owner on 2024-03-25 and is read-only. The last release is 0.2.11\n(March 2024).\n\n`unsafe-libyaml` is a machine translation of libyaml's C code into unsafe\nRust (c2rust). Bugs found in it will not be fixed upstream. It is used by\n`serde_yaml` (itself deprecated) and by forks such as `serde_yaml_ng`.\n\n## Alternatives\n\nConsider a YAML parser written in safe Rust, for example:\n\n- [saphyr](https://crates.io/crates/saphyr) ([serde-saphyr](https://crates.io/crates/serde-saphyr) for serde users)\n- [noyalib](https://crates.io/crates/noyalib)",
+                              "date": "2024-03-25",
+                              "aliases": [],
+                              "related": [],
+                              "collection": "crates",
+                              "categories": [],
+                              "keywords": [],
+                              "cvss": null,
+                              "informational": "unmaintained",
+                              "references": [],
+                              "source": null,
+                              "url": "https://github.com/dtolnay/unsafe-libyaml",
+                              "withdrawn": null,
+                              "license": "CC0-1.0",
+                              "expect-deleted": false
+                            },
+                            "affected": null,
+                            "versions": {
+                              "patched": [],
+                              "unaffected": []
+                            }
+                          }
+                        ],
+                        "unsound": [
+                          {
+                            "kind": "unsound",
+                            "package": {
+                              "name": "faster-hex",
+                              "version": "0.9.0",
+                              "source": "registry+https://github.com/rust-lang/crates.io-index",
+                              "checksum": "a2a2b11eda1d40935b26cf18f6833c526845ae8c41e58d09af6adeb6f0269183",
+                              "dependencies": [
+                                {
+                                  "name": "serde",
+                                  "version": "1.0.229",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                }
+                              ],
+                              "replace": null
+                            },
+                            "advisory": {
+                              "id": "RUSTSEC-2026-0306",
+                              "package": "faster-hex",
+                              "title": "`hex_decode_unchecked` AVX2 path reads past `src`",
+                              "description": "`faster_hex::hex_decode_unchecked` is a safe function. On x86 and x86_64, when AVX2 is enabled, `hex_decode_avx2` keeps decoding while `dst.len() >= 32` and then loads 32 bytes from `src` and 32 bytes from `src[32..]`. Nothing in that loop requires `src` to contain 64 bytes.\n\nA safe caller can pass a short `src` and a `dst` of at least 32 bytes. The AVX2 load then reads outside `src`.\n\nThe function has had this shape since 0.3.0. 0.10.0 is the last release with the unbounded AVX2 read. The maintainer agreed to this advisory and shipped the backport in 0.10.1 (pull request 74): the AVX2 loop now requires `src.len() >= 64` before those loads. 1.0.0 rewrites `hex_decode_unchecked` so the decoded length is `min(src.len() / 2, dst.len())`. Both are covered by `>= 0.10.1`. Other architectures take the scalar fallback and are outside this advisory.",
+                              "date": "2026-09-20",
+                              "aliases": [],
+                              "related": [],
+                              "collection": "crates",
+                              "categories": [
+                                "memory-corruption"
+                              ],
+                              "keywords": [
+                                "buffer-overflow",
+                                "avx2"
+                              ],
+                              "cvss": null,
+                              "informational": "unsound",
+                              "references": [
+                                "https://github.com/nervosnetwork/faster-hex/pull/72",
+                                "https://github.com/nervosnetwork/faster-hex/pull/74"
+                              ],
+                              "source": null,
+                              "url": "https://github.com/nervosnetwork/faster-hex/issues/73",
+                              "withdrawn": null,
+                              "license": "CC0-1.0",
+                              "expect-deleted": false
+                            },
+                            "affected": {
+                              "arch": [
+                                "x86",
+                                "x86_64"
+                              ],
+                              "os": [],
+                              "functions": {
+                                "faster_hex::hex_decode_unchecked": [
+                                  ">=0.3.0, <0.10.1"
+                                ]
+                              }
+                            },
+                            "versions": {
+                              "patched": [
+                                ">=0.10.1"
+                              ],
+                              "unaffected": [
+                                "<0.3.0"
+                              ]
+                            }
+                          },
+                          {
+                            "kind": "unsound",
+                            "package": {
+                              "name": "memmap2",
+                              "version": "0.6.2",
+                              "source": "registry+https://github.com/rust-lang/crates.io-index",
+                              "checksum": "6d28bba84adfe6646737845bc5ebbfa2c08424eb1c37e94a1fd2a82adb56a872",
+                              "dependencies": [
+                                {
+                                  "name": "libc",
+                                  "version": "0.2.189",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                }
+                              ],
+                              "replace": null
+                            },
+                            "advisory": {
+                              "id": "RUSTSEC-2026-0186",
+                              "package": "memmap2",
+                              "title": "Unchecked pointer offset in crate `memmap2`",
+                              "description": "Affected versionf of `memmap2` did not perform enough validation on the `offset` and `len` parameters of\n`Mmap::[unchecked_]advise_range()`,\n`MmapMut::[unchecked_]advise_ranage()`\nand `MmapMut::flush[_async]_range()`.\n\nThis can cause undefined behavior due to invalid values being passed to [`pointer::offset()`] and [`pointer::add()`]\nwhen passing an out-of-bounds range to any of the affected functions.\n\nThe flaw was corrected in commit [`cee7cf0`] and released in version `0.9.11`.\n\nThe invalid pointer is not dereferenced,\nbut it is passed to the `madvise` and `msync` syscalls and their Windows equivalents.\n\n[`pointer::offset()`]: https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.offset-1\n[`pointer::add()`]: https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.add-1\n[`cee7cf0`] https://github.com/RazrFalcon/memmap2-rs/pull/170/changes/cee7cf03a9ee095982a3c37b7aac8e3f68f1a00c",
+                              "date": "2026-06-20",
+                              "aliases": [],
+                              "related": [],
+                              "collection": "crates",
+                              "categories": [],
+                              "keywords": [
+                                "pointer-arithmetic",
+                                "out-of-bounds"
+                              ],
+                              "cvss": null,
+                              "informational": "unsound",
+                              "references": [
+                                "https://github.com/RazrFalcon/memmap2-rs/pull/170"
+                              ],
+                              "source": null,
+                              "url": "https://github.com/RazrFalcon/memmap2-rs/issues/169",
+                              "withdrawn": null,
+                              "license": "CC0-1.0",
+                              "expect-deleted": false
+                            },
+                            "affected": {
+                              "arch": [],
+                              "os": [],
+                              "functions": {
+                                "memmap2::Mmap::advise_range": [
+                                  ">=0.5.9",
+                                  "<0.9.11"
+                                ],
+                                "memmap2::Mmap::unchecked_advise_range": [
+                                  ">=0.8.0",
+                                  "<0.9.11"
+                                ],
+                                "memmap2::MmapMut::advise_range": [
+                                  ">=0.5.9",
+                                  "<0.9.11"
+                                ],
+                                "memmap2::MmapMut::flush_async_range": [
+                                  "<0.9.11"
+                                ],
+                                "memmap2::MmapMut::flush_range": [
+                                  "<0.9.11"
+                                ],
+                                "memmap2::MmapMut::unchecked_advise_range": [
+                                  ">=0.8.0",
+                                  "<0.9.11"
+                                ]
+                              }
+                            },
+                            "versions": {
+                              "patched": [
+                                ">=0.9.11"
+                              ],
+                              "unaffected": []
+                            }
+                          }
+                        ],
+                        "yanked": [
+                          {
+                            "kind": "yanked",
+                            "package": {
+                              "name": "yoke-derive",
+                              "version": "0.8.3",
+                              "source": "registry+https://github.com/rust-lang/crates.io-index",
+                              "checksum": "33811428bee40dbceb6d545e95754741d17a6aef9a4849f0fd62e2ba4f412a78",
+                              "dependencies": [
+                                {
+                                  "name": "proc-macro2",
+                                  "version": "1.0.107",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                },
+                                {
+                                  "name": "quote",
+                                  "version": "1.0.47",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                },
+                                {
+                                  "name": "syn",
+                                  "version": "3.0.6",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                },
+                                {
+                                  "name": "synstructure",
+                                  "version": "0.14.0",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                }
+                              ],
+                              "replace": null
+                            },
+                            "advisory": null,
+                            "affected": null,
+                            "versions": null
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "file": "work/daily-2026-10-19/rust-audits/rust-advisories-starter-bfe087886636f70effe4d733c71f94847beb6ff2/rust-audit.json",
+                      "vulnerabilities": {
+                        "found": false,
+                        "count": 0,
+                        "list": []
+                      },
+                      "warnings": {
+                        "unmaintained": [
+                          {
+                            "kind": "unmaintained",
+                            "package": {
+                              "name": "bincode",
+                              "version": "1.3.3",
+                              "source": "registry+https://github.com/rust-lang/crates.io-index",
+                              "checksum": "b1f45e9417d87227c7a56d22e471c6206462cba514c7590c09aff4cf6d1ddcad",
+                              "dependencies": [
+                                {
+                                  "name": "serde",
+                                  "version": "1.0.229",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                }
+                              ],
+                              "replace": null
+                            },
+                            "advisory": {
+                              "id": "RUSTSEC-2025-0141",
+                              "package": "bincode",
+                              "title": "Bincode is unmaintained",
+                              "description": "Due to a doxxing and harassment incident, the bincode team has taken the decision to cease development permanently.\n\nThe team considers version 1.3.3 a complete version of bincode that is not in need of any updates.\n\n## Alternatives to consider\n\n* [wincode](https://crates.io/crates/wincode)\n* [postcard](https://crates.io/crates/postcard)\n* [bitcode](https://crates.io/crates/bitcode)\n* [rkyv](https://crates.io/crates/rkyv)",
+                              "date": "2025-12-16",
+                              "aliases": [],
+                              "related": [],
+                              "collection": "crates",
+                              "categories": [],
+                              "keywords": [],
+                              "cvss": null,
+                              "informational": "unmaintained",
+                              "references": [],
+                              "source": null,
+                              "url": "https://git.sr.ht/~stygianentity/bincode/tree/v3.0/item/README.md",
+                              "withdrawn": null,
+                              "license": "CC0-1.0",
+                              "expect-deleted": false
+                            },
+                            "affected": null,
+                            "versions": {
+                              "patched": [],
+                              "unaffected": []
+                            }
+                          },
+                          {
+                            "kind": "unmaintained",
+                            "package": {
+                              "name": "paste",
+                              "version": "1.0.15",
+                              "source": "registry+https://github.com/rust-lang/crates.io-index",
+                              "checksum": "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a",
+                              "replace": null
+                            },
+                            "advisory": {
+                              "id": "RUSTSEC-2024-0436",
+                              "package": "paste",
+                              "title": "paste - no longer maintained",
+                              "description": "The creator of the crate `paste` has stated in the [`README.md`](https://github.com/dtolnay/paste/blob/master/README.md) \nthat this project is not longer maintained as well as archived the repository\n\n## Possible Alternative(s)\n\n- [`pastey`]: a fork of paste and is aimed to be a drop-in replacement with additional features for paste crate\n- [`with_builtin_macros`]: crate providing a [superset of `paste`'s functionality including general `macro_rules!` eager expansions](https://docs.rs/with_builtin_macros/0.1.0/with_builtin_macros/macro.with_eager_expansions.html)  and `concat!`/`concat_idents!` macros\n\n[`pastey`]: https://crates.io/crates/pastey\n[`with_builtin_macros`]: https://crates.io/crates/with_builtin_macros",
+                              "date": "2024-10-07",
+                              "aliases": [],
+                              "related": [],
+                              "collection": "crates",
+                              "categories": [],
+                              "keywords": [],
+                              "cvss": null,
+                              "informational": "unmaintained",
+                              "references": [],
+                              "source": null,
+                              "url": "https://github.com/dtolnay/paste",
+                              "withdrawn": null,
+                              "license": "CC0-1.0",
+                              "expect-deleted": false
+                            },
+                            "affected": null,
+                            "versions": {
+                              "patched": [],
+                              "unaffected": []
+                            }
+                          },
+                          {
+                            "kind": "unmaintained",
+                            "package": {
+                              "name": "proc-macro-error2",
+                              "version": "2.0.1",
+                              "source": "registry+https://github.com/rust-lang/crates.io-index",
+                              "checksum": "11ec05c52be0a07b08061f7dd003e7d7092e0472bc731b4af7bb1ef876109802",
+                              "dependencies": [
+                                {
+                                  "name": "proc-macro-error-attr2",
+                                  "version": "2.0.0",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                },
+                                {
+                                  "name": "proc-macro2",
+                                  "version": "1.0.107",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                },
+                                {
+                                  "name": "quote",
+                                  "version": "1.0.47",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                },
+                                {
+                                  "name": "syn",
+                                  "version": "2.0.119",
+                                  "source": "registry+https://github.com/rust-lang/crates.io-index"
+                                }
+                              ],
+                              "replace": null
+                            },
+                            "advisory": {
+                              "id": "RUSTSEC-2026-0173",
+                              "package": "proc-macro-error2",
+                              "title": "proc-macro-error2 is unmaintained",
+                              "description": "The author of `proc-macro-error2` has [confirmed](https://github.com/GnomedDev/proc-macro-error-2/issues/17#issuecomment-4643215473) that the crate is no longer maintained and recommends that users migrate away from it.\n\n`proc-macro-error2` was originally created as a maintained fork of [`proc-macro-error`](https://crates.io/crates/proc-macro-error) (see [RUSTSEC-2024-0370](https://rustsec.org/advisories/RUSTSEC-2024-0370)). Both the original crate and this fork are now unmaintained.\n\n## Possible Alternative(s)\n\n- [manyhow](https://crates.io/crates/manyhow)\n- [proc-macro2-diagnostics](https://github.com/SergioBenitez/proc-macro2-diagnostics)",
+                              "date": "2026-06-07",
+                              "aliases": [],
+                              "related": [],
+                              "collection": "crates",
+                              "categories": [],
+                              "keywords": [],
+                              "cvss": null,
+                              "informational": "unmaintained",
+                              "references": [],
+                              "source": null,
+                              "url": "https://github.com/GnomedDev/proc-macro-error-2/issues/17",
+                              "withdrawn": null,
+                              "license": "CC0-1.0",
+                              "expect-deleted": false
+                            },
+                            "affected": null,
+                            "versions": {
+                              "patched": [],
+                              "unaffected": []
+                            }
+                          },
+                          {
+                            "kind": "unmaintained",
+                            "package": {
+                              "name": "unsafe-libyaml",
+                              "version": "0.2.11",
+                              "source": "registry+https://github.com/rust-lang/crates.io-index",
+                              "checksum": "673aac59facbab8a9007c7f6108d11f63b603f7cabff99fabf650fea5c32b861",
+                              "replace": null
+                            },
+                            "advisory": {
+                              "id": "RUSTSEC-2024-0449",
+                              "package": "unsafe-libyaml",
+                              "title": "unsafe-libyaml is unmaintained",
+                              "description": "The [repository](https://github.com/dtolnay/unsafe-libyaml) was archived by\nits owner on 2024-03-25 and is read-only. The last release is 0.2.11\n(March 2024).\n\n`unsafe-libyaml` is a machine translation of libyaml's C code into unsafe\nRust (c2rust). Bugs found in it will not be fixed upstream. It is used by\n`serde_yaml` (itself deprecated) and by forks such as `serde_yaml_ng`.\n\n## Alternatives\n\nConsider a YAML parser written in safe Rust, for example:\n\n- [saphyr](https://crates.io/crates/saphyr) ([serde-saphyr](https://crates.io/crates/serde-saphyr) for serde users)\n- [noyalib](https://crates.io/crates/noyalib)",
+                              "date": "2024-03-25",
+                              "aliases": [],
+                              "related": [],
+                              "collection": "crates",
+                              "categories": [],
+                              "keywords": [],
+                              "cvss": null,
+                              "informational": "unmaintained",
+                              "references": [],
+                              "source": null,
+                              "url": "https://github.com/dtolnay/unsafe-libyaml",
+                              "withdrawn": null,
+                              "license": "CC0-1.0",
+                              "expect-deleted": false
+                            },
+                            "affected": null,
+                            "versions": {
+                              "patched": [],
+                              "unaffected": []
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "scope": "Locked starter and Remix example. Compiler/template tests and WASM build passed; no network deployment implied."
+                },
+                "run": 39440321125,
+                "revision": "7cc45e815bb4d15fa47a39638f3a1362b224bffc",
                 "audits": [
                   {
-                    "file": "work/daily-2026-10-19/rust-audits/rust-advisories-remix-example-bfe087886636f70effe4d733c71f94847beb6ff2/rust-audit.json",
+                    "file": "work/daily-2026-10-20/rust-audits/rust-advisories-starter-7cc45e815bb4d15fa47a39638f3a1362b224bffc/rust-audit.json",
                     "vulnerabilities": {
                       "found": false,
                       "count": 0,
                       "list": []
                     },
-                    "warnings": {
-                      "unmaintained": [
-                        {
-                          "kind": "unmaintained",
-                          "package": {
-                            "name": "bincode",
-                            "version": "1.3.3",
-                            "source": "registry+https://github.com/rust-lang/crates.io-index",
-                            "checksum": "b1f45e9417d87227c7a56d22e471c6206462cba514c7590c09aff4cf6d1ddcad",
-                            "dependencies": [
-                              {
-                                "name": "serde",
-                                "version": "1.0.229",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              }
-                            ],
-                            "replace": null
-                          },
-                          "advisory": {
-                            "id": "RUSTSEC-2025-0141",
-                            "package": "bincode",
-                            "title": "Bincode is unmaintained",
-                            "description": "Due to a doxxing and harassment incident, the bincode team has taken the decision to cease development permanently.\n\nThe team considers version 1.3.3 a complete version of bincode that is not in need of any updates.\n\n## Alternatives to consider\n\n* [wincode](https://crates.io/crates/wincode)\n* [postcard](https://crates.io/crates/postcard)\n* [bitcode](https://crates.io/crates/bitcode)\n* [rkyv](https://crates.io/crates/rkyv)",
-                            "date": "2025-12-16",
-                            "aliases": [],
-                            "related": [],
-                            "collection": "crates",
-                            "categories": [],
-                            "keywords": [],
-                            "cvss": null,
-                            "informational": "unmaintained",
-                            "references": [],
-                            "source": null,
-                            "url": "https://git.sr.ht/~stygianentity/bincode/tree/v3.0/item/README.md",
-                            "withdrawn": null,
-                            "license": "CC0-1.0",
-                            "expect-deleted": false
-                          },
-                          "affected": null,
-                          "versions": {
-                            "patched": [],
-                            "unaffected": []
-                          }
-                        },
-                        {
-                          "kind": "unmaintained",
-                          "package": {
-                            "name": "paste",
-                            "version": "1.0.15",
-                            "source": "registry+https://github.com/rust-lang/crates.io-index",
-                            "checksum": "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a",
-                            "replace": null
-                          },
-                          "advisory": {
-                            "id": "RUSTSEC-2024-0436",
-                            "package": "paste",
-                            "title": "paste - no longer maintained",
-                            "description": "The creator of the crate `paste` has stated in the [`README.md`](https://github.com/dtolnay/paste/blob/master/README.md) \nthat this project is not longer maintained as well as archived the repository\n\n## Possible Alternative(s)\n\n- [`pastey`]: a fork of paste and is aimed to be a drop-in replacement with additional features for paste crate\n- [`with_builtin_macros`]: crate providing a [superset of `paste`'s functionality including general `macro_rules!` eager expansions](https://docs.rs/with_builtin_macros/0.1.0/with_builtin_macros/macro.with_eager_expansions.html)  and `concat!`/`concat_idents!` macros\n\n[`pastey`]: https://crates.io/crates/pastey\n[`with_builtin_macros`]: https://crates.io/crates/with_builtin_macros",
-                            "date": "2024-10-07",
-                            "aliases": [],
-                            "related": [],
-                            "collection": "crates",
-                            "categories": [],
-                            "keywords": [],
-                            "cvss": null,
-                            "informational": "unmaintained",
-                            "references": [],
-                            "source": null,
-                            "url": "https://github.com/dtolnay/paste",
-                            "withdrawn": null,
-                            "license": "CC0-1.0",
-                            "expect-deleted": false
-                          },
-                          "affected": null,
-                          "versions": {
-                            "patched": [],
-                            "unaffected": []
-                          }
-                        },
-                        {
-                          "kind": "unmaintained",
-                          "package": {
-                            "name": "proc-macro-error2",
-                            "version": "2.0.1",
-                            "source": "registry+https://github.com/rust-lang/crates.io-index",
-                            "checksum": "11ec05c52be0a07b08061f7dd003e7d7092e0472bc731b4af7bb1ef876109802",
-                            "dependencies": [
-                              {
-                                "name": "proc-macro-error-attr2",
-                                "version": "2.0.0",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              },
-                              {
-                                "name": "proc-macro2",
-                                "version": "1.0.107",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              },
-                              {
-                                "name": "quote",
-                                "version": "1.0.47",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              },
-                              {
-                                "name": "syn",
-                                "version": "2.0.119",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              }
-                            ],
-                            "replace": null
-                          },
-                          "advisory": {
-                            "id": "RUSTSEC-2026-0173",
-                            "package": "proc-macro-error2",
-                            "title": "proc-macro-error2 is unmaintained",
-                            "description": "The author of `proc-macro-error2` has [confirmed](https://github.com/GnomedDev/proc-macro-error-2/issues/17#issuecomment-4643215473) that the crate is no longer maintained and recommends that users migrate away from it.\n\n`proc-macro-error2` was originally created as a maintained fork of [`proc-macro-error`](https://crates.io/crates/proc-macro-error) (see [RUSTSEC-2024-0370](https://rustsec.org/advisories/RUSTSEC-2024-0370)). Both the original crate and this fork are now unmaintained.\n\n## Possible Alternative(s)\n\n- [manyhow](https://crates.io/crates/manyhow)\n- [proc-macro2-diagnostics](https://github.com/SergioBenitez/proc-macro2-diagnostics)",
-                            "date": "2026-06-07",
-                            "aliases": [],
-                            "related": [],
-                            "collection": "crates",
-                            "categories": [],
-                            "keywords": [],
-                            "cvss": null,
-                            "informational": "unmaintained",
-                            "references": [],
-                            "source": null,
-                            "url": "https://github.com/GnomedDev/proc-macro-error-2/issues/17",
-                            "withdrawn": null,
-                            "license": "CC0-1.0",
-                            "expect-deleted": false
-                          },
-                          "affected": null,
-                          "versions": {
-                            "patched": [],
-                            "unaffected": []
-                          }
-                        },
-                        {
-                          "kind": "unmaintained",
-                          "package": {
-                            "name": "unsafe-libyaml",
-                            "version": "0.2.11",
-                            "source": "registry+https://github.com/rust-lang/crates.io-index",
-                            "checksum": "673aac59facbab8a9007c7f6108d11f63b603f7cabff99fabf650fea5c32b861",
-                            "replace": null
-                          },
-                          "advisory": {
-                            "id": "RUSTSEC-2024-0449",
-                            "package": "unsafe-libyaml",
-                            "title": "unsafe-libyaml is unmaintained",
-                            "description": "The [repository](https://github.com/dtolnay/unsafe-libyaml) was archived by\nits owner on 2024-03-25 and is read-only. The last release is 0.2.11\n(March 2024).\n\n`unsafe-libyaml` is a machine translation of libyaml's C code into unsafe\nRust (c2rust). Bugs found in it will not be fixed upstream. It is used by\n`serde_yaml` (itself deprecated) and by forks such as `serde_yaml_ng`.\n\n## Alternatives\n\nConsider a YAML parser written in safe Rust, for example:\n\n- [saphyr](https://crates.io/crates/saphyr) ([serde-saphyr](https://crates.io/crates/serde-saphyr) for serde users)\n- [noyalib](https://crates.io/crates/noyalib)",
-                            "date": "2024-03-25",
-                            "aliases": [],
-                            "related": [],
-                            "collection": "crates",
-                            "categories": [],
-                            "keywords": [],
-                            "cvss": null,
-                            "informational": "unmaintained",
-                            "references": [],
-                            "source": null,
-                            "url": "https://github.com/dtolnay/unsafe-libyaml",
-                            "withdrawn": null,
-                            "license": "CC0-1.0",
-                            "expect-deleted": false
-                          },
-                          "affected": null,
-                          "versions": {
-                            "patched": [],
-                            "unaffected": []
-                          }
-                        }
-                      ],
-                      "unsound": [
-                        {
-                          "kind": "unsound",
-                          "package": {
-                            "name": "faster-hex",
-                            "version": "0.9.0",
-                            "source": "registry+https://github.com/rust-lang/crates.io-index",
-                            "checksum": "a2a2b11eda1d40935b26cf18f6833c526845ae8c41e58d09af6adeb6f0269183",
-                            "dependencies": [
-                              {
-                                "name": "serde",
-                                "version": "1.0.229",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              }
-                            ],
-                            "replace": null
-                          },
-                          "advisory": {
-                            "id": "RUSTSEC-2026-0306",
-                            "package": "faster-hex",
-                            "title": "`hex_decode_unchecked` AVX2 path reads past `src`",
-                            "description": "`faster_hex::hex_decode_unchecked` is a safe function. On x86 and x86_64, when AVX2 is enabled, `hex_decode_avx2` keeps decoding while `dst.len() >= 32` and then loads 32 bytes from `src` and 32 bytes from `src[32..]`. Nothing in that loop requires `src` to contain 64 bytes.\n\nA safe caller can pass a short `src` and a `dst` of at least 32 bytes. The AVX2 load then reads outside `src`.\n\nThe function has had this shape since 0.3.0. 0.10.0 is the last release with the unbounded AVX2 read. The maintainer agreed to this advisory and shipped the backport in 0.10.1 (pull request 74): the AVX2 loop now requires `src.len() >= 64` before those loads. 1.0.0 rewrites `hex_decode_unchecked` so the decoded length is `min(src.len() / 2, dst.len())`. Both are covered by `>= 0.10.1`. Other architectures take the scalar fallback and are outside this advisory.",
-                            "date": "2026-09-20",
-                            "aliases": [],
-                            "related": [],
-                            "collection": "crates",
-                            "categories": [
-                              "memory-corruption"
-                            ],
-                            "keywords": [
-                              "buffer-overflow",
-                              "avx2"
-                            ],
-                            "cvss": null,
-                            "informational": "unsound",
-                            "references": [
-                              "https://github.com/nervosnetwork/faster-hex/pull/72",
-                              "https://github.com/nervosnetwork/faster-hex/pull/74"
-                            ],
-                            "source": null,
-                            "url": "https://github.com/nervosnetwork/faster-hex/issues/73",
-                            "withdrawn": null,
-                            "license": "CC0-1.0",
-                            "expect-deleted": false
-                          },
-                          "affected": {
-                            "arch": [
-                              "x86",
-                              "x86_64"
-                            ],
-                            "os": [],
-                            "functions": {
-                              "faster_hex::hex_decode_unchecked": [
-                                ">=0.3.0, <0.10.1"
-                              ]
-                            }
-                          },
-                          "versions": {
-                            "patched": [
-                              ">=0.10.1"
-                            ],
-                            "unaffected": [
-                              "<0.3.0"
-                            ]
-                          }
-                        },
-                        {
-                          "kind": "unsound",
-                          "package": {
-                            "name": "memmap2",
-                            "version": "0.6.2",
-                            "source": "registry+https://github.com/rust-lang/crates.io-index",
-                            "checksum": "6d28bba84adfe6646737845bc5ebbfa2c08424eb1c37e94a1fd2a82adb56a872",
-                            "dependencies": [
-                              {
-                                "name": "libc",
-                                "version": "0.2.189",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              }
-                            ],
-                            "replace": null
-                          },
-                          "advisory": {
-                            "id": "RUSTSEC-2026-0186",
-                            "package": "memmap2",
-                            "title": "Unchecked pointer offset in crate `memmap2`",
-                            "description": "Affected versionf of `memmap2` did not perform enough validation on the `offset` and `len` parameters of\n`Mmap::[unchecked_]advise_range()`,\n`MmapMut::[unchecked_]advise_ranage()`\nand `MmapMut::flush[_async]_range()`.\n\nThis can cause undefined behavior due to invalid values being passed to [`pointer::offset()`] and [`pointer::add()`]\nwhen passing an out-of-bounds range to any of the affected functions.\n\nThe flaw was corrected in commit [`cee7cf0`] and released in version `0.9.11`.\n\nThe invalid pointer is not dereferenced,\nbut it is passed to the `madvise` and `msync` syscalls and their Windows equivalents.\n\n[`pointer::offset()`]: https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.offset-1\n[`pointer::add()`]: https://doc.rust-lang.org/stable/std/primitive.pointer.html#method.add-1\n[`cee7cf0`] https://github.com/RazrFalcon/memmap2-rs/pull/170/changes/cee7cf03a9ee095982a3c37b7aac8e3f68f1a00c",
-                            "date": "2026-06-20",
-                            "aliases": [],
-                            "related": [],
-                            "collection": "crates",
-                            "categories": [],
-                            "keywords": [
-                              "pointer-arithmetic",
-                              "out-of-bounds"
-                            ],
-                            "cvss": null,
-                            "informational": "unsound",
-                            "references": [
-                              "https://github.com/RazrFalcon/memmap2-rs/pull/170"
-                            ],
-                            "source": null,
-                            "url": "https://github.com/RazrFalcon/memmap2-rs/issues/169",
-                            "withdrawn": null,
-                            "license": "CC0-1.0",
-                            "expect-deleted": false
-                          },
-                          "affected": {
-                            "arch": [],
-                            "os": [],
-                            "functions": {
-                              "memmap2::Mmap::advise_range": [
-                                ">=0.5.9",
-                                "<0.9.11"
-                              ],
-                              "memmap2::Mmap::unchecked_advise_range": [
-                                ">=0.8.0",
-                                "<0.9.11"
-                              ],
-                              "memmap2::MmapMut::advise_range": [
-                                ">=0.5.9",
-                                "<0.9.11"
-                              ],
-                              "memmap2::MmapMut::flush_async_range": [
-                                "<0.9.11"
-                              ],
-                              "memmap2::MmapMut::flush_range": [
-                                "<0.9.11"
-                              ],
-                              "memmap2::MmapMut::unchecked_advise_range": [
-                                ">=0.8.0",
-                                "<0.9.11"
-                              ]
-                            }
-                          },
-                          "versions": {
-                            "patched": [
-                              ">=0.9.11"
-                            ],
-                            "unaffected": []
-                          }
-                        }
-                      ],
-                      "yanked": [
-                        {
-                          "kind": "yanked",
-                          "package": {
-                            "name": "yoke-derive",
-                            "version": "0.8.3",
-                            "source": "registry+https://github.com/rust-lang/crates.io-index",
-                            "checksum": "33811428bee40dbceb6d545e95754741d17a6aef9a4849f0fd62e2ba4f412a78",
-                            "dependencies": [
-                              {
-                                "name": "proc-macro2",
-                                "version": "1.0.107",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              },
-                              {
-                                "name": "quote",
-                                "version": "1.0.47",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              },
-                              {
-                                "name": "syn",
-                                "version": "3.0.6",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              },
-                              {
-                                "name": "synstructure",
-                                "version": "0.14.0",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              }
-                            ],
-                            "replace": null
-                          },
-                          "advisory": null,
-                          "affected": null,
-                          "versions": null
-                        }
-                      ]
+                    "warningCounts": {
+                      "unmaintained": 4
                     }
                   },
                   {
-                    "file": "work/daily-2026-10-19/rust-audits/rust-advisories-starter-bfe087886636f70effe4d733c71f94847beb6ff2/rust-audit.json",
+                    "file": "work/daily-2026-10-20/rust-audits/rust-advisories-remix-example-7cc45e815bb4d15fa47a39638f3a1362b224bffc/rust-audit.json",
                     "vulnerabilities": {
                       "found": false,
                       "count": 0,
                       "list": []
                     },
-                    "warnings": {
-                      "unmaintained": [
-                        {
-                          "kind": "unmaintained",
-                          "package": {
-                            "name": "bincode",
-                            "version": "1.3.3",
-                            "source": "registry+https://github.com/rust-lang/crates.io-index",
-                            "checksum": "b1f45e9417d87227c7a56d22e471c6206462cba514c7590c09aff4cf6d1ddcad",
-                            "dependencies": [
-                              {
-                                "name": "serde",
-                                "version": "1.0.229",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              }
-                            ],
-                            "replace": null
-                          },
-                          "advisory": {
-                            "id": "RUSTSEC-2025-0141",
-                            "package": "bincode",
-                            "title": "Bincode is unmaintained",
-                            "description": "Due to a doxxing and harassment incident, the bincode team has taken the decision to cease development permanently.\n\nThe team considers version 1.3.3 a complete version of bincode that is not in need of any updates.\n\n## Alternatives to consider\n\n* [wincode](https://crates.io/crates/wincode)\n* [postcard](https://crates.io/crates/postcard)\n* [bitcode](https://crates.io/crates/bitcode)\n* [rkyv](https://crates.io/crates/rkyv)",
-                            "date": "2025-12-16",
-                            "aliases": [],
-                            "related": [],
-                            "collection": "crates",
-                            "categories": [],
-                            "keywords": [],
-                            "cvss": null,
-                            "informational": "unmaintained",
-                            "references": [],
-                            "source": null,
-                            "url": "https://git.sr.ht/~stygianentity/bincode/tree/v3.0/item/README.md",
-                            "withdrawn": null,
-                            "license": "CC0-1.0",
-                            "expect-deleted": false
-                          },
-                          "affected": null,
-                          "versions": {
-                            "patched": [],
-                            "unaffected": []
-                          }
-                        },
-                        {
-                          "kind": "unmaintained",
-                          "package": {
-                            "name": "paste",
-                            "version": "1.0.15",
-                            "source": "registry+https://github.com/rust-lang/crates.io-index",
-                            "checksum": "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a",
-                            "replace": null
-                          },
-                          "advisory": {
-                            "id": "RUSTSEC-2024-0436",
-                            "package": "paste",
-                            "title": "paste - no longer maintained",
-                            "description": "The creator of the crate `paste` has stated in the [`README.md`](https://github.com/dtolnay/paste/blob/master/README.md) \nthat this project is not longer maintained as well as archived the repository\n\n## Possible Alternative(s)\n\n- [`pastey`]: a fork of paste and is aimed to be a drop-in replacement with additional features for paste crate\n- [`with_builtin_macros`]: crate providing a [superset of `paste`'s functionality including general `macro_rules!` eager expansions](https://docs.rs/with_builtin_macros/0.1.0/with_builtin_macros/macro.with_eager_expansions.html)  and `concat!`/`concat_idents!` macros\n\n[`pastey`]: https://crates.io/crates/pastey\n[`with_builtin_macros`]: https://crates.io/crates/with_builtin_macros",
-                            "date": "2024-10-07",
-                            "aliases": [],
-                            "related": [],
-                            "collection": "crates",
-                            "categories": [],
-                            "keywords": [],
-                            "cvss": null,
-                            "informational": "unmaintained",
-                            "references": [],
-                            "source": null,
-                            "url": "https://github.com/dtolnay/paste",
-                            "withdrawn": null,
-                            "license": "CC0-1.0",
-                            "expect-deleted": false
-                          },
-                          "affected": null,
-                          "versions": {
-                            "patched": [],
-                            "unaffected": []
-                          }
-                        },
-                        {
-                          "kind": "unmaintained",
-                          "package": {
-                            "name": "proc-macro-error2",
-                            "version": "2.0.1",
-                            "source": "registry+https://github.com/rust-lang/crates.io-index",
-                            "checksum": "11ec05c52be0a07b08061f7dd003e7d7092e0472bc731b4af7bb1ef876109802",
-                            "dependencies": [
-                              {
-                                "name": "proc-macro-error-attr2",
-                                "version": "2.0.0",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              },
-                              {
-                                "name": "proc-macro2",
-                                "version": "1.0.107",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              },
-                              {
-                                "name": "quote",
-                                "version": "1.0.47",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              },
-                              {
-                                "name": "syn",
-                                "version": "2.0.119",
-                                "source": "registry+https://github.com/rust-lang/crates.io-index"
-                              }
-                            ],
-                            "replace": null
-                          },
-                          "advisory": {
-                            "id": "RUSTSEC-2026-0173",
-                            "package": "proc-macro-error2",
-                            "title": "proc-macro-error2 is unmaintained",
-                            "description": "The author of `proc-macro-error2` has [confirmed](https://github.com/GnomedDev/proc-macro-error-2/issues/17#issuecomment-4643215473) that the crate is no longer maintained and recommends that users migrate away from it.\n\n`proc-macro-error2` was originally created as a maintained fork of [`proc-macro-error`](https://crates.io/crates/proc-macro-error) (see [RUSTSEC-2024-0370](https://rustsec.org/advisories/RUSTSEC-2024-0370)). Both the original crate and this fork are now unmaintained.\n\n## Possible Alternative(s)\n\n- [manyhow](https://crates.io/crates/manyhow)\n- [proc-macro2-diagnostics](https://github.com/SergioBenitez/proc-macro2-diagnostics)",
-                            "date": "2026-06-07",
-                            "aliases": [],
-                            "related": [],
-                            "collection": "crates",
-                            "categories": [],
-                            "keywords": [],
-                            "cvss": null,
-                            "informational": "unmaintained",
-                            "references": [],
-                            "source": null,
-                            "url": "https://github.com/GnomedDev/proc-macro-error-2/issues/17",
-                            "withdrawn": null,
-                            "license": "CC0-1.0",
-                            "expect-deleted": false
-                          },
-                          "affected": null,
-                          "versions": {
-                            "patched": [],
-                            "unaffected": []
-                          }
-                        },
-                        {
-                          "kind": "unmaintained",
-                          "package": {
-                            "name": "unsafe-libyaml",
-                            "version": "0.2.11",
-                            "source": "registry+https://github.com/rust-lang/crates.io-index",
-                            "checksum": "673aac59facbab8a9007c7f6108d11f63b603f7cabff99fabf650fea5c32b861",
-                            "replace": null
-                          },
-                          "advisory": {
-                            "id": "RUSTSEC-2024-0449",
-                            "package": "unsafe-libyaml",
-                            "title": "unsafe-libyaml is unmaintained",
-                            "description": "The [repository](https://github.com/dtolnay/unsafe-libyaml) was archived by\nits owner on 2024-03-25 and is read-only. The last release is 0.2.11\n(March 2024).\n\n`unsafe-libyaml` is a machine translation of libyaml's C code into unsafe\nRust (c2rust). Bugs found in it will not be fixed upstream. It is used by\n`serde_yaml` (itself deprecated) and by forks such as `serde_yaml_ng`.\n\n## Alternatives\n\nConsider a YAML parser written in safe Rust, for example:\n\n- [saphyr](https://crates.io/crates/saphyr) ([serde-saphyr](https://crates.io/crates/serde-saphyr) for serde users)\n- [noyalib](https://crates.io/crates/noyalib)",
-                            "date": "2024-03-25",
-                            "aliases": [],
-                            "related": [],
-                            "collection": "crates",
-                            "categories": [],
-                            "keywords": [],
-                            "cvss": null,
-                            "informational": "unmaintained",
-                            "references": [],
-                            "source": null,
-                            "url": "https://github.com/dtolnay/unsafe-libyaml",
-                            "withdrawn": null,
-                            "license": "CC0-1.0",
-                            "expect-deleted": false
-                          },
-                          "affected": null,
-                          "versions": {
-                            "patched": [],
-                            "unaffected": []
-                          }
-                        }
-                      ]
+                    "warningCounts": {
+                      "unmaintained": 4,
+                      "unsound": 2,
+                      "yanked": 1
                     }
                   }
-                ],
-                "scope": "Locked starter and Remix example. Compiler/template tests and WASM build passed; no network deployment implied."
+                ]
               },
-              "run": 39440321125,
-              "revision": "7cc45e815bb4d15fa47a39638f3a1362b224bffc",
+              "run": 39610993174,
+              "revision": "1323df9ae9dd3f3494d166ea11d1d1f520686884",
               "audits": [
                 {
-                  "file": "work/daily-2026-10-20/rust-audits/rust-advisories-starter-7cc45e815bb4d15fa47a39638f3a1362b224bffc/rust-audit.json",
+                  "file": "work/daily-2026-10-21/rust-audits/rust-advisories-starter-1323df9ae9dd3f3494d166ea11d1d1f520686884/rust-audit.json",
                   "vulnerabilities": {
                     "found": false,
                     "count": 0,
@@ -16691,7 +16725,7 @@
                   }
                 },
                 {
-                  "file": "work/daily-2026-10-20/rust-audits/rust-advisories-remix-example-7cc45e815bb4d15fa47a39638f3a1362b224bffc/rust-audit.json",
+                  "file": "work/daily-2026-10-21/rust-audits/rust-advisories-remix-example-1323df9ae9dd3f3494d166ea11d1d1f520686884/rust-audit.json",
                   "vulnerabilities": {
                     "found": false,
                     "count": 0,
@@ -16705,11 +16739,11 @@
                 }
               ]
             },
-            "run": 39610993174,
-            "revision": "1323df9ae9dd3f3494d166ea11d1d1f520686884",
+            "run": 40000205782,
+            "revision": "3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2",
             "audits": [
               {
-                "file": "work/daily-2026-10-21/rust-audits/rust-advisories-starter-1323df9ae9dd3f3494d166ea11d1d1f520686884/rust-audit.json",
+                "file": "work/daily-2026-10-23/rust-audits/starter/rust-audit.json",
                 "vulnerabilities": {
                   "found": false,
                   "count": 0,
@@ -16720,7 +16754,7 @@
                 }
               },
               {
-                "file": "work/daily-2026-10-21/rust-audits/rust-advisories-remix-example-1323df9ae9dd3f3494d166ea11d1d1f520686884/rust-audit.json",
+                "file": "work/daily-2026-10-23/rust-audits/remix-example/rust-audit.json",
                 "vulnerabilities": {
                   "found": false,
                   "count": 0,
@@ -16733,38 +16767,10 @@
                 }
               }
             ]
-          },
-          "run": 40000205782,
-          "revision": "3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2",
-          "audits": [
-            {
-              "file": "work/daily-2026-10-23/rust-audits/starter/rust-audit.json",
-              "vulnerabilities": {
-                "found": false,
-                "count": 0,
-                "list": []
-              },
-              "warningCounts": {
-                "unmaintained": 4
-              }
-            },
-            {
-              "file": "work/daily-2026-10-23/rust-audits/remix-example/rust-audit.json",
-              "vulnerabilities": {
-                "found": false,
-                "count": 0,
-                "list": []
-              },
-              "warningCounts": {
-                "unmaintained": 4,
-                "unsound": 2,
-                "yanked": 1
-              }
-            }
-          ]
-        }
-      },
-      "evidence": "https://github.com/marguerite347/ootle-workbench/actions/runs/40863932756"
+          }
+        },
+        "evidence": "https://github.com/marguerite347/ootle-workbench/actions/runs/40863932756"
+      }
     }
   },
   "pythonVendorRequirements": {
@@ -16873,7 +16879,7 @@
     }
   ],
   "advisories": {
-    "checkedAt": "2026-10-29T20:52:50.201566+00:00",
+    "checkedAt": "2026-10-29T21:00:07.674988+00:00",
     "runs": [
       {
         "path": "lobby",
@@ -16963,14 +16969,14 @@
         "path": "workbench",
         "tool": "yarn",
         "exitCode": 30,
-        "paths": 383,
-        "distinctAdvisories": 131,
-        "packages": 42,
+        "paths": 381,
+        "distinctAdvisories": 129,
+        "packages": 41,
         "severities": {
-          "moderate": 130,
+          "moderate": 129,
           "high": 206,
           "low": 39,
-          "critical": 8
+          "critical": 7
         },
         "evidence": "work/completion-2026-10-29/workbench-audit.jsonl"
       },
@@ -17095,12 +17101,12 @@
     "vite": "6.4.5"
   },
   "bundleEvidence": {
-    "checkedAt": "2026-10-23T18:12:13.987Z",
-    "advisoryFixtureDate": "2026-10-09T14:49:11.929Z",
-    "scope": "Lockfile paths plus package presence in the emitted main webpack bundle. Presence is not vulnerable-call reachability; absence does not cover copied static plugin applications or developer tooling.",
+    "checkedAt": "2026-10-29T21:08:23.109Z",
+    "scope": "Main emitted webpack bundle package presence, not vulnerable-call reachability. Copied plugin apps and desktop/tooling remain separate.",
+    "file": "work/completion-2026-10-29/final-node-exposure/node-exposure-b0c57f820a749447c21fbd51f5738f62aee622f9/dependency-paths.json",
     "bundleEvidenceAvailable": true,
-    "file": "work/daily-2026-10-23/node-exposure/dependency-paths.json",
-    "note": "Bundle path evidence reuses the dated advisory fixture; October23 full lockfile audits are recorded separately. Presence is not exploitability."
+    "advisoryFixtureDate": "2026-10-29",
+    "note": "Final parser-only follow-up is development tooling; final merged CI repeats packaging and exposure evidence."
   },
   "maintenanceReview": {
     "reviewedAt": "2026-10-29T20:51:16.946Z",
