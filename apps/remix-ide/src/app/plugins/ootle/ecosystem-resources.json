@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-10-24T14:20:27.964705+00:00",
+  "reviewedAt": "2026-10-29T10:40:36.653507+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -1044,7 +1044,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Seance — privacy demo",
-      "summary": "Read-only browser demo comparing three views of private Esmeralda payments: public fields, a recipient view key that opens amount and memo, and a token audit key that counts amounts without opening memos. October 21 browser inspection of prepared Demo 1 returned a live indexer result; Bob’s public example key opened the memo, the audit example counted both amounts, and Eve’s wrong key stayed sealed. These intentionally public test keys are demonstrations only. The page trusts the indexer and offers a clearly labeled recorded fallback. Its Poltergeist comparison uses eleven recorded payments from one wallet and a synthetic transparent ledger; timing, fees and the spend graph still link those payments. The audit amount search is bounded to 0–0.0005 SEANCE. MIT source reviewed at e98765a19aa0. No personal key, wallet action or payment was used. Distinct from DevXTools’ Séance sealed-poll CLI.",
+      "summary": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0–0.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools’ sealed-poll project.",
       "status": "Web app · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
       "repoUrl": "https://github.com/Kylne700/seance",
@@ -1057,9 +1057,9 @@
       "license": "MIT",
       "network": "Esmeralda testnet",
       "platform": "Browser",
-      "upstreamRevision": "e98765a19aa0e4d335eaccb04a68aaeb98956033",
+      "upstreamRevision": "0642c4ad5fc13dbbec5241ac3000e417a183203d",
       "sourceUpdatedAt": "2026-10-20T21:43:29.251Z",
-      "lastCheckedAt": "2026-10-21T13:32:02.610918+00:00",
+      "lastCheckedAt": "2026-10-29T10:41:24.960767+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1082,9 +1082,9 @@
       "cardSummary": "Compare what strangers, recipients and auditors can read from private testnet payments, including the metadata that remains public.",
       "cardStatus": "Web app · Testnet",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.jpg",
-        "source": "App demo — Read-only public transaction view; no payment sent."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261029.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261029.png",
+        "source": "App demo — Public saved example and disclosure panels; deliberately public test keys, no wallet."
       }
     },
     {
@@ -1420,6 +1420,247 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-grave-robber-20261024.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-grave-robber-20261024.png",
         "source": "App demo — Sandbox explorer and riddle ledger; no wallet, bounty claim or transaction."
+      }
+    },
+    {
+      "id": "tari-ootle:component:arkimals",
+      "key": "arkimals",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Arkimals — Halloween on Tari",
+      "summary": "Halloween canine game on Esmeralda. Incubation delivers a surprise through an encrypted Tari memo; the player can preview it privately in Sapient before voluntarily revealing and minting a canine NFT. The operator knows the outcome and can delay delivery; timing, fees and account activity remain public. The October 29 public landing and rules views loaded without a wallet. The rules also describe breeding, staking and rebirth, which permanently retires the submitted canine. Current prices are shown before wallet approval. The recorded walkthrough shows public pages only; no incubation, private memo, mint or transaction was exercised. MIT code; existing Arkimals artwork has separate provenance in the repository.",
+      "status": "Web game · Testnet",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
+      "repoUrl": "https://github.com/BlackTurtle123/tari-midnight-kennel",
+      "docsUrl": "https://github.com/BlackTurtle123/tari-midnight-kennel#readme",
+      "demoUrl": "https://tari.staging.arkimals-game.com/",
+      "creator": {
+        "name": "Black_Turtle",
+        "url": "https://github.com/BlackTurtle123"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "d927e586f4e0a8830a290a32096f2351e780fae5",
+      "sourceUpdatedAt": "2026-10-26T16:45:58.142Z",
+      "lastCheckedAt": "2026-10-29T09:33:14.318171+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        }
+      ],
+      "cardSummary": "Receive a secret canine through an encrypted wallet memo, then choose when to reveal and mint it.",
+      "cardStatus": "Web game · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-arkimals-20261029.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-arkimals-20261029.png",
+        "source": "App demo — Public landing and game rules only; no wallet or incubation."
+      }
+    },
+    {
+      "id": "tari-ootle:component:ootle-steam-kit",
+      "key": "ootle-steam-kit",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Ootle Steam Kit",
+      "summary": "Steam-linked Ootle integration kit with wallet, trade, games and prediction modules. The October 29 public guide loaded; Games, Trade and Predict were disabled before Steam sign-in. The guide says the site currently watches deliveries and settles holds itself, while template-enforced trade escrow is a future destination. Source supports optional wallet-daemon integration and a local ledger mode. Do not interpret the guide or its recording as a completed Steam trade or independently enforced settlement. MIT source reviewed; no Steam login, wallet connection, payment or gameplay was exercised.",
+      "status": "Alpha · Testnet · Steam account",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
+      "repoUrl": "https://github.com/1igaming/ootle-steam-kit",
+      "docsUrl": "https://github.com/1igaming/ootle-steam-kit#readme",
+      "demoUrl": "https://ootle.sbox.trading/#/how",
+      "creator": {
+        "name": "iGaming",
+        "url": "https://github.com/1igaming"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "d54da6654ed0100405e9413cabc3738a418d1b99",
+      "sourceUpdatedAt": "2026-10-26T19:06:41.496Z",
+      "lastCheckedAt": "2026-10-29T10:40:36.653507+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522",
+          "platform": "Bluesky",
+          "context": "Creator announcement linked from contest submission"
+        }
+      ],
+      "cardSummary": "Explore Steam-linked wallet, trading and game modules with private testnet payments and an operator-managed settlement flow.",
+      "cardStatus": "Alpha · Testnet · Steam account",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-steam-kit-20261029.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-steam-kit-20261029.png",
+        "source": "Source/docs walkthrough — public settlement guide; no steam login, trade or payment."
+      }
+    },
+    {
+      "id": "tari-ootle:component:cursed-pumpkin",
+      "key": "cursed-pumpkin",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "The Cursed Pumpkin",
+      "summary": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
+      "status": "Replay demo · Testnet",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
+      "repoUrl": "https://github.com/Mzee04/cursed-pumpkin",
+      "docsUrl": "https://github.com/Mzee04/cursed-pumpkin#readme",
+      "demoUrl": "https://mzee04.github.io/cursed-pumpkin/",
+      "creator": {
+        "name": "iammzee",
+        "url": "https://github.com/Mzee04"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "5858ddfd31e36ad961379aff379e1618240619bc",
+      "sourceUpdatedAt": "2026-10-28T20:07:16.080Z",
+      "lastCheckedAt": "2026-10-29T10:40:36.653507+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y",
+          "platform": "Bluesky",
+          "context": "Creator announcement linked from contest submission"
+        }
+      ],
+      "cardSummary": "Replay a secret hot-potato game and compare public transaction clues with the hidden route of its single pumpkin.",
+      "cardStatus": "Replay demo · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cursed-pumpkin-20261029.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cursed-pumpkin-20261029.png",
+        "source": "App demo — Interactive replay of the creator’s recorded October 28 testnet game; no new transactions."
+      }
+    },
+    {
+      "id": "tari-ootle:component:moonmail",
+      "key": "moonmail",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "MoonMail",
+      "summary": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
+      "status": "Web app · Testnet · Sapient",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
+      "repoUrl": "https://github.com/Seal-Clubber/MoonMail",
+      "docsUrl": "https://github.com/Seal-Clubber/MoonMail#readme",
+      "demoUrl": "https://seal-clubber.github.io/MoonMail/",
+      "creator": {
+        "name": "SealClubber",
+        "url": "https://github.com/Seal-Clubber"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "dbf816853e811f7581151202192b952f4d40ad3b",
+      "sourceUpdatedAt": "2026-10-29T00:03:01.603Z",
+      "lastCheckedAt": "2026-10-29T10:40:36.653507+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s",
+          "platform": "Bluesky",
+          "context": "Creator announcement linked from contest submission"
+        }
+      ],
+      "cardSummary": "Exchange encrypted letters between Ootle postboxes and recover conversations, sent mail and saved settings through Sapient.",
+      "cardStatus": "Web app · Testnet · Sapient",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-moonmail-20261029.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-moonmail-20261029.png",
+        "source": "Source/docs walkthrough — public privacy page; no mailbox grant, letter delivery or payment."
+      }
+    },
+    {
+      "id": "tari-ootle:component:tari-agent-registry",
+      "key": "tari-agent-registry",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Agents",
+      "title": "Tari Agent Registry",
+      "summary": "Community-maintained registry of Tari-themed skills, agents and MCP servers, published through TariTracker. October 29 inspection of the AI Resources section showed four packages with source links and declared permissions. Packages use manifests, pull-request checks and maintainer review; these are not independent security certification. One development skill declares wallet signing/spending permissions, so installing a package is a separate decision from reading its listing. MIT registry at v1.0.0; no package was installed or executed. The recording walks through repository documentation. TariTracker is an independent community service, not an official Tari agent service.",
+      "status": "Community directory",
+      "sourceUrl": "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
+      "repoUrl": "https://github.com/kstrycharz/tari-agent-registry",
+      "docsUrl": "https://github.com/kstrycharz/tari-agent-registry#readme",
+      "demoUrl": "https://taritracker.com/#ai-tools",
+      "creator": {
+        "name": "_squared",
+        "url": "https://github.com/kstrycharz"
+      },
+      "license": "MIT",
+      "network": "Tari ecosystem",
+      "platform": "Browser · Agent tooling",
+      "upstreamRevision": "e42c4982ed6dc2397993870123d7520bfc78eaca",
+      "sourceUpdatedAt": "2026-10-28T03:46:15.639Z",
+      "lastCheckedAt": "2026-10-29T10:40:36.653507+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "agents",
+        "skills",
+        "mcp"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
+          "platform": "Tari Community forum",
+          "context": "Community agent registry announcement"
+        }
+      ],
+      "cardSummary": "Find community Tari skills, agents and MCP servers with source downloads, declared permissions and contribution guidelines.",
+      "cardStatus": "Community directory",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-agent-registry-20261029.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-agent-registry-20261029.png",
+        "source": "Source/docs walkthrough — registry readme, package structure and contribution scope; no installation."
       }
     }
   ],
