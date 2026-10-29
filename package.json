@@ -518,8 +518,9 @@
     "**/github-base/parse-link-header": "2.0.0",
     "**/jayson/uuid": "11.1.1",
     "**/elliptic": "6.6.1",
-    "**/mkdirp/minimist": "0.2.4",
-    "**/exorcist/minimist": "0.2.4"
+    "**/mkdirp/minimist": "1.2.8",
+    "**/exorcist/minimist": "1.2.8",
+    "**/optimist/minimist": "1.2.8"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
