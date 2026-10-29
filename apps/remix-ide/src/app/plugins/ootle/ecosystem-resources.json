@@ -419,7 +419,14 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.mp4",
         "source": "Source/docs walkthrough — application not demonstrated"
       },
-      "discussionLinks": [],
+      "discussionLinks": [
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-19T10:30:01.438Z"
+        }
+      ],
       "cardSummary": "Explore directory and indexer source for finding published Ootle templates.",
       "cardStatus": "Source code"
     },
@@ -610,6 +617,12 @@
           "author": "ogboy92.bsky.social",
           "publishedAt": "2026-10-18T13:20:04.674Z",
           "context": "Creator shares playable demo and contract-equivalence explanation"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3myuc5jsyso2y",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-27T13:00:13.338Z"
         }
       ],
       "cardSummary": "Play a wallet-free secret-trading demo, choosing honest or deceptive actions to explore escrow and delivery disputes.",
@@ -943,7 +956,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Séance",
-      "summary": "Sealed group polls with anonymous eligibility, replaceable ballots and scheduled reveal. October 23 browser inspection cast a local Treat ballot, rejected an outsider and revealed a 0/1/0 tally; the page also read two historical Esmeralda polls and displayed matching recomputed hashes. The local browser exercise creates no chain transaction. The recorded clip tours this public interface. Prior pinned Radicle source is retained; current repository head was not established. Fee-pot contributions cannot be withdrawn. Receipt loss prevents counting; revealed choices and timing/funding links can expose information. MIT source, Esmeralda testnet.",
+      "summary": "Sealed group polls with anonymous eligibility, replaceable ballots and scheduled reveal. October 23 browser inspection cast a local Treat ballot, rejected an outsider and revealed a 0/1/0 tally; the page also read two historical Esmeralda polls and displayed matching recomputed hashes. The local browser exercise creates no chain transaction. The recorded clip tours this public interface. October 29 Radicle review identified current source a1ef9667b34ba8a009ee850ecd23df22bbf2565e and Made by DevX branding; earlier recording remains dated to its original source revision. Fee-pot contributions cannot be withdrawn. Receipt loss prevents counting; revealed choices and timing/funding links can expose information. MIT source, Esmeralda testnet.",
       "status": "Browser demo · Testnet · Fee-pot deposits irreversible",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
       "repoUrl": "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
@@ -955,7 +968,7 @@
       "license": "MIT",
       "network": "Esmeralda testnet",
       "platform": "Rust CLI · Ootle template",
-      "upstreamRevision": "4e0dde7758593b58087bbd4d045d6d3c6f87a836",
+      "upstreamRevision": "a1ef9667b34ba8a009ee850ecd23df22bbf2565e",
       "sourceUpdatedAt": "2026-10-20T11:25:58.437Z",
       "lastCheckedAt": "2026-10-23T17:58:14.186094+00:00",
       "verification": "source-attested",
@@ -1077,6 +1090,12 @@
           "url": "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22",
           "platform": "Bluesky",
           "context": "Original creator announcement and demo recording"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mywsm2tpqm2b",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-28T13:00:00.509Z"
         }
       ],
       "cardSummary": "Compare what strangers, recipients and auditors can read from private testnet payments, including the metadata that remains public.",

@@ -139,3 +139,7 @@ Selection receipt: reuse the current project/resource cards, full description/pr
 ## Completion criteria
 
 The initial plan is complete when the qualified initial queue is reflected in the live Lobby and Workbench (or explicitly held for a demonstrated reason), each new resource/project has its own reviewed screen recording published and live-playback-verified wherever listed, a tool/dependency inventory has current checks and dispositions, all relevant checks pass, both deployed products are visually verified, the dedicated chat exists, and its daily 05:00 Eastern automation is active and read back. Each later run meets the same evidence standard for changes it makes and retains honest source-coverage gaps. Listings whose video is missing remain media-incomplete even when source publication succeeds.
+
+## Full-run completion and truthful exceptions (October 29 correction)
+
+Follow `MAINTENANCE_COMPLETION.md`. A release is a milestone, not the end of the run. Drain every reachable item in the declared source, catalog, dependency, editorial, capture and acceptance queues. Use the completion gate before declaring the run complete; missing work stays pending. Actual blocked reads require dated evidence, failure category and a next action, while preserving last-good checkpoints. Report canonical resources separately from product surfaces. Retain superseded URLs and provenance, with evidence of the creator replacement. Resume incomplete work before starting another release.

@@ -2,6 +2,7 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { createRequire } from 'node:module'
 import http from 'node:http'
+import fs from 'node:fs'
 const require = createRequire(import.meta.url)
 
 test('Bee upload/download retain their wire contract with repaired Axios', async () => {
@@ -44,14 +45,7 @@ test('GitHub pagination accepts normal links and bounds oversized headers', () =
   assert.equal(parse('x'.repeat(10_000)), null)
 })
 
-test('Jayson browser RPC still produces UUID request IDs with repaired UUID', async () => {
-  const Client = require('jayson/lib/client/browser')
-  let request
-  const client = new Client((body, callback) => {
-    request = JSON.parse(body)
-    callback(null, JSON.stringify({ jsonrpc: '2.0', id: request.id, result: 'fixture-ok' }))
-  })
-  const response = await new Promise((resolve, reject) => client.request('fixture', [], (error, result) => error ? reject(error) : resolve(result)))
-  assert.match(request.id, /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/)
-  assert.equal(response.result, 'fixture-ok')
+test('removed Jayson RPC dependency cannot reintroduce its legacy UUID path', () => {
+  const lock = fs.readFileSync(new URL('../../yarn.lock', import.meta.url), 'utf8')
+  assert.doesNotMatch(lock, /^"?jayson@/m)
 })

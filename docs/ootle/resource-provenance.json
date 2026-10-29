@@ -286,7 +286,17 @@
       "title": "Official Ootle Community Templates",
       "projectUrl": "https://github.com/tari-project/community-templates",
       "discoveryUrl": "https://github.com/tari-project/community-templates",
-      "sharingPosts": [],
+      "sharingPosts": [
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-19T10:30:01.438Z",
+          "foundOn": "2026-10-29",
+          "context": "The blank page is the scariest part.\r\nStart with Tari’s WASM templates for tokens, NFTs, swaps, LPs, and more. Explore the code, then turn it into your own confidential concoction.\r\nPick your starting point:\r\nhttps://github.com/tari-project/wasm-template/tree/main/wasm_templates",
+          "visibility": "public"
+        }
+      ],
       "originalPostStatus": "not-found-in-retained-evidence",
       "foundOn": "2026-10-10",
       "evidence": "October 10 retained discovery tracker; not newly rechecked"
@@ -677,6 +687,15 @@
           "publishedAt": "2026-10-18T13:20:04.674Z",
           "foundOn": "2026-10-19",
           "context": "Creator shares playable demo and contract-equivalence explanation",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3myuc5jsyso2y",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-27T13:00:13.338Z",
+          "foundOn": "2026-10-29",
+          "context": "A ghost sells you a secret. What happens when it delivers a fake? 👻\r\n\r\nCrypt turns encrypted sales and escrow disputes into a playable browser demo for Tari’s Spooky Secrets contest.\r\n\r\nNo wallet needed. Enter the crypt:\r\nhttps://lrifton92.github.io/crypt/",
           "visibility": "public"
         }
       ]
@@ -1143,6 +1162,15 @@
           "publishedAt": "2026-10-20T18:09:16.314Z",
           "foundOn": "2026-10-21",
           "context": "Original creator announcement and demo recording",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mywsm2tpqm2b",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-28T13:00:00.509Z",
+          "foundOn": "2026-10-29",
+          "context": "What can a stranger see in a private payment? 👻\r\n\r\nSeance lets you compare the public view, a recipient’s view and an auditor’s view using Tari testnet examples. It also shows what still leaks.\r\n\r\nExplore:\r\nhttps://kylne700.github.io/seance/",
           "visibility": "public"
         }
       ],

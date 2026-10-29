@@ -20,7 +20,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
-          node-version: '24.19.0'
+          node-version: '24.22.2'
       - run: npm install --global yarn@1.22.22
       - run: yarn install --frozen-lockfile --ignore-engines --non-interactive --ignore-scripts
         env:
@@ -70,7 +70,7 @@ jobs:
       - run: cargo build --locked --release --target wasm32-unknown-unknown --manifest-path templates/tari-counter/Cargo.toml
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
-          node-version: '24.19.0'
+          node-version: '24.22.2'
       - run: node tools/tari-companion/smoke.mjs
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: github.event_name == 'push'
