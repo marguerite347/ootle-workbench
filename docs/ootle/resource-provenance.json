@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedOn": "2026-10-24",
+  "updatedOn": "2026-10-29",
   "purpose": "Retain where resources were shared separately from project sources so readers can return to the discussion.",
   "evidenceNote": "Backfilled from retained October 10 source reads. Sharing post means a known announcement or discussion; it does not assert the earliest post on the internet. Unknown author/date remains null. Do not overwrite older sharing links during refresh.",
   "records": [
@@ -750,8 +750,18 @@
           "foundOn": "2026-10-16",
           "context": "Sealed-message update and explicit public-metadata limits",
           "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/31",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-28T04:30:39.563Z",
+          "foundOn": "2026-10-29",
+          "context": "Room-access and SDK recovery update",
+          "visibility": "public"
         }
-      ]
+      ],
+      "notes": "Public message board on Ootle testnet with public threads and encrypted sealed rooms. October 29 public inspection loaded five general threads and a privacy explanation; the deployed page reported runtime 0.46.0. Classic invitations share a key in the URL fragment. The current explanation also describes recipient-specific encrypted invitations, a separate recovery vault and rotation for future messages. Old keys and plaintext cannot be revoked; wallet recovery does not restore room keys, and messages do not authenticate individual authors. Titles, categories, fees, spent-output links, timing and network metadata remain public; accepted posts cannot be edited or deleted through Hauntboard. The October 28 creator update describes SDK/recovery work in PR 3 as not yet deployed; historical test transactions are not fresh acceptance of that upgrade. The recording shows public pages and privacy documentation, with no wallet, private-room access or posting."
     },
     {
       "id": "macotaur",
@@ -1137,7 +1147,7 @@
         }
       ],
       "status": "published-verified",
-      "notes": "Read-only public prepared-key demonstration, distinct from DevXTools sealed polls; no payment or private wallet interaction."
+      "notes": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0–0.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools’ sealed-poll project."
     },
     {
       "id": "sapient-bonus-contest",
@@ -1382,6 +1392,128 @@
       ],
       "status": "existing-listing-refresh-pending",
       "notes": "Prediction markets, token launching and games on Ootle testnet. The creator’s October 21 v2 announcement adds Call It UP/DOWN trading and longer-dated prediction markets after the announced v0.47 upgrade. October 24 public entry inspection reached a wallet gate; no wallet was created or unlocked and no trade was placed. The refreshed recording shows the public entry screen in an isolated browser, not market execution. The earlier community-directory walkthrough remains in media history."
+    },
+    {
+      "id": "arkimals",
+      "title": "Arkimals — Halloween on Tari",
+      "projectUrl": "https://tari.staging.arkimals-game.com/",
+      "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
+          "platform": "Tari Community forum",
+          "author": "Black_Turtle",
+          "publishedAt": "2026-10-26T16:45:58.142Z",
+          "foundOn": "2026-10-29",
+          "context": "October contest submission",
+          "visibility": "public"
+        }
+      ],
+      "status": "qualified-publication-pending",
+      "notes": "Halloween canine game on Esmeralda. Incubation delivers a surprise through an encrypted Tari memo; the player can preview it privately in Sapient before voluntarily revealing and minting a canine NFT. The operator knows the outcome and can delay delivery; timing, fees and account activity remain public. The October 29 public landing and rules views loaded without a wallet. The rules also describe breeding, staking and rebirth, which permanently retires the submitted canine. Current prices are shown before wallet approval. The recorded walkthrough shows public pages only; no incubation, private memo, mint or transaction was exercised. MIT code; existing Arkimals artwork has separate provenance in the repository."
+    },
+    {
+      "id": "ootle-steam-kit",
+      "title": "Ootle Steam Kit",
+      "projectUrl": "https://ootle.sbox.trading/#/how",
+      "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
+          "platform": "Tari Community forum",
+          "author": "iGaming",
+          "publishedAt": "2026-10-26T19:06:41.496Z",
+          "foundOn": "2026-10-29",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522",
+          "author": "iGaming",
+          "platform": "Bluesky",
+          "publishedAt": "2026-10-26T18:58:35.648Z",
+          "foundOn": "2026-10-29",
+          "visibility": "public",
+          "context": "Creator announcement linked from contest submission"
+        }
+      ],
+      "status": "qualified-publication-pending",
+      "notes": "Steam-linked Ootle integration kit with wallet, trade, games and prediction modules. The October 29 public guide loaded; Games, Trade and Predict were disabled before Steam sign-in. The guide says the site currently watches deliveries and settles holds itself, while template-enforced trade escrow is a future destination. Source supports optional wallet-daemon integration and a local ledger mode. Do not interpret the guide or its recording as a completed Steam trade or independently enforced settlement. MIT source reviewed; no Steam login, wallet connection, payment or gameplay was exercised."
+    },
+    {
+      "id": "cursed-pumpkin",
+      "title": "The Cursed Pumpkin",
+      "projectUrl": "https://mzee04.github.io/cursed-pumpkin/",
+      "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
+          "platform": "Tari Community forum",
+          "author": "iammzee",
+          "publishedAt": "2026-10-28T20:07:16.080Z",
+          "foundOn": "2026-10-29",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y",
+          "author": "iammzee.bsky.social",
+          "platform": "Bluesky",
+          "publishedAt": "2026-10-28T00:17:37.247Z",
+          "foundOn": "2026-10-29",
+          "visibility": "public",
+          "context": "Creator announcement linked from contest submission"
+        }
+      ],
+      "status": "qualified-publication-pending",
+      "notes": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed."
+    },
+    {
+      "id": "moonmail",
+      "title": "MoonMail",
+      "projectUrl": "https://seal-clubber.github.io/MoonMail/",
+      "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
+          "platform": "Tari Community forum",
+          "author": "SealClubber",
+          "publishedAt": "2026-10-29T00:03:01.603Z",
+          "foundOn": "2026-10-29",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s",
+          "author": "seal-clubber.bsky.social",
+          "platform": "Bluesky",
+          "publishedAt": "2026-10-28T23:49:30.617Z",
+          "foundOn": "2026-10-29",
+          "visibility": "public",
+          "context": "Creator announcement linked from contest submission"
+        }
+      ],
+      "status": "qualified-publication-pending",
+      "notes": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised."
+    },
+    {
+      "id": "tari-agent-registry",
+      "title": "Tari Agent Registry",
+      "projectUrl": "https://taritracker.com/#ai-tools",
+      "discoveryUrl": "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-28T03:46:15.639Z",
+          "foundOn": "2026-10-29",
+          "context": "Community agent registry announcement",
+          "visibility": "public"
+        }
+      ],
+      "status": "qualified-publication-pending",
+      "notes": "Community-maintained registry of Tari-themed skills, agents and MCP servers, published through TariTracker. October 29 inspection of the AI Resources section showed four packages with source links and declared permissions. Packages use manifests, pull-request checks and maintainer review; these are not independent security certification. One development skill declares wallet signing/spending permissions, so installing a package is a separate decision from reading its listing. MIT registry at v1.0.0; no package was installed or executed. The recording walks through repository documentation. TariTracker is an independent community service, not an official Tari agent service."
     }
   ]
 }

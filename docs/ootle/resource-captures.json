@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T15:44:00.221729+00:00",
+  "updatedAt": "2026-10-29T10:41:24.960767+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -4256,6 +4256,315 @@
           "sha256": "164f026245e883057a9a05b333bd46457425a87420ebb688992153d90630c31f"
         }
       ]
+    },
+    {
+      "resourceId": "arkimals",
+      "title": "Arkimals — Halloween on Tari",
+      "targetUrl": "https://tari.staging.arkimals-game.com/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
+          "platform": "Tari Community forum",
+          "author": "Black_Turtle",
+          "publishedAt": "2026-10-26T16:45:58.142Z",
+          "foundOn": "2026-10-29",
+          "context": "October contest submission",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "public-page",
+      "capturedAt": "2026-10-29T09:31:25.861Z",
+      "observedRevision": "d927e586f4e0a8830a290a32096f2351e780fae5",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-29/capture-arkimals/resource-arkimals-20261029.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-arkimals-20261029.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-arkimals-20261029.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-arkimals-20261029.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-arkimals-20261029.png",
+      "sha256": "c5167ecb6bfd0022024e4f230c27f23f31ab1b97cf351dbdbb3c3d68f6067748",
+      "caption": "App demo",
+      "method": "App demo — Public landing and game rules only; no wallet or incubation.",
+      "status": "lobby-live-workbench-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": {
+          "lobbyRevision": "bb9d35b7375629b8dd3c5e3e5dad6898f7fc2185",
+          "desktop": "0 to12seconds",
+          "mobile": "390x844:0 to12seconds",
+          "workbench": "pending"
+        }
+      }
+    },
+    {
+      "resourceId": "ootle-steam-kit",
+      "title": "Ootle Steam Kit",
+      "targetUrl": "https://ootle.sbox.trading/#/how",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
+          "platform": "Tari Community forum",
+          "author": "iGaming",
+          "publishedAt": "2026-10-26T19:06:41.496Z",
+          "foundOn": "2026-10-29",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522",
+          "author": "iGaming",
+          "platform": "Bluesky",
+          "publishedAt": "2026-10-26T18:58:35.648Z",
+          "foundOn": "2026-10-29",
+          "visibility": "public",
+          "context": "Creator announcement linked from contest submission"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-29T10:09:18.570Z",
+      "observedRevision": "d54da6654ed0100405e9413cabc3738a418d1b99",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-29/capture-new/resource-ootle-steam-kit-20261029.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-steam-kit-20261029.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-steam-kit-20261029.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-steam-kit-20261029.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-steam-kit-20261029.png",
+      "sha256": "99668c6dad72584218a17d62509f5700fecea7034f2ebcd3034e7928827945d0",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — Public settlement guide; no Steam login, trade or payment.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      }
+    },
+    {
+      "resourceId": "cursed-pumpkin",
+      "title": "The Cursed Pumpkin",
+      "targetUrl": "https://mzee04.github.io/cursed-pumpkin/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
+          "platform": "Tari Community forum",
+          "author": "iammzee",
+          "publishedAt": "2026-10-28T20:07:16.080Z",
+          "foundOn": "2026-10-29",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y",
+          "author": "iammzee.bsky.social",
+          "platform": "Bluesky",
+          "publishedAt": "2026-10-28T00:17:37.247Z",
+          "foundOn": "2026-10-29",
+          "visibility": "public",
+          "context": "Creator announcement linked from contest submission"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-10-29T10:09:51.803Z",
+      "observedRevision": "5858ddfd31e36ad961379aff379e1618240619bc",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-29/capture-new/resource-cursed-pumpkin-20261029.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-cursed-pumpkin-20261029.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-cursed-pumpkin-20261029.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cursed-pumpkin-20261029.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cursed-pumpkin-20261029.png",
+      "sha256": "a56bc6b5aa3731ebe827747684a7671232497b5ca387f57bb1c531d6ef60362a",
+      "caption": "App demo",
+      "method": "App demo — Interactive replay of the creator’s recorded October 28 testnet game; no new transactions.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      }
+    },
+    {
+      "resourceId": "moonmail",
+      "title": "MoonMail",
+      "targetUrl": "https://seal-clubber.github.io/MoonMail/#/privacy",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
+          "platform": "Tari Community forum",
+          "author": "SealClubber",
+          "publishedAt": "2026-10-29T00:03:01.603Z",
+          "foundOn": "2026-10-29",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s",
+          "author": "seal-clubber.bsky.social",
+          "platform": "Bluesky",
+          "publishedAt": "2026-10-28T23:49:30.617Z",
+          "foundOn": "2026-10-29",
+          "visibility": "public",
+          "context": "Creator announcement linked from contest submission"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-29T10:10:08.751Z",
+      "observedRevision": "dbf816853e811f7581151202192b952f4d40ad3b",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-29/capture-new/resource-moonmail-20261029.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-moonmail-20261029.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-moonmail-20261029.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-moonmail-20261029.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-moonmail-20261029.png",
+      "sha256": "d161f0bde247870ab2b07daaf8f84e2b53d91accc0df723328f62def66ff083d",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — Public privacy page; no mailbox grant, letter delivery or payment.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      }
+    },
+    {
+      "resourceId": "tari-agent-registry",
+      "title": "Tari Agent Registry",
+      "targetUrl": "https://github.com/kstrycharz/tari-agent-registry#readme",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-28T03:46:15.639Z",
+          "foundOn": "2026-10-29",
+          "context": "Community agent registry announcement",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-29T10:28:39.282Z",
+      "observedRevision": "e42c4982ed6dc2397993870123d7520bfc78eaca",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-29/capture-followup/resource-tari-agent-registry-20261029.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-tari-agent-registry-20261029.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-tari-agent-registry-20261029.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-agent-registry-20261029.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-agent-registry-20261029.png",
+      "sha256": "9a1d6ebf510899ec59af24fd23d7508506ee6b6a5fb5981c1d14a7536b30c458",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — Registry README, package structure and contribution scope; no installation.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      }
+    },
+    {
+      "resourceId": "hauntboard",
+      "title": "Hauntboard",
+      "targetUrl": "https://hauntboard.taritracker.com/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
+          "platform": "Tari Community forum"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-10-29T10:28:55.900Z",
+      "observedRevision": "0598b28c22d26c1bb2d43215b7b3f823dadadd0c",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-29/capture-followup/resource-hauntboard-20261029.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hauntboard-20261029.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hauntboard-20261029.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261029.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261029.png",
+      "sha256": "272756cb20963b9973ee9fe9f271c686ac534b38af5688211ab0831b22375d3d",
+      "caption": "App demo",
+      "method": "App demo — Public board and room-privacy explanation; no wallet or private-room access.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      }
+    },
+    {
+      "resourceId": "seance-privacy",
+      "title": "Seance — privacy demo",
+      "targetUrl": "https://kylne700.github.io/seance/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+          "platform": "Tari Community forum"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-10-29T10:29:13.322Z",
+      "observedRevision": "0642c4ad5fc13dbbec5241ac3000e417a183203d",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-29/capture-followup/resource-seance-privacy-20261029.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-seance-privacy-20261029.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-seance-privacy-20261029.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261029.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261029.png",
+      "sha256": "73a24597d8f822ce969a2f9baba80a0a71773a582dcb7539ce9816683327f070",
+      "caption": "App demo",
+      "method": "App demo — Public saved example and disclosure panels; deliberately public test keys, no wallet.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      }
     }
   ],
   "release": {
