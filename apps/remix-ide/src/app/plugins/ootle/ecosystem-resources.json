@@ -67,7 +67,7 @@
       "platform": "TypeScript / browser / Node",
       "upstreamRevision": "d48899550b23317bc201bfa99b7e2f2d18ce229e",
       "sourceUpdatedAt": "2026-10-07T13:28:57Z",
-      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
+      "lastCheckedAt": "2026-10-31T12:44:57.707Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -128,7 +128,7 @@
       "platform": "Python ≥3.13",
       "upstreamRevision": "d02b4790b3022583fd22dd57e0fb4135fe367d19",
       "sourceUpdatedAt": "2026-10-02T08:49:54Z",
-      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
+      "lastCheckedAt": "2026-10-31T12:44:57.707Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -148,6 +148,11 @@
           "platform": "GitHub",
           "context": "Release notes",
           "publishedAt": "2026-10-13T12:19:30Z"
+        },
+        {
+          "url": "https://pypi.org/project/ootle-py/0.3.2/",
+          "platform": "Primary version publication",
+          "context": "Official package 0.3.2; GitHub release page still v0.3.1"
         }
       ],
       "cardSummary": "Access Ootle from Python with synchronous and asynchronous client APIs.",
@@ -174,7 +179,7 @@
       "platform": "Go / cgo",
       "upstreamRevision": "5d86af331f173c789ca2a26c3a3f2998ed2307f8",
       "sourceUpdatedAt": "2026-10-02T08:49:14Z",
-      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
+      "lastCheckedAt": "2026-10-31T12:44:57.707Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -194,6 +199,11 @@
           "platform": "GitHub",
           "context": "Release notes",
           "publishedAt": "2026-10-13T11:36:05Z"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle-go/tree/v0.5.0",
+          "platform": "Primary version publication",
+          "context": "Official v0.5.0 source tag; release page still v0.4.0"
         }
       ],
       "cardSummary": "Connect Go applications to Ootle through a Rust core and native libraries.",
@@ -308,7 +318,7 @@
       "platform": "Rust / TypeScript",
       "upstreamRevision": "3f88161c2e18df2a3cb31d904b709c65b0a12af5",
       "sourceUpdatedAt": "2026-10-08T11:52:18Z",
-      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
+      "lastCheckedAt": "2026-10-31T12:44:57.707Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -495,7 +505,7 @@
       "platform": "Rust / WebAssembly",
       "upstreamRevision": "ce8680cdd18359d88c3aa209c4ffe35c9c84c86e",
       "sourceUpdatedAt": "2026-10-04T04:23:39Z",
-      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
+      "lastCheckedAt": "2026-10-31T12:44:57.707Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -534,7 +544,7 @@
       "platform": "Reading",
       "upstreamRevision": "bf4460d1b884d105fe4dc67ef8b3cd1d1be1305e",
       "sourceUpdatedAt": "2026-08-15T18:19:11Z",
-      "lastCheckedAt": "2026-10-29T11:13:49.185Z",
+      "lastCheckedAt": "2026-10-31T12:44:57.707Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -660,6 +670,11 @@
         {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22",
           "platform": "Bluesky"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i",
+          "platform": "Bluesky",
+          "context": "A claim link. A riddle. A countdown. 👻\r\n\r\nPhantom Drop explores secret-linked testnet claims, optional riddle locks and expiry reclaim for Tari’s Spooky Secrets contest.\r\n\r\nMeet the project:\r\nhttps://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8\r\n\r\n"
         }
       ],
       "cardSummary": "Create expiring testnet gift links with a Rust CLI, optional riddles and refunds for unopened envelopes.",
@@ -677,7 +692,7 @@
       "ecosystem": "tari-ootle",
       "group": "Testnet",
       "title": "TariTracker Faucet",
-      "summary": "Community-funded Esmeralda testnet faucet. On October 14, 2026 the public page showed an amount selector, once-per-wallet hourly limit and an open-claims state. No address was submitted and no receipt or funding success is claimed. Some controls still use the historical tXTR label; the page identifies the asset as native Ootle L2 TARI. Discovered through Hauntboard’s README, with no separate public announcement found. Source revision refers to the Hauntboard README that links this service; the faucet deployment revision is not exposed.",
+      "summary": "Community-funded Esmeralda Ootle testnet faucet. The October 31 public page offered private or public receive outputs, a 1–1,000 tXTR amount selector and one withdrawal per wallet each hour. It showed an open-claims state and an available-claims balance; that display is not proof of a successful claim. No address, CAPTCHA or request was submitted. The page identifies tXTR as native Ootle L2 testnet TARI and notes observable funding transfers and timing. Discovered through Hauntboard’s wallet-funding README; no separate public announcement found. The faucet deployment revision is not exposed.",
       "status": "Web app · Testnet",
       "sourceUrl": "https://github.com/kstrycharz/hauntboard#wallet-funding",
       "repoUrl": null,
@@ -710,9 +725,9 @@
       "cardSummary": "Request community-funded testnet TARI for an Esmeralda Ootle wallet, with an hourly wallet limit.",
       "cardStatus": "Web app · Testnet",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261014.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261014.jpg",
-        "source": "App demo — Public landing and amount/claim interface scrolling; no address, CAPTCHA or claim submitted."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261031.png",
+        "source": "App demo — Public faucet interface, receive choices and hourly limit; no wallet, CAPTCHA or claim."
       }
     },
     {
@@ -928,6 +943,11 @@
           "url": "https://ghostline-ui.vercel.app/evidence.html",
           "platform": "Project documentation",
           "context": "Creator recorded runs, source-ledger call counts and dated explorer availability"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3myzd2ybfnq2t",
+          "platform": "Bluesky",
+          "context": "An AI agent makes another API call. How should it pay? 👻\r\n\r\nGhostline explores pay-per-call channels on Tari Ootle: off-chain vouchers, then settlement of the accepted total.\r\n\r\nSee the explainer and testnet evidence:\r\nhttps://ghostline-ui.vercel.app/\r\n\r\n"
         }
       ],
       "cardSummary": "Explore payment channels that let AI agents pay per API call using cumulative vouchers and one settlement.",
@@ -1199,6 +1219,11 @@
           "url": "https://community.tari.com/t/467",
           "platform": "Tari Community forum",
           "context": "Dedicated HideBox announcement"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mz2j2w7xax2c",
+          "platform": "Bluesky",
+          "context": "Send a file. Let the link open once. 📦\r\n\r\nHideBox brings browser-encrypted sharing, expiring access and testnet pay-to-open experiments to Tari’s Spooky Secrets submissions.\r\n\r\nExplore the beta with a sample file:\r\nhttps://hidebox.app/\r\n\r\n"
         }
       ],
       "cardSummary": "Store encrypted files and share them through links, recipient addresses or paid access on Ootle testnet.",
@@ -2024,6 +2049,301 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261031.png",
         "source": "App demo — recorded-run replay with public, client and accountant disclosure views; no new transaction."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:atproto-identity",
+      "key": "atproto-identity",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "AT Protocol identity on Ootle",
+      "summary": "Public integration guide describing PLC identities, signed repository records, post proofs, verifier components and escrow policies on Esmeralda. It separates proof scope from handle ownership, current membership, key-history completeness and token expiry; some claims require external attestations. Skydrop is the worked example. The page labels the system testnet-only and not audited for production. Its component-immutability assumptions should be checked against the target Ootle version before reuse; this listing is documentation, not an integration or audit.",
+      "status": "Docs · Testnet",
+      "sourceUrl": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
+      "repoUrl": null,
+      "docsUrl": "https://atproto.tari.mw/",
+      "demoUrl": null,
+      "creator": {
+        "name": "0xhra",
+        "url": "https://bsky.app/profile/0xhra.bsky.social"
+      },
+      "license": null,
+      "network": "Esmeralda testnet",
+      "platform": "Reading",
+      "upstreamRevision": "page-sha256:df66a678414871990abb6a7a8ea29be5ef14cf917e1572d997c7522a9acbc0f0",
+      "sourceUpdatedAt": "2026-10-30T02:56:26.540Z",
+      "lastCheckedAt": "2026-10-31T13:09:50.003Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
+          "platform": "Bluesky",
+          "context": "Creator announcement of identity integration guide"
+        }
+      ],
+      "cardSummary": "Explore a testnet guide to verifying Bluesky identities and signed posts in Ootle contracts, with Skydrop examples.",
+      "cardStatus": "Docs · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261031.png",
+        "source": "Source/docs walkthrough — public documentation, not an application demonstration."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:hycorange-burn",
+      "key": "hycorange-burn",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Burn Minotari walkthrough",
+      "summary": "Community walkthrough of an October 12 Esmeralda burn, proof maturity and L2 claim. The author reports losing 200 tXTM after submitting an empty claim key. Burns are irreversible; examples and transaction results are the author’s account, not transactions performed by this catalog review.",
+      "status": "Community tutorial",
+      "sourceUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3h7y2edj2l",
+      "repoUrl": null,
+      "docsUrl": "https://paragraph.com/@hycorange/burning-minotari-for-tari-on-ootle-my-esmeralda-walkthrough",
+      "demoUrl": null,
+      "creator": {
+        "name": "hycorange / Orange Soda",
+        "url": "https://paragraph.com/@hycorange"
+      },
+      "license": null,
+      "network": "Esmeralda testnet",
+      "platform": "Reading",
+      "upstreamRevision": "page-sha256:e25e9fe1ecd296a0e1e34f8d51987c35af223eee0ba3a3d32e6c88d34b909c55",
+      "sourceUpdatedAt": "2026-10-30T09:19:40.952Z",
+      "lastCheckedAt": "2026-10-31T13:09:50.003Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3h7y2edj2l",
+          "platform": "Bluesky",
+          "context": "Burn Minotari walkthrough"
+        },
+        {
+          "url": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "platform": "Creator website",
+          "context": "Creator index and replacement destinations"
+        }
+      ],
+      "cardSummary": "Follow a developer’s testnet burn-and-claim walkthrough, including the public-key mistake that permanently destroyed their first burn.",
+      "cardStatus": "Tutorial · Irreversible burns",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-burn-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-burn-20261031.png",
+        "source": "Source/docs walkthrough — public documentation, not an application demonstration."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:hycorange-privacy",
+      "key": "hycorange-privacy",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Confidential and stealth explained",
+      "summary": "Explains the distinction between confidential vault resources and native stealth UTXOs, including the wallet confidential_balance field. Discusses public fees, account signatures, transaction links, revealed spend branches and scanning costs using the author’s Esmeralda run.",
+      "status": "Community tutorial",
+      "sourceUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3hiismky2n",
+      "repoUrl": null,
+      "docsUrl": "https://paragraph.com/@hycorange/confidential-vs-stealth-on-tari-ootle",
+      "demoUrl": null,
+      "creator": {
+        "name": "hycorange / Orange Soda",
+        "url": "https://paragraph.com/@hycorange"
+      },
+      "license": null,
+      "network": "Esmeralda testnet",
+      "platform": "Reading",
+      "upstreamRevision": "page-sha256:2a005d74f3e74cedf26cc0d344bb47edac82800e4585f753772721733529cd76",
+      "sourceUpdatedAt": "2026-10-30T09:24:27.142Z",
+      "lastCheckedAt": "2026-10-31T13:09:50.003Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3hiismky2n",
+          "platform": "Bluesky",
+          "context": "Confidential and stealth explained"
+        },
+        {
+          "url": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "platform": "Creator website",
+          "context": "Creator index and replacement destinations"
+        }
+      ],
+      "cardSummary": "Compare hidden amounts, hidden owners, public fees and transaction links using the creator’s Phantom Drop examples.",
+      "cardStatus": "Tutorial",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-privacy-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-privacy-20261031.png",
+        "source": "Source/docs walkthrough — public documentation, not an application demonstration."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:hycorange-mining",
+      "key": "hycorange-mining",
+      "type": "learn",
+      "ecosystem": "tari",
+      "group": "Advanced",
+      "title": "Tari mining lanes explained",
+      "summary": "Community explanation of four proof-of-work lanes and the mining backoff proposal, with the author’s October 30 sample of 100 blocks. Historical sample figures are illustrative, not current hashrates or a forecast. Links to official mining RFCs. On October 31 the original Medium link returned an account-unavailable 410 page; the creator’s own index links to this Paragraph replacement.",
+      "status": "Community tutorial",
+      "sourceUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m",
+      "repoUrl": null,
+      "docsUrl": "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet",
+      "demoUrl": null,
+      "creator": {
+        "name": "hycorange / Orange Soda",
+        "url": "https://paragraph.com/@hycorange"
+      },
+      "license": null,
+      "network": "Tari L1 mainnet",
+      "platform": "Reading",
+      "upstreamRevision": "page-sha256:0d866268a3cbbbe43a949eb6e5738741097ca30c7d647d473775b8b82cb29f59",
+      "sourceUpdatedAt": "2026-10-31",
+      "lastCheckedAt": "2026-10-31T13:09:50.003Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m",
+          "platform": "Bluesky",
+          "context": "Tari mining lanes explained"
+        },
+        {
+          "url": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "platform": "Creator website",
+          "context": "Creator index and replacement destinations"
+        }
+      ],
+      "cardSummary": "Explore Tari’s four mining algorithms, separate difficulty adjustments and same-algorithm backoff through a dated mainnet sample.",
+      "cardStatus": "Tutorial",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-mining-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-mining-20261031.png",
+        "source": "Source/docs walkthrough — public documentation, not an application demonstration."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:hycorange-permissions",
+      "key": "hycorange-permissions",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Ootle template permissions guide",
+      "summary": "Community field guide based on tari_template_lib 0.36.0 and the October 30 official documentation. Covers public functions, component ownership, immediate caller rules, proof scope, LOCKED resource updates and authorization hooks. Treat protocol defaults as version-specific. On October 31 the original Medium link returned an account-unavailable 410 page; the creator’s own index links to this Paragraph replacement.",
+      "status": "Community tutorial",
+      "sourceUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f",
+      "repoUrl": null,
+      "docsUrl": "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to",
+      "demoUrl": null,
+      "creator": {
+        "name": "hycorange / Orange Soda",
+        "url": "https://paragraph.com/@hycorange"
+      },
+      "license": null,
+      "network": "Esmeralda testnet",
+      "platform": "Reading",
+      "upstreamRevision": "page-sha256:4706256be713b6eda69b2d0e1a3f31cb6e1cd850905dd47a7a733d81b16f6cd4",
+      "sourceUpdatedAt": "2026-10-31",
+      "lastCheckedAt": "2026-10-31T13:09:50.003Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f",
+          "platform": "Bluesky",
+          "context": "Ootle template permissions guide"
+        },
+        {
+          "url": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "platform": "Creator website",
+          "context": "Creator index and replacement destinations"
+        }
+      ],
+      "cardSummary": "Learn how component owners, method rules, proof arguments and resource update rules control access in Ootle templates.",
+      "cardStatus": "Tutorial",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-permissions-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-permissions-20261031.png",
+        "source": "Source/docs walkthrough — public documentation, not an application demonstration."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:hycorange-airdrops",
+      "key": "hycorange-airdrops",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Native stealth airdrop walkthrough",
+      "summary": "Creator architecture walkthrough of Phantom Drop’s funding paths, one-time keys, claim/refund branches and fees paid from the envelope. Describes the author’s October 12 Esmeralda run. Bearer links must remain secret, public riddles permit offline guessing, and public fees and spend links remain visible. On October 31 the original Medium link returned an account-unavailable 410 page; the creator’s own index links to this Paragraph replacement.",
+      "status": "Community tutorial",
+      "sourceUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a",
+      "repoUrl": null,
+      "docsUrl": "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop",
+      "demoUrl": null,
+      "creator": {
+        "name": "hycorange / Orange Soda",
+        "url": "https://paragraph.com/@hycorange"
+      },
+      "license": null,
+      "network": "Esmeralda testnet",
+      "platform": "Reading",
+      "upstreamRevision": "page-sha256:efad63e62f3e4042ea18abc6adda1f29870cb9f4dfce12ed4aac1fac6bf6eff6",
+      "sourceUpdatedAt": "2026-10-31",
+      "lastCheckedAt": "2026-10-31T13:09:50.003Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a",
+          "platform": "Bluesky",
+          "context": "Native stealth airdrop walkthrough"
+        },
+        {
+          "url": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "platform": "Creator website",
+          "context": "Creator index and replacement destinations"
+        }
+      ],
+      "cardSummary": "See how Phantom Drop combines native stealth outputs, expiry rules and refund branches without deploying a custom template.",
+      "cardStatus": "Tutorial",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-airdrops-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-airdrops-20261031.png",
+        "source": "Source/docs walkthrough — public documentation, not an application demonstration."
       }
     }
   ],
