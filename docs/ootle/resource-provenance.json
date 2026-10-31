@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedOn": "2026-10-29",
+  "updatedOn": "2026-10-31",
   "purpose": "Retain where resources were shared separately from project sources so readers can return to the discussion.",
   "evidenceNote": "Backfilled from retained October 10 source reads. Sharing post means a known announcement or discussion; it does not assert the earliest post on the internet. Unknown author/date remains null. Do not overwrite older sharing links during refresh.",
   "records": [
@@ -490,6 +490,15 @@
           "foundOn": "2026-10-14",
           "context": "Original creator Skydrop announcement",
           "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3myzrrrese22w",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-29T17:23:17.446Z",
+          "foundOn": "2026-10-31",
+          "context": "The Tari community (@0xhra.bsky.social) is also building this with \"skydrop\" skydrop.tari.mw\n\nTari is working on a private stablecoin with Brale. \nTipping private USD stables to journalists and content creators is an interesting usecase for crypto, and open protocols like AT Proto are best suited.",
+          "visibility": "public"
         }
       ],
       "note": "No public repository link found in the reviewed announcement or public app guide."
@@ -639,8 +648,8 @@
     {
       "id": "crypt",
       "title": "Crypt",
-      "projectUrl": "https://lrifton92.github.io/crypt/",
-      "repoUrl": "https://github.com/Lrifton92/crypt",
+      "projectUrl": "https://tari-crypt.vercel.app/",
+      "repoUrl": "https://github.com/ogboy92ii/crypt",
       "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
       "originalPostStatus": "Public creator announcements retained alongside the original discovery page.",
       "sharingPosts": [
@@ -651,7 +660,10 @@
           "publishedAt": "2026-10-12T11:07:25.452Z",
           "foundOn": "2026-10-13",
           "context": "October Build Contest Thread: Spooky Secrets!",
-          "visibility": "public"
+          "visibility": "public",
+          "lastObservedEditAt": "2026-10-28T15:08:16.456Z",
+          "editContext": "Creator provided replacement demo and source archive after GitHub became unavailable",
+          "lastFoundOn": "2026-10-29"
         },
         {
           "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3mxoehhu2b22o",
@@ -698,7 +710,26 @@
           "context": "A ghost sells you a secret. What happens when it delivers a fake? 👻\r\n\r\nCrypt turns encrypted sales and escrow disputes into a playable browser demo for Tari’s Spooky Secrets contest.\r\n\r\nNo wallet needed. Enter the crypt:\r\nhttps://lrifton92.github.io/crypt/",
           "visibility": "public"
         }
-      ]
+      ],
+      "previousProjectUrls": [
+        "https://lrifton92.github.io/crypt/"
+      ],
+      "sourceArchiveUrl": "https://tari-crypt.vercel.app/crypt-source-683bc4e.zip",
+      "sourceArchiveSha256": "ec64b4e5acde3ef73819371871d54a7190aa7d32388b1a19229081e6049bb96f",
+      "notes": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 31 reviewed forum entry identifies ogboy92ii/crypt as the full-history mirror of the restricted Lrifton92/crypt repository; the replacement demo and earlier source archive remain available. BSD-3-Clause source. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The October 29 recording shows the mirror’s requirements and title screen, with no wallet or transaction. Earlier simulation footage and retired URLs remain in the maintenance history.",
+      "publicationStatus": "published-live-verified",
+      "destinationHistory": [
+        {
+          "observedAt": "2026-10-31T11:03:46.010783+00:00",
+          "previousRepoUrl": "https://tari-crypt.vercel.app/crypt-source-683bc4e.zip",
+          "previousDemoUrl": "https://tari-crypt.vercel.app/",
+          "replacementRepoUrl": "https://github.com/ogboy92ii/crypt",
+          "replacementDemoUrl": "https://tari-crypt.vercel.app/",
+          "evidence": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
+          "reason": "Creator-provided current destination; older URLs and observations retained."
+        }
+      ],
+      "status": "update-publication-pending"
     },
     {
       "id": "phantom-drop",
@@ -724,6 +755,15 @@
           "publishedAt": "2026-10-09T13:55:26.951Z",
           "foundOn": "2026-10-13",
           "context": "Creator announcement",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-30T13:00:01.495Z",
+          "foundOn": "2026-10-31",
+          "context": "A claim link. A riddle. A countdown. 👻\r\n\r\nPhantom Drop explores secret-linked testnet claims, optional riddle locks and expiry reclaim for Tari’s Spooky Secrets contest.\r\n\r\nMeet the project:\r\nhttps://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8\r\n\r\n",
           "visibility": "public"
         }
       ],
@@ -778,9 +818,31 @@
           "foundOn": "2026-10-29",
           "context": "Room-access and SDK recovery update",
           "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/39",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-31T04:07:09.155Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator replacement entry and Sapient update",
+          "visibility": "public"
         }
       ],
-      "notes": "Public message board on Ootle testnet with public threads and encrypted sealed rooms. October 29 public inspection loaded five general threads and a privacy explanation; the deployed page reported runtime 0.46.0. Classic invitations share a key in the URL fragment. The current explanation also describes recipient-specific encrypted invitations, a separate recovery vault and rotation for future messages. Old keys and plaintext cannot be revoked; wallet recovery does not restore room keys, and messages do not authenticate individual authors. Titles, categories, fees, spent-output links, timing and network metadata remain public; accepted posts cannot be edited or deleted through Hauntboard. The October 28 creator update describes SDK/recovery work in PR 3 as not yet deployed; historical test transactions are not fresh acceptance of that upgrade. The recording shows public pages and privacy documentation, with no wallet, private-room access or posting."
+      "notes": "Public message board on Ootle testnet with public threads and encrypted sealed rooms. October 31 inspection loaded six general threads, runtime 0.46.0 and a Sapient wallet option. The creator’s October 30 update adds Sapient posting alongside the browser wallet; funded extension posting remains outstanding in the creator’s evidence. Classic invitations share a key in the URL fragment; recipient invitations, a separate recovery vault and future-message rotation are also described. Old keys and plaintext cannot be revoked, wallet recovery does not restore room keys, and messages do not authenticate individual authors. Titles, fees, spent-output links, timing and network metadata remain public; accepted posts cannot be edited or deleted. The refreshed recording shows public pages and privacy documentation, with no wallet or private-room action.",
+      "status": "update-publication-pending",
+      "publicationEvidence": "outputs/daily-2026-10-29/release.json",
+      "destinationHistory": [
+        {
+          "observedAt": "2026-10-31T11:03:46.010783+00:00",
+          "previousRepoUrl": "https://github.com/kstrycharz/hauntboard",
+          "previousDemoUrl": "https://hauntboard.taritracker.com/",
+          "replacementRepoUrl": "https://github.com/kstrycharz/hauntboard",
+          "replacementDemoUrl": "https://hauntboard.taritracker.com/",
+          "evidence": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/39",
+          "reason": "Creator-provided current destination; older URLs and observations retained."
+        }
+      ]
     },
     {
       "id": "macotaur",
@@ -1070,6 +1132,15 @@
           "foundOn": "2026-10-23",
           "context": "Creator v0.4.0 release",
           "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3myzd2ybfnq2t",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-29T13:00:00.476Z",
+          "foundOn": "2026-10-31",
+          "context": "An AI agent makes another API call. How should it pay? 👻\r\n\r\nGhostline explores pay-per-call channels on Tari Ootle: off-chain vouchers, then settlement of the accepted total.\r\n\r\nSee the explainer and testnet evidence:\r\nhttps://ghostline-ui.vercel.app/\r\n\r\n",
+          "visibility": "public"
         }
       ],
       "status": "published",
@@ -1143,7 +1214,7 @@
     {
       "id": "seance-privacy",
       "title": "Seance — privacy demo",
-      "projectUrl": "https://kylne700.github.io/seance/",
+      "projectUrl": "https://kylne700.github.io/seance-v2/",
       "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
       "sharingPosts": [
         {
@@ -1174,8 +1245,21 @@
           "visibility": "public"
         }
       ],
-      "status": "published-verified",
-      "notes": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0–0.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools’ sealed-poll project."
+      "status": "update-publication-pending",
+      "notes": "Compare what strangers, recipients and auditors can learn from private Esmeralda payments. The creator’s v2 searches the latest 40 indexer transactions locally before asking for a user-entered ID; an explicit Ask for it anyway action can disclose that ID. The initial example remains a labeled saved October 20 copy. October 31 Summon inspection returned a current Commit receipt through a public indexer read. The page reported six requests to two hosts and zero ID requests; this is its own report, not an independent network audit. An optional Sapient transfer goes to a demonstration recipient whose view key is public. Timing, fees and spend links remain visible. Old transaction bodies are unavailable from the indexers; receipts alone cannot reverify their encrypted bytes. The recording covers the picker and request explanation without a wallet or payment. v1 remains at its earlier URL; this is distinct from DevXTools’ sealed polls.",
+      "publicationEvidence": "outputs/daily-2026-10-29/release.json",
+      "destinationHistory": [
+        {
+          "observedAt": "2026-10-31T11:03:46.010783+00:00",
+          "previousRepoUrl": "https://github.com/Kylne700/seance",
+          "previousDemoUrl": "https://kylne700.github.io/seance/",
+          "replacementRepoUrl": "https://github.com/Kylne700/seance-v2",
+          "replacementDemoUrl": "https://kylne700.github.io/seance-v2/",
+          "evidence": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+          "reason": "Creator-provided current destination; older URLs and observations retained."
+        }
+      ],
+      "repoUrl": "https://github.com/Kylne700/seance-v2"
     },
     {
       "id": "sapient-bonus-contest",
@@ -1225,7 +1309,8 @@
           "author": "zjpenterprises.bsky.social",
           "foundOn": "2026-10-23",
           "context": "Creator announcement linked from submission",
-          "visibility": "public"
+          "visibility": "public",
+          "publishedAt": "2026-10-21T20:16:07.908Z"
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1xc4cdg/graveyard_shift_payroll_where_the_salaries_stay/",
@@ -1271,6 +1356,15 @@
           "context": "Dedicated HideBox announcement",
           "foundOn": "2026-10-23",
           "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mz2j2w7xax2c",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-30T00:20:00.519Z",
+          "foundOn": "2026-10-31",
+          "context": "Send a file. Let the link open once. 📦\r\n\r\nHideBox brings browser-encrypted sharing, expiring access and testnet pay-to-open experiments to Tari’s Spooky Secrets submissions.\r\n\r\nExplore the beta with a sample file:\r\nhttps://hidebox.app/\r\n\r\n",
+          "visibility": "public"
         }
       ],
       "status": "published",
@@ -1298,7 +1392,8 @@
           "author": "zbignevich",
           "context": "Creator announcement",
           "foundOn": "2026-10-23",
-          "visibility": "public"
+          "visibility": "public",
+          "publishedAt": "2026-10-21T21:43:27.355969Z"
         },
         {
           "url": "https://x.com/ArturZbignevich/status/2113023878524256561",
@@ -1435,10 +1530,20 @@
           "foundOn": "2026-10-29",
           "context": "October contest submission",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xfqeq2/arkimals_hatch_a_secret_canine_on_tari/",
+          "platform": "Reddit",
+          "author": "Black_Turtle_",
+          "publishedAt": null,
+          "foundOn": "2026-10-29",
+          "context": "Creator announcement, feed displays 3 days ago; exact timestamp not read",
+          "visibility": "public"
         }
       ],
-      "status": "qualified-publication-pending",
-      "notes": "Halloween canine game on Esmeralda. Incubation delivers a surprise through an encrypted Tari memo; the player can preview it privately in Sapient before voluntarily revealing and minting a canine NFT. The operator knows the outcome and can delay delivery; timing, fees and account activity remain public. The October 29 public landing and rules views loaded without a wallet. The rules also describe breeding, staking and rebirth, which permanently retires the submitted canine. Current prices are shown before wallet approval. The recorded walkthrough shows public pages only; no incubation, private memo, mint or transaction was exercised. MIT code; existing Arkimals artwork has separate provenance in the repository."
+      "status": "published",
+      "notes": "Halloween canine game on Esmeralda. Incubation delivers a surprise through an encrypted Tari memo; the player can preview it privately in Sapient before voluntarily revealing and minting a canine NFT. The operator knows the outcome and can delay delivery; timing, fees and account activity remain public. The October 29 public landing and rules views loaded without a wallet. The rules also describe breeding, staking and rebirth, which permanently retires the submitted canine. Current prices are shown before wallet approval. The recorded walkthrough shows public pages only; no incubation, private memo, mint or transaction was exercised. MIT code; existing Arkimals artwork has separate provenance in the repository.",
+      "publicationEvidence": "outputs/daily-2026-10-29/release.json"
     },
     {
       "id": "ootle-steam-kit",
@@ -1465,8 +1570,9 @@
           "context": "Creator announcement linked from contest submission"
         }
       ],
-      "status": "qualified-publication-pending",
-      "notes": "Steam-linked Ootle integration kit with wallet, trade, games and prediction modules. The October 29 public guide loaded; Games, Trade and Predict were disabled before Steam sign-in. The guide says the site currently watches deliveries and settles holds itself, while template-enforced trade escrow is a future destination. Source supports optional wallet-daemon integration and a local ledger mode. Do not interpret the guide or its recording as a completed Steam trade or independently enforced settlement. MIT source reviewed; no Steam login, wallet connection, payment or gameplay was exercised."
+      "status": "published",
+      "notes": "Steam-linked Ootle integration kit with wallet, trade, games and prediction modules. The October 29 public guide loaded; Games, Trade and Predict were disabled before Steam sign-in. The guide says the site currently watches deliveries and settles holds itself, while template-enforced trade escrow is a future destination. Source supports optional wallet-daemon integration and a local ledger mode. Do not interpret the guide or its recording as a completed Steam trade or independently enforced settlement. MIT source reviewed; no Steam login, wallet connection, payment or gameplay was exercised.",
+      "publicationEvidence": "outputs/daily-2026-10-29/release.json"
     },
     {
       "id": "cursed-pumpkin",
@@ -1493,8 +1599,9 @@
           "context": "Creator announcement linked from contest submission"
         }
       ],
-      "status": "qualified-publication-pending",
-      "notes": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed."
+      "status": "published",
+      "notes": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
+      "publicationEvidence": "outputs/daily-2026-10-29/release.json"
     },
     {
       "id": "moonmail",
@@ -1521,8 +1628,9 @@
           "context": "Creator announcement linked from contest submission"
         }
       ],
-      "status": "qualified-publication-pending",
-      "notes": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised."
+      "status": "published",
+      "notes": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
+      "publicationEvidence": "outputs/daily-2026-10-29/release.json"
     },
     {
       "id": "tari-agent-registry",
@@ -1540,8 +1648,497 @@
           "visibility": "public"
         }
       ],
+      "status": "published",
+      "notes": "Community-maintained registry of Tari-themed skills, agents and MCP servers, published through TariTracker. October 29 inspection of the AI Resources section showed four packages with source links and declared permissions. Packages use manifests, pull-request checks and maintainer review; these are not independent security certification. One development skill declares wallet signing/spending permissions, so installing a package is a separate decision from reading its listing. MIT registry at v1.0.0; no package was installed or executed. The recording walks through repository documentation. TariTracker is an independent community service, not an official Tari agent service.",
+      "publicationEvidence": "outputs/daily-2026-10-29/release.json"
+    },
+    {
+      "id": "haunted-passport",
+      "title": "Haunted Passport",
+      "projectUrl": "https://haunted-passport.vercel.app/",
+      "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34",
+          "platform": "Tari Community forum",
+          "author": "Chrisgold",
+          "publishedAt": "2026-10-29T14:15:21.229Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/chrisgoldog.bsky.social/post/3myzc45hcf22l",
+          "platform": "Bluesky",
+          "author": "chrisgoldog.bsky.social",
+          "publishedAt": "2026-10-29T12:42:45.789Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public"
+        }
+      ],
       "status": "qualified-publication-pending",
-      "notes": "Community-maintained registry of Tari-themed skills, agents and MCP servers, published through TariTracker. October 29 inspection of the AI Resources section showed four packages with source links and declared permissions. Packages use manifests, pull-request checks and maintainer review; these are not independent security certification. One development skill declares wallet signing/spending permissions, so installing a package is a separate decision from reading its listing. MIT registry at v1.0.0; no package was installed or executed. The recording walks through repository documentation. TariTracker is an independent community service, not an official Tari agent service."
+      "notes": "Selective-disclosure credentials on Tari Ootle Esmeralda, with issuer, holder, verifier and public observer views. The issuer creates stealth outputs with a public tier floor and can freeze or revoke them; the holder answers a fresh ownership challenge. The issuer can read exact values, repeated presentations of the same output are linkable, and the verifier trusts its indexer. The hosted issuer desk is closed; issuance requires the separate local issuer service. October 31 review covered the creator’s forum and Bluesky announcements, MIT repository and public website. The recording shows public explanations and deployment links; no wallet connection, credential issuance or proof signing was performed."
+    },
+    {
+      "id": "ghost-candy-cards",
+      "title": "Ghost Candy Cards",
+      "projectUrl": "",
+      "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
+          "platform": "Tari Community forum",
+          "author": "cgrabk7q2",
+          "publishedAt": "2026-10-29T21:18:23.300Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l",
+          "platform": "Bluesky",
+          "author": "cgrabk7q2.bsky.social",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public",
+          "publishedAt": "2026-10-29T20:36:40.094Z"
+        }
+      ],
+      "status": "qualified-publication-pending",
+      "notes": "A Rust template, claim client and Python SVG printer for one-time Halloween candy cards. Each printed QR carries a bearer secret; the public bowl stores its corresponding point and records redemption, while the treat is paid to a stealth output. Claims bind the proof to the exact output, and the host can sweep unused treats after the deadline. Anyone who copies a card secret can race its holder; published demo secrets must not be funded. October 31 review covered the creator announcement and MIT README. The recording is a source walkthrough, not a deployed claim demonstration."
+    },
+    {
+      "id": "dead-drop-davidjsourcing",
+      "title": "Dead Drop",
+      "projectUrl": "https://dead-drop.sites.tab.bot/",
+      "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
+          "platform": "Tari Community forum",
+          "author": "davidj_builds",
+          "publishedAt": "2026-10-30T13:56:37.560Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
+          "platform": "Bluesky",
+          "author": "davidj-builds.bsky.social",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public",
+          "publishedAt": "2026-10-30T13:09:23.078284Z"
+        }
+      ],
+      "status": "qualified-publication-pending",
+      "notes": "David J’s riddle-and-stealth-output app combines an encrypted memo, answer-derived signing key and time conditions. Correct answers decrypt locally; claiming and returning funds require transactions. Public riddles can be guessed offline, first valid claim wins, and browser-stored keys need a backup. The Midnight Grave uses epoch 13031; the creator revised its estimated opening to early November rather than a fixed Halloween time. October 31 review covered the source, original announcement and public landing page. The recording shows the public explanation only; no funding, claim or return was attempted. This is a separate community project from the Workbench Dead Drop social-deduction game."
+    },
+    {
+      "id": "ootle-accord",
+      "title": "OotleAccord",
+      "projectUrl": "https://seal-clubber.github.io/ootle-accord/#explore",
+      "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
+          "platform": "Tari Community forum",
+          "author": "SealClubber",
+          "publishedAt": "2026-10-30T20:10:40.548Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3mz4lj2h7zs2l",
+          "platform": "Bluesky",
+          "author": "seal-clubber.bsky.social",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public",
+          "publishedAt": "2026-10-30T20:09:01.725Z"
+        }
+      ],
+      "status": "qualified-publication-pending",
+      "notes": "Community milestone escrow with capped native-TARI funding, a percentage quorum and a mandatory reviewer. Contribution amounts, reviewer identities and votes are public; fixed-destination payouts and refunds use private outputs with encrypted recovery memos. The current community accord displays a completed 10 tTARI payout and three approvals; four designated reviewers share a test operator. Create exports terms rather than deploying another escrow. October 31 review inspected the creator’s README, original submission and public accord/review screens; no wallet connection or transaction was performed. The app trusts its pinned indexer; the creator distinguishes installed-extension validation from SDK tests."
+    },
+    {
+      "id": "ghost-gate",
+      "title": "Ghost Gate",
+      "projectUrl": "https://ghostgate.boo/",
+      "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
+          "platform": "Tari Community forum",
+          "author": "GSXRspartan",
+          "publishedAt": "2026-10-31T05:00:17.372Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/did:plc:cj5wzjmazjbonijxuueycyx5/post/3mz5fwrpt5f27",
+          "platform": "Bluesky",
+          "author": "did:plc:cj5wzjmazjbonijxuueycyx5",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public",
+          "publishedAt": "2026-10-31T04:01:59.626Z"
+        }
+      ],
+      "status": "qualified-publication-pending",
+      "notes": "Privacy Lab is the public demonstration of Ghost Gate access control. The current Crypt v3 policy checks a qualifying revealed/public native-tTARI output against a 100 tTARI threshold and issues a time-limited session. It does not provide a fully confidential aggregate-balance proof. The creator documents Sapient, embedded Web Tari Universe and Telegram admission; the operator and verifier remain trusted, and Telegram grants are not persistent across restart. October 31 review covered the original post, MIT source and live public policy page. The recording shows configuration and privacy limits without connecting a wallet, proving access or joining a group. Minotari XTM threshold-proof work remains research."
+    },
+    {
+      "id": "ootlebook",
+      "title": "Ootlebook",
+      "projectUrl": "https://ootlebook.com/",
+      "discoveryUrl": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+          "platform": "Tari Community forum",
+          "author": "alex3000",
+          "publishedAt": "2026-10-30T04:41:12.215Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator project announcement",
+          "visibility": "public"
+        }
+      ],
+      "status": "qualified-publication-pending",
+      "notes": "Independent community experiment for AI-agent profiles, posts, service listings and voucher-based payment lanes on Esmeralda. The website presents public contract state and an agent manual; the source includes a client, encrypted-message tooling and a read-only Minotari explorer MCP. Registering requires an owner signature and a 10 tTARI name fee. Posts are permanent even when retracted, fees remain locked, and payment lanes use an escrow close window. October 31 review covered the original forum announcement, MIT README and public directory. No agent was registered, software installed, message posted or payment made. Not affiliated with or endorsed by Tari Labs."
+    },
+    {
+      "id": "creator-contest-503",
+      "title": "Tari Creator Contest",
+      "projectUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/1",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/1",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/1",
+          "platform": "Tari Community forum",
+          "author": "kinkajou",
+          "publishedAt": "2026-10-29T19:34:15.725Z",
+          "foundOn": "2026-10-31",
+          "context": "Original creator contest announcement and subsequent clarifications",
+          "visibility": "public"
+        }
+      ],
+      "status": "qualified-publication-pending",
+      "notes": "The October 29 organizer announcement offers 1,000,000 XTM across ten winners, with entries closing November 12, 2026 at 00:00 UTC. Create original Tari content and post its public evidence in the official thread. Platform points and required account follows/subscriptions apply; quality and authenticity remain subject to organizer and council review. The October 30 clarification permits an owned blog or Tari-focused site, rather than an unrelated hosted blogging platform; consult the full original terms and replies. Winners are scheduled to be announced one week after closing."
+    },
+    {
+      "id": "hexcrow",
+      "title": "Hexcrow",
+      "projectUrl": "https://kasbsquall.github.io/hexcrow/",
+      "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
+          "platform": "Tari Community forum",
+          "author": "kasbsquall",
+          "publishedAt": "2026-10-29T17:51:40.929Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j",
+          "platform": "Bluesky",
+          "author": "artemita95",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public",
+          "publishedAt": "2026-10-29T16:58:44.241Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/",
+          "platform": "Reddit",
+          "author": "artemita95",
+          "publishedAt": "2026-10-29T21:14:27.700Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator design explanation and privacy limits",
+          "visibility": "public"
+        }
+      ],
+      "status": "qualified-publication-pending",
+      "notes": "Milestone escrow held in a stealth output, with approval, timeout refund and two jointly signed mediator paths. A public invoice book records hashes, one-time keys, deadlines and status; role-specific copies disclose invoice text and amounts. The public website replays four recorded Esmeralda invoices and checks available book/output state through the indexer, using clearly archived transaction results where history is gone. October 31 inspection switched public and client copies and observed the displayed 250 tTARI invoice and Settled status. The recording switches public, client and accountant views; no new funding or transaction was submitted. Mediator judgment remains trusted, fees and timing remain visible, and published demo keys must not hold value."
+    },
+    {
+      "id": "atproto-identity",
+      "title": "AT Protocol identity on Ootle",
+      "projectUrl": "https://atproto.tari.mw/",
+      "discoveryUrl": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
+      "sharingPosts": [
+        {
+          "url": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
+          "platform": "Bluesky",
+          "author": "0xhra.bsky.social",
+          "publishedAt": "2026-10-30T02:56:26.540Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement of identity integration guide",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "hycorange-burn",
+      "title": "Burn Minotari walkthrough",
+      "projectUrl": "https://paragraph.com/@hycorange/burning-minotari-for-tari-on-ootle-my-esmeralda-walkthrough",
+      "discoveryUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3h7y2edj2l",
+      "sharingPosts": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3h7y2edj2l",
+          "platform": "Bluesky",
+          "author": "hycorange.bsky.social",
+          "publishedAt": "2026-10-30T09:19:40.952Z",
+          "foundOn": "2026-10-31",
+          "context": "Burn Minotari walkthrough",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "platform": "Tari Community forum",
+          "author": "hycorange",
+          "publishedAt": "2026-10-31",
+          "foundOn": "2026-10-31",
+          "context": "Creator confirms unchanged Medium to Paragraph migration",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "hycorange-privacy",
+      "title": "Confidential and stealth explained",
+      "projectUrl": "https://paragraph.com/@hycorange/confidential-vs-stealth-on-tari-ootle",
+      "discoveryUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3hiismky2n",
+      "sharingPosts": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3hiismky2n",
+          "platform": "Bluesky",
+          "author": "hycorange.bsky.social",
+          "publishedAt": "2026-10-30T09:24:27.142Z",
+          "foundOn": "2026-10-31",
+          "context": "Confidential and stealth explained",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "platform": "Tari Community forum",
+          "author": "hycorange",
+          "publishedAt": "2026-10-31",
+          "foundOn": "2026-10-31",
+          "context": "Creator confirms unchanged Medium to Paragraph migration",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "hycorange-mining",
+      "title": "Tari mining lanes explained",
+      "projectUrl": "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet",
+      "discoveryUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m",
+      "sharingPosts": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m",
+          "platform": "Bluesky",
+          "author": "hycorange.bsky.social",
+          "publishedAt": "2026-10-30T23:07:08.544Z",
+          "foundOn": "2026-10-31",
+          "context": "Tari mining lanes explained",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "platform": "Tari Community forum",
+          "author": "hycorange",
+          "publishedAt": "2026-10-31",
+          "foundOn": "2026-10-31",
+          "context": "Creator confirms unchanged Medium to Paragraph migration",
+          "visibility": "public"
+        }
+      ],
+      "destinationHistory": [
+        {
+          "url": "https://medium.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet-blocks-showed-me-e9674e87502c",
+          "observedAt": "2026-10-31T13:04:21.761125+00:00",
+          "status": "HTTP 410 account unavailable",
+          "replacement": "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet",
+          "replacementEvidence": "work/daily-2026-10-31/hycorange-entries-browser.txt",
+          "failureEvidence": "work/daily-2026-10-31/hycorange-mining-browser.txt"
+        }
+      ]
+    },
+    {
+      "id": "hycorange-permissions",
+      "title": "Ootle template permissions guide",
+      "projectUrl": "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to",
+      "discoveryUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f",
+      "sharingPosts": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f",
+          "platform": "Bluesky",
+          "author": "hycorange.bsky.social",
+          "publishedAt": "2026-10-31T00:09:25.449Z",
+          "foundOn": "2026-10-31",
+          "context": "Ootle template permissions guide",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "platform": "Tari Community forum",
+          "author": "hycorange",
+          "publishedAt": "2026-10-31",
+          "foundOn": "2026-10-31",
+          "context": "Creator confirms unchanged Medium to Paragraph migration",
+          "visibility": "public"
+        }
+      ],
+      "destinationHistory": [
+        {
+          "url": "https://medium.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to-permissions-in-tari-ootle-templates-264de72b4b83",
+          "observedAt": "2026-10-31T13:04:21.761125+00:00",
+          "status": "HTTP 410 account unavailable",
+          "replacement": "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to",
+          "replacementEvidence": "work/daily-2026-10-31/hycorange-entries-browser.txt",
+          "failureEvidence": "work/daily-2026-10-31/hycorange-permissions-browser.txt"
+        }
+      ]
+    },
+    {
+      "id": "hycorange-airdrops",
+      "title": "Native stealth airdrop walkthrough",
+      "projectUrl": "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop",
+      "discoveryUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a",
+      "sharingPosts": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a",
+          "platform": "Bluesky",
+          "author": "hycorange.bsky.social",
+          "publishedAt": "2026-10-31T05:18:27.611Z",
+          "foundOn": "2026-10-31",
+          "context": "Native stealth airdrop walkthrough",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "platform": "Tari Community forum",
+          "author": "hycorange",
+          "publishedAt": "2026-10-31",
+          "foundOn": "2026-10-31",
+          "context": "Creator confirms unchanged Medium to Paragraph migration",
+          "visibility": "public"
+        }
+      ],
+      "destinationHistory": [
+        {
+          "url": "https://medium.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop-taught-me-about-ootles-native-d87a14931168",
+          "observedAt": "2026-10-31T13:04:21.761125+00:00",
+          "status": "HTTP 410 account unavailable",
+          "replacement": "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop",
+          "replacementEvidence": "work/daily-2026-10-31/hycorange-entries-browser.txt",
+          "failureEvidence": "work/daily-2026-10-31/hycorange-airdrops-browser.txt"
+        }
+      ]
+    },
+    {
+      "id": "two-layers",
+      "title": "Minotari and Ootle explained",
+      "projectUrl": "https://medium.com/@penielgold/two-layers-two-jobs-how-minotari-and-ootle-work-together-to-make-tari-programmable-d8dd08334f2b",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/8",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/8",
+          "platform": "Tari Community forum",
+          "author": "Dapo Olaomo",
+          "publishedAt": "2026-10-30T22:21:13.359Z",
+          "foundOn": "2026-10-31",
+          "context": "Ootle Launch Event: Creator Contest",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "turbine-explainer",
+      "title": "Ootle Turbine fee burn explained",
+      "projectUrl": "https://www.reddit.com/r/tari/comments/1xj9m3e/ootles_turbine_burn_read_from_the_docs_the/",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+          "platform": "Tari Community forum",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-10-30",
+          "foundOn": "2026-10-31",
+          "context": "Ootle Launch Event: Creator Contest",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xj9m3e/ootles_turbine_burn_read_from_the_docs_the/",
+          "platform": "Reddit",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-10-30T08:17:09.120000+00:00",
+          "foundOn": "2026-10-31",
+          "context": "Ootle Turbine fee burn explained",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "sharding-explainer",
+      "title": "Ootle shards and committees explained",
+      "projectUrl": "https://www.reddit.com/r/tari/comments/1xj9tss/how_ootle_splits_the_work_256_shards_40validator/",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+          "platform": "Tari Community forum",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-10-30",
+          "foundOn": "2026-10-31",
+          "context": "Ootle Launch Event: Creator Contest",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xj9tss/how_ootle_splits_the_work_256_shards_40validator/",
+          "platform": "Reddit",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-10-30T08:31:12.178000+00:00",
+          "foundOn": "2026-10-31",
+          "context": "Ootle shards and committees explained",
+          "visibility": "public"
+        }
+      ]
+    },
+    {
+      "id": "nyam-mining",
+      "title": "Tari mining lanes and the C29 incident",
+      "projectUrl": "https://paragraph.com/@nyam/four-lanes-one-chain-what-taris-c29-incident-teaches-about",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/6",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/6",
+          "platform": "Tari Community forum",
+          "author": "nyam",
+          "publishedAt": "2026-10-30",
+          "foundOn": "2026-10-31",
+          "context": "Ootle Launch Event: Creator Contest",
+          "visibility": "public"
+        }
+      ],
+      "destinationHistory": [
+        {
+          "url": "https://paragraph.com/@nyam/four-lanes-one-chain-what-tari-s-c29-incident-teaches-about",
+          "observedAt": "2026-10-31T15:08:56.508147+00:00",
+          "status": "404",
+          "replacement": "https://paragraph.com/@nyam/four-lanes-one-chain-what-taris-c29-incident-teaches-about",
+          "replacementEvidence": "work/daily-2026-10-31/nyam-publication-current.txt",
+          "failureEvidence": "work/daily-2026-10-31/nyam-article-current.txt"
+        }
+      ]
     }
   ]
 }

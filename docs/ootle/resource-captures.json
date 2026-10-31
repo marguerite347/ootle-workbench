@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T10:41:24.960767+00:00",
+  "updatedAt": "2026-10-31T15:08:56.508147+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -1510,7 +1510,24 @@
       "method": "Public landing and amount/claim interface scrolling; no address, CAPTCHA or claim submitted.",
       "sha256": "13c773d243a79ce7dd9526d49723707a944956fab930a09fb97acb3ae9ea70e5",
       "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
-      "verification": "published; desktop and phone playback verified; served media/poster bytes match reviewed files",
+      "verification": {
+        "priorNote": "published; desktop and phone playback verified; served media/poster bytes match reviewed files",
+        "livePlayback": {
+          "checkedAt": "2026-10-31T14:32:05.352480+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/learning-desktop-playback.json",
+            "work/daily-2026-10-31/learning-mobile-playback.json",
+            "work/daily-2026-10-31/workbench-learning-desktop-playback.json",
+            "work/daily-2026-10-31/workbench-learning-mobile-playback.json",
+            "work/daily-2026-10-31/lobby-followup-live-build.json",
+            "work/daily-2026-10-31/workbench-followup-live-build.json"
+          ],
+          "lobbyRevision": "79f61ad010fbf571b7de23034b79aa927bc12453",
+          "workbenchRevision": "4ebf97a39d22cec029252ef5a8e4409e55a2754d",
+          "desktop": true,
+          "mobile": true
+        }
+      },
       "blocker": null,
       "liveVerification": {
         "checkedAt": "2026-10-14T14:05:41.280703+00:00",
@@ -1524,7 +1541,8 @@
         "workbenchRevision": "b9f647ed9abe6fe4090016d16ea0bf2becb738b7",
         "evidence": "daily-2026-10-14/playback.json",
         "trialEvidence": null
-      }
+      },
+      "status": "published-live-verified"
     },
     {
       "resourceId": "hauntboard",
@@ -3466,7 +3484,8 @@
           "author": "zjpenterprises.bsky.social",
           "foundOn": "2026-10-23",
           "context": "Creator announcement linked from submission",
-          "visibility": "public"
+          "visibility": "public",
+          "publishedAt": "2026-10-21T20:16:07.908Z"
         }
       ],
       "captureType": "app-demo",
@@ -3792,7 +3811,8 @@
           "author": "zbignevich",
           "context": "Creator announcement",
           "foundOn": "2026-10-23",
-          "visibility": "public"
+          "visibility": "public",
+          "publishedAt": "2026-10-21T21:43:27.355969Z"
         },
         {
           "url": "https://x.com/ArturZbignevich/status/2113023878524256561",
@@ -4270,6 +4290,15 @@
           "foundOn": "2026-10-29",
           "context": "October contest submission",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xfqeq2/arkimals_hatch_a_secret_canine_on_tari/",
+          "platform": "Reddit",
+          "author": "Black_Turtle_",
+          "publishedAt": null,
+          "foundOn": "2026-10-29",
+          "context": "Creator announcement, feed displays 3 days ago; exact timestamp not read",
+          "visibility": "public"
         }
       ],
       "captureType": "public-page",
@@ -4288,7 +4317,7 @@
       "sha256": "c5167ecb6bfd0022024e4f230c27f23f31ab1b97cf351dbdbb3c3d68f6067748",
       "caption": "App demo",
       "method": "App demo — Public landing and game rules only; no wallet or incubation.",
-      "status": "lobby-live-workbench-pending",
+      "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
           0,
@@ -4296,10 +4325,11 @@
           11
         ],
         "livePlayback": {
-          "lobbyRevision": "bb9d35b7375629b8dd3c5e3e5dad6898f7fc2185",
-          "desktop": "0 to12seconds",
-          "mobile": "390x844:0 to12seconds",
-          "workbench": "pending"
+          "at": "2026-10-29T11:02:26.164887+00:00",
+          "lobbyRevision": "09ebcb8eaf1d1ef02f81ea9efda50f6587cf8ebf",
+          "workbenchRevision": "f18a732b13a2a68a9caecfa75310fbdb46b15a88",
+          "scope": "Native video Space key; desktop and 390x844 phone viewport; playback advanced from 0 to at least 10.97s of 12s on Lobby desktop, all clips ended at12s on phone and Workbench. Hauntboard only has a Lobby surface.",
+          "evidence": "work/daily-2026-10-29/playback.json"
         }
       }
     },
@@ -4343,14 +4373,20 @@
       "sha256": "99668c6dad72584218a17d62509f5700fecea7034f2ebcd3034e7928827945d0",
       "caption": "Docs walkthrough",
       "method": "Docs walkthrough — Public settlement guide; no Steam login, trade or payment.",
-      "status": "reviewed-publication-pending",
+      "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
           0,
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": {
+          "at": "2026-10-29T11:02:26.164887+00:00",
+          "lobbyRevision": "09ebcb8eaf1d1ef02f81ea9efda50f6587cf8ebf",
+          "workbenchRevision": "f18a732b13a2a68a9caecfa75310fbdb46b15a88",
+          "scope": "Native video Space key; desktop and 390x844 phone viewport; playback advanced from 0 to at least 10.97s of 12s on Lobby desktop, all clips ended at12s on phone and Workbench. Hauntboard only has a Lobby surface.",
+          "evidence": "work/daily-2026-10-29/playback.json"
+        }
       }
     },
     {
@@ -4393,14 +4429,20 @@
       "sha256": "a56bc6b5aa3731ebe827747684a7671232497b5ca387f57bb1c531d6ef60362a",
       "caption": "App demo",
       "method": "App demo — Interactive replay of the creator’s recorded October 28 testnet game; no new transactions.",
-      "status": "reviewed-publication-pending",
+      "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
           0,
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": {
+          "at": "2026-10-29T11:02:26.164887+00:00",
+          "lobbyRevision": "09ebcb8eaf1d1ef02f81ea9efda50f6587cf8ebf",
+          "workbenchRevision": "f18a732b13a2a68a9caecfa75310fbdb46b15a88",
+          "scope": "Native video Space key; desktop and 390x844 phone viewport; playback advanced from 0 to at least 10.97s of 12s on Lobby desktop, all clips ended at12s on phone and Workbench. Hauntboard only has a Lobby surface.",
+          "evidence": "work/daily-2026-10-29/playback.json"
+        }
       }
     },
     {
@@ -4443,14 +4485,20 @@
       "sha256": "d161f0bde247870ab2b07daaf8f84e2b53d91accc0df723328f62def66ff083d",
       "caption": "Docs walkthrough",
       "method": "Docs walkthrough — Public privacy page; no mailbox grant, letter delivery or payment.",
-      "status": "reviewed-publication-pending",
+      "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
           0,
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": {
+          "at": "2026-10-29T11:02:26.164887+00:00",
+          "lobbyRevision": "09ebcb8eaf1d1ef02f81ea9efda50f6587cf8ebf",
+          "workbenchRevision": "f18a732b13a2a68a9caecfa75310fbdb46b15a88",
+          "scope": "Native video Space key; desktop and 390x844 phone viewport; playback advanced from 0 to at least 10.97s of 12s on Lobby desktop, all clips ended at12s on phone and Workbench. Hauntboard only has a Lobby surface.",
+          "evidence": "work/daily-2026-10-29/playback.json"
+        }
       }
     },
     {
@@ -4484,14 +4532,20 @@
       "sha256": "9a1d6ebf510899ec59af24fd23d7508506ee6b6a5fb5981c1d14a7536b30c458",
       "caption": "Docs walkthrough",
       "method": "Docs walkthrough — Registry README, package structure and contribution scope; no installation.",
-      "status": "reviewed-publication-pending",
+      "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
           0,
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": {
+          "at": "2026-10-29T11:02:26.164887+00:00",
+          "lobbyRevision": "09ebcb8eaf1d1ef02f81ea9efda50f6587cf8ebf",
+          "workbenchRevision": "f18a732b13a2a68a9caecfa75310fbdb46b15a88",
+          "scope": "Native video Space key; desktop and 390x844 phone viewport; playback advanced from 0 to at least 10.97s of 12s on Lobby desktop, all clips ended at12s on phone and Workbench. Hauntboard only has a Lobby surface.",
+          "evidence": "work/daily-2026-10-29/playback.json"
+        }
       }
     },
     {
@@ -4501,7 +4555,39 @@
       "originalPosts": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
-          "platform": "Tari Community forum"
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-12T22:16:52.102Z",
+          "foundOn": "2026-10-13",
+          "context": "October Build Contest Thread: Spooky Secrets!",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1x4eany/i_built_hauntboard_for_taris_spooky_secrets/",
+          "platform": "Reddit",
+          "author": "u/Starz1428",
+          "publishedAt": null,
+          "foundOn": "2026-10-13",
+          "context": "Creator Hauntboard announcement in r/tari; one returned reply read October 16",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/13",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-16T17:39:46.303Z",
+          "foundOn": "2026-10-16",
+          "context": "Sealed-message update and explicit public-metadata limits",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/31",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-28T04:30:39.563Z",
+          "foundOn": "2026-10-29",
+          "context": "Room-access and SDK recovery update",
+          "visibility": "public"
         }
       ],
       "captureType": "app-demo",
@@ -4520,14 +4606,20 @@
       "sha256": "272756cb20963b9973ee9fe9f271c686ac534b38af5688211ab0831b22375d3d",
       "caption": "App demo",
       "method": "App demo — Public board and room-privacy explanation; no wallet or private-room access.",
-      "status": "reviewed-publication-pending",
+      "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
           0,
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": {
+          "at": "2026-10-29T11:02:26.164887+00:00",
+          "lobbyRevision": "09ebcb8eaf1d1ef02f81ea9efda50f6587cf8ebf",
+          "workbenchRevision": null,
+          "scope": "Native video Space key; desktop and 390x844 phone viewport; playback advanced from 0 to at least 10.97s of 12s on Lobby desktop, all clips ended at12s on phone and Workbench. Hauntboard only has a Lobby surface.",
+          "evidence": "work/daily-2026-10-29/playback.json"
+        }
       }
     },
     {
@@ -4537,7 +4629,21 @@
       "originalPosts": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
-          "platform": "Tari Community forum"
+          "platform": "Tari Community forum",
+          "author": "Kylne700",
+          "publishedAt": "2026-10-20T18:35:07.259Z",
+          "foundOn": "2026-10-21",
+          "context": "October contest submission for the three-observer privacy demo",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22",
+          "platform": "Bluesky",
+          "author": "Kylne700",
+          "publishedAt": "2026-10-20T18:09:16.314Z",
+          "foundOn": "2026-10-21",
+          "context": "Original creator announcement and demo recording",
+          "visibility": "public"
         }
       ],
       "captureType": "app-demo",
@@ -4556,10 +4662,1234 @@
       "sha256": "73a24597d8f822ce969a2f9baba80a0a71773a582dcb7539ce9816683327f070",
       "caption": "App demo",
       "method": "App demo — Public saved example and disclosure panels; deliberately public test keys, no wallet.",
-      "status": "reviewed-publication-pending",
+      "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
           0,
+          6,
+          11
+        ],
+        "livePlayback": {
+          "at": "2026-10-29T11:02:26.164887+00:00",
+          "lobbyRevision": "09ebcb8eaf1d1ef02f81ea9efda50f6587cf8ebf",
+          "workbenchRevision": "f18a732b13a2a68a9caecfa75310fbdb46b15a88",
+          "scope": "Native video Space key; desktop and 390x844 phone viewport; playback advanced from 0 to at least 10.97s of 12s on Lobby desktop, all clips ended at12s on phone and Workbench. Hauntboard only has a Lobby surface.",
+          "evidence": "work/daily-2026-10-29/playback.json"
+        }
+      }
+    },
+    {
+      "resourceId": "crypt",
+      "title": "Crypt",
+      "targetUrl": "https://tari-crypt.vercel.app/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
+          "platform": "Tari Community forum"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-10-29T11:06:04.065Z",
+      "observedRevision": "683bc4e (creator source snapshot label)",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-29/capture-crypt/resource-crypt-20261029.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-crypt-20261029.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-crypt-20261029.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261029.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261029.png",
+      "sha256": "c556963c2dc12758addfc4b943dcf4bc379b59acc50da20bf8d335eac5bba47a",
+      "caption": "App demo",
+      "method": "App demo — Replacement mirror’s testnet payout warning and title screen; no wallet or transaction.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Native playback reached 12 seconds on desktop and phone in Lobby and Workbench",
+        "lobbyRevision": "42c2b39e8902cfedbab9e31a534d86f166b49439",
+        "workbenchRevision": "0cc7902b72f2626de37ee84a2420187533caec6d",
+        "mediaSha256Matches": true
+      }
+    },
+    {
+      "resourceId": "haunted-passport",
+      "title": "Haunted Passport",
+      "targetUrl": "https://haunted-passport.vercel.app/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34",
+          "platform": "Tari Community forum",
+          "author": "Chrisgold",
+          "publishedAt": "2026-10-29T14:15:21.229Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/chrisgoldog.bsky.social/post/3myzc45hcf22l",
+          "platform": "Bluesky",
+          "author": "chrisgoldog.bsky.social",
+          "publishedAt": "2026-10-29T12:42:45.789Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-31T09:25:53.575Z",
+      "observedRevision": "cb7627b663d6d3225f22d6d90a556cbb298a16f4",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-trial/resource-haunted-passport-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-haunted-passport-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-haunted-passport-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-haunted-passport-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-haunted-passport-20261031.png",
+      "sha256": "9fcf30d8b5a6218668eeda92ce86d89ffdf1fc0aca7a5e7bf55e2356fc3aba90",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — Public credential roles, disclosure model and deployment links; no wallet actions.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Reached end at 12 seconds on desktop and phone on every applicable surface.",
+        "evidence": [
+          "work/daily-2026-10-31/lobby-batch-desktop-playback-aggregate.json",
+          "work/daily-2026-10-31/lobby-batch-live-build.json",
+          "work/daily-2026-10-31/haunted-live-desktop-playback.json",
+          "work/daily-2026-10-31/lobby-haunted-mobile-batch-playback.json",
+          "work/daily-2026-10-31/workbench-batch-desktop-playback.json",
+          "work/daily-2026-10-31/workbench-batch-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-live-verification.json"
+        ],
+        "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
+      }
+    },
+    {
+      "resourceId": "ghost-candy-cards",
+      "title": "Ghost Candy Cards",
+      "targetUrl": "https://github.com/cgrab-k7q2/ghost-candy-cards#readme",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
+          "platform": "Tari Community forum",
+          "author": "cgrabk7q2",
+          "publishedAt": "2026-10-29T21:18:23.300Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l",
+          "platform": "Bluesky",
+          "author": "cgrabk7q2.bsky.social",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public",
+          "publishedAt": "2026-10-29T20:36:40.094Z"
+        }
+      ],
+      "captureType": "source-walkthrough",
+      "capturedAt": "2026-10-31T09:53:05.942Z",
+      "observedRevision": "d023958902a09b41f15ff5bb9cd4a1c5cc559ff4",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-batch/resource-ghost-candy-cards-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ghost-candy-cards-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ghost-candy-cards-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-candy-cards-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-candy-cards-20261031.png",
+      "sha256": "8e88e83b397ba78ef44ecbe11b353de865d8ea27d4324c3123231c50956cf2c8",
+      "caption": "Docs walkthrough",
+      "method": "Source/docs walkthrough — README, printable example cards and claim design; no card redemption.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Reached end at 12 seconds on desktop and phone on every applicable surface.",
+        "evidence": [
+          "work/daily-2026-10-31/lobby-batch-desktop-playback-aggregate.json",
+          "work/daily-2026-10-31/lobby-batch-live-build.json",
+          "work/daily-2026-10-31/lobby-ghost-candy-desktop-playback.json",
+          "work/daily-2026-10-31/lobby-ghost-candy-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-batch-desktop-playback.json",
+          "work/daily-2026-10-31/workbench-batch-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-live-verification.json"
+        ],
+        "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
+      }
+    },
+    {
+      "resourceId": "dead-drop-davidjsourcing",
+      "title": "Dead Drop",
+      "targetUrl": "https://dead-drop.sites.tab.bot/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
+          "platform": "Tari Community forum",
+          "author": "davidj_builds",
+          "publishedAt": "2026-10-30T13:56:37.560Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
+          "platform": "Bluesky",
+          "author": "davidj-builds.bsky.social",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public",
+          "publishedAt": "2026-10-30T13:09:23.078284Z"
+        }
+      ],
+      "captureType": "source-walkthrough",
+      "capturedAt": "2026-10-31T09:53:29.349Z",
+      "observedRevision": "e68360ee7fb978d98573aa7861e2cb1bf5047532",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-batch/resource-dead-drop-davidjsourcing-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-dead-drop-davidjsourcing-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-dead-drop-davidjsourcing-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dead-drop-davidjsourcing-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dead-drop-davidjsourcing-20261031.png",
+      "sha256": "8603320ce3fb77ff7479515eb8045e03092e041f3b4a917c62a56ef514da3516",
+      "caption": "Docs walkthrough",
+      "method": "Source/docs walkthrough — public landing page, privacy layers and timed hunt explanation; no wallet actions.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Reached end at 12 seconds on desktop and phone on every applicable surface.",
+        "evidence": [
+          "work/daily-2026-10-31/lobby-batch-desktop-playback-aggregate.json",
+          "work/daily-2026-10-31/lobby-batch-live-build.json",
+          "work/daily-2026-10-31/lobby-dead-drop-desktop-playback.json",
+          "work/daily-2026-10-31/lobby-dead-drop-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-batch-desktop-playback.json",
+          "work/daily-2026-10-31/workbench-batch-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-live-verification.json"
+        ],
+        "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
+      }
+    },
+    {
+      "resourceId": "ootle-accord",
+      "title": "OotleAccord",
+      "targetUrl": "https://seal-clubber.github.io/ootle-accord/#explore",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
+          "platform": "Tari Community forum",
+          "author": "SealClubber",
+          "publishedAt": "2026-10-30T20:10:40.548Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3mz4lj2h7zs2l",
+          "platform": "Bluesky",
+          "author": "seal-clubber.bsky.social",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public",
+          "publishedAt": "2026-10-30T20:09:01.725Z"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-10-31T09:53:52.513Z",
+      "observedRevision": "622b71b73c4cf9038d8e60c183babb3be4d62326",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-batch/resource-ootle-accord-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-accord-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-accord-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-accord-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-accord-20261031.png",
+      "sha256": "440c82efbb32c533b65d3a33b544c50dae54d81083d3a78a8bb2ba817f7f5cd6",
+      "caption": "App demo",
+      "method": "App demo — read-only public completed accord and review screen; no funding, approval or payout submitted.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Reached end at 12 seconds on desktop and phone on every applicable surface.",
+        "evidence": [
+          "work/daily-2026-10-31/lobby-batch-desktop-playback-aggregate.json",
+          "work/daily-2026-10-31/lobby-batch-live-build.json",
+          "work/daily-2026-10-31/lobby-accord-desktop-playback.json",
+          "work/daily-2026-10-31/lobby-accord-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-batch-desktop-playback.json",
+          "work/daily-2026-10-31/workbench-batch-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-live-verification.json"
+        ],
+        "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
+      }
+    },
+    {
+      "resourceId": "ghost-gate",
+      "title": "Ghost Gate",
+      "targetUrl": "https://ghostgate.boo/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
+          "platform": "Tari Community forum",
+          "author": "GSXRspartan",
+          "publishedAt": "2026-10-31T05:00:17.372Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/did:plc:cj5wzjmazjbonijxuueycyx5/post/3mz5fwrpt5f27",
+          "platform": "Bluesky",
+          "author": "did:plc:cj5wzjmazjbonijxuueycyx5",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public",
+          "publishedAt": "2026-10-31T04:01:59.626Z"
+        }
+      ],
+      "captureType": "source-walkthrough",
+      "capturedAt": "2026-10-31T09:54:16.888Z",
+      "observedRevision": "f960d1575c7175f98625d2ae0015a300980b0b68",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-batch/resource-ghost-gate-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ghost-gate-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ghost-gate-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-gate-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-gate-20261031.png",
+      "sha256": "d0a0f840afb9fd2fd231b40a78f502e79a6726cb4754f66fe32c212abce9094a",
+      "caption": "Docs walkthrough",
+      "method": "Source/docs walkthrough — public Crypt threshold policy and privacy limits; no wallet or admission action.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Reached end at 12 seconds on desktop and phone on every applicable surface.",
+        "evidence": [
+          "work/daily-2026-10-31/lobby-batch-desktop-playback-aggregate.json",
+          "work/daily-2026-10-31/lobby-batch-live-build.json",
+          "work/daily-2026-10-31/lobby-ghost-gate-desktop-playback.json",
+          "work/daily-2026-10-31/lobby-ghost-gate-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-batch-desktop-playback.json",
+          "work/daily-2026-10-31/workbench-batch-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-live-verification.json"
+        ],
+        "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
+      }
+    },
+    {
+      "resourceId": "ootlebook",
+      "title": "Ootlebook",
+      "targetUrl": "https://ootlebook.com/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+          "platform": "Tari Community forum",
+          "author": "alex3000",
+          "publishedAt": "2026-10-30T04:41:12.215Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator project announcement",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "source-walkthrough",
+      "capturedAt": "2026-10-31T09:55:53.410Z",
+      "observedRevision": "f17d1372ac3d1b1b87047077cf5f4e0eaac0bc02",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-more/resource-ootlebook-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootlebook-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootlebook-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootlebook-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootlebook-20261031.png",
+      "sha256": "1972ada3b26d7ceda0ddf6780c8edc3985080f89cbe9a407f25cb99535eaf064",
+      "caption": "Docs walkthrough",
+      "method": "Source/docs walkthrough — public agent cards, board and community links; no registration or payment.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Reached end at 12 seconds on desktop and phone on every applicable surface.",
+        "evidence": [
+          "work/daily-2026-10-31/lobby-batch-desktop-playback-aggregate.json",
+          "work/daily-2026-10-31/lobby-batch-live-build.json",
+          "work/daily-2026-10-31/lobby-ootlebook-desktop-playback.json",
+          "work/daily-2026-10-31/lobby-ootlebook-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-batch-desktop-playback.json",
+          "work/daily-2026-10-31/workbench-batch-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-live-verification.json"
+        ],
+        "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
+      }
+    },
+    {
+      "resourceId": "creator-contest-503",
+      "title": "Tari Creator Contest",
+      "targetUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/1",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/1",
+          "platform": "Tari Community forum",
+          "author": "kinkajou",
+          "publishedAt": "2026-10-29T19:34:15.725Z",
+          "foundOn": "2026-10-31",
+          "context": "Original creator contest announcement and subsequent clarifications",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "announcement",
+      "capturedAt": "2026-10-31T09:56:19.191Z",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-more/resource-creator-contest-503-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-creator-contest-503-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-creator-contest-503-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-creator-contest-503-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-creator-contest-503-20261031.png",
+      "sha256": "37e1c567953eceae87984dcf8afcdf70e6910bbc1f155864fbda76c8a0fa34aa",
+      "caption": "Announcement",
+      "method": "Announcement — original Tari Creator Contest terms, point categories and November 12 deadline; recorded October 31, 2026.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Reached end at 12 seconds on desktop and phone on every applicable surface.",
+        "evidence": [
+          "work/daily-2026-10-31/lobby-batch-desktop-playback-aggregate.json",
+          "work/daily-2026-10-31/lobby-batch-live-build.json",
+          "work/daily-2026-10-31/lobby-contest-desktop-playback.json",
+          "work/daily-2026-10-31/lobby-contest-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-batch-desktop-playback.json",
+          "work/daily-2026-10-31/workbench-batch-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-live-verification.json"
+        ],
+        "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
+      }
+    },
+    {
+      "resourceId": "hexcrow",
+      "title": "Hexcrow",
+      "targetUrl": "https://kasbsquall.github.io/hexcrow/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
+          "platform": "Tari Community forum",
+          "author": "kasbsquall",
+          "publishedAt": "2026-10-29T17:51:40.929Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j",
+          "platform": "Bluesky",
+          "author": "artemita95",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public",
+          "publishedAt": "2026-10-29T16:58:44.241Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/",
+          "platform": "Reddit",
+          "author": "artemita95",
+          "publishedAt": "2026-10-29T21:14:27.700Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator design explanation and privacy limits",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-10-31T09:59:37.974Z",
+      "observedRevision": "d58ea442900f65859e536a08e02f353afdf85164",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-hexcrow-final/resource-hexcrow-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hexcrow-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hexcrow-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261031.png",
+      "sha256": "30b11d6c4403299eea37cc82453aa5b804e72c5ca0b25dd175ce984d9579bca9",
+      "caption": "App demo",
+      "method": "App demo — recorded-run replay with public, client and accountant disclosure views; no new transaction.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Reached end at 12 seconds on desktop and phone on every applicable surface.",
+        "evidence": [
+          "work/daily-2026-10-31/lobby-batch-desktop-playback-aggregate.json",
+          "work/daily-2026-10-31/lobby-batch-live-build.json",
+          "work/daily-2026-10-31/lobby-hexcrow-desktop-playback.json",
+          "work/daily-2026-10-31/lobby-hexcrow-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-batch-desktop-playback.json",
+          "work/daily-2026-10-31/workbench-batch-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-live-verification.json"
+        ],
+        "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
+      }
+    },
+    {
+      "resourceId": "hauntboard",
+      "title": "Hauntboard",
+      "targetUrl": "https://hauntboard.taritracker.com/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-12T22:16:52.102Z",
+          "foundOn": "2026-10-13",
+          "context": "October Build Contest Thread: Spooky Secrets!",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1x4eany/i_built_hauntboard_for_taris_spooky_secrets/",
+          "platform": "Reddit",
+          "author": "u/Starz1428",
+          "publishedAt": null,
+          "foundOn": "2026-10-13",
+          "context": "Creator Hauntboard announcement in r/tari; one returned reply read October 16",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/13",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-16T17:39:46.303Z",
+          "foundOn": "2026-10-16",
+          "context": "Sealed-message update and explicit public-metadata limits",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/31",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-28T04:30:39.563Z",
+          "foundOn": "2026-10-29",
+          "context": "Room-access and SDK recovery update",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/39",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-31T04:07:09.155Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator replacement entry and Sapient update",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-10-31T10:00:06.066Z",
+      "observedRevision": "b558b1cb56ddf0e0a06b7154248260a95a89d083",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-updates/resource-hauntboard-update-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hauntboard-update-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hauntboard-update-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-update-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-update-20261031.png",
+      "sha256": "c8316252eecf01aa6c434709eb8455fb1b9bcff4d89f24e811370ed1de12096b",
+      "caption": "App demo",
+      "method": "App demo — Public board and room-privacy explanation; no wallet, private-room access or posting.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Reached end at 12 seconds on desktop and phone on every applicable surface.",
+        "evidence": [
+          "work/daily-2026-10-31/lobby-batch-desktop-playback-aggregate.json",
+          "work/daily-2026-10-31/lobby-batch-live-build.json",
+          "work/daily-2026-10-31/lobby-hauntboard-mobile-playback.json"
+        ],
+        "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
+      }
+    },
+    {
+      "resourceId": "seance-privacy",
+      "title": "Seance — privacy demo",
+      "targetUrl": "https://kylne700.github.io/seance-v2/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+          "platform": "Tari Community forum",
+          "author": "Kylne700",
+          "publishedAt": "2026-10-20T18:35:07.259Z",
+          "foundOn": "2026-10-21",
+          "context": "October contest submission for the three-observer privacy demo",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22",
+          "platform": "Bluesky",
+          "author": "Kylne700",
+          "publishedAt": "2026-10-20T18:09:16.314Z",
+          "foundOn": "2026-10-21",
+          "context": "Original creator announcement and demo recording",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mywsm2tpqm2b",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-28T13:00:00.509Z",
+          "foundOn": "2026-10-29",
+          "context": "What can a stranger see in a private payment? 👻\r\n\r\nSeance lets you compare the public view, a recipient’s view and an auditor’s view using Tari testnet examples. It also shows what still leaks.\r\n\r\nExplore:\r\nhttps://kylne700.github.io/seance/",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "source-walkthrough",
+      "capturedAt": "2026-10-31T10:16:48.676Z",
+      "observedRevision": "b8c7bc8eb270433857fdc72778309ad09bf41cd2",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-updates/resource-seance-v2-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-seance-v2-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-seance-v2-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-v2-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-v2-20261031.png",
+      "sha256": "db984f52961f25a916ce52d3f00c610d1378cda1eef9dba2e41ff32adecfd0e3",
+      "caption": "Docs walkthrough",
+      "method": "Source/docs walkthrough — Transaction picker and request disclosure; no wallet or payment.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          0,
+          6,
+          11
+        ],
+        "livePlayback": "Reached end at 12 seconds on desktop and phone on every applicable surface.",
+        "evidence": [
+          "work/daily-2026-10-31/lobby-batch-desktop-playback-aggregate.json",
+          "work/daily-2026-10-31/lobby-batch-live-build.json",
+          "work/daily-2026-10-31/lobby-seance-desktop-playback.json",
+          "work/daily-2026-10-31/lobby-seance-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-batch-desktop-playback.json",
+          "work/daily-2026-10-31/workbench-batch-mobile-playback.json",
+          "work/daily-2026-10-31/workbench-live-verification.json"
+        ],
+        "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
+      }
+    },
+    {
+      "resourceId": "taritracker-faucet",
+      "title": "TariTracker Faucet",
+      "targetUrl": "https://testnet-faucet.taritracker.com/",
+      "discoveryUrl": "https://github.com/kstrycharz/hauntboard#wallet-funding",
+      "captureType": "app-demo",
+      "capturedAt": "2026-10-31T12:35:35.312Z",
+      "observedRevision": null,
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-faucet-upgrade-retry/resource-taritracker-faucet-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-taritracker-faucet-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-taritracker-faucet-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261031.png",
+      "sha256": "653327fc9b50da05341cab7b251c8fe723e24c0f14b61dc0c037599fda0eb02e",
+      "caption": "App demo",
+      "method": "Genuine browser recording of the public faucet interface. No address, CAPTCHA, claim or wallet action. Reviewed opening, middle and closing frames.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          1,
+          5,
+          11
+        ],
+        "livePlayback": {
+          "checkedAt": "2026-10-31T14:32:05.352480+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/learning-desktop-playback.json",
+            "work/daily-2026-10-31/learning-mobile-playback.json",
+            "work/daily-2026-10-31/workbench-learning-desktop-playback.json",
+            "work/daily-2026-10-31/workbench-learning-mobile-playback.json",
+            "work/daily-2026-10-31/lobby-followup-live-build.json",
+            "work/daily-2026-10-31/workbench-followup-live-build.json"
+          ],
+          "lobbyRevision": "79f61ad010fbf571b7de23034b79aa927bc12453",
+          "workbenchRevision": "4ebf97a39d22cec029252ef5a8e4409e55a2754d",
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "resourceId": "atproto-identity",
+      "title": "AT Protocol identity on Ootle",
+      "targetUrl": "https://atproto.tari.mw/",
+      "originalPosts": [
+        {
+          "url": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
+          "platform": "Bluesky",
+          "author": "0xhra.bsky.social",
+          "publishedAt": "2026-10-30T02:56:26.540Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement of identity integration guide",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-31T12:55:29.308Z",
+      "observedRevision": null,
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-atproto/resource-atproto-identity-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-atproto-identity-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-atproto-identity-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261031.png",
+      "sha256": "1d46e30478657c18bdca48aa6068f9fef6afdcb6ba32c5b4f8fcc90816bb64b4",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — public AT Protocol identity verification guide and Skydrop example; no code execution, wallet, account linking or transaction.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          1,
+          6,
+          11
+        ],
+        "livePlayback": {
+          "checkedAt": "2026-10-31T14:32:05.352480+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/learning-desktop-playback.json",
+            "work/daily-2026-10-31/learning-mobile-playback.json",
+            "work/daily-2026-10-31/workbench-learning-desktop-playback.json",
+            "work/daily-2026-10-31/workbench-learning-mobile-playback.json",
+            "work/daily-2026-10-31/lobby-followup-live-build.json",
+            "work/daily-2026-10-31/workbench-followup-live-build.json"
+          ],
+          "lobbyRevision": "79f61ad010fbf571b7de23034b79aa927bc12453",
+          "workbenchRevision": "4ebf97a39d22cec029252ef5a8e4409e55a2754d",
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "resourceId": "hycorange-burn",
+      "title": "Burn Minotari walkthrough",
+      "targetUrl": "https://paragraph.com/@hycorange/burning-minotari-for-tari-on-ootle-my-esmeralda-walkthrough",
+      "originalPosts": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3h7y2edj2l",
+          "platform": "Bluesky",
+          "author": "hycorange.bsky.social",
+          "publishedAt": "2026-10-30T09:19:40.952Z",
+          "foundOn": "2026-10-31",
+          "context": "Burn Minotari walkthrough",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-31T13:01:34.726Z",
+      "observedRevision": null,
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-tutorials/resource-hycorange-burn-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hycorange-burn-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hycorange-burn-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-burn-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-burn-20261031.png",
+      "sha256": "538be4d99fc7461939908d52572e2112f6263b5ac43b9be9f349c7b713657403",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — creator tutorial, no commands executed or wallet actions.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          1,
+          6,
+          11
+        ],
+        "livePlayback": {
+          "checkedAt": "2026-10-31T14:32:05.352480+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/learning-desktop-playback.json",
+            "work/daily-2026-10-31/learning-mobile-playback.json",
+            "work/daily-2026-10-31/workbench-learning-desktop-playback.json",
+            "work/daily-2026-10-31/workbench-learning-mobile-playback.json",
+            "work/daily-2026-10-31/lobby-followup-live-build.json",
+            "work/daily-2026-10-31/workbench-followup-live-build.json"
+          ],
+          "lobbyRevision": "79f61ad010fbf571b7de23034b79aa927bc12453",
+          "workbenchRevision": "4ebf97a39d22cec029252ef5a8e4409e55a2754d",
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "resourceId": "hycorange-privacy",
+      "title": "Confidential and stealth explained",
+      "targetUrl": "https://paragraph.com/@hycorange/confidential-vs-stealth-on-tari-ootle",
+      "originalPosts": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3hiismky2n",
+          "platform": "Bluesky",
+          "author": "hycorange.bsky.social",
+          "publishedAt": "2026-10-30T09:24:27.142Z",
+          "foundOn": "2026-10-31",
+          "context": "Confidential and stealth explained",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-31T13:01:51.545Z",
+      "observedRevision": null,
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-tutorials/resource-hycorange-privacy-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hycorange-privacy-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hycorange-privacy-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-privacy-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-privacy-20261031.png",
+      "sha256": "87b0a06ec69cdc182933d1f8898a7ee1dc70c1308b409b822fc77eddbd9636b6",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — creator tutorial, no commands executed or wallet actions.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          1,
+          6,
+          11
+        ],
+        "livePlayback": {
+          "checkedAt": "2026-10-31T14:32:05.352480+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/learning-desktop-playback.json",
+            "work/daily-2026-10-31/learning-mobile-playback.json",
+            "work/daily-2026-10-31/workbench-learning-desktop-playback.json",
+            "work/daily-2026-10-31/workbench-learning-mobile-playback.json",
+            "work/daily-2026-10-31/lobby-followup-live-build.json",
+            "work/daily-2026-10-31/workbench-followup-live-build.json"
+          ],
+          "lobbyRevision": "79f61ad010fbf571b7de23034b79aa927bc12453",
+          "workbenchRevision": "4ebf97a39d22cec029252ef5a8e4409e55a2754d",
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "resourceId": "hycorange-mining",
+      "title": "Tari mining lanes explained",
+      "targetUrl": "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet",
+      "originalPosts": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m",
+          "platform": "Bluesky",
+          "author": "hycorange.bsky.social",
+          "publishedAt": "2026-10-30T23:07:08.544Z",
+          "foundOn": "2026-10-31",
+          "context": "Tari mining lanes explained",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-31T13:02:08.085Z",
+      "observedRevision": null,
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-tutorials/resource-hycorange-mining-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hycorange-mining-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hycorange-mining-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-mining-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-mining-20261031.png",
+      "sha256": "e98923331587edbde6c8858e09d8331ba8028f1745656751df26a71a038bd453",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — creator tutorial, no commands executed or wallet actions.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          1,
+          6,
+          11
+        ],
+        "livePlayback": {
+          "checkedAt": "2026-10-31T14:32:05.352480+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/learning-desktop-playback.json",
+            "work/daily-2026-10-31/learning-mobile-playback.json",
+            "work/daily-2026-10-31/workbench-learning-desktop-playback.json",
+            "work/daily-2026-10-31/workbench-learning-mobile-playback.json",
+            "work/daily-2026-10-31/lobby-followup-live-build.json",
+            "work/daily-2026-10-31/workbench-followup-live-build.json"
+          ],
+          "lobbyRevision": "79f61ad010fbf571b7de23034b79aa927bc12453",
+          "workbenchRevision": "4ebf97a39d22cec029252ef5a8e4409e55a2754d",
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "resourceId": "hycorange-permissions",
+      "title": "Ootle template permissions guide",
+      "targetUrl": "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to",
+      "originalPosts": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f",
+          "platform": "Bluesky",
+          "author": "hycorange.bsky.social",
+          "publishedAt": "2026-10-31T00:09:25.449Z",
+          "foundOn": "2026-10-31",
+          "context": "Ootle template permissions guide",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-31T13:02:24.636Z",
+      "observedRevision": null,
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-tutorials/resource-hycorange-permissions-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hycorange-permissions-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hycorange-permissions-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-permissions-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-permissions-20261031.png",
+      "sha256": "e5633e88b041a75f8365dd73305f2f5c9b652d6fbb000cdd3aa1e565fa802212",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — creator tutorial, no commands executed or wallet actions.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          1,
+          6,
+          11
+        ],
+        "livePlayback": {
+          "checkedAt": "2026-10-31T14:32:05.352480+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/learning-desktop-playback.json",
+            "work/daily-2026-10-31/learning-mobile-playback.json",
+            "work/daily-2026-10-31/workbench-learning-desktop-playback.json",
+            "work/daily-2026-10-31/workbench-learning-mobile-playback.json",
+            "work/daily-2026-10-31/lobby-followup-live-build.json",
+            "work/daily-2026-10-31/workbench-followup-live-build.json"
+          ],
+          "lobbyRevision": "79f61ad010fbf571b7de23034b79aa927bc12453",
+          "workbenchRevision": "4ebf97a39d22cec029252ef5a8e4409e55a2754d",
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "resourceId": "hycorange-airdrops",
+      "title": "Native stealth airdrop walkthrough",
+      "targetUrl": "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop",
+      "originalPosts": [
+        {
+          "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a",
+          "platform": "Bluesky",
+          "author": "hycorange.bsky.social",
+          "publishedAt": "2026-10-31T05:18:27.611Z",
+          "foundOn": "2026-10-31",
+          "context": "Native stealth airdrop walkthrough",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-31T13:02:41.321Z",
+      "observedRevision": null,
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-tutorials/resource-hycorange-airdrops-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hycorange-airdrops-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-hycorange-airdrops-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-airdrops-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-airdrops-20261031.png",
+      "sha256": "9b6665ded544207d28c1ac6eec87b06fed611c0c76c65a9a682b6319129a0a07",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — creator tutorial, no commands executed or wallet actions.",
+      "status": "published-live-verified",
+      "verification": {
+        "framesReviewed": [
+          1,
+          6,
+          11
+        ],
+        "livePlayback": {
+          "checkedAt": "2026-10-31T14:32:05.352480+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/learning-desktop-playback.json",
+            "work/daily-2026-10-31/learning-mobile-playback.json",
+            "work/daily-2026-10-31/workbench-learning-desktop-playback.json",
+            "work/daily-2026-10-31/workbench-learning-mobile-playback.json",
+            "work/daily-2026-10-31/lobby-followup-live-build.json",
+            "work/daily-2026-10-31/workbench-followup-live-build.json"
+          ],
+          "lobbyRevision": "79f61ad010fbf571b7de23034b79aa927bc12453",
+          "workbenchRevision": "4ebf97a39d22cec029252ef5a8e4409e55a2754d",
+          "desktop": true,
+          "mobile": true
+        }
+      }
+    },
+    {
+      "resourceId": "two-layers",
+      "title": "Minotari and Ootle explained",
+      "targetUrl": "https://medium.com/@penielgold/two-layers-two-jobs-how-minotari-and-ootle-work-together-to-make-tari-programmable-d8dd08334f2b",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/8",
+          "platform": "Tari Community forum",
+          "author": "Dapo Olaomo",
+          "publishedAt": "2026-10-30T22:21:13.359Z",
+          "foundOn": "2026-10-31",
+          "context": "Ootle Launch Event: Creator Contest",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-31T14:27:09.652Z",
+      "observedRevision": "page-sha256:f4c23eeb21d120682c714750351fb502327bc859d0fd005fbabf93774bc059d7",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-medium-retry/resource-two-layers-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-two-layers-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-two-layers-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-two-layers-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-two-layers-20261031.png",
+      "sha256": "e977a03e4a5f9047597bea27cd386168d219b1c87549fa289aa29baa47664c8f",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — public article after dismissing its optional signup overlay; no account action.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          1,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      }
+    },
+    {
+      "resourceId": "turbine-explainer",
+      "title": "Ootle Turbine fee burn explained",
+      "targetUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+          "platform": "Tari Community forum",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-10-30",
+          "foundOn": "2026-10-31",
+          "context": "Ootle Launch Event: Creator Contest",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xj9m3e/ootles_turbine_burn_read_from_the_docs_the/",
+          "platform": "Reddit",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-10-30T08:17:09.120000+00:00",
+          "foundOn": "2026-10-31",
+          "context": "Ootle Turbine fee burn explained",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "announcement",
+      "capturedAt": "2026-10-31T14:27:36.287Z",
+      "observedRevision": "page-sha256:5edd13e095b2b7deeabc4cf0f4fa6a7fcdf20bab59c813f18f4cb7d9e98362b0",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-announcement-trial/resource-turbine-announcement-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-turbine-announcement-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-turbine-announcement-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-turbine-announcement-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-turbine-announcement-20261031.png",
+      "sha256": "4c2440c8aa5d36bc8d15b431652e72d6ed60d2453de1844d1df2043ae9ac580b",
+      "caption": "Announcement",
+      "method": "Announcement — creator contest submission linking to the Turbine and sharding explanations; Reddit capture challenged.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          1,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      }
+    },
+    {
+      "resourceId": "sharding-explainer",
+      "title": "Ootle shards and committees explained",
+      "targetUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+          "platform": "Tari Community forum",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-10-30",
+          "foundOn": "2026-10-31",
+          "context": "Ootle Launch Event: Creator Contest",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xj9tss/how_ootle_splits_the_work_256_shards_40validator/",
+          "platform": "Reddit",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-10-30T08:31:12.178000+00:00",
+          "foundOn": "2026-10-31",
+          "context": "Ootle shards and committees explained",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "announcement",
+      "capturedAt": "2026-10-31T15:04:43.493Z",
+      "observedRevision": "page-sha256:bb81fd3655e45010bafd76d9ca60e9e738a0f2897b9b4c6cc28fe8bece69d860",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-sharding-focused/resource-sharding-announcement-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-sharding-announcement-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-sharding-announcement-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sharding-announcement-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sharding-announcement-20261031.png",
+      "sha256": "c42ad6ca03975f3e68a5ba7662225b67badd0ff8ed9a066d930cd9a7759e10d2",
+      "caption": "Announcement",
+      "method": "Announcement — creator post linking the sharding explainer; does not demonstrate protocol execution.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          1,
+          6,
+          11
+        ],
+        "livePlayback": "pending"
+      }
+    },
+    {
+      "resourceId": "nyam-mining",
+      "title": "Tari mining lanes and the C29 incident",
+      "targetUrl": "https://paragraph.com/@nyam/four-lanes-one-chain-what-taris-c29-incident-teaches-about",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/6",
+          "platform": "Tari Community forum",
+          "author": "nyam",
+          "publishedAt": "2026-10-30",
+          "foundOn": "2026-10-31",
+          "context": "Ootle Launch Event: Creator Contest",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-31T14:25:37.269Z",
+      "observedRevision": "page-sha256:4e91ba87e03eccec98075def51a2c3d9ed8efbddc197cc4874b8ddceff9445f5",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-nyam/resource-nyam-mining-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-nyam-mining-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-nyam-mining-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-nyam-mining-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-nyam-mining-20261031.png",
+      "sha256": "31ca5737bee0c2904a2729e7cf9362568e28c2ad88e8b680c94e7dc6f938d44a",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough — dated community analysis of the C29 incident.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          1,
           6,
           11
         ],
