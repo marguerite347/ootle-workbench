@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-10-29T10:40:36.653507+00:00",
+  "reviewedAt": "2026-10-31T10:41:37.093212+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -559,11 +559,11 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Crypt",
-      "summary": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
+      "summary": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 31 reviewed forum entry identifies ogboy92ii/crypt as the full-history mirror of the restricted Lrifton92/crypt repository; the replacement demo and earlier source archive remain available. BSD-3-Clause source. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The October 29 recording shows the mirror’s requirements and title screen, with no wallet or transaction. Earlier simulation footage and retired URLs remain in the maintenance history.",
       "status": "Browser demo · Testnet · Wallet payouts unavailable",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
-      "repoUrl": "https://tari-crypt.vercel.app/crypt-source-683bc4e.zip",
-      "docsUrl": "https://tari-crypt.vercel.app/crypt-source-683bc4e.zip",
+      "repoUrl": "https://github.com/ogboy92ii/crypt",
+      "docsUrl": "https://github.com/ogboy92ii/crypt#readme",
       "creator": {
         "name": "Og.boy",
         "url": "https://github.com/Lrifton92"
@@ -571,8 +571,8 @@
       "license": "BSD-3-Clause",
       "network": "Ootle Esmeralda testnet; browser demo local",
       "platform": "Web demo / Rust / CLI",
-      "upstreamRevision": "683bc4e",
-      "sourceUpdatedAt": "2026-10-28T15:08:16.456Z",
+      "upstreamRevision": "17cf366682a59c1116e0dd50be3cc161d9d33874",
+      "sourceUpdatedAt": "2026-10-29T14:55:19.284Z",
       "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -586,43 +586,32 @@
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
           "platform": "Tari Community forum",
-          "author": "Og.boy",
-          "publishedAt": "2026-10-12T11:07:25.452Z",
           "context": "October Build Contest Thread: Spooky Secrets!"
         },
         {
           "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3mxoehhu2b22o",
           "platform": "Bluesky",
-          "author": "ogboy92.bsky.social",
-          "publishedAt": "2026-10-12T11:00:24.524Z",
           "context": "Creator announcement"
         },
         {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxpffkqnsk2x",
           "platform": "Bluesky",
-          "author": "tariproject.bsky.social",
-          "publishedAt": "2026-10-12T20:49:53.930Z",
           "context": "Official sharing of creator announcement"
         },
         {
           "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
           "platform": "Bluesky",
-          "author": "ogboy92.bsky.social",
-          "publishedAt": "2026-10-18T12:44:09.315Z",
           "context": "Creator announces wallet-free Crypt browser demo"
         },
         {
           "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l",
           "platform": "Bluesky",
-          "author": "ogboy92.bsky.social",
-          "publishedAt": "2026-10-18T13:20:04.674Z",
           "context": "Creator shares playable demo and contract-equivalence explanation"
         },
         {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3myuc5jsyso2y",
           "platform": "Bluesky",
-          "author": "tariproject.bsky.social",
-          "publishedAt": "2026-10-27T13:00:13.338Z"
+          "context": "A ghost sells you a secret. What happens when it delivers a fake? 👻\r\n\r\nCrypt turns encrypted sales and escrow disputes into a playable browser demo for Tari’s Spooky Secrets contest.\r\n\r\nNo wallet needed. Enter the crypt:\r\nhttps://lrifton92.github.io/crypt/"
         }
       ],
       "cardSummary": "Play a wallet-free secret-trading demo, choosing honest or deceptive actions to explore escrow and delivery disputes.",
@@ -1057,12 +1046,12 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Seance — privacy demo",
-      "summary": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0–0.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools’ sealed-poll project.",
+      "summary": "Compare what strangers, recipients and auditors can learn from private Esmeralda payments. The creator’s v2 searches the latest 40 indexer transactions locally before asking for a user-entered ID; an explicit Ask for it anyway action can disclose that ID. The initial example remains a labeled saved October 20 copy. October 31 Summon inspection returned a current Commit receipt through a public indexer read. The page reported six requests to two hosts and zero ID requests; this is its own report, not an independent network audit. An optional Sapient transfer goes to a demonstration recipient whose view key is public. Timing, fees and spend links remain visible. Old transaction bodies are unavailable from the indexers; receipts alone cannot reverify their encrypted bytes. The recording covers the picker and request explanation without a wallet or payment. v1 remains at its earlier URL; this is distinct from DevXTools’ sealed polls.",
       "status": "Web app · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
-      "repoUrl": "https://github.com/Kylne700/seance",
-      "docsUrl": "https://github.com/Kylne700/seance#readme",
-      "demoUrl": "https://kylne700.github.io/seance/",
+      "repoUrl": "https://github.com/Kylne700/seance-v2",
+      "docsUrl": "https://github.com/Kylne700/seance-v2#readme",
+      "demoUrl": "https://kylne700.github.io/seance-v2/",
       "creator": {
         "name": "Kylne700",
         "url": "https://github.com/Kylne700"
@@ -1070,8 +1059,8 @@
       "license": "MIT",
       "network": "Esmeralda testnet",
       "platform": "Browser",
-      "upstreamRevision": "0642c4ad5fc13dbbec5241ac3000e417a183203d",
-      "sourceUpdatedAt": "2026-10-20T21:43:29.251Z",
+      "upstreamRevision": "b8c7bc8eb270433857fdc72778309ad09bf41cd2",
+      "sourceUpdatedAt": "2026-10-31T03:34:14.888Z",
       "lastCheckedAt": "2026-10-29T11:13:49.185Z",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -1094,16 +1083,15 @@
         {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mywsm2tpqm2b",
           "platform": "Bluesky",
-          "author": "tariproject.bsky.social",
-          "publishedAt": "2026-10-28T13:00:00.509Z"
+          "context": "What can a stranger see in a private payment? 👻\r\n\r\nSeance lets you compare the public view, a recipient’s view and an auditor’s view using Tari testnet examples. It also shows what still leaks.\r\n\r\nExplore:\r\nhttps://kylne700.github.io/seance/"
         }
       ],
       "cardSummary": "Compare what strangers, recipients and auditors can read from private testnet payments, including the metadata that remains public.",
       "cardStatus": "Web app · Testnet",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261029.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261029.png",
-        "source": "App demo — Public saved example and disclosure panels; deliberately public test keys, no wallet."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-v2-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-v2-20261031.png",
+        "source": "Source/docs walkthrough — Transaction picker and request disclosure; no wallet or payment."
       }
     },
     {
@@ -1687,6 +1675,356 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-agent-registry-20261029.png",
         "source": "Source/docs walkthrough — registry readme, package structure and contribution scope; no installation."
       }
+    },
+    {
+      "id": "tari-ootle:component:haunted-passport",
+      "key": "haunted-passport",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Haunted Passport",
+      "summary": "Selective-disclosure credentials on Tari Ootle Esmeralda, with issuer, holder, verifier and public observer views. The issuer creates stealth outputs with a public tier floor and can freeze or revoke them; the holder answers a fresh ownership challenge. The issuer can read exact values, repeated presentations of the same output are linkable, and the verifier trusts its indexer. The hosted issuer desk is closed; issuance requires the separate local issuer service. October 31 review covered the creator’s forum and Bluesky announcements, MIT repository and public website. The recording shows public explanations and deployment links; no wallet connection, credential issuance or proof signing was performed.",
+      "status": "Web app · Testnet",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34",
+      "repoUrl": "https://github.com/AshThunder/haunted-passport",
+      "docsUrl": "https://github.com/AshThunder/haunted-passport#readme",
+      "demoUrl": "https://haunted-passport.vercel.app/",
+      "creator": {
+        "name": "Chrisgold",
+        "url": "https://github.com/AshThunder"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "cb7627b663d6d3225f22d6d90a556cbb298a16f4",
+      "sourceUpdatedAt": "2026-10-29T14:15:21.229Z",
+      "lastCheckedAt": "2026-10-31T09:27:08.839904+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://bsky.app/profile/chrisgoldog.bsky.social/post/3myzc45hcf22l",
+          "platform": "Bluesky",
+          "context": "Creator announcement"
+        }
+      ],
+      "cardSummary": "Present age, membership or reputation credentials while revealing a qualifying threshold instead of the exact value.",
+      "cardStatus": "Web app · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-haunted-passport-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-haunted-passport-20261031.png",
+        "source": "Source/docs walkthrough — Public credential roles, disclosure model and deployment links; no wallet actions."
+      }
+    },
+    {
+      "id": "tari-ootle:component:ghost-candy-cards",
+      "key": "ghost-candy-cards",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Ghost Candy Cards",
+      "summary": "A Rust template, claim client and Python SVG printer for one-time Halloween candy cards. Each printed QR carries a bearer secret; the public bowl stores its corresponding point and records redemption, while the treat is paid to a stealth output. Claims bind the proof to the exact output, and the host can sweep unused treats after the deadline. Anyone who copies a card secret can race its holder; published demo secrets must not be funded. October 31 review covered the creator announcement and MIT README. The recording is a source walkthrough, not a deployed claim demonstration.",
+      "status": "Source code · Testnet",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
+      "repoUrl": "https://github.com/cgrab-k7q2/ghost-candy-cards",
+      "docsUrl": "https://github.com/cgrab-k7q2/ghost-candy-cards#readme",
+      "demoUrl": "",
+      "creator": {
+        "name": "cgrabk7q2",
+        "url": "https://github.com/cgrab-k7q2"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Rust · CLI · Python",
+      "upstreamRevision": "d023958902a09b41f15ff5bb9cd4a1c5cc559ff4",
+      "sourceUpdatedAt": "2026-10-29T21:18:23.300Z",
+      "lastCheckedAt": "2026-10-31T09:55:53.797528+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l",
+          "platform": "Bluesky",
+          "context": "Creator announcement"
+        }
+      ],
+      "cardSummary": "Print one-time QR candy cards that redeem private testnet treats while keeping the recipient off the public bowl.",
+      "cardStatus": "Source code · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-candy-cards-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-candy-cards-20261031.png",
+        "source": "Source/docs walkthrough — README, printable example cards and claim design; no card redemption."
+      }
+    },
+    {
+      "id": "tari-ootle:component:dead-drop-davidjsourcing",
+      "key": "dead-drop-davidjsourcing",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Dead Drop",
+      "summary": "David J’s riddle-and-stealth-output app combines an encrypted memo, answer-derived signing key and time conditions. Correct answers decrypt locally; claiming and returning funds require transactions. Public riddles can be guessed offline, first valid claim wins, and browser-stored keys need a backup. The Midnight Grave uses epoch 13031; the creator revised its estimated opening to early November rather than a fixed Halloween time. October 31 review covered the source, original announcement and public landing page. The recording shows the public explanation only; no funding, claim or return was attempted. This is a separate community project from the Workbench Dead Drop social-deduction game.",
+      "status": "Web app · Testnet",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
+      "repoUrl": "https://github.com/davidjsourcing/dead-drop",
+      "docsUrl": "https://github.com/davidjsourcing/dead-drop#readme",
+      "demoUrl": "https://dead-drop.sites.tab.bot/",
+      "creator": {
+        "name": "davidj_builds",
+        "url": "https://github.com/davidjsourcing"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "e68360ee7fb978d98573aa7861e2cb1bf5047532",
+      "sourceUpdatedAt": "2026-10-30T13:56:37.560Z",
+      "lastCheckedAt": "2026-10-31T09:55:53.797528+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
+          "platform": "Bluesky",
+          "context": "Creator announcement"
+        }
+      ],
+      "cardSummary": "Hide a message and testnet tokens behind a riddle, with timed access and a return path for unclaimed drops.",
+      "cardStatus": "Web app · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dead-drop-davidjsourcing-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dead-drop-davidjsourcing-20261031.png",
+        "source": "Source/docs walkthrough — public landing page, privacy layers and timed hunt explanation; no wallet actions."
+      }
+    },
+    {
+      "id": "tari-ootle:component:ootle-accord",
+      "key": "ootle-accord",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "OotleAccord",
+      "summary": "Community milestone escrow with capped native-TARI funding, a percentage quorum and a mandatory reviewer. Contribution amounts, reviewer identities and votes are public; fixed-destination payouts and refunds use private outputs with encrypted recovery memos. The current community accord displays a completed 10 tTARI payout and three approvals; four designated reviewers share a test operator. Create exports terms rather than deploying another escrow. October 31 review inspected the creator’s README, original submission and public accord/review screens; no wallet connection or transaction was performed. The app trusts its pinned indexer; the creator distinguishes installed-extension validation from SDK tests.",
+      "status": "Web app · Testnet · Sapient",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
+      "repoUrl": "https://github.com/Seal-Clubber/ootle-accord",
+      "docsUrl": "https://github.com/Seal-Clubber/ootle-accord#readme",
+      "demoUrl": "https://seal-clubber.github.io/ootle-accord/#explore",
+      "creator": {
+        "name": "SealClubber",
+        "url": "https://github.com/Seal-Clubber"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "622b71b73c4cf9038d8e60c183babb3be4d62326",
+      "sourceUpdatedAt": "2026-10-30T20:10:40.548Z",
+      "lastCheckedAt": "2026-10-31T09:55:53.797528+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3mz4lj2h7zs2l",
+          "platform": "Bluesky",
+          "context": "Creator announcement"
+        }
+      ],
+      "cardSummary": "Fund community milestones with public contributions and reviewer approvals, then release private payouts to a fixed recipient.",
+      "cardStatus": "Web app · Testnet · Sapient",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-accord-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-accord-20261031.png",
+        "source": "App demo — read-only public completed accord and review screen; no funding, approval or payout submitted."
+      }
+    },
+    {
+      "id": "tari-ootle:component:ghost-gate",
+      "key": "ghost-gate",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Ghost Gate",
+      "summary": "Privacy Lab is the public demonstration of Ghost Gate access control. The current Crypt v3 policy checks a qualifying revealed/public native-tTARI output against a 100 tTARI threshold and issues a time-limited session. It does not provide a fully confidential aggregate-balance proof. The creator documents Sapient, embedded Web Tari Universe and Telegram admission; the operator and verifier remain trusted, and Telegram grants are not persistent across restart. October 31 review covered the original post, MIT source and live public policy page. The recording shows configuration and privacy limits without connecting a wallet, proving access or joining a group. Minotari XTM threshold-proof work remains research.",
+      "status": "Web app · Testnet · Public qualifying output",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
+      "repoUrl": "https://github.com/GSXRspartan/Ghost-Gate",
+      "docsUrl": "https://github.com/GSXRspartan/Ghost-Gate#readme",
+      "demoUrl": "https://ghostgate.boo/",
+      "creator": {
+        "name": "GSXRspartan",
+        "url": "https://github.com/GSXRspartan"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "f960d1575c7175f98625d2ae0015a300980b0b68",
+      "sourceUpdatedAt": "2026-10-31T05:00:17.372Z",
+      "lastCheckedAt": "2026-10-31T09:55:53.797528+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://bsky.app/profile/did:plc:cj5wzjmazjbonijxuueycyx5/post/3mz5fwrpt5f27",
+          "platform": "Bluesky",
+          "context": "Creator announcement"
+        }
+      ],
+      "cardSummary": "Check a testnet token threshold for access while keeping total wallet holdings outside the application’s request.",
+      "cardStatus": "Web app · Testnet · Public qualifying output",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-gate-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-gate-20261031.png",
+        "source": "Source/docs walkthrough — public Crypt threshold policy and privacy limits; no wallet or admission action."
+      }
+    },
+    {
+      "id": "tari-ootle:component:ootlebook",
+      "key": "ootlebook",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Agents",
+      "title": "Ootlebook",
+      "summary": "Independent community experiment for AI-agent profiles, posts, service listings and voucher-based payment lanes on Esmeralda. The website presents public contract state and an agent manual; the source includes a client, encrypted-message tooling and a read-only Minotari explorer MCP. Registering requires an owner signature and a 10 tTARI name fee. Posts are permanent even when retracted, fees remain locked, and payment lanes use an escrow close window. October 31 review covered the original forum announcement, MIT README and public directory. No agent was registered, software installed, message posted or payment made. Not affiliated with or endorsed by Tari Labs.",
+      "status": "Web app · Testnet",
+      "sourceUrl": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+      "repoUrl": "https://github.com/alex3000-ai/ootlebook",
+      "docsUrl": "https://github.com/alex3000-ai/ootlebook#readme",
+      "demoUrl": "https://ootlebook.com/",
+      "creator": {
+        "name": "alex3000",
+        "url": "https://github.com/alex3000-ai"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Node · Rust",
+      "upstreamRevision": "f17d1372ac3d1b1b87047077cf5f4e0eaac0bc02",
+      "sourceUpdatedAt": "2026-10-30T04:41:12.215Z",
+      "lastCheckedAt": "2026-10-31T09:58:40.189121+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "agents",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+          "platform": "Tari Community forum",
+          "context": "Creator project announcement"
+        }
+      ],
+      "cardSummary": "Browse agent profiles, service listings and payment-lane activity in an independent community economy on Ootle testnet.",
+      "cardStatus": "Web app · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootlebook-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootlebook-20261031.png",
+        "source": "Source/docs walkthrough — public agent cards, board and community links; no registration or payment."
+      }
+    },
+    {
+      "id": "tari-ootle:component:hexcrow",
+      "key": "hexcrow",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Hexcrow",
+      "summary": "Milestone escrow held in a stealth output, with approval, timeout refund and two jointly signed mediator paths. A public invoice book records hashes, one-time keys, deadlines and status; role-specific copies disclose invoice text and amounts. The public website replays four recorded Esmeralda invoices and checks available book/output state through the indexer, using clearly archived transaction results where history is gone. October 31 inspection switched public and client copies and observed the displayed 250 tTARI invoice and Settled status. The recording switches public, client and accountant views; no new funding or transaction was submitted. Mediator judgment remains trusted, fees and timing remain visible, and published demo keys must not hold value.",
+      "status": "Replay demo · Testnet",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
+      "repoUrl": "https://github.com/kasbsquall/hexcrow",
+      "docsUrl": "https://github.com/kasbsquall/hexcrow#readme",
+      "demoUrl": "https://kasbsquall.github.io/hexcrow/",
+      "creator": {
+        "name": "kasbsquall",
+        "url": "https://github.com/kasbsquall"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust",
+      "upstreamRevision": "d58ea442900f65859e536a08e02f353afdf85164",
+      "sourceUpdatedAt": "2026-10-30T00:10:36.713Z",
+      "lastCheckedAt": "2026-10-31T10:41:37.093212+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
+          "platform": "Tari Community forum",
+          "context": "October contest submission"
+        },
+        {
+          "url": "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j",
+          "platform": "Bluesky",
+          "context": "Creator announcement"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/",
+          "platform": "Reddit",
+          "context": "Creator design explanation and privacy limits"
+        }
+      ],
+      "cardSummary": "Replay confidential milestone invoices from public, client, contractor, mediator and accountant views to see who can read each detail.",
+      "cardStatus": "Replay demo · Testnet",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261031.png",
+        "source": "App demo — recorded-run replay with public, client and accountant disclosure views; no new transaction."
+      }
     }
   ],
   "opportunities": [
@@ -1721,6 +2059,22 @@
       },
       "cardSummary": "Use the Sapient Web Extension in an October build to qualify for community-funded bonus prizes.",
       "cardStatus": "100,000 XTM · Community-funded · See entry terms"
+    },
+    {
+      "id": "creator-contest-503",
+      "title": "Tari Creator Contest",
+      "summary": "The October 29 organizer announcement offers 1,000,000 XTM across ten winners, with entries closing November 12, 2026 at 00:00 UTC. Create original Tari content and post its public evidence in the official thread. Platform points and required account follows/subscriptions apply; quality and authenticity remain subject to organizer and council review. The October 30 clarification permits an owned blog or Tari-focused site, rather than an unrelated hosted blogging platform; consult the full original terms and replies. Winners are scheduled to be announced one week after closing.",
+      "sourceUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/1",
+      "publishedAt": "2026-10-29T19:34:15.725Z",
+      "expiresAt": "2026-11-12T00:00:00Z",
+      "status": "Dated creator opportunity; organizer terms apply",
+      "cardSummary": "Publish original Tari videos, articles or posts and submit their links for the community creator contest.",
+      "cardStatus": "1,000,000 XTM · Ends Nov 12, 00:00 UTC",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-creator-contest-503-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-creator-contest-503-20261031.png",
+        "source": "Announcement — original Tari Creator Contest terms, point categories and November 12 deadline; recorded October 31, 2026."
+      }
     }
   ]
 }
