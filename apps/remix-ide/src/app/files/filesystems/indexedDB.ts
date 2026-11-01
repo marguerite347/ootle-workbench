@@ -2,9 +2,15 @@ import LightningFS from "@isomorphic-git/lightning-fs"
 import { fileSystem } from "../fileSystem"
 
 export class IndexedDBStorage extends LightningFS {
-  base: LightningFS.PromisifedFS
+  base: LightningFS["promises"]
   addSlash: (file: string) => string
-  extended: { exists: (path: string) => Promise<unknown>; rmdir: (path: any) => Promise<void>; readdir: (path: any) => Promise<string[]>; unlink: (path: any) => Promise<void>; mkdir: (path: any) => Promise<void>; readFile: (path: any, options: any) => Promise<Uint8Array>; rename: (from: any, to: any) => Promise<void>; writeFile: (path: any, content: any, options: any) => Promise<void>; stat: (path: any) => Promise<import("fs").Stats>; init(name: string, opt?: LightningFS.FSConstructorOptions): void; activate(): Promise<void>; deactivate(): Promise<void>; lstat(filePath: string): Promise<import("fs").Stats>; readlink(filePath: string): Promise<string>; symlink(target: string, filePath: string): Promise<void> }
+  extended: Pick<LightningFS["promises"], "rmdir" | "readdir" | "unlink" | "mkdir" | "readFile" | "rename" | "writeFile" | "stat"> & { exists: (path: string) => Promise<boolean> }
+  readFileWithNormalizedPath(path: string, options: "utf8" | { encoding: "utf8" }): Promise<string>
+  readFileWithNormalizedPath(path: string, options?: {}): Promise<Uint8Array>
+  readFileWithNormalizedPath(path: string, options?: "utf8" | {}): Promise<string | Uint8Array> {
+    return this.base.readFile(this.addSlash(path), options)
+  }
+
   constructor(name: string) {
     super(name)
     this.addSlash = (file) => {
@@ -15,7 +21,7 @@ export class IndexedDBStorage extends LightningFS {
     this.extended = {
       ...this.promises,
       exists: async (path: string) => {
-        return new Promise((resolve) => {
+        return new Promise<boolean>((resolve) => {
           this.base.stat(this.addSlash(path)).then(() => resolve(true)).catch(() => resolve(false))
         })
       },
@@ -31,9 +37,7 @@ export class IndexedDBStorage extends LightningFS {
       mkdir: async (path) => {
         return this.base.mkdir(this.addSlash(path))
       },
-      readFile: async (path, options) => {
-        return this.base.readFile(this.addSlash(path), options)
-      },
+      readFile: this.readFileWithNormalizedPath.bind(this),
       rename: async (from, to) => {
         return this.base.rename(this.addSlash(from), this.addSlash(to))
       },

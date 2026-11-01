@@ -5888,20 +5888,20 @@
   resolved "https://registry.yarnpkg.com/@isaacs/string-locale-compare/-/string-locale-compare-1.1.0.tgz#291c227e93fd407a96ecd59879a35809120e432b"
   integrity sha512-SQ7Kzhh9+D+ZW9MA0zkYv3VXhIDNx+LzM6EJ+/65I3QY+enU6Itte7E5XX7EWrqLW2FN4n06GWzBnPoC3th2aQ==
 
-"@isomorphic-git/idb-keyval@3.3.2":
+"@isomorphic-git/idb-keyval@^3.3.2":
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/@isomorphic-git/idb-keyval/-/idb-keyval-3.3.2.tgz#c0509a6c5987d8a62efb3e47f2815bcc5eda2489"
   integrity sha512-r8/AdpiS0/WJCNR/t/gsgL+M8NMVj/ek7s60uz3LmpCaTF2mEVlZJlB01ZzalgYzRLXwSPC92o+pdzjM7PN/pA==
 
-"@isomorphic-git/lightning-fs@^4.4.1":
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/@isomorphic-git/lightning-fs/-/lightning-fs-4.4.1.tgz#0df8ab07e89ce06b5443eceba91834c3c68a2698"
-  integrity sha512-E9bYtiHF6pPh0N8Sx5Nvq0F1RL6Wdtq43PUmbAKAAYTi51F3MmMg9MkCOQT40Xc0TYhZcJMEP/wnH4mXaCxSsQ==
+"@isomorphic-git/lightning-fs@4.10.4":
+  version "4.10.4"
+  resolved "https://registry.yarnpkg.com/@isomorphic-git/lightning-fs/-/lightning-fs-4.10.4.tgz#90e7b2c8f98f8e7a93d29e05ac7ec0d9cf028445"
+  integrity sha512-mQ/BJ5gV/2I7ERDuCEBHL6wCGIeoodRpG9eiznzHofEXvDz1QCNz6stz7s4TrtJZq9RSscCH66OcFaFWIPr2Lg==
   dependencies:
-    "@isomorphic-git/idb-keyval" "3.3.2"
-    isomorphic-textencoder "1.0.1"
-    just-debounce-it "1.1.0"
-    just-once "1.1.0"
+    "@isomorphic-git/idb-keyval" "^3.3.2"
+    isomorphic-textencoder "^1.0.1"
+    just-debounce-it "^3.2.0"
+    just-once "^2.2.0"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -9754,12 +9754,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/isomorphic-git__lightning-fs@^4.4.2":
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/@types/isomorphic-git__lightning-fs/-/isomorphic-git__lightning-fs-4.4.2.tgz#aead17cb1ab1a965b69a5247a7d4087336ad5df7"
-  integrity sha512-dGKrVNnTBKglqcRqurIXtuzwlGN/lD4fwFShu7aD6Sba7PEMU46zSpxoeuZEvy6/Gcs4PPZQRblk+CZ1UVNOTQ==
-  dependencies:
-    "@types/node" "*"
+"@types/isomorphic-git__lightning-fs@4.4.8":
+  version "4.4.8"
+  resolved "https://registry.yarnpkg.com/@types/isomorphic-git__lightning-fs/-/isomorphic-git__lightning-fs-4.4.8.tgz#dd879075c78a97acf027b49324f947507d365415"
+  integrity sha512-M82HDtQ6rW0EOfdJnFBAAOKqXeh5RwA+QyVhKoX5pyljM38/io4eMDbVVE07Z6vRJ3JAa/j6xJ8K8TYuzydJrA==
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.3"
@@ -20894,7 +20892,7 @@ isomorphic-git@1.44.8:
     sha.js "^2.4.12"
     simple-get "^4.0.1"
 
-isomorphic-textencoder@1.0.1:
+isomorphic-textencoder@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/isomorphic-textencoder/-/isomorphic-textencoder-1.0.1.tgz#38dcd3b4416d29cd33e274f64b99ae567cd15e83"
   integrity sha512-676hESgHullDdHDsj469hr+7t3i/neBKU9J7q1T4RHaWwLAsaQnywC0D1dIUId0YZ+JtVrShzuBk1soo0+GVcQ==
@@ -21824,10 +21822,10 @@ junk@^3.1.0:
   resolved "https://registry.yarnpkg.com/junk/-/junk-3.1.0.tgz#31499098d902b7e98c5d9b9c80f43457a88abfa1"
   integrity sha512-pBxcB3LFc8QVgdggvZWyeys+hnrNWg4OcZIU/1X59k5jQdLBlCsYGRQaz234SqoRLTCgMH00fY0xRJH+F9METQ==
 
-just-debounce-it@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/just-debounce-it/-/just-debounce-it-1.1.0.tgz#8e92578effc155358a44f458c52ffbee66983bef"
-  integrity sha512-87Nnc0qZKgBZuhFZjYVjSraic0x7zwjhaTMrCKlj0QYKH6lh0KbFzVnfu6LHan03NO7J8ygjeBeD0epejn5Zcg==
+just-debounce-it@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/just-debounce-it/-/just-debounce-it-3.2.0.tgz#4352265f4af44188624ce9fdbc6bff4d49c63a80"
+  integrity sha512-WXzwLL0745uNuedrCsCs3rpmfD6DBaf7uuVwaq98/8dafURfgQaBsSpjiPp5+CW6Vjltwy9cOGI6qE71b3T8iQ==
 
 just-debounce@^1.0.0:
   version "1.1.0"
@@ -21843,11 +21841,6 @@ just-diff@^6.0.0:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/just-diff/-/just-diff-6.0.2.tgz#03b65908543ac0521caf6d8eb85035f7d27ea285"
   integrity sha512-S59eriX5u3/QhMNq3v/gm8Kd0w8OS6Tz2FS1NG4blv+z0MuQcBRJyFWjdovM0Rad4/P4aUPFtnkNjMjyMlMSYA==
-
-just-once@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/just-once/-/just-once-1.1.0.tgz#fe81a185ebaeeb0947a7e705bf01cb6808db0ad8"
-  integrity sha512-+rZVpl+6VyTilK7vB/svlMPil4pxqIJZkbnN7DKZTOzyXfun6ZiFeq2Pk4EtCEHZ0VU4EkdFzG8ZK5F3PErcDw==
 
 just-once@^2.2.0:
   version "2.2.0"
