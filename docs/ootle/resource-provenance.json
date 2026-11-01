@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedOn": "2026-10-31",
+  "updatedOn": "2026-11-01",
   "purpose": "Retain where resources were shared separately from project sources so readers can return to the discussion.",
   "evidenceNote": "Backfilled from retained October 10 source reads. Sharing post means a known announcement or discussion; it does not assert the earliest post on the internet. Unknown author/date remains null. Do not overwrite older sharing links during refresh.",
   "records": [
@@ -2137,6 +2137,54 @@
           "replacement": "https://paragraph.com/@nyam/four-lanes-one-chain-what-taris-c29-incident-teaches-about",
           "replacementEvidence": "work/daily-2026-10-31/nyam-publication-current.txt",
           "failureEvidence": "work/daily-2026-10-31/nyam-article-current.txt"
+        }
+      ]
+    },
+    {
+      "id": "dnc-public-strategy",
+      "title": "The Road to $1 Billion — DNC community proposal",
+      "projectUrl": "https://docs.google.com/document/d/1S0VFv3q9A3t1m1M0qaJj32sBaRjG7Irb2EULiTVAS40/edit",
+      "alternateLanguageUrl": "https://docs.google.com/document/d/1yfnp-YUwsBu3g3RhPn4Ig10pOIoEXgMHL3cxurd9XQo/edit",
+      "discoveryUrl": "https://x.com/DNodeCapital/status/2116521503646781501",
+      "sharingPosts": [
+        {
+          "url": "https://x.com/DNodeCapital/status/2116521503646781501",
+          "platform": "X",
+          "author": "Okan Saglam / Digital Node Capital",
+          "publishedAt": "2026-10-31",
+          "foundOn": "2026-10-31",
+          "context": "Post-Ootle community strategy proposal; English and Chinese public documents",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/11",
+          "platform": "Tari Community forum",
+          "author": "Okz",
+          "publishedAt": "2026-10-31T15:10:34.477Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator contest submission of the community strategy proposal",
+          "visibility": "public"
+        }
+      ],
+      "publicationStatus": "held",
+      "note": "Public author announcement and replies plus complete English proposal text read. Held from app/SDK/tutorial catalogs: a community strategy proposal, not an adopted roadmap, shipped integration or executable developer resource. No investment, legal or partner assertions adopted as verified facts."
+    },
+    {
+      "id": "local-ai-gpu",
+      "title": "Local AI on a gaming GPU",
+      "projectUrl": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu",
+      "repositoryUrl": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu",
+      "documentationUrl": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu#readme",
+      "discoveryUrl": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+          "platform": "Tari Community forum",
+          "author": "alex3000",
+          "publishedAt": "2026-10-30T04:41:12.215Z",
+          "foundOn": "2026-10-31",
+          "context": "Ootlebook creator shares local model setup for agents",
+          "visibility": "public"
         }
       ]
     }

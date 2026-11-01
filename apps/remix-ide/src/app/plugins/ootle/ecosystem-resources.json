@@ -2560,6 +2560,52 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-nyam-mining-20261031.png",
         "source": "Source/docs walkthrough — Creator article; no network actions."
       }
+    },
+    {
+      "id": "tari-ootle:learn:local-ai-gpu",
+      "key": "local-ai-gpu",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Agents",
+      "title": "Local AI on a gaming GPU",
+      "summary": "Supplementary local-agent setup guide shared in the Ootlebook discussion. The README documents Windows and Linux setup, an OpenAI-compatible local endpoint and GPU requirements of at least 8 GB VRAM. AMD Radeon and RTX 20 Windows paths are beta. This is general model-hosting documentation, not a Tari SDK or a demonstrated Workbench integration. Performance numbers are creator benchmarks. The recording shows the public README; no installers, model downloads or inference were run.",
+      "status": "Community guide",
+      "sourceUrl": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu",
+      "repoUrl": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu",
+      "docsUrl": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu#readme",
+      "demoUrl": null,
+      "creator": {
+        "name": "sudoingX",
+        "url": "https://github.com/sudoingX"
+      },
+      "license": "Apache-2.0",
+      "network": "Not network-specific",
+      "platform": "Windows or Linux · GPU with 8 GB+ VRAM",
+      "upstreamRevision": "5417431bed0e68bc73153cb701dec49a2415e63b",
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": "2026-10-31T15:30:22.999879+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs",
+        "agents"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+          "platform": "Tari Community forum",
+          "context": "Local model setup resource shared by the Ootlebook creator"
+        }
+      ],
+      "cardSummary": "Run a local model for agent clients using a gaming GPU, with documented Windows and Linux setup.",
+      "cardStatus": "Setup guide · Windows/Linux · 8 GB+ VRAM",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-local-ai-gpu-20261031.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-local-ai-gpu-20261031.png",
+        "source": "Source/docs walkthrough — public README and hardware requirements; no installation or inference demonstrated."
+      }
     }
   ],
   "opportunities": [
