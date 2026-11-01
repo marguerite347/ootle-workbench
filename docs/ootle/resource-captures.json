@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T15:36:53.501254+00:00",
+  "updatedAt": "2026-11-01T16:12:48.504671+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -5745,14 +5745,20 @@
       "sha256": "e977a03e4a5f9047597bea27cd386168d219b1c87549fa289aa29baa47664c8f",
       "caption": "Docs walkthrough",
       "method": "Docs walkthrough \u2014 public article after dismissing its optional signup overlay; no account action.",
-      "status": "reviewed-publication-pending",
+      "status": "published",
       "verification": {
         "framesReviewed": [
           1,
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": "Desktop and phone actual 0\u201312 second playback passed in both Lobby and Workbench.",
+        "workbenchAcceptanceAt": "2026-11-01T16:12:48.504671+00:00",
+        "workbenchEvidence": [
+          "work/daily-2026-10-31/workbench-two-layers-desktop-nov1.json",
+          "work/daily-2026-10-31/workbench-two-layers-phone-nov1.json"
+        ],
+        "workbenchRevision": "ca3dc71971401f40591e24225a6a22471ee7c23b"
       }
     },
     {
@@ -5795,7 +5801,7 @@
       "sha256": "48dd65ebe4f90e61db151fb436ae7a3d82f3665c9fdd3b6b9703be9b56579e45",
       "caption": "Announcement",
       "method": "Announcement \u2014 creator contest submission linking to the Turbine and sharding explanations; Reddit capture challenged.",
-      "status": "reviewed-publication-pending",
+      "status": "published",
       "verification": {
         "framesReviewed": [
           1,
@@ -5803,7 +5809,13 @@
           11
         ],
         "localPlayback": "work/daily-2026-10-31/turbine-focused-local-playback.json",
-        "livePlayback": "pending"
+        "livePlayback": "Desktop and phone actual 0\u201312 second playback passed in both Lobby and Workbench.",
+        "workbenchAcceptanceAt": "2026-11-01T16:12:48.504671+00:00",
+        "workbenchEvidence": [
+          "work/daily-2026-10-31/workbench-turbine-desktop-nov1.json",
+          "work/daily-2026-10-31/workbench-turbine-phone-nov1.json"
+        ],
+        "workbenchRevision": "ca3dc71971401f40591e24225a6a22471ee7c23b"
       },
       "previousCaptures": [
         {
@@ -5902,14 +5914,20 @@
       "sha256": "c42ad6ca03975f3e68a5ba7662225b67badd0ff8ed9a066d930cd9a7759e10d2",
       "caption": "Announcement",
       "method": "Announcement \u2014 creator post linking the sharding explainer; does not demonstrate protocol execution.",
-      "status": "reviewed-publication-pending",
+      "status": "published",
       "verification": {
         "framesReviewed": [
           1,
           6,
           11
         ],
-        "livePlayback": "pending"
+        "livePlayback": "Desktop and phone actual 0\u201312 second playback passed in both Lobby and Workbench.",
+        "workbenchAcceptanceAt": "2026-11-01T16:12:48.504671+00:00",
+        "workbenchEvidence": [
+          "work/daily-2026-10-31/workbench-sharding-desktop-nov1.json",
+          "work/daily-2026-10-31/workbench-sharding-phone-nov1.json"
+        ],
+        "workbenchRevision": "ca3dc71971401f40591e24225a6a22471ee7c23b"
       }
     },
     {
@@ -5943,6 +5961,53 @@
       "sha256": "31ca5737bee0c2904a2729e7cf9362568e28c2ad88e8b680c94e7dc6f938d44a",
       "caption": "Docs walkthrough",
       "method": "Docs walkthrough \u2014 dated community analysis of the C29 incident.",
+      "status": "published",
+      "verification": {
+        "framesReviewed": [
+          1,
+          6,
+          11
+        ],
+        "livePlayback": "Desktop and phone actual 0\u201312 second playback passed in both Lobby and Workbench.",
+        "workbenchAcceptanceAt": "2026-11-01T16:12:48.504671+00:00",
+        "workbenchEvidence": [
+          "work/daily-2026-10-31/workbench-nyam-desktop-nov1.json",
+          "work/daily-2026-10-31/workbench-nyam-phone-nov1.json"
+        ],
+        "workbenchRevision": "ca3dc71971401f40591e24225a6a22471ee7c23b"
+      }
+    },
+    {
+      "resourceId": "local-ai-gpu",
+      "title": "Local AI on a gaming GPU",
+      "targetUrl": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu#readme",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+          "platform": "Tari Community forum",
+          "author": "alex3000",
+          "publishedAt": "2026-10-30T04:41:12.215Z",
+          "foundOn": "2026-10-31",
+          "context": "Ootlebook creator shares local model setup for agents",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-10-31T17:03:20.087Z",
+      "observedRevision": "5417431bed0e68bc73153cb701dec49a2415e63b",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-local-ai-gpu/resource-local-ai-gpu-20261031.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-local-ai-gpu-20261031.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-local-ai-gpu-20261031.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-local-ai-gpu-20261031.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-local-ai-gpu-20261031.png",
+      "sha256": "d0a30a78fe07b35b551ee4d94a597bf2609fdb20d2e9c82bc177e6b2890f18d4",
+      "caption": "Docs walkthrough",
+      "method": "Docs walkthrough \u2014 public README and hardware requirements for a local agent model; no installation or inference demonstrated.",
       "status": "reviewed-publication-pending",
       "verification": {
         "framesReviewed": [
@@ -5950,6 +6015,7 @@
           6,
           11
         ],
+        "localPlayback": "work/daily-2026-10-31/gpu-local-playback-nov1.json",
         "livePlayback": "pending"
       }
     }
