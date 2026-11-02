@@ -256,7 +256,7 @@ export default class TabProxy extends Plugin {
     } catch (error) {
       // Home is a valid startup tab. FileManager rejects when no editor file
       // is selected; retain diagnostics for every other retrieval failure.
-      if (!String(error?.message || error).endsWith('No file selected')) {
+      if (!/^(?:Error:\s*)*No such file or directory No file selected$/.test(String(error?.message || error))) {
         console.error('Error getting current file:', error)
       }
     }

@@ -33,6 +33,8 @@ test('Home with no selected file is quiet while unexpected file errors remain vi
   assert.equal(errors.length, 0)
   await run.call({ call: async () => { throw new Error('IndexedDB storage failure') } })
   assert.equal(errors.length, 1); assert.match(errors[0][1].message, /IndexedDB storage failure/)
+  await run.call({ call: async () => { throw new Error('Storage failed for path No file selected') } })
+  assert.equal(errors.length, 2)
   await run.call({ call: async () => 'src/lib.rs', checkIfCanRunScenario: async path => checked.push(path) })
   assert.deepEqual(checked, ['src/lib.rs'])
 })
