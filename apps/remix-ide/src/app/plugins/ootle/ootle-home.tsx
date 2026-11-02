@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './ootle.css'
 import { EcosystemResources } from './ecosystem-resources'
+import { openFileExplorer } from './home-navigation'
 
 export const OotleBrand = () => <span className="ootle-brand"><img src="assets/ootle/mark.svg" alt="" /><span className="ootle-wordmark"><strong>ootle</strong>workbench</span></span>
 
@@ -13,7 +14,7 @@ export function OotleHome({ plugin }: { plugin: any }) {
     await plugin.call('filePanel', 'createWorkspace', name, 'tariCounter')
     await plugin.call('filePanel', 'switchToWorkspace', { name, isLocalHost: false })
     await plugin.call('fileManager', 'open', 'src/lib.rs')
-    await plugin.call('menuicons', 'select', 'filePanel')
+    await openFileExplorer(plugin)
   })
   const tools = (section: string) => action(async () => {
     await plugin.call('manager', 'activatePlugin', 'tari')
@@ -28,7 +29,7 @@ export function OotleHome({ plugin }: { plugin: any }) {
     <button disabled={busy} className="ootle-start" onClick={create}><b>Create a Tari workspace</b><span>Counter template · Rust/WASM · pinned dependencies and engine tests</span></button>
     <div className="ootle-home-grid">
       <button disabled={busy} onClick={() => action(() => plugin.call('filePanel', 'clone'))}><b>Clone a repository</b><span>Use Remix’s Git workflow</span></button>
-      <button disabled={busy} onClick={() => action(() => plugin.call('menuicons', 'select', 'filePanel'))}><b>Open your files</b><span>File explorer, import, search and version control</span></button>
+      <button disabled={busy} onClick={() => action(() => openFileExplorer(plugin))}><b>Open your files</b><span>File explorer, import, search and version control</span></button>
     </div>
     <h2>Develop</h2>
     <div className="ootle-home-grid">

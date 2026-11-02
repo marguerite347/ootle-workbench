@@ -4,6 +4,26 @@ import { readFile } from 'node:fs/promises'
 import vm from 'node:vm'
 import ts from 'typescript'
 
+test('Home file navigation reveals a hidden panel and keeps an open panel open', async () => {
+  const source = await readFile('apps/remix-ide/src/app/plugins/ootle/home-navigation.ts', 'utf8')
+  const context = { exports: {} }
+  vm.runInNewContext(ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText, context)
+  for (const initiallyHidden of [true, false]) {
+    let hidden = initiallyHidden; let selected; let toggles = 0
+    const plugin = { call: async (name, method, value) => {
+      if (name === 'menuicons' && method === 'select') { selected = value; return }
+      if (name === 'sidePanel' && method === 'isPanelHidden') return hidden
+      if (name === 'sidePanel' && method === 'togglePanel') { hidden = !hidden; toggles++; return }
+      throw new Error(`Unexpected call: ${name}.${method}`)
+    } }
+    await context.exports.openFileExplorer(plugin)
+    assert.equal(selected, 'filePanel')
+    assert.equal(hidden, false)
+    assert.equal(toggles, initiallyHidden ? 1 : 0)
+  }
+  await assert.rejects(context.exports.openFileExplorer({ call: async () => { throw new Error('Plugin unavailable') } }), /Plugin unavailable/)
+})
+
 test('early workspace reads wait without entering the operation queue and then return saved workspaces', async () => {
   const source = await readFile('libs/remix-ui/workspace/src/lib/actions/workspace.ts', 'utf8')
   const declarations = source.slice(source.indexOf('let plugin: any'), source.indexOf('\ntype WorkspaceActionCallback'))
