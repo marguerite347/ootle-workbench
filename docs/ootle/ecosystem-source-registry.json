@@ -3617,44 +3617,59 @@
       "title": "Official Python SDK",
       "sources": [
         "https://github.com/tari-project/ootle-py",
-        "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1"
+        "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1",
+        "https://github.com/tari-project/ootle-py/blob/v0.4.0/CHANGELOG.md"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
+      "lastSuccessfulReviewAt": "2026-11-02T21:09:53.261411+00:00",
       "outcome": "reviewed",
       "reviewRequired": false,
-      "lastAttemptAt": "2026-10-31T12:44:57.707Z",
-      "nextReviewAt": "2026-11-01T09:00:00Z",
-      "changedFields": [],
+      "lastAttemptAt": "2026-11-02T21:09:53.261411+00:00",
+      "nextReviewAt": "2026-11-03T10:00:00Z",
+      "changedFields": [
+        "sourceEvidence"
+      ],
       "sourceReviews": {
         "https://github.com/tari-project/ootle-py": {
           "url": "https://github.com/tari-project/ootle-py",
-          "hash": "55aac9d4d0c04530b77c2a3b52e3fa052e01003cda4b11140356fc481caa2178",
-          "revision": "d02b4790b3022583fd22dd57e0fb4135fe367d19",
-          "attemptedAt": "2026-10-31T09:03:14.147052+00:00",
-          "evidence": "work/daily-2026-10-31/10eb25d7995126ab.txt",
-          "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
-          "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
-          "lastAttemptAt": "2026-10-31T09:03:14.147052+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:14.147052+00:00",
+          "hash": "981e9e36eae265b598a27af07fa8682b9f2525371ead11d8f4e6804366fca884",
+          "revision": "3ebac60c51114825177a07c8f3bf267b2f20ca09",
+          "attemptedAt": "2026-11-02T20:56:03.897863+00:00",
+          "evidence": "work/daily-2026-10-31/10eb25d7995126ab-981e9e36eae265b598a27af07fa8682b9f2525371ead11d8f4e6804366fca884.txt",
+          "method": "Full README, root, revision and complete release list read.",
+          "lastAttemptAt": "2026-11-02T20:56:03.897863+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T20:56:03.897863+00:00",
           "status": "read",
           "error": null
         },
         "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1": {
           "url": "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1",
-          "hash": "55aac9d4d0c04530b77c2a3b52e3fa052e01003cda4b11140356fc481caa2178",
-          "revision": "d02b4790b3022583fd22dd57e0fb4135fe367d19",
-          "attemptedAt": "2026-10-31T09:03:14.147052+00:00",
-          "evidence": "work/daily-2026-10-31/10eb25d7995126ab.txt",
-          "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
-          "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
-          "lastAttemptAt": "2026-10-31T09:03:14.147052+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:14.147052+00:00",
+          "hash": "6a8f03a672d3024ad3ec49f4e220e5bbaf87607516b709222b48f6682a97dd41",
+          "attemptedAt": "2026-11-02T20:56:03.577069+00:00",
+          "evidence": "work/daily-2026-10-31/9d222848016432e8-6a8f03a672d3024ad3ec49f4e220e5bbaf87607516b709222b48f6682a97dd41.txt",
+          "method": "Full retained release body re-read from complete releases API response.",
+          "lastAttemptAt": "2026-11-02T20:56:03.577069+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T20:56:03.577069+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/ootle-py/blob/v0.4.0/CHANGELOG.md": {
+          "url": "https://github.com/tari-project/ootle-py/blob/v0.4.0/CHANGELOG.md",
+          "hash": "f017d075e50ef5bb5a192d998bf2164ce52182d574482a6b89c6f31234d91909",
+          "attemptedAt": "2026-11-02T21:09:53.261411+00:00",
+          "evidence": "work/daily-2026-10-31/429f761615b27ccb-f017d075e50ef5bb5a192d998bf2164ce52182d574482a6b89c6f31234d91909.txt",
+          "method": "Full tagged changelog read and browser inspected.",
+          "lastAttemptAt": "2026-11-02T21:09:53.261411+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T21:09:53.261411+00:00",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
-      "changedSources": [],
+      "observedAvailability": "Published SDK source and package",
+      "changedSources": [
+        "https://github.com/tari-project/ootle-py",
+        "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1",
+        "https://github.com/tari-project/ootle-py/blob/v0.4.0/CHANGELOG.md"
+      ],
       "reviewQueue": [],
       "checkedScope": [
         "https://github.com/tari-project/ootle-py",
@@ -3673,44 +3688,59 @@
       "title": "Official Go SDK",
       "sources": [
         "https://github.com/tari-project/ootle-go",
-        "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0"
+        "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0",
+        "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
+      "lastSuccessfulReviewAt": "2026-11-02T21:09:53.261411+00:00",
       "outcome": "reviewed",
       "reviewRequired": false,
-      "lastAttemptAt": "2026-10-31T12:44:57.707Z",
-      "nextReviewAt": "2026-11-01T09:00:00Z",
-      "changedFields": [],
+      "lastAttemptAt": "2026-11-02T21:09:53.261411+00:00",
+      "nextReviewAt": "2026-11-03T10:00:00Z",
+      "changedFields": [
+        "sourceEvidence"
+      ],
       "sourceReviews": {
         "https://github.com/tari-project/ootle-go": {
           "url": "https://github.com/tari-project/ootle-go",
-          "hash": "660e54af61c7dd84e22520ea18a31cfc369e9f3b39f01cb07b3cb7ef5fe659e3",
-          "revision": "5d86af331f173c789ca2a26c3a3f2998ed2307f8",
-          "attemptedAt": "2026-10-31T09:03:15.288037+00:00",
-          "evidence": "work/daily-2026-10-31/0bd982343a9d07d3.txt",
-          "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
-          "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
-          "lastAttemptAt": "2026-10-31T09:03:15.288037+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:15.288037+00:00",
+          "hash": "0a7aa2b04bb3bbf742f680592d145cb1cebe5dfcc909f946e5de3c23bb753d6d",
+          "revision": "f11e68566025714544397f781ba025cd4d9b0914",
+          "attemptedAt": "2026-11-02T20:56:06.102425+00:00",
+          "evidence": "work/daily-2026-10-31/0bd982343a9d07d3-0a7aa2b04bb3bbf742f680592d145cb1cebe5dfcc909f946e5de3c23bb753d6d.txt",
+          "method": "Full README, root, revision and complete release list read.",
+          "lastAttemptAt": "2026-11-02T20:56:06.102425+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T20:56:06.102425+00:00",
           "status": "read",
           "error": null
         },
         "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0": {
           "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0",
-          "hash": "660e54af61c7dd84e22520ea18a31cfc369e9f3b39f01cb07b3cb7ef5fe659e3",
-          "revision": "5d86af331f173c789ca2a26c3a3f2998ed2307f8",
-          "attemptedAt": "2026-10-31T09:03:15.288037+00:00",
-          "evidence": "work/daily-2026-10-31/0bd982343a9d07d3.txt",
-          "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
-          "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
-          "lastAttemptAt": "2026-10-31T09:03:15.288037+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:15.288037+00:00",
+          "hash": "95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7",
+          "attemptedAt": "2026-11-02T20:56:05.812903+00:00",
+          "evidence": "work/daily-2026-10-31/6693f7bfa0a6ff60-95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7.txt",
+          "method": "Full retained release body re-read from complete releases API response.",
+          "lastAttemptAt": "2026-11-02T20:56:05.812903+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T20:56:05.812903+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0": {
+          "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0",
+          "hash": "95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7",
+          "attemptedAt": "2026-11-02T20:56:05.812903+00:00",
+          "evidence": "work/daily-2026-10-31/6693f7bfa0a6ff60-95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7.txt",
+          "method": "Full v0.6.0 release body read and browser inspected.",
+          "lastAttemptAt": "2026-11-02T20:56:05.812903+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T20:56:05.812903+00:00",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
-      "changedSources": [],
+      "observedAvailability": "Published SDK source and package",
+      "changedSources": [
+        "https://github.com/tari-project/ootle-go",
+        "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0",
+        "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0"
+      ],
       "reviewQueue": [],
       "checkedScope": [
         "https://github.com/tari-project/ootle-go",

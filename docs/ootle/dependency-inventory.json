@@ -9349,176 +9349,253 @@
       "repo": "workbench",
       "manifest": "package.json",
       "name": "@langchain/aws",
-      "range": "^1.4.2",
-      "locked": "1.4.3",
+      "range": "1.5.1",
+      "locked": "1.5.1",
       "installed": null,
       "latestCompatible": "1.5.1",
       "latest": "1.5.1",
       "error": null,
-      "disposition": "pending",
+      "disposition": "updated",
       "previousLocked": "1.4.3",
-      "checkedAt": "2026-10-31T09:03:05.738Z",
+      "checkedAt": "2026-11-02T21:08:26.513230+00:00",
       "sourceUrl": "https://registry.npmjs.org/%40langchain%2Faws",
-      "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
-      "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests.",
+      "reason": "Qualified coordinated agent graph update; exact merged revision deployed and independently reviewed.",
       "evidence": [
-        "work/completion-2026-10-29/workbench-production-build-clean.log"
+        "work/daily-2026-10-31/agent-python-release-acceptance-nov2.json",
+        "work/daily-2026-10-31/langchain-selection-and-trial-nov2.json"
       ],
-      "latestMigration": {
-        "targetVersion": "1.5.1",
-        "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
-        "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
-      }
+      "lastRegistryReadAt": "2026-11-02T15:57:31.732Z",
+      "registryEvidence": "work/daily-2026-10-31/registry-refresh-nov2.json",
+      "assessmentHistory": [
+        {
+          "locked": "1.4.3",
+          "range": "^1.4.2",
+          "disposition": "pending",
+          "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
+          "latestMigration": {
+            "targetVersion": "1.5.1",
+            "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
+            "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+          },
+          "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+        }
+      ]
     },
     {
       "repo": "workbench",
       "manifest": "package.json",
       "name": "@langchain/core",
-      "range": "^1.2.9",
-      "locked": "1.2.9",
+      "range": "1.3.2",
+      "locked": "1.3.2",
       "installed": null,
       "latestCompatible": "1.3.2",
       "latest": "1.3.2",
       "error": null,
-      "disposition": "pending",
+      "disposition": "updated",
       "previousLocked": "1.2.9",
-      "checkedAt": "2026-10-31T09:03:05.780Z",
+      "checkedAt": "2026-11-02T21:08:26.513230+00:00",
       "sourceUrl": "https://registry.npmjs.org/%40langchain%2Fcore",
-      "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
-      "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests.",
+      "reason": "Qualified coordinated agent graph update; exact merged revision deployed and independently reviewed.",
       "evidence": [
-        "work/completion-2026-10-29/workbench-production-build-clean.log"
+        "work/daily-2026-10-31/agent-python-release-acceptance-nov2.json",
+        "work/daily-2026-10-31/langchain-selection-and-trial-nov2.json"
       ],
-      "latestMigration": {
-        "targetVersion": "1.3.2",
-        "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
-        "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
-      }
+      "lastRegistryReadAt": "2026-11-02T15:57:31.783Z",
+      "registryEvidence": "work/daily-2026-10-31/registry-refresh-nov2.json",
+      "assessmentHistory": [
+        {
+          "locked": "1.2.9",
+          "range": "^1.2.9",
+          "disposition": "pending",
+          "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
+          "latestMigration": {
+            "targetVersion": "1.3.2",
+            "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
+            "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+          },
+          "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+        }
+      ]
     },
     {
       "repo": "workbench",
       "manifest": "package.json",
       "name": "@langchain/langgraph",
-      "range": "^1.4.10",
-      "locked": "1.4.12",
+      "range": "1.6.0",
+      "locked": "1.6.0",
       "installed": null,
       "latestCompatible": "1.6.0",
       "latest": "1.6.0",
       "error": null,
-      "disposition": "pending",
+      "disposition": "updated",
       "previousLocked": "1.4.12",
-      "checkedAt": "2026-10-31T09:03:05.820Z",
+      "checkedAt": "2026-11-02T21:08:26.513230+00:00",
       "sourceUrl": "https://registry.npmjs.org/%40langchain%2Flanggraph",
-      "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
-      "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests.",
+      "reason": "Qualified coordinated agent graph update; exact merged revision deployed and independently reviewed.",
       "evidence": [
-        "work/completion-2026-10-29/workbench-production-build-clean.log"
+        "work/daily-2026-10-31/agent-python-release-acceptance-nov2.json",
+        "work/daily-2026-10-31/langchain-selection-and-trial-nov2.json"
       ],
-      "latestMigration": {
-        "targetVersion": "1.5.3",
-        "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
-        "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
-      }
+      "lastRegistryReadAt": "2026-11-02T15:57:31.794Z",
+      "registryEvidence": "work/daily-2026-10-31/registry-refresh-nov2.json",
+      "assessmentHistory": [
+        {
+          "locked": "1.4.12",
+          "range": "^1.4.10",
+          "disposition": "pending",
+          "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
+          "latestMigration": {
+            "targetVersion": "1.5.3",
+            "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
+            "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+          },
+          "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+        }
+      ]
     },
     {
       "repo": "workbench",
       "manifest": "package.json",
       "name": "@langchain/langgraph-checkpoint",
-      "range": "^1.1.5",
-      "locked": "1.1.5",
+      "range": "1.2.2",
+      "locked": "1.2.2",
       "installed": null,
       "latestCompatible": "1.2.2",
       "latest": "1.2.2",
       "error": null,
-      "disposition": "pending",
+      "disposition": "updated",
       "previousLocked": "1.1.5",
-      "checkedAt": "2026-10-31T09:03:05.822Z",
+      "checkedAt": "2026-11-02T21:08:26.513230+00:00",
       "sourceUrl": "https://registry.npmjs.org/%40langchain%2Flanggraph-checkpoint",
-      "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
-      "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests.",
+      "reason": "Qualified coordinated agent graph update; exact merged revision deployed and independently reviewed.",
       "evidence": [
-        "work/completion-2026-10-29/workbench-production-build-clean.log"
+        "work/daily-2026-10-31/agent-python-release-acceptance-nov2.json",
+        "work/daily-2026-10-31/langchain-selection-and-trial-nov2.json"
       ],
-      "latestMigration": {
-        "targetVersion": "1.2.1",
-        "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
-        "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
-      }
+      "lastRegistryReadAt": "2026-11-02T15:57:31.784Z",
+      "registryEvidence": "work/daily-2026-10-31/registry-refresh-nov2.json",
+      "assessmentHistory": [
+        {
+          "locked": "1.1.5",
+          "range": "^1.1.5",
+          "disposition": "pending",
+          "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
+          "latestMigration": {
+            "targetVersion": "1.2.1",
+            "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
+            "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+          },
+          "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+        }
+      ]
     },
     {
       "repo": "workbench",
       "manifest": "package.json",
       "name": "@langchain/langgraph-sdk",
-      "range": "^1.9.23",
-      "locked": "1.9.31",
+      "range": "1.12.9",
+      "locked": "1.12.9",
       "installed": null,
       "latestCompatible": "1.12.9",
       "latest": "1.12.9",
       "error": null,
-      "disposition": "pending",
+      "disposition": "updated",
       "previousLocked": "1.9.31",
-      "checkedAt": "2026-10-31T09:03:05.831Z",
+      "checkedAt": "2026-11-02T21:08:26.513230+00:00",
       "sourceUrl": "https://registry.npmjs.org/%40langchain%2Flanggraph-sdk",
-      "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
-      "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests.",
+      "reason": "Qualified coordinated agent graph update; exact merged revision deployed and independently reviewed.",
       "evidence": [
-        "work/completion-2026-10-29/workbench-production-build-clean.log"
+        "work/daily-2026-10-31/agent-python-release-acceptance-nov2.json",
+        "work/daily-2026-10-31/langchain-selection-and-trial-nov2.json"
       ],
-      "latestMigration": {
-        "targetVersion": "1.12.8",
-        "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
-        "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
-      }
+      "lastRegistryReadAt": "2026-11-02T15:57:31.857Z",
+      "registryEvidence": "work/daily-2026-10-31/registry-refresh-nov2.json",
+      "assessmentHistory": [
+        {
+          "locked": "1.9.31",
+          "range": "^1.9.23",
+          "disposition": "pending",
+          "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
+          "latestMigration": {
+            "targetVersion": "1.12.8",
+            "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
+            "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+          },
+          "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+        }
+      ]
     },
     {
       "repo": "workbench",
       "manifest": "package.json",
       "name": "@langchain/ollama",
-      "range": "^1.0.0",
-      "locked": "1.2.7",
+      "range": "1.3.0",
+      "locked": "1.3.0",
       "installed": null,
       "latestCompatible": "1.3.0",
       "latest": "1.3.0",
       "error": null,
-      "disposition": "pending",
+      "disposition": "updated",
       "previousLocked": "1.2.7",
-      "checkedAt": "2026-10-31T09:03:05.833Z",
+      "checkedAt": "2026-11-02T21:08:26.513230+00:00",
       "sourceUrl": "https://registry.npmjs.org/%40langchain%2Follama",
-      "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
-      "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests.",
+      "reason": "Qualified coordinated agent graph update; exact merged revision deployed and independently reviewed.",
       "evidence": [
-        "work/completion-2026-10-29/workbench-production-build-clean.log"
+        "work/daily-2026-10-31/agent-python-release-acceptance-nov2.json",
+        "work/daily-2026-10-31/langchain-selection-and-trial-nov2.json"
       ],
-      "latestMigration": {
-        "targetVersion": "1.3.0",
-        "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
-        "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
-      }
+      "lastRegistryReadAt": "2026-11-02T15:57:31.908Z",
+      "registryEvidence": "work/daily-2026-10-31/registry-refresh-nov2.json",
+      "assessmentHistory": [
+        {
+          "locked": "1.2.7",
+          "range": "^1.0.0",
+          "disposition": "pending",
+          "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
+          "latestMigration": {
+            "targetVersion": "1.3.0",
+            "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
+            "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+          },
+          "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+        }
+      ]
     },
     {
       "repo": "workbench",
       "manifest": "package.json",
       "name": "@langchain/openrouter",
-      "range": "0.4.10",
-      "locked": "0.4.10",
+      "range": "0.4.21",
+      "locked": "0.4.21",
       "installed": null,
       "latestCompatible": "0.4.10",
       "latest": "0.4.21",
       "error": null,
-      "disposition": "pending",
+      "disposition": "updated",
       "previousLocked": "0.4.10",
-      "checkedAt": "2026-10-31T09:03:05.996Z",
+      "checkedAt": "2026-11-02T21:08:26.513230+00:00",
       "sourceUrl": "https://registry.npmjs.org/%40langchain%2Fopenrouter",
-      "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
-      "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests.",
+      "reason": "Qualified coordinated agent graph update; exact merged revision deployed and independently reviewed.",
       "evidence": [
-        "work/completion-2026-10-29/workbench-production-build-clean.log"
+        "work/daily-2026-10-31/agent-python-release-acceptance-nov2.json",
+        "work/daily-2026-10-31/langchain-selection-and-trial-nov2.json"
       ],
-      "latestMigration": {
-        "targetVersion": "0.4.21",
-        "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
-        "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
-      }
+      "lastRegistryReadAt": "2026-11-02T15:57:31.844Z",
+      "registryEvidence": "work/daily-2026-10-31/registry-refresh-nov2.json",
+      "assessmentHistory": [
+        {
+          "locked": "0.4.10",
+          "range": "0.4.10",
+          "disposition": "pending",
+          "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
+          "latestMigration": {
+            "targetVersion": "0.4.21",
+            "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
+            "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+          },
+          "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+        }
+      ]
     },
     {
       "repo": "workbench",
@@ -10601,26 +10678,37 @@
       "repo": "workbench",
       "manifest": "package.json",
       "name": "deepagents",
-      "range": "^1.13.1",
-      "locked": "1.13.1",
+      "range": "1.16.2",
+      "locked": "1.16.2",
       "installed": null,
       "latestCompatible": "1.16.2",
       "latest": "1.16.2",
       "error": null,
-      "disposition": "pending",
+      "disposition": "updated",
       "previousLocked": "1.13.1",
-      "checkedAt": "2026-10-31T09:03:06.288Z",
+      "checkedAt": "2026-11-02T21:08:26.513230+00:00",
       "sourceUrl": "https://registry.npmjs.org/deepagents",
-      "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
-      "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests.",
+      "reason": "Qualified coordinated agent graph update; exact merged revision deployed and independently reviewed.",
       "evidence": [
-        "work/completion-2026-10-29/workbench-production-build-clean.log"
+        "work/daily-2026-10-31/agent-python-release-acceptance-nov2.json",
+        "work/daily-2026-10-31/langchain-selection-and-trial-nov2.json"
       ],
-      "latestMigration": {
-        "targetVersion": "1.16.1",
-        "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
-        "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
-      }
+      "lastRegistryReadAt": "2026-11-02T15:57:32.379Z",
+      "registryEvidence": "work/daily-2026-10-31/registry-refresh-nov2.json",
+      "assessmentHistory": [
+        {
+          "locked": "1.13.1",
+          "range": "^1.13.1",
+          "disposition": "pending",
+          "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
+          "latestMigration": {
+            "targetVersion": "1.16.1",
+            "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
+            "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+          },
+          "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+        }
+      ]
     },
     {
       "repo": "workbench",
@@ -11343,26 +11431,37 @@
       "repo": "workbench",
       "manifest": "package.json",
       "name": "langchain",
-      "range": "^1.5.10",
-      "locked": "1.5.10",
+      "range": "1.6.0",
+      "locked": "1.6.0",
       "installed": null,
       "latestCompatible": "1.6.0",
       "latest": "1.6.0",
       "error": null,
-      "disposition": "pending",
+      "disposition": "updated",
       "previousLocked": "1.5.10",
-      "checkedAt": "2026-10-31T09:03:06.537Z",
+      "checkedAt": "2026-11-02T21:08:26.513230+00:00",
       "sourceUrl": "https://registry.npmjs.org/langchain",
-      "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
-      "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests.",
+      "reason": "Qualified coordinated agent graph update; exact merged revision deployed and independently reviewed.",
       "evidence": [
-        "work/completion-2026-10-29/workbench-production-build-clean.log"
+        "work/daily-2026-10-31/agent-python-release-acceptance-nov2.json",
+        "work/daily-2026-10-31/langchain-selection-and-trial-nov2.json"
       ],
-      "latestMigration": {
-        "targetVersion": "1.6.0",
-        "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
-        "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
-      }
+      "lastRegistryReadAt": "2026-11-02T15:57:32.629Z",
+      "registryEvidence": "work/daily-2026-10-31/registry-refresh-nov2.json",
+      "assessmentHistory": [
+        {
+          "locked": "1.5.10",
+          "range": "^1.5.10",
+          "disposition": "pending",
+          "reason": "Current version and registry metadata captured; update or concrete migration assessment remains in this run queue.",
+          "latestMigration": {
+            "targetVersion": "1.6.0",
+            "reason": "AI graph/checkpoint and protected class types no longer match existing agent integration.",
+            "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+          },
+          "nextAction": "Migrate graph/checkpoint callers as one family; repeat build and agent request tests."
+        }
+      ]
     },
     {
       "repo": "workbench",
@@ -17010,32 +17109,93 @@
     }
   },
   "pythonVendorRequirements": {
-    "checkedAt": "2026-10-29T20:52:50.201566+00:00",
-    "scope": "Two optional vendored requirements files; no installed product Python environment or transitive lock. Unbounded boto3/awscli requirements require a separately qualified environment; Pillow latest major requires Python >=3.11. No global environment changed.",
-    "evidence": "work/completion-2026-10-29/python-vendor-registry.json",
+    "checkedAt": "2026-11-02T20:42:57.687251+00:00",
+    "scope": "Two optional bundled Python requirements files. No maintained Go module manifests found. AWS requirements are environment-setup guidance with no deployed product Python graph; a fresh isolated Python3.14.6 pip resolution selected current boto3/awscli and 11 transitive packages. No AWS package execution or credentials used. Pillow13 CLI fixtures passed, source range extension merged in PR154 and deployed at535ceda; actual CLI regression fixture is in content CI.",
     "packages": [
       {
+        "name": "Pillow",
+        "latest": "13.0.0",
+        "requiresPython": ">=3.11",
+        "requiresDist": [
+          "furo; extra == \"docs\"",
+          "olefile; extra == \"docs\"",
+          "sphinx>=8.2; extra == \"docs\"",
+          "sphinx-autobuild; extra == \"docs\"",
+          "sphinx-copybutton; extra == \"docs\"",
+          "sphinx-inline-tabs; extra == \"docs\"",
+          "sphinxext-opengraph; extra == \"docs\"",
+          "olefile; extra == \"fpx\"",
+          "olefile; extra == \"mic\"",
+          "arro3-compute; extra == \"test-arrow\"",
+          "arro3-core; extra == \"test-arrow\"",
+          "nanoarrow; extra == \"test-arrow\"",
+          "pyarrow; extra == \"test-arrow\"",
+          "coverage>=7.4.2; extra == \"tests\"",
+          "defusedxml; extra == \"tests\"",
+          "markdown2; extra == \"tests\"",
+          "olefile; extra == \"tests\"",
+          "packaging; extra == \"tests\"",
+          "psutil; (sys_platform == \"linux\" or sys_platform == \"darwin\") and extra == \"tests\"",
+          "pytest; extra == \"tests\"",
+          "pytest-cov; extra == \"tests\"",
+          "pytest-timeout; extra == \"tests\"",
+          "pytest-xdist; extra == \"tests\"",
+          "setuptools; extra == \"tests\"",
+          "trove-classifiers>=2024.10.12; extra == \"tests\"",
+          "defusedxml; extra == \"xmp\""
+        ],
+        "vulnerabilities": [],
+        "url": "https://pypi.org/pypi/Pillow/json",
+        "evidence": "work/daily-2026-10-31/pypi-nov2-56cd02ba0c8d44417b3f5e6b5bff96861810d89a4f14ba2863a91f619f86a842.json",
+        "sha256": "56cd02ba0c8d44417b3f5e6b5bff96861810d89a4f14ba2863a91f619f86a842",
+        "checkedAt": "2026-11-02T20:42:57.312734+00:00"
+      },
+      {
         "name": "boto3",
-        "url": "https://pypi.org/pypi/boto3/json",
-        "latest": "1.43.122",
+        "latest": "1.43.123",
         "requiresPython": ">=3.10",
-        "checkedAt": "2026-10-29T20:51:40.452126+00:00"
+        "requiresDist": [
+          "botocore<1.44.0,>=1.43.123",
+          "jmespath<2.0.0,>=0.7.1",
+          "s3transfer<0.20.0,>=0.19.0",
+          "botocore[crt]<2.0a0,>=1.21.0; extra == \"crt\""
+        ],
+        "vulnerabilities": [],
+        "url": "https://pypi.org/pypi/boto3/json",
+        "evidence": "work/daily-2026-10-31/pypi-nov2-720c299d5c67bddc0d5151f25e5ede63d25f11d9f7c244dfb3e7d4130b37b6f7.json",
+        "sha256": "720c299d5c67bddc0d5151f25e5ede63d25f11d9f7c244dfb3e7d4130b37b6f7",
+        "checkedAt": "2026-11-02T20:42:57.520064+00:00"
       },
       {
         "name": "awscli",
-        "url": "https://pypi.org/pypi/awscli/json",
         "latest": "1.46.2",
         "requiresPython": ">=3.10",
-        "checkedAt": "2026-10-29T20:51:41.040981+00:00"
-      },
-      {
-        "name": "Pillow",
-        "url": "https://pypi.org/pypi/Pillow/json",
-        "latest": "13.0.0",
-        "requiresPython": ">=3.11",
-        "checkedAt": "2026-10-29T20:51:41.493208+00:00"
+        "requiresDist": [
+          "docutils<=0.19,>=0.18.1",
+          "PyYAML<6.1,>=3.10",
+          "colorama<0.4.7,>=0.2.5",
+          "rsa<4.8,>=3.1.2",
+          "jmespath<2.0.0,>=0.7.1",
+          "python-dateutil<3.0.0,>=2.1",
+          "urllib3!=2.2.0,<3,>=1.25.4",
+          "awscrt==0.36.0; extra == \"crt\""
+        ],
+        "vulnerabilities": [],
+        "url": "https://pypi.org/pypi/awscli/json",
+        "evidence": "work/daily-2026-10-31/pypi-nov2-c8bf9cc1bb9e687a33b4f8b128d1a1154999fe8dd356c0eee5204a34bac87c5c.json",
+        "sha256": "c8bf9cc1bb9e687a33b4f8b128d1a1154999fe8dd356c0eee5204a34bac87c5c",
+        "checkedAt": "2026-11-02T20:42:57.687251+00:00"
       }
-    ]
+    ],
+    "evidence": [
+      "work/daily-2026-10-31/python-registry-contracts-nov2.json",
+      "work/daily-2026-10-31/python-advisory-review-nov2.json",
+      "work/daily-2026-10-31/python-osv-nov2.json",
+      "work/daily-2026-10-31/python-aws-resolution.json",
+      "work/daily-2026-10-31/pillow13-trial-result.json"
+    ],
+    "pullRequest": "https://github.com/marguerite347/ootle-lobby-community/pull/154",
+    "publicationEvidence": "work/daily-2026-10-31/agent-python-release-acceptance-nov2.json"
   },
   "rustStable": {
     "version": "1.99.0",
