@@ -401,8 +401,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Official Community Templates",
-      "summary": "Published-template directory and indexer source. Reuse this project when evaluating searchable template metadata; no authoritative hosted instance was established.",
-      "status": "Source available · hosted endpoint unverified",
+      "summary": "The official CLI documents the public Community Templates directory. On November 2, 2026, browser review loaded the Browse list and an Ootlebook detail with its address, author, publication epoch, size and function signatures. That template had no verified off-chain metadata. The reviewed pages did not identify the configured network. An earlier direct HTTP request returned 403; browser access succeeded. Recording shows public directory browsing, not compilation, publication or contract execution. The earlier source-only observation and README footage remain in the maintenance history.",
+      "status": "Public template directory",
       "sourceUrl": "https://github.com/tari-project/community-templates",
       "repoUrl": "https://github.com/tari-project/community-templates",
       "docsUrl": null,
@@ -412,10 +412,10 @@
       },
       "license": "BSD-3-Clause",
       "network": "Ootle L2",
-      "platform": "Rust / PostgreSQL / React",
+      "platform": "Web · Rust / PostgreSQL / React",
       "upstreamRevision": "8ea6d8b5b1a11ad0eeaca4f01d0caca6344c7ed0",
       "sourceUpdatedAt": "2026-10-06T18:22:50Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "lastCheckedAt": "2026-11-02T05:33:12.266Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -423,22 +423,23 @@
         "templates",
         "official"
       ],
-      "demoUrl": null,
+      "demoUrl": "https://ootle.tari.com/community-templates",
       "preview": {
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.jpg",
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.mp4",
-        "source": "Source/docs walkthrough — application not demonstrated"
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-live-20261102.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-live-20261102.png",
+        "source": "App demo — browsing the public template directory; no compilation, publication or transaction demonstrated."
       },
       "discussionLinks": [
         {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
           "platform": "Bluesky",
           "author": "tariproject.bsky.social",
-          "publishedAt": "2026-10-19T10:30:01.438Z"
+          "publishedAt": "2026-10-19T10:30:01.438Z",
+          "context": "Related official WASM-template sharing post; not the announcement of this hosted directory."
         }
       ],
-      "cardSummary": "Explore directory and indexer source for finding published Ootle templates.",
-      "cardStatus": "Source code"
+      "cardSummary": "Browse published Ootle templates and inspect their addresses, authors, function signatures and available metadata.",
+      "cardStatus": "Web directory"
     },
     {
       "id": "tari-ootle:integration:veil",
