@@ -11251,6 +11251,276 @@
       ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:integration:confidential-rcv-web": {
+      "id": "tari-ootle:integration:confidential-rcv-web",
+      "title": "Confidential voting frontend",
+      "sources": [
+        "https://github.com/m4r1m0/confidential-rcv-web",
+        "https://github.com/m4r1m0/confidential-rcv-web#readme",
+        "https://github.com/m4r1m0/confidential-rcv-web/releases",
+        "https://github.com/m4r1m0/confidential-rcv-web/pull/2"
+      ],
+      "lastAttemptAt": "2026-11-02T23:01:07.187535+00:00",
+      "sourceReviews": {
+        "https://github.com/m4r1m0/confidential-rcv-web": {
+          "url": "https://github.com/m4r1m0/confidential-rcv-web",
+          "hash": "4a90f858d8f8bafd727a78768ce8cec25f09dc111089ee6073ebc1d7f6f8dea3",
+          "attemptedAt": "2026-11-02T22:46:43.872144+00:00",
+          "evidence": "work/daily-2026-10-31/9ad676e819f4cf76-4a90f858d8f8bafd727a78768ce8cec25f09dc111089ee6073ebc1d7f6f8dea3.txt",
+          "method": "Complete GitHub API README, metadata and default revision; docs fragment is same README",
+          "revision": "964bc753535d330ac897a7fc6a87d88e8a2c2c74",
+          "lastAttemptAt": "2026-11-02T22:46:43.872144+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:46:43.872144+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/m4r1m0/confidential-rcv-web#readme": {
+          "url": "https://github.com/m4r1m0/confidential-rcv-web#readme",
+          "hash": "4a90f858d8f8bafd727a78768ce8cec25f09dc111089ee6073ebc1d7f6f8dea3",
+          "attemptedAt": "2026-11-02T22:46:43.872144+00:00",
+          "evidence": "work/daily-2026-10-31/9ad676e819f4cf76-4a90f858d8f8bafd727a78768ce8cec25f09dc111089ee6073ebc1d7f6f8dea3.txt",
+          "method": "Complete GitHub API README, metadata and default revision; docs fragment is same README",
+          "revision": "964bc753535d330ac897a7fc6a87d88e8a2c2c74",
+          "lastAttemptAt": "2026-11-02T22:46:43.872144+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:46:43.872144+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/m4r1m0/confidential-rcv-web/releases": {
+          "url": "https://github.com/m4r1m0/confidential-rcv-web/releases",
+          "file": "4eceb755cd2aa2dd-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-02T22:46:43.527231+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-10-31/4eceb755cd2aa2dd-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-02T22:46:43.527231+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:46:43.527231+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/m4r1m0/confidential-rcv-web/pull/2": {
+          "url": "https://github.com/m4r1m0/confidential-rcv-web/pull/2",
+          "hash": "1c198917c88babf31a30a5f875a13dc525f6570d5a504a95e30666681cf3fd9d:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-02T22:50:13.469350+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/88a82989ced66946-1c198917c88babf31a30a5f875a13dc525f6570d5a504a95e30666681cf3fd9d.txt",
+            "work/daily-2026-10-31/c0d57f299ad8c0b6-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "work/daily-2026-10-31/5d49daad7cfb264b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "work/daily-2026-10-31/681e918e64dd139b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt"
+          ],
+          "method": "Full pull request body, paginated issue comments, review comments and reviews",
+          "lastAttemptAt": "2026-11-02T22:50:13.469350+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:50:13.469350+00:00",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-02T23:01:07.187535+00:00",
+      "observedAvailability": "source-only",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://github.com/m4r1m0/confidential-rcv-web",
+        "https://github.com/m4r1m0/confidential-rcv-web#readme",
+        "https://github.com/m4r1m0/confidential-rcv-web/releases",
+        "https://github.com/m4r1m0/confidential-rcv-web/pull/2"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:component:confidential-vote-template": {
+      "id": "tari-ootle:component:confidential-vote-template",
+      "title": "Ranked voting template",
+      "sources": [
+        "https://github.com/m4r1m0/confidential-vote-template",
+        "https://github.com/m4r1m0/confidential-vote-template#readme",
+        "https://github.com/m4r1m0/confidential-rcv-template/releases",
+        "https://github.com/m4r1m0/confidential-vote-template/pull/1",
+        "https://github.com/m4r1m0/confidential-vote-template/pull/7"
+      ],
+      "lastAttemptAt": "2026-11-02T23:01:07.187535+00:00",
+      "sourceReviews": {
+        "https://github.com/m4r1m0/confidential-vote-template": {
+          "url": "https://github.com/m4r1m0/confidential-vote-template",
+          "hash": "dfd8dada9e447f1be70783bbcafe4e1c1bc14f4c1507807a5ddc71452a52b572",
+          "attemptedAt": "2026-11-02T22:45:35.660118+00:00",
+          "evidence": "work/daily-2026-10-31/53be63e7132e577c-dfd8dada9e447f1be70783bbcafe4e1c1bc14f4c1507807a5ddc71452a52b572.txt",
+          "method": "Complete GitHub API README, metadata and default revision; docs fragment is same README",
+          "revision": "cb2051b84a872609256cd4ac0fec12a8704dc8b1",
+          "lastAttemptAt": "2026-11-02T22:45:35.660118+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:45:35.660118+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/m4r1m0/confidential-vote-template#readme": {
+          "url": "https://github.com/m4r1m0/confidential-vote-template#readme",
+          "hash": "dfd8dada9e447f1be70783bbcafe4e1c1bc14f4c1507807a5ddc71452a52b572",
+          "attemptedAt": "2026-11-02T22:45:35.660118+00:00",
+          "evidence": "work/daily-2026-10-31/53be63e7132e577c-dfd8dada9e447f1be70783bbcafe4e1c1bc14f4c1507807a5ddc71452a52b572.txt",
+          "method": "Complete GitHub API README, metadata and default revision; docs fragment is same README",
+          "revision": "cb2051b84a872609256cd4ac0fec12a8704dc8b1",
+          "lastAttemptAt": "2026-11-02T22:45:35.660118+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:45:35.660118+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/m4r1m0/confidential-rcv-template/releases": {
+          "url": "https://github.com/m4r1m0/confidential-rcv-template/releases",
+          "file": "cbde9c9a0e935afb-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-02T22:45:35.025342+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-10-31/cbde9c9a0e935afb-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-02T22:45:35.025342+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:45:35.025342+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/m4r1m0/confidential-vote-template/pull/1": {
+          "url": "https://github.com/m4r1m0/confidential-vote-template/pull/1",
+          "hash": "293608e04248a82840989d579ce5379351ae4718ed00f9638f423c6271d6b307:ce3157b25abc3fdc0828bcdb4ea55ab6d30cb0cce4bfdc110cdb4951d55131b8:2206bf33505653ad04641c02fc57440e997094d37bb579435968376b43eb5a65:57863a72c05c4778e71b6c87a08effce115b8a6eac67bea4f3233bb2d672ef57",
+          "attemptedAt": "2026-11-02T22:52:33.710370+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/0cf86012c329aaae-293608e04248a82840989d579ce5379351ae4718ed00f9638f423c6271d6b307.txt",
+            "work/daily-2026-10-31/3e950f1c42dadd35-ce3157b25abc3fdc0828bcdb4ea55ab6d30cb0cce4bfdc110cdb4951d55131b8.txt",
+            "work/daily-2026-10-31/814c3123dd0cea11-2206bf33505653ad04641c02fc57440e997094d37bb579435968376b43eb5a65.txt",
+            "work/daily-2026-10-31/2e11ff8e29c6ea6e-57863a72c05c4778e71b6c87a08effce115b8a6eac67bea4f3233bb2d672ef57.txt"
+          ],
+          "method": "Full pull request body, paginated issue comments, review comments and reviews",
+          "lastAttemptAt": "2026-11-02T22:52:33.710370+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:52:33.710370+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/m4r1m0/confidential-vote-template/pull/7": {
+          "url": "https://github.com/m4r1m0/confidential-vote-template/pull/7",
+          "hash": "37342ff0dd06f4ca15f9d8691c5d3a64f3eb86a9c822e9df835dbb4588c0968f:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-02T22:52:35.224262+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/c32a318bb1e01318-37342ff0dd06f4ca15f9d8691c5d3a64f3eb86a9c822e9df835dbb4588c0968f.txt",
+            "work/daily-2026-10-31/4352f13a1969c0c8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "work/daily-2026-10-31/19604ca50fefadc2-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "work/daily-2026-10-31/771803cb63193936-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt"
+          ],
+          "method": "Full pull request body, paginated issue comments, review comments and reviews",
+          "lastAttemptAt": "2026-11-02T22:52:35.224262+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:52:35.224262+00:00",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-02T23:01:07.187535+00:00",
+      "observedAvailability": "source-only",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://github.com/m4r1m0/confidential-vote-template",
+        "https://github.com/m4r1m0/confidential-vote-template#readme",
+        "https://github.com/m4r1m0/confidential-rcv-template/releases",
+        "https://github.com/m4r1m0/confidential-vote-template/pull/1",
+        "https://github.com/m4r1m0/confidential-vote-template/pull/7"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:component:confidential-voting-template": {
+      "id": "tari-ootle:component:confidential-voting-template",
+      "title": "Yes/no voting template",
+      "sources": [
+        "https://github.com/m4r1m0/confidential-voting-template",
+        "https://github.com/m4r1m0/confidential-voting-template#readme",
+        "https://github.com/m4r1m0/confidential-voting-template/releases",
+        "https://github.com/m4r1m0/confidential-voting-template/pull/1"
+      ],
+      "lastAttemptAt": "2026-11-02T23:01:07.187535+00:00",
+      "sourceReviews": {
+        "https://github.com/m4r1m0/confidential-voting-template": {
+          "url": "https://github.com/m4r1m0/confidential-voting-template",
+          "hash": "ca575ac6b3e47df82d7c8153880505712c0c8778d9c3a956c42d58a288a4fec1",
+          "attemptedAt": "2026-11-02T22:46:25.734083+00:00",
+          "evidence": "work/daily-2026-10-31/842d5257f0f35909-ca575ac6b3e47df82d7c8153880505712c0c8778d9c3a956c42d58a288a4fec1.txt",
+          "method": "Complete GitHub API README, metadata and default revision; docs fragment is same README",
+          "revision": "b35942b74b8500595d0ed817aa56e0813935acd8",
+          "lastAttemptAt": "2026-11-02T22:46:25.734083+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:46:25.734083+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/m4r1m0/confidential-voting-template#readme": {
+          "url": "https://github.com/m4r1m0/confidential-voting-template#readme",
+          "hash": "ca575ac6b3e47df82d7c8153880505712c0c8778d9c3a956c42d58a288a4fec1",
+          "attemptedAt": "2026-11-02T22:46:25.734083+00:00",
+          "evidence": "work/daily-2026-10-31/842d5257f0f35909-ca575ac6b3e47df82d7c8153880505712c0c8778d9c3a956c42d58a288a4fec1.txt",
+          "method": "Complete GitHub API README, metadata and default revision; docs fragment is same README",
+          "revision": "b35942b74b8500595d0ed817aa56e0813935acd8",
+          "lastAttemptAt": "2026-11-02T22:46:25.734083+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:46:25.734083+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/m4r1m0/confidential-voting-template/releases": {
+          "url": "https://github.com/m4r1m0/confidential-voting-template/releases",
+          "file": "867b119e7c77b95b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-02T22:46:25.413522+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-10-31/867b119e7c77b95b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-02T22:46:25.413522+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:46:25.413522+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/m4r1m0/confidential-voting-template/pull/1": {
+          "url": "https://github.com/m4r1m0/confidential-voting-template/pull/1",
+          "hash": "02c9f2ea8e491d8d96c038987a4e14f815ec7689e0c6decd2098ce6dba8d97b5:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-02T22:51:42.136479+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/02dd0a03fd6ee38d-02c9f2ea8e491d8d96c038987a4e14f815ec7689e0c6decd2098ce6dba8d97b5.txt",
+            "work/daily-2026-10-31/cadd28463a3ffaf2-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "work/daily-2026-10-31/405e7ff1caa11e2b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "work/daily-2026-10-31/ed7dfc808a7fa9b4-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt"
+          ],
+          "method": "Full pull request body, paginated issue comments, review comments and reviews",
+          "lastAttemptAt": "2026-11-02T22:51:42.136479+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:51:42.136479+00:00",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-02T23:01:07.187535+00:00",
+      "observedAvailability": "source-only",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://github.com/m4r1m0/confidential-voting-template",
+        "https://github.com/m4r1m0/confidential-voting-template#readme",
+        "https://github.com/m4r1m0/confidential-voting-template/releases",
+        "https://github.com/m4r1m0/confidential-voting-template/pull/1"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
     }
   },
   "resourceReviewSummary": {

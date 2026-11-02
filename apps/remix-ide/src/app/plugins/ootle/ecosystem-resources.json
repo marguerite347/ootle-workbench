@@ -3266,6 +3266,146 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-minotari-cli-release-20261102-d6d3e0eb4f.png",
         "source": "Announcement walkthrough — public release notes; no wallet execution."
       }
+    },
+    {
+      "id": "tari-ootle:integration:confidential-rcv-web",
+      "key": "confidential-rcv-web",
+      "type": "integration",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Confidential voting frontend",
+      "summary": "The public README describes election creation, CSV voter import, ballot distribution and tally monitoring. Rankings and tally results are public. Its JavaScript example uses revealed fees that can link a voter identity; the Rust reference requires stealth fees. Experimental wallet-signed creation and voting paths are also documented. Version 0.1.0 declares Node.js 20+, @tari-project/ootle 0.7 and ootle-wasm 0.43. On November 2, 2026, the reviewed README, repository metadata and release stream provided no public hosted demo URL or release. No public launch post was found in those sources; the October update discussion is retained. The recording is a public README walkthrough, not an application demonstration.",
+      "status": "Community source frontend",
+      "sourceUrl": "https://github.com/m4r1m0/confidential-rcv-web",
+      "repoUrl": "https://github.com/m4r1m0/confidential-rcv-web",
+      "docsUrl": "https://github.com/m4r1m0/confidential-rcv-web#readme",
+      "demoUrl": null,
+      "license": null,
+      "network": "Ootle testnet",
+      "platform": "Node.js 20+ / JavaScript",
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": "2026-11-02T23:01:07.187535+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "voting"
+      ],
+      "creator": {
+        "name": "m4r1m0",
+        "url": "https://github.com/m4r1m0"
+      },
+      "upstreamRevision": "964bc753535d330ac897a7fc6a87d88e8a2c2c74",
+      "discussionLinks": [
+        {
+          "url": "https://github.com/m4r1m0/confidential-rcv-web/pull/2",
+          "platform": "GitHub pull request",
+          "context": "Fix StealthTransferStatement encoding for current ootle-wasm/engine"
+        }
+      ],
+      "cardSummary": "Manage testnet elections with a JavaScript console for ballot distribution, monitoring and public tally results.",
+      "cardStatus": "Source code · Testnet · Public rankings",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-confidential-rcv-web-20261102-6096e5ae4a.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-confidential-rcv-web-20261102-6096e5ae4a.png",
+        "source": "Source/docs walkthrough — November 2 public README and privacy model; no wallet, transactions or source execution."
+      }
+    },
+    {
+      "id": "tari-ootle:component:confidential-vote-template",
+      "key": "confidential-vote-template",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Ranked voting template",
+      "summary": "Rust source for IRV, Sequential IRV, STV and plurality elections with deadlines, bounded ballot supply and public tally results. Every ballot ranking is public. Voter unlinkability depends on stealth fees and careful ballot distribution; the template cannot enforce the fee source, and timing can leak information. The ranked_voting package is 0.1.0, using template-lib 0.31 and test tooling 0.39; compatibility with current Ootle 0.49 is not established by this source review. On November 2, 2026, the reviewed README, repository metadata and releases offered source without a hosted demo or release. The former confidential-rcv-template repository redirects here. Design and hardening discussions are retained. The recording shows the README and privacy model.",
+      "status": "Community source template",
+      "sourceUrl": "https://github.com/m4r1m0/confidential-vote-template",
+      "repoUrl": "https://github.com/m4r1m0/confidential-vote-template",
+      "docsUrl": "https://github.com/m4r1m0/confidential-vote-template#readme",
+      "demoUrl": null,
+      "license": null,
+      "network": "Ootle testnet",
+      "platform": "Rust 2024 / WASM",
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": "2026-11-02T23:01:07.187535+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "voting"
+      ],
+      "creator": {
+        "name": "m4r1m0",
+        "url": "https://github.com/m4r1m0"
+      },
+      "upstreamRevision": "cb2051b84a872609256cd4ac0fec12a8704dc8b1",
+      "discussionLinks": [
+        {
+          "url": "https://github.com/m4r1m0/confidential-vote-template/pull/1",
+          "platform": "GitHub pull request",
+          "context": "Ranked-choice voting design and review"
+        },
+        {
+          "url": "https://github.com/m4r1m0/confidential-vote-template/pull/7",
+          "platform": "GitHub pull request",
+          "context": "Ballot supply and tally hardening"
+        }
+      ],
+      "cardSummary": "Build ranked-choice elections with public ballots, on-chain tallies and stealth ballot tokens on Ootle.",
+      "cardStatus": "Source code · Testnet · Public rankings",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-confidential-vote-template-20261102-64cb0411c1.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-confidential-vote-template-20261102-64cb0411c1.png",
+        "source": "Source/docs walkthrough — November 2 public README and privacy model; no wallet, transactions or source execution."
+      }
+    },
+    {
+      "id": "tari-ootle:component:confidential-voting-template",
+      "key": "confidential-voting-template",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Yes/no voting template",
+      "summary": "Rust source for yes/no elections with deadlines, capped vote-token supply and public vote counts. Choices are public; hiding voter identity requires stealth fee payments and careful token distribution. The template cannot guarantee that the initiator assigns each token to a distinct person. The confidential_voting package is 0.2.0, using template-lib 0.31 and test tooling 0.39; compatibility with current Ootle 0.49 is not established by this source review. On November 2, 2026, the reviewed README, repository metadata and release stream offered source without a hosted demo or release. The creator's pull request describes test results; this listing does not independently reproduce them. The recording shows the README and its privacy table.",
+      "status": "Community source template",
+      "sourceUrl": "https://github.com/m4r1m0/confidential-voting-template",
+      "repoUrl": "https://github.com/m4r1m0/confidential-voting-template",
+      "docsUrl": "https://github.com/m4r1m0/confidential-voting-template#readme",
+      "demoUrl": null,
+      "license": null,
+      "network": "Ootle testnet",
+      "platform": "Rust 2024 / WASM",
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": "2026-11-02T23:01:07.187535+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "voting"
+      ],
+      "creator": {
+        "name": "m4r1m0",
+        "url": "https://github.com/m4r1m0"
+      },
+      "upstreamRevision": "b35942b74b8500595d0ed817aa56e0813935acd8",
+      "discussionLinks": [
+        {
+          "url": "https://github.com/m4r1m0/confidential-voting-template/pull/1",
+          "platform": "GitHub pull request",
+          "context": "Confidential voting implementation and creator test report"
+        }
+      ],
+      "cardSummary": "Use a Rust template for yes-or-no elections with stealth vote tokens and public on-chain counts.",
+      "cardStatus": "Source code · Testnet · Public votes",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-confidential-voting-template-20261102-921f7dc42a.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-confidential-voting-template-20261102-921f7dc42a.png",
+        "source": "Source/docs walkthrough — November 2 public README and privacy model; no wallet, transactions or source execution."
+      }
     }
   ],
   "opportunities": [
