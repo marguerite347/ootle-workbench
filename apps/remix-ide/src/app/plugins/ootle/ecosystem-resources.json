@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-11-02T15:08:18.843126+00:00",
+  "reviewedAt": "2026-11-02T21:09:53.261411+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -114,8 +114,8 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official Python SDK",
-      "summary": "Python sync/async client requiring Python 3.13+. Release 0.3.1, reviewed October 14, 2026, updates WASM to 0.46.0, corrects Amount CBOR encoding for the 0.46 engine and improves aborted/rejected transaction handling. Package ootle-py; import ootle. October 20 registry/tag check found v0.3.2, while GitHub’s latest release page still returned v0.3.1; no v0.3.2 release-note page was available.",
-      "status": "Source reviewed · runtime untested",
+      "summary": "Python SDK v0.4.0 was published on PyPI November 2, 2026 and requires Python 3.13+. Its tagged changelog tracks Ootle 0.49.1 and the 0.48/0.49 wire changes: CBOR indexer values, destination tags, view-secret stealth keys and proof-window instructions. Clients before v0.4.0 cannot read a 0.48+ indexer or sign for a 0.48+ network. The package includes hash-checked WASM and BOR blobs through Wasmtime. November 2 review covered the full README, tagged changelog and package metadata; the recording shows the changelog, without installing or executing the SDK.",
+      "status": "SDK",
       "sourceUrl": "https://github.com/tari-project/ootle-py",
       "repoUrl": "https://github.com/tari-project/ootle-py",
       "docsUrl": null,
@@ -124,11 +124,11 @@
         "url": "https://github.com/tari-project"
       },
       "license": "BSD-3-Clause",
-      "network": "Ootle L2",
+      "network": "Ootle L2 · v0.4.0 tracks core 0.49.1",
       "platform": "Python ≥3.13",
-      "upstreamRevision": "d02b4790b3022583fd22dd57e0fb4135fe367d19",
-      "sourceUpdatedAt": "2026-10-02T08:49:54Z",
-      "lastCheckedAt": "2026-10-31T12:44:57.707Z",
+      "upstreamRevision": "3ebac60c51114825177a07c8f3bf267b2f20ca09",
+      "sourceUpdatedAt": "2026-11-02T11:16:56.050495Z",
+      "lastCheckedAt": "2026-11-02T21:09:53.261411+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -138,9 +138,9 @@
       ],
       "demoUrl": null,
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261014.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261014.jpg",
-        "source": "Source/docs walkthrough — Public repository README scrolling; no software installation or execution."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261102-9c02f10578.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261102-9c02f10578.png",
+        "source": "Source/docs walkthrough — public v0.4.0 changelog; no SDK or wallet execution."
       },
       "discussionLinks": [
         {
@@ -153,9 +153,21 @@
           "url": "https://pypi.org/project/ootle-py/0.3.2/",
           "platform": "Primary version publication",
           "context": "Official package 0.3.2; GitHub release page still v0.3.1"
+        },
+        {
+          "url": "https://pypi.org/project/ootle-py/0.4.0/",
+          "platform": "PyPI",
+          "context": "Official 0.4.0 publication",
+          "publishedAt": "2026-11-02T11:16:56.050495Z"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle-py/blob/v0.4.0/CHANGELOG.md",
+          "platform": "GitHub changelog",
+          "context": "Tagged v0.4.0 changelog",
+          "publishedAt": "2026-11-02"
         }
       ],
-      "cardSummary": "Access Ootle from Python with synchronous and asynchronous client APIs.",
+      "cardSummary": "Access Ootle from Python with synchronous and asynchronous clients, event streams and transaction builders.",
       "cardStatus": "SDK · Python 3.13+"
     },
     {
@@ -165,8 +177,8 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official Go SDK",
-      "summary": "Go client over the Rust core with cgo and platform-specific native libraries. October 20 source review found tag and module-registry v0.5.0; GitHub’s latest release page still returned v0.4.0. The current README documents event streaming with WatchEvents. Use version-matched native libraries and inspect state or events for results.",
-      "status": "Source reviewed · runtime untested",
+      "summary": "Go SDK v0.6.0, published November 2, 2026, uses the Ootle 0.49.1 Rust core and requires a 0.49 indexer. It adds CBOR decoding, co-signing and sr25519 signing, and changes stealth scanning to require a view secret and account public key. DestinationTag replaces PayRef. Use matching cgo native libraries for macOS amd64/arm64, Linux amd64/arm64 or Windows amd64. AuthorizeProof and DropProofAuthorization are not yet supported by this Go builder. November 2 review covered the README and complete release notes; the recording shows the public announcement, without installing or executing the SDK.",
+      "status": "SDK",
       "sourceUrl": "https://github.com/tari-project/ootle-go",
       "repoUrl": "https://github.com/tari-project/ootle-go",
       "docsUrl": null,
@@ -175,11 +187,11 @@
         "url": "https://github.com/tari-project"
       },
       "license": "BSD-3-Clause",
-      "network": "Ootle L2",
+      "network": "Ootle L2 · requires a 0.49 indexer",
       "platform": "Go / cgo",
-      "upstreamRevision": "5d86af331f173c789ca2a26c3a3f2998ed2307f8",
-      "sourceUpdatedAt": "2026-10-02T08:49:14Z",
-      "lastCheckedAt": "2026-10-31T12:44:57.707Z",
+      "upstreamRevision": "f11e68566025714544397f781ba025cd4d9b0914",
+      "sourceUpdatedAt": "2026-11-02T11:16:25Z",
+      "lastCheckedAt": "2026-11-02T21:09:53.261411+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -189,9 +201,9 @@
       ],
       "demoUrl": null,
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261014.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261014.jpg",
-        "source": "Source/docs walkthrough — Public repository README scrolling; no software installation or execution."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261102-24266a97c0.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261102-24266a97c0.png",
+        "source": "Announcement walkthrough — public v0.6.0 release notes; no SDK or wallet execution."
       },
       "discussionLinks": [
         {
@@ -204,10 +216,16 @@
           "url": "https://github.com/tari-project/ootle-go/tree/v0.5.0",
           "platform": "Primary version publication",
           "context": "Official v0.5.0 source tag; release page still v0.4.0"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0",
+          "platform": "GitHub release",
+          "context": "Official 0.6.0 publication",
+          "publishedAt": "2026-11-02T11:16:25Z"
         }
       ],
-      "cardSummary": "Connect Go applications to Ootle through a Rust core and native libraries.",
-      "cardStatus": "SDK · Requires cgo"
+      "cardSummary": "Connect Go applications to Ootle through a Rust core, with typed results and streamed events.",
+      "cardStatus": "SDK · cgo · 0.49 indexer"
     },
     {
       "id": "tari-ootle:component:erebus-ootle-sdk",
