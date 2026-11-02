@@ -54,7 +54,7 @@
     "babel-eslint": "^7.1.1",
     "babelify": "^10.0.0",
     "solc": "0.8.26",
-    "tape": "^4.6.0"
+    "tape": "5.10.3"
   },
   "publishConfig": {
     "access": "public"
