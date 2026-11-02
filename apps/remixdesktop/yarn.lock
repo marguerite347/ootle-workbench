@@ -3930,10 +3930,10 @@ isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==
 
-isomorphic-git@1.44.8:
-  version "1.44.8"
-  resolved "https://registry.yarnpkg.com/isomorphic-git/-/isomorphic-git-1.44.8.tgz#6442ac79ca6ac4e2604819a1d507d13559f58728"
-  integrity sha512-E4MJXejXlCIIast2TWYc3vt3mu+GaU6MNnOS689UpuotqsM6jgK9v9ubnG9yPExNWXO5QvOmoDfYdZwRhR4OQg==
+isomorphic-git@1.44.10:
+  version "1.44.10"
+  resolved "https://registry.yarnpkg.com/isomorphic-git/-/isomorphic-git-1.44.10.tgz#b04d42725afeae6f8a54ee996470d99f1f2051c6"
+  integrity sha512-OMlkGP84A84E01mEuXXTzaVJtBqDpK8n8KevA229oVscY4SqgkQ20ByGudME5V6Y2wPpHbH7gYjY5dMK1PXFkQ==
   dependencies:
     async-lock "^1.4.1"
     clean-git-ref "^2.0.1"
@@ -6464,15 +6464,20 @@ ws@8.21.0:
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.21.0.tgz#012e413fc07429945121b0c153158c4343086951"
   integrity sha512-Vsp28b7DRcimFQvrqu2Wek3z1iYxDCWqHYB8Qsnk/S4RfaCQzPGPyBNuVjJV3cd6UiKtUtp6sNM77gWvzcCH+g==
 
-ws@8.22.0, ws@^8.20.0:
-  version "8.22.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.22.0.tgz#40f16e1d7588ac0575041be5c49b8eb261c28e73"
-  integrity sha512-Ydggc987+RO0AnWtZ/7Wq9FtNvcrL1b/RO0ud9mWjUPgDrsAAwQSF51sm2hm1XofbU/4jkpGEsLFsZZxU+1DOg==
+ws@8.22.1:
+  version "8.22.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.22.1.tgz#60d427870e8272ddb10c7fc5cdf00a70eaec369e"
+  integrity sha512-oyL6OPYme/CmiFvNuGzeoxCJ4nOrZE2O1FwM9MWM1AsGri6nLXB2pg+lNA8aLeXMSav0J6eIVS1j6vUPzUtK9g==
 
 ws@>=8.7.0:
   version "8.16.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.16.0.tgz#d1cd774f36fbc07165066a60e40323eab6446fd4"
   integrity sha512-HS0c//TP7Ina87TfiPUz1rQzMhHrl/SG2guqRcTOIUYD2q8uhUdNHZYJUaQ8aTGPzCh+c6oawMKW35nFl1dxyQ==
+
+ws@^8.20.0:
+  version "8.22.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.22.0.tgz#40f16e1d7588ac0575041be5c49b8eb261c28e73"
+  integrity sha512-Ydggc987+RO0AnWtZ/7Wq9FtNvcrL1b/RO0ud9mWjUPgDrsAAwQSF51sm2hm1XofbU/4jkpGEsLFsZZxU+1DOg==
 
 xmlbuilder@^15.1.1:
   version "15.1.1"

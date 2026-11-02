@@ -81,7 +81,7 @@
     "electron-is-dev": "^3.0.1",
     "electron-updater": "6.8.12",
     "express": "4.22.3",
-    "isomorphic-git": "1.44.8",
+    "isomorphic-git": "1.44.10",
     "json-bigint": "^1.0.0",
     "lunr": "^2.3.9",
     "matomo-tracker": "^2.2.4",
@@ -89,7 +89,7 @@
     "octokit": "3.2.2",
     "puppeteer": "24.43.1",
     "semver": "7.8.5",
-    "ws": "8.22.0"
+    "ws": "8.22.1"
   },
   "optionalDependencies": {
     "@remix-project/remix-ws-templates": "1.0.88"
