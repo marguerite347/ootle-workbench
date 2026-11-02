@@ -12,7 +12,7 @@ const dir = await mkdtemp(join(tmpdir(), 'ootle-sandbox-smoke-'))
 const store = await Store.embedded(join(dir, 'db'))
 const driver = sandboxDriver(process.env.BUILD_SNAPSHOT_ID),
   jobs = new Jobs(store, driver)
-const files = Object.fromEntries(await Promise.all(['Cargo.toml', 'Cargo.lock', 'src/lib.rs', 'tests/counter.rs'].map(async (path) => [path, await readFile(new URL(`../../templates/tari-counter/${path}`, import.meta.url), 'utf8')])))
+const files = JSON.parse(await readFile(new URL('../../libs/remix-ws-templates/src/templates/tariCounter/files.json', import.meta.url), 'utf8'))
 const project = await store.createProject('smoke', 'Disposable Counter acceptance', files)
 let current
 async function wait(job) {

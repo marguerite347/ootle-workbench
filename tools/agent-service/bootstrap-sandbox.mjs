@@ -5,12 +5,13 @@ const sandbox = await Sandbox.create({ persistent: false, timeout: 45 * 60 * 100
 try {
   for (const command of [
     { cmd: 'bash', args: ['-lc', 'apt-get update -qq && apt-get install -y -qq build-essential pkg-config libssl-dev clang cmake curl ca-certificates'], sudo: true },
-    { cmd: 'bash', args: ['-lc', 'curl --proto "=https" --tlsv1.2 -sSf https://sh.rustup.rs -o /tmp/rustup-init.sh && sh /tmp/rustup-init.sh -y --profile minimal --default-toolchain 1.95.0 --target wasm32-unknown-unknown'] },
+    { cmd: 'bash', args: ['-lc', 'curl --proto "=https" --tlsv1.2 -sSf https://sh.rustup.rs -o /tmp/rustup-init.sh && sh /tmp/rustup-init.sh -y --profile minimal --default-toolchain 1.99.1 --target wasm32-unknown-unknown'] },
   ]) {
     const result = await sandbox.runCommand(command)
     if (result.exitCode !== 0) throw new Error(await result.stderr())
   }
-  await sandbox.writeFiles(await Promise.all(['Cargo.toml', 'Cargo.lock', 'src/lib.rs', 'tests/counter.rs'].map(async (path) => ({ path: `/vercel/project/${path}`, content: await readFile(new URL(`../../templates/tari-counter/${path}`, import.meta.url)) }))))
+  const files = JSON.parse(await readFile(new URL('../../libs/remix-ws-templates/src/templates/tariCounter/files.json', import.meta.url), 'utf8'))
+  await sandbox.writeFiles(Object.entries(files).map(([path, content]) => ({ path: `/vercel/project/${path}`, content: Buffer.from(content) })))
   const result = await sandbox.runCommand({ cmd: 'bash', args: ['-lc', 'export PATH="$HOME/.cargo/bin:$PATH"; cargo test --locked --manifest-path /vercel/project/Cargo.toml && cargo build --locked --release --target wasm32-unknown-unknown --manifest-path /vercel/project/Cargo.toml'] })
   console.log(await result.stdout(), await result.stderr())
   if (result.exitCode !== 0) throw new Error('Trusted starter build failed')

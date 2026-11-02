@@ -12,7 +12,7 @@ import { pairingKey, seal, open, boundedJson } from '../../apps/remix-ide/src/ap
 
 const MAX_BODY = 6 * 1024 * 1024
 const MAX_LOG = 1024 * 1024
-export const TOOLCHAIN = '1.95.0'
+export const TOOLCHAIN = '1.99.1'
 const actions = Object.freeze({ build: ['build', '--locked', '--release', '--target', 'wasm32-unknown-unknown'], test: ['test', '--locked'] })
 const failure = (message, status = 400) => Object.assign(new Error(message), { status })
 const hash = data => createHash('sha256').update(data).digest('hex')

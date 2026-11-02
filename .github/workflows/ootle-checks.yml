@@ -64,7 +64,7 @@ jobs:
           persist-credentials: false
       - uses: dtolnay/rust-toolchain@7e38f4b43b4db5c8dd498af069a4f6196df1d067
         with:
-          toolchain: '1.95.0'
+          toolchain: '1.99.1'
           targets: wasm32-unknown-unknown
       - run: cargo test --locked --manifest-path templates/tari-counter/Cargo.toml
       - run: cargo build --locked --release --target wasm32-unknown-unknown --manifest-path templates/tari-counter/Cargo.toml
@@ -96,7 +96,7 @@ jobs:
           persist-credentials: false
       - uses: dtolnay/rust-toolchain@7e38f4b43b4db5c8dd498af069a4f6196df1d067
         with:
-          toolchain: '1.95.0'
+          toolchain: '1.99.1'
       - run: cargo install cargo-audit --version 0.22.2 --locked
       - run: cargo audit --file ${{ matrix.lockfile }} --json > rust-audit.json
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
