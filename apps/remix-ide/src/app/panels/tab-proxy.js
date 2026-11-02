@@ -254,7 +254,11 @@ export default class TabProxy extends Plugin {
         await this.checkIfCanRunScenario(currentFile)
       }
     } catch (error) {
-      console.error('Error getting current file:', error)
+      // Home is a valid startup tab. FileManager rejects when no editor file
+      // is selected; retain diagnostics for every other retrieval failure.
+      if (!/^(?:Error:\s*)*No such file or directory No file selected$/.test(String(error?.message || error))) {
+        console.error('Error getting current file:', error)
+      }
     }
 
     this.renderComponent()
