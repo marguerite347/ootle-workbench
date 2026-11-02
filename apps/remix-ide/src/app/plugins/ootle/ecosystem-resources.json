@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-10-31T10:41:37.093212+00:00",
+  "reviewedAt": "2026-11-02T15:08:18.843126+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -2606,6 +2606,194 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-local-ai-gpu-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-local-ai-gpu-20261031.png",
         "source": "Source/docs walkthrough — public README and hardware requirements; no installation or inference demonstrated."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:release-0492",
+      "key": "release-0492",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Releases",
+      "title": "Ootle v0.49.2 upgrade notes",
+      "summary": "Official pre-release bundling the 0.48 and 0.49 changes with working binaries. The notes require a coordinated testnet reset and rebuilding and republishing templates against tari_template_lib 0.37. They document new proof-authorization windows, opt-in template upgrades, sr25519 transactions, view-only wallet accounts and multiple passkeys. Read the full release-specific migration instructions before upgrading. This listing records the official notes and November 2 developer announcement; no software was installed and no node, wallet or database was changed.",
+      "status": "Official pre-release",
+      "sourceUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2",
+      "repoUrl": null,
+      "docsUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2",
+      "demoUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle testnet · Reset required",
+      "platform": "Validator, indexer, wallet and template development",
+      "upstreamRevision": "v0.49.2",
+      "sourceUpdatedAt": "2026-11-02T12:09:00Z",
+      "lastCheckedAt": "2026-11-02T14:39:31.649880+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "official",
+        "release-notes"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://discord.com/channels/892738558316662855/1478870438334431313/1566787045630812192",
+          "platform": "Discord",
+          "context": "Developer release announcement"
+        }
+      ],
+      "cardSummary": "Read the testnet reset, wallet changes and template migration steps for Ootle v0.49.2.",
+      "cardStatus": "Release notes · Testnet reset",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-release-0492-20261102-7270ccff9a.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-release-0492-20261102-7270ccff9a.jpg",
+        "source": "Source/docs walkthrough — official pre-release notes; no upgrade performed."
+      }
+    },
+    {
+      "repoUrl": null,
+      "demoUrl": "https://nodes.taritalk.xyz/",
+      "license": null,
+      "network": "Minotari mainnet",
+      "platform": "Browser",
+      "sourceUpdatedAt": "2026-11-02T04:36:55.562Z",
+      "lastCheckedAt": "2026-11-02T14:42:20.218139+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community"
+      ],
+      "id": "tari:component:taritalk-nodes",
+      "key": "taritalk-nodes",
+      "type": "component",
+      "ecosystem": "tari",
+      "group": "Nodes",
+      "title": "TariTalk Nodes",
+      "summary": "Independent community map of voluntarily registered, manually reviewed Minotari mainnet full nodes, with approximate locations, sync status and a deployment guide. Includes separately labeled anonymous Tari Netmap locations; it is not a complete network map. The site credits TariTalk; the forum announcement credits Zhao Xi with the website. November 2 review covered the map, regional filtering, deployment guide and privacy notes. The deployment-tool repository linked by the guide returned 404, so installation was not verified. No node was registered, software installed or query endpoint exposed. Base nodes are not miners or seed nodes; no rewards are implied.",
+      "status": "Community map and guide",
+      "sourceUrl": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+      "docsUrl": "https://nodes.taritalk.xyz/",
+      "creator": {
+        "name": "TariTalk · Zhao Xi",
+        "url": "https://nodes.taritalk.xyz/"
+      },
+      "upstreamRevision": "public-site-2026-11-02",
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+          "platform": "Tari Community forum",
+          "context": "Original announcement by Terence"
+        }
+      ],
+      "cardSummary": "Explore a community map of Tari full nodes and a guide to running your own.",
+      "cardStatus": "Node map · Mainnet · Community guide",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritalk-nodes-20261102-f774b9116a.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritalk-nodes-20261102-f774b9116a.jpg",
+        "source": "Source/docs walkthrough — node map, deployment guide and privacy notes"
+      }
+    },
+    {
+      "repoUrl": "https://github.com/virgiliojr94/book-to-skill",
+      "demoUrl": null,
+      "license": "MIT",
+      "network": "Not network-specific",
+      "platform": "Agent Skills-compatible hosts",
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": "2026-11-02T14:42:20.218139+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community"
+      ],
+      "id": "tari-ootle:learn:book-to-skill",
+      "key": "book-to-skill",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Agents",
+      "title": "book-to-skill",
+      "summary": "General-purpose document-to-agent-skill tool shared by Luci666 in the Tari public general channel. Its MIT README describes converting books, document folders and source collections into an index, chapter references, glossary and patterns for compatible agent hosts, including Codex and Claude Code. Source material rights and output quality remain the user’s responsibility. This is a source review, not a verified Tari integration or an installation; performance and accuracy claims are the maintainer’s. The preview shows the public README only.",
+      "status": "Community-shared agent tool",
+      "sourceUrl": "https://github.com/virgiliojr94/book-to-skill",
+      "docsUrl": "https://github.com/virgiliojr94/book-to-skill#readme",
+      "creator": {
+        "name": "virgiliojr94",
+        "url": "https://github.com/virgiliojr94"
+      },
+      "upstreamRevision": "7540eefbe74933f5fc84c86becac52486b347778",
+      "discussionLinks": [
+        {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1565479700816728236",
+          "platform": "Discord",
+          "context": "Shared by Luci666 on October 29, 2026"
+        }
+      ],
+      "cardSummary": "Turn technical documents into structured references an AI coding agent can load as needed.",
+      "cardStatus": "Agent tool · Source code",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-book-to-skill-20261102-f8d0575d58.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-book-to-skill-20261102-f8d0575d58.jpg",
+        "source": "Source/docs walkthrough — public README; tool not installed or run."
+      }
+    },
+    {
+      "id": "tari-ootle:component:danse-macabre",
+      "key": "danse-macabre",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Danse Macabre",
+      "summary": "Werewolf without a game master: five players jointly shuffle one wolf into a hidden deck, then submit sealed night actions whose total reveals the victim. The public site offers a solo browser session with four ghosts and an invite-link group mode on Esmeralda testnet. The creator notes that solo ghosts share the host tab, so privacy matters between separate players; table existence, seats, timing and fees remain public. November 2 review covered the MIT repository, public explanation and linked proof/threat-model pages. The recording is a website walkthrough, not a completed game or an independent cryptographic audit. The November 2 Ootle testnet reset may require creator redeployment. Optional stakes can be forfeited by a seat that stalls the table; the creator documents a 48–96 minute closure window. No game, stake or transaction was started during this review.",
+      "status": "Web game · Testnet · Optional stakes can be forfeited",
+      "cardSummary": "Play five-seat Werewolf with jointly shuffled hidden roles and sealed night actions on Tari Ootle.",
+      "cardStatus": "Web game · Testnet · Optional stakes can be forfeited",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+      "repoUrl": "https://github.com/YASASWIP012/danse-macabre",
+      "docsUrl": "https://github.com/YASASWIP012/danse-macabre#readme",
+      "demoUrl": "https://danse-macabre.vercel.app/",
+      "creator": {
+        "name": "yasaswip012",
+        "url": "https://github.com/YASASWIP012"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Browser · Rust/WASM",
+      "upstreamRevision": "2341dc39b67f2f3491699a079bdd0103f1efedb5",
+      "sourceUpdatedAt": "2026-10-31T23:37:47.682Z",
+      "lastCheckedAt": "2026-11-02T15:08:18.843126+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "privacy",
+        "testnet"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+          "platform": "Tari Community forum",
+          "context": "Original October contest submission"
+        },
+        {
+          "url": "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
+          "platform": "Bluesky",
+          "context": "Creator announcement"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q",
+          "platform": "YouTube",
+          "context": "Creator explanation; claims are the creator’s"
+        }
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-danse-macabre-20261102-3e2ff4d607.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-danse-macabre-20261102-3e2ff4d607.jpg",
+        "source": "Source/docs walkthrough — public game design, privacy limits and proof links; no gameplay or transaction performed."
       }
     }
   ],
