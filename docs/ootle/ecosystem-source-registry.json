@@ -10503,6 +10503,205 @@
       "changedFields": [],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:learn:taritalk-wallet-operations-faq": {
+      "id": "tari-ootle:learn:taritalk-wallet-operations-faq",
+      "title": "Wallet Operations FAQ",
+      "canonicalResourceId": "taritalk-wallet-operations-faq",
+      "sources": [
+        "https://taritalk.xyz/posts/wallet-operations-faq/",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1565918482644734074"
+      ],
+      "lastAttemptAt": "2026-11-02T18:47:12.075861+00:00",
+      "sourceReviews": {
+        "https://taritalk.xyz/posts/wallet-operations-faq/": {
+          "url": "https://taritalk.xyz/posts/wallet-operations-faq/",
+          "hash": "2bbdc98746274486330786e90d6612bdd6dd15f2fb4a78a5ae08d9afdb394597",
+          "evidence": "work/daily-2026-10-31/sources/ab11745dc130dd86-2bbdc98746274486330786e90d6612bdd6dd15f2fb4a78a5ae08d9afdb394597.txt",
+          "attemptedAt": "2026-11-02T18:23:05.531940+00:00",
+          "method": "Full public guide read.",
+          "lastAttemptAt": "2026-11-02T18:23:05.531940+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T18:23:05.531940+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://discord.com/channels/892738558316662855/892738558996148236/1565918482644734074": {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1565918482644734074",
+          "hash": "26a41d7d54483d931344681130d745ea6780d85713ac8212e297d7b5882db2cf",
+          "evidence": "work/daily-2026-10-31/discord-general-nov2-page12.json",
+          "attemptedAt": "2026-11-02T18:47:12.075861+00:00",
+          "method": "Read original public post and surrounding replies in complete paginated general-channel text review.",
+          "lastAttemptAt": "2026-11-02T18:47:12.075861+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T18:47:12.075861+00:00",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
+      "observedAvailability": "Guide · Universe 1.6.12",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://taritalk.xyz/posts/wallet-operations-faq/",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1565918482644734074"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:learn:veinpool": {
+      "id": "tari-ootle:learn:veinpool",
+      "title": "VeinPool",
+      "canonicalResourceId": "veinpool",
+      "sources": [
+        "https://veinpool.fr/en/coin/xtm",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1562062366366244875",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1562066322416992285"
+      ],
+      "lastAttemptAt": "2026-11-02T18:47:12.075861+00:00",
+      "sourceReviews": {
+        "https://veinpool.fr/en/coin/xtm": {
+          "url": "https://veinpool.fr/en/coin/xtm",
+          "hash": "e6e4fca9e1e6fe9542e0a890e745b5a1adcdcc66ecee34ce86e3e99a3c0448ee",
+          "evidence": "work/daily-2026-10-31/sources/8fec24dc75ec22f4-e6e4fca9e1e6fe9542e0a890e745b5a1adcdcc66ecee34ce86e3e99a3c0448ee.txt",
+          "attemptedAt": "2026-11-02T18:23:05.776795+00:00",
+          "method": "Full public guide read.",
+          "lastAttemptAt": "2026-11-02T18:23:05.776795+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T18:23:05.776795+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://discord.com/channels/892738558316662855/892738558996148236/1562062366366244875": {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562062366366244875",
+          "hash": "2fb108fdb4be1fd1adc93c6d174cddde4ded5616f5b56fad2f230bfd2112622f",
+          "evidence": "work/daily-2026-10-31/discord-general-nov2-page39.json",
+          "attemptedAt": "2026-11-02T18:47:12.075861+00:00",
+          "method": "Read original public post and surrounding replies in complete paginated general-channel text review.",
+          "lastAttemptAt": "2026-11-02T18:47:12.075861+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T18:47:12.075861+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://discord.com/channels/892738558316662855/892738558996148236/1562066322416992285": {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562066322416992285",
+          "hash": "b00ef8ce7e795324efbb99462d5eba1046081e1480b4f8415b1f45d5040f2be4",
+          "evidence": "work/daily-2026-10-31/discord-general-nov2-page35.json",
+          "attemptedAt": "2026-11-02T18:47:12.075861+00:00",
+          "method": "Read original public post and surrounding replies in complete paginated general-channel text review.",
+          "lastAttemptAt": "2026-11-02T18:47:12.075861+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T18:47:12.075861+00:00",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
+      "observedAvailability": "Mining pool · 1% fee · 0.1 XTM minimum",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://veinpool.fr/en/coin/xtm",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1562062366366244875",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1562066322416992285"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:learn:bzminer": {
+      "id": "tari-ootle:learn:bzminer",
+      "title": "BzMiner",
+      "canonicalResourceId": "bzminer",
+      "sources": [
+        "https://github.com/bzminer/bzminer",
+        "https://www.bzminer.com/guides/c29.php",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1563540177790701698",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1562623685511090289",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1559317481578045460"
+      ],
+      "lastAttemptAt": "2026-11-02T18:47:12.075861+00:00",
+      "sourceReviews": {
+        "https://github.com/bzminer/bzminer": {
+          "url": "https://github.com/bzminer/bzminer",
+          "hash": "59e7527d875fc90c59a4b329bee6e012cce1a107d3ae7604fc6dd17d92279103",
+          "evidence": "work/daily-2026-10-31/sources/75fd535ffc37a42b-59e7527d875fc90c59a4b329bee6e012cce1a107d3ae7604fc6dd17d92279103.txt",
+          "attemptedAt": "2026-11-02T18:32:50.804387+00:00",
+          "method": "README introduction, algorithms/platform/download sections and all Tari-specific references reviewed; unrelated exhaustive flag reference excluded from listing scope. Latest release and homepage also reviewed in linked evidence.",
+          "lastAttemptAt": "2026-11-02T18:32:50.804387+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T18:32:50.804387+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://www.bzminer.com/guides/c29.php": {
+          "url": "https://www.bzminer.com/guides/c29.php",
+          "hash": "3fdd4272c4cb5c8b8ec296b1dbce02432e25baeb387cc8ce5457ad1524561f4a",
+          "evidence": "work/daily-2026-10-31/bzminer-c29-guide-browser-nov2.txt",
+          "attemptedAt": "2026-11-02T18:47:12.075861+00:00",
+          "method": "Full public Tari C29 guide read with CUA; publisher hardware conflict retained in Details.",
+          "lastAttemptAt": "2026-11-02T18:47:12.075861+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T18:47:12.075861+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://discord.com/channels/892738558316662855/892738558996148236/1563540177790701698": {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1563540177790701698",
+          "hash": "53c5060dd1e5691f9162bb762044ffefce9b73e37c477f1ec4f1666694529ea6",
+          "evidence": "work/daily-2026-10-31/discord-general-nov2-page28.json",
+          "attemptedAt": "2026-11-02T18:47:12.075861+00:00",
+          "method": "Read original public post and surrounding replies in complete paginated general-channel text review.",
+          "lastAttemptAt": "2026-11-02T18:47:12.075861+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T18:47:12.075861+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://discord.com/channels/892738558316662855/892738558996148236/1562623685511090289": {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562623685511090289",
+          "hash": "b00ef8ce7e795324efbb99462d5eba1046081e1480b4f8415b1f45d5040f2be4",
+          "evidence": "work/daily-2026-10-31/discord-general-nov2-page35.json",
+          "attemptedAt": "2026-11-02T18:47:12.075861+00:00",
+          "method": "Read original public post and surrounding replies in complete paginated general-channel text review.",
+          "lastAttemptAt": "2026-11-02T18:47:12.075861+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T18:47:12.075861+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://discord.com/channels/892738558316662855/892738558996148236/1559317481578045460": {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1559317481578045460",
+          "hash": "2dbc071388f635557e59975178b2eeebcb7fddcb8200908933d5898916ba4915",
+          "evidence": "work/daily-2026-10-31/discord-general-nov2-page62.json",
+          "attemptedAt": "2026-11-02T18:47:12.075861+00:00",
+          "method": "Read original public post and surrounding replies in complete paginated general-channel text review.",
+          "lastAttemptAt": "2026-11-02T18:47:12.075861+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T18:47:12.075861+00:00",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
+      "observedAvailability": "Desktop app · NVIDIA / experimental AMD · 1% dev fee",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://github.com/bzminer/bzminer",
+        "https://www.bzminer.com/guides/c29.php",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1563540177790701698",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1562623685511090289",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1559317481578045460"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
     }
   },
   "resourceReviewSummary": {
