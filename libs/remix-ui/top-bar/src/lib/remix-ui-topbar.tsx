@@ -257,6 +257,12 @@ export function RemixUiTopbar() {
     // Fetch login mode from auth plugin
     const fetchLoginMode = async () => {
       try {
+        // Ootle keeps the upstream auth service inactive.
+        if (!await plugin.call('manager', 'isActive', 'auth')) {
+          setLoginMode(null)
+          setLoginModeMessage('')
+          return
+        }
         const result: LoginModeResponse = await plugin.call('auth', 'getLoginMode')
         setLoginMode(result.mode)
         setLoginModeMessage(result.message || '')
