@@ -49,3 +49,11 @@ test('removed Jayson RPC dependency cannot reintroduce its legacy UUID path', ()
   const lock = fs.readFileSync(new URL('../../yarn.lock', import.meta.url), 'utf8')
   assert.doesNotMatch(lock, /^"?jayson@/m)
 })
+
+test('agent providers and checkpointing share the same LangChain Core module', () => {
+  const core = require.resolve('@langchain/core/runnables')
+  for (const adapter of ['@langchain/aws', '@langchain/ollama', '@langchain/openrouter', '@langchain/langgraph', '@langchain/langgraph-checkpoint', 'langchain', 'deepagents']) {
+    const adapterRequire = createRequire(require.resolve(adapter))
+    assert.equal(adapterRequire.resolve('@langchain/core/runnables'), core, `${adapter} resolves a second Core copy; model and checkpoint types become incompatible`)
+  }
+})

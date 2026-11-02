@@ -999,6 +999,11 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22",
           "platform": "Tari Community forum",
           "context": "Creator submission or material update"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "context": "11:56: Anonymous polls and community voting discussion."
         }
       ],
       "cardSummary": "Create sealed group polls with anonymous eligibility, replaceable ballots and a scheduled reveal of choices.",
@@ -1165,6 +1170,11 @@
           "url": "https://www.reddit.com/r/tari/comments/1xc4cdg/graveyard_shift_payroll_where_the_salaries_stay/",
           "platform": "Reddit · r/tari",
           "context": "Creator payroll announcement"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "context": "12:30: Confidential payroll and view-key project mention."
         }
       ],
       "cardSummary": "Explore confidential payroll from employee, auditor and public perspectives, with selective disclosure of individual payslips.",
@@ -1225,6 +1235,11 @@
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mz2j2w7xax2c",
           "platform": "Bluesky",
           "context": "Send a file. Let the link open once. 📦\r\n\r\nHideBox brings browser-encrypted sharing, expiring access and testnet pay-to-open experiments to Tari’s Spooky Secrets submissions.\r\n\r\nExplore the beta with a sample file:\r\nhttps://hidebox.app/\r\n\r\n"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "context": "12:23: Encrypted file-unlock project mention."
         }
       ],
       "cardSummary": "Store encrypted files and share them through links, recipient addresses or paid access on Ootle testnet.",
@@ -1280,6 +1295,11 @@
           "url": "https://x.com/ArturZbignevich/status/2113023878524256561",
           "platform": "X",
           "context": "Creator announcement"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "context": "12:45: Agent wallet spending-cap project mention."
         }
       ],
       "cardSummary": "Give AI agents a revocable testnet allowance with network-enforced spending limits and approved payees.",
@@ -1385,6 +1405,11 @@
           "url": "https://x.com/Caravelxyz/status/2113244021204131930",
           "platform": "X",
           "context": "Creator Trade announcement"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "context": "12:56: Private OTC market and burn-wallet discussion."
         }
       ],
       "cardSummary": "Explore private peer-to-peer orders exchanging testnet TARI and cUSD, with full-order fills and owner cancellation.",
@@ -1496,6 +1521,11 @@
           "platform": "Reddit",
           "author": "Black_Turtle_",
           "context": "Creator shares the canine game in r/tari"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "context": "13:09: Encrypted-memo project mention."
         }
       ],
       "cardSummary": "Receive a secret canine through an encrypted wallet memo, then choose when to reveal and mint it.",
@@ -1546,6 +1576,11 @@
           "url": "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522",
           "platform": "Bluesky",
           "context": "Creator announcement linked from contest submission"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "context": "13:17: sbox.trading private Steam-item project mention."
         }
       ],
       "cardSummary": "Explore Steam-linked wallet, trading and game modules with private testnet payments and an operator-managed settlement flow.",
@@ -2970,7 +3005,7 @@
       "platform": "Windows / macOS / Linux",
       "upstreamRevision": "v1.6.20",
       "sourceUpdatedAt": "2026-10-29T23:20:26Z",
-      "lastCheckedAt": "2026-11-02T19:23:53.139283+00:00",
+      "lastCheckedAt": "2026-11-02T19:48:15.922Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3003,6 +3038,21 @@
           "url": "https://github.com/tari-project/universe/releases/tag/v1.6.18",
           "platform": "GitHub release",
           "context": "Tari Universe v1.6.18: Twin Tides"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AZzkThgc5dY",
+          "platform": "YouTube",
+          "context": "13:10: Historical Ootle and embedded wallet discussion; current release reviewed separately."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vY_cBAZ1Goc",
+          "platform": "YouTube",
+          "context": "17:36: Historical Universe 1.6.17 update, superseded by the separately reviewed 1.6.20 release."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "context": "4:57: Historical 1.6.18 release preparation; current 1.6.20 availability reviewed separately."
         }
       ],
       "preview": {
@@ -3035,7 +3085,7 @@
       "platform": "Rust stable / Dart ≥3.3 / Flutter Rust Bridge 2.11.1",
       "upstreamRevision": "6d4c9757731e60ef298bd16c852ccceb9e084186",
       "sourceUpdatedAt": null,
-      "lastCheckedAt": "2026-11-02T19:23:53.139283+00:00",
+      "lastCheckedAt": "2026-11-02T19:48:15.922Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3074,7 +3124,7 @@
       "platform": "Flutter / Rust / Dart; Android TLS initialization required",
       "upstreamRevision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
       "sourceUpdatedAt": null,
-      "lastCheckedAt": "2026-11-02T19:23:53.139283+00:00",
+      "lastCheckedAt": "2026-11-02T19:48:15.922Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3113,7 +3163,7 @@
       "platform": "Linux / macOS / Windows; Rust 2024 edition for source builds",
       "upstreamRevision": "v0.5.2",
       "sourceUpdatedAt": "2026-10-29T23:19:53Z",
-      "lastCheckedAt": "2026-11-02T19:23:53.139283+00:00",
+      "lastCheckedAt": "2026-11-02T19:48:15.922Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3126,6 +3176,11 @@
           "url": "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2",
           "platform": "GitHub release",
           "context": "v0.5.2 fixes embedded payment IDs as bytes"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "context": "4:33: Historical v0.5.1 announcement; current v0.5.2 reviewed separately."
         }
       ],
       "preview": {
