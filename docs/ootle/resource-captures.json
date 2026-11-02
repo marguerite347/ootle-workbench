@@ -30,7 +30,7 @@
         "height": 720,
         "pix_fmt": "yuv420p"
       },
-      "durationSeconds": 12.0,
+      "durationSeconds": 12,
       "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/candy-summoner.raw.webm",
       "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-candy-summoner-20261010.mp4",
       "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-candy-summoner-20261010.jpg",
@@ -80,7 +80,7 @@
         "height": 720,
         "pix_fmt": "yuv420p"
       },
-      "durationSeconds": 12.0,
+      "durationSeconds": 12,
       "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/clew-focused/clew.raw.webm",
       "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-clew-20261010.mp4",
       "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-clew-20261010.jpg",
@@ -120,7 +120,7 @@
         "height": 720,
         "pix_fmt": "yuv420p"
       },
-      "durationSeconds": 12.0,
+      "durationSeconds": 12,
       "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/official-agent-docs.raw.webm",
       "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-official-agent-docs-20261010.mp4",
       "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-official-agent-docs-20261010.jpg",
@@ -160,7 +160,7 @@
         "height": 720,
         "pix_fmt": "yuv420p"
       },
-      "durationSeconds": 12.0,
+      "durationSeconds": 12,
       "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/erebus-ootle-sdk.raw.webm",
       "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-erebus-ootle-sdk-20261010.mp4",
       "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-erebus-ootle-sdk-20261010.jpg",
@@ -210,7 +210,7 @@
         "height": 720,
         "pix_fmt": "yuv420p"
       },
-      "durationSeconds": 12.0,
+      "durationSeconds": 12,
       "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/caravel-burn-wallet.raw.webm",
       "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-caravel-burn-wallet-20261010.mp4",
       "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-caravel-burn-wallet-20261010.jpg",
@@ -235,11 +235,21 @@
     {
       "resourceId": "community-templates",
       "title": "Official Ootle Community Templates",
-      "targetUrl": "https://github.com/tari-project/community-templates",
-      "originalPosts": [],
-      "captureType": "source-docs-walkthrough",
-      "capturedAt": "2026-10-10T12:50:21.795363+00:00",
-      "observedRevision": "8ea6d8b5b1a11ad0eeaca4f01d0caca6344c7ed0",
+      "targetUrl": "https://ootle.tari.com/community-templates/search",
+      "originalPosts": [
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-19T10:30:01.438Z",
+          "foundOn": "2026-10-29",
+          "context": "The blank page is the scariest part.\r\nStart with Tari\u2019s WASM templates for tokens, NFTs, swaps, LPs, and more. Explore the code, then turn it into your own confidential concoction.\r\nPick your starting point:\r\nhttps://github.com/tari-project/wasm-template/tree/main/wasm_templates",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-11-02T05:24:12.335Z",
+      "observedRevision": "Public hosted build does not expose revision; source repository revision retained separately.",
       "viewport": {
         "width": 1280,
         "height": 800
@@ -247,30 +257,73 @@
       "exportDimensions": {
         "codec_name": "h264",
         "width": 1280,
-        "height": 720,
+        "height": 800,
         "pix_fmt": "yuv420p"
       },
-      "durationSeconds": 12.0,
-      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/community-templates.raw.webm",
-      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-community-templates-20261010.mp4",
-      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-community-templates-20261010.jpg",
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.mp4",
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.jpg",
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-31/capture-community-templates-live/resource-community-templates-live-20261102.raw.webm",
+      "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-community-templates-live-20261102.mp4",
+      "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-community-templates-live-20261102.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-live-20261102.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-live-20261102.png",
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:integration:community-templates",
       "workbenchUrl": "https://ootle-workbench.vercel.app/",
-      "caption": "Source/docs walkthrough \u2014 application not demonstrated",
-      "sha256": "65cdfdd0f974c7783452af8e2872660d497895ed68cf9fc45ae046bfa280298a",
-      "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-      "verification": "published; desktop and mobile playback verified",
+      "caption": "App demo",
+      "sha256": "0baa2af6d289a050a8c71de022120994a3966f2d2b553af6f40e5dc62ece2de5",
+      "frameReview": "Opening, middle and closing frames reviewed; actual public template list and scrolling.",
+      "verification": {
+        "framesReviewed": [
+          1,
+          6,
+          11
+        ],
+        "localPlayback": "work/daily-2026-10-31/community-template-local-playback-nov2.json",
+        "livePlayback": "pending"
+      },
       "blocker": null,
-      "liveVerification": {
-        "lobbyDesktop": true,
-        "lobbyMobile": true,
-        "workbenchDesktop": true,
-        "workbenchMobile": true,
-        "mediaHashMatched": true,
-        "checkedAt": "2026-10-10T13:04:24.362462+00:00"
-      }
+      "previousCaptures": [
+        {
+          "resourceId": "community-templates",
+          "title": "Official Ootle Community Templates",
+          "targetUrl": "https://github.com/tari-project/community-templates",
+          "originalPosts": [],
+          "captureType": "source-docs-walkthrough",
+          "capturedAt": "2026-10-10T12:50:21.795363+00:00",
+          "observedRevision": "8ea6d8b5b1a11ad0eeaca4f01d0caca6344c7ed0",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "exportDimensions": {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "pix_fmt": "yuv420p"
+          },
+          "durationSeconds": 12,
+          "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/community-templates.raw.webm",
+          "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-community-templates-20261010.mp4",
+          "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-community-templates-20261010.jpg",
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.jpg",
+          "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:integration:community-templates",
+          "workbenchUrl": "https://ootle-workbench.vercel.app/",
+          "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+          "sha256": "65cdfdd0f974c7783452af8e2872660d497895ed68cf9fc45ae046bfa280298a",
+          "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+          "verification": "published; desktop and mobile playback verified",
+          "blocker": null,
+          "liveVerification": {
+            "lobbyDesktop": true,
+            "lobbyMobile": true,
+            "workbenchDesktop": true,
+            "workbenchMobile": true,
+            "mediaHashMatched": true,
+            "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+          }
+        }
+      ],
+      "status": "reviewed-publication-pending"
     },
     {
       "resourceId": "tari-l1-wasm",
@@ -290,7 +343,7 @@
         "height": 720,
         "pix_fmt": "yuv420p"
       },
-      "durationSeconds": 12.0,
+      "durationSeconds": 12,
       "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/tari-l1-wasm.raw.webm",
       "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-tari-l1-wasm-20261010.mp4",
       "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-tari-l1-wasm-20261010.jpg",
@@ -330,7 +383,7 @@
         "height": 720,
         "pix_fmt": "yuv420p"
       },
-      "durationSeconds": 12.0,
+      "durationSeconds": 12,
       "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/ootle-notes.raw.webm",
       "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-notes-20261010.mp4",
       "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-notes-20261010.jpg",
@@ -389,7 +442,7 @@
         "height": 720,
         "pix_fmt": "yuv420p"
       },
-      "durationSeconds": 12.0,
+      "durationSeconds": 12,
       "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/dnode-giveaway.raw.webm",
       "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-dnode-giveaway-20261010.mp4",
       "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-dnode-giveaway-20261010.jpg",
@@ -484,7 +537,7 @@
         "height": 720,
         "pix_fmt": "yuv420p"
       },
-      "durationSeconds": 12.0,
+      "durationSeconds": 12,
       "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/trial/ghostkey.raw.webm",
       "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ghostkey-20261010.mp4",
       "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ghostkey-20261010.jpg",
@@ -1179,7 +1232,7 @@
             "height": 720,
             "pix_fmt": "yuv420p"
           },
-          "durationSeconds": 12.0,
+          "durationSeconds": 12,
           "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/veil.raw.webm",
           "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-veil-20261010.mp4",
           "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-veil-20261010.jpg",
@@ -1855,7 +1908,7 @@
             "height": 720,
             "pix_fmt": "yuv420p"
           },
-          "durationSeconds": 12.0,
+          "durationSeconds": 12,
           "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/ons.raw.webm",
           "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ons-20261010.mp4",
           "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ons-20261010.jpg",
@@ -1961,7 +2014,7 @@
             "height": 720,
             "pix_fmt": "yuv420p"
           },
-          "durationSeconds": 12.0,
+          "durationSeconds": 12,
           "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/caravel-faucet.raw.webm",
           "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-caravel-faucet-20261010.mp4",
           "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-caravel-faucet-20261010.jpg",
@@ -2057,7 +2110,7 @@
             "height": 720,
             "pix_fmt": "yuv420p"
           },
-          "durationSeconds": 12.0,
+          "durationSeconds": 12,
           "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/ootle-ts.raw.webm",
           "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-ts-20261010.mp4",
           "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-ts-20261010.jpg",
@@ -2153,7 +2206,7 @@
             "height": 720,
             "pix_fmt": "yuv420p"
           },
-          "durationSeconds": 12.0,
+          "durationSeconds": 12,
           "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/ootle-python.raw.webm",
           "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-python-20261010.mp4",
           "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-python-20261010.jpg",
@@ -2249,7 +2302,7 @@
             "height": 720,
             "pix_fmt": "yuv420p"
           },
-          "durationSeconds": 12.0,
+          "durationSeconds": 12,
           "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/ootle-go.raw.webm",
           "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-go-20261010.mp4",
           "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-go-20261010.jpg",
@@ -6008,7 +6061,7 @@
       "sha256": "d0a30a78fe07b35b551ee4d94a597bf2609fdb20d2e9c82bc177e6b2890f18d4",
       "caption": "Docs walkthrough",
       "method": "Docs walkthrough \u2014 public README and hardware requirements for a local agent model; no installation or inference demonstrated.",
-      "status": "reviewed-publication-pending",
+      "status": "published",
       "verification": {
         "framesReviewed": [
           1,
@@ -6016,7 +6069,19 @@
           11
         ],
         "localPlayback": "work/daily-2026-10-31/gpu-local-playback-nov1.json",
-        "livePlayback": "pending"
+        "livePlayback": "Passed on Lobby and Workbench desktop and 390px phone viewport; exact evidence in livePlaybackReview."
+      },
+      "livePlaybackReview": {
+        "checkedAt": "2026-11-02T05:20:09.012455+00:00",
+        "evidence": [
+          "work/daily-2026-10-31/gpu-lobby-desktop-nov2.json",
+          "work/daily-2026-10-31/gpu-lobby-phone-nov2.json",
+          "work/daily-2026-10-31/gpu-workbench-desktop-nov2.json",
+          "work/daily-2026-10-31/gpu-workbench-phone-nov2.json"
+        ],
+        "lobbyRevision": "64494fc1ca4bea395f5841e6cb88f67825aaa206",
+        "workbenchRevision": "d0ac05696bdd9ac72ccb0ff79ea9a35696132266",
+        "result": "Both desktop and390px playback ended12s,errornull; source and Details inspected."
       }
     }
   ],

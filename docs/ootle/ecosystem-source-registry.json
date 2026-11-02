@@ -3408,56 +3408,198 @@
       "title": "Official Community Templates",
       "sources": [
         "https://github.com/tari-project/community-templates",
-        "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c"
+        "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+        "https://ootle.tari.com/community-templates"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+      "lastSuccessfulReviewAt": "2026-11-02T05:33:12.266Z",
       "outcome": "reviewed",
       "reviewRequired": false,
-      "lastAttemptAt": "2026-10-31T14:00:56.589Z",
-      "nextReviewAt": "2026-11-01T09:00:00Z",
+      "lastAttemptAt": "2026-11-02T05:33:12.266Z",
+      "nextReviewAt": "2026-11-03T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
       ],
       "sourceReviews": {
         "https://github.com/tari-project/community-templates": {
           "url": "https://github.com/tari-project/community-templates",
+          "file": "46ac86ba20c41060-5c56131bead9f1e35d6c4eca5fb94c14e16f200f19940e98972b638ee1b7e4cf.txt",
           "hash": "5c56131bead9f1e35d6c4eca5fb94c14e16f200f19940e98972b638ee1b7e4cf",
+          "attemptedAt": "2026-11-02T05:31:43.299079+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/tari-project/community-templates/releases",
+            "file": "60e3e1b7a56e0f86-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-02T05:31:41.832823+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
           "revision": "8ea6d8b5b1a11ad0eeaca4f01d0caca6344c7ed0",
-          "attemptedAt": "2026-10-31T09:03:12.960738+00:00",
-          "evidence": "work/daily-2026-10-31/46ac86ba20c41060.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:12.960738+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:12.960738+00:00",
+          "readmeSha": "ef9a440889c81043756f1776c51f3974c3bc970f",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".cargo",
+            ".dockerignore",
+            ".github",
+            ".gitignore",
+            ".idea",
+            ".nvmrc",
+            "Cargo.lock",
+            "Cargo.toml",
+            "Dockerfile",
+            "LICENSE",
+            "README.md",
+            "config.example.toml",
+            "docker-compose.yml",
+            "migrations",
+            "renovate.json",
+            "rust-toolchain.toml",
+            "server",
+            "web"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "http://localhost:3000/api/templates/{addr}/metadata"
+          ],
+          "evidence": "work/daily-2026-10-31/46ac86ba20c41060-5c56131bead9f1e35d6c4eca5fb94c14e16f200f19940e98972b638ee1b7e4cf.txt",
+          "method": "Full README, repository root and complete releases read",
+          "lastAttemptAt": "2026-11-02T05:31:43.299079+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T05:31:43.299079+00:00",
           "status": "read",
           "error": null
         },
         "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c": {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+          "file": "94268e4f91ed6ff4-af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6.txt",
           "hash": "af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6",
-          "attemptedAt": "2026-10-31T12:52:46.869747+00:00",
-          "evidence": "work/daily-2026-10-31/94268e4f91ed6ff4-af28595a0189d349.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T12:52:46.869747+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T12:52:46.869747+00:00",
+          "attemptedAt": "2026-11-02T05:31:43.866252+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Ftariproject.bsky.social%2Fapp.bsky.feed.post%2F3my7vzljz7r2c&depth=100&parentHeight=100",
+          "evidence": "work/daily-2026-10-31/94268e4f91ed6ff4-af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6.txt",
+          "method": "Complete original Bluesky thread; zero replies",
+          "lastAttemptAt": "2026-11-02T05:31:43.866252+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T05:31:43.866252+00:00",
           "status": "read",
+          "error": null
+        },
+        "https://ootle.tari.com/community-templates/search": {
+          "url": "https://ootle.tari.com/community-templates/search",
+          "evidence": "work/daily-2026-10-31/community-template-host-browse-nov2.txt",
+          "hash": "2bc30a7b0b1ca979736b4351a644c9003e67c1ced21a3e3c24e9fb0e2f8a91d3",
+          "attemptedAt": "2026-11-02T05:23:46.567212+00:00",
+          "status": "read",
+          "lastAttemptAt": "2026-11-02T05:23:46.567212+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T05:23:46.567212+00:00",
+          "error": null
+        },
+        "https://ootle.tari.com/community-templates/templates/ac3b75320b76bc3eb6332ca765305b2864e248378ea617d00557879a67aed1af": {
+          "url": "https://ootle.tari.com/community-templates/templates/ac3b75320b76bc3eb6332ca765305b2864e248378ea617d00557879a67aed1af",
+          "evidence": "work/daily-2026-10-31/community-template-host-detail-nov2.txt",
+          "hash": "5ebd10a6ff1f3477eb9ebd899a9a592e152169ca34b2d3e760f623732d28c65b",
+          "attemptedAt": "2026-11-02T05:23:46.567212+00:00",
+          "status": "read",
+          "lastAttemptAt": "2026-11-02T05:23:46.567212+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T05:23:46.567212+00:00",
+          "error": null
+        },
+        "https://ootle.tari.com/community-templates": {
+          "url": "https://ootle.tari.com/community-templates",
+          "evidence": "work/daily-2026-10-31/community-template-host-browse-nov2.txt",
+          "hash": "2bc30a7b0b1ca979736b4351a644c9003e67c1ced21a3e3c24e9fb0e2f8a91d3",
+          "attemptedAt": "2026-11-02T05:23:46.567212+00:00",
+          "status": "read",
+          "method": "Browser landing, Browse and detail inspected; captured Browse representation",
+          "lastAttemptAt": "2026-11-02T05:23:46.567212+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T05:23:46.567212+00:00",
           "error": null
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "observedAvailability": "Public browser directory is reachable; Browse loads actual named templates and an Ootlebook detail shows address, author,epoch,size and function signatures. This template has no verified metadata. No transaction or publication attempted.",
       "changedSources": [
-        "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c"
+        "https://ootle.tari.com/community-templates/search",
+        "https://ootle.tari.com/community-templates/templates/ac3b75320b76bc3eb6332ca765305b2864e248378ea617d00557879a67aed1af",
+        "https://ootle.tari.com/community-templates"
       ],
       "reviewQueue": [],
       "checkedScope": [
-        "https://github.com/tari-project/community-templates"
+        "https://github.com/tari-project/community-templates",
+        "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+        "https://ootle.tari.com/community-templates"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
-      "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
-      "copyUpdated": false,
-      "reviewedSourceCount": 1,
+      "sourceObservation": "Full README and original Bluesky thread unchanged on November2; official public template directory discovered through the CLI README and inspected in browser.",
+      "reviewScope": "README/root/all release records; original related sharing post and all replies; public directory Browse and Ootlebook detail. No transaction or template execution.",
+      "copyUpdated": true,
+      "reviewedSourceCount": 3,
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
-      "blockedSources": []
+      "blockedSources": [],
+      "history": [
+        {
+          "id": "tari-ootle:integration:community-templates",
+          "title": "Official Community Templates",
+          "sources": [
+            "https://github.com/tari-project/community-templates",
+            "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c"
+          ],
+          "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+          "outcome": "reviewed",
+          "reviewRequired": false,
+          "lastAttemptAt": "2026-10-31T14:00:56.589Z",
+          "nextReviewAt": "2026-11-01T09:00:00Z",
+          "changedFields": [
+            "sourceEvidence"
+          ],
+          "sourceReviews": {
+            "https://github.com/tari-project/community-templates": {
+              "url": "https://github.com/tari-project/community-templates",
+              "hash": "5c56131bead9f1e35d6c4eca5fb94c14e16f200f19940e98972b638ee1b7e4cf",
+              "revision": "8ea6d8b5b1a11ad0eeaca4f01d0caca6344c7ed0",
+              "attemptedAt": "2026-10-31T09:03:12.960738+00:00",
+              "evidence": "work/daily-2026-10-31/46ac86ba20c41060.txt",
+              "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
+              "lastAttemptAt": "2026-10-31T09:03:12.960738+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T09:03:12.960738+00:00",
+              "status": "read",
+              "error": null
+            },
+            "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c": {
+              "url": "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+              "hash": "af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6",
+              "attemptedAt": "2026-10-31T12:52:46.869747+00:00",
+              "evidence": "work/daily-2026-10-31/94268e4f91ed6ff4-af28595a0189d349.txt",
+              "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
+              "lastAttemptAt": "2026-10-31T12:52:46.869747+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T12:52:46.869747+00:00",
+              "status": "read",
+              "error": null
+            }
+          },
+          "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+          "changedSources": [
+            "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c"
+          ],
+          "reviewQueue": [],
+          "checkedScope": [
+            "https://github.com/tari-project/community-templates"
+          ],
+          "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+          "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
+          "copyUpdated": false,
+          "reviewedSourceCount": 1,
+          "pendingReviewSources": [],
+          "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+          "blockedSources": []
+        },
+        {
+          "attemptedAt": "2026-11-02T05:23:46.567212+00:00",
+          "priorHttpFailure": "work/daily-2026-10-31/community-template-host-followup.json",
+          "recoveredThrough": "supported browser"
+        }
+      ]
     },
     "tari-ootle:integration:veil": {
       "id": "tari-ootle:integration:veil",

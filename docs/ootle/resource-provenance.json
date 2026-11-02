@@ -284,7 +284,7 @@
     {
       "id": "community-templates",
       "title": "Official Ootle Community Templates",
-      "projectUrl": "https://github.com/tari-project/community-templates",
+      "projectUrl": "https://ootle.tari.com/community-templates",
       "discoveryUrl": "https://github.com/tari-project/community-templates",
       "sharingPosts": [
         {
@@ -297,9 +297,17 @@
           "visibility": "public"
         }
       ],
-      "originalPostStatus": "not-found-in-retained-evidence",
+      "originalPostStatus": "No public announcement of this hosted directory found in reviewed sources; retained Bluesky post concerns related WASM templates.",
       "foundOn": "2026-10-10",
-      "evidence": "October 10 retained discovery tracker; not newly rechecked"
+      "evidence": "October 10 retained discovery tracker; not newly rechecked",
+      "repositoryUrl": "https://github.com/tari-project/community-templates",
+      "documentationUrl": "https://github.com/tari-project/tari-cli#readme",
+      "hostDiscovery": {
+        "url": "https://github.com/tari-project/tari-cli",
+        "revision": "490f7a5808456c4e248b84737c6b197d18b1ca1d",
+        "foundOn": "2026-11-02T05:27:28.068260+00:00",
+        "context": "CLI README links the public template directory; browser Browse and detail loaded November2."
+      }
     },
     {
       "id": "official-agent-docs",
