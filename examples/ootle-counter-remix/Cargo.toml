@@ -20,3 +20,7 @@ strip = true
 opt-level = 2
 [profile.dev.package.wasmer-compiler-cranelift]
 opt-level = 2
+
+# Security-only parent patch: select repaired memmap2 without changing the Tari ABI.
+[patch.crates-io]
+shared-buffer = { path = "vendor/shared-buffer-0.1.4" }

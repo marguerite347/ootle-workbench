@@ -121,3 +121,7 @@ Further source-backed dependency repairs: Bee/Axios, IPFS duration parsing, GitH
 - Earlier harmful-link, denied-write, forged-response, consent/replay and CSP-browser acceptance remains documented above; the relevant automated regressions passed again in this CI. No new claim of sandboxed native execution or authenticated on-chain publication is made.
 
 The Vercel CLI's native keyring migration stalled on this Mac. Reusing the existing Vercel authorization through its subprocess environment and the documented Node fallback completed deployment; no credential was printed or committed, and no security protection was disabled.
+
+## November 2 standalone example audit correction
+
+The downloadable `examples/ootle-counter-remix` lockfile still used memmap2 0.6.2 through shared-buffer, despite the canonical starter having its parent repair. This scope was missed by the embedded-starter parity check. The example now carries the reviewed shared-buffer manifest patch and memmap2 0.9.12, with upstream licenses preserved. CI runs the example’s three engine tests and release WASM build separately. The Rust audit gate now rejects unsound warnings as well as vulnerabilities; an audit with zero vulnerabilities alone is insufficient. Unmaintained advisories remain printed and require separate assessment.
