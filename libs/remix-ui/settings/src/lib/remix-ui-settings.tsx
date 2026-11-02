@@ -364,6 +364,11 @@ export const RemixUiSettings = (props: RemixUiSettingsProps) => {
   useEffect(() => {
     const fetchFeatureGroups = async () => {
       try {
+        // Do not query the upstream auth service when the fork leaves it inactive.
+        if (!await props.plugin.call('manager', 'isActive', 'auth')) {
+          setFeatureGroups([])
+          return
+        }
         const permissions = await props.plugin.call('auth', 'getAllPermissions')
         if (permissions?.feature_groups) {
           setFeatureGroups(permissions.feature_groups)
