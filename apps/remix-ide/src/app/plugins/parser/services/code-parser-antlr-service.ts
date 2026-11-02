@@ -24,7 +24,7 @@ export default class CodeParserAntlrService {
   plugin: CodeParser
   worker: Worker
   parserStartTime: number = 0
-  workerTimer: NodeJS.Timer
+  workerTimer: ReturnType<typeof setInterval>
   parserThreshold: number = 10
   parserThresholdSampleAmount = 3
   cache: {
