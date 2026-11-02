@@ -11,7 +11,7 @@ function recordingLabel(source: string) {
 export function EcosystemResources() {
   const [query, setQuery] = useState('')
   const records = catalog.records.filter(record => `${record.title} ${record.group} ${record.summary}`.toLowerCase().includes(query.toLowerCase()))
-  const opportunities = catalog.opportunities.filter(item => Date.now() < Date.parse(item.expiresAt) && `${item.title} ${item.summary}`.toLowerCase().includes(query.toLowerCase()))
+  const opportunities = catalog.opportunities.filter(item => (!item.expiresAt || Date.now() < Date.parse(item.expiresAt)) && `${item.title} ${item.summary}`.toLowerCase().includes(query.toLowerCase()))
   return <section id="ecosystem-resources" aria-labelledby="ecosystem-resources-title">
     <h2 id="ecosystem-resources-title">Builder resources</h2>
     <p className="ootle-note">Explore guides, language SDKs, testnet tools and reusable templates.</p>
@@ -34,6 +34,7 @@ export function EcosystemResources() {
       <h3><a href={item.sourceUrl} target="_blank" rel="noreferrer">{item.title} ↗</a></h3>
       <p className="ootle-card-summary">{item.cardSummary}</p>
       <div className="ootle-resource-status"><strong>{item.cardStatus}</strong><span>Announcement</span></div>
+      <p className="ootle-card-byline">{item.creator ? `${item.creator.name} · ` : ''}{item.publishedAt.slice(0,10)}</p>
       <a href={item.sourceUrl} target="_blank" rel="noreferrer">Original post ↗</a>
       <details className="ootle-card-details"><summary aria-label={`Details about ${item.title}`}>Details</summary><p>{item.summary}</p><p>{item.preview.source}</p></details>
     </article>)}</div></>}
