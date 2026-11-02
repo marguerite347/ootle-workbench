@@ -11,7 +11,8 @@ describe('blocks', () => {
       coinbase: '0x0000000000000000000000000000000000000001'
     })
     await provider.init()
-    ethersProvider = new ethers.BrowserProvider(provider as any)
+    // Match the IDE's synchronous VM provider so consecutive storage reads stay current.
+    ethersProvider = new ethers.BrowserProvider(provider as any, undefined, { cacheTimeout: -1 })
   })
 
   describe('eth_getBlockByNumber', () => {
