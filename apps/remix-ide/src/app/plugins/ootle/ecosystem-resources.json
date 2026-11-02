@@ -2795,6 +2795,156 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-danse-macabre-20261102-3e2ff4d607.jpg",
         "source": "Source/docs walkthrough — public game design, privacy limits and proof links; no gameplay or transaction performed."
       }
+    },
+    {
+      "id": "tari-ootle:learn:taritalk-wallet-operations-faq",
+      "key": "taritalk-wallet-operations-faq",
+      "type": "learn",
+      "ecosystem": "tari",
+      "group": "Advanced",
+      "title": "Wallet Operations FAQ",
+      "summary": "Illustrated community guide to six Tari Universe wallet interface topics: settings, seed replacement, bridge navigation, loading balances and transaction history. The page displays a November 1, 2025 publication date; Terence shared it on October 30, 2026 Eastern time (October 31 UTC). Its illustrations show Universe 1.6.12 and may differ from later releases. The recording shows the article and its settings illustration, not an operated wallet. No wallet settings, seed words, bridges or transactions were changed.",
+      "status": "Guide · Universe 1.6.12",
+      "cardSummary": "Find illustrated steps for Tari Universe wallet settings, bridge navigation, balance loading and transaction history refresh.",
+      "cardStatus": "Guide · Universe 1.6.12",
+      "sourceUrl": "https://taritalk.xyz/posts/wallet-operations-faq/",
+      "repoUrl": null,
+      "docsUrl": "https://taritalk.xyz/posts/wallet-operations-faq/",
+      "demoUrl": null,
+      "creator": {
+        "name": "TariTalk",
+        "url": "https://taritalk.xyz/"
+      },
+      "license": null,
+      "network": "Tari L1 mainnet",
+      "platform": "Reading · Universe 1.6.12 illustrations",
+      "upstreamRevision": "Illustrated Universe 1.6.12 interface",
+      "sourceUpdatedAt": "2025-11-01T00:00:00Z",
+      "lastCheckedAt": "2026-11-02T18:43:33.508415+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1565918482644734074",
+          "platform": "Discord",
+          "context": "Wallet Operations FAQ"
+        }
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritalk-wallet-operations-faq-20261102-bbdcedb909.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritalk-wallet-operations-faq-20261102-bbdcedb909.png",
+        "source": "Source/docs walkthrough — public guide; no wallet or mining execution."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:veinpool",
+      "key": "veinpool",
+      "type": "learn",
+      "ecosystem": "tari",
+      "group": "Advanced",
+      "title": "VeinPool",
+      "summary": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner’s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
+      "status": "Mining pool · 1% fee · 0.1 XTM minimum",
+      "cardSummary": "Browse a European Tari CPU mining pool with PPLNS and solo modes, setup guides and payout information.",
+      "cardStatus": "Mining pool · 1% fee · 0.1 XTM minimum",
+      "sourceUrl": "https://veinpool.fr/en/coin/xtm",
+      "repoUrl": null,
+      "docsUrl": "https://veinpool.fr/en/coin/xtm",
+      "demoUrl": null,
+      "creator": {
+        "name": "VeinPool",
+        "url": "https://veinpool.fr/en"
+      },
+      "license": null,
+      "network": "Tari L1 mainnet",
+      "platform": "Browser · CPU mining pool",
+      "upstreamRevision": "public-page-sha256:e6e4fca9e1e6fe9542e0a890e745b5a1adcdcc66ecee34ce86e3e99a3c0448ee",
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": "2026-11-02T18:43:33.508415+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562062366366244875",
+          "platform": "Discord",
+          "context": "VeinPool Tari mining pool"
+        },
+        {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562066322416992285",
+          "platform": "Discord",
+          "context": "Creator correction: minimum payout is 0.1 XTM"
+        }
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veinpool-20261102-f2560f40bc.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veinpool-20261102-f2560f40bc.png",
+        "source": "Source/docs walkthrough — public guide; no wallet or mining execution."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:bzminer",
+      "key": "bzminer",
+      "type": "learn",
+      "ecosystem": "tari",
+      "group": "Advanced",
+      "title": "BzMiner",
+      "summary": "Multi-coin miner with hardware monitoring and a local dashboard. On November 2, 2026, the Tari C29 guide documented NVIDIA GPUs and experimental RX 7900 XTX / RX 9070 XT support, about 10 GB free VRAM on NVIDIA or 8.5 GB on those AMD cards, and a 1% algorithm development fee. Its guide excludes Intel, CPU and macOS C29 mining; the repository README instead lists Intel Arc Battlemage, so Intel support remains contradictory in the publisher’s documentation. Automatic tuning and measured performance qualification are RTX 3090-specific. Creator posts shared v100.46, v100.50 and v100.51; the latest reviewed release is v100.60, published October 30. Its new performance notes concern Pearl and Quantus. No open-source license was established for the miner. The recording shows the README and its Tari support table; no binary was downloaded or executed.",
+      "status": "Desktop app · NVIDIA / experimental AMD · 1% dev fee",
+      "cardSummary": "Mine Tari with supported graphics cards using a multi-coin miner that includes hardware monitoring and a local dashboard.",
+      "cardStatus": "Desktop app · NVIDIA / experimental AMD · 1% dev fee",
+      "sourceUrl": "https://github.com/bzminer/bzminer",
+      "repoUrl": "https://github.com/bzminer/bzminer",
+      "docsUrl": "https://www.bzminer.com/guides/c29.php",
+      "demoUrl": null,
+      "creator": {
+        "name": "BzMiner",
+        "url": "https://github.com/bzminer"
+      },
+      "license": null,
+      "network": "Tari L1 mainnet",
+      "platform": "Windows/Linux · ~10 GB NVIDIA / 8.5 GB AMD VRAM",
+      "upstreamRevision": "v100.60",
+      "sourceUpdatedAt": "2026-10-30T22:47:09Z",
+      "lastCheckedAt": "2026-11-02T18:43:33.508415+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1563540177790701698",
+          "platform": "Discord",
+          "context": "BzMiner"
+        },
+        {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562623685511090289",
+          "platform": "Discord",
+          "context": "Creator shared v100.50"
+        },
+        {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1559317481578045460",
+          "platform": "Discord",
+          "context": "Creator shared v100.46"
+        }
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261102-63423e82b3.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261102-63423e82b3.png",
+        "source": "Source/docs walkthrough — public guide; no wallet or mining execution."
+      }
     }
   ],
   "opportunities": [
