@@ -2950,7 +2950,7 @@
       "id": "tari-ootle:learn:official-universe",
       "key": "official-universe",
       "type": "learn",
-      "ecosystem": "tari-ootle",
+      "ecosystem": "tari",
       "group": "Advanced",
       "title": "Tari Universe",
       "summary": "Official desktop mining application and companion wallet. Release v1.6.20, published October 29, 2026, fixes non-text payment IDs and bundles Minotari v0.5.2. The release says oversized payment IDs are refused before reserving funds and history reflects the ID actually sent. v1.6.18 introduced the embedded wallet and Ootle Esmeralda testnet wallet; its NVIDIA TARI Miner integration supports one GPU, and Linux Flatpak requires manual updates. November 2 review covered the public README and complete v1.6.18–v1.6.20 release notes. The recording is an announcement walkthrough of v1.6.20, not a demonstrated wallet or mining session. Earlier source footage and official social announcements are retained in the discovery trail.",
@@ -3008,14 +3008,14 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-universe-20261102-3547274cd7.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-universe-20261102-3547274cd7.png",
-        "source": "Source/docs walkthrough — public README or release notes; no wallet execution."
+        "source": "Announcement walkthrough — public release notes; no wallet execution."
       }
     },
     {
       "id": "tari-ootle:learn:cw-tari-wallet",
       "key": "cw-tari-wallet",
       "type": "learn",
-      "ecosystem": "tari-ootle",
+      "ecosystem": "tari",
       "group": "Advanced",
       "title": "Cake Wallet Tari L1 backend",
       "summary": "Rust wallet backend consumed by Cake Wallet, with generated Dart bindings through Flutter Rust Bridge 2.11.1. The public README documents wallet lifecycle, scanning, balance/history, fees, streaming sends and base-node queries, plus an additive-only Dart API contract. The reviewed Cargo manifest pins Minotari commit 86503ff8360041aa13c7911fd6bd7a6d30591dbb and Tari 6.3.0-pre.1 components. It is backend source rather than a standalone wallet download. The repository had no published releases at the November 2 review; its root LICENSE read returned 404 and the manifest declares no license. No public original sharing post was found in the reviewed sources; retain the actual GitHub repository discovery page. Footage shows its README only.",
@@ -3093,7 +3093,7 @@
       "id": "tari-ootle:learn:minotari-cli-release",
       "key": "minotari-cli-release",
       "type": "learn",
-      "ecosystem": "tari-ootle",
+      "ecosystem": "tari",
       "group": "Advanced",
       "title": "Minotari CLI",
       "summary": "Lightweight command-line wallet and daemon with view-key scanning, account history, SQLite storage and encrypted wallet keys. v0.5.2, published October 29, 2026, fixes sending an address’s embedded payment ID as bytes. Release assets include separate mainnet and Esmeralda builds. The README describes view-only scanning, but its authenticated daemon also exposes operations that can move funds; the scanning description is not a claim that every mode is read-only. The daemon binds to loopback and requires an API token by default. November 2 review covered the full README and release notes. Footage is an announcement walkthrough; no keys, wallet, daemon or transaction was operated.",
@@ -3131,7 +3131,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-minotari-cli-release-20261102-d6d3e0eb4f.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-minotari-cli-release-20261102-d6d3e0eb4f.png",
-        "source": "Source/docs walkthrough — public README or release notes; no wallet execution."
+        "source": "Announcement walkthrough — public release notes; no wallet execution."
       }
     }
   ],
