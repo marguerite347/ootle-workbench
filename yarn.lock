@@ -6103,19 +6103,6 @@
     p-queue "^6.6.2"
     zod "^3.25.76 || ^4"
 
-"@langchain/core@^1.2.9":
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/@langchain/core/-/core-1.2.9.tgz#4f5fb27ba07c51ce4fb8e1dc32eb36945737afa1"
-  integrity sha512-conzSEj9Zu1AyXJLXsSbgrtxtxinmI1yGqQ5CIJZSoV5rvv+yvQE/vgBnoySpBQ/bl3YPgj2FL/gbDjWykLSfg==
-  dependencies:
-    "@cfworker/json-schema" "^4.0.2"
-    "@standard-schema/spec" "^1.1.0"
-    js-tiktoken "^1.0.12"
-    langsmith ">=0.5.0 <1.0.0"
-    mustache "^4.2.0"
-    p-queue "^6.6.2"
-    zod "^3.25.76 || ^4"
-
 "@langchain/langgraph-checkpoint@1.2.2", "@langchain/langgraph-checkpoint@^1.2.2":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@langchain/langgraph-checkpoint/-/langgraph-checkpoint-1.2.2.tgz#cbfdf0d461385769665e26f70e41f1291ed1d37e"
@@ -21810,13 +21797,6 @@ langfuse@^3.39.2:
   version "0.11.7"
   resolved "https://registry.yarnpkg.com/langsmith/-/langsmith-0.11.7.tgz#59a60af8411ca2014f08ed5806c74076135c9f0e"
   integrity sha512-ItiCV3YhUuWHWT92odob5PhEUMY+ixHa03Fixsgwk/EIPEiRgUIZRBQSB8LCm87ypuUhgIwgw01z1gxPX5qTWg==
-  dependencies:
-    p-queue "6.6.2"
-
-"langsmith@>=0.5.0 <1.0.0":
-  version "0.10.10"
-  resolved "https://registry.yarnpkg.com/langsmith/-/langsmith-0.10.10.tgz#cc12ce1aa24e30b20770181cfe98eec2d52683e0"
-  integrity sha512-I83MmN/tqU662yHfv7DCMlJh8eFuRdY2Ri9rlvM61DGEsVdnVkOa0eyv9DpsstBM5dS877o5GDn+qHwZWfSgRg==
   dependencies:
     p-queue "6.6.2"
 
