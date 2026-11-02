@@ -2845,6 +2845,44 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-creator-contest-503-20261031.png",
         "source": "Announcement — original Tari Creator Contest terms, point categories and November 12 deadline; recorded October 31, 2026."
       }
+    },
+    {
+      "id": "november-mvp",
+      "title": "November MVP build contest",
+      "summary": "Fox’s November 1 organizer thread asks builders to publish an MVP app, public code under an OSI-approved license, a short description, their Tari address and a public announcement on Bluesky, Reddit, Medium or YouTube. This round explicitly permits building on earlier contest projects, including other builders’ work, provided the submission adds innovation; that exception takes precedence over the older general reuse rule. Keep updates in one submission post. The linked general rules offer 1,000,000 / 500,000 / 250,000 XTM for the top three places and close monthly submissions on the first day of the following month at 00:00 UTC. Council and Tari Labs members are excluded. Terms and replies reviewed November 2, 2026.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/1",
+      "publishedAt": "2026-11-01T13:23:11.520Z",
+      "expiresAt": "2026-12-01T00:00:00Z",
+      "status": "November build opportunity; organizer rules and this round’s reuse exception apply",
+      "cardSummary": "Build a working app prototype, publish its source and submit it to the monthly community contest.",
+      "cardStatus": "MVP contest · Ends Dec 1, 00:00 UTC",
+      "creator": {
+        "name": "Fox"
+      },
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-november-mvp-20261102-9d3eff8113.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-november-mvp-20261102-fb66797d37.png",
+        "source": "Announcement — continuous walkthrough of Fox’s November MVP contest thread, including its prior-project reuse exception and submission requirements; recorded November 2, 2026. This is a source recording, not an application demo."
+      }
+    },
+    {
+      "id": "november-first-launch",
+      "title": "November First to Launch bonus",
+      "summary": "Fox’s November 1 organizer announcement offers an additional 100,000 XTM to each of the first twenty contest entrants to publish their contract on Ootle mainnet and reconfigure their app to use it. Entrants must provide transaction-timestamp evidence. The source says “by midnight November 11:11:11 November 21st UTC (one week after the launch)”; the mixed midnight/time wording is ambiguous. No exact deadline is inferred here. Read the original thread for organizer clarification before relying on eligibility. Terms reviewed November 2, 2026; this listing does not demonstrate a mainnet deployment.",
+      "sourceUrl": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/1",
+      "publishedAt": "2026-11-01T13:36:08.069Z",
+      "expiresAt": null,
+      "status": "Dated mainnet bonus announcement; exact deadline unclear in the original post; clarification review due November 3, 2026",
+      "cardSummary": "Earn an additional launch bonus by moving a contest app and its contract onto Ootle mainnet.",
+      "cardStatus": "100,000 XTM · First 20 · Mainnet · Deadline unclear",
+      "creator": {
+        "name": "Fox"
+      },
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-november-first-launch-20261102-8775272f27.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-november-first-launch-20261102-baa641d4dd.png",
+        "source": "Announcement — continuous walkthrough of Fox’s First to Launch bonus terms, including the first-twenty limit, mainnet evidence and ambiguous deadline wording; recorded November 2, 2026. No contract deployment or transaction was performed."
+      }
     }
   ]
 }
