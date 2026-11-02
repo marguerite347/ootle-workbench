@@ -18,10 +18,10 @@ Open `http://127.0.0.1:8080`. `vercel.json` supplies the same install/build/outp
 
 ## Real local compilation and tests
 
-Install a Rust toolchain compatible with edition 2024 and the WASM target. The checked-in Counter pins `tari_template_lib = 0.32.0`, `tari_template_test_tooling = 0.41.0` and its Cargo.lock. It is deliberately not silently upgraded to the latest moving SDK.
+Install a Rust toolchain compatible with edition 2024 and the WASM target. The checked-in Counter pins `tari_template_lib = 0.37.0`, `tari_template_test_tooling = 0.49.2` and its Cargo.lock. It is deliberately not silently upgraded to the latest moving SDK.
 
 ```sh
-rustup toolchain install 1.95.0 --profile minimal --target wasm32-unknown-unknown
+rustup toolchain install 1.99.1 --profile minimal --target wasm32-unknown-unknown
 node tools/tari-companion/server.mjs --allow-run
 ```
 
@@ -31,7 +31,7 @@ Use `http://localhost:8080` or `http://127.0.0.1:8080`. Other exact local HTTP o
 
 Click Compile or Run tests, then review the exact file list, each file's SHA-256, source digest, action and pinned toolchain displayed in the companion terminal. Type the fresh approval challenge there. Approval expires, applies to that snapshot/action only, and produces a new one-use token consumed by the run. There is no trust checkbox or headless production approval switch. Workspace edits require a new snapshot and local approval. The old v1 bearer protocol is deliberately unsupported.
 
-**Trusted local development only, not a sandbox.** Build scripts, procedural macros and tests run native code as your OS user, can read private files (including through `include_bytes!`) and use the network. Never approve unfamiliar source. Cargo/toolchain configuration overrides (`.cargo/`, `rust-toolchain*`) are rejected. The runner also refuses ancestor Cargo configuration, strips unrelated environment variables, pins Rust 1.95.0 and disables automatic toolchain installation. The installed compiler/Rustup remain trusted host software.
+**Trusted local development only, not a sandbox.** Build scripts, procedural macros and tests run native code as your OS user, can read private files (including through `include_bytes!`) and use the network. Never approve unfamiliar source. Cargo/toolchain configuration overrides (`.cargo/`, `rust-toolchain*`) are rejected. The runner also refuses ancestor Cargo configuration, strips unrelated environment variables, pins Rust 1.99.1 and disables automatic toolchain installation. The installed compiler/Rustup remain trusted host software.
 
 Each run receives its own source directory, `CARGO_HOME`, temporary HOME and target directory; all are removed after success, failure or cancellation. Warm dependency caches are deliberately not shared. This prevents accidental cache carryover; approved malicious native code still has the OS user's authority and could attack files outside these directories. Use cloud workers for untrusted code. Builds are serialized and limited to 20 minutes. AI has a separate one-request concurrency limit and three-minute timeout. Requests, approvals and results write a private 0600 audit.jsonl journal without source bodies, compiler logs or credentials. It rotates at 2 MiB and retains one previous journal (4 MiB total). The default data root is OS-temporary; choose a private absolute --data directory without ancestor Cargo configuration for durable retention.
 

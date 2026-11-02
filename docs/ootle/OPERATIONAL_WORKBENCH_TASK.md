@@ -7,7 +7,7 @@ This task does not silently expand into blockchain transactions, public publishi
 
 ## Resource selection receipt
 - Reuse the checked-out Remix fork, branch feat/connected-agents, existing plugin/filesystem and review UI, official MCP SDK 1.32.0, PostgreSQL service and ownership checks. Baseline connected-agent commit f785ecd. Preserve existing work and browser workspaces.
-- Reuse the pinned Counter with Cargo.lock and its real Linux CI tests (Rust 1.95.0, Tari library 0.32.0, tooling 0.41.0).
+- Reuse the pinned Counter with Cargo.lock and its real Linux CI tests (Rust 1.99.1, Tari library 0.37.0, tooling 0.49.2).
 - Execution gap: the loopback Cargo companion is trusted-local-only. It must never become a public runner. Select official @vercel/sandbox SDK, pinned 3.5.1, authenticated through the dedicated Vercel project's OIDC identity. It provides a separate microVM for each build and supports stopped-job retrieval and network policy. Verify with a real Counter trial before integrating it.
 - Auth remains GitHub basic identity only; no repository scopes. Supabase remains private service storage. Do not copy operator credentials into the frontend, user VM, logs, handoff, or Git.
 - Current Vercel Hobby Sandbox has included usage and pauses at its limit; do not change subscription or enable paid overages. Bound service use further with durable daily job quotas and concurrency limits.
