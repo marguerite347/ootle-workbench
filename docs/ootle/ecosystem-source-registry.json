@@ -2872,62 +2872,149 @@
       "title": "Ootle WASM Templates",
       "sources": [
         "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h",
-        "https://github.com/tari-project/wasm-template"
+        "https://github.com/tari-project/wasm-template",
+        "https://github.com/tari-project/wasm-template/releases",
+        "https://ootle.tari.com/guides/build-a-guessing-game/",
+        "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+        "https://github.com/tari-project/wasm-template/pull/72"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+      "lastSuccessfulReviewAt": "2026-11-02T22:06:47.224Z",
       "outcome": "reviewed",
       "reviewRequired": false,
-      "lastAttemptAt": "2026-10-31T14:00:56.589Z",
-      "nextReviewAt": "2026-11-01T09:00:00Z",
-      "changedFields": [],
+      "lastAttemptAt": "2026-11-02T22:06:47.224Z",
+      "nextReviewAt": "2026-11-03T10:00:00Z",
+      "changedFields": [
+        "sourceEvidence"
+      ],
       "sourceReviews": {
         "https://ootle.tari.com/guides/build-a-guessing-game/": {
           "url": "https://ootle.tari.com/guides/build-a-guessing-game/",
-          "hash": "aa92ed4047e4d4d55c6f8d7340b8acd67c7c157709ee4751026183378b55510a",
-          "evidence": "daily-2026-10-29/4b629bf5f3a9bef1.txt",
-          "lastAttemptAt": "2026-10-29T11:13:49.185Z",
-          "lastSuccessfulReadAt": "2026-10-29T11:13:49.185Z",
+          "hash": "1bfbd16c2b49c811217b9d6ab8b89b7f6fd0dc6bb9afc3ef08f9540bf93f7441",
+          "attemptedAt": "2026-11-02T22:04:59.846498+00:00",
+          "evidence": "work/daily-2026-10-31/aacce9e194b1ff7b-1bfbd16c2b49c811217b9d6ab8b89b7f6fd0dc6bb9afc3ef08f9540bf93f7441.txt",
+          "method": "Public source content reviewed; source curation, not runtime certification.",
+          "lastAttemptAt": "2026-11-02T22:04:59.846498+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:04:59.846498+00:00",
+          "status": "read",
           "error": null
         },
         "https://github.com/tari-project/wasm-template": {
           "url": "https://github.com/tari-project/wasm-template",
           "hash": "bc337cf273385ec5345f80a5873ef8b79afc2748f7bf28a81dcbe9e6946fe99d",
-          "revision": "c2dec08f9e5c225e251ca1604255c7042f392d9c",
-          "attemptedAt": "2026-10-31T09:03:14.937609+00:00",
-          "evidence": "work/daily-2026-10-31/9a82ee9b152a4e8f.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:14.937609+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:14.937609+00:00",
+          "revision": "856c7802cfe2e102fe24a4b248e2db0da2cc1db3",
+          "attemptedAt": "2026-11-02T20:56:16.174638+00:00",
+          "evidence": "work/daily-2026-10-31/9a82ee9b152a4e8f-bc337cf273385ec5345f80a5873ef8b79afc2748f7bf28a81dcbe9e6946fe99d.txt",
+          "method": "Public source content reviewed; source curation, not runtime certification.",
+          "lastAttemptAt": "2026-11-02T20:56:16.174638+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T20:56:16.174638+00:00",
           "status": "read",
           "error": null
         },
         "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h": {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h",
           "hash": "e8bd66b2397ee3dc4832a33bd68c37f604fa08a65af03aabc7666e02ede7e080",
-          "attemptedAt": "2026-10-31T12:52:43.875932+00:00",
-          "evidence": "work/daily-2026-10-31/cd9b3529c590903c-e8bd66b2397ee3dc.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T12:52:43.875932+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T12:52:43.875932+00:00",
+          "attemptedAt": "2026-11-02T22:00:35.174340+00:00",
+          "evidence": "work/daily-2026-10-31/bd9f45050b25cea3-e8bd66b2397ee3dc4832a33bd68c37f604fa08a65af03aabc7666e02ede7e080.txt",
+          "method": "Public source content reviewed; source curation, not runtime certification.",
+          "lastAttemptAt": "2026-11-02T22:00:35.174340+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:00:35.174340+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/wasm-template/releases": {
+          "url": "https://github.com/tari-project/wasm-template/releases",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-02T20:56:15.816895+00:00",
+          "evidence": "work/daily-2026-10-31/0d9a9949dd4e2e35-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "method": "Public source content reviewed; source curation, not runtime certification.",
+          "lastAttemptAt": "2026-11-02T20:56:15.816895+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T20:56:15.816895+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c": {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+          "hash": "af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6",
+          "attemptedAt": "2026-11-02T22:00:35.392517+00:00",
+          "evidence": "work/daily-2026-10-31/fa21cf34360a9ce8-af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6.txt",
+          "method": "Public source content reviewed; source curation, not runtime certification.",
+          "lastAttemptAt": "2026-11-02T22:00:35.392517+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T22:00:35.392517+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/wasm-template/pull/72": {
+          "url": "https://github.com/tari-project/wasm-template/pull/72",
+          "hash": "c9c62c1f9b4aad3569511bd581acfc04b80fd3c2c07f8565f3d575474b02c1fe",
+          "attemptedAt": "2026-11-02T21:45:05.759270+00:00",
+          "evidence": "work/daily-2026-10-31/e0849f27b2801e9d-c9c62c1f9b4aad3569511bd581acfc04b80fd3c2c07f8565f3d575474b02c1fe.txt",
+          "method": "Public source content reviewed; source curation, not runtime certification.",
+          "lastAttemptAt": "2026-11-02T21:45:05.759270+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T21:45:05.759270+00:00",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "changedSources": [],
+      "observedAvailability": "Official repository and guide reachable. PR72 merged November 2 updates template library 0.37, test tooling 0.49 and proof authorization. Two retained Bluesky posts each have zero replies. No template execution claimed.",
+      "changedSources": [
+        "https://github.com/tari-project/wasm-template/releases",
+        "https://ootle.tari.com/guides/build-a-guessing-game/",
+        "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+        "https://github.com/tari-project/wasm-template/pull/72"
+      ],
       "reviewQueue": [],
       "checkedScope": [
         "https://ootle.tari.com/guides/build-a-guessing-game/",
         "https://github.com/tari-project/wasm-template",
         "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+      "sourceObservation": "Official repository and guide reachable. PR72 merged November 2 updates template library 0.37, test tooling 0.49 and proof authorization. Two retained Bluesky posts each have zero replies. No template execution claimed.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
-      "copyUpdated": false,
+      "copyUpdated": true,
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
-      "blockedSources": []
+      "blockedSources": [],
+      "reviewHistory": [
+        {
+          "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+          "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+          "sourceReviews": {
+            "https://ootle.tari.com/guides/build-a-guessing-game/": {
+              "url": "https://ootle.tari.com/guides/build-a-guessing-game/",
+              "hash": "aa92ed4047e4d4d55c6f8d7340b8acd67c7c157709ee4751026183378b55510a",
+              "evidence": "daily-2026-10-29/4b629bf5f3a9bef1.txt",
+              "lastAttemptAt": "2026-10-29T11:13:49.185Z",
+              "lastSuccessfulReadAt": "2026-10-29T11:13:49.185Z",
+              "error": null
+            },
+            "https://github.com/tari-project/wasm-template": {
+              "url": "https://github.com/tari-project/wasm-template",
+              "hash": "bc337cf273385ec5345f80a5873ef8b79afc2748f7bf28a81dcbe9e6946fe99d",
+              "revision": "c2dec08f9e5c225e251ca1604255c7042f392d9c",
+              "attemptedAt": "2026-10-31T09:03:14.937609+00:00",
+              "evidence": "work/daily-2026-10-31/9a82ee9b152a4e8f.txt",
+              "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
+              "lastAttemptAt": "2026-10-31T09:03:14.937609+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T09:03:14.937609+00:00",
+              "status": "read",
+              "error": null
+            },
+            "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h": {
+              "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h",
+              "hash": "e8bd66b2397ee3dc4832a33bd68c37f604fa08a65af03aabc7666e02ede7e080",
+              "attemptedAt": "2026-10-31T12:52:43.875932+00:00",
+              "evidence": "work/daily-2026-10-31/cd9b3529c590903c-e8bd66b2397ee3dc.txt",
+              "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
+              "lastAttemptAt": "2026-10-31T12:52:43.875932+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T12:52:43.875932+00:00",
+              "status": "read",
+              "error": null
+            }
+          }
+        }
+      ],
+      "publicationStatus": "pending"
     },
     "project:official-universe": {
       "id": "project:official-universe",
@@ -4225,13 +4312,15 @@
       "sources": [
         "https://github.com/chironbuilds/ootle-explorer",
         "https://explorer.tari.mw/",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8"
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+        "https://github.com/chironbuilds/ootle-explorer/releases",
+        "https://x.com/Erebus_Lab/status/2108603678550901041"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+      "lastSuccessfulReviewAt": "2026-11-02T22:06:47.224Z",
       "outcome": "reviewed",
       "reviewRequired": false,
-      "lastAttemptAt": "2026-10-31T14:00:56.589Z",
-      "nextReviewAt": "2026-11-01T09:00:00Z",
+      "lastAttemptAt": "2026-11-02T22:06:47.224Z",
+      "nextReviewAt": "2026-11-03T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
       ],
@@ -4247,12 +4336,12 @@
         "https://github.com/chironbuilds/ootle-explorer": {
           "url": "https://github.com/chironbuilds/ootle-explorer",
           "hash": "0448fb552d5207eaa46aadcdf689be99284c683a961deec15d241eb8c7033a9e",
-          "revision": "dd0b016ef93023eb04c884d041390b58e4c8e6da",
-          "attemptedAt": "2026-10-31T09:03:04.048543+00:00",
-          "evidence": "work/daily-2026-10-31/aaae993e62c9472b.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:04.048543+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:04.048543+00:00",
+          "revision": "94c7cd51c971cfcf38d5c0635a7c37bbdc4d3f23",
+          "attemptedAt": "2026-11-02T20:55:53.874386+00:00",
+          "evidence": "work/daily-2026-10-31/aaae993e62c9472b-0448fb552d5207eaa46aadcdf689be99284c683a961deec15d241eb8c7033a9e.txt",
+          "method": "Public source content reviewed; source curation, not runtime certification.",
+          "lastAttemptAt": "2026-11-02T20:55:53.874386+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T20:55:53.874386+00:00",
           "status": "read",
           "error": null
         },
@@ -4269,31 +4358,56 @@
         },
         "https://explorer.tari.mw/": {
           "url": "https://explorer.tari.mw/",
-          "hash": "7ab8b5bb5bdbd7505ea8da616adc4f77309ee91af6fec67808e8b665a164f55c",
-          "attemptedAt": "2026-10-31T09:25:03.347682+00:00",
-          "evidence": "work/daily-2026-10-31/219a6ae795729597.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:25:03.347682+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:25:03.347682+00:00",
+          "hash": "f2a833014fe9b6be2ca39e5b3768d69eab98475e228b4c29003223e2137f0a0b",
+          "attemptedAt": "2026-11-02T22:06:47.224Z",
+          "evidence": "work/daily-2026-10-31/veil-live-nov2.txt",
+          "method": "Independent CUA read of the public page and visible thread text.",
+          "lastAttemptAt": "2026-11-02T22:06:47.224Z",
+          "lastSuccessfulReadAt": "2026-11-02T22:06:47.224Z",
           "status": "read",
           "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
-          "hash": "f70467ab3aa83451c42272872ded777014458486ee272435b46c0fbe23e7161f",
-          "attemptedAt": "2026-10-31T09:02:54.133392+00:00",
-          "evidence": "work/daily-2026-10-31/839dbc5a59cc28fd.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:02:54.133392+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:02:54.133392+00:00",
+          "hash": "ac1865dcb408dc6d094ed35de352c8210027629f302cf0d428dfb1bf4e239f2d",
+          "attemptedAt": "2026-11-02T21:56:52.685463+00:00",
+          "evidence": "work/daily-2026-10-31/839dbc5a59cc28fd-ac1865dcb408dc6d094ed35de352c8210027629f302cf0d428dfb1bf4e239f2d.txt",
+          "method": "Public source content reviewed; source curation, not runtime certification.",
+          "lastAttemptAt": "2026-11-02T21:56:52.685463+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T21:56:52.685463+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/chironbuilds/ootle-explorer/releases": {
+          "url": "https://github.com/chironbuilds/ootle-explorer/releases",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-02T20:55:53.565668+00:00",
+          "evidence": "work/daily-2026-10-31/57c24611b71049aa-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "method": "Public source content reviewed; source curation, not runtime certification.",
+          "lastAttemptAt": "2026-11-02T20:55:53.565668+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T20:55:53.565668+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/Erebus_Lab/status/2108603678550901041": {
+          "url": "https://x.com/Erebus_Lab/status/2108603678550901041",
+          "hash": "e274dc7af7314b7275811d16b9e5ad38b4366170775980f7f91e3e7c45367434",
+          "attemptedAt": "2026-11-02T22:06:47.224Z",
+          "evidence": "work/daily-2026-10-31/veil-creator-x-thread-nov2.txt",
+          "method": "Independent CUA read of the public page and visible thread text.",
+          "lastAttemptAt": "2026-11-02T22:06:47.224Z",
+          "lastSuccessfulReadAt": "2026-11-02T22:06:47.224Z",
           "status": "read",
           "error": null
         }
       },
       "priorReviewBasis": "Retained catalog lastCheckedAt from earlier source review; this follow-up does not imply all sources were reread",
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "observedAvailability": "Public explorer reachable on November 2 with current overview and transaction rows. Creator post links explorer.tari.mw. Repository updated to Ootle 0.49. Source proof-verification claims not independently certified.",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8"
+        "https://github.com/chironbuilds/ootle-explorer/releases",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+        "https://explorer.tari.mw/",
+        "https://x.com/Erebus_Lab/status/2108603678550901041"
       ],
       "reviewQueue": [],
       "checkedScope": [
@@ -4302,8 +4416,8 @@
         "https://explorer.tari.mw/",
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8"
       ],
-      "sourceObservation": "October 29 original posts and accessible replies, source repository and linked public destinations reviewed. Listing describes observed public availability; no wallet, financial or runtime certification implied.",
-      "copyUpdated": false,
+      "sourceObservation": "Public explorer reachable on November 2 with current overview and transaction rows. Creator post links explorer.tari.mw. Repository updated to Ootle 0.49. Source proof-verification claims not independently certified.",
+      "copyUpdated": true,
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
@@ -4314,7 +4428,69 @@
           "evidence": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8"
         }
       },
-      "blockedSources": []
+      "blockedSources": [],
+      "reviewHistory": [
+        {
+          "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+          "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+          "sourceReviews": {
+            "https://ootle-explorer.vercel.app/": {
+              "url": "https://ootle-explorer.vercel.app/",
+              "hash": "67fe7b40c9c2760be3a6ca6e4528e28a26d158406a32be9bd4b757ba530eba56",
+              "httpStatus": 402,
+              "lastAttemptAt": "2026-10-10T14:04:36.490552+00:00",
+              "lastSuccessfulReadAt": "2026-10-10T14:04:36.490552+00:00",
+              "error": null
+            },
+            "https://github.com/chironbuilds/ootle-explorer": {
+              "url": "https://github.com/chironbuilds/ootle-explorer",
+              "hash": "0448fb552d5207eaa46aadcdf689be99284c683a961deec15d241eb8c7033a9e",
+              "revision": "dd0b016ef93023eb04c884d041390b58e4c8e6da",
+              "attemptedAt": "2026-10-31T09:03:04.048543+00:00",
+              "evidence": "work/daily-2026-10-31/aaae993e62c9472b.txt",
+              "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
+              "lastAttemptAt": "2026-10-31T09:03:04.048543+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T09:03:04.048543+00:00",
+              "status": "read",
+              "error": null
+            },
+            "https://ootle-explorer.vercel.app": {
+              "url": "https://ootle-explorer.vercel.app",
+              "hash": "c473eea4d4d01209b07f97e407ae03424ca09b261bc5c4b66f102fe1cba0ea3a",
+              "evidence": "work/completion-2026-10-29/24bc1bee6db816e4.txt",
+              "lastAttemptAt": "2026-10-29T20:07:27.004872+00:00",
+              "lastSuccessfulReadAt": "2026-10-12T10:26:16.089Z",
+              "error": "HTTP Error 402: Payment Required",
+              "status": "blocked",
+              "failureKind": "http",
+              "nextAction": "Retry public source next run; retain last successful evidence"
+            },
+            "https://explorer.tari.mw/": {
+              "url": "https://explorer.tari.mw/",
+              "hash": "7ab8b5bb5bdbd7505ea8da616adc4f77309ee91af6fec67808e8b665a164f55c",
+              "attemptedAt": "2026-10-31T09:25:03.347682+00:00",
+              "evidence": "work/daily-2026-10-31/219a6ae795729597.txt",
+              "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
+              "lastAttemptAt": "2026-10-31T09:25:03.347682+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T09:25:03.347682+00:00",
+              "status": "read",
+              "error": null
+            },
+            "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8": {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+              "hash": "f70467ab3aa83451c42272872ded777014458486ee272435b46c0fbe23e7161f",
+              "attemptedAt": "2026-10-31T09:02:54.133392+00:00",
+              "evidence": "work/daily-2026-10-31/839dbc5a59cc28fd.txt",
+              "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
+              "lastAttemptAt": "2026-10-31T09:02:54.133392+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T09:02:54.133392+00:00",
+              "status": "read",
+              "error": null
+            }
+          }
+        }
+      ],
+      "publicationStatus": "pending"
     },
     "tari:component:tari-l1-wasm": {
       "id": "tari:component:tari-l1-wasm",

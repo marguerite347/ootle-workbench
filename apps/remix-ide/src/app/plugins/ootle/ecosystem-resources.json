@@ -413,6 +413,58 @@
       "cardStatus": "Testnet · Irreversible deposits"
     },
     {
+      "id": "tari-ootle:component:official-templates",
+      "key": "official-templates",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Ootle WASM Templates",
+      "summary": "Official Rust/WASM starting points for games, tokens, NFTs, swaps and counters. The November 2, 2026 update uses tari_template_lib 0.37, test tooling 0.49 and template build 0.17.1. The guessing-game CLI uses ootle-rs 0.31. Stablecoin tests now authorize a proof explicitly before withdrawal. The recording shows the merged dependency-update discussion, not template execution. Earlier guide footage and sharing posts remain in the maintenance history.",
+      "status": "Official source templates",
+      "sourceUrl": "https://github.com/tari-project/wasm-template",
+      "repoUrl": "https://github.com/tari-project/wasm-template",
+      "docsUrl": "https://ootle.tari.com/guides/build-a-guessing-game/",
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": null,
+      "network": "Ootle L2 · 0.49 test tooling",
+      "platform": "Rust / WASM",
+      "upstreamRevision": "856c7802cfe2e102fe24a4b248e2db0da2cc1db3",
+      "sourceUpdatedAt": "2026-11-02T12:13:05Z",
+      "lastCheckedAt": "2026-11-02T22:04:07.883545+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "templates",
+        "official"
+      ],
+      "demoUrl": null,
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-templates-20261102-24c0cbfba0.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-templates-20261102-24c0cbfba0.jpg",
+        "source": "Announcement walkthrough — November 2 merged template dependency and proof-authorization update; no template execution."
+      },
+      "discussionLinks": [
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h",
+          "platform": "Bluesky"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+          "platform": "Bluesky"
+        },
+        {
+          "url": "https://github.com/tari-project/wasm-template/pull/72",
+          "platform": "GitHub"
+        }
+      ],
+      "cardSummary": "Start Ootle apps with official Rust templates for games, tokens, NFTs, swaps and counters.",
+      "cardStatus": "Source code · Ootle 0.49"
+    },
+    {
       "id": "tari-ootle:integration:community-templates",
       "key": "community-templates",
       "type": "integration",
@@ -466,7 +518,7 @@
       "ecosystem": "tari-ootle",
       "group": "Inspect",
       "title": "Veil Ootle Explorer",
-      "summary": "Browse Ootle Esmeralda transactions, templates and substates. On October 13, 2026, explorer.tari.mw rendered current network data and transaction rows in the public browser. The former ootle-explorer.vercel.app address still returned HTTP 402. This is a public interface observation, not independent verification of indexer data.",
+      "summary": "Browse Ootle Esmeralda transactions, templates and substates. On November 2, 2026, the public explorer displayed current network data and Commit, Abort and Rejected transaction rows. Its November 2 source update adds Ootle 0.49 CBOR decoding and receipt handling; proof-verification behavior is a creator source claim, not an independent cryptographic audit. The recording shows the live overview and transaction list without submitting a transaction. On October 13, 2026, the former ootle-explorer.vercel.app address returned HTTP 402; that historical failure is retained and was not rechecked today.",
       "status": "Public testnet explorer",
       "sourceUrl": "https://github.com/chironbuilds/ootle-explorer",
       "repoUrl": "https://github.com/chironbuilds/ootle-explorer",
@@ -478,9 +530,9 @@
       "license": null,
       "network": "Ootle L2",
       "platform": "Web",
-      "upstreamRevision": "c1dabcf43da468c1490c80db3bd55cb38fc821a6",
-      "sourceUpdatedAt": "2026-10-10T04:57:46Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "upstreamRevision": "94c7cd51c971cfcf38d5c0635a7c37bbdc4d3f23",
+      "sourceUpdatedAt": "2026-11-02T17:04:53Z",
+      "lastCheckedAt": "2026-11-02T22:04:07.883545+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -490,14 +542,22 @@
       ],
       "demoUrl": "https://explorer.tari.mw/",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261013.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261013.jpg",
-        "source": "App demo — Public read-only interface scrolling; no wallet or transaction flow demonstrated."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261102-85379551cf.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261102-85379551cf.png",
+        "source": "App demo — November 2 public overview and transaction-list scrolling; no wallet or transaction submission."
       },
       "discussionLinks": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
           "platform": "Tari Community forum"
+        },
+        {
+          "url": "https://x.com/Erebus_Lab/status/2108603678550901041",
+          "platform": "X"
+        },
+        {
+          "url": "https://github.com/chironbuilds/ootle-explorer/commit/94c7cd51c971cfcf38d5c0635a7c37bbdc4d3f23",
+          "platform": "GitHub commit"
         }
       ],
       "cardSummary": "Browse Ootle testnet transactions, templates and substates through a public network explorer.",
