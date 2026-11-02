@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-31T12:44:57.707Z",
+  "checkedAt": "2026-11-02T16:28:10.604Z",
   "overlapDays": 7,
   "policy": "Retain last-good reads on failure; never advance a complete watermark from partial scans. Raw snapshots stay outside public source. Reuse monitor-contest.mjs and sourceMonitoring.mjs before adding adapters.",
   "sources": [
@@ -8,20 +8,21 @@
       "id": "396",
       "url": "https://community.tari.com/t/396.json",
       "status": "complete",
-      "posts": 31,
-      "hash": "98c4a1af89e5475adf3233fe755bd34a3ea0e024f660424fd945b5e6267996ff",
-      "lastAttemptAt": "2026-10-29T09:06:23.578488+00:00",
-      "lastSuccessfulReadAt": "2026-10-29T09:06:23.578488+00:00",
-      "completedWatermark": "2026-10-29T09:06:23.578488+00:00",
+      "posts": 40,
+      "hash": "37fc44c1692f4b55393d77bd6045e1791f279959477ae1d13d8b2339aba7ea97",
+      "lastAttemptAt": "2026-11-02T13:33:28.621301+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T13:33:28.621301+00:00",
+      "completedWatermark": "2026-11-02T13:33:28.621301+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "All returned topic posts retrieved with stream pagination; full current posts or unchanged prior text plus October 17 onward edits/replies reviewed. Scope is this topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+      "coverageNote": "Complete applies only to this named topic and all accessible post-stream IDs; linked-resource review and whole-channel discovery are separate.",
+      "note": "Full paginated stream retained; new posts and edited content reviewed against earlier observations. All returned post IDs present. Linked followups are explicitly pending in nov2-discovery-followups.json.",
+      "reviewedAt": "2026-11-02T13:49:47.458066+00:00",
       "evidence": [
-        "work/daily-2026-10-29/839dbc5a59cc28fd.txt",
-        "work/completion-2026-10-29/forum-editorial.json"
+        "work/daily-2026-10-31/839dbc5a59cc28fd-37fc44c1692f4b55393d77bd6045e1791f279959477ae1d13d8b2339aba7ea97.txt",
+        "work/daily-2026-10-31/forum-catchup-nov2.json",
+        "work/daily-2026-10-31/nov2-discovery-followups.json"
       ],
-      "observedEntryPosts": 22,
+      "observedEntryPosts": 29,
       "entryPostNumbers": [
         5,
         6,
@@ -42,27 +43,100 @@
         25,
         29,
         30,
-        31,
         32,
-        33
-      ]
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "history": [
+        {
+          "id": "396",
+          "url": "https://community.tari.com/t/396.json",
+          "status": "complete",
+          "posts": 31,
+          "hash": "98c4a1af89e5475adf3233fe755bd34a3ea0e024f660424fd945b5e6267996ff",
+          "lastAttemptAt": "2026-10-29T09:06:23.578488+00:00",
+          "lastSuccessfulReadAt": "2026-10-29T09:06:23.578488+00:00",
+          "completedWatermark": "2026-10-29T09:06:23.578488+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "All returned topic posts retrieved with stream pagination; full current posts or unchanged prior text plus October 17 onward edits/replies reviewed. Scope is this topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/839dbc5a59cc28fd.txt",
+            "work/completion-2026-10-29/forum-editorial.json"
+          ],
+          "observedEntryPosts": 22,
+          "entryPostNumbers": [
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            24,
+            25,
+            29,
+            30,
+            31,
+            32,
+            33
+          ]
+        }
+      ],
+      "countEvidence": "work/daily-2026-10-31/october-count-nov2.json"
     },
     {
       "id": "397",
       "url": "https://community.tari.com/t/397.json",
       "status": "complete",
-      "posts": 7,
-      "hash": "b944e052f70ae87c9129e659546ccca2210719430c412e2007beb60ed58486ad",
-      "lastAttemptAt": "2026-10-29T09:06:22.941215+00:00",
-      "lastSuccessfulReadAt": "2026-10-29T09:06:22.941215+00:00",
-      "completedWatermark": "2026-10-29T09:06:22.941215+00:00",
+      "posts": 9,
+      "hash": "ad518c373fb7389e608cf179f89b0eccba986d53ebd21e905e45445e41cd5f30",
+      "lastAttemptAt": "2026-11-02T13:55:17.270329+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T13:55:17.270329+00:00",
+      "completedWatermark": "2026-11-02T13:55:17.270329+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+      "coverageNote": "Named full accessible topic only; linked resources tracked separately.",
       "note": "All returned topic posts retrieved with stream pagination; full current posts or unchanged prior text plus October 17 onward edits/replies reviewed. Scope is this topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+      "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
       "evidence": [
-        "work/daily-2026-10-29/3334f9758e20d1f1.txt",
-        "work/completion-2026-10-29/forum-editorial.json"
+        "work/daily-2026-10-31/3334f9758e20d1f1-ad518c373fb7389e608cf179f89b0eccba986d53ebd21e905e45445e41cd5f30.txt",
+        "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
+      ],
+      "history": [
+        {
+          "id": "397",
+          "url": "https://community.tari.com/t/397.json",
+          "status": "complete",
+          "posts": 7,
+          "hash": "b944e052f70ae87c9129e659546ccca2210719430c412e2007beb60ed58486ad",
+          "lastAttemptAt": "2026-10-29T09:06:22.941215+00:00",
+          "lastSuccessfulReadAt": "2026-10-29T09:06:22.941215+00:00",
+          "completedWatermark": "2026-10-29T09:06:22.941215+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "All returned topic posts retrieved with stream pagination; full current posts or unchanged prior text plus October 17 onward edits/replies reviewed. Scope is this topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/3334f9758e20d1f1.txt",
+            "work/completion-2026-10-29/forum-editorial.json"
+          ]
+        }
       ]
     },
     {
@@ -250,38 +324,85 @@
       "url": "https://community.tari.com/t/323.json",
       "status": "complete",
       "posts": 11,
-      "hash": "9214a66d295867c6f4d496665a0e84b9b53a3d3144d4d3b408e2976242624a72",
-      "lastAttemptAt": "2026-10-29T09:06:21.197209+00:00",
-      "lastSuccessfulReadAt": "2026-10-29T09:06:21.197209+00:00",
-      "completedWatermark": "2026-10-29T09:06:21.197209+00:00",
+      "hash": "9ed58928f5b5489bf2a220801ecc794ff69a8b82d827293c068b28e00fb2e30f",
+      "lastAttemptAt": "2026-11-02T14:12:03.568310+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T14:12:03.568310+00:00",
+      "completedWatermark": "2026-11-02T14:12:03.568310+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+      "coverageNote": "Full accessible general contest rules and all 11 returned posts read. November-specific exception is captured separately.",
       "note": "All returned topic posts retrieved with stream pagination; full current posts or unchanged prior text plus October 17 onward edits/replies reviewed. Scope is this topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+      "reviewedAt": "2026-11-02T14:18:49.459419+00:00",
       "evidence": [
-        "work/daily-2026-10-29/780527328929d5dc.txt",
-        "work/completion-2026-10-29/forum-editorial.json"
+        "work/daily-2026-10-31/780527328929d5dc-9ed58928f5b5489bf2a220801ecc794ff69a8b82d827293c068b28e00fb2e30f.txt"
+      ],
+      "history": [
+        {
+          "id": "323",
+          "url": "https://community.tari.com/t/323.json",
+          "status": "complete",
+          "posts": 11,
+          "hash": "9214a66d295867c6f4d496665a0e84b9b53a3d3144d4d3b408e2976242624a72",
+          "lastAttemptAt": "2026-10-29T09:06:21.197209+00:00",
+          "lastSuccessfulReadAt": "2026-10-29T09:06:21.197209+00:00",
+          "completedWatermark": "2026-10-29T09:06:21.197209+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "All returned topic posts retrieved with stream pagination; full current posts or unchanged prior text plus October 17 onward edits/replies reviewed. Scope is this topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/780527328929d5dc.txt",
+            "work/completion-2026-10-29/forum-editorial.json"
+          ]
+        }
       ]
     },
     {
       "id": "reddit",
       "url": "https://www.reddit.com/r/tari/new.json?limit=100",
-      "status": "complete",
-      "lastAttemptAt": "2026-10-29T10:55:00Z",
+      "status": "partial",
+      "lastAttemptAt": "2026-11-02T15:49:28.185621+00:00",
       "lastSuccessfulReadAt": "2026-10-29T10:55:00Z",
       "completedWatermark": "2026-10-29T10:55:00Z",
-      "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Browser feed read through September; all visible October 17 onward posts/comments and retained original project threads reviewed. Removed post bodies are explicit per-resource exceptions, not fresh content.",
+      "lookbackStart": "2026-10-17T00:00:00Z",
+      "coverageNote": "28 feed posts enumerated through September 28; 15 posts in overlap and accessible replies read. Full-stream success date preserved because two replies are not exposed.",
+      "note": "Public JSON retry returned HTTP 403. Browser fallback recovered posts and accessible replies.",
       "evidence": [
-        "work/daily-2026-10-29/reddit-feed-dom.txt",
-        "work/completion-2026-10-29/browser-reads.json"
+        "work/daily-2026-10-31/reddit-coverage-nov2.json",
+        "work/daily-2026-10-31/reddit-api-retry-nov2.json",
+        "work/daily-2026-10-31/reddit-thread-1x8m0xh-new-sort-loaded-nov2.txt",
+        "work/daily-2026-10-31/reddit-thread-1xe88wu-new-sort-loaded-nov2.txt",
+        "work/daily-2026-10-31/reddit-hardware-image-nov2.png"
       ],
       "transportAttempt": {
         "url": "https://www.reddit.com/r/tari/new.json?limit=100",
         "result": "HTTP 403"
       },
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00"
+      "reviewedAt": "2026-11-02T15:49:28.185621+00:00",
+      "history": [
+        {
+          "id": "reddit",
+          "url": "https://www.reddit.com/r/tari/new.json?limit=100",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-29T10:55:00Z",
+          "lastSuccessfulReadAt": "2026-10-29T10:55:00Z",
+          "completedWatermark": "2026-10-29T10:55:00Z",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Browser feed read through September; all visible October 17 onward posts/comments and retained original project threads reviewed. Removed post bodies are explicit per-resource exceptions, not fresh content.",
+          "evidence": [
+            "work/daily-2026-10-29/reddit-feed-dom.txt",
+            "work/completion-2026-10-29/browser-reads.json"
+          ],
+          "transportAttempt": {
+            "url": "https://www.reddit.com/r/tari/new.json?limit=100",
+            "result": "HTTP 403"
+          },
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00"
+        }
+      ],
+      "missingScope": "1xe88wu: 4 reported / 3 read; 1x8m0xh: 3 reported / 2 read. Best and New sorts exhausted.",
+      "nextAction": "Retry two threads and API; do not advance successful checkpoint until reply scope is reconciled.",
+      "retryAt": "2026-11-03T10:00:00Z"
     },
     {
       "id": "bluesky",
@@ -398,38 +519,76 @@
     {
       "id": "reddit-browser",
       "url": "https://www.reddit.com/r/tari/new/",
-      "status": "complete",
-      "note": "Browser feed read through September; all visible October 17 onward posts/comments and retained original project threads reviewed. Removed post bodies are explicit per-resource exceptions, not fresh content.",
-      "lastAttemptAt": "2026-10-24T15:10:35.583Z",
+      "status": "partial",
+      "note": "Public JSON retry returned HTTP 403. Browser fallback recovered posts and accessible replies.",
+      "lastAttemptAt": "2026-11-02T15:49:28.185621+00:00",
       "lastSuccessfulReadAt": "2026-10-24T15:10:35.583Z",
       "completedWatermark": "2026-10-24T15:10:35.583Z",
-      "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+      "lookbackStart": "2026-10-17T00:00:00Z",
+      "coverageNote": "28 feed posts enumerated through September 28; 15 posts in overlap and accessible replies read. Full-stream success date preserved because two replies are not exposed.",
       "hash": "f9f88eda5eeab2184ed47c6394737db7c33a08d14ee06504ee75846f83ee2eed",
       "transportAttempt": {
         "url": "https://www.reddit.com/r/tari/new.json?limit=100",
         "result": "HTTP 403"
       },
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+      "reviewedAt": "2026-11-02T15:49:28.185621+00:00",
       "evidence": [
-        "work/daily-2026-10-29/reddit-feed-dom.txt",
-        "work/completion-2026-10-29/browser-reads.json"
-      ]
+        "work/daily-2026-10-31/reddit-coverage-nov2.json",
+        "work/daily-2026-10-31/reddit-api-retry-nov2.json",
+        "work/daily-2026-10-31/reddit-thread-1x8m0xh-new-sort-loaded-nov2.txt",
+        "work/daily-2026-10-31/reddit-thread-1xe88wu-new-sort-loaded-nov2.txt",
+        "work/daily-2026-10-31/reddit-hardware-image-nov2.png"
+      ],
+      "history": [
+        {
+          "id": "reddit-browser",
+          "url": "https://www.reddit.com/r/tari/new/",
+          "status": "complete",
+          "note": "Browser feed read through September; all visible October 17 onward posts/comments and retained original project threads reviewed. Removed post bodies are explicit per-resource exceptions, not fresh content.",
+          "lastAttemptAt": "2026-10-24T15:10:35.583Z",
+          "lastSuccessfulReadAt": "2026-10-24T15:10:35.583Z",
+          "completedWatermark": "2026-10-24T15:10:35.583Z",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "hash": "f9f88eda5eeab2184ed47c6394737db7c33a08d14ee06504ee75846f83ee2eed",
+          "transportAttempt": {
+            "url": "https://www.reddit.com/r/tari/new.json?limit=100",
+            "result": "HTTP 403"
+          },
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/reddit-feed-dom.txt",
+            "work/completion-2026-10-29/browser-reads.json"
+          ]
+        }
+      ],
+      "missingScope": "1xe88wu: 4 reported / 3 read; 1x8m0xh: 3 reported / 2 read. Best and New sorts exhausted.",
+      "nextAction": "Retry two threads and API; do not advance successful checkpoint until reply scope is reconciled.",
+      "retryAt": "2026-11-03T10:00:00Z"
     },
     {
       "id": "discord",
       "url": "https://discord.com/invite/dj34vQSe6d",
-      "status": "blocked",
-      "note": "Direct previously linked channel message opens Discord login; no authorized channel stream available in this browser.",
-      "lastAttemptAt": "2026-10-29T20:43:07.139836+00:00",
+      "status": "partial",
+      "note": "Authorized browser access restored. Development message text paginated across October 3 to November 2 with overlaps; attachment inspection and other authorized public channels remain pending. Individual original book-to-skill and v0.49.2 messages read and saved.",
+      "lastAttemptAt": "2026-11-02T16:26:04.806659+00:00",
       "lastSuccessfulReadAt": null,
       "completedWatermark": null,
       "lookbackStart": "2026-10-03",
       "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "failureKind": "authentication",
-      "nextAction": "Resume through existing authorized signed-in Discord client when available; do not grant access or publish private links.",
+      "nextAction": "Finish development attachments, then paginate public announcements, release notes, social feed, general and relevant builder channels from October 3.",
       "evidence": [
-        "work/completion-2026-10-29/discord-access.txt"
+        "work/completion-2026-10-29/discord-access.txt",
+        "work/daily-2026-10-31/discord-development-coverage-nov2.json"
+      ],
+      "history": [
+        {
+          "status": "blocked",
+          "note": "Direct previously linked channel message opens Discord login; no authorized channel stream available in this browser.",
+          "lastAttemptAt": "2026-10-29T20:43:07.139836+00:00",
+          "failureKind": "authentication",
+          "nextAction": "Resume through existing authorized signed-in Discord client when available; do not grant access or publish private links."
+        }
       ]
     },
     {
@@ -867,18 +1026,38 @@
       "id": "485",
       "url": "https://community.tari.com/t/485.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-29T09:06:24.753763+00:00",
-      "hash": "2b88d9e9fa92243d7fb780799f16924998c89b28923aa117f5fc7f7aa68da494",
-      "posts": 1,
-      "lastSuccessfulReadAt": "2026-10-29T09:06:24.753763+00:00",
+      "lastAttemptAt": "2026-11-02T13:55:18.374301+00:00",
+      "hash": "2cf6c91bb37e34e18ac66b3ca23642f890be6740790181a77aeab8c7cf7170de",
+      "posts": 5,
+      "lastSuccessfulReadAt": "2026-11-02T13:55:18.374301+00:00",
       "note": "All returned topic posts retrieved with stream pagination; full current posts or unchanged prior text plus October 17 onward edits/replies reviewed. Scope is this topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:24.753763+00:00",
+      "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
+      "completedWatermark": "2026-11-02T13:55:18.374301+00:00",
       "evidence": [
-        "work/daily-2026-10-29/0b2b86b2f48e5b6d.txt",
-        "work/completion-2026-10-29/forum-editorial.json"
+        "work/daily-2026-10-31/0b2b86b2f48e5b6d-2cf6c91bb37e34e18ac66b3ca23642f890be6740790181a77aeab8c7cf7170de.txt",
+        "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
       ],
-      "lookbackStart": "2026-10-17"
+      "lookbackStart": "2026-10-17",
+      "history": [
+        {
+          "id": "485",
+          "url": "https://community.tari.com/t/485.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-29T09:06:24.753763+00:00",
+          "hash": "2b88d9e9fa92243d7fb780799f16924998c89b28923aa117f5fc7f7aa68da494",
+          "posts": 1,
+          "lastSuccessfulReadAt": "2026-10-29T09:06:24.753763+00:00",
+          "note": "All returned topic posts retrieved with stream pagination; full current posts or unchanged prior text plus October 17 onward edits/replies reviewed. Scope is this topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:24.753763+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/0b2b86b2f48e5b6d.txt",
+            "work/completion-2026-10-29/forum-editorial.json"
+          ],
+          "lookbackStart": "2026-10-17"
+        }
+      ],
+      "coverageNote": "Named full accessible topic only; linked resources tracked separately."
     },
     {
       "id": "486",
@@ -927,6 +1106,350 @@
         "work/completion-2026-10-29/forum-editorial.json"
       ],
       "lookbackStart": "2026-10-17"
+    },
+    {
+      "id": "503",
+      "url": "https://community.tari.com/t/503.json",
+      "history": [
+        {
+          "id": "503",
+          "url": "https://community.tari.com/t/503.json"
+        }
+      ],
+      "status": "complete",
+      "posts": 15,
+      "hash": "b35a70eadfd67357e61c4ee539014ed55a480cd49ea502c0c52a9a98e77c9974",
+      "lastAttemptAt": "2026-11-02T13:33:29.380651+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T13:33:29.380651+00:00",
+      "completedWatermark": "2026-11-02T13:33:29.380651+00:00",
+      "reviewedAt": "2026-11-02T13:49:47.458066+00:00",
+      "coverageNote": "Complete applies only to this named topic and all accessible post-stream IDs; linked-resource review and whole-channel discovery are separate.",
+      "note": "Full paginated stream retained; new posts and edited content reviewed against earlier observations. All returned post IDs present. Linked followups are explicitly pending in nov2-discovery-followups.json.",
+      "evidence": [
+        "work/daily-2026-10-31/0cc3d10ccc0b5219-b35a70eadfd67357e61c4ee539014ed55a480cd49ea502c0c52a9a98e77c9974.txt",
+        "work/daily-2026-10-31/forum-catchup-nov2.json",
+        "work/daily-2026-10-31/nov2-discovery-followups.json"
+      ]
+    },
+    {
+      "id": "507",
+      "url": "https://community.tari.com/t/507.json",
+      "history": [
+        {
+          "id": "507",
+          "url": "https://community.tari.com/t/507.json"
+        }
+      ],
+      "status": "complete",
+      "posts": 2,
+      "hash": "b43cbe5f2b6a653997b8ceba768fd5e85ad3321ace0a33e1b1d38c51e975463a",
+      "lastAttemptAt": "2026-11-02T13:33:29.882642+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T13:33:29.882642+00:00",
+      "completedWatermark": "2026-11-02T13:33:29.882642+00:00",
+      "reviewedAt": "2026-11-02T13:49:47.458066+00:00",
+      "coverageNote": "Complete applies only to this named topic and all accessible post-stream IDs; linked-resource review and whole-channel discovery are separate.",
+      "note": "Full paginated stream retained; new posts and edited content reviewed against earlier observations. All returned post IDs present. Linked followups are explicitly pending in nov2-discovery-followups.json.",
+      "evidence": [
+        "work/daily-2026-10-31/1e267faeb98b25a3-b43cbe5f2b6a653997b8ceba768fd5e85ad3321ace0a33e1b1d38c51e975463a.txt",
+        "work/daily-2026-10-31/forum-catchup-nov2.json",
+        "work/daily-2026-10-31/nov2-discovery-followups.json"
+      ]
+    },
+    {
+      "id": "5",
+      "url": "https://community.tari.com/t/5.json",
+      "history": [
+        {
+          "id": "5",
+          "url": "https://community.tari.com/t/5.json"
+        }
+      ],
+      "status": "complete",
+      "posts": 5,
+      "hash": "87625282dd2dfd3d578921ce86472a5b4f12bad343d31adb29a103759a102cb8",
+      "lastAttemptAt": "2026-11-02T13:55:19.078130+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T13:55:19.078130+00:00",
+      "completedWatermark": "2026-11-02T13:55:19.078130+00:00",
+      "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
+      "coverageNote": "Named full accessible topic only; linked resources tracked separately.",
+      "evidence": [
+        "work/daily-2026-10-31/da256a4022d5af62-87625282dd2dfd3d578921ce86472a5b4f12bad343d31adb29a103759a102cb8.txt",
+        "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
+      ]
+    },
+    {
+      "id": "520",
+      "url": "https://community.tari.com/t/520.json",
+      "history": [
+        {
+          "id": "520",
+          "url": "https://community.tari.com/t/520.json"
+        }
+      ],
+      "status": "complete",
+      "posts": 2,
+      "hash": "794c5201bf58512504f94093aa4224a2b976cbc9d6a58d30d96fefa4583da7f7",
+      "lastAttemptAt": "2026-11-02T13:55:19.495376+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T13:55:19.495376+00:00",
+      "completedWatermark": "2026-11-02T13:55:19.495376+00:00",
+      "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
+      "coverageNote": "Named full accessible topic only; linked resources tracked separately.",
+      "evidence": [
+        "work/daily-2026-10-31/d1dedc27c133ba65-794c5201bf58512504f94093aa4224a2b976cbc9d6a58d30d96fefa4583da7f7.txt",
+        "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
+      ]
+    },
+    {
+      "id": "521",
+      "url": "https://community.tari.com/t/521.json",
+      "history": [
+        {
+          "id": "521",
+          "url": "https://community.tari.com/t/521.json"
+        }
+      ],
+      "status": "complete",
+      "posts": 2,
+      "hash": "ed4fe7ba5984a6afc61a0f2ab765aeaeaef46859d78006e16ee97d9d093dd4cc",
+      "lastAttemptAt": "2026-11-02T13:55:19.579329+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T13:55:19.579329+00:00",
+      "completedWatermark": "2026-11-02T13:55:19.579329+00:00",
+      "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
+      "coverageNote": "Named full accessible topic only; linked resources tracked separately.",
+      "evidence": [
+        "work/daily-2026-10-31/9c75a8691b74d6f1-ed4fe7ba5984a6afc61a0f2ab765aeaeaef46859d78006e16ee97d9d093dd4cc.txt",
+        "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
+      ]
+    },
+    {
+      "id": "522",
+      "url": "https://community.tari.com/t/522.json",
+      "history": [
+        {
+          "id": "522",
+          "url": "https://community.tari.com/t/522.json"
+        }
+      ],
+      "status": "complete",
+      "posts": 3,
+      "hash": "4ffc8d2818fc89d173d4e9f2272405d05ce3329f3a17cef53d204bc3c004f2c5",
+      "lastAttemptAt": "2026-11-02T13:55:19.846753+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T13:55:19.846753+00:00",
+      "completedWatermark": "2026-11-02T13:55:19.846753+00:00",
+      "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
+      "coverageNote": "Named full accessible topic only; linked resources tracked separately.",
+      "evidence": [
+        "work/daily-2026-10-31/f2b439cb33d3fb0f-4ffc8d2818fc89d173d4e9f2272405d05ce3329f3a17cef53d204bc3c004f2c5.txt",
+        "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
+      ]
+    },
+    {
+      "id": "524",
+      "url": "https://community.tari.com/t/524.json",
+      "history": [
+        {
+          "id": "524",
+          "url": "https://community.tari.com/t/524.json"
+        }
+      ],
+      "status": "complete",
+      "posts": 1,
+      "hash": "3597e120a902f06be51f9680f254059f8ed028aeca17cf6d7a8b0887f1b70eb3",
+      "lastAttemptAt": "2026-11-02T13:55:19.976556+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T13:55:19.976556+00:00",
+      "completedWatermark": "2026-11-02T13:55:19.976556+00:00",
+      "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
+      "coverageNote": "Named full accessible topic only; linked resources tracked separately.",
+      "evidence": [
+        "work/daily-2026-10-31/6e0dff7c47049bfe-3597e120a902f06be51f9680f254059f8ed028aeca17cf6d7a8b0887f1b70eb3.txt",
+        "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
+      ]
+    },
+    {
+      "id": "forum-latest-paginated",
+      "url": "https://community.tari.com/latest.json?order=activity",
+      "history": [
+        {
+          "id": "forum-latest-paginated",
+          "url": "https://community.tari.com/latest.json?order=activity"
+        }
+      ],
+      "status": "complete",
+      "lastAttemptAt": "2026-11-02T13:55:20.099142+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T13:55:20.099142+00:00",
+      "completedWatermark": "2026-11-02T13:55:20.099142+00:00",
+      "reviewedAt": "2026-11-02T14:30:00.691325+00:00",
+      "lookbackStart": "2026-10-22",
+      "evidence": [
+        "work/daily-2026-10-31/forum-lookback-nov2.json",
+        "work/daily-2026-10-31/forum-lookback-nov2-changes.json",
+        "work/daily-2026-10-31/forum-lookback-integrity-nov2.json",
+        "work/daily-2026-10-31/nov2-discovery-followups.json"
+      ],
+      "note": "Two activity listing pages through the Oct22 overlap boundary; all20 topic streams complete. Current payload hashes and returned post IDs match.41 prior observations have valid hashes, zero corrupt comparisons. All16 new/changed posts reviewed. Linked video/article/project review remains in separately declared queue items; no implied linked-resource completion."
+    },
+    {
+      "id": "road-to-billion-video",
+      "url": "https://www.youtube.com/watch?v=t7Cn7n5t_Y4",
+      "history": [
+        {
+          "id": "road-to-billion-video",
+          "url": "https://www.youtube.com/watch?v=t7Cn7n5t_Y4"
+        }
+      ],
+      "status": "complete",
+      "lastAttemptAt": "2026-11-02T15:00:43.161923+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T15:00:43.161923+00:00",
+      "reviewedAt": "2026-11-02T15:00:43.161923+00:00",
+      "evidence": [
+        "work/daily-2026-10-31/road-to-billion-transcript-nov2.txt",
+        "work/daily-2026-10-31/creator-video-transcript-review-nov2.json"
+      ],
+      "note": "Full six-minute transcript read. Community strategy proposal with nine suggested workstreams, not announced partnerships, funded programs or a valuation forecast. Linked strategy paper remains separately queued.",
+      "scope": "Full available transcript and earlier saved publication metadata; linked destinations separately queued."
+    },
+    {
+      "id": "one-way-bridge-short",
+      "url": "https://www.youtube.com/watch?v=OC3oCSQLz8U",
+      "history": [
+        {
+          "id": "one-way-bridge-short",
+          "url": "https://www.youtube.com/watch?v=OC3oCSQLz8U"
+        }
+      ],
+      "status": "complete",
+      "lastAttemptAt": "2026-11-02T15:00:43.161923+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T15:00:43.161923+00:00",
+      "reviewedAt": "2026-11-02T15:00:43.161923+00:00",
+      "evidence": [
+        "work/daily-2026-10-31/one-way-bridge-transcript-nov2.txt",
+        "work/daily-2026-10-31/creator-video-transcript-review-nov2.json"
+      ],
+      "note": "Full auto-generated transcript read. Explains irreversible XTM burn and fixed5% fee burn with rounding. Price convergence narration is an economic argument, not a guaranteed peg; source-backed editorial assessment remains pending.",
+      "scope": "Full available transcript and earlier saved publication metadata; linked destinations separately queued."
+    },
+    {
+      "id": "dnc-stablecoin-short",
+      "url": "https://www.youtube.com/watch?v=ZgKpqdJ8Tes",
+      "history": [
+        {
+          "id": "dnc-stablecoin-short",
+          "url": "https://www.youtube.com/watch?v=ZgKpqdJ8Tes"
+        }
+      ],
+      "status": "complete",
+      "lastAttemptAt": "2026-11-02T15:00:43.161923+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T15:00:43.161923+00:00",
+      "reviewedAt": "2026-11-02T15:00:43.161923+00:00",
+      "evidence": [
+        "work/daily-2026-10-31/dnc-stablecoin-transcript-nov2.txt",
+        "work/daily-2026-10-31/creator-video-transcript-review-nov2.json"
+      ],
+      "note": "Full auto-generated transcript read. Describes a fully regulated private stablecoin as present-tense available; retrieved source does not establish a shipped issuer-backed product. Hold from current product listings; retain as creator submission evidence.",
+      "scope": "Full available transcript and earlier saved publication metadata; linked destinations separately queued."
+    },
+    {
+      "id": "dnc-turbine-short",
+      "url": "https://www.youtube.com/watch?v=974KLD3OODg",
+      "history": [
+        {
+          "id": "dnc-turbine-short",
+          "url": "https://www.youtube.com/watch?v=974KLD3OODg"
+        }
+      ],
+      "status": "complete",
+      "lastAttemptAt": "2026-11-02T15:00:43.161923+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T15:00:43.161923+00:00",
+      "reviewedAt": "2026-11-02T15:00:43.161923+00:00",
+      "evidence": [
+        "work/daily-2026-10-31/dnc-turbine-transcript-nov2.txt",
+        "work/daily-2026-10-31/creator-video-transcript-review-nov2.json"
+      ],
+      "note": "Full auto-generated transcript read. Describes dynamic Throttle balancing; conflicts with current fixed5% implementation evidence. Hold as obsolete technical guidance; preserve original creator submission.",
+      "scope": "Full available transcript and earlier saved publication metadata; linked destinations separately queued."
+    },
+    {
+      "id": "two-layer-architecture-kurarmota",
+      "url": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
+      "history": [
+        {
+          "id": "two-layer-architecture-kurarmota",
+          "url": "https://medium.com/@isahjaafar12/-8cbde86c94e3"
+        }
+      ],
+      "status": "complete",
+      "lastAttemptAt": "2026-11-02T15:22:29.379727+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T15:22:29.379727+00:00",
+      "reviewedAt": "2026-11-02T15:22:29.379727+00:00",
+      "evidence": [
+        "work/daily-2026-10-31/kurarmota-medium-nov2.txt",
+        "work/daily-2026-10-31/kurarmota-responses-nov2.txt",
+        "work/daily-2026-10-31/linked-browser-reviews-nov2.json"
+      ],
+      "scope": "Full public article and responses (none reported)",
+      "note": "Supported browser recovered the full public article and reply scope after direct HTTP failure. Editorial disposition is tracked separately."
+    },
+    {
+      "id": "dnc-stablecoin-medium",
+      "url": "https://medium.com/@okansaglam016161/private-by-default-compliant-when-needed-inside-taris-stablecoin-af02a8b5b606",
+      "history": [
+        {
+          "id": "dnc-stablecoin-medium",
+          "url": "https://medium.com/@okansaglam016161/private-by-default-compliant-when-needed-inside-taris-stablecoin-af02a8b5b606"
+        }
+      ],
+      "status": "complete",
+      "lastAttemptAt": "2026-11-02T15:22:29.379727+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T15:22:29.379727+00:00",
+      "reviewedAt": "2026-11-02T15:22:29.379727+00:00",
+      "evidence": [
+        "work/daily-2026-10-31/dnc-stablecoin-medium-nov2.txt",
+        "work/daily-2026-10-31/dnc-stablecoin-responses-nov2.txt",
+        "work/daily-2026-10-31/linked-browser-reviews-nov2.json"
+      ],
+      "scope": "Full public article and responses (none reported)",
+      "note": "Supported browser recovered the full public article and reply scope after direct HTTP failure. Editorial disposition is tracked separately."
+    },
+    {
+      "id": "dnc-turbine-medium",
+      "url": "https://medium.com/@okansaglam016161/the-turbine-how-tari-balances-its-two-token-economy-0e7bb772d181",
+      "history": [
+        {
+          "id": "dnc-turbine-medium",
+          "url": "https://medium.com/@okansaglam016161/the-turbine-how-tari-balances-its-two-token-economy-0e7bb772d181"
+        }
+      ],
+      "status": "complete",
+      "lastAttemptAt": "2026-11-02T15:22:29.379727+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T15:22:29.379727+00:00",
+      "reviewedAt": "2026-11-02T15:22:29.379727+00:00",
+      "evidence": [
+        "work/daily-2026-10-31/dnc-turbine-medium-nov2.txt",
+        "work/daily-2026-10-31/dnc-turbine-responses-nov2.txt",
+        "work/daily-2026-10-31/linked-browser-reviews-nov2.json"
+      ],
+      "scope": "Full public article and responses (none reported)",
+      "note": "Supported browser recovered the full public article and reply scope after direct HTTP failure. Editorial disposition is tracked separately."
+    },
+    {
+      "id": "dnc-turbine-reddit",
+      "url": "https://www.reddit.com/r/CryptoTechnology/comments/1xl8nrz/taris_turbine_model_a_burnandmint_design_linking/",
+      "history": [
+        {
+          "id": "dnc-turbine-reddit",
+          "url": "https://www.reddit.com/r/CryptoTechnology/comments/1xl8nrz/taris_turbine_model_a_burnandmint_design_linking/"
+        }
+      ],
+      "status": "complete",
+      "lastAttemptAt": "2026-11-02T15:22:29.379727+00:00",
+      "lastSuccessfulReadAt": "2026-11-02T15:22:29.379727+00:00",
+      "reviewedAt": "2026-11-02T15:22:29.379727+00:00",
+      "evidence": [
+        "work/daily-2026-10-31/dnc-turbine-reddit-nov2.txt",
+        "work/daily-2026-10-31/linked-browser-reviews-nov2.json"
+      ],
+      "scope": "Full post and both displayed comments; comment count 2; no additional reply control",
+      "note": "Supported browser recovered the full public article and reply scope after direct HTTP failure. Editorial disposition is tracked separately."
     }
   ],
   "githubCreators": [
@@ -9570,6 +10093,416 @@
       "blockedSources": [],
       "pendingReviewSources": [],
       "reviewQueue": []
+    },
+    "project:ghost-lantern": {
+      "id": "project:ghost-lantern",
+      "title": "Ghost Lantern",
+      "sources": [
+        "https://github.com/penielgold-hub/Ghost-Lantern"
+      ],
+      "lastSuccessfulReviewAt": "2026-11-02T16:28:10.604Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "canonicalResourceId": "ghost-lantern",
+      "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+      "sourceReviews": {
+        "https://github.com/penielgold-hub/Ghost-Lantern": {
+          "url": "https://github.com/penielgold-hub/Ghost-Lantern",
+          "hash": "98b76ff068f83b8de2441ec182e3821c352c59d36f2c5bfdb2e4cf7d2b383bf5",
+          "evidence": "work/daily-2026-10-31/Ghost-Lantern-readme-nov2.md",
+          "attemptedAt": "2026-11-02T15:07:13.098Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "revision": "b4a8f889c873ae49bb8c11a4d25cb7ead43dfaab",
+          "lastAttemptAt": "2026-11-02T15:07:13.098Z",
+          "lastSuccessfulReadAt": "2026-11-02T15:07:13.098Z",
+          "status": "read",
+          "error": null
+        }
+      },
+      "observedAvailability": "source-only educational prototype",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [],
+      "changedFields": [],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "project:taritalk-nodes": {
+      "id": "project:taritalk-nodes",
+      "title": "TariTalk Nodes",
+      "sources": [
+        "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+        "https://nodes.taritalk.xyz/",
+        "https://github.com/xt1085/taritalk-node-deploy"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "blocked",
+      "reviewRequired": true,
+      "canonicalResourceId": "taritalk-nodes",
+      "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+      "sourceReviews": {
+        "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1": {
+          "url": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+          "hash": "4ffc8d2818fc89d173d4e9f2272405d05ce3329f3a17cef53d204bc3c004f2c5",
+          "evidence": "work/daily-2026-10-31/f2b439cb33d3fb0f-4ffc8d2818fc89d173d4e9f2272405d05ce3329f3a17cef53d204bc3c004f2c5.txt",
+          "attemptedAt": "2026-11-02T13:55:19.847Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "lastAttemptAt": "2026-11-02T13:55:19.847Z",
+          "lastSuccessfulReadAt": "2026-11-02T13:55:19.847Z",
+          "status": "read",
+          "error": null
+        },
+        "https://nodes.taritalk.xyz/": {
+          "url": "https://nodes.taritalk.xyz/",
+          "hash": "b7bb1547af019729ee241e7e8bbcee391e8ba86ab2fec4ed686fe5cfabbfd37a",
+          "evidence": "work/daily-2026-10-31/d9008c3504c6392e-b7bb1547af019729ee241e7e8bbcee391e8ba86ab2fec4ed686fe5cfabbfd37a.txt",
+          "attemptedAt": "2026-11-02T13:56:49.380Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "browserEvidence": "work/daily-2026-10-31/taritalk-nodes-guide-text-nov2.txt",
+          "lastAttemptAt": "2026-11-02T13:56:49.380Z",
+          "lastSuccessfulReadAt": "2026-11-02T13:56:49.380Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/xt1085/taritalk-node-deploy": {
+          "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+          "status": "blocked",
+          "error": "Linked deployment repository returns HTTP 404 through GitHub API and public browser.",
+          "failureKind": "http",
+          "evidence": "work/daily-2026-10-31/taritalk-repo-browser-nov2.txt",
+          "nextAction": "Retry the creator-linked repository; retain map and guide as accessible partial material, do not infer repository availability."
+        }
+      },
+      "observedAvailability": null,
+      "pendingReviewSources": [],
+      "blockedSources": [
+        "https://github.com/xt1085/taritalk-node-deploy"
+      ],
+      "changedSources": [],
+      "changedFields": [],
+      "reviewQueue": [
+        "copy",
+        "actions",
+        "details",
+        "recording",
+        "provenance"
+      ],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "project:danse-macabre": {
+      "id": "project:danse-macabre",
+      "title": "Danse Macabre",
+      "sources": [
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+        "https://github.com/YASASWIP012/danse-macabre",
+        "https://danse-macabre.vercel.app/"
+      ],
+      "lastSuccessfulReviewAt": "2026-11-02T16:28:10.604Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "canonicalResourceId": "danse-macabre",
+      "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+      "sourceReviews": {
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41": {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+          "hash": "37fc44c1692f4b55393d77bd6045e1791f279959477ae1d13d8b2339aba7ea97",
+          "evidence": "work/daily-2026-10-31/839dbc5a59cc28fd-37fc44c1692f4b55393d77bd6045e1791f279959477ae1d13d8b2339aba7ea97.txt",
+          "attemptedAt": "2026-11-02T13:33:28.621Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "lastAttemptAt": "2026-11-02T13:33:28.621Z",
+          "lastSuccessfulReadAt": "2026-11-02T13:33:28.621Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/YASASWIP012/danse-macabre": {
+          "url": "https://github.com/YASASWIP012/danse-macabre",
+          "hash": "f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab",
+          "evidence": "work/daily-2026-10-31/0db69bc53ebab53b-f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab.txt",
+          "attemptedAt": "2026-11-02T13:35:19.072Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "revision": "2341dc39b67f2f3491699a079bdd0103f1efedb5",
+          "lastAttemptAt": "2026-11-02T13:35:19.072Z",
+          "lastSuccessfulReadAt": "2026-11-02T13:35:19.072Z",
+          "status": "read",
+          "error": null
+        },
+        "https://danse-macabre.vercel.app/": {
+          "url": "https://danse-macabre.vercel.app/",
+          "hash": "b0983d6d8a4fb0dd313e85e4b2e01863ca7cbc3bb7871fda79c12ad016a2f654",
+          "evidence": "work/daily-2026-10-31/14145a0708601409-b0983d6d8a4fb0dd313e85e4b2e01863ca7cbc3bb7871fda79c12ad016a2f654.txt",
+          "attemptedAt": "2026-11-02T13:35:19.195Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "lastAttemptAt": "2026-11-02T13:35:19.195Z",
+          "lastSuccessfulReadAt": "2026-11-02T13:35:19.195Z",
+          "status": "read",
+          "error": null
+        }
+      },
+      "observedAvailability": "public testnet interface and source",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [],
+      "changedFields": [],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:learn:release-0492": {
+      "id": "tari-ootle:learn:release-0492",
+      "title": "Ootle v0.49.2 upgrade notes",
+      "sources": [
+        "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2",
+        "https://discord.com/channels/892738558316662855/1478870438334431313/1566787045630812192"
+      ],
+      "lastSuccessfulReviewAt": "2026-11-02T16:28:10.604Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "canonicalResourceId": "release-0492",
+      "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+      "sourceReviews": {
+        "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2": {
+          "url": "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2",
+          "hash": "8d4aab0d734b76ebc7b5362c890e9fe59091b1735a6ad6e1c349a3b9a6968366",
+          "evidence": "work/daily-2026-10-31/ootle-0492-release-nov2.json",
+          "attemptedAt": "2026-11-02T15:07:13.399Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "lastAttemptAt": "2026-11-02T15:07:13.399Z",
+          "lastSuccessfulReadAt": "2026-11-02T15:07:13.399Z",
+          "status": "read",
+          "error": null
+        },
+        "https://discord.com/channels/892738558316662855/1478870438334431313/1566787045630812192": {
+          "url": "https://discord.com/channels/892738558316662855/1478870438334431313/1566787045630812192",
+          "hash": "170dde5ab110b412f1ab3c6387c5e1359e59e99c6ed4a3396b97e241f68710b5",
+          "evidence": "work/daily-2026-10-31/release-original-discord-message-nov2.txt",
+          "attemptedAt": "2026-11-02T16:22:25.346Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "lastAttemptAt": "2026-11-02T16:22:25.346Z",
+          "lastSuccessfulReadAt": "2026-11-02T16:22:25.346Z",
+          "status": "read",
+          "error": null
+        }
+      },
+      "observedAvailability": "public source documentation",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [],
+      "changedFields": [],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari:component:taritalk-nodes": {
+      "id": "tari:component:taritalk-nodes",
+      "title": "TariTalk Nodes",
+      "sources": [
+        "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+        "https://nodes.taritalk.xyz/",
+        "https://github.com/xt1085/taritalk-node-deploy"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "outcome": "blocked",
+      "reviewRequired": true,
+      "canonicalResourceId": "taritalk-nodes",
+      "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+      "sourceReviews": {
+        "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1": {
+          "url": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+          "hash": "4ffc8d2818fc89d173d4e9f2272405d05ce3329f3a17cef53d204bc3c004f2c5",
+          "evidence": "work/daily-2026-10-31/f2b439cb33d3fb0f-4ffc8d2818fc89d173d4e9f2272405d05ce3329f3a17cef53d204bc3c004f2c5.txt",
+          "attemptedAt": "2026-11-02T13:55:19.847Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "lastAttemptAt": "2026-11-02T13:55:19.847Z",
+          "lastSuccessfulReadAt": "2026-11-02T13:55:19.847Z",
+          "status": "read",
+          "error": null
+        },
+        "https://nodes.taritalk.xyz/": {
+          "url": "https://nodes.taritalk.xyz/",
+          "hash": "b7bb1547af019729ee241e7e8bbcee391e8ba86ab2fec4ed686fe5cfabbfd37a",
+          "evidence": "work/daily-2026-10-31/d9008c3504c6392e-b7bb1547af019729ee241e7e8bbcee391e8ba86ab2fec4ed686fe5cfabbfd37a.txt",
+          "attemptedAt": "2026-11-02T13:56:49.380Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "browserEvidence": "work/daily-2026-10-31/taritalk-nodes-guide-text-nov2.txt",
+          "lastAttemptAt": "2026-11-02T13:56:49.380Z",
+          "lastSuccessfulReadAt": "2026-11-02T13:56:49.380Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/xt1085/taritalk-node-deploy": {
+          "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+          "status": "blocked",
+          "error": "Linked deployment repository returns HTTP 404 through GitHub API and public browser.",
+          "failureKind": "http",
+          "evidence": "work/daily-2026-10-31/taritalk-repo-browser-nov2.txt",
+          "nextAction": "Retry the creator-linked repository; retain map and guide as accessible partial material, do not infer repository availability."
+        }
+      },
+      "observedAvailability": null,
+      "pendingReviewSources": [],
+      "blockedSources": [
+        "https://github.com/xt1085/taritalk-node-deploy"
+      ],
+      "changedSources": [],
+      "changedFields": [],
+      "reviewQueue": [
+        "copy",
+        "actions",
+        "details",
+        "recording",
+        "provenance"
+      ],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:learn:book-to-skill": {
+      "id": "tari-ootle:learn:book-to-skill",
+      "title": "book-to-skill",
+      "sources": [
+        "https://github.com/virgiliojr94/book-to-skill",
+        "https://github.com/virgiliojr94/book-to-skill#readme",
+        "https://discord.com/channels/892738558316662855/892738558996148236/1565479700816728236"
+      ],
+      "lastSuccessfulReviewAt": "2026-11-02T16:28:10.604Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "canonicalResourceId": "book-to-skill",
+      "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+      "sourceReviews": {
+        "https://github.com/virgiliojr94/book-to-skill": {
+          "url": "https://github.com/virgiliojr94/book-to-skill",
+          "hash": "43c403269fed5a7032e5fa429607a2e326019945b41a64588f38396dc3343402",
+          "evidence": "work/daily-2026-10-31/book-to-skill-readme-nov2.md",
+          "attemptedAt": "2026-11-02T15:07:12.799Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "revision": "f4beb1ed4072eb1e91b679e0bfa545577099d68d",
+          "lastAttemptAt": "2026-11-02T15:07:12.799Z",
+          "lastSuccessfulReadAt": "2026-11-02T15:07:12.799Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/virgiliojr94/book-to-skill#readme": {
+          "url": "https://github.com/virgiliojr94/book-to-skill#readme",
+          "hash": "43c403269fed5a7032e5fa429607a2e326019945b41a64588f38396dc3343402",
+          "evidence": "work/daily-2026-10-31/book-to-skill-readme-nov2.md",
+          "attemptedAt": "2026-11-02T15:07:12.799Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "revision": "f4beb1ed4072eb1e91b679e0bfa545577099d68d",
+          "lastAttemptAt": "2026-11-02T15:07:12.799Z",
+          "lastSuccessfulReadAt": "2026-11-02T15:07:12.799Z",
+          "status": "read",
+          "error": null
+        },
+        "https://discord.com/channels/892738558316662855/892738558996148236/1565479700816728236": {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1565479700816728236",
+          "hash": "86854fe7056acb84a1a6512020fb359c2ec2e2dcb89b17f7955650e010fdd1c2",
+          "evidence": "work/daily-2026-10-31/book-original-discord-message-nov2.txt",
+          "attemptedAt": "2026-11-02T16:22:10.200Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "lastAttemptAt": "2026-11-02T16:22:10.200Z",
+          "lastSuccessfulReadAt": "2026-11-02T16:22:10.200Z",
+          "status": "read",
+          "error": null
+        }
+      },
+      "observedAvailability": "source tool with published releases",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [],
+      "changedFields": [],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:component:danse-macabre": {
+      "id": "tari-ootle:component:danse-macabre",
+      "title": "Danse Macabre",
+      "sources": [
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+        "https://github.com/YASASWIP012/danse-macabre",
+        "https://github.com/YASASWIP012/danse-macabre#readme",
+        "https://danse-macabre.vercel.app/",
+        "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
+        "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q"
+      ],
+      "lastSuccessfulReviewAt": "2026-11-02T16:28:10.604Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "canonicalResourceId": "danse-macabre",
+      "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+      "sourceReviews": {
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41": {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+          "hash": "37fc44c1692f4b55393d77bd6045e1791f279959477ae1d13d8b2339aba7ea97",
+          "evidence": "work/daily-2026-10-31/839dbc5a59cc28fd-37fc44c1692f4b55393d77bd6045e1791f279959477ae1d13d8b2339aba7ea97.txt",
+          "attemptedAt": "2026-11-02T13:33:28.621Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "lastAttemptAt": "2026-11-02T13:33:28.621Z",
+          "lastSuccessfulReadAt": "2026-11-02T13:33:28.621Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/YASASWIP012/danse-macabre": {
+          "url": "https://github.com/YASASWIP012/danse-macabre",
+          "hash": "f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab",
+          "evidence": "work/daily-2026-10-31/0db69bc53ebab53b-f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab.txt",
+          "attemptedAt": "2026-11-02T13:35:19.072Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "revision": "2341dc39b67f2f3491699a079bdd0103f1efedb5",
+          "lastAttemptAt": "2026-11-02T13:35:19.072Z",
+          "lastSuccessfulReadAt": "2026-11-02T13:35:19.072Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/YASASWIP012/danse-macabre#readme": {
+          "url": "https://github.com/YASASWIP012/danse-macabre#readme",
+          "hash": "f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab",
+          "evidence": "work/daily-2026-10-31/0db69bc53ebab53b-f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab.txt",
+          "attemptedAt": "2026-11-02T13:35:19.072Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "revision": "2341dc39b67f2f3491699a079bdd0103f1efedb5",
+          "lastAttemptAt": "2026-11-02T13:35:19.072Z",
+          "lastSuccessfulReadAt": "2026-11-02T13:35:19.072Z",
+          "status": "read",
+          "error": null
+        },
+        "https://danse-macabre.vercel.app/": {
+          "url": "https://danse-macabre.vercel.app/",
+          "hash": "b0983d6d8a4fb0dd313e85e4b2e01863ca7cbc3bb7871fda79c12ad016a2f654",
+          "evidence": "work/daily-2026-10-31/14145a0708601409-b0983d6d8a4fb0dd313e85e4b2e01863ca7cbc3bb7871fda79c12ad016a2f654.txt",
+          "attemptedAt": "2026-11-02T13:35:19.195Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "lastAttemptAt": "2026-11-02T13:35:19.195Z",
+          "lastSuccessfulReadAt": "2026-11-02T13:35:19.195Z",
+          "status": "read",
+          "error": null
+        },
+        "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k": {
+          "url": "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
+          "hash": "04c11cd0bcc0b80753db1beffcd27d48ccdf16ce7051edf9103782a69703fda4",
+          "evidence": "work/daily-2026-10-31/5a5464fedb89f8a6-04c11cd0bcc0b80753db1beffcd27d48ccdf16ce7051edf9103782a69703fda4.txt",
+          "attemptedAt": "2026-11-02T13:35:19.446Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "lastAttemptAt": "2026-11-02T13:35:19.446Z",
+          "lastSuccessfulReadAt": "2026-11-02T13:35:19.446Z",
+          "status": "read",
+          "error": null
+        },
+        "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q": {
+          "url": "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q",
+          "hash": "60c36d53943d907209a5330820e4478ea5ab235ea5c36a101ca909cd549a205d",
+          "evidence": "work/daily-2026-10-31/danse-creator-transcript-nov2.txt",
+          "attemptedAt": "2026-11-02T14:56:56.176Z",
+          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+          "lastAttemptAt": "2026-11-02T14:56:56.176Z",
+          "lastSuccessfulReadAt": "2026-11-02T14:56:56.176Z",
+          "status": "read",
+          "error": null
+        }
+      },
+      "observedAvailability": "public testnet interface and source",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [],
+      "changedFields": [],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
     }
   },
   "resourceReviewSummary": {
