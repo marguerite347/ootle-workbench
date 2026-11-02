@@ -15,12 +15,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: '24.22.2'
+          package-manager-cache: false
       - run: npm install --global yarn@1.22.22
       - run: yarn install --frozen-lockfile --ignore-engines --non-interactive --ignore-scripts
         env:
@@ -42,14 +43,14 @@ jobs:
         env:
           OOTLE_AGENT_SERVICE_URL: https://ootle-workbench-agents.vercel.app
       - run: node tools/security/verify-web-artifacts.mjs
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: github.event_name == 'push'
         with:
           name: ootle-workbench-web-${{ github.sha }}
           path: dist/apps/remix-ide
           include-hidden-files: true
           retention-days: 7
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: github.event_name == 'push'
         with:
           name: node-exposure-${{ github.sha }}
@@ -59,10 +60,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - uses: dtolnay/rust-toolchain@7e38f4b43b4db5c8dd498af069a4f6196df1d067
+      - uses: dtolnay/rust-toolchain@683b588c487a69d01f6c6ddf40f036ff682cc2c8 # 2026-11-02 toolchain catalog
         with:
           toolchain: '1.99.1'
           targets: wasm32-unknown-unknown
@@ -70,11 +71,12 @@ jobs:
       - run: cargo build --locked --release --target wasm32-unknown-unknown --manifest-path templates/tari-counter/Cargo.toml
       - run: cargo test --locked --manifest-path examples/ootle-counter-remix/Cargo.toml
       - run: cargo build --locked --release --target wasm32-unknown-unknown --manifest-path examples/ootle-counter-remix/Cargo.toml
-      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: '24.22.2'
+          package-manager-cache: false
       - run: node tools/tari-companion/smoke.mjs
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: github.event_name == 'push'
         with:
           name: tari-counter-wasm-${{ github.sha }}
@@ -93,16 +95,16 @@ jobs:
           - name: remix-example
             lockfile: examples/ootle-counter-remix/Cargo.lock
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - uses: dtolnay/rust-toolchain@7e38f4b43b4db5c8dd498af069a4f6196df1d067
+      - uses: dtolnay/rust-toolchain@683b588c487a69d01f6c6ddf40f036ff682cc2c8 # 2026-11-02 toolchain catalog
         with:
           toolchain: '1.99.1'
       - run: cargo install cargo-audit --version 0.22.2 --locked
       - run: cargo audit --file ${{ matrix.lockfile }} --json > rust-audit.json
       - run: node tools/security/rust-audit-gate.mjs rust-audit.json
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: always() && github.event_name == 'push'
         with:
           name: rust-advisories-${{ matrix.name }}-${{ github.sha }}
