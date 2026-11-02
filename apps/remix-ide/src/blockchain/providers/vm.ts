@@ -73,7 +73,8 @@ export class VMProvider {
                 })
               }
             }
-            this.web3 = new ethers.BrowserProvider(this.provider)
+            // The local VM mines synchronously; cached reads can outlive a confirmed transaction.
+            this.web3 = new ethers.BrowserProvider(this.provider, undefined, { cacheTimeout: -1 })
             extendProvider(this.web3)
             this.executionContext.setWeb3(this.executionContext.getProvider(), this.web3)
             resolve({})
