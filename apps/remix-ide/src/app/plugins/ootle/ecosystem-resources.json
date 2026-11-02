@@ -2945,6 +2945,194 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261102-63423e82b3.png",
         "source": "Source/docs walkthrough — public guide; no wallet or mining execution."
       }
+    },
+    {
+      "id": "tari-ootle:learn:official-universe",
+      "key": "official-universe",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Tari Universe",
+      "summary": "Official desktop mining application and companion wallet. Release v1.6.20, published October 29, 2026, fixes non-text payment IDs and bundles Minotari v0.5.2. The release says oversized payment IDs are refused before reserving funds and history reflects the ID actually sent. v1.6.18 introduced the embedded wallet and Ootle Esmeralda testnet wallet; its NVIDIA TARI Miner integration supports one GPU, and Linux Flatpak requires manual updates. November 2 review covered the public README and complete v1.6.18–v1.6.20 release notes. The recording is an announcement walkthrough of v1.6.20, not a demonstrated wallet or mining session. Earlier source footage and official social announcements are retained in the discovery trail.",
+      "status": "Desktop app · Ootle wallet: testnet",
+      "cardSummary": "Mine Tari on your desktop with a visual interface, integrated wallet and Ootle balance view.",
+      "cardStatus": "Desktop app · Ootle wallet: testnet",
+      "sourceUrl": "https://github.com/tari-project/universe",
+      "repoUrl": "https://github.com/tari-project/universe",
+      "docsUrl": "https://github.com/tari-project/universe/releases/tag/v1.6.20",
+      "demoUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": null,
+      "network": "Tari L1 mainnet; Ootle wallet Esmeralda testnet",
+      "platform": "Windows / macOS / Linux",
+      "upstreamRevision": "v1.6.20",
+      "sourceUpdatedAt": "2026-10-29T23:20:26Z",
+      "lastCheckedAt": "2026-11-02T19:23:53.139283+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "wallets",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
+          "platform": "Bluesky",
+          "context": "Official post announces Ootle balance and transaction history in Tari Universe."
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a",
+          "platform": "Bluesky",
+          "context": "Official Universe bridge announcement"
+        },
+        {
+          "url": "https://github.com/tari-project/universe/releases/tag/v1.6.20",
+          "platform": "GitHub release",
+          "context": "Tari Universe v1.6.20: Deposit Reference Fix, Part Two"
+        },
+        {
+          "url": "https://github.com/tari-project/universe/releases/tag/v1.6.19",
+          "platform": "GitHub release",
+          "context": "Tari Universe v1.6.19: Deposit Reference Fix"
+        },
+        {
+          "url": "https://github.com/tari-project/universe/releases/tag/v1.6.18",
+          "platform": "GitHub release",
+          "context": "Tari Universe v1.6.18: Twin Tides"
+        }
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-universe-20261102-3547274cd7.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-universe-20261102-3547274cd7.png",
+        "source": "Source/docs walkthrough — public README or release notes; no wallet execution."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:cw-tari-wallet",
+      "key": "cw-tari-wallet",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Cake Wallet Tari L1 backend",
+      "summary": "Rust wallet backend consumed by Cake Wallet, with generated Dart bindings through Flutter Rust Bridge 2.11.1. The public README documents wallet lifecycle, scanning, balance/history, fees, streaming sends and base-node queries, plus an additive-only Dart API contract. The reviewed Cargo manifest pins Minotari commit 86503ff8360041aa13c7911fd6bd7a6d30591dbb and Tari 6.3.0-pre.1 components. It is backend source rather than a standalone wallet download. The repository had no published releases at the November 2 review; its root LICENSE read returned 404 and the manifest declares no license. No public original sharing post was found in the reviewed sources; retain the actual GitHub repository discovery page. Footage shows its README only.",
+      "status": "Source code · Flutter / Rust",
+      "cardSummary": "Connect Flutter apps to Minotari wallet functions through a Rust library and generated Dart bindings.",
+      "cardStatus": "Source code · Flutter / Rust",
+      "sourceUrl": "https://github.com/tari-project/cw_tari_wallet",
+      "repoUrl": "https://github.com/tari-project/cw_tari_wallet",
+      "docsUrl": "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet",
+      "demoUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": null,
+      "network": "Tari L1",
+      "platform": "Rust stable / Dart ≥3.3 / Flutter Rust Bridge 2.11.1",
+      "upstreamRevision": "6d4c9757731e60ef298bd16c852ccceb9e084186",
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": "2026-11-02T19:23:53.139283+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "wallets",
+        "docs"
+      ],
+      "discussionLinks": [],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-wallet-20261102-4e0ec4ca7d.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-wallet-20261102-4e0ec4ca7d.png",
+        "source": "Source/docs walkthrough — public README or release notes; no wallet execution."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:cw-tari-ootle-wallet",
+      "key": "cw-tari-ootle-wallet",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Cake Wallet Ootle backend",
+      "summary": "Cake Wallet Ootle backend using Flutter Rust Bridge 2.11.1 and ootle-rs over HTTPS, without a local node or wallet daemon. The November 2 README and Cargo manifest retain Ootle v0.47-era pins, while the official Ootle release stream has advanced to v0.49; this listing does not establish compatibility with the reset testnet. The README scopes availability to Esmeralda and says no mainnet indexer is available. Android requires CwTariOotlePlugin.initTls(context); the documented ARM translation issue affects x86_64 emulators. The repository has no published releases. Its October 29 faucet-balance note is historical. No public original sharing post was found in reviewed sources; the GitHub repository remains the discovery page. Footage shows the README and version limits, without creating wallets, obtaining test funds or sending transactions.",
+      "status": "Source code · Testnet · v0.47 pins",
+      "cardSummary": "Connect Flutter apps to Ootle light-wallet functions through Rust, Dart bindings and an HTTPS indexer.",
+      "cardStatus": "Source code · Testnet · v0.47 pins",
+      "sourceUrl": "https://github.com/tari-project/cw_tari_ootle_wallet",
+      "repoUrl": "https://github.com/tari-project/cw_tari_ootle_wallet",
+      "docsUrl": "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet",
+      "demoUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle Esmeralda testnet only",
+      "platform": "Flutter / Rust / Dart; Android TLS initialization required",
+      "upstreamRevision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": "2026-11-02T19:23:53.139283+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "wallets",
+        "docs"
+      ],
+      "discussionLinks": [],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-ootle-wallet-20261102-c7b9334a25.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-ootle-wallet-20261102-c7b9334a25.png",
+        "source": "Source/docs walkthrough — public README or release notes; no wallet execution."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:minotari-cli-release",
+      "key": "minotari-cli-release",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Minotari CLI",
+      "summary": "Lightweight command-line wallet and daemon with view-key scanning, account history, SQLite storage and encrypted wallet keys. v0.5.2, published October 29, 2026, fixes sending an address’s embedded payment ID as bytes. Release assets include separate mainnet and Esmeralda builds. The README describes view-only scanning, but its authenticated daemon also exposes operations that can move funds; the scanning description is not a claim that every mode is read-only. The daemon binds to loopback and requires an API token by default. November 2 review covered the full README and release notes. Footage is an announcement walkthrough; no keys, wallet, daemon or transaction was operated.",
+      "status": "CLI · v0.5.2",
+      "cardSummary": "Scan Tari transactions, inspect balances and manage wallet accounts through a lightweight command-line interface.",
+      "cardStatus": "CLI · v0.5.2",
+      "sourceUrl": "https://github.com/tari-project/minotari-cli",
+      "repoUrl": "https://github.com/tari-project/minotari-cli",
+      "docsUrl": "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2",
+      "demoUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": null,
+      "network": "Tari L1; select the matching mainnet or testnet build",
+      "platform": "Linux / macOS / Windows; Rust 2024 edition for source builds",
+      "upstreamRevision": "v0.5.2",
+      "sourceUpdatedAt": "2026-10-29T23:19:53Z",
+      "lastCheckedAt": "2026-11-02T19:23:53.139283+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "wallets",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2",
+          "platform": "GitHub release",
+          "context": "v0.5.2 fixes embedded payment IDs as bytes"
+        }
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-minotari-cli-release-20261102-d6d3e0eb4f.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-minotari-cli-release-20261102-d6d3e0eb4f.png",
+        "source": "Source/docs walkthrough — public README or release notes; no wallet execution."
+      }
     }
   ],
   "opportunities": [
