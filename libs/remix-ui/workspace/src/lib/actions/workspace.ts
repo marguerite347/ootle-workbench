@@ -73,6 +73,8 @@ const NO_WORKSPACE = ' - none - '
 const ELECTRON = 'electron'
 const queryParams = new QueryParams()
 let plugin: any, dgitPlugin: Plugin<any, CustomRemixApi>,dispatch: React.Dispatch<any>
+let resolveWorkspaceProviderReady: () => void
+const workspaceProviderReady = new Promise<void>((resolve) => { resolveWorkspaceProviderReady = resolve })
 
 type WorkspaceActionCallback = (err: Error, result?: string | number | boolean | Record<string, any>) => void
 
@@ -213,6 +215,7 @@ export const setPlugin = (filePanelPlugin, reducerDispatch) => {
   plugin = filePanelPlugin
   dgitPlugin = filePanelPlugin
   dispatch = reducerDispatch
+  resolveWorkspaceProviderReady()
   dgitPlugin.on('dgitApi', 'checkout', async () => {
     await checkGit()
   })
@@ -1180,6 +1183,9 @@ export const uploadFolder = async (target, targetFolder: string, cb?: (err: Erro
 
 export type WorkspaceType = { name: string; isGitRepo: boolean; hasGitSubmodules: boolean; branches?: { remote: any; name: string }[]; currentBranch?: string; remoteId?: string; cloudUuid?: string }
 export const getWorkspaces = async (): Promise<WorkspaceType[]> | undefined => {
+  // The top bar mounts before FilePanel initializes. Wait outside the operation
+  // queue so an early read cannot occupy the queue needed by initialization.
+  await workspaceProviderReady
   return workspaceOperationQueue.run(async function getWorkspaces() {
     try {
       // ── Cloud mode: return cloud workspaces from the store ──
