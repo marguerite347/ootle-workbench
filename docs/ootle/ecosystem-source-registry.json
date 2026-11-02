@@ -2933,50 +2933,114 @@
       "id": "project:official-universe",
       "title": "Tari Universe",
       "sources": [
+        "https://github.com/tari-project/universe",
+        "https://github.com/tari-project/universe/releases/tag/v1.6.20",
         "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
-        "https://github.com/tari-project/universe"
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a",
+        "https://github.com/tari-project/universe/releases/tag/v1.6.19",
+        "https://github.com/tari-project/universe/releases/tag/v1.6.18",
+        "https://tari.com/downloads"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+      "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
       "outcome": "reviewed",
       "reviewRequired": false,
-      "lastAttemptAt": "2026-10-31T14:00:56.589Z",
-      "nextReviewAt": "2026-11-01T09:00:00Z",
-      "changedFields": [],
+      "lastAttemptAt": "2026-11-02T19:48:15.922Z",
+      "nextReviewAt": "2026-11-03T10:00:00Z",
+      "changedFields": [
+        "sourceEvidence"
+      ],
       "sourceReviews": {
         "https://tari.com/downloads": {
           "url": "https://tari.com/downloads",
-          "hash": "566e2f3337c3465cc52289bea28f03652b48c6ac027d52fc4c4d9d654e3a31d7",
-          "evidence": "daily-2026-10-29/a88b17adb0b9f451.txt",
-          "lastAttemptAt": "2026-10-29T11:13:49.185Z",
-          "lastSuccessfulReadAt": "2026-10-29T11:13:49.185Z",
+          "hash": "1061ba911fef29acd301da8354987b9f86ca337b131845e4fce7c93e7cab56bf",
+          "evidence": "work/daily-2026-10-31/universe-downloads-browser-nov2.txt",
+          "attemptedAt": "2026-11-02T19:48:15.922Z",
+          "method": "Rendered download page reviewed; both desktop download HEAD requests returned 200 for v1.6.20. No binaries downloaded or executed.",
+          "downloadEvidence": "work/daily-2026-10-31/universe-download-head-nov2.json",
+          "lastAttemptAt": "2026-11-02T19:48:15.922Z",
+          "lastSuccessfulReadAt": "2026-11-02T19:48:15.922Z",
+          "status": "read",
           "error": null
         },
         "https://github.com/tari-project/universe": {
           "url": "https://github.com/tari-project/universe",
           "hash": "92b766f08a70c597f8d64296d7c67a6672d5cb1d6dd0372ad7ba3eff637c9a72",
-          "revision": "22366ad6036cc508f25b01042131a16e124a4669",
-          "attemptedAt": "2026-10-31T09:03:18.608270+00:00",
-          "evidence": "work/daily-2026-10-31/895139f9e5bef4cc.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:18.608270+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:18.608270+00:00",
+          "evidence": "work/daily-2026-10-31/11909bcb8ee41ab0-92b766f08a70c597f8d64296d7c67a6672d5cb1d6dd0372ad7ba3eff637c9a72.txt",
+          "attemptedAt": "2026-11-02T19:13:18.525822+00:00",
+          "revision": "eed2f48bc751e24a45d1031fb320404c061e38fc",
+          "method": "Full public README reviewed; current bytes matched retained accepted README.",
+          "releaseEvidence": "work/daily-2026-10-31/5a42357b1e131c4d-64dd836e0fd1841590915dd7fb9de772432e6340ee333f9981201f8dce27cba0.txt",
+          "lastAttemptAt": "2026-11-02T19:13:18.525822+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.525822+00:00",
           "status": "read",
           "error": null
         },
         "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22": {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
           "hash": "ee199842a249d5b1f02a0a5cd3f4bf808df03bbacf06d9308922a0781d4a994c",
-          "attemptedAt": "2026-10-31T12:52:44.089035+00:00",
-          "evidence": "work/daily-2026-10-31/6f8f3ef644ba75e9-ee199842a249d5b1.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T12:52:44.089035+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T12:52:44.089035+00:00",
+          "evidence": "work/daily-2026-10-31/95b9ef7290e72b2a-ee199842a249d5b1f02a0a5cd3f4bf808df03bbacf06d9308922a0781d4a994c.txt",
+          "attemptedAt": "2026-11-02T19:46:21.088525+00:00",
+          "method": "Original post and complete returned reply tree read; reply counts matched.",
+          "lastAttemptAt": "2026-11-02T19:46:21.088525+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:46:21.088525+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/universe/releases/tag/v1.6.20": {
+          "url": "https://github.com/tari-project/universe/releases/tag/v1.6.20",
+          "hash": "64dd836e0fd1841590915dd7fb9de772432e6340ee333f9981201f8dce27cba0",
+          "evidence": "work/daily-2026-10-31/5a42357b1e131c4d-64dd836e0fd1841590915dd7fb9de772432e6340ee333f9981201f8dce27cba0.txt",
+          "attemptedAt": "2026-11-02T19:13:18.525822+00:00",
+          "revision": "eed2f48bc751e24a45d1031fb320404c061e38fc",
+          "method": "Complete returned release notes reviewed within maintenance lookback.",
+          "releaseEvidence": "work/daily-2026-10-31/5a42357b1e131c4d-64dd836e0fd1841590915dd7fb9de772432e6340ee333f9981201f8dce27cba0.txt",
+          "lastAttemptAt": "2026-11-02T19:13:18.525822+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.525822+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a": {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a",
+          "hash": "c26f96e65ea071e12b24b6bab1ac538b2a92c8dd3ac68c3d63b30027bbb23a5b",
+          "evidence": "work/daily-2026-10-31/30e8b19a5d59f92f-c26f96e65ea071e12b24b6bab1ac538b2a92c8dd3ac68c3d63b30027bbb23a5b.txt",
+          "attemptedAt": "2026-11-02T19:46:21.376400+00:00",
+          "method": "Original post and complete returned reply tree read; reply counts matched.",
+          "lastAttemptAt": "2026-11-02T19:46:21.376400+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:46:21.376400+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/universe/releases/tag/v1.6.19": {
+          "url": "https://github.com/tari-project/universe/releases/tag/v1.6.19",
+          "hash": "74f69e5b43f8808a21d11f2a17b31ebf25679c36cc6239c79b3f503d91119dd2",
+          "evidence": "work/daily-2026-10-31/46a5159b8c0f2f8a-74f69e5b43f8808a21d11f2a17b31ebf25679c36cc6239c79b3f503d91119dd2.txt",
+          "attemptedAt": "2026-11-02T19:13:18.525822+00:00",
+          "method": "Full individual release notes retained and reviewed.",
+          "lastAttemptAt": "2026-11-02T19:13:18.525822+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.525822+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/universe/releases/tag/v1.6.18": {
+          "url": "https://github.com/tari-project/universe/releases/tag/v1.6.18",
+          "hash": "ba182f20007e465785295776f8814af6734899bcdb6ed3d082f4aa2ad632bbbd",
+          "evidence": "work/daily-2026-10-31/3ba1255c826c2225-ba182f20007e465785295776f8814af6734899bcdb6ed3d082f4aa2ad632bbbd.txt",
+          "attemptedAt": "2026-11-02T19:13:18.525822+00:00",
+          "method": "Full individual release notes retained and reviewed.",
+          "lastAttemptAt": "2026-11-02T19:13:18.525822+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.525822+00:00",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "changedSources": [],
+      "observedAvailability": "Desktop app · Ootle wallet: testnet",
+      "changedSources": [
+        "https://github.com/tari-project/universe/releases/tag/v1.6.20",
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a",
+        "https://github.com/tari-project/universe/releases/tag/v1.6.19",
+        "https://github.com/tari-project/universe/releases/tag/v1.6.18",
+        "https://tari.com/downloads"
+      ],
       "reviewQueue": [],
       "checkedScope": [
         "https://tari.com/downloads",
@@ -2989,7 +3053,8 @@
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
-      "blockedSources": []
+      "blockedSources": [],
+      "canonicalResourceId": "official-universe"
     },
     "project:sooon-fun": {
       "id": "project:sooon-fun",
@@ -10695,6 +10760,284 @@
         "https://discord.com/channels/892738558316662855/892738558996148236/1563540177790701698",
         "https://discord.com/channels/892738558316662855/892738558996148236/1562623685511090289",
         "https://discord.com/channels/892738558316662855/892738558996148236/1559317481578045460"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:learn:official-universe": {
+      "id": "tari-ootle:learn:official-universe",
+      "title": "Tari Universe",
+      "canonicalResourceId": "official-universe",
+      "sources": [
+        "https://github.com/tari-project/universe",
+        "https://github.com/tari-project/universe/releases/tag/v1.6.20",
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a",
+        "https://github.com/tari-project/universe/releases/tag/v1.6.19",
+        "https://github.com/tari-project/universe/releases/tag/v1.6.18",
+        "https://tari.com/downloads"
+      ],
+      "lastAttemptAt": "2026-11-02T19:48:15.922Z",
+      "sourceReviews": {
+        "https://github.com/tari-project/universe": {
+          "url": "https://github.com/tari-project/universe",
+          "hash": "92b766f08a70c597f8d64296d7c67a6672d5cb1d6dd0372ad7ba3eff637c9a72",
+          "evidence": "work/daily-2026-10-31/11909bcb8ee41ab0-92b766f08a70c597f8d64296d7c67a6672d5cb1d6dd0372ad7ba3eff637c9a72.txt",
+          "attemptedAt": "2026-11-02T19:13:18.525822+00:00",
+          "revision": "eed2f48bc751e24a45d1031fb320404c061e38fc",
+          "method": "Full public README reviewed; current bytes matched retained accepted README.",
+          "releaseEvidence": "work/daily-2026-10-31/5a42357b1e131c4d-64dd836e0fd1841590915dd7fb9de772432e6340ee333f9981201f8dce27cba0.txt",
+          "lastAttemptAt": "2026-11-02T19:13:18.525822+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.525822+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/universe/releases/tag/v1.6.20": {
+          "url": "https://github.com/tari-project/universe/releases/tag/v1.6.20",
+          "hash": "64dd836e0fd1841590915dd7fb9de772432e6340ee333f9981201f8dce27cba0",
+          "evidence": "work/daily-2026-10-31/5a42357b1e131c4d-64dd836e0fd1841590915dd7fb9de772432e6340ee333f9981201f8dce27cba0.txt",
+          "attemptedAt": "2026-11-02T19:13:18.525822+00:00",
+          "revision": "eed2f48bc751e24a45d1031fb320404c061e38fc",
+          "method": "Complete returned release notes reviewed within maintenance lookback.",
+          "releaseEvidence": "work/daily-2026-10-31/5a42357b1e131c4d-64dd836e0fd1841590915dd7fb9de772432e6340ee333f9981201f8dce27cba0.txt",
+          "lastAttemptAt": "2026-11-02T19:13:18.525822+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.525822+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22": {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
+          "hash": "ee199842a249d5b1f02a0a5cd3f4bf808df03bbacf06d9308922a0781d4a994c",
+          "evidence": "work/daily-2026-10-31/95b9ef7290e72b2a-ee199842a249d5b1f02a0a5cd3f4bf808df03bbacf06d9308922a0781d4a994c.txt",
+          "attemptedAt": "2026-11-02T19:46:21.088525+00:00",
+          "method": "Original post and complete returned reply tree read; reply counts matched.",
+          "lastAttemptAt": "2026-11-02T19:46:21.088525+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:46:21.088525+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a": {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a",
+          "hash": "c26f96e65ea071e12b24b6bab1ac538b2a92c8dd3ac68c3d63b30027bbb23a5b",
+          "evidence": "work/daily-2026-10-31/30e8b19a5d59f92f-c26f96e65ea071e12b24b6bab1ac538b2a92c8dd3ac68c3d63b30027bbb23a5b.txt",
+          "attemptedAt": "2026-11-02T19:46:21.376400+00:00",
+          "method": "Original post and complete returned reply tree read; reply counts matched.",
+          "lastAttemptAt": "2026-11-02T19:46:21.376400+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:46:21.376400+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/universe/releases/tag/v1.6.19": {
+          "url": "https://github.com/tari-project/universe/releases/tag/v1.6.19",
+          "hash": "74f69e5b43f8808a21d11f2a17b31ebf25679c36cc6239c79b3f503d91119dd2",
+          "evidence": "work/daily-2026-10-31/46a5159b8c0f2f8a-74f69e5b43f8808a21d11f2a17b31ebf25679c36cc6239c79b3f503d91119dd2.txt",
+          "attemptedAt": "2026-11-02T19:13:18.525822+00:00",
+          "method": "Full individual release notes retained and reviewed.",
+          "lastAttemptAt": "2026-11-02T19:13:18.525822+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.525822+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/universe/releases/tag/v1.6.18": {
+          "url": "https://github.com/tari-project/universe/releases/tag/v1.6.18",
+          "hash": "ba182f20007e465785295776f8814af6734899bcdb6ed3d082f4aa2ad632bbbd",
+          "evidence": "work/daily-2026-10-31/3ba1255c826c2225-ba182f20007e465785295776f8814af6734899bcdb6ed3d082f4aa2ad632bbbd.txt",
+          "attemptedAt": "2026-11-02T19:13:18.525822+00:00",
+          "method": "Full individual release notes retained and reviewed.",
+          "lastAttemptAt": "2026-11-02T19:13:18.525822+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.525822+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://tari.com/downloads": {
+          "url": "https://tari.com/downloads",
+          "hash": "1061ba911fef29acd301da8354987b9f86ca337b131845e4fce7c93e7cab56bf",
+          "evidence": "work/daily-2026-10-31/universe-downloads-browser-nov2.txt",
+          "attemptedAt": "2026-11-02T19:48:15.922Z",
+          "method": "Rendered download page reviewed; both desktop download HEAD requests returned 200 for v1.6.20. No binaries downloaded or executed.",
+          "downloadEvidence": "work/daily-2026-10-31/universe-download-head-nov2.json",
+          "lastAttemptAt": "2026-11-02T19:48:15.922Z",
+          "lastSuccessfulReadAt": "2026-11-02T19:48:15.922Z",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
+      "observedAvailability": "Desktop app · Ootle wallet: testnet",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://github.com/tari-project/universe",
+        "https://github.com/tari-project/universe/releases/tag/v1.6.20",
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a",
+        "https://github.com/tari-project/universe/releases/tag/v1.6.19",
+        "https://github.com/tari-project/universe/releases/tag/v1.6.18",
+        "https://tari.com/downloads"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:learn:cw-tari-wallet": {
+      "id": "tari-ootle:learn:cw-tari-wallet",
+      "title": "Cake Wallet Tari L1 backend",
+      "canonicalResourceId": "cw-tari-wallet",
+      "sources": [
+        "https://github.com/tari-project/cw_tari_wallet",
+        "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet"
+      ],
+      "lastAttemptAt": "2026-11-02T19:48:15.922Z",
+      "sourceReviews": {
+        "https://github.com/tari-project/cw_tari_wallet": {
+          "url": "https://github.com/tari-project/cw_tari_wallet",
+          "hash": "5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822",
+          "evidence": "work/daily-2026-10-31/801ff7b0899d38a1-5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822.txt",
+          "attemptedAt": "2026-11-02T19:13:18.529785+00:00",
+          "revision": "6d4c9757731e60ef298bd16c852ccceb9e084186",
+          "method": "Full public README reviewed; current bytes matched retained accepted README.",
+          "releaseEvidence": "work/daily-2026-10-31/e0a6c0d767d46758-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-02T19:13:18.529785+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.529785+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet": {
+          "url": "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet",
+          "hash": "5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822",
+          "evidence": "work/daily-2026-10-31/801ff7b0899d38a1-5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822.txt",
+          "attemptedAt": "2026-11-02T19:13:18.529785+00:00",
+          "revision": "6d4c9757731e60ef298bd16c852ccceb9e084186",
+          "method": "Full public README reviewed; current bytes matched retained accepted README.",
+          "releaseEvidence": "work/daily-2026-10-31/e0a6c0d767d46758-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-02T19:13:18.529785+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.529785+00:00",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
+      "observedAvailability": "Source code · Flutter / Rust",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://github.com/tari-project/cw_tari_wallet",
+        "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:learn:cw-tari-ootle-wallet": {
+      "id": "tari-ootle:learn:cw-tari-ootle-wallet",
+      "title": "Cake Wallet Ootle backend",
+      "canonicalResourceId": "cw-tari-ootle-wallet",
+      "sources": [
+        "https://github.com/tari-project/cw_tari_ootle_wallet",
+        "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet"
+      ],
+      "lastAttemptAt": "2026-11-02T19:48:15.922Z",
+      "sourceReviews": {
+        "https://github.com/tari-project/cw_tari_ootle_wallet": {
+          "url": "https://github.com/tari-project/cw_tari_ootle_wallet",
+          "hash": "dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4",
+          "evidence": "work/daily-2026-10-31/e7edf2847a2a0b71-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
+          "attemptedAt": "2026-11-02T19:13:18.530170+00:00",
+          "revision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
+          "method": "Full public README reviewed; current bytes matched retained accepted README.",
+          "releaseEvidence": "work/daily-2026-10-31/3a2f2c31db0de96a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-02T19:13:18.530170+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.530170+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet": {
+          "url": "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet",
+          "hash": "dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4",
+          "evidence": "work/daily-2026-10-31/e7edf2847a2a0b71-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
+          "attemptedAt": "2026-11-02T19:13:18.530170+00:00",
+          "revision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
+          "method": "Full public README reviewed; current bytes matched retained accepted README.",
+          "releaseEvidence": "work/daily-2026-10-31/3a2f2c31db0de96a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-02T19:13:18.530170+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.530170+00:00",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
+      "observedAvailability": "Source code · Testnet · v0.47 pins",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://github.com/tari-project/cw_tari_ootle_wallet",
+        "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:learn:minotari-cli-release": {
+      "id": "tari-ootle:learn:minotari-cli-release",
+      "title": "Minotari CLI",
+      "canonicalResourceId": "minotari-cli-release",
+      "sources": [
+        "https://github.com/tari-project/minotari-cli",
+        "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2"
+      ],
+      "lastAttemptAt": "2026-11-02T19:48:15.922Z",
+      "sourceReviews": {
+        "https://github.com/tari-project/minotari-cli": {
+          "url": "https://github.com/tari-project/minotari-cli",
+          "hash": "fba374a3ab72184c2ab0e57da724e66a45646f47fc1faec194b1be8ad8f9bb40",
+          "evidence": "work/daily-2026-10-31/d1144ba3daf05380-fba374a3ab72184c2ab0e57da724e66a45646f47fc1faec194b1be8ad8f9bb40.txt",
+          "attemptedAt": "2026-11-02T19:13:18.527323+00:00",
+          "revision": "e695b6f4ae6568c1eac64cb99ef76580700efa58",
+          "method": "Full public README reviewed; current bytes matched retained accepted README.",
+          "releaseEvidence": "work/daily-2026-10-31/9dab7fde8eab1663-9320539c4c3c56df2a45cb19f8a236c5b522a365ee0f0139bfcf4a97d3ebdcdb.txt",
+          "lastAttemptAt": "2026-11-02T19:13:18.527323+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.527323+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2": {
+          "url": "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2",
+          "hash": "9320539c4c3c56df2a45cb19f8a236c5b522a365ee0f0139bfcf4a97d3ebdcdb",
+          "evidence": "work/daily-2026-10-31/9dab7fde8eab1663-9320539c4c3c56df2a45cb19f8a236c5b522a365ee0f0139bfcf4a97d3ebdcdb.txt",
+          "attemptedAt": "2026-11-02T19:13:18.527323+00:00",
+          "revision": "e695b6f4ae6568c1eac64cb99ef76580700efa58",
+          "method": "Complete returned release notes reviewed within maintenance lookback.",
+          "releaseEvidence": "work/daily-2026-10-31/9dab7fde8eab1663-9320539c4c3c56df2a45cb19f8a236c5b522a365ee0f0139bfcf4a97d3ebdcdb.txt",
+          "lastAttemptAt": "2026-11-02T19:13:18.527323+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T19:13:18.527323+00:00",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
+      "observedAvailability": "CLI · v0.5.2",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://github.com/tari-project/minotari-cli",
+        "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2"
       ],
       "reviewRequired": false,
       "changedFields": [
