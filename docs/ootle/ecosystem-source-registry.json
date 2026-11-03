@@ -3443,15 +3443,18 @@
       "title": "Ootlejuice Candy Summoner",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
-        "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner"
+        "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner",
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27"
       ],
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "outcome": "reviewed",
       "reviewRequired": false,
-      "lastAttemptAt": "2026-10-31T14:00:56.589Z",
-      "nextReviewAt": "2026-11-01T09:00:00Z",
+      "lastAttemptAt": "2026-11-03T09:34:49.964387+00:00",
+      "nextReviewAt": "2026-11-04T10:00:00Z",
       "changedFields": [
-        "sourceEvidence"
+        "discussionLinks",
+        "summary"
       ],
       "sourceReviews": {
         "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner": {
@@ -3516,25 +3519,53 @@
           "lastSuccessfulReadAt": "2026-10-31T09:03:12.106795+00:00",
           "status": "read",
           "error": null
+        },
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27": {
+          "url": "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
+          "status": "read",
+          "lastAttemptAt": "2026-11-03T09:34:49.964387+00:00",
+          "lastSuccessfulReadAt": "2026-11-03T09:34:49.964387+00:00",
+          "hash": "77e826bbdedf25bb9db7dd0973561aa71ce916ed7d406eeee1ff845a2269205f",
+          "evidence": "work/daily-2026-10-31/candy-creator-post-review-nov3.json",
+          "method": "Full public Bluesky thread API including one reply; actual creator animation playback and still illustration reviewed.",
+          "error": null
+        },
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27": {
+          "url": "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27",
+          "status": "read",
+          "lastAttemptAt": "2026-11-03T09:34:49.964387+00:00",
+          "lastSuccessfulReadAt": "2026-11-03T09:34:49.964387+00:00",
+          "hash": "77e826bbdedf25bb9db7dd0973561aa71ce916ed7d406eeee1ff845a2269205f",
+          "evidence": "work/daily-2026-10-31/candy-creator-post-review-nov3.json",
+          "method": "Full public Bluesky thread API including one reply; actual creator animation playback and still illustration reviewed.",
+          "error": null
         }
       },
       "priorReviewBasis": null,
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5"
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27"
       ],
       "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
         "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
-      "copyUpdated": false,
+      "sourceObservation": "November 3 additional-source review: creator Bluesky original and its one illustrated reply read completely; 5.2-second animation inspected at opening/middle/closing and played. Animation is concept artwork, not runtime demonstration. Earlier repository and forum successful review dates retained.",
+      "copyUpdated": true,
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "reviewedSourceCount": 2,
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
-      "blockedSources": []
+      "blockedSources": [],
+      "reviewHistory": [
+        {
+          "lastAttemptAt": "2026-10-31T14:00:56.589Z",
+          "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+          "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing."
+        }
+      ]
     },
     "project:ghostkey": {
       "id": "project:ghostkey",

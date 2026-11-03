@@ -131,3 +131,13 @@ Resource receipt: reuse @vercel/sandbox 3.5.1, Jobs and scoped project grants; R
 ## October 12 maintenance candidate
 
 Phone header navigation uses the existing React Bootstrap dropdown and preserves settings/assistant handlers. Workspace controls wrap without clipped labels; the statusbar action is shorter. Reproduce at 390×844, 768px and desktop, check Menu keyboard dismiss, Settings/Tari AI actions, layout controls, workspace persistence, source discussion links and recording playback. CI audits both pinned Cargo lockfiles independently. See ECOSYSTEM_2026-10-12.md; local tests do not establish publication.
+
+### November 3 UI and desktop dependency maintenance
+
+React Intl 12.1.6, Router 7.18.5 and Toastify 11.2.0 retain the existing React 18 providers and lesson routes. Noir WASM moves from beta to stable 1.0.0. All 12 library builds and the actual IDE production build passed; an isolated browser trial covered pluralized copy, lesson navigation and notification dismissal, and the repository Noir multiplier compiled with stable output/ABI.
+
+Desktop static serving moves to Express 5.3.0 with matching types. Its HTML, JavaScript, WASM and 404 paths passed an ephemeral HTTP trial. esbuild 0.28.2 and webpack-cli 7.3.1 both built the actual desktop entrypoints. Notarize 3.1.2 loaded through the existing CommonJS hook and its explicit no-signing path passed; native Electron execution, packaging credentials and signing were not exercised. Unused desktop selenium-standalone and published remix-url-resolver dependencies, and the root empty Husky shim, are removed; direct driver configuration and the local resolver remain.
+
+The attempted wallet migration failed the actual legacy library build on Ox types and JavaScript library targets. Current wallet packages are retained. Amp 0.0.55 has a conflicting Effect platform-node peer range; eth-sig-util 9 excludes the maintained Electron/Node 20 runtime. These migrations remain assessed deferrals with exact evidence in the maintenance inventory.
+
+Selection receipt: reused existing Yarn workspaces, Nx/webpack desktop builders, the current CUA browser and catalog acceptance checks. Build/install work stayed in the checked Developer checkout. No replacement build or capture pipeline was introduced. Detailed dated receipts live in the dedicated maintenance workspace under work/daily-2026-10-31/*-nov3.*.
