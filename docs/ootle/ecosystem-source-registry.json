@@ -3212,7 +3212,7 @@
           "error": null
         }
       },
-      "observedAvailability": "Desktop app \u00b7 Ootle wallet: testnet",
+      "observedAvailability": "Desktop app · Ootle wallet: testnet",
       "changedSources": [
         "https://github.com/tari-project/universe/releases/tag/v1.6.20",
         "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a",
@@ -3443,15 +3443,18 @@
       "title": "Ootlejuice Candy Summoner",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
-        "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner"
+        "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner",
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27"
       ],
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "outcome": "reviewed",
       "reviewRequired": false,
-      "lastAttemptAt": "2026-10-31T14:00:56.589Z",
-      "nextReviewAt": "2026-11-01T09:00:00Z",
+      "lastAttemptAt": "2026-11-03T09:34:49.964387+00:00",
+      "nextReviewAt": "2026-11-04T10:00:00Z",
       "changedFields": [
-        "sourceEvidence"
+        "discussionLinks",
+        "summary"
       ],
       "sourceReviews": {
         "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner": {
@@ -3516,25 +3519,53 @@
           "lastSuccessfulReadAt": "2026-10-31T09:03:12.106795+00:00",
           "status": "read",
           "error": null
+        },
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27": {
+          "url": "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
+          "status": "read",
+          "lastAttemptAt": "2026-11-03T09:34:49.964387+00:00",
+          "lastSuccessfulReadAt": "2026-11-03T09:34:49.964387+00:00",
+          "hash": "77e826bbdedf25bb9db7dd0973561aa71ce916ed7d406eeee1ff845a2269205f",
+          "evidence": "work/daily-2026-10-31/candy-creator-post-review-nov3.json",
+          "method": "Full public Bluesky thread API including one reply; actual creator animation playback and still illustration reviewed.",
+          "error": null
+        },
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27": {
+          "url": "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27",
+          "status": "read",
+          "lastAttemptAt": "2026-11-03T09:34:49.964387+00:00",
+          "lastSuccessfulReadAt": "2026-11-03T09:34:49.964387+00:00",
+          "hash": "77e826bbdedf25bb9db7dd0973561aa71ce916ed7d406eeee1ff845a2269205f",
+          "evidence": "work/daily-2026-10-31/candy-creator-post-review-nov3.json",
+          "method": "Full public Bluesky thread API including one reply; actual creator animation playback and still illustration reviewed.",
+          "error": null
         }
       },
       "priorReviewBasis": null,
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5"
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27"
       ],
       "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
         "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
-      "copyUpdated": false,
+      "sourceObservation": "November 3 additional-source review: creator Bluesky original and its one illustrated reply read completely; 5.2-second animation inspected at opening/middle/closing and played. Animation is concept artwork, not runtime demonstration. Earlier repository and forum successful review dates retained.",
+      "copyUpdated": true,
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "reviewedSourceCount": 2,
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
-      "blockedSources": []
+      "blockedSources": [],
+      "reviewHistory": [
+        {
+          "lastAttemptAt": "2026-10-31T14:00:56.589Z",
+          "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+          "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing."
+        }
+      ]
     },
     "project:ghostkey": {
       "id": "project:ghostkey",
@@ -4988,7 +5019,7 @@
         "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
         "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l"
       ],
-      "sourceObservation": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator\u2019s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN \u00b7 SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
+      "sourceObservation": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "reviewedSourceCount": 6,
@@ -5392,7 +5423,7 @@
         "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
         "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l"
       ],
-      "sourceObservation": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator\u2019s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN \u00b7 SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
+      "sourceObservation": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "reviewedSourceCount": 7,
@@ -6500,7 +6531,7 @@
     },
     "project:seance": {
       "id": "project:seance",
-      "title": "S\u00e9ance",
+      "title": "Séance",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
@@ -6570,7 +6601,7 @@
     },
     "tari-ootle:component:seance": {
       "id": "tari-ootle:component:seance",
-      "title": "S\u00e9ance",
+      "title": "Séance",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
@@ -6807,7 +6838,7 @@
     },
     "project:seance-privacy": {
       "id": "project:seance-privacy",
-      "title": "Seance \u2014 privacy demo",
+      "title": "Seance — privacy demo",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
         "https://github.com/Kylne700/seance-v2",
@@ -6887,7 +6918,7 @@
         "https://github.com/Kylne700/seance",
         "https://kylne700.github.io/seance/"
       ],
-      "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0\u20130.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools\u2019 sealed-poll project.",
+      "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0–0.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools’ sealed-poll project.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "reviewedSourceCount": 3,
@@ -6897,7 +6928,7 @@
     },
     "tari-ootle:component:seance-privacy": {
       "id": "tari-ootle:component:seance-privacy",
-      "title": "Seance \u2014 privacy demo",
+      "title": "Seance — privacy demo",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
         "https://github.com/Kylne700/seance-v2",
@@ -7027,7 +7058,7 @@
         "https://github.com/Kylne700/seance#readme",
         "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22"
       ],
-      "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0\u20130.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools\u2019 sealed-poll project.",
+      "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0–0.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools’ sealed-poll project.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "reviewedSourceCount": 5,
@@ -8313,7 +8344,7 @@
     },
     "project:arkimals": {
       "id": "project:arkimals",
-      "title": "Arkimals \u2014 Halloween on Tari",
+      "title": "Arkimals — Halloween on Tari",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
         "https://github.com/BlackTurtle123/tari-midnight-kennel",
@@ -8433,7 +8464,7 @@
       ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-01T09:00:00Z",
-      "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator\u2019s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host\u2019s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
+      "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "supersededSources": {},
@@ -8499,7 +8530,7 @@
       ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-01T09:00:00Z",
-      "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources\u2019 private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
+      "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "pendingReviewSources": [],
@@ -8571,7 +8602,7 @@
     },
     "tari-ootle:component:arkimals": {
       "id": "tari-ootle:component:arkimals",
-      "title": "Arkimals \u2014 Halloween on Tari",
+      "title": "Arkimals — Halloween on Tari",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
         "https://github.com/BlackTurtle123/tari-midnight-kennel",
@@ -8831,7 +8862,7 @@
       ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-01T09:00:00Z",
-      "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator\u2019s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host\u2019s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
+      "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "supersededSources": {},
@@ -8922,7 +8953,7 @@
       ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-01T09:00:00Z",
-      "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources\u2019 private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
+      "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "pendingReviewSources": [],
@@ -11053,7 +11084,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
-      "observedAvailability": "Guide \u00b7 Universe 1.6.12",
+      "observedAvailability": "Guide · Universe 1.6.12",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -11114,7 +11145,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
-      "observedAvailability": "Mining pool \u00b7 1% fee \u00b7 0.1 XTM minimum",
+      "observedAvailability": "Mining pool · 1% fee · 0.1 XTM minimum",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -11200,7 +11231,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
-      "observedAvailability": "Desktop app \u00b7 NVIDIA / experimental AMD \u00b7 1% dev fee",
+      "observedAvailability": "Desktop app · NVIDIA / experimental AMD · 1% dev fee",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -11317,7 +11348,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-      "observedAvailability": "Desktop app \u00b7 Ootle wallet: testnet",
+      "observedAvailability": "Desktop app · Ootle wallet: testnet",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -11375,7 +11406,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-      "observedAvailability": "Source code \u00b7 Flutter / Rust",
+      "observedAvailability": "Source code · Flutter / Rust",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -11428,7 +11459,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-      "observedAvailability": "Source code \u00b7 Testnet \u00b7 v0.47 pins",
+      "observedAvailability": "Source code · Testnet · v0.47 pins",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -11481,7 +11512,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-      "observedAvailability": "CLI \u00b7 v0.5.2",
+      "observedAvailability": "CLI · v0.5.2",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -11803,7 +11834,7 @@
     },
     "tari-ootle:learn:kurarmota-two-layer-architecture": {
       "id": "tari-ootle:learn:kurarmota-two-layer-architecture",
-      "title": "Tari\u2019s two-layer architecture",
+      "title": "Tari’s two-layer architecture",
       "sources": [
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
         "https://medium.com/@isahjaafar12/-8cbde86c94e3"
