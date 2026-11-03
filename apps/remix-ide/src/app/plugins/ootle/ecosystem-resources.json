@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-11-02T21:09:53.261411+00:00",
+  "reviewedAt": "2026-11-03T06:05:28.979490+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -3556,6 +3556,91 @@
         "source": "Docs walkthrough — November 2 public article; no account, wallet or mining action."
       },
       "lastAttemptAt": "2026-11-03T00:18:11.825Z"
+    },
+    {
+      "id": "tari-ootle:component:rubic-swap-widget",
+      "key": "rubic-swap-widget",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Developer tools",
+      "title": "Rubic Swap Widget for WordPress",
+      "summary": "WordPress plugin source for an inline Rubic swap interface, defaulting to wXTM on Ethereum. The README describes Rubic REST API v2 quotes, ethers.js v6 signing, six EVM chains and optional WalletConnect configuration. Requires WordPress 5.0+ and PHP 7.4+; swaps require a compatible wallet. The PHP header declares version 2.0.0 and GPL-2.0-or-later. On November 3, 2026 the creator-linked HTTP test page was readable as HTML, but independent browser navigation was blocked by the client. The recording shows the public README; no plugin installation, wallet connection or swap was performed.",
+      "cardSummary": "Embed a wXTM-focused cross-chain swap interface in WordPress using Rubic quotes and browser wallets.",
+      "cardStatus": "Source code · WordPress",
+      "status": "Source code · WordPress",
+      "sourceUrl": "https://github.com/Luci666-Onyx/rubic-swap-widget",
+      "repoUrl": "https://github.com/Luci666-Onyx/rubic-swap-widget",
+      "docsUrl": "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md",
+      "creator": {
+        "name": "Luci666",
+        "url": "https://github.com/Luci666-Onyx"
+      },
+      "license": "GPL-2.0-or-later",
+      "network": "Ethereum wXTM · EVM networks",
+      "platform": "WordPress 5.0+ · PHP 7.4+",
+      "upstreamRevision": "b18f617d51b9e8231aaea6e1b93547ecf8e9d272",
+      "sourceUpdatedAt": "2026-10-15T21:50:35Z",
+      "lastCheckedAt": "2026-11-03T06:00:04.128154+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "wxtm"
+      ],
+      "demoUrl": null,
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rubic-swap-widget-20261103-14e5351712.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rubic-swap-widget-20261103-14e5351712.png",
+        "source": "Docs walkthrough — public repository README; no installation, wallet connection or transaction execution."
+      },
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/introducing-caravel/276/20",
+          "platform": "Tari Community forum",
+          "context": "Creator shares the public Rubic swap test site",
+          "publishedAt": "2026-10-22T20:18:51.103Z"
+        }
+      ]
+    },
+    {
+      "id": "tari-ootle:component:rubic-widget-skill",
+      "key": "rubic-widget-skill",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Agents",
+      "title": "Rubic Widget Agent Skill",
+      "summary": "Community agent-learning reference synthesized from official Rubic documentation using book-to-skill. Eight chapters cover SDK Lite, REST API v2, MCP configuration, fees, statuses, claims, refunds and errors. The README distinguishes these synthesized summaries from the official documentation. On November 3, 2026 the public repository and README were readable, with no published releases or specified license in the reviewed metadata/README. No separate public original sharing post was found; the repository is the actual discovery page. The recording shows the README; the skill was not installed or used as agent instructions.",
+      "cardSummary": "Give coding agents structured Rubic API and SDK guidance for quotes, swap status, fees, claims and refunds.",
+      "cardStatus": "Agent skill",
+      "status": "Agent skill",
+      "sourceUrl": "https://github.com/Luci666-Onyx/rubic-widget-skill",
+      "repoUrl": "https://github.com/Luci666-Onyx/rubic-widget-skill",
+      "docsUrl": "https://github.com/Luci666-Onyx/rubic-widget-skill/blob/main/README.md",
+      "creator": {
+        "name": "Luci666",
+        "url": "https://github.com/Luci666-Onyx"
+      },
+      "license": "Not specified",
+      "network": "Rubic-supported networks",
+      "platform": "Agent Skills hosts",
+      "upstreamRevision": "49a16bfce5f221547ada02f0bf6403d0f4dee659",
+      "sourceUpdatedAt": "2026-10-12T02:07:06Z",
+      "lastCheckedAt": "2026-11-03T06:00:04.128154+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "agents"
+      ],
+      "demoUrl": null,
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rubic-widget-skill-20261103-9bc337c0c3.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rubic-widget-skill-20261103-9bc337c0c3.png",
+        "source": "Docs walkthrough — public repository README; no installation, wallet connection or transaction execution."
+      },
+      "discussionLinks": []
     }
   ],
   "opportunities": [

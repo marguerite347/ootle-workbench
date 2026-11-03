@@ -11847,6 +11847,197 @@
         "provenance"
       ],
       "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:component:rubic-swap-widget": {
+      "id": "tari-ootle:component:rubic-swap-widget",
+      "title": "Rubic Swap Widget for WordPress",
+      "sources": [
+        "https://github.com/Luci666-Onyx/rubic-swap-widget",
+        "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md",
+        "https://github.com/Luci666-Onyx/rubic-swap-widget/releases",
+        "https://community.tari.com/t/introducing-caravel/276/20",
+        "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php",
+        "http://172.105.101.24/swap/"
+      ],
+      "lastAttemptAt": "2026-11-03T06:00:33.601Z",
+      "sourceReviews": {
+        "https://github.com/Luci666-Onyx/rubic-swap-widget": {
+          "url": "https://github.com/Luci666-Onyx/rubic-swap-widget",
+          "hash": "b976d73591d9b1c3830cf2b397b99c3f423b5c634999b3312cade5dcb3f2507d",
+          "attemptedAt": "2026-11-03T05:59:07.620270+00:00",
+          "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+          "method": "Rendered public repository and complete README inspected in browser; earlier API evidence retained separately.",
+          "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
+          "lastSuccessfulReadAt": "2026-11-03T05:59:07.620270+00:00",
+          "status": "read",
+          "error": null,
+          "supportingEvidence": [
+            "work/daily-2026-10-31/rubic-repository-metadata-nov2.json"
+          ]
+        },
+        "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md": {
+          "url": "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md",
+          "hash": "a5d10511bb5eba4c574853e396aaf5159e504e922f5da9703cc84da4cf46fc41",
+          "attemptedAt": "2026-11-03T05:59:07.620270+00:00",
+          "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+          "method": "Rendered public repository and complete README inspected in browser; earlier API evidence retained separately.",
+          "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
+          "lastSuccessfulReadAt": "2026-11-03T05:59:07.620270+00:00",
+          "status": "read",
+          "error": null,
+          "supportingEvidence": [
+            "work/daily-2026-10-31/rubic-swap-widget-readme-nov2.md"
+          ]
+        },
+        "https://github.com/Luci666-Onyx/rubic-swap-widget/releases": {
+          "url": "https://github.com/Luci666-Onyx/rubic-swap-widget/releases",
+          "hash": "b976d73591d9b1c3830cf2b397b99c3f423b5c634999b3312cade5dcb3f2507d",
+          "attemptedAt": "2026-11-03T05:59:07.620270+00:00",
+          "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+          "method": "Rendered public repository and complete README inspected in browser; earlier API evidence retained separately.",
+          "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
+          "lastSuccessfulReadAt": "2026-11-03T05:59:07.620270+00:00",
+          "status": "read",
+          "error": null,
+          "supportingEvidence": [
+            "work/daily-2026-10-31/rubic-repository-metadata-nov2.json"
+          ]
+        },
+        "https://community.tari.com/t/introducing-caravel/276/20": {
+          "url": "https://community.tari.com/t/introducing-caravel/276/20",
+          "hash": "b6c4e918f223085702de27492f0a428ff51d8d71fb03c25ea21aa5ada63f0383",
+          "attemptedAt": "2026-11-03T05:17:29.276523+00:00",
+          "evidence": "work/daily-2026-10-31/caravel-rubic-thread-followup-nov3.json",
+          "method": "Public primary source read; curated listing, no integration or execution.",
+          "lastAttemptAt": "2026-11-03T05:17:29.276523+00:00",
+          "lastSuccessfulReadAt": "2026-11-03T05:17:29.276523+00:00",
+          "status": "read",
+          "error": null,
+          "artifactSavedAt": "2026-11-03T05:17:29.276523+00:00",
+          "timestampBasis": "Saved source receipt timestamp; content reviewed again during current curation."
+        },
+        "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php": {
+          "url": "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php",
+          "hash": "bab842dd9351ce422e196881f97ccf0aa7882ec5c1da4d206fb2109412d6bab4",
+          "attemptedAt": "2026-11-03T05:57:20.785421+00:00",
+          "evidence": "work/daily-2026-10-31/rubic-swap-plugin-source-nov3.txt",
+          "method": "Public primary source read; curated listing, no integration or execution.",
+          "lastAttemptAt": "2026-11-03T05:57:20.785421+00:00",
+          "lastSuccessfulReadAt": "2026-11-03T05:57:20.785421+00:00",
+          "status": "read",
+          "error": null,
+          "artifactSavedAt": "2026-11-03T05:57:20.785421+00:00",
+          "timestampBasis": "Saved source receipt timestamp; content reviewed again during current curation."
+        },
+        "http://172.105.101.24/swap/": {
+          "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
+          "status": "blocked",
+          "error": "Browser navigation rejected with net::ERR_BLOCKED_BY_CLIENT; HTTP HTML is available separately.",
+          "failureKind": "unavailable-client",
+          "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+          "nextAction": "Retry permitted browser access after client access changes; do not bypass protections."
+        }
+      },
+      "lastSuccessfulReviewAt": null,
+      "observedAvailability": null,
+      "outcome": "blocked",
+      "pendingReviewSources": [],
+      "blockedSources": [
+        "http://172.105.101.24/swap/"
+      ],
+      "changedSources": [
+        "https://github.com/Luci666-Onyx/rubic-swap-widget",
+        "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md",
+        "https://github.com/Luci666-Onyx/rubic-swap-widget/releases",
+        "https://community.tari.com/t/introducing-caravel/276/20",
+        "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php"
+      ],
+      "reviewRequired": true,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [
+        "copy",
+        "actions",
+        "details",
+        "recording",
+        "provenance"
+      ],
+      "nextReviewAt": "2026-11-04T10:00:00Z",
+      "copyUpdated": true,
+      "publicationStatus": "pending"
+    },
+    "tari-ootle:component:rubic-widget-skill": {
+      "id": "tari-ootle:component:rubic-widget-skill",
+      "title": "Rubic Widget Agent Skill",
+      "sources": [
+        "https://github.com/Luci666-Onyx/rubic-widget-skill",
+        "https://github.com/Luci666-Onyx/rubic-widget-skill/blob/main/README.md",
+        "https://github.com/Luci666-Onyx/rubic-widget-skill/releases"
+      ],
+      "lastAttemptAt": "2026-11-03T06:00:33.601Z",
+      "sourceReviews": {
+        "https://github.com/Luci666-Onyx/rubic-widget-skill": {
+          "url": "https://github.com/Luci666-Onyx/rubic-widget-skill",
+          "hash": "b976d73591d9b1c3830cf2b397b99c3f423b5c634999b3312cade5dcb3f2507d",
+          "attemptedAt": "2026-11-03T05:59:07.620270+00:00",
+          "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+          "method": "Rendered public repository and complete README inspected in browser; earlier API evidence retained separately.",
+          "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
+          "lastSuccessfulReadAt": "2026-11-03T05:59:07.620270+00:00",
+          "status": "read",
+          "error": null,
+          "supportingEvidence": [
+            "work/daily-2026-10-31/rubic-repository-metadata-nov2.json"
+          ]
+        },
+        "https://github.com/Luci666-Onyx/rubic-widget-skill/blob/main/README.md": {
+          "url": "https://github.com/Luci666-Onyx/rubic-widget-skill/blob/main/README.md",
+          "hash": "c17ec25b6ab67c5f98096bd0435d8c21d234aebc834e0f64dc764270510f1530",
+          "attemptedAt": "2026-11-03T05:59:07.620270+00:00",
+          "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+          "method": "Rendered public repository and complete README inspected in browser; earlier API evidence retained separately.",
+          "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
+          "lastSuccessfulReadAt": "2026-11-03T05:59:07.620270+00:00",
+          "status": "read",
+          "error": null,
+          "supportingEvidence": [
+            "work/daily-2026-10-31/rubic-widget-skill-readme-nov2.md"
+          ]
+        },
+        "https://github.com/Luci666-Onyx/rubic-widget-skill/releases": {
+          "url": "https://github.com/Luci666-Onyx/rubic-widget-skill/releases",
+          "hash": "b976d73591d9b1c3830cf2b397b99c3f423b5c634999b3312cade5dcb3f2507d",
+          "attemptedAt": "2026-11-03T05:59:07.620270+00:00",
+          "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+          "method": "Rendered public repository and complete README inspected in browser; earlier API evidence retained separately.",
+          "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
+          "lastSuccessfulReadAt": "2026-11-03T05:59:07.620270+00:00",
+          "status": "read",
+          "error": null,
+          "supportingEvidence": [
+            "work/daily-2026-10-31/rubic-repository-metadata-nov2.json"
+          ]
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-03T06:00:33.601Z",
+      "observedAvailability": "Public repository source and README available; source/docs recording reviewed. Synthesized agent-learning reference; no installation.",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://github.com/Luci666-Onyx/rubic-widget-skill",
+        "https://github.com/Luci666-Onyx/rubic-widget-skill/blob/main/README.md",
+        "https://github.com/Luci666-Onyx/rubic-widget-skill/releases"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-04T10:00:00Z",
+      "copyUpdated": true,
+      "publicationStatus": "pending"
     }
   },
   "resourceReviewSummary": {
