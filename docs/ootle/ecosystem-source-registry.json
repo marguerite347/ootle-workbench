@@ -13913,22 +13913,66 @@
       "nextReviewAt": "2026-11-04T10:00:00Z",
       "copyUpdated": true,
       "publicationStatus": "pending"
+    },
+    "november-mvp": {
+      "id": "november-mvp",
+      "title": "November MVP build contest",
+      "sources": [
+        "https://community.tari.com/t/november-build-contest-thread-mvp/520/1"
+      ],
+      "outcome": "reviewed",
+      "lastAttemptAt": "2026-11-02T14:18:49.459419+00:00",
+      "lastSuccessfulReviewAt": "2026-11-02T14:18:49.459419+00:00",
+      "reviewRequired": false,
+      "nextReviewAt": "2026-11-04T10:00:00Z",
+      "evidence": [
+        "work/daily-2026-10-31/d1dedc27c133ba65-794c5201bf58512504f94093aa4224a2b976cbc9d6a58d30d96fefa4583da7f7.txt",
+        "work/daily-2026-10-31/780527328929d5dc-9ed58928f5b5489bf2a220801ecc794ff69a8b82d827293c068b28e00fb2e30f.txt",
+        "work/daily-2026-10-31/nov2-new-topics-review.json",
+        "work/daily-2026-10-31/november-opportunities-release-acceptance.json",
+        "work/daily-2026-10-31/capture-nov2-discoveries/november-mvp-frame-review.json"
+      ],
+      "observedAvailability": "Public dated organizer announcement, replies and linked rules read November2; see source evidence. Not an application or transaction test.",
+      "reconciliationNote": "Existing dated opportunity review retained from actual November2 announcement, replies and rules read; independently published and accepted. Reconciliation adds missing scope identity without advancing its source review date."
+    },
+    "november-first-launch": {
+      "id": "november-first-launch",
+      "title": "November First to Launch bonus",
+      "sources": [
+        "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/1"
+      ],
+      "outcome": "reviewed",
+      "lastAttemptAt": "2026-11-02T14:18:49.459419+00:00",
+      "lastSuccessfulReviewAt": "2026-11-02T14:18:49.459419+00:00",
+      "reviewRequired": false,
+      "nextReviewAt": "2026-11-04T10:00:00Z",
+      "evidence": [
+        "work/daily-2026-10-31/9c75a8691b74d6f1-ed4fe7ba5984a6afc61a0f2ab765aeaeaef46859d78006e16ee97d9d093dd4cc.txt",
+        "work/daily-2026-10-31/780527328929d5dc-9ed58928f5b5489bf2a220801ecc794ff69a8b82d827293c068b28e00fb2e30f.txt",
+        "work/daily-2026-10-31/nov2-new-topics-review.json",
+        "work/daily-2026-10-31/november-opportunities-release-acceptance.json",
+        "work/daily-2026-10-31/capture-november-first-launch-retry/november-first-launch-frame-review.json"
+      ],
+      "observedAvailability": "Public dated organizer announcement, replies and linked rules read November2; see source evidence. Not an application or transaction test.",
+      "reconciliationNote": "Existing dated opportunity review retained from actual November2 announcement, replies and rules read; independently published and accepted. Reconciliation adds missing scope identity without advancing its source review date."
     }
   },
   "resourceReviewSummary": {
     "date": "2026-10-31",
     "resumedThrough": "2026-11-03",
     "reconciledAt": "2026-11-03T15:55:10.216163+00:00",
-    "enumerated": 133,
+    "enumerated": 135,
     "canonicalResources": 105,
-    "attempted": 133,
-    "completeWithinDeclaredScope": 120,
+    "attempted": 135,
+    "completeWithinDeclaredScope": 122,
     "partialOrBlocked": 13,
     "canonicalComplete": 94,
     "canonicalPartialOrBlocked": 11,
     "pending": 0,
     "note": "Counts describe the resumed run; source dates remain per resource. A record counted complete is complete within its dated declared review scope, not freshly reread at reconciliation. Crypt refresh publication is an aggregate task, not another canonical resource.",
-    "canonicalEvidence": "work/daily-2026-10-31/canonical-resource-map-accepted-nov3.json"
+    "canonicalEvidence": "work/daily-2026-10-31/canonical-resource-map-final-verified-nov3.json",
+    "currentCatalogQueueIdentities": 131,
+    "retainedAliasIdentities": 4
   },
   "dailyDiscovery": {
     "date": "2026-10-31",
@@ -13942,10 +13986,10 @@
       "pending": 0
     },
     "existingResourceOutcomes": {
-      "complete": 120,
+      "complete": 122,
       "blocked": 13,
       "pending": 0,
-      "countUnit": "catalog surface identity"
+      "countUnit": "review identity, including four retained historical aliases"
     },
     "discord": "Seven authorized channel snapshots read;240 linked messages reconciled,237 complete and3 unavailable. No private content published.",
     "publication": "Source and content scope reconciled. Final documentation-only publication and the completion gate remain separate; see dated completion.json and final result.",
@@ -14020,11 +14064,11 @@
       "publication": "Per-resource and per-release receipts retained; final publication and completion gate remain pending."
     }
   ],
-  "reconciledAt": "2026-11-03T15:55:10.216163+00:00",
+  "reconciledAt": "2026-11-03T16:00:05.228276+00:00",
   "canonicalResourceSummary": {
-    "checkedAt": "2026-11-03T15:38:04.656424+00:00",
-    "scope": "Canonical source identities deduplicated using the original reviewed mapping plus subsequently added identities; product surface counts remain separate. Not a new external source read.",
-    "surfaceCount": 133,
+    "checkedAt": "2026-11-03T16:00:05.228276+00:00",
+    "scope": "Current catalog enumeration plus retained historical surface aliases. Universe and Danse merged by shared primary evidence; two separately reviewed November opportunities included. Not a new source read.",
+    "surfaceCount": 135,
     "canonicalCount": 105,
     "outcomes": {
       "complete": 94,
@@ -14410,18 +14454,28 @@
         "canonicalId": "project:official-universe",
         "title": "Tari Universe",
         "surfaceIds": [
-          "project:official-universe"
+          "project:official-universe",
+          "tari-ootle:learn:official-universe"
         ],
-        "identityEvidence": [],
-        "identityBasis": "Single maintained resource identity.",
-        "outcome": "complete",
-        "sources": [
+        "identityEvidence": [
           "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
           "https://github.com/tari-project/universe"
         ],
+        "identityBasis": "Same named project, primary repository and original announcement; catalog surfaces retained separately.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
+          "https://github.com/tari-project/universe",
+          "https://github.com/tari-project/universe/releases/tag/v1.6.20",
+          "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a",
+          "https://github.com/tari-project/universe/releases/tag/v1.6.19",
+          "https://github.com/tari-project/universe/releases/tag/v1.6.18",
+          "https://tari.com/downloads"
+        ],
         "blockedSurfaceIds": [],
         "outcomes": {
-          "project:official-universe": "complete"
+          "project:official-universe": "complete",
+          "tari-ootle:learn:official-universe": "complete"
         }
       },
       {
@@ -15863,17 +15917,26 @@
         "canonicalId": "project:danse-macabre",
         "title": "Danse Macabre",
         "surfaceIds": [
-          "project:danse-macabre"
+          "project:danse-macabre",
+          "tari-ootle:component:danse-macabre"
         ],
-        "identityEvidence": [],
-        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+          "https://danse-macabre.vercel.app/",
+          "https://github.com/YASASWIP012/danse-macabre"
+        ],
+        "identityBasis": "Same named project, primary repository and original announcement; catalog surfaces retained separately.",
         "sources": [
           "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
           "https://github.com/YASASWIP012/danse-macabre",
-          "https://danse-macabre.vercel.app/"
+          "https://danse-macabre.vercel.app/",
+          "https://github.com/YASASWIP012/danse-macabre#readme",
+          "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
+          "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q"
         ],
         "outcomes": {
-          "project:danse-macabre": "complete"
+          "project:danse-macabre": "complete",
+          "tari-ootle:component:danse-macabre": "complete"
         },
         "outcome": "complete",
         "blockedSurfaceIds": []
@@ -15909,28 +15972,6 @@
         ],
         "outcomes": {
           "tari-ootle:learn:book-to-skill": "complete"
-        },
-        "outcome": "complete",
-        "blockedSurfaceIds": []
-      },
-      {
-        "canonicalId": "tari-ootle:component:danse-macabre",
-        "title": "Danse Macabre",
-        "surfaceIds": [
-          "tari-ootle:component:danse-macabre"
-        ],
-        "identityEvidence": [],
-        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
-        "sources": [
-          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
-          "https://github.com/YASASWIP012/danse-macabre",
-          "https://github.com/YASASWIP012/danse-macabre#readme",
-          "https://danse-macabre.vercel.app/",
-          "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
-          "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q"
-        ],
-        "outcomes": {
-          "tari-ootle:component:danse-macabre": "complete"
         },
         "outcome": "complete",
         "blockedSurfaceIds": []
@@ -15983,29 +16024,6 @@
         ],
         "outcomes": {
           "tari-ootle:learn:bzminer": "complete"
-        },
-        "outcome": "complete",
-        "blockedSurfaceIds": []
-      },
-      {
-        "canonicalId": "tari-ootle:learn:official-universe",
-        "title": "Tari Universe",
-        "surfaceIds": [
-          "tari-ootle:learn:official-universe"
-        ],
-        "identityEvidence": [],
-        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
-        "sources": [
-          "https://github.com/tari-project/universe",
-          "https://github.com/tari-project/universe/releases/tag/v1.6.20",
-          "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
-          "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a",
-          "https://github.com/tari-project/universe/releases/tag/v1.6.19",
-          "https://github.com/tari-project/universe/releases/tag/v1.6.18",
-          "https://tari.com/downloads"
-        ],
-        "outcomes": {
-          "tari-ootle:learn:official-universe": "complete"
         },
         "outcome": "complete",
         "blockedSurfaceIds": []
@@ -16250,9 +16268,49 @@
         },
         "outcome": "complete",
         "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "november-mvp",
+        "title": "November MVP build contest",
+        "surfaceIds": [
+          "november-mvp"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/november-build-contest-thread-mvp/520/1"
+        ],
+        "identityBasis": "Distinct dated organizer opportunity.",
+        "sources": [
+          "https://community.tari.com/t/november-build-contest-thread-mvp/520/1"
+        ],
+        "outcomes": {
+          "november-mvp": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "november-first-launch",
+        "title": "November First to Launch bonus",
+        "surfaceIds": [
+          "november-first-launch"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/1"
+        ],
+        "identityBasis": "Distinct dated organizer opportunity.",
+        "sources": [
+          "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/1"
+        ],
+        "outcomes": {
+          "november-first-launch": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
       }
     ],
-    "supersedes": "canonical-resource-map-final-nov3.json; merged duplicate TariTalk Nodes identity, retaining both surface outcomes."
+    "supersedes": "canonical-resource-map-final-nov3.json; merged duplicate TariTalk Nodes identity, retaining both surface outcomes.",
+    "currentCatalogQueueIdentities": 131,
+    "retainedAliasIdentities": 4
   },
   "resourceReviewSummaryHistory": [
     {
@@ -16275,7 +16333,7 @@
     }
   ],
   "publicExport": {
-    "preparedAt": "2026-11-03T15:55:10.224958+00:00",
+    "preparedAt": "2026-11-03T16:00:05.259492+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
   }
 }
