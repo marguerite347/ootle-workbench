@@ -28,10 +28,11 @@
     "**/mocha/js-yaml": "4.3.2",
     "**/nightwatch/semver": "7.8.5",
     "**/mocha/minimatch": "4.2.5",
-    "**/mocha/serialize-javascript": "6.0.2",
     "**/nightwatch/minimatch": "3.1.5",
     "**/@ethersproject/providers/ws": "8.22.1",
     "**/viem/ws": "8.22.1",
-    "**/solc/tmp": "0.2.7"
+    "**/solc/tmp": "0.2.7",
+    "serialize-javascript": "7.1.4",
+    "**/nightwatch/uuid": "11.1.1"
   }
 }
