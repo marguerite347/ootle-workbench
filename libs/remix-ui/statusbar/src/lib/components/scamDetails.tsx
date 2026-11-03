@@ -13,20 +13,18 @@ export interface ScamDetailsProps {
   scamAlerts: ScamAlert[]
 }
 
-export default function ScamDetails ({ refs, floatStyle, scamAlerts }: ScamDetailsProps) {
+export default function ScamDetails ({ refs, floatStyle, getFloatingProps, scamAlerts }: ScamDetailsProps) {
   const { trackMatomoEvent: baseTrackEvent } = useContext(TrackingContext)
   const trackMatomoEvent = <T extends HomeTabEvent = HomeTabEvent>(event: T) => baseTrackEvent?.<T>(event)
 
   return (
     <div
       ref={refs.setFloating}
+      {...getFloatingProps({ 'aria-label': 'Scam alerts' })}
       id='scamDetails'
       style={{
-        position: 'absolute',
-        bottom: '-3.4rem',
-        left: '-2.5rem',
+        ...floatStyle,
         height: 'fit-content',
-        transform: 'translate(88.5px, -80px)',
         willChange: 'transform',
         boxShadow: "0 4px 12px rgba(0, 0, 0, 0.5)",
         backgroundColor: 'var(--bs-warning)',
@@ -42,6 +40,7 @@ export default function ScamDetails ({ refs, floatStyle, scamAlerts }: ScamDetai
         <i style={{ fontSize: 'xxx-large', fontWeight: 'bold', color: 'var(--bs-warning-text-emphasis)' }} className="pe-2 fas fa-exclamation-triangle"></i>
       </span>
       <div className="d-flex flex-column pe-2 py-2">
+        {scamAlerts.length === 0 && <span><FormattedMessage id="statusbar.noScamAlertsLoaded" defaultMessage="No scam alerts are currently loaded." /></span>}
         {scamAlerts && scamAlerts.map((alert, index) => (
           <span className="ps-2 mt-1" key={`${alert.url}${index}`} style={{ color: 'var(--bs-warning-text-emphasis)', fontWeight: 600, fontSize: '0.9rem' }}>
             {alert.url.length < 1 ? <FormattedMessage id={`home.scamAlertText${index + 1}`} defaultMessage={alert.message} />
