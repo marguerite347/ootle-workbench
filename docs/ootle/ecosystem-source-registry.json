@@ -13916,27 +13916,24 @@
     }
   },
   "resourceReviewSummary": {
-    "date": "2026-10-29",
-    "enumerated": 84,
-    "canonicalResources": 64,
-    "attempted": 84,
-    "completeWithinDeclaredScope": 76,
-    "partialOrBlocked": 8,
-    "notRechecked": 0,
-    "copyChanged": 3,
-    "newCanonicalEntries": 5,
-    "newSurfaces": 10,
-    "note": "Separate pending work from actual access failures. Counts describe catalog surfaces, not unique projects. Superseded URL history is retained. Full discovery/dependency/publication completion is assessed separately.",
-    "partiallyRechecked": 0,
+    "date": "2026-10-31",
+    "resumedThrough": "2026-11-03",
+    "reconciledAt": "2026-11-03T15:55:10.216163+00:00",
+    "enumerated": 133,
+    "canonicalResources": 105,
+    "attempted": 133,
+    "completeWithinDeclaredScope": 120,
+    "partialOrBlocked": 13,
+    "canonicalComplete": 94,
+    "canonicalPartialOrBlocked": 11,
     "pending": 0,
-    "incrementalReviewAt": "2026-10-31T12:44:57.707Z",
-    "incrementalComplete": 26,
-    "scope": "Only listed unchanged-review-receipt identities are fully reviewed in this incremental pass; other records retain their last-good dates and remain in the run queue."
+    "note": "Counts describe the resumed run; source dates remain per resource. A record counted complete is complete within its dated declared review scope, not freshly reread at reconciliation. Crypt refresh publication is an aggregate task, not another canonical resource.",
+    "canonicalEvidence": "work/daily-2026-10-31/canonical-resource-map-accepted-nov3.json"
   },
   "dailyDiscovery": {
     "date": "2026-10-31",
     "resumedThrough": "2026-11-03",
-    "status": "incomplete-final-reconciliation",
+    "status": "source-scope-disposed-publication-gate-pending",
     "lookback": "Seven-day overlap per last-good checkpoint; October3 where no later full checkpoint exists. Exact endpoints remain per source.",
     "scope": "Current run resumes unfinished October30/31 work. November1-3 heartbeats did not start competing releases.",
     "sourceOutcomes": {
@@ -13945,12 +13942,19 @@
       "pending": 0
     },
     "existingResourceOutcomes": {
-      "complete": 122,
-      "blocked": 11,
-      "pending": 0
+      "complete": 120,
+      "blocked": 13,
+      "pending": 0,
+      "countUnit": "catalog surface identity"
     },
     "discord": "Seven authorized channel snapshots read;240 linked messages reconciled,237 complete and3 unavailable. No private content published.",
-    "publication": "Per-resource and per-release receipts retained; final publication and completion gate remain pending."
+    "publication": "Source and content scope reconciled. Final documentation-only publication and the completion gate remain separate; see dated completion.json and final result.",
+    "canonicalResourceOutcomes": {
+      "complete": 94,
+      "blocked": 11,
+      "pending": 0,
+      "countUnit": "canonical resource"
+    }
   },
   "retryAttempts": [
     {
@@ -13995,9 +13999,28 @@
       "completionCorrectionAt": "2026-10-29T20:43:07.139836+00:00",
       "youtube": "Full public October20/27 show transcripts and descriptions reviewed.",
       "status": "source-review-finished-with-access-exceptions"
+    },
+    {
+      "date": "2026-10-31",
+      "resumedThrough": "2026-11-03",
+      "status": "incomplete-final-reconciliation",
+      "lookback": "Seven-day overlap per last-good checkpoint; October3 where no later full checkpoint exists. Exact endpoints remain per source.",
+      "scope": "Current run resumes unfinished October30/31 work. November1-3 heartbeats did not start competing releases.",
+      "sourceOutcomes": {
+        "complete": 456,
+        "blocked": 16,
+        "pending": 0
+      },
+      "existingResourceOutcomes": {
+        "complete": 122,
+        "blocked": 11,
+        "pending": 0
+      },
+      "discord": "Seven authorized channel snapshots read;240 linked messages reconciled,237 complete and3 unavailable. No private content published.",
+      "publication": "Per-resource and per-release receipts retained; final publication and completion gate remain pending."
     }
   ],
-  "reconciledAt": "2026-11-03T15:50:41.347693+00:00",
+  "reconciledAt": "2026-11-03T15:55:10.216163+00:00",
   "canonicalResourceSummary": {
     "checkedAt": "2026-11-03T15:38:04.656424+00:00",
     "scope": "Canonical source identities deduplicated using the original reviewed mapping plus subsequently added identities; product surface counts remain separate. Not a new external source read.",
@@ -16231,8 +16254,28 @@
     ],
     "supersedes": "canonical-resource-map-final-nov3.json; merged duplicate TariTalk Nodes identity, retaining both surface outcomes."
   },
+  "resourceReviewSummaryHistory": [
+    {
+      "date": "2026-10-29",
+      "enumerated": 84,
+      "canonicalResources": 64,
+      "attempted": 84,
+      "completeWithinDeclaredScope": 76,
+      "partialOrBlocked": 8,
+      "notRechecked": 0,
+      "copyChanged": 3,
+      "newCanonicalEntries": 5,
+      "newSurfaces": 10,
+      "note": "Separate pending work from actual access failures. Counts describe catalog surfaces, not unique projects. Superseded URL history is retained. Full discovery/dependency/publication completion is assessed separately.",
+      "partiallyRechecked": 0,
+      "pending": 0,
+      "incrementalReviewAt": "2026-10-31T12:44:57.707Z",
+      "incrementalComplete": 26,
+      "scope": "Only listed unchanged-review-receipt identities are fully reviewed in this incremental pass; other records retain their last-good dates and remain in the run queue."
+    }
+  ],
   "publicExport": {
-    "preparedAt": "2026-11-03T15:50:52.742370+00:00",
+    "preparedAt": "2026-11-03T15:55:10.224958+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
   }
 }
