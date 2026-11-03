@@ -16,12 +16,12 @@ export default function ScamAlertStatus ({ refs, getReferenceProps }: ScamAlertS
       <CustomTooltip
         tooltipText={intl.formatMessage({ id: 'statusbar.scamAlerts' })}
       >
-        <div className="me-1 d-flex align-items-center justify-content-center remixui_statusbar_scamAlert" data-id="hTScamAlertButton" id="hTScamAlertSection" ref={refs.setReference} {...getReferenceProps()}>
+        <button type="button" className="me-1 d-flex align-items-center justify-content-center remixui_statusbar_scamAlert bg-transparent border-0 p-0" data-id="hTScamAlertButton" id="hTScamAlertSection" ref={refs.setReference} {...getReferenceProps()}>
           <span className="pe-2 far fa-exclamation-triangle text-body"></span>
           <span className="text-body font-semibold small">
             <FormattedMessage id="home.scamAlert" />
           </span>
-        </div>
+        </button>
       </CustomTooltip>
     </>
   )

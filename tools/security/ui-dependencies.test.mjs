@@ -1,10 +1,29 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { createRequire } from 'node:module'
+import fs from 'node:fs'
+import vm from 'node:vm'
 
 const require = createRequire(import.meta.url)
 const React = require('react')
 const { renderToStaticMarkup } = require('react-dom/server')
+const ts = require('typescript')
+
+function loadStatusComponent(name) {
+  const source = fs.readFileSync(new URL(`../../libs/remix-ui/statusbar/src/lib/components/${name}.tsx`, import.meta.url), 'utf8')
+  const code = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.React, esModuleInterop: true } }).outputText
+  const module = { exports: {} }
+  const context = React.createContext({})
+  vm.runInNewContext(code, { module, exports: module.exports, require: id => {
+    if (id === 'react') return React
+    if (id === 'react-intl') return { FormattedMessage: ({ id, defaultMessage }) => defaultMessage || id, useIntl: () => ({ formatMessage: ({ id }) => id }) }
+    if (id === '@remix-ui/helper') return { CustomTooltip: ({ children }) => children }
+    if (id === '@remix-ide/tracking') return { TrackingContext: context }
+    if (id.endsWith('.css')) return {}
+    throw new Error(`Unexpected component dependency: ${id}`)
+  } })
+  return module.exports.default
+}
 
 test('scanner descriptions retain formatted text, entities and remediation links', () => {
   const parse = require('html-react-parser').default
@@ -32,4 +51,19 @@ test('UML transform render-props retain controls and image content', () => {
   }))
   assert.match(markup, /UML fixture/)
   assert.match(markup, /z-index:2/)
+})
+
+test('status popover keeps keyboard trigger semantics and floating accessibility/position props', () => {
+  const Trigger = loadStatusComponent('scamAlertStatus')
+  const Details = loadStatusComponent('scamDetails')
+  const refs = { setReference() {}, setFloating() {} }
+  const trigger = renderToStaticMarkup(React.createElement(Trigger, { refs, getReferenceProps: () => ({ 'aria-expanded': true, 'aria-controls': 'scamDetails' }) }))
+  assert.match(trigger, /<button type="button"/)
+  assert.match(trigger, /aria-controls="scamDetails"/)
+  const markup = renderToStaticMarkup(React.createElement(Details, { refs, floatStyle: { position: 'fixed', transform: 'translate(20px, 30px)', left: 0, top: 0 }, getFloatingProps: props => ({ role: 'dialog', ...props }), scamAlerts: [] }))
+  assert.match(markup, /role="dialog"/)
+  assert.match(markup, /aria-label="Scam alerts"/)
+  assert.match(markup, /position:fixed/)
+  assert.match(markup, /transform:translate\(20px, 30px\)/)
+  assert.match(markup, /No scam alerts are currently loaded/)
 })

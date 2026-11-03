@@ -36,7 +36,7 @@ export function RemixUIStatusBar({ statusBarPlugin }: RemixUIStatusBarProps) {
     }), size({
       apply({ availableWidth, availableHeight, elements, ...state }) {
         Object.assign(elements.floating.style, {
-          maxWidth: `${availableWidth}`,
+          maxWidth: `${availableWidth}px`,
           maxHeight: `auto`
         })
       }
@@ -79,9 +79,7 @@ export function RemixUIStatusBar({ statusBarPlugin }: RemixUIStatusBarProps) {
                 ...floatingStyles,
                 minHeight: 'auto',
                 alignContent: 'center',
-                paddingRight: '0.5rem',
-                bottom: '-8,5rem',
-                left: '0rem'
+                paddingRight: '0.5rem'
               }}
               getFloatingProps={getFloatingProps}
               scamAlerts={scamAlerts}
