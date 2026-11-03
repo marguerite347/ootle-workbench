@@ -30813,7 +30813,7 @@
       "currentLockfile": "yarn.lock"
     }
   ],
-  "compatibilityDisposition": "November3: all three maintained counter copies now declare tari_template_lib0.37.0/test_tooling0.49.2 and Rust1.99.1. Lobby PR174 merged and deployed0bb78d6; Workbench PR94 merged0a97ec1, awaiting final descendant release. Separate tracked vendor shared-buffer manifests and locks are inventoried. Two engine/builtin upstream advisories and concrete npm migrations remain assessed exceptions; this is not a claim that every dependency is current.",
+  "compatibilityDisposition": "All three maintained counter copies align to template_lib 0.37.0 and test_tooling 0.49.2 on Rust 1.99.1. Six tracked Cargo manifests verified independently; both merged CI runs passed engine tests, WASM builds and advisory checks. Compatible package updates are deployed; 195 per-consumer migration/advisory deferrals remain explicitly assessed in completion.json. No claim that all packages are latest.",
   "rustAuditFollowup": {
     "previous": {
       "advisory": "RUSTSEC-2026-0344",
@@ -30882,9 +30882,14 @@
         "evidence": "work/daily-2026-10-31/lobby-counter-audit-nov3.json"
       },
       "workbench": {
-        "revision": "0a97ec1eca96e286e9580724b11d322f13476650",
-        "run": 41660815722,
-        "status": "Both merged audit jobs passed; full run/publication tracked separately."
+        "revision": "50612ac844f8d2c9dd6b21389455daa2d49f8943",
+        "run": 41665583930,
+        "status": "Both lockfile audit jobs and engine/build tests passed. Byte-identical reviewed lockfiles have zero RustSec vulnerabilities and four unmaintained warnings each; separate upstream GHSA exceptions remain assessed.",
+        "evidence": [
+          "work/daily-2026-10-31/card-wrap-workbench-ci-nov3.json",
+          "work/daily-2026-10-31/final-counter-audit-receipt-nov3.json",
+          "work/daily-2026-10-31/final-rust-manifest-acceptance-nov3.json"
+        ]
       },
       "upstreamAdvisories": "GHSA-gf2x-v6mp-cc46 and GHSA-h7r6-f76r-8vc5 remain separately assessed in the maintenance evidence."
     },
@@ -31077,7 +31082,7 @@
     "rustVersion": "1.99.1 (58cf8f9c3 2026-10-13)",
     "sha256": "fb152be80975c194aa5fc684b2aec3a6e14e2b855efe2faa4e5f8ae6e590f463",
     "version": "1.99.1",
-    "disposition": "Pinned Rust1.99.1 passed actual separate Lobby counter Linux engine tests and release WASM build in merged CI41658554096. Workbench starter/example changes passed PR94 CI41658563755; merged-revision validation and final deployment tracked in completion evidence."
+    "disposition": "Rust 1.99.1 passed separate maintained Lobby and Workbench Linux engine tests and WASM builds; see final-rust-manifest-acceptance-nov3.json."
   },
   "toolRegistry": [
     {
@@ -31389,9 +31394,13 @@
     "note": "Final parser-only follow-up is development tooling; final merged CI repeats packaging and exposure evidence."
   },
   "maintenanceReview": {
-    "reviewedAt": "2026-11-03T15:15:37.059905+00:00",
-    "disposition": "All713package candidates reconciled to per-consumer completion outcomes, including applied compatible changes and assessed migration deferrals. Final aggregate build/publication acceptance remains tracked separately. Original registry observation dates retained.",
-    "decisions": "work/daily-2026-10-31/dependency-inventory-reconciliation-nov3.json"
+    "reviewedAt": "2026-11-03T15:50:41.347693+00:00",
+    "disposition": "All 713 package candidates reconciled; per-consumer updates, removals and assessed migrations have explicit outcomes. Final merged CI and live acceptance completed. Original registry observation dates retained.",
+    "decisions": [
+      "work/daily-2026-10-31/dependency-inventory-reconciliation-nov3.json",
+      "work/daily-2026-10-31/final-rust-manifest-acceptance-nov3.json",
+      "work/daily-2026-10-31/ootle-advisory-final-lock-assessment-nov3.json"
+    ]
   },
   "advisoryHistory": [
     {
@@ -31583,11 +31592,15 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-03T15:15:37.059905+00:00",
+  "updatedAt": "2026-11-03T15:50:41.347693+00:00",
   "compatibilityHistory": [
     {
       "replacedAt": "2026-11-03T14:58:10.745Z",
       "text": "October29: official Ootle JS0.11.1, WASM0.47.0, Python0.3.2, Go0.5.0 and Rust template_lib0.35.0/test_tooling0.47.0 reviewed. Starter remains template_lib0.32.0/test_tooling0.41.0: newer host/wallet/indexer APIs require an explicit migration and network validation. No wallet actions performed."
+    },
+    {
+      "recordedAt": "2026-11-03T15:50:41.347693+00:00",
+      "disposition": "November3: all three maintained counter copies now declare tari_template_lib0.37.0/test_tooling0.49.2 and Rust1.99.1. Lobby PR174 merged and deployed0bb78d6; Workbench PR94 merged0a97ec1, awaiting final descendant release. Separate tracked vendor shared-buffer manifests and locks are inventoried. Two engine/builtin upstream advisories and concrete npm migrations remain assessed exceptions; this is not a claim that every dependency is current."
     }
   ],
   "reconciliationEvidence": "work/daily-2026-10-31/dependency-inventory-reconciliation-nov3.json",
@@ -32205,7 +32218,7 @@
     }
   ],
   "publicExport": {
-    "preparedAt": "2026-11-03T15:15:37.059905+00:00",
+    "preparedAt": "2026-11-03T15:50:52.742370+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
   }
 }

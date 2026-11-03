@@ -8,15 +8,15 @@
       "id": "396",
       "url": "https://community.tari.com/t/396.json",
       "status": "complete",
-      "posts": 40,
-      "hash": "37fc44c1692f4b55393d77bd6045e1791f279959477ae1d13d8b2339aba7ea97",
+      "posts": 41,
+      "hash": "529259d5c1a7134c67da9dfd0c89b2beefee6e887228a54213ba90e4c0b3caeb",
       "lastAttemptAt": "2026-11-03T15:02:52.794Z",
       "lastSuccessfulReadAt": "2026-11-03T15:02:52.794Z",
-      "completedWatermark": "2026-11-02T13:33:28.621301+00:00",
+      "completedWatermark": "2026-11-03T15:02:52.794Z",
       "lookbackStart": "2026-10-17",
       "coverageNote": "Complete applies only to this named topic and all accessible post-stream IDs; linked-resource review and whole-channel discovery are separate.",
-      "note": "All41post IDs read with pagination;29canonical submissions retained.36normal reply candidates are not36projects. Crypt is an edited existing submission.",
-      "reviewedAt": "2026-11-02T13:49:47.458066+00:00",
+      "note": "All 41 available post IDs read with pagination. 29 canonical submissions; 36 ordinary reply candidates include updates and discussion. Crypt is an edited existing submission.",
+      "reviewedAt": "2026-11-03T15:02:52.794Z",
       "evidence": "work/daily-2026-10-31/october-monitor-nov3.json",
       "observedEntryPosts": 29,
       "entryPostNumbers": [
@@ -198,10 +198,79 @@
           ],
           "countEvidence": "work/daily-2026-10-31/october-count-nov2.json",
           "coverageComplete": true
+        },
+        {
+          "id": "396",
+          "url": "https://community.tari.com/t/396.json",
+          "status": "complete",
+          "posts": 40,
+          "hash": "37fc44c1692f4b55393d77bd6045e1791f279959477ae1d13d8b2339aba7ea97",
+          "lastAttemptAt": "2026-11-03T15:02:52.794Z",
+          "lastSuccessfulReadAt": "2026-11-03T15:02:52.794Z",
+          "completedWatermark": "2026-11-02T13:33:28.621301+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to this named topic and all accessible post-stream IDs; linked-resource review and whole-channel discovery are separate.",
+          "note": "All41post IDs read with pagination;29canonical submissions retained.36normal reply candidates are not36projects. Crypt is an edited existing submission.",
+          "reviewedAt": "2026-11-02T13:49:47.458066+00:00",
+          "evidence": "work/daily-2026-10-31/october-monitor-nov3.json",
+          "observedEntryPosts": 29,
+          "entryPostNumbers": [
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            24,
+            25,
+            29,
+            30,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "countEvidence": "work/daily-2026-10-31/october-count-nov2.json",
+          "coverageComplete": true
         }
       ],
       "countEvidence": "work/daily-2026-10-31/october-count-nov2.json",
-      "coverageComplete": true
+      "coverageComplete": true,
+      "reads": [
+        {
+          "url": "https://community.tari.com/t/396.json",
+          "attemptedAt": "2026-11-03T15:02:51.482Z",
+          "hash": "529259d5c1a7134c67da9dfd0c89b2beefee6e887228a54213ba90e4c0b3caeb",
+          "file": "fe70d128894d1128-529259d5c1a7134c67da9dfd0c89b2beefee6e887228a54213ba90e4c0b3caeb.txt"
+        },
+        {
+          "url": "https://community.tari.com/t/396/posts.json?post_ids[]=1847&post_ids[]=1851&post_ids[]=1852&post_ids[]=1853&post_ids[]=1894&post_ids[]=1895&post_ids[]=1901&post_ids[]=1903&post_ids[]=1915&post_ids[]=1917&post_ids[]=1922&post_ids[]=1927&post_ids[]=1933&post_ids[]=1945&post_ids[]=1948&post_ids[]=1954&post_ids[]=1957&post_ids[]=1965&post_ids[]=1972&post_ids[]=1977",
+          "attemptedAt": "2026-11-03T15:02:52.407Z",
+          "hash": "57ad4ca8842b9c6513238cbde26ff519b13e81da725184edba883c7602afaf36",
+          "file": "0f7e5c168d4a9b03-57ad4ca8842b9c6513238cbde26ff519b13e81da725184edba883c7602afaf36.txt"
+        },
+        {
+          "url": "https://community.tari.com/t/396/posts.json?post_ids[]=1992",
+          "attemptedAt": "2026-11-03T15:02:52.620Z",
+          "hash": "90e1c6b5f333abdf50740a20bdfdfebc53fb0403606e0abee9feaa9f7d6d508a",
+          "file": "c0101439456c4b4c-90e1c6b5f333abdf50740a20bdfdfebc53fb0403606e0abee9feaa9f7d6d508a.txt"
+        }
+      ]
     },
     {
       "id": "397",
@@ -13928,9 +13997,2242 @@
       "status": "source-review-finished-with-access-exceptions"
     }
   ],
-  "reconciledAt": "2026-11-03T14:59:23.664042+00:00",
+  "reconciledAt": "2026-11-03T15:50:41.347693+00:00",
+  "canonicalResourceSummary": {
+    "checkedAt": "2026-11-03T15:38:04.656424+00:00",
+    "scope": "Canonical source identities deduplicated using the original reviewed mapping plus subsequently added identities; product surface counts remain separate. Not a new external source read.",
+    "surfaceCount": 133,
+    "canonicalCount": 105,
+    "outcomes": {
+      "complete": 94,
+      "blocked": 11
+    },
+    "resources": [
+      {
+        "canonicalId": "tari-ootle:app:caravel",
+        "title": "Caravel",
+        "surfaceIds": [
+          "tari-ootle:app:caravel"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://caravellabs.net",
+          "https://community.tari.com/t/september-contest-thread/324/25",
+          "https://github.com/okansaglam016161-pixel/caravel"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:app:caravel": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:legacy-vault",
+        "title": "Legacy Vault",
+        "surfaceIds": [
+          "tari-ootle:app:legacy-vault"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/14",
+          "https://github.com/huzhazha/legacy-vault-ootle",
+          "https://huzhazha.github.io/legacy-vault-ootle/demo/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:app:legacy-vault": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:ootle-pay",
+        "title": "Ootle Pay",
+        "surfaceIds": [
+          "tari-ootle:app:ootle-pay"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/6",
+          "https://github.com/imphila/ootle-pay",
+          "https://imphila.github.io/ootle-pay/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:app:ootle-pay": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:ootle-surveys",
+        "title": "Ootle Surveys",
+        "surfaceIds": [
+          "tari-ootle:app:ootle-surveys"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/18",
+          "https://github.com/JustAResearcher/ootle-surveys"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:app:ootle-surveys": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:outruna",
+        "title": "Outruna",
+        "surfaceIds": [
+          "tari-ootle:app:outruna"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/24",
+          "https://github.com/solvetony/outruna",
+          "https://outruna.top"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:app:outruna": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:private-ballot",
+        "title": "Private Ballot",
+        "surfaceIds": [
+          "tari-ootle:app:private-ballot"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/3",
+          "https://github.com/GSXRspartan/private-ballot"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:app:private-ballot": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:sapient",
+        "title": "Sapient",
+        "surfaceIds": [
+          "tari-ootle:app:sapient"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/16",
+          "https://github.com/chironbuilds/tari-wallet",
+          "https://sapient.tari.mw"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:app:sapient": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:shadowtix",
+        "title": "ShadowTix",
+        "surfaceIds": [
+          "tari-ootle:app:shadowtix"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/13",
+          "https://github.com/zvovanz-a1/tari-ticket-public",
+          "https://shadowtix.shop"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:app:shadowtix": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:signal-vault",
+        "title": "Signal Vault",
+        "surfaceIds": [
+          "tari-ootle:app:signal-vault"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "blocked",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/4",
+          "https://github.com/Lrifton92/signal-vault"
+        ],
+        "blockedSurfaceIds": [
+          "tari-ootle:app:signal-vault"
+        ],
+        "outcomes": {
+          "tari-ootle:app:signal-vault": "blocked"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:tari-l1-web-wallet",
+        "title": "Tari L1 Web Wallet",
+        "surfaceIds": [
+          "tari-ootle:app:tari-l1-web-wallet"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/19",
+          "https://github.com/chironbuilds/tari-l1-wallet-ui",
+          "https://universe.tari.mw"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:app:tari-l1-web-wallet": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:tariorg",
+        "title": "TariOrg",
+        "surfaceIds": [
+          "tari-ootle:app:tariorg"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/2",
+          "https://github.com/n0izn0iz/tariorg",
+          "https://tariorg.pages.dev"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:app:tariorg": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:threshold-bounties",
+        "title": "Bounties powered by Threshold",
+        "surfaceIds": [
+          "tari-ootle:app:threshold-bounties"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/27",
+          "https://github.com/Seal-Clubber/Threshold/tree/main/crates/threshold-bounty-template",
+          "https://seal-clubber.github.io/Threshold/bounties-archive.html"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:app:threshold-bounties": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:threshold",
+        "title": "Threshold",
+        "surfaceIds": [
+          "tari-ootle:app:threshold"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/20",
+          "https://github.com/Seal-Clubber/Threshold",
+          "https://seal-clubber.github.io/Threshold/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:app:threshold": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:app:wunschswap",
+        "title": "WunschSwap",
+        "surfaceIds": [
+          "tari-ootle:app:wunschswap"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "blocked",
+        "sources": [
+          "https://community.tari.com/t/september-contest-thread/324/21",
+          "https://git.disroot.org/comiama/wunschswap",
+          "https://git.disroot.org/comiama/wunschswap/releases"
+        ],
+        "blockedSurfaceIds": [
+          "tari-ootle:app:wunschswap"
+        ],
+        "outcomes": {
+          "tari-ootle:app:wunschswap": "blocked"
+        }
+      },
+      {
+        "canonicalId": "project:clew",
+        "title": "Clew",
+        "surfaceIds": [
+          "project:clew"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/clew-a-small-private-tari-wallet-for-mac/424",
+          "https://github.com/big-chief-1889/Clew"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:clew": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:community-playground",
+        "title": "Tari Ootle Playground",
+        "surfaceIds": [
+          "project:community-playground"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/5"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:community-playground": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:labyrinthos",
+        "title": "LabyrinthOS",
+        "surfaceIds": [
+          "project:labyrinthos"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1",
+          "https://labyrinthos.markets/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:labyrinthos": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:liquidity",
+        "title": "Shadow Swap",
+        "surfaceIds": [
+          "project:liquidity"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/tari-local-opensource-swap-platform/182/15",
+          "https://github.com/GSXRspartan/shadow-swap"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:liquidity": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:miner",
+        "title": "TARI.Miner",
+        "surfaceIds": [
+          "project:miner"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210",
+          "https://github.com/JustAResearcher/TARI.Miner",
+          "https://github.com/JustAResearcher/TARI.Miner#readme"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:miner": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:official-templates",
+        "title": "Ootle WASM Templates",
+        "surfaceIds": [
+          "project:official-templates"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h",
+          "https://github.com/tari-project/wasm-template"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:official-templates": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:official-universe",
+        "title": "Tari Universe",
+        "surfaceIds": [
+          "project:official-universe"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
+          "https://github.com/tari-project/universe"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:official-universe": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:sooon-fun",
+        "title": "SOOON FUN",
+        "surfaceIds": [
+          "project:sooon-fun"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1",
+          "https://sooon.fun/",
+          "https://x.com/sooonfun/status/2113043736620077141"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:sooon-fun": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:tari-agent-pay",
+        "title": "Tari Agent Pay",
+        "surfaceIds": [
+          "project:tari-agent-pay"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/9",
+          "https://github.com/zvovanz-a1/tari-agent-pay"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:tari-agent-pay": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:tari-market",
+        "title": "Tari Market",
+        "surfaceIds": [
+          "project:tari-market"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "blocked",
+        "sources": [
+          "https://tari-market.johnnytsunami14.chatgpt.site/",
+          "https://wiki.tari.com/resources:app_directory:tari_market"
+        ],
+        "blockedSurfaceIds": [
+          "project:tari-market"
+        ],
+        "outcomes": {
+          "project:tari-market": "blocked"
+        }
+      },
+      {
+        "canonicalId": "project:candy-summoner",
+        "title": "Ootlejuice Candy Summoner",
+        "surfaceIds": [
+          "project:candy-summoner"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
+          "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:candy-summoner": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:ghostkey",
+        "title": "GhostKey",
+        "surfaceIds": [
+          "project:ghostkey"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6",
+          "https://github.com/Alex20Sas12/ghostkey"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:ghostkey": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:learn:official-agent-docs",
+        "title": "Official docs & agent setup",
+        "surfaceIds": [
+          "tari-ootle:learn:official-agent-docs"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://ootle.tari.com/guides/agent-api-keys/",
+          "https://ootle.tari.com/llms.txt",
+          "https://x.com/DNodeCapital/status/2108867690085421447"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:learn:official-agent-docs": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:component:ootle-ts",
+        "title": "Official TypeScript SDK",
+        "surfaceIds": [
+          "tari-ootle:component:ootle-ts"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://github.com/tari-project/ootle.ts",
+          "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0",
+          "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0",
+          "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1",
+          "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:component:ootle-ts": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:component:ootle-python",
+        "title": "Official Python SDK",
+        "surfaceIds": [
+          "tari-ootle:component:ootle-python"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://github.com/tari-project/ootle-py",
+          "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:component:ootle-python": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:component:ootle-go",
+        "title": "Official Go SDK",
+        "surfaceIds": [
+          "tari-ootle:component:ootle-go"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://github.com/tari-project/ootle-go",
+          "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:component:ootle-go": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:component:erebus-ootle-sdk",
+        "title": "Erebus / Chiron Ootle SDK",
+        "surfaceIds": [
+          "tari-ootle:component:erebus-ootle-sdk"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://github.com/chironbuilds/ootle-sdk-ts",
+          "https://x.com/DNodeCapital/status/2108867690085421447"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:component:erebus-ootle-sdk": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:component:caravel-faucet",
+        "title": "Caravel Faucet",
+        "surfaceIds": [
+          "tari-ootle:component:caravel-faucet"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://github.com/okansaglam016161-pixel/caravel-faucet",
+          "https://x.com/DNodeCapital/status/2108867690085421447"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:component:caravel-faucet": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:component:ons",
+        "title": "Ootle Name Service",
+        "surfaceIds": [
+          "tari-ootle:component:ons"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://github.com/okansaglam016161-pixel/ootle-name-service"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:component:ons": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:caravel-burn-wallet",
+        "title": "Caravel Burn Wallet",
+        "surfaceIds": [
+          "tari-ootle:component:caravel-burn-wallet",
+          "project:caravel-burn-wallet"
+        ],
+        "identityEvidence": [
+          "https://caravellabs.net",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24",
+          "https://github.com/okansaglam016161-pixel/caravel-burn-wallet"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://caravellabs.net",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24",
+          "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
+          "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
+          "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/",
+          "https://x.com/Caravelxyz/status/2108591594236481966"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:component:caravel-burn-wallet": "complete",
+          "project:caravel-burn-wallet": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:integration:community-templates",
+        "title": "Official Community Templates",
+        "surfaceIds": [
+          "tari-ootle:integration:community-templates"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+          "https://github.com/tari-project/community-templates"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:integration:community-templates": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:integration:veil",
+        "title": "Veil Ootle Explorer",
+        "surfaceIds": [
+          "tari-ootle:integration:veil"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+          "https://explorer.tari.mw/",
+          "https://github.com/chironbuilds/ootle-explorer"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:integration:veil": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari:component:tari-l1-wasm",
+        "title": "Chiron Tari L1 WASM",
+        "surfaceIds": [
+          "tari:component:tari-l1-wasm"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://github.com/chironbuilds/tari-l1-wasm"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari:component:tari-l1-wasm": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:learn:ootle-notes",
+        "title": "Ootle Internals notes",
+        "surfaceIds": [
+          "tari-ootle:learn:ootle-notes"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://github.com/chironbuilds/ootle-notes"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:learn:ootle-notes": "complete"
+        }
+      },
+      {
+        "canonicalId": "dnode-giveaway",
+        "title": "DNode / Erebus builder giveaway",
+        "surfaceIds": [
+          "dnode-giveaway"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://x.com/DNodeCapital/status/2108867687749181816"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "dnode-giveaway": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:skydrop",
+        "title": "Skydrop",
+        "surfaceIds": [
+          "project:skydrop"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1",
+          "https://skydrop.tari.mw/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:skydrop": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:crypt",
+        "title": "Crypt",
+        "surfaceIds": [
+          "project:crypt",
+          "tari-ootle:component:crypt"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
+          "https://github.com/ogboy92ii/crypt",
+          "https://tari-crypt.vercel.app/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "blocked",
+        "sources": [
+          "https://bsky.app/profile/ogboy92.bsky.social/post/3mxoehhu2b22o",
+          "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
+          "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l",
+          "https://bsky.app/profile/tariproject.bsky.social/post/3mxpffkqnsk2x",
+          "https://bsky.app/profile/tariproject.bsky.social/post/3myuc5jsyso2y",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
+          "https://github.com/ogboy92ii/crypt",
+          "https://github.com/ogboy92ii/crypt#readme",
+          "https://tari-crypt.vercel.app/"
+        ],
+        "blockedSurfaceIds": [
+          "project:crypt",
+          "tari-ootle:component:crypt"
+        ],
+        "outcomes": {
+          "project:crypt": "blocked",
+          "tari-ootle:component:crypt": "blocked"
+        }
+      },
+      {
+        "canonicalId": "project:phantom-drop",
+        "title": "Phantom Drop",
+        "surfaceIds": [
+          "project:phantom-drop",
+          "tari-ootle:component:phantom-drop"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+          "https://gitlab.com/hycorange/phantom-drop",
+          "https://hycorange.github.io/phantom-drop/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22",
+          "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+          "https://gitlab.com/hycorange/phantom-drop",
+          "https://gitlab.com/hycorange/phantom-drop#readme",
+          "https://hycorange.github.io/phantom-drop/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:phantom-drop": "complete",
+          "tari-ootle:component:phantom-drop": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:hauntboard",
+        "title": "Hauntboard",
+        "surfaceIds": [
+          "project:hauntboard"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/39",
+          "https://github.com/kstrycharz/hauntboard",
+          "https://hauntboard.taritracker.com/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:hauntboard": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:macotaur",
+        "title": "Macotaur",
+        "surfaceIds": [
+          "project:macotaur"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://github.com/big-chief-1889/MacotaurGUI",
+          "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:macotaur": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:caravel-trade",
+        "title": "Caravel Trade",
+        "surfaceIds": [
+          "project:caravel-trade",
+          "tari-ootle:component:caravel-trade"
+        ],
+        "identityEvidence": [
+          "https://caravellabs.net",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25",
+          "https://github.com/okansaglam016161-pixel/caravel-trade"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://caravellabs.net",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25",
+          "https://github.com/okansaglam016161-pixel/caravel-trade",
+          "https://github.com/okansaglam016161-pixel/caravel-trade#readme",
+          "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/",
+          "https://x.com/Caravelxyz/status/2113244021204131930"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:caravel-trade": "complete",
+          "tari-ootle:component:caravel-trade": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:integration:taritracker-faucet",
+        "title": "TariTracker Faucet",
+        "surfaceIds": [
+          "tari-ootle:integration:taritracker-faucet"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://github.com/kstrycharz/hauntboard#wallet-funding",
+          "https://testnet-faucet.taritracker.com/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:integration:taritracker-faucet": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:ootle-payment-gateway",
+        "title": "Ootle Payment Gateway",
+        "surfaceIds": [
+          "project:ootle-payment-gateway",
+          "tari-ootle:integration:ootle-payment-gateway"
+        ],
+        "identityEvidence": [
+          "http://172.105.101.24/shop/",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
+          "https://github.com/Luci666-Onyx/ootle-payment-gateway"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "http://172.105.101.24/shop/",
+          "https://bsky.app/profile/luci666-91.bsky.social/post/3mxv5ldyepc2y",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
+          "https://github.com/Luci666-Onyx/ootle-payment-gateway",
+          "https://github.com/Luci666-Onyx/ootle-payment-gateway#readme"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:ootle-payment-gateway": "complete",
+          "tari-ootle:integration:ootle-payment-gateway": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:sealed-coffin",
+        "title": "Sealed Coffin",
+        "surfaceIds": [
+          "project:sealed-coffin",
+          "tari-ootle:integration:sealed-coffin"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12",
+          "https://github.com/mak777uh/sealed-coffin"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "blocked",
+        "sources": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12",
+          "https://github.com/mak777uh/sealed-coffin",
+          "https://github.com/mak777uh/sealed-coffin#readme",
+          "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/"
+        ],
+        "blockedSurfaceIds": [
+          "tari-ootle:integration:sealed-coffin"
+        ],
+        "outcomes": {
+          "project:sealed-coffin": "complete",
+          "tari-ootle:integration:sealed-coffin": "blocked"
+        }
+      },
+      {
+        "canonicalId": "tari:component:supportxtm-testnet-faucet",
+        "title": "SupportXTM testnet faucet",
+        "surfaceIds": [
+          "tari:component:supportxtm-testnet-faucet"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/tari-universe-on-web/354/12",
+          "https://community.tari.com/t/tari-universe-on-web/354/16",
+          "https://hauntboard.taritracker.com/?board=component_594f90d8cb8c2d0f70d941ba1c513769727feceeabd9d2137b5b6a130a6aa28e&category=general&thread=component_59df751bd774e777c97b4cab4dc7b6723ffcbb66cd3d8656ffcb87de99630011",
+          "https://ootle.tari.com/guides/burn-minotari/",
+          "https://testnet-faucet.supportxtm.com/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari:component:supportxtm-testnet-faucet": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:ghostline",
+        "title": "Ghostline",
+        "surfaceIds": [
+          "project:ghostline",
+          "tari-ootle:integration:ghostline"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
+          "https://ghostline-ui.vercel.app/play.html",
+          "https://github.com/AduAkorful/ghostline"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "blocked",
+        "sources": [
+          "https://bsky.app/profile/tariproject.bsky.social/post/3myzd2ybfnq2t",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
+          "https://ghostline-ui.vercel.app/evidence.html",
+          "https://ghostline-ui.vercel.app/play.html",
+          "https://github.com/AduAkorful/ghostline",
+          "https://github.com/AduAkorful/ghostline/blob/0b0ff7dfc5f8a774a5f8176c375b191492757b00/docs/quickstart.md#guided-esmeralda-demo",
+          "https://github.com/AduAkorful/ghostline/releases/tag/v0.3.2",
+          "https://github.com/AduAkorful/ghostline/releases/tag/v0.4.0",
+          "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/"
+        ],
+        "blockedSurfaceIds": [
+          "tari-ootle:integration:ghostline"
+        ],
+        "outcomes": {
+          "project:ghostline": "complete",
+          "tari-ootle:integration:ghostline": "blocked"
+        }
+      },
+      {
+        "canonicalId": "project:seance",
+        "title": "Séance",
+        "surfaceIds": [
+          "project:seance",
+          "tari-ootle:component:seance"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
+          "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
+          "https://seance.madebydevx.com"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22",
+          "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
+          "https://seance.madebydevx.com"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:seance": "complete",
+          "tari-ootle:component:seance": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:sealed-bids-at-midnight",
+        "title": "Sealed Bids at Midnight",
+        "surfaceIds": [
+          "project:sealed-bids-at-midnight",
+          "tari-ootle:component:sealed-bids-at-midnight"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16",
+          "https://github.com/xB0unty911/sealed-bid-auction"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16",
+          "https://github.com/xB0unty911/sealed-bid-auction",
+          "https://github.com/xB0unty911/sealed-bid-auction#readme",
+          "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:sealed-bids-at-midnight": "complete",
+          "tari-ootle:component:sealed-bids-at-midnight": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:seance-privacy",
+        "title": "Seance — privacy demo",
+        "surfaceIds": [
+          "project:seance-privacy",
+          "tari-ootle:component:seance-privacy"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+          "https://github.com/Kylne700/seance-v2",
+          "https://kylne700.github.io/seance-v2/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22",
+          "https://bsky.app/profile/tariproject.bsky.social/post/3mywsm2tpqm2b",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+          "https://github.com/Kylne700/seance-v2",
+          "https://github.com/Kylne700/seance-v2#readme",
+          "https://kylne700.github.io/seance-v2/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:seance-privacy": "complete",
+          "tari-ootle:component:seance-privacy": "complete"
+        }
+      },
+      {
+        "canonicalId": "sapient-bonus-contest",
+        "title": "Sapient community bonus contest",
+        "surfaceIds": [
+          "sapient-bonus-contest"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/spooky-secrets-community-bonus-contest/463/1"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "sapient-bonus-contest": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:hearth",
+        "title": "Hearth",
+        "surfaceIds": [
+          "project:hearth",
+          "tari-ootle:component:hearth"
+        ],
+        "identityEvidence": [
+          "https://github.com/XachP/hearth-aid",
+          "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
+          "https://xachp.github.io/hearth-aid/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://github.com/XachP/hearth-aid",
+          "https://github.com/XachP/hearth-aid#readme",
+          "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
+          "https://x.com/LUNNTHEDEV/status/2113090097620906275",
+          "https://xachp.github.io/hearth-aid/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:hearth": "complete",
+          "tari-ootle:component:hearth": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:familiar",
+        "title": "Familiar",
+        "surfaceIds": [
+          "project:familiar",
+          "tari-ootle:component:familiar"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/21",
+          "https://github.com/ttimesai-star/familiar-ootle",
+          "https://ttimesai-star.github.io/familiar-ootle/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/zbignevich.bsky.social/post/3myg4lmvgn52f",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/21",
+          "https://github.com/ttimesai-star/familiar-ootle",
+          "https://github.com/ttimesai-star/familiar-ootle#readme",
+          "https://ttimesai-star.github.io/familiar-ootle/",
+          "https://x.com/ArturZbignevich/status/2113023878524256561"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:familiar": "complete",
+          "tari-ootle:component:familiar": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:graveyard-shift",
+        "title": "Graveyard Shift",
+        "surfaceIds": [
+          "project:graveyard-shift",
+          "tari-ootle:component:graveyard-shift"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/20",
+          "https://github.com/XachP/graveyard-shift",
+          "https://xachp.github.io/graveyard-shift/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/zjpenterprises.bsky.social/post/3myfxphq3ps2u",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/20",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/23",
+          "https://github.com/XachP/graveyard-shift",
+          "https://github.com/XachP/graveyard-shift#readme",
+          "https://www.reddit.com/r/tari/comments/1xc4cdg/graveyard_shift_payroll_where_the_salaries_stay/",
+          "https://xachp.github.io/graveyard-shift/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:graveyard-shift": "complete",
+          "tari-ootle:component:graveyard-shift": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:hidebox",
+        "title": "HideBox",
+        "surfaceIds": [
+          "project:hidebox",
+          "tari-ootle:component:hidebox"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/19",
+          "https://github.com/c7b/hidebox",
+          "https://hidebox.app"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/tariproject.bsky.social/post/3mz2j2w7xax2c",
+          "https://community.tari.com/t/467",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/19",
+          "https://github.com/c7b/hidebox",
+          "https://github.com/c7b/hidebox#readme",
+          "https://hidebox.app",
+          "https://www.reddit.com/r/tari/comments/1xbv9r6/i_built_a_private_cloud_storage_on_the_tari_ootle/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:hidebox": "complete",
+          "tari-ootle:component:hidebox": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:grave-robber",
+        "title": "Grave Robber",
+        "surfaceIds": [
+          "project:grave-robber",
+          "tari-ootle:component:grave-robber"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/18",
+          "https://github.com/grzdev/grave-robber",
+          "https://grave-robber.netlify.app/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "blocked",
+        "sources": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/18",
+          "https://community.tari.com/t/spooky-secrets-community-bonus-contest/463/4",
+          "https://github.com/grzdev/grave-robber",
+          "https://github.com/grzdev/grave-robber#readme",
+          "https://grave-robber.netlify.app/",
+          "https://www.reddit.com/r/tari/comments/1xbopnt/i_built_grave_robber_a_2d_gothic_crypt_heist_on/",
+          "https://www.reddit.com/r/tari/s/Z9ZhhA4BZ2"
+        ],
+        "blockedSurfaceIds": [
+          "tari-ootle:component:grave-robber"
+        ],
+        "outcomes": {
+          "project:grave-robber": "complete",
+          "tari-ootle:component:grave-robber": "blocked"
+        }
+      },
+      {
+        "canonicalId": "project:tari-agent-registry",
+        "title": "Tari Agent Registry",
+        "surfaceIds": [
+          "project:tari-agent-registry",
+          "tari-ootle:component:tari-agent-registry"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
+          "https://github.com/kstrycharz/tari-agent-registry",
+          "https://taritracker.com/#ai-tools"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
+          "https://github.com/kstrycharz/tari-agent-registry",
+          "https://github.com/kstrycharz/tari-agent-registry#readme",
+          "https://taritracker.com/#ai-tools"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:tari-agent-registry": "complete",
+          "tari-ootle:component:tari-agent-registry": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:arkimals",
+        "title": "Arkimals — Halloween on Tari",
+        "surfaceIds": [
+          "project:arkimals",
+          "tari-ootle:component:arkimals"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
+          "https://github.com/BlackTurtle123/tari-midnight-kennel",
+          "https://tari.staging.arkimals-game.com/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
+          "https://github.com/BlackTurtle123/tari-midnight-kennel",
+          "https://github.com/BlackTurtle123/tari-midnight-kennel#readme",
+          "https://tari.staging.arkimals-game.com/",
+          "https://www.reddit.com/r/tari/comments/1xfqeq2/arkimals_hatch_a_secret_canine_on_tari/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:arkimals": "complete",
+          "tari-ootle:component:arkimals": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:cursed-pumpkin",
+        "title": "The Cursed Pumpkin",
+        "surfaceIds": [
+          "project:cursed-pumpkin",
+          "tari-ootle:component:cursed-pumpkin"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
+          "https://github.com/Mzee04/cursed-pumpkin",
+          "https://mzee04.github.io/cursed-pumpkin/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
+          "https://github.com/Mzee04/cursed-pumpkin",
+          "https://github.com/Mzee04/cursed-pumpkin#readme",
+          "https://mzee04.github.io/cursed-pumpkin/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:cursed-pumpkin": "complete",
+          "tari-ootle:component:cursed-pumpkin": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:moonmail",
+        "title": "MoonMail",
+        "surfaceIds": [
+          "project:moonmail",
+          "tari-ootle:component:moonmail"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
+          "https://github.com/Seal-Clubber/MoonMail",
+          "https://seal-clubber.github.io/MoonMail/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
+          "https://github.com/Seal-Clubber/MoonMail",
+          "https://github.com/Seal-Clubber/MoonMail#readme",
+          "https://seal-clubber.github.io/MoonMail/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:moonmail": "complete",
+          "tari-ootle:component:moonmail": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:ootle-steam-kit",
+        "title": "Ootle Steam Kit",
+        "surfaceIds": [
+          "project:ootle-steam-kit",
+          "tari-ootle:component:ootle-steam-kit"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
+          "https://github.com/1igaming/ootle-steam-kit",
+          "https://ootle.sbox.trading/#/how"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
+          "https://github.com/1igaming/ootle-steam-kit",
+          "https://github.com/1igaming/ootle-steam-kit#readme",
+          "https://ootle.sbox.trading/#/how"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:ootle-steam-kit": "complete",
+          "tari-ootle:component:ootle-steam-kit": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:learn:atproto-identity",
+        "title": "AT Protocol identity on Ootle",
+        "surfaceIds": [
+          "tari-ootle:learn:atproto-identity"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://atproto.tari.mw/",
+          "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:learn:atproto-identity": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:learn:hycorange-burn",
+        "title": "Burn Minotari walkthrough",
+        "surfaceIds": [
+          "tari-ootle:learn:hycorange-burn"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/hycorange.bsky.social/post/3mz3h7y2edj2l",
+          "https://paragraph.com/@hycorange/burning-minotari-for-tari-on-ootle-my-esmeralda-walkthrough",
+          "https://paragraph.com/@hycorange/tari-creator-contest-entries"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:learn:hycorange-burn": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:learn:hycorange-privacy",
+        "title": "Confidential and stealth explained",
+        "surfaceIds": [
+          "tari-ootle:learn:hycorange-privacy"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/hycorange.bsky.social/post/3mz3hiismky2n",
+          "https://paragraph.com/@hycorange/confidential-vs-stealth-on-tari-ootle",
+          "https://paragraph.com/@hycorange/tari-creator-contest-entries"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:learn:hycorange-privacy": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:learn:hycorange-mining",
+        "title": "Tari mining lanes explained",
+        "surfaceIds": [
+          "tari-ootle:learn:hycorange-mining"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m",
+          "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet",
+          "https://paragraph.com/@hycorange/tari-creator-contest-entries"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:learn:hycorange-mining": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:learn:hycorange-permissions",
+        "title": "Ootle template permissions guide",
+        "surfaceIds": [
+          "tari-ootle:learn:hycorange-permissions"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f",
+          "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to",
+          "https://paragraph.com/@hycorange/tari-creator-contest-entries"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:learn:hycorange-permissions": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:learn:hycorange-airdrops",
+        "title": "Native stealth airdrop walkthrough",
+        "surfaceIds": [
+          "tari-ootle:learn:hycorange-airdrops"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a",
+          "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop",
+          "https://paragraph.com/@hycorange/tari-creator-contest-entries"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "tari-ootle:learn:hycorange-airdrops": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:ootlebook",
+        "title": "Ootlebook",
+        "surfaceIds": [
+          "project:ootlebook",
+          "tari-ootle:component:ootlebook"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+          "https://github.com/alex3000-ai/ootlebook",
+          "https://ootlebook.com/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+          "https://github.com/alex3000-ai/ootlebook",
+          "https://github.com/alex3000-ai/ootlebook#readme",
+          "https://ootlebook.com/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:ootlebook": "complete",
+          "tari-ootle:component:ootlebook": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:dead-drop-davidjsourcing",
+        "title": "Dead Drop",
+        "surfaceIds": [
+          "project:dead-drop-davidjsourcing",
+          "tari-ootle:component:dead-drop-davidjsourcing"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
+          "https://dead-drop.sites.tab.bot/",
+          "https://github.com/davidjsourcing/dead-drop"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
+          "https://dead-drop.sites.tab.bot/",
+          "https://github.com/davidjsourcing/dead-drop",
+          "https://github.com/davidjsourcing/dead-drop#readme"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:dead-drop-davidjsourcing": "complete",
+          "tari-ootle:component:dead-drop-davidjsourcing": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:ghost-candy-cards",
+        "title": "Ghost Candy Cards",
+        "surfaceIds": [
+          "project:ghost-candy-cards",
+          "tari-ootle:component:ghost-candy-cards"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
+          "https://github.com/cgrab-k7q2/ghost-candy-cards"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
+          "https://github.com/cgrab-k7q2/ghost-candy-cards",
+          "https://github.com/cgrab-k7q2/ghost-candy-cards#readme"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:ghost-candy-cards": "complete",
+          "tari-ootle:component:ghost-candy-cards": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:ghost-gate",
+        "title": "Ghost Gate",
+        "surfaceIds": [
+          "project:ghost-gate",
+          "tari-ootle:component:ghost-gate"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
+          "https://ghostgate.boo/",
+          "https://github.com/GSXRspartan/Ghost-Gate"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/did:plc:cj5wzjmazjbonijxuueycyx5/post/3mz5fwrpt5f27",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
+          "https://ghostgate.boo/",
+          "https://github.com/GSXRspartan/Ghost-Gate",
+          "https://github.com/GSXRspartan/Ghost-Gate#readme"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:ghost-gate": "complete",
+          "tari-ootle:component:ghost-gate": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:haunted-passport",
+        "title": "Haunted Passport",
+        "surfaceIds": [
+          "project:haunted-passport",
+          "tari-ootle:component:haunted-passport"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34",
+          "https://github.com/AshThunder/haunted-passport",
+          "https://haunted-passport.vercel.app/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/chrisgoldog.bsky.social/post/3myzc45hcf22l",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34",
+          "https://github.com/AshThunder/haunted-passport",
+          "https://github.com/AshThunder/haunted-passport#readme",
+          "https://haunted-passport.vercel.app/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:haunted-passport": "complete",
+          "tari-ootle:component:haunted-passport": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:hexcrow",
+        "title": "Hexcrow",
+        "surfaceIds": [
+          "project:hexcrow",
+          "tari-ootle:component:hexcrow"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
+          "https://github.com/kasbsquall/hexcrow",
+          "https://kasbsquall.github.io/hexcrow/"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
+          "https://github.com/kasbsquall/hexcrow",
+          "https://github.com/kasbsquall/hexcrow#readme",
+          "https://kasbsquall.github.io/hexcrow/",
+          "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:hexcrow": "complete",
+          "tari-ootle:component:hexcrow": "complete"
+        }
+      },
+      {
+        "canonicalId": "project:ootle-accord",
+        "title": "OotleAccord",
+        "surfaceIds": [
+          "project:ootle-accord",
+          "tari-ootle:component:ootle-accord"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
+          "https://github.com/Seal-Clubber/ootle-accord",
+          "https://seal-clubber.github.io/ootle-accord/#explore"
+        ],
+        "identityBasis": "Matching project key and reviewed primary destinations; product/gallery surfaces refer to the same creator project.",
+        "outcome": "complete",
+        "sources": [
+          "https://bsky.app/profile/seal-clubber.bsky.social/post/3mz4lj2h7zs2l",
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
+          "https://github.com/Seal-Clubber/ootle-accord",
+          "https://github.com/Seal-Clubber/ootle-accord#readme",
+          "https://seal-clubber.github.io/ootle-accord/#explore"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "project:ootle-accord": "complete",
+          "tari-ootle:component:ootle-accord": "complete"
+        }
+      },
+      {
+        "canonicalId": "creator-contest-503",
+        "title": "Tari Creator Contest",
+        "surfaceIds": [
+          "creator-contest-503"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Single maintained resource identity.",
+        "outcome": "complete",
+        "sources": [
+          "https://community.tari.com/t/ootle-launch-event-creator-contest/503/1"
+        ],
+        "blockedSurfaceIds": [],
+        "outcomes": {
+          "creator-contest-503": "complete"
+        }
+      },
+      {
+        "canonicalId": "tari-ootle:learn:two-layers",
+        "title": "Minotari and Ootle explained",
+        "surfaceIds": [
+          "tari-ootle:learn:two-layers"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://community.tari.com/t/ootle-launch-event-creator-contest/503/8",
+          "https://medium.com/@penielgold/two-layers-two-jobs-how-minotari-and-ootle-work-together-to-make-tari-programmable-d8dd08334f2b"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:two-layers": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:turbine-explainer",
+        "title": "Ootle Turbine fee burn explained",
+        "surfaceIds": [
+          "tari-ootle:learn:turbine-explainer"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+          "https://www.reddit.com/r/tari/comments/1xj9m3e/ootles_turbine_burn_read_from_the_docs_the/"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:turbine-explainer": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:sharding-explainer",
+        "title": "Ootle shards and committees explained",
+        "surfaceIds": [
+          "tari-ootle:learn:sharding-explainer"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+          "https://www.reddit.com/r/tari/comments/1xj9tss/how_ootle_splits_the_work_256_shards_40validator/"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:sharding-explainer": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:nyam-mining",
+        "title": "Tari mining lanes and the C29 incident",
+        "surfaceIds": [
+          "tari-ootle:learn:nyam-mining"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://community.tari.com/t/ootle-launch-event-creator-contest/503/6",
+          "https://paragraph.com/@nyam/four-lanes-one-chain-what-taris-c29-incident-teaches-about"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:nyam-mining": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:local-ai-gpu",
+        "title": "Local AI on a gaming GPU",
+        "surfaceIds": [
+          "tari-ootle:learn:local-ai-gpu"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/sudoingX/local-ai-on-your-gaming-gpu",
+          "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:local-ai-gpu": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "project:ghost-lantern",
+        "title": "Ghost Lantern",
+        "surfaceIds": [
+          "project:ghost-lantern"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/penielgold-hub/Ghost-Lantern"
+        ],
+        "outcomes": {
+          "project:ghost-lantern": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "project:taritalk-nodes",
+        "title": "TariTalk Nodes",
+        "surfaceIds": [
+          "project:taritalk-nodes",
+          "tari:component:taritalk-nodes"
+        ],
+        "identityEvidence": [
+          "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+          "https://nodes.taritalk.xyz/",
+          "https://github.com/xt1085/taritalk-node-deploy"
+        ],
+        "identityBasis": "Same TariTalk Nodes creator-linked map, repository and original discussion appear in project and builder surfaces.",
+        "sources": [
+          "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+          "https://nodes.taritalk.xyz/",
+          "https://github.com/xt1085/taritalk-node-deploy"
+        ],
+        "outcomes": {
+          "project:taritalk-nodes": "blocked",
+          "tari:component:taritalk-nodes": "blocked"
+        },
+        "outcome": "blocked",
+        "blockedSurfaceIds": [
+          "project:taritalk-nodes",
+          "tari:component:taritalk-nodes"
+        ]
+      },
+      {
+        "canonicalId": "project:danse-macabre",
+        "title": "Danse Macabre",
+        "surfaceIds": [
+          "project:danse-macabre"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+          "https://github.com/YASASWIP012/danse-macabre",
+          "https://danse-macabre.vercel.app/"
+        ],
+        "outcomes": {
+          "project:danse-macabre": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:release-0492",
+        "title": "Ootle v0.49.2 upgrade notes",
+        "surfaceIds": [
+          "tari-ootle:learn:release-0492"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:release-0492": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:book-to-skill",
+        "title": "book-to-skill",
+        "surfaceIds": [
+          "tari-ootle:learn:book-to-skill"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/virgiliojr94/book-to-skill",
+          "https://github.com/virgiliojr94/book-to-skill#readme"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:book-to-skill": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:component:danse-macabre",
+        "title": "Danse Macabre",
+        "surfaceIds": [
+          "tari-ootle:component:danse-macabre"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+          "https://github.com/YASASWIP012/danse-macabre",
+          "https://github.com/YASASWIP012/danse-macabre#readme",
+          "https://danse-macabre.vercel.app/",
+          "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
+          "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q"
+        ],
+        "outcomes": {
+          "tari-ootle:component:danse-macabre": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:taritalk-wallet-operations-faq",
+        "title": "Wallet Operations FAQ",
+        "surfaceIds": [
+          "tari-ootle:learn:taritalk-wallet-operations-faq"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://taritalk.xyz/posts/wallet-operations-faq/"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:taritalk-wallet-operations-faq": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:veinpool",
+        "title": "VeinPool",
+        "surfaceIds": [
+          "tari-ootle:learn:veinpool"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://veinpool.fr/en/coin/xtm"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:veinpool": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:bzminer",
+        "title": "BzMiner",
+        "surfaceIds": [
+          "tari-ootle:learn:bzminer"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/bzminer/bzminer",
+          "https://www.bzminer.com/guides/c29.php"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:bzminer": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:official-universe",
+        "title": "Tari Universe",
+        "surfaceIds": [
+          "tari-ootle:learn:official-universe"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/tari-project/universe",
+          "https://github.com/tari-project/universe/releases/tag/v1.6.20",
+          "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
+          "https://bsky.app/profile/tariproject.bsky.social/post/3mxqta2ml5n2a",
+          "https://github.com/tari-project/universe/releases/tag/v1.6.19",
+          "https://github.com/tari-project/universe/releases/tag/v1.6.18",
+          "https://tari.com/downloads"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:official-universe": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:cw-tari-wallet",
+        "title": "Cake Wallet Tari L1 backend",
+        "surfaceIds": [
+          "tari-ootle:learn:cw-tari-wallet"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/tari-project/cw_tari_wallet",
+          "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:cw-tari-wallet": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:cw-tari-ootle-wallet",
+        "title": "Cake Wallet Ootle backend",
+        "surfaceIds": [
+          "tari-ootle:learn:cw-tari-ootle-wallet"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/tari-project/cw_tari_ootle_wallet",
+          "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:cw-tari-ootle-wallet": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:minotari-cli-release",
+        "title": "Minotari CLI",
+        "surfaceIds": [
+          "tari-ootle:learn:minotari-cli-release"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/tari-project/minotari-cli",
+          "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:minotari-cli-release": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:integration:confidential-rcv-web",
+        "title": "Confidential voting frontend",
+        "surfaceIds": [
+          "tari-ootle:integration:confidential-rcv-web"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/m4r1m0/confidential-rcv-web",
+          "https://github.com/m4r1m0/confidential-rcv-web#readme",
+          "https://github.com/m4r1m0/confidential-rcv-web/releases",
+          "https://github.com/m4r1m0/confidential-rcv-web/pull/2"
+        ],
+        "outcomes": {
+          "tari-ootle:integration:confidential-rcv-web": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:component:confidential-vote-template",
+        "title": "Ranked voting template",
+        "surfaceIds": [
+          "tari-ootle:component:confidential-vote-template"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/m4r1m0/confidential-vote-template",
+          "https://github.com/m4r1m0/confidential-vote-template#readme",
+          "https://github.com/m4r1m0/confidential-rcv-template/releases",
+          "https://github.com/m4r1m0/confidential-vote-template/pull/1",
+          "https://github.com/m4r1m0/confidential-vote-template/pull/7"
+        ],
+        "outcomes": {
+          "tari-ootle:component:confidential-vote-template": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:component:confidential-voting-template",
+        "title": "Yes/no voting template",
+        "surfaceIds": [
+          "tari-ootle:component:confidential-voting-template"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/m4r1m0/confidential-voting-template",
+          "https://github.com/m4r1m0/confidential-voting-template#readme",
+          "https://github.com/m4r1m0/confidential-voting-template/releases",
+          "https://github.com/m4r1m0/confidential-voting-template/pull/1"
+        ],
+        "outcomes": {
+          "tari-ootle:component:confidential-voting-template": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:kurarmota-two-layer-architecture",
+        "title": "Tari’s two-layer architecture",
+        "surfaceIds": [
+          "tari-ootle:learn:kurarmota-two-layer-architecture"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
+          "https://medium.com/@isahjaafar12/-8cbde86c94e3"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:kurarmota-two-layer-architecture": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:learn:habib-four-lanes",
+        "title": "Four lanes, no monoculture",
+        "surfaceIds": [
+          "tari-ootle:learn:habib-four-lanes"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16",
+          "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16",
+          "https://www.reddit.com/r/tari/comments/1xm1fa0/why_does_tari_need_four_mining_algorithms_a/"
+        ],
+        "outcomes": {
+          "tari-ootle:learn:habib-four-lanes": "blocked"
+        },
+        "outcome": "blocked",
+        "blockedSurfaceIds": [
+          "tari-ootle:learn:habib-four-lanes"
+        ]
+      },
+      {
+        "canonicalId": "tari-ootle:component:rubic-swap-widget",
+        "title": "Rubic Swap Widget for WordPress",
+        "surfaceIds": [
+          "tari-ootle:component:rubic-swap-widget"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/Luci666-Onyx/rubic-swap-widget",
+          "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md",
+          "https://github.com/Luci666-Onyx/rubic-swap-widget/releases",
+          "https://community.tari.com/t/introducing-caravel/276/20",
+          "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php",
+          "http://172.105.101.24/swap/"
+        ],
+        "outcomes": {
+          "tari-ootle:component:rubic-swap-widget": "blocked"
+        },
+        "outcome": "blocked",
+        "blockedSurfaceIds": [
+          "tari-ootle:component:rubic-swap-widget"
+        ]
+      },
+      {
+        "canonicalId": "tari-ootle:component:rubic-widget-skill",
+        "title": "Rubic Widget Agent Skill",
+        "surfaceIds": [
+          "tari-ootle:component:rubic-widget-skill"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/Luci666-Onyx/rubic-widget-skill",
+          "https://github.com/Luci666-Onyx/rubic-widget-skill/blob/main/README.md",
+          "https://github.com/Luci666-Onyx/rubic-widget-skill/releases"
+        ],
+        "outcomes": {
+          "tari-ootle:component:rubic-widget-skill": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      },
+      {
+        "canonicalId": "tari-ootle:component:tari-tracker",
+        "title": "Tari Tracker",
+        "surfaceIds": [
+          "tari-ootle:component:tari-tracker"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://taritracker.com/",
+          "https://x.com/WorldWarSquared/status/2112894915046993957",
+          "https://github.com/kstrycharz/azurestatictesting",
+          "https://t.me/taritracker"
+        ],
+        "outcomes": {
+          "tari-ootle:component:tari-tracker": "blocked"
+        },
+        "outcome": "blocked",
+        "blockedSurfaceIds": [
+          "tari-ootle:component:tari-tracker"
+        ]
+      },
+      {
+        "canonicalId": "tari-ootle:component:tari-block-tools",
+        "title": "Tari Block Tools",
+        "surfaceIds": [
+          "tari-ootle:component:tari-block-tools"
+        ],
+        "identityEvidence": [],
+        "identityBasis": "Additional maintained resource identity; not duplicated solely by its Lobby/Workbench rendering.",
+        "sources": [
+          "https://github.com/kstrycharz/tariblocktools",
+          "https://github.com/kstrycharz/tariblocktools#readme",
+          "https://github.com/kstrycharz/tariblocktools/releases",
+          "https://github.com/kstrycharz/tariblocktools/blob/main/Python/tariblockexplorer.py",
+          "https://textexplore.tari.com/",
+          "https://taritracker.com/"
+        ],
+        "outcomes": {
+          "tari-ootle:component:tari-block-tools": "complete"
+        },
+        "outcome": "complete",
+        "blockedSurfaceIds": []
+      }
+    ],
+    "supersedes": "canonical-resource-map-final-nov3.json; merged duplicate TariTalk Nodes identity, retaining both surface outcomes."
+  },
   "publicExport": {
-    "preparedAt": "2026-11-03T15:15:37.059905+00:00",
+    "preparedAt": "2026-11-03T15:50:52.742370+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
   }
 }
