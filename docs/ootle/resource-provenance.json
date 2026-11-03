@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedOn": "2026-11-01",
+  "updatedOn": "2026-11-03T01:59:13.022902+00:00",
   "purpose": "Retain where resources were shared separately from project sources so readers can return to the discussion.",
   "evidenceNote": "Backfilled from retained October 10 source reads. Sharing post means a known announcement or discussion; it does not assert the earliest post on the internet. Unknown author/date remains null. Do not overwrite older sharing links during refresh.",
   "records": [
@@ -110,11 +110,22 @@
           "foundOn": "2026-10-10",
           "context": "October Build Contest Thread: Spooky Secrets!",
           "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
+          "platform": "Bluesky",
+          "author": "ongwing.bsky.social",
+          "publishedAt": "2026-10-08T05:23:41.877Z",
+          "foundOn": "2026-11-03",
+          "context": "Creator announcement with animated concept illustration; original followed from Terence general-channel repost.",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/candy-creator-post-review-nov3.json"
         }
       ],
       "originalPostStatus": "sharing-post-retained",
       "foundOn": "2026-10-10",
-      "evidence": "October 10 retained discovery tracker; not newly rechecked"
+      "evidence": "October 10 retained discovery tracker; not newly rechecked",
+      "latestReviewEvidence": "work/daily-2026-10-31/candy-creator-post-review-nov3.json"
     },
     {
       "id": "clew",
@@ -130,6 +141,19 @@
           "foundOn": "2026-10-10",
           "context": "Clew: a small, private Tari wallet for Mac",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vY_cBAZ1Goc",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-13",
+          "eventDate": "2026-10-13",
+          "foundOn": "2026-11-02",
+          "context": "20:16: Public community announcement of the private Tari wallet.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
       ],
       "originalPostStatus": "sharing-post-retained",
@@ -146,7 +170,6 @@
           "url": "https://x.com/DNodeCapital/status/2108867690085421447",
           "platform": "X",
           "author": "DNodeCapital",
-          "publishedAt": null,
           "foundOn": "2026-10-10",
           "context": "Resource link in the DNode announcement thread",
           "visibility": "public"
@@ -164,7 +187,6 @@
           "url": "https://x.com/DNodeCapital/status/2106768971013976308",
           "platform": "X",
           "author": "DNodeCapital",
-          "publishedAt": null,
           "foundOn": "2026-11-02",
           "context": "Post where the original Caravel faucet announcement was found during overlapping lookback",
           "visibility": "public"
@@ -181,8 +203,10 @@
       ],
       "originalPostStatus": "public-original-found",
       "foundOn": "2026-10-10",
-      "evidence": "October 10 retained discovery tracker; not newly rechecked",
-      "originalPostUrl": "https://x.com/Caravelxyz/status/2106759449213845779"
+      "evidence": "work/daily-2026-10-31/x-caravel-faucet-expanded-nov2.txt",
+      "originalPostUrl": "https://x.com/Caravelxyz/status/2106759449213845779",
+      "lastAttemptAt": "2026-11-03T01:10:11.452525+00:00",
+      "reviewNote": "Read original, parent announcement and visible replies including probable spam. October31 reply asks whether a frontend was added; no creator answer displayed. Dated absence is not a present availability claim. Catalog original-post backfill queued."
     },
     {
       "id": "erebus-ootle-sdk",
@@ -214,7 +238,6 @@
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
           "platform": "GitHub releases",
           "author": "tari-project",
-          "publishedAt": null,
           "foundOn": "2026-10-14",
           "context": "Official 0.9.0 release notes",
           "visibility": "public"
@@ -251,7 +274,6 @@
           "url": "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1",
           "platform": "GitHub releases",
           "author": "tari-project",
-          "publishedAt": null,
           "foundOn": "2026-10-14",
           "context": "Official 0.3.1 release notes",
           "visibility": "public"
@@ -260,15 +282,34 @@
           "url": "https://pypi.org/project/ootle-py/0.3.2/",
           "platform": "Primary version publication",
           "author": "tari-project",
-          "publishedAt": null,
           "foundOn": "2026-10-20",
           "context": "Official package 0.3.2; GitHub release page still v0.3.1",
           "visibility": "public"
+        },
+        {
+          "url": "https://pypi.org/project/ootle-py/0.4.0/",
+          "platform": "PyPI",
+          "author": "Tari contributors",
+          "publishedAt": "2026-11-02T11:16:56.050495Z",
+          "foundOn": "2026-11-02",
+          "context": "Official 0.4.0 publication",
+          "visibility": "public"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle-py/blob/v0.4.0/CHANGELOG.md",
+          "platform": "GitHub",
+          "author": "Tari contributors",
+          "publishedAt": "2026-11-02",
+          "foundOn": "2026-11-02",
+          "context": "Version 0.4.0 source walkthrough",
+          "visibility": "public"
         }
       ],
-      "originalPostStatus": "not-found-in-retained-evidence",
+      "originalPostStatus": "public-primary-publication-retained",
       "foundOn": "2026-10-10",
-      "evidence": "October 10 retained discovery tracker; not newly rechecked"
+      "evidence": "October 10 retained discovery tracker; not newly rechecked",
+      "lastReviewAt": "2026-11-02T21:09:53.261411+00:00",
+      "latestReviewEvidence": "work/daily-2026-10-31/sdk-release-review-nov2.json"
     },
     {
       "id": "ootle-go",
@@ -280,7 +321,6 @@
           "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0",
           "platform": "GitHub releases",
           "author": "tari-project",
-          "publishedAt": null,
           "foundOn": "2026-10-14",
           "context": "Official 0.4.0 release notes",
           "visibility": "public"
@@ -289,15 +329,25 @@
           "url": "https://github.com/tari-project/ootle-go/tree/v0.5.0",
           "platform": "Primary version publication",
           "author": "tari-project",
-          "publishedAt": null,
           "foundOn": "2026-10-20",
           "context": "Official v0.5.0 source tag; release page still v0.4.0",
           "visibility": "public"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0",
+          "platform": "GitHub release",
+          "author": "sdbondi",
+          "publishedAt": "2026-11-02T11:16:25Z",
+          "foundOn": "2026-11-02",
+          "context": "Official 0.6.0 publication",
+          "visibility": "public"
         }
       ],
-      "originalPostStatus": "not-found-in-retained-evidence",
+      "originalPostStatus": "public-primary-publication-retained",
       "foundOn": "2026-10-10",
-      "evidence": "October 10 retained discovery tracker; not newly rechecked"
+      "evidence": "October 10 retained discovery tracker; not newly rechecked",
+      "lastReviewAt": "2026-11-02T21:09:53.261411+00:00",
+      "latestReviewEvidence": "work/daily-2026-10-31/sdk-release-review-nov2.json"
     },
     {
       "id": "ons",
@@ -371,11 +421,29 @@
           "foundOn": "2026-10-13",
           "context": "Phantom Drop submission links proof transactions on the recovered Veil hostname; not Veil’s original announcement",
           "visibility": "public"
+        },
+        {
+          "url": "https://x.com/Erebus_Lab/status/2108603678550901041",
+          "platform": "X",
+          "author": "Erebus Labs / @Erebus_Lab",
+          "publishedAt": "2026-10-09",
+          "foundOn": "2026-11-02",
+          "context": "Creator shares Veil burn-transaction support and explorer.tari.mw; original creator update, not established launch announcement",
+          "visibility": "public"
         }
       ],
-      "originalPostStatus": "not-found-in-retained-evidence",
+      "originalPostStatus": "public-creator-update-found; first launch announcement not established",
       "foundOn": "2026-10-10",
-      "evidence": "October 10 retained discovery tracker; not newly rechecked"
+      "evidence": "October 10 retained discovery tracker; not newly rechecked",
+      "reviewHistory": [
+        {
+          "checkedAt": "2026-11-02T22:06:10.124541+00:00",
+          "scope": "Current source update and retained original posts",
+          "evidence": [
+            "work/daily-2026-10-31/veil-creator-x-thread-nov2.txt"
+          ]
+        }
+      ]
     },
     {
       "id": "tari-l1-wasm",
@@ -407,7 +475,6 @@
           "url": "https://x.com/DNodeCapital/status/2108867687749181816",
           "platform": "X",
           "author": "DNodeCapital",
-          "publishedAt": null,
           "foundOn": "2026-10-10",
           "context": "Giveaway announcement",
           "visibility": "public"
@@ -416,7 +483,6 @@
           "url": "https://x.com/DNodeCapital/status/2108867690085421447",
           "platform": "X",
           "author": "DNodeCapital",
-          "publishedAt": null,
           "foundOn": "2026-10-10",
           "context": "Follow-up in the announcement thread",
           "visibility": "public"
@@ -435,8 +501,6 @@
         {
           "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
           "platform": "Reddit · r/tari",
-          "author": null,
-          "publishedAt": null,
           "foundOn": "2026-10-10",
           "context": "Burn wallet builder announcement",
           "visibility": "public"
@@ -501,13 +565,23 @@
       ],
       "previousProjectUrls": [
         "https://github.com/GSXRspartan/tari-ootle-liquidity-protocol"
+      ],
+      "additionalSharingPosts": [
+        {
+          "url": "https://x.com/phillip_d33221/status/2114140382430961761",
+          "platform": "X",
+          "author": "phillip_d33221",
+          "publishedAt": "2026-10-24",
+          "dateFound": "2026-11-03",
+          "context": "Creator shares Shadow Swap repository; forum history retained",
+          "evidence": "work/daily-2026-10-31/discord-linked-x-strategy-accelerator-expanded-dom-nov3.txt"
+        }
       ]
     },
     {
       "id": "skydrop",
       "title": "Skydrop",
       "projectUrl": "https://skydrop.tari.mw/",
-      "repositoryUrl": null,
       "documentationUrl": "https://skydrop.tari.mw/#/how",
       "discoveryUrl": "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1",
       "sharingPosts": [
@@ -546,9 +620,29 @@
           "foundOn": "2026-10-31",
           "context": "The Tari community (@0xhra.bsky.social) is also building this with \"skydrop\" skydrop.tari.mw\n\nTari is working on a private stablecoin with Brale. \nTipping private USD stables to journalists and content creators is an interesting usecase for crypto, and open protocols like AT Proto are best suited.",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vY_cBAZ1Goc",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-13",
+          "eventDate": "2026-10-13",
+          "foundOn": "2026-11-02",
+          "context": "20:16: Public community project announcement.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
       ],
-      "note": "No public repository link found in the reviewed announcement or public app guide."
+      "note": "No public repository link found in the reviewed announcement or public app guide.",
+      "sourceReviews": [
+        {
+          "checkedAt": "2026-11-02T18:00:39.173673+00:00",
+          "scope": "Shares Skydrop app; separately discusses future stablecoin plans",
+          "evidence": "work/daily-2026-10-31/discord-marketing-coverage-nov2.json"
+        }
+      ]
     },
     {
       "id": "signal-vault",
@@ -583,6 +677,19 @@
           "foundOn": "2026-10-12",
           "context": "Creator update on Signal Vault fixes and tests",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AZzkThgc5dY",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-06",
+          "foundOn": "2026-11-02",
+          "context": "17:31–18:26: September contest second-place announcement.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
       ]
     },
@@ -610,6 +717,32 @@
           "foundOn": "2026-10-12",
           "context": "September contest results: 1st place",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AZzkThgc5dY",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-06",
+          "foundOn": "2026-11-02",
+          "context": "16:28–19:50: September contest first-place announcement and Council voting-wallet use, as reported by speakers.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-27",
+          "eventDate": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "13:37: Council voting-wallet discussion.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
       ]
     },
@@ -637,6 +770,19 @@
           "foundOn": "2026-10-12",
           "context": "September contest results: 3rd place",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AZzkThgc5dY",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-06",
+          "foundOn": "2026-11-02",
+          "context": "16:50–17:26 and 25:04: September third-place announcement and historical v0.4 Android app mention.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
       ]
     },
@@ -663,7 +809,83 @@
           "foundOn": "2026-10-14",
           "context": "Official Universe bridge announcement",
           "visibility": "public"
+        },
+        {
+          "url": "https://github.com/tari-project/universe/releases/tag/v1.6.20",
+          "platform": "GitHub release",
+          "author": "github-actions[bot]",
+          "publishedAt": "2026-10-29T23:20:26Z",
+          "foundOn": "2026-11-02",
+          "context": "Tari Universe v1.6.20: Deposit Reference Fix, Part Two",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/9607e7f572cb4914-cd34f0f398483d4b64df5b1dc1986fd9bf32fb08a270b3004d18eca72bd138e2.txt"
+        },
+        {
+          "url": "https://github.com/tari-project/universe/releases/tag/v1.6.19",
+          "platform": "GitHub release",
+          "author": "github-actions[bot]",
+          "publishedAt": "2026-10-29T03:31:59Z",
+          "foundOn": "2026-11-02",
+          "context": "Tari Universe v1.6.19: Deposit Reference Fix",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/46a5159b8c0f2f8a-74f69e5b43f8808a21d11f2a17b31ebf25679c36cc6239c79b3f503d91119dd2.txt"
+        },
+        {
+          "url": "https://github.com/tari-project/universe/releases/tag/v1.6.18",
+          "platform": "GitHub release",
+          "author": "github-actions[bot]",
+          "publishedAt": "2026-10-27T14:24:25Z",
+          "foundOn": "2026-11-02",
+          "context": "Tari Universe v1.6.18: Twin Tides",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/3ba1255c826c2225-ba182f20007e465785295776f8814af6734899bcdb6ed3d082f4aa2ad632bbbd.txt"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AZzkThgc5dY",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-06",
+          "foundOn": "2026-11-02",
+          "context": "13:10: Historical Ootle and embedded wallet discussion; current release reviewed separately.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vY_cBAZ1Goc",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-13",
+          "eventDate": "2026-10-13",
+          "foundOn": "2026-11-02",
+          "context": "17:36: Historical Universe 1.6.17 update, superseded by the separately reviewed 1.6.20 release.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-27",
+          "eventDate": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "4:57: Historical 1.6.18 release preparation; current 1.6.20 availability reviewed separately.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
+      ],
+      "status": "reviewed-publication-pending",
+      "reason": "Official desktop mining application and companion wallet. Release v1.6.20, published October 29, 2026, fixes non-text payment IDs and bundles Minotari v0.5.2. The release says oversized payment IDs are refused before reserving funds and history reflects the ID actually sent. v1.6.18 introduced the embedded wallet and Ootle Esmeralda testnet wallet; its NVIDIA TARI Miner integration supports one GPU, and Linux Flatpak requires manual updates. November 2 review covered the public README and complete v1.6.18–v1.6.20 release notes. The recording is an announcement walkthrough of v1.6.20, not a demonstrated wallet or mining session. Earlier source footage and official social announcements are retained in the discovery trail.",
+      "reviewEvidence": [
+        "work/daily-2026-10-31/wallet-resource-refresh-nov2.json",
+        "work/daily-2026-10-31/wallet-local-playback-nov2.json",
+        "work/daily-2026-10-31/cake-wallet-license-observations-nov2.json"
       ]
     },
     {
@@ -689,13 +911,49 @@
           "foundOn": "2026-10-19",
           "context": "Official October19 sharing of the Rust/WASM template collection",
           "visibility": "public"
+        },
+        {
+          "url": "https://github.com/tari-project/wasm-template/pull/72",
+          "platform": "GitHub pull request",
+          "author": "sdbondi",
+          "publishedAt": "2026-10-29T12:17:05Z",
+          "foundOn": "2026-11-02",
+          "context": "Official 0.49/0.37 template and proof-authorization update; merged November 2",
+          "visibility": "public"
+        },
+        {
+          "url": "https://github.com/tari-project/tari-cli/releases/tag/v0.34.1",
+          "platform": "GitHub release",
+          "author": "sdbondi",
+          "publishedAt": "2026-11-02T11:41:06Z",
+          "foundOn": "2026-11-02",
+          "context": "Related official Tari CLI update for Ootle0.49.1",
+          "visibility": "public"
+        }
+      ],
+      "originalPostStatus": "public-sharing-posts-retained",
+      "reviewHistory": [
+        {
+          "checkedAt": "2026-11-02T22:06:10.124541+00:00",
+          "scope": "Current source update and retained original posts",
+          "evidence": [
+            "work/daily-2026-10-31/official-templates-pr72-nov2.json",
+            "work/daily-2026-10-31/official-template-threads-nov2.json"
+          ]
+        },
+        {
+          "checkedAt": "2026-11-03T00:00:01.600402+00:00",
+          "scope": "Related CLI release linked from template developer tools",
+          "evidence": [
+            "work/daily-2026-10-31/github-late-delta-review-nov2.json"
+          ]
         }
       ]
     },
     {
       "id": "crypt",
       "title": "Crypt",
-      "projectUrl": "https://tari-crypt.vercel.app/",
+      "projectUrl": "https://github.com/ogboy92ii/crypt",
       "repoUrl": "https://github.com/ogboy92ii/crypt",
       "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
       "originalPostStatus": "Public creator announcements retained alongside the original discovery page.",
@@ -708,9 +966,9 @@
           "foundOn": "2026-10-13",
           "context": "October Build Contest Thread: Spooky Secrets!",
           "visibility": "public",
-          "lastObservedEditAt": "2026-10-28T15:08:16.456Z",
-          "editContext": "Creator provided replacement demo and source archive after GitHub became unavailable",
-          "lastFoundOn": "2026-10-29"
+          "lastObservedEditAt": "2026-11-03T01:30:07.869Z",
+          "editContext": "Creator reports Ootle 0.49 republishing with updated source branch and sale receipts.",
+          "lastFoundOn": "2026-11-03"
         },
         {
           "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3mxoehhu2b22o",
@@ -766,15 +1024,25 @@
           "context": "Official Crypt feature; linked retired destination retained in history, creator replacement remains primary",
           "visibility": "public",
           "evidence": "work/daily-2026-10-31/x-crypt-original-nov2.txt"
+        },
+        {
+          "url": "https://github.com/ogboy92ii/crypt/pull/1",
+          "platform": "GitHub",
+          "author": "ogboy92ii",
+          "foundOn": "2026-11-03",
+          "context": "Republished template source and sale receipts; open PR at review",
+          "visibility": "public",
+          "publishedAt": "2026-11-02T22:43:18Z"
         }
       ],
       "previousProjectUrls": [
-        "https://lrifton92.github.io/crypt/"
+        "https://lrifton92.github.io/crypt/",
+        "https://tari-crypt.vercel.app/"
       ],
       "sourceArchiveUrl": "https://tari-crypt.vercel.app/crypt-source-683bc4e.zip",
       "sourceArchiveSha256": "ec64b4e5acde3ef73819371871d54a7190aa7d32388b1a19229081e6049bb96f",
-      "notes": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 31 reviewed forum entry identifies ogboy92ii/crypt as the full-history mirror of the restricted Lrifton92/crypt repository; the replacement demo and earlier source archive remain available. BSD-3-Clause source. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The October 29 recording shows the mirror’s requirements and title screen, with no wallet or transaction. Earlier simulation footage and retired URLs remain in the maintenance history.",
-      "publicationStatus": "published-live-verified",
+      "notes": "Secret-trading template and documented browser simulation. The creator’s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil’s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README’s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
+      "publicationStatus": "update-publication-pending",
       "destinationHistory": [
         {
           "observedAt": "2026-10-31T11:03:46.010783+00:00",
@@ -786,7 +1054,37 @@
           "reason": "Creator-provided current destination; older URLs and observations retained."
         }
       ],
-      "status": "update-publication-pending"
+      "status": "update-publication-pending",
+      "reviewHistory": [
+        {
+          "id": "crypt",
+          "title": "Crypt",
+          "projectUrl": "https://tari-crypt.vercel.app/",
+          "repoUrl": "https://github.com/ogboy92ii/crypt",
+          "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
+          "originalPostStatus": "Public creator announcements retained alongside the original discovery page.",
+          "previousProjectUrls": [
+            "https://lrifton92.github.io/crypt/"
+          ],
+          "sourceArchiveUrl": "https://tari-crypt.vercel.app/crypt-source-683bc4e.zip",
+          "sourceArchiveSha256": "ec64b4e5acde3ef73819371871d54a7190aa7d32388b1a19229081e6049bb96f",
+          "notes": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 31 reviewed forum entry identifies ogboy92ii/crypt as the full-history mirror of the restricted Lrifton92/crypt repository; the replacement demo and earlier source archive remain available. BSD-3-Clause source. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The October 29 recording shows the mirror’s requirements and title screen, with no wallet or transaction. Earlier simulation footage and retired URLs remain in the maintenance history.",
+          "publicationStatus": "published-live-verified",
+          "destinationHistory": [
+            {
+              "observedAt": "2026-10-31T11:03:46.010783+00:00",
+              "previousRepoUrl": "https://tari-crypt.vercel.app/crypt-source-683bc4e.zip",
+              "previousDemoUrl": "https://tari-crypt.vercel.app/",
+              "replacementRepoUrl": "https://github.com/ogboy92ii/crypt",
+              "replacementDemoUrl": "https://tari-crypt.vercel.app/",
+              "evidence": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
+              "reason": "Creator-provided current destination; older URLs and observations retained."
+            }
+          ],
+          "status": "update-publication-pending"
+        }
+      ],
+      "documentationUrl": "https://github.com/ogboy92ii/crypt/blob/432249f119e73a4606ffdb9cf2f0088885f7378f/README.md"
     },
     {
       "id": "phantom-drop",
@@ -840,6 +1138,14 @@
           "url": "https://hycorange.github.io/phantom-drop/",
           "finding": "Interactive narrated replay inspected with actual input; no live transaction."
         }
+      ],
+      "followupHistory": [
+        {
+          "checkedAt": "2026-11-03T01:33:21.484276+00:00",
+          "source": "https://x.com/tari/status/2116153147538260441",
+          "evidence": "work/daily-2026-10-31/x-phantom-drop-expanded-nov2.txt",
+          "finding": "Read original and expanded accessible replies; no additional project destination in replies. Public catalog sharing-link backfill pending."
+        }
       ]
     },
     {
@@ -863,7 +1169,6 @@
           "url": "https://www.reddit.com/r/tari/comments/1x4eany/i_built_hauntboard_for_taris_spooky_secrets/",
           "platform": "Reddit",
           "author": "u/Starz1428",
-          "publishedAt": null,
           "foundOn": "2026-10-13",
           "context": "Creator Hauntboard announcement in r/tari; one returned reply read October 16",
           "visibility": "public"
@@ -920,7 +1225,29 @@
       "sharingPosts": [],
       "originalPostStatus": "No separate public announcement found in reviewed sources. Actual discovery page retained.",
       "discoveryContext": "Creator public GitHub repository inventory",
-      "sourceUrl": "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0"
+      "sourceUrl": "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0",
+      "discoveryHistory": [
+        {
+          "foundOn": "2026-11-02",
+          "platform": "GitHub",
+          "author": "big-chief-1889",
+          "context": "Core CLI repository and releases linked by the existing GUI project",
+          "discoveryPage": "https://github.com/big-chief-1889/Macotaur",
+          "releasePages": [
+            {
+              "url": "https://github.com/big-chief-1889/Macotaur/releases/tag/v0.2.0",
+              "tag": "v0.2.0",
+              "publishedAt": "2026-10-10T07:16:41Z"
+            },
+            {
+              "url": "https://github.com/big-chief-1889/Macotaur/releases/tag/v0.1.0",
+              "tag": "v0.1.0",
+              "publishedAt": "2026-10-10T03:55:45Z"
+            }
+          ],
+          "evidence": "work/daily-2026-10-31/macotaur-core-dedup-review-nov2.json"
+        }
+      ]
     },
     {
       "id": "caravel-trade",
@@ -953,6 +1280,19 @@
           "foundOn": "2026-10-23",
           "context": "Creator Trade announcement",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-27",
+          "eventDate": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "12:56: Private OTC market and burn-wallet discussion.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         },
         {
           "url": "https://x.com/Caravelxyz/status/2113545415282855958",
@@ -1028,8 +1368,6 @@
         {
           "url": "https://hauntboard.taritracker.com/?board=component_594f90d8cb8c2d0f70d941ba1c513769727feceeabd9d2137b5b6a130a6aa28e&category=general&thread=component_59df751bd774e777c97b4cab4dc7b6723ffcbb66cd3d8656ffcb87de99630011",
           "platform": "Hauntboard",
-          "author": null,
-          "publishedAt": null,
           "foundOn": "2026-10-15",
           "context": "Notice on Faucet!! reply 3 links the L1 faucet; author and date not exposed in the inspected default reader.",
           "visibility": "public"
@@ -1077,7 +1415,6 @@
           "url": "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
           "platform": "Reddit · r/tari",
           "author": "u/Serious-Bad8845",
-          "publishedAt": null,
           "foundOn": "2026-10-16",
           "context": "Creator-linked Sealed Coffin announcement; body removed by Reddit filters when inspected October16",
           "visibility": "public"
@@ -1128,7 +1465,7 @@
       "title": "Bitcoin Takeover: Talking Tari",
       "projectUrl": "https://www.youtube.com/watch?v=QDbGFoIMfTA&t=5531s",
       "status": "research-lead",
-      "reason": "October16 page metadata and privacy-games chapter inspected; captions unavailable, full interview not reviewed. Retained as learning lead; no new software listing.",
+      "reason": "November 3: complete available transcript, expanded description, posted comments and public replay chat reviewed. Research/learning evidence; no newly shipped software established.",
       "sharingPosts": [
         {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxyqxuyzmt2f",
@@ -1165,9 +1502,72 @@
           "foundOn": "2026-10-19",
           "context": "Official sharing of Bitcoin Takeover S17 E45 article",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QDbGFoIMfTA",
+          "platform": "YouTube",
+          "author": "Bitcoin Takeover",
+          "publishedAt": "2026-09-28",
+          "foundOn": "2026-11-03",
+          "context": "S17 E45: Talking Tari with Naveen Jain, Fox & Marguerite de Courcelle",
+          "visibility": "public"
+        },
+        {
+          "url": "https://x.com/tari/status/2111097567488409767",
+          "platform": "X",
+          "author": "tari",
+          "foundOn": "2026-11-03",
+          "context": "Official sharing post retained from X discovery follow-up",
+          "visibility": "public"
         }
       ],
-      "articleUrl": "https://bitcoin-takeover.com/s17-e45-talking-tari-privacy-with-naveen-jain-mr-fox-marguerite-de-courcelle/"
+      "articleUrl": "https://bitcoin-takeover.com/s17-e45-talking-tari-privacy-with-naveen-jain-mr-fox-marguerite-de-courcelle/",
+      "sourceReviews": [
+        {
+          "checkedAt": "2026-11-02T18:00:39.173682+00:00",
+          "scope": "Original Bitcoin Takeover interview shared in marketing channel",
+          "evidence": "work/daily-2026-10-31/discord-marketing-coverage-nov2.json"
+        },
+        {
+          "checkedAt": "2026-11-02T18:00:39.173684+00:00",
+          "scope": "Derivative Marguerite interview excerpt; credits Bitcoin Takeover S17 E45",
+          "evidence": "work/daily-2026-10-31/discord-marketing-coverage-nov2.json"
+        },
+        {
+          "checkedAt": "2026-11-02T18:00:39.173686+00:00",
+          "scope": "Derivative Fox interview excerpt; credits Bitcoin Takeover S17 E45",
+          "evidence": "work/daily-2026-10-31/discord-marketing-coverage-nov2.json"
+        },
+        {
+          "checkedAt": "2026-11-03T07:42:41.754528+00:00",
+          "status": "partial",
+          "scope": [
+            "Full exported auto-English transcript, 4438 lines, through 2:56:28",
+            "Expanded description and chapter list",
+            "All five displayed comments including one expanded reply"
+          ],
+          "pendingScope": [
+            "Complete live-chat replay"
+          ],
+          "evidence": "work/daily-2026-10-31/bitcoin-takeover-review-nov3.json"
+        },
+        {
+          "checkedAt": "2026-11-03T08:03:43.295363+00:00",
+          "status": "complete",
+          "scope": "All available transcript, description, comments and public replay chat",
+          "evidence": "work/daily-2026-10-31/bitcoin-takeover-review-nov3.json"
+        }
+      ],
+      "reviewHistory": [
+        {
+          "supersededAt": "2026-11-03T07:42:41.754528+00:00",
+          "reason": "October16 page metadata and privacy-games chapter inspected; captions unavailable, full interview not reviewed. Retained as learning lead; no new software listing."
+        },
+        {
+          "supersededAt": "2026-11-03T08:03:43.295363+00:00",
+          "reason": "November 3 full transcript, expanded description and five comments reviewed; live-chat replay pending. Learning/research lead; no newly shipped software established."
+        }
+      ]
     },
     {
       "id": "ghostline",
@@ -1238,6 +1638,14 @@
       "documentationUrls": [
         "https://ghostline-ui.vercel.app/evidence.html",
         "https://ghostline-ui.vercel.app/evidence.json"
+      ],
+      "followupHistory": [
+        {
+          "checkedAt": "2026-11-03T01:59:13.022902+00:00",
+          "source": "https://x.com/tari/status/2115790755323134073",
+          "evidence": "work/daily-2026-10-31/x-ghostline-expanded-nov2.txt",
+          "finding": "Read original and all displayed replies including probable-spam expansion; no new project links. Commenter questions and claims do not establish implemented behavior."
+        }
       ]
     },
     {
@@ -1263,6 +1671,19 @@
           "foundOn": "2026-10-23",
           "context": "Creator submission or material update",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-27",
+          "eventDate": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "11:56: Anonymous polls and community voting discussion.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
       ],
       "status": "published",
@@ -1357,7 +1778,15 @@
           "reason": "Creator-provided current destination; older URLs and observations retained."
         }
       ],
-      "repoUrl": "https://github.com/Kylne700/seance-v2"
+      "repoUrl": "https://github.com/Kylne700/seance-v2",
+      "followupHistory": [
+        {
+          "checkedAt": "2026-11-03T01:59:13.022902+00:00",
+          "source": "https://x.com/tari/status/2115428367486836872",
+          "evidence": "work/daily-2026-10-31/x-seance-expanded-nov2.txt",
+          "finding": "Read original and all displayed replies including probable-spam expansion; no new project links. Commenter questions and claims do not establish implemented behavior."
+        }
+      ]
     },
     {
       "id": "sapient-bonus-contest",
@@ -1373,6 +1802,19 @@
           "foundOn": "2026-10-21",
           "context": "Community-funded Sapient bonus contest announcement and eligibility terms",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-27",
+          "eventDate": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "13:28: Historical 100,000 XTM Sapient extension contest bonus; original expired deadline retained.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
       ],
       "status": "published-verified",
@@ -1418,6 +1860,19 @@
           "foundOn": "2026-10-23",
           "context": "Creator payroll announcement",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-27",
+          "eventDate": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "12:30: Confidential payroll and view-key project mention.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
       ],
       "status": "published",
@@ -1465,28 +1920,6 @@
           "visibility": "public"
         },
         {
-          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562536605342896209",
-          "platform": "Discord",
-          "channel": "Tari / general",
-          "author": "Inversionero",
-          "publishedAt": "2026-10-21T18:42:37.240000+00:00",
-          "foundOn": "2026-11-02",
-          "context": "Creator shares HideBox forum thread",
-          "visibility": "public",
-          "evidence": "work/daily-2026-10-31/discord-general-coverage-nov2.json"
-        },
-        {
-          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562537263219343391",
-          "platform": "Discord",
-          "channel": "Tari / general",
-          "author": "Inversionero",
-          "publishedAt": "2026-10-21T18:45:14.090000+00:00",
-          "foundOn": "2026-11-02",
-          "context": "Creator outlines future roadmap; not evidence that features shipped",
-          "visibility": "public",
-          "evidence": "work/daily-2026-10-31/discord-general-coverage-nov2.json"
-        },
-        {
           "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
           "platform": "YouTube",
           "channel": "Tari Community",
@@ -1512,7 +1945,15 @@
       ],
       "status": "published",
       "notes": "Browser-encrypted file drive with link, word, address and pay-to-open sharing. The October 23 public how-it-works page describes browser-held keys, encrypted uploads and a SealLog record when a file leaves the drive. Losing the saved key loses access. The creator says the server observes padded sizes, timing and sharing rules; this is not a claim that all metadata is hidden. The public site and documentation were inspected without creating a drive, keys or wallet, uploading files, or making payments. MIT source; Esmeralda testnet. Recording shows the documentation and its illustrative UI, not an uploaded file.",
-      "publishedOn": "2026-10-23"
+      "publishedOn": "2026-10-23",
+      "followupHistory": [
+        {
+          "checkedAt": "2026-11-03T01:33:21.484276+00:00",
+          "source": "https://x.com/tari/status/2115961883064762371",
+          "evidence": "work/daily-2026-10-31/x-hidebox-spam-loaded-nov2.txt",
+          "finding": "Read original and expanded accessible replies; no additional project destination in replies. Public catalog sharing-link backfill pending."
+        }
+      ]
     },
     {
       "id": "familiar",
@@ -1545,6 +1986,19 @@
           "context": "Creator announcement",
           "foundOn": "2026-10-23",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-27",
+          "eventDate": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "12:45: Agent wallet spending-cap project mention.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
       ],
       "status": "published",
@@ -1678,10 +2132,22 @@
           "url": "https://www.reddit.com/r/tari/comments/1xfqeq2/arkimals_hatch_a_secret_canine_on_tari/",
           "platform": "Reddit",
           "author": "Black_Turtle_",
-          "publishedAt": null,
           "foundOn": "2026-10-29",
           "context": "Creator announcement, feed displays 3 days ago; exact timestamp not read",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-27",
+          "eventDate": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "13:09: Encrypted-memo project mention.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
       ],
       "status": "published",
@@ -1711,6 +2177,19 @@
           "foundOn": "2026-10-29",
           "visibility": "public",
           "context": "Creator announcement linked from contest submission"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-27",
+          "eventDate": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "13:17: sbox.trading private Steam-item project mention.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
       ],
       "status": "published",
@@ -1949,10 +2428,23 @@
           "foundOn": "2026-10-31",
           "context": "Creator project announcement",
           "visibility": "public"
+        },
+        {
+          "url": "https://x.com/ootlefan_alex/status/2117328083070206197",
+          "author": "@ootlefan_alex",
+          "publishedAt": "2026-11-02T18:48:47.000Z",
+          "publicationDatePrecision": "exact public DOM datetime",
+          "context": "Creator shares Ootlebook and describes proposed decentralized AI collaboration inspired by other projects",
+          "evidence": "work/daily-2026-10-31/x-bounty-recovered-parent-nov3.json",
+          "platform": "X",
+          "foundOn": "2026-11-03",
+          "visibility": "public",
+          "timestampEvidence": "work/daily-2026-10-31/x-bounty-thread-publication-dates-nov3.json"
         }
       ],
       "status": "qualified-publication-pending",
-      "notes": "Independent community experiment for AI-agent profiles, posts, service listings and voucher-based payment lanes on Esmeralda. The website presents public contract state and an agent manual; the source includes a client, encrypted-message tooling and a read-only Minotari explorer MCP. Registering requires an owner signature and a 10 tTARI name fee. Posts are permanent even when retracted, fees remain locked, and payment lanes use an escrow close window. October 31 review covered the original forum announcement, MIT README and public directory. No agent was registered, software installed, message posted or payment made. Not affiliated with or endorsed by Tari Labs."
+      "notes": "Independent community experiment for AI-agent profiles, posts, service listings and voucher-based payment lanes on Esmeralda. The website presents public contract state and an agent manual; the source includes a client, encrypted-message tooling and a read-only Minotari explorer MCP. Registering requires an owner signature and a 10 tTARI name fee. Posts are permanent even when retracted, fees remain locked, and payment lanes use an escrow close window. October 31 review covered the original forum announcement, MIT README and public directory. No agent was registered, software installed, message posted or payment made. Not affiliated with or endorsed by Tari Labs.",
+      "additionalSharingPublicationStatus": "pending"
     },
     {
       "id": "creator-contest-503",
@@ -1968,6 +2460,19 @@
           "foundOn": "2026-10-31",
           "context": "Original creator contest announcement and subsequent clarifications",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-27",
+          "eventDate": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "36:07: Planned creator bounty announcement; published rules reviewed separately.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
         }
       ],
       "status": "qualified-publication-pending",
@@ -2332,6 +2837,813 @@
       ]
     },
     {
+      "id": "cw-tari-wallet-backends",
+      "title": "Cake Wallet Tari L1/L2 backends",
+      "projectUrl": "https://github.com/tari-project/cw_tari_ootle_wallet",
+      "discoveryUrl": "https://github.com/tari-project/cw_tari_ootle_wallet",
+      "sharingPosts": [],
+      "sourceNote": "Original paired discovery retained; separate L1/L2 records and recordings preserve distinct network/version limits.",
+      "foundOn": "2026-11-02",
+      "canonicalResources": [
+        "cw-tari-wallet",
+        "cw-tari-ootle-wallet"
+      ],
+      "status": "split-into-two-canonical-resources"
+    },
+    {
+      "id": "minotari-cli-release",
+      "title": "Minotari CLI",
+      "projectUrl": "https://github.com/tari-project/minotari-cli",
+      "discoveryUrl": "https://github.com/tari-project/minotari-cli",
+      "sharingPosts": [
+        {
+          "url": "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2",
+          "platform": "GitHub release",
+          "author": "github-actions[bot]",
+          "publishedAt": "2026-10-29T23:19:53Z",
+          "foundOn": "2026-11-02",
+          "context": "v0.5.2 fixes embedded payment IDs as bytes",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/aa4197fc9c3e2c7b-dd76e37825f8e4bb4d1ebb514b6b03aa70c7d1d0603440f22bc6c4960811babe.txt"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-27",
+          "eventDate": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "4:33: Historical v0.5.1 announcement; current v0.5.2 reviewed separately.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+        }
+      ],
+      "sourceNote": "Official repository/release discovery. Catalog and recording pending.",
+      "foundOn": "2026-11-02",
+      "status": "reviewed-publication-pending",
+      "reason": "Lightweight command-line wallet and daemon with view-key scanning, account history, SQLite storage and encrypted wallet keys. v0.5.2, published October 29, 2026, fixes sending an address’s embedded payment ID as bytes. Release assets include separate mainnet and Esmeralda builds. The README describes view-only scanning, but its authenticated daemon also exposes operations that can move funds; the scanning description is not a claim that every mode is read-only. The daemon binds to loopback and requires an API token by default. November 2 review covered the full README and release notes. Footage is an announcement walkthrough; no keys, wallet, daemon or transaction was operated.",
+      "reviewEvidence": [
+        "work/daily-2026-10-31/wallet-resource-refresh-nov2.json",
+        "work/daily-2026-10-31/wallet-local-playback-nov2.json",
+        "work/daily-2026-10-31/cake-wallet-license-observations-nov2.json"
+      ]
+    },
+    {
+      "id": "danse-macabre",
+      "title": "Danse Macabre",
+      "projectUrl": "https://danse-macabre.vercel.app",
+      "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+          "platform": "Tari Community forum",
+          "author": "yasaswip012",
+          "publishedAt": "2026-10-31T23:37:47.682Z",
+          "updatedAt": "2026-10-31T23:37:47.682Z",
+          "foundOn": "2026-11-02",
+          "context": "Danse Macabre",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
+          "platform": "Bluesky",
+          "author": "yasaswip012.bsky.social",
+          "foundOn": "2026-11-02",
+          "context": "Creator announcement",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz7afhjelk2p",
+          "platform": "Bluesky",
+          "author": "yasaswip012.bsky.social",
+          "foundOn": "2026-11-02",
+          "context": "Creator reply about submission moderation queue",
+          "visibility": "public"
+        }
+      ],
+      "maintenanceStatus": "review-pending",
+      "repositoryUrl": "https://github.com/YASASWIP012/danse-macabre",
+      "documentationUrl": "https://github.com/YASASWIP012/danse-macabre#readme",
+      "surfaceIds": [
+        "october:danse-macabre"
+      ],
+      "evidenceHistory": [
+        {
+          "source": "Lobby PR134/135",
+          "record": {
+            "id": "october:danse-macabre",
+            "title": "Danse Macabre",
+            "projectUrl": "https://danse-macabre.vercel.app/",
+            "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+            "sharingPosts": [
+              {
+                "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+                "platform": "Tari Community forum",
+                "author": "yasaswip012",
+                "publishedAt": "2026-10-31T23:37:47.682Z",
+                "foundOn": "2026-11-02",
+                "context": "Public game explanation, three privacy views and proof links; no gameplay.",
+                "visibility": "public"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "road-to-billion-video",
+      "title": "The Road to $1 Billion — community strategy video",
+      "projectUrl": "https://www.youtube.com/watch?v=t7Cn7n5t_Y4",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/11",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/11",
+          "platform": "Tari Community forum",
+          "author": "Okz",
+          "publishedAt": "2026-10-31T15:10:34.477Z",
+          "updatedAt": "2026-10-31T21:14:43.484Z",
+          "foundOn": "2026-11-02",
+          "context": "The Road to $1 Billion — community strategy video",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/post-ootle-strategy-what-should-we-focus-on-next/485/5",
+          "platform": "Tari Community forum",
+          "author": "Okz",
+          "foundOn": "2026-11-02",
+          "context": "Strategy paper shared after community feedback",
+          "visibility": "public"
+        },
+        {
+          "url": "https://x.com/DNodeCapital/status/2116521503646781501",
+          "platform": "X",
+          "author": "DNodeCapital",
+          "foundOn": "2026-11-02",
+          "context": "Strategy announcement linked by creator; full post and replies remain pending",
+          "visibility": "public"
+        }
+      ],
+      "maintenanceStatus": "review-pending",
+      "relatedDocumentUrl": "https://docs.google.com/document/d/1S0VFv3q9A3t1m1M0qaJj32sBaRjG7Irb2EULiTVAS40/edit",
+      "sourceReviews": [
+        {
+          "checkedAt": "2026-11-02T18:00:39.173679+00:00",
+          "scope": "Community Road to One Billion proposal video; author acknowledges AI voice",
+          "evidence": "work/daily-2026-10-31/discord-marketing-coverage-nov2.json"
+        }
+      ]
+    },
+    {
+      "id": "one-way-bridge-short",
+      "title": "Why the XTM to TARI bridge goes one way",
+      "projectUrl": "https://youtube.com/shorts/OC3oCSQLz8U",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/12",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/12",
+          "platform": "Tari Community forum",
+          "author": "pashameer",
+          "publishedAt": "2026-10-31T23:06:21.220Z",
+          "updatedAt": "2026-10-31T23:06:21.220Z",
+          "foundOn": "2026-11-02",
+          "context": "Why the XTM to TARI bridge goes one way",
+          "visibility": "public"
+        }
+      ],
+      "maintenanceStatus": "review-pending"
+    },
+    {
+      "id": "two-layer-architecture-kurarmota",
+      "title": "Tari’s Two-Layer Architecture: Understanding Minotari and Ootle",
+      "projectUrl": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
+          "platform": "Tari Community forum",
+          "author": "Kurarmota",
+          "publishedAt": "2026-11-01T11:39:26.150Z",
+          "updatedAt": "2026-11-01T11:39:26.150Z",
+          "foundOn": "2026-11-02",
+          "context": "Tari’s Two-Layer Architecture: Understanding Minotari and Ootle",
+          "visibility": "public"
+        }
+      ],
+      "maintenanceStatus": "review-pending"
+    },
+    {
+      "id": "dnc-stablecoin-medium",
+      "title": "Private by Default, Compliant When Needed",
+      "projectUrl": "https://medium.com/@okansaglam016161/private-by-default-compliant-when-needed-inside-taris-stablecoin-af02a8b5b606",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/14",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/14",
+          "platform": "Tari Community forum",
+          "author": "Dnode",
+          "publishedAt": "2026-11-01T12:31:15.482Z",
+          "updatedAt": "2026-11-02T00:01:49.066Z",
+          "foundOn": "2026-11-02",
+          "context": "Private by Default, Compliant When Needed",
+          "visibility": "public"
+        }
+      ],
+      "maintenanceStatus": "review-pending"
+    },
+    {
+      "id": "dnc-stablecoin-short",
+      "title": "You just got paid. Who else knows?",
+      "projectUrl": "https://youtube.com/shorts/ZgKpqdJ8Tes",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/14",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/14",
+          "platform": "Tari Community forum",
+          "author": "Dnode",
+          "publishedAt": "2026-11-01T12:31:15.482Z",
+          "updatedAt": "2026-11-02T00:01:49.066Z",
+          "foundOn": "2026-11-02",
+          "context": "You just got paid. Who else knows?",
+          "visibility": "public"
+        }
+      ],
+      "maintenanceStatus": "review-pending",
+      "sourceReviews": [
+        {
+          "checkedAt": "2026-11-02T18:00:39.173688+00:00",
+          "scope": "Creator shares animated stablecoin privacy concept short",
+          "evidence": "work/daily-2026-10-31/discord-marketing-coverage-nov2.json"
+        }
+      ]
+    },
+    {
+      "id": "dnc-turbine-medium",
+      "title": "The Turbine: How Tari Balances Its Two-Token Economy",
+      "projectUrl": "https://medium.com/@okansaglam016161/the-turbine-how-tari-balances-its-two-token-economy-0e7bb772d181",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/14",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/14",
+          "platform": "Tari Community forum",
+          "author": "Dnode",
+          "publishedAt": "2026-11-01T12:31:15.482Z",
+          "updatedAt": "2026-11-02T00:01:49.066Z",
+          "foundOn": "2026-11-02",
+          "context": "The Turbine: How Tari Balances Its Two-Token Economy",
+          "visibility": "public"
+        }
+      ],
+      "maintenanceStatus": "review-pending"
+    },
+    {
+      "id": "dnc-turbine-short",
+      "title": "Why Tari can’t just print more tokens",
+      "projectUrl": "https://www.youtube.com/shorts/974KLD3OODg",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/14",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/14",
+          "platform": "Tari Community forum",
+          "author": "Dnode",
+          "publishedAt": "2026-11-01T12:31:15.482Z",
+          "updatedAt": "2026-11-02T00:01:49.066Z",
+          "foundOn": "2026-11-02",
+          "context": "Why Tari can’t just print more tokens",
+          "visibility": "public"
+        }
+      ],
+      "maintenanceStatus": "review-pending",
+      "sourceReviews": [
+        {
+          "checkedAt": "2026-11-02T18:00:39.173662+00:00",
+          "scope": "Creator shares Turbine educational short",
+          "evidence": "work/daily-2026-10-31/discord-marketing-coverage-nov2.json"
+        }
+      ]
+    },
+    {
+      "id": "dnc-turbine-reddit",
+      "title": "Tari’s Turbine Model: a burn-and-mint design",
+      "projectUrl": "https://www.reddit.com/r/CryptoTechnology/comments/1xl8nrz/taris_turbine_model_a_burnandmint_design_linking/",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/14",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/14",
+          "platform": "Tari Community forum",
+          "author": "Dnode",
+          "publishedAt": "2026-11-01T12:31:15.482Z",
+          "updatedAt": "2026-11-02T00:01:49.066Z",
+          "foundOn": "2026-11-02",
+          "context": "Tari’s Turbine Model: a burn-and-mint design",
+          "visibility": "public"
+        }
+      ],
+      "maintenanceStatus": "review-pending"
+    },
+    {
+      "id": "sam-real-estate-announcement",
+      "title": "Planned articles on confidential real-estate payments",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/15",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/15",
+          "platform": "Tari Community forum",
+          "author": "Sam",
+          "publishedAt": "2026-11-02T11:02:23.240Z",
+          "updatedAt": "2026-11-02T11:02:23.240Z",
+          "foundOn": "2026-11-02",
+          "context": "Planned articles on confidential real-estate payments",
+          "visibility": "public"
+        }
+      ],
+      "maintenanceStatus": "review-pending"
+    },
+    {
+      "id": "november-mvp",
+      "title": "November Build Contest: MVP",
+      "projectUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/1",
+      "discoveryUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/1",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/1",
+          "platform": "Tari Community forum",
+          "author": "Fox",
+          "publishedAt": "2026-11-01T13:23:11.520Z",
+          "updatedAt": "2026-11-01T13:23:11.520Z",
+          "foundOn": "2026-11-02",
+          "context": "November Build Contest: MVP",
+          "visibility": "public"
+        }
+      ],
+      "maintenanceStatus": "published-live-verified",
+      "acceptanceEvidence": "work/daily-2026-10-31/november-opportunities-release-acceptance.json"
+    },
+    {
+      "id": "november-first-launch",
+      "title": "November Bonus Contest: First to Launch",
+      "projectUrl": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/1",
+      "discoveryUrl": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/1",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/1",
+          "platform": "Tari Community forum",
+          "author": "Fox",
+          "publishedAt": "2026-11-01T13:36:08.192Z",
+          "updatedAt": "2026-11-01T13:36:08.192Z",
+          "foundOn": "2026-11-02",
+          "context": "November Bonus Contest: First to Launch",
+          "visibility": "public"
+        }
+      ],
+      "sourceNote": "Organizer deadline sentence combines midnight, 11:11:11, November21 and one week after November11; do not normalize these contradictory details into a precise deadline.",
+      "maintenanceStatus": "published-live-verified",
+      "acceptanceEvidence": "work/daily-2026-10-31/november-opportunities-release-acceptance.json"
+    },
+    {
+      "id": "taritalk-nodes",
+      "title": "TariTalk Nodes",
+      "projectUrl": "https://nodes.taritalk.xyz",
+      "discoveryUrl": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+          "platform": "Tari Community forum",
+          "author": "Terence",
+          "publishedAt": "2026-11-02T04:36:55.562Z",
+          "updatedAt": "2026-11-02T12:06:03.540Z",
+          "foundOn": "2026-11-02",
+          "context": "TariTalk Nodes",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/2",
+          "platform": "Tari Community forum",
+          "author": "Terence",
+          "publishedAt": "2026-11-02T05:29:03.691Z",
+          "updatedAt": "2026-11-02T12:01:13.332Z",
+          "foundOn": "2026-11-02",
+          "context": "TariTalk Nodes — Chinese version",
+          "visibility": "public"
+        },
+        {
+          "url": "https://x.com/tari_zh/status/2117114726429999611",
+          "author": "@tari_zh",
+          "publishedAt": "2026-11-02T04:40:00Z",
+          "publicationDatePrecision": "minute as displayed by X",
+          "context": "Original public social announcement of TariTalk Nodes community map and deployment guide",
+          "evidence": "work/daily-2026-10-31/x-taritalk-nodes-original-nov3.json",
+          "platform": "X",
+          "foundOn": "2026-11-03",
+          "visibility": "public"
+        }
+      ],
+      "repositoryUrl": "https://github.com/xt1085/taritalk-node-deploy",
+      "sourceNote": "Site HTTP200; linked repository API404 on November2. Public directory coverage is voluntary and incomplete. Browser availability and recording review pending; no node installation/registration performed.",
+      "maintenanceStatus": "review-and-publication-pending",
+      "surfaceIds": [
+        "tari:component:taritalk-nodes"
+      ],
+      "evidenceHistory": [
+        {
+          "source": "Lobby PR134/135",
+          "record": {
+            "id": "tari:component:taritalk-nodes",
+            "title": "TariTalk Nodes",
+            "projectUrl": "https://nodes.taritalk.xyz/",
+            "discoveryUrl": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+            "sharingPosts": [
+              {
+                "url": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+                "platform": "Tari Community forum",
+                "author": "Terence",
+                "publishedAt": "2026-11-02T04:36:55.562Z",
+                "foundOn": "2026-11-02",
+                "context": "Interactive map region filter, deployment guide and privacy review; no installation.",
+                "visibility": "public"
+              }
+            ]
+          }
+        }
+      ],
+      "sourceReviews": [
+        {
+          "checkedAt": "2026-11-02T18:00:39.173676+00:00",
+          "scope": "Shares TariTalk node status forum announcement",
+          "evidence": "work/daily-2026-10-31/discord-marketing-coverage-nov2.json"
+        }
+      ],
+      "additionalSharingPublicationStatus": "pending"
+    },
+    {
+      "id": "release-0492",
+      "title": "Ootle v0.49.2 upgrade notes",
+      "projectUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2",
+      "sharingPosts": [],
+      "surfaceIds": [
+        "tari-ootle:learn:release-0492"
+      ],
+      "maintenanceStatus": "review-and-cross-product-publication-pending"
+    },
+    {
+      "id": "book-to-skill",
+      "title": "book-to-skill",
+      "projectUrl": "https://github.com/virgiliojr94/book-to-skill",
+      "sharingPosts": [],
+      "surfaceIds": [
+        "tari-ootle:learn:book-to-skill"
+      ],
+      "maintenanceStatus": "review-and-cross-product-publication-pending"
+    },
+    {
+      "id": "ghost-lantern",
+      "title": "Ghost Lantern",
+      "projectUrl": "https://github.com/penielgold-hub/Ghost-Lantern",
+      "repositoryUrl": "https://github.com/penielgold-hub/Ghost-Lantern",
+      "sharingPosts": [],
+      "note": "Discovered via a public Discord link; repository existence, MIT license and README verified. No creator announcement permalink or official October submission confirmed. Local simulation and public indexer scope are README claims; application not run.",
+      "surfaceIds": [
+        "community:ghost-lantern"
+      ],
+      "maintenanceStatus": "review-and-cross-product-publication-pending"
+    },
+    {
+      "id": "cash-with-a-brain-community-edit",
+      "title": "Cash with a brain community video edit",
+      "status": "held",
+      "reason": "Promotional compilation of existing interviews, graphics and memes; retained as a community media discovery rather than a distinct software or learning-guide listing. No application demonstration or current regulated-stablecoin certification inferred.",
+      "sharingPosts": [],
+      "reviewEvidence": [
+        "work/daily-2026-10-31/discord-marketing-media/1566041903093383198-opening.png",
+        "work/daily-2026-10-31/discord-marketing-media/1566041903093383198-middle.png",
+        "work/daily-2026-10-31/discord-marketing-media/1566041903093383198-closing.png",
+        "work/daily-2026-10-31/discord-marketing-media/transcripts/1566041903093383198.json"
+      ]
+    },
+    {
+      "id": "ootle-front-page-oct14-prototype",
+      "title": "Ootle front-page prototype shared October 14",
+      "status": "held",
+      "reason": "Historical localhost homepage design walkthrough attributed to Luci. The current official website is already a canonical resource; this prototype is retained as source history, not a separate reachable app.",
+      "sharingPosts": [],
+      "reviewEvidence": [
+        "work/daily-2026-10-31/discord-marketing-media/1560014752812507226-opening.png",
+        "work/daily-2026-10-31/discord-marketing-media/1560014752812507226-middle.png",
+        "work/daily-2026-10-31/discord-marketing-media/1560014752812507226-closing.png",
+        "work/daily-2026-10-31/discord-marketing-media/transcripts/1560014752812507226.json"
+      ]
+    },
+    {
+      "id": "taritalk-wallet-operations-faq",
+      "title": "Wallet Operations FAQ",
+      "projectUrl": "https://taritalk.xyz/posts/wallet-operations-faq/",
+      "status": "published-live-verified",
+      "reason": "Illustrated community guide to six Tari Universe wallet interface topics: settings, seed replacement, bridge navigation, loading balances and transaction history. The page displays a November 1, 2025 publication date; Terence shared it on October 30, 2026 Eastern time (October 31 UTC). Its illustrations show Universe 1.6.12 and may differ from later releases. The recording shows the article and its settings illustration, not an operated wallet. No wallet settings, seed words, bridges or transactions were changed.",
+      "sharingPosts": [],
+      "reviewEvidence": [
+        "work/daily-2026-10-31/general-leads-editorial-nov2.json",
+        "work/daily-2026-10-31/general-leads-http-nov2.json",
+        "work/daily-2026-10-31/general-leads-followup-http-nov2.json",
+        "work/daily-2026-10-31/general-leads-local-playback.json",
+        "work/daily-2026-10-31/general-resources-release-acceptance.json"
+      ],
+      "history": [
+        {
+          "status": "reviewed-publication-pending",
+          "reason": "Illustrated community guide to six Tari Universe wallet interface topics: settings, seed replacement, bridge navigation, loading balances and transaction history. The page displays a November 1, 2025 publication date; Terence shared it on October 30, 2026 Eastern time (October 31 UTC). Its illustrations show Universe 1.6.12 and may differ from later releases. The recording shows the article and its settings illustration, not an operated wallet. No wallet settings, seed words, bridges or transactions were changed.",
+          "updatedAt": "2026-11-02T19:15:25.993313+00:00"
+        }
+      ],
+      "releaseEvidence": "work/daily-2026-10-31/general-resources-release-acceptance.json"
+    },
+    {
+      "id": "veinpool",
+      "title": "VeinPool Tari mining pool",
+      "projectUrl": "https://veinpool.fr/en/coin/xtm",
+      "status": "published-live-verified",
+      "reason": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner’s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
+      "sharingPosts": [],
+      "reviewEvidence": [
+        "work/daily-2026-10-31/general-leads-editorial-nov2.json",
+        "work/daily-2026-10-31/general-leads-http-nov2.json",
+        "work/daily-2026-10-31/general-leads-followup-http-nov2.json",
+        "work/daily-2026-10-31/general-leads-local-playback.json",
+        "work/daily-2026-10-31/general-resources-release-acceptance.json"
+      ],
+      "history": [
+        {
+          "status": "reviewed-publication-pending",
+          "reason": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner’s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
+          "updatedAt": "2026-11-02T19:15:25.993313+00:00"
+        }
+      ],
+      "releaseEvidence": "work/daily-2026-10-31/general-resources-release-acceptance.json"
+    },
+    {
+      "id": "bzminer",
+      "title": "BzMiner",
+      "projectUrl": "https://github.com/bzminer/bzminer",
+      "status": "published-live-verified",
+      "reason": "Multi-coin miner with hardware monitoring and a local dashboard. On November 2, 2026, the Tari C29 guide documented NVIDIA GPUs and experimental RX 7900 XTX / RX 9070 XT support, about 10 GB free VRAM on NVIDIA or 8.5 GB on those AMD cards, and a 1% algorithm development fee. Its guide excludes Intel, CPU and macOS C29 mining; the repository README instead lists Intel Arc Battlemage, so Intel support remains contradictory in the publisher’s documentation. Automatic tuning and measured performance qualification are RTX 3090-specific. Creator posts shared v100.46, v100.50 and v100.51; the latest reviewed release is v100.60, published October 30. Its new performance notes concern Pearl and Quantus. No open-source license was established for the miner. The recording shows the README and its Tari support table; no binary was downloaded or executed.",
+      "sharingPosts": [],
+      "reviewEvidence": [
+        "work/daily-2026-10-31/general-leads-editorial-nov2.json",
+        "work/daily-2026-10-31/general-leads-http-nov2.json",
+        "work/daily-2026-10-31/general-leads-followup-http-nov2.json",
+        "work/daily-2026-10-31/general-leads-local-playback.json",
+        "work/daily-2026-10-31/bzminer-homepage-review.json",
+        "work/daily-2026-10-31/general-resources-release-acceptance.json"
+      ],
+      "history": [
+        {
+          "status": "reviewed-publication-pending",
+          "reason": "Multi-coin miner with hardware monitoring and a local dashboard. The November 2, 2026 README identifies Tari Cuckaroo29 support for NVIDIA, Intel Arc Battlemage and AMD GPUs, approximately 10 GiB free VRAM and a 1% Tari algorithm development fee. Tari C29 CPU mining is not implemented in that README; macOS availability for other algorithms does not establish Tari GPU support. Automatic tuning and measured performance qualification are RTX 3090-specific. Creator posts shared v100.46, v100.50 and v100.51; the latest reviewed release is v100.60, published October 30. Its new performance notes concern Pearl and Quantus. No open-source license was established for the miner. The recording shows its public README and Tari support table; no binary was downloaded or executed.",
+          "updatedAt": "2026-11-02T19:15:25.993313+00:00"
+        }
+      ],
+      "releaseEvidence": "work/daily-2026-10-31/general-resources-release-acceptance.json"
+    },
+    {
+      "id": "cw-tari-wallet",
+      "title": "Cake Wallet Tari L1 backend",
+      "projectUrl": "https://github.com/tari-project/cw_tari_wallet",
+      "discoveryUrl": "https://github.com/tari-project/cw_tari_wallet",
+      "sharingPosts": [],
+      "foundOn": "2026-11-02",
+      "sourceNote": "No public original sharing post found in reviewed sources; actual repository discovery retained.",
+      "parentDiscoveryId": "cw-tari-wallet-backends",
+      "status": "reviewed-publication-pending",
+      "reason": "Rust wallet backend consumed by Cake Wallet, with generated Dart bindings through Flutter Rust Bridge 2.11.1. The public README documents wallet lifecycle, scanning, balance/history, fees, streaming sends and base-node queries, plus an additive-only Dart API contract. The reviewed Cargo manifest pins Minotari commit 86503ff8360041aa13c7911fd6bd7a6d30591dbb and Tari 6.3.0-pre.1 components. It is backend source rather than a standalone wallet download. The repository had no published releases at the November 2 review; its root LICENSE read returned 404 and the manifest declares no license. No public original sharing post was found in the reviewed sources; retain the actual GitHub repository discovery page. Footage shows its README only.",
+      "reviewEvidence": [
+        "work/daily-2026-10-31/wallet-resource-refresh-nov2.json",
+        "work/daily-2026-10-31/wallet-local-playback-nov2.json",
+        "work/daily-2026-10-31/cake-wallet-license-observations-nov2.json"
+      ]
+    },
+    {
+      "id": "cw-tari-ootle-wallet",
+      "title": "Cake Wallet Ootle backend",
+      "projectUrl": "https://github.com/tari-project/cw_tari_ootle_wallet",
+      "discoveryUrl": "https://github.com/tari-project/cw_tari_ootle_wallet",
+      "sharingPosts": [],
+      "foundOn": "2026-11-02",
+      "sourceNote": "No public original sharing post found in reviewed sources; actual repository discovery retained.",
+      "parentDiscoveryId": "cw-tari-wallet-backends",
+      "status": "reviewed-publication-pending",
+      "reason": "Cake Wallet Ootle backend using Flutter Rust Bridge 2.11.1 and ootle-rs over HTTPS, without a local node or wallet daemon. The November 2 README and Cargo manifest retain Ootle v0.47-era pins, while the official Ootle release stream has advanced to v0.49; this listing does not establish compatibility with the reset testnet. The README scopes availability to Esmeralda and says no mainnet indexer is available. Android requires CwTariOotlePlugin.initTls(context); the documented ARM translation issue affects x86_64 emulators. The repository has no published releases. Its October 29 faucet-balance note is historical. No public original sharing post was found in reviewed sources; the GitHub repository remains the discovery page. Footage shows the README and version limits, without creating wallets, obtaining test funds or sending transactions.",
+      "reviewEvidence": [
+        "work/daily-2026-10-31/wallet-resource-refresh-nov2.json",
+        "work/daily-2026-10-31/wallet-local-playback-nov2.json",
+        "work/daily-2026-10-31/cake-wallet-license-observations-nov2.json"
+      ]
+    },
+    {
+      "id": "outruna",
+      "title": "Outruna",
+      "projectUrl": "https://outruna.top",
+      "repositoryUrl": "https://github.com/solvetony/outruna",
+      "discoveryUrl": "https://www.youtube.com/watch?v=AZzkThgc5dY",
+      "foundOn": "2026-11-02",
+      "originalPostStatus": "public-discussion-retained",
+      "sharingPosts": [
+        {
+          "url": "https://www.youtube.com/watch?v=AZzkThgc5dY",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-12",
+          "eventDate": "2026-10-06",
+          "foundOn": "2026-11-02",
+          "context": "24:49: Historical L1 mainnet faucet announcement; no faucet or wallet was operated.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+        }
+      ],
+      "evidence": "Existing catalog resource; this record backfills its retained public video discussion. It does not establish that this was the first creator announcement."
+    },
+    {
+      "id": "confidential-rcv-web",
+      "title": "Confidential voting frontend",
+      "projectUrl": "https://github.com/m4r1m0/confidential-rcv-web",
+      "repositoryUrl": "https://github.com/m4r1m0/confidential-rcv-web",
+      "documentationUrl": "https://github.com/m4r1m0/confidential-rcv-web#readme",
+      "discoveryUrl": "https://github.com/chironbuilds/confidential-rcv-web",
+      "foundOn": "2026-11-02",
+      "originalPostStatus": "public-development-discussion-retained; no public social launch post found in reviewed sources",
+      "sharingPosts": [
+        {
+          "url": "https://github.com/m4r1m0/confidential-rcv-web/pull/2",
+          "platform": "GitHub pull request",
+          "channel": "Public repository",
+          "author": "chironbuilds",
+          "publishedAt": "2026-10-05T20:58:38Z",
+          "foundOn": "2026-11-02",
+          "context": "Fix StealthTransferStatement encoding for current ootle-wasm/engine",
+          "visibility": "public",
+          "relationship": "Public development discussion; not asserted to be a social launch post"
+        }
+      ],
+      "previousUrls": [],
+      "evidence": "work/daily-2026-10-31/voting-source-curation-nov2.json"
+    },
+    {
+      "id": "confidential-vote-template",
+      "title": "Ranked voting template",
+      "projectUrl": "https://github.com/m4r1m0/confidential-vote-template",
+      "repositoryUrl": "https://github.com/m4r1m0/confidential-vote-template",
+      "documentationUrl": "https://github.com/m4r1m0/confidential-vote-template#readme",
+      "discoveryUrl": "https://github.com/m4r1m0/confidential-rcv-web#readme",
+      "foundOn": "2026-11-02",
+      "originalPostStatus": "public-development-discussion-retained; no public social launch post found in reviewed sources",
+      "sharingPosts": [
+        {
+          "url": "https://github.com/m4r1m0/confidential-vote-template/pull/1",
+          "platform": "GitHub pull request",
+          "channel": "Public repository",
+          "author": "m4r1m0",
+          "publishedAt": "2026-07-31T16:19:56Z",
+          "foundOn": "2026-11-02",
+          "context": "Ranked-choice voting design and review",
+          "visibility": "public",
+          "relationship": "Public development discussion; not asserted to be a social launch post"
+        },
+        {
+          "url": "https://github.com/m4r1m0/confidential-vote-template/pull/7",
+          "platform": "GitHub pull request",
+          "channel": "Public repository",
+          "author": "m4r1m0",
+          "publishedAt": "2026-08-10T20:50:11Z",
+          "foundOn": "2026-11-02",
+          "context": "Ballot supply and tally hardening",
+          "visibility": "public",
+          "relationship": "Public development discussion; not asserted to be a social launch post"
+        }
+      ],
+      "previousUrls": [
+        "https://github.com/m4r1m0/confidential-rcv-template"
+      ],
+      "evidence": "work/daily-2026-10-31/voting-source-curation-nov2.json"
+    },
+    {
+      "id": "confidential-voting-template",
+      "title": "Yes/no voting template",
+      "projectUrl": "https://github.com/m4r1m0/confidential-voting-template",
+      "repositoryUrl": "https://github.com/m4r1m0/confidential-voting-template",
+      "documentationUrl": "https://github.com/m4r1m0/confidential-voting-template#readme",
+      "discoveryUrl": "https://github.com/m4r1m0/confidential-rcv-web#readme",
+      "foundOn": "2026-11-02",
+      "originalPostStatus": "public-development-discussion-retained; no public social launch post found in reviewed sources",
+      "sharingPosts": [
+        {
+          "url": "https://github.com/m4r1m0/confidential-voting-template/pull/1",
+          "platform": "GitHub pull request",
+          "channel": "Public repository",
+          "author": "m4r1m0",
+          "publishedAt": "2026-08-24T19:58:59Z",
+          "foundOn": "2026-11-02",
+          "context": "Confidential voting implementation and creator test report",
+          "visibility": "public",
+          "relationship": "Public development discussion; not asserted to be a social launch post"
+        }
+      ],
+      "previousUrls": [],
+      "evidence": "work/daily-2026-10-31/voting-source-curation-nov2.json"
+    },
+    {
+      "id": "miner",
+      "title": "TARI.Miner",
+      "projectUrl": "https://github.com/JustAResearcher/TARI.Miner",
+      "repositoryUrl": "https://github.com/JustAResearcher/TARI.Miner",
+      "discoveryUrl": "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210/1",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210/1",
+          "platform": "Tari Community forum",
+          "author": "kinkajou",
+          "publishedAt": "2026-07-20T19:53:18.673Z",
+          "foundOn": "2026-11-02",
+          "context": "Open-source C29 GPU miner for Tari Universe; backfilled from retained October31 thread evidence",
+          "visibility": "public"
+        },
+        {
+          "url": "https://github.com/tari-project/TARI.Miner/releases/tag/v1.1.8",
+          "platform": "GitHub release",
+          "author": "github-actions[bot]",
+          "publishedAt": "2026-10-14T18:08:40Z",
+          "foundOn": "2026-11-02",
+          "context": "Related official fork v1.1.8 experimental AMD support",
+          "visibility": "public"
+        }
+      ],
+      "originalPostStatus": "public-sharing-posts-retained",
+      "reviewHistory": [
+        {
+          "checkedAt": "2026-11-03T00:00:01.600402+00:00",
+          "scope": "Related fork release; original creator destination retained",
+          "evidence": [
+            "work/daily-2026-10-31/github-late-delta-review-nov2.json",
+            "work/daily-2026-10-31/bbbac7b36c02b365.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kurarmota-two-layer-architecture",
+      "title": "Tari’s two-layer architecture",
+      "projectUrl": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
+      "documentationUrl": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
+      "foundOn": "2026-11-02",
+      "originalPostStatus": "public-original-post-retained",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
+          "platform": "Tari Community forum",
+          "channel": "Ootle Launch Event: Creator Contest",
+          "author": "Kurarmota",
+          "publishedAt": "2026-11-01T11:39:26.150Z",
+          "foundOn": "2026-11-02",
+          "context": "Tari two-layer architecture article submission",
+          "visibility": "public"
+        }
+      ],
+      "evidence": "work/daily-2026-10-31/creator-reading-curation-nov2.json"
+    },
+    {
+      "id": "habib-four-lanes",
+      "title": "Four lanes, no monoculture",
+      "projectUrl": "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16",
+      "documentationUrl": "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16",
+      "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16",
+      "foundOn": "2026-11-02",
+      "originalPostStatus": "public-original-post-retained",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16",
+          "platform": "Tari Community forum",
+          "channel": "Ootle Launch Event: Creator Contest",
+          "author": "Habibayomide",
+          "publishedAt": "2026-11-02T16:22:02.898Z",
+          "foundOn": "2026-11-02",
+          "context": "Four Lanes article and Reddit adaptation submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xm1fa0/why_does_tari_need_four_mining_algorithms_a/",
+          "foundUrl": "https://www.reddit.com/r/tari/s/LyXnbmcK9p",
+          "platform": "Reddit",
+          "channel": "r/tari",
+          "author": "MeekAnon",
+          "foundOn": "2026-11-02",
+          "context": "Why does Tari need four mining algorithms? A plain-English breakdown of multi-lane PoW",
+          "visibility": "public"
+        }
+      ],
+      "evidence": "work/daily-2026-10-31/creator-reading-curation-nov2.json"
+    },
+    {
       "id": "tari-l1-web-wallet",
       "canonicalId": "tari-ootle:app:tari-l1-web-wallet",
       "title": "Tari L1 Web Wallet",
@@ -2375,7 +3687,6 @@
           "url": "https://bsky.app/profile/did:plc:gcz3uzyvcex77mqylzggkqjf/post/3mwbzonzcyc2m",
           "platform": "Bluesky",
           "author": "0xhra.bsky.social",
-          "publishedAt": null,
           "foundOn": "2026-11-02",
           "context": "Original announcement explicitly linked by creator in September submission; direct follow-up review pending",
           "visibility": "public",
@@ -2422,7 +3733,265 @@
         "work/daily-2026-10-31/x-wallet-september-burn-thread-nov2.txt"
       ],
       "followupNote": "Original X post, two direct replies and one nested reply read. Linked destination shows Tari L1 Wallet creation/import screen, mainnet and testnet controls. No wallet created, imported or used. Same canonical destination as retained source registry. Public catalog link backfill pending."
+    },
+    {
+      "id": "adventus-rwa-concept",
+      "title": "Adventus RWA",
+      "sharingPosts": [],
+      "originalPostStatus": "no-public-original-post-found",
+      "foundOn": "2026-11-02",
+      "status": "held-source-qualification",
+      "publicExportAllowed": false,
+      "evidence": [
+        "work/daily-2026-10-31/discord-attachment20-reviewed-nov2.png",
+        "work/daily-2026-10-31/luci-repositories-followup-nov2.json"
+      ],
+      "note": "No public target URL in screenshot. Asset backing, issuance and network claims are creator image claims only. No wallet action or execution. Public GitHub profile list exhausted at 11 repositories; no Adventus-named repository."
+    },
+    {
+      "id": "rubic-swap-widget",
+      "title": "Rubic Swap Widget for WordPress",
+      "projectUrl": "http://172.105.101.24/swap/",
+      "repositoryUrl": "https://github.com/Luci666-Onyx/rubic-swap-widget",
+      "discoveryUrl": "https://github.com/Luci666-Onyx/rubic-swap-widget",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/introducing-caravel/276/20",
+          "platform": "Tari Community forum",
+          "author": "luci666",
+          "publishedAt": "2026-10-22T20:18:51.103Z",
+          "foundOn": "2026-11-02",
+          "context": "Creator shares public Rubic swap widget test site and asks about RWA/Caravel integration",
+          "visibility": "public"
+        }
+      ],
+      "originalPostStatus": "public-sharing-post-retained",
+      "classification": "Source code with reachable public test page",
+      "summary": "Embed a wXTM-focused cross-chain swap interface in WordPress using Rubic quotes and browser wallets.",
+      "requirements": [
+        "WordPress 5.0+",
+        "PHP 7.4+"
+      ],
+      "network": "Ethereum wXTM and EVM networks; not Ootle testnet",
+      "availability": "Public source and README reviewed; genuine docs recording completed. Published with reviewed docs footage in Lobby and Workbench. Linked public demo returned HTML but browser navigation is blocked by client; no rendered app or wallet test claimed.",
+      "license": "GPL-2.0-or-later (plugin PHP header)",
+      "status": "published-and-live-verified",
+      "foundOn": "2026-11-02",
+      "evidence": [
+        "work/daily-2026-10-31/rubic-repository-readmes-nov2.json",
+        "work/daily-2026-10-31/rubic-repository-metadata-nov2.json",
+        "work/daily-2026-10-31/caravel-rubic-thread-followup-nov3.json",
+        "work/daily-2026-10-31/luci-rubic-public-site-nov3.html",
+        "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+        "work/daily-2026-10-31/rubic-catalog-additions-nov3.json",
+        "work/daily-2026-10-31/rubic-release-acceptance-nov3.json"
+      ],
+      "note": "Creator forum post links upstream widget and this public site; current site HTML references rubic-swap-widget/assets. Do not claim wallet actions, swap execution or certified security.",
+      "lastReviewAt": "2026-11-03T06:00:04.128154+00:00",
+      "history": [
+        {
+          "id": "rubic-swap-widget",
+          "title": "Rubic Swap Widget for WordPress",
+          "projectUrl": "http://172.105.101.24/swap/",
+          "repositoryUrl": "https://github.com/Luci666-Onyx/rubic-swap-widget",
+          "discoveryUrl": "https://github.com/Luci666-Onyx/rubic-swap-widget",
+          "sharingPosts": [
+            {
+              "url": "https://community.tari.com/t/introducing-caravel/276/20",
+              "platform": "Tari Community forum",
+              "author": "luci666",
+              "publishedAt": "2026-10-22T20:18:51.103Z",
+              "foundOn": "2026-11-02",
+              "context": "Creator shares public Rubic swap widget test site and asks about RWA/Caravel integration",
+              "visibility": "public"
+            }
+          ],
+          "originalPostStatus": "public-sharing-post-retained",
+          "classification": "Source code with reachable public test page",
+          "summary": "Embed a wXTM-focused cross-chain swap interface in WordPress using Rubic quotes and browser wallets.",
+          "requirements": [
+            "WordPress 5.0+",
+            "PHP 7.4+"
+          ],
+          "network": "Ethereum wXTM and EVM networks; not Ootle testnet",
+          "availability": "Public source and README reviewed; genuine docs recording completed. Publication pending. Linked public demo returned HTML but browser navigation is blocked by client; no rendered app or wallet test claimed.",
+          "license": "GPL-2.0-or-later (plugin PHP header)",
+          "status": "publication-pending",
+          "foundOn": "2026-11-02",
+          "evidence": [
+            "work/daily-2026-10-31/rubic-repository-readmes-nov2.json",
+            "work/daily-2026-10-31/rubic-repository-metadata-nov2.json",
+            "work/daily-2026-10-31/caravel-rubic-thread-followup-nov3.json",
+            "work/daily-2026-10-31/luci-rubic-public-site-nov3.html",
+            "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+            "work/daily-2026-10-31/rubic-catalog-additions-nov3.json",
+            "work/daily-2026-10-31/rubic-release-acceptance-nov3.json"
+          ],
+          "note": "Creator forum post links upstream widget and this public site; current site HTML references rubic-swap-widget/assets. Do not claim wallet actions, swap execution or certified security.",
+          "lastReviewAt": "2026-11-03T06:00:04.128154+00:00"
+        }
+      ],
+      "publicationReviewedAt": "2026-11-03T06:41:18.847098+00:00"
+    },
+    {
+      "id": "rubic-widget-skill",
+      "title": "Rubic Widget Agent Skill",
+      "projectUrl": "https://github.com/Luci666-Onyx/rubic-widget-skill",
+      "repositoryUrl": "https://github.com/Luci666-Onyx/rubic-widget-skill",
+      "discoveryUrl": "https://github.com/Luci666-Onyx/rubic-widget-skill",
+      "sharingPosts": [],
+      "originalPostStatus": "no-public-original-post-found",
+      "classification": "Source code / agent learning",
+      "summary": "Give coding agents structured Rubic API and SDK guidance for quotes, swap status, fees, claims and refunds.",
+      "availability": "Public source and README reviewed; genuine docs recording completed. Published with reviewed docs footage in Lobby and Workbench.",
+      "license": "No repository license detected in current GitHub metadata",
+      "status": "published-and-live-verified",
+      "foundOn": "2026-11-02",
+      "evidence": [
+        "work/daily-2026-10-31/rubic-repository-readmes-nov2.json",
+        "work/daily-2026-10-31/rubic-repository-metadata-nov2.json",
+        "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+        "work/daily-2026-10-31/rubic-catalog-additions-nov3.json",
+        "work/daily-2026-10-31/rubic-release-acceptance-nov3.json"
+      ],
+      "note": "README explicitly labels synthesized summaries of official Rubic docs. Repository is actual discovery page, not an original sharing post. Not installed or used as agent instructions.",
+      "lastReviewAt": "2026-11-03T06:00:04.128154+00:00",
+      "history": [
+        {
+          "id": "rubic-widget-skill",
+          "title": "Rubic Widget Agent Skill",
+          "projectUrl": "https://github.com/Luci666-Onyx/rubic-widget-skill",
+          "repositoryUrl": "https://github.com/Luci666-Onyx/rubic-widget-skill",
+          "discoveryUrl": "https://github.com/Luci666-Onyx/rubic-widget-skill",
+          "sharingPosts": [],
+          "originalPostStatus": "no-public-original-post-found",
+          "classification": "Source code / agent learning",
+          "summary": "Give coding agents structured Rubic API and SDK guidance for quotes, swap status, fees, claims and refunds.",
+          "availability": "Public source and README reviewed; genuine docs recording completed. Publication pending.",
+          "license": "No repository license detected in current GitHub metadata",
+          "status": "publication-pending",
+          "foundOn": "2026-11-02",
+          "evidence": [
+            "work/daily-2026-10-31/rubic-repository-readmes-nov2.json",
+            "work/daily-2026-10-31/rubic-repository-metadata-nov2.json",
+            "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+            "work/daily-2026-10-31/rubic-catalog-additions-nov3.json",
+            "work/daily-2026-10-31/rubic-release-acceptance-nov3.json"
+          ],
+          "note": "README explicitly labels synthesized summaries of official Rubic docs. Repository is actual discovery page, not an original sharing post. Not installed or used as agent instructions.",
+          "lastReviewAt": "2026-11-03T06:00:04.128154+00:00"
+        }
+      ],
+      "publicationReviewedAt": "2026-11-03T06:41:18.847098+00:00"
+    },
+    {
+      "id": "monero-talk-tari-epi395",
+      "title": "Monero Talk: Building Privacy Beyond Money",
+      "projectUrl": "https://www.youtube.com/watch?v=vrqcKv1Gwek",
+      "status": "research-lead",
+      "reason": "November 3: complete available transcript, expanded description, posted comments and public replay chat reviewed. Research/learning evidence; no newly shipped software established.",
+      "sharingPosts": [
+        {
+          "url": "https://x.com/tari/status/2110436101391307151",
+          "platform": "X",
+          "author": "tari",
+          "foundOn": "2026-11-03",
+          "context": "Official share with embedded Monero Talk interview at private applications chapter",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/monero-talk-review-nov3.json"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vrqcKv1Gwek",
+          "platform": "YouTube",
+          "author": "Monero Talk",
+          "publishedAt": "2026-09-18",
+          "foundOn": "2026-11-03",
+          "context": "Original interview publication; EPI 395, Douglas Tuman with Naveen Spark",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/monero-talk-review-nov3.json"
+        }
+      ],
+      "sourceReviews": [
+        {
+          "checkedAt": "2026-11-03T07:37:31.946641+00:00",
+          "scope": "Full transcript, expanded description, three comments; live-chat partial",
+          "status": "partial",
+          "evidence": "work/daily-2026-10-31/monero-talk-review-nov3.json"
+        },
+        {
+          "checkedAt": "2026-11-03T08:03:43.295363+00:00",
+          "status": "complete",
+          "scope": "All available transcript, description, comments and public replay chat",
+          "evidence": "work/daily-2026-10-31/monero-talk-review-nov3.json"
+        }
+      ],
+      "reviewHistory": [
+        {
+          "supersededAt": "2026-11-03T08:03:43.295363+00:00",
+          "reason": "Complete transcript and expanded description plus all three posted comments reviewed. Future Cake/Yat work is not a shipped product; unnamed prototype retained as lead. Live-chat replay remains pending."
+        }
+      ]
+    },
+    {
+      "id": "tari-tracker",
+      "title": "Tari Tracker",
+      "projectUrl": "https://taritracker.com/",
+      "documentationUrl": "https://taritracker.com/",
+      "dateFound": "2026-11-03T13:31:05.745103+00:00",
+      "originalPosts": [
+        {
+          "url": "https://x.com/WorldWarSquared/status/2112894915046993957",
+          "platform": "X",
+          "context": "squared shares current active hashrate and Tari Tracker",
+          "publishedAt": "2026-10-21",
+          "author": "squared (@WorldWarSquared)",
+          "dateFound": "2026-11-03T13:31:05.745103+00:00"
+        }
+      ],
+      "discoveryPage": "https://x.com/DailyNeverClose/status/2112839036788261049",
+      "originalPostFinding": "Public original retained",
+      "status": "published",
+      "evidence": [
+        "work/daily-2026-10-31/tracker-catalog-additions-nov3.json",
+        "work/daily-2026-10-31/tracker-lobby-release-acceptance-nov3.json",
+        "work/daily-2026-10-31/tracker-workbench-release-acceptance-nov3.json"
+      ],
+      "sharingPosts": [
+        {
+          "url": "https://x.com/WorldWarSquared/status/2112894915046993957",
+          "platform": "X",
+          "context": "squared shares current active hashrate and Tari Tracker",
+          "publishedAt": "2026-10-21",
+          "author": "squared (@WorldWarSquared)",
+          "dateFound": "2026-11-03T13:31:05.745103+00:00"
+        }
+      ],
+      "discoveryUrl": "https://x.com/DailyNeverClose/status/2112839036788261049",
+      "foundOn": "2026-11-03T13:31:05.745103+00:00"
+    },
+    {
+      "id": "tari-block-tools",
+      "title": "Tari Block Tools",
+      "repositoryUrl": "https://github.com/kstrycharz/tariblocktools",
+      "documentationUrl": "https://github.com/kstrycharz/tariblocktools#readme",
+      "dateFound": "2026-11-03T13:31:05.745103+00:00",
+      "originalPosts": [],
+      "discoveryPage": "https://taritracker.com/",
+      "originalPostFinding": "No separate public original post found in reviewed sources; actual discovery page retained.",
+      "status": "published",
+      "evidence": [
+        "work/daily-2026-10-31/tracker-catalog-additions-nov3.json",
+        "work/daily-2026-10-31/tracker-lobby-release-acceptance-nov3.json",
+        "work/daily-2026-10-31/tracker-workbench-release-acceptance-nov3.json"
+      ],
+      "sharingPosts": [],
+      "discoveryUrl": "https://taritracker.com/",
+      "foundOn": "2026-11-03T13:31:05.745103+00:00"
     }
   ],
-  "updatedAt": "2026-11-03T03:38:58.874304+00:00"
+  "updatedAt": "2026-11-03T15:13:25.713817+00:00",
+  "publicExport": {
+    "preparedAt": "2026-11-03T15:15:37.059905+00:00",
+    "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
+  }
 }
