@@ -58,3 +58,24 @@ test('Home with no selected file is quiet while unexpected file errors remain vi
   await run.call({ call: async () => 'src/lib.rs', checkIfCanRunScenario: async path => checked.push(path) })
   assert.deepEqual(checked, ['src/lib.rs'])
 })
+
+
+test('Markdown opens in the editor when the optional preview plugin is inactive', async () => {
+  const source = await readFile('libs/remix-ui/workspace/src/lib/actions/index.tsx', 'utf8')
+  const start = source.indexOf('export const handleClickFile =')
+  const body = source.slice(start, source.indexOf('\nexport const handleExpandPath', start))
+  const compiled = ts.transpileModule(body, { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText
+  for (const active of [false, true]) {
+    const calls = []; const opened = []; const focused = []
+    const context = { exports: {}, focusElement: value => value, dispatch: value => focused.push(value), plugin: { emit() {}, fileManager: { open: async path => opened.push(path) }, call: async (...args) => { calls.push(args); if (args[0] === 'manager') return active } } }
+    vm.runInNewContext(compiled, context)
+    await context.exports.handleClickFile('README.md', 'file')
+    assert.deepEqual(opened, active ? [] : ['README.md'])
+    assert.equal(calls.some(([name]) => name === 'doc-viewer'), active)
+    assert.equal(focused.length, active ? 0 : 1)
+    calls.length = 0; opened.length = 0
+    await context.exports.handleClickFile('src/lib.rs', 'file')
+    assert.deepEqual(opened, ['src/lib.rs'])
+    assert.equal(calls.length, 0)
+  }
+})
