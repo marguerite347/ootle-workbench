@@ -120,3 +120,12 @@ Reuse the existing engine tests, template parity check, companion smoke test and
 - Production build passed after router resolution repair (existing warnings retained); final merged revision must pass CI and be deployed separately.
 - Desktop is outside this change. Its attempted build lacked Electron/native dependency types; its manifest was restored to its prior versions. Desktop compatibility remains pending in the maintenance ledger.
 - Resource selection: reuse existing monorepo build, security fixtures, CI artifacts and exact-revision deployment. The small actual-server trial exposed the override conflict before publication; no new capture/build pipeline was introduced.
+
+## CLI and watcher maintenance — 2026-11-03
+
+- Commander 14.0.3 replaces 9.x in the root and four CLI consumers; this line supports CommonJS and Node 20. The simulator now creates a Command instance and translates its historical `-bn` / `-bs` aliases to standard long flags. The actual CLI options/defaults test uses a synthetic server and performs no transaction execution.
+- Chokidar 4.0.3 replaces 2.x in the root and remixd. Real temporary-directory create/change/delete notifications pass; remixd and its prerequisite libraries compile. Desktop watcher types use named FSWatcher imports, and its Git lock-file ignore rule is a predicate compatible with standalone Chokidar 3 and monorepo 4.
+- Latest Commander 15 is ESM and requires Node 22.12; Chokidar 6 is ESM and requires Node 22.22. Those runtime/module migrations remain explicit follow-up work, particularly for Electron 29's Node 20 runtime.
+- Removed unused Standard config / promise lint-plugin declarations from root and remixd. The actual Nx ESLint config is retained; corrected remixd's stale parent config filename and verified effective config loading.
+- Scoped simulator transport/CLI/watcher tests pass on Node 24.22.2. A full desktop typecheck still fails for missing separately installed Electron/native modules; no full desktop build or native runtime success is claimed. The watcher namespace errors exposed during this update were fixed.
+- Resource selection: reused installed monorepo dependencies, existing Node test/VM fixtures, Nx builds and exact-CI-artifact release pipeline. The representative trial caught incompatible CLI flag declarations before publication.

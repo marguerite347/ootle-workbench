@@ -1,7 +1,7 @@
 import { ElectronBasePlugin, ElectronBasePluginClient } from '@remixproject/plugin-electron'
 import fs from 'fs/promises'
 import { Profile } from '@remixproject/plugin-utils'
-import chokidar from 'chokidar'
+import chokidar, { FSWatcher } from 'chokidar'
 import { dialog, shell } from 'electron'
 import { createWindow, isE2E, isPackaged } from '../main'
 import { writeConfig } from '../utils/config'
@@ -112,7 +112,7 @@ const clientProfile: Profile = {
 }
 
 class FSPluginClient extends ElectronBasePluginClient {
-  watchers: Record<string, chokidar.FSWatcher> = {}
+  watchers: Record<string, FSWatcher> = {}
   workingDir: string = ''
   trackDownStreamUpdate: Record<string, string> = {}
   expandedPaths: string[] = ['.']
@@ -530,16 +530,15 @@ Watchers have been automatically reduced for now.`
     }
   }
 
-  private async watcherInit(path: string): Promise<chokidar.FSWatcher> {
+  private async watcherInit(path: string): Promise<FSWatcher> {
     return new Promise((resolve, reject) => {
       try {
         const watcher = chokidar
           .watch(path, {
             ignorePermissionErrors: true,
             ignoreInitial: true,
-            ignored: [
-              '**/.git/index.lock', // this file is created and unlinked all the time when git is running on Windows
-            ],
+            // Predicate works with both standalone Chokidar 3 and monorepo Chokidar 4.
+            ignored: filePath => convertPathToPosix(filePath).endsWith('/.git/index.lock'),
             depth: 0,
           })
           .on('ready', () => {
