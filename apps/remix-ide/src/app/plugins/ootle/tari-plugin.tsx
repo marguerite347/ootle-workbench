@@ -110,7 +110,16 @@ function TariTools({ plugin }: { plugin: TariPlugin }) {
     // DEV_REQUIRED[LOBBY-PUBLISH]: draft export only; no write API or publication receipt exists yet.
     download('ootle-submission.json', JSON.stringify({ schemaVersion: 2, status: 'unauthenticated-draft', ownershipVerified: false, repositoryCommit: commit || null, repositoryCommitVerified: false, sourceDigest: sourceDigest || null, artifacts: artifacts.map(({ name, sha256, size }) => ({ name, sha256, size })), artifactBinding: artifacts.length ? 'locally-built-snapshot-not-current-workspace-attestation' : 'none', destination, title: title.trim(), description: description.trim(), repositoryUrl: repo || null, template: 'Verify the template provenance for your project', createdAt: new Date().toISOString() }, null, 2), 'application/json')
   })
-  return <section className="ootle-tools">
+  const closeMobilePanel = async () => {
+    if (!(await plugin.call('sidePanel', 'isPanelHidden'))) await plugin.call('sidePanel', 'togglePanel')
+  }
+  return <section className="ootle-tools" onKeyDown={event => {
+    if (event.key === 'Escape' && window.matchMedia('(max-width:750px)').matches) {
+      event.stopPropagation()
+      void closeMobilePanel()
+    }
+  }}>
+    <button className="ootle-mobile-panel-close" onClick={() => void closeMobilePanel()}>Close Tari tools</button>
     <h1>Tari tools</h1>
     <nav aria-label="Tari workflow">{(['agents', 'build', 'assistant', 'deploy', 'publish'] as Section[]).map(tab => <button key={tab} aria-pressed={section === tab} onClick={() => setSection(tab)}>{({ agents: 'Agents', build: 'Build', assistant: 'AI', deploy: 'Deploy', publish: 'Publish' })[tab]}</button>)}</nav>
     {(section === 'build' || section === 'assistant') && <div className="ootle-artifact">
