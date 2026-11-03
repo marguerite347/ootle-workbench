@@ -45,7 +45,7 @@ export class InBrowserVite {
       if ((window as any).esbuild) return resolve();
 
       const script = document.createElement('script');
-      script.src = "https://unpkg.com/esbuild-wasm@0.25.12/lib/browser.min.js";
+      script.src = "https://unpkg.com/esbuild-wasm@0.28.2/lib/browser.min.js";
       script.async = true;
       script.onload = () => {
         if ((window as any).esbuild) {
@@ -83,7 +83,7 @@ export class InBrowserVite {
 
         try {
           await esbuild.initialize({
-            wasmURL: "https://unpkg.com/esbuild-wasm@0.25.12/esbuild.wasm",
+            wasmURL: "https://unpkg.com/esbuild-wasm@0.28.2/esbuild.wasm",
             worker: true,
           });
         } catch (initErr: any) {
