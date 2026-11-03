@@ -31,7 +31,7 @@ app.get('/api/skills', (req, res) => {
 app.use(express.static(path.join(__dirname, 'dist/apps/remix-ide')))
 
 // SPA fallback
-app.get('*', (req, res) => {
+app.get('/{*splat}', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/apps/remix-ide', 'index.html'))
 })
 

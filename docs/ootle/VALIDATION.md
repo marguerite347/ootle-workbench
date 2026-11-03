@@ -110,3 +110,13 @@ Supersedes the earlier pending GitHub/Codex/Cowork checkpoints above.
 The Counter pins template library 0.37.0 and engine test tooling 0.49.2. Rust 1.95.0 could not compile their Wasmer 7.5 / Wasmtime 49 dependencies (minimum Rust 1.96); the isolated Rust 1.99.1 trial passed both authorization/rollback engine tests and release WASM compilation. The embedded-template local companion built the same source through its HTTP protocol and independently validated the WASM bytes (110658 bytes, SHA-256 `2b0a236063604d2b4aed941a4e8f24bfa1b95c43d3f7a412027db3f91f7916dd`). Twenty companion/security tests and 23 agent-service tests passed.
 
 Reuse the existing engine tests, template parity check, companion smoke test and hosted bootstrap. The bootstrap and hosted smoke now load the full embedded template, including vendored build inputs. Linux CI, a refreshed hosted toolchain snapshot, hosted smoke and production acceptance remain pending at this commit. These local results do not establish live-network deployment compatibility or authorize wallet actions. Earlier validation entries describe their original pinned versions.
+
+## Simulator HTTP support migration — 2026-11-03
+
+- Updated root and simulator Express to 5.3.0, simulator body-parser to 2.4.0 and express-ws to 5.0.2. Removed unused express-ws declarations from debug/tests and unused remix-plugin from the URL resolver.
+- Removed global parser/router overrides that forced Express 5 to use incompatible Express 4-era dependencies; refreshed the remaining Express 4 lock branch and qs override (6.17.1).
+- Migrated the actual local preview server SPA fallback to Express 5 named-wildcard syntax. Added tests for root/nested pages, static assets, proxy success and proxy failure.
+- Reused installed TypeScript, Express and ws to run actual simulator Server.start with a synthetic provider: HTTP/WS request-response and malformed JSON rejection pass. This validates transport only, with no wallet, EVM or transaction execution. Seven scoped transport/security checks pass on Node 24.22.2. Both transport checks are included in CI.
+- Production build passed after router resolution repair (existing warnings retained); final merged revision must pass CI and be deployed separately.
+- Desktop is outside this change. Its attempted build lacked Electron/native dependency types; its manifest was restored to its prior versions. Desktop compatibility remains pending in the maintenance ledger.
+- Resource selection: reuse existing monorepo build, security fixtures, CI artifacts and exact-revision deployment. The small actual-server trial exposed the override conflict before publication; no new capture/build pipeline was introduced.
