@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T15:13:25.713817+00:00",
+  "updatedAt": "2026-11-03T15:50:41.347693+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -600,7 +600,10 @@
           "publishedAt": "2026-10-12T11:07:25.452Z",
           "foundOn": "2026-10-13",
           "context": "October Build Contest Thread: Spooky Secrets!",
-          "visibility": "public"
+          "visibility": "public",
+          "lastObservedEditAt": "2026-11-03T01:30:07.869Z",
+          "editContext": "Creator reports Ootle 0.49 republishing with updated source branch and sale receipts.",
+          "lastFoundOn": "2026-11-03"
         },
         {
           "url": "https://bsky.app/profile/ogboy92.bsky.social/post/3mxoehhu2b22o",
@@ -637,6 +640,34 @@
           "foundOn": "2026-10-19",
           "context": "Creator shares playable demo and contract-equivalence explanation",
           "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/tariproject.bsky.social/post/3myuc5jsyso2y",
+          "platform": "Bluesky",
+          "author": "tariproject.bsky.social",
+          "publishedAt": "2026-10-27T13:00:13.338Z",
+          "foundOn": "2026-10-29",
+          "context": "A ghost sells you a secret. What happens when it delivers a fake? 👻\r\n\r\nCrypt turns encrypted sales and escrow disputes into a playable browser demo for Tari’s Spooky Secrets contest.\r\n\r\nNo wallet needed. Enter the crypt:\r\nhttps://lrifton92.github.io/crypt/",
+          "visibility": "public"
+        },
+        {
+          "url": "https://x.com/tari/status/2115066015264428033",
+          "platform": "X",
+          "author": "Tari (@tari)",
+          "publishedAt": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "Official Crypt feature; linked retired destination retained in history, creator replacement remains primary",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/x-crypt-original-nov2.txt"
+        },
+        {
+          "url": "https://github.com/ogboy92ii/crypt/pull/1",
+          "platform": "GitHub",
+          "author": "ogboy92ii",
+          "foundOn": "2026-11-03",
+          "context": "Republished template source and sale receipts; open PR at review",
+          "visibility": "public",
+          "publishedAt": "2026-11-02T22:43:18Z"
         }
       ],
       "captureType": "docs-walkthrough",
@@ -652,7 +683,7 @@
       "sha256": "952605ab1c25acfc1cca5c3ffca40f3839e473f01cf7412f7d51c7a5e1c3f5a8",
       "caption": "Docs walkthrough",
       "method": "Genuine public README browser capture with scroll; includes creator’s embedded animation. No application session, wallet or transaction.",
-      "status": "publication-pending",
+      "status": "published",
       "verification": {
         "framesReviewed": [
           0,
@@ -667,7 +698,18 @@
           "paused": true,
           "time": 12
         },
-        "livePlayback": "pending"
+        "livePlayback": {
+          "checkedAt": "2026-11-03T15:50:41.347693+00:00",
+          "lobbyDesktopSeconds": 12,
+          "lobbyPhoneSeconds": 12,
+          "workbenchDesktopSeconds": 12,
+          "workbenchPhoneSeconds": 11.800287,
+          "evidence": [
+            "work/daily-2026-10-31/crypt-final-lobby-release-acceptance-nov3.json",
+            "work/daily-2026-10-31/crypt-final-workbench-release-acceptance-nov3.json",
+            "work/daily-2026-10-31/crypt-final-media-http-nov3.json"
+          ]
+        }
       },
       "previousCaptures": [
         {
@@ -1160,7 +1202,8 @@
       "evidence": [
         "work/daily-2026-10-31/crypt-local-playback-nov3.json",
         "work/daily-2026-10-31/crypt-refresh-source-assessment-nov3.json"
-      ]
+      ],
+      "publishedAt": "2026-11-03T15:50:41.347693+00:00"
     },
     {
       "resourceId": "phantom-drop",
@@ -7806,10 +7849,20 @@
       "date": "2026-11-02",
       "scope": "Three voting docs walkthroughs",
       "evidence": "work/daily-2026-10-31/voting-release-acceptance-nov2.json"
+    },
+    {
+      "recordedAt": "2026-11-03T15:50:41.347693+00:00",
+      "resourceId": "crypt",
+      "scope": "November3 source/docs refresh accepted on both products, actual playback and media/poster hashes checked. Prior footage retained.",
+      "evidence": [
+        "work/daily-2026-10-31/crypt-final-lobby-release-acceptance-nov3.json",
+        "work/daily-2026-10-31/crypt-final-workbench-release-acceptance-nov3.json",
+        "work/daily-2026-10-31/crypt-final-media-http-nov3.json"
+      ]
     }
   ],
   "publicExport": {
-    "preparedAt": "2026-11-03T15:15:37.059905+00:00",
+    "preparedAt": "2026-11-03T15:50:52.742370+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
   }
 }
