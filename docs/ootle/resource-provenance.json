@@ -150,11 +150,39 @@
           "foundOn": "2026-10-10",
           "context": "Resource link in the DNode announcement thread",
           "visibility": "public"
+        },
+        {
+          "url": "https://x.com/Caravelxyz/status/2106759449213845779",
+          "platform": "X",
+          "author": "Caravel (@Caravelxyz)",
+          "publishedAt": "2026-10-04T14:52:49Z",
+          "foundOn": "2026-11-02",
+          "context": "Original Caravel Faucet announcement: open-source testnet faucet for Ootle dapps",
+          "visibility": "public"
+        },
+        {
+          "url": "https://x.com/DNodeCapital/status/2106768971013976308",
+          "platform": "X",
+          "author": "DNodeCapital",
+          "publishedAt": null,
+          "foundOn": "2026-11-02",
+          "context": "Post where the original Caravel faucet announcement was found during overlapping lookback",
+          "visibility": "public"
+        },
+        {
+          "url": "https://x.com/Caravelxyz/status/2106761553022423505",
+          "platform": "X",
+          "author": "Caravel (@Caravelxyz)",
+          "publishedAt": "2026-10-04",
+          "foundOn": "2026-11-02",
+          "context": "Creator reply: no frontend at that date; could be built depending on demand",
+          "visibility": "public"
         }
       ],
-      "originalPostStatus": "sharing-post-retained",
+      "originalPostStatus": "public-original-found",
       "foundOn": "2026-10-10",
-      "evidence": "October 10 retained discovery tracker; not newly rechecked"
+      "evidence": "October 10 retained discovery tracker; not newly rechecked",
+      "originalPostUrl": "https://x.com/Caravelxyz/status/2106759449213845779"
     },
     {
       "id": "erebus-ootle-sdk",
@@ -717,6 +745,16 @@
           "foundOn": "2026-10-29",
           "context": "A ghost sells you a secret. What happens when it delivers a fake? 👻\r\n\r\nCrypt turns encrypted sales and escrow disputes into a playable browser demo for Tari’s Spooky Secrets contest.\r\n\r\nNo wallet needed. Enter the crypt:\r\nhttps://lrifton92.github.io/crypt/",
           "visibility": "public"
+        },
+        {
+          "url": "https://x.com/tari/status/2115066015264428033",
+          "platform": "X",
+          "author": "Tari (@tari)",
+          "publishedAt": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "Official Crypt feature; linked retired destination retained in history, creator replacement remains primary",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/x-crypt-original-nov2.txt"
         }
       ],
       "previousProjectUrls": [
@@ -773,6 +811,16 @@
           "foundOn": "2026-10-31",
           "context": "A claim link. A riddle. A countdown. 👻\r\n\r\nPhantom Drop explores secret-linked testnet claims, optional riddle locks and expiry reclaim for Tari’s Spooky Secrets contest.\r\n\r\nMeet the project:\r\nhttps://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8\r\n\r\n",
           "visibility": "public"
+        },
+        {
+          "url": "https://x.com/tari/status/2116153147538260441",
+          "platform": "X",
+          "author": "Tari (@tari)",
+          "publishedAt": "2026-10-30",
+          "foundOn": "2026-11-02",
+          "context": "Official Phantom Drop contest feature announcement",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/x-phantom-drop-expanded-nov2.txt"
         }
       ],
       "availabilityHistory": [
@@ -1149,6 +1197,16 @@
           "foundOn": "2026-10-31",
           "context": "An AI agent makes another API call. How should it pay? 👻\r\n\r\nGhostline explores pay-per-call channels on Tari Ootle: off-chain vouchers, then settlement of the accepted total.\r\n\r\nSee the explainer and testnet evidence:\r\nhttps://ghostline-ui.vercel.app/\r\n\r\n",
           "visibility": "public"
+        },
+        {
+          "url": "https://x.com/tari/status/2115790755323134073",
+          "platform": "X",
+          "author": "Tari (@tari)",
+          "publishedAt": "2026-10-29",
+          "foundOn": "2026-11-02",
+          "context": "Official project feature announcement; original creator submission retained",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/x-ghostline-expanded-nov2.txt"
         }
       ],
       "status": "published",
@@ -1251,6 +1309,16 @@
           "foundOn": "2026-10-29",
           "context": "What can a stranger see in a private payment? 👻\r\n\r\nSeance lets you compare the public view, a recipient’s view and an auditor’s view using Tari testnet examples. It also shows what still leaks.\r\n\r\nExplore:\r\nhttps://kylne700.github.io/seance/",
           "visibility": "public"
+        },
+        {
+          "url": "https://x.com/tari/status/2115428367486836872",
+          "platform": "X",
+          "author": "Tari (@tari)",
+          "publishedAt": "2026-10-28",
+          "foundOn": "2026-11-02",
+          "context": "Official project feature announcement; original creator submission retained",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/x-seance-expanded-nov2.txt"
         }
       ],
       "status": "update-publication-pending",
@@ -1373,6 +1441,51 @@
           "foundOn": "2026-10-31",
           "context": "Send a file. Let the link open once. 📦\r\n\r\nHideBox brings browser-encrypted sharing, expiring access and testnet pay-to-open experiments to Tari’s Spooky Secrets submissions.\r\n\r\nExplore the beta with a sample file:\r\nhttps://hidebox.app/\r\n\r\n",
           "visibility": "public"
+        },
+        {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562536605342896209",
+          "platform": "Discord",
+          "channel": "Tari / general",
+          "author": "Inversionero",
+          "publishedAt": "2026-10-21T18:42:37.240000+00:00",
+          "foundOn": "2026-11-02",
+          "context": "Creator shares HideBox forum thread",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/discord-general-coverage-nov2.json"
+        },
+        {
+          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562537263219343391",
+          "platform": "Discord",
+          "channel": "Tari / general",
+          "author": "Inversionero",
+          "publishedAt": "2026-10-21T18:45:14.090000+00:00",
+          "foundOn": "2026-11-02",
+          "context": "Creator outlines future roadmap; not evidence that features shipped",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/discord-general-coverage-nov2.json"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "platform": "YouTube",
+          "channel": "Tari Community",
+          "author": "Tari Community",
+          "publishedAt": "2026-10-27",
+          "eventDate": "2026-10-27",
+          "foundOn": "2026-11-02",
+          "context": "12:23: Encrypted file-unlock project mention.",
+          "visibility": "public",
+          "relationship": "additional public discussion; original creator post retained",
+          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+        },
+        {
+          "url": "https://x.com/tari/status/2115961883064762371",
+          "platform": "X",
+          "author": "Tari (@tari)",
+          "publishedAt": "2026-10-30T00:20:00Z",
+          "foundOn": "2026-11-02",
+          "context": "Official HideBox beta feature announcement",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/x-hidebox-spam-loaded-nov2.txt"
         }
       ],
       "status": "published",
@@ -2195,6 +2308,99 @@
           "visibility": "public"
         }
       ]
+    },
+    {
+      "id": "tari-l1-web-wallet",
+      "canonicalId": "tari-ootle:app:tari-l1-web-wallet",
+      "title": "Tari L1 Web Wallet",
+      "projectUrl": "https://universe.tari.mw/",
+      "repositoryUrl": "https://github.com/chironbuilds/tari-l1-wallet-ui",
+      "discoveryUrl": "https://wiki.tari.com/resources:app_directory:tari_universe",
+      "foundOn": "2026-09-22",
+      "foundOnEvidence": "Retained seed catalog provenance fetchedAt2026-09-22T15:30:17.341Z; backfilled November2",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/september-contest-thread/324/19",
+          "platform": "Tari Community forum",
+          "author": "0xhra",
+          "publishedAt": "2026-09-24T19:48:39.257Z",
+          "foundOn": "2026-10-31",
+          "context": "Retained original September submission reviewed in existing-resource pass",
+          "visibility": "public",
+          "updatedAt": "2026-09-28T06:41:03.817Z",
+          "evidence": "work/daily-2026-10-31/7b6d5f1ba42db66e.txt"
+        },
+        {
+          "url": "https://x.com/Erebus_Lab/status/2106780724456243350",
+          "platform": "X",
+          "author": "Erebus Labs (@Erebus_Lab)",
+          "publishedAt": "2026-10-04",
+          "foundOn": "2026-11-02",
+          "context": "Web Universe wallet announcement; video visibly names the existing universe.tari.mw destination",
+          "visibility": "public"
+        },
+        {
+          "url": "https://x.com/Erebus_Lab/status/2103207133026406589",
+          "platform": "X",
+          "author": "Erebus Labs (@Erebus_Lab)",
+          "publishedAt": "2026-09-24",
+          "foundOn": "2026-11-02",
+          "context": "Original creator wallet announcement; full creator chain and displayed reply branches read",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/x-wallet-september-original-nov2.txt"
+        },
+        {
+          "url": "https://bsky.app/profile/did:plc:gcz3uzyvcex77mqylzggkqjf/post/3mwbzonzcyc2m",
+          "platform": "Bluesky",
+          "author": "0xhra.bsky.social",
+          "publishedAt": null,
+          "foundOn": "2026-11-02",
+          "context": "Original announcement explicitly linked by creator in September submission; direct follow-up review pending",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/7b6d5f1ba42db66e.txt"
+        },
+        {
+          "url": "https://x.com/Erebus_Lab/status/2103207144590049756",
+          "platform": "X",
+          "author": "Erebus Labs (@Erebus_Lab)",
+          "publishedAt": "2026-09-24",
+          "foundOn": "2026-11-02",
+          "context": "Creator explains automated burn and claim workflow; description only, no wallet action performed",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/x-wallet-september-burn-thread-nov2.txt"
+        },
+        {
+          "url": "https://x.com/Erebus_Lab/status/2103207155746910259",
+          "platform": "X",
+          "author": "Erebus Labs (@Erebus_Lab)",
+          "publishedAt": "2026-09-24",
+          "foundOn": "2026-11-02",
+          "context": "Creator explains Ootle account, shield/unshield and window.tari API",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/x-wallet-september-burn-thread-nov2.txt"
+        },
+        {
+          "url": "https://x.com/Erebus_Lab/status/2103207166027182425",
+          "platform": "X",
+          "author": "Erebus Labs (@Erebus_Lab)",
+          "publishedAt": "2026-09-24",
+          "foundOn": "2026-11-02",
+          "context": "Creator identifies CPAL-1.0 source and self-custody model; testing claim attributed to creator",
+          "visibility": "public",
+          "evidence": "work/daily-2026-10-31/x-wallet-september-burn-thread-nov2.txt"
+        }
+      ],
+      "originalPostStatus": "public-sharing-posts-retained",
+      "followupEvidence": [
+        "work/daily-2026-10-31/x-web-universe-original-nov2.txt",
+        "work/daily-2026-10-31/x-web-universe-proposal-nov2.png",
+        "work/daily-2026-10-31/x-web-universe-destination-nov2.txt",
+        "work/daily-2026-10-31/x-wallet-september-original-nov2.txt",
+        "work/daily-2026-10-31/x-wallet-september-final-thread-nov2.txt",
+        "work/daily-2026-10-31/x-wallet-september-burn-thread-nov2.txt"
+      ],
+      "followupNote": "Original X post, two direct replies and one nested reply read. Linked destination shows Tari L1 Wallet creation/import screen, mainnet and testnet controls. No wallet created, imported or used. Same canonical destination as retained source registry. Public catalog link backfill pending."
     }
-  ]
+  ],
+  "updatedAt": "2026-11-03T03:19:15.753591+00:00"
 }
