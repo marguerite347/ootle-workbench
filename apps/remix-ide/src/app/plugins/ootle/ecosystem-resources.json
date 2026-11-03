@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-11-03T06:05:28.979490+00:00",
+  "reviewedAt": "2026-11-03T13:31:05.745103+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -3781,6 +3781,91 @@
         "source": "Docs walkthrough — public repository README; no installation, wallet connection or transaction execution."
       },
       "discussionLinks": []
+    },
+    {
+      "id": "tari-ootle:component:tari-tracker",
+      "key": "tari-tracker",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Developer tools",
+      "title": "Tari Tracker",
+      "summary": "Independent community dashboard with Tari hashrates, chain height, developer activity filters and linked ecosystem tools. On November 3, 2026 the public overview loaded live data; Refresh data and the tari/All projects filters were observed responding. The recording shows those controls, with figures fixed at capture time. The site footer’s linked source repository returned 404; the linked Telegram destination exposed a public landing page but no readable message history. Neither limits access to the dashboard itself. No wallet, donation or download action was performed.",
+      "cardSummary": "Follow Tari network hashrates, chain height and developer activity, with links to community tools and resources.",
+      "cardStatus": "Web app",
+      "status": "Web app",
+      "sourceUrl": "https://x.com/WorldWarSquared/status/2112894915046993957",
+      "docsUrl": "https://taritracker.com/",
+      "creator": {
+        "name": "_squared / kstrycharz",
+        "url": "https://github.com/kstrycharz"
+      },
+      "license": "Not specified",
+      "network": "Tari mainnet · Ootle testnet links",
+      "platform": "Browser",
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": null,
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "network-tools"
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-tracker-20261103-2309504960.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-tracker-20261103-2309504960.png",
+        "source": "App demo"
+      },
+      "discussionLinks": [
+        {
+          "url": "https://x.com/WorldWarSquared/status/2112894915046993957",
+          "platform": "X",
+          "context": "squared shares current active hashrate and Tari Tracker",
+          "publishedAt": "2026-10-21"
+        }
+      ],
+      "demoUrl": "https://taritracker.com/",
+      "lastAttemptAt": "2026-11-03T13:33:07.514Z",
+      "upstreamRevision": "sha256:55f490f944bb2debde9aa1bd875489ee112150798a7245a1453f856d092edc88"
+    },
+    {
+      "id": "tari-ootle:component:tari-block-tools",
+      "key": "tari-block-tools",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Developer tools",
+      "title": "Tari Block Tools",
+      "summary": "Python/Rust source helpers for explorer block information, outputs, miner details and anonymous-ID hashing. The README and source header retain older Nextnet references, while the current explorer class targets textexplore.tari.com. Documentation identifies Python 3.13 and a Windows x64 wheel; other Python/OS combinations require rebuilding the Rust module. November 3, 2026 review found readable source and no published releases or specified license. No separate public original sharing post was found; the actual discovery link is Tari Tracker’s Download tools link. The recording shows the README, with no package installation or code execution.",
+      "cardSummary": "Inspect Tari explorer data and anonymous-ID hashing with Python 3.13 helpers and a Rust extension.",
+      "cardStatus": "Source code",
+      "status": "Source code",
+      "sourceUrl": "https://github.com/kstrycharz/tariblocktools",
+      "docsUrl": "https://github.com/kstrycharz/tariblocktools#readme",
+      "creator": {
+        "name": "_squared / kstrycharz",
+        "url": "https://github.com/kstrycharz"
+      },
+      "license": "Not specified",
+      "network": "Tari explorer; README retains older Nextnet references",
+      "platform": "Python 3.13 · Windows wheel; Rust rebuild for other platforms",
+      "sourceUpdatedAt": "2025-05-17T04:47:10Z",
+      "lastCheckedAt": "2026-11-03T13:33:07.514Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "network-tools"
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-block-tools-20261103-efa8687ece.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-block-tools-20261103-efa8687ece.png",
+        "source": "Docs walkthrough"
+      },
+      "discussionLinks": [],
+      "repoUrl": "https://github.com/kstrycharz/tariblocktools",
+      "upstreamRevision": "0c442aee9462b6feceb0bae2548c822a28557a60",
+      "lastAttemptAt": "2026-11-03T13:33:07.514Z"
     }
   ],
   "opportunities": [
