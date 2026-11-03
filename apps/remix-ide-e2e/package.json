@@ -31,6 +31,7 @@
     "**/mocha/serialize-javascript": "6.0.2",
     "**/nightwatch/minimatch": "3.1.5",
     "**/@ethersproject/providers/ws": "8.22.1",
-    "**/viem/ws": "8.22.1"
+    "**/viem/ws": "8.22.1",
+    "**/solc/tmp": "0.2.7"
   }
 }
