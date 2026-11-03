@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-11-03T13:31:05.745103+00:00",
+  "reviewedAt": "2026-11-03T15:13:25.713817+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -682,20 +682,20 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Crypt",
-      "summary": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 31 reviewed forum entry identifies ogboy92ii/crypt as the full-history mirror of the restricted Lrifton92/crypt repository; the replacement demo and earlier source archive remain available. BSD-3-Clause source. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The October 29 recording shows the mirror’s requirements and title screen, with no wallet or transaction. Earlier simulation footage and retired URLs remain in the maintenance history. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
-      "status": "Browser demo · Testnet · Wallet payouts unavailable",
+      "summary": "Secret-trading template and documented browser simulation. The creator’s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil’s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README’s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
+      "status": "Source code · Testnet · Demo unavailable",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
       "repoUrl": "https://github.com/ogboy92ii/crypt",
-      "docsUrl": "https://github.com/ogboy92ii/crypt#readme",
+      "docsUrl": "https://github.com/ogboy92ii/crypt/blob/432249f119e73a4606ffdb9cf2f0088885f7378f/README.md",
       "creator": {
         "name": "Og.boy",
         "url": "https://github.com/Lrifton92"
       },
       "license": "BSD-3-Clause",
-      "network": "Ootle Esmeralda testnet; browser demo local",
-      "platform": "Web demo / Rust / CLI",
-      "upstreamRevision": "17cf366682a59c1116e0dd50be3cc161d9d33874",
-      "sourceUpdatedAt": "2026-10-29T14:55:19.284Z",
+      "network": "Ootle Esmeralda testnet",
+      "platform": "Rust / CLI; documented browser simulation",
+      "upstreamRevision": "432249f119e73a4606ffdb9cf2f0088885f7378f",
+      "sourceUpdatedAt": "2026-11-03T01:30:07.869Z",
       "lastCheckedAt": "2026-10-31T14:00:56.589Z",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -704,7 +704,6 @@
         "community",
         "templates"
       ],
-      "demoUrl": "https://tari-crypt.vercel.app/",
       "discussionLinks": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
@@ -745,14 +744,19 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "platform": "Tari Community forum",
           "context": "November 2 testnet reset and template republishing notice"
+        },
+        {
+          "url": "https://github.com/ogboy92ii/crypt/pull/1",
+          "platform": "GitHub",
+          "context": "Creator’s republished-template source branch; open at review"
         }
       ],
-      "cardSummary": "Play a wallet-free secret-trading demo, choosing honest or deceptive actions to explore escrow and delivery disputes.",
-      "cardStatus": "Browser demo · Testnet · Wallet payouts unavailable",
+      "cardSummary": "Explore encrypted secret sales, escrow and delivery disputes through a Rust template and its documented browser game.",
+      "cardStatus": "Source code · Testnet · Demo unavailable",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261029.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261029.png",
-        "source": "App demo — Replacement mirror’s testnet payout warning and title screen; no wallet or transaction."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261103-952605ab1c.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261103-952605ab1c.png",
+        "source": "Docs walkthrough"
       }
     },
     {
