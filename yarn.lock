@@ -3311,18 +3311,6 @@
     msgpackr "^1.11.4"
     multipasta "^0.2.7"
 
-"@effect/printer-ansi@^0.47.0":
-  version "0.47.0"
-  resolved "https://registry.yarnpkg.com/@effect/printer-ansi/-/printer-ansi-0.47.0.tgz#40f1787616c269d26e43bd14aa1cf994b1fead2c"
-  integrity sha512-tDEQ9XJpXDNYoWMQJHFRMxKGmEOu6z32x3Kb8YLOV5nkauEKnKmWNs7NBp8iio/pqoJbaSwqDwUg9jXVquxfWQ==
-  dependencies:
-    "@effect/printer" "^0.47.0"
-
-"@effect/printer@^0.47.0":
-  version "0.47.0"
-  resolved "https://registry.yarnpkg.com/@effect/printer/-/printer-0.47.0.tgz#bef8107627b907c26670fee4529034a8da750c54"
-  integrity sha512-VgR8e+YWWhMEAh9qFOjwiZ3OXluAbcVLIOtvp2S5di1nSrPOZxj78g8LE77JSvyfp5y5bS2gmFW+G7xD5uU+2Q==
-
 "@emotion/babel-plugin@^11.11.0":
   version "11.11.0"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin/-/babel-plugin-11.11.0.tgz#c2d872b6a7767a9d176d007f5b31f7d504bb5d6c"
@@ -4247,15 +4235,6 @@
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-3.5.0.tgz#ce8152e556809326e1253682088bfdd116a453bd"
   integrity sha512-63mlRr6fiBbJ0wjr1Cf6dsDGtP2lNvk9lnatKgxs/fIkhslsZT291hIUzJkuUkI9yr69ZvWnWfgb2qXm4QyVaA==
-
-"@gradio/client@^0.10.1":
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/@gradio/client/-/client-0.10.1.tgz#cdd90efbc0156d8e338af61031d2c88f21134f11"
-  integrity sha512-C3uWIWEqlpTuG3sfPw3K3+26Fkr+jXPL8U2lC1u7DlBm25rHdGMVX17o8ApW7XcFtznfaLceVtpnDPkDpQTJlw==
-  dependencies:
-    bufferutil "^4.0.7"
-    semiver "^1.1.0"
-    ws "^8.13.0"
 
 "@graphql-tools/executor-legacy-ws@1.1.37":
   version "1.1.37"
@@ -11058,13 +11037,6 @@ bufferutil@4.0.7:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/bufferutil/-/bufferutil-4.0.7.tgz#60c0d19ba2c992dd8273d3f73772ffc894c153ad"
   integrity sha512-kukuqc39WOHtdxtw4UScxF/WVnMFVSQVKhtx3AjZJzhd0RGZZldcrfSEbVsWWe6KNH253574cq5F+wpv0G9pJw==
-  dependencies:
-    node-gyp-build "^4.3.0"
-
-bufferutil@^4.0.7:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/bufferutil/-/bufferutil-4.0.8.tgz#1de6a71092d65d7766c4d8a522b261a6e787e8ea"
-  integrity sha512-4T53u4PdgsXqKaIctwF8ifXlRTTmEPJ8iEPWFdGZvcf7sbwYo6FKFEX9eNNAnzFZ7EzJAQ3CJeOtCRA4rDp7Pw==
   dependencies:
     node-gyp-build "^4.3.0"
 
@@ -25595,11 +25567,6 @@ selfsigned@^2.1.1:
   integrity sha512-GSL3aowiF7wa/WtSFwnUrludWFoNhftq8bUkH9pkzjpN2XSPOAYEgg6e0sS9s0rZwgJzJiQRPU18A6clnoW5wQ==
   dependencies:
     node-forge "^1"
-
-semiver@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/semiver/-/semiver-1.1.0.tgz#9c97fb02c21c7ce4fcf1b73e2c7a24324bdddd5f"
-  integrity sha512-QNI2ChmuioGC1/xjyYwyZYADILWyW6AmS1UH6gDj/SFUUUS4MBAWs/7mxnkRPc/F4iHezDP+O8t0dO8WHiEOdg==
 
 semver-greatest-satisfied-range@^1.1.0:
   version "1.1.0"
