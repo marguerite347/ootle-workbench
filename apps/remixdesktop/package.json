@@ -93,9 +93,22 @@
     "@remix-project/remix-ws-templates": "1.0.88"
   },
   "resolutions": {
-    "basic-ftp": "5.2.0",
+    "basic-ftp": "6.2.5",
     "proxy-addr": "2.0.8",
     "**/@erebos/bzz-node/form-data": "3.0.4",
-    "**/axios/form-data": "4.0.4"
+    "**/axios/form-data": "4.0.6",
+    "**/nightwatch/ejs": "3.1.10",
+    "**/mocha/nanoid": "3.3.20",
+    "**/mocha/diff": "5.2.2",
+    "**/mocha/js-yaml": "4.3.2",
+    "**/nightwatch/semver": "7.8.6",
+    "**/jsonpath/underscore": "1.13.8",
+    "**/mocha/minimatch": "4.2.5",
+    "**/nightwatch/minimatch": "3.1.5",
+    "serialize-javascript": "7.1.4",
+    "**/nightwatch/uuid": "11.1.1",
+    "**/socks/ip-address": "10.7.5",
+    "**/@electron/universal/minimatch": "11.0.4",
+    "**/app-builder-lib/minimatch": "11.0.4"
   }
 }

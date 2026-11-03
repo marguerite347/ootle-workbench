@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "resolutions": {
-    "antlr4": "4.11"
+    "antlr4": "4.11",
+    "**/@remixproject/plugin-webview/axios": "1.21.0"
   },
   "dependencies": {
     "solhint": "3.6.2"
