@@ -1,10 +1,9 @@
-# Narrow dependency compatibility patches
+# Narrow dependency compatibility patch
 
-The canonical parent crate archives were downloaded from static.crates.io and checked against the original Cargo.lock SHA-256 before extraction. Upstream source and licenses are retained.
+The remaining shared-buffer 0.1.4 patch pins memmap2 to 0.9.12. Upstream source and dual MIT/Apache-2.0 licenses remain unchanged; Cargo.toml.orig preserves the upstream requirement. This selects the repaired mmap dependency without forking its implementation or changing the Tari template ABI.
 
-- `gix-hash` 0.15.1: only Cargo.toml's `faster-hex` requirement changes from 0.9.0 to =0.10.1, the upstream repaired release for RUSTSEC-2026-0306.
-- `shared-buffer` 0.1.4: only Cargo.toml's `memmap2` requirement changes from 0.6.1 to =0.9.11, the upstream repaired release for RUSTSEC-2026-0186.
+The starter now uses template library 0.37.0 and engine test tooling 0.49.2. Its dependency graph resolves gix-hash 0.18.0 and faster-hex 0.10.1 directly; the unused gix-hash 0.15.1 vendor patch has been removed. Its original source and patch remain in Git history.
 
-These parents have no compatible published release selecting both fixes. Using path patches preserves the Tari 0.32 template API and 0.41 test-engine integration. Cargo.toml.orig records upstream requirements. No cryptographic or mmap implementation is forked here. Validate both actual engine tests and wasm32 release builds in Linux CI. Remove these patches when maintained compatible parent releases include the fixes. The lockfile also replaces yanked yoke-derive 0.8.3 with 0.8.4.
+November 3 registry review: shared-buffer 0.1.4 is still latest and does not select current memmap2 without this patch. Validate actual engine authorization/rollback tests, release WASM build and embedded-template parity in Linux CI. RustSec informational maintenance warnings and the separate current Ootle engine/builtin advisories remain tracked; these tests are not a security certification.
 
-Primary evidence: https://rustsec.org/advisories/RUSTSEC-2026-0306.html and https://rustsec.org/advisories/RUSTSEC-2026-0186.html
+Primary repair references: https://rustsec.org/advisories/RUSTSEC-2026-0186.html and https://rustsec.org/advisories/RUSTSEC-2026-0306.html
