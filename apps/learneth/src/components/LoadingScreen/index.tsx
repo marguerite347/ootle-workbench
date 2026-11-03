@@ -1,5 +1,5 @@
 import React from 'react'
-import BounceLoader from 'react-spinners/BounceLoader'
+import { BounceLoader } from 'react-spinners'
 import './index.css'
 import { useAppSelector } from '../../redux/hooks'
 

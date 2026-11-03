@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import BounceLoader from 'react-spinners/BounceLoader';
+import { BounceLoader } from 'react-spinners';
 import { AppContext } from '../../contexts';
 
 const LoadingScreen: React.FC = () => {
