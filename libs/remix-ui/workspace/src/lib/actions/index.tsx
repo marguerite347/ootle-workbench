@@ -745,8 +745,11 @@ export const handleClickFile = async (path: string, type: 'file' | 'folder' ) =>
   // Distinct from fileManager's currentFileChanged (which programmatic opens,
   // e.g. by the AI agent, also fire): lets listeners react to user clicks only.
   plugin.emit('fileClickedFromExplorer', path)
-  if (type === 'file' && path.endsWith('.md')) {
-    // just opening the preview
+  // The web Workbench does not activate iframe preview plugins. Keep Markdown
+  // accessible through the editor when that optional viewer is not active.
+  const canPreviewMarkdown = type === 'file' && path.endsWith('.md') &&
+    await plugin.call('manager', 'isActive', 'doc-viewer')
+  if (canPreviewMarkdown) {
     await plugin.call('doc-viewer' as any, 'viewDocs', [path])
     plugin.call('tabs' as any, 'focus', 'doc-viewer')
   } else {
