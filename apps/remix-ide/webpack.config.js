@@ -291,6 +291,22 @@ module.exports = composePlugins(withNx(), withReact(), (config) => {
     })
   )
 
+  // css-loader 7 defaults to named CSS-module exports. Keep the default
+  // style-map imports used by the existing Nx/React components.
+  function preserveCssModuleDefaultExport(rules) {
+    for (const rule of rules || []) {
+      if (!rule || typeof rule !== 'object') continue
+      for (const use of Array.isArray(rule.use) ? rule.use : [rule.use]) {
+        if (use && typeof use === 'object' && /css-loader/.test(use.loader || '') && use.options?.modules) {
+          use.options.modules = { ...use.options.modules, namedExport: false }
+        }
+      }
+      preserveCssModuleDefaultExport(rule.oneOf)
+      preserveCssModuleDefaultExport(rule.rules)
+    }
+  }
+  preserveCssModuleDefaultExport(config.module.rules)
+
   // source-map loader
   config.module.rules.push({
     test: /\.js$/,
