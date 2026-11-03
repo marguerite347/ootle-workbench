@@ -3460,7 +3460,7 @@
       "id": "tari-ootle:learn:habib-four-lanes",
       "key": "habib-four-lanes",
       "type": "learn",
-      "ecosystem": "tari-ootle",
+      "ecosystem": "tari",
       "group": "Advanced",
       "title": "Four lanes, no monoculture",
       "summary": "Habib Ayomide’s community article covers Monero-merged RandomX, Tari RandomX, SHA3x and Cuckaroo29, with references to the mining RFC and a dated explorer snapshot. Read with this correction: the opening line says every block reward is split across four algorithms; the protocol instead targets a share of blocks for each algorithm. Its body explains the 480-second per-lane targets and short-window variation. A 25% target is not a guaranteed return for a miner. The full article and zero-response panel were read November 2, along with the original submission and linked Reddit post. Reddit displayed one comment but returned no accessible comment; its public API returned 403 and the old interface required login. That missing reply remains an access blocker, not a successful full discussion review. The recording is a public article walkthrough, not a mining demonstration.",
