@@ -25,7 +25,7 @@ export function EcosystemResources() {
       {(record.discussionLinks || []).map(post=><a key={post.url} href={post.url} target="_blank" rel="noreferrer">Discussion · {post.platform} ↗</a>)}
       <details className="ootle-card-details"><summary aria-label={`Details about ${record.title}`}>Details</summary>
        <p>{record.summary}</p><p>{record.status} · {record.network}</p>
-       <p>{record.license || 'License not established'} · Checked {record.lastCheckedAt.slice(0,10)}</p><p>{record.preview?.source}</p>
+       <p>{record.license || 'License not established'}{record.lastCheckedAt && <> · Checked {record.lastCheckedAt.slice(0,10)}</>}</p><p>{record.preview?.source}</p>
        <a href={record.repoUrl || record.sourceUrl} target="_blank" rel="noreferrer">Source ↗</a>
       </details>
     </article>)}</div>

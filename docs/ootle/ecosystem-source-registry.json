@@ -11724,6 +11724,129 @@
       "blockedSources": [],
       "pendingReviewSources": [],
       "reviewQueue": []
+    },
+    "tari-ootle:learn:kurarmota-two-layer-architecture": {
+      "id": "tari-ootle:learn:kurarmota-two-layer-architecture",
+      "title": "Tari’s two-layer architecture",
+      "sources": [
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
+        "https://medium.com/@isahjaafar12/-8cbde86c94e3"
+      ],
+      "lastAttemptAt": "2026-11-03T00:18:11.825Z",
+      "sourceReviews": {
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13": {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
+          "hash": "24a9b976b92fa98860ea34e5ae1bf84e7b87700d178172fe2398bf43091a3dc7",
+          "attemptedAt": "2026-11-02T23:46:11.411131+00:00",
+          "evidence": "work/daily-2026-10-31/0cc3d10ccc0b5219-24a9b976b92fa98860ea34e5ae1bf84e7b87700d178172fe2398bf43091a3dc7.txt",
+          "method": "Full 16-post forum stream including original submission, edits and replies",
+          "lastAttemptAt": "2026-11-02T23:46:11.411131+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T23:46:11.411131+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://medium.com/@isahjaafar12/-8cbde86c94e3": {
+          "url": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
+          "hash": "0508ad7a64e302db1b1e9f97b665343412c0211a45e2beb65d73b034789daf49",
+          "attemptedAt": "2026-11-02T23:15:16.220Z",
+          "evidence": [
+            "work/daily-2026-10-31/kurarmota-medium-full-nov2.txt",
+            "work/daily-2026-10-31/kurarmota-responses-full-nov2.txt"
+          ],
+          "method": "Saved supported CUA full public article and response panel, reviewed for source accuracy",
+          "lastAttemptAt": "2026-11-02T23:15:16.220Z",
+          "lastSuccessfulReadAt": "2026-11-02T23:15:16.220Z",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-03T00:18:11.825Z",
+      "observedAvailability": "Public community article",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
+        "https://medium.com/@isahjaafar12/-8cbde86c94e3"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
+    },
+    "tari-ootle:learn:habib-four-lanes": {
+      "id": "tari-ootle:learn:habib-four-lanes",
+      "title": "Four lanes, no monoculture",
+      "sources": [
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16",
+        "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16",
+        "https://www.reddit.com/r/tari/comments/1xm1fa0/why_does_tari_need_four_mining_algorithms_a/"
+      ],
+      "lastAttemptAt": "2026-11-03T00:18:11.825Z",
+      "sourceReviews": {
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16": {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16",
+          "hash": "24a9b976b92fa98860ea34e5ae1bf84e7b87700d178172fe2398bf43091a3dc7",
+          "attemptedAt": "2026-11-02T23:46:11.411131+00:00",
+          "evidence": "work/daily-2026-10-31/0cc3d10ccc0b5219-24a9b976b92fa98860ea34e5ae1bf84e7b87700d178172fe2398bf43091a3dc7.txt",
+          "method": "Full 16-post forum stream including original submission, edits and replies",
+          "lastAttemptAt": "2026-11-02T23:46:11.411131+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T23:46:11.411131+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16": {
+          "url": "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16",
+          "hash": "016d1759b13f60a7381596d6f633a9ae47d5ca5b345547b83d409cb621063ba4",
+          "attemptedAt": "2026-11-02T23:48:39.949Z",
+          "evidence": [
+            "work/daily-2026-10-31/habib-four-lanes-medium-nov2.txt",
+            "work/daily-2026-10-31/habib-four-lanes-responses-nov2.txt"
+          ],
+          "method": "Saved supported CUA full public article and response panel, reviewed for source accuracy",
+          "lastAttemptAt": "2026-11-02T23:48:39.949Z",
+          "lastSuccessfulReadAt": "2026-11-02T23:48:39.949Z",
+          "status": "read",
+          "error": null
+        },
+        "https://www.reddit.com/r/tari/comments/1xm1fa0/why_does_tari_need_four_mining_algorithms_a/": {
+          "lastAttemptAt": "2026-11-02T23:52:11Z",
+          "status": "blocked",
+          "error": "Reddit shows one reply but no accessible comment; public JSON HTTP 403 and old interface requires login.",
+          "failureKind": "unavailable-content",
+          "evidence": [
+            "work/daily-2026-10-31/habib-four-lanes-reddit-nov2.txt",
+            "work/daily-2026-10-31/habib-reddit-comment-api-nov2.json",
+            "work/daily-2026-10-31/habib-four-lanes-oldreddit-nov2.txt"
+          ],
+          "nextAction": "Retry the original Reddit thread and public API; preserve the accessible article and post evidence."
+        }
+      },
+      "lastSuccessfulReviewAt": null,
+      "observedAvailability": null,
+      "outcome": "blocked",
+      "pendingReviewSources": [],
+      "blockedSources": [
+        "https://www.reddit.com/r/tari/comments/1xm1fa0/why_does_tari_need_four_mining_algorithms_a/"
+      ],
+      "changedSources": [
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16",
+        "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16"
+      ],
+      "reviewRequired": true,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [
+        "copy",
+        "actions",
+        "details",
+        "recording",
+        "provenance"
+      ],
+      "nextReviewAt": "2026-11-03T10:00:00Z"
     }
   },
   "resourceReviewSummary": {
