@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-const program = require('commander')
+const { Command } = require('commander')
+const program = new Command()
 const version = require('../package.json').version
 
 program
@@ -28,9 +29,9 @@ program
   .option('-c, --coinbase [coinbase]', 'specify coinbase', '0x0000000000000000000000000000000000000000')
   .option('-f, --fork [fork]', 'specify fork name')
   .option('-n, --nodeUrl [nodeUrl]', 'specify node url')
-  .option('-bn, --blockNumber [blockNumber]', 'specify block Number')
+  .option('--blockNumber [blockNumber]', 'specify block Number')
   .option('-s, --stateDb [stateDb]', 'specify state database')
-  .option('-bs, --blocks [blocks]', 'specify blocks')
+  .option('--blocks [blocks]', 'specify blocks')
   .action((option, env) => {
     env.outputHelp()
     console.log('\n')
@@ -56,5 +57,7 @@ program
     server.start(option)
   })
 
-program.parse(process.argv)
+// Preserve historical multi-letter aliases while using Commander standard flags.
+const aliases = new Map([['-bn', '--blockNumber'], ['-bs', '--blocks']])
+program.parse(process.argv.map(argument => aliases.get(argument) || argument))
 

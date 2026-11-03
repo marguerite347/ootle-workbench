@@ -1,6 +1,6 @@
 import { Profile } from "@remixproject/plugin-utils";
 import { ElectronBasePlugin, ElectronBasePluginClient } from "@remixproject/plugin-electron"
-import chokidar from 'chokidar'
+import chokidar, { FSWatcher } from 'chokidar'
 import { ElectronBasePluginRemixdClient } from "../lib/remixd"
 import fs from 'fs'
 import * as utils from '../lib/utils'
@@ -31,7 +31,7 @@ const clientProfile: Profile = {
 
 class FoundryPluginClient extends ElectronBasePluginRemixdClient {
 
-    watcher: chokidar.FSWatcher
+    watcher: FSWatcher
     warnlog: boolean
     buildPath: string
     cachePath: string
