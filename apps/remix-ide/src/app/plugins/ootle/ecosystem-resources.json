@@ -3410,6 +3410,101 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-confidential-voting-template-20261102-921f7dc42a.png",
         "source": "Source/docs walkthrough — November 2 public README and privacy model; no wallet, transactions or source execution."
       }
+    },
+    {
+      "id": "tari-ootle:learn:kurarmota-two-layer-architecture",
+      "key": "kurarmota-two-layer-architecture",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Tari’s two-layer architecture",
+      "summary": "KURARMOTA’s community article explains Minotari proof of work and validator registration, Ootle’s independent committee consensus, sharded state, Rust/WASM templates and the distinction between XTM and TARI. It describes the one-way 1:1 XTM burn and fee burn without claiming that Minotari re-executes Ootle contracts. The November 2 review read the full article, its zero-response panel and the creator’s original forum submission. The November 11 launch date is the announced schedule, not evidence that mainnet is already available. The recording is a short public article walkthrough.",
+      "status": "Community article",
+      "sourceUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
+      "repoUrl": null,
+      "docsUrl": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
+      "demoUrl": null,
+      "creator": {
+        "name": "KURARMOTA",
+        "url": "https://medium.com/@isahjaafar12"
+      },
+      "license": null,
+      "network": "Tari L1 and Ootle",
+      "platform": "Reading",
+      "upstreamRevision": "page-sha256:cc6f6988dade2a7a402bc1454ccd81a3f92f22a1be28f668225dead6528aae94",
+      "sourceUpdatedAt": "2026-11-01T11:39:26.150Z",
+      "lastCheckedAt": "2026-11-03T00:18:11.825Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
+          "platform": "Tari Community forum",
+          "context": "Tari two-layer architecture article submission"
+        }
+      ],
+      "cardSummary": "Understand how Minotari and Ootle divide ledger security, validator registration, smart-contract execution and token roles.",
+      "cardStatus": "Article",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-kurarmota-two-layer-architecture-20261102-ef78acc3d6.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-kurarmota-two-layer-architecture-20261102-ef78acc3d6.png",
+        "source": "Docs walkthrough — November 2 public article; no account, wallet or mining action."
+      }
+    },
+    {
+      "id": "tari-ootle:learn:habib-four-lanes",
+      "key": "habib-four-lanes",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Four lanes, no monoculture",
+      "summary": "Habib Ayomide’s community article covers Monero-merged RandomX, Tari RandomX, SHA3x and Cuckaroo29, with references to the mining RFC and a dated explorer snapshot. Read with this correction: the opening line says every block reward is split across four algorithms; the protocol instead targets a share of blocks for each algorithm. Its body explains the 480-second per-lane targets and short-window variation. A 25% target is not a guaranteed return for a miner. The full article and zero-response panel were read November 2, along with the original submission and linked Reddit post. Reddit displayed one comment but returned no accessible comment; its public API returned 403 and the old interface required login. That missing reply remains an access blocker, not a successful full discussion review. The recording is a public article walkthrough, not a mining demonstration.",
+      "status": "Community article",
+      "sourceUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16",
+      "repoUrl": null,
+      "docsUrl": "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16",
+      "demoUrl": null,
+      "creator": {
+        "name": "Habib Ayomide",
+        "url": "https://medium.com/@habibayomide"
+      },
+      "license": null,
+      "network": "Tari L1",
+      "platform": "Reading",
+      "upstreamRevision": "page-sha256:ded6ecdef54d41ddd2fbe80e7357ce9bfe49136c239d696224a04e960b2d5a38",
+      "sourceUpdatedAt": "2026-11-02T16:42:38.545Z",
+      "lastCheckedAt": null,
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16",
+          "platform": "Tari Community forum",
+          "context": "Four Lanes article and Reddit adaptation submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xm1fa0/why_does_tari_need_four_mining_algorithms_a/",
+          "platform": "Reddit",
+          "context": "Why does Tari need four mining algorithms? A plain-English breakdown of multi-lane PoW"
+        }
+      ],
+      "cardSummary": "Explore Tari’s four mining algorithms, independent difficulty targets, hardware trade-offs and pool-concentration risks.",
+      "cardStatus": "Article",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-habib-four-lanes-20261102-22d11b40cb.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-habib-four-lanes-20261102-22d11b40cb.png",
+        "source": "Docs walkthrough — November 2 public article; no account, wallet or mining action."
+      }
     }
   ],
   "opportunities": [

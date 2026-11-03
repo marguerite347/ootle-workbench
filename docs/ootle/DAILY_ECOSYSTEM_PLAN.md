@@ -143,3 +143,8 @@ The initial plan is complete when the qualified initial queue is reflected in th
 ## Full-run completion and truthful exceptions (October 29 correction)
 
 Follow `MAINTENANCE_COMPLETION.md`. A release is a milestone, not the end of the run. Drain every reachable item in the declared source, catalog, dependency, editorial, capture and acceptance queues. Use the completion gate before declaring the run complete; missing work stays pending. Actual blocked reads require dated evidence, failure category and a next action, while preserving last-good checkpoints. Report canonical resources separately from product surfaces. Retain superseded URLs and provenance, with evidence of the creator replacement. Resume incomplete work before starting another release.
+
+
+## Background browser verification and cleanup (owner correction, November 2, 2026)
+
+Reuse one existing, agent-owned Workbench verification tab throughout a maintenance run. Keep routine checks in the background; do not repeatedly open or foreground Workbench tabs. Before consolidating duplicates, inspect their current UI for unsaved edits, an active build/capture or another active check. Close only tabs owned by this task whose checks have finished; preserve user-owned and unrelated tabs. Record the retained tab and actual cleanup actions in the run handoff. Close temporary verification tabs and owned preview servers when their checks finish, after preserving screenshots and recordings. Never stop another task's server or move an active checkout to enforce cleanup. A later verification should reuse the retained tab before creating a replacement.
