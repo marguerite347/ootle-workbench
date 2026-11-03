@@ -278,7 +278,7 @@
       "ecosystem": "tari-ootle",
       "group": "Testnet",
       "title": "Caravel Faucet",
-      "summary": "Reusable Esmeralda testnet faucet template. The October 14 README documents Ootle 0.46, Protocol V2 activation at epoch 12220, SDK 0.9 and WASM 0.46.1. One claim per key; the administrator can pause claims. Deployment and dry-run claims are the maintainer’s evidence; no claim was performed here.",
+      "summary": "Reusable Esmeralda testnet faucet template. The October 14 README documents Ootle 0.46, Protocol V2 activation at epoch 12220, SDK 0.9 and WASM 0.46.1. One claim per key; the administrator can pause claims. Deployment and dry-run claims are the maintainer’s evidence; no claim was performed here. In the October 4 announcement reply, the creator said no frontend existed at that date. A later October 31 reply asks about a frontend without a displayed creator answer; this is not a current absolute availability claim.",
       "status": "Testnet only · claim untested",
       "sourceUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
       "repoUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
@@ -310,6 +310,21 @@
         {
           "url": "https://x.com/DNodeCapital/status/2108867690085421447",
           "platform": "X"
+        },
+        {
+          "url": "https://x.com/Caravelxyz/status/2106759449213845779",
+          "platform": "X",
+          "context": "Original Caravel Faucet announcement: open-source testnet faucet for Ootle dapps"
+        },
+        {
+          "url": "https://x.com/DNodeCapital/status/2106768971013976308",
+          "platform": "X",
+          "context": "Post where the original Caravel faucet announcement was found during overlapping lookback"
+        },
+        {
+          "url": "https://x.com/Caravelxyz/status/2106761553022423505",
+          "platform": "X",
+          "context": "Creator reply: no frontend at that date; could be built depending on demand"
         }
       ],
       "cardSummary": "Review a reusable faucet template with one claim per key and administrator pause controls.",
@@ -705,6 +720,11 @@
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3myuc5jsyso2y",
           "platform": "Bluesky",
           "context": "A ghost sells you a secret. What happens when it delivers a fake? 👻\r\n\r\nCrypt turns encrypted sales and escrow disputes into a playable browser demo for Tari’s Spooky Secrets contest.\r\n\r\nNo wallet needed. Enter the crypt:\r\nhttps://lrifton92.github.io/crypt/"
+        },
+        {
+          "url": "https://x.com/tari/status/2115066015264428033",
+          "platform": "X",
+          "context": "Official Crypt feature; linked retired destination retained in history, creator replacement remains primary"
         }
       ],
       "cardSummary": "Play a wallet-free secret-trading demo, choosing honest or deceptive actions to explore escrow and delivery disputes.",
@@ -758,6 +778,11 @@
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i",
           "platform": "Bluesky",
           "context": "A claim link. A riddle. A countdown. 👻\r\n\r\nPhantom Drop explores secret-linked testnet claims, optional riddle locks and expiry reclaim for Tari’s Spooky Secrets contest.\r\n\r\nMeet the project:\r\nhttps://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8\r\n\r\n"
+        },
+        {
+          "url": "https://x.com/tari/status/2116153147538260441",
+          "platform": "X",
+          "context": "Official Phantom Drop contest feature announcement"
         }
       ],
       "cardSummary": "Create expiring testnet gift links with a Rust CLI, optional riddles and refunds for unopened envelopes.",
@@ -1031,6 +1056,11 @@
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3myzd2ybfnq2t",
           "platform": "Bluesky",
           "context": "An AI agent makes another API call. How should it pay? 👻\r\n\r\nGhostline explores pay-per-call channels on Tari Ootle: off-chain vouchers, then settlement of the accepted total.\r\n\r\nSee the explainer and testnet evidence:\r\nhttps://ghostline-ui.vercel.app/\r\n\r\n"
+        },
+        {
+          "url": "https://x.com/tari/status/2115790755323134073",
+          "platform": "X",
+          "context": "Official project feature announcement; original creator submission retained"
         }
       ],
       "cardSummary": "Explore payment channels that let AI agents pay per API call using cumulative vouchers and one settlement.",
@@ -1192,6 +1222,11 @@
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mywsm2tpqm2b",
           "platform": "Bluesky",
           "context": "What can a stranger see in a private payment? 👻\r\n\r\nSeance lets you compare the public view, a recipient’s view and an auditor’s view using Tari testnet examples. It also shows what still leaks.\r\n\r\nExplore:\r\nhttps://kylne700.github.io/seance/"
+        },
+        {
+          "url": "https://x.com/tari/status/2115428367486836872",
+          "platform": "X",
+          "context": "Official project feature announcement; original creator submission retained"
         }
       ],
       "cardSummary": "Compare what strangers, recipients and auditors can read from private testnet payments, including the metadata that remains public.",
@@ -1322,6 +1357,11 @@
           "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
           "platform": "YouTube",
           "context": "12:23: Encrypted file-unlock project mention."
+        },
+        {
+          "url": "https://x.com/tari/status/2115961883064762371",
+          "platform": "X",
+          "context": "Official HideBox beta feature announcement"
         }
       ],
       "cardSummary": "Store encrypted files and share them through links, recipient addresses or paid access on Ootle testnet.",
