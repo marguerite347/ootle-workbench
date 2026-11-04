@@ -8840,12 +8840,14 @@
       "sources": [
         "https://ootle.tari.com/llms.txt",
         "https://ootle.tari.com/guides/agent-api-keys/",
-        "https://x.com/DNodeCapital/status/2108867690085421447"
+        "https://x.com/DNodeCapital/status/2108867690085421447",
+        "https://ootle.tari.com/.well-known/skills/",
+        "https://ootle.tari.com/.well-known/skills/openai-codex/SKILL.md"
       ],
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
+      "outcome": "blocked",
       "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T20:49:27.580Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
@@ -8853,58 +8855,67 @@
       "sourceReviews": {
         "https://ootle.tari.com/llms.txt": {
           "url": "https://ootle.tari.com/llms.txt",
+          "file": "915497519741212e-d3967ba75429b439bba0b237706272043e8048f4509b285dc84469f6f3da6464.txt",
           "hash": "d3967ba75429b439bba0b237706272043e8048f4509b285dc84469f6f3da6464",
           "attemptedAt": "2026-11-04T10:07:30.074231+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://ootle.tari.com/llms.txt",
+          "kind": "web",
+          "complete": false,
           "evidence": "work/daily-2026-11-04/915497519741212e-d3967ba75429b439bba0b237706272043e8048f4509b285dc84469f6f3da6464.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full document source and supported browser reviewed earlier in the same daily run; see docs-social-review.json.",
           "lastAttemptAt": "2026-11-04T10:07:30.074231+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:30.074231+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://ootle.tari.com/.well-known/skills/": {
-          "lastAttemptAt": "2026-10-29T20:07:27.018700+00:00",
+          "lastAttemptAt": "2026-11-04T10:07:29.855127+00:00",
           "error": "HTTP Error 404: Not Found",
           "status": "blocked",
           "failureKind": "http",
-          "evidence": "work/completion-2026-10-29/d6362177709e040a.txt",
-          "nextAction": "Retry public source next run; retain last successful evidence"
+          "evidence": "work/daily-2026-11-04/official-skills-browser-failure.txt",
+          "nextAction": "Revisit if official navigation changes or the linked target recovers; preserve last-good dates and do not substitute an unendorsed skill."
         },
         "https://ootle.tari.com/.well-known/skills/openai-codex/SKILL.md": {
-          "lastAttemptAt": "2026-10-29T20:07:27.561615+00:00",
+          "lastAttemptAt": "2026-11-04T10:07:29.878376+00:00",
           "error": "HTTP Error 404: Not Found",
           "status": "blocked",
           "failureKind": "http",
-          "evidence": "work/completion-2026-10-29/82305c262376d306.txt",
-          "nextAction": "Retry public source next run; retain last successful evidence"
+          "evidence": "work/daily-2026-11-04/official-codex-browser-failure.txt",
+          "nextAction": "Revisit if official navigation changes or the linked target recovers; preserve last-good dates and do not substitute an unendorsed skill."
         },
         "https://ootle.tari.com/guides/agent-api-keys/": {
           "url": "https://ootle.tari.com/guides/agent-api-keys/",
+          "file": "cea924fc3f240e2f-3f76f24c82124c3443aecec51ae9453188b1ee5eb9a8e640b0d89738a76b3d67.txt",
           "hash": "3f76f24c82124c3443aecec51ae9453188b1ee5eb9a8e640b0d89738a76b3d67",
           "attemptedAt": "2026-11-04T10:07:29.965376+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://ootle.tari.com/guides/agent-api-keys/",
+          "kind": "web",
+          "complete": false,
           "evidence": "work/daily-2026-11-04/cea924fc3f240e2f-3f76f24c82124c3443aecec51ae9453188b1ee5eb9a8e640b0d89738a76b3d67.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full document source and supported browser reviewed earlier in the same daily run; see docs-social-review.json.",
           "lastAttemptAt": "2026-11-04T10:07:29.965376+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:29.965376+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://x.com/DNodeCapital/status/2108867690085421447": {
           "url": "https://x.com/DNodeCapital/status/2108867690085421447",
-          "hash": "04b5a90fd9d47857ea0eaa8bae6f5e9bb50ba4196d504e577b0d6742eb908e95",
-          "attemptedAt": "2026-11-04T10:07:41.732658+00:00",
-          "evidence": "work/daily-2026-11-04/dcd5acce80781f57-04b5a90fd9d47857ea0eaa8bae6f5e9bb50ba4196d504e577b0d6742eb908e95.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:41.732658+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:41.732658+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T20:49:27.580Z",
+          "hash": "6347cfd903f932d55eaa51be0d253bb3b82cf904605e68f4de5f3d19076a49d5",
+          "evidence": "work/daily-2026-11-04/dnode-builder-original-browser.txt",
+          "scope": "Full builder reply read; zero replies shown. Playground, Chiron SDK and Caravel faucet destinations resolved. No wallet or installation actions.",
+          "lastAttemptAt": "2026-11-04T20:49:27.580Z",
+          "lastSuccessfulReadAt": "2026-11-04T20:49:27.580Z",
+          "status": "read",
+          "error": null
         }
       },
       "priorReviewBasis": "Retained catalog lastCheckedAt from earlier source review; this follow-up does not imply all sources were reread",
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
       "changedSources": [
-        "https://ootle.tari.com/guides/agent-api-keys/",
         "https://x.com/DNodeCapital/status/2108867690085421447"
       ],
       "reviewQueue": [
@@ -8917,18 +8928,20 @@
       "checkedScope": [
         "https://ootle.tari.com/llms.txt",
         "https://ootle.tari.com/guides/agent-api-keys/",
+        "https://x.com/DNodeCapital/status/2108867690085421447",
         "https://ootle.tari.com/.well-known/skills/",
-        "https://ootle.tari.com/.well-known/skills/openai-codex/SKILL.md",
-        "https://x.com/DNodeCapital/status/2108867690085421447"
+        "https://ootle.tari.com/.well-known/skills/openai-codex/SKILL.md"
       ],
-      "sourceObservation": "Source retrieval attempted; full editorial re-review of this existing listing remains pending. Do not treat retrieval as fresh acceptance.",
+      "sourceObservation": "November 4: official llms index, agent API-key guide and complete original builder discussion read. Both indexed well-known skill targets return HTTP 404 and render Page not found. No replacement is documented by the index or guide navigation. Available documentation remains useful; missing skill bodies prevent a complete successful review.",
       "copyUpdated": false,
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://ootle.tari.com/.well-known/skills/",
+        "https://ootle.tari.com/.well-known/skills/openai-codex/SKILL.md"
+      ],
       "attemptReceipts": [
         {
           "url": "https://ootle.tari.com/llms.txt",
@@ -8951,6 +8964,10 @@
           "attemptedAt": "2026-11-04T10:07:41.732658+00:00",
           "httpStatus": 200
         }
+      ],
+      "latestAttemptAvailability": "November 4: official llms index, agent API-key guide and complete original builder discussion read. Both indexed well-known skill targets return HTTP 404 and render Page not found. No replacement is documented by the index or guide navigation. Available documentation remains useful; missing skill bodies prevent a complete successful review.",
+      "evidence": [
+        "work/daily-2026-11-04/agent-docs-giveaway-source-review.json"
       ]
     },
     "tari-ootle:component:ootle-ts": {
@@ -10886,12 +10903,13 @@
       "id": "dnode-giveaway",
       "title": "DNode / Erebus builder giveaway",
       "sources": [
-        "https://x.com/DNodeCapital/status/2108867687749181816"
+        "https://x.com/DNodeCapital/status/2108867687749181816",
+        "https://x.com/DNodeCapital/status/2108867690085421447"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T20:49:27.580Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T20:49:27.580Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
@@ -10899,38 +10917,44 @@
       "sourceReviews": {
         "https://x.com/DNodeCapital/status/2108867687749181816": {
           "url": "https://x.com/DNodeCapital/status/2108867687749181816",
-          "hash": "24f50d40c44af7bf5c61c69f83dc3b436075a5d995df121c10cf52ea154a6406",
-          "attemptedAt": "2026-11-04T10:07:41.494257+00:00",
-          "evidence": "work/daily-2026-11-04/83403adc2724c248-24f50d40c44af7bf5c61c69f83dc3b436075a5d995df121c10cf52ea154a6406.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:41.494257+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:41.494257+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T20:49:27.580Z",
+          "hash": "0230a7902c7d60bc2a07edc491c097b4babbc3c30ac0116e10962847c5696835",
+          "evidence": "work/daily-2026-11-04/dnode-giveaway-parent-browser.txt",
+          "scope": "Complete original announcement and its one builder reply read; artwork inspected. Draw date October 26 is past; no winner outcome asserted.",
+          "lastAttemptAt": "2026-11-04T20:49:27.580Z",
+          "lastSuccessfulReadAt": "2026-11-04T20:49:27.580Z",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/DNodeCapital/status/2108867690085421447": {
+          "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+          "attemptedAt": "2026-11-04T20:49:27.580Z",
+          "hash": "6347cfd903f932d55eaa51be0d253bb3b82cf904605e68f4de5f3d19076a49d5",
+          "evidence": "work/daily-2026-11-04/dnode-builder-original-browser.txt",
+          "scope": "Full builder reply read; zero replies shown. Playground, Chiron SDK and Caravel faucet destinations resolved. No wallet or installation actions.",
+          "lastAttemptAt": "2026-11-04T20:49:27.580Z",
+          "lastSuccessfulReadAt": "2026-11-04T20:49:27.580Z",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "observedAvailability": "November 4: complete October 10 announcement, its builder reply and original giveaway artwork reviewed. Three one-month Claude Pro prizes; announced October 26 draw date is past. No winner result appears in this two-post thread. Retain as a past opportunity, separate from the new November meme contest.",
       "changedSources": [
-        "https://x.com/DNodeCapital/status/2108867687749181816"
+        "https://x.com/DNodeCapital/status/2108867687749181816",
+        "https://x.com/DNodeCapital/status/2108867690085421447"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
-        "https://x.com/DNodeCapital/status/2108867687749181816"
+        "https://x.com/DNodeCapital/status/2108867687749181816",
+        "https://x.com/DNodeCapital/status/2108867690085421447"
       ],
-      "sourceObservation": "October 29 original posts and accessible replies, source repository and linked public destinations reviewed. Listing describes observed public availability; no wallet, financial or runtime certification implied.",
+      "sourceObservation": "November 4: complete October 10 announcement, its builder reply and original giveaway artwork reviewed. Three one-month Claude Pro prizes; announced October 26 draw date is past. No winner result appears in this two-post thread. Retain as a past opportunity, separate from the new November meme contest.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": false,
       "reviewedSourceCount": 1,
       "pendingReviewSources": [],
       "supersededSources": {},
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://x.com/DNodeCapital/status/2108867687749181816",
@@ -10939,6 +10963,10 @@
           "attemptedAt": "2026-11-04T10:07:41.494257+00:00",
           "httpStatus": 200
         }
+      ],
+      "latestAttemptAvailability": "November 4: complete October 10 announcement, its builder reply and original giveaway artwork reviewed. Three one-month Claude Pro prizes; announced October 26 draw date is past. No winner result appears in this two-post thread. Retain as a past opportunity, separate from the new November meme contest.",
+      "evidence": [
+        "work/daily-2026-11-04/agent-docs-giveaway-source-review.json"
       ]
     },
     "project:skydrop": {
@@ -19499,77 +19527,87 @@
         "https://paragraph.com/@hycorange/tari-creator-contest-entries",
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T20:59:30.931Z",
       "sourceReviews": {
         "https://bsky.app/profile/hycorange.bsky.social/post/3mz3h7y2edj2l": {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3h7y2edj2l",
-          "hash": "8aa8ea9c97edab9b9ec8222a3d0c7800a31e440a6d7bbdf9cad9ebb222535771",
-          "attemptedAt": "2026-11-04T10:07:25.366816+00:00",
-          "evidence": "work/daily-2026-11-04/4e4e85399b113a68-8aa8ea9c97edab9b9ec8222a3d0c7800a31e440a6d7bbdf9cad9ebb222535771.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.366816+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.366816+00:00",
-          "status": "read"
+          "file": "4e4e85399b113a68-42ce1e5b24865508a55a2a991fcc3702d110ec375a7cf4d5e1effdb5a6697b66.txt",
+          "hash": "42ce1e5b24865508a55a2a991fcc3702d110ec375a7cf4d5e1effdb5a6697b66",
+          "attemptedAt": "2026-11-04T10:06:47.354950+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fhycorange.bsky.social%2Fapp.bsky.feed.post%2F3mz3h7y2edj2l&depth=100&parentHeight=100",
+          "evidence": "work/daily-2026-11-04/4e4e85399b113a68-42ce1e5b24865508a55a2a991fcc3702d110ec375a7cf4d5e1effdb5a6697b66.txt",
+          "complete": true,
+          "scope": "Full original post, external attachment metadata and all replies read. Root reply count 0.",
+          "lastAttemptAt": "2026-11-04T10:06:47.354950+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:47.354950+00:00",
+          "status": "read",
+          "error": null
         },
         "https://paragraph.com/@hycorange/burning-minotari-for-tari-on-ootle-my-esmeralda-walkthrough": {
           "url": "https://paragraph.com/@hycorange/burning-minotari-for-tari-on-ootle-my-esmeralda-walkthrough",
+          "file": "3c552e4c6c394bf9-ba0841778319425b2c3442d214186e661958ed90824bc4d2f576d96118b07be5.txt",
           "hash": "ba0841778319425b2c3442d214186e661958ed90824bc4d2f576d96118b07be5",
           "attemptedAt": "2026-11-04T10:07:31.436692+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://paragraph.com/@hycorange/burning-minotari-for-tari-on-ootle-my-esmeralda-walkthrough",
+          "kind": "web",
+          "complete": true,
           "evidence": "work/daily-2026-11-04/3c552e4c6c394bf9-ba0841778319425b2c3442d214186e661958ed90824bc4d2f576d96118b07be5.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full article and creator index read from saved current HTTP response; rendered text extracted with standard HTMLParser.",
           "lastAttemptAt": "2026-11-04T10:07:31.436692+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:31.436692+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://paragraph.com/@hycorange/tari-creator-contest-entries": {
           "url": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "file": "4dd63213e07508db-90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141.txt",
           "hash": "90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141",
           "attemptedAt": "2026-11-04T10:07:31.999361+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "kind": "web",
+          "complete": true,
           "evidence": "work/daily-2026-11-04/4dd63213e07508db-90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full article and creator index read from saved current HTTP response; rendered text extracted with standard HTMLParser.",
           "lastAttemptAt": "2026-11-04T10:07:31.999361+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:31.999361+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9": {
           "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "file": "0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
           "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 21,
+          "title": "Ootle Launch Event: Creator Contest",
           "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete current 21-post thread retained from earlier daily read; creator post 9 reread, explicitly confirms unchanged Medium-to-Paragraph migration; zero direct replies.",
           "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T13:09:50.003Z",
-      "observedAvailability": "Public documentation read October 31. Per-resource source scope and limitations retained in Details; a docs recording does not demonstrate the described application.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-04T20:59:30.931Z",
+      "observedAvailability": "November 4: Full creator article describes the October 12 Esmeralda burn/claim and irreversible loss from an empty claim key. Original Bluesky post has no replies. No wallet action or independent transaction claim is made. Creator index still lists five Tari articles. All public original posts retained; supported Paragraph replacement and dated Medium failure history preserved where applicable.",
+      "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://bsky.app/profile/hycorange.bsky.social/post/3mz3h7y2edj2l",
-        "https://paragraph.com/@hycorange/burning-minotari-for-tari-on-ootle-my-esmeralda-walkthrough",
-        "https://paragraph.com/@hycorange/tari-creator-contest-entries",
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9"
+        "https://bsky.app/profile/hycorange.bsky.social/post/3mz3h7y2edj2l"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3h7y2edj2l",
@@ -19598,6 +19636,18 @@
           "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00"
         }
+      ],
+      "supersededSources": {},
+      "sourceObservation": "November 4: Full creator article describes the October 12 Esmeralda burn/claim and irreversible loss from an empty claim key. Original Bluesky post has no replies. No wallet action or independent transaction claim is made. Creator index still lists five Tari articles. All public original posts retained; supported Paragraph replacement and dated Medium failure history preserved where applicable.",
+      "evidence": [
+        "work/daily-2026-11-04/hycorange-guides-review.json"
+      ],
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T20:59:30.931Z",
+          "previousLastSuccessfulReviewAt": "2026-10-31T13:09:50.003Z",
+          "evidence": "work/daily-2026-11-04/hycorange-guides-review.json"
+        }
       ]
     },
     "tari-ootle:learn:hycorange-privacy": {
@@ -19609,77 +19659,87 @@
         "https://paragraph.com/@hycorange/tari-creator-contest-entries",
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T20:59:30.931Z",
       "sourceReviews": {
         "https://bsky.app/profile/hycorange.bsky.social/post/3mz3hiismky2n": {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3hiismky2n",
-          "hash": "e7d7f3357c4154443f5734abbc7ee0db2e0b6bf04895d57441b65472e55fbc82",
-          "attemptedAt": "2026-11-04T10:07:25.399270+00:00",
-          "evidence": "work/daily-2026-11-04/9e9c721ea24ebd9c-e7d7f3357c4154443f5734abbc7ee0db2e0b6bf04895d57441b65472e55fbc82.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.399270+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.399270+00:00",
-          "status": "read"
+          "file": "9e9c721ea24ebd9c-ee21942dda639e2a6750245027373f416ae485a5fb9574e23672a120d31b2a18.txt",
+          "hash": "ee21942dda639e2a6750245027373f416ae485a5fb9574e23672a120d31b2a18",
+          "attemptedAt": "2026-11-04T10:06:47.516569+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fhycorange.bsky.social%2Fapp.bsky.feed.post%2F3mz3hiismky2n&depth=100&parentHeight=100",
+          "evidence": "work/daily-2026-11-04/9e9c721ea24ebd9c-ee21942dda639e2a6750245027373f416ae485a5fb9574e23672a120d31b2a18.txt",
+          "complete": true,
+          "scope": "Full original post, external attachment metadata and all replies read. Root reply count 0.",
+          "lastAttemptAt": "2026-11-04T10:06:47.516569+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:47.516569+00:00",
+          "status": "read",
+          "error": null
         },
         "https://paragraph.com/@hycorange/confidential-vs-stealth-on-tari-ootle": {
           "url": "https://paragraph.com/@hycorange/confidential-vs-stealth-on-tari-ootle",
+          "file": "eab806aab339b3e0-fbc9c9e65da4ca07256d9be844713bcb741bec4047c4c97f0123c77b0899cea2.txt",
           "hash": "fbc9c9e65da4ca07256d9be844713bcb741bec4047c4c97f0123c77b0899cea2",
           "attemptedAt": "2026-11-04T10:07:31.441020+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://paragraph.com/@hycorange/confidential-vs-stealth-on-tari-ootle",
+          "kind": "web",
+          "complete": true,
           "evidence": "work/daily-2026-11-04/eab806aab339b3e0-fbc9c9e65da4ca07256d9be844713bcb741bec4047c4c97f0123c77b0899cea2.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full article and creator index read from saved current HTTP response; rendered text extracted with standard HTMLParser.",
           "lastAttemptAt": "2026-11-04T10:07:31.441020+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:31.441020+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://paragraph.com/@hycorange/tari-creator-contest-entries": {
           "url": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "file": "4dd63213e07508db-90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141.txt",
           "hash": "90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141",
           "attemptedAt": "2026-11-04T10:07:31.999361+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "kind": "web",
+          "complete": true,
           "evidence": "work/daily-2026-11-04/4dd63213e07508db-90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full article and creator index read from saved current HTTP response; rendered text extracted with standard HTMLParser.",
           "lastAttemptAt": "2026-11-04T10:07:31.999361+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:31.999361+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9": {
           "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "file": "0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
           "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 21,
+          "title": "Ootle Launch Event: Creator Contest",
           "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete current 21-post thread retained from earlier daily read; creator post 9 reread, explicitly confirms unchanged Medium-to-Paragraph migration; zero direct replies.",
           "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T13:09:50.003Z",
-      "observedAvailability": "Public documentation read October 31. Per-resource source scope and limitations retained in Details; a docs recording does not demonstrate the described application.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-04T20:59:30.931Z",
+      "observedAvailability": "November 4: Full article distinguishes confidential vault resources from stealth UTXOs and describes fees, account signatures, public spend links and scanning costs. Original Bluesky post has no replies. Creator index still lists five Tari articles. All public original posts retained; supported Paragraph replacement and dated Medium failure history preserved where applicable.",
+      "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://bsky.app/profile/hycorange.bsky.social/post/3mz3hiismky2n",
-        "https://paragraph.com/@hycorange/confidential-vs-stealth-on-tari-ootle",
-        "https://paragraph.com/@hycorange/tari-creator-contest-entries",
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9"
+        "https://bsky.app/profile/hycorange.bsky.social/post/3mz3hiismky2n"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3hiismky2n",
@@ -19708,6 +19768,18 @@
           "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00"
         }
+      ],
+      "supersededSources": {},
+      "sourceObservation": "November 4: Full article distinguishes confidential vault resources from stealth UTXOs and describes fees, account signatures, public spend links and scanning costs. Original Bluesky post has no replies. Creator index still lists five Tari articles. All public original posts retained; supported Paragraph replacement and dated Medium failure history preserved where applicable.",
+      "evidence": [
+        "work/daily-2026-11-04/hycorange-guides-review.json"
+      ],
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T20:59:30.931Z",
+          "previousLastSuccessfulReviewAt": "2026-10-31T13:09:50.003Z",
+          "evidence": "work/daily-2026-11-04/hycorange-guides-review.json"
+        }
       ]
     },
     "tari-ootle:learn:hycorange-mining": {
@@ -19717,79 +19789,90 @@
         "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m",
         "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet",
         "https://paragraph.com/@hycorange/tari-creator-contest-entries",
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9"
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+        "https://medium.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet-blocks-showed-me-e9674e87502c"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T20:59:30.931Z",
       "sourceReviews": {
         "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m": {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m",
-          "hash": "d321d93d49de857ed3efdc2c3c683f88710a897ff7d614bf7b6748ff93a054ac",
-          "attemptedAt": "2026-11-04T10:07:25.559986+00:00",
-          "evidence": "work/daily-2026-11-04/b8c895c9c1d5dd18-d321d93d49de857ed3efdc2c3c683f88710a897ff7d614bf7b6748ff93a054ac.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.559986+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.559986+00:00",
-          "status": "read"
+          "file": "b8c895c9c1d5dd18-6734cdd21cbb7d3065fb2845a8b35667924510a2734386fc7af0232d9429c473.txt",
+          "hash": "6734cdd21cbb7d3065fb2845a8b35667924510a2734386fc7af0232d9429c473",
+          "attemptedAt": "2026-11-04T10:06:47.686417+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fhycorange.bsky.social%2Fapp.bsky.feed.post%2F3mz4vhllcgj2m&depth=100&parentHeight=100",
+          "evidence": "work/daily-2026-11-04/b8c895c9c1d5dd18-6734cdd21cbb7d3065fb2845a8b35667924510a2734386fc7af0232d9429c473.txt",
+          "complete": true,
+          "scope": "Full original post, external attachment metadata and all replies read. Root reply count 1.",
+          "lastAttemptAt": "2026-11-04T10:06:47.686417+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:47.686417+00:00",
+          "status": "read",
+          "error": null
         },
         "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet": {
           "url": "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet",
+          "file": "d98c612c7be93805-0ee7c0e1d469136351ec10167e88bbeedfa797cad32ab1a56da556d207990612.txt",
           "hash": "0ee7c0e1d469136351ec10167e88bbeedfa797cad32ab1a56da556d207990612",
           "attemptedAt": "2026-11-04T10:07:31.448609+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet",
+          "kind": "web",
+          "complete": true,
           "evidence": "work/daily-2026-11-04/d98c612c7be93805-0ee7c0e1d469136351ec10167e88bbeedfa797cad32ab1a56da556d207990612.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full article and creator index read from saved current HTTP response; rendered text extracted with standard HTMLParser.",
           "lastAttemptAt": "2026-11-04T10:07:31.448609+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:31.448609+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://paragraph.com/@hycorange/tari-creator-contest-entries": {
           "url": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "file": "4dd63213e07508db-90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141.txt",
           "hash": "90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141",
           "attemptedAt": "2026-11-04T10:07:31.999361+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "kind": "web",
+          "complete": true,
           "evidence": "work/daily-2026-11-04/4dd63213e07508db-90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full article and creator index read from saved current HTTP response; rendered text extracted with standard HTMLParser.",
           "lastAttemptAt": "2026-11-04T10:07:31.999361+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:31.999361+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9": {
           "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "file": "0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
           "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 21,
+          "title": "Ootle Launch Event: Creator Contest",
           "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete current 21-post thread retained from earlier daily read; creator post 9 reread, explicitly confirms unchanged Medium-to-Paragraph migration; zero direct replies.",
           "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T13:09:50.003Z",
-      "observedAvailability": "Public documentation read October 31. Per-resource source scope and limitations retained in Details; a docs recording does not demonstrate the described application.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-04T20:59:30.931Z",
+      "observedAvailability": "November 4: Full article describes four proof-of-work lanes, separate difficulty adjustment and backoff using a dated October 30 100-block sample. Read the one November 1 reply asking for a longer sample; no creator response or revised sample is present. Creator index still lists five Tari articles. All public original posts retained; supported Paragraph replacement and dated Medium failure history preserved where applicable.",
+      "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m",
-        "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet",
-        "https://paragraph.com/@hycorange/tari-creator-contest-entries",
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9"
+        "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m",
@@ -19818,6 +19901,33 @@
           "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00"
         }
+      ],
+      "supersededSources": {
+        "https://medium.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet-blocks-showed-me-e9674e87502c": {
+          "replacementUrl": "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet",
+          "evidence": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "reason": "Creator explicitly moved articles 3–5 unchanged after Medium account restriction. Current creator index and full replacement article reviewed November 4.",
+          "reviewedAt": "2026-11-04T20:59:30.931Z",
+          "failureHistory": {
+            "url": "https://medium.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet-blocks-showed-me-e9674e87502c",
+            "observedAt": "2026-10-31T13:04:21.761125+00:00",
+            "status": "HTTP 410 account unavailable",
+            "replacement": "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet",
+            "replacementEvidence": "work/daily-2026-10-31/hycorange-entries-browser.txt",
+            "failureEvidence": "work/daily-2026-10-31/hycorange-mining-browser.txt"
+          }
+        }
+      },
+      "sourceObservation": "November 4: Full article describes four proof-of-work lanes, separate difficulty adjustment and backoff using a dated October 30 100-block sample. Read the one November 1 reply asking for a longer sample; no creator response or revised sample is present. Creator index still lists five Tari articles. All public original posts retained; supported Paragraph replacement and dated Medium failure history preserved where applicable.",
+      "evidence": [
+        "work/daily-2026-11-04/hycorange-guides-review.json"
+      ],
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T20:59:30.931Z",
+          "previousLastSuccessfulReviewAt": "2026-10-31T13:09:50.003Z",
+          "evidence": "work/daily-2026-11-04/hycorange-guides-review.json"
+        }
       ]
     },
     "tari-ootle:learn:hycorange-permissions": {
@@ -19827,79 +19937,90 @@
         "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f",
         "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to",
         "https://paragraph.com/@hycorange/tari-creator-contest-entries",
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9"
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+        "https://medium.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to-permissions-in-tari-ootle-templates-264de72b4b83"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T20:59:30.931Z",
       "sourceReviews": {
         "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f": {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f",
-          "hash": "585095858c64508f84727ec4047c7776bae7d1dc026ab4f2e704c1b23c7f862e",
-          "attemptedAt": "2026-11-04T10:07:25.576317+00:00",
-          "evidence": "work/daily-2026-11-04/6ad7fc28009c783e-585095858c64508f84727ec4047c7776bae7d1dc026ab4f2e704c1b23c7f862e.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.576317+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.576317+00:00",
-          "status": "read"
+          "file": "6ad7fc28009c783e-5304987ccab5f29c816d800358db37c04b60e5c08440ae7b10709789b6b22c88.txt",
+          "hash": "5304987ccab5f29c816d800358db37c04b60e5c08440ae7b10709789b6b22c88",
+          "attemptedAt": "2026-11-04T10:06:47.854664+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fhycorange.bsky.social%2Fapp.bsky.feed.post%2F3mz4ywxckbr2f&depth=100&parentHeight=100",
+          "evidence": "work/daily-2026-11-04/6ad7fc28009c783e-5304987ccab5f29c816d800358db37c04b60e5c08440ae7b10709789b6b22c88.txt",
+          "complete": true,
+          "scope": "Full original post, external attachment metadata and all replies read. Root reply count 0.",
+          "lastAttemptAt": "2026-11-04T10:06:47.854664+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:47.854664+00:00",
+          "status": "read",
+          "error": null
         },
         "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to": {
           "url": "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to",
+          "file": "36eacc32c3b78904-f98a66f922e2b06023882416a4ae195f51df4bb19efcc8f8b59b42f1168ef22d.txt",
           "hash": "f98a66f922e2b06023882416a4ae195f51df4bb19efcc8f8b59b42f1168ef22d",
           "attemptedAt": "2026-11-04T10:07:32.182502+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to",
+          "kind": "web",
+          "complete": true,
           "evidence": "work/daily-2026-11-04/36eacc32c3b78904-f98a66f922e2b06023882416a4ae195f51df4bb19efcc8f8b59b42f1168ef22d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full article and creator index read from saved current HTTP response; rendered text extracted with standard HTMLParser.",
           "lastAttemptAt": "2026-11-04T10:07:32.182502+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:32.182502+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://paragraph.com/@hycorange/tari-creator-contest-entries": {
           "url": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "file": "4dd63213e07508db-90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141.txt",
           "hash": "90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141",
           "attemptedAt": "2026-11-04T10:07:31.999361+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "kind": "web",
+          "complete": true,
           "evidence": "work/daily-2026-11-04/4dd63213e07508db-90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full article and creator index read from saved current HTTP response; rendered text extracted with standard HTMLParser.",
           "lastAttemptAt": "2026-11-04T10:07:31.999361+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:31.999361+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9": {
           "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "file": "0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
           "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 21,
+          "title": "Ootle Launch Event: Creator Contest",
           "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete current 21-post thread retained from earlier daily read; creator post 9 reread, explicitly confirms unchanged Medium-to-Paragraph migration; zero direct replies.",
           "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T13:09:50.003Z",
-      "observedAvailability": "Public documentation read October 31. Per-resource source scope and limitations retained in Details; a docs recording does not demonstrate the described application.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-04T20:59:30.931Z",
+      "observedAvailability": "November 4: Full article is explicitly based on tari_template_lib 0.36.0 and October 30 documentation. Covers owner and method rules, public functions, proof scope, locked resource updates and hook risks. Original Bluesky post has no replies. Creator index still lists five Tari articles. All public original posts retained; supported Paragraph replacement and dated Medium failure history preserved where applicable.",
+      "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f",
-        "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to",
-        "https://paragraph.com/@hycorange/tari-creator-contest-entries",
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9"
+        "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f",
@@ -19928,6 +20049,33 @@
           "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00"
         }
+      ],
+      "supersededSources": {
+        "https://medium.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to-permissions-in-tari-ootle-templates-264de72b4b83": {
+          "replacementUrl": "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to",
+          "evidence": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "reason": "Creator explicitly moved articles 3–5 unchanged after Medium account restriction. Current creator index and full replacement article reviewed November 4.",
+          "reviewedAt": "2026-11-04T20:59:30.931Z",
+          "failureHistory": {
+            "url": "https://medium.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to-permissions-in-tari-ootle-templates-264de72b4b83",
+            "observedAt": "2026-10-31T13:04:21.761125+00:00",
+            "status": "HTTP 410 account unavailable",
+            "replacement": "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to",
+            "replacementEvidence": "work/daily-2026-10-31/hycorange-entries-browser.txt",
+            "failureEvidence": "work/daily-2026-10-31/hycorange-permissions-browser.txt"
+          }
+        }
+      },
+      "sourceObservation": "November 4: Full article is explicitly based on tari_template_lib 0.36.0 and October 30 documentation. Covers owner and method rules, public functions, proof scope, locked resource updates and hook risks. Original Bluesky post has no replies. Creator index still lists five Tari articles. All public original posts retained; supported Paragraph replacement and dated Medium failure history preserved where applicable.",
+      "evidence": [
+        "work/daily-2026-11-04/hycorange-guides-review.json"
+      ],
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T20:59:30.931Z",
+          "previousLastSuccessfulReviewAt": "2026-10-31T13:09:50.003Z",
+          "evidence": "work/daily-2026-11-04/hycorange-guides-review.json"
+        }
       ]
     },
     "tari-ootle:learn:hycorange-airdrops": {
@@ -19937,79 +20085,90 @@
         "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a",
         "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop",
         "https://paragraph.com/@hycorange/tari-creator-contest-entries",
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9"
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+        "https://medium.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop-taught-me-about-ootles-native-d87a14931168"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T20:59:30.931Z",
       "sourceReviews": {
         "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a": {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a",
-          "hash": "382d97a42164d4e8bdb3c90c91e6397d0fe8f19509cf5d07158d00d4a53ee9d1",
-          "attemptedAt": "2026-11-04T10:07:25.570430+00:00",
-          "evidence": "work/daily-2026-11-04/83177fca3693b31d-382d97a42164d4e8bdb3c90c91e6397d0fe8f19509cf5d07158d00d4a53ee9d1.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.570430+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.570430+00:00",
-          "status": "read"
+          "file": "83177fca3693b31d-cf43042eeef48c83c797600c5c3b84ab8381f3f7aba4790fb192784ebc7964c2.txt",
+          "hash": "cf43042eeef48c83c797600c5c3b84ab8381f3f7aba4790fb192784ebc7964c2",
+          "attemptedAt": "2026-11-04T10:06:48.015996+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fhycorange.bsky.social%2Fapp.bsky.feed.post%2F3mz5k7k3h3y2a&depth=100&parentHeight=100",
+          "evidence": "work/daily-2026-11-04/83177fca3693b31d-cf43042eeef48c83c797600c5c3b84ab8381f3f7aba4790fb192784ebc7964c2.txt",
+          "complete": true,
+          "scope": "Full original post, external attachment metadata and all replies read. Root reply count 0.",
+          "lastAttemptAt": "2026-11-04T10:06:48.015996+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.015996+00:00",
+          "status": "read",
+          "error": null
         },
         "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop": {
           "url": "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop",
+          "file": "0d393910f00b751e-cc8c88a004d14b7245a9dddef95baa62e9652903ec55e8b5806060a2669ffc64.txt",
           "hash": "cc8c88a004d14b7245a9dddef95baa62e9652903ec55e8b5806060a2669ffc64",
           "attemptedAt": "2026-11-04T10:07:31.910927+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop",
+          "kind": "web",
+          "complete": true,
           "evidence": "work/daily-2026-11-04/0d393910f00b751e-cc8c88a004d14b7245a9dddef95baa62e9652903ec55e8b5806060a2669ffc64.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full article and creator index read from saved current HTTP response; rendered text extracted with standard HTMLParser.",
           "lastAttemptAt": "2026-11-04T10:07:31.910927+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:31.910927+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://paragraph.com/@hycorange/tari-creator-contest-entries": {
           "url": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "file": "4dd63213e07508db-90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141.txt",
           "hash": "90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141",
           "attemptedAt": "2026-11-04T10:07:31.999361+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://paragraph.com/@hycorange/tari-creator-contest-entries",
+          "kind": "web",
+          "complete": true,
           "evidence": "work/daily-2026-11-04/4dd63213e07508db-90258940b99b066de9a5d69eae33db99a169f445ea8ce0e2c2c26e162d834141.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full article and creator index read from saved current HTTP response; rendered text extracted with standard HTMLParser.",
           "lastAttemptAt": "2026-11-04T10:07:31.999361+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:31.999361+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9": {
           "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "file": "0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
           "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 21,
+          "title": "Ootle Launch Event: Creator Contest",
           "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete current 21-post thread retained from earlier daily read; creator post 9 reread, explicitly confirms unchanged Medium-to-Paragraph migration; zero direct replies.",
           "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T13:09:50.003Z",
-      "observedAvailability": "Public documentation read October 31. Per-resource source scope and limitations retained in Details; a docs recording does not demonstrate the described application.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-04T20:59:30.931Z",
+      "observedAvailability": "November 4: Full article describes Phantom Drop native Account/stealth UTXO claim and refund branches, fee payment and author-reported October 12 Esmeralda results. Original Bluesky post has no replies. No live transfer was executed. Creator index still lists five Tari articles. All public original posts retained; supported Paragraph replacement and dated Medium failure history preserved where applicable.",
+      "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a",
-        "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop",
-        "https://paragraph.com/@hycorange/tari-creator-contest-entries",
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9"
+        "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a",
@@ -20037,6 +20196,33 @@
           "file": "0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
           "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00"
+        }
+      ],
+      "supersededSources": {
+        "https://medium.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop-taught-me-about-ootles-native-d87a14931168": {
+          "replacementUrl": "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop",
+          "evidence": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
+          "reason": "Creator explicitly moved articles 3–5 unchanged after Medium account restriction. Current creator index and full replacement article reviewed November 4.",
+          "reviewedAt": "2026-11-04T20:59:30.931Z",
+          "failureHistory": {
+            "url": "https://medium.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop-taught-me-about-ootles-native-d87a14931168",
+            "observedAt": "2026-10-31T13:04:21.761125+00:00",
+            "status": "HTTP 410 account unavailable",
+            "replacement": "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop",
+            "replacementEvidence": "work/daily-2026-10-31/hycorange-entries-browser.txt",
+            "failureEvidence": "work/daily-2026-10-31/hycorange-airdrops-browser.txt"
+          }
+        }
+      },
+      "sourceObservation": "November 4: Full article describes Phantom Drop native Account/stealth UTXO claim and refund branches, fee payment and author-reported October 12 Esmeralda results. Original Bluesky post has no replies. No live transfer was executed. Creator index still lists five Tari articles. All public original posts retained; supported Paragraph replacement and dated Medium failure history preserved where applicable.",
+      "evidence": [
+        "work/daily-2026-11-04/hycorange-guides-review.json"
+      ],
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T20:59:30.931Z",
+          "previousLastSuccessfulReviewAt": "2026-10-31T13:09:50.003Z",
+          "evidence": "work/daily-2026-11-04/hycorange-guides-review.json"
         }
       ]
     },

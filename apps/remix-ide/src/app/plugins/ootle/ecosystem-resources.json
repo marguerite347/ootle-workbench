@@ -2419,7 +2419,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "Burn Minotari walkthrough",
-      "summary": "Community walkthrough of an October 12 Esmeralda burn, proof maturity and L2 claim. The author reports losing 200 tXTM after submitting an empty claim key. Burns are irreversible; examples and transaction results are the author’s account, not transactions performed by this catalog review.",
+      "summary": "Community walkthrough of an October 12 Esmeralda burn, proof maturity and L2 claim. The author reports losing 200 tXTM after submitting an empty claim key. Burns are irreversible; examples and transaction results are the author’s account, not transactions performed by this catalog review. November 4 review: full article, creator index and original discussion revisited. Historical examples and version scope remain as dated by the author.",
       "status": "Community tutorial",
       "sourceUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3h7y2edj2l",
       "repoUrl": null,
@@ -2432,9 +2432,9 @@
       "license": null,
       "network": "Esmeralda testnet",
       "platform": "Reading",
-      "upstreamRevision": "page-sha256:e25e9fe1ecd296a0e1e34f8d51987c35af223eee0ba3a3d32e6c88d34b909c55",
+      "upstreamRevision": "page-sha256:ba0841778319425b2c3442d214186e661958ed90824bc4d2f576d96118b07be5",
       "sourceUpdatedAt": "2026-10-30T09:19:40.952Z",
-      "lastCheckedAt": "2026-10-31T13:09:50.003Z",
+      "lastCheckedAt": "2026-11-04T20:59:30.931Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2464,7 +2464,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-burn-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-burn-20261031.png",
-        "source": "Source/docs walkthrough — public documentation, not an application demonstration."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -2474,7 +2474,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "Confidential and stealth explained",
-      "summary": "Explains the distinction between confidential vault resources and native stealth UTXOs, including the wallet confidential_balance field. Discusses public fees, account signatures, transaction links, revealed spend branches and scanning costs using the author’s Esmeralda run.",
+      "summary": "Explains the distinction between confidential vault resources and native stealth UTXOs, including the wallet confidential_balance field. Discusses public fees, account signatures, transaction links, revealed spend branches and scanning costs using the author’s Esmeralda run. November 4 review: full article, creator index and original discussion revisited. Historical examples and version scope remain as dated by the author.",
       "status": "Community tutorial",
       "sourceUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz3hiismky2n",
       "repoUrl": null,
@@ -2487,9 +2487,9 @@
       "license": null,
       "network": "Esmeralda testnet",
       "platform": "Reading",
-      "upstreamRevision": "page-sha256:2a005d74f3e74cedf26cc0d344bb47edac82800e4585f753772721733529cd76",
+      "upstreamRevision": "page-sha256:fbc9c9e65da4ca07256d9be844713bcb741bec4047c4c97f0123c77b0899cea2",
       "sourceUpdatedAt": "2026-10-30T09:24:27.142Z",
-      "lastCheckedAt": "2026-10-31T13:09:50.003Z",
+      "lastCheckedAt": "2026-11-04T20:59:30.931Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2519,7 +2519,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-privacy-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-privacy-20261031.png",
-        "source": "Source/docs walkthrough — public documentation, not an application demonstration."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -2529,7 +2529,7 @@
       "ecosystem": "tari",
       "group": "Advanced",
       "title": "Tari mining lanes explained",
-      "summary": "Community explanation of four proof-of-work lanes and the mining backoff proposal, with the author’s October 30 sample of 100 blocks. Historical sample figures are illustrative, not current hashrates or a forecast. Links to official mining RFCs. On October 31 the original Medium link returned an account-unavailable 410 page; the creator’s own index links to this Paragraph replacement.",
+      "summary": "Community explanation of four proof-of-work lanes and the mining backoff proposal, with the author’s October 30 sample of 100 blocks. Historical sample figures are illustrative, not current hashrates or a forecast. Links to official mining RFCs. On October 31 the original Medium link returned an account-unavailable 410 page; the creator’s own index links to this Paragraph replacement. November 4 review: full article, creator index and original discussion revisited. Historical examples and version scope remain as dated by the author.",
       "status": "Community tutorial",
       "sourceUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4vhllcgj2m",
       "repoUrl": null,
@@ -2542,9 +2542,9 @@
       "license": null,
       "network": "Tari L1 mainnet",
       "platform": "Reading",
-      "upstreamRevision": "page-sha256:0d866268a3cbbbe43a949eb6e5738741097ca30c7d647d473775b8b82cb29f59",
+      "upstreamRevision": "page-sha256:0ee7c0e1d469136351ec10167e88bbeedfa797cad32ab1a56da556d207990612",
       "sourceUpdatedAt": "2026-10-31",
-      "lastCheckedAt": "2026-10-31T13:09:50.003Z",
+      "lastCheckedAt": "2026-11-04T20:59:30.931Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2574,7 +2574,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-mining-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-mining-20261031.png",
-        "source": "Source/docs walkthrough — public documentation, not an application demonstration."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -2584,7 +2584,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "Ootle template permissions guide",
-      "summary": "Community field guide based on tari_template_lib 0.36.0 and the October 30 official documentation. Covers public functions, component ownership, immediate caller rules, proof scope, LOCKED resource updates and authorization hooks. Treat protocol defaults as version-specific. On October 31 the original Medium link returned an account-unavailable 410 page; the creator’s own index links to this Paragraph replacement.",
+      "summary": "Community field guide based on tari_template_lib 0.36.0 and the October 30 official documentation. Covers public functions, component ownership, immediate caller rules, proof scope, LOCKED resource updates and authorization hooks. Treat protocol defaults as version-specific. On October 31 the original Medium link returned an account-unavailable 410 page; the creator’s own index links to this Paragraph replacement. November 4 review: full article, creator index and original discussion revisited. Historical examples and version scope remain as dated by the author.",
       "status": "Community tutorial",
       "sourceUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz4ywxckbr2f",
       "repoUrl": null,
@@ -2597,9 +2597,9 @@
       "license": null,
       "network": "Esmeralda testnet",
       "platform": "Reading",
-      "upstreamRevision": "page-sha256:4706256be713b6eda69b2d0e1a3f31cb6e1cd850905dd47a7a733d81b16f6cd4",
+      "upstreamRevision": "page-sha256:f98a66f922e2b06023882416a4ae195f51df4bb19efcc8f8b59b42f1168ef22d",
       "sourceUpdatedAt": "2026-10-31",
-      "lastCheckedAt": "2026-10-31T13:09:50.003Z",
+      "lastCheckedAt": "2026-11-04T20:59:30.931Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2629,7 +2629,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-permissions-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-permissions-20261031.png",
-        "source": "Source/docs walkthrough — public documentation, not an application demonstration."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -2639,7 +2639,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "Native stealth airdrop walkthrough",
-      "summary": "Creator architecture walkthrough of Phantom Drop’s funding paths, one-time keys, claim/refund branches and fees paid from the envelope. Describes the author’s October 12 Esmeralda run. Bearer links must remain secret, public riddles permit offline guessing, and public fees and spend links remain visible. On October 31 the original Medium link returned an account-unavailable 410 page; the creator’s own index links to this Paragraph replacement.",
+      "summary": "Creator architecture walkthrough of Phantom Drop’s funding paths, one-time keys, claim/refund branches and fees paid from the envelope. Describes the author’s October 12 Esmeralda run. Bearer links must remain secret, public riddles permit offline guessing, and public fees and spend links remain visible. On October 31 the original Medium link returned an account-unavailable 410 page; the creator’s own index links to this Paragraph replacement. November 4 review: full article, creator index and original discussion revisited. Historical examples and version scope remain as dated by the author.",
       "status": "Community tutorial",
       "sourceUrl": "https://bsky.app/profile/hycorange.bsky.social/post/3mz5k7k3h3y2a",
       "repoUrl": null,
@@ -2652,9 +2652,9 @@
       "license": null,
       "network": "Esmeralda testnet",
       "platform": "Reading",
-      "upstreamRevision": "page-sha256:efad63e62f3e4042ea18abc6adda1f29870cb9f4dfce12ed4aac1fac6bf6eff6",
+      "upstreamRevision": "page-sha256:cc8c88a004d14b7245a9dddef95baa62e9652903ec55e8b5806060a2669ffc64",
       "sourceUpdatedAt": "2026-10-31",
-      "lastCheckedAt": "2026-10-31T13:09:50.003Z",
+      "lastCheckedAt": "2026-11-04T20:59:30.931Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2684,7 +2684,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-airdrops-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-airdrops-20261031.png",
-        "source": "Source/docs walkthrough — public documentation, not an application demonstration."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -4089,18 +4089,19 @@
     {
       "id": "dnode-giveaway",
       "title": "DNode / Erebus builder giveaway",
-      "summary": "The organizers announce three one-month Claude Pro prizes. Drawing October 26; see their post for entry terms.",
+      "summary": "The organizers announced three one-month Claude Pro prizes with an October 26 drawing. November 4 review covered the complete original announcement, artwork and builder reply. No winner result appears in that two-post thread. The original entry terms remain available at the source.",
       "sourceUrl": "https://x.com/DNodeCapital/status/2108867687749181816",
       "publishedAt": "2026-10-10T10:30:00Z",
       "expiresAt": "2026-10-27T00:00:00Z",
-      "status": "Organizer announcement; no entry or outcome verified",
+      "status": "Past opportunity",
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.mp4",
-        "source": "Announcement walkthrough — recorded October 10, 2026"
+        "source": "Announcement"
       },
-      "cardSummary": "Enter the organizers’ giveaway for three one-month Claude Pro prizes.",
-      "cardStatus": "Drawing October 26 · See entry terms"
+      "cardSummary": "Read the organizers’ October giveaway announcement for three one-month Claude Pro prizes.",
+      "cardStatus": "Past giveaway · Drawing October 26",
+      "lastCheckedAt": "2026-11-04T20:49:27.580Z"
     },
     {
       "id": "sapient-bonus-contest",
