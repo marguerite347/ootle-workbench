@@ -6957,12 +6957,13 @@
       "id": "project:community-playground",
       "title": "Tari Ootle Playground",
       "sources": [
-        "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/5"
+        "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/5",
+        "https://feeltherevolt-xehqj-studio.wp.build/"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T20:39:22.351Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T20:39:22.351Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
@@ -6970,34 +6971,41 @@
       "sourceReviews": {
         "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/5": {
           "url": "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/5",
+          "file": "d92a51e555d8868e-de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f.txt",
           "hash": "de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f",
           "attemptedAt": "2026-11-04T10:06:43.617145+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 10,
+          "title": "[Ootle Testnet] — Community Apps Directory",
           "evidence": "work/daily-2026-11-04/d92a51e555d8868e-de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full ten-post thread body comparison matches previously accepted content; original post five reread.",
           "lastAttemptAt": "2026-11-04T10:06:43.617145+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:43.617145+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://feeltherevolt-xehqj-studio.wp.build/": {
           "url": "https://feeltherevolt-xehqj-studio.wp.build/",
-          "hash": "b0e1c5d774114025fb7e1e33d6d4017582e22faf291e8f281b8f49a4cdc9bbe0",
-          "evidence": "daily-2026-10-29/0c38b36b6be60d75.txt",
-          "lastAttemptAt": "2026-10-29T11:13:49.185Z",
-          "lastSuccessfulReadAt": "2026-10-29T11:13:49.185Z"
+          "file": "a2712a5d778aaa53-5057eeb324e3c90ce747692afb0a0c75c9b04b9917a8354978dcd3a59badc946.txt",
+          "hash": "5057eeb324e3c90ce747692afb0a0c75c9b04b9917a8354978dcd3a59badc946",
+          "attemptedAt": "2026-11-04T20:36:29.824234+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://developer.wordpress.com/",
+          "kind": "web",
+          "evidence": "work/daily-2026-11-04/a2712a5d778aaa53-5057eeb324e3c90ce747692afb0a0c75c9b04b9917a8354978dcd3a59badc946.txt",
+          "scope": "HTTP redirect and rendered public destination inspected; generic WordPress hosting page, not recovered Ootle guides.",
+          "lastAttemptAt": "2026-11-04T20:36:29.824234+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T20:36:29.824234+00:00",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+      "observedAvailability": "November 4: original community announcement and full unchanged ten-post forum thread accessible. The advertised preview redirects to developer.wordpress.com, which offers WordPress hosting rather than the community Ootle guides. Existing announcement recording remains accurate; no restored demo or creator-evidenced replacement found in these sources.",
       "changedSources": [
-        "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/5"
+        "https://feeltherevolt-xehqj-studio.wp.build/"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/5",
         "https://feeltherevolt-xehqj-studio.wp.build/"
@@ -7009,7 +7017,6 @@
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/281.json",
@@ -7017,6 +7024,9 @@
           "hash": "de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f",
           "attemptedAt": "2026-11-04T10:06:43.617145+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/community-playground-review.json"
       ]
     },
     "project:labyrinthos": {
