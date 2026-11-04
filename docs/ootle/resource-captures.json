@@ -1266,7 +1266,14 @@
         "work/daily-2026-10-31/crypt-local-playback-nov3.json",
         "work/daily-2026-10-31/crypt-refresh-source-assessment-nov3.json"
       ],
-      "publishedAt": "2026-11-03T15:50:41.347693+00:00"
+      "publishedAt": "2026-11-03T15:50:41.347693+00:00",
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T22:12:59.612042+00:00",
+          "evidence": "work/daily-2026-11-04/phone-panel-repair-acceptance.json",
+          "scope": "Retained recording reviewed for accurate dated scope; desktop/phone playback and responsive controls accepted. Capture date unchanged. External creator video and actual source access gaps tracked separately."
+        }
+      ]
     },
     {
       "resourceId": "phantom-drop",
@@ -5301,7 +5308,14 @@
           "work/daily-2026-10-31/workbench-live-verification.json"
         ],
         "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
-      }
+      },
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T22:12:59.612042+00:00",
+          "evidence": "work/daily-2026-11-04/phone-panel-repair-acceptance.json",
+          "scope": "Retained recording reviewed for accurate dated scope; desktop/phone playback and responsive controls accepted. Capture date unchanged. External creator video and actual source access gaps tracked separately."
+        }
+      ]
     },
     {
       "resourceId": "ootle-accord",
@@ -5358,7 +5372,14 @@
           "work/daily-2026-10-31/workbench-live-verification.json"
         ],
         "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
-      }
+      },
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T22:12:59.612042+00:00",
+          "evidence": "work/daily-2026-11-04/phone-panel-repair-acceptance.json",
+          "scope": "Retained recording reviewed for accurate dated scope; desktop/phone playback and responsive controls accepted. Capture date unchanged. External creator video and actual source access gaps tracked separately."
+        }
+      ]
     },
     {
       "resourceId": "ghost-gate",
