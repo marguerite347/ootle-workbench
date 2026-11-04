@@ -11917,98 +11917,156 @@
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
         "https://gitlab.com/hycorange/phantom-drop",
-        "https://hycorange.github.io/phantom-drop/"
+        "https://hycorange.github.io/phantom-drop/",
+        "https://gitlab.com/hycorange/phantom-drop/-/releases",
+        "https://x.com/tari/status/2116153147538260441",
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i",
+        "https://gitlab.com/hycorange/phantom-drop#readme",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22",
+        "https://ootle-indexer-a.tari.com/transactions/433611281465314a3c96a0b93566d6f0dd9e3713fde64bbb984b067310224805/result",
+        "https://ootle-indexer-a.tari.com/transactions/c9855b67b8d72dc7b0bdd1600fe7665607247a2f7bd51218239f3a99d7206fd0/result",
+        "https://ootle-indexer-a.tari.com/transactions/06d79409d49b842169c5eaa78dfad1dcef210f20ea1a3bf09867ffc46d23f8fb/result"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T23:26:32.054Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "hash": "cb9491f218c65859e6576aabd1f8da94ad9bf39e98e7312b72d59ebd3c5deb52",
+          "attemptedAt": "2026-11-04T22:54:02.287449+00:00",
+          "evidence": "work/daily-2026-11-04/forum-lookback-complete-nov4.json",
+          "method": "Complete topic stream body and edits compared and reviewed; linked targets assessed separately",
+          "lastAttemptAt": "2026-11-04T22:54:02.287449+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T22:54:02.287449+00:00",
+          "status": "read",
+          "error": null
         },
         "https://gitlab.com/hycorange/phantom-drop": {
           "url": "https://gitlab.com/hycorange/phantom-drop",
-          "hash": "32782d4ec72275a15f7b9620618ba997a6b067b8f5127fcb71d9fa64e70bbc1a",
-          "attemptedAt": "2026-11-04T10:07:27.796061+00:00",
-          "evidence": "work/daily-2026-11-04/0ae3121c16f80d0a-32782d4ec72275a15f7b9620618ba997a6b067b8f5127fcb71d9fa64e70bbc1a.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:27.796061+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:27.796061+00:00",
-          "status": "read"
+          "hash": "c5d6d093b2d1db02a8062be68c2adb3b792c1c6f02b252bbcbde614fab5ca478",
+          "attemptedAt": "2026-11-04T23:06:50.264923+00:00",
+          "evidence": "work/daily-2026-11-04/phantom-drop-gitlab-readme-nov4.txt",
+          "method": "Complete README; revision 5d4316a41f4ea389d7913917ca9a9b903854473d; MIT CLI source; no execution",
+          "lastAttemptAt": "2026-11-04T23:06:50.264923+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:06:50.264923+00:00",
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22": {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22",
-          "hash": "b2fd8edc01932f59eaa02196e3188467afe8c0c1dff6920cf566cbc4728caf61",
-          "attemptedAt": "2026-11-04T10:07:25.280189+00:00",
-          "evidence": "work/daily-2026-11-04/32251889b2f97c94-b2fd8edc01932f59eaa02196e3188467afe8c0c1dff6920cf566cbc4728caf61.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.280189+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.280189+00:00",
-          "status": "read"
+          "hash": "7b4c49c7cdd9a754616584eca4ec03a66da5b03b745b46c9b2bca4f71ed83a8a",
+          "attemptedAt": "2026-11-04T22:52:57.049579+00:00",
+          "evidence": "work/daily-2026-11-04/hycorange-feed-complete-nov4.json",
+          "method": "Original and all advertised replies reviewed",
+          "lastAttemptAt": "2026-11-04T22:52:57.049579+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T22:52:57.049579+00:00",
+          "status": "read",
+          "error": null
         },
         "https://hycorange.github.io/phantom-drop/": {
           "url": "https://hycorange.github.io/phantom-drop/",
-          "hash": "bb21c4d9028f57a2a205f654e4edf763d615a34a765bec5676d43a8efa8822c4",
-          "attemptedAt": "2026-11-04T10:07:28.668823+00:00",
-          "evidence": "work/daily-2026-11-04/a3cbab389da2dcc0-bb21c4d9028f57a2a205f654e4edf763d615a34a765bec5676d43a8efa8822c4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:28.668823+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:28.668823+00:00",
-          "status": "read"
+          "hash": "680affdbfce141962d4f2c48239c62f67a414cc1a5c52cd2bbb13bfa97d6b1e5",
+          "attemptedAt": "2026-11-04T23:06:30.007359+00:00",
+          "evidence": "work/daily-2026-11-04/phantom-drop-public-page-nov4.txt",
+          "method": "Entire public page and chain/link-holder toggle; narrated simulation replay, no live transactions",
+          "lastAttemptAt": "2026-11-04T23:06:30.007359+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:06:30.007359+00:00",
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i": {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i",
-          "hash": "8bcc042694205ed394c011643eee3b2bff11a7bf14e3a10b7776245a08a4ac33",
-          "attemptedAt": "2026-11-04T10:07:26.732857+00:00",
-          "evidence": "work/daily-2026-11-04/9fb6fcd33d7c1a3c-8bcc042694205ed394c011643eee3b2bff11a7bf14e3a10b7776245a08a4ac33.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.732857+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.732857+00:00",
-          "status": "read"
+          "hash": "81b888e48a5344c70440d1305e6247e24073e21b4cb97de824ddd472090755f7",
+          "attemptedAt": "2026-11-04T23:09:44.336769+00:00",
+          "evidence": "work/daily-2026-11-04/phantom-drop-official-bluesky-thread.txt",
+          "method": "Original and zero replies",
+          "lastAttemptAt": "2026-11-04T23:09:44.336769+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:09:44.336769+00:00",
+          "status": "read",
+          "error": null
         },
         "https://x.com/tari/status/2116153147538260441": {
           "url": "https://x.com/tari/status/2116153147538260441",
-          "hash": "e257a225a544af26edefa64e1e1242e477ccf9b5eea634e6d0653ad5cbc5874c",
-          "attemptedAt": "2026-11-04T10:07:44.458076+00:00",
-          "evidence": "work/daily-2026-11-04/f7eecea1f6c9e347-e257a225a544af26edefa64e1e1242e477ccf9b5eea634e6d0653ad5cbc5874c.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:44.458076+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:44.458076+00:00",
-          "status": "read"
+          "hash": "e2f71afdf0ab3100be7ec436ac71f6f93253e5d61da8d081beb04d4edfcf14a3",
+          "attemptedAt": "2026-11-04T23:08:52.673046+00:00",
+          "evidence": "work/daily-2026-11-04/phantom-drop-x-visible-thread-nov4.txt",
+          "method": "Original and one reply (including probable-spam disclosure), all advertised replies read",
+          "lastAttemptAt": "2026-11-04T23:08:52.673046+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:08:52.673046+00:00",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "hash": "cb9491f218c65859e6576aabd1f8da94ad9bf39e98e7312b72d59ebd3c5deb52",
+          "attemptedAt": "2026-11-04T22:54:02.287449+00:00",
+          "evidence": "work/daily-2026-11-04/forum-lookback-complete-nov4.json",
+          "method": "Complete topic stream body and edits compared and reviewed; linked targets assessed separately",
+          "lastAttemptAt": "2026-11-04T22:54:02.287449+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T22:54:02.287449+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://gitlab.com/hycorange/phantom-drop/-/releases": {
+          "url": "https://gitlab.com/hycorange/phantom-drop/-/releases",
+          "hash": "15d46dbf52a3d0a6651cb099d2a250c345a3feb7b72fdac3053570ff3bde89a3",
+          "attemptedAt": "2026-11-04T23:09:59.755477+00:00",
+          "evidence": "work/daily-2026-11-04/phantom-drop-gitlab-releases.txt",
+          "method": "Empty releases page",
+          "lastAttemptAt": "2026-11-04T23:09:59.755477+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:09:59.755477+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://gitlab.com/hycorange/phantom-drop#readme": {
+          "url": "https://gitlab.com/hycorange/phantom-drop#readme",
+          "hash": "c5d6d093b2d1db02a8062be68c2adb3b792c1c6f02b252bbcbde614fab5ca478",
+          "attemptedAt": "2026-11-04T23:06:50.264923+00:00",
+          "evidence": "work/daily-2026-11-04/phantom-drop-gitlab-readme-nov4.txt",
+          "method": "Complete README; revision 5d4316a41f4ea389d7913917ca9a9b903854473d; MIT CLI source; no execution",
+          "lastAttemptAt": "2026-11-04T23:06:50.264923+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:06:50.264923+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://ootle-indexer-a.tari.com/transactions/433611281465314a3c96a0b93566d6f0dd9e3713fde64bbb984b067310224805/result": {
+          "lastAttemptAt": "2026-11-04T23:10:09.337416+00:00",
+          "status": "blocked",
+          "error": "Historical transaction indexer returned HTTP 403; browser explorer fallback reports transaction not known",
+          "failureKind": "http",
+          "evidence": "work/daily-2026-11-04/phantom-historical-indexer-attempt.json",
+          "nextAction": "Revisit if creator supplies a current run or archival evidence; do not perform transactions"
+        },
+        "https://ootle-indexer-a.tari.com/transactions/c9855b67b8d72dc7b0bdd1600fe7665607247a2f7bd51218239f3a99d7206fd0/result": {
+          "lastAttemptAt": "2026-11-04T23:10:09.337695+00:00",
+          "status": "blocked",
+          "error": "Historical transaction indexer returned HTTP 403; browser explorer fallback reports transaction not known",
+          "failureKind": "http",
+          "evidence": "work/daily-2026-11-04/phantom-historical-indexer-attempt.json",
+          "nextAction": "Revisit if creator supplies a current run or archival evidence; do not perform transactions"
+        },
+        "https://ootle-indexer-a.tari.com/transactions/06d79409d49b842169c5eaa78dfad1dcef210f20ea1a3bf09867ffc46d23f8fb/result": {
+          "lastAttemptAt": "2026-11-04T23:10:09.337770+00:00",
+          "status": "blocked",
+          "error": "Historical transaction indexer returned HTTP 403; browser explorer fallback reports transaction not known",
+          "failureKind": "http",
+          "evidence": "work/daily-2026-11-04/phantom-historical-indexer-attempt.json",
+          "nextAction": "Revisit if creator supplies a current run or archival evidence; do not perform transactions"
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
         "https://gitlab.com/hycorange/phantom-drop",
-        "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22",
-        "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i",
+        "https://gitlab.com/hycorange/phantom-drop/-/releases",
+        "https://hycorange.github.io/phantom-drop/",
         "https://x.com/tari/status/2116153147538260441",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i",
+        "https://gitlab.com/hycorange/phantom-drop#readme",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -12034,7 +12092,11 @@
       "reviewedSourceCount": 4,
       "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
+      "blockedSources": [
+        "https://ootle-indexer-a.tari.com/transactions/433611281465314a3c96a0b93566d6f0dd9e3713fde64bbb984b067310224805/result",
+        "https://ootle-indexer-a.tari.com/transactions/c9855b67b8d72dc7b0bdd1600fe7665607247a2f7bd51218239f3a99d7206fd0/result",
+        "https://ootle-indexer-a.tari.com/transactions/06d79409d49b842169c5eaa78dfad1dcef210f20ea1a3bf09867ffc46d23f8fb/result"
+      ],
       "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
@@ -12084,6 +12146,14 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "latestAvailabilityObservation": {
+        "observedAt": "2026-11-04T23:26:32.054Z",
+        "value": "CLI source and narrated simulation reachable; historical transactions unavailable",
+        "evidence": "work/daily-2026-11-04/phantom-drop-review-outcome.json"
+      },
+      "evidence": [
+        "work/daily-2026-11-04/phantom-drop-review-outcome.json"
       ]
     },
     "project:hauntboard": {
@@ -13154,108 +13224,151 @@
         "https://gitlab.com/hycorange/phantom-drop#readme",
         "https://hycorange.github.io/phantom-drop/",
         "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22",
-        "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i"
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i",
+        "https://gitlab.com/hycorange/phantom-drop/-/releases",
+        "https://x.com/tari/status/2116153147538260441",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://ootle-indexer-a.tari.com/transactions/433611281465314a3c96a0b93566d6f0dd9e3713fde64bbb984b067310224805/result",
+        "https://ootle-indexer-a.tari.com/transactions/c9855b67b8d72dc7b0bdd1600fe7665607247a2f7bd51218239f3a99d7206fd0/result",
+        "https://ootle-indexer-a.tari.com/transactions/06d79409d49b842169c5eaa78dfad1dcef210f20ea1a3bf09867ffc46d23f8fb/result"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T23:26:32.054Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "hash": "cb9491f218c65859e6576aabd1f8da94ad9bf39e98e7312b72d59ebd3c5deb52",
+          "attemptedAt": "2026-11-04T22:54:02.287449+00:00",
+          "evidence": "work/daily-2026-11-04/forum-lookback-complete-nov4.json",
+          "method": "Complete topic stream body and edits compared and reviewed; linked targets assessed separately",
+          "lastAttemptAt": "2026-11-04T22:54:02.287449+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T22:54:02.287449+00:00",
+          "status": "read",
+          "error": null
         },
         "https://gitlab.com/hycorange/phantom-drop": {
           "url": "https://gitlab.com/hycorange/phantom-drop",
-          "hash": "32782d4ec72275a15f7b9620618ba997a6b067b8f5127fcb71d9fa64e70bbc1a",
-          "attemptedAt": "2026-11-04T10:07:27.796061+00:00",
-          "evidence": "work/daily-2026-11-04/0ae3121c16f80d0a-32782d4ec72275a15f7b9620618ba997a6b067b8f5127fcb71d9fa64e70bbc1a.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:27.796061+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:27.796061+00:00",
-          "status": "read"
+          "hash": "c5d6d093b2d1db02a8062be68c2adb3b792c1c6f02b252bbcbde614fab5ca478",
+          "attemptedAt": "2026-11-04T23:06:50.264923+00:00",
+          "evidence": "work/daily-2026-11-04/phantom-drop-gitlab-readme-nov4.txt",
+          "method": "Complete README; revision 5d4316a41f4ea389d7913917ca9a9b903854473d; MIT CLI source; no execution",
+          "lastAttemptAt": "2026-11-04T23:06:50.264923+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:06:50.264923+00:00",
+          "status": "read",
+          "error": null
         },
         "https://gitlab.com/hycorange/phantom-drop#readme": {
           "url": "https://gitlab.com/hycorange/phantom-drop#readme",
-          "hash": "3ba1b5498ef185d5b0f3c6fc253bb7dc72a6ed66ff98bdfd6935b3582dda9620",
-          "attemptedAt": "2026-11-04T10:07:27.982707+00:00",
-          "evidence": "work/daily-2026-11-04/9472217da0800509-3ba1b5498ef185d5b0f3c6fc253bb7dc72a6ed66ff98bdfd6935b3582dda9620.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:27.982707+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:27.982707+00:00",
-          "status": "read"
+          "hash": "c5d6d093b2d1db02a8062be68c2adb3b792c1c6f02b252bbcbde614fab5ca478",
+          "attemptedAt": "2026-11-04T23:06:50.264923+00:00",
+          "evidence": "work/daily-2026-11-04/phantom-drop-gitlab-readme-nov4.txt",
+          "method": "Complete README; revision 5d4316a41f4ea389d7913917ca9a9b903854473d; MIT CLI source; no execution",
+          "lastAttemptAt": "2026-11-04T23:06:50.264923+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:06:50.264923+00:00",
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22": {
           "url": "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22",
-          "hash": "b2fd8edc01932f59eaa02196e3188467afe8c0c1dff6920cf566cbc4728caf61",
-          "attemptedAt": "2026-11-04T10:07:25.280189+00:00",
-          "evidence": "work/daily-2026-11-04/32251889b2f97c94-b2fd8edc01932f59eaa02196e3188467afe8c0c1dff6920cf566cbc4728caf61.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.280189+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.280189+00:00",
-          "status": "read"
+          "hash": "7b4c49c7cdd9a754616584eca4ec03a66da5b03b745b46c9b2bca4f71ed83a8a",
+          "attemptedAt": "2026-11-04T22:52:57.049579+00:00",
+          "evidence": "work/daily-2026-11-04/hycorange-feed-complete-nov4.json",
+          "method": "Original and all advertised replies reviewed",
+          "lastAttemptAt": "2026-11-04T22:52:57.049579+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T22:52:57.049579+00:00",
+          "status": "read",
+          "error": null
         },
         "https://hycorange.github.io/phantom-drop/": {
           "url": "https://hycorange.github.io/phantom-drop/",
-          "hash": "bb21c4d9028f57a2a205f654e4edf763d615a34a765bec5676d43a8efa8822c4",
-          "attemptedAt": "2026-11-04T10:07:28.668823+00:00",
-          "evidence": "work/daily-2026-11-04/a3cbab389da2dcc0-bb21c4d9028f57a2a205f654e4edf763d615a34a765bec5676d43a8efa8822c4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:28.668823+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:28.668823+00:00",
-          "status": "read"
+          "hash": "680affdbfce141962d4f2c48239c62f67a414cc1a5c52cd2bbb13bfa97d6b1e5",
+          "attemptedAt": "2026-11-04T23:06:30.007359+00:00",
+          "evidence": "work/daily-2026-11-04/phantom-drop-public-page-nov4.txt",
+          "method": "Entire public page and chain/link-holder toggle; narrated simulation replay, no live transactions",
+          "lastAttemptAt": "2026-11-04T23:06:30.007359+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:06:30.007359+00:00",
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i": {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i",
-          "hash": "8bcc042694205ed394c011643eee3b2bff11a7bf14e3a10b7776245a08a4ac33",
-          "attemptedAt": "2026-11-04T10:07:26.732857+00:00",
-          "evidence": "work/daily-2026-11-04/9fb6fcd33d7c1a3c-8bcc042694205ed394c011643eee3b2bff11a7bf14e3a10b7776245a08a4ac33.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.732857+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.732857+00:00",
-          "status": "read"
+          "hash": "81b888e48a5344c70440d1305e6247e24073e21b4cb97de824ddd472090755f7",
+          "attemptedAt": "2026-11-04T23:09:44.336769+00:00",
+          "evidence": "work/daily-2026-11-04/phantom-drop-official-bluesky-thread.txt",
+          "method": "Original and zero replies",
+          "lastAttemptAt": "2026-11-04T23:09:44.336769+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:09:44.336769+00:00",
+          "status": "read",
+          "error": null
         },
         "https://x.com/tari/status/2116153147538260441": {
           "url": "https://x.com/tari/status/2116153147538260441",
-          "hash": "e257a225a544af26edefa64e1e1242e477ccf9b5eea634e6d0653ad5cbc5874c",
-          "attemptedAt": "2026-11-04T10:07:44.458076+00:00",
-          "evidence": "work/daily-2026-11-04/f7eecea1f6c9e347-e257a225a544af26edefa64e1e1242e477ccf9b5eea634e6d0653ad5cbc5874c.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:44.458076+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:44.458076+00:00",
-          "status": "read"
+          "hash": "e2f71afdf0ab3100be7ec436ac71f6f93253e5d61da8d081beb04d4edfcf14a3",
+          "attemptedAt": "2026-11-04T23:08:52.673046+00:00",
+          "evidence": "work/daily-2026-11-04/phantom-drop-x-visible-thread-nov4.txt",
+          "method": "Original and one reply (including probable-spam disclosure), all advertised replies read",
+          "lastAttemptAt": "2026-11-04T23:08:52.673046+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:08:52.673046+00:00",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "hash": "cb9491f218c65859e6576aabd1f8da94ad9bf39e98e7312b72d59ebd3c5deb52",
+          "attemptedAt": "2026-11-04T22:54:02.287449+00:00",
+          "evidence": "work/daily-2026-11-04/forum-lookback-complete-nov4.json",
+          "method": "Complete topic stream body and edits compared and reviewed; linked targets assessed separately",
+          "lastAttemptAt": "2026-11-04T22:54:02.287449+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T22:54:02.287449+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://gitlab.com/hycorange/phantom-drop/-/releases": {
+          "url": "https://gitlab.com/hycorange/phantom-drop/-/releases",
+          "hash": "15d46dbf52a3d0a6651cb099d2a250c345a3feb7b72fdac3053570ff3bde89a3",
+          "attemptedAt": "2026-11-04T23:09:59.755477+00:00",
+          "evidence": "work/daily-2026-11-04/phantom-drop-gitlab-releases.txt",
+          "method": "Empty releases page",
+          "lastAttemptAt": "2026-11-04T23:09:59.755477+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:09:59.755477+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://ootle-indexer-a.tari.com/transactions/433611281465314a3c96a0b93566d6f0dd9e3713fde64bbb984b067310224805/result": {
+          "lastAttemptAt": "2026-11-04T23:10:09.337416+00:00",
+          "status": "blocked",
+          "error": "Historical transaction indexer returned HTTP 403; browser explorer fallback reports transaction not known",
+          "failureKind": "http",
+          "evidence": "work/daily-2026-11-04/phantom-historical-indexer-attempt.json",
+          "nextAction": "Revisit if creator supplies a current run or archival evidence; do not perform transactions"
+        },
+        "https://ootle-indexer-a.tari.com/transactions/c9855b67b8d72dc7b0bdd1600fe7665607247a2f7bd51218239f3a99d7206fd0/result": {
+          "lastAttemptAt": "2026-11-04T23:10:09.337695+00:00",
+          "status": "blocked",
+          "error": "Historical transaction indexer returned HTTP 403; browser explorer fallback reports transaction not known",
+          "failureKind": "http",
+          "evidence": "work/daily-2026-11-04/phantom-historical-indexer-attempt.json",
+          "nextAction": "Revisit if creator supplies a current run or archival evidence; do not perform transactions"
+        },
+        "https://ootle-indexer-a.tari.com/transactions/06d79409d49b842169c5eaa78dfad1dcef210f20ea1a3bf09867ffc46d23f8fb/result": {
+          "lastAttemptAt": "2026-11-04T23:10:09.337770+00:00",
+          "status": "blocked",
+          "error": "Historical transaction indexer returned HTTP 403; browser explorer fallback reports transaction not known",
+          "failureKind": "http",
+          "evidence": "work/daily-2026-11-04/phantom-historical-indexer-attempt.json",
+          "nextAction": "Revisit if creator supplies a current run or archival evidence; do not perform transactions"
         }
       },
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
         "https://gitlab.com/hycorange/phantom-drop",
-        "https://gitlab.com/hycorange/phantom-drop#readme",
-        "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22",
-        "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i",
+        "https://gitlab.com/hycorange/phantom-drop/-/releases",
+        "https://hycorange.github.io/phantom-drop/",
         "https://x.com/tari/status/2116153147538260441",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://bsky.app/profile/tariproject.bsky.social/post/3mz3tjwp34m2i",
+        "https://gitlab.com/hycorange/phantom-drop#readme",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://bsky.app/profile/hycorange.bsky.social/post/3mxh4tpegms22"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -13282,7 +13395,11 @@
       "reviewedSourceCount": 5,
       "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
+      "blockedSources": [
+        "https://ootle-indexer-a.tari.com/transactions/433611281465314a3c96a0b93566d6f0dd9e3713fde64bbb984b067310224805/result",
+        "https://ootle-indexer-a.tari.com/transactions/c9855b67b8d72dc7b0bdd1600fe7665607247a2f7bd51218239f3a99d7206fd0/result",
+        "https://ootle-indexer-a.tari.com/transactions/06d79409d49b842169c5eaa78dfad1dcef210f20ea1a3bf09867ffc46d23f8fb/result"
+      ],
       "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
@@ -13339,6 +13456,14 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "latestAvailabilityObservation": {
+        "observedAt": "2026-11-04T23:26:32.054Z",
+        "value": "CLI source and narrated simulation reachable; historical transactions unavailable",
+        "evidence": "work/daily-2026-11-04/phantom-drop-review-outcome.json"
+      },
+      "evidence": [
+        "work/daily-2026-11-04/phantom-drop-review-outcome.json"
       ]
     },
     "project:macotaur": {
@@ -27145,6 +27270,54 @@
       "evidence": [
         "work/daily-2026-11-04/rajesh-privacy-resource-review.json"
       ]
+    },
+    "project:witching-hour": {
+      "id": "project:witching-hour",
+      "title": "The Witching Hour",
+      "sources": [
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
+        "https://bsky.app/profile/remmylof.bsky.social/post/3mxth4knymk2f",
+        "https://github.com/Danielkallala/witching-vault"
+      ],
+      "lastAttemptAt": "2026-11-04T15:12:49.349414+00:00",
+      "outcome": "blocked",
+      "reviewRequired": true,
+      "observedAvailability": "Public announcement reachable; repository unavailable; concept listing only.",
+      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "evidence": [
+        "work/daily-2026-11-04/witching-hour-source-review.json"
+      ],
+      "changedFields": [
+        "newConceptListing",
+        "recording"
+      ],
+      "sourceReviews": {
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11": {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
+          "status": "read",
+          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "hash": "f70b7479b0b5f4818ad601c6247da917edb37f924985bc7a30af0511643dcda0"
+        },
+        "https://bsky.app/profile/remmylof.bsky.social/post/3mxth4knymk2f": {
+          "url": "https://bsky.app/profile/remmylof.bsky.social/post/3mxth4knymk2f",
+          "status": "read",
+          "lastAttemptAt": "2026-11-04T10:06:51.454600+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:51.454600+00:00",
+          "hash": "6a52f52e18646a707013e0dbb6f23c8432e54ec5d30bf891266508c50f8d0c90"
+        },
+        "https://github.com/Danielkallala/witching-vault": {
+          "url": "https://github.com/Danielkallala/witching-vault",
+          "status": "blocked",
+          "lastAttemptAt": "2026-11-04T14:57:15.016689+00:00",
+          "error": "HTTP 404 in API and browser",
+          "evidence": [
+            "work/daily-2026-11-04/witching-hour-current-read.json",
+            "work/daily-2026-11-04/witching-hour-repo-browser.txt"
+          ]
+        }
+      },
+      "canonicalId": "tari-ootle:learn:witching-hour"
     }
   },
   "resourceReviewSummary": {

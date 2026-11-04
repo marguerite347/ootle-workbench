@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-11-03T15:13:25.713817+00:00",
+  "reviewedAt": "2026-11-04T23:25:59.355615+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -776,7 +776,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "Phantom Drop",
-      "summary": "Rust CLI and library for testnet gift envelopes using native stealth outputs and claim/refund branches, without a custom template. Links can include riddles and expiry. Anyone holding a plain link can claim it; riddle strength and public transaction timing limit privacy. The creator published October 12 Esmeralda seal/open/refund evidence; this listing reviews source and those links, without executing the CLI or a wallet transaction. October 20: the linked browser walkthrough offers a chain/link-holder toggle and five narrated acts. Real clicks changed the riddle, expiry and replay panels. These are a replay of the maintainer example, not new engine execution or network transactions. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Rust CLI and library for testnet gift envelopes using native stealth outputs and claim/refund branches, without a custom template. Links can include riddles and expiry. Anyone holding a plain link can claim it; riddle strength and public transaction timing limit privacy. The creator published October 12 Esmeralda seal/open/refund evidence; this listing reviews source and those links, without executing the CLI or a wallet transaction. October 20: the linked browser walkthrough offers a chain/link-holder toggle and five narrated acts. Real clicks changed the riddle, expiry and replay panels. These are a replay of the maintainer example, not new engine execution or network transactions. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates. November 4 source review: the public page remains a narrated simulation and the GitLab README describes the CLI. Its three linked October 12 seal/open/reclaim transactions were not known to the current explorer; direct indexer reads returned HTTP 403. This limits access to historical evidence and does not establish that the CLI is broken. Earlier creator claims and recordings retain their original dates.",
       "status": "CLI · Interactive walkthrough · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8",
       "repoUrl": "https://gitlab.com/hycorange/phantom-drop",
@@ -830,7 +830,8 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-walkthrough-20261020.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-phantom-drop-walkthrough-20261020.jpg",
         "source": "Source/docs walkthrough — Concept overview: interactive narrated replay; no live transaction."
-      }
+      },
+      "lastAttemptAt": "2026-11-04T23:25:59.355615+00:00"
     },
     {
       "id": "tari-ootle:integration:taritracker-faucet",
@@ -2001,7 +2002,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "cb7627b663d6d3225f22d6d90a556cbb298a16f4",
       "sourceUpdatedAt": "2026-10-29T14:15:21.229Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "lastCheckedAt": "2026-11-04T21:34:42.257Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2056,7 +2057,7 @@
       "platform": "Rust · CLI · Python",
       "upstreamRevision": "d023958902a09b41f15ff5bb9cd4a1c5cc559ff4",
       "sourceUpdatedAt": "2026-10-29T21:18:23.300Z",
-      "lastCheckedAt": "2026-11-04T19:48:14.011606+00:00",
+      "lastCheckedAt": "2026-11-04T19:17:46.405Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2223,7 +2224,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "f960d1575c7175f98625d2ae0015a300980b0b68",
       "sourceUpdatedAt": "2026-10-31T05:00:17.372Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "lastCheckedAt": "2026-11-04T21:34:42.257Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -4165,6 +4166,46 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rajesh-confidential-stealth-20261104.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rajesh-confidential-stealth-20261104.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:stable-coin-template",
+      "key": "stable-coin-template",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Tari stablecoin templates",
+      "summary": "The README identifies issuer-no-user-badge as the current template and describes older template variants as potentially out of date. Admin badges gate pause, UTXO freeze/unfreeze, token recall, user blacklisting and exchange limits. A CLI and Vite/React interface exist in source; the web README is marked under development and references the older tari-dan checkout. The November 4 review covered the pinned README, nested web README and empty release listing, without building, issuing assets or using a wallet. November 4: no public original announcement was found in reviewed evidence; the repository is the actual discovery page. The recording is a pinned README walkthrough, not a working issuance application.",
+      "status": "Official work-in-progress template sources",
+      "sourceUrl": "https://github.com/tari-project/stable-coin",
+      "repoUrl": "https://github.com/tari-project/stable-coin",
+      "docsUrl": "https://github.com/tari-project/stable-coin/tree/a6ade449deed39002efdc4acd109e19e6475ca3b#readme",
+      "demoUrl": null,
+      "creator": {
+        "name": "Tari Project",
+        "url": "https://github.com/tari-project"
+      },
+      "license": "BSD-3-Clause (README declaration)",
+      "network": "Ootle",
+      "platform": "Rust source; CLI and web interface sources",
+      "upstreamRevision": "a6ade449deed39002efdc4acd109e19e6475ca3b",
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": "2026-11-04T23:17:01.214789+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "official",
+        "stablecoin",
+        "templates"
+      ],
+      "discussionLinks": [],
+      "cardSummary": "Explore stealth-token issuance templates with administrator controls, wrapped-token exchange and configurable fees on Tari Ootle.",
+      "cardStatus": "Source code · Work in progress",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-stable-coin-template-20261104.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-stable-coin-template-20261104.png",
         "source": "Docs walkthrough"
       }
     }
