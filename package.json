@@ -96,7 +96,6 @@
     "update:e2e-keywords": "node scripts/update-e2e-keywords.js"
   },
   "dependencies": {
-    "@apollo/client": "3.14.1",
     "@aws-sdk/client-s3": "3.1161.0",
     "@aws-sdk/credential-providers": "3.1161.0",
     "@babel/plugin-proposal-class-properties": "^7.16.0",
