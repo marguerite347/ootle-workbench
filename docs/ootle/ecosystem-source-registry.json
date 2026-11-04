@@ -24265,6 +24265,55 @@
         "tari-ootle:component:quiet-ticket"
       ],
       "aliasEvidence": "work/daily-2026-11-04/quiet-ticket-canonical-alias.json"
+    },
+    "tari-ootle:learn:witching-hour": {
+      "id": "tari-ootle:learn:witching-hour",
+      "title": "The Witching Hour",
+      "sources": [
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
+        "https://bsky.app/profile/remmylof.bsky.social/post/3mxth4knymk2f",
+        "https://github.com/Danielkallala/witching-vault"
+      ],
+      "lastAttemptAt": "2026-11-04T15:12:49.349414+00:00",
+      "lastSuccessfulReviewAt": null,
+      "outcome": "blocked",
+      "reviewRequired": true,
+      "observedAvailability": "Public announcement reachable; repository unavailable; concept listing only.",
+      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "evidence": [
+        "work/daily-2026-11-04/witching-hour-source-review.json"
+      ],
+      "changedFields": [
+        "newConceptListing",
+        "recording"
+      ],
+      "sourceReviews": {
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11": {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
+          "status": "read",
+          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "hash": "f70b7479b0b5f4818ad601c6247da917edb37f924985bc7a30af0511643dcda0"
+        },
+        "https://bsky.app/profile/remmylof.bsky.social/post/3mxth4knymk2f": {
+          "url": "https://bsky.app/profile/remmylof.bsky.social/post/3mxth4knymk2f",
+          "status": "read",
+          "lastAttemptAt": "2026-11-04T10:06:51.454600+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:51.454600+00:00",
+          "hash": "6a52f52e18646a707013e0dbb6f23c8432e54ec5d30bf891266508c50f8d0c90"
+        },
+        "https://github.com/Danielkallala/witching-vault": {
+          "url": "https://github.com/Danielkallala/witching-vault",
+          "status": "blocked",
+          "lastAttemptAt": "2026-11-04T14:57:15.016689+00:00",
+          "lastSuccessfulReadAt": null,
+          "error": "HTTP 404 in API and browser",
+          "evidence": [
+            "work/daily-2026-11-04/witching-hour-current-read.json",
+            "work/daily-2026-11-04/witching-hour-repo-browser.txt"
+          ]
+        }
+      }
     }
   },
   "resourceReviewSummary": {

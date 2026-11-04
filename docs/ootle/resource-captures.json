@@ -7949,6 +7949,56 @@
           "result": "12-second playback reached end without media errors; tablet layout separately reviewed."
         }
       }
+    },
+    {
+      "resourceId": "witching-hour",
+      "title": "The Witching Hour",
+      "targetUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
+          "platform": "Tari Community forum",
+          "author": "sedetsenar",
+          "publishedAt": "2026-10-15T10:48:56.926Z",
+          "foundOn": "2026-10-16",
+          "context": "October contest dead-man-switch vault announcement",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/remmylof.bsky.social/post/3mxth4knymk2f",
+          "platform": "Bluesky",
+          "author": "remmylof.bsky.social",
+          "publishedAt": "2026-10-14T11:31:18.289Z",
+          "foundOn": "2026-10-16",
+          "context": "Spooky Secrets 🎃 My entry for the @tariproject.bsky.social Ootle contest: Witching Hour 🕯️\n\nA private dead man's switch. Check in before the deadline, or a hidden heir inherits your XTM as stealth UTXOs. Nobody knows who the heir is until they claim.\n\ngithub.com/Danielkallala/witching-vault",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "announcement",
+      "capturedAt": "2026-11-04T15:01:06.501Z",
+      "observedRevision": "f70b7479b0b5f4818ad601c6247da917edb37f924985bc7a30af0511643dcda0",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-witching-hour-20261104.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-witching-hour-20261104.png",
+      "caption": "Announcement",
+      "sha256": "c403cc84258b94f492e5e21ec4eb1016df44a6061f15f5f9179da60359fb7b9c",
+      "posterSha256": "a4e8fc6489388ae655d65f911ce7cee8c73e3d896513a32462f023640ca7e879",
+      "frameReview": "Opening 0.5s, middle 6s and closing 11s frames reviewed; genuine browser scroll through public announcement. Local CUA playback reached 12/12 seconds without error.",
+      "verification": "recording-reviewed; deployed desktop/mobile playback pending",
+      "liveVerification": {
+        "lobbyDesktop": false,
+        "lobbyMobile": false,
+        "workbenchDesktop": false,
+        "workbenchMobile": false
+      },
+      "evidence": [
+        "work/daily-2026-11-04/witching-hour-local-playback.json",
+        "work/daily-2026-11-04/witching-hour-source-review.json"
+      ]
     }
   ],
   "release": {
