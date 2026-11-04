@@ -16,3 +16,12 @@ test('builder catalog fronts use reader-facing type and availability, keeping fu
  for(const entry of catalog.records) if(/paused/i.test(entry.cardStatus||'')) assert.match(entry.cardStatus,/review/i,`${entry.title}: date volatile outage findings`);
  assert.doesNotMatch(read('apps/remix-ide/src/app/plugins/ootle/ecosystem-resources.tsx'),internalReviewWording);
 });
+
+const privateEvidenceLocation = /(?:https?:\/\/)?(?:\w+\.)?discord(?:app)?\.(?:com|net)\/(?:channels|attachments)|(?:cdn|media)\.discordapp\.(?:com|net)|\/Users\/|\/private\/var\/|\/var\/folders\//i;
+test('public maintenance exports exclude private channel links and workstation paths', () => {
+  for (const name of ['ecosystem-source-registry', 'resource-provenance', 'resource-captures']) {
+    const body = read(`docs/ootle/${name}.json`);
+    assert.doesNotMatch(body, privateEvidenceLocation, `${name}: keep private evidence in the maintenance workspace`);
+    assert.doesNotMatch(body, /"visibility"\s*:\s*"(?:private|restricted|internal)"/i);
+  }
+});
