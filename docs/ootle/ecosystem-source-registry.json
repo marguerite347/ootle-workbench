@@ -9,15 +9,18 @@
       "url": "https://community.tari.com/t/396.json",
       "status": "complete",
       "posts": 41,
-      "hash": "529259d5c1a7134c67da9dfd0c89b2beefee6e887228a54213ba90e4c0b3caeb",
-      "lastAttemptAt": "2026-11-03T15:02:52.794Z",
-      "lastSuccessfulReadAt": "2026-11-03T15:02:52.794Z",
-      "completedWatermark": "2026-11-03T15:02:52.794Z",
+      "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+      "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+      "completedWatermark": "2026-11-04T10:07:05.507906+00:00",
       "lookbackStart": "2026-10-17",
       "coverageNote": "Complete applies only to this named topic and all accessible post-stream IDs; linked-resource review and whole-channel discovery are separate.",
-      "note": "All 41 available post IDs read with pagination. 29 canonical submissions; 36 ordinary reply candidates include updates and discussion. Crypt is an edited existing submission.",
-      "reviewedAt": "2026-11-03T15:02:52.794Z",
-      "evidence": "work/daily-2026-10-31/october-monitor-nov3.json",
+      "note": "All 41 returned post IDs including full post text, edits and replies read in bounded batches; stream IDs exactly matched. Supersedes the older 24-entry count. Linked destinations and repository/demo checks remain separate pending tasks.",
+      "reviewedAt": "2026-11-04T14:12:18.597724+00:00",
+      "evidence": [
+        "work/daily-2026-11-04/october-thread-review.json",
+        "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt"
+      ],
       "observedEntryPosts": 29,
       "entryPostNumbers": [
         5,
@@ -247,28 +250,89 @@
           ],
           "countEvidence": "work/daily-2026-10-31/october-count-nov2.json",
           "coverageComplete": true
+        },
+        {
+          "id": "396",
+          "url": "https://community.tari.com/t/396.json",
+          "status": "complete",
+          "posts": 41,
+          "hash": "529259d5c1a7134c67da9dfd0c89b2beefee6e887228a54213ba90e4c0b3caeb",
+          "lastAttemptAt": "2026-11-03T15:02:52.794Z",
+          "lastSuccessfulReadAt": "2026-11-03T15:02:52.794Z",
+          "completedWatermark": "2026-11-03T15:02:52.794Z",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to this named topic and all accessible post-stream IDs; linked-resource review and whole-channel discovery are separate.",
+          "note": "All 41 available post IDs read with pagination. 29 canonical submissions; 36 ordinary reply candidates include updates and discussion. Crypt is an edited existing submission.",
+          "reviewedAt": "2026-11-03T15:02:52.794Z",
+          "evidence": "work/daily-2026-10-31/october-monitor-nov3.json",
+          "observedEntryPosts": 29,
+          "entryPostNumbers": [
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            24,
+            25,
+            29,
+            30,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "countEvidence": "work/daily-2026-10-31/october-count-nov2.json",
+          "coverageComplete": true,
+          "reads": [
+            {
+              "url": "https://community.tari.com/t/396.json",
+              "attemptedAt": "2026-11-03T15:02:51.482Z",
+              "hash": "529259d5c1a7134c67da9dfd0c89b2beefee6e887228a54213ba90e4c0b3caeb",
+              "file": "fe70d128894d1128-529259d5c1a7134c67da9dfd0c89b2beefee6e887228a54213ba90e4c0b3caeb.txt"
+            },
+            {
+              "url": "https://community.tari.com/t/396/posts.json?post_ids[]=1847&post_ids[]=1851&post_ids[]=1852&post_ids[]=1853&post_ids[]=1894&post_ids[]=1895&post_ids[]=1901&post_ids[]=1903&post_ids[]=1915&post_ids[]=1917&post_ids[]=1922&post_ids[]=1927&post_ids[]=1933&post_ids[]=1945&post_ids[]=1948&post_ids[]=1954&post_ids[]=1957&post_ids[]=1965&post_ids[]=1972&post_ids[]=1977",
+              "attemptedAt": "2026-11-03T15:02:52.407Z",
+              "hash": "57ad4ca8842b9c6513238cbde26ff519b13e81da725184edba883c7602afaf36",
+              "file": "0f7e5c168d4a9b03-57ad4ca8842b9c6513238cbde26ff519b13e81da725184edba883c7602afaf36.txt"
+            },
+            {
+              "url": "https://community.tari.com/t/396/posts.json?post_ids[]=1992",
+              "attemptedAt": "2026-11-03T15:02:52.620Z",
+              "hash": "90e1c6b5f333abdf50740a20bdfdfebc53fb0403606e0abee9feaa9f7d6d508a",
+              "file": "c0101439456c4b4c-90e1c6b5f333abdf50740a20bdfdfebc53fb0403606e0abee9feaa9f7d6d508a.txt"
+            }
+          ]
         }
       ],
-      "countEvidence": "work/daily-2026-10-31/october-count-nov2.json",
+      "countEvidence": "work/daily-2026-11-04/october-thread-review.json",
       "coverageComplete": true,
       "reads": [
         {
           "url": "https://community.tari.com/t/396.json",
-          "attemptedAt": "2026-11-03T15:02:51.482Z",
-          "hash": "529259d5c1a7134c67da9dfd0c89b2beefee6e887228a54213ba90e4c0b3caeb",
-          "file": "fe70d128894d1128-529259d5c1a7134c67da9dfd0c89b2beefee6e887228a54213ba90e4c0b3caeb.txt"
-        },
-        {
-          "url": "https://community.tari.com/t/396/posts.json?post_ids[]=1847&post_ids[]=1851&post_ids[]=1852&post_ids[]=1853&post_ids[]=1894&post_ids[]=1895&post_ids[]=1901&post_ids[]=1903&post_ids[]=1915&post_ids[]=1917&post_ids[]=1922&post_ids[]=1927&post_ids[]=1933&post_ids[]=1945&post_ids[]=1948&post_ids[]=1954&post_ids[]=1957&post_ids[]=1965&post_ids[]=1972&post_ids[]=1977",
-          "attemptedAt": "2026-11-03T15:02:52.407Z",
-          "hash": "57ad4ca8842b9c6513238cbde26ff519b13e81da725184edba883c7602afaf36",
-          "file": "0f7e5c168d4a9b03-57ad4ca8842b9c6513238cbde26ff519b13e81da725184edba883c7602afaf36.txt"
-        },
-        {
-          "url": "https://community.tari.com/t/396/posts.json?post_ids[]=1992",
-          "attemptedAt": "2026-11-03T15:02:52.620Z",
-          "hash": "90e1c6b5f333abdf50740a20bdfdfebc53fb0403606e0abee9feaa9f7d6d508a",
-          "file": "c0101439456c4b4c-90e1c6b5f333abdf50740a20bdfdfebc53fb0403606e0abee9feaa9f7d6d508a.txt"
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!"
         }
       ]
     },
@@ -1035,18 +1099,27 @@
       "status": "complete",
       "bytes": 5539,
       "hash": "2a8baaef682c92f682902ffbbb1316460d3de64f65d046d280fe74418e15dbf2",
-      "lastAttemptAt": "2026-10-31T13:02:48.913196+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T13:02:48.913196+00:00",
-      "completedWatermark": "2026-10-31T12:52:34.932580+00:00",
-      "lookbackStart": "2026-10-22",
+      "lastAttemptAt": "2026-11-04T10:06:49.951280+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:49.951280+00:00",
+      "completedWatermark": "2026-11-04T10:06:49.951280+00:00",
+      "lookbackStart": "2026-10-24",
       "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Named source scope reviewed; publication separately tracked.",
+      "note": "Full named author feed retrieved to no cursor; no posts or reposts in the October 24 onward seven-day overlap. Retained original sharing threads and returned replies read separately today. Older linked app/media reviews retain their independent pending scope; no new listing or functional-testing claim.",
       "posts": 9,
       "scope": "Returned author feed, paginated until no cursor; known sharing trees separately read.",
-      "reviewedAt": "2026-10-31T13:02:48.913196+00:00",
+      "reviewedAt": "2026-11-04T14:21:55.933482+00:00",
       "evidence": [
-        "work/daily-2026-10-31/social-reads.json",
-        "work/daily-2026-10-31/bluesky-coverage-receipt.json"
+        "work/daily-2026-11-04/docs-social-review.json",
+        "work/daily-2026-11-04/a01e434b103d19b3-2a8baaef682c92f682902ffbbb1316460d3de64f65d046d280fe74418e15dbf2.txt",
+        "work/daily-2026-11-04/07c1d4f0b35eee8e-401f6a3454b185b6b6c1d7d862fa840594f9e4d6b2e7a1d89c5b0282507b1503.txt",
+        "work/daily-2026-11-04/37051e12dc74778c-39fe59077f9013f70dd31072c67c3c62de55fcb055032758c5497103822db3a2.txt",
+        "work/daily-2026-11-04/70b0dff3fa23c43a-2904e5f0e742aa6f127c0349ad5446b3a71389d9695159512cb86aa1aeaf6c52.txt",
+        "work/daily-2026-11-04/df7b841826b24fbb-0d0dce8eaee787afa7110c8e21bff15bc48fa7d8b7776b6de4e5e4eb68fe7eb6.txt",
+        "work/daily-2026-11-04/772672e9b803ff20-e148c19a8a10e5a9f1afb629a6263b430525926ff92619ddaeceddbf2fe9776f.txt",
+        "work/daily-2026-11-04/8c03ec6c05532239-c9370e9f5afd6fd38ef2d409a288ed29456e9a566573df25c6d536263ce27413.txt",
+        "work/daily-2026-11-04/4df571bea5137092-e1e1b8a0b6199e57f5b623c24a2ef64072573a7c6b980b99f57efd6f663c1814.txt",
+        "work/daily-2026-11-04/e9924ad8f2e82e75-c237632763b42ccbde734e05d4554cf402e3ab9fd2c2c9f1b2bddeb891cc3956.txt",
+        "work/daily-2026-11-04/d4cd3e5db6dfbf97-c06cd5dcbdc9b3884bd5fd7baa6ca3d9b5d9c01aa09ae1abf7cdb6e002b60a1b.txt"
       ],
       "history": [
         {
@@ -1068,6 +1141,27 @@
             "work/daily-2026-10-31/social-reads.json",
             "work/daily-2026-10-31/bluesky-coverage-receipt.json"
           ]
+        },
+        {
+          "id": "bluesky",
+          "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=kata5.bsky.social&limit=100",
+          "status": "complete",
+          "bytes": 5539,
+          "hash": "2a8baaef682c92f682902ffbbb1316460d3de64f65d046d280fe74418e15dbf2",
+          "lastAttemptAt": "2026-10-31T13:02:48.913196+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T13:02:48.913196+00:00",
+          "completedWatermark": "2026-10-31T12:52:34.932580+00:00",
+          "lookbackStart": "2026-10-22",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Named source scope reviewed; publication separately tracked.",
+          "posts": 9,
+          "scope": "Returned author feed, paginated until no cursor; known sharing trees separately read.",
+          "reviewedAt": "2026-10-31T13:02:48.913196+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/social-reads.json",
+            "work/daily-2026-10-31/bluesky-coverage-receipt.json"
+          ],
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -1077,18 +1171,18 @@
       "url": "https://ootle.tari.com/.well-known/skills/",
       "status": "blocked",
       "error": "HTTP Error 404: Not Found",
-      "lastAttemptAt": "2026-10-31T13:13:09.425613+00:00",
+      "lastAttemptAt": "2026-11-04T10:07:30.074231+00:00",
       "lookbackStart": "2026-10-03",
       "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
       "failureKind": "http",
-      "nextAction": "Recheck the linked URL and official agent-skill navigation; retain last-good dates until a supported destination is available.",
+      "nextAction": "Revisit if official navigation changes or the linked target recovers; preserve last-good dates and do not substitute an unendorsed skill.",
       "evidence": [
-        "work/daily-2026-10-31/web-reads.json",
-        "work/daily-2026-10-31/official-skills-browser.txt",
-        "work/daily-2026-10-31/915497519741212e.txt"
+        "work/daily-2026-11-04/docs-social-review.json",
+        "work/daily-2026-11-04/915497519741212e-d3967ba75429b439bba0b237706272043e8048f4509b285dc84469f6f3da6464.txt",
+        "work/daily-2026-11-04/official-skills-browser-failure.txt"
       ],
-      "note": "Official llms.txt still links to this exact URL. Both HTTP client and browser return 404; no replacement is provided by that index.",
-      "retryAt": "2026-11-01T09:00:00Z",
+      "note": "Official llms.txt still links the exact destination; current HTTP read and supported browser both show 404. No replacement is documented in that index or the guide navigation.",
+      "retryAt": "2026-11-05T10:00:00Z",
       "history": [
         {
           "id": "skills",
@@ -1107,8 +1201,30 @@
           ],
           "note": "Official llms.txt still links to this exact URL. Both HTTP client and browser return 404; no replacement is provided by that index.",
           "retryAt": "2026-11-01T09:00:00Z"
+        },
+        {
+          "id": "skills",
+          "url": "https://ootle.tari.com/.well-known/skills/",
+          "status": "blocked",
+          "error": "HTTP Error 404: Not Found",
+          "lastAttemptAt": "2026-10-31T13:13:09.425613+00:00",
+          "lookbackStart": "2026-10-03",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "failureKind": "http",
+          "nextAction": "Recheck the linked URL and official agent-skill navigation; retain last-good dates until a supported destination is available.",
+          "evidence": [
+            "work/daily-2026-10-31/web-reads.json",
+            "work/daily-2026-10-31/official-skills-browser.txt",
+            "work/daily-2026-10-31/915497519741212e.txt"
+          ],
+          "note": "Official llms.txt still links to this exact URL. Both HTTP client and browser return 404; no replacement is provided by that index.",
+          "retryAt": "2026-11-01T09:00:00Z"
         }
-      ]
+      ],
+      "reviewedAt": "2026-11-04T14:21:55.933482+00:00",
+      "coverageComplete": false,
+      "reason": "HTTP 404 and rendered Page not found at the official linked skill URL.",
+      "missingScope": "Current skill document contents; indexed links are readable but target is unavailable."
     },
     {
       "id": "agent-guide",
@@ -1116,16 +1232,17 @@
       "status": "complete",
       "bytes": 86034,
       "hash": "bd13d07b650bfeaa944699d554f0a9b707f3f1ee6cb289eff9ae41eeeacdbf34",
-      "lastAttemptAt": "2026-10-31T13:13:09.425613+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T13:13:09.425613+00:00",
-      "completedWatermark": "2026-10-31T09:25:04.596633+00:00",
+      "lastAttemptAt": "2026-11-04T10:07:29.965376+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:07:29.965376+00:00",
+      "completedWatermark": "2026-11-04T10:07:29.965376+00:00",
       "lookbackStart": "2026-10-17",
       "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Named source scope reviewed; publication separately tracked.",
-      "reviewedAt": "2026-10-31T13:13:09.425613+00:00",
+      "note": "Full official API-key guide read, including scoped bearer authentication, expiry, interactive-session-only key management and revocation. This is documentation discovery only; no keys were created and no wallet actions performed. Existing guide listing assessment remains separate.",
+      "reviewedAt": "2026-11-04T14:21:55.933482+00:00",
       "evidence": [
-        "work/daily-2026-10-31/web-reads.json",
-        "work/daily-2026-10-31/cea924fc3f240e2f.txt"
+        "work/daily-2026-11-04/docs-social-review.json",
+        "work/daily-2026-11-04/cea924fc3f240e2f-3f76f24c82124c3443aecec51ae9453188b1ee5eb9a8e640b0d89738a76b3d67.txt",
+        "work/daily-2026-11-04/agent-guide-browser-current.txt"
       ],
       "history": [
         {
@@ -1145,6 +1262,25 @@
             "work/daily-2026-10-31/web-reads.json",
             "work/daily-2026-10-31/cea924fc3f240e2f.txt"
           ]
+        },
+        {
+          "id": "agent-guide",
+          "url": "https://ootle.tari.com/guides/agent-api-keys/",
+          "status": "complete",
+          "bytes": 86034,
+          "hash": "bd13d07b650bfeaa944699d554f0a9b707f3f1ee6cb289eff9ae41eeeacdbf34",
+          "lastAttemptAt": "2026-10-31T13:13:09.425613+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T13:13:09.425613+00:00",
+          "completedWatermark": "2026-10-31T09:25:04.596633+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Named source scope reviewed; publication separately tracked.",
+          "reviewedAt": "2026-10-31T13:13:09.425613+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/web-reads.json",
+            "work/daily-2026-10-31/cea924fc3f240e2f.txt"
+          ],
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -1154,18 +1290,18 @@
       "url": "https://ootle.tari.com/.well-known/skills/openai-codex/SKILL.md",
       "status": "blocked",
       "error": "HTTP Error 404: Not Found",
-      "lastAttemptAt": "2026-10-31T13:13:09.425613+00:00",
+      "lastAttemptAt": "2026-11-04T10:07:30.074231+00:00",
       "lookbackStart": "2026-10-03",
       "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
       "failureKind": "http",
-      "nextAction": "Recheck the linked URL and official agent-skill navigation; retain last-good dates until a supported destination is available.",
+      "nextAction": "Revisit if official navigation changes or the linked target recovers; preserve last-good dates and do not substitute an unendorsed skill.",
       "evidence": [
-        "work/daily-2026-10-31/web-reads.json",
-        "work/daily-2026-10-31/official-codex-skill-browser.txt",
-        "work/daily-2026-10-31/915497519741212e.txt"
+        "work/daily-2026-11-04/docs-social-review.json",
+        "work/daily-2026-11-04/915497519741212e-d3967ba75429b439bba0b237706272043e8048f4509b285dc84469f6f3da6464.txt",
+        "work/daily-2026-11-04/official-codex-browser-failure.txt"
       ],
-      "note": "Official llms.txt still links to this exact URL. Both HTTP client and browser return 404; no replacement is provided by that index.",
-      "retryAt": "2026-11-01T09:00:00Z",
+      "note": "Official llms.txt still links the exact destination; current HTTP read and supported browser both show 404. No replacement is documented in that index or the guide navigation.",
+      "retryAt": "2026-11-05T10:00:00Z",
       "history": [
         {
           "id": "codex-skill",
@@ -1184,8 +1320,30 @@
           ],
           "note": "Official llms.txt still links to this exact URL. Both HTTP client and browser return 404; no replacement is provided by that index.",
           "retryAt": "2026-11-01T09:00:00Z"
+        },
+        {
+          "id": "codex-skill",
+          "url": "https://ootle.tari.com/.well-known/skills/openai-codex/SKILL.md",
+          "status": "blocked",
+          "error": "HTTP Error 404: Not Found",
+          "lastAttemptAt": "2026-10-31T13:13:09.425613+00:00",
+          "lookbackStart": "2026-10-03",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "failureKind": "http",
+          "nextAction": "Recheck the linked URL and official agent-skill navigation; retain last-good dates until a supported destination is available.",
+          "evidence": [
+            "work/daily-2026-10-31/web-reads.json",
+            "work/daily-2026-10-31/official-codex-skill-browser.txt",
+            "work/daily-2026-10-31/915497519741212e.txt"
+          ],
+          "note": "Official llms.txt still links to this exact URL. Both HTTP client and browser return 404; no replacement is provided by that index.",
+          "retryAt": "2026-11-01T09:00:00Z"
         }
-      ]
+      ],
+      "reviewedAt": "2026-11-04T14:21:55.933482+00:00",
+      "coverageComplete": false,
+      "reason": "HTTP 404 and rendered Page not found at the official linked skill URL.",
+      "missingScope": "Current skill document contents; indexed links are readable but target is unavailable."
     },
     {
       "id": "wiki-directory",
@@ -2001,19 +2159,22 @@
       "id": "bluesky-ogboy92.bsky.social",
       "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=ogboy92.bsky.social&limit=100",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T13:02:48.913196+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T13:02:48.913196+00:00",
+      "lastAttemptAt": "2026-11-04T10:06:50.952921+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:50.952921+00:00",
       "hash": "8b079e3a6179b09233b55cae0d103271d292f9afac8042891a5a0768fc7358e3",
       "posts": 3,
       "scope": "Returned author feed, paginated until no cursor; known sharing trees separately read.",
-      "note": "Named source scope reviewed; publication separately tracked.",
-      "reviewedAt": "2026-10-31T13:02:48.913196+00:00",
-      "completedWatermark": "2026-10-31T12:52:35.144503+00:00",
+      "note": "Full named author feed retrieved to no cursor; no posts or reposts in the October 24 onward seven-day overlap. Retained original sharing threads and returned replies read separately today. Older linked app/media reviews retain their independent pending scope; no new listing or functional-testing claim.",
+      "reviewedAt": "2026-11-04T14:21:55.933482+00:00",
+      "completedWatermark": "2026-11-04T10:06:50.952921+00:00",
       "evidence": [
-        "work/daily-2026-10-31/social-reads.json",
-        "work/daily-2026-10-31/bluesky-coverage-receipt.json"
+        "work/daily-2026-11-04/docs-social-review.json",
+        "work/daily-2026-11-04/a7a5239220bd6bf5-8b079e3a6179b09233b55cae0d103271d292f9afac8042891a5a0768fc7358e3.txt",
+        "work/daily-2026-11-04/6e298969bb65567d-5a8bf7037ecc76053f39d56fae7360ee7f312edc639801f2dc2391ccc8c00557.txt",
+        "work/daily-2026-11-04/450ffd3aa3c29159-868a771e7420fdfa4d49194b3dda8235dc9fdbef04a3400a9c8ab08068f2d07d.txt",
+        "work/daily-2026-11-04/dd42378459b31d52-95d14176938157cc5af2c815d482c56238f3cb82f73dc182c6e13fc0d24ee4e6.txt"
       ],
-      "lookbackStart": "2026-10-22",
+      "lookbackStart": "2026-10-24",
       "history": [
         {
           "id": "bluesky-ogboy92.bsky.social",
@@ -2032,6 +2193,25 @@
             "work/daily-2026-10-31/bluesky-coverage-receipt.json"
           ],
           "lookbackStart": "2026-10-22"
+        },
+        {
+          "id": "bluesky-ogboy92.bsky.social",
+          "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=ogboy92.bsky.social&limit=100",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T13:02:48.913196+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T13:02:48.913196+00:00",
+          "hash": "8b079e3a6179b09233b55cae0d103271d292f9afac8042891a5a0768fc7358e3",
+          "posts": 3,
+          "scope": "Returned author feed, paginated until no cursor; known sharing trees separately read.",
+          "note": "Named source scope reviewed; publication separately tracked.",
+          "reviewedAt": "2026-10-31T13:02:48.913196+00:00",
+          "completedWatermark": "2026-10-31T12:52:35.144503+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/social-reads.json",
+            "work/daily-2026-10-31/bluesky-coverage-receipt.json"
+          ],
+          "lookbackStart": "2026-10-22",
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -2133,18 +2313,20 @@
     {
       "id": "bluesky-luci666-91.bsky.social",
       "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=luci666-91.bsky.social&limit=100",
-      "status": "complete",
-      "lastAttemptAt": "2026-10-31T13:02:48.913196+00:00",
+      "status": "blocked",
+      "lastAttemptAt": "2026-11-04T14:18:39.461583+00:00",
       "hash": "f72575297f216d2222f2423eaba7ac3b2384bee61b95ba2232cecbd909659d26",
       "posts": 3,
       "scope": "Returned author feed, paginated until no cursor; known sharing trees separately read.",
       "lastSuccessfulReadAt": "2026-10-31T13:02:48.913196+00:00",
-      "note": "Named source scope reviewed; publication separately tracked.",
-      "reviewedAt": "2026-10-31T13:02:48.913196+00:00",
+      "note": "Old handle lookup failed; profile and feed lookup using the retained stable DID also return Profile not found, confirmed in browser. Retained October 31 feed remains available as historical material. No claim that the account was deleted or renamed.",
+      "reviewedAt": "2026-11-04T14:21:55.933482+00:00",
       "completedWatermark": "2026-10-31T12:52:35.631740+00:00",
       "evidence": [
-        "work/daily-2026-10-31/social-reads.json",
-        "work/daily-2026-10-31/bluesky-coverage-receipt.json"
+        "work/daily-2026-11-04/docs-social-review.json",
+        "work/daily-2026-11-04/f25245d56ac20f62-231968bcd46729f475c2f300e3cf409f41f93e9988a153b2bcc3cbacdcd73f3c.txt",
+        "work/daily-2026-11-04/6444705bde827c14-231968bcd46729f475c2f300e3cf409f41f93e9988a153b2bcc3cbacdcd73f3c.txt",
+        "work/daily-2026-11-04/luci-did-browser-failure.txt"
       ],
       "lookbackStart": "2026-10-22",
       "history": [
@@ -2165,9 +2347,33 @@
             "work/daily-2026-10-31/bluesky-coverage-receipt.json"
           ],
           "lookbackStart": "2026-10-22"
+        },
+        {
+          "id": "bluesky-luci666-91.bsky.social",
+          "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=luci666-91.bsky.social&limit=100",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T13:02:48.913196+00:00",
+          "hash": "f72575297f216d2222f2423eaba7ac3b2384bee61b95ba2232cecbd909659d26",
+          "posts": 3,
+          "scope": "Returned author feed, paginated until no cursor; known sharing trees separately read.",
+          "lastSuccessfulReadAt": "2026-10-31T13:02:48.913196+00:00",
+          "note": "Named source scope reviewed; publication separately tracked.",
+          "reviewedAt": "2026-10-31T13:02:48.913196+00:00",
+          "completedWatermark": "2026-10-31T12:52:35.631740+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/social-reads.json",
+            "work/daily-2026-10-31/bluesky-coverage-receipt.json"
+          ],
+          "lookbackStart": "2026-10-22",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": false,
+      "failureKind": "unavailable-content",
+      "reason": "Bluesky cannot resolve the old handle or retained DID through current API and browser reads.",
+      "missingScope": "Current author feed and any new/edited posts since the last successful checkpoint.",
+      "nextAction": "Check creator-linked socials or a recovered stable-DID profile for an evidenced destination; do not guess replacement identity.",
+      "retryAt": "2026-11-05T10:00:00Z"
     },
     {
       "id": "345",
@@ -2393,19 +2599,20 @@
       "id": "bluesky-remmylof.bsky.social",
       "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=remmylof.bsky.social&limit=100",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T13:02:48.913196+00:00",
+      "lastAttemptAt": "2026-11-04T10:06:51.454600+00:00",
       "hash": "b80042fb45dc42f230edca5087ae4aad52290920707ff4b10c44c6e1cfb5cfff",
       "posts": 1,
       "scope": "Returned author feed, paginated until no cursor; known sharing trees separately read.",
-      "lastSuccessfulReadAt": "2026-10-31T13:02:48.913196+00:00",
-      "note": "Named source scope reviewed; publication separately tracked.",
-      "reviewedAt": "2026-10-31T13:02:48.913196+00:00",
-      "completedWatermark": "2026-10-31T12:52:35.839362+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:51.454600+00:00",
+      "note": "Full named author feed retrieved to no cursor; no posts or reposts in the October 24 onward seven-day overlap. Retained original sharing threads and returned replies read separately today. Older linked app/media reviews retain their independent pending scope; no new listing or functional-testing claim.",
+      "reviewedAt": "2026-11-04T14:21:55.933482+00:00",
+      "completedWatermark": "2026-11-04T10:06:51.454600+00:00",
       "evidence": [
-        "work/daily-2026-10-31/social-reads.json",
-        "work/daily-2026-10-31/bluesky-coverage-receipt.json"
+        "work/daily-2026-11-04/docs-social-review.json",
+        "work/daily-2026-11-04/021b5bba30a763cd-b80042fb45dc42f230edca5087ae4aad52290920707ff4b10c44c6e1cfb5cfff.txt",
+        "work/daily-2026-11-04/ab3cbfd8197284b3-6a52f52e18646a707013e0dbb6f23c8432e54ec5d30bf891266508c50f8d0c90.txt"
       ],
-      "lookbackStart": "2026-10-22",
+      "lookbackStart": "2026-10-24",
       "history": [
         {
           "id": "bluesky-remmylof.bsky.social",
@@ -2424,6 +2631,25 @@
             "work/daily-2026-10-31/bluesky-coverage-receipt.json"
           ],
           "lookbackStart": "2026-10-22"
+        },
+        {
+          "id": "bluesky-remmylof.bsky.social",
+          "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=remmylof.bsky.social&limit=100",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T13:02:48.913196+00:00",
+          "hash": "b80042fb45dc42f230edca5087ae4aad52290920707ff4b10c44c6e1cfb5cfff",
+          "posts": 1,
+          "scope": "Returned author feed, paginated until no cursor; known sharing trees separately read.",
+          "lastSuccessfulReadAt": "2026-10-31T13:02:48.913196+00:00",
+          "note": "Named source scope reviewed; publication separately tracked.",
+          "reviewedAt": "2026-10-31T13:02:48.913196+00:00",
+          "completedWatermark": "2026-10-31T12:52:35.839362+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/social-reads.json",
+            "work/daily-2026-10-31/bluesky-coverage-receipt.json"
+          ],
+          "lookbackStart": "2026-10-22",
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -2597,19 +2823,20 @@
       "id": "bluesky-kylne700.bsky.social",
       "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=kylne700.bsky.social&limit=100",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T13:02:48.913196+00:00",
+      "lastAttemptAt": "2026-11-04T10:06:50.119850+00:00",
       "hash": "3144d669b364caa3bc6bf075966cff3d2981b8e708b86aa9327b76ce751faa9c",
       "posts": 1,
       "scope": "Returned author feed, paginated until no cursor; known sharing trees separately read.",
-      "lastSuccessfulReadAt": "2026-10-31T13:02:48.913196+00:00",
-      "note": "Named source scope reviewed; publication separately tracked.",
-      "reviewedAt": "2026-10-31T13:02:48.913196+00:00",
-      "completedWatermark": "2026-10-31T12:52:36.053387+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:50.119850+00:00",
+      "note": "Full named author feed retrieved to no cursor; no posts or reposts in the October 24 onward seven-day overlap. Retained original sharing threads and returned replies read separately today. Older linked app/media reviews retain their independent pending scope; no new listing or functional-testing claim.",
+      "reviewedAt": "2026-11-04T14:21:55.933482+00:00",
+      "completedWatermark": "2026-11-04T10:06:50.119850+00:00",
       "evidence": [
-        "work/daily-2026-10-31/social-reads.json",
-        "work/daily-2026-10-31/bluesky-coverage-receipt.json"
+        "work/daily-2026-11-04/docs-social-review.json",
+        "work/daily-2026-11-04/9c054f3d1e5732d3-3144d669b364caa3bc6bf075966cff3d2981b8e708b86aa9327b76ce751faa9c.txt",
+        "work/daily-2026-11-04/e36aaf1ea9876c51-edde68cf6eb7dd2eb90eabe1e2899bd5a31455357cc04b454481666ab7c1b024.txt"
       ],
-      "lookbackStart": "2026-10-22",
+      "lookbackStart": "2026-10-24",
       "history": [
         {
           "id": "bluesky-kylne700.bsky.social",
@@ -2628,6 +2855,25 @@
             "work/daily-2026-10-31/bluesky-coverage-receipt.json"
           ],
           "lookbackStart": "2026-10-22"
+        },
+        {
+          "id": "bluesky-kylne700.bsky.social",
+          "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=kylne700.bsky.social&limit=100",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T13:02:48.913196+00:00",
+          "hash": "3144d669b364caa3bc6bf075966cff3d2981b8e708b86aa9327b76ce751faa9c",
+          "posts": 1,
+          "scope": "Returned author feed, paginated until no cursor; known sharing trees separately read.",
+          "lastSuccessfulReadAt": "2026-10-31T13:02:48.913196+00:00",
+          "note": "Named source scope reviewed; publication separately tracked.",
+          "reviewedAt": "2026-10-31T13:02:48.913196+00:00",
+          "completedWatermark": "2026-10-31T12:52:36.053387+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/social-reads.json",
+            "work/daily-2026-10-31/bluesky-coverage-receipt.json"
+          ],
+          "lookbackStart": "2026-10-22",
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -3161,21 +3407,38 @@
             "work/daily-2026-10-31/d1dedc27c133ba65-794c5201bf58512504f94093aa4224a2b976cbc9d6a58d30d96fefa4583da7f7.txt",
             "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
           ]
+        },
+        {
+          "id": "520",
+          "url": "https://community.tari.com/t/520.json",
+          "status": "complete",
+          "posts": 2,
+          "hash": "794c5201bf58512504f94093aa4224a2b976cbc9d6a58d30d96fefa4583da7f7",
+          "lastAttemptAt": "2026-11-02T13:58:55.158800+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T13:58:55.158800+00:00",
+          "completedWatermark": "2026-11-02T13:55:19.495376+00:00",
+          "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
+          "coverageNote": "Named full accessible topic only; linked resources tracked separately.",
+          "evidence": [
+            "work/daily-2026-10-31/d1dedc27c133ba65-794c5201bf58512504f94093aa4224a2b976cbc9d6a58d30d96fefa4583da7f7.txt",
+            "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
+          ],
+          "note": "Complete topic content and returned replies read; linked resources separately pending. Topic524 is strategic discussion, not a shipped resource.",
+          "coverageComplete": true
         }
       ],
       "status": "complete",
-      "posts": 2,
-      "hash": "794c5201bf58512504f94093aa4224a2b976cbc9d6a58d30d96fefa4583da7f7",
-      "lastAttemptAt": "2026-11-02T13:58:55.158800+00:00",
-      "lastSuccessfulReadAt": "2026-11-02T13:58:55.158800+00:00",
-      "completedWatermark": "2026-11-02T13:55:19.495376+00:00",
+      "posts": 3,
+      "hash": "35bf3a5a5c56de7bcf8a3d87e0491896a4a5260afee5932759a6248d7d332f66",
+      "lastAttemptAt": "2026-11-04T10:06:48.593646+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:48.593646+00:00",
+      "completedWatermark": "2026-11-04T10:06:48.593646+00:00",
       "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
-      "coverageNote": "Named full accessible topic only; linked resources tracked separately.",
+      "coverageNote": "Named topic and every available post-stream ID only; linked resources assessed separately.",
       "evidence": [
-        "work/daily-2026-10-31/d1dedc27c133ba65-794c5201bf58512504f94093aa4224a2b976cbc9d6a58d30d96fefa4583da7f7.txt",
-        "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
+        "work/daily-2026-11-04/additional-forum-source-review.json"
       ],
-      "note": "Complete topic content and returned replies read; linked resources separately pending. Topic524 is strategic discussion, not a shipped resource.",
+      "note": "November MVP rules and QuietTicket submission read, including edited/deleted post positions. QuietTicket publication already accepted separately.",
       "coverageComplete": true
     },
     {
@@ -3624,6 +3887,109 @@
       "scope": "Full post and both displayed comments; comment count 2; no additional reply control",
       "note": "Read linked primary material, reconcile with current official sources, then decide catalog suitability and recording/publication needs.",
       "coverageComplete": true
+    },
+    {
+      "id": "525",
+      "url": "https://community.tari.com/t/525.json",
+      "status": "complete",
+      "posts": 4,
+      "hash": "9d67335475b0f6a9da3ad7cc38493650aa286964d3d016a5e15db9bd2622f554",
+      "lastAttemptAt": "2026-11-04T10:07:07.178822+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:07:07.178822+00:00",
+      "completedWatermark": "2026-11-04T10:07:07.178822+00:00",
+      "coverageNote": "Named topic and every available post-stream ID only; linked resources assessed separately.",
+      "note": "Historical sponsor report of 2,000 XTM to each of ten builders, not an open offer or independently verified transfer. Replies read; no payment action.",
+      "evidence": [
+        "work/daily-2026-11-04/additional-forum-source-review.json"
+      ]
+    },
+    {
+      "id": "527",
+      "url": "https://community.tari.com/t/527.json",
+      "status": "complete",
+      "posts": 1,
+      "hash": "94478756edc9528e4a5e3b84e3f29bfd09f8a9d0ce073ac61101c98bade282e3",
+      "lastAttemptAt": "2026-11-04T10:07:07.153165+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:07:07.153165+00:00",
+      "completedWatermark": "2026-11-04T10:07:07.153165+00:00",
+      "coverageNote": "Named topic and every available post-stream ID only; linked resources assessed separately.",
+      "note": "Community one-way burn illustration discussion read. Linked illustration and technical claims require separate creator-resource assessment.",
+      "evidence": [
+        "work/daily-2026-11-04/additional-forum-source-review.json"
+      ]
+    },
+    {
+      "id": "530",
+      "url": "https://community.tari.com/t/530.json",
+      "status": "complete",
+      "posts": 2,
+      "hash": "65f9ef9b903f48f37f9750fd3441a062ff2cfb91b5f8a53ab9c315da851af547",
+      "lastAttemptAt": "2026-11-04T10:07:07.463132+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:07:07.463132+00:00",
+      "completedWatermark": "2026-11-04T10:07:07.463132+00:00",
+      "coverageNote": "Named topic and every available post-stream ID only; linked resources assessed separately.",
+      "note": "Author reports empty Esmeralda network faucet and retired pre-reset Caravel component. Treat as dated report, not independent wallet testing. No funding attempted.",
+      "evidence": [
+        "work/daily-2026-11-04/additional-forum-source-review.json"
+      ]
+    },
+    {
+      "id": "504",
+      "url": "https://community.tari.com/t/504.json",
+      "status": "complete",
+      "posts": 2,
+      "hash": "8413c7950e43efd45cbb28f73f0bccf119ad64997b583ed6cd2cea6b1e8b8fe5",
+      "lastAttemptAt": "2026-11-04T10:07:06.099650+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:07:06.099650+00:00",
+      "completedWatermark": "2026-11-04T10:07:06.099650+00:00",
+      "coverageNote": "Named topic and every available post-stream ID only; linked resources assessed separately.",
+      "note": "YouTube backlink suggestion and reply read; no new resource and no outbound edits authorized.",
+      "evidence": [
+        "work/daily-2026-11-04/additional-forum-source-review.json"
+      ]
+    },
+    {
+      "id": "379",
+      "url": "https://community.tari.com/t/379.json",
+      "status": "complete",
+      "posts": 6,
+      "hash": "d427205ec53f2af81f6d5cec5a7b5a26f45f6f9e0d226befa4c93e7d3cc031d2",
+      "lastAttemptAt": "2026-11-04T10:07:03.974569+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:07:03.974569+00:00",
+      "completedWatermark": "2026-11-04T10:07:03.974569+00:00",
+      "coverageNote": "Named topic and every available post-stream ID only; linked resources assessed separately.",
+      "note": "SEO thread and November 3 creator-site update read. Linked Canva dashboard and optional skill archive remain separate pending reviews, no downloaded code executed.",
+      "evidence": [
+        "work/daily-2026-11-04/additional-forum-source-review.json"
+      ]
+    },
+    {
+      "id": "70",
+      "url": "https://community.tari.com/t/70.json",
+      "status": "complete",
+      "posts": 8,
+      "hash": "aceb4484979e317e9b17adf8483beb9f08b5f211fbb1490ccfe92e57aebba6ac",
+      "lastAttemptAt": "2026-11-04T10:07:07.610884+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:07:07.610884+00:00",
+      "completedWatermark": "2026-11-04T10:07:07.610884+00:00",
+      "coverageNote": "Named topic and every available post-stream ID only; linked resources assessed separately.",
+      "note": "Eight-post Yat discussion read. No committed integration timeline; linked ID8R 3D builder remains separately pending.",
+      "evidence": [
+        "work/daily-2026-11-04/additional-forum-source-review.json"
+      ]
+    },
+    {
+      "id": "musaddiq-minotari-mining-thread",
+      "url": "https://bsky.app/profile/musaddiq0x.bsky.social/post/3mzfxcy453s27",
+      "status": "complete",
+      "lastAttemptAt": "2026-11-04T14:40:38.738364+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T14:40:38.738364+00:00",
+      "completedWatermark": "2026-11-04T14:40:38.738364+00:00",
+      "note": "All six self-thread posts, displayed reply counts reconciled to the recovered chain, opening infographic and both linked primary destinations reviewed. Author-feed cursor absent. Thread API/browser omitted replies; author-feed fallback recovered them. Retain as community educational discussion and provenance, not a distinct app/SDK/tool or standalone builder tutorial catalog addition: it summarizes the existing official L1 mining references and announces further research, without a new reusable resource or implementation. No recording requirement is created by this non-catalogued discussion.",
+      "evidence": [
+        "work/daily-2026-11-04/mining-explainer-review.json"
+      ],
+      "nextAction": "Revisit on a changed post or new linked tutorial; retain all six original sharing permalinks."
     }
   ],
   "githubCreators": [
@@ -3825,7 +4191,6 @@
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         },
@@ -3839,7 +4204,6 @@
           "lastAttemptAt": "2026-11-04T10:07:10.848316+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:10.848316+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         },
@@ -3852,7 +4216,6 @@
           "lastAttemptAt": "2026-11-04T10:07:26.961368+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:26.961368+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         }
@@ -3928,8 +4291,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://github.com/okansaglam016161-pixel/caravel": {
                 "url": "https://github.com/okansaglam016161-pixel/caravel",
@@ -3941,8 +4303,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:10.848316+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:10.848316+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://caravellabs.net": {
                 "url": "https://caravellabs.net",
@@ -3953,8 +4314,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:26.961368+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:26.961368+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -4031,7 +4391,6 @@
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         },
@@ -4045,7 +4404,6 @@
           "lastAttemptAt": "2026-11-04T10:07:05.618134+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.618134+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         },
@@ -4058,7 +4416,6 @@
           "lastAttemptAt": "2026-11-04T10:07:29.034613+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:29.034613+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         }
@@ -4134,8 +4491,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://github.com/huzhazha/legacy-vault-ootle": {
                 "url": "https://github.com/huzhazha/legacy-vault-ootle",
@@ -4147,8 +4503,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:05.618134+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:05.618134+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://huzhazha.github.io/legacy-vault-ootle/demo/": {
                 "url": "https://huzhazha.github.io/legacy-vault-ootle/demo/",
@@ -4159,8 +4514,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:29.034613+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:29.034613+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -4237,7 +4591,6 @@
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         },
@@ -4251,7 +4604,6 @@
           "lastAttemptAt": "2026-11-04T10:07:05.818368+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.818368+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         },
@@ -4264,7 +4616,6 @@
           "lastAttemptAt": "2026-11-04T10:07:28.722359+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:28.722359+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         }
@@ -4340,8 +4691,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://github.com/imphila/ootle-pay": {
                 "url": "https://github.com/imphila/ootle-pay",
@@ -4353,8 +4703,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:05.818368+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:05.818368+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://imphila.github.io/ootle-pay/": {
                 "url": "https://imphila.github.io/ootle-pay/",
@@ -4365,8 +4714,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:28.722359+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:28.722359+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -4442,7 +4790,6 @@
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         },
@@ -4456,7 +4803,6 @@
           "lastAttemptAt": "2026-11-04T10:06:53.613549+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:53.613549+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         }
@@ -4523,8 +4869,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://github.com/JustAResearcher/ootle-surveys": {
                 "url": "https://github.com/JustAResearcher/ootle-surveys",
@@ -4536,8 +4881,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:53.613549+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:53.613549+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -4590,77 +4934,69 @@
         "https://github.com/solvetony/outruna",
         "https://outruna.top"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T14:41:44.793Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T14:41:44.793Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "changedFields": [
-        "sourceEvidence"
-      ],
+      "changedFields": [],
       "sourceReviews": {
         "https://community.tari.com/t/september-contest-thread/324/24": {
           "url": "https://community.tari.com/t/september-contest-thread/324/24",
-          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
           "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
           "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/solvetony/outruna": {
           "url": "https://github.com/solvetony/outruna",
-          "hash": "67a00283f39c99f0282437bccf79eceead0b933a6e9d1567a0a1a8b5137978d9",
-          "revision": "1fc614538e81aa17451c3750e2d9f7d1bbba10cf",
           "attemptedAt": "2026-11-04T10:07:14.632050+00:00",
+          "hash": "67a00283f39c99f0282437bccf79eceead0b933a6e9d1567a0a1a8b5137978d9",
           "evidence": "work/daily-2026-11-04/9d4c989e4027a35a-67a00283f39c99f0282437bccf79eceead0b933a6e9d1567a0a1a8b5137978d9.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "revision": "1fc614538e81aa17451c3750e2d9f7d1bbba10cf",
+          "releaseEvidence": {
+            "url": "https://github.com/solvetony/outruna/releases",
+            "file": "574037764b2aab10-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:14.310128+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:07:14.632050+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:14.632050+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://outruna.top": {
           "url": "https://outruna.top",
-          "hash": "a12b3d5d2643af978198d6b9beee7da46502b5974d982908ce90520fd15e6e56",
           "attemptedAt": "2026-11-04T10:07:30.412288+00:00",
+          "hash": "a12b3d5d2643af978198d6b9beee7da46502b5974d982908ce90520fd15e6e56",
           "evidence": "work/daily-2026-11-04/11b03044dc4e53a0-a12b3d5d2643af978198d6b9beee7da46502b5974d982908ce90520fd15e6e56.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "HTTP bytes plus separately reviewed current rendered page",
           "lastAttemptAt": "2026-11-04T10:07:30.412288+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:30.412288+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
-      "changedSources": [
-        "https://community.tari.com/t/september-contest-thread/324/24"
-      ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "observedAvailability": "Public Telegram/email sign-in landing reachable. Unchanged creator README describes six EVM networks and separate locally signed Tari L1 wallet with encrypted-file recovery. No sign-in, wallet creation or financial action performed.",
+      "changedSources": [],
+      "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/september-contest-thread/324/24",
         "https://github.com/solvetony/outruna",
         "https://outruna.top"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+      "sourceObservation": "November 4 complete current known original thread, README/release inventory and rendered linked landing review. No material listing change.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
-      "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+      "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/324.json",
@@ -4682,6 +5018,115 @@
           "attemptedAt": "2026-11-04T10:07:30.412288+00:00",
           "httpStatus": 200
         }
+      ],
+      "reviewHistory": [
+        {
+          "preservedAt": "2026-11-04T14:41:44.793Z",
+          "reason": "Prior accepted state retained before dated source review",
+          "record": {
+            "id": "tari-ootle:app:outruna",
+            "title": "Outruna",
+            "sources": [
+              "https://community.tari.com/t/september-contest-thread/324/24",
+              "https://github.com/solvetony/outruna",
+              "https://outruna.top"
+            ],
+            "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
+            "outcome": "pending",
+            "reviewRequired": true,
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "sourceReviews": {
+              "https://community.tari.com/t/september-contest-thread/324/24": {
+                "url": "https://community.tari.com/t/september-contest-thread/324/24",
+                "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+                "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+                "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
+                "status": "read"
+              },
+              "https://github.com/solvetony/outruna": {
+                "url": "https://github.com/solvetony/outruna",
+                "hash": "67a00283f39c99f0282437bccf79eceead0b933a6e9d1567a0a1a8b5137978d9",
+                "revision": "1fc614538e81aa17451c3750e2d9f7d1bbba10cf",
+                "attemptedAt": "2026-11-04T10:07:14.632050+00:00",
+                "evidence": "work/daily-2026-11-04/9d4c989e4027a35a-67a00283f39c99f0282437bccf79eceead0b933a6e9d1567a0a1a8b5137978d9.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:14.632050+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:14.632050+00:00",
+                "status": "read"
+              },
+              "https://outruna.top": {
+                "url": "https://outruna.top",
+                "hash": "a12b3d5d2643af978198d6b9beee7da46502b5974d982908ce90520fd15e6e56",
+                "attemptedAt": "2026-11-04T10:07:30.412288+00:00",
+                "evidence": "work/daily-2026-11-04/11b03044dc4e53a0-a12b3d5d2643af978198d6b9beee7da46502b5974d982908ce90520fd15e6e56.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:30.412288+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:30.412288+00:00",
+                "status": "read"
+              }
+            },
+            "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+            "changedSources": [
+              "https://community.tari.com/t/september-contest-thread/324/24"
+            ],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "checkedScope": [
+              "https://community.tari.com/t/september-contest-thread/324/24",
+              "https://github.com/solvetony/outruna",
+              "https://outruna.top"
+            ],
+            "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+            "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
+            "copyUpdated": false,
+            "reviewedSourceCount": 3,
+            "pendingReviewSources": [],
+            "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+            "blockedSources": [],
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://community.tari.com/t/324.json",
+                "file": "7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+                "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+                "attemptedAt": "2026-11-04T10:06:44.988017+00:00"
+              },
+              {
+                "url": "https://github.com/solvetony/outruna",
+                "file": "9d4c989e4027a35a-67a00283f39c99f0282437bccf79eceead0b933a6e9d1567a0a1a8b5137978d9.txt",
+                "hash": "67a00283f39c99f0282437bccf79eceead0b933a6e9d1567a0a1a8b5137978d9",
+                "attemptedAt": "2026-11-04T10:07:14.632050+00:00",
+                "revision": "1fc614538e81aa17451c3750e2d9f7d1bbba10cf"
+              },
+              {
+                "url": "https://outruna.top",
+                "file": "11b03044dc4e53a0-a12b3d5d2643af978198d6b9beee7da46502b5974d982908ce90520fd15e6e56.txt",
+                "hash": "a12b3d5d2643af978198d6b9beee7da46502b5974d982908ce90520fd15e6e56",
+                "attemptedAt": "2026-11-04T10:07:30.412288+00:00",
+                "httpStatus": 200
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/outruna-source-acceptance.json",
+        "work/daily-2026-11-04/outruna-current-browser.txt"
       ]
     },
     "tari-ootle:app:private-ballot": {
@@ -4707,7 +5152,6 @@
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         },
@@ -4721,7 +5165,6 @@
           "lastAttemptAt": "2026-11-04T10:06:53.246986+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:53.246986+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         }
@@ -4788,8 +5231,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://github.com/GSXRspartan/private-ballot": {
                 "url": "https://github.com/GSXRspartan/private-ballot",
@@ -4801,8 +5243,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:53.246986+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:53.246986+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -4873,8 +5314,7 @@
           "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/chironbuilds/tari-wallet": {
           "url": "https://github.com/chironbuilds/tari-wallet",
@@ -4883,8 +5323,7 @@
           "evidence": "work/daily-2026-11-04/69d49f3a0e2cc578-6a94606af6d726fdb158bf8fd89949a16f564f24eb2e6395685b1bcec52617a3.txt",
           "lastAttemptAt": "2026-11-04T10:09:25.455655+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:25.455655+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://sapient.tari.mw": {
           "url": "https://sapient.tari.mw",
@@ -4893,8 +5332,7 @@
           "evidence": "work/daily-2026-11-04/sapient-home-current.txt",
           "lastAttemptAt": "2026-11-04T13:51:28.816Z",
           "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://chromewebstore.google.com/detail/tari-ootle-wallet/demkeckolenopkgnfbnpflkpbbdhpgkl": {
           "url": "https://chromewebstore.google.com/detail/tari-ootle-wallet/demkeckolenopkgnfbnpflkpbbdhpgkl",
@@ -4903,8 +5341,7 @@
           "evidence": "work/daily-2026-11-04/sapient-chrome-store-current.txt",
           "lastAttemptAt": "2026-11-04T13:51:28.816Z",
           "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://universe.tari.mw/integration": {
           "url": "https://universe.tari.mw/integration",
@@ -4913,8 +5350,7 @@
           "evidence": "work/daily-2026-11-04/sapient-integration-docs-current.txt",
           "lastAttemptAt": "2026-11-04T13:51:28.816Z",
           "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "observedAvailability": "Public testnet wallet landing page, source and Chrome Web Store 0.7.2 listing reachable.",
@@ -4986,8 +5422,7 @@
               "method": "Current source fetched; semantic review and reconciliation pending",
               "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
               "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-              "status": "read",
-              "error": null
+              "status": "read"
             },
             "https://github.com/chironbuilds/tari-wallet": {
               "url": "https://github.com/chironbuilds/tari-wallet",
@@ -4999,8 +5434,7 @@
               "method": "Current source fetched; semantic review and reconciliation pending",
               "lastAttemptAt": "2026-11-04T10:09:25.455655+00:00",
               "lastSuccessfulReadAt": "2026-11-04T10:09:25.455655+00:00",
-              "status": "read",
-              "error": null
+              "status": "read"
             },
             "https://sapient.tari.mw": {
               "url": "https://sapient.tari.mw",
@@ -5011,8 +5445,7 @@
               "method": "Current source fetched; semantic review and reconciliation pending",
               "lastAttemptAt": "2026-11-04T10:07:32.487757+00:00",
               "lastSuccessfulReadAt": "2026-11-04T10:07:32.487757+00:00",
-              "status": "read",
-              "error": null
+              "status": "read"
             }
           },
           "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -5087,8 +5520,7 @@
           "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/zvovanz-a1/tari-ticket-public": {
           "url": "https://github.com/zvovanz-a1/tari-ticket-public",
@@ -5108,8 +5540,7 @@
           "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:07:24.064602+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:24.064602+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://shadowtix.shop": {
           "url": "https://shadowtix.shop",
@@ -5119,8 +5550,7 @@
           "scope": "HTTP bytes plus separately reviewed current rendered page",
           "lastAttemptAt": "2026-11-04T10:07:33.777009+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:33.777009+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "observedAvailability": "Public ticket marketplace landing reachable with eight listed test-token events; original thread, README and release inventory unchanged. No purchase or login performed.",
@@ -5138,7 +5568,6 @@
       "pendingReviewSources": [],
       "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
       "blockedSources": [],
-      "pendingAssessment": null,
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/324.json",
@@ -5191,8 +5620,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://github.com/zvovanz-a1/tari-ticket-public": {
                 "url": "https://github.com/zvovanz-a1/tari-ticket-public",
@@ -5204,8 +5632,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:24.064602+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:24.064602+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://shadowtix.shop": {
                 "url": "https://shadowtix.shop",
@@ -5216,8 +5643,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:33.777009+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:33.777009+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -5481,8 +5907,7 @@
           "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/n0izn0iz/tariorg": {
           "url": "https://github.com/n0izn0iz/tariorg",
@@ -5502,8 +5927,7 @@
           "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:07:09.760263+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:09.760263+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://tariorg.pages.dev": {
           "url": "https://tariorg.pages.dev",
@@ -5513,8 +5937,7 @@
           "scope": "HTTP bytes plus separately reviewed current rendered page",
           "lastAttemptAt": "2026-11-04T10:07:34.244192+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:34.244192+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "observedAvailability": "Public organization-governance frontend reachable, showing zero organizations and explicitly planned privacy research. No organization or account created.",
@@ -5532,7 +5955,6 @@
       "pendingReviewSources": [],
       "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
       "blockedSources": [],
-      "pendingAssessment": null,
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/324.json",
@@ -5585,8 +6007,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://github.com/n0izn0iz/tariorg": {
                 "url": "https://github.com/n0izn0iz/tariorg",
@@ -5598,8 +6019,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:09.760263+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:09.760263+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://tariorg.pages.dev": {
                 "url": "https://tariorg.pages.dev",
@@ -5610,8 +6030,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:34.244192+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:34.244192+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -5788,8 +6207,7 @@
           "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/Seal-Clubber/Threshold": {
           "url": "https://github.com/Seal-Clubber/Threshold",
@@ -5809,8 +6227,7 @@
           "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:57.600062+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:57.600062+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://seal-clubber.github.io/Threshold/": {
           "url": "https://seal-clubber.github.io/Threshold/",
@@ -5820,8 +6237,7 @@
           "scope": "HTTP bytes plus separately reviewed current rendered page",
           "lastAttemptAt": "2026-11-04T10:07:32.593999+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:32.593999+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "observedAvailability": "Public wallet-free crowdfunding simulation reachable; five additional templates remain explicitly labeled proofs of concept. No transaction performed.",
@@ -5839,7 +6255,6 @@
       "pendingReviewSources": [],
       "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
       "blockedSources": [],
-      "pendingAssessment": null,
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/324.json",
@@ -5892,8 +6307,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://github.com/Seal-Clubber/Threshold": {
                 "url": "https://github.com/Seal-Clubber/Threshold",
@@ -5905,8 +6319,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:57.600062+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:57.600062+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://seal-clubber.github.io/Threshold/": {
                 "url": "https://seal-clubber.github.io/Threshold/",
@@ -5917,8 +6330,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:32.593999+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:32.593999+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -6113,7 +6525,6 @@
           "lastAttemptAt": "2026-11-04T10:06:46.321581+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:46.321581+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         },
@@ -6127,7 +6538,6 @@
           "lastAttemptAt": "2026-11-04T10:06:59.750992+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:59.750992+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         }
@@ -6194,8 +6604,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:46.321581+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:46.321581+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://github.com/big-chief-1889/Clew": {
                 "url": "https://github.com/big-chief-1889/Clew",
@@ -6207,8 +6616,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:59.750992+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:59.750992+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -6342,8 +6750,7 @@
           "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:43.617145+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:43.617145+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://labyrinthos.markets/": {
           "url": "https://labyrinthos.markets/",
@@ -6353,8 +6760,7 @@
           "scope": "HTTP bytes plus separately reviewed current rendered page",
           "lastAttemptAt": "2026-11-04T10:07:29.439054+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:29.439054+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "observedAvailability": "Public lending and private-payment landing reachable and labeled Esmeralda testnet. Product capabilities are creator descriptions; no wallet or financial action performed.",
@@ -6371,7 +6777,6 @@
       "pendingReviewSources": [],
       "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
       "blockedSources": [],
-      "pendingAssessment": null,
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/281.json",
@@ -6416,8 +6821,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:43.617145+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:43.617145+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://labyrinthos.markets/": {
                 "url": "https://labyrinthos.markets/",
@@ -6428,8 +6832,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:29.439054+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:29.439054+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -7418,12 +7821,15 @@
       "title": "Ootlejuice Candy Summoner",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
-        "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner"
+        "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
+        "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T14:46:14.103Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T14:46:14.103Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
@@ -7466,80 +7872,62 @@
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete current contest stream or unchanged accepted README/releases reviewed; shared reset notice assessed for this source-only/concept entry.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner": {
           "url": "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner",
-          "hash": "82fcd3f96abf7ca93ac40d918fd55ce0baf429c6dbd3e7b8f8d911c92bbfc261",
-          "revision": "64d34a3260d80a423cf2357e20f15cdc3ea24532",
           "attemptedAt": "2026-11-04T10:07:12.460288+00:00",
+          "hash": "82fcd3f96abf7ca93ac40d918fd55ce0baf429c6dbd3e7b8f8d911c92bbfc261",
           "evidence": "work/daily-2026-11-04/06ffa1895da30e95-82fcd3f96abf7ca93ac40d918fd55ce0baf429c6dbd3e7b8f8d911c92bbfc261.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "revision": "64d34a3260d80a423cf2357e20f15cdc3ea24532",
+          "scope": "Complete current contest stream or unchanged accepted README/releases reviewed; shared reset notice assessed for this source-only/concept entry.",
           "lastAttemptAt": "2026-11-04T10:07:12.460288+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:12.460288+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete current contest stream or unchanged accepted README/releases reviewed; shared reset notice assessed for this source-only/concept entry.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27": {
           "url": "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
-          "hash": "ee1b45fe5d2fd49d4e20d9c6de36937645a7bbcfe3f6f5cdfc9fbf6adf037eed",
-          "attemptedAt": "2026-11-04T10:07:25.943307+00:00",
-          "evidence": "work/daily-2026-11-04/3736fdc78e2be612-ee1b45fe5d2fd49d4e20d9c6de36937645a7bbcfe3f6f5cdfc9fbf6adf037eed.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.943307+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.943307+00:00",
-          "status": "read",
-          "error": null
+          "attemptedAt": "2026-11-04T10:06:51.289685+00:00",
+          "hash": "004dcee92679b93843ebe6d0552ed6cbc69bf04a8f4a8f0784828750e49cfc2b",
+          "evidence": "work/daily-2026-11-04/3736fdc78e2be612-004dcee92679b93843ebe6d0552ed6cbc69bf04a8f4a8f0784828750e49cfc2b.txt",
+          "scope": "Complete returned original thread with replies reviewed; Candy reply included in parent response",
+          "lastAttemptAt": "2026-11-04T10:06:51.289685+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:51.289685+00:00",
+          "status": "read"
         },
         "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27": {
           "url": "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27",
-          "hash": "10fcf06012640d4c444de8a6c890d9d93a3747caf71a0ca39861beddba59583b",
-          "attemptedAt": "2026-11-04T10:07:26.124727+00:00",
-          "evidence": "work/daily-2026-11-04/c95599286fb20196-10fcf06012640d4c444de8a6c890d9d93a3747caf71a0ca39861beddba59583b.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.124727+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.124727+00:00",
-          "status": "read",
-          "error": null
+          "attemptedAt": "2026-11-04T10:06:51.289685+00:00",
+          "hash": "004dcee92679b93843ebe6d0552ed6cbc69bf04a8f4a8f0784828750e49cfc2b",
+          "evidence": "work/daily-2026-11-04/3736fdc78e2be612-004dcee92679b93843ebe6d0552ed6cbc69bf04a8f4a8f0784828750e49cfc2b.txt",
+          "scope": "Complete returned original thread with replies reviewed; Candy reply included in parent response",
+          "lastAttemptAt": "2026-11-04T10:06:51.289685+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:51.289685+00:00",
+          "status": "read"
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "observedAvailability": "Concept remains supported by the short README, original contest post, five-second animated illustration and illustrated creator reply. Both immutable media CIDs match the November 3 review. No application interaction or new playable demo is demonstrated by these sources; existing Concept overview remains accurate.",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
         "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
         "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
         "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner"
@@ -7551,7 +7939,6 @@
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -7586,6 +7973,184 @@
           "attemptedAt": "2026-11-04T10:07:26.124727+00:00",
           "httpStatus": 200
         }
+      ],
+      "reviewHistory": [
+        {
+          "preservedAt": "2026-11-04T14:46:14.103Z",
+          "record": {
+            "id": "project:candy-summoner",
+            "title": "Ootlejuice Candy Summoner",
+            "sources": [
+              "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
+              "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner"
+            ],
+            "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+            "outcome": "pending",
+            "reviewRequired": true,
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "sourceReviews": {
+              "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner": {
+                "url": "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner",
+                "hash": "487ac6b73f052bf59e8bd7090beee106511f360250b22e73eac07329939d44fe",
+                "httpStatus": 200,
+                "lastAttemptAt": "2026-10-10T14:04:54.116030+00:00",
+                "lastSuccessfulReadAt": "2026-10-10T14:04:54.116030+00:00"
+              },
+              "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/readme": {
+                "url": "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/readme",
+                "hash": "d3218085255a46f121de4968e5d97883e76b49a93390401af55732100fdfd7bd",
+                "httpStatus": 200,
+                "lastAttemptAt": "2026-10-10T14:04:54.116030+00:00",
+                "lastSuccessfulReadAt": "2026-10-10T14:04:54.116030+00:00"
+              },
+              "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/releases": {
+                "url": "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/releases",
+                "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "httpStatus": 200,
+                "lastAttemptAt": "2026-10-10T14:04:54.116030+00:00",
+                "lastSuccessfulReadAt": "2026-10-10T14:04:54.116030+00:00"
+              },
+              "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/contents/": {
+                "url": "https://api.github.com/repos/ongwingchi-commits/ootlejuice-candy-summoner/contents/",
+                "hash": "8b665d5359092ecde30e421f928eb2e39eb577011edcb1fa6dc82715cc3fa38b",
+                "httpStatus": 200,
+                "lastAttemptAt": "2026-10-10T14:04:54.116030+00:00",
+                "lastSuccessfulReadAt": "2026-10-10T14:04:54.116030+00:00"
+              },
+              "https://community.tari.com/t/396.json": {
+                "url": "https://community.tari.com/t/396.json",
+                "hash": "ef7319f39b2d3aa584332117a225233e5d7c6f88f2a3c0cf24e7ef98f227ca43",
+                "httpStatus": 200,
+                "lastAttemptAt": "2026-10-10T14:04:54.116030+00:00",
+                "lastSuccessfulReadAt": "2026-10-10T14:04:54.116030+00:00"
+              },
+              "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5": {
+                "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
+                "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+                "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+                "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+                "status": "read"
+              },
+              "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner": {
+                "url": "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner",
+                "hash": "82fcd3f96abf7ca93ac40d918fd55ce0baf429c6dbd3e7b8f8d911c92bbfc261",
+                "revision": "64d34a3260d80a423cf2357e20f15cdc3ea24532",
+                "attemptedAt": "2026-11-04T10:07:12.460288+00:00",
+                "evidence": "work/daily-2026-11-04/06ffa1895da30e95-82fcd3f96abf7ca93ac40d918fd55ce0baf429c6dbd3e7b8f8d911c92bbfc261.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:12.460288+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:12.460288+00:00",
+                "status": "read"
+              },
+              "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
+                "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+                "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+                "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+                "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+                "status": "read"
+              },
+              "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27": {
+                "url": "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
+                "hash": "ee1b45fe5d2fd49d4e20d9c6de36937645a7bbcfe3f6f5cdfc9fbf6adf037eed",
+                "attemptedAt": "2026-11-04T10:07:25.943307+00:00",
+                "evidence": "work/daily-2026-11-04/3736fdc78e2be612-ee1b45fe5d2fd49d4e20d9c6de36937645a7bbcfe3f6f5cdfc9fbf6adf037eed.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:25.943307+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:25.943307+00:00",
+                "status": "read"
+              },
+              "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27": {
+                "url": "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27",
+                "hash": "10fcf06012640d4c444de8a6c890d9d93a3747caf71a0ca39861beddba59583b",
+                "attemptedAt": "2026-11-04T10:07:26.124727+00:00",
+                "evidence": "work/daily-2026-11-04/c95599286fb20196-10fcf06012640d4c444de8a6c890d9d93a3747caf71a0ca39861beddba59583b.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:26.124727+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:26.124727+00:00",
+                "status": "read"
+              }
+            },
+            "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+            "changedSources": [
+              "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
+              "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+              "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
+              "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27"
+            ],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "checkedScope": [
+              "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/5",
+              "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner"
+            ],
+            "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+            "copyUpdated": false,
+            "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
+            "reviewedSourceCount": 2,
+            "pendingReviewSources": [],
+            "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+            "blockedSources": [],
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://community.tari.com/t/396.json",
+                "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+                "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+                "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
+              },
+              {
+                "url": "https://github.com/ongwingchi-commits/ootlejuice-candy-summoner",
+                "file": "06ffa1895da30e95-82fcd3f96abf7ca93ac40d918fd55ce0baf429c6dbd3e7b8f8d911c92bbfc261.txt",
+                "hash": "82fcd3f96abf7ca93ac40d918fd55ce0baf429c6dbd3e7b8f8d911c92bbfc261",
+                "attemptedAt": "2026-11-04T10:07:12.460288+00:00",
+                "revision": "64d34a3260d80a423cf2357e20f15cdc3ea24532"
+              },
+              {
+                "url": "https://community.tari.com/t/396.json",
+                "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+                "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+                "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
+              },
+              {
+                "url": "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprpbaqs27",
+                "file": "3736fdc78e2be612-ee1b45fe5d2fd49d4e20d9c6de36937645a7bbcfe3f6f5cdfc9fbf6adf037eed.txt",
+                "hash": "ee1b45fe5d2fd49d4e20d9c6de36937645a7bbcfe3f6f5cdfc9fbf6adf037eed",
+                "attemptedAt": "2026-11-04T10:07:25.943307+00:00",
+                "httpStatus": 200
+              },
+              {
+                "url": "https://bsky.app/profile/ongwing.bsky.social/post/3mxdprqg2ic27",
+                "file": "c95599286fb20196-10fcf06012640d4c444de8a6c890d9d93a3747caf71a0ca39861beddba59583b.txt",
+                "hash": "10fcf06012640d4c444de8a6c890d9d93a3747caf71a0ca39861beddba59583b",
+                "attemptedAt": "2026-11-04T10:07:26.124727+00:00",
+                "httpStatus": 200
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/ghostkey-candy-source-review.json"
       ]
     },
     "project:ghostkey": {
@@ -7593,12 +8158,20 @@
       "title": "GhostKey",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6",
-        "https://github.com/Alex20Sas12/ghostkey"
+        "https://github.com/Alex20Sas12/ghostkey",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxblf4ilwu2l",
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxf63oiypy25",
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxhrqmydce2l",
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxhs52xtzi2b",
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxpd7yd4w22l",
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxtjdlfbdj2w",
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxtkgg6fwh2i"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T14:46:14.103Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T14:46:14.103Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
@@ -7606,61 +8179,116 @@
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete current contest stream or unchanged accepted README/releases reviewed; shared reset notice assessed for this source-only/concept entry.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/Alex20Sas12/ghostkey": {
           "url": "https://github.com/Alex20Sas12/ghostkey",
-          "hash": "4b6a86df432035960e65cd3e05c548b858272d92240b3c20c6684066fec083cb",
-          "revision": "abe3b49775f9ecb8508b4d40de60a8791b2ac249",
           "attemptedAt": "2026-11-04T10:06:51.039307+00:00",
+          "hash": "4b6a86df432035960e65cd3e05c548b858272d92240b3c20c6684066fec083cb",
           "evidence": "work/daily-2026-11-04/b5c943c64e022d88-4b6a86df432035960e65cd3e05c548b858272d92240b3c20c6684066fec083cb.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "revision": "abe3b49775f9ecb8508b4d40de60a8791b2ac249",
+          "scope": "Complete current contest stream or unchanged accepted README/releases reviewed; shared reset notice assessed for this source-only/concept entry.",
           "lastAttemptAt": "2026-11-04T10:06:51.039307+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:51.039307+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://bsky.app/profile/kata5.bsky.social/post/3mxpd7yd4w22l": {
           "url": "https://bsky.app/profile/kata5.bsky.social/post/3mxpd7yd4w22l",
+          "attemptedAt": "2026-11-04T10:06:49.176576+00:00",
           "hash": "e148c19a8a10e5a9f1afb629a6263b430525926ff92619ddaeceddbf2fe9776f",
-          "evidence": "daily-2026-10-29/772672e9b803ff20.txt",
-          "lastAttemptAt": "2026-10-29T11:13:49.185Z",
-          "lastSuccessfulReadAt": "2026-10-29T11:13:49.185Z"
+          "evidence": "work/daily-2026-11-04/772672e9b803ff20-e148c19a8a10e5a9f1afb629a6263b430525926ff92619ddaeceddbf2fe9776f.txt",
+          "scope": "Complete returned original thread with replies reviewed; Candy reply included in parent response",
+          "lastAttemptAt": "2026-11-04T10:06:49.176576+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:49.176576+00:00",
+          "status": "read"
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete current contest stream or unchanged accepted README/releases reviewed; shared reset notice assessed for this source-only/concept entry.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
+        },
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxblf4ilwu2l": {
+          "url": "https://bsky.app/profile/kata5.bsky.social/post/3mxblf4ilwu2l",
+          "attemptedAt": "2026-11-04T10:06:48.505680+00:00",
+          "hash": "401f6a3454b185b6b6c1d7d862fa840594f9e4d6b2e7a1d89c5b0282507b1503",
+          "evidence": "work/daily-2026-11-04/07c1d4f0b35eee8e-401f6a3454b185b6b6c1d7d862fa840594f9e4d6b2e7a1d89c5b0282507b1503.txt",
+          "scope": "Complete returned original thread with replies reviewed; Candy reply included in parent response",
+          "lastAttemptAt": "2026-11-04T10:06:48.505680+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.505680+00:00",
+          "status": "read"
+        },
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxf63oiypy25": {
+          "url": "https://bsky.app/profile/kata5.bsky.social/post/3mxf63oiypy25",
+          "attemptedAt": "2026-11-04T10:06:48.670826+00:00",
+          "hash": "39fe59077f9013f70dd31072c67c3c62de55fcb055032758c5497103822db3a2",
+          "evidence": "work/daily-2026-11-04/37051e12dc74778c-39fe59077f9013f70dd31072c67c3c62de55fcb055032758c5497103822db3a2.txt",
+          "scope": "Complete returned original thread with replies reviewed; Candy reply included in parent response",
+          "lastAttemptAt": "2026-11-04T10:06:48.670826+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.670826+00:00",
+          "status": "read"
+        },
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxhrqmydce2l": {
+          "url": "https://bsky.app/profile/kata5.bsky.social/post/3mxhrqmydce2l",
+          "attemptedAt": "2026-11-04T10:06:48.842211+00:00",
+          "hash": "2904e5f0e742aa6f127c0349ad5446b3a71389d9695159512cb86aa1aeaf6c52",
+          "evidence": "work/daily-2026-11-04/70b0dff3fa23c43a-2904e5f0e742aa6f127c0349ad5446b3a71389d9695159512cb86aa1aeaf6c52.txt",
+          "scope": "Complete returned original thread with replies reviewed; Candy reply included in parent response",
+          "lastAttemptAt": "2026-11-04T10:06:48.842211+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.842211+00:00",
+          "status": "read"
+        },
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxhs52xtzi2b": {
+          "url": "https://bsky.app/profile/kata5.bsky.social/post/3mxhs52xtzi2b",
+          "attemptedAt": "2026-11-04T10:06:49.010946+00:00",
+          "hash": "0d0dce8eaee787afa7110c8e21bff15bc48fa7d8b7776b6de4e5e4eb68fe7eb6",
+          "evidence": "work/daily-2026-11-04/df7b841826b24fbb-0d0dce8eaee787afa7110c8e21bff15bc48fa7d8b7776b6de4e5e4eb68fe7eb6.txt",
+          "scope": "Complete returned original thread with replies reviewed; Candy reply included in parent response",
+          "lastAttemptAt": "2026-11-04T10:06:49.010946+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:49.010946+00:00",
+          "status": "read"
+        },
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxtjdlfbdj2w": {
+          "url": "https://bsky.app/profile/kata5.bsky.social/post/3mxtjdlfbdj2w",
+          "attemptedAt": "2026-11-04T10:06:49.344739+00:00",
+          "hash": "c9370e9f5afd6fd38ef2d409a288ed29456e9a566573df25c6d536263ce27413",
+          "evidence": "work/daily-2026-11-04/8c03ec6c05532239-c9370e9f5afd6fd38ef2d409a288ed29456e9a566573df25c6d536263ce27413.txt",
+          "scope": "Complete returned original thread with replies reviewed; Candy reply included in parent response",
+          "lastAttemptAt": "2026-11-04T10:06:49.344739+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:49.344739+00:00",
+          "status": "read"
+        },
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxtkgg6fwh2i": {
+          "url": "https://bsky.app/profile/kata5.bsky.social/post/3mxtkgg6fwh2i",
+          "attemptedAt": "2026-11-04T10:06:49.517429+00:00",
+          "hash": "e1e1b8a0b6199e57f5b623c24a2ef64072573a7c6b980b99f57efd6f663c1814",
+          "evidence": "work/daily-2026-11-04/4df571bea5137092-e1e1b8a0b6199e57f5b623c24a2ef64072573a7c6b980b99f57efd6f663c1814.txt",
+          "scope": "Complete returned original thread with replies reviewed; Candy reply included in parent response",
+          "lastAttemptAt": "2026-11-04T10:06:49.517429+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:49.517429+00:00",
+          "status": "read"
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "observedAvailability": "Offline Python address-toolkit source remains reachable with unchanged README and no releases. Original submission/creator posts are unchanged; organizer republish notice does not establish a new application or online demo. Pure-Python nonconstant-time limitation remains in Details. No key generation or code execution.",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxblf4ilwu2l",
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxf63oiypy25",
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxhrqmydce2l",
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxhs52xtzi2b",
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxtjdlfbdj2w",
+        "https://bsky.app/profile/kata5.bsky.social/post/3mxtkgg6fwh2i"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6",
         "https://github.com/Alex20Sas12/ghostkey",
@@ -7673,7 +8301,6 @@
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -7694,6 +8321,119 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "reviewHistory": [
+        {
+          "preservedAt": "2026-11-04T14:46:14.103Z",
+          "record": {
+            "id": "project:ghostkey",
+            "title": "GhostKey",
+            "sources": [
+              "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6",
+              "https://github.com/Alex20Sas12/ghostkey"
+            ],
+            "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+            "outcome": "pending",
+            "reviewRequired": true,
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "sourceReviews": {
+              "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6": {
+                "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6",
+                "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+                "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+                "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+                "status": "read"
+              },
+              "https://github.com/Alex20Sas12/ghostkey": {
+                "url": "https://github.com/Alex20Sas12/ghostkey",
+                "hash": "4b6a86df432035960e65cd3e05c548b858272d92240b3c20c6684066fec083cb",
+                "revision": "abe3b49775f9ecb8508b4d40de60a8791b2ac249",
+                "attemptedAt": "2026-11-04T10:06:51.039307+00:00",
+                "evidence": "work/daily-2026-11-04/b5c943c64e022d88-4b6a86df432035960e65cd3e05c548b858272d92240b3c20c6684066fec083cb.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:06:51.039307+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:06:51.039307+00:00",
+                "status": "read"
+              },
+              "https://bsky.app/profile/kata5.bsky.social/post/3mxpd7yd4w22l": {
+                "url": "https://bsky.app/profile/kata5.bsky.social/post/3mxpd7yd4w22l",
+                "hash": "e148c19a8a10e5a9f1afb629a6263b430525926ff92619ddaeceddbf2fe9776f",
+                "evidence": "daily-2026-10-29/772672e9b803ff20.txt",
+                "lastAttemptAt": "2026-10-29T11:13:49.185Z",
+                "lastSuccessfulReadAt": "2026-10-29T11:13:49.185Z"
+              },
+              "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
+                "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+                "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+                "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+                "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+                "status": "read"
+              }
+            },
+            "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+            "changedSources": [
+              "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6",
+              "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+            ],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "checkedScope": [
+              "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/6",
+              "https://github.com/Alex20Sas12/ghostkey",
+              "https://bsky.app/profile/kata5.bsky.social/post/3mxpd7yd4w22l"
+            ],
+            "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+            "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
+            "copyUpdated": false,
+            "reviewedSourceCount": 3,
+            "pendingReviewSources": [],
+            "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+            "blockedSources": [],
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://community.tari.com/t/396.json",
+                "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+                "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+                "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
+              },
+              {
+                "url": "https://github.com/Alex20Sas12/ghostkey",
+                "file": "b5c943c64e022d88-4b6a86df432035960e65cd3e05c548b858272d92240b3c20c6684066fec083cb.txt",
+                "hash": "4b6a86df432035960e65cd3e05c548b858272d92240b3c20c6684066fec083cb",
+                "attemptedAt": "2026-11-04T10:06:51.039307+00:00",
+                "revision": "abe3b49775f9ecb8508b4d40de60a8791b2ac249"
+              },
+              {
+                "url": "https://community.tari.com/t/396.json",
+                "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+                "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+                "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/ghostkey-candy-source-review.json"
       ]
     },
     "tari-ootle:learn:official-agent-docs": {
@@ -7847,8 +8587,7 @@
           "evidence": "work/daily-2026-11-04/d40c7ab269c687b2-3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5.txt",
           "lastAttemptAt": "2026-11-04T10:09:31.738579+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:31.738579+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0": {
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
@@ -7857,8 +8596,7 @@
           "evidence": "work/daily-2026-11-04/d12d99605237793a-1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba.txt",
           "lastAttemptAt": "2026-11-04T10:09:31.469298+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:31.469298+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0": {
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0",
@@ -7867,8 +8605,7 @@
           "evidence": "work/daily-2026-11-04/d12d99605237793a-1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba.txt",
           "lastAttemptAt": "2026-11-04T10:09:31.469298+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:31.469298+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0": {
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0",
@@ -7877,8 +8614,7 @@
           "evidence": "work/daily-2026-11-04/d12d99605237793a-1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba.txt",
           "lastAttemptAt": "2026-11-04T10:09:31.469298+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:31.469298+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1": {
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1",
@@ -7887,8 +8623,7 @@
           "evidence": "work/daily-2026-11-04/d12d99605237793a-1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba.txt",
           "lastAttemptAt": "2026-11-04T10:09:31.469298+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:31.469298+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://tari-project.github.io/ootle.ts/": {
           "url": "https://tari-project.github.io/ootle.ts/",
@@ -7897,8 +8632,7 @@
           "evidence": "work/daily-2026-11-04/ootle-ts-docs-home.txt",
           "lastAttemptAt": "2026-11-04T13:51:28.816Z",
           "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://tari-project.github.io/ootle.ts/signers/external-key/": {
           "url": "https://tari-project.github.io/ootle.ts/signers/external-key/",
@@ -7907,8 +8641,7 @@
           "evidence": "work/daily-2026-11-04/ootle-ts-external-signer-docs.txt",
           "lastAttemptAt": "2026-11-04T13:51:28.816Z",
           "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.13.0": {
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.13.0",
@@ -7917,8 +8650,7 @@
           "evidence": "work/daily-2026-11-04/d12d99605237793a-1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba.txt",
           "lastAttemptAt": "2026-11-04T13:51:28.816Z",
           "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "observedAvailability": "Public SDK source and documentation reachable; version 0.13.0.",
@@ -7984,8 +8716,7 @@
               "method": "Current source fetched; semantic review and reconciliation pending",
               "lastAttemptAt": "2026-11-04T10:09:31.738579+00:00",
               "lastSuccessfulReadAt": "2026-11-04T10:09:31.738579+00:00",
-              "status": "read",
-              "error": null
+              "status": "read"
             },
             "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0": {
               "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
@@ -8309,8 +9040,7 @@
           "evidence": "work/daily-2026-11-04/0d9e167d4fe0041a-1e77eebfde04ead7de412855018d30b708b34c20dc9778398df1d065b9bd1ecd.txt",
           "lastAttemptAt": "2026-11-04T10:09:23.636305+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:23.636305+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://x.com/DNodeCapital/status/2108867690085421447": {
           "url": "https://x.com/DNodeCapital/status/2108867690085421447",
@@ -8319,8 +9049,7 @@
           "evidence": "work/daily-2026-11-04/chiron-sdk-original-x-current.txt",
           "lastAttemptAt": "2026-11-04T13:51:28.816Z",
           "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "observedAvailability": "Public SDK source and documentation reachable; version 0.2.2.",
@@ -8383,8 +9112,7 @@
               "method": "Current source fetched; semantic review and reconciliation pending",
               "lastAttemptAt": "2026-11-04T10:09:23.636305+00:00",
               "lastSuccessfulReadAt": "2026-11-04T10:09:23.636305+00:00",
-              "status": "read",
-              "error": null
+              "status": "read"
             },
             "https://x.com/DNodeCapital/status/2108867690085421447": {
               "url": "https://x.com/DNodeCapital/status/2108867690085421447",
@@ -8395,8 +9123,7 @@
               "method": "Current source fetched; semantic review and reconciliation pending",
               "lastAttemptAt": "2026-11-04T10:07:41.732658+00:00",
               "lastSuccessfulReadAt": "2026-11-04T10:07:41.732658+00:00",
-              "status": "read",
-              "error": null
+              "status": "read"
             }
           },
           "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
@@ -8606,7 +9333,6 @@
           "lastAttemptAt": "2026-11-04T10:07:12.240266+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:12.240266+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         }
@@ -8664,8 +9390,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:12.240266+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:12.240266+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -9403,7 +10128,6 @@
           "lastAttemptAt": "2026-11-04T10:07:01.768368+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:01.768368+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         }
@@ -9461,8 +10185,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:01.768368+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:01.768368+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
@@ -9569,8 +10292,7 @@
           "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:46.311923+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:46.311923+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://skydrop.tari.mw/": {
           "url": "https://skydrop.tari.mw/",
@@ -9580,8 +10302,7 @@
           "scope": "HTTP bytes plus separately reviewed current rendered page",
           "lastAttemptAt": "2026-11-04T10:07:32.914990+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:32.914990+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "lastSuccessfulReviewAt": "2026-11-04T12:42:36.977Z",
@@ -9603,7 +10324,6 @@
       "pendingReviewSources": [],
       "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
       "blockedSources": [],
-      "pendingAssessment": null,
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/429.json",
@@ -9641,8 +10361,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:06:46.311923+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:06:46.311923+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               },
               "https://skydrop.tari.mw/": {
                 "url": "https://skydrop.tari.mw/",
@@ -9653,8 +10372,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:32.914990+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:32.914990+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
@@ -11341,47 +12059,55 @@
       ]
     },
     "project:macotaur": {
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+      "lastSuccessfulReviewAt": "2026-11-04T14:42:22.549Z",
+      "observedAvailability": "Public Apple Silicon miner source and v0.1.0 macOS15+ release reachable. Release asset metadata advertises a 1,088,360-byte ZIP; app is ad-hoc signed and not notarized. No executable downloaded or run; security settings untouched.",
       "id": "project:macotaur",
       "title": "Macotaur",
       "sources": [
         "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0",
         "https://github.com/big-chief-1889/MacotaurGUI"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T14:42:22.549Z",
       "sourceReviews": {
         "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0": {
           "url": "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0",
-          "hash": "5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791",
-          "revision": "480dcca4757d8c3415670a976b5f1485cce64884",
-          "attemptedAt": "2026-10-31T09:03:12.229655+00:00",
-          "evidence": "work/daily-2026-10-31/2ed8fe5463dbe799.txt",
-          "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
-          "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
-          "lastAttemptAt": "2026-10-31T09:03:12.229655+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:12.229655+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:06:59.573437+00:00",
+          "hash": "475e23b3d56b01087fd518dd685b4271a8c7c541330c5251274755471644a4c7",
+          "evidence": "work/daily-2026-11-04/c19ddae9147cfc79-475e23b3d56b01087fd518dd685b4271a8c7c541330c5251274755471644a4c7.txt",
+          "scope": "Complete public release prose and asset metadata read from the paginated release inventory. No binary download or execution.",
+          "lastAttemptAt": "2026-11-04T10:06:59.573437+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:59.573437+00:00",
+          "status": "read"
         },
         "https://github.com/big-chief-1889/MacotaurGUI": {
           "url": "https://github.com/big-chief-1889/MacotaurGUI",
-          "hash": "5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791",
-          "revision": "480dcca4757d8c3415670a976b5f1485cce64884",
           "attemptedAt": "2026-11-04T10:06:59.857365+00:00",
+          "hash": "5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791",
           "evidence": "work/daily-2026-11-04/2ed8fe5463dbe799-5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "revision": "480dcca4757d8c3415670a976b5f1485cce64884",
+          "releaseEvidence": {
+            "url": "https://github.com/big-chief-1889/MacotaurGUI/releases",
+            "file": "c19ddae9147cfc79-475e23b3d56b01087fd518dd685b4271a8c7c541330c5251274755471644a4c7.txt",
+            "hash": "475e23b3d56b01087fd518dd685b4271a8c7c541330c5251274755471644a4c7",
+            "attemptedAt": "2026-11-04T10:06:59.573437+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "scope": "Complete current source matched accepted content",
           "lastAttemptAt": "2026-11-04T10:06:59.857365+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:59.857365+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
-      "outcome": "pending",
-      "changedSources": [],
-      "reviewRequired": true,
-      "changedFields": [],
+      "outcome": "reviewed",
+      "changedSources": [
+        "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "checkedScope": [
@@ -11392,12 +12118,9 @@
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
       "reviewedSourceCount": 2,
-      "pendingReviewSources": [
-        "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0"
-      ],
+      "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/big-chief-1889/MacotaurGUI",
@@ -11406,6 +12129,81 @@
           "attemptedAt": "2026-11-04T10:06:59.857365+00:00",
           "revision": "480dcca4757d8c3415670a976b5f1485cce64884"
         }
+      ],
+      "reviewHistory": [
+        {
+          "preservedAt": "2026-11-04T14:42:22.549Z",
+          "record": {
+            "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
+            "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+            "id": "project:macotaur",
+            "title": "Macotaur",
+            "sources": [
+              "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0",
+              "https://github.com/big-chief-1889/MacotaurGUI"
+            ],
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "sourceReviews": {
+              "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0": {
+                "url": "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0",
+                "hash": "5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791",
+                "revision": "480dcca4757d8c3415670a976b5f1485cce64884",
+                "attemptedAt": "2026-10-31T09:03:12.229655+00:00",
+                "evidence": "work/daily-2026-10-31/2ed8fe5463dbe799.txt",
+                "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
+                "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
+                "lastAttemptAt": "2026-10-31T09:03:12.229655+00:00",
+                "lastSuccessfulReadAt": "2026-10-31T09:03:12.229655+00:00",
+                "status": "pending",
+                "pendingReason": "Source read pending"
+              },
+              "https://github.com/big-chief-1889/MacotaurGUI": {
+                "url": "https://github.com/big-chief-1889/MacotaurGUI",
+                "hash": "5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791",
+                "revision": "480dcca4757d8c3415670a976b5f1485cce64884",
+                "attemptedAt": "2026-11-04T10:06:59.857365+00:00",
+                "evidence": "work/daily-2026-11-04/2ed8fe5463dbe799-5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:06:59.857365+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:06:59.857365+00:00",
+                "status": "read"
+              }
+            },
+            "outcome": "pending",
+            "changedSources": [],
+            "reviewRequired": true,
+            "changedFields": [],
+            "reviewQueue": [],
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "checkedScope": [
+              "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0",
+              "https://github.com/big-chief-1889/MacotaurGUI"
+            ],
+            "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+            "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
+            "copyUpdated": false,
+            "reviewedSourceCount": 2,
+            "pendingReviewSources": [
+              "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0"
+            ],
+            "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+            "blockedSources": [],
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://github.com/big-chief-1889/MacotaurGUI",
+                "file": "2ed8fe5463dbe799-5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791.txt",
+                "hash": "5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791",
+                "attemptedAt": "2026-11-04T10:06:59.857365+00:00",
+                "revision": "480dcca4757d8c3415670a976b5f1485cce64884"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/source-anchor-reviews.json"
       ]
     },
     "project:caravel-trade": {
@@ -13945,7 +14743,6 @@
           "lastAttemptAt": "2026-11-04T10:07:04.730929+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:04.730929+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         }
@@ -14001,8 +14798,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:04.730929+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:04.730929+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
@@ -20637,59 +21433,73 @@
         "https://github.com/sudoingX/local-ai-on-your-gaming-gpu",
         "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "lastSuccessfulReviewAt": "2026-10-31T15:30:22.999879+00:00",
-      "outcome": "pending",
-      "reviewRequired": true,
+      "lastAttemptAt": "2026-11-04T14:42:22.549Z",
+      "lastSuccessfulReviewAt": "2026-11-04T14:42:22.549Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "observedAvailability": "Public setup documentation; README, root and complete release list reviewed. No installation or inference demonstrated.",
+      "observedAvailability": "Public local-AI setup README and original forum discussion remain unchanged. Creator documents NVIDIA setup and beta Radeon support with dated measurements. No model download, installation, GPU benchmark or claimed application testing performed.",
       "sourceReviews": {
         "https://github.com/sudoingX/local-ai-on-your-gaming-gpu": {
           "url": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu",
-          "hash": "33d3b355766b096349e6a0f2a602d76c186ea5d101bf49e90fd03b5d118bab66",
-          "revision": "5417431bed0e68bc73153cb701dec49a2415e63b",
           "attemptedAt": "2026-11-04T10:07:14.140736+00:00",
+          "hash": "33d3b355766b096349e6a0f2a602d76c186ea5d101bf49e90fd03b5d118bab66",
           "evidence": "work/daily-2026-11-04/a4e784860fd1fa81-33d3b355766b096349e6a0f2a602d76c186ea5d101bf49e90fd03b5d118bab66.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "revision": "5417431bed0e68bc73153cb701dec49a2415e63b",
+          "releaseEvidence": {
+            "url": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu/releases",
+            "file": "a957bff2023b8709-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:13.886589+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "scope": "Complete current source matched accepted content",
           "lastAttemptAt": "2026-11-04T10:07:14.140736+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:14.140736+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1": {
           "url": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
-          "hash": "c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67",
           "attemptedAt": "2026-11-04T10:07:06.350227+00:00",
+          "hash": "c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67",
           "evidence": "work/daily-2026-11-04/1e267faeb98b25a3-c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete current source matched accepted content",
           "lastAttemptAt": "2026-11-04T10:07:06.350227+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.350227+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/sudoingX/local-ai-on-your-gaming-gpu#readme": {
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "url": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu#readme",
+          "attemptedAt": "2026-11-04T10:07:14.140736+00:00",
+          "hash": "33d3b355766b096349e6a0f2a602d76c186ea5d101bf49e90fd03b5d118bab66",
+          "evidence": "work/daily-2026-11-04/a4e784860fd1fa81-33d3b355766b096349e6a0f2a602d76c186ea5d101bf49e90fd03b5d118bab66.txt",
+          "revision": "5417431bed0e68bc73153cb701dec49a2415e63b",
+          "releaseEvidence": {
+            "url": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu/releases",
+            "file": "a957bff2023b8709-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:13.886589+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "scope": "README anchor resolves to the same complete unchanged document.",
+          "lastAttemptAt": "2026-11-04T10:07:14.140736+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:14.140736+00:00",
+          "status": "read"
         }
       },
       "blockedSources": [],
       "pendingReviewSources": [],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "changedSources": [
-        "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1"
+        "https://github.com/sudoingX/local-ai-on-your-gaming-gpu#readme"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu",
@@ -20704,6 +21514,88 @@
           "hash": "c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67",
           "attemptedAt": "2026-11-04T10:07:06.350227+00:00"
         }
+      ],
+      "reviewHistory": [
+        {
+          "preservedAt": "2026-11-04T14:42:22.549Z",
+          "record": {
+            "id": "tari-ootle:learn:local-ai-gpu",
+            "title": "Local AI on a gaming GPU",
+            "sources": [
+              "https://github.com/sudoingX/local-ai-on-your-gaming-gpu",
+              "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1"
+            ],
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "lastSuccessfulReviewAt": "2026-10-31T15:30:22.999879+00:00",
+            "outcome": "pending",
+            "reviewRequired": true,
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "observedAvailability": "Public setup documentation; README, root and complete release list reviewed. No installation or inference demonstrated.",
+            "sourceReviews": {
+              "https://github.com/sudoingX/local-ai-on-your-gaming-gpu": {
+                "url": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu",
+                "hash": "33d3b355766b096349e6a0f2a602d76c186ea5d101bf49e90fd03b5d118bab66",
+                "revision": "5417431bed0e68bc73153cb701dec49a2415e63b",
+                "attemptedAt": "2026-11-04T10:07:14.140736+00:00",
+                "evidence": "work/daily-2026-11-04/a4e784860fd1fa81-33d3b355766b096349e6a0f2a602d76c186ea5d101bf49e90fd03b5d118bab66.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:14.140736+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:14.140736+00:00",
+                "status": "read"
+              },
+              "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1": {
+                "url": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+                "hash": "c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67",
+                "attemptedAt": "2026-11-04T10:07:06.350227+00:00",
+                "evidence": "work/daily-2026-11-04/1e267faeb98b25a3-c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:06.350227+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:06.350227+00:00",
+                "status": "read"
+              },
+              "https://github.com/sudoingX/local-ai-on-your-gaming-gpu#readme": {
+                "status": "pending",
+                "pendingReason": "Source read pending"
+              }
+            },
+            "blockedSources": [],
+            "pendingReviewSources": [],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "changedSources": [
+              "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1"
+            ],
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://github.com/sudoingX/local-ai-on-your-gaming-gpu",
+                "file": "a4e784860fd1fa81-33d3b355766b096349e6a0f2a602d76c186ea5d101bf49e90fd03b5d118bab66.txt",
+                "hash": "33d3b355766b096349e6a0f2a602d76c186ea5d101bf49e90fd03b5d118bab66",
+                "attemptedAt": "2026-11-04T10:07:14.140736+00:00",
+                "revision": "5417431bed0e68bc73153cb701dec49a2415e63b"
+              },
+              {
+                "url": "https://community.tari.com/t/507.json",
+                "file": "1e267faeb98b25a3-c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67.txt",
+                "hash": "c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67",
+                "attemptedAt": "2026-11-04T10:07:06.350227+00:00"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/source-anchor-reviews.json"
       ]
     },
     "project:ghost-lantern": {
@@ -20728,7 +21620,6 @@
           "lastAttemptAt": "2026-11-04T10:07:12.911744+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:12.911744+00:00",
           "status": "read",
-          "error": null,
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source content compared with retained accepted content; linked browser destinations inspected where applicable. See acceptance receipt for exact scope."
         }
@@ -20779,8 +21670,7 @@
                 "method": "Current source fetched; semantic review and reconciliation pending",
                 "lastAttemptAt": "2026-11-04T10:07:12.911744+00:00",
                 "lastSuccessfulReadAt": "2026-11-04T10:07:12.911744+00:00",
-                "status": "read",
-                "error": null
+                "status": "read"
               }
             },
             "observedAvailability": "source-only educational prototype",
@@ -21860,48 +22750,59 @@
         "https://github.com/tari-project/cw_tari_wallet",
         "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T14:26:03.116Z",
       "sourceReviews": {
         "https://github.com/tari-project/cw_tari_wallet": {
           "url": "https://github.com/tari-project/cw_tari_wallet",
-          "hash": "5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822",
-          "revision": "6d4c9757731e60ef298bd16c852ccceb9e084186",
           "attemptedAt": "2026-11-04T10:09:29.865999+00:00",
+          "hash": "5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822",
           "evidence": "work/daily-2026-11-04/446f415387a0d5a8-5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "revision": "6d4c9757731e60ef298bd16c852ccceb9e084186",
+          "releaseEvidence": {
+            "url": "https://github.com/tari-project/cw_tari_wallet/releases",
+            "file": "ea27623b22a17faa-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:09:29.605537+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "scope": "Complete current README; anchor refers to the same read document. Complete release inventory checked; no releases.",
           "lastAttemptAt": "2026-11-04T10:09:29.865999+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:29.865999+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet": {
           "url": "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet",
+          "attemptedAt": "2026-11-04T10:09:29.865999+00:00",
           "hash": "5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822",
-          "evidence": "work/daily-2026-10-31/801ff7b0899d38a1-5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822.txt",
-          "attemptedAt": "2026-11-02T19:13:18.529785+00:00",
+          "evidence": "work/daily-2026-11-04/446f415387a0d5a8-5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822.txt",
           "revision": "6d4c9757731e60ef298bd16c852ccceb9e084186",
-          "method": "Full public README reviewed; current bytes matched retained accepted README.",
-          "releaseEvidence": "work/daily-2026-10-31/e0a6c0d767d46758-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
-          "lastAttemptAt": "2026-11-02T19:13:18.529785+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T19:13:18.529785+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "releaseEvidence": {
+            "url": "https://github.com/tari-project/cw_tari_wallet/releases",
+            "file": "ea27623b22a17faa-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:09:29.605537+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "scope": "Complete current README; anchor refers to the same read document. Complete release inventory checked; no releases.",
+          "lastAttemptAt": "2026-11-04T10:09:29.865999+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:09:29.865999+00:00",
+          "status": "read"
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-      "observedAvailability": "Source code · Flutter / Rust",
-      "outcome": "pending",
-      "pendingReviewSources": [
-        "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet"
-      ],
+      "lastSuccessfulReviewAt": "2026-11-04T14:26:03.116Z",
+      "observedAvailability": "Flutter/Rust L1 wallet bridge source reachable, BSD-family Tari source licensing; README documents frozen Dart API consumed by Cake Wallet and additive-change/codegen requirements. No GitHub releases or hosted demo claimed.",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/tari-project/cw_tari_wallet",
@@ -21910,6 +22811,74 @@
           "attemptedAt": "2026-11-04T10:09:29.865999+00:00",
           "revision": "6d4c9757731e60ef298bd16c852ccceb9e084186"
         }
+      ],
+      "reviewHistory": [
+        {
+          "preservedAt": "2026-11-04T14:26:03.116Z",
+          "reason": "Prior source state retained",
+          "record": {
+            "id": "tari-ootle:learn:cw-tari-wallet",
+            "title": "Cake Wallet Tari L1 backend",
+            "canonicalResourceId": "cw-tari-wallet",
+            "sources": [
+              "https://github.com/tari-project/cw_tari_wallet",
+              "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet"
+            ],
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "sourceReviews": {
+              "https://github.com/tari-project/cw_tari_wallet": {
+                "url": "https://github.com/tari-project/cw_tari_wallet",
+                "hash": "5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822",
+                "revision": "6d4c9757731e60ef298bd16c852ccceb9e084186",
+                "attemptedAt": "2026-11-04T10:09:29.865999+00:00",
+                "evidence": "work/daily-2026-11-04/446f415387a0d5a8-5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:09:29.865999+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:09:29.865999+00:00",
+                "status": "read"
+              },
+              "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet": {
+                "url": "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet",
+                "hash": "5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822",
+                "evidence": "work/daily-2026-10-31/801ff7b0899d38a1-5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822.txt",
+                "attemptedAt": "2026-11-02T19:13:18.529785+00:00",
+                "revision": "6d4c9757731e60ef298bd16c852ccceb9e084186",
+                "method": "Full public README reviewed; current bytes matched retained accepted README.",
+                "releaseEvidence": "work/daily-2026-10-31/e0a6c0d767d46758-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+                "lastAttemptAt": "2026-11-02T19:13:18.529785+00:00",
+                "lastSuccessfulReadAt": "2026-11-02T19:13:18.529785+00:00",
+                "status": "pending",
+                "pendingReason": "Source read pending"
+              }
+            },
+            "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
+            "observedAvailability": "Source code · Flutter / Rust",
+            "outcome": "pending",
+            "pendingReviewSources": [
+              "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet"
+            ],
+            "blockedSources": [],
+            "changedSources": [],
+            "reviewRequired": true,
+            "changedFields": [],
+            "reviewQueue": [],
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://github.com/tari-project/cw_tari_wallet",
+                "file": "446f415387a0d5a8-5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822.txt",
+                "hash": "5652c0ab42631c656cfa13b6f1e4bc80c9bcaa03978655faf6b5e330cfb86822",
+                "attemptedAt": "2026-11-04T10:09:29.865999+00:00",
+                "revision": "6d4c9757731e60ef298bd16c852ccceb9e084186"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/cake-bridge-source-review.json"
       ]
     },
     "tari-ootle:learn:cw-tari-ootle-wallet": {
@@ -21920,48 +22889,59 @@
         "https://github.com/tari-project/cw_tari_ootle_wallet",
         "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T14:26:03.116Z",
       "sourceReviews": {
         "https://github.com/tari-project/cw_tari_ootle_wallet": {
           "url": "https://github.com/tari-project/cw_tari_ootle_wallet",
-          "hash": "dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4",
-          "revision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
           "attemptedAt": "2026-11-04T10:09:29.178556+00:00",
+          "hash": "dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4",
           "evidence": "work/daily-2026-11-04/cdae3a5efbb8aab7-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "revision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
+          "releaseEvidence": {
+            "url": "https://github.com/tari-project/cw_tari_ootle_wallet/releases",
+            "file": "c3f6ebd2bce3efec-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:09:28.925363+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "scope": "Complete current README; anchor refers to the same read document. Complete release inventory checked; no releases.",
           "lastAttemptAt": "2026-11-04T10:09:29.178556+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:29.178556+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet": {
           "url": "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet",
+          "attemptedAt": "2026-11-04T10:09:29.178556+00:00",
           "hash": "dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4",
-          "evidence": "work/daily-2026-10-31/e7edf2847a2a0b71-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
-          "attemptedAt": "2026-11-02T19:13:18.530170+00:00",
+          "evidence": "work/daily-2026-11-04/cdae3a5efbb8aab7-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
           "revision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
-          "method": "Full public README reviewed; current bytes matched retained accepted README.",
-          "releaseEvidence": "work/daily-2026-10-31/3a2f2c31db0de96a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
-          "lastAttemptAt": "2026-11-02T19:13:18.530170+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T19:13:18.530170+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "releaseEvidence": {
+            "url": "https://github.com/tari-project/cw_tari_ootle_wallet/releases",
+            "file": "c3f6ebd2bce3efec-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:09:28.925363+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "scope": "Complete current README; anchor refers to the same read document. Complete release inventory checked; no releases.",
+          "lastAttemptAt": "2026-11-04T10:09:29.178556+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:09:29.178556+00:00",
+          "status": "read"
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-      "observedAvailability": "Source code · Testnet · v0.47 pins",
-      "outcome": "pending",
-      "pendingReviewSources": [
-        "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet"
-      ],
+      "lastSuccessfulReviewAt": "2026-11-04T14:26:03.116Z",
+      "observedAvailability": "Flutter/Rust Ootle wallet bridge source reachable, BSD-3-Clause. README describes Esmeralda-only support and documents its v0.47 pins; these dated creator statements are not a current mainnet availability or compatibility certification. No GitHub releases found.",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/tari-project/cw_tari_ootle_wallet",
@@ -21970,6 +22950,74 @@
           "attemptedAt": "2026-11-04T10:09:29.178556+00:00",
           "revision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b"
         }
+      ],
+      "reviewHistory": [
+        {
+          "preservedAt": "2026-11-04T14:26:03.116Z",
+          "reason": "Prior source state retained",
+          "record": {
+            "id": "tari-ootle:learn:cw-tari-ootle-wallet",
+            "title": "Cake Wallet Ootle backend",
+            "canonicalResourceId": "cw-tari-ootle-wallet",
+            "sources": [
+              "https://github.com/tari-project/cw_tari_ootle_wallet",
+              "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet"
+            ],
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "sourceReviews": {
+              "https://github.com/tari-project/cw_tari_ootle_wallet": {
+                "url": "https://github.com/tari-project/cw_tari_ootle_wallet",
+                "hash": "dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4",
+                "revision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
+                "attemptedAt": "2026-11-04T10:09:29.178556+00:00",
+                "evidence": "work/daily-2026-11-04/cdae3a5efbb8aab7-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:09:29.178556+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:09:29.178556+00:00",
+                "status": "read"
+              },
+              "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet": {
+                "url": "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet",
+                "hash": "dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4",
+                "evidence": "work/daily-2026-10-31/e7edf2847a2a0b71-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
+                "attemptedAt": "2026-11-02T19:13:18.530170+00:00",
+                "revision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
+                "method": "Full public README reviewed; current bytes matched retained accepted README.",
+                "releaseEvidence": "work/daily-2026-10-31/3a2f2c31db0de96a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+                "lastAttemptAt": "2026-11-02T19:13:18.530170+00:00",
+                "lastSuccessfulReadAt": "2026-11-02T19:13:18.530170+00:00",
+                "status": "pending",
+                "pendingReason": "Source read pending"
+              }
+            },
+            "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
+            "observedAvailability": "Source code · Testnet · v0.47 pins",
+            "outcome": "pending",
+            "pendingReviewSources": [
+              "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet"
+            ],
+            "blockedSources": [],
+            "changedSources": [],
+            "reviewRequired": true,
+            "changedFields": [],
+            "reviewQueue": [],
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://github.com/tari-project/cw_tari_ootle_wallet",
+                "file": "cdae3a5efbb8aab7-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
+                "hash": "dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4",
+                "attemptedAt": "2026-11-04T10:09:29.178556+00:00",
+                "revision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/cake-bridge-source-review.json"
       ]
     },
     "tari-ootle:learn:minotari-cli-release": {
@@ -23118,8 +24166,7 @@
           "scope": "Complete available original topic with all replies and edits; creator post individually read.",
           "lastAttemptAt": "2026-11-04T10:06:48.884212+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:48.884212+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://rajeshmullippa-collab.github.io/2026/11/03/first-ootle-template-line-by-line.html": {
           "url": "https://rajeshmullippa-collab.github.io/2026/11/03/first-ootle-template-line-by-line.html",
@@ -23129,8 +24176,7 @@
           "scope": "Entire public article read in supported browser; descriptive listing checked against cited current official documentation.",
           "lastAttemptAt": "2026-11-04T13:15:23.857Z",
           "lastSuccessfulReadAt": "2026-11-04T13:15:23.857Z",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "lastSuccessfulReviewAt": "2026-11-04T13:15:23.857Z",
@@ -23166,8 +24212,7 @@
           "scope": "Complete available original topic with all replies and edits; creator post individually read.",
           "lastAttemptAt": "2026-11-04T10:06:48.884212+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:48.884212+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://medium.com/@shelleymae/i-looked-into-taris-privacy-architecture-here-s-what-a-blockchain-can-actually-hide-6493f18c6fd2": {
           "url": "https://medium.com/@shelleymae/i-looked-into-taris-privacy-architecture-here-s-what-a-blockchain-can-actually-hide-6493f18c6fd2",
@@ -23177,8 +24222,7 @@
           "scope": "Entire public article read in supported browser; descriptive listing checked against cited current official documentation.",
           "lastAttemptAt": "2026-11-04T13:15:23.857Z",
           "lastSuccessfulReadAt": "2026-11-04T13:15:23.857Z",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "lastSuccessfulReviewAt": "2026-11-04T13:15:23.857Z",
@@ -23196,6 +24240,31 @@
       ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z"
+    },
+    "project:quiet-ticket": {
+      "id": "project:quiet-ticket",
+      "title": "QuietTicket",
+      "sources": [
+        "https://community.tari.com/t/november-build-contest-thread-mvp/520/3",
+        "https://bsky.app/profile/hycorange.bsky.social/post/3mzevpzdthk2l",
+        "https://github.com/hycorange/quiet-ticket",
+        "https://hycorange.github.io/quiet-ticket/",
+        "https://github.com/hycorange/quiet-ticket/blob/0396a481a73d8de3597e156ad03f3aba087c8fdd/docs/THREAT-MODEL.md"
+      ],
+      "lastAttemptAt": "2026-11-04T10:19:56.895398+00:00",
+      "lastSuccessfulReviewAt": "2026-11-04T10:19:56.895398+00:00",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "observedAvailability": "Community voting prototype with one-time claim tickets, sealed ballots and a reveal tally. November 4 source and public demo review: the browser simulation creates polls, mints and claims tickets, casts a ballot, rejects a repeated vote and reveals the tally. The Rust Ootle template scaffold is MIT-licensed; the creator describes a future Esmeralda/Sapient path, with no live deployment claimed in the reviewed submission. The threat model notes that the simulation reveal key is held in-page and ticket links are bearer credentials. The recording shows the browser simulation, not network transactions or a privacy/security certification.",
+      "sourceReviews": {},
+      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "evidence": "work/daily-2026-11-04/quiet-ticket-source-review.json",
+      "reviewQueue": [],
+      "canonicalId": "project:quiet-ticket",
+      "aliases": [
+        "tari-ootle:component:quiet-ticket"
+      ],
+      "aliasEvidence": "work/daily-2026-11-04/quiet-ticket-canonical-alias.json"
     }
   },
   "resourceReviewSummary": {
@@ -25574,8 +26643,8 @@
     }
   ],
   "publicExport": {
-    "preparedAt": "2026-11-03T16:00:05.259492+00:00",
-    "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
+    "preparedAt": "2026-11-04T14:54:54.803418+00:00",
+    "scope": "Selected completed public resource reviews and attempted public discovery sources synchronized. Unreviewed checkpoints preserved; full run remains incomplete. Private evidence remains outside Git."
   },
   "lastAttemptAt": "2026-11-04T11:59:29.167Z",
   "currentRunStatus": "in-progress",
