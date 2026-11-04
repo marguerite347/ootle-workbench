@@ -386,6 +386,9 @@ const RemixApp = (props: IRemixAppUi) => {
                     data-id="remixIdeSidePanel"
                     className={`sidepanel border-end ${hideSidePanel ? 'd-none' : ''}`}
                   >
+                    <button className="ootle-mobile-sidebar-close" onClick={() => props.app.sidePanel.togglePanel()}>
+                      Close side panel
+                    </button>
                     {props.app.sidePanel.render()}
                   </div>
                   <DragBar
