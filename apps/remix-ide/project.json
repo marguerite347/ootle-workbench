@@ -30,6 +30,7 @@
       "defaultConfiguration": "development",
       "options": {
         "compiler": "babel",
+        "memoryLimit": 4096,
         "outputPath": "dist/apps/remix-ide",
         "index": "apps/remix-ide/src/index.html",
         "baseHref": "/",

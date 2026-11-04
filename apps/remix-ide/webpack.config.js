@@ -8,6 +8,7 @@ const TerserPlugin = require('terser-webpack-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const path = require('path')
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const { FailOnTypecheckErrorPlugin } = require('../../tools/security/typecheck-failure.cjs')
 
 const versionData = {
   version: version,
@@ -189,6 +190,7 @@ module.exports = composePlugins(withNx(), withReact(), (config) => {
 
   // add copy & provide plugin
   config.plugins.push(
+    new FailOnTypecheckErrorPlugin(),
     new CopyPlugin({
       patterns: [
         {
