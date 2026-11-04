@@ -33,14 +33,17 @@
 .ootle-home #ecosystem-resources{container-type:inline-size;container-name:ootle-catalog}
 @container ootle-catalog (min-width:600px){.ootle-resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
-/* Tari tools use the available phone width; the existing panel toggle restores Home. */
+/* Phone panels occupy one readable surface; the existing toggle restores Home. */
+.ootle-mobile-sidebar-close{display:none}
 .ootle-tools .ootle-mobile-panel-close{display:none}
 @media(max-width:750px){
-  .remixIDE #side-panel:has(.plugItIn.active .ootle-tools){position:absolute;inset:0 0 0 50px;width:calc(100% - 50px)!important;max-width:none;min-width:0;z-index:20;background:var(--bs-body-bg,#222336)}
-  .remixIDE:has(#side-panel:not(.d-none) .plugItIn.active .ootle-tools) #main-panel{visibility:hidden}
-  .remixIDE:has(#side-panel .plugItIn.active .ootle-tools) #sidepanel-dragbar-draggable{display:none}
+  .remixIDE #side-panel{position:absolute;inset:0 0 0 50px;width:calc(100% - 50px)!important;max-width:none;min-width:0;z-index:20;background:var(--bs-body-bg,#222336);flex-direction:column}
+  .remixIDE #side-panel>.panel{flex:1;min-height:0;position:relative}
+  .remixIDE:has(#side-panel:not(.d-none)) #main-panel{visibility:hidden}
+  .remixIDE #sidepanel-dragbar-draggable{display:none}
+  .ootle-mobile-sidebar-close{display:block;flex-shrink:0;align-self:flex-end;min-height:2.75rem;margin:.5rem;padding:.5rem .75rem;border:1px solid var(--secondary,#594879);border-radius:5px;background:var(--light,#302b42);color:var(--text,#eee);font-size:.875rem}
+  .ootle-mobile-sidebar-close:focus-visible{outline:2px solid #cced00;outline-offset:2px}
   .ootle-tools{min-width:0}
   .ootle-tools button{min-height:2.75rem}
   .ootle-tools p{font-size:.875rem}
-  .ootle-tools .ootle-mobile-panel-close{display:block;margin:0 0 .75rem auto}
 }
