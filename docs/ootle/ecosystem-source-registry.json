@@ -13290,28 +13290,25 @@
         "https://github.com/AduAkorful/ghostline",
         "https://ghostline-ui.vercel.app/play.html"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T17:08:16.831Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
+          "attemptedAt": "2026-11-04T10:06:46.678420+00:00",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "scope": "Current original/source read; archived pinned quickstart remains historical guidance, not current network deployment proof.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678420+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678420+00:00",
           "status": "read",
           "error": null
         },
         "https://github.com/AduAkorful/ghostline": {
           "url": "https://github.com/AduAkorful/ghostline",
-          "hash": "6860e0b61f96101cdf230296c4eb9c3f95d1679a0c9bbb4f30d28e0896bc0186",
-          "revision": "5c31fa39e71185fa051ad888485a922256aa4fff",
           "attemptedAt": "2026-11-04T10:06:51.145518+00:00",
+          "hash": "6860e0b61f96101cdf230296c4eb9c3f95d1679a0c9bbb4f30d28e0896bc0186",
           "evidence": "work/daily-2026-11-04/e345ac63ce213e0c-6860e0b61f96101cdf230296c4eb9c3f95d1679a0c9bbb4f30d28e0896bc0186.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Current original/source read; archived pinned quickstart remains historical guidance, not current network deployment proof.",
           "lastAttemptAt": "2026-11-04T10:06:51.145518+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:51.145518+00:00",
           "status": "read",
@@ -13340,13 +13337,12 @@
         },
         "https://ghostline-ui.vercel.app/play.html": {
           "url": "https://ghostline-ui.vercel.app/play.html",
-          "hash": "5c9f2b9103777d1fd677aece94452f1f0894216ffbfb2628a35b55d855f2e46d",
-          "attemptedAt": "2026-11-04T10:07:27.247730+00:00",
-          "evidence": "work/daily-2026-11-04/b97298d48a9aa8c8-5c9f2b9103777d1fd677aece94452f1f0894216ffbfb2628a35b55d855f2e46d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:27.247730+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:27.247730+00:00",
+          "attemptedAt": "2026-11-04T11:00:30.990743+00:00",
+          "hash": "6a1530bba84ab9dfd1450b5930d7ce74c9ec37d6c508a08b818b7418b8d50338",
+          "evidence": "work/daily-2026-11-04/ghostline-simulation.txt",
+          "scope": "Current original/source read; archived pinned quickstart remains historical guidance, not current network deployment proof.",
+          "lastAttemptAt": "2026-11-04T11:00:30.990743+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T11:00:30.990743+00:00",
           "status": "read",
           "error": null
         },
@@ -13407,30 +13403,17 @@
           "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T14:02:16.512Z",
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-04T17:08:16.831Z",
+      "observedAvailability": "Pay-per-call channels for AI agents using cumulative off-chain vouchers and one settlement. November 4 review of the public demo observed five simulated calls and an overspend rejection; the refreshed recording shows only that walletless browser flow. Its displayed transaction is separately labeled creator evidence. The creator updated the original submission on November 3 after the Esmeralda reset, replacing retired October transaction links with a new template and recorded Sapient run. The site evidence page lists a separate November 3 run; call counts are service-ledger claims, not chain proof. Optional live mode requires Sapient 0.7.1 or later and a custodial relay that holds a 51 µT test deposit through settlement or refund. Fees, timing and requests remain visible. No wallet action, relay deposit, CLI execution or independent chain validation was performed in this review. The v0.4.0 CLI binaries support Linux x86-64 with glibc. Earlier recordings and transaction URLs remain in the maintenance history. Original Reddit discussion and two comments, Bluesky original with zero replies, and official X feature post with all five replies reviewed. Questions about timeout retries and channel expiry are retained as questions, not verified functionality. The pinned v0.3.2 quickstart remains historical operator guidance; no commands were executed.",
+      "outcome": "reviewed",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
-        "https://github.com/AduAkorful/ghostline",
-        "https://ghostline-ui.vercel.app/play.html",
-        "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/",
-        "https://ghostline-ui.vercel.app/evidence.html",
-        "https://bsky.app/profile/tariproject.bsky.social/post/3myzd2ybfnq2t",
-        "https://x.com/tari/status/2115790755323134073",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://ghostline-ui.vercel.app/play.html"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "checkedScope": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
@@ -13502,6 +13485,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/ghostline-full-source-acceptance.json"
       ]
     },
     "tari-ootle:integration:ghostline": {
@@ -13518,28 +13504,25 @@
         "https://ghostline-ui.vercel.app/evidence.html",
         "https://bsky.app/profile/tariproject.bsky.social/post/3myzd2ybfnq2t"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T17:08:16.831Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
+          "attemptedAt": "2026-11-04T10:06:46.678420+00:00",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "scope": "Current original/source read; archived pinned quickstart remains historical guidance, not current network deployment proof.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678420+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678420+00:00",
           "status": "read",
           "error": null
         },
         "https://github.com/AduAkorful/ghostline": {
           "url": "https://github.com/AduAkorful/ghostline",
-          "hash": "6860e0b61f96101cdf230296c4eb9c3f95d1679a0c9bbb4f30d28e0896bc0186",
-          "revision": "5c31fa39e71185fa051ad888485a922256aa4fff",
           "attemptedAt": "2026-11-04T10:06:51.145518+00:00",
+          "hash": "6860e0b61f96101cdf230296c4eb9c3f95d1679a0c9bbb4f30d28e0896bc0186",
           "evidence": "work/daily-2026-11-04/e345ac63ce213e0c-6860e0b61f96101cdf230296c4eb9c3f95d1679a0c9bbb4f30d28e0896bc0186.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Current original/source read; archived pinned quickstart remains historical guidance, not current network deployment proof.",
           "lastAttemptAt": "2026-11-04T10:06:51.145518+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:51.145518+00:00",
           "status": "read",
@@ -13547,13 +13530,12 @@
         },
         "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/": {
           "url": "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/",
-          "hash": "e6f9f81632da67b32f7fd4f42976c15babc8c539fbb19e44c956c8150e3e3d2a",
-          "attemptedAt": "2026-11-04T10:07:35.837005+00:00",
-          "evidence": "work/daily-2026-11-04/29c74116bba07253-e6f9f81632da67b32f7fd4f42976c15babc8c539fbb19e44c956c8150e3e3d2a.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:35.837005+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:35.837005+00:00",
+          "attemptedAt": "2026-11-04T11:00:30.990743+00:00",
+          "hash": "6980bd71e4975a7189af3f37a6fe15650255f504aff6e31a0bc4ec406bb41879",
+          "evidence": "work/daily-2026-11-04/ghostline-reddit-new-comments.txt",
+          "scope": "Current original/source read; archived pinned quickstart remains historical guidance, not current network deployment proof.",
+          "lastAttemptAt": "2026-11-04T11:00:30.990743+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T11:00:30.990743+00:00",
           "status": "read",
           "error": null
         },
@@ -13578,73 +13560,67 @@
         },
         "https://github.com/AduAkorful/ghostline/blob/0b0ff7dfc5f8a774a5f8176c375b191492757b00/docs/quickstart.md#guided-esmeralda-demo": {
           "url": "https://github.com/AduAkorful/ghostline/blob/0b0ff7dfc5f8a774a5f8176c375b191492757b00/docs/quickstart.md#guided-esmeralda-demo",
-          "hash": "70bb4f300823c360e68f720abdf5665a7f21b61c1bd1fc555e3f4fcdaff5e71c",
-          "revision": "166c538d3dfdceb0d14d779c87bab13565533596",
-          "attemptedAt": "2026-10-31T09:02:57.837353+00:00",
-          "evidence": "work/daily-2026-10-31/e345ac63ce213e0c.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:02:57.837353+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:02:57.837353+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T17:06:58.160735+00:00",
+          "hash": "756deaeca9293e7917e056a0509bc33c5f7f5bed3b2995398af0f39f3348b1c9",
+          "evidence": "work/daily-2026-11-04/ghostline-pinned-quickstart-756deaeca9293e7917e056a0509bc33c5f7f5bed3b2995398af0f39f3348b1c9.json",
+          "scope": "Current original/source read; archived pinned quickstart remains historical guidance, not current network deployment proof.",
+          "lastAttemptAt": "2026-11-04T17:06:58.160735+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T17:06:58.160735+00:00",
+          "status": "read",
+          "error": null
         },
         "https://ghostline-ui.vercel.app/play.html": {
           "url": "https://ghostline-ui.vercel.app/play.html",
-          "hash": "5c9f2b9103777d1fd677aece94452f1f0894216ffbfb2628a35b55d855f2e46d",
-          "attemptedAt": "2026-11-04T10:07:27.247730+00:00",
-          "evidence": "work/daily-2026-11-04/b97298d48a9aa8c8-5c9f2b9103777d1fd677aece94452f1f0894216ffbfb2628a35b55d855f2e46d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:27.247730+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:27.247730+00:00",
+          "attemptedAt": "2026-11-04T11:00:30.990743+00:00",
+          "hash": "6a1530bba84ab9dfd1450b5930d7ce74c9ec37d6c508a08b818b7418b8d50338",
+          "evidence": "work/daily-2026-11-04/ghostline-simulation.txt",
+          "scope": "Current original/source read; archived pinned quickstart remains historical guidance, not current network deployment proof.",
+          "lastAttemptAt": "2026-11-04T11:00:30.990743+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T11:00:30.990743+00:00",
           "status": "read",
           "error": null
         },
         "https://github.com/AduAkorful/ghostline/releases/tag/v0.3.2": {
           "url": "https://github.com/AduAkorful/ghostline/releases/tag/v0.3.2",
-          "hash": "70bb4f300823c360e68f720abdf5665a7f21b61c1bd1fc555e3f4fcdaff5e71c",
-          "revision": "166c538d3dfdceb0d14d779c87bab13565533596",
-          "attemptedAt": "2026-10-31T09:02:57.837353+00:00",
-          "evidence": "work/daily-2026-10-31/e345ac63ce213e0c.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:02:57.837353+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:02:57.837353+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:06:50.839730+00:00",
+          "hash": "3caeb7cf47b75bcbd88063dc787502cab85772cdcfd986e41b139b7d5d8e9e83",
+          "evidence": "work/daily-2026-11-04/e57fa18d28866fbe-3caeb7cf47b75bcbd88063dc787502cab85772cdcfd986e41b139b7d5d8e9e83.txt",
+          "scope": "Current original/source read; archived pinned quickstart remains historical guidance, not current network deployment proof.",
+          "lastAttemptAt": "2026-11-04T10:06:50.839730+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:50.839730+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/AduAkorful/ghostline/releases/tag/v0.4.0": {
           "url": "https://github.com/AduAkorful/ghostline/releases/tag/v0.4.0",
-          "hash": "70bb4f300823c360e68f720abdf5665a7f21b61c1bd1fc555e3f4fcdaff5e71c",
-          "revision": "166c538d3dfdceb0d14d779c87bab13565533596",
-          "attemptedAt": "2026-10-31T09:02:57.837353+00:00",
-          "evidence": "work/daily-2026-10-31/e345ac63ce213e0c.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:02:57.837353+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:02:57.837353+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:06:50.839730+00:00",
+          "hash": "3caeb7cf47b75bcbd88063dc787502cab85772cdcfd986e41b139b7d5d8e9e83",
+          "evidence": "work/daily-2026-11-04/e57fa18d28866fbe-3caeb7cf47b75bcbd88063dc787502cab85772cdcfd986e41b139b7d5d8e9e83.txt",
+          "scope": "Current original/source read; archived pinned quickstart remains historical guidance, not current network deployment proof.",
+          "lastAttemptAt": "2026-11-04T10:06:50.839730+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:50.839730+00:00",
+          "status": "read",
+          "error": null
         },
         "https://ghostline-ui.vercel.app/evidence.html": {
           "url": "https://ghostline-ui.vercel.app/evidence.html",
-          "hash": "42ce23cd8bf13eae878386e447252858b8b2a2fe3887d0440525d245e902243d",
-          "attemptedAt": "2026-11-04T10:07:27.213558+00:00",
-          "evidence": "work/daily-2026-11-04/ebafd88459e1dfa0-42ce23cd8bf13eae878386e447252858b8b2a2fe3887d0440525d245e902243d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:27.213558+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:27.213558+00:00",
+          "attemptedAt": "2026-11-04T11:00:30.990743+00:00",
+          "hash": "4ae4fa54ecb884656d5949ef45c461667bf883fc3436be9a3a7b407c75afe624",
+          "evidence": "work/daily-2026-11-04/ghostline-evidence.txt",
+          "scope": "Current original/source read; archived pinned quickstart remains historical guidance, not current network deployment proof.",
+          "lastAttemptAt": "2026-11-04T11:00:30.990743+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T11:00:30.990743+00:00",
           "status": "read",
           "error": null
         },
         "https://bsky.app/profile/tariproject.bsky.social/post/3myzd2ybfnq2t": {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3myzd2ybfnq2t",
-          "hash": "beefe5078f856d485abffc654e6302961339d001ec5047eccf6e8c4c8c0f5fed",
-          "attemptedAt": "2026-11-04T10:07:26.705539+00:00",
-          "evidence": "work/daily-2026-11-04/7080a9b53efafec7-beefe5078f856d485abffc654e6302961339d001ec5047eccf6e8c4c8c0f5fed.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.705539+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.705539+00:00",
+          "attemptedAt": "2026-11-04T10:06:56.755874+00:00",
+          "hash": "07914f80e41ab1861b343fdd93ddd38c75eeccf5fb954c92599dbddae95c2b2e",
+          "evidence": "work/daily-2026-11-04/7080a9b53efafec7-07914f80e41ab1861b343fdd93ddd38c75eeccf5fb954c92599dbddae95c2b2e.txt",
+          "scope": "Current original/source read; archived pinned quickstart remains historical guidance, not current network deployment proof.",
+          "lastAttemptAt": "2026-11-04T10:06:56.755874+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:56.755874+00:00",
           "status": "read",
           "error": null
         },
@@ -13673,30 +13649,23 @@
           "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-29T20:23:07.120Z",
-      "observedAvailability": "October 29 original posts and accessible replies, source repository and linked public destinations reviewed. Listing describes observed public availability; no wallet, financial or runtime certification implied.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-04T17:08:16.831Z",
+      "observedAvailability": "Pay-per-call channels for AI agents using cumulative off-chain vouchers and one settlement. November 4 review of the public demo observed five simulated calls and an overspend rejection; the refreshed recording shows only that walletless browser flow. Its displayed transaction is separately labeled creator evidence. The creator updated the original submission on November 3 after the Esmeralda reset, replacing retired October transaction links with a new template and recorded Sapient run. The site evidence page lists a separate November 3 run; call counts are service-ledger claims, not chain proof. Optional live mode requires Sapient 0.7.1 or later and a custodial relay that holds a 51 µT test deposit through settlement or refund. Fees, timing and requests remain visible. No wallet action, relay deposit, CLI execution or independent chain validation was performed in this review. The v0.4.0 CLI binaries support Linux x86-64 with glibc. Earlier recordings and transaction URLs remain in the maintenance history. Original Reddit discussion and two comments, Bluesky original with zero replies, and official X feature post with all five replies reviewed. Questions about timeout retries and channel expiry are retained as questions, not verified functionality. The pinned v0.3.2 quickstart remains historical operator guidance; no commands were executed.",
+      "outcome": "reviewed",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
-        "https://github.com/AduAkorful/ghostline",
+        "https://github.com/AduAkorful/ghostline/blob/0b0ff7dfc5f8a774a5f8176c375b191492757b00/docs/quickstart.md#guided-esmeralda-demo",
         "https://ghostline-ui.vercel.app/play.html",
         "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/",
+        "https://github.com/AduAkorful/ghostline/releases/tag/v0.3.2",
+        "https://github.com/AduAkorful/ghostline/releases/tag/v0.4.0",
         "https://ghostline-ui.vercel.app/evidence.html",
-        "https://bsky.app/profile/tariproject.bsky.social/post/3myzd2ybfnq2t",
-        "https://x.com/tari/status/2115790755323134073",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://bsky.app/profile/tariproject.bsky.social/post/3myzd2ybfnq2t"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "checkedScope": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
@@ -13714,11 +13683,7 @@
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": false,
       "reviewedSourceCount": 10,
-      "pendingReviewSources": [
-        "https://github.com/AduAkorful/ghostline/blob/0b0ff7dfc5f8a774a5f8176c375b191492757b00/docs/quickstart.md#guided-esmeralda-demo",
-        "https://github.com/AduAkorful/ghostline/releases/tag/v0.3.2",
-        "https://github.com/AduAkorful/ghostline/releases/tag/v0.4.0"
-      ],
+      "pendingReviewSources": [],
       "supersededSources": {},
       "blockedSources": [],
       "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
@@ -13777,6 +13742,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/ghostline-full-source-acceptance.json"
       ]
     },
     "project:seance": {
@@ -26718,7 +26686,7 @@
     "preparedAt": "2026-11-04T14:54:54.803418+00:00",
     "scope": "Selected completed public resource reviews and attempted public discovery sources synchronized. Unreviewed checkpoints preserved; full run remains incomplete. Private evidence remains outside Git."
   },
-  "lastAttemptAt": "2026-11-04T16:44:52.831Z",
+  "lastAttemptAt": "2026-11-04T17:08:16.831Z",
   "currentRunStatus": "in-progress",
   "currentCanonicalReviewQueue": {
     "date": "2026-11-04",

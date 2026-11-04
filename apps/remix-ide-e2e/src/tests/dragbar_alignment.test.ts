@@ -5,7 +5,7 @@ import init from '../helpers/init'
 const alignmentTolerance = 4
 
 function assertLeftDragbarAligned(browser: NightwatchBrowser, message: string) {
-  return browser.execute(function (panelSelector, dragbarSelector, tolerance) {
+  return browser.execute(function (panelSelector: string, dragbarSelector: string, tolerance: number) {
     const panel = document.querySelector(panelSelector) as HTMLElement | null
     const dragbar = document.querySelector(dragbarSelector) as HTMLElement | null
 
@@ -37,7 +37,7 @@ function assertLeftDragbarAligned(browser: NightwatchBrowser, message: string) {
 }
 
 function assertRightDragbarAligned(browser: NightwatchBrowser, message: string) {
-  return browser.execute(function (panelSelector, dragbarSelector, tolerance) {
+  return browser.execute(function (panelSelector: string, dragbarSelector: string, tolerance: number) {
     const panel = document.querySelector(panelSelector) as HTMLElement | null
     const dragbar = document.querySelector(dragbarSelector) as HTMLElement | null
 
@@ -72,7 +72,7 @@ function assertRightDragbarAligned(browser: NightwatchBrowser, message: string) 
 }
 
 function assertTerminalDragbarAligned(browser: NightwatchBrowser, message: string) {
-  return browser.execute(function (panelSelector, dragbarSelector, tolerance) {
+  return browser.execute(function (panelSelector: string, dragbarSelector: string, tolerance: number) {
     const panel = document.querySelector(panelSelector) as HTMLElement | null
     const dragbar = document.querySelector(dragbarSelector) as HTMLElement | null
 

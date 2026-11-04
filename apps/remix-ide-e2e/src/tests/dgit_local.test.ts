@@ -1,7 +1,7 @@
 import { ChildProcess, spawn } from "child_process"
 import kill from 'tree-kill'
 import init from "../helpers/init"
-import { Nightwatch, NightwatchBrowser } from "nightwatch"
+import { NightwatchBrowser } from "nightwatch"
 let gitserver: ChildProcess
 
 /*
@@ -409,7 +409,7 @@ module.exports = {
     browser.assert.ok(logs.includes('testcommit'))
     const logs2 = await getGitLog('/tmp/git/bare.git')
     console.log(logs2)
-    browser.assert.fail(logs2.includes('testcommit'))
+    browser.assert.ok(!logs2.includes('testcommit'), 'The other remote must not contain the commit')
   },
   'switch to origin #group4': function (browser: NightwatchBrowser) {
     browser

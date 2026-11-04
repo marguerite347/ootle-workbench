@@ -1,6 +1,6 @@
 import { ChildProcess, spawn } from "child_process"
 import init from "../helpers/init"
-import { Nightwatch, NightwatchBrowser } from "nightwatch"
+import { NightwatchBrowser } from "nightwatch"
 
 module.exports = {
   '@disabled': true,
