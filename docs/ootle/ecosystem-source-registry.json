@@ -20907,75 +20907,179 @@
         "https://dead-drop.sites.tab.bot/"
       ],
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
+      "outcome": "blocked",
       "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T21:40:36.605Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Original submission and reset notice read; no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/davidjsourcing/dead-drop": {
           "url": "https://github.com/davidjsourcing/dead-drop",
+          "file": "574b0af312a22a2a-8892fde49108bf2910fd8e94a8ad86b87cfcc13877a980d4e6b965d3ccef42b9.txt",
           "hash": "8892fde49108bf2910fd8e94a8ad86b87cfcc13877a980d4e6b965d3ccef42b9",
-          "revision": "e68360ee7fb978d98573aa7861e2cb1bf5047532",
           "attemptedAt": "2026-11-04T10:07:03.863253+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/davidjsourcing/dead-drop/releases",
+            "file": "7b08e0fec22ee94d-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:03.599182+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "e68360ee7fb978d98573aa7861e2cb1bf5047532",
+          "readmeSha": "3d4221787e8818091d6c0a8a74828080d076f276",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "LICENSE",
+            "README.md",
+            "TEST-REPORT.md",
+            "app",
+            "template"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "https://dead-drop.sites.tab.bot/",
+            "https://dead-drop.sites.tab.bot/dead-drop-demo.mp4"
+          ],
           "evidence": "work/daily-2026-11-04/574b0af312a22a2a-8892fde49108bf2910fd8e94a8ad86b87cfcc13877a980d4e6b965d3ccef42b9.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full README read; MIT, current pinned revision, complete empty release list.",
           "lastAttemptAt": "2026-11-04T10:07:03.863253+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:03.863253+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://dead-drop.sites.tab.bot/": {
           "url": "https://dead-drop.sites.tab.bot/",
           "hash": "3cc6fc9f23dae19aed11ff4a06fbc5a47d31630f38f233bb3c45e28d7cd7203d",
           "attemptedAt": "2026-11-04T10:07:27.008025+00:00",
-          "evidence": "work/daily-2026-11-04/f48320747749a0fb-3cc6fc9f23dae19aed11ff4a06fbc5a47d31630f38f233bb3c45e28d7cd7203d.txt",
+          "evidence": "work/daily-2026-11-04/dead-drop-hunt-console-nov4.json",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:27.008025+00:00",
+          "lastAttemptAt": "2026-11-04T21:40:36.605Z",
           "lastSuccessfulReadAt": "2026-11-04T10:07:27.008025+00:00",
-          "status": "read"
+          "status": "blocked",
+          "error": "Hunt view remains reading the stones; browser console reports HTTP404 for the Crypt contract. Home explanations render.",
+          "failureKind": "unavailable-content",
+          "nextAction": "Revisit after creator republishes the referenced Esmeralda deployment or the public indexer recovers; preserve historical footage and failure evidence."
         },
         "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w": {
           "url": "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
-          "hash": "4969fbece55e5b5f9f927747c6102ff283146485c4f0747f46600dcbf1d5b218",
-          "attemptedAt": "2026-11-04T10:07:25.131145+00:00",
-          "evidence": "work/daily-2026-11-04/74dbb926d10b686e-4969fbece55e5b5f9f927747c6102ff283146485c4f0747f46600dcbf1d5b218.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.131145+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.131145+00:00",
-          "status": "read"
+          "file": "74dbb926d10b686e-1c52f4d3ff0016e77216b672c85281b11f3cae5f1fabc6895c9c30dd4a4151c4.txt",
+          "hash": "1c52f4d3ff0016e77216b672c85281b11f3cae5f1fabc6895c9c30dd4a4151c4",
+          "attemptedAt": "2026-11-04T10:06:46.374992+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fdavidj-builds.bsky.social%2Fapp.bsky.feed.post%2F3mz3u2ogb3f2w&depth=100&parentHeight=100",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/74dbb926d10b686e-1c52f4d3ff0016e77216b672c85281b11f3cae5f1fabc6895c9c30dd4a4151c4.txt",
+          "scope": "Full original text and reply tree read, zero replies. External app card.",
+          "lastAttemptAt": "2026-11-04T10:06:46.374992+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.374992+00:00",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Original submission and reset notice read; no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/davidjsourcing/dead-drop/releases": {
+          "url": "https://github.com/davidjsourcing/dead-drop/releases",
+          "file": "7b08e0fec22ee94d-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:07:03.599182+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/7b08e0fec22ee94d-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Full release listing empty.",
+          "lastAttemptAt": "2026-11-04T10:07:03.599182+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:03.599182+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/davidjsourcing/dead-drop#readme": {
+          "url": "https://github.com/davidjsourcing/dead-drop#readme",
+          "file": "574b0af312a22a2a-8892fde49108bf2910fd8e94a8ad86b87cfcc13877a980d4e6b965d3ccef42b9.txt",
+          "hash": "8892fde49108bf2910fd8e94a8ad86b87cfcc13877a980d4e6b965d3ccef42b9",
+          "attemptedAt": "2026-11-04T10:07:03.863253+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/davidjsourcing/dead-drop/releases",
+            "file": "7b08e0fec22ee94d-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:03.599182+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "e68360ee7fb978d98573aa7861e2cb1bf5047532",
+          "readmeSha": "3d4221787e8818091d6c0a8a74828080d076f276",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "LICENSE",
+            "README.md",
+            "TEST-REPORT.md",
+            "app",
+            "template"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "https://dead-drop.sites.tab.bot/",
+            "https://dead-drop.sites.tab.bot/dead-drop-demo.mp4"
+          ],
+          "evidence": "work/daily-2026-11-04/574b0af312a22a2a-8892fde49108bf2910fd8e94a8ad86b87cfcc13877a980d4e6b965d3ccef42b9.txt",
+          "scope": "Full README read; MIT, current pinned revision, complete empty release list.",
+          "lastAttemptAt": "2026-11-04T10:07:03.863253+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:03.863253+00:00",
+          "status": "read",
+          "error": null
         }
       },
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
       "pendingReviewSources": [],
-      "blockedSources": [],
+      "blockedSources": [
+        "https://dead-drop.sites.tab.bot/"
+      ],
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
-        "https://dead-drop.sites.tab.bot/",
+        "https://github.com/davidjsourcing/dead-drop/releases",
         "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/davidjsourcing/dead-drop#readme"
       ],
       "changedFields": [
         "sourceEvidence"
@@ -20988,7 +21092,6 @@
         "provenance"
       ],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -21023,7 +21126,11 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
-      ]
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/dead-drop-davidjsourcing-review-outcome.json"
+      ],
+      "lastAttemptObservation": "November4: landing page reachable, but public Hunt cannot read its Crypt contract (404) and stays loading. README e68360ee and original forum/Bluesky posts reviewed; epoch13031 remains a historical documented target, not a current opening claim. No wallet/funding/claim action. Creator-linked150second video remains pending content review."
     },
     "project:ghost-candy-cards": {
       "id": "project:ghost-candy-cards",
@@ -21225,89 +21332,200 @@
         "https://github.com/GSXRspartan/Ghost-Gate",
         "https://ghostgate.boo/"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T21:34:42.257Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T21:34:42.257Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete retained topic; original creator submission and organizer reset notice read, no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/GSXRspartan/Ghost-Gate": {
           "url": "https://github.com/GSXRspartan/Ghost-Gate",
+          "file": "442fe99d83c36995-676312ebea24e315e602b4efadd3f40917b34e66e74d4ee9564c276767fe7e82.txt",
           "hash": "676312ebea24e315e602b4efadd3f40917b34e66e74d4ee9564c276767fe7e82",
-          "revision": "f960d1575c7175f98625d2ae0015a300980b0b68",
           "attemptedAt": "2026-11-04T10:06:53.546719+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/GSXRspartan/Ghost-Gate/releases",
+            "file": "e067e23c603753c8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:06:53.173591+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "f960d1575c7175f98625d2ae0015a300980b0b68",
+          "readmeSha": "493f0f93d1f57523e53947acbd059dc68e1b165b",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".gitignore",
+            "CHANGELOG.md",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "cloudflare",
+            "crates",
+            "deploy",
+            "docs",
+            "scripts",
+            "templates",
+            "tools",
+            "web"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "https://ghostgate.boo",
+            "https://github.com/tari-project/tari-ootle.git",
+            "https://universe.tari.mw/integration/"
+          ],
           "evidence": "work/daily-2026-11-04/442fe99d83c36995-676312ebea24e315e602b4efadd3f40917b34e66e74d4ee9564c276767fe7e82.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full README read, including privacy model and testnet restrictions.",
           "lastAttemptAt": "2026-11-04T10:06:53.546719+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:53.546719+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://ghostgate.boo/": {
+          "file": "ghostgate-live-simple-nov4.txt",
+          "attemptedAt": "2026-11-04T21:34:42.257Z",
           "url": "https://ghostgate.boo/",
-          "hash": "598ef622dfeaabb63a063b339dd1a857d4f46a3655327f3fa45113ae9748b75a",
-          "attemptedAt": "2026-11-04T10:07:27.249385+00:00",
-          "evidence": "work/daily-2026-11-04/202b16eb0e50a589-598ef622dfeaabb63a063b339dd1a857d4f46a3655327f3fa45113ae9748b75a.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:27.249385+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:27.249385+00:00",
-          "status": "read"
+          "hash": "dc823c85ec4a7cdbc60bcbb21937fb3998de9aa8d98b9cb07ecf6829ad512dfd",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/ghostgate-live-simple-nov4.txt",
+          "scope": "Rendered public page reviewed; no wallet actions. Additional technical/issuer view read.",
+          "lastAttemptAt": "2026-11-04T21:34:42.257Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:34:42.257Z",
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/did:plc:cj5wzjmazjbonijxuueycyx5/post/3mz5fwrpt5f27": {
           "url": "https://bsky.app/profile/did:plc:cj5wzjmazjbonijxuueycyx5/post/3mz5fwrpt5f27",
-          "hash": "0197881d911410603bb320afe514dfd6bf9c954e6109e05cc75c3ffea978b5f3",
-          "attemptedAt": "2026-11-04T10:07:25.269414+00:00",
-          "evidence": "work/daily-2026-11-04/da08b830179a7ddc-0197881d911410603bb320afe514dfd6bf9c954e6109e05cc75c3ffea978b5f3.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.269414+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.269414+00:00",
-          "status": "read"
+          "file": "da08b830179a7ddc-875f3df01354e9bb518aba63f76a57b00531750b9d443272574be311f488c065.txt",
+          "hash": "875f3df01354e9bb518aba63f76a57b00531750b9d443272574be311f488c065",
+          "attemptedAt": "2026-11-04T10:06:46.532521+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fdid%3Aplc%3Acj5wzjmazjbonijxuueycyx5%2Fapp.bsky.feed.post%2F3mz5fwrpt5f27&depth=100&parentHeight=100",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/da08b830179a7ddc-875f3df01354e9bb518aba63f76a57b00531750b9d443272574be311f488c065.txt",
+          "scope": "Full original post and reply tree read; zero replies. Four creator images visually reviewed separately.",
+          "lastAttemptAt": "2026-11-04T10:06:46.532521+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.532521+00:00",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete retained topic; original creator submission and organizer reset notice read, no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/GSXRspartan/Ghost-Gate/releases": {
+          "url": "https://github.com/GSXRspartan/Ghost-Gate/releases",
+          "file": "e067e23c603753c8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:06:53.173591+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/e067e23c603753c8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Complete release listing, empty.",
+          "lastAttemptAt": "2026-11-04T10:06:53.173591+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:53.173591+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/GSXRspartan/Ghost-Gate#readme": {
+          "url": "https://github.com/GSXRspartan/Ghost-Gate#readme",
+          "file": "442fe99d83c36995-676312ebea24e315e602b4efadd3f40917b34e66e74d4ee9564c276767fe7e82.txt",
+          "hash": "676312ebea24e315e602b4efadd3f40917b34e66e74d4ee9564c276767fe7e82",
+          "attemptedAt": "2026-11-04T10:06:53.546719+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/GSXRspartan/Ghost-Gate/releases",
+            "file": "e067e23c603753c8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:06:53.173591+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "f960d1575c7175f98625d2ae0015a300980b0b68",
+          "readmeSha": "493f0f93d1f57523e53947acbd059dc68e1b165b",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".gitignore",
+            "CHANGELOG.md",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "cloudflare",
+            "crates",
+            "deploy",
+            "docs",
+            "scripts",
+            "templates",
+            "tools",
+            "web"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "https://ghostgate.boo",
+            "https://github.com/tari-project/tari-ootle.git",
+            "https://universe.tari.mw/integration/"
+          ],
+          "evidence": "work/daily-2026-11-04/442fe99d83c36995-676312ebea24e315e602b4efadd3f40917b34e66e74d4ee9564c276767fe7e82.txt",
+          "scope": "Fragment alias for same README fully read.",
+          "lastAttemptAt": "2026-11-04T10:06:53.546719+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:53.546719+00:00",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "observedAvailability": "November4: public Privacy Lab and technical view reachable. Esmeralda network38, Cryptv3 policy,100tTARI public/revealed lower bound, seven-day operator-issued session; Sapient/Tari Universe options shown. README f960d157 and empty release list reviewed. No wallet connection, proof request or transaction performed. Creator posts and zero-reply Bluesky thread plus four original images reviewed; network-reset notice retained.",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
+        "https://github.com/GSXRspartan/Ghost-Gate/releases",
         "https://ghostgate.boo/",
         "https://bsky.app/profile/did:plc:cj5wzjmazjbonijxuueycyx5/post/3mz5fwrpt5f27",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/GSXRspartan/Ghost-Gate#readme"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -21342,6 +21560,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/ghost-gate-review-outcome.json"
       ]
     },
     "project:haunted-passport": {
@@ -21352,89 +21573,132 @@
         "https://github.com/AshThunder/haunted-passport",
         "https://haunted-passport.vercel.app/"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T21:34:42.257Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T21:34:42.257Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete retained topic; original creator submission and organizer reset notice read, no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/AshThunder/haunted-passport": {
           "url": "https://github.com/AshThunder/haunted-passport",
+          "file": "b2fade164dfadcda-65404b50a464979eb5f3c5d966cf92d8a04c9af4d7100c310a8a6fa4e57b0dbc.txt",
           "hash": "65404b50a464979eb5f3c5d966cf92d8a04c9af4d7100c310a8a6fa4e57b0dbc",
           "attemptedAt": "2026-11-04T10:07:27.937579+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/AshThunder/haunted-passport",
+          "kind": "web",
+          "complete": true,
           "evidence": "work/daily-2026-11-04/b2fade164dfadcda-65404b50a464979eb5f3c5d966cf92d8a04c9af4d7100c310a8a6fa4e57b0dbc.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full README read, including privacy model and testnet restrictions.",
           "lastAttemptAt": "2026-11-04T10:07:27.937579+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:27.937579+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://haunted-passport.vercel.app/": {
+          "file": "haunted-passport-home-nov4.txt",
+          "attemptedAt": "2026-11-04T21:34:42.257Z",
           "url": "https://haunted-passport.vercel.app/",
-          "hash": "e8e08d39fa647dc2f3141cc0607ba1e37abb68459bdf618f9700c0c064f64f87",
-          "attemptedAt": "2026-11-04T10:07:28.389716+00:00",
-          "evidence": "work/daily-2026-11-04/fc12bb2d03dc002f-e8e08d39fa647dc2f3141cc0607ba1e37abb68459bdf618f9700c0c064f64f87.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:28.389716+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:28.389716+00:00",
-          "status": "read"
+          "hash": "849993daf54e467ec48e862acfd08dbb3af665531efca498e985a596dc2e7308",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/haunted-passport-home-nov4.txt",
+          "scope": "Rendered public page reviewed; no wallet actions. Additional technical/issuer view read.",
+          "lastAttemptAt": "2026-11-04T21:34:42.257Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:34:42.257Z",
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/chrisgoldog.bsky.social/post/3myzc45hcf22l": {
           "url": "https://bsky.app/profile/chrisgoldog.bsky.social/post/3myzc45hcf22l",
-          "hash": "9831101b411ac151c839b1b7174182ebb50129d3b90197f4343a1abd7d38777a",
-          "attemptedAt": "2026-11-04T10:07:25.088529+00:00",
-          "evidence": "work/daily-2026-11-04/ef1ce24443a6ada2-9831101b411ac151c839b1b7174182ebb50129d3b90197f4343a1abd7d38777a.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.088529+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.088529+00:00",
-          "status": "read"
+          "file": "ef1ce24443a6ada2-9f5794026f2e0edabd358cf6bc041335e3b6c3100d85554d15b17c4382e5eddf.txt",
+          "hash": "9f5794026f2e0edabd358cf6bc041335e3b6c3100d85554d15b17c4382e5eddf",
+          "attemptedAt": "2026-11-04T10:06:46.207322+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fchrisgoldog.bsky.social%2Fapp.bsky.feed.post%2F3myzc45hcf22l&depth=100&parentHeight=100",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/ef1ce24443a6ada2-9f5794026f2e0edabd358cf6bc041335e3b6c3100d85554d15b17c4382e5eddf.txt",
+          "scope": "Full original post and reply tree read; zero replies. External repository card only.",
+          "lastAttemptAt": "2026-11-04T10:06:46.207322+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.207322+00:00",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete retained topic; original creator submission and organizer reset notice read, no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/AshThunder/haunted-passport#readme": {
+          "url": "https://github.com/AshThunder/haunted-passport#readme",
+          "file": "b2fade164dfadcda-65404b50a464979eb5f3c5d966cf92d8a04c9af4d7100c310a8a6fa4e57b0dbc.txt",
+          "hash": "65404b50a464979eb5f3c5d966cf92d8a04c9af4d7100c310a8a6fa4e57b0dbc",
+          "attemptedAt": "2026-11-04T10:07:27.937579+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/AshThunder/haunted-passport",
+          "kind": "web",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/b2fade164dfadcda-65404b50a464979eb5f3c5d966cf92d8a04c9af4d7100c310a8a6fa4e57b0dbc.txt",
+          "scope": "Fragment alias for same README fully read.",
+          "lastAttemptAt": "2026-11-04T10:07:27.937579+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:27.937579+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/AshThunder/haunted-passport/releases": {
+          "file": "haunted-passport-repository-review-nov4.json",
+          "attemptedAt": "2026-11-04T21:34:42.257Z",
+          "url": "https://github.com/AshThunder/haunted-passport/releases",
+          "hash": "5811dfdbaa6bb2eb198799d27f2ee0c1179db330d27b015a8f2f8d72fcee4bcb",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/haunted-passport-repository-review-nov4.json",
+          "scope": "GitHub metadata/current revision and complete paginated empty release list reviewed.",
+          "lastAttemptAt": "2026-11-04T21:34:42.257Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:34:42.257Z",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "observedAvailability": "November4: public Home and Issuer pages reachable. Issuer actions require local keys and are unavailable on the hosted website; shared testnet-holder demo was not entered. Esmeralda credentials expose a public tier while hiding the exact value; README documents indexer trust and linkable repeat presentations. Original forum and Bluesky posts and replies reviewed; no Bluesky replies or original media. Repository cb7627b and empty release list reviewed. No wallet, issuance or presentation test.",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34",
-        "https://github.com/AshThunder/haunted-passport",
         "https://haunted-passport.vercel.app/",
         "https://bsky.app/profile/chrisgoldog.bsky.social/post/3myzc45hcf22l",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/AshThunder/haunted-passport#readme",
+        "https://github.com/AshThunder/haunted-passport/releases"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -21469,6 +21733,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/haunted-passport-review-outcome.json"
       ]
     },
     "project:hexcrow": {
@@ -21688,75 +21955,191 @@
         "https://seal-clubber.github.io/ootle-accord/#explore"
       ],
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
+      "outcome": "blocked",
       "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T21:40:36.605Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Original submission and reset notice read; no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/Seal-Clubber/ootle-accord": {
           "url": "https://github.com/Seal-Clubber/ootle-accord",
+          "file": "fe1619902a95600f-e6d61797d8ea7c4eeec844979e32b653c3385b067481f7e385c8e9d29eb859e2.txt",
           "hash": "e6d61797d8ea7c4eeec844979e32b653c3385b067481f7e385c8e9d29eb859e2",
-          "revision": "622b71b73c4cf9038d8e60c183babb3be4d62326",
           "attemptedAt": "2026-11-04T10:06:57.595291+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/Seal-Clubber/ootle-accord/releases",
+            "file": "8f19439a527c097a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:06:57.235964+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "622b71b73c4cf9038d8e60c183babb3be4d62326",
+          "readmeSha": "7f251979e5190b8b04259752d6c1263827d4c77d",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "app",
+            "artifacts",
+            "crates",
+            "docs",
+            "package.json",
+            "scripts",
+            "tests"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "http://127.0.0.1:4173/",
+            "https://seal-clubber.github.io/ootle-accord/#explore"
+          ],
           "evidence": "work/daily-2026-11-04/fe1619902a95600f-e6d61797d8ea7c4eeec844979e32b653c3385b067481f7e385c8e9d29eb859e2.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full README read; MIT, current pinned revision, complete empty release list.",
           "lastAttemptAt": "2026-11-04T10:06:57.595291+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:57.595291+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://seal-clubber.github.io/ootle-accord/#explore": {
           "url": "https://seal-clubber.github.io/ootle-accord/#explore",
           "hash": "000ade49352e748658c9d6817fd1d2b03c624a9efd3524396b0595966c031483",
           "attemptedAt": "2026-11-04T10:07:32.700614+00:00",
-          "evidence": "work/daily-2026-11-04/3273474341eba671-000ade49352e748658c9d6817fd1d2b03c624a9efd3524396b0595966c031483.txt",
+          "evidence": "work/daily-2026-11-04/ootle-accord-refresh-failure-nov4.txt",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:32.700614+00:00",
+          "lastAttemptAt": "2026-11-04T21:40:36.605Z",
           "lastSuccessfulReadAt": "2026-11-04T10:07:32.700614+00:00",
-          "status": "read"
+          "status": "blocked",
+          "error": "Public page renders recorded checkpoint epoch12740; explicit Refresh balance returns Could not refresh the Esmeralda balance.",
+          "failureKind": "unavailable-content",
+          "nextAction": "Revisit after creator republishes the referenced Esmeralda deployment or the public indexer recovers; preserve historical footage and failure evidence."
         },
         "https://bsky.app/profile/seal-clubber.bsky.social/post/3mz4lj2h7zs2l": {
           "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3mz4lj2h7zs2l",
-          "hash": "f6a181d97de9fab99bb720a2e017deed5af1a6a44a6993493e77081002aedb1e",
-          "attemptedAt": "2026-11-04T10:07:26.141882+00:00",
-          "evidence": "work/daily-2026-11-04/615734e77ff448b4-f6a181d97de9fab99bb720a2e017deed5af1a6a44a6993493e77081002aedb1e.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.141882+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.141882+00:00",
-          "status": "read"
+          "file": "615734e77ff448b4-cbccccdce9054b4a101677eb95d3214df8225c7a57cdba4dd1ce979af871628e.txt",
+          "hash": "cbccccdce9054b4a101677eb95d3214df8225c7a57cdba4dd1ce979af871628e",
+          "attemptedAt": "2026-11-04T10:06:51.776492+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fseal-clubber.bsky.social%2Fapp.bsky.feed.post%2F3mz4lj2h7zs2l&depth=100&parentHeight=100",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/615734e77ff448b4-cbccccdce9054b4a101677eb95d3214df8225c7a57cdba4dd1ce979af871628e.txt",
+          "scope": "Full original text and reply tree read, zero replies. Original promotional artwork visually read.",
+          "lastAttemptAt": "2026-11-04T10:06:51.776492+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:51.776492+00:00",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Original submission and reset notice read; no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/Seal-Clubber/ootle-accord/releases": {
+          "url": "https://github.com/Seal-Clubber/ootle-accord/releases",
+          "file": "8f19439a527c097a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:06:57.235964+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/8f19439a527c097a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Full release listing empty.",
+          "lastAttemptAt": "2026-11-04T10:06:57.235964+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:57.235964+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/Seal-Clubber/ootle-accord#readme": {
+          "url": "https://github.com/Seal-Clubber/ootle-accord#readme",
+          "file": "fe1619902a95600f-e6d61797d8ea7c4eeec844979e32b653c3385b067481f7e385c8e9d29eb859e2.txt",
+          "hash": "e6d61797d8ea7c4eeec844979e32b653c3385b067481f7e385c8e9d29eb859e2",
+          "attemptedAt": "2026-11-04T10:06:57.595291+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/Seal-Clubber/ootle-accord/releases",
+            "file": "8f19439a527c097a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:06:57.235964+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "622b71b73c4cf9038d8e60c183babb3be4d62326",
+          "readmeSha": "7f251979e5190b8b04259752d6c1263827d4c77d",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "app",
+            "artifacts",
+            "crates",
+            "docs",
+            "package.json",
+            "scripts",
+            "tests"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "http://127.0.0.1:4173/",
+            "https://seal-clubber.github.io/ootle-accord/#explore"
+          ],
+          "evidence": "work/daily-2026-11-04/fe1619902a95600f-e6d61797d8ea7c4eeec844979e32b653c3385b067481f7e385c8e9d29eb859e2.txt",
+          "scope": "Full README read; MIT, current pinned revision, complete empty release list.",
+          "lastAttemptAt": "2026-11-04T10:06:57.595291+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:57.595291+00:00",
+          "status": "read",
+          "error": null
         }
       },
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
       "pendingReviewSources": [],
-      "blockedSources": [],
+      "blockedSources": [
+        "https://seal-clubber.github.io/ootle-accord/#explore"
+      ],
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
-        "https://seal-clubber.github.io/ootle-accord/#explore",
+        "https://github.com/Seal-Clubber/ootle-accord/releases",
         "https://bsky.app/profile/seal-clubber.bsky.social/post/3mz4lj2h7zs2l",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/Seal-Clubber/ootle-accord#readme"
       ],
       "changedFields": [
         "sourceEvidence"
@@ -21769,7 +22152,6 @@
         "provenance"
       ],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -21804,7 +22186,11 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
-      ]
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/ootle-accord-review-outcome.json"
+      ],
+      "lastAttemptObservation": "November4: static accord and Review pages reachable, but public balance refresh fails. Paid10tTARI and3approvals are explicitly the recorded epoch12740 checkpoint, not newly established chain state. README622b71b and original forum/Bluesky post/artwork reviewed. No Sapient connection, funding, approval or payout performed."
     },
     "tari-ootle:component:haunted-passport": {
       "id": "tari-ootle:component:haunted-passport",
@@ -21816,103 +22202,132 @@
         "https://haunted-passport.vercel.app/",
         "https://bsky.app/profile/chrisgoldog.bsky.social/post/3myzc45hcf22l"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T21:34:42.257Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T21:34:42.257Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete retained topic; original creator submission and organizer reset notice read, no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/AshThunder/haunted-passport": {
           "url": "https://github.com/AshThunder/haunted-passport",
+          "file": "b2fade164dfadcda-65404b50a464979eb5f3c5d966cf92d8a04c9af4d7100c310a8a6fa4e57b0dbc.txt",
           "hash": "65404b50a464979eb5f3c5d966cf92d8a04c9af4d7100c310a8a6fa4e57b0dbc",
           "attemptedAt": "2026-11-04T10:07:27.937579+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/AshThunder/haunted-passport",
+          "kind": "web",
+          "complete": true,
           "evidence": "work/daily-2026-11-04/b2fade164dfadcda-65404b50a464979eb5f3c5d966cf92d8a04c9af4d7100c310a8a6fa4e57b0dbc.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full README read, including privacy model and testnet restrictions.",
           "lastAttemptAt": "2026-11-04T10:07:27.937579+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:27.937579+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/AshThunder/haunted-passport#readme": {
           "url": "https://github.com/AshThunder/haunted-passport#readme",
-          "hash": "1e8158d54609c780f04a9b20285074c78e0689eb37cc5bdf602b011062247987",
-          "revision": "cb7627b663d6d3225f22d6d90a556cbb298a16f4",
-          "attemptedAt": "2026-10-31T09:25:22.214077+00:00",
-          "evidence": "work/daily-2026-10-31/e4238777d740d558.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:25:22.214077+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:25:22.214077+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "file": "b2fade164dfadcda-65404b50a464979eb5f3c5d966cf92d8a04c9af4d7100c310a8a6fa4e57b0dbc.txt",
+          "hash": "65404b50a464979eb5f3c5d966cf92d8a04c9af4d7100c310a8a6fa4e57b0dbc",
+          "attemptedAt": "2026-11-04T10:07:27.937579+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://github.com/AshThunder/haunted-passport",
+          "kind": "web",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/b2fade164dfadcda-65404b50a464979eb5f3c5d966cf92d8a04c9af4d7100c310a8a6fa4e57b0dbc.txt",
+          "scope": "Fragment alias for same README fully read.",
+          "lastAttemptAt": "2026-11-04T10:07:27.937579+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:27.937579+00:00",
+          "status": "read",
+          "error": null
         },
         "https://haunted-passport.vercel.app/": {
+          "file": "haunted-passport-home-nov4.txt",
+          "attemptedAt": "2026-11-04T21:34:42.257Z",
           "url": "https://haunted-passport.vercel.app/",
-          "hash": "e8e08d39fa647dc2f3141cc0607ba1e37abb68459bdf618f9700c0c064f64f87",
-          "attemptedAt": "2026-11-04T10:07:28.389716+00:00",
-          "evidence": "work/daily-2026-11-04/fc12bb2d03dc002f-e8e08d39fa647dc2f3141cc0607ba1e37abb68459bdf618f9700c0c064f64f87.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:28.389716+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:28.389716+00:00",
-          "status": "read"
+          "hash": "849993daf54e467ec48e862acfd08dbb3af665531efca498e985a596dc2e7308",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/haunted-passport-home-nov4.txt",
+          "scope": "Rendered public page reviewed; no wallet actions. Additional technical/issuer view read.",
+          "lastAttemptAt": "2026-11-04T21:34:42.257Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:34:42.257Z",
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/chrisgoldog.bsky.social/post/3myzc45hcf22l": {
           "url": "https://bsky.app/profile/chrisgoldog.bsky.social/post/3myzc45hcf22l",
-          "hash": "9831101b411ac151c839b1b7174182ebb50129d3b90197f4343a1abd7d38777a",
-          "attemptedAt": "2026-11-04T10:07:25.088529+00:00",
-          "evidence": "work/daily-2026-11-04/ef1ce24443a6ada2-9831101b411ac151c839b1b7174182ebb50129d3b90197f4343a1abd7d38777a.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.088529+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.088529+00:00",
-          "status": "read"
+          "file": "ef1ce24443a6ada2-9f5794026f2e0edabd358cf6bc041335e3b6c3100d85554d15b17c4382e5eddf.txt",
+          "hash": "9f5794026f2e0edabd358cf6bc041335e3b6c3100d85554d15b17c4382e5eddf",
+          "attemptedAt": "2026-11-04T10:06:46.207322+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fchrisgoldog.bsky.social%2Fapp.bsky.feed.post%2F3myzc45hcf22l&depth=100&parentHeight=100",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/ef1ce24443a6ada2-9f5794026f2e0edabd358cf6bc041335e3b6c3100d85554d15b17c4382e5eddf.txt",
+          "scope": "Full original post and reply tree read; zero replies. External repository card only.",
+          "lastAttemptAt": "2026-11-04T10:06:46.207322+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.207322+00:00",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete retained topic; original creator submission and organizer reset notice read, no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/AshThunder/haunted-passport/releases": {
+          "file": "haunted-passport-repository-review-nov4.json",
+          "attemptedAt": "2026-11-04T21:34:42.257Z",
+          "url": "https://github.com/AshThunder/haunted-passport/releases",
+          "hash": "5811dfdbaa6bb2eb198799d27f2ee0c1179db330d27b015a8f2f8d72fcee4bcb",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/haunted-passport-repository-review-nov4.json",
+          "scope": "GitHub metadata/current revision and complete paginated empty release list reviewed.",
+          "lastAttemptAt": "2026-11-04T21:34:42.257Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:34:42.257Z",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "pendingReviewSources": [
-        "https://github.com/AshThunder/haunted-passport#readme"
-      ],
+      "observedAvailability": "November4: public Home and Issuer pages reachable. Issuer actions require local keys and are unavailable on the hosted website; shared testnet-holder demo was not entered. Esmeralda credentials expose a public tier while hiding the exact value; README documents indexer trust and linkable repeat presentations. Original forum and Bluesky posts and replies reviewed; no Bluesky replies or original media. Repository cb7627b and empty release list reviewed. No wallet, issuance or presentation test.",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/34",
-        "https://github.com/AshThunder/haunted-passport",
         "https://haunted-passport.vercel.app/",
         "https://bsky.app/profile/chrisgoldog.bsky.social/post/3myzc45hcf22l",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/AshThunder/haunted-passport#readme",
+        "https://github.com/AshThunder/haunted-passport/releases"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -21947,6 +22362,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/haunted-passport-review-outcome.json"
       ]
     },
     "tari-ootle:component:ghost-candy-cards": {
@@ -22151,89 +22569,178 @@
         "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w"
       ],
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
+      "outcome": "blocked",
       "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T21:40:36.605Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Original submission and reset notice read; no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/davidjsourcing/dead-drop": {
           "url": "https://github.com/davidjsourcing/dead-drop",
+          "file": "574b0af312a22a2a-8892fde49108bf2910fd8e94a8ad86b87cfcc13877a980d4e6b965d3ccef42b9.txt",
           "hash": "8892fde49108bf2910fd8e94a8ad86b87cfcc13877a980d4e6b965d3ccef42b9",
-          "revision": "e68360ee7fb978d98573aa7861e2cb1bf5047532",
           "attemptedAt": "2026-11-04T10:07:03.863253+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/davidjsourcing/dead-drop/releases",
+            "file": "7b08e0fec22ee94d-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:03.599182+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "e68360ee7fb978d98573aa7861e2cb1bf5047532",
+          "readmeSha": "3d4221787e8818091d6c0a8a74828080d076f276",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "LICENSE",
+            "README.md",
+            "TEST-REPORT.md",
+            "app",
+            "template"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "https://dead-drop.sites.tab.bot/",
+            "https://dead-drop.sites.tab.bot/dead-drop-demo.mp4"
+          ],
           "evidence": "work/daily-2026-11-04/574b0af312a22a2a-8892fde49108bf2910fd8e94a8ad86b87cfcc13877a980d4e6b965d3ccef42b9.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full README read; MIT, current pinned revision, complete empty release list.",
           "lastAttemptAt": "2026-11-04T10:07:03.863253+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:03.863253+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/davidjsourcing/dead-drop#readme": {
           "url": "https://github.com/davidjsourcing/dead-drop#readme",
+          "file": "574b0af312a22a2a-8892fde49108bf2910fd8e94a8ad86b87cfcc13877a980d4e6b965d3ccef42b9.txt",
           "hash": "8892fde49108bf2910fd8e94a8ad86b87cfcc13877a980d4e6b965d3ccef42b9",
+          "attemptedAt": "2026-11-04T10:07:03.863253+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/davidjsourcing/dead-drop/releases",
+            "file": "7b08e0fec22ee94d-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:03.599182+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
           "revision": "e68360ee7fb978d98573aa7861e2cb1bf5047532",
-          "attemptedAt": "2026-10-31T09:25:22.174884+00:00",
-          "evidence": "work/daily-2026-10-31/574b0af312a22a2a.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:25:22.174884+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:25:22.174884+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "readmeSha": "3d4221787e8818091d6c0a8a74828080d076f276",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "LICENSE",
+            "README.md",
+            "TEST-REPORT.md",
+            "app",
+            "template"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "https://dead-drop.sites.tab.bot/",
+            "https://dead-drop.sites.tab.bot/dead-drop-demo.mp4"
+          ],
+          "evidence": "work/daily-2026-11-04/574b0af312a22a2a-8892fde49108bf2910fd8e94a8ad86b87cfcc13877a980d4e6b965d3ccef42b9.txt",
+          "scope": "Full README read; MIT, current pinned revision, complete empty release list.",
+          "lastAttemptAt": "2026-11-04T10:07:03.863253+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:03.863253+00:00",
+          "status": "read",
+          "error": null
         },
         "https://dead-drop.sites.tab.bot/": {
           "url": "https://dead-drop.sites.tab.bot/",
           "hash": "3cc6fc9f23dae19aed11ff4a06fbc5a47d31630f38f233bb3c45e28d7cd7203d",
           "attemptedAt": "2026-11-04T10:07:27.008025+00:00",
-          "evidence": "work/daily-2026-11-04/f48320747749a0fb-3cc6fc9f23dae19aed11ff4a06fbc5a47d31630f38f233bb3c45e28d7cd7203d.txt",
+          "evidence": "work/daily-2026-11-04/dead-drop-hunt-console-nov4.json",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:27.008025+00:00",
+          "lastAttemptAt": "2026-11-04T21:40:36.605Z",
           "lastSuccessfulReadAt": "2026-11-04T10:07:27.008025+00:00",
-          "status": "read"
+          "status": "blocked",
+          "error": "Hunt view remains reading the stones; browser console reports HTTP404 for the Crypt contract. Home explanations render.",
+          "failureKind": "unavailable-content",
+          "nextAction": "Revisit after creator republishes the referenced Esmeralda deployment or the public indexer recovers; preserve historical footage and failure evidence."
         },
         "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w": {
           "url": "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
-          "hash": "4969fbece55e5b5f9f927747c6102ff283146485c4f0747f46600dcbf1d5b218",
-          "attemptedAt": "2026-11-04T10:07:25.131145+00:00",
-          "evidence": "work/daily-2026-11-04/74dbb926d10b686e-4969fbece55e5b5f9f927747c6102ff283146485c4f0747f46600dcbf1d5b218.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.131145+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.131145+00:00",
-          "status": "read"
+          "file": "74dbb926d10b686e-1c52f4d3ff0016e77216b672c85281b11f3cae5f1fabc6895c9c30dd4a4151c4.txt",
+          "hash": "1c52f4d3ff0016e77216b672c85281b11f3cae5f1fabc6895c9c30dd4a4151c4",
+          "attemptedAt": "2026-11-04T10:06:46.374992+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fdavidj-builds.bsky.social%2Fapp.bsky.feed.post%2F3mz3u2ogb3f2w&depth=100&parentHeight=100",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/74dbb926d10b686e-1c52f4d3ff0016e77216b672c85281b11f3cae5f1fabc6895c9c30dd4a4151c4.txt",
+          "scope": "Full original text and reply tree read, zero replies. External app card.",
+          "lastAttemptAt": "2026-11-04T10:06:46.374992+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.374992+00:00",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Original submission and reset notice read; no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/davidjsourcing/dead-drop/releases": {
+          "url": "https://github.com/davidjsourcing/dead-drop/releases",
+          "file": "7b08e0fec22ee94d-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:07:03.599182+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/7b08e0fec22ee94d-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Full release listing empty.",
+          "lastAttemptAt": "2026-11-04T10:07:03.599182+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:03.599182+00:00",
+          "status": "read",
+          "error": null
         }
       },
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "pendingReviewSources": [
-        "https://github.com/davidjsourcing/dead-drop#readme"
+      "pendingReviewSources": [],
+      "blockedSources": [
+        "https://dead-drop.sites.tab.bot/"
       ],
-      "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
-        "https://dead-drop.sites.tab.bot/",
-        "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/davidjsourcing/dead-drop/releases",
+        "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w"
       ],
       "changedFields": [
         "sourceEvidence"
@@ -22246,7 +22753,6 @@
         "provenance"
       ],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -22281,7 +22787,11 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
-      ]
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/dead-drop-davidjsourcing-review-outcome.json"
+      ],
+      "lastAttemptObservation": "November4: landing page reachable, but public Hunt cannot read its Crypt contract (404) and stays loading. README e68360ee and original forum/Bluesky posts reviewed; epoch13031 remains a historical documented target, not a current opening claim. No wallet/funding/claim action. Creator-linked150second video remains pending content review."
     },
     "tari-ootle:component:ootle-accord": {
       "id": "tari-ootle:component:ootle-accord",
@@ -22294,89 +22804,190 @@
         "https://bsky.app/profile/seal-clubber.bsky.social/post/3mz4lj2h7zs2l"
       ],
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
+      "outcome": "blocked",
       "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T21:40:36.605Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Original submission and reset notice read; no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/Seal-Clubber/ootle-accord": {
           "url": "https://github.com/Seal-Clubber/ootle-accord",
+          "file": "fe1619902a95600f-e6d61797d8ea7c4eeec844979e32b653c3385b067481f7e385c8e9d29eb859e2.txt",
           "hash": "e6d61797d8ea7c4eeec844979e32b653c3385b067481f7e385c8e9d29eb859e2",
-          "revision": "622b71b73c4cf9038d8e60c183babb3be4d62326",
           "attemptedAt": "2026-11-04T10:06:57.595291+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/Seal-Clubber/ootle-accord/releases",
+            "file": "8f19439a527c097a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:06:57.235964+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "622b71b73c4cf9038d8e60c183babb3be4d62326",
+          "readmeSha": "7f251979e5190b8b04259752d6c1263827d4c77d",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "app",
+            "artifacts",
+            "crates",
+            "docs",
+            "package.json",
+            "scripts",
+            "tests"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "http://127.0.0.1:4173/",
+            "https://seal-clubber.github.io/ootle-accord/#explore"
+          ],
           "evidence": "work/daily-2026-11-04/fe1619902a95600f-e6d61797d8ea7c4eeec844979e32b653c3385b067481f7e385c8e9d29eb859e2.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full README read; MIT, current pinned revision, complete empty release list.",
           "lastAttemptAt": "2026-11-04T10:06:57.595291+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:57.595291+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/Seal-Clubber/ootle-accord#readme": {
           "url": "https://github.com/Seal-Clubber/ootle-accord#readme",
+          "file": "fe1619902a95600f-e6d61797d8ea7c4eeec844979e32b653c3385b067481f7e385c8e9d29eb859e2.txt",
           "hash": "e6d61797d8ea7c4eeec844979e32b653c3385b067481f7e385c8e9d29eb859e2",
+          "attemptedAt": "2026-11-04T10:06:57.595291+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/Seal-Clubber/ootle-accord/releases",
+            "file": "8f19439a527c097a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:06:57.235964+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
           "revision": "622b71b73c4cf9038d8e60c183babb3be4d62326",
-          "attemptedAt": "2026-10-31T09:25:23.750449+00:00",
-          "evidence": "work/daily-2026-10-31/fe1619902a95600f.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:25:23.750449+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:25:23.750449+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "readmeSha": "7f251979e5190b8b04259752d6c1263827d4c77d",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "app",
+            "artifacts",
+            "crates",
+            "docs",
+            "package.json",
+            "scripts",
+            "tests"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "http://127.0.0.1:4173/",
+            "https://seal-clubber.github.io/ootle-accord/#explore"
+          ],
+          "evidence": "work/daily-2026-11-04/fe1619902a95600f-e6d61797d8ea7c4eeec844979e32b653c3385b067481f7e385c8e9d29eb859e2.txt",
+          "scope": "Full README read; MIT, current pinned revision, complete empty release list.",
+          "lastAttemptAt": "2026-11-04T10:06:57.595291+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:57.595291+00:00",
+          "status": "read",
+          "error": null
         },
         "https://seal-clubber.github.io/ootle-accord/#explore": {
           "url": "https://seal-clubber.github.io/ootle-accord/#explore",
           "hash": "000ade49352e748658c9d6817fd1d2b03c624a9efd3524396b0595966c031483",
           "attemptedAt": "2026-11-04T10:07:32.700614+00:00",
-          "evidence": "work/daily-2026-11-04/3273474341eba671-000ade49352e748658c9d6817fd1d2b03c624a9efd3524396b0595966c031483.txt",
+          "evidence": "work/daily-2026-11-04/ootle-accord-refresh-failure-nov4.txt",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:32.700614+00:00",
+          "lastAttemptAt": "2026-11-04T21:40:36.605Z",
           "lastSuccessfulReadAt": "2026-11-04T10:07:32.700614+00:00",
-          "status": "read"
+          "status": "blocked",
+          "error": "Public page renders recorded checkpoint epoch12740; explicit Refresh balance returns Could not refresh the Esmeralda balance.",
+          "failureKind": "unavailable-content",
+          "nextAction": "Revisit after creator republishes the referenced Esmeralda deployment or the public indexer recovers; preserve historical footage and failure evidence."
         },
         "https://bsky.app/profile/seal-clubber.bsky.social/post/3mz4lj2h7zs2l": {
           "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3mz4lj2h7zs2l",
-          "hash": "f6a181d97de9fab99bb720a2e017deed5af1a6a44a6993493e77081002aedb1e",
-          "attemptedAt": "2026-11-04T10:07:26.141882+00:00",
-          "evidence": "work/daily-2026-11-04/615734e77ff448b4-f6a181d97de9fab99bb720a2e017deed5af1a6a44a6993493e77081002aedb1e.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.141882+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.141882+00:00",
-          "status": "read"
+          "file": "615734e77ff448b4-cbccccdce9054b4a101677eb95d3214df8225c7a57cdba4dd1ce979af871628e.txt",
+          "hash": "cbccccdce9054b4a101677eb95d3214df8225c7a57cdba4dd1ce979af871628e",
+          "attemptedAt": "2026-11-04T10:06:51.776492+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fseal-clubber.bsky.social%2Fapp.bsky.feed.post%2F3mz4lj2h7zs2l&depth=100&parentHeight=100",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/615734e77ff448b4-cbccccdce9054b4a101677eb95d3214df8225c7a57cdba4dd1ce979af871628e.txt",
+          "scope": "Full original text and reply tree read, zero replies. Original promotional artwork visually read.",
+          "lastAttemptAt": "2026-11-04T10:06:51.776492+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:51.776492+00:00",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Original submission and reset notice read; no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/Seal-Clubber/ootle-accord/releases": {
+          "url": "https://github.com/Seal-Clubber/ootle-accord/releases",
+          "file": "8f19439a527c097a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:06:57.235964+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/8f19439a527c097a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Full release listing empty.",
+          "lastAttemptAt": "2026-11-04T10:06:57.235964+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:57.235964+00:00",
+          "status": "read",
+          "error": null
         }
       },
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "pendingReviewSources": [
-        "https://github.com/Seal-Clubber/ootle-accord#readme"
+      "pendingReviewSources": [],
+      "blockedSources": [
+        "https://seal-clubber.github.io/ootle-accord/#explore"
       ],
-      "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
-        "https://seal-clubber.github.io/ootle-accord/#explore",
-        "https://bsky.app/profile/seal-clubber.bsky.social/post/3mz4lj2h7zs2l",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/Seal-Clubber/ootle-accord/releases",
+        "https://bsky.app/profile/seal-clubber.bsky.social/post/3mz4lj2h7zs2l"
       ],
       "changedFields": [
         "sourceEvidence"
@@ -22389,7 +23000,6 @@
         "provenance"
       ],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -22424,7 +23034,11 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
-      ]
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/ootle-accord-review-outcome.json"
+      ],
+      "lastAttemptObservation": "November4: static accord and Review pages reachable, but public balance refresh fails. Paid10tTARI and3approvals are explicitly the recorded epoch12740 checkpoint, not newly established chain state. README622b71b and original forum/Bluesky post/artwork reviewed. No Sapient connection, funding, approval or payout performed."
     },
     "tari-ootle:component:ghost-gate": {
       "id": "tari-ootle:component:ghost-gate",
@@ -22436,103 +23050,199 @@
         "https://ghostgate.boo/",
         "https://bsky.app/profile/did:plc:cj5wzjmazjbonijxuueycyx5/post/3mz5fwrpt5f27"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T21:34:42.257Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T21:34:42.257Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete retained topic; original creator submission and organizer reset notice read, no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/GSXRspartan/Ghost-Gate": {
           "url": "https://github.com/GSXRspartan/Ghost-Gate",
+          "file": "442fe99d83c36995-676312ebea24e315e602b4efadd3f40917b34e66e74d4ee9564c276767fe7e82.txt",
           "hash": "676312ebea24e315e602b4efadd3f40917b34e66e74d4ee9564c276767fe7e82",
-          "revision": "f960d1575c7175f98625d2ae0015a300980b0b68",
           "attemptedAt": "2026-11-04T10:06:53.546719+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/GSXRspartan/Ghost-Gate/releases",
+            "file": "e067e23c603753c8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:06:53.173591+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "f960d1575c7175f98625d2ae0015a300980b0b68",
+          "readmeSha": "493f0f93d1f57523e53947acbd059dc68e1b165b",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".gitignore",
+            "CHANGELOG.md",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "cloudflare",
+            "crates",
+            "deploy",
+            "docs",
+            "scripts",
+            "templates",
+            "tools",
+            "web"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "https://ghostgate.boo",
+            "https://github.com/tari-project/tari-ootle.git",
+            "https://universe.tari.mw/integration/"
+          ],
           "evidence": "work/daily-2026-11-04/442fe99d83c36995-676312ebea24e315e602b4efadd3f40917b34e66e74d4ee9564c276767fe7e82.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Full README read, including privacy model and testnet restrictions.",
           "lastAttemptAt": "2026-11-04T10:06:53.546719+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:53.546719+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/GSXRspartan/Ghost-Gate#readme": {
           "url": "https://github.com/GSXRspartan/Ghost-Gate#readme",
+          "file": "442fe99d83c36995-676312ebea24e315e602b4efadd3f40917b34e66e74d4ee9564c276767fe7e82.txt",
           "hash": "676312ebea24e315e602b4efadd3f40917b34e66e74d4ee9564c276767fe7e82",
+          "attemptedAt": "2026-11-04T10:06:53.546719+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/GSXRspartan/Ghost-Gate/releases",
+            "file": "e067e23c603753c8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:06:53.173591+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
           "revision": "f960d1575c7175f98625d2ae0015a300980b0b68",
-          "attemptedAt": "2026-10-31T09:25:24.245658+00:00",
-          "evidence": "work/daily-2026-10-31/442fe99d83c36995.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:25:24.245658+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:25:24.245658+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "readmeSha": "493f0f93d1f57523e53947acbd059dc68e1b165b",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".gitignore",
+            "CHANGELOG.md",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "cloudflare",
+            "crates",
+            "deploy",
+            "docs",
+            "scripts",
+            "templates",
+            "tools",
+            "web"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "https://ghostgate.boo",
+            "https://github.com/tari-project/tari-ootle.git",
+            "https://universe.tari.mw/integration/"
+          ],
+          "evidence": "work/daily-2026-11-04/442fe99d83c36995-676312ebea24e315e602b4efadd3f40917b34e66e74d4ee9564c276767fe7e82.txt",
+          "scope": "Fragment alias for same README fully read.",
+          "lastAttemptAt": "2026-11-04T10:06:53.546719+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:53.546719+00:00",
+          "status": "read",
+          "error": null
         },
         "https://ghostgate.boo/": {
+          "file": "ghostgate-live-simple-nov4.txt",
+          "attemptedAt": "2026-11-04T21:34:42.257Z",
           "url": "https://ghostgate.boo/",
-          "hash": "598ef622dfeaabb63a063b339dd1a857d4f46a3655327f3fa45113ae9748b75a",
-          "attemptedAt": "2026-11-04T10:07:27.249385+00:00",
-          "evidence": "work/daily-2026-11-04/202b16eb0e50a589-598ef622dfeaabb63a063b339dd1a857d4f46a3655327f3fa45113ae9748b75a.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:27.249385+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:27.249385+00:00",
-          "status": "read"
+          "hash": "dc823c85ec4a7cdbc60bcbb21937fb3998de9aa8d98b9cb07ecf6829ad512dfd",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/ghostgate-live-simple-nov4.txt",
+          "scope": "Rendered public page reviewed; no wallet actions. Additional technical/issuer view read.",
+          "lastAttemptAt": "2026-11-04T21:34:42.257Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:34:42.257Z",
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/did:plc:cj5wzjmazjbonijxuueycyx5/post/3mz5fwrpt5f27": {
           "url": "https://bsky.app/profile/did:plc:cj5wzjmazjbonijxuueycyx5/post/3mz5fwrpt5f27",
-          "hash": "0197881d911410603bb320afe514dfd6bf9c954e6109e05cc75c3ffea978b5f3",
-          "attemptedAt": "2026-11-04T10:07:25.269414+00:00",
-          "evidence": "work/daily-2026-11-04/da08b830179a7ddc-0197881d911410603bb320afe514dfd6bf9c954e6109e05cc75c3ffea978b5f3.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.269414+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.269414+00:00",
-          "status": "read"
+          "file": "da08b830179a7ddc-875f3df01354e9bb518aba63f76a57b00531750b9d443272574be311f488c065.txt",
+          "hash": "875f3df01354e9bb518aba63f76a57b00531750b9d443272574be311f488c065",
+          "attemptedAt": "2026-11-04T10:06:46.532521+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fdid%3Aplc%3Acj5wzjmazjbonijxuueycyx5%2Fapp.bsky.feed.post%2F3mz5fwrpt5f27&depth=100&parentHeight=100",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/da08b830179a7ddc-875f3df01354e9bb518aba63f76a57b00531750b9d443272574be311f488c065.txt",
+          "scope": "Full original post and reply tree read; zero replies. Four creator images visually reviewed separately.",
+          "lastAttemptAt": "2026-11-04T10:06:46.532521+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.532521+00:00",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete retained topic; original creator submission and organizer reset notice read, no direct replies on these posts.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/GSXRspartan/Ghost-Gate/releases": {
+          "url": "https://github.com/GSXRspartan/Ghost-Gate/releases",
+          "file": "e067e23c603753c8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:06:53.173591+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/e067e23c603753c8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Complete release listing, empty.",
+          "lastAttemptAt": "2026-11-04T10:06:53.173591+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:53.173591+00:00",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "pendingReviewSources": [
-        "https://github.com/GSXRspartan/Ghost-Gate#readme"
-      ],
+      "observedAvailability": "November4: public Privacy Lab and technical view reachable. Esmeralda network38, Cryptv3 policy,100tTARI public/revealed lower bound, seven-day operator-issued session; Sapient/Tari Universe options shown. README f960d157 and empty release list reviewed. No wallet connection, proof request or transaction performed. Creator posts and zero-reply Bluesky thread plus four original images reviewed; network-reset notice retained.",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
+        "https://github.com/GSXRspartan/Ghost-Gate/releases",
         "https://ghostgate.boo/",
-        "https://bsky.app/profile/did:plc:cj5wzjmazjbonijxuueycyx5/post/3mz5fwrpt5f27",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://bsky.app/profile/did:plc:cj5wzjmazjbonijxuueycyx5/post/3mz5fwrpt5f27"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -22567,6 +23277,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/ghost-gate-review-outcome.json"
       ]
     },
     "tari-ootle:component:ootlebook": {
