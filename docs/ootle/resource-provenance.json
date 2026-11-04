@@ -707,6 +707,24 @@
           "visibility": "public",
           "relationship": "additional public discussion; original creator post retained",
           "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+        },
+        {
+          "url": "https://community.tari.com/t/september-contest-thread/324/5",
+          "platform": "Tari Community forum",
+          "author": "Og.boy",
+          "publishedAt": "2026-09-08T01:59:18.861Z",
+          "foundOn": "2026-11-04",
+          "context": "Creator Esmeralda deployment and source correction update; historical creator claim",
+          "visibility": "public"
+        },
+        {
+          "url": "https://x.com/lrifton6240/status/2097119482540064775",
+          "platform": "X",
+          "author": "@lrifton6240",
+          "publishedAt": "2026-09-07",
+          "foundOn": "2026-11-04",
+          "context": "Original creator announcement linked from the September submission",
+          "visibility": "public"
         }
       ]
     },
@@ -808,6 +826,51 @@
           "visibility": "public",
           "relationship": "additional public discussion; original creator post retained",
           "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+        },
+        {
+          "url": "https://community.tari.com/t/september-contest-thread/324/23",
+          "platform": "Tari Community forum",
+          "author": "urelamba",
+          "publishedAt": "2026-09-27T18:59:50.895Z",
+          "foundOn": "2026-11-04",
+          "context": "Creator explanation of voucher provider mechanics and irreversible security-deposit burn",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/september-contest-thread/324/26",
+          "platform": "Tari Community forum",
+          "author": "urelamba",
+          "publishedAt": "2026-09-29T19:25:42.242Z",
+          "foundOn": "2026-11-04",
+          "context": "Creator v0.4 Android update and mock voucher demo instructions",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/september-contest-thread/324/34",
+          "platform": "Tari Community forum",
+          "author": "urelamba",
+          "publishedAt": "2026-10-01T09:42:51.764Z",
+          "foundOn": "2026-11-04",
+          "context": "Creator v0.5 release announcement",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/wunschswap-a-p2p-voucher-swap-that-puts-privacy-and-useability-first/377/1",
+          "platform": "Tari Community forum",
+          "author": "urelamba",
+          "publishedAt": "2026-09-26T18:32:54.941Z",
+          "foundOn": "2026-11-04",
+          "context": "Wunschswap: A P2P Voucher swap that puts privacy and useability first",
+          "visibility": "public"
+        },
+        {
+          "url": "https://nostr.com/nevent1qvzqqqqqqypzp2pe0xj7zpzqqvtqccvm4w6xvf0cjx4r68fuw5dvllfqstqm3nl2qy2hwumn8ghj7un9d3shjtnwdaehgu3wvdhk6qg5waehxw309aex2mrp0yhxgctdw4eju6t0qyxhwumn8ghj7mn0wvhxcmmvqy8hwumn8ghj7mn0wvh8yetvv9usz9thwden5te0dehhxarj9e5kummnw3sjucmrqqs8eq3unffus5ggr40ccakqy4h6dwxsl34t3ylgg4tsqxtgp8d0s8qmnudes",
+          "platform": "Nostr",
+          "author": "wunschswap",
+          "publishedAt": "2026-09-26T20:07:00Z",
+          "foundOn": "2026-11-04",
+          "context": "Original creator announcement of privacy-focused voucher swaps; linked from the forum submission",
+          "visibility": "public"
         }
       ]
     },
@@ -4104,7 +4167,7 @@
       "lastReviewedAt": "2026-11-04T13:14:54.974919+00:00"
     }
   ],
-  "updatedAt": "2026-11-04T14:54:54.803418+00:00",
+  "updatedAt": "2026-11-04T18:34:12.681701+00:00",
   "publicExport": {
     "preparedAt": "2026-11-03T16:00:05.259492+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
