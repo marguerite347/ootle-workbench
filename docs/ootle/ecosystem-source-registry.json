@@ -1022,24 +1022,25 @@
       "id": "reddit",
       "url": "https://www.reddit.com/r/tari/new.json?limit=100",
       "status": "blocked",
-      "lastAttemptAt": "2026-11-02T15:49:28.185621+00:00",
+      "lastAttemptAt": "2026-11-04T15:56:27.416592+00:00",
       "lastSuccessfulReadAt": "2026-10-29T10:55:00Z",
       "completedWatermark": "2026-10-29T10:55:00Z",
       "lookbackStart": "2026-10-17T00:00:00Z",
-      "coverageNote": "28 feed posts enumerated through September 28; 15 posts in overlap and accessible replies read. Full-stream success date preserved because two replies are not exposed.",
-      "note": "Public JSON returns HTTP 403; supported browser fallback reads all 15 overlap posts but two threads expose one fewer reply than their counters, unchanged after Best/New sorts, with no expansion control.",
+      "coverageNote": "Public feed and original bodies/comments from October22 through November4. Feed snapshot extends into October1, below the seven-day overlap from last successful October29 checkpoint. All discovered linked resource/capture/publication work remains independently queued.",
+      "note": "One reply counted on 1xe88wu is not exposed in either Best or New sort, with no expansion control; JSON fallback returns HTTP403. Reddit also explicitly removed body 1xn0fp5.",
       "evidence": [
-        "work/daily-2026-10-31/reddit-coverage-nov2.json",
-        "work/daily-2026-10-31/reddit-api-retry-nov2.json",
-        "work/daily-2026-10-31/reddit-thread-1x8m0xh-new-sort-loaded-nov2.txt",
-        "work/daily-2026-10-31/reddit-thread-1xe88wu-new-sort-loaded-nov2.txt",
-        "work/daily-2026-10-31/reddit-hardware-image-nov2.png"
+        "work/daily-2026-11-04/reddit-overlap-recovery.json",
+        "work/daily-2026-11-04/reddit-review-receipt.json",
+        "work/daily-2026-11-04/reddit-1xe88wu-sort-new-loaded.txt",
+        "work/daily-2026-11-04/reddit-comment-discrepancy-api.json",
+        "work/daily-2026-11-04/reddit-1xn0fp5-loaded.txt",
+        "work/daily-2026-11-04/reddit-feed-01.txt"
       ],
       "transportAttempt": {
         "url": "https://www.reddit.com/r/tari/new.json?limit=100",
         "result": "HTTP 403"
       },
-      "reviewedAt": "2026-11-02T15:49:28.185621+00:00",
+      "reviewedAt": "2026-11-04T15:56:27.416592+00:00",
       "history": [
         {
           "id": "reddit",
@@ -1086,11 +1087,38 @@
           "missingScope": "1xe88wu: 4 reported / 3 read; 1x8m0xh: 3 reported / 2 read. Best and New sorts exhausted.",
           "nextAction": "Retry two threads and API; do not advance successful checkpoint until reply scope is reconciled.",
           "retryAt": "2026-11-03T10:00:00Z"
+        },
+        {
+          "id": "reddit",
+          "url": "https://www.reddit.com/r/tari/new.json?limit=100",
+          "status": "blocked",
+          "lastAttemptAt": "2026-11-02T15:49:28.185621+00:00",
+          "lastSuccessfulReadAt": "2026-10-29T10:55:00Z",
+          "completedWatermark": "2026-10-29T10:55:00Z",
+          "lookbackStart": "2026-10-17T00:00:00Z",
+          "coverageNote": "28 feed posts enumerated through September 28; 15 posts in overlap and accessible replies read. Full-stream success date preserved because two replies are not exposed.",
+          "note": "Public JSON returns HTTP 403; supported browser fallback reads all 15 overlap posts but two threads expose one fewer reply than their counters, unchanged after Best/New sorts, with no expansion control.",
+          "evidence": [
+            "work/daily-2026-10-31/reddit-coverage-nov2.json",
+            "work/daily-2026-10-31/reddit-api-retry-nov2.json",
+            "work/daily-2026-10-31/reddit-thread-1x8m0xh-new-sort-loaded-nov2.txt",
+            "work/daily-2026-10-31/reddit-thread-1xe88wu-new-sort-loaded-nov2.txt",
+            "work/daily-2026-10-31/reddit-hardware-image-nov2.png"
+          ],
+          "transportAttempt": {
+            "url": "https://www.reddit.com/r/tari/new.json?limit=100",
+            "result": "HTTP 403"
+          },
+          "reviewedAt": "2026-11-02T15:49:28.185621+00:00",
+          "missingScope": "1xe88wu: one reply; 1x8m0xh: one reply. All accessible material retained.",
+          "nextAction": "Retry those original threads and API; keep full-stream last-good checkpoint unchanged.",
+          "retryAt": "2026-11-03T10:00:00Z",
+          "failureKind": "unavailable-content"
         }
       ],
-      "missingScope": "1xe88wu: one reply; 1x8m0xh: one reply. All accessible material retained.",
-      "nextAction": "Retry those original threads and API; keep full-stream last-good checkpoint unchanged.",
-      "retryAt": "2026-11-03T10:00:00Z",
+      "missingScope": "Unexposed fourth reply on 1xe88wu and removed original body 1xn0fp5; accessible three replies and replacement creator forum527 are retained.",
+      "nextAction": "Recheck these exact public threads if Reddit exposes additional content; keep source checkpoint unchanged. Do not recover removed content through access bypass.",
+      "retryAt": "2026-11-05T10:00:00Z",
       "failureKind": "unavailable-content"
     },
     {
@@ -1530,24 +1558,25 @@
       "id": "reddit-browser",
       "url": "https://www.reddit.com/r/tari/new/",
       "status": "blocked",
-      "note": "Public JSON returns HTTP 403; supported browser fallback reads all 15 overlap posts but two threads expose one fewer reply than their counters, unchanged after Best/New sorts, with no expansion control.",
-      "lastAttemptAt": "2026-11-02T15:49:28.185621+00:00",
+      "note": "One reply counted on 1xe88wu is not exposed in either Best or New sort, with no expansion control; JSON fallback returns HTTP403. Reddit also explicitly removed body 1xn0fp5.",
+      "lastAttemptAt": "2026-11-04T15:56:27.416592+00:00",
       "lastSuccessfulReadAt": "2026-10-24T15:10:35.583Z",
       "completedWatermark": "2026-10-24T15:10:35.583Z",
       "lookbackStart": "2026-10-17T00:00:00Z",
-      "coverageNote": "28 feed posts enumerated through September 28; 15 posts in overlap and accessible replies read. Full-stream success date preserved because two replies are not exposed.",
+      "coverageNote": "Public feed and original bodies/comments from October22 through November4. Feed snapshot extends into October1, below the seven-day overlap from last successful October29 checkpoint. All discovered linked resource/capture/publication work remains independently queued.",
       "hash": "f9f88eda5eeab2184ed47c6394737db7c33a08d14ee06504ee75846f83ee2eed",
       "transportAttempt": {
         "url": "https://www.reddit.com/r/tari/new.json?limit=100",
         "result": "HTTP 403"
       },
-      "reviewedAt": "2026-11-02T15:49:28.185621+00:00",
+      "reviewedAt": "2026-11-04T15:56:27.416592+00:00",
       "evidence": [
-        "work/daily-2026-10-31/reddit-coverage-nov2.json",
-        "work/daily-2026-10-31/reddit-api-retry-nov2.json",
-        "work/daily-2026-10-31/reddit-thread-1x8m0xh-new-sort-loaded-nov2.txt",
-        "work/daily-2026-10-31/reddit-thread-1xe88wu-new-sort-loaded-nov2.txt",
-        "work/daily-2026-10-31/reddit-hardware-image-nov2.png"
+        "work/daily-2026-11-04/reddit-overlap-recovery.json",
+        "work/daily-2026-11-04/reddit-review-receipt.json",
+        "work/daily-2026-11-04/reddit-1xe88wu-sort-new-loaded.txt",
+        "work/daily-2026-11-04/reddit-comment-discrepancy-api.json",
+        "work/daily-2026-11-04/reddit-1xn0fp5-loaded.txt",
+        "work/daily-2026-11-04/reddit-feed-01.txt"
       ],
       "history": [
         {
@@ -1597,11 +1626,39 @@
           "missingScope": "1xe88wu: 4 reported / 3 read; 1x8m0xh: 3 reported / 2 read. Best and New sorts exhausted.",
           "nextAction": "Retry two threads and API; do not advance successful checkpoint until reply scope is reconciled.",
           "retryAt": "2026-11-03T10:00:00Z"
+        },
+        {
+          "id": "reddit-browser",
+          "url": "https://www.reddit.com/r/tari/new/",
+          "status": "blocked",
+          "note": "Public JSON returns HTTP 403; supported browser fallback reads all 15 overlap posts but two threads expose one fewer reply than their counters, unchanged after Best/New sorts, with no expansion control.",
+          "lastAttemptAt": "2026-11-02T15:49:28.185621+00:00",
+          "lastSuccessfulReadAt": "2026-10-24T15:10:35.583Z",
+          "completedWatermark": "2026-10-24T15:10:35.583Z",
+          "lookbackStart": "2026-10-17T00:00:00Z",
+          "coverageNote": "28 feed posts enumerated through September 28; 15 posts in overlap and accessible replies read. Full-stream success date preserved because two replies are not exposed.",
+          "hash": "f9f88eda5eeab2184ed47c6394737db7c33a08d14ee06504ee75846f83ee2eed",
+          "transportAttempt": {
+            "url": "https://www.reddit.com/r/tari/new.json?limit=100",
+            "result": "HTTP 403"
+          },
+          "reviewedAt": "2026-11-02T15:49:28.185621+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/reddit-coverage-nov2.json",
+            "work/daily-2026-10-31/reddit-api-retry-nov2.json",
+            "work/daily-2026-10-31/reddit-thread-1x8m0xh-new-sort-loaded-nov2.txt",
+            "work/daily-2026-10-31/reddit-thread-1xe88wu-new-sort-loaded-nov2.txt",
+            "work/daily-2026-10-31/reddit-hardware-image-nov2.png"
+          ],
+          "missingScope": "1xe88wu: one reply; 1x8m0xh: one reply. All accessible material retained.",
+          "nextAction": "Retry those original threads and API; keep full-stream last-good checkpoint unchanged.",
+          "retryAt": "2026-11-03T10:00:00Z",
+          "failureKind": "unavailable-content"
         }
       ],
-      "missingScope": "1xe88wu: one reply; 1x8m0xh: one reply. All accessible material retained.",
-      "nextAction": "Retry those original threads and API; keep full-stream last-good checkpoint unchanged.",
-      "retryAt": "2026-11-03T10:00:00Z",
+      "missingScope": "Unexposed fourth reply on 1xe88wu and removed original body 1xn0fp5; accessible three replies and replacement creator forum527 are retained.",
+      "nextAction": "Recheck these exact public threads if Reddit exposes additional content; keep source checkpoint unchanged. Do not recover removed content through access bypass.",
+      "retryAt": "2026-11-05T10:00:00Z",
       "failureKind": "unavailable-content"
     },
     {
@@ -23115,19 +23172,17 @@
       "sources": [
         "https://github.com/m4r1m0/confidential-rcv-web",
         "https://github.com/m4r1m0/confidential-rcv-web#readme",
-        "https://github.com/m4r1m0/confidential-rcv-web/releases",
         "https://github.com/m4r1m0/confidential-rcv-web/pull/2"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T15:55:40.728Z",
       "sourceReviews": {
         "https://github.com/m4r1m0/confidential-rcv-web": {
           "url": "https://github.com/m4r1m0/confidential-rcv-web",
+          "attemptedAt": "2026-11-04T10:07:07.695609+00:00",
           "hash": "4a90f858d8f8bafd727a78768ce8cec25f09dc111089ee6073ebc1d7f6f8dea3",
           "revision": "964bc753535d330ac897a7fc6a87d88e8a2c2c74",
-          "attemptedAt": "2026-11-04T10:07:07.695609+00:00",
           "evidence": "work/daily-2026-11-04/9ad676e819f4cf76-4a90f858d8f8bafd727a78768ce8cec25f09dc111089ee6073ebc1d7f6f8dea3.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Current repository README/release bytes unchanged; #readme shares the same source representation.",
           "lastAttemptAt": "2026-11-04T10:07:07.695609+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:07.695609+00:00",
           "status": "read",
@@ -23135,58 +23190,50 @@
         },
         "https://github.com/m4r1m0/confidential-rcv-web#readme": {
           "url": "https://github.com/m4r1m0/confidential-rcv-web#readme",
+          "attemptedAt": "2026-11-04T10:07:07.695609+00:00",
           "hash": "4a90f858d8f8bafd727a78768ce8cec25f09dc111089ee6073ebc1d7f6f8dea3",
-          "attemptedAt": "2026-11-02T22:46:43.872144+00:00",
-          "evidence": "work/daily-2026-10-31/9ad676e819f4cf76-4a90f858d8f8bafd727a78768ce8cec25f09dc111089ee6073ebc1d7f6f8dea3.txt",
-          "method": "Complete GitHub API README, metadata and default revision; docs fragment is same README",
           "revision": "964bc753535d330ac897a7fc6a87d88e8a2c2c74",
-          "lastAttemptAt": "2026-11-02T22:46:43.872144+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T22:46:43.872144+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "evidence": "work/daily-2026-11-04/9ad676e819f4cf76-4a90f858d8f8bafd727a78768ce8cec25f09dc111089ee6073ebc1d7f6f8dea3.txt",
+          "scope": "Current repository README/release bytes unchanged; #readme shares the same source representation.",
+          "lastAttemptAt": "2026-11-04T10:07:07.695609+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:07.695609+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/m4r1m0/confidential-rcv-web/releases": {
           "url": "https://github.com/m4r1m0/confidential-rcv-web/releases",
-          "file": "4eceb755cd2aa2dd-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "attemptedAt": "2026-11-04T10:07:07.419908+00:00",
           "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-          "attemptedAt": "2026-11-02T22:46:43.527231+00:00",
-          "kind": "repository-releases",
-          "complete": true,
-          "pages": 1,
-          "evidence": "work/daily-2026-10-31/4eceb755cd2aa2dd-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
-          "lastAttemptAt": "2026-11-02T22:46:43.527231+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T22:46:43.527231+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/4eceb755cd2aa2dd-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-04T10:07:07.419908+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:07.419908+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/m4r1m0/confidential-rcv-web/pull/2": {
           "url": "https://github.com/m4r1m0/confidential-rcv-web/pull/2",
-          "hash": "1c198917c88babf31a30a5f875a13dc525f6570d5a504a95e30666681cf3fd9d:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-          "attemptedAt": "2026-11-02T22:50:13.469350+00:00",
-          "evidence": [
-            "work/daily-2026-10-31/88a82989ced66946-1c198917c88babf31a30a5f875a13dc525f6570d5a504a95e30666681cf3fd9d.txt",
-            "work/daily-2026-10-31/c0d57f299ad8c0b6-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
-            "work/daily-2026-10-31/5d49daad7cfb264b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
-            "work/daily-2026-10-31/681e918e64dd139b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt"
-          ],
-          "method": "Full pull request body, paginated issue comments, review comments and reviews",
-          "lastAttemptAt": "2026-11-02T22:50:13.469350+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T22:50:13.469350+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T15:50:55.155791+00:00",
+          "hash": "b42700bfcd9dc257e3bb8b64c71db86500094e3b24ff3d16e5318c025477d827",
+          "evidence": "work/daily-2026-11-04/6b8e8c272abd8312-b42700bfcd9dc257e3bb8b64c71db86500094e3b24ff3d16e5318c025477d827.txt",
+          "scope": "Complete pull body, all issue comments, reviews and line comments matched retained accepted content.",
+          "lastAttemptAt": "2026-11-04T15:50:55.155791+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T15:50:55.155791+00:00",
+          "status": "read",
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-02T23:01:07.187535+00:00",
-      "observedAvailability": "source-only",
-      "outcome": "pending",
-      "pendingReviewSources": [
-        "https://github.com/m4r1m0/confidential-rcv-web#readme",
-        "https://github.com/m4r1m0/confidential-rcv-web/pull/2",
-        "https://github.com/m4r1m0/confidential-rcv-web/releases"
-      ],
+      "lastSuccessfulReviewAt": "2026-11-04T15:55:40.728Z",
+      "observedAvailability": "Public source-only JavaScript frontend remains reachable. Current README, repository metadata, release stream and all retained discussions reviewed; no new hosted demo or release in these sources. Public ballot/ranking and stealth-fee restrictions retained. No execution or creator test reproduction.",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
       "blockedSources": [],
-      "changedSources": [],
-      "reviewRequired": true,
-      "changedFields": [],
+      "changedSources": [
+        "https://github.com/m4r1m0/confidential-rcv-web/pull/2"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
@@ -23198,6 +23245,9 @@
           "attemptedAt": "2026-11-04T10:07:07.695609+00:00",
           "revision": "964bc753535d330ac897a7fc6a87d88e8a2c2c74"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/voting-current-source-acceptance.json"
       ]
     },
     "tari-ootle:component:confidential-vote-template": {
@@ -23206,20 +23256,18 @@
       "sources": [
         "https://github.com/m4r1m0/confidential-vote-template",
         "https://github.com/m4r1m0/confidential-vote-template#readme",
-        "https://github.com/m4r1m0/confidential-rcv-template/releases",
         "https://github.com/m4r1m0/confidential-vote-template/pull/1",
         "https://github.com/m4r1m0/confidential-vote-template/pull/7"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T15:55:40.728Z",
       "sourceReviews": {
         "https://github.com/m4r1m0/confidential-vote-template": {
           "url": "https://github.com/m4r1m0/confidential-vote-template",
+          "attemptedAt": "2026-11-04T10:07:08.028300+00:00",
           "hash": "dfd8dada9e447f1be70783bbcafe4e1c1bc14f4c1507807a5ddc71452a52b572",
           "revision": "cb2051b84a872609256cd4ac0fec12a8704dc8b1",
-          "attemptedAt": "2026-11-04T10:07:08.028300+00:00",
           "evidence": "work/daily-2026-11-04/ad19be345e1d903e-dfd8dada9e447f1be70783bbcafe4e1c1bc14f4c1507807a5ddc71452a52b572.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Current repository README/release bytes unchanged; #readme shares the same source representation.",
           "lastAttemptAt": "2026-11-04T10:07:08.028300+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:08.028300+00:00",
           "status": "read",
@@ -23227,15 +23275,15 @@
         },
         "https://github.com/m4r1m0/confidential-vote-template#readme": {
           "url": "https://github.com/m4r1m0/confidential-vote-template#readme",
+          "attemptedAt": "2026-11-04T10:07:08.028300+00:00",
           "hash": "dfd8dada9e447f1be70783bbcafe4e1c1bc14f4c1507807a5ddc71452a52b572",
-          "attemptedAt": "2026-11-02T22:45:35.660118+00:00",
-          "evidence": "work/daily-2026-10-31/53be63e7132e577c-dfd8dada9e447f1be70783bbcafe4e1c1bc14f4c1507807a5ddc71452a52b572.txt",
-          "method": "Complete GitHub API README, metadata and default revision; docs fragment is same README",
           "revision": "cb2051b84a872609256cd4ac0fec12a8704dc8b1",
-          "lastAttemptAt": "2026-11-02T22:45:35.660118+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T22:45:35.660118+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "evidence": "work/daily-2026-11-04/ad19be345e1d903e-dfd8dada9e447f1be70783bbcafe4e1c1bc14f4c1507807a5ddc71452a52b572.txt",
+          "scope": "Current repository README/release bytes unchanged; #readme shares the same source representation.",
+          "lastAttemptAt": "2026-11-04T10:07:08.028300+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:08.028300+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/m4r1m0/confidential-rcv-template/releases": {
           "url": "https://github.com/m4r1m0/confidential-rcv-template/releases",
@@ -23252,50 +23300,51 @@
         },
         "https://github.com/m4r1m0/confidential-vote-template/pull/1": {
           "url": "https://github.com/m4r1m0/confidential-vote-template/pull/1",
-          "hash": "293608e04248a82840989d579ce5379351ae4718ed00f9638f423c6271d6b307:ce3157b25abc3fdc0828bcdb4ea55ab6d30cb0cce4bfdc110cdb4951d55131b8:2206bf33505653ad04641c02fc57440e997094d37bb579435968376b43eb5a65:57863a72c05c4778e71b6c87a08effce115b8a6eac67bea4f3233bb2d672ef57",
-          "attemptedAt": "2026-11-02T22:52:33.710370+00:00",
-          "evidence": [
-            "work/daily-2026-10-31/0cf86012c329aaae-293608e04248a82840989d579ce5379351ae4718ed00f9638f423c6271d6b307.txt",
-            "work/daily-2026-10-31/3e950f1c42dadd35-ce3157b25abc3fdc0828bcdb4ea55ab6d30cb0cce4bfdc110cdb4951d55131b8.txt",
-            "work/daily-2026-10-31/814c3123dd0cea11-2206bf33505653ad04641c02fc57440e997094d37bb579435968376b43eb5a65.txt",
-            "work/daily-2026-10-31/2e11ff8e29c6ea6e-57863a72c05c4778e71b6c87a08effce115b8a6eac67bea4f3233bb2d672ef57.txt"
-          ],
-          "method": "Full pull request body, paginated issue comments, review comments and reviews",
-          "lastAttemptAt": "2026-11-02T22:52:33.710370+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T22:52:33.710370+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T15:50:55.502832+00:00",
+          "hash": "acba7f3083cf342dba9c9463073d00272ea8aef065c6dbb00e7d2b2d22d6734a",
+          "evidence": "work/daily-2026-11-04/9f369d6cb01b408c-acba7f3083cf342dba9c9463073d00272ea8aef065c6dbb00e7d2b2d22d6734a.txt",
+          "scope": "Complete pull body, all issue comments, reviews and line comments matched retained accepted content.",
+          "lastAttemptAt": "2026-11-04T15:50:55.502832+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T15:50:55.502832+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/m4r1m0/confidential-vote-template/pull/7": {
           "url": "https://github.com/m4r1m0/confidential-vote-template/pull/7",
-          "hash": "37342ff0dd06f4ca15f9d8691c5d3a64f3eb86a9c822e9df835dbb4588c0968f:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-          "attemptedAt": "2026-11-02T22:52:35.224262+00:00",
-          "evidence": [
-            "work/daily-2026-10-31/c32a318bb1e01318-37342ff0dd06f4ca15f9d8691c5d3a64f3eb86a9c822e9df835dbb4588c0968f.txt",
-            "work/daily-2026-10-31/4352f13a1969c0c8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
-            "work/daily-2026-10-31/19604ca50fefadc2-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
-            "work/daily-2026-10-31/771803cb63193936-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt"
-          ],
-          "method": "Full pull request body, paginated issue comments, review comments and reviews",
-          "lastAttemptAt": "2026-11-02T22:52:35.224262+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T22:52:35.224262+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T15:50:55.045385+00:00",
+          "hash": "f3ebf453c336ac9d8d0913704bedb9c2ffc12ff82b99f2a1b89f1bb0221f01f8",
+          "evidence": "work/daily-2026-11-04/a2a8da5c9aa3b220-f3ebf453c336ac9d8d0913704bedb9c2ffc12ff82b99f2a1b89f1bb0221f01f8.txt",
+          "scope": "Complete pull body, all issue comments, reviews and line comments matched retained accepted content.",
+          "lastAttemptAt": "2026-11-04T15:50:55.045385+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T15:50:55.045385+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/m4r1m0/confidential-vote-template/releases": {
+          "url": "https://github.com/m4r1m0/confidential-vote-template/releases",
+          "attemptedAt": "2026-11-04T10:07:07.735729+00:00",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "evidence": "work/daily-2026-11-04/75eec916173434e4-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-04T10:07:07.735729+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:07.735729+00:00",
+          "status": "read",
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-02T23:01:07.187535+00:00",
-      "observedAvailability": "source-only",
-      "outcome": "pending",
-      "pendingReviewSources": [
-        "https://github.com/m4r1m0/confidential-vote-template#readme",
+      "lastSuccessfulReviewAt": "2026-11-04T15:55:40.728Z",
+      "observedAvailability": "Public source-only Rust template remains reachable. Current README, repository metadata, release stream and all retained discussions reviewed; no new hosted demo or release in these sources. Public ballot/ranking and stealth-fee restrictions retained. No execution or creator test reproduction.",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
         "https://github.com/m4r1m0/confidential-vote-template/pull/1",
         "https://github.com/m4r1m0/confidential-vote-template/pull/7",
-        "https://github.com/m4r1m0/confidential-rcv-template/releases"
+        "https://github.com/m4r1m0/confidential-vote-template/releases"
       ],
-      "blockedSources": [],
-      "changedSources": [],
-      "reviewRequired": true,
-      "changedFields": [],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
@@ -23307,6 +23356,9 @@
           "attemptedAt": "2026-11-04T10:07:08.028300+00:00",
           "revision": "cb2051b84a872609256cd4ac0fec12a8704dc8b1"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/voting-current-source-acceptance.json"
       ]
     },
     "tari-ootle:component:confidential-voting-template": {
@@ -23315,19 +23367,17 @@
       "sources": [
         "https://github.com/m4r1m0/confidential-voting-template",
         "https://github.com/m4r1m0/confidential-voting-template#readme",
-        "https://github.com/m4r1m0/confidential-voting-template/releases",
         "https://github.com/m4r1m0/confidential-voting-template/pull/1"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T15:55:40.728Z",
       "sourceReviews": {
         "https://github.com/m4r1m0/confidential-voting-template": {
           "url": "https://github.com/m4r1m0/confidential-voting-template",
+          "attemptedAt": "2026-11-04T10:07:08.636980+00:00",
           "hash": "ca575ac6b3e47df82d7c8153880505712c0c8778d9c3a956c42d58a288a4fec1",
           "revision": "b35942b74b8500595d0ed817aa56e0813935acd8",
-          "attemptedAt": "2026-11-04T10:07:08.636980+00:00",
           "evidence": "work/daily-2026-11-04/842d5257f0f35909-ca575ac6b3e47df82d7c8153880505712c0c8778d9c3a956c42d58a288a4fec1.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Current repository README/release bytes unchanged; #readme shares the same source representation.",
           "lastAttemptAt": "2026-11-04T10:07:08.636980+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:08.636980+00:00",
           "status": "read",
@@ -23335,58 +23385,50 @@
         },
         "https://github.com/m4r1m0/confidential-voting-template#readme": {
           "url": "https://github.com/m4r1m0/confidential-voting-template#readme",
+          "attemptedAt": "2026-11-04T10:07:08.636980+00:00",
           "hash": "ca575ac6b3e47df82d7c8153880505712c0c8778d9c3a956c42d58a288a4fec1",
-          "attemptedAt": "2026-11-02T22:46:25.734083+00:00",
-          "evidence": "work/daily-2026-10-31/842d5257f0f35909-ca575ac6b3e47df82d7c8153880505712c0c8778d9c3a956c42d58a288a4fec1.txt",
-          "method": "Complete GitHub API README, metadata and default revision; docs fragment is same README",
           "revision": "b35942b74b8500595d0ed817aa56e0813935acd8",
-          "lastAttemptAt": "2026-11-02T22:46:25.734083+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T22:46:25.734083+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "evidence": "work/daily-2026-11-04/842d5257f0f35909-ca575ac6b3e47df82d7c8153880505712c0c8778d9c3a956c42d58a288a4fec1.txt",
+          "scope": "Current repository README/release bytes unchanged; #readme shares the same source representation.",
+          "lastAttemptAt": "2026-11-04T10:07:08.636980+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:08.636980+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/m4r1m0/confidential-voting-template/releases": {
           "url": "https://github.com/m4r1m0/confidential-voting-template/releases",
-          "file": "867b119e7c77b95b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "attemptedAt": "2026-11-04T10:07:08.360451+00:00",
           "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-          "attemptedAt": "2026-11-02T22:46:25.413522+00:00",
-          "kind": "repository-releases",
-          "complete": true,
-          "pages": 1,
-          "evidence": "work/daily-2026-10-31/867b119e7c77b95b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
-          "lastAttemptAt": "2026-11-02T22:46:25.413522+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T22:46:25.413522+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/867b119e7c77b95b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-04T10:07:08.360451+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:08.360451+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/m4r1m0/confidential-voting-template/pull/1": {
           "url": "https://github.com/m4r1m0/confidential-voting-template/pull/1",
-          "hash": "02c9f2ea8e491d8d96c038987a4e14f815ec7689e0c6decd2098ce6dba8d97b5:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-          "attemptedAt": "2026-11-02T22:51:42.136479+00:00",
-          "evidence": [
-            "work/daily-2026-10-31/02dd0a03fd6ee38d-02c9f2ea8e491d8d96c038987a4e14f815ec7689e0c6decd2098ce6dba8d97b5.txt",
-            "work/daily-2026-10-31/cadd28463a3ffaf2-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
-            "work/daily-2026-10-31/405e7ff1caa11e2b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
-            "work/daily-2026-10-31/ed7dfc808a7fa9b4-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt"
-          ],
-          "method": "Full pull request body, paginated issue comments, review comments and reviews",
-          "lastAttemptAt": "2026-11-02T22:51:42.136479+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T22:51:42.136479+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T15:50:56.709627+00:00",
+          "hash": "edbd8754b0735cd397f5f1682c21060c6d0a50a744ec3b7e8ec93830643a21b5",
+          "evidence": "work/daily-2026-11-04/d021b910bdf6b591-edbd8754b0735cd397f5f1682c21060c6d0a50a744ec3b7e8ec93830643a21b5.txt",
+          "scope": "Complete pull body, all issue comments, reviews and line comments matched retained accepted content.",
+          "lastAttemptAt": "2026-11-04T15:50:56.709627+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T15:50:56.709627+00:00",
+          "status": "read",
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-02T23:01:07.187535+00:00",
-      "observedAvailability": "source-only",
-      "outcome": "pending",
-      "pendingReviewSources": [
-        "https://github.com/m4r1m0/confidential-voting-template#readme",
-        "https://github.com/m4r1m0/confidential-voting-template/pull/1",
-        "https://github.com/m4r1m0/confidential-voting-template/releases"
-      ],
+      "lastSuccessfulReviewAt": "2026-11-04T15:55:40.728Z",
+      "observedAvailability": "Public source-only Rust template remains reachable. Current README, repository metadata, release stream and all retained discussions reviewed; no new hosted demo or release in these sources. Public ballot/ranking and stealth-fee restrictions retained. No execution or creator test reproduction.",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
       "blockedSources": [],
-      "changedSources": [],
-      "reviewRequired": true,
-      "changedFields": [],
+      "changedSources": [
+        "https://github.com/m4r1m0/confidential-voting-template/pull/1"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
@@ -23398,6 +23440,9 @@
           "attemptedAt": "2026-11-04T10:07:08.636980+00:00",
           "revision": "b35942b74b8500595d0ed817aa56e0813935acd8"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/voting-current-source-acceptance.json"
       ]
     },
     "tari-ootle:learn:kurarmota-two-layer-architecture": {
@@ -24017,30 +24062,25 @@
       "sources": [
         "https://community.tari.com/t/november-build-contest-thread-mvp/520/1"
       ],
-      "outcome": "pending",
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "lastSuccessfulReviewAt": "2026-11-02T14:18:49.459419+00:00",
-      "reviewRequired": true,
+      "outcome": "reviewed",
+      "lastAttemptAt": "2026-11-04T16:44:52.831Z",
+      "lastSuccessfulReviewAt": "2026-11-04T16:44:52.831Z",
+      "reviewRequired": false,
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "evidence": [
-        "work/daily-2026-10-31/d1dedc27c133ba65-794c5201bf58512504f94093aa4224a2b976cbc9d6a58d30d96fefa4583da7f7.txt",
-        "work/daily-2026-10-31/780527328929d5dc-9ed58928f5b5489bf2a220801ecc794ff69a8b82d827293c068b28e00fb2e30f.txt",
-        "work/daily-2026-10-31/nov2-new-topics-review.json",
-        "work/daily-2026-10-31/november-opportunities-release-acceptance.json",
-        "work/daily-2026-10-31/capture-nov2-discoveries/november-mvp-frame-review.json"
+        "work/daily-2026-11-04/november-opportunities-source-review.json"
       ],
-      "observedAvailability": "Public dated organizer announcement, replies and linked rules read November2; see source evidence. Not an application or transaction test.",
+      "observedAvailability": "Public November MVP organizer announcement and all three available posts reviewed; one submission is QuietTicket, already separately catalogued. Earlier-project reuse is explicitly allowed with innovation. December1 00:00UTC follows linked general rules.",
       "reconciliationNote": "Existing dated opportunity review retained from actual November2 announcement, replies and rules read; independently published and accepted. Reconciliation adds missing scope identity without advancing its source review date.",
       "sourceReviews": {
         "https://community.tari.com/t/november-build-contest-thread-mvp/520/1": {
           "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/1",
-          "hash": "24d3ca6a2750c4f4f50346739281b2e0f3c896282b51c6a11085771655e6d729",
-          "attemptedAt": "2026-11-04T10:07:06.508589+00:00",
-          "evidence": "work/daily-2026-11-04/d1dedc27c133ba65-24d3ca6a2750c4f4f50346739281b2e0f3c896282b51c6a11085771655e6d729.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:06.508589+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:06.508589+00:00",
+          "attemptedAt": "2026-11-04T10:06:48.593646+00:00",
+          "hash": "35bf3a5a5c56de7bcf8a3d87e0491896a4a5260afee5932759a6248d7d332f66",
+          "evidence": "work/daily-2026-11-04/d1dedc27c133ba65-35bf3a5a5c56de7bcf8a3d87e0491896a4a5260afee5932759a6248d7d332f66.txt",
+          "scope": "Complete organizer thread including all available replies read; current linked general rules read separately.",
+          "lastAttemptAt": "2026-11-04T10:06:48.593646+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.593646+00:00",
           "status": "read",
           "error": null
         }
@@ -24053,13 +24093,7 @@
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
@@ -24076,30 +24110,25 @@
       "sources": [
         "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/1"
       ],
-      "outcome": "pending",
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "lastSuccessfulReviewAt": "2026-11-02T14:18:49.459419+00:00",
-      "reviewRequired": true,
+      "outcome": "reviewed",
+      "lastAttemptAt": "2026-11-04T16:44:52.831Z",
+      "lastSuccessfulReviewAt": "2026-11-04T16:44:52.831Z",
+      "reviewRequired": false,
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "evidence": [
-        "work/daily-2026-10-31/9c75a8691b74d6f1-ed4fe7ba5984a6afc61a0f2ab765aeaeaef46859d78006e16ee97d9d093dd4cc.txt",
-        "work/daily-2026-10-31/780527328929d5dc-9ed58928f5b5489bf2a220801ecc794ff69a8b82d827293c068b28e00fb2e30f.txt",
-        "work/daily-2026-10-31/nov2-new-topics-review.json",
-        "work/daily-2026-10-31/november-opportunities-release-acceptance.json",
-        "work/daily-2026-10-31/capture-november-first-launch-retry/november-first-launch-frame-review.json"
+        "work/daily-2026-11-04/november-opportunities-source-review.json"
       ],
-      "observedAvailability": "Public dated organizer announcement, replies and linked rules read November2; see source evidence. Not an application or transaction test.",
+      "observedAvailability": "Public First to Launch announcement and both available posts reviewed. First20 and100,000XTM terms retained. No clarification of the source mixed midnight/11:11:11/November21 wording appears; do not infer a deadline.",
       "reconciliationNote": "Existing dated opportunity review retained from actual November2 announcement, replies and rules read; independently published and accepted. Reconciliation adds missing scope identity without advancing its source review date.",
       "sourceReviews": {
         "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/1": {
           "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/1",
-          "hash": "a4b298ec8709ce4c08b6b7c75a349f544a3dc3ea6e8e4292b9d7fc45a74ab1f1",
-          "attemptedAt": "2026-11-04T10:07:06.596144+00:00",
-          "evidence": "work/daily-2026-11-04/9c75a8691b74d6f1-a4b298ec8709ce4c08b6b7c75a349f544a3dc3ea6e8e4292b9d7fc45a74ab1f1.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:06.596144+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:06.596144+00:00",
+          "attemptedAt": "2026-11-04T10:06:48.600044+00:00",
+          "hash": "fbca1fa979caa86e09590e55d9eeeca2966c7ec4822998c783881d7d157bd220",
+          "evidence": "work/daily-2026-11-04/9c75a8691b74d6f1-fbca1fa979caa86e09590e55d9eeeca2966c7ec4822998c783881d7d157bd220.txt",
+          "scope": "Complete organizer thread including all available replies read; current linked general rules read separately.",
+          "lastAttemptAt": "2026-11-04T10:06:48.600044+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.600044+00:00",
           "status": "read",
           "error": null
         }
@@ -24112,13 +24141,7 @@
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
@@ -26695,7 +26718,7 @@
     "preparedAt": "2026-11-04T14:54:54.803418+00:00",
     "scope": "Selected completed public resource reviews and attempted public discovery sources synchronized. Unreviewed checkpoints preserved; full run remains incomplete. Private evidence remains outside Git."
   },
-  "lastAttemptAt": "2026-11-04T11:59:29.167Z",
+  "lastAttemptAt": "2026-11-04T16:44:52.831Z",
   "currentRunStatus": "in-progress",
   "currentCanonicalReviewQueue": {
     "date": "2026-11-04",
