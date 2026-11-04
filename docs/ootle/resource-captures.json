@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T13:14:54.974919+00:00",
+  "updatedAt": "2026-11-04T14:54:54.803418+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -142,7 +142,6 @@
           "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/e203233e0e3642c3c19d694258fd3342db32aac0",
           "platform": "GitHub commit",
           "author": "chironbuilds",
-          "publishedAt": null,
           "foundOn": "2026-11-04",
           "context": "Erebus / Chiron Ootle SDK 0.2.2 update",
           "visibility": "public"
@@ -157,16 +156,13 @@
         "height": 800
       },
       "durationSeconds": 12,
-      "rawPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/daily-2026-11-04/sdk-wallet-refresh-capture/resource-erebus-ootle-sdk-20261104.raw.webm",
-      "exportPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-erebus-ootle-sdk-20261104.mp4",
-      "posterPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-erebus-ootle-sdk-20261104.png",
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261104.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261104.png",
       "caption": "Docs walkthrough",
       "method": "Existing continuous browser capture pipeline; public documentation or commit view with scroll. No code executed, extension installed, keys created or wallet interaction.",
       "sha256": "40b35ec1d3fe01008072d43773bae730519fae017280c95d9e71faa32493fe8e",
       "posterSha256": "e81c47b18b3b536af24e5bae8dc94fabf8f8b30ff8ddd4e558d06b534afa0510",
-      "status": "recording-reviewed-publication-pending",
+      "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
           0.48,
@@ -174,7 +170,19 @@
           11
         ],
         "localPlaybackEvidence": "work/daily-2026-11-04/sdk-wallet-local-playback.json",
-        "livePlayback": "Pending publication and desktop/mobile verification"
+        "livePlayback": {
+          "checkedAt": "2026-11-04T14:11:02.279915+00:00",
+          "evidence": "work/daily-2026-11-04/sdk-refresh-live-ui.json",
+          "products": [
+            "Lobby",
+            "Workbench"
+          ],
+          "viewports": [
+            "desktop",
+            "phone"
+          ],
+          "result": "12-second playback reached end without media errors; tablet layout separately reviewed."
+        }
       },
       "previousCaptures": [
         {
@@ -196,9 +204,6 @@
             "pix_fmt": "yuv420p"
           },
           "durationSeconds": 12.0,
-          "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/erebus-ootle-sdk.raw.webm",
-          "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-erebus-ootle-sdk-20261010.mp4",
-          "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-erebus-ootle-sdk-20261010.jpg",
           "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.mp4",
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.jpg",
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:erebus-ootle-sdk",
@@ -207,7 +212,6 @@
           "sha256": "dca2316555bf248018c7abe4c2cba778b5671ef887c05fb2ff6479614fa7453f",
           "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
           "verification": "published; desktop and mobile playback verified",
-          "blocker": null,
           "liveVerification": {
             "lobbyDesktop": true,
             "lobbyMobile": true,
@@ -2303,7 +2307,6 @@
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
           "platform": "GitHub releases",
           "author": "tari-project",
-          "publishedAt": null,
           "foundOn": "2026-10-14",
           "context": "Official 0.9.0 release notes",
           "visibility": "public"
@@ -2344,16 +2347,13 @@
         "height": 800
       },
       "durationSeconds": 12,
-      "rawPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/daily-2026-11-04/sdk-wallet-refresh-capture/resource-ootle-ts-20261104.raw.webm",
-      "exportPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-ootle-ts-20261104.mp4",
-      "posterPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-ootle-ts-20261104.png",
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261104.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261104.png",
       "caption": "Docs walkthrough",
       "method": "Existing continuous browser capture pipeline; public documentation or commit view with scroll. No code executed, extension installed, keys created or wallet interaction.",
       "sha256": "700cce7ab4b9b66b19fba2d377b95130d2e0065a9c7d844680007cf87fa21763",
       "posterSha256": "19c06ff64ea483dbe8b82c47fa59823ec9bbd36b666a7c60ed65868269226ceb",
-      "status": "recording-reviewed-publication-pending",
+      "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
           0.48,
@@ -2361,7 +2361,19 @@
           11
         ],
         "localPlaybackEvidence": "work/daily-2026-11-04/sdk-wallet-local-playback.json",
-        "livePlayback": "Pending publication and desktop/mobile verification"
+        "livePlayback": {
+          "checkedAt": "2026-11-04T14:11:02.279915+00:00",
+          "evidence": "work/daily-2026-11-04/sdk-refresh-live-ui.json",
+          "products": [
+            "Lobby",
+            "Workbench"
+          ],
+          "viewports": [
+            "desktop",
+            "phone"
+          ],
+          "result": "12-second playback reached end without media errors; tablet layout separately reviewed."
+        }
       },
       "previousCaptures": [
         {
@@ -2383,9 +2395,6 @@
             "pix_fmt": "yuv420p"
           },
           "durationSeconds": 12.0,
-          "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/captures/batch/ootle-ts.raw.webm",
-          "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-ts-20261010.mp4",
-          "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-ts-20261010.jpg",
           "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.mp4",
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.jpg",
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-ts",
@@ -2394,7 +2403,6 @@
           "sha256": "685e3cbbb258a774413d84582a949b043c8163c1c6b1b4a8d7c8f621a283c2f6",
           "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
           "verification": "published; desktop and mobile playback verified",
-          "blocker": null,
           "liveVerification": {
             "lobbyDesktop": true,
             "lobbyMobile": true,
@@ -2413,7 +2421,6 @@
               "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
               "platform": "GitHub releases",
               "author": "tari-project",
-              "publishedAt": null,
               "foundOn": "2026-10-14",
               "context": "Official 0.9.0 release notes",
               "visibility": "public"
@@ -2433,9 +2440,6 @@
             "pix_fmt": "yuv420p"
           },
           "durationSeconds": 12,
-          "rawPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/daily-2026-10-14/capture-batch/resource-ootle-ts-20261014.raw.webm",
-          "exportPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-ts-20261014.mp4",
-          "posterPath": "/Users/marguerite/Documents/Codex/2026-10-10/tari-ecosystem-daily-maintenance/work/lobby/creator-hub/hub/data/seed/previews/community/resource-ootle-ts-20261014.jpg",
           "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261014.mp4",
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261014.jpg",
           "caption": "Docs walkthrough",
@@ -2443,7 +2447,6 @@
           "sha256": "c6ed9eb3cae1727b8820c74d59b3b9b243ed2888d152cf81e57835f85836fbf7",
           "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
           "verification": "published; desktop and phone playback verified; served media/poster bytes match reviewed files",
-          "blocker": null,
           "liveVerification": {
             "checkedAt": "2026-10-14T14:05:41.280703+00:00",
             "lobbyDesktop": true,
@@ -2454,8 +2457,7 @@
             "posterHashMatched": true,
             "lobbyRevision": "bbb606fd504d8eeeb88a56ff500a1084d00c25e4",
             "workbenchRevision": "b9f647ed9abe6fe4090016d16ea0bf2becb738b7",
-            "evidence": "daily-2026-10-14/playback.json",
-            "trialEvidence": null
+            "evidence": "daily-2026-10-14/playback.json"
           }
         }
       ]
@@ -7766,9 +7768,6 @@
         "height": 800
       },
       "durationSeconds": 12,
-      "rawPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/daily-2026-11-04/creator-article-capture/resource-template-line-by-line-20261104.raw.webm",
-      "exportPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-template-line-by-line-20261104.mp4",
-      "posterPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-template-line-by-line-20261104.png",
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-template-line-by-line-20261104.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-template-line-by-line-20261104.png",
       "caption": "Docs walkthrough",
@@ -7815,7 +7814,6 @@
           "url": "https://medium.com/@shelleymae/i-looked-into-taris-privacy-architecture-here-s-what-a-blockchain-can-actually-hide-6493f18c6fd2",
           "platform": "Medium",
           "author": "Shelley Mae",
-          "publishedAt": null,
           "foundOn": "2026-11-04",
           "context": "What Tari privacy can hide",
           "visibility": "public"
@@ -7829,9 +7827,6 @@
         "height": 800
       },
       "durationSeconds": 12,
-      "rawPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/daily-2026-11-04/creator-article-capture/resource-shelley-privacy-20261104.raw.webm",
-      "exportPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-shelley-privacy-20261104.mp4",
-      "posterPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-shelley-privacy-20261104.png",
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-shelley-privacy-20261104.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-shelley-privacy-20261104.png",
       "caption": "Docs walkthrough",
@@ -7913,7 +7908,6 @@
           "url": "https://github.com/chironbuilds/tari-wallet/commit/06c56a9c358c9e744a32497887aab73009340ebb",
           "platform": "GitHub commit",
           "author": "chironbuilds",
-          "publishedAt": null,
           "foundOn": "2026-11-04",
           "context": "Sapient 0.7.2 update",
           "visibility": "public"
@@ -7928,16 +7922,13 @@
         "height": 800
       },
       "durationSeconds": 12,
-      "rawPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/daily-2026-11-04/sdk-wallet-refresh-capture/resource-sapient-20261104.raw.webm",
-      "exportPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-sapient-20261104.mp4",
-      "posterPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-sapient-20261104.png",
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sapient-20261104.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sapient-20261104.png",
       "caption": "Docs walkthrough",
       "method": "Existing continuous browser capture pipeline; public documentation or commit view with scroll. No code executed, extension installed, keys created or wallet interaction.",
       "sha256": "9c27bc5bf1c4413c1556cfdf6afc76ffade0c51045804984c6af8bf2ee1c15c4",
       "posterSha256": "ef203018857623c8eb2834f018c7e624154b9d65ac157638ca6ef7784cb15a09",
-      "status": "recording-reviewed-publication-pending",
+      "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
           0.48,
@@ -7945,7 +7936,18 @@
           11
         ],
         "localPlaybackEvidence": "work/daily-2026-11-04/sdk-wallet-local-playback.json",
-        "livePlayback": "Pending publication and desktop/mobile verification"
+        "livePlayback": {
+          "checkedAt": "2026-11-04T14:11:02.279915+00:00",
+          "evidence": "work/daily-2026-11-04/sdk-refresh-live-ui.json",
+          "products": [
+            "Lobby"
+          ],
+          "viewports": [
+            "desktop",
+            "phone"
+          ],
+          "result": "12-second playback reached end without media errors; tablet layout separately reviewed."
+        }
       }
     }
   ],
