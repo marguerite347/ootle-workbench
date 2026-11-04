@@ -4,7 +4,7 @@ This is an actual fork of Remix v2.6.5 (`59f2e9c43971a216c6981e30796a40141d4a78b
 
 ## Run the IDE
 
-Use Node 24.19.0 and Yarn 1.22.22 (upstream `.nvmrc`).
+Use Node 24.19.0 and Yarn 1.22.22 (upstream `.nvmrc`). CI uses Node 24.22.2. The maintained workspace requires Node >=24.19.0; the local remixd package requires >=22.22.0 for Chokidar 6, and the debug/simulator/tests packages require >=22.12.0 for Commander 15. This does not upgrade the separate Electron desktop runtime. No npm package publication is implied by a hosted IDE deployment.
 
 ```sh
 yarn install --frozen-lockfile --ignore-engines --ignore-scripts

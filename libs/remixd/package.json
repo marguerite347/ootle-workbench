@@ -28,17 +28,17 @@
   "homepage": "https://github.com/remix-project-org/remix-project#readme",
   "dependencies": {
     "@remix-project/remix-solidity": "^0.5.36",
-    "@remixproject/plugin": "0.3.33",
-    "@remixproject/plugin-api": "0.3.33",
-    "@remixproject/plugin-utils": "0.3.33",
-    "@remixproject/plugin-ws": "0.3.33",
+    "@remixproject/plugin": "0.3.44",
+    "@remixproject/plugin-api": "0.3.44",
+    "@remixproject/plugin-utils": "0.3.44",
+    "@remixproject/plugin-ws": "0.3.44",
     "axios": "1.21.0",
     "bn.js": "5.2.5",
-    "chokidar": "4.0.3",
-    "commander": "14.0.3",
+    "chokidar": "6.0.0",
+    "commander": "15.0.0",
     "fs-extra": "11.4.1",
     "isbinaryfile": "^3.0.2",
-    "latest-version": "^5.1.0",
+    "latest-version": "9.0.0",
     "semver": "7.8.6",
     "ws": "8.22.1"
   },
@@ -64,5 +64,8 @@
     "typescript": "^3.9.3"
   },
   "typings": "index.d.ts",
-  "gitHead": "ba6b2b226349d035146bd6deb120fef3d499ed16"
+  "gitHead": "ba6b2b226349d035146bd6deb120fef3d499ed16",
+  "engines": {
+    "node": ">=22.22.0"
+  }
 }
