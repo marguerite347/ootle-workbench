@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T15:50:41.347693+00:00",
+  "updatedAt": "2026-11-04T13:14:54.974919+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -7594,6 +7594,108 @@
         "work/daily-2026-10-31/tracker-workbench-release-acceptance-nov3.json"
       ],
       "verifiedAt": "2026-11-03T14:46:03.555345+00:00"
+    },
+    {
+      "resourceId": "template-line-by-line",
+      "title": "Your first Ootle template, line by line",
+      "targetUrl": "https://rajeshmullippa-collab.github.io/2026/11/03/first-ootle-template-line-by-line.html",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+          "platform": "Tari Community forum",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-11-03T00:52:51.885Z",
+          "foundOn": "2026-11-04",
+          "context": "Creator Contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://rajeshmullippa-collab.github.io/2026/11/03/first-ootle-template-line-by-line.html",
+          "platform": "Creator blog",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-11-03",
+          "foundOn": "2026-11-04",
+          "context": "Your first Ootle template, line by line",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-04T13:10:43.117Z",
+      "observedRevision": "page-sha256:ace9ebda9d4aebd5e4d695c2f98ac7e7bba79fd823dc5b80535c6a5ccbefa00d",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/daily-2026-11-04/creator-article-capture/resource-template-line-by-line-20261104.raw.webm",
+      "exportPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-template-line-by-line-20261104.mp4",
+      "posterPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-template-line-by-line-20261104.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-template-line-by-line-20261104.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-template-line-by-line-20261104.png",
+      "caption": "Docs walkthrough",
+      "method": "Genuine continuous public article excerpt captured with the existing browser pipeline; full article read separately. No code, mining or wallet actions.",
+      "sha256": "5e887f586b2abf14386fc0ed8ccbca1804635aa84193bf31c91e9364a1b54b3a",
+      "status": "recording-reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0.48,
+          6,
+          11
+        ],
+        "localPlaybackEvidence": "work/daily-2026-11-04/creator-article-local-playback.json",
+        "livePlayback": "Pending publication and desktop/mobile verification"
+      }
+    },
+    {
+      "resourceId": "shelley-privacy",
+      "title": "What Tari privacy can hide",
+      "targetUrl": "https://medium.com/@shelleymae/i-looked-into-taris-privacy-architecture-here-s-what-a-blockchain-can-actually-hide-6493f18c6fd2",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/21",
+          "platform": "Tari Community forum",
+          "author": "Shelley Mae",
+          "publishedAt": "2026-11-04T08:21:40.508Z",
+          "foundOn": "2026-11-04",
+          "context": "Creator Contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://medium.com/@shelleymae/i-looked-into-taris-privacy-architecture-here-s-what-a-blockchain-can-actually-hide-6493f18c6fd2",
+          "platform": "Medium",
+          "author": "Shelley Mae",
+          "publishedAt": null,
+          "foundOn": "2026-11-04",
+          "context": "What Tari privacy can hide",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-04T13:11:17.436Z",
+      "observedRevision": "page-sha256:129d5747c7c4adc410faf7790ae83379799ecb2cf32e0486c2638d4b89c20c28",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "rawPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/daily-2026-11-04/creator-article-capture/resource-shelley-privacy-20261104.raw.webm",
+      "exportPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-shelley-privacy-20261104.mp4",
+      "posterPath": "/Users/marguerite/Developer/Codex/2026-11-02/tari-ecosystem-maintenance/lobby-release/creator-hub/hub/data/seed/previews/community/resource-shelley-privacy-20261104.png",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-shelley-privacy-20261104.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-shelley-privacy-20261104.png",
+      "caption": "Docs walkthrough",
+      "method": "Genuine continuous public article excerpt captured with the existing browser pipeline; full article read separately. No code, mining or wallet actions.",
+      "sha256": "672df65c39eabd63514b2d630260054cf04e706682f3ca0db6eaeb406a380d96",
+      "status": "recording-reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0.48,
+          6,
+          11
+        ],
+        "localPlaybackEvidence": "work/daily-2026-11-04/creator-article-local-playback.json",
+        "livePlayback": "Pending publication and desktop/mobile verification"
+      }
     }
   ],
   "release": {

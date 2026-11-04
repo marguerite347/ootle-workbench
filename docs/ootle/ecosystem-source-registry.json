@@ -4477,22 +4477,19 @@
         "https://github.com/zvovanz-a1/tari-ticket-public",
         "https://shadowtix.shop"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T12:42:36.977Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T12:42:36.977Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "changedFields": [
-        "sourceEvidence"
-      ],
+      "changedFields": [],
       "sourceReviews": {
         "https://community.tari.com/t/september-contest-thread/324/13": {
           "url": "https://community.tari.com/t/september-contest-thread/324/13",
-          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
           "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
           "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
           "status": "read",
@@ -4500,12 +4497,20 @@
         },
         "https://github.com/zvovanz-a1/tari-ticket-public": {
           "url": "https://github.com/zvovanz-a1/tari-ticket-public",
-          "hash": "df21570fa2162c4d7e31824571085996e7f7f56be4b891a1d05bc81c5628eecc",
-          "revision": "0757a6266b90ff9109d949567c4745a6ba6a089a",
           "attemptedAt": "2026-11-04T10:07:24.064602+00:00",
+          "hash": "df21570fa2162c4d7e31824571085996e7f7f56be4b891a1d05bc81c5628eecc",
           "evidence": "work/daily-2026-11-04/22d83e4da7901c2a-df21570fa2162c4d7e31824571085996e7f7f56be4b891a1d05bc81c5628eecc.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "revision": "0757a6266b90ff9109d949567c4745a6ba6a089a",
+          "releaseEvidence": {
+            "url": "https://github.com/zvovanz-a1/tari-ticket-public/releases",
+            "file": "2e52dad3ce51cb1f-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:23.823564+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:07:24.064602+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:24.064602+00:00",
           "status": "read",
@@ -4513,41 +4518,32 @@
         },
         "https://shadowtix.shop": {
           "url": "https://shadowtix.shop",
-          "hash": "a7e948557bdbeb14cb14be3bbf6fc068f4add0607cd1043fb98ed881ffeb4119",
           "attemptedAt": "2026-11-04T10:07:33.777009+00:00",
+          "hash": "a7e948557bdbeb14cb14be3bbf6fc068f4add0607cd1043fb98ed881ffeb4119",
           "evidence": "work/daily-2026-11-04/c125895996914db7-a7e948557bdbeb14cb14be3bbf6fc068f4add0607cd1043fb98ed881ffeb4119.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "HTTP bytes plus separately reviewed current rendered page",
           "lastAttemptAt": "2026-11-04T10:07:33.777009+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:33.777009+00:00",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
-      "changedSources": [
-        "https://community.tari.com/t/september-contest-thread/324/13"
-      ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "observedAvailability": "Public ticket marketplace landing reachable with eight listed test-token events; original thread, README and release inventory unchanged. No purchase or login performed.",
+      "changedSources": [],
+      "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/september-contest-thread/324/13",
         "https://github.com/zvovanz-a1/tari-ticket-public",
         "https://shadowtix.shop"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+      "sourceObservation": "November 4 complete current known original thread, README/release inventory and rendered linked landing review. No material listing change.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
-      "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+      "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "pendingAssessment": null,
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/324.json",
@@ -4569,6 +4565,118 @@
           "attemptedAt": "2026-11-04T10:07:33.777009+00:00",
           "httpStatus": 200
         }
+      ],
+      "reviewHistory": [
+        {
+          "preservedAt": "2026-11-04T12:42:36.977Z",
+          "reason": "Prior accepted state retained before dated source review",
+          "record": {
+            "id": "tari-ootle:app:shadowtix",
+            "title": "ShadowTix",
+            "sources": [
+              "https://community.tari.com/t/september-contest-thread/324/13",
+              "https://github.com/zvovanz-a1/tari-ticket-public",
+              "https://shadowtix.shop"
+            ],
+            "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
+            "outcome": "pending",
+            "reviewRequired": true,
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "sourceReviews": {
+              "https://community.tari.com/t/september-contest-thread/324/13": {
+                "url": "https://community.tari.com/t/september-contest-thread/324/13",
+                "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+                "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+                "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
+                "status": "read",
+                "error": null
+              },
+              "https://github.com/zvovanz-a1/tari-ticket-public": {
+                "url": "https://github.com/zvovanz-a1/tari-ticket-public",
+                "hash": "df21570fa2162c4d7e31824571085996e7f7f56be4b891a1d05bc81c5628eecc",
+                "revision": "0757a6266b90ff9109d949567c4745a6ba6a089a",
+                "attemptedAt": "2026-11-04T10:07:24.064602+00:00",
+                "evidence": "work/daily-2026-11-04/22d83e4da7901c2a-df21570fa2162c4d7e31824571085996e7f7f56be4b891a1d05bc81c5628eecc.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:24.064602+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:24.064602+00:00",
+                "status": "read",
+                "error": null
+              },
+              "https://shadowtix.shop": {
+                "url": "https://shadowtix.shop",
+                "hash": "a7e948557bdbeb14cb14be3bbf6fc068f4add0607cd1043fb98ed881ffeb4119",
+                "attemptedAt": "2026-11-04T10:07:33.777009+00:00",
+                "evidence": "work/daily-2026-11-04/c125895996914db7-a7e948557bdbeb14cb14be3bbf6fc068f4add0607cd1043fb98ed881ffeb4119.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:33.777009+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:33.777009+00:00",
+                "status": "read",
+                "error": null
+              }
+            },
+            "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+            "changedSources": [
+              "https://community.tari.com/t/september-contest-thread/324/13"
+            ],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "checkedScope": [
+              "https://community.tari.com/t/september-contest-thread/324/13",
+              "https://github.com/zvovanz-a1/tari-ticket-public",
+              "https://shadowtix.shop"
+            ],
+            "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+            "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
+            "copyUpdated": false,
+            "reviewedSourceCount": 3,
+            "pendingReviewSources": [],
+            "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+            "blockedSources": [],
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://community.tari.com/t/324.json",
+                "file": "7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+                "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+                "attemptedAt": "2026-11-04T10:06:44.988017+00:00"
+              },
+              {
+                "url": "https://github.com/zvovanz-a1/tari-ticket-public",
+                "file": "22d83e4da7901c2a-df21570fa2162c4d7e31824571085996e7f7f56be4b891a1d05bc81c5628eecc.txt",
+                "hash": "df21570fa2162c4d7e31824571085996e7f7f56be4b891a1d05bc81c5628eecc",
+                "attemptedAt": "2026-11-04T10:07:24.064602+00:00",
+                "revision": "0757a6266b90ff9109d949567c4745a6ba6a089a"
+              },
+              {
+                "url": "https://shadowtix.shop",
+                "file": "c125895996914db7-a7e948557bdbeb14cb14be3bbf6fc068f4add0607cd1043fb98ed881ffeb4119.txt",
+                "hash": "a7e948557bdbeb14cb14be3bbf6fc068f4add0607cd1043fb98ed881ffeb4119",
+                "attemptedAt": "2026-11-04T10:07:33.777009+00:00",
+                "httpStatus": 200
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/additional-resource-acceptance.json",
+        "work/daily-2026-11-04/shadowtix-current-browser.txt"
       ]
     },
     "tari-ootle:app:signal-vault": {
@@ -4763,22 +4871,19 @@
         "https://github.com/n0izn0iz/tariorg",
         "https://tariorg.pages.dev"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T12:42:36.977Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T12:42:36.977Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "changedFields": [
-        "sourceEvidence"
-      ],
+      "changedFields": [],
       "sourceReviews": {
         "https://community.tari.com/t/september-contest-thread/324/2": {
           "url": "https://community.tari.com/t/september-contest-thread/324/2",
-          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
           "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
           "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
           "status": "read",
@@ -4786,12 +4891,20 @@
         },
         "https://github.com/n0izn0iz/tariorg": {
           "url": "https://github.com/n0izn0iz/tariorg",
-          "hash": "880b80df05c5205e367d5a5f8ba93d772d168f8278a7bbdcd3a062787fc03dea",
-          "revision": "74fc320a2861de98e3abcd3821f18c0c2eb6f1b9",
           "attemptedAt": "2026-11-04T10:07:09.760263+00:00",
+          "hash": "880b80df05c5205e367d5a5f8ba93d772d168f8278a7bbdcd3a062787fc03dea",
           "evidence": "work/daily-2026-11-04/57a414cdca5ffe66-880b80df05c5205e367d5a5f8ba93d772d168f8278a7bbdcd3a062787fc03dea.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "revision": "74fc320a2861de98e3abcd3821f18c0c2eb6f1b9",
+          "releaseEvidence": {
+            "url": "https://github.com/n0izn0iz/tariorg/releases",
+            "file": "a6a37978ae3cfca9-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:09.495846+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:07:09.760263+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:09.760263+00:00",
           "status": "read",
@@ -4799,41 +4912,32 @@
         },
         "https://tariorg.pages.dev": {
           "url": "https://tariorg.pages.dev",
-          "hash": "c2d229ed2b65fef6e91941293e438197228c2d158e530bb34bd3e86ff7edfa89",
           "attemptedAt": "2026-11-04T10:07:34.244192+00:00",
+          "hash": "c2d229ed2b65fef6e91941293e438197228c2d158e530bb34bd3e86ff7edfa89",
           "evidence": "work/daily-2026-11-04/94621fc0263650aa-c2d229ed2b65fef6e91941293e438197228c2d158e530bb34bd3e86ff7edfa89.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "HTTP bytes plus separately reviewed current rendered page",
           "lastAttemptAt": "2026-11-04T10:07:34.244192+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:34.244192+00:00",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
-      "changedSources": [
-        "https://community.tari.com/t/september-contest-thread/324/2"
-      ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "observedAvailability": "Public organization-governance frontend reachable, showing zero organizations and explicitly planned privacy research. No organization or account created.",
+      "changedSources": [],
+      "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/september-contest-thread/324/2",
         "https://github.com/n0izn0iz/tariorg",
         "https://tariorg.pages.dev"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+      "sourceObservation": "November 4 complete current known original thread, README/release inventory and rendered linked landing review. No material listing change.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
-      "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+      "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "pendingAssessment": null,
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/324.json",
@@ -4855,6 +4959,118 @@
           "attemptedAt": "2026-11-04T10:07:34.244192+00:00",
           "httpStatus": 200
         }
+      ],
+      "reviewHistory": [
+        {
+          "preservedAt": "2026-11-04T12:42:36.977Z",
+          "reason": "Prior accepted state retained before dated source review",
+          "record": {
+            "id": "tari-ootle:app:tariorg",
+            "title": "TariOrg",
+            "sources": [
+              "https://community.tari.com/t/september-contest-thread/324/2",
+              "https://github.com/n0izn0iz/tariorg",
+              "https://tariorg.pages.dev"
+            ],
+            "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
+            "outcome": "pending",
+            "reviewRequired": true,
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "sourceReviews": {
+              "https://community.tari.com/t/september-contest-thread/324/2": {
+                "url": "https://community.tari.com/t/september-contest-thread/324/2",
+                "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+                "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+                "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
+                "status": "read",
+                "error": null
+              },
+              "https://github.com/n0izn0iz/tariorg": {
+                "url": "https://github.com/n0izn0iz/tariorg",
+                "hash": "880b80df05c5205e367d5a5f8ba93d772d168f8278a7bbdcd3a062787fc03dea",
+                "revision": "74fc320a2861de98e3abcd3821f18c0c2eb6f1b9",
+                "attemptedAt": "2026-11-04T10:07:09.760263+00:00",
+                "evidence": "work/daily-2026-11-04/57a414cdca5ffe66-880b80df05c5205e367d5a5f8ba93d772d168f8278a7bbdcd3a062787fc03dea.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:09.760263+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:09.760263+00:00",
+                "status": "read",
+                "error": null
+              },
+              "https://tariorg.pages.dev": {
+                "url": "https://tariorg.pages.dev",
+                "hash": "c2d229ed2b65fef6e91941293e438197228c2d158e530bb34bd3e86ff7edfa89",
+                "attemptedAt": "2026-11-04T10:07:34.244192+00:00",
+                "evidence": "work/daily-2026-11-04/94621fc0263650aa-c2d229ed2b65fef6e91941293e438197228c2d158e530bb34bd3e86ff7edfa89.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:34.244192+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:34.244192+00:00",
+                "status": "read",
+                "error": null
+              }
+            },
+            "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+            "changedSources": [
+              "https://community.tari.com/t/september-contest-thread/324/2"
+            ],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "checkedScope": [
+              "https://community.tari.com/t/september-contest-thread/324/2",
+              "https://github.com/n0izn0iz/tariorg",
+              "https://tariorg.pages.dev"
+            ],
+            "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+            "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
+            "copyUpdated": false,
+            "reviewedSourceCount": 3,
+            "pendingReviewSources": [],
+            "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+            "blockedSources": [],
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://community.tari.com/t/324.json",
+                "file": "7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+                "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+                "attemptedAt": "2026-11-04T10:06:44.988017+00:00"
+              },
+              {
+                "url": "https://github.com/n0izn0iz/tariorg",
+                "file": "57a414cdca5ffe66-880b80df05c5205e367d5a5f8ba93d772d168f8278a7bbdcd3a062787fc03dea.txt",
+                "hash": "880b80df05c5205e367d5a5f8ba93d772d168f8278a7bbdcd3a062787fc03dea",
+                "attemptedAt": "2026-11-04T10:07:09.760263+00:00",
+                "revision": "74fc320a2861de98e3abcd3821f18c0c2eb6f1b9"
+              },
+              {
+                "url": "https://tariorg.pages.dev",
+                "file": "94621fc0263650aa-c2d229ed2b65fef6e91941293e438197228c2d158e530bb34bd3e86ff7edfa89.txt",
+                "hash": "c2d229ed2b65fef6e91941293e438197228c2d158e530bb34bd3e86ff7edfa89",
+                "attemptedAt": "2026-11-04T10:07:34.244192+00:00",
+                "httpStatus": 200
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/additional-resource-acceptance.json",
+        "work/daily-2026-11-04/tariorg-current-browser.txt"
       ]
     },
     "tari-ootle:app:threshold-bounties": {
@@ -4962,22 +5178,19 @@
         "https://github.com/Seal-Clubber/Threshold",
         "https://seal-clubber.github.io/Threshold/"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T12:42:36.977Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T12:42:36.977Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "changedFields": [
-        "sourceEvidence"
-      ],
+      "changedFields": [],
       "sourceReviews": {
         "https://community.tari.com/t/september-contest-thread/324/20": {
           "url": "https://community.tari.com/t/september-contest-thread/324/20",
-          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
           "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
           "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
           "status": "read",
@@ -4985,12 +5198,20 @@
         },
         "https://github.com/Seal-Clubber/Threshold": {
           "url": "https://github.com/Seal-Clubber/Threshold",
-          "hash": "154aeb1479082ac8a56d824ed530f4beb9a77a2a332207a3df81908ebe97dec2",
-          "revision": "4ccfd91688a3124c634436282f3aa25b873d9fe3",
           "attemptedAt": "2026-11-04T10:06:57.600062+00:00",
+          "hash": "154aeb1479082ac8a56d824ed530f4beb9a77a2a332207a3df81908ebe97dec2",
           "evidence": "work/daily-2026-11-04/774d535143eb74f1-154aeb1479082ac8a56d824ed530f4beb9a77a2a332207a3df81908ebe97dec2.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "revision": "4ccfd91688a3124c634436282f3aa25b873d9fe3",
+          "releaseEvidence": {
+            "url": "https://github.com/Seal-Clubber/Threshold/releases",
+            "file": "4ea5af84ae343076-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:06:57.316661+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:57.600062+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:57.600062+00:00",
           "status": "read",
@@ -4998,41 +5219,32 @@
         },
         "https://seal-clubber.github.io/Threshold/": {
           "url": "https://seal-clubber.github.io/Threshold/",
-          "hash": "95075e3796e390b1c8802715274cde19e3cc374fe3838dd3b7a91b65e234a58c",
           "attemptedAt": "2026-11-04T10:07:32.593999+00:00",
+          "hash": "95075e3796e390b1c8802715274cde19e3cc374fe3838dd3b7a91b65e234a58c",
           "evidence": "work/daily-2026-11-04/8c9efcae1b5bd132-95075e3796e390b1c8802715274cde19e3cc374fe3838dd3b7a91b65e234a58c.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "HTTP bytes plus separately reviewed current rendered page",
           "lastAttemptAt": "2026-11-04T10:07:32.593999+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:32.593999+00:00",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
-      "changedSources": [
-        "https://community.tari.com/t/september-contest-thread/324/20"
-      ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "observedAvailability": "Public wallet-free crowdfunding simulation reachable; five additional templates remain explicitly labeled proofs of concept. No transaction performed.",
+      "changedSources": [],
+      "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/september-contest-thread/324/20",
         "https://github.com/Seal-Clubber/Threshold",
         "https://seal-clubber.github.io/Threshold/"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+      "sourceObservation": "November 4 complete current known original thread, README/release inventory and rendered linked landing review. No material listing change.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
-      "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+      "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "pendingAssessment": null,
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/324.json",
@@ -5054,6 +5266,118 @@
           "attemptedAt": "2026-11-04T10:07:32.593999+00:00",
           "httpStatus": 200
         }
+      ],
+      "reviewHistory": [
+        {
+          "preservedAt": "2026-11-04T12:42:36.977Z",
+          "reason": "Prior accepted state retained before dated source review",
+          "record": {
+            "id": "tari-ootle:app:threshold",
+            "title": "Threshold",
+            "sources": [
+              "https://community.tari.com/t/september-contest-thread/324/20",
+              "https://github.com/Seal-Clubber/Threshold",
+              "https://seal-clubber.github.io/Threshold/"
+            ],
+            "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
+            "outcome": "pending",
+            "reviewRequired": true,
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "sourceReviews": {
+              "https://community.tari.com/t/september-contest-thread/324/20": {
+                "url": "https://community.tari.com/t/september-contest-thread/324/20",
+                "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+                "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+                "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
+                "status": "read",
+                "error": null
+              },
+              "https://github.com/Seal-Clubber/Threshold": {
+                "url": "https://github.com/Seal-Clubber/Threshold",
+                "hash": "154aeb1479082ac8a56d824ed530f4beb9a77a2a332207a3df81908ebe97dec2",
+                "revision": "4ccfd91688a3124c634436282f3aa25b873d9fe3",
+                "attemptedAt": "2026-11-04T10:06:57.600062+00:00",
+                "evidence": "work/daily-2026-11-04/774d535143eb74f1-154aeb1479082ac8a56d824ed530f4beb9a77a2a332207a3df81908ebe97dec2.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:06:57.600062+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:06:57.600062+00:00",
+                "status": "read",
+                "error": null
+              },
+              "https://seal-clubber.github.io/Threshold/": {
+                "url": "https://seal-clubber.github.io/Threshold/",
+                "hash": "95075e3796e390b1c8802715274cde19e3cc374fe3838dd3b7a91b65e234a58c",
+                "attemptedAt": "2026-11-04T10:07:32.593999+00:00",
+                "evidence": "work/daily-2026-11-04/8c9efcae1b5bd132-95075e3796e390b1c8802715274cde19e3cc374fe3838dd3b7a91b65e234a58c.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:32.593999+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:32.593999+00:00",
+                "status": "read",
+                "error": null
+              }
+            },
+            "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+            "changedSources": [
+              "https://community.tari.com/t/september-contest-thread/324/20"
+            ],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "checkedScope": [
+              "https://community.tari.com/t/september-contest-thread/324/20",
+              "https://github.com/Seal-Clubber/Threshold",
+              "https://seal-clubber.github.io/Threshold/"
+            ],
+            "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+            "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
+            "copyUpdated": false,
+            "reviewedSourceCount": 3,
+            "pendingReviewSources": [],
+            "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+            "blockedSources": [],
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://community.tari.com/t/324.json",
+                "file": "7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+                "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+                "attemptedAt": "2026-11-04T10:06:44.988017+00:00"
+              },
+              {
+                "url": "https://github.com/Seal-Clubber/Threshold",
+                "file": "774d535143eb74f1-154aeb1479082ac8a56d824ed530f4beb9a77a2a332207a3df81908ebe97dec2.txt",
+                "hash": "154aeb1479082ac8a56d824ed530f4beb9a77a2a332207a3df81908ebe97dec2",
+                "attemptedAt": "2026-11-04T10:06:57.600062+00:00",
+                "revision": "4ccfd91688a3124c634436282f3aa25b873d9fe3"
+              },
+              {
+                "url": "https://seal-clubber.github.io/Threshold/",
+                "file": "8c9efcae1b5bd132-95075e3796e390b1c8802715274cde19e3cc374fe3838dd3b7a91b65e234a58c.txt",
+                "hash": "95075e3796e390b1c8802715274cde19e3cc374fe3838dd3b7a91b65e234a58c",
+                "attemptedAt": "2026-11-04T10:07:32.593999+00:00",
+                "httpStatus": 200
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/additional-resource-acceptance.json",
+        "work/daily-2026-11-04/threshold-current-browser.txt"
       ]
     },
     "tari-ootle:app:wunschswap": {
@@ -5408,22 +5732,19 @@
         "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1",
         "https://labyrinthos.markets/"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T12:42:36.977Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T12:42:36.977Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "changedFields": [
-        "sourceEvidence"
-      ],
+      "changedFields": [],
       "sourceReviews": {
         "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1": {
           "url": "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1",
-          "hash": "de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f",
           "attemptedAt": "2026-11-04T10:06:43.617145+00:00",
+          "hash": "de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f",
           "evidence": "work/daily-2026-11-04/d92a51e555d8868e-de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:43.617145+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:43.617145+00:00",
           "status": "read",
@@ -5431,40 +5752,31 @@
         },
         "https://labyrinthos.markets/": {
           "url": "https://labyrinthos.markets/",
-          "hash": "e93f5dd4cad986a93783af0c644e7f33429bcb1b9cc24291585b5d8567f7355d",
           "attemptedAt": "2026-11-04T10:07:29.439054+00:00",
+          "hash": "e93f5dd4cad986a93783af0c644e7f33429bcb1b9cc24291585b5d8567f7355d",
           "evidence": "work/daily-2026-11-04/1b59f9913636ce6a-e93f5dd4cad986a93783af0c644e7f33429bcb1b9cc24291585b5d8567f7355d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "HTTP bytes plus separately reviewed current rendered page",
           "lastAttemptAt": "2026-11-04T10:07:29.439054+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:29.439054+00:00",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
-      "changedSources": [
-        "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1"
-      ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "observedAvailability": "Public lending and private-payment landing reachable and labeled Esmeralda testnet. Product capabilities are creator descriptions; no wallet or financial action performed.",
+      "changedSources": [],
+      "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1",
         "https://labyrinthos.markets/"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+      "sourceObservation": "November 4 complete current known original thread, README/release inventory and rendered linked landing review. No material listing change.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
       "reviewedSourceCount": 2,
       "pendingReviewSources": [],
-      "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+      "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "pendingAssessment": null,
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/281.json",
@@ -5479,6 +5791,96 @@
           "attemptedAt": "2026-11-04T10:07:29.439054+00:00",
           "httpStatus": 200
         }
+      ],
+      "reviewHistory": [
+        {
+          "preservedAt": "2026-11-04T12:42:36.977Z",
+          "reason": "Prior accepted state retained before dated source review",
+          "record": {
+            "id": "project:labyrinthos",
+            "title": "LabyrinthOS",
+            "sources": [
+              "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1",
+              "https://labyrinthos.markets/"
+            ],
+            "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
+            "outcome": "pending",
+            "reviewRequired": true,
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "sourceReviews": {
+              "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1": {
+                "url": "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1",
+                "hash": "de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f",
+                "attemptedAt": "2026-11-04T10:06:43.617145+00:00",
+                "evidence": "work/daily-2026-11-04/d92a51e555d8868e-de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:06:43.617145+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:06:43.617145+00:00",
+                "status": "read",
+                "error": null
+              },
+              "https://labyrinthos.markets/": {
+                "url": "https://labyrinthos.markets/",
+                "hash": "e93f5dd4cad986a93783af0c644e7f33429bcb1b9cc24291585b5d8567f7355d",
+                "attemptedAt": "2026-11-04T10:07:29.439054+00:00",
+                "evidence": "work/daily-2026-11-04/1b59f9913636ce6a-e93f5dd4cad986a93783af0c644e7f33429bcb1b9cc24291585b5d8567f7355d.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:29.439054+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:29.439054+00:00",
+                "status": "read",
+                "error": null
+              }
+            },
+            "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+            "changedSources": [
+              "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1"
+            ],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "checkedScope": [
+              "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1",
+              "https://labyrinthos.markets/"
+            ],
+            "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+            "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
+            "copyUpdated": false,
+            "reviewedSourceCount": 2,
+            "pendingReviewSources": [],
+            "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+            "blockedSources": [],
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://community.tari.com/t/281.json",
+                "file": "d92a51e555d8868e-de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f.txt",
+                "hash": "de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f",
+                "attemptedAt": "2026-11-04T10:06:43.617145+00:00"
+              },
+              {
+                "url": "https://labyrinthos.markets/",
+                "file": "1b59f9913636ce6a-e93f5dd4cad986a93783af0c644e7f33429bcb1b9cc24291585b5d8567f7355d.txt",
+                "hash": "e93f5dd4cad986a93783af0c644e7f33429bcb1b9cc24291585b5d8567f7355d",
+                "attemptedAt": "2026-11-04T10:07:29.439054+00:00",
+                "httpStatus": 200
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/additional-resource-acceptance.json",
+        "work/daily-2026-11-04/labyrinthos-current-browser.txt"
       ]
     },
     "project:liquidity": {
@@ -8348,15 +8750,14 @@
         "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1",
         "https://skydrop.tari.mw/"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T12:42:36.977Z",
       "sourceReviews": {
         "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1": {
           "url": "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1",
-          "hash": "738109c5e654748b8da2b9df500916518c2631a8211481f8f2eac0df061a59a2",
           "attemptedAt": "2026-11-04T10:06:46.311923+00:00",
+          "hash": "738109c5e654748b8da2b9df500916518c2631a8211481f8f2eac0df061a59a2",
           "evidence": "work/daily-2026-11-04/4753f63ce48761bf-738109c5e654748b8da2b9df500916518c2631a8211481f8f2eac0df061a59a2.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete original thread or repository README/release read; unchanged accepted content",
           "lastAttemptAt": "2026-11-04T10:06:46.311923+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:46.311923+00:00",
           "status": "read",
@@ -8364,47 +8765,36 @@
         },
         "https://skydrop.tari.mw/": {
           "url": "https://skydrop.tari.mw/",
-          "hash": "c49e25bbf83ce058be063571fc788047c36045f64d2a8dcdf684a1435e6dd43d",
           "attemptedAt": "2026-11-04T10:07:32.914990+00:00",
+          "hash": "c49e25bbf83ce058be063571fc788047c36045f64d2a8dcdf684a1435e6dd43d",
           "evidence": "work/daily-2026-11-04/8ad4260eecb6c7f3-c49e25bbf83ce058be063571fc788047c36045f64d2a8dcdf684a1435e6dd43d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "HTTP bytes plus separately reviewed current rendered page",
           "lastAttemptAt": "2026-11-04T10:07:32.914990+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:32.914990+00:00",
           "status": "read",
           "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
-      "outcome": "pending",
-      "changedSources": [
-        "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1"
-      ],
-      "reviewRequired": true,
-      "changedFields": [
-        "sourceEvidence"
-      ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "lastSuccessfulReviewAt": "2026-11-04T12:42:36.977Z",
+      "observedAvailability": "Public Bluesky tipping frontend reachable and labeled testnet with valueless tTARI. No send, claim, identity link or social message performed.",
+      "outcome": "reviewed",
+      "changedSources": [],
+      "reviewRequired": false,
+      "changedFields": [],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "checkedScope": [
         "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1",
         "https://skydrop.tari.mw/"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+      "sourceObservation": "November 4 complete current known original thread, README/release inventory and rendered linked landing review. No material listing change.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
       "reviewedSourceCount": 2,
       "pendingReviewSources": [],
-      "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+      "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "pendingAssessment": null,
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/429.json",
@@ -8419,6 +8809,96 @@
           "attemptedAt": "2026-11-04T10:07:32.914990+00:00",
           "httpStatus": 200
         }
+      ],
+      "reviewHistory": [
+        {
+          "preservedAt": "2026-11-04T12:42:36.977Z",
+          "reason": "Prior accepted state retained before dated source review",
+          "record": {
+            "id": "project:skydrop",
+            "title": "Skydrop",
+            "sources": [
+              "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1",
+              "https://skydrop.tari.mw/"
+            ],
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "sourceReviews": {
+              "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1": {
+                "url": "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1",
+                "hash": "738109c5e654748b8da2b9df500916518c2631a8211481f8f2eac0df061a59a2",
+                "attemptedAt": "2026-11-04T10:06:46.311923+00:00",
+                "evidence": "work/daily-2026-11-04/4753f63ce48761bf-738109c5e654748b8da2b9df500916518c2631a8211481f8f2eac0df061a59a2.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:06:46.311923+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:06:46.311923+00:00",
+                "status": "read",
+                "error": null
+              },
+              "https://skydrop.tari.mw/": {
+                "url": "https://skydrop.tari.mw/",
+                "hash": "c49e25bbf83ce058be063571fc788047c36045f64d2a8dcdf684a1435e6dd43d",
+                "attemptedAt": "2026-11-04T10:07:32.914990+00:00",
+                "evidence": "work/daily-2026-11-04/8ad4260eecb6c7f3-c49e25bbf83ce058be063571fc788047c36045f64d2a8dcdf684a1435e6dd43d.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:32.914990+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:32.914990+00:00",
+                "status": "read",
+                "error": null
+              }
+            },
+            "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
+            "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+            "outcome": "pending",
+            "changedSources": [
+              "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1"
+            ],
+            "reviewRequired": true,
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "checkedScope": [
+              "https://community.tari.com/t/skydrop-send-tari-to-anyone-on-bluesky-no-wallet-needed-on-their-side-esmeralda-testnet/429/1",
+              "https://skydrop.tari.mw/"
+            ],
+            "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+            "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
+            "copyUpdated": false,
+            "reviewedSourceCount": 2,
+            "pendingReviewSources": [],
+            "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+            "blockedSources": [],
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://community.tari.com/t/429.json",
+                "file": "4753f63ce48761bf-738109c5e654748b8da2b9df500916518c2631a8211481f8f2eac0df061a59a2.txt",
+                "hash": "738109c5e654748b8da2b9df500916518c2631a8211481f8f2eac0df061a59a2",
+                "attemptedAt": "2026-11-04T10:06:46.311923+00:00"
+              },
+              {
+                "url": "https://skydrop.tari.mw/",
+                "file": "8ad4260eecb6c7f3-c49e25bbf83ce058be063571fc788047c36045f64d2a8dcdf684a1435e6dd43d.txt",
+                "hash": "c49e25bbf83ce058be063571fc788047c36045f64d2a8dcdf684a1435e6dd43d",
+                "attemptedAt": "2026-11-04T10:07:32.914990+00:00",
+                "httpStatus": 200
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/additional-resource-acceptance.json",
+        "work/daily-2026-11-04/skydrop-current-browser.txt"
       ]
     },
     "project:crypt": {
@@ -21811,6 +22291,102 @@
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "evidence": "work/daily-2026-11-04/quiet-ticket-source-review.json",
       "reviewQueue": []
+    },
+    "tari-ootle:learn:template-line-by-line": {
+      "id": "tari-ootle:learn:template-line-by-line",
+      "title": "Your first Ootle template, line by line",
+      "sources": [
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+        "https://rajeshmullippa-collab.github.io/2026/11/03/first-ootle-template-line-by-line.html"
+      ],
+      "lastAttemptAt": "2026-11-04T13:15:23.857Z",
+      "sourceReviews": {
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17": {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+          "attemptedAt": "2026-11-04T10:06:48.884212+00:00",
+          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
+          "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
+          "scope": "Complete available original topic with all replies and edits; creator post individually read.",
+          "lastAttemptAt": "2026-11-04T10:06:48.884212+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.884212+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://rajeshmullippa-collab.github.io/2026/11/03/first-ootle-template-line-by-line.html": {
+          "url": "https://rajeshmullippa-collab.github.io/2026/11/03/first-ootle-template-line-by-line.html",
+          "attemptedAt": "2026-11-04T13:15:23.857Z",
+          "hash": "ace9ebda9d4aebd5e4d695c2f98ac7e7bba79fd823dc5b80535c6a5ccbefa00d",
+          "evidence": "work/daily-2026-11-04/rajesh-template-tutorial-current.txt",
+          "scope": "Entire public article read in supported browser; descriptive listing checked against cited current official documentation.",
+          "lastAttemptAt": "2026-11-04T13:15:23.857Z",
+          "lastSuccessfulReadAt": "2026-11-04T13:15:23.857Z",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-04T13:15:23.857Z",
+      "observedAvailability": "Public creator reading guide reachable; genuine article-excerpt recording reviewed. Publication pending.",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+        "https://rajeshmullippa-collab.github.io/2026/11/03/first-ootle-template-line-by-line.html"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-05T10:00:00Z"
+    },
+    "tari-ootle:learn:shelley-privacy": {
+      "id": "tari-ootle:learn:shelley-privacy",
+      "title": "What Tari privacy can hide",
+      "sources": [
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/21",
+        "https://medium.com/@shelleymae/i-looked-into-taris-privacy-architecture-here-s-what-a-blockchain-can-actually-hide-6493f18c6fd2"
+      ],
+      "lastAttemptAt": "2026-11-04T13:15:23.857Z",
+      "sourceReviews": {
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/21": {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/21",
+          "attemptedAt": "2026-11-04T10:06:48.884212+00:00",
+          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
+          "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
+          "scope": "Complete available original topic with all replies and edits; creator post individually read.",
+          "lastAttemptAt": "2026-11-04T10:06:48.884212+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.884212+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://medium.com/@shelleymae/i-looked-into-taris-privacy-architecture-here-s-what-a-blockchain-can-actually-hide-6493f18c6fd2": {
+          "url": "https://medium.com/@shelleymae/i-looked-into-taris-privacy-architecture-here-s-what-a-blockchain-can-actually-hide-6493f18c6fd2",
+          "attemptedAt": "2026-11-04T13:15:23.857Z",
+          "hash": "129d5747c7c4adc410faf7790ae83379799ecb2cf32e0486c2638d4b89c20c28",
+          "evidence": "work/daily-2026-11-04/shelley-privacy-current.txt",
+          "scope": "Entire public article read in supported browser; descriptive listing checked against cited current official documentation.",
+          "lastAttemptAt": "2026-11-04T13:15:23.857Z",
+          "lastSuccessfulReadAt": "2026-11-04T13:15:23.857Z",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-04T13:15:23.857Z",
+      "observedAvailability": "Public creator reading guide reachable; genuine article-excerpt recording reviewed. Publication pending.",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/21",
+        "https://medium.com/@shelleymae/i-looked-into-taris-privacy-architecture-here-s-what-a-blockchain-can-actually-hide-6493f18c6fd2"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-05T10:00:00Z"
     }
   },
   "resourceReviewSummary": {
