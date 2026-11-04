@@ -7445,8 +7445,7 @@
           "evidence": "work/daily-2026-11-04/4b629bf5f3a9bef1-1bfbd16c2b49c811217b9d6ab8b89b7f6fd0dc6bb9afc3ef08f9540bf93f7441.txt",
           "lastAttemptAt": "2026-11-04T10:07:30.002157+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:30.002157+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/tari-project/wasm-template": {
           "url": "https://github.com/tari-project/wasm-template",
@@ -7465,7 +7464,6 @@
           },
           "revision": "a28279252208582a36ede5cc007c252686857983",
           "readmeSha": "026d761fe1adaeba7ae53df7e5597bb6c0f86015",
-          "homepage": null,
           "archived": false,
           "root": [
             ".github",
@@ -7484,8 +7482,7 @@
           "evidence": "work/daily-2026-11-04/9a82ee9b152a4e8f-bc337cf273385ec5345f80a5873ef8b79afc2748f7bf28a81dcbe9e6946fe99d.txt",
           "lastAttemptAt": "2026-11-04T10:09:37.934502+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:37.934502+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h": {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h",
@@ -7498,8 +7495,7 @@
           "evidence": "work/daily-2026-11-04/cd9b3529c590903c-e8bd66b2397ee3dc4832a33bd68c37f604fa08a65af03aabc7666e02ede7e080.txt",
           "lastAttemptAt": "2026-11-04T10:06:52.433887+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:52.433887+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/tari-project/wasm-template/releases": {
           "url": "https://github.com/tari-project/wasm-template/releases",
@@ -7512,8 +7508,7 @@
           "evidence": "work/daily-2026-11-04/0d9a9949dd4e2e35-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
           "lastAttemptAt": "2026-11-04T10:09:37.664680+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:37.664680+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c": {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
@@ -7526,8 +7521,7 @@
           "evidence": "work/daily-2026-11-04/94268e4f91ed6ff4-af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6.txt",
           "lastAttemptAt": "2026-11-04T10:06:54.928415+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:54.928415+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/tari-project/wasm-template/pull/72": {
           "url": "https://github.com/tari-project/wasm-template/pull/72",
@@ -7538,8 +7532,7 @@
           "evidence": "work/daily-2026-11-04/de04cf937dda042a-d01fb12fad8d030f49f10b7ece4c88f3f7b1880a699e8bcd738c77e51f4546b3.txt",
           "lastAttemptAt": "2026-11-04T18:45:41.913056+00:00",
           "lastSuccessfulReadAt": "2026-11-04T18:45:41.913056+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/tari-project/tari-cli/releases/tag/v0.34.1": {
           "url": "https://github.com/tari-project/tari-cli/releases/tag/v0.34.1",
@@ -7550,8 +7543,7 @@
           "evidence": "work/daily-2026-11-04/b37f9801cff38a97-d4d21fb8c6a8bdc5174bee702e3a919f29473d9112a0497d2ca47194e4dc82eb.txt",
           "lastAttemptAt": "2026-11-04T18:45:42.457996+00:00",
           "lastSuccessfulReadAt": "2026-11-04T18:45:42.457996+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "observedAvailability": "November 4: official template README and guide match previously accepted content; empty release inventory remains unchanged. Both retained official Bluesky posts and their zero-reply threads were read. Merged template PR 72 has zero issue/review comments and confirms lib 0.37, tooling 0.49 and build 0.17.1. CLI v0.34.1 release notes confirm Ootle 0.49.1/serde 0.6.2. Existing November 2 summary and announcement recording accurately describe this source state; no template execution is claimed.",
@@ -10149,12 +10141,14 @@
       "sources": [
         "https://github.com/tari-project/community-templates",
         "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
-        "https://ootle.tari.com/community-templates"
+        "https://ootle.tari.com/community-templates",
+        "https://github.com/tari-project/community-templates/releases",
+        "https://ootle.tari.com/community-templates/templates/bc3ed69bd1c02240e353dcfd5b72d43e5eaa5abf6eb993e983cc204ed6449d4f"
       ],
-      "lastSuccessfulReviewAt": "2026-11-02T05:33:12.266Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T19:46:08.708Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T19:46:08.708Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
@@ -10162,25 +10156,64 @@
       "sourceReviews": {
         "https://github.com/tari-project/community-templates": {
           "url": "https://github.com/tari-project/community-templates",
+          "file": "46ac86ba20c41060-5c56131bead9f1e35d6c4eca5fb94c14e16f200f19940e98972b638ee1b7e4cf.txt",
           "hash": "5c56131bead9f1e35d6c4eca5fb94c14e16f200f19940e98972b638ee1b7e4cf",
-          "revision": "8ea6d8b5b1a11ad0eeaca4f01d0caca6344c7ed0",
           "attemptedAt": "2026-11-04T10:09:28.968200+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/tari-project/community-templates/releases",
+            "file": "60e3e1b7a56e0f86-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:09:28.691172+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "8ea6d8b5b1a11ad0eeaca4f01d0caca6344c7ed0",
+          "readmeSha": "ef9a440889c81043756f1776c51f3974c3bc970f",
+          "archived": false,
+          "root": [
+            ".cargo",
+            ".dockerignore",
+            ".github",
+            ".gitignore",
+            ".idea",
+            ".nvmrc",
+            "Cargo.lock",
+            "Cargo.toml",
+            "Dockerfile",
+            "LICENSE",
+            "README.md",
+            "config.example.toml",
+            "docker-compose.yml",
+            "migrations",
+            "renovate.json",
+            "rust-toolchain.toml",
+            "server",
+            "web"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "http://localhost:3000/api/templates/{addr}/metadata"
+          ],
           "evidence": "work/daily-2026-11-04/46ac86ba20c41060-5c56131bead9f1e35d6c4eca5fb94c14e16f200f19940e98972b638ee1b7e4cf.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:09:28.968200+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:28.968200+00:00",
           "status": "read"
         },
         "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c": {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
-          "hash": "4c70f35f4e5aba81008129b906623d1527047f7a196b46558905b57b1026d26e",
-          "attemptedAt": "2026-11-04T10:07:26.456395+00:00",
-          "evidence": "work/daily-2026-11-04/94268e4f91ed6ff4-4c70f35f4e5aba81008129b906623d1527047f7a196b46558905b57b1026d26e.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.456395+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.456395+00:00",
+          "file": "94268e4f91ed6ff4-af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6.txt",
+          "hash": "af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6",
+          "attemptedAt": "2026-11-04T10:06:54.928415+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Ftariproject.bsky.social%2Fapp.bsky.feed.post%2F3my7vzljz7r2c&depth=100&parentHeight=100",
+          "complete": true,
+          "evidence": "work/daily-2026-11-04/94268e4f91ed6ff4-af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6.txt",
+          "lastAttemptAt": "2026-11-04T10:06:54.928415+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:54.928415+00:00",
           "status": "read"
         },
         "https://ootle.tari.com/community-templates/search": {
@@ -10203,28 +10236,53 @@
         },
         "https://ootle.tari.com/community-templates": {
           "url": "https://ootle.tari.com/community-templates",
-          "hash": "ae89fccb6e6040791b4f2f122cb0d0910b517a67c5fe0987378563d13a69efd0",
-          "attemptedAt": "2026-11-04T10:07:30.636307+00:00",
-          "evidence": "work/daily-2026-11-04/1d5dedbc7a5f16e6-ae89fccb6e6040791b4f2f122cb0d0910b517a67c5fe0987378563d13a69efd0.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:30.636307+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:30.636307+00:00",
+          "file": "community-template-browse.txt",
+          "hash": "95fe7fa653a12d6d3952e05ccedc0a5066d384012b2a780f0e162b2d95d7bd83",
+          "attemptedAt": "2026-11-04T19:44:23.394Z",
+          "kind": "browser-directory",
+          "complete": true,
+          "scope": "All 29 currently displayed Browse entries; no pagination control visible. Detail reviewed separately.",
+          "evidence": "work/daily-2026-11-04/community-template-browse.txt",
+          "lastAttemptAt": "2026-11-04T19:44:23.394Z",
+          "lastSuccessfulReadAt": "2026-11-04T19:44:23.394Z",
+          "status": "read"
+        },
+        "https://github.com/tari-project/community-templates/releases": {
+          "url": "https://github.com/tari-project/community-templates/releases",
+          "file": "60e3e1b7a56e0f86-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:09:28.691172+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/60e3e1b7a56e0f86-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-04T10:09:28.691172+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:09:28.691172+00:00",
+          "status": "read"
+        },
+        "https://ootle.tari.com/community-templates/templates/bc3ed69bd1c02240e353dcfd5b72d43e5eaa5abf6eb993e983cc204ed6449d4f": {
+          "checkedAt": "2026-11-04T19:44:23.394Z",
+          "url": "https://ootle.tari.com/community-templates/templates/bc3ed69bd1c02240e353dcfd5b72d43e5eaa5abf6eb993e983cc204ed6449d4f",
+          "file": "community-template-detail.txt",
+          "hash": "f0ed1d5f2ae0eb78efe6cf5023f2bd1424e68f0501a6c862f9a36322b114e3f7",
+          "observation": "Browse directory lists 29 templates with no pagination control visible. IncubationTreasury detail loads method signatures, template address, size and pseudonymous author; no verified metadata, project description or creator links supplied. Template name alone does not qualify a new project listing.",
+          "attemptedAt": "2026-11-04T19:44:23.394Z",
+          "complete": true,
+          "kind": "browser-detail",
+          "evidence": "work/daily-2026-11-04/community-template-detail.txt",
+          "lastAttemptAt": "2026-11-04T19:44:23.394Z",
+          "lastSuccessfulReadAt": "2026-11-04T19:44:23.394Z",
           "status": "read"
         }
       },
-      "observedAvailability": "Public browser directory is reachable; Browse loads actual named templates and an Ootlebook detail shows address, author,epoch,size and function signatures. This template has no verified metadata. No transaction or publication attempted.",
+      "observedAvailability": "November 4: public Browse directory and IncubationTreasury detail load. Browse showed 29 template records and no pagination control. Detail exposes address, author key, epoch, size and function signatures but no verified off-chain metadata or project description. README unchanged at 8ea6d8b5b1a11ad0eeaca4f01d0caca6344c7ed0; no GitHub releases. Retained October 19 Bluesky discussion has zero replies and promotes the separate WASM template repository, not this directory. Existing related-discussion context is accurate. Network is not identified on reviewed pages; no template execution.",
       "changedSources": [
+        "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
         "https://ootle.tari.com/community-templates",
-        "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c"
+        "https://github.com/tari-project/community-templates/releases",
+        "https://ootle.tari.com/community-templates/templates/bc3ed69bd1c02240e353dcfd5b72d43e5eaa5abf6eb993e983cc204ed6449d4f"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://github.com/tari-project/community-templates",
         "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
@@ -10298,7 +10356,6 @@
           "recoveredThrough": "supported browser"
         }
       ],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/tari-project/community-templates",
@@ -10321,6 +10378,9 @@
           "attemptedAt": "2026-11-04T10:07:26.456395+00:00",
           "httpStatus": 200
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/directories-review.json"
       ]
     },
     "tari-ootle:integration:veil": {
@@ -10566,30 +10626,118 @@
       "id": "tari:component:tari-l1-wasm",
       "title": "Chiron Tari L1 WASM",
       "sources": [
-        "https://github.com/chironbuilds/tari-l1-wasm"
+        "https://github.com/chironbuilds/tari-l1-wasm",
+        "https://github.com/chironbuilds/tari-l1-wasm/releases",
+        "https://registry.npmjs.org/@chironbuilder%2Ftari-l1-wasm"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T19:44:48.094Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T19:44:48.094Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "changedFields": [],
+      "changedFields": [
+        "sourceEvidence"
+      ],
       "sourceReviews": {
         "https://github.com/chironbuilds/tari-l1-wasm": {
           "url": "https://github.com/chironbuilds/tari-l1-wasm",
+          "file": "bccb8ebee1cece21-2fd08b5a97fdb5b8a02ef44232d75e5b00adebae8b9b8a1d113d33d7272c052d.txt",
           "hash": "2fd08b5a97fdb5b8a02ef44232d75e5b00adebae8b9b8a1d113d33d7272c052d",
-          "revision": "e23e4c9ea956818ae28e3b8978b8c1b2ca3cf727",
           "attemptedAt": "2026-11-04T10:09:24.981412+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/chironbuilds/tari-l1-wasm/releases",
+            "file": "8b86130f588fedf3-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:09:24.727902+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "e23e4c9ea956818ae28e3b8978b8c1b2ca3cf727",
+          "readmeSha": "ebaddf4929a03710710a139f1fe40fa11596fd1e",
+          "archived": false,
+          "root": [
+            ".gitignore",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "integration.patch",
+            "scripts",
+            "smoke_test.mjs",
+            "src",
+            "tests"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "https://github.com/tari-project/tari",
+            "https://github.com/tari-project/tari.git",
+            "https://www.npmjs.com/package/@chironbuilder/tari-l1-wasm"
+          ],
           "evidence": "work/daily-2026-11-04/bccb8ebee1cece21-2fd08b5a97fdb5b8a02ef44232d75e5b00adebae8b9b8a1d113d33d7272c052d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full primary source reviewed; README aliases resolve to the same current README bytes.",
           "lastAttemptAt": "2026-11-04T10:09:24.981412+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:24.981412+00:00",
           "status": "read"
+        },
+        "https://github.com/chironbuilds/tari-l1-wasm/releases": {
+          "url": "https://github.com/chironbuilds/tari-l1-wasm/releases",
+          "file": "8b86130f588fedf3-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:09:24.727902+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/8b86130f588fedf3-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-04T10:09:24.727902+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:09:24.727902+00:00",
+          "status": "read"
+        },
+        "https://registry.npmjs.org/@chironbuilder%2Ftari-l1-wasm": {
+          "url": "https://registry.npmjs.org/@chironbuilder%2Ftari-l1-wasm",
+          "file": "9b8072863343e587-cbddc7fd7611824633790f8c56f0e2e5d1187f13b709b85599f59d046d6ecd70.txt",
+          "hash": "cbddc7fd7611824633790f8c56f0e2e5d1187f13b709b85599f59d046d6ecd70",
+          "attemptedAt": "2026-11-04T19:39:12.882896+00:00",
+          "httpStatus": 200,
+          "kind": "package-metadata",
+          "complete": true,
+          "latest": "6.0.1-pre.2",
+          "publishedAt": "2026-10-04T04:24:20.507Z",
+          "license": "BSD-3-Clause",
+          "repository": {
+            "url": "git+https://github.com/tari-project/tari.git",
+            "type": "git",
+            "directory": "base_layer/tari_l1_wasm"
+          },
+          "dist": {
+            "shasum": "01e133f3832a29eb65997f31cfa9a41f18af1e7b",
+            "tarball": "https://registry.npmjs.org/@chironbuilder/tari-l1-wasm/-/tari-l1-wasm-6.0.1-pre.2.tgz",
+            "fileCount": 8,
+            "integrity": "sha512-7NAm7Jw7/g1hSST+3neEbhySksuHQk2j6tH1oL5uM2a/gCcjE7m4OI1u4mAwxw/DwuEGrtsMpsv7D+rmd82P9w==",
+            "signatures": [
+              {
+                "sig": "MEUCIHJDwJMbm6bQaRqnjktKpf3I0IreWfxIQHG8xYRuTBJmAiEAi3ofJl8MevkxS0vDVdxCVv+WnFVmrnXkK28XEiIeOVU=",
+                "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+              },
+              {
+                "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+                "sig": "MEQCIF2D/194kfKGScGmuQp/9rqcwB1MLnlGnwmcjsjnaUw2AiBF+1DqWNk08/3oMTqmfZ8bD9XBfOTYYvV/w+s4lekNlw=="
+              }
+            ],
+            "unpackedSize": 1033149
+          },
+          "evidence": "work/daily-2026-11-04/9b8072863343e587-cbddc7fd7611824633790f8c56f0e2e5d1187f13b709b85599f59d046d6ecd70.txt",
+          "lastAttemptAt": "2026-11-04T19:39:12.882896+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T19:39:12.882896+00:00",
+          "status": "read"
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
-      "changedSources": [],
+      "observedAvailability": "November 4: full README at e23e4c9ea956818ae28e3b8978b8c1b2ca3cf727 and empty GitHub release inventory reviewed. The documented npm package is available as 6.0.1-pre.2, published October 4; the registry license is BSD-3-Clause. Source builds require the pinned Tari monorepo and integration.patch. No separate public sharing post is established; retain repository discovery. No package installation, wallet or transaction execution.",
+      "changedSources": [
+        "https://github.com/chironbuilds/tari-l1-wasm/releases",
+        "https://registry.npmjs.org/@chironbuilder%2Ftari-l1-wasm"
+      ],
       "reviewQueue": [],
       "checkedScope": [
         "https://github.com/chironbuilds/tari-l1-wasm"
@@ -10601,7 +10749,6 @@
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/chironbuilds/tari-l1-wasm",
@@ -10610,6 +10757,9 @@
           "attemptedAt": "2026-11-04T10:09:24.981412+00:00",
           "revision": "e23e4c9ea956818ae28e3b8978b8c1b2ca3cf727"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/source-tools-review.json"
       ]
     },
     "tari-ootle:learn:ootle-notes": {
@@ -13331,8 +13481,7 @@
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/mak777uh/sealed-coffin": {
           "url": "https://github.com/mak777uh/sealed-coffin",
@@ -13351,7 +13500,6 @@
           },
           "revision": "a9bd4612fb7d32f080d6e43278beeec10191f316",
           "readmeSha": "6f8d9cd4b59f95e5ada87142bdc0f7531d3e48be",
-          "homepage": null,
           "archived": false,
           "root": [
             ".github",
@@ -13372,8 +13520,7 @@
           "evidence": "work/daily-2026-11-04/4d86f112d616dbeb-2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27.txt",
           "lastAttemptAt": "2026-11-04T10:07:10.133252+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:10.133252+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/": {
           "url": "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
@@ -13401,8 +13548,7 @@
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/mak777uh/sealed-coffin/releases": {
           "url": "https://github.com/mak777uh/sealed-coffin/releases",
@@ -13415,8 +13561,7 @@
           "evidence": "work/daily-2026-11-04/01f331793d300b8a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
           "lastAttemptAt": "2026-11-04T10:07:09.867034+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:09.867034+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/mak777uh/sealed-coffin#readme": {
           "url": "https://github.com/mak777uh/sealed-coffin#readme",
@@ -13435,7 +13580,6 @@
           },
           "revision": "a9bd4612fb7d32f080d6e43278beeec10191f316",
           "readmeSha": "6f8d9cd4b59f95e5ada87142bdc0f7531d3e48be",
-          "homepage": null,
           "archived": false,
           "root": [
             ".github",
@@ -13456,8 +13600,7 @@
           "evidence": "work/daily-2026-11-04/4d86f112d616dbeb-2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27.txt",
           "lastAttemptAt": "2026-11-04T10:07:10.133252+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:10.133252+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
@@ -13551,8 +13694,7 @@
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/mak777uh/sealed-coffin": {
           "url": "https://github.com/mak777uh/sealed-coffin",
@@ -13571,7 +13713,6 @@
           },
           "revision": "a9bd4612fb7d32f080d6e43278beeec10191f316",
           "readmeSha": "6f8d9cd4b59f95e5ada87142bdc0f7531d3e48be",
-          "homepage": null,
           "archived": false,
           "root": [
             ".github",
@@ -13592,8 +13733,7 @@
           "evidence": "work/daily-2026-11-04/4d86f112d616dbeb-2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27.txt",
           "lastAttemptAt": "2026-11-04T10:07:10.133252+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:10.133252+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/": {
           "url": "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
@@ -13626,7 +13766,6 @@
           },
           "revision": "a9bd4612fb7d32f080d6e43278beeec10191f316",
           "readmeSha": "6f8d9cd4b59f95e5ada87142bdc0f7531d3e48be",
-          "homepage": null,
           "archived": false,
           "root": [
             ".github",
@@ -13647,8 +13786,7 @@
           "evidence": "work/daily-2026-11-04/4d86f112d616dbeb-2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27.txt",
           "lastAttemptAt": "2026-11-04T10:07:10.133252+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:10.133252+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
@@ -13662,8 +13800,7 @@
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         },
         "https://github.com/mak777uh/sealed-coffin/releases": {
           "url": "https://github.com/mak777uh/sealed-coffin/releases",
@@ -13676,8 +13813,7 @@
           "evidence": "work/daily-2026-11-04/01f331793d300b8a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
           "lastAttemptAt": "2026-11-04T10:07:09.867034+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:09.867034+00:00",
-          "status": "read",
-          "error": null
+          "status": "read"
         }
       },
       "lastSuccessfulReviewAt": "2026-10-20T14:28:48.138Z",
@@ -17673,74 +17809,194 @@
       "sources": [
         "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
         "https://github.com/kstrycharz/tari-agent-registry",
-        "https://taritracker.com/#ai-tools"
+        "https://taritracker.com/#ai-tools",
+        "https://github.com/kstrycharz/tari-agent-registry#readme",
+        "https://github.com/kstrycharz/tari-agent-registry/releases"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T19:46:08.708Z",
       "sourceReviews": {
         "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1": {
           "url": "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
+          "file": "e1f5f7f94ac07399-c8e291eda1b2b0e7d82b4ce8eaa4b9a83995b57c5d5f4ed6228b1741077ae793.txt",
           "hash": "c8e291eda1b2b0e7d82b4ce8eaa4b9a83995b57c5d5f4ed6228b1741077ae793",
           "attemptedAt": "2026-11-04T10:07:05.595999+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 1,
+          "title": "Are you building things on AI? Looking for Tari MCP and AI Skills? Want to share your work? Check out the Tari agent registry!",
           "evidence": "work/daily-2026-11-04/e1f5f7f94ac07399-c8e291eda1b2b0e7d82b4ce8eaa4b9a83995b57c5d5f4ed6228b1741077ae793.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.595999+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.595999+00:00",
           "status": "read"
         },
         "https://github.com/kstrycharz/tari-agent-registry": {
           "url": "https://github.com/kstrycharz/tari-agent-registry",
+          "file": "8dbf91af523fb968-5c4ae92eaf9a7b06b258a70c34e567d1f642d87cc0311f4aa336bb548f20dcd0.txt",
           "hash": "5c4ae92eaf9a7b06b258a70c34e567d1f642d87cc0311f4aa336bb548f20dcd0",
-          "revision": "e42c4982ed6dc2397993870123d7520bfc78eaca",
           "attemptedAt": "2026-11-04T10:07:07.702724+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/kstrycharz/tari-agent-registry/releases",
+            "file": "b0b3947560111c60-2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303.txt",
+            "hash": "2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303",
+            "attemptedAt": "2026-11-04T10:07:07.405316+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "e42c4982ed6dc2397993870123d7520bfc78eaca",
+          "readmeSha": "9dbe7bda3cb3a156a151985183eea3d8593dff14",
+          "homepage": "https://taritracker.com",
+          "archived": false,
+          "root": [
+            ".gitattributes",
+            ".github",
+            ".gitignore",
+            "AGENTS.md",
+            "CONTRIBUTING.md",
+            "LICENSE",
+            "README.md",
+            "SECURITY.md",
+            "docs",
+            "integrations",
+            "packages",
+            "policy",
+            "registry",
+            "requirements-ci.lock",
+            "requirements.txt",
+            "schemas",
+            "tests",
+            "tools"
+          ],
+          "releases": [
+            {
+              "tag": "v1.0.0",
+              "published": "2026-10-23T17:29:18Z",
+              "url": "https://github.com/kstrycharz/tari-agent-registry/releases/tag/v1.0.0"
+            }
+          ],
+          "complete": true,
+          "links": [
+            "https://docs.github.com/en/actions/reference/security/secure-use",
+            "https://github.com/tari-project",
+            "https://kstrycharz.github.io/tari-agent-registry/catalog.json",
+            "https://modelcontextprotocol.io/specification/2025-11-25",
+            "https://ootle.tari.com/",
+            "https://tari.com/",
+            "https://taritracker.com"
+          ],
           "evidence": "work/daily-2026-11-04/8dbf91af523fb968-5c4ae92eaf9a7b06b258a70c34e567d1f642d87cc0311f4aa336bb548f20dcd0.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:07.702724+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:07.702724+00:00",
           "status": "read"
         },
         "https://taritracker.com/#ai-tools": {
+          "attemptedAt": "2026-11-04T19:44:36.465Z",
           "url": "https://taritracker.com/#ai-tools",
-          "hash": "a70e25cdd00fdca54ed92508a5078c73834012fcc2f31bda79122e610a05d83b",
-          "attemptedAt": "2026-11-04T10:07:34.694995+00:00",
-          "evidence": "work/daily-2026-11-04/ab492589d659e7a3-a70e25cdd00fdca54ed92508a5078c73834012fcc2f31bda79122e610a05d83b.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:34.694995+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:34.694995+00:00",
+          "file": "taritracker-browser-review.txt",
+          "hash": "43a0cde8a4a633ccae7b6e3f0c6f5feaaa183a1914bcf31c9d2094bced09d85f",
+          "kind": "browser-availability",
+          "complete": true,
+          "scope": "Current rendered homepage and public Block tools destination; not an audit of linked packages or historic developer activity.",
+          "evidence": "work/daily-2026-11-04/taritracker-browser-review.txt",
+          "lastAttemptAt": "2026-11-04T19:44:36.465Z",
+          "lastSuccessfulReadAt": "2026-11-04T19:44:36.465Z",
           "status": "read"
         },
         "https://github.com/kstrycharz/tari-agent-registry#readme": {
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "url": "https://github.com/kstrycharz/tari-agent-registry#readme",
+          "file": "8dbf91af523fb968-5c4ae92eaf9a7b06b258a70c34e567d1f642d87cc0311f4aa336bb548f20dcd0.txt",
+          "hash": "5c4ae92eaf9a7b06b258a70c34e567d1f642d87cc0311f4aa336bb548f20dcd0",
+          "attemptedAt": "2026-11-04T10:07:07.702724+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/kstrycharz/tari-agent-registry/releases",
+            "file": "b0b3947560111c60-2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303.txt",
+            "hash": "2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303",
+            "attemptedAt": "2026-11-04T10:07:07.405316+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "e42c4982ed6dc2397993870123d7520bfc78eaca",
+          "readmeSha": "9dbe7bda3cb3a156a151985183eea3d8593dff14",
+          "homepage": "https://taritracker.com",
+          "archived": false,
+          "root": [
+            ".gitattributes",
+            ".github",
+            ".gitignore",
+            "AGENTS.md",
+            "CONTRIBUTING.md",
+            "LICENSE",
+            "README.md",
+            "SECURITY.md",
+            "docs",
+            "integrations",
+            "packages",
+            "policy",
+            "registry",
+            "requirements-ci.lock",
+            "requirements.txt",
+            "schemas",
+            "tests",
+            "tools"
+          ],
+          "releases": [
+            {
+              "tag": "v1.0.0",
+              "published": "2026-10-23T17:29:18Z",
+              "url": "https://github.com/kstrycharz/tari-agent-registry/releases/tag/v1.0.0"
+            }
+          ],
+          "complete": true,
+          "links": [
+            "https://docs.github.com/en/actions/reference/security/secure-use",
+            "https://github.com/tari-project",
+            "https://kstrycharz.github.io/tari-agent-registry/catalog.json",
+            "https://modelcontextprotocol.io/specification/2025-11-25",
+            "https://ootle.tari.com/",
+            "https://tari.com/",
+            "https://taritracker.com"
+          ],
+          "evidence": "work/daily-2026-11-04/8dbf91af523fb968-5c4ae92eaf9a7b06b258a70c34e567d1f642d87cc0311f4aa336bb548f20dcd0.txt",
+          "lastAttemptAt": "2026-11-04T10:07:07.702724+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:07.702724+00:00",
+          "status": "read"
+        },
+        "https://github.com/kstrycharz/tari-agent-registry/releases": {
+          "url": "https://github.com/kstrycharz/tari-agent-registry/releases",
+          "file": "b0b3947560111c60-2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303.txt",
+          "hash": "2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303",
+          "attemptedAt": "2026-11-04T10:07:07.405316+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/b0b3947560111c60-2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303.txt",
+          "lastAttemptAt": "2026-11-04T10:07:07.405316+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:07.405316+00:00",
+          "status": "read"
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-04T19:46:08.708Z",
+      "observedAvailability": "November 4: original one-post forum topic 491 has no replies or edits. Full README at e42c4982ed6dc2397993870123d7520bfc78eaca and sole v1.0.0 release reviewed. Rendered TariTracker AI Resources shows four packages, source links and declared permissions. The Ootle development skill declares wallet signing/spending; none was installed or executed. Independent community directory, not an official service. Existing purpose and README walkthrough remain accurate.",
+      "outcome": "reviewed",
       "changedSources": [
-        "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
-        "https://taritracker.com/#ai-tools"
+        "https://taritracker.com/#ai-tools",
+        "https://github.com/kstrycharz/tari-agent-registry#readme",
+        "https://github.com/kstrycharz/tari-agent-registry/releases"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "sourceObservation": "Community-maintained registry of Tari-themed skills, agents and MCP servers, published through TariTracker. October 29 inspection of the AI Resources section showed four packages with source links and declared permissions. Packages use manifests, pull-request checks and maintainer review; these are not independent security certification. One development skill declares wallet signing/spending permissions, so installing a package is a separate decision from reading its listing. MIT registry at v1.0.0; no package was installed or executed. The recording walks through repository documentation. TariTracker is an independent community service, not an official Tari agent service.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "pendingReviewSources": [],
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/491.json",
@@ -17762,6 +18018,9 @@
           "attemptedAt": "2026-11-04T10:07:34.694995+00:00",
           "httpStatus": 200
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/directories-review.json"
       ]
     },
     "project:arkimals": {
@@ -18959,71 +19218,196 @@
         "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
         "https://github.com/kstrycharz/tari-agent-registry",
         "https://github.com/kstrycharz/tari-agent-registry#readme",
-        "https://taritracker.com/#ai-tools"
+        "https://taritracker.com/#ai-tools",
+        "https://github.com/kstrycharz/tari-agent-registry/releases"
       ],
-      "lastAttemptAt": "2026-10-31T14:00:56.589Z",
+      "lastAttemptAt": "2026-11-04T19:46:08.708Z",
       "sourceReviews": {
         "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1": {
           "url": "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
-          "hash": "f0083a842a8399bc106e178c2570e14c719114af7d2ae6291f5f461d355f8e49",
-          "attemptedAt": "2026-10-31T09:02:55.684256+00:00",
-          "evidence": "work/daily-2026-10-31/e1f5f7f94ac07399.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:02:55.684256+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:02:55.684256+00:00",
+          "file": "e1f5f7f94ac07399-c8e291eda1b2b0e7d82b4ce8eaa4b9a83995b57c5d5f4ed6228b1741077ae793.txt",
+          "hash": "c8e291eda1b2b0e7d82b4ce8eaa4b9a83995b57c5d5f4ed6228b1741077ae793",
+          "attemptedAt": "2026-11-04T10:07:05.595999+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 1,
+          "title": "Are you building things on AI? Looking for Tari MCP and AI Skills? Want to share your work? Check out the Tari agent registry!",
+          "evidence": "work/daily-2026-11-04/e1f5f7f94ac07399-c8e291eda1b2b0e7d82b4ce8eaa4b9a83995b57c5d5f4ed6228b1741077ae793.txt",
+          "lastAttemptAt": "2026-11-04T10:07:05.595999+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:05.595999+00:00",
           "status": "read"
         },
         "https://github.com/kstrycharz/tari-agent-registry": {
           "url": "https://github.com/kstrycharz/tari-agent-registry",
+          "file": "8dbf91af523fb968-5c4ae92eaf9a7b06b258a70c34e567d1f642d87cc0311f4aa336bb548f20dcd0.txt",
           "hash": "5c4ae92eaf9a7b06b258a70c34e567d1f642d87cc0311f4aa336bb548f20dcd0",
+          "attemptedAt": "2026-11-04T10:07:07.702724+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/kstrycharz/tari-agent-registry/releases",
+            "file": "b0b3947560111c60-2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303.txt",
+            "hash": "2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303",
+            "attemptedAt": "2026-11-04T10:07:07.405316+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
           "revision": "e42c4982ed6dc2397993870123d7520bfc78eaca",
-          "attemptedAt": "2026-10-31T09:03:08.442509+00:00",
-          "evidence": "work/daily-2026-10-31/8dbf91af523fb968.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:08.442509+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:08.442509+00:00",
+          "readmeSha": "9dbe7bda3cb3a156a151985183eea3d8593dff14",
+          "homepage": "https://taritracker.com",
+          "archived": false,
+          "root": [
+            ".gitattributes",
+            ".github",
+            ".gitignore",
+            "AGENTS.md",
+            "CONTRIBUTING.md",
+            "LICENSE",
+            "README.md",
+            "SECURITY.md",
+            "docs",
+            "integrations",
+            "packages",
+            "policy",
+            "registry",
+            "requirements-ci.lock",
+            "requirements.txt",
+            "schemas",
+            "tests",
+            "tools"
+          ],
+          "releases": [
+            {
+              "tag": "v1.0.0",
+              "published": "2026-10-23T17:29:18Z",
+              "url": "https://github.com/kstrycharz/tari-agent-registry/releases/tag/v1.0.0"
+            }
+          ],
+          "complete": true,
+          "links": [
+            "https://docs.github.com/en/actions/reference/security/secure-use",
+            "https://github.com/tari-project",
+            "https://kstrycharz.github.io/tari-agent-registry/catalog.json",
+            "https://modelcontextprotocol.io/specification/2025-11-25",
+            "https://ootle.tari.com/",
+            "https://tari.com/",
+            "https://taritracker.com"
+          ],
+          "evidence": "work/daily-2026-11-04/8dbf91af523fb968-5c4ae92eaf9a7b06b258a70c34e567d1f642d87cc0311f4aa336bb548f20dcd0.txt",
+          "lastAttemptAt": "2026-11-04T10:07:07.702724+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:07.702724+00:00",
           "status": "read"
         },
         "https://github.com/kstrycharz/tari-agent-registry#readme": {
           "url": "https://github.com/kstrycharz/tari-agent-registry#readme",
+          "file": "8dbf91af523fb968-5c4ae92eaf9a7b06b258a70c34e567d1f642d87cc0311f4aa336bb548f20dcd0.txt",
           "hash": "5c4ae92eaf9a7b06b258a70c34e567d1f642d87cc0311f4aa336bb548f20dcd0",
+          "attemptedAt": "2026-11-04T10:07:07.702724+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/kstrycharz/tari-agent-registry/releases",
+            "file": "b0b3947560111c60-2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303.txt",
+            "hash": "2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303",
+            "attemptedAt": "2026-11-04T10:07:07.405316+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
           "revision": "e42c4982ed6dc2397993870123d7520bfc78eaca",
-          "attemptedAt": "2026-10-31T09:03:08.442509+00:00",
-          "evidence": "work/daily-2026-10-31/8dbf91af523fb968.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:08.442509+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:08.442509+00:00",
+          "readmeSha": "9dbe7bda3cb3a156a151985183eea3d8593dff14",
+          "homepage": "https://taritracker.com",
+          "archived": false,
+          "root": [
+            ".gitattributes",
+            ".github",
+            ".gitignore",
+            "AGENTS.md",
+            "CONTRIBUTING.md",
+            "LICENSE",
+            "README.md",
+            "SECURITY.md",
+            "docs",
+            "integrations",
+            "packages",
+            "policy",
+            "registry",
+            "requirements-ci.lock",
+            "requirements.txt",
+            "schemas",
+            "tests",
+            "tools"
+          ],
+          "releases": [
+            {
+              "tag": "v1.0.0",
+              "published": "2026-10-23T17:29:18Z",
+              "url": "https://github.com/kstrycharz/tari-agent-registry/releases/tag/v1.0.0"
+            }
+          ],
+          "complete": true,
+          "links": [
+            "https://docs.github.com/en/actions/reference/security/secure-use",
+            "https://github.com/tari-project",
+            "https://kstrycharz.github.io/tari-agent-registry/catalog.json",
+            "https://modelcontextprotocol.io/specification/2025-11-25",
+            "https://ootle.tari.com/",
+            "https://tari.com/",
+            "https://taritracker.com"
+          ],
+          "evidence": "work/daily-2026-11-04/8dbf91af523fb968-5c4ae92eaf9a7b06b258a70c34e567d1f642d87cc0311f4aa336bb548f20dcd0.txt",
+          "lastAttemptAt": "2026-11-04T10:07:07.702724+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:07.702724+00:00",
           "status": "read"
         },
         "https://taritracker.com/#ai-tools": {
+          "attemptedAt": "2026-11-04T19:44:36.465Z",
           "url": "https://taritracker.com/#ai-tools",
-          "hash": "399d2b0a1eb50c05db82496a5baef05d5b765a7fb17b496c04858de4bc592dae",
-          "attemptedAt": "2026-10-31T14:00:56.589Z",
-          "evidence": "work/daily-2026-10-31/changed-public-0.txt",
-          "method": "Browser page and visible public content reviewed without wallet actions.",
-          "lastAttemptAt": "2026-10-31T14:00:56.589Z",
-          "lastSuccessfulReadAt": "2026-10-31T14:00:56.589Z",
+          "file": "taritracker-browser-review.txt",
+          "hash": "43a0cde8a4a633ccae7b6e3f0c6f5feaaa183a1914bcf31c9d2094bced09d85f",
+          "kind": "browser-availability",
+          "complete": true,
+          "scope": "Current rendered homepage and public Block tools destination; not an audit of linked packages or historic developer activity.",
+          "evidence": "work/daily-2026-11-04/taritracker-browser-review.txt",
+          "lastAttemptAt": "2026-11-04T19:44:36.465Z",
+          "lastSuccessfulReadAt": "2026-11-04T19:44:36.465Z",
+          "status": "read"
+        },
+        "https://github.com/kstrycharz/tari-agent-registry/releases": {
+          "url": "https://github.com/kstrycharz/tari-agent-registry/releases",
+          "file": "b0b3947560111c60-2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303.txt",
+          "hash": "2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303",
+          "attemptedAt": "2026-11-04T10:07:07.405316+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/b0b3947560111c60-2dfe6eb82c8b8cdc43de491d08fc559198ea61cb39eff29638f39c805d6d9303.txt",
+          "lastAttemptAt": "2026-11-04T10:07:07.405316+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:07.405316+00:00",
           "status": "read"
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "lastSuccessfulReviewAt": "2026-11-04T19:46:08.708Z",
+      "observedAvailability": "November 4: original one-post forum topic 491 has no replies or edits. Full README at e42c4982ed6dc2397993870123d7520bfc78eaca and sole v1.0.0 release reviewed. Rendered TariTracker AI Resources shows four packages, source links and declared permissions. The Ootle development skill declares wallet signing/spending; none was installed or executed. Independent community directory, not an official service. Existing purpose and README walkthrough remain accurate.",
       "outcome": "reviewed",
       "changedSources": [
         "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
-        "https://taritracker.com/#ai-tools"
+        "https://taritracker.com/#ai-tools",
+        "https://github.com/kstrycharz/tari-agent-registry/releases"
       ],
       "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
       "reviewQueue": [],
-      "nextReviewAt": "2026-11-01T09:00:00Z",
+      "nextReviewAt": "2026-11-05T10:00:00Z",
       "sourceObservation": "Community-maintained registry of Tari-themed skills, agents and MCP servers, published through TariTracker. October 29 inspection of the AI Resources section showed four packages with source links and declared permissions. Packages use manifests, pull-request checks and maintainer review; these are not independent security certification. One development skill declares wallet signing/spending permissions, so installing a package is a separate decision from reading its listing. MIT registry at v1.0.0; no package was installed or executed. The recording walks through repository documentation. TariTracker is an independent community service, not an official Tari agent service.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "pendingReviewSources": [],
-      "blockedSources": []
+      "blockedSources": [],
+      "evidence": [
+        "work/daily-2026-11-04/directories-review.json"
+      ]
     },
     "tari-ootle:learn:atproto-identity": {
       "id": "tari-ootle:learn:atproto-identity",
@@ -19891,79 +20275,161 @@
       "title": "Ghost Candy Cards",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
-        "https://github.com/cgrab-k7q2/ghost-candy-cards"
+        "https://github.com/cgrab-k7q2/ghost-candy-cards",
+        "https://github.com/cgrab-k7q2/ghost-candy-cards#readme",
+        "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/cgrab-k7q2/ghost-candy-cards/releases"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T19:17:46.405Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T19:17:46.405Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
           "status": "read"
         },
         "https://github.com/cgrab-k7q2/ghost-candy-cards": {
           "url": "https://github.com/cgrab-k7q2/ghost-candy-cards",
+          "file": "096a7823befe9d3b-6ec617c56c0c41041dd09f83b3892bcc5889197b57e6561a6631b75c5857992f.txt",
           "hash": "6ec617c56c0c41041dd09f83b3892bcc5889197b57e6561a6631b75c5857992f",
-          "revision": "d023958902a09b41f15ff5bb9cd4a1c5cc559ff4",
           "attemptedAt": "2026-11-04T10:07:01.490991+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/cgrab-k7q2/ghost-candy-cards/releases",
+            "file": "2ec08fea5ac5f110-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:01.177693+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "d023958902a09b41f15ff5bb9cd4a1c5cc559ff4",
+          "readmeSha": "f187d998646408ea2f063436742f95ad498dde6e",
+          "archived": false,
+          "root": [
+            ".gitignore",
+            "LICENSE",
+            "README.md",
+            "cli",
+            "printer",
+            "template"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [],
           "evidence": "work/daily-2026-11-04/096a7823befe9d3b-6ec617c56c0c41041dd09f83b3892bcc5889197b57e6561a6631b75c5857992f.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory.",
           "lastAttemptAt": "2026-11-04T10:07:01.490991+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:01.490991+00:00",
           "status": "read"
         },
         "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l": {
           "url": "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l",
-          "hash": "cc569bf6c5c3c3d4cbfd83dca0ce0c2bad2bf86ea7a7d0eb8b9a3585df0c49ff",
-          "attemptedAt": "2026-11-04T10:07:24.992680+00:00",
-          "evidence": "work/daily-2026-11-04/903c4debdaf9f765-cc569bf6c5c3c3d4cbfd83dca0ce0c2bad2bf86ea7a7d0eb8b9a3585df0c49ff.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:24.992680+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:24.992680+00:00",
+          "file": "903c4debdaf9f765-065e4f201f0f957d8eb8e74da76a577cb484edd5c5fd11d5440bbb316a9f8f80.txt",
+          "hash": "065e4f201f0f957d8eb8e74da76a577cb484edd5c5fd11d5440bbb316a9f8f80",
+          "attemptedAt": "2026-11-04T10:06:46.045681+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fcgrabk7q2.bsky.social%2Fapp.bsky.feed.post%2F3mz24lkjhdk2l&depth=100&parentHeight=100",
+          "evidence": "work/daily-2026-11-04/903c4debdaf9f765-065e4f201f0f957d8eb8e74da76a577cb484edd5c5fd11d5440bbb316a9f8f80.txt",
+          "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory.",
+          "lastAttemptAt": "2026-11-04T10:06:46.045681+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.045681+00:00",
           "status": "read"
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
           "status": "read"
+        },
+        "https://github.com/cgrab-k7q2/ghost-candy-cards#readme": {
+          "url": "https://github.com/cgrab-k7q2/ghost-candy-cards#readme",
+          "file": "096a7823befe9d3b-6ec617c56c0c41041dd09f83b3892bcc5889197b57e6561a6631b75c5857992f.txt",
+          "hash": "6ec617c56c0c41041dd09f83b3892bcc5889197b57e6561a6631b75c5857992f",
+          "attemptedAt": "2026-11-04T10:07:01.490991+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/cgrab-k7q2/ghost-candy-cards/releases",
+            "file": "2ec08fea5ac5f110-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:01.177693+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1,
+            "evidence": "work/daily-2026-11-04/2ec08fea5ac5f110-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory."
+          },
+          "revision": "d023958902a09b41f15ff5bb9cd4a1c5cc559ff4",
+          "readmeSha": "f187d998646408ea2f063436742f95ad498dde6e",
+          "archived": false,
+          "root": [
+            ".gitignore",
+            "LICENSE",
+            "README.md",
+            "cli",
+            "printer",
+            "template"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [],
+          "evidence": "work/daily-2026-11-04/096a7823befe9d3b-6ec617c56c0c41041dd09f83b3892bcc5889197b57e6561a6631b75c5857992f.txt",
+          "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory.",
+          "lastAttemptAt": "2026-11-04T10:07:01.490991+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:01.490991+00:00",
+          "status": "read"
+        },
+        "https://github.com/cgrab-k7q2/ghost-candy-cards/releases": {
+          "url": "https://github.com/cgrab-k7q2/ghost-candy-cards/releases",
+          "file": "2ec08fea5ac5f110-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:07:01.177693+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/2ec08fea5ac5f110-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory.",
+          "lastAttemptAt": "2026-11-04T10:07:01.177693+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:01.177693+00:00",
+          "status": "read"
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "observedAvailability": "November 4: source-only Rust template/CLI and Python printable-card generator remain at d023958902a09b41f15ff5bb9cd4a1c5cc559ff4. Original forum post 36 and the complete 41-post October thread, including November 2 testnet reset notice 44, were reviewed. Original Bluesky thread has zero replies. Repository has no homepage or releases; no app/demo link was found in these reviewed sources. Existing Source code/Testnet labels, bearer-secret restriction, and dated reset note remain accurate. No wallet actions or redemption tests were performed.",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
+        "https://github.com/cgrab-k7q2/ghost-candy-cards#readme",
         "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/cgrab-k7q2/ghost-candy-cards/releases"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -19991,6 +20457,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/ghost-candy-cards-review.json"
       ]
     },
     "project:ghost-gate": {
@@ -20732,93 +21201,158 @@
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
         "https://github.com/cgrab-k7q2/ghost-candy-cards",
         "https://github.com/cgrab-k7q2/ghost-candy-cards#readme",
-        "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l"
+        "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/cgrab-k7q2/ghost-candy-cards/releases"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T19:17:46.405Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T19:17:46.405Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
           "status": "read"
         },
         "https://github.com/cgrab-k7q2/ghost-candy-cards": {
           "url": "https://github.com/cgrab-k7q2/ghost-candy-cards",
+          "file": "096a7823befe9d3b-6ec617c56c0c41041dd09f83b3892bcc5889197b57e6561a6631b75c5857992f.txt",
           "hash": "6ec617c56c0c41041dd09f83b3892bcc5889197b57e6561a6631b75c5857992f",
-          "revision": "d023958902a09b41f15ff5bb9cd4a1c5cc559ff4",
           "attemptedAt": "2026-11-04T10:07:01.490991+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/cgrab-k7q2/ghost-candy-cards/releases",
+            "file": "2ec08fea5ac5f110-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:01.177693+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "d023958902a09b41f15ff5bb9cd4a1c5cc559ff4",
+          "readmeSha": "f187d998646408ea2f063436742f95ad498dde6e",
+          "archived": false,
+          "root": [
+            ".gitignore",
+            "LICENSE",
+            "README.md",
+            "cli",
+            "printer",
+            "template"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [],
           "evidence": "work/daily-2026-11-04/096a7823befe9d3b-6ec617c56c0c41041dd09f83b3892bcc5889197b57e6561a6631b75c5857992f.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory.",
           "lastAttemptAt": "2026-11-04T10:07:01.490991+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:01.490991+00:00",
           "status": "read"
         },
         "https://github.com/cgrab-k7q2/ghost-candy-cards#readme": {
           "url": "https://github.com/cgrab-k7q2/ghost-candy-cards#readme",
+          "file": "096a7823befe9d3b-6ec617c56c0c41041dd09f83b3892bcc5889197b57e6561a6631b75c5857992f.txt",
           "hash": "6ec617c56c0c41041dd09f83b3892bcc5889197b57e6561a6631b75c5857992f",
+          "attemptedAt": "2026-11-04T10:07:01.490991+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/cgrab-k7q2/ghost-candy-cards/releases",
+            "file": "2ec08fea5ac5f110-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:01.177693+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1,
+            "evidence": "work/daily-2026-11-04/2ec08fea5ac5f110-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory."
+          },
           "revision": "d023958902a09b41f15ff5bb9cd4a1c5cc559ff4",
-          "attemptedAt": "2026-10-31T09:25:22.112358+00:00",
-          "evidence": "work/daily-2026-10-31/096a7823befe9d3b.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:25:22.112358+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:25:22.112358+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "readmeSha": "f187d998646408ea2f063436742f95ad498dde6e",
+          "archived": false,
+          "root": [
+            ".gitignore",
+            "LICENSE",
+            "README.md",
+            "cli",
+            "printer",
+            "template"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [],
+          "evidence": "work/daily-2026-11-04/096a7823befe9d3b-6ec617c56c0c41041dd09f83b3892bcc5889197b57e6561a6631b75c5857992f.txt",
+          "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory.",
+          "lastAttemptAt": "2026-11-04T10:07:01.490991+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:01.490991+00:00",
+          "status": "read"
         },
         "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l": {
           "url": "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l",
-          "hash": "cc569bf6c5c3c3d4cbfd83dca0ce0c2bad2bf86ea7a7d0eb8b9a3585df0c49ff",
-          "attemptedAt": "2026-11-04T10:07:24.992680+00:00",
-          "evidence": "work/daily-2026-11-04/903c4debdaf9f765-cc569bf6c5c3c3d4cbfd83dca0ce0c2bad2bf86ea7a7d0eb8b9a3585df0c49ff.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:24.992680+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:24.992680+00:00",
+          "file": "903c4debdaf9f765-065e4f201f0f957d8eb8e74da76a577cb484edd5c5fd11d5440bbb316a9f8f80.txt",
+          "hash": "065e4f201f0f957d8eb8e74da76a577cb484edd5c5fd11d5440bbb316a9f8f80",
+          "attemptedAt": "2026-11-04T10:06:46.045681+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fcgrabk7q2.bsky.social%2Fapp.bsky.feed.post%2F3mz24lkjhdk2l&depth=100&parentHeight=100",
+          "evidence": "work/daily-2026-11-04/903c4debdaf9f765-065e4f201f0f957d8eb8e74da76a577cb484edd5c5fd11d5440bbb316a9f8f80.txt",
+          "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory.",
+          "lastAttemptAt": "2026-11-04T10:06:46.045681+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.045681+00:00",
           "status": "read"
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
           "status": "read"
+        },
+        "https://github.com/cgrab-k7q2/ghost-candy-cards/releases": {
+          "url": "https://github.com/cgrab-k7q2/ghost-candy-cards/releases",
+          "file": "2ec08fea5ac5f110-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:07:01.177693+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/2ec08fea5ac5f110-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "method": "Full retained primary-source content reviewed, including thread replies/edits, current README, repository homepage and release inventory.",
+          "lastAttemptAt": "2026-11-04T10:07:01.177693+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:01.177693+00:00",
+          "status": "read"
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "pendingReviewSources": [
-        "https://github.com/cgrab-k7q2/ghost-candy-cards#readme"
-      ],
+      "observedAvailability": "November 4: source-only Rust template/CLI and Python printable-card generator remain at d023958902a09b41f15ff5bb9cd4a1c5cc559ff4. Original forum post 36 and the complete 41-post October thread, including November 2 testnet reset notice 44, were reviewed. Original Bluesky thread has zero replies. Repository has no homepage or releases; no app/demo link was found in these reviewed sources. Existing Source code/Testnet labels, bearer-secret restriction, and dated reset note remain accurate. No wallet actions or redemption tests were performed.",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
         "https://bsky.app/profile/cgrabk7q2.bsky.social/post/3mz24lkjhdk2l",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/cgrab-k7q2/ghost-candy-cards/releases"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -20846,6 +21380,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/ghost-candy-cards-review.json"
       ]
     },
     "tari-ootle:component:dead-drop-davidjsourcing": {
@@ -22504,57 +23041,240 @@
       "title": "book-to-skill",
       "sources": [
         "https://github.com/virgiliojr94/book-to-skill",
-        "https://github.com/virgiliojr94/book-to-skill#readme"
+        "https://github.com/virgiliojr94/book-to-skill#readme",
+        "https://github.com/virgiliojr94/book-to-skill/releases"
       ],
-      "lastSuccessfulReviewAt": "2026-11-02T16:28:10.604Z",
-      "outcome": "pending",
-      "reviewRequired": true,
+      "lastSuccessfulReviewAt": "2026-11-04T19:44:48.094Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
       "canonicalResourceId": "book-to-skill",
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T19:44:48.094Z",
       "sourceReviews": {
         "https://github.com/virgiliojr94/book-to-skill": {
           "url": "https://github.com/virgiliojr94/book-to-skill",
+          "file": "d5883e43821fe0f7-43c403269fed5a7032e5fa429607a2e326019945b41a64588f38396dc3343402.txt",
           "hash": "43c403269fed5a7032e5fa429607a2e326019945b41a64588f38396dc3343402",
-          "revision": "e7bb659d3261491c8b28793dcb9102fa64a46c22",
           "attemptedAt": "2026-11-04T10:07:21.460481+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/virgiliojr94/book-to-skill/releases",
+            "file": "6229c0fe6e7dba73-6cf22e068ec25ab98a96a721a297c524c20b8204b7c8235f59ce7b8b6d4df42a.txt",
+            "hash": "6cf22e068ec25ab98a96a721a297c524c20b8204b7c8235f59ce7b8b6d4df42a",
+            "attemptedAt": "2026-11-04T10:07:21.194795+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "e7bb659d3261491c8b28793dcb9102fa64a46c22",
+          "readmeSha": "f4beb1ed4072eb1e91b679e0bfa545577099d68d",
+          "homepage": "",
+          "archived": false,
+          "root": [
+            ".gitattributes",
+            ".github",
+            ".gitignore",
+            "AGENTS.md",
+            "BACKERS.md",
+            "CHANGELOG.md",
+            "CLAUDE.md",
+            "CONTRIBUTING.md",
+            "LICENSE.md",
+            "README.md",
+            "README.ru.md",
+            "README.zh-CN.md",
+            "SECURITY-NOTICE.md",
+            "SECURITY.md",
+            "SKILL.md",
+            "book_to_skill",
+            "cliff.toml",
+            "docs",
+            "evals",
+            "mkdocs.yml",
+            "overrides",
+            "pyproject.toml",
+            "scripts",
+            "tests",
+            "tools"
+          ],
+          "releases": [
+            {
+              "tag": "v1.4.0",
+              "published": "2026-08-10T19:06:32Z",
+              "url": "https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.4.0"
+            },
+            {
+              "tag": "v1.3.0",
+              "published": "2026-07-30T14:19:44Z",
+              "url": "https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.3.0"
+            },
+            {
+              "tag": "v1.2.0",
+              "published": "2026-06-17T22:15:56Z",
+              "url": "https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.2.0"
+            },
+            {
+              "tag": "v1.1.0",
+              "published": "2026-06-12T14:46:42Z",
+              "url": "https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.1.0"
+            },
+            {
+              "tag": "v1.0.0",
+              "published": "2026-06-08T21:22:36Z",
+              "url": "https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.0.0"
+            }
+          ],
+          "complete": true,
+          "links": [
+            "https://api.star-history.com/badge?repo=virgiliojr94/book-to-skill&type=rank",
+            "https://calibre-ebook.com/download",
+            "https://github.com/agentskills/agentskills",
+            "https://github.com/sponsors/virgiliojr94",
+            "https://github.com/virgiliojr94/book-to-skill-use-cases",
+            "https://github.com/virgiliojr94/book-to-skill.git",
+            "https://github.com/virgiliojr94/book-to-skill/pull/130",
+            "https://github.com/virgiliojr94/book-to-skill/releases",
+            "https://img.shields.io/badge/Agent_Skills-Open_Standard-blueviolet?style=for-the-badge",
+            "https://img.shields.io/badge/License-MIT-blue?style=for-the-badge",
+            "https://img.shields.io/badge/PDF%20%E2%80%A2%20EPUB%20%E2%80%A2%20DOCX%20%E2%80%A2%20MD%20%E2%80%A2%20HTML%20%E2%80%A2%20RTF%20%E2%80%A2%20MOBI-supported-green?style=for-the-badge",
+            "https://img.shields.io/github/sponsors/virgiliojr94?style=for-the-badge&color=ea4aaa&logo=githubsponsors&logoColor=white",
+            "https://img.shields.io/github/v/release/virgiliojr94/book-to-skill?style=for-the-badge&color=blueviolet",
+            "https://trendshift.io/api/badge/repositories/27038",
+            "https://trendshift.io/api/badge/trendshift/repositories/27038/daily?language=Python",
+            "https://trendshift.io/repositories/27038?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-27038",
+            "https://trendshift.io/repositories/27038?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-27038",
+            "https://www.star-history.com/virgiliojr94/book-to-skill"
+          ],
           "evidence": "work/daily-2026-11-04/d5883e43821fe0f7-43c403269fed5a7032e5fa429607a2e326019945b41a64588f38396dc3343402.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full primary source reviewed; README aliases resolve to the same current README bytes.",
           "lastAttemptAt": "2026-11-04T10:07:21.460481+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:21.460481+00:00",
           "status": "read"
         },
         "https://github.com/virgiliojr94/book-to-skill#readme": {
           "url": "https://github.com/virgiliojr94/book-to-skill#readme",
+          "file": "d5883e43821fe0f7-43c403269fed5a7032e5fa429607a2e326019945b41a64588f38396dc3343402.txt",
           "hash": "43c403269fed5a7032e5fa429607a2e326019945b41a64588f38396dc3343402",
-          "evidence": "work/daily-2026-10-31/book-to-skill-readme-nov2.md",
-          "attemptedAt": "2026-11-02T15:07:12.799Z",
-          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
-          "revision": "f4beb1ed4072eb1e91b679e0bfa545577099d68d",
-          "lastAttemptAt": "2026-11-02T15:07:12.799Z",
-          "lastSuccessfulReadAt": "2026-11-02T15:07:12.799Z",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:07:21.460481+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/virgiliojr94/book-to-skill/releases",
+            "file": "6229c0fe6e7dba73-6cf22e068ec25ab98a96a721a297c524c20b8204b7c8235f59ce7b8b6d4df42a.txt",
+            "hash": "6cf22e068ec25ab98a96a721a297c524c20b8204b7c8235f59ce7b8b6d4df42a",
+            "attemptedAt": "2026-11-04T10:07:21.194795+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "e7bb659d3261491c8b28793dcb9102fa64a46c22",
+          "readmeSha": "f4beb1ed4072eb1e91b679e0bfa545577099d68d",
+          "homepage": "",
+          "archived": false,
+          "root": [
+            ".gitattributes",
+            ".github",
+            ".gitignore",
+            "AGENTS.md",
+            "BACKERS.md",
+            "CHANGELOG.md",
+            "CLAUDE.md",
+            "CONTRIBUTING.md",
+            "LICENSE.md",
+            "README.md",
+            "README.ru.md",
+            "README.zh-CN.md",
+            "SECURITY-NOTICE.md",
+            "SECURITY.md",
+            "SKILL.md",
+            "book_to_skill",
+            "cliff.toml",
+            "docs",
+            "evals",
+            "mkdocs.yml",
+            "overrides",
+            "pyproject.toml",
+            "scripts",
+            "tests",
+            "tools"
+          ],
+          "releases": [
+            {
+              "tag": "v1.4.0",
+              "published": "2026-08-10T19:06:32Z",
+              "url": "https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.4.0"
+            },
+            {
+              "tag": "v1.3.0",
+              "published": "2026-07-30T14:19:44Z",
+              "url": "https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.3.0"
+            },
+            {
+              "tag": "v1.2.0",
+              "published": "2026-06-17T22:15:56Z",
+              "url": "https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.2.0"
+            },
+            {
+              "tag": "v1.1.0",
+              "published": "2026-06-12T14:46:42Z",
+              "url": "https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.1.0"
+            },
+            {
+              "tag": "v1.0.0",
+              "published": "2026-06-08T21:22:36Z",
+              "url": "https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.0.0"
+            }
+          ],
+          "complete": true,
+          "links": [
+            "https://api.star-history.com/badge?repo=virgiliojr94/book-to-skill&type=rank",
+            "https://calibre-ebook.com/download",
+            "https://github.com/agentskills/agentskills",
+            "https://github.com/sponsors/virgiliojr94",
+            "https://github.com/virgiliojr94/book-to-skill-use-cases",
+            "https://github.com/virgiliojr94/book-to-skill.git",
+            "https://github.com/virgiliojr94/book-to-skill/pull/130",
+            "https://github.com/virgiliojr94/book-to-skill/releases",
+            "https://img.shields.io/badge/Agent_Skills-Open_Standard-blueviolet?style=for-the-badge",
+            "https://img.shields.io/badge/License-MIT-blue?style=for-the-badge",
+            "https://img.shields.io/badge/PDF%20%E2%80%A2%20EPUB%20%E2%80%A2%20DOCX%20%E2%80%A2%20MD%20%E2%80%A2%20HTML%20%E2%80%A2%20RTF%20%E2%80%A2%20MOBI-supported-green?style=for-the-badge",
+            "https://img.shields.io/github/sponsors/virgiliojr94?style=for-the-badge&color=ea4aaa&logo=githubsponsors&logoColor=white",
+            "https://img.shields.io/github/v/release/virgiliojr94/book-to-skill?style=for-the-badge&color=blueviolet",
+            "https://trendshift.io/api/badge/repositories/27038",
+            "https://trendshift.io/api/badge/trendshift/repositories/27038/daily?language=Python",
+            "https://trendshift.io/repositories/27038?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-27038",
+            "https://trendshift.io/repositories/27038?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-27038",
+            "https://www.star-history.com/virgiliojr94/book-to-skill"
+          ],
+          "evidence": "work/daily-2026-11-04/d5883e43821fe0f7-43c403269fed5a7032e5fa429607a2e326019945b41a64588f38396dc3343402.txt",
+          "method": "Full primary source reviewed; README aliases resolve to the same current README bytes.",
+          "lastAttemptAt": "2026-11-04T10:07:21.460481+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:21.460481+00:00",
+          "status": "read"
+        },
+        "https://github.com/virgiliojr94/book-to-skill/releases": {
+          "url": "https://github.com/virgiliojr94/book-to-skill/releases",
+          "file": "6229c0fe6e7dba73-6cf22e068ec25ab98a96a721a297c524c20b8204b7c8235f59ce7b8b6d4df42a.txt",
+          "hash": "6cf22e068ec25ab98a96a721a297c524c20b8204b7c8235f59ce7b8b6d4df42a",
+          "attemptedAt": "2026-11-04T10:07:21.194795+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/6229c0fe6e7dba73-6cf22e068ec25ab98a96a721a297c524c20b8204b7c8235f59ce7b8b6d4df42a.txt",
+          "lastAttemptAt": "2026-11-04T10:07:21.194795+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:21.194795+00:00",
+          "status": "read"
         }
       },
-      "observedAvailability": "source tool with published releases",
-      "pendingReviewSources": [
-        "https://github.com/virgiliojr94/book-to-skill#readme"
-      ],
+      "observedAvailability": "November 4: complete README at e7bb659d3261491c8b28793dcb9102fa64a46c22 and all five release descriptions through v1.4.0 reviewed. Original Luci666 public general-channel sharing message, edited October 29 at 17:48 Eastern, and surrounding discussion were read in today's paginated channel capture. No new project-specific reply or separate thread appears in that retained stream. Source remains a general document-to-agent-reference tool; no installation, generated output or performance certification claimed.",
+      "pendingReviewSources": [],
       "blockedSources": [],
-      "changedSources": [],
+      "changedSources": [
+        "https://github.com/virgiliojr94/book-to-skill/releases"
+      ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/virgiliojr94/book-to-skill",
@@ -22563,6 +23283,9 @@
           "attemptedAt": "2026-11-04T10:07:21.460481+00:00",
           "revision": "e7bb659d3261491c8b28793dcb9102fa64a46c22"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/source-tools-review.json"
       ]
     },
     "tari-ootle:component:danse-macabre": {
@@ -23950,81 +24673,117 @@
         "https://github.com/Luci666-Onyx/rubic-widget-skill/blob/main/README.md",
         "https://github.com/Luci666-Onyx/rubic-widget-skill/releases"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T19:44:48.094Z",
       "sourceReviews": {
         "https://github.com/Luci666-Onyx/rubic-widget-skill": {
           "url": "https://github.com/Luci666-Onyx/rubic-widget-skill",
+          "file": "c15c536d2743c3bc-c17ec25b6ab67c5f98096bd0435d8c21d234aebc834e0f64dc764270510f1530.txt",
           "hash": "c17ec25b6ab67c5f98096bd0435d8c21d234aebc834e0f64dc764270510f1530",
-          "revision": "7f1b51609c238512bde8bfe6868e45f4db98084f",
           "attemptedAt": "2026-11-04T10:06:55.683142+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/Luci666-Onyx/rubic-widget-skill/releases",
+            "file": "c8335996a1dba5df-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:06:55.410477+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "7f1b51609c238512bde8bfe6868e45f4db98084f",
+          "readmeSha": "49a16bfce5f221547ada02f0bf6403d0f4dee659",
+          "archived": false,
+          "root": [
+            "README.md",
+            "SKILL.md",
+            "chapters",
+            "cheatsheet.md",
+            "glossary.md",
+            "patterns.md"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "https://github.com/Cryptorubic/docs",
+            "https://github.com/Luci666-Onyx/rubic-widget-skill",
+            "https://github.com/virgiliojr94/book-to-skill"
+          ],
           "evidence": "work/daily-2026-11-04/c15c536d2743c3bc-c17ec25b6ab67c5f98096bd0435d8c21d234aebc834e0f64dc764270510f1530.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full primary source reviewed; README aliases resolve to the same current README bytes.",
           "lastAttemptAt": "2026-11-04T10:06:55.683142+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:55.683142+00:00",
           "status": "read"
         },
         "https://github.com/Luci666-Onyx/rubic-widget-skill/blob/main/README.md": {
           "url": "https://github.com/Luci666-Onyx/rubic-widget-skill/blob/main/README.md",
+          "file": "c15c536d2743c3bc-c17ec25b6ab67c5f98096bd0435d8c21d234aebc834e0f64dc764270510f1530.txt",
           "hash": "c17ec25b6ab67c5f98096bd0435d8c21d234aebc834e0f64dc764270510f1530",
-          "attemptedAt": "2026-11-03T05:59:07.620270+00:00",
-          "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
-          "method": "Rendered public repository and complete README inspected in browser; earlier API evidence retained separately.",
-          "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
-          "lastSuccessfulReadAt": "2026-11-03T05:59:07.620270+00:00",
-          "status": "pending",
-          "supportingEvidence": [
-            "work/daily-2026-10-31/rubic-widget-skill-readme-nov2.md"
+          "attemptedAt": "2026-11-04T10:06:55.683142+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/Luci666-Onyx/rubic-widget-skill/releases",
+            "file": "c8335996a1dba5df-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:06:55.410477+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "7f1b51609c238512bde8bfe6868e45f4db98084f",
+          "readmeSha": "49a16bfce5f221547ada02f0bf6403d0f4dee659",
+          "archived": false,
+          "root": [
+            "README.md",
+            "SKILL.md",
+            "chapters",
+            "cheatsheet.md",
+            "glossary.md",
+            "patterns.md"
           ],
-          "hashEvidence": "work/daily-2026-10-31/rubic-widget-skill-readme-nov2.md",
-          "hashAlgorithm": "sha256",
-          "observationEvidenceSha256": "668ba4910008c864aa85bc267a50daa7f8ea2759052618af5fe9a642b43b18b8",
-          "pendingReason": "Source read pending"
+          "releases": [],
+          "complete": true,
+          "links": [
+            "https://github.com/Cryptorubic/docs",
+            "https://github.com/Luci666-Onyx/rubic-widget-skill",
+            "https://github.com/virgiliojr94/book-to-skill"
+          ],
+          "evidence": "work/daily-2026-11-04/c15c536d2743c3bc-c17ec25b6ab67c5f98096bd0435d8c21d234aebc834e0f64dc764270510f1530.txt",
+          "method": "Full primary source reviewed; README aliases resolve to the same current README bytes.",
+          "lastAttemptAt": "2026-11-04T10:06:55.683142+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:55.683142+00:00",
+          "status": "read"
         },
         "https://github.com/Luci666-Onyx/rubic-widget-skill/releases": {
           "url": "https://github.com/Luci666-Onyx/rubic-widget-skill/releases",
-          "hash": "b976d73591d9b1c3830cf2b397b99c3f423b5c634999b3312cade5dcb3f2507d",
-          "attemptedAt": "2026-11-03T05:59:07.620270+00:00",
-          "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
-          "method": "Rendered public repository and complete README inspected in browser; earlier API evidence retained separately.",
-          "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
-          "lastSuccessfulReadAt": "2026-11-03T05:59:07.620270+00:00",
-          "status": "read",
-          "supportingEvidence": [
-            "work/daily-2026-10-31/rubic-repository-metadata-nov2.json"
-          ],
-          "hashEvidence": "work/daily-2026-10-31/rubic-repository-metadata-nov2.json",
-          "hashAlgorithm": "sha256",
-          "observationEvidenceSha256": "668ba4910008c864aa85bc267a50daa7f8ea2759052618af5fe9a642b43b18b8"
+          "file": "c8335996a1dba5df-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:06:55.410477+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/c8335996a1dba5df-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-04T10:06:55.410477+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:55.410477+00:00",
+          "status": "read"
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-03T06:00:33.601Z",
-      "observedAvailability": "Public repository source and README available; source/docs recording reviewed. Synthesized agent-learning reference; no installation.",
-      "outcome": "pending",
-      "pendingReviewSources": [
-        "https://github.com/Luci666-Onyx/rubic-widget-skill/blob/main/README.md",
-        "https://github.com/Luci666-Onyx/rubic-widget-skill/releases"
-      ],
+      "lastSuccessfulReviewAt": "2026-11-04T19:44:48.094Z",
+      "observedAvailability": "November 4: README at 7f1b51609c238512bde8bfe6868e45f4db98084f still describes eight synthesized Rubic reference chapters, not verbatim official docs. No homepage or GitHub releases; no license specified. No separate public sharing post found in retained evidence; repository remains the discovery page. Existing card purpose and README walkthrough remain accurate; no skill installation or swap execution.",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://github.com/Luci666-Onyx/rubic-widget-skill"
+        "https://github.com/Luci666-Onyx/rubic-widget-skill/releases"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "copyUpdated": true,
       "publicationStatus": "published-and-live-verified",
       "publicationEvidence": "work/daily-2026-10-31/rubic-release-acceptance-nov3.json",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/Luci666-Onyx/rubic-widget-skill",
@@ -24033,6 +24792,9 @@
           "attemptedAt": "2026-11-04T10:06:55.683142+00:00",
           "revision": "7f1b51609c238512bde8bfe6868e45f4db98084f"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/source-tools-review.json"
       ]
     },
     "tari-ootle:component:tari-tracker": {
@@ -24138,101 +24900,149 @@
         "https://textexplore.tari.com/",
         "https://taritracker.com/"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T19:44:48.094Z",
       "sourceReviews": {
         "https://github.com/kstrycharz/tariblocktools": {
           "url": "https://github.com/kstrycharz/tariblocktools",
+          "file": "afec26df6723b794-ee5da3ea21e48f90330f11b03391ea54280b3db0de879d7eb5985043691d28a4.txt",
           "hash": "ee5da3ea21e48f90330f11b03391ea54280b3db0de879d7eb5985043691d28a4",
-          "revision": "0c442aee9462b6feceb0bae2548c822a28557a60",
           "attemptedAt": "2026-11-04T10:07:08.006988+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/kstrycharz/tariblocktools/releases",
+            "file": "2e42068d7748a83e-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:07.698737+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "0c442aee9462b6feceb0bae2548c822a28557a60",
+          "readmeSha": "c6a2ae4346f6c6a048c2d1d73e79271528974197",
+          "homepage": "",
+          "archived": false,
+          "root": [
+            ".gitmodules",
+            "Python",
+            "README.md",
+            "rust"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [],
           "evidence": "work/daily-2026-11-04/afec26df6723b794-ee5da3ea21e48f90330f11b03391ea54280b3db0de879d7eb5985043691d28a4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full primary source reviewed; README aliases resolve to the same current README bytes.",
           "lastAttemptAt": "2026-11-04T10:07:08.006988+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:08.006988+00:00",
           "status": "read"
         },
         "https://github.com/kstrycharz/tariblocktools#readme": {
           "url": "https://github.com/kstrycharz/tariblocktools#readme",
-          "attemptedAt": "2026-11-03T13:33:07.514Z",
-          "hash": "edc856f62fd825aaf6a90865f7fdfa28cf4fc150d95d3099f79fff897fde77bd",
-          "evidence": "work/daily-2026-10-31/tari-block-tools-readme-nov3.json",
-          "method": "Public source/browser read; curated listing scope",
-          "lastAttemptAt": "2026-11-03T13:33:07.514Z",
-          "lastSuccessfulReadAt": "2026-11-03T13:33:07.514Z",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "file": "afec26df6723b794-ee5da3ea21e48f90330f11b03391ea54280b3db0de879d7eb5985043691d28a4.txt",
+          "hash": "ee5da3ea21e48f90330f11b03391ea54280b3db0de879d7eb5985043691d28a4",
+          "attemptedAt": "2026-11-04T10:07:08.006988+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/kstrycharz/tariblocktools/releases",
+            "file": "2e42068d7748a83e-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:07.698737+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "0c442aee9462b6feceb0bae2548c822a28557a60",
+          "readmeSha": "c6a2ae4346f6c6a048c2d1d73e79271528974197",
+          "homepage": "",
+          "archived": false,
+          "root": [
+            ".gitmodules",
+            "Python",
+            "README.md",
+            "rust"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [],
+          "evidence": "work/daily-2026-11-04/afec26df6723b794-ee5da3ea21e48f90330f11b03391ea54280b3db0de879d7eb5985043691d28a4.txt",
+          "method": "Full primary source reviewed; README aliases resolve to the same current README bytes.",
+          "lastAttemptAt": "2026-11-04T10:07:08.006988+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:08.006988+00:00",
+          "status": "read"
         },
         "https://github.com/kstrycharz/tariblocktools/releases": {
           "url": "https://github.com/kstrycharz/tariblocktools/releases",
-          "attemptedAt": "2026-11-03T13:33:07.514Z",
+          "file": "2e42068d7748a83e-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
           "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-          "evidence": "work/daily-2026-10-31/tari-block-tools-releases-nov3.json",
-          "method": "Public source/browser read; curated listing scope",
-          "lastAttemptAt": "2026-11-03T13:33:07.514Z",
-          "lastSuccessfulReadAt": "2026-11-03T13:33:07.514Z",
+          "attemptedAt": "2026-11-04T10:07:07.698737+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/2e42068d7748a83e-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-04T10:07:07.698737+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:07.698737+00:00",
           "status": "read"
         },
         "https://github.com/kstrycharz/tariblocktools/blob/main/Python/tariblockexplorer.py": {
           "url": "https://github.com/kstrycharz/tariblocktools/blob/main/Python/tariblockexplorer.py",
-          "attemptedAt": "2026-11-03T13:33:07.514Z",
+          "file": "287c238f716e081e-a2e6223b09580e5817be28bbcb0d1295fb0972defa2213259de72fc63fc7a696.txt",
           "hash": "a2e6223b09580e5817be28bbcb0d1295fb0972defa2213259de72fc63fc7a696",
-          "evidence": "work/daily-2026-10-31/tari-block-tools-explorer-source-nov3.txt",
-          "method": "Public source/browser read; curated listing scope",
-          "lastAttemptAt": "2026-11-03T13:33:07.514Z",
-          "lastSuccessfulReadAt": "2026-11-03T13:33:07.514Z",
+          "attemptedAt": "2026-11-04T19:41:40.819790+00:00",
+          "httpStatus": 200,
+          "kind": "linked-source",
+          "complete": true,
+          "scope": "Full Python explorer source read; no execution.",
+          "evidence": "work/daily-2026-11-04/287c238f716e081e-a2e6223b09580e5817be28bbcb0d1295fb0972defa2213259de72fc63fc7a696.txt",
+          "lastAttemptAt": "2026-11-04T19:41:40.819790+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T19:41:40.819790+00:00",
           "status": "read"
         },
         "https://textexplore.tari.com/": {
           "url": "https://textexplore.tari.com/",
-          "attemptedAt": "2026-11-03T13:33:07.514Z",
-          "hash": "2da143fd23316f5a3a0c55478a7106871eb248c2faccfcb07875a44f85af3150",
-          "evidence": "work/daily-2026-10-31/tari-block-tools-explorer-destination-nov3.txt",
-          "method": "Public source/browser read; curated listing scope",
-          "lastAttemptAt": "2026-11-03T13:33:07.514Z",
-          "lastSuccessfulReadAt": "2026-11-03T13:33:07.514Z",
+          "file": "1217f4eb0ae846bd-f22473013d157f0da6c15edd93bed2581017d067508964a3410661e461188c0b.txt",
+          "hash": "f22473013d157f0da6c15edd93bed2581017d067508964a3410661e461188c0b",
+          "attemptedAt": "2026-11-04T19:41:41.112973+00:00",
+          "httpStatus": 200,
+          "kind": "linked-source",
+          "complete": true,
+          "scope": "Current explorer page availability and advertised functions; no historical chain crawl.",
+          "evidence": "work/daily-2026-11-04/1217f4eb0ae846bd-f22473013d157f0da6c15edd93bed2581017d067508964a3410661e461188c0b.txt",
+          "lastAttemptAt": "2026-11-04T19:41:41.112973+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T19:41:41.112973+00:00",
           "status": "read"
         },
         "https://taritracker.com/": {
+          "attemptedAt": "2026-11-04T19:44:36.465Z",
           "url": "https://taritracker.com/",
-          "attemptedAt": "2026-11-03T13:33:07.514Z",
-          "hash": "55f490f944bb2debde9aa1bd875489ee112150798a7245a1453f856d092edc88",
-          "evidence": "work/daily-2026-10-31/tari-tracker-live-nov3.txt",
-          "method": "Public source/browser read; curated listing scope",
-          "lastAttemptAt": "2026-11-03T13:33:07.514Z",
-          "lastSuccessfulReadAt": "2026-11-03T13:33:07.514Z",
+          "file": "taritracker-browser-review.txt",
+          "hash": "43a0cde8a4a633ccae7b6e3f0c6f5feaaa183a1914bcf31c9d2094bced09d85f",
+          "kind": "browser-availability",
+          "complete": true,
+          "scope": "Current rendered homepage and public Block tools destination; not an audit of linked packages or historic developer activity.",
+          "evidence": "work/daily-2026-11-04/taritracker-browser-review.txt",
+          "lastAttemptAt": "2026-11-04T19:44:36.465Z",
+          "lastSuccessfulReadAt": "2026-11-04T19:44:36.465Z",
           "status": "read"
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-03T13:33:07.514Z",
-      "observedAvailability": "Repository/README/releases and current explorer destination reviewed. Source class targets main explorer despite older Nextnet wording in README/header; Python/Rust source only.",
-      "outcome": "pending",
-      "pendingReviewSources": [
+      "lastSuccessfulReviewAt": "2026-11-04T19:44:48.094Z",
+      "observedAvailability": "November 4: full README and empty GitHub release inventory reviewed at 0c442aee9462b6feceb0bae2548c822a28557a60. Python explorer and anonymous-ID hashing helpers remain source-only; README specifies a Python 3.13 Windows x64 Rust wheel and rebuilding for other platforms. Existing Details distinguish older Nextnet prose from current source endpoint. The rendered Tari Tracker homepage still links this repository as Download tools; current Python source uses textexplore.tari.com, whose public explorer is reachable. No hosted Block Tools app or separate original sharing post established in these sources; retain Tari Tracker discovery history.",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
         "https://github.com/kstrycharz/tariblocktools#readme",
-        "https://github.com/kstrycharz/tariblocktools/releases",
-        "https://github.com/kstrycharz/tariblocktools/blob/main/Python/tariblockexplorer.py",
         "https://textexplore.tari.com/",
         "https://taritracker.com/"
       ],
-      "blockedSources": [],
-      "changedSources": [
-        "https://github.com/kstrycharz/tariblocktools"
-      ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "copyUpdated": true,
       "publicationStatus": "pending",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/kstrycharz/tariblocktools",
@@ -24241,6 +25051,9 @@
           "attemptedAt": "2026-11-04T10:07:08.006988+00:00",
           "revision": "0c442aee9462b6feceb0bae2548c822a28557a60"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/source-tools-review.json"
       ]
     },
     "november-mvp": {

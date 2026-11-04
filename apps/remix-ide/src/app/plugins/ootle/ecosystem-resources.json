@@ -510,7 +510,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Official Community Templates",
-      "summary": "The official CLI documents the public Community Templates directory. On November 2, 2026, browser review loaded the Browse list and an Ootlebook detail with its address, author, publication epoch, size and function signatures. That template had no verified off-chain metadata. The reviewed pages did not identify the configured network. An earlier direct HTTP request returned 403; browser access succeeded. Recording shows public directory browsing, not compilation, publication or contract execution. The earlier source-only observation and README footage remain in the maintenance history.",
+      "summary": "The official CLI documents this public Community Templates directory. November 4, 2026 browser review loaded all 29 displayed Browse entries and an IncubationTreasury detail with its address, author key, publication epoch, size and function signatures. This detail supplied no verified off-chain metadata, project description or creator links. The reviewed pages did not identify the configured network. The retained Bluesky discussion promotes the separate WASM-template repository, not this hosted directory. Existing footage shows directory browsing; no compilation, publication or contract execution. Earlier HTTP failure and source-only observations remain in the maintenance history.",
       "status": "Public template directory",
       "sourceUrl": "https://github.com/tari-project/community-templates",
       "repoUrl": "https://github.com/tari-project/community-templates",
@@ -524,7 +524,7 @@
       "platform": "Web · Rust / PostgreSQL / React",
       "upstreamRevision": "8ea6d8b5b1a11ad0eeaca4f01d0caca6344c7ed0",
       "sourceUpdatedAt": "2026-10-06T18:22:50Z",
-      "lastCheckedAt": "2026-11-02T05:33:12.266Z",
+      "lastCheckedAt": "2026-11-04T19:46:08.708Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -536,7 +536,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-live-20261102.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-live-20261102.png",
-        "source": "App demo — browsing the public template directory; no compilation, publication or transaction demonstrated."
+        "source": "App demo"
       },
       "discussionLinks": [
         {
@@ -614,11 +614,11 @@
       "ecosystem": "tari",
       "group": "Advanced",
       "title": "Chiron Tari L1 WASM",
-      "summary": "Browser-oriented Minotari primitives. Source build requires the surrounding Tari monorepo and patches. This is L1 tooling, separate from Ootle templates.",
-      "status": "Source reviewed · runtime untested",
+      "summary": "The public npm package @chironbuilder/tari-l1-wasm is available as 6.0.1-pre.2, published October 4, 2026. November 4 review covered the registry metadata and full README. Source builds require the pinned Tari monorepo and integration.patch; this is L1 tooling, separate from Ootle templates. No separate public original sharing post was found in retained evidence; the repository is the discovery page. The existing preview is a README walkthrough, without package installation or wallet execution.",
+      "status": "WebAssembly SDK",
       "sourceUrl": "https://github.com/chironbuilds/tari-l1-wasm",
       "repoUrl": "https://github.com/chironbuilds/tari-l1-wasm",
-      "docsUrl": null,
+      "docsUrl": "https://www.npmjs.com/package/@chironbuilder/tari-l1-wasm",
       "creator": {
         "name": "Chiron / Erebus",
         "url": "https://github.com/chironbuilds/tari-l1-wasm"
@@ -626,9 +626,9 @@
       "license": "BSD-3-Clause",
       "network": "Tari L1",
       "platform": "Rust / WebAssembly",
-      "upstreamRevision": "ce8680cdd18359d88c3aa209c4ffe35c9c84c86e",
+      "upstreamRevision": "e23e4c9ea956818ae28e3b8978b8c1b2ca3cf727",
       "sourceUpdatedAt": "2026-10-04T04:23:39Z",
-      "lastCheckedAt": "2026-10-31T12:44:57.707Z",
+      "lastCheckedAt": "2026-11-04T19:44:48.094Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -640,11 +640,11 @@
       "preview": {
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-l1-wasm-20261010.jpg",
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-l1-wasm-20261010.mp4",
-        "source": "Source/docs walkthrough — application not demonstrated"
+        "source": "Docs walkthrough"
       },
       "discussionLinks": [],
-      "cardSummary": "Explore browser-oriented Minotari primitives for Tari L1 integrations.",
-      "cardStatus": "Source code · Monorepo required"
+      "cardSummary": "Build browser-side Minotari wallet and transaction flows with WebAssembly bindings backed by Tari’s Rust primitives.",
+      "cardStatus": "SDK · Prerelease"
     },
     {
       "id": "tari-ootle:learn:ootle-notes",
@@ -1939,7 +1939,7 @@
       "ecosystem": "tari-ootle",
       "group": "Agents",
       "title": "Tari Agent Registry",
-      "summary": "Community-maintained registry of Tari-themed skills, agents and MCP servers, published through TariTracker. October 29 inspection of the AI Resources section showed four packages with source links and declared permissions. Packages use manifests, pull-request checks and maintainer review; these are not independent security certification. One development skill declares wallet signing/spending permissions, so installing a package is a separate decision from reading its listing. MIT registry at v1.0.0; no package was installed or executed. The recording walks through repository documentation. TariTracker is an independent community service, not an official Tari agent service.",
+      "summary": "Community-maintained registry of Tari-themed skills, agents and MCP servers, published through TariTracker. November 4 inspection of the AI Resources section showed four packages with source links and declared permissions. Packages use manifests, pull-request checks and maintainer review; these are not independent security certification. One development skill declares wallet signing/spending permissions, so installing a package is a separate decision from reading its listing. MIT registry at v1.0.0; no package was installed or executed. The recording walks through repository documentation. TariTracker is an independent community service, not an official Tari agent service.",
       "status": "Community directory",
       "sourceUrl": "https://community.tari.com/t/are-you-building-things-on-ai-looking-for-tari-mcp-and-ai-skills-want-to-share-your-work-check-out-the-tari-agent-registry/491/1",
       "repoUrl": "https://github.com/kstrycharz/tari-agent-registry",
@@ -1954,7 +1954,7 @@
       "platform": "Browser · Agent tooling",
       "upstreamRevision": "e42c4982ed6dc2397993870123d7520bfc78eaca",
       "sourceUpdatedAt": "2026-10-28T03:46:15.639Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "lastCheckedAt": "2026-11-04T19:46:08.708Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1975,7 +1975,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-agent-registry-20261029.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-agent-registry-20261029.png",
-        "source": "Source/docs walkthrough — registry readme, package structure and contribution scope; no installation."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -2040,7 +2040,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Ghost Candy Cards",
-      "summary": "A Rust template, claim client and Python SVG printer for one-time Halloween candy cards. Each printed QR carries a bearer secret; the public bowl stores its corresponding point and records redemption, while the treat is paid to a stealth output. Claims bind the proof to the exact output, and the host can sweep unused treats after the deadline. Anyone who copies a card secret can race its holder; published demo secrets must not be funded. October 31 review covered the creator announcement and MIT README. The recording is a source walkthrough, not a deployed claim demonstration. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "A Rust template, claim client and Python SVG printer for one-time Halloween candy cards. Each printed QR carries a bearer secret; the public bowl stores its corresponding point and records redemption, while the treat is paid to a stealth output. Claims bind the proof to the exact output, and the host can sweep unused treats after the deadline. Anyone who copies a card secret can race its holder; published demo secrets must not be funded. November 4 review covered the creator announcements, thread replies and unchanged MIT README. The recording is a source walkthrough, not a deployed claim demonstration. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
       "status": "Source code · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/36",
       "repoUrl": "https://github.com/cgrab-k7q2/ghost-candy-cards",
@@ -2055,7 +2055,7 @@
       "platform": "Rust · CLI · Python",
       "upstreamRevision": "d023958902a09b41f15ff5bb9cd4a1c5cc559ff4",
       "sourceUpdatedAt": "2026-10-29T21:18:23.300Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "lastCheckedAt": "2026-11-04T19:48:14.011606+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2085,7 +2085,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-candy-cards-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-candy-cards-20261031.png",
-        "source": "Source/docs walkthrough — README, printable example cards and claim design; no card redemption."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -3024,7 +3024,7 @@
       "network": "Not network-specific",
       "platform": "Agent Skills-compatible hosts",
       "sourceUpdatedAt": null,
-      "lastCheckedAt": "2026-11-02T16:28:10.604Z",
+      "lastCheckedAt": "2026-11-04T19:44:48.094Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3045,7 +3045,7 @@
         "name": "virgiliojr94",
         "url": "https://github.com/virgiliojr94"
       },
-      "upstreamRevision": "7540eefbe74933f5fc84c86becac52486b347778",
+      "upstreamRevision": "e7bb659d3261491c8b28793dcb9102fa64a46c22",
       "discussionLinks": [
         {
           "url": "https://discord.com/channels/892738558316662855/892738558996148236/1565479700816728236",
@@ -3058,7 +3058,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-book-to-skill-20261102-f8d0575d58.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-book-to-skill-20261102-f8d0575d58.jpg",
-        "source": "Source/docs walkthrough — public README; tool not installed or run."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -3768,7 +3768,7 @@
       "ecosystem": "tari-ootle",
       "group": "Agents",
       "title": "Rubic Widget Agent Skill",
-      "summary": "Community agent-learning reference synthesized from official Rubic documentation using book-to-skill. Eight chapters cover SDK Lite, REST API v2, MCP configuration, fees, statuses, claims, refunds and errors. The README distinguishes these synthesized summaries from the official documentation. On November 3, 2026 the public repository and README were readable, with no published releases or specified license in the reviewed metadata/README. No separate public original sharing post was found; the repository is the actual discovery page. The recording shows the README; the skill was not installed or used as agent instructions.",
+      "summary": "Community agent-learning reference synthesized from official Rubic documentation using book-to-skill. Eight chapters cover SDK Lite, REST API v2, MCP configuration, fees, statuses, claims, refunds and errors. The README distinguishes these synthesized summaries from the official documentation. On November 4, 2026 the public repository and README were readable, with no published releases or specified license in the reviewed metadata/README. No separate public original sharing post was found; the repository is the actual discovery page. The recording shows the README; the skill was not installed or used as agent instructions.",
       "cardSummary": "Give coding agents structured Rubic API and SDK guidance for quotes, swap status, fees, claims and refunds.",
       "cardStatus": "Agent skill",
       "status": "Agent skill",
@@ -3782,9 +3782,9 @@
       "license": "Not specified",
       "network": "Rubic-supported networks",
       "platform": "Agent Skills hosts",
-      "upstreamRevision": "49a16bfce5f221547ada02f0bf6403d0f4dee659",
+      "upstreamRevision": "7f1b51609c238512bde8bfe6868e45f4db98084f",
       "sourceUpdatedAt": "2026-10-12T02:07:06Z",
-      "lastCheckedAt": "2026-11-03T06:00:33.601Z",
+      "lastCheckedAt": "2026-11-04T19:44:48.094Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3796,7 +3796,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rubic-widget-skill-20261103-9bc337c0c3.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rubic-widget-skill-20261103-9bc337c0c3.png",
-        "source": "Docs walkthrough — public repository README; no installation, wallet connection or transaction execution."
+        "source": "Docs walkthrough"
       },
       "discussionLinks": []
     },
@@ -3853,7 +3853,7 @@
       "ecosystem": "tari-ootle",
       "group": "Developer tools",
       "title": "Tari Block Tools",
-      "summary": "Python/Rust source helpers for explorer block information, outputs, miner details and anonymous-ID hashing. The README and source header retain older Nextnet references, while the current explorer class targets textexplore.tari.com. Documentation identifies Python 3.13 and a Windows x64 wheel; other Python/OS combinations require rebuilding the Rust module. November 3, 2026 review found readable source and no published releases or specified license. No separate public original sharing post was found; the actual discovery link is Tari Tracker’s Download tools link. The recording shows the README, with no package installation or code execution.",
+      "summary": "Python/Rust source helpers for explorer block information, outputs, miner details and anonymous-ID hashing. The README and source header retain older Nextnet references, while the current explorer class targets textexplore.tari.com. Documentation identifies Python 3.13 and a Windows x64 wheel; other Python/OS combinations require rebuilding the Rust module. November 4, 2026 review found readable source and no published releases or specified license. No separate public original sharing post was found; the actual discovery link is Tari Tracker’s Download tools link. The recording shows the README, with no package installation or code execution.",
       "cardSummary": "Inspect Tari explorer data and anonymous-ID hashing with Python 3.13 helpers and a Rust extension.",
       "cardStatus": "Source code",
       "status": "Source code",
@@ -3867,7 +3867,7 @@
       "network": "Tari explorer; README retains older Nextnet references",
       "platform": "Python 3.13 · Windows wheel; Rust rebuild for other platforms",
       "sourceUpdatedAt": "2025-05-17T04:47:10Z",
-      "lastCheckedAt": "2026-11-03T13:33:07.514Z",
+      "lastCheckedAt": "2026-11-04T19:44:48.094Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3883,7 +3883,7 @@
       "discussionLinks": [],
       "repoUrl": "https://github.com/kstrycharz/tariblocktools",
       "upstreamRevision": "0c442aee9462b6feceb0bae2548c822a28557a60",
-      "lastAttemptAt": "2026-11-03T13:33:07.514Z"
+      "lastAttemptAt": "2026-11-04T19:48:14.011606+00:00"
     },
     {
       "id": "tari-ootle:component:quiet-ticket",
