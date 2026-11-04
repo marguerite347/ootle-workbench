@@ -2277,19 +2277,18 @@
       "id": "bluesky-hycorange.bsky.social",
       "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=hycorange.bsky.social&limit=100",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T13:02:48.913196+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T13:02:48.913196+00:00",
+      "lastAttemptAt": "2026-11-04T10:06:48.174375+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:48.174375+00:00",
       "hash": "ee08b36d70618631dbccd92fdae4f0bdefe60adf9662586d0e39ca6865113142",
       "posts": 6,
       "scope": "Returned author feed, paginated until no cursor; known sharing trees separately read.",
-      "note": "Named source scope reviewed; publication separately tracked.",
-      "reviewedAt": "2026-10-31T13:02:48.913196+00:00",
-      "completedWatermark": "2026-10-31T12:52:35.373011+00:00",
+      "note": "Full author feed to no cursor, all six in-window posts, retained Phantom Drop original, and one returned reply with per-node reply counts reconciled. All post text, facets and external-card copy read. No embedded image/video in these posts.",
+      "reviewedAt": "2026-11-04T22:52:57.049579+00:00",
+      "completedWatermark": "2026-11-04T10:06:48.174375+00:00",
       "evidence": [
-        "work/daily-2026-10-31/social-reads.json",
-        "work/daily-2026-10-31/bluesky-coverage-receipt.json"
+        "work/daily-2026-11-04/hycorange-feed-complete-nov4.json"
       ],
-      "lookbackStart": "2026-10-22",
+      "lookbackStart": "2026-10-24",
       "history": [
         {
           "id": "bluesky-hycorange.bsky.social",
@@ -2308,6 +2307,25 @@
             "work/daily-2026-10-31/bluesky-coverage-receipt.json"
           ],
           "lookbackStart": "2026-10-22"
+        },
+        {
+          "id": "bluesky-hycorange.bsky.social",
+          "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=hycorange.bsky.social&limit=100",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T13:02:48.913196+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T13:02:48.913196+00:00",
+          "hash": "ee08b36d70618631dbccd92fdae4f0bdefe60adf9662586d0e39ca6865113142",
+          "posts": 6,
+          "scope": "Returned author feed, paginated until no cursor; known sharing trees separately read.",
+          "note": "Named source scope reviewed; publication separately tracked.",
+          "reviewedAt": "2026-10-31T13:02:48.913196+00:00",
+          "completedWatermark": "2026-10-31T12:52:35.373011+00:00",
+          "evidence": [
+            "work/daily-2026-10-31/social-reads.json",
+            "work/daily-2026-10-31/bluesky-coverage-receipt.json"
+          ],
+          "lookbackStart": "2026-10-22",
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -3642,21 +3660,36 @@
             "work/daily-2026-10-31/nov2-discovery-followups.json"
           ],
           "note": "Two activity listing pages through the Oct22 overlap boundary; all20 topic streams complete. Current payload hashes and returned post IDs match.41 prior observations have valid hashes, zero corrupt comparisons. All16 new/changed posts reviewed. Linked video/article/project review remains in separately declared queue items; no implied linked-resource completion."
+        },
+        {
+          "id": "forum-latest-paginated",
+          "url": "https://community.tari.com/latest.json?order=activity",
+          "status": "complete",
+          "lastAttemptAt": "2026-11-02T14:30:00.691325+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T14:30:00.691325+00:00",
+          "completedWatermark": "2026-11-02T13:55:20.099142+00:00",
+          "reviewedAt": "2026-11-02T14:30:00.691325+00:00",
+          "lookbackStart": "2026-10-22",
+          "evidence": [
+            "work/daily-2026-10-31/forum-lookback-nov2.json",
+            "work/daily-2026-10-31/forum-lookback-nov2-changes.json",
+            "work/daily-2026-10-31/forum-lookback-integrity-nov2.json",
+            "work/daily-2026-10-31/nov2-discovery-followups.json"
+          ],
+          "note": "Two activity listing pages through the Oct22 overlap boundary; all20 topic streams complete. Current payload hashes and returned post IDs match.41 prior observations have valid hashes, zero corrupt comparisons. All16 new/changed posts reviewed. Linked video/article/project review remains in separately declared queue items; no implied linked-resource completion.",
+          "coverageComplete": true
         }
       ],
       "status": "complete",
-      "lastAttemptAt": "2026-11-02T14:30:00.691325+00:00",
-      "lastSuccessfulReadAt": "2026-11-02T14:30:00.691325+00:00",
-      "completedWatermark": "2026-11-02T13:55:20.099142+00:00",
-      "reviewedAt": "2026-11-02T14:30:00.691325+00:00",
-      "lookbackStart": "2026-10-22",
+      "lastAttemptAt": "2026-11-04T10:07:07.611095+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:07:07.611095+00:00",
+      "completedWatermark": "2026-11-04T10:07:07.611095+00:00",
+      "reviewedAt": "2026-11-04T22:54:02.287449+00:00",
+      "lookbackStart": "2026-10-24",
       "evidence": [
-        "work/daily-2026-10-31/forum-lookback-nov2.json",
-        "work/daily-2026-10-31/forum-lookback-nov2-changes.json",
-        "work/daily-2026-10-31/forum-lookback-integrity-nov2.json",
-        "work/daily-2026-10-31/nov2-discovery-followups.json"
+        "work/daily-2026-11-04/forum-lookback-complete-nov4.json"
       ],
-      "note": "Two activity listing pages through the Oct22 overlap boundary; all20 topic streams complete. Current payload hashes and returned post IDs match.41 prior observations have valid hashes, zero corrupt comparisons. All16 new/changed posts reviewed. Linked video/article/project review remains in separately declared queue items; no implied linked-resource completion.",
+      "note": "Two listing pages and24 full topic streams reconciled:174 posts,151 exact matches to previously accepted bodies and23 new/changed bodies read. Linked pages and media retain separate outcomes.",
       "coverageComplete": true
     },
     {
