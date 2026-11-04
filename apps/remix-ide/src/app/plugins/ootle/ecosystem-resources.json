@@ -53,11 +53,11 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official TypeScript SDK",
-      "summary": "Core SDK, indexer and signer clients for browser and Node applications. October 21 release v0.11.0 changes templateAddressLiteral encoding to untagged 32-byte data, a breaking update following v0.10.0’s Ootle 0.47.0 package-set migration. Match network and versioned examples before integrating; this catalog update does not migrate Workbench runtime dependencies. October 23 update: v0.11.1 bounds SSE line/event sizes and scans each byte once in the indexer client. This is a catalog version observation; Workbench integration pins remain separately validated.",
-      "status": "Source reviewed · runtime untested",
+      "summary": "Core SDK, indexer and signer clients for browser and Node applications. Reviewed November 4, 2026: v0.13.0 adds ExternalKeySigner for externally held HSM, MPC or hardware keys. Its callback returns a raw 64-byte sr25519 signature, which the SDK verifies; the documentation requires a dedicated Ootle key or derivation path. The preceding 0.12 migration targets Ootle 0.49.1, changes transaction signatures, main-signer handling, CBOR decoding and stealth keys; transactions are incompatible with earlier network versions. Match network and versioned examples before integrating. This listing does not change Workbench runtime pins. The recording shows public documentation; no signing or wallet operation was performed.",
+      "status": "SDK · Pre-1.0",
       "sourceUrl": "https://github.com/tari-project/ootle.ts",
       "repoUrl": "https://github.com/tari-project/ootle.ts",
-      "docsUrl": null,
+      "docsUrl": "https://tari-project.github.io/ootle.ts/",
       "creator": {
         "name": "Tari contributors",
         "url": "https://github.com/tari-project"
@@ -65,9 +65,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle L2",
       "platform": "TypeScript / browser / Node",
-      "upstreamRevision": "d48899550b23317bc201bfa99b7e2f2d18ce229e",
-      "sourceUpdatedAt": "2026-10-07T13:28:57Z",
-      "lastCheckedAt": "2026-10-31T12:44:57.707Z",
+      "upstreamRevision": "316861b938c664b24a3fa79538ac3ef2837bbbbe",
+      "sourceUpdatedAt": "2026-11-03T09:17:07Z",
+      "lastCheckedAt": "2026-11-04T13:50:01.020838+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -77,9 +77,9 @@
       ],
       "demoUrl": null,
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261014.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261014.jpg",
-        "source": "Source/docs walkthrough — Public repository README scrolling; no software installation or execution."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261104.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261104.png",
+        "source": "Docs walkthrough"
       },
       "discussionLinks": [
         {
@@ -102,6 +102,11 @@
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1",
           "platform": "GitHub release",
           "context": "Indexer SSE size and scanning fix"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.13.0",
+          "platform": "GitHub",
+          "context": "0.13.0 update"
         }
       ],
       "cardSummary": "Build browser and Node integrations with Ootle clients for indexing, signing and core operations.",
@@ -234,8 +239,8 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Erebus / Chiron Ootle SDK",
-      "summary": "Community TypeScript account and transaction helpers. Early 0.x package; maintainer documents vendored patches. Not yet wired back into the two originating wallets.",
-      "status": "Early community SDK · runtime untested",
+      "summary": "Community TypeScript account, transaction and private-transfer helpers. Reviewed November 4, 2026: source version 0.2.2 explicitly authorizes the seal signer in redeemStealthOutputWithPrivateFee for Ootle 0.49. Sapient 0.7.2 depends on this version, superseding the README statement that the SDK is not yet wired into either wallet. The early 0.x package includes maintainer-documented vendored patches. The recording shows the public source change; maintainer-reported transaction results are not independent testing by this catalog.",
+      "status": "Early community SDK",
       "sourceUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
       "repoUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
       "docsUrl": null,
@@ -246,9 +251,9 @@
       "license": "MIT",
       "network": "Ootle L2",
       "platform": "TypeScript",
-      "upstreamRevision": "6c3f6b54d5af881bef1162cf416fdf2e4a6c3bca",
+      "upstreamRevision": "e203233e0e3642c3c19d694258fd3342db32aac0",
       "sourceUpdatedAt": "2026-10-05T21:10:12Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "lastCheckedAt": "2026-11-04T13:50:01.020838+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -258,17 +263,22 @@
       ],
       "demoUrl": null,
       "preview": {
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.jpg",
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.mp4",
-        "source": "Source/docs walkthrough — application not demonstrated"
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261104.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261104.png",
+        "source": "Docs walkthrough"
       },
       "discussionLinks": [
         {
           "url": "https://x.com/DNodeCapital/status/2108867690085421447",
           "platform": "X"
+        },
+        {
+          "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/e203233e0e3642c3c19d694258fd3342db32aac0",
+          "platform": "GitHub",
+          "context": "0.2.2 update"
         }
       ],
-      "cardSummary": "Explore community TypeScript helpers for Ootle accounts and transactions.",
+      "cardSummary": "Build Ootle account, transaction and private-transfer flows with community TypeScript helpers used by Sapient.",
       "cardStatus": "Early SDK"
     },
     {
