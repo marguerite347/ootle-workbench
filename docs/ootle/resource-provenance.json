@@ -222,6 +222,15 @@
           "foundOn": "2026-10-12",
           "context": "Thread post 2 recommends the Erebus/Chiron SDK.",
           "visibility": "public"
+        },
+        {
+          "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/e203233e0e3642c3c19d694258fd3342db32aac0",
+          "platform": "GitHub commit",
+          "author": "chironbuilds",
+          "publishedAt": null,
+          "foundOn": "2026-11-04",
+          "context": "Erebus / Chiron Ootle SDK 0.2.2 update",
+          "visibility": "public"
         }
       ],
       "originalPostStatus": "Known public sharing posts retained; earliest internet origin not asserted.",
@@ -238,6 +247,7 @@
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
           "platform": "GitHub releases",
           "author": "tari-project",
+          "publishedAt": null,
           "foundOn": "2026-10-14",
           "context": "Official 0.9.0 release notes",
           "visibility": "public"
@@ -257,6 +267,15 @@
           "author": "Tari contributors",
           "foundOn": "2026-10-21",
           "context": "Breaking template address encoding correction",
+          "visibility": "public"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.13.0",
+          "platform": "GitHub release",
+          "author": "Tari contributors",
+          "publishedAt": "2026-11-03T09:17:07Z",
+          "foundOn": "2026-11-04",
+          "context": "Official TypeScript SDK 0.13.0 update",
           "visibility": "public"
         }
       ],
@@ -743,6 +762,15 @@
           "visibility": "public",
           "relationship": "additional public discussion; original creator post retained",
           "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+        },
+        {
+          "url": "https://github.com/chironbuilds/tari-wallet/commit/06c56a9c358c9e744a32497887aab73009340ebb",
+          "platform": "GitHub commit",
+          "author": "chironbuilds",
+          "publishedAt": null,
+          "foundOn": "2026-11-04",
+          "context": "Sapient 0.7.2 update",
+          "visibility": "public"
         }
       ]
     },

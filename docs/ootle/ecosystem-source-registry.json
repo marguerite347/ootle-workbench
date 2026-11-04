@@ -334,20 +334,15 @@
       "url": "https://community.tari.com/t/182.json",
       "status": "complete",
       "posts": 17,
-      "hash": "11f6bf505d7eab171619b7c72fd9a0156eb468b06e234c68634a08aaed2e8d16",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "completedWatermark": "2026-10-29T09:06:20.649845+00:00",
+      "hash": "754ae58fe09f98c41b8b382dba199212dbf9687b161a5c240b84d638be92df7b",
+      "lastAttemptAt": "2026-11-04T10:06:43.526728+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:43.526728+00:00",
+      "completedWatermark": "2026-11-04T10:06:43.526728+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/a1e641d5292d1123.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/a1e641d5292d1123.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued.",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "history": [
         {
           "id": "182",
@@ -366,6 +361,27 @@
             "work/daily-2026-10-29/a1e641d5292d1123.txt",
             "work/completion-2026-10-29/forum-editorial.json"
           ]
+        },
+        {
+          "id": "182",
+          "url": "https://community.tari.com/t/182.json",
+          "status": "complete",
+          "posts": 17,
+          "hash": "11f6bf505d7eab171619b7c72fd9a0156eb468b06e234c68634a08aaed2e8d16",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "completedWatermark": "2026-10-29T09:06:20.649845+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/a1e641d5292d1123.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/a1e641d5292d1123.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -375,20 +391,15 @@
       "url": "https://community.tari.com/t/424.json",
       "status": "complete",
       "posts": 1,
-      "hash": "ea70c452f7224d83fc40725664df84ce8c04091678bde33175d8312a1754085a",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "completedWatermark": "2026-10-29T09:06:23.468273+00:00",
+      "hash": "24641541fe8a35ddfdc26788438722ca37f803aa75f4948944c0149271d57e9a",
+      "lastAttemptAt": "2026-11-04T10:06:46.321581+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:46.321581+00:00",
+      "completedWatermark": "2026-11-04T10:06:46.321581+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/d68adeafd1fc76f1.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/d68adeafd1fc76f1.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued.",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "history": [
         {
           "id": "424",
@@ -407,6 +418,27 @@
             "work/daily-2026-10-29/d68adeafd1fc76f1.txt",
             "work/completion-2026-10-29/forum-editorial.json"
           ]
+        },
+        {
+          "id": "424",
+          "url": "https://community.tari.com/t/424.json",
+          "status": "complete",
+          "posts": 1,
+          "hash": "ea70c452f7224d83fc40725664df84ce8c04091678bde33175d8312a1754085a",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "completedWatermark": "2026-10-29T09:06:23.468273+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/d68adeafd1fc76f1.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/d68adeafd1fc76f1.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -416,20 +448,15 @@
       "url": "https://community.tari.com/t/367.json",
       "status": "complete",
       "posts": 15,
-      "hash": "21b7a69619c110cf1f0e9e0c1a90dd38c47f116d396b97df55370b144b8dc002",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "completedWatermark": "2026-10-29T09:06:22.312601+00:00",
+      "hash": "ed1c581aca2a7bb5f9edae73e22e27ad300991f606bbed2eef358bc6a7a3fcac",
+      "lastAttemptAt": "2026-11-04T10:06:44.960489+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:44.960489+00:00",
+      "completedWatermark": "2026-11-04T10:06:44.960489+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/14344960363e42e2.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/14344960363e42e2.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued.",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "history": [
         {
           "id": "367",
@@ -448,6 +475,27 @@
             "work/daily-2026-10-29/14344960363e42e2.txt",
             "work/completion-2026-10-29/forum-editorial.json"
           ]
+        },
+        {
+          "id": "367",
+          "url": "https://community.tari.com/t/367.json",
+          "status": "complete",
+          "posts": 15,
+          "hash": "21b7a69619c110cf1f0e9e0c1a90dd38c47f116d396b97df55370b144b8dc002",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "completedWatermark": "2026-10-29T09:06:22.312601+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/14344960363e42e2.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/14344960363e42e2.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -457,20 +505,15 @@
       "url": "https://community.tari.com/t/410.json",
       "status": "complete",
       "posts": 4,
-      "hash": "d3f3bab287cd0468919b2f686963c86a9089b2ea9c9253bfb247083764691f08",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "completedWatermark": "2026-10-29T09:06:23.468539+00:00",
+      "hash": "4365edf3f0d9676dcb48ce14f5e8c9ed30fffff4a7b08e411b5cc4cbf938ce7d",
+      "lastAttemptAt": "2026-11-04T10:06:46.231133+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:46.231133+00:00",
+      "completedWatermark": "2026-11-04T10:06:46.231133+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/c874bc40b633bc6d.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/c874bc40b633bc6d.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued.",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "history": [
         {
           "id": "410",
@@ -489,6 +532,27 @@
             "work/daily-2026-10-29/c874bc40b633bc6d.txt",
             "work/completion-2026-10-29/forum-editorial.json"
           ]
+        },
+        {
+          "id": "410",
+          "url": "https://community.tari.com/t/410.json",
+          "status": "complete",
+          "posts": 4,
+          "hash": "d3f3bab287cd0468919b2f686963c86a9089b2ea9c9253bfb247083764691f08",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "completedWatermark": "2026-10-29T09:06:23.468539+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/c874bc40b633bc6d.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/c874bc40b633bc6d.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -498,20 +562,15 @@
       "url": "https://community.tari.com/t/267.json",
       "status": "complete",
       "posts": 31,
-      "hash": "359572b92c81612a57eaf48858d82d9f79cd044ae35110e6f2ebef59ff2dc26e",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "completedWatermark": "2026-10-29T09:06:21.558110+00:00",
+      "hash": "383d1ac8d7c5c3677a9b8b835c649f6d1ffbd93b592931c26acdda35755a64b4",
+      "lastAttemptAt": "2026-11-04T10:06:44.218696+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:44.218696+00:00",
+      "completedWatermark": "2026-11-04T10:06:44.218696+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/78095371a86eb9f8.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/78095371a86eb9f8.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued.",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "history": [
         {
           "id": "267",
@@ -530,6 +589,27 @@
             "work/daily-2026-10-29/78095371a86eb9f8.txt",
             "work/completion-2026-10-29/forum-editorial.json"
           ]
+        },
+        {
+          "id": "267",
+          "url": "https://community.tari.com/t/267.json",
+          "status": "complete",
+          "posts": 31,
+          "hash": "359572b92c81612a57eaf48858d82d9f79cd044ae35110e6f2ebef59ff2dc26e",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "completedWatermark": "2026-10-29T09:06:21.558110+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/78095371a86eb9f8.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/78095371a86eb9f8.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -538,21 +618,16 @@
       "id": "402",
       "url": "https://community.tari.com/t/402.json",
       "status": "complete",
-      "posts": 4,
-      "hash": "b1c1201d6c9935d7e8b687ac67033d0a47d0c2d2b017c56364a25dcbfdea2490",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "completedWatermark": "2026-10-29T09:06:22.856767+00:00",
+      "posts": 5,
+      "hash": "d0a436e9ec12245e69b513e5cef4c48755f3239252cc0932f858b554d1bf0d7a",
+      "lastAttemptAt": "2026-11-04T10:06:45.731087+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:45.731087+00:00",
+      "completedWatermark": "2026-11-04T10:06:45.731087+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/57ecc325d088217e.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/57ecc325d088217e.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued.",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "history": [
         {
           "id": "402",
@@ -571,6 +646,27 @@
             "work/daily-2026-10-29/57ecc325d088217e.txt",
             "work/completion-2026-10-29/forum-editorial.json"
           ]
+        },
+        {
+          "id": "402",
+          "url": "https://community.tari.com/t/402.json",
+          "status": "complete",
+          "posts": 4,
+          "hash": "b1c1201d6c9935d7e8b687ac67033d0a47d0c2d2b017c56364a25dcbfdea2490",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "completedWatermark": "2026-10-29T09:06:22.856767+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/57ecc325d088217e.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/57ecc325d088217e.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -580,20 +676,15 @@
       "url": "https://community.tari.com/t/400.json",
       "status": "complete",
       "posts": 15,
-      "hash": "b0b17a458f1113926a481209e019189eda9439c577b577f2b2c4be8c3e07f15f",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "completedWatermark": "2026-10-29T09:06:22.969873+00:00",
+      "hash": "030e726b9052fd3b7cfae0a28a663ae64b69481302488285f4ae425b8ea40f02",
+      "lastAttemptAt": "2026-11-04T10:06:45.716419+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:45.716419+00:00",
+      "completedWatermark": "2026-11-04T10:06:45.716419+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/a86d10c0bc61fb89.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/a86d10c0bc61fb89.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued.",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "history": [
         {
           "id": "400",
@@ -612,6 +703,27 @@
             "work/daily-2026-10-29/a86d10c0bc61fb89.txt",
             "work/completion-2026-10-29/forum-editorial.json"
           ]
+        },
+        {
+          "id": "400",
+          "url": "https://community.tari.com/t/400.json",
+          "status": "complete",
+          "posts": 15,
+          "hash": "b0b17a458f1113926a481209e019189eda9439c577b577f2b2c4be8c3e07f15f",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "completedWatermark": "2026-10-29T09:06:22.969873+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/a86d10c0bc61fb89.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/a86d10c0bc61fb89.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -621,20 +733,15 @@
       "url": "https://community.tari.com/t/374.json",
       "status": "complete",
       "posts": 7,
-      "hash": "601db7eb5206823fd7a336568a1dbc83fa3a69c1d60e704dd91cf5c13aa919f8",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "completedWatermark": "2026-10-29T09:06:22.172182+00:00",
+      "hash": "b92303116ac695b029c23d03f1c20cfd791fd48c508924da402b1f73757876f1",
+      "lastAttemptAt": "2026-11-04T10:06:44.963033+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:44.963033+00:00",
+      "completedWatermark": "2026-11-04T10:06:44.963033+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/e0cea92ae7395f6c.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/e0cea92ae7395f6c.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued.",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "history": [
         {
           "id": "374",
@@ -653,6 +760,27 @@
             "work/daily-2026-10-29/e0cea92ae7395f6c.txt",
             "work/completion-2026-10-29/forum-editorial.json"
           ]
+        },
+        {
+          "id": "374",
+          "url": "https://community.tari.com/t/374.json",
+          "status": "complete",
+          "posts": 7,
+          "hash": "601db7eb5206823fd7a336568a1dbc83fa3a69c1d60e704dd91cf5c13aa919f8",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "completedWatermark": "2026-10-29T09:06:22.172182+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/e0cea92ae7395f6c.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/e0cea92ae7395f6c.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -662,20 +790,15 @@
       "url": "https://community.tari.com/t/404.json",
       "status": "complete",
       "posts": 3,
-      "hash": "98ebf00a6a495bf2f29780ff479fa44ce42e77ee66bdcc67e951bdb2e273a9a0",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "completedWatermark": "2026-10-29T09:06:22.820104+00:00",
+      "hash": "f2f1d19724c052aeaeef09914547bc43d3302b58c3bbdd89afb1c2ed11d3029b",
+      "lastAttemptAt": "2026-11-04T10:06:45.635335+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:45.635335+00:00",
+      "completedWatermark": "2026-11-04T10:06:45.635335+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/68b1e2f197466442.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/68b1e2f197466442.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued.",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "history": [
         {
           "id": "404",
@@ -694,6 +817,27 @@
             "work/daily-2026-10-29/68b1e2f197466442.txt",
             "work/completion-2026-10-29/forum-editorial.json"
           ]
+        },
+        {
+          "id": "404",
+          "url": "https://community.tari.com/t/404.json",
+          "status": "complete",
+          "posts": 3,
+          "hash": "98ebf00a6a495bf2f29780ff479fa44ce42e77ee66bdcc67e951bdb2e273a9a0",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "completedWatermark": "2026-10-29T09:06:22.820104+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/68b1e2f197466442.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/68b1e2f197466442.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -703,20 +847,15 @@
       "url": "https://community.tari.com/t/357.json",
       "status": "complete",
       "posts": 10,
-      "hash": "51f4f519e4463d3a34f5866a7f5ef1f4b13761a1aaa102ac581c14ab133f0496",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "completedWatermark": "2026-10-29T09:06:21.820469+00:00",
+      "hash": "04a836c3bd63f2135fcb443e239009e9c728620260292b2c35f0276575c5c012",
+      "lastAttemptAt": "2026-11-04T10:06:44.534953+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:44.534953+00:00",
+      "completedWatermark": "2026-11-04T10:06:44.534953+00:00",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/4a0788ac30ba8148.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/4a0788ac30ba8148.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued.",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "history": [
         {
           "id": "357",
@@ -735,6 +874,27 @@
             "work/daily-2026-10-29/4a0788ac30ba8148.txt",
             "work/completion-2026-10-29/forum-editorial.json"
           ]
+        },
+        {
+          "id": "357",
+          "url": "https://community.tari.com/t/357.json",
+          "status": "complete",
+          "posts": 10,
+          "hash": "51f4f519e4463d3a34f5866a7f5ef1f4b13761a1aaa102ac581c14ab133f0496",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "completedWatermark": "2026-10-29T09:06:21.820469+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to the named topic/document, not the entire channel.",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/4a0788ac30ba8148.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/4a0788ac30ba8148.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "coverageComplete": true
         }
       ],
       "coverageComplete": true
@@ -1472,19 +1632,14 @@
       "id": "210",
       "url": "https://community.tari.com/t/210.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "d235561ad9d3866b5d985a72a3d31fdce02ebf17d186d53b0545cd6848f3e89a",
+      "lastAttemptAt": "2026-11-04T10:06:43.150584+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:43.150584+00:00",
+      "hash": "fab108dc383e24619154aac9e567a69f94e6fa6afc42174125a9d4d0261f76f6",
       "posts": 1,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:20.410407+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/bbbac7b36c02b365.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/bbbac7b36c02b365.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:43.150584+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -1503,27 +1658,43 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "210",
+          "url": "https://community.tari.com/t/210.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "d235561ad9d3866b5d985a72a3d31fdce02ebf17d186d53b0545cd6848f3e89a",
+          "posts": 1,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:20.410407+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/bbbac7b36c02b365.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/bbbac7b36c02b365.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "281",
       "url": "https://community.tari.com/t/281.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "159557e0969d488134a14c62a6ba3f3c95d71efaff85cae95b76d332825287f5",
+      "lastAttemptAt": "2026-11-04T10:06:43.617145+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:43.617145+00:00",
+      "hash": "de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f",
       "posts": 10,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:20.869163+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/d92a51e555d8868e.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/d92a51e555d8868e.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:43.617145+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -1542,27 +1713,43 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "281",
+          "url": "https://community.tari.com/t/281.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "159557e0969d488134a14c62a6ba3f3c95d71efaff85cae95b76d332825287f5",
+          "posts": 10,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:20.869163+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/d92a51e555d8868e.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/d92a51e555d8868e.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "324",
       "url": "https://community.tari.com/t/324.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "03693ac0f57a090a1335555a2220b07c4f531eade44725d1ac575aa28d5cd9d5",
+      "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
+      "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
       "posts": 35,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:22.238026+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/7b6d5f1ba42db66e.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/7b6d5f1ba42db66e.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:44.988017+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -1581,27 +1768,43 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "324",
+          "url": "https://community.tari.com/t/324.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "03693ac0f57a090a1335555a2220b07c4f531eade44725d1ac575aa28d5cd9d5",
+          "posts": 35,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:22.238026+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/7b6d5f1ba42db66e.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/7b6d5f1ba42db66e.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "429",
       "url": "https://community.tari.com/t/429.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "82fe28e919cbb44bc63353542341cb1cc3ef691e4cac5cf8e00abb1bc0dfc2af",
+      "lastAttemptAt": "2026-11-04T10:06:46.311923+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:46.311923+00:00",
+      "hash": "738109c5e654748b8da2b9df500916518c2631a8211481f8f2eac0df061a59a2",
       "posts": 4,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:23.535817+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/4753f63ce48761bf.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/4753f63ce48761bf.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:46.311923+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -1620,27 +1823,43 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "429",
+          "url": "https://community.tari.com/t/429.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "82fe28e919cbb44bc63353542341cb1cc3ef691e4cac5cf8e00abb1bc0dfc2af",
+          "posts": 4,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:23.535817+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/4753f63ce48761bf.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/4753f63ce48761bf.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "430",
       "url": "https://community.tari.com/t/430.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "ba514b9ad816d2c8f96021294bc8c6a3caa729edafad9a35ccc2908bb1b64155",
+      "lastAttemptAt": "2026-11-04T10:06:46.359697+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:46.359697+00:00",
+      "hash": "f95b9142cf3b4c0bd14ee52081ef1da279e9cca5b7d60acd1d27bbaa9f515db6",
       "posts": 11,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:23.591428+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/f13b307468f51faf.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/f13b307468f51faf.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:46.359697+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -1659,27 +1878,43 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "430",
+          "url": "https://community.tari.com/t/430.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "ba514b9ad816d2c8f96021294bc8c6a3caa729edafad9a35ccc2908bb1b64155",
+          "posts": 11,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:23.591428+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/f13b307468f51faf.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/f13b307468f51faf.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "431",
       "url": "https://community.tari.com/t/431.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "e0435f75013bef4b7b977dd07d9e2b0b359f6bbc1eb2a4dd0566b3aa713ba84b",
+      "lastAttemptAt": "2026-11-04T10:06:46.994748+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:46.994748+00:00",
+      "hash": "2ab0a1b8c461ca5d2f330e9dd6538d3a3e351b25538ac07256052eaf32fc717f",
       "posts": 4,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:24.092543+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/684661b848040e23.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/684661b848040e23.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:46.994748+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -1698,9 +1933,30 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "431",
+          "url": "https://community.tari.com/t/431.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "e0435f75013bef4b7b977dd07d9e2b0b359f6bbc1eb2a4dd0566b3aa713ba84b",
+          "posts": 4,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:24.092543+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/684661b848040e23.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/684661b848040e23.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "bluesky-official",
@@ -1823,19 +2079,14 @@
       "id": "443",
       "url": "https://community.tari.com/t/443.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "ce5f62f7999a57c2ae85938fb60200107eb51a75317b7f7561afc2bc6d19d5b4",
+      "lastAttemptAt": "2026-11-04T10:06:46.929150+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:46.929150+00:00",
+      "hash": "2ce2110ada838b71bb35b1196902a68e6ed084aaf3f61011d88dbb33516b1c67",
       "posts": 3,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:24.093662+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/874207c2dd808b45.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/874207c2dd808b45.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:46.929150+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -1854,9 +2105,30 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "443",
+          "url": "https://community.tari.com/t/443.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "ce5f62f7999a57c2ae85938fb60200107eb51a75317b7f7561afc2bc6d19d5b4",
+          "posts": 3,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:24.093662+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/874207c2dd808b45.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/874207c2dd808b45.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "bluesky-luci666-91.bsky.social",
@@ -1901,19 +2173,14 @@
       "id": "345",
       "url": "https://community.tari.com/t/345.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "07479252be224cf5b6785f1275795092891fb3140c8a25c05a57295a29e05f32",
+      "lastAttemptAt": "2026-11-04T10:06:44.255949+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:44.255949+00:00",
+      "hash": "c2337948da230316061fda8354373c6d9ea6ce2932d7c4b5d1d1e7cf3213bc78",
       "posts": 20,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:21.567222+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/369d833fbbf3157c.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/369d833fbbf3157c.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:44.255949+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -1932,27 +2199,43 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "345",
+          "url": "https://community.tari.com/t/345.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "07479252be224cf5b6785f1275795092891fb3140c8a25c05a57295a29e05f32",
+          "posts": 20,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:21.567222+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/369d833fbbf3157c.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/369d833fbbf3157c.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "354",
       "url": "https://community.tari.com/t/354.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "9a00538718659bd16d87ffa4306e687f1535f7d5eae5f94aad3f737063226df9",
+      "lastAttemptAt": "2026-11-04T10:06:44.899861+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:44.899861+00:00",
+      "hash": "4bf8b9296d5ca72caa9ba79f91aa680fd709427cb91d4aa8df487670206b6cb7",
       "posts": 38,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:22.178068+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/27b8cd10d1ef7c69.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/27b8cd10d1ef7c69.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:44.899861+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -1971,27 +2254,43 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "354",
+          "url": "https://community.tari.com/t/354.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "9a00538718659bd16d87ffa4306e687f1535f7d5eae5f94aad3f737063226df9",
+          "posts": 38,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:22.178068+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/27b8cd10d1ef7c69.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/27b8cd10d1ef7c69.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "452",
       "url": "https://community.tari.com/t/452.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "924a74fd2b7a563761ef1c5feaea7a724859201690e011faf690042278d64d1a",
+      "lastAttemptAt": "2026-11-04T10:06:46.791653+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:46.791653+00:00",
+      "hash": "b196edd671ea337b859f3daf7c6d34e6939362315786afda4cd1e7522de29ad5",
       "posts": 1,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:24.040707+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/1aed8003ae8f4751.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/1aed8003ae8f4751.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:46.791653+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -2010,27 +2309,43 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "452",
+          "url": "https://community.tari.com/t/452.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "924a74fd2b7a563761ef1c5feaea7a724859201690e011faf690042278d64d1a",
+          "posts": 1,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:24.040707+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/1aed8003ae8f4751.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/1aed8003ae8f4751.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "455",
       "url": "https://community.tari.com/t/455.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "87dd773104bdac3c6d6da8e27702b7669464d5628c44d468548337357af0f930",
+      "lastAttemptAt": "2026-11-04T10:06:46.862789+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:46.862789+00:00",
+      "hash": "f8fd0c78f3dc4bbb5339ae1f64fa23609760cc4ce5779396de93b539b7e60988",
       "posts": 2,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:24.076016+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/86b8db8971d386e5.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/86b8db8971d386e5.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:46.862789+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -2049,9 +2364,30 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "455",
+          "url": "https://community.tari.com/t/455.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "87dd773104bdac3c6d6da8e27702b7669464d5628c44d468548337357af0f930",
+          "posts": 2,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:24.076016+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/86b8db8971d386e5.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/86b8db8971d386e5.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "bluesky-remmylof.bsky.social",
@@ -2096,19 +2432,14 @@
       "id": "456",
       "url": "https://community.tari.com/t/456.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "615415ca833e5454fbf5e61d462503cc63cde43c31e2ab711e40e9ade5d9b078",
+      "lastAttemptAt": "2026-11-04T10:06:47.137887+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:47.137887+00:00",
+      "hash": "5a2d17209ce5997a348f7fd2327407c183459c047817a9fb2da020de245d5302",
       "posts": 1,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:24.050588+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/c6f007d2a637e1af.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/c6f007d2a637e1af.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:47.137887+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -2127,27 +2458,43 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "456",
+          "url": "https://community.tari.com/t/456.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "615415ca833e5454fbf5e61d462503cc63cde43c31e2ab711e40e9ade5d9b078",
+          "posts": 1,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:24.050588+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/c6f007d2a637e1af.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/c6f007d2a637e1af.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "463",
       "url": "https://community.tari.com/t/463.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "93d1b823ae3fc977b5d2ccc830151d6e9f2864075a1a7892319a7d816f1ecd0a",
-      "posts": 9,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:24.666713+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/601858b06155d2bd.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/601858b06155d2bd.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "lastAttemptAt": "2026-11-04T10:06:47.519578+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:47.519578+00:00",
+      "hash": "38ff541a086e30720bd562cc5d56c76b8890d6ead0ad8c1737cb2adfc6e83c4f",
+      "posts": 12,
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:47.519578+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -2166,27 +2513,43 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "463",
+          "url": "https://community.tari.com/t/463.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "93d1b823ae3fc977b5d2ccc830151d6e9f2864075a1a7892319a7d816f1ecd0a",
+          "posts": 9,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:24.666713+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/601858b06155d2bd.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/601858b06155d2bd.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "465",
       "url": "https://community.tari.com/t/465.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "2d70571cd542c2ae80f92d50e8a936f597a11c81e51804441f9b265d718556b4",
-      "posts": 1,
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:24.558326+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/8a0b0827ae655648.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/8a0b0827ae655648.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "lastAttemptAt": "2026-11-04T10:06:47.358862+00:00",
+      "lastSuccessfulReadAt": "2026-11-04T10:06:47.358862+00:00",
+      "hash": "db7eefd7318d51b4c61da2e7b9e66a50be107fe2986e46febe34e12efd3ca465",
+      "posts": 2,
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:47.358862+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -2205,9 +2568,30 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "465",
+          "url": "https://community.tari.com/t/465.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "2d70571cd542c2ae80f92d50e8a936f597a11c81e51804441f9b265d718556b4",
+          "posts": 1,
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:24.558326+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/8a0b0827ae655648.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/8a0b0827ae655648.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "bluesky-kylne700.bsky.social",
@@ -2252,19 +2636,14 @@
       "id": "276",
       "url": "https://community.tari.com/t/276.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "f213a94ca1c9ab6be890bad1d64145cd1ec7a484272f3f077cc32d95cb3ef57a",
-      "posts": 19,
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:20.774436+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/d6b1e1da464c2e59.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/d6b1e1da464c2e59.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "lastAttemptAt": "2026-11-04T10:06:43.420513+00:00",
+      "hash": "9280d64af7ab3c0ff8c366ea562437a7d85ea3d9d7195207524d9cf6939368d7",
+      "posts": 20,
+      "lastSuccessfulReadAt": "2026-11-04T10:06:43.420513+00:00",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:43.420513+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -2283,27 +2662,43 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "276",
+          "url": "https://community.tari.com/t/276.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "f213a94ca1c9ab6be890bad1d64145cd1ec7a484272f3f077cc32d95cb3ef57a",
+          "posts": 19,
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:20.774436+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/d6b1e1da464c2e59.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/d6b1e1da464c2e59.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "467",
       "url": "https://community.tari.com/t/467.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "578c9c9ba61e65447bd8ef73cc907ef0a28ca0dd3d82bc1d5acd88a8adfbe8ba",
+      "lastAttemptAt": "2026-11-04T10:06:47.503444+00:00",
+      "hash": "5e1ffc95002a1b2c190123487cc498279c46e43d94557122adb90a2f73f746c7",
       "posts": 1,
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:24.683676+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/4d6881bf25ddf3bf.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/4d6881bf25ddf3bf.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "lastSuccessfulReadAt": "2026-11-04T10:06:47.503444+00:00",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:47.503444+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -2322,27 +2717,43 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "467",
+          "url": "https://community.tari.com/t/467.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "578c9c9ba61e65447bd8ef73cc907ef0a28ca0dd3d82bc1d5acd88a8adfbe8ba",
+          "posts": 1,
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:24.683676+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/4d6881bf25ddf3bf.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/4d6881bf25ddf3bf.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "474",
       "url": "https://community.tari.com/t/474.json",
       "status": "complete",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "7803722a1be7656c6bfae369c8f8f1e0047f9214b3b4cec474e12c646115339f",
-      "posts": 7,
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:06:24.896456+00:00",
-      "evidence": [
-        "work/daily-2026-10-29/dc70a9bbc8920072.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/dc70a9bbc8920072.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "lastAttemptAt": "2026-11-04T10:06:47.621395+00:00",
+      "hash": "ac14828be98b81c37d291ba1fbd5fe72f42010cad77b6e7c8638a7951f8832be",
+      "posts": 17,
+      "lastSuccessfulReadAt": "2026-11-04T10:06:47.621395+00:00",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:47.621395+00:00",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -2361,9 +2772,30 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "474",
+          "url": "https://community.tari.com/t/474.json",
+          "status": "complete",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "7803722a1be7656c6bfae369c8f8f1e0047f9214b3b4cec474e12c646115339f",
+          "posts": 7,
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:06:24.896456+00:00",
+          "evidence": [
+            "work/daily-2026-10-29/dc70a9bbc8920072.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/dc70a9bbc8920072.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "485",
@@ -2424,19 +2856,14 @@
     {
       "id": "486",
       "url": "https://community.tari.com/t/486.json",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "5ef92fbb59ecfe6dec8451ef3cbd84ff3aceac113b83aa4339594e7e03203e80",
+      "lastAttemptAt": "2026-11-04T10:06:47.952185+00:00",
+      "hash": "35911f4e42efd6cfcf8a11fb5b7c21a5acff511ff3e06755c99ccb657cec0aa3",
       "status": "complete",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:27:55.384926+00:00",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "evidence": [
-        "work/daily-2026-10-29/4e3e685d286d546e.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/4e3e685d286d546e.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "lastSuccessfulReadAt": "2026-11-04T10:06:47.952185+00:00",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:47.952185+00:00",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -2454,26 +2881,42 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "486",
+          "url": "https://community.tari.com/t/486.json",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "5ef92fbb59ecfe6dec8451ef3cbd84ff3aceac113b83aa4339594e7e03203e80",
+          "status": "complete",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:27:55.384926+00:00",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "evidence": [
+            "work/daily-2026-10-29/4e3e685d286d546e.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/4e3e685d286d546e.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "posts": 1,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "491",
       "url": "https://community.tari.com/t/491.json",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "0b299ca355e839b93ce26f59c69dfcc8a22d61768d380b447688feb6f6cc6d5d",
+      "lastAttemptAt": "2026-11-04T10:06:48.002930+00:00",
+      "hash": "b3a44ed1c99835e62075418ef113416d33f848387fc906ff88e27ca016ea5d99",
       "status": "complete",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:27:55.275515+00:00",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "evidence": [
-        "work/daily-2026-10-29/e1f5f7f94ac07399.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/e1f5f7f94ac07399.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "lastSuccessfulReadAt": "2026-11-04T10:06:48.002930+00:00",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:48.002930+00:00",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -2491,26 +2934,42 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "491",
+          "url": "https://community.tari.com/t/491.json",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "0b299ca355e839b93ce26f59c69dfcc8a22d61768d380b447688feb6f6cc6d5d",
+          "status": "complete",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:27:55.275515+00:00",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "evidence": [
+            "work/daily-2026-10-29/e1f5f7f94ac07399.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/e1f5f7f94ac07399.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "posts": 1,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "492",
       "url": "https://community.tari.com/t/492.json",
-      "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
-      "hash": "c6010356724da0211a699c072efad448c7eb41941fe55839d5ee1cb5cda46d85",
+      "lastAttemptAt": "2026-11-04T10:06:48.105754+00:00",
+      "hash": "36e6bd74fab4fcb7391b46c2e848cc2287b4155677c8edf491596e100f5a35d0",
       "status": "complete",
-      "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
-      "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
-      "completedWatermark": "2026-10-29T09:27:55.378874+00:00",
-      "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
-      "evidence": [
-        "work/daily-2026-10-29/0d50741dd63db242.txt",
-        "work/completion-2026-10-29/forum-editorial.json",
-        "work/daily-2026-10-31/0d50741dd63db242.txt",
-        "work/daily-2026-10-31/primary-content-deltas.txt"
-      ],
+      "lastSuccessfulReadAt": "2026-11-04T10:06:48.105754+00:00",
+      "reviewedAt": "2026-11-04T13:39:29.971480+00:00",
+      "completedWatermark": "2026-11-04T10:06:48.105754+00:00",
+      "note": "Current complete paginated post bodies and visibility flags match the prior accepted snapshot; legacy filename identity independently verified against its stored SHA-256. Source content reused, no skipped pages inferred.",
+      "evidence": "work/daily-2026-11-04/forum-legacy-accepted-review.json",
       "lookbackStart": "2026-10-17",
       "history": [
         {
@@ -2528,9 +2987,30 @@
             "work/completion-2026-10-29/forum-editorial.json"
           ],
           "lookbackStart": "2026-10-17"
+        },
+        {
+          "id": "492",
+          "url": "https://community.tari.com/t/492.json",
+          "lastAttemptAt": "2026-10-31T12:33:01.190278+00:00",
+          "hash": "c6010356724da0211a699c072efad448c7eb41941fe55839d5ee1cb5cda46d85",
+          "status": "complete",
+          "lastSuccessfulReadAt": "2026-10-31T12:33:01.190278+00:00",
+          "reviewedAt": "2026-10-29T20:43:07.139836+00:00",
+          "completedWatermark": "2026-10-29T09:27:55.378874+00:00",
+          "note": "Complete current paginated post stream read; compared all post bodies to prior accepted evidence and reviewed changed/new posts. Named topic only.",
+          "evidence": [
+            "work/daily-2026-10-29/0d50741dd63db242.txt",
+            "work/completion-2026-10-29/forum-editorial.json",
+            "work/daily-2026-10-31/0d50741dd63db242.txt",
+            "work/daily-2026-10-31/primary-content-deltas.txt"
+          ],
+          "lookbackStart": "2026-10-17",
+          "coverageComplete": true
         }
       ],
-      "coverageComplete": true
+      "coverageComplete": true,
+      "posts": 1,
+      "coverageNote": "Only this fully paginated named topic; linked destinations remain independently queued."
     },
     {
       "id": "503",
@@ -4373,12 +4853,14 @@
       "sources": [
         "https://community.tari.com/t/september-contest-thread/324/16",
         "https://github.com/chironbuilds/tari-wallet",
-        "https://sapient.tari.mw"
+        "https://sapient.tari.mw",
+        "https://chromewebstore.google.com/detail/tari-ootle-wallet/demkeckolenopkgnfbnpflkpbbdhpgkl",
+        "https://universe.tari.mw/integration"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T13:51:28.816Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T13:51:28.816Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
@@ -4386,11 +4868,9 @@
       "sourceReviews": {
         "https://community.tari.com/t/september-contest-thread/324/16": {
           "url": "https://community.tari.com/t/september-contest-thread/324/16",
-          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
           "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
           "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
           "status": "read",
@@ -4398,12 +4878,9 @@
         },
         "https://github.com/chironbuilds/tari-wallet": {
           "url": "https://github.com/chironbuilds/tari-wallet",
-          "hash": "6a94606af6d726fdb158bf8fd89949a16f564f24eb2e6395685b1bcec52617a3",
-          "revision": "06c56a9c358c9e744a32497887aab73009340ebb",
           "attemptedAt": "2026-11-04T10:09:25.455655+00:00",
+          "hash": "6a94606af6d726fdb158bf8fd89949a16f564f24eb2e6395685b1bcec52617a3",
           "evidence": "work/daily-2026-11-04/69d49f3a0e2cc578-6a94606af6d726fdb158bf8fd89949a16f564f24eb2e6395685b1bcec52617a3.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:09:25.455655+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:25.455655+00:00",
           "status": "read",
@@ -4411,41 +4888,55 @@
         },
         "https://sapient.tari.mw": {
           "url": "https://sapient.tari.mw",
-          "hash": "60c48fb0543be6a69f5ce0c50c6bac98366b192fff37bad787bcded6a46ac503",
-          "attemptedAt": "2026-11-04T10:07:32.487757+00:00",
-          "evidence": "work/daily-2026-11-04/68b6e6457b60bae3-60c48fb0543be6a69f5ce0c50c6bac98366b192fff37bad787bcded6a46ac503.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:32.487757+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:32.487757+00:00",
+          "attemptedAt": "2026-11-04T13:51:28.816Z",
+          "hash": "c47642e0bf0df4c7406658a930cbcfb2b14077266ba7872608c784be29ebec5d",
+          "evidence": "work/daily-2026-11-04/sapient-home-current.txt",
+          "lastAttemptAt": "2026-11-04T13:51:28.816Z",
+          "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
+          "status": "read",
+          "error": null
+        },
+        "https://chromewebstore.google.com/detail/tari-ootle-wallet/demkeckolenopkgnfbnpflkpbbdhpgkl": {
+          "url": "https://chromewebstore.google.com/detail/tari-ootle-wallet/demkeckolenopkgnfbnpflkpbbdhpgkl",
+          "attemptedAt": "2026-11-04T13:51:28.816Z",
+          "hash": "c545fded888f07928218e40ed282c7cf4e954f1cb237d28011ac9fb3d2fcbb97",
+          "evidence": "work/daily-2026-11-04/sapient-chrome-store-current.txt",
+          "lastAttemptAt": "2026-11-04T13:51:28.816Z",
+          "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
+          "status": "read",
+          "error": null
+        },
+        "https://universe.tari.mw/integration": {
+          "url": "https://universe.tari.mw/integration",
+          "attemptedAt": "2026-11-04T13:51:28.816Z",
+          "hash": "8669067b82c4062efb7e9fce1d4362e4cb577a069bbcb741c1ee1f09f23fb3b9",
+          "evidence": "work/daily-2026-11-04/sapient-integration-docs-current.txt",
+          "lastAttemptAt": "2026-11-04T13:51:28.816Z",
+          "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+      "observedAvailability": "Public testnet wallet landing page, source and Chrome Web Store 0.7.2 listing reachable.",
       "changedSources": [
-        "https://community.tari.com/t/september-contest-thread/324/16"
+        "https://sapient.tari.mw",
+        "https://chromewebstore.google.com/detail/tari-ootle-wallet/demkeckolenopkgnfbnpflkpbbdhpgkl",
+        "https://universe.tari.mw/integration"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/september-contest-thread/324/16",
         "https://github.com/chironbuilds/tari-wallet",
         "https://sapient.tari.mw"
       ],
       "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
-      "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
-      "copyUpdated": false,
+      "reviewScope": "Source and availability review only; recordings passed local playback. Publication remains independently pending.",
+      "copyUpdated": true,
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "pendingAssessment": [],
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/324.json",
@@ -4466,6 +4957,110 @@
           "hash": "60c48fb0543be6a69f5ce0c50c6bac98366b192fff37bad787bcded6a46ac503",
           "attemptedAt": "2026-11-04T10:07:32.487757+00:00",
           "httpStatus": 200
+        }
+      ],
+      "reviewHistory": [
+        {
+          "id": "tari-ootle:app:sapient",
+          "title": "Sapient",
+          "sources": [
+            "https://community.tari.com/t/september-contest-thread/324/16",
+            "https://github.com/chironbuilds/tari-wallet",
+            "https://sapient.tari.mw"
+          ],
+          "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
+          "outcome": "pending",
+          "reviewRequired": true,
+          "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+          "nextReviewAt": "2026-11-05T10:00:00Z",
+          "changedFields": [
+            "sourceEvidence"
+          ],
+          "sourceReviews": {
+            "https://community.tari.com/t/september-contest-thread/324/16": {
+              "url": "https://community.tari.com/t/september-contest-thread/324/16",
+              "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+              "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+              "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
+              "status": "read",
+              "error": null
+            },
+            "https://github.com/chironbuilds/tari-wallet": {
+              "url": "https://github.com/chironbuilds/tari-wallet",
+              "hash": "6a94606af6d726fdb158bf8fd89949a16f564f24eb2e6395685b1bcec52617a3",
+              "revision": "06c56a9c358c9e744a32497887aab73009340ebb",
+              "attemptedAt": "2026-11-04T10:09:25.455655+00:00",
+              "evidence": "work/daily-2026-11-04/69d49f3a0e2cc578-6a94606af6d726fdb158bf8fd89949a16f564f24eb2e6395685b1bcec52617a3.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:09:25.455655+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:09:25.455655+00:00",
+              "status": "read",
+              "error": null
+            },
+            "https://sapient.tari.mw": {
+              "url": "https://sapient.tari.mw",
+              "hash": "60c48fb0543be6a69f5ce0c50c6bac98366b192fff37bad787bcded6a46ac503",
+              "attemptedAt": "2026-11-04T10:07:32.487757+00:00",
+              "evidence": "work/daily-2026-11-04/68b6e6457b60bae3-60c48fb0543be6a69f5ce0c50c6bac98366b192fff37bad787bcded6a46ac503.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:32.487757+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:32.487757+00:00",
+              "status": "read",
+              "error": null
+            }
+          },
+          "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+          "changedSources": [
+            "https://community.tari.com/t/september-contest-thread/324/16"
+          ],
+          "reviewQueue": [
+            "copy",
+            "actions",
+            "details",
+            "recording",
+            "provenance"
+          ],
+          "checkedScope": [
+            "https://community.tari.com/t/september-contest-thread/324/16",
+            "https://github.com/chironbuilds/tari-wallet",
+            "https://sapient.tari.mw"
+          ],
+          "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+          "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
+          "copyUpdated": false,
+          "reviewedSourceCount": 3,
+          "pendingReviewSources": [],
+          "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+          "blockedSources": [],
+          "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+          "attemptReceipts": [
+            {
+              "url": "https://community.tari.com/t/324.json",
+              "file": "7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+              "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+              "attemptedAt": "2026-11-04T10:06:44.988017+00:00"
+            },
+            {
+              "url": "https://github.com/chironbuilds/tari-wallet",
+              "file": "69d49f3a0e2cc578-6a94606af6d726fdb158bf8fd89949a16f564f24eb2e6395685b1bcec52617a3.txt",
+              "hash": "6a94606af6d726fdb158bf8fd89949a16f564f24eb2e6395685b1bcec52617a3",
+              "attemptedAt": "2026-11-04T10:09:25.455655+00:00",
+              "revision": "06c56a9c358c9e744a32497887aab73009340ebb"
+            },
+            {
+              "url": "https://sapient.tari.mw",
+              "file": "68b6e6457b60bae3-60c48fb0543be6a69f5ce0c50c6bac98366b192fff37bad787bcded6a46ac503.txt",
+              "hash": "60c48fb0543be6a69f5ce0c50c6bac98366b192fff37bad787bcded6a46ac503",
+              "attemptedAt": "2026-11-04T10:07:32.487757+00:00",
+              "httpStatus": 200
+            }
+          ]
         }
       ]
     },
@@ -6462,7 +7057,7 @@
           "error": null
         }
       },
-      "observedAvailability": "Desktop app \u00b7 Ootle wallet: testnet",
+      "observedAvailability": "Desktop app · Ootle wallet: testnet",
       "changedSources": [
         "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
         "https://github.com/tari-project/universe",
@@ -7231,23 +7826,25 @@
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0",
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0",
-        "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1"
+        "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1",
+        "https://tari-project.github.io/ootle.ts/",
+        "https://tari-project.github.io/ootle.ts/signers/external-key/",
+        "https://github.com/tari-project/ootle.ts/releases/tag/v0.13.0"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T13:51:28.816Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T13:51:28.816Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "changedFields": [],
+      "changedFields": [
+        "sourceEvidence"
+      ],
       "sourceReviews": {
         "https://github.com/tari-project/ootle.ts": {
           "url": "https://github.com/tari-project/ootle.ts",
-          "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
-          "revision": "316861b938c664b24a3fa79538ac3ef2837bbbbe",
           "attemptedAt": "2026-11-04T10:09:31.738579+00:00",
+          "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
           "evidence": "work/daily-2026-11-04/d40c7ab269c687b2-3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:09:31.738579+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:31.738579+00:00",
           "status": "read",
@@ -7255,59 +7852,85 @@
         },
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0": {
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
-          "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
-          "revision": "d48899550b23317bc201bfa99b7e2f2d18ce229e",
-          "attemptedAt": "2026-10-31T09:03:14.291028+00:00",
-          "evidence": "work/daily-2026-10-31/d40c7ab269c687b2.txt",
-          "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
-          "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
-          "lastAttemptAt": "2026-10-31T09:03:14.291028+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:14.291028+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:09:31.469298+00:00",
+          "hash": "1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba",
+          "evidence": "work/daily-2026-11-04/d12d99605237793a-1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba.txt",
+          "lastAttemptAt": "2026-11-04T10:09:31.469298+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:09:31.469298+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0": {
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0",
-          "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
-          "revision": "d48899550b23317bc201bfa99b7e2f2d18ce229e",
-          "attemptedAt": "2026-10-31T09:03:14.291028+00:00",
-          "evidence": "work/daily-2026-10-31/d40c7ab269c687b2.txt",
-          "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
-          "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
-          "lastAttemptAt": "2026-10-31T09:03:14.291028+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:14.291028+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:09:31.469298+00:00",
+          "hash": "1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba",
+          "evidence": "work/daily-2026-11-04/d12d99605237793a-1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba.txt",
+          "lastAttemptAt": "2026-11-04T10:09:31.469298+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:09:31.469298+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0": {
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0",
-          "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
-          "revision": "d48899550b23317bc201bfa99b7e2f2d18ce229e",
-          "attemptedAt": "2026-10-31T09:03:14.291028+00:00",
-          "evidence": "work/daily-2026-10-31/d40c7ab269c687b2.txt",
-          "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
-          "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
-          "lastAttemptAt": "2026-10-31T09:03:14.291028+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:14.291028+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:09:31.469298+00:00",
+          "hash": "1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba",
+          "evidence": "work/daily-2026-11-04/d12d99605237793a-1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba.txt",
+          "lastAttemptAt": "2026-11-04T10:09:31.469298+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:09:31.469298+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1": {
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1",
-          "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
-          "revision": "d48899550b23317bc201bfa99b7e2f2d18ce229e",
-          "attemptedAt": "2026-10-31T09:03:14.291028+00:00",
-          "evidence": "work/daily-2026-10-31/d40c7ab269c687b2.txt",
-          "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
-          "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
-          "lastAttemptAt": "2026-10-31T09:03:14.291028+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:14.291028+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:09:31.469298+00:00",
+          "hash": "1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba",
+          "evidence": "work/daily-2026-11-04/d12d99605237793a-1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba.txt",
+          "lastAttemptAt": "2026-11-04T10:09:31.469298+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:09:31.469298+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://tari-project.github.io/ootle.ts/": {
+          "url": "https://tari-project.github.io/ootle.ts/",
+          "attemptedAt": "2026-11-04T13:51:28.816Z",
+          "hash": "3823390aec95b4f82e0f3cad2268a2ebb92a641a1113a1e17f2bba5fd9ceeaac",
+          "evidence": "work/daily-2026-11-04/ootle-ts-docs-home.txt",
+          "lastAttemptAt": "2026-11-04T13:51:28.816Z",
+          "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
+          "status": "read",
+          "error": null
+        },
+        "https://tari-project.github.io/ootle.ts/signers/external-key/": {
+          "url": "https://tari-project.github.io/ootle.ts/signers/external-key/",
+          "attemptedAt": "2026-11-04T13:51:28.816Z",
+          "hash": "9228c0bf3b3755877954e7471e00c72867fd83148791d32f03964942934af216",
+          "evidence": "work/daily-2026-11-04/ootle-ts-external-signer-docs.txt",
+          "lastAttemptAt": "2026-11-04T13:51:28.816Z",
+          "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/ootle.ts/releases/tag/v0.13.0": {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.13.0",
+          "attemptedAt": "2026-11-04T13:51:28.816Z",
+          "hash": "1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba",
+          "evidence": "work/daily-2026-11-04/d12d99605237793a-1f2bc985463ae7d145474222a14451950ef07c191faa01b38942703b48218cba.txt",
+          "lastAttemptAt": "2026-11-04T13:51:28.816Z",
+          "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
-      "changedSources": [],
+      "observedAvailability": "Public SDK source and documentation reachable; version 0.13.0.",
+      "changedSources": [
+        "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
+        "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0",
+        "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0",
+        "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1",
+        "https://tari-project.github.io/ootle.ts/",
+        "https://tari-project.github.io/ootle.ts/signers/external-key/",
+        "https://github.com/tari-project/ootle.ts/releases/tag/v0.13.0"
+      ],
       "reviewQueue": [],
       "checkedScope": [
         "https://github.com/tari-project/ootle.ts",
@@ -7317,18 +7940,13 @@
         "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1"
       ],
       "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
-      "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
-      "copyUpdated": false,
+      "reviewScope": "Source and availability review only; recordings passed local playback. Publication remains independently pending.",
+      "copyUpdated": true,
       "reviewedSourceCount": 5,
-      "pendingReviewSources": [
-        "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
-        "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0",
-        "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0",
-        "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1"
-      ],
+      "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "pendingAssessment": [],
       "attemptReceipts": [
         {
           "url": "https://github.com/tari-project/ootle.ts",
@@ -7336,6 +7954,124 @@
           "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
           "attemptedAt": "2026-11-04T10:09:31.738579+00:00",
           "revision": "316861b938c664b24a3fa79538ac3ef2837bbbbe"
+        }
+      ],
+      "reviewHistory": [
+        {
+          "id": "tari-ootle:component:ootle-ts",
+          "title": "Official TypeScript SDK",
+          "sources": [
+            "https://github.com/tari-project/ootle.ts",
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0",
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0",
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1"
+          ],
+          "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
+          "outcome": "pending",
+          "reviewRequired": true,
+          "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+          "nextReviewAt": "2026-11-05T10:00:00Z",
+          "changedFields": [],
+          "sourceReviews": {
+            "https://github.com/tari-project/ootle.ts": {
+              "url": "https://github.com/tari-project/ootle.ts",
+              "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
+              "revision": "316861b938c664b24a3fa79538ac3ef2837bbbbe",
+              "attemptedAt": "2026-11-04T10:09:31.738579+00:00",
+              "evidence": "work/daily-2026-11-04/d40c7ab269c687b2-3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:09:31.738579+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:09:31.738579+00:00",
+              "status": "read",
+              "error": null
+            },
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0": {
+              "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
+              "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
+              "revision": "d48899550b23317bc201bfa99b7e2f2d18ce229e",
+              "attemptedAt": "2026-10-31T09:03:14.291028+00:00",
+              "evidence": "work/daily-2026-10-31/d40c7ab269c687b2.txt",
+              "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
+              "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
+              "lastAttemptAt": "2026-10-31T09:03:14.291028+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T09:03:14.291028+00:00",
+              "status": "pending",
+              "pendingReason": "Source read pending"
+            },
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0": {
+              "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0",
+              "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
+              "revision": "d48899550b23317bc201bfa99b7e2f2d18ce229e",
+              "attemptedAt": "2026-10-31T09:03:14.291028+00:00",
+              "evidence": "work/daily-2026-10-31/d40c7ab269c687b2.txt",
+              "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
+              "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
+              "lastAttemptAt": "2026-10-31T09:03:14.291028+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T09:03:14.291028+00:00",
+              "status": "pending",
+              "pendingReason": "Source read pending"
+            },
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0": {
+              "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0",
+              "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
+              "revision": "d48899550b23317bc201bfa99b7e2f2d18ce229e",
+              "attemptedAt": "2026-10-31T09:03:14.291028+00:00",
+              "evidence": "work/daily-2026-10-31/d40c7ab269c687b2.txt",
+              "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
+              "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
+              "lastAttemptAt": "2026-10-31T09:03:14.291028+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T09:03:14.291028+00:00",
+              "status": "pending",
+              "pendingReason": "Source read pending"
+            },
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1": {
+              "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1",
+              "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
+              "revision": "d48899550b23317bc201bfa99b7e2f2d18ce229e",
+              "attemptedAt": "2026-10-31T09:03:14.291028+00:00",
+              "evidence": "work/daily-2026-10-31/d40c7ab269c687b2.txt",
+              "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
+              "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
+              "lastAttemptAt": "2026-10-31T09:03:14.291028+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T09:03:14.291028+00:00",
+              "status": "pending",
+              "pendingReason": "Source read pending"
+            }
+          },
+          "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+          "changedSources": [],
+          "reviewQueue": [],
+          "checkedScope": [
+            "https://github.com/tari-project/ootle.ts",
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0",
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0",
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1"
+          ],
+          "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+          "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
+          "copyUpdated": false,
+          "reviewedSourceCount": 5,
+          "pendingReviewSources": [
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.9.0",
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.10.0",
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.0",
+            "https://github.com/tari-project/ootle.ts/releases/tag/v0.11.1"
+          ],
+          "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
+          "blockedSources": [],
+          "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+          "attemptReceipts": [
+            {
+              "url": "https://github.com/tari-project/ootle.ts",
+              "file": "d40c7ab269c687b2-3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5.txt",
+              "hash": "3afcc0181cf434ec62bafbe1bc3794fcd97695b3857f1ccf2a62ea78f838a4a5",
+              "attemptedAt": "2026-11-04T10:09:31.738579+00:00",
+              "revision": "316861b938c664b24a3fa79538ac3ef2837bbbbe"
+            }
+          ]
         }
       ]
     },
@@ -7557,10 +8293,10 @@
         "https://github.com/chironbuilds/ootle-sdk-ts",
         "https://x.com/DNodeCapital/status/2108867690085421447"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T13:51:28.816Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T13:51:28.816Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
@@ -7568,12 +8304,9 @@
       "sourceReviews": {
         "https://github.com/chironbuilds/ootle-sdk-ts": {
           "url": "https://github.com/chironbuilds/ootle-sdk-ts",
-          "hash": "1e77eebfde04ead7de412855018d30b708b34c20dc9778398df1d065b9bd1ecd",
-          "revision": "e203233e0e3642c3c19d694258fd3342db32aac0",
           "attemptedAt": "2026-11-04T10:09:23.636305+00:00",
+          "hash": "1e77eebfde04ead7de412855018d30b708b34c20dc9778398df1d065b9bd1ecd",
           "evidence": "work/daily-2026-11-04/0d9e167d4fe0041a-1e77eebfde04ead7de412855018d30b708b34c20dc9778398df1d065b9bd1ecd.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:09:23.636305+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:23.636305+00:00",
           "status": "read",
@@ -7581,40 +8314,32 @@
         },
         "https://x.com/DNodeCapital/status/2108867690085421447": {
           "url": "https://x.com/DNodeCapital/status/2108867690085421447",
-          "hash": "04b5a90fd9d47857ea0eaa8bae6f5e9bb50ba4196d504e577b0d6742eb908e95",
-          "attemptedAt": "2026-11-04T10:07:41.732658+00:00",
-          "evidence": "work/daily-2026-11-04/dcd5acce80781f57-04b5a90fd9d47857ea0eaa8bae6f5e9bb50ba4196d504e577b0d6742eb908e95.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:41.732658+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:41.732658+00:00",
+          "attemptedAt": "2026-11-04T13:51:28.816Z",
+          "hash": "c481b143cc8c7c8bd2da61b1af2520b49b22d3fe326226083e092093acc10707",
+          "evidence": "work/daily-2026-11-04/chiron-sdk-original-x-current.txt",
+          "lastAttemptAt": "2026-11-04T13:51:28.816Z",
+          "lastSuccessfulReadAt": "2026-11-04T13:51:28.816Z",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "observedAvailability": "Public SDK source and documentation reachable; version 0.2.2.",
       "changedSources": [
         "https://x.com/DNodeCapital/status/2108867690085421447"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://github.com/chironbuilds/ootle-sdk-ts",
         "https://x.com/DNodeCapital/status/2108867690085421447"
       ],
       "sourceObservation": "October 29 original posts and accessible replies, source repository and linked public destinations reviewed. Listing describes observed public availability; no wallet, financial or runtime certification implied.",
-      "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
-      "copyUpdated": false,
+      "reviewScope": "Source and availability review only; recordings passed local playback. Publication remains independently pending.",
+      "copyUpdated": true,
       "reviewedSourceCount": 2,
       "pendingReviewSources": [],
       "supersededSources": {},
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "pendingAssessment": [],
       "attemptReceipts": [
         {
           "url": "https://github.com/chironbuilds/ootle-sdk-ts",
@@ -7629,6 +8354,90 @@
           "hash": "04b5a90fd9d47857ea0eaa8bae6f5e9bb50ba4196d504e577b0d6742eb908e95",
           "attemptedAt": "2026-11-04T10:07:41.732658+00:00",
           "httpStatus": 200
+        }
+      ],
+      "reviewHistory": [
+        {
+          "id": "tari-ootle:component:erebus-ootle-sdk",
+          "title": "Erebus / Chiron Ootle SDK",
+          "sources": [
+            "https://github.com/chironbuilds/ootle-sdk-ts",
+            "https://x.com/DNodeCapital/status/2108867690085421447"
+          ],
+          "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+          "outcome": "pending",
+          "reviewRequired": true,
+          "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+          "nextReviewAt": "2026-11-05T10:00:00Z",
+          "changedFields": [
+            "sourceEvidence"
+          ],
+          "sourceReviews": {
+            "https://github.com/chironbuilds/ootle-sdk-ts": {
+              "url": "https://github.com/chironbuilds/ootle-sdk-ts",
+              "hash": "1e77eebfde04ead7de412855018d30b708b34c20dc9778398df1d065b9bd1ecd",
+              "revision": "e203233e0e3642c3c19d694258fd3342db32aac0",
+              "attemptedAt": "2026-11-04T10:09:23.636305+00:00",
+              "evidence": "work/daily-2026-11-04/0d9e167d4fe0041a-1e77eebfde04ead7de412855018d30b708b34c20dc9778398df1d065b9bd1ecd.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:09:23.636305+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:09:23.636305+00:00",
+              "status": "read",
+              "error": null
+            },
+            "https://x.com/DNodeCapital/status/2108867690085421447": {
+              "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+              "hash": "04b5a90fd9d47857ea0eaa8bae6f5e9bb50ba4196d504e577b0d6742eb908e95",
+              "attemptedAt": "2026-11-04T10:07:41.732658+00:00",
+              "evidence": "work/daily-2026-11-04/dcd5acce80781f57-04b5a90fd9d47857ea0eaa8bae6f5e9bb50ba4196d504e577b0d6742eb908e95.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:41.732658+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:41.732658+00:00",
+              "status": "read",
+              "error": null
+            }
+          },
+          "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+          "changedSources": [
+            "https://x.com/DNodeCapital/status/2108867690085421447"
+          ],
+          "reviewQueue": [
+            "copy",
+            "actions",
+            "details",
+            "recording",
+            "provenance"
+          ],
+          "checkedScope": [
+            "https://github.com/chironbuilds/ootle-sdk-ts",
+            "https://x.com/DNodeCapital/status/2108867690085421447"
+          ],
+          "sourceObservation": "October 29 original posts and accessible replies, source repository and linked public destinations reviewed. Listing describes observed public availability; no wallet, financial or runtime certification implied.",
+          "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
+          "copyUpdated": false,
+          "reviewedSourceCount": 2,
+          "pendingReviewSources": [],
+          "supersededSources": {},
+          "blockedSources": [],
+          "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+          "attemptReceipts": [
+            {
+              "url": "https://github.com/chironbuilds/ootle-sdk-ts",
+              "file": "0d9e167d4fe0041a-1e77eebfde04ead7de412855018d30b708b34c20dc9778398df1d065b9bd1ecd.txt",
+              "hash": "1e77eebfde04ead7de412855018d30b708b34c20dc9778398df1d065b9bd1ecd",
+              "attemptedAt": "2026-11-04T10:09:23.636305+00:00",
+              "revision": "e203233e0e3642c3c19d694258fd3342db32aac0"
+            },
+            {
+              "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+              "file": "dcd5acce80781f57-04b5a90fd9d47857ea0eaa8bae6f5e9bb50ba4196d504e577b0d6742eb908e95.txt",
+              "hash": "04b5a90fd9d47857ea0eaa8bae6f5e9bb50ba4196d504e577b0d6742eb908e95",
+              "attemptedAt": "2026-11-04T10:07:41.732658+00:00",
+              "httpStatus": 200
+            }
+          ]
         }
       ]
     },
@@ -9116,7 +9925,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "Secret-trading template and documented browser simulation. The creator\u2019s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil\u2019s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README\u2019s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
+      "observedAvailability": "Secret-trading template and documented browser simulation. The creator’s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil’s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README’s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
       "outcome": "pending",
       "changedSources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
@@ -9148,7 +9957,7 @@
         "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
         "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l"
       ],
-      "sourceObservation": "Secret-trading template and documented browser simulation. The creator\u2019s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil\u2019s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README\u2019s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
+      "sourceObservation": "Secret-trading template and documented browser simulation. The creator’s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil’s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README’s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "reviewedSourceCount": 6,
@@ -9292,7 +10101,7 @@
             "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
             "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l"
           ],
-          "sourceObservation": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator\u2019s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN \u00b7 SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
+          "sourceObservation": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
           "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
           "copyUpdated": true,
           "reviewedSourceCount": 6,
@@ -9752,7 +10561,7 @@
     },
     "tari-ootle:component:crypt": {
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "Secret-trading template and documented browser simulation. The creator\u2019s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil\u2019s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README\u2019s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
+      "observedAvailability": "Secret-trading template and documented browser simulation. The creator’s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil’s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README’s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
       "id": "tari-ootle:component:crypt",
       "title": "Crypt",
       "sources": [
@@ -10029,7 +10838,7 @@
         "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
         "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l"
       ],
-      "sourceObservation": "Secret-trading template and documented browser simulation. The creator\u2019s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil\u2019s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README\u2019s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
+      "sourceObservation": "Secret-trading template and documented browser simulation. The creator’s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil’s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README’s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "reviewedSourceCount": 7,
@@ -10235,7 +11044,7 @@
             "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
             "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l"
           ],
-          "sourceObservation": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator\u2019s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN \u00b7 SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
+          "sourceObservation": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
           "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
           "copyUpdated": true,
           "reviewedSourceCount": 7,
@@ -12117,7 +12926,7 @@
     },
     "project:seance": {
       "id": "project:seance",
-      "title": "S\u00e9ance",
+      "title": "Séance",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
@@ -12277,7 +13086,7 @@
     },
     "tari-ootle:component:seance": {
       "id": "tari-ootle:component:seance",
-      "title": "S\u00e9ance",
+      "title": "Séance",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
@@ -12698,7 +13507,7 @@
     },
     "project:seance-privacy": {
       "id": "project:seance-privacy",
-      "title": "Seance \u2014 privacy demo",
+      "title": "Seance — privacy demo",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
         "https://github.com/Kylne700/seance-v2",
@@ -12836,7 +13645,7 @@
         "https://github.com/Kylne700/seance",
         "https://kylne700.github.io/seance/"
       ],
-      "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0\u20130.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools\u2019 sealed-poll project.",
+      "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0–0.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools’ sealed-poll project.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "reviewedSourceCount": 3,
@@ -12896,7 +13705,7 @@
     },
     "tari-ootle:component:seance-privacy": {
       "id": "tari-ootle:component:seance-privacy",
-      "title": "Seance \u2014 privacy demo",
+      "title": "Seance — privacy demo",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
         "https://github.com/Kylne700/seance-v2",
@@ -13059,7 +13868,7 @@
         "https://github.com/Kylne700/seance#readme",
         "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22"
       ],
-      "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0\u20130.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools\u2019 sealed-poll project.",
+      "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0–0.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools’ sealed-poll project.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "reviewedSourceCount": 5,
@@ -15670,7 +16479,7 @@
     },
     "project:arkimals": {
       "id": "project:arkimals",
-      "title": "Arkimals \u2014 Halloween on Tari",
+      "title": "Arkimals — Halloween on Tari",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
         "https://github.com/BlackTurtle123/tari-midnight-kennel",
@@ -15918,7 +16727,7 @@
         "provenance"
       ],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator\u2019s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host\u2019s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
+      "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "supersededSources": {},
@@ -16055,7 +16864,7 @@
         "provenance"
       ],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources\u2019 private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
+      "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "pendingReviewSources": [],
@@ -16254,7 +17063,7 @@
     },
     "tari-ootle:component:arkimals": {
       "id": "tari-ootle:component:arkimals",
-      "title": "Arkimals \u2014 Halloween on Tari",
+      "title": "Arkimals — Halloween on Tari",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
         "https://github.com/BlackTurtle123/tari-midnight-kennel",
@@ -16703,7 +17512,7 @@
         "provenance"
       ],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator\u2019s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host\u2019s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
+      "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "supersededSources": {},
@@ -16856,7 +17665,7 @@
         "provenance"
       ],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources\u2019 private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
+      "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "pendingReviewSources": [
@@ -20667,7 +21476,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
-      "observedAvailability": "Guide \u00b7 Universe 1.6.12",
+      "observedAvailability": "Guide · Universe 1.6.12",
       "outcome": "pending",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -20752,7 +21561,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
-      "observedAvailability": "Mining pool \u00b7 1% fee \u00b7 0.1 XTM minimum",
+      "observedAvailability": "Mining pool · 1% fee · 0.1 XTM minimum",
       "outcome": "pending",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -20870,7 +21679,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
-      "observedAvailability": "Desktop app \u00b7 NVIDIA / experimental AMD \u00b7 1% dev fee",
+      "observedAvailability": "Desktop app · NVIDIA / experimental AMD · 1% dev fee",
       "outcome": "pending",
       "pendingReviewSources": [
         "https://www.bzminer.com/guides/c29.php"
@@ -21023,7 +21832,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-      "observedAvailability": "Desktop app \u00b7 Ootle wallet: testnet",
+      "observedAvailability": "Desktop app · Ootle wallet: testnet",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -21081,7 +21890,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-      "observedAvailability": "Source code \u00b7 Flutter / Rust",
+      "observedAvailability": "Source code · Flutter / Rust",
       "outcome": "pending",
       "pendingReviewSources": [
         "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet"
@@ -21141,7 +21950,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-      "observedAvailability": "Source code \u00b7 Testnet \u00b7 v0.47 pins",
+      "observedAvailability": "Source code · Testnet · v0.47 pins",
       "outcome": "pending",
       "pendingReviewSources": [
         "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet"
@@ -21213,7 +22022,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-      "observedAvailability": "CLI \u00b7 v0.5.2",
+      "observedAvailability": "CLI · v0.5.2",
       "outcome": "pending",
       "pendingReviewSources": [
         "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2"
@@ -21545,7 +22354,7 @@
     },
     "tari-ootle:learn:kurarmota-two-layer-architecture": {
       "id": "tari-ootle:learn:kurarmota-two-layer-architecture",
-      "title": "Tari\u2019s two-layer architecture",
+      "title": "Tari’s two-layer architecture",
       "sources": [
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
         "https://medium.com/@isahjaafar12/-8cbde86c94e3"
@@ -23521,7 +24330,7 @@
       },
       {
         "canonicalId": "project:seance",
-        "title": "S\u00e9ance",
+        "title": "Séance",
         "surfaceIds": [
           "project:seance",
           "tari-ootle:component:seance"
@@ -23572,7 +24381,7 @@
       },
       {
         "canonicalId": "project:seance-privacy",
-        "title": "Seance \u2014 privacy demo",
+        "title": "Seance — privacy demo",
         "surfaceIds": [
           "project:seance-privacy",
           "tari-ootle:component:seance-privacy"
@@ -23787,7 +24596,7 @@
       },
       {
         "canonicalId": "project:arkimals",
-        "title": "Arkimals \u2014 Halloween on Tari",
+        "title": "Arkimals — Halloween on Tari",
         "surfaceIds": [
           "project:arkimals",
           "tari-ootle:component:arkimals"
@@ -24577,7 +25386,7 @@
       },
       {
         "canonicalId": "tari-ootle:learn:kurarmota-two-layer-architecture",
-        "title": "Tari\u2019s two-layer architecture",
+        "title": "Tari’s two-layer architecture",
         "surfaceIds": [
           "tari-ootle:learn:kurarmota-two-layer-architecture"
         ],
