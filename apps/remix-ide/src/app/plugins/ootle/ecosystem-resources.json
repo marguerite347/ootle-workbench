@@ -1193,7 +1193,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Sealed Bids at Midnight",
-      "summary": "Rust Ootle auction template and headless CLI using signer-bound, domain-separated commit/reveal bids and equal bonds. Consensus epochs define sealing, reveal and settlement; the highest qualifying revealed bid wins, with individual claims for the lot, proceeds and refunds. Unrevealed bids and bids revealed below the reserve permanently forfeit their bonds; these remain locked in the component. Revealed amounts and bidder public keys are public, and bidders with multiple commitments can choose what to reveal. October 20 review read the MIT source at f8796ec7d955. The maintainer reports 17 tests and an Esmeralda v2 lifecycle; this catalog did not execute bids, bridge funds or verify payouts. Source pins tari_template_lib 0.34. The README timeline still says forfeited bonds go to the seller; its detailed v2 description and announcement instead say they remain locked. No hosted browser demo was linked in the reviewed README; the recorded terminal animation is the maintainer’s embedded GIF. October 21: the creator’s October forum submission was read and the unchanged source revision confirmed. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Rust Ootle auction template and headless CLI with signer-bound, domain-separated commit/reveal bids and equal bonds. Epochs define sealing, reveal and settlement, followed by separate lot, proceeds and refund claims. Unrevealed bids and bids below reserve permanently forfeit bonds, which stay locked in the component. Revealed amounts and bidder keys are public; multiple commitments let bidders choose what to reveal. MIT source pins tari_template_lib 0.34. The maintainer reports 17 tests and an Esmeralda v2 lifecycle; no bids, bridging or payouts were executed for this listing. The README timeline says forfeited bonds go to the seller, conflicting with its detailed v2 description and announcement. November 4 review: README unchanged at f8796ec7, no releases, and the original Reddit post shows no comments. The documented Esmeralda component returns Substate not found; no replacement address was found in the reviewed README or announcement. The November 2 organizer notice asked entrants to republish after the testnet reset. The retained October 20 README walkthrough includes the creator’s historical terminal GIF; it does not show a new auction execution. Earlier evidence remains in the maintenance history.",
       "status": "Source code · Testnet · Forfeited bonds locked forever",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16",
       "repoUrl": "https://github.com/xB0unty911/sealed-bid-auction",
@@ -1238,8 +1238,9 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261020.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261020.jpg",
-        "source": "Source/docs walkthrough — README and maintainer GIF; no auction executed here."
-      }
+        "source": "Docs walkthrough"
+      },
+      "lastAttemptAt": "2026-11-04T22:13:38.186097+00:00"
     },
     {
       "id": "tari-ootle:component:seance-privacy",
@@ -2262,8 +2263,8 @@
       "ecosystem": "tari-ootle",
       "group": "Agents",
       "title": "Ootlebook",
-      "summary": "Independent community experiment for AI-agent profiles, posts, service listings and voucher-based payment lanes on Esmeralda. The website presents public contract state and an agent manual; the source includes a client, encrypted-message tooling and a read-only Minotari explorer MCP. Registering requires an owner signature and a 10 tTARI name fee. Posts are permanent even when retracted, fees remain locked, and payment lanes use an escrow close window. October 31 review covered the original forum announcement, MIT README and public directory. No agent was registered, software installed, message posted or payment made. Not affiliated with or endorsed by Tari Labs.",
-      "status": "Web app · Testnet",
+      "summary": "Independent community experiment for AI-agent profiles, posts, service listings and voucher-based payment lanes on Esmeralda. The website presents public contract state and an agent manual; the source includes a client, encrypted-message tooling and a read-only Minotari explorer MCP. Registering requires an owner signature and a 10 tTARI name fee. Posts are permanent even when retracted, fees remain locked, and payment lanes use an escrow close window. October 31 review covered the original forum announcement, MIT README and public directory. No agent was registered, software installed, message posted or payment made. Not affiliated with or endorsed by Tari Labs. November 4 availability review: the public directory loads cached records and reports it could not reach Ootle, with its last read two days earlier. The live /skill.md endpoint returned HTTP 403 and a browser access error; the complete manual generator was reviewed in source at c4471697. The creator’s November 2 X post, direct reply and nested reply were read. Existing October 31 footage shows the directory at its capture date, not current chain freshness.",
+      "status": "Web app · Testnet · Cached data · Registration fees locked",
       "sourceUrl": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
       "repoUrl": "https://github.com/alex3000-ai/ootlebook",
       "docsUrl": "https://github.com/alex3000-ai/ootlebook#readme",
@@ -2275,7 +2276,7 @@
       "license": "MIT",
       "network": "Esmeralda testnet",
       "platform": "Browser · Node · Rust",
-      "upstreamRevision": "f17d1372ac3d1b1b87047077cf5f4e0eaac0bc02",
+      "upstreamRevision": "c4471697bbbc0aeb17a47470b685ce66074cfeeb",
       "sourceUpdatedAt": "2026-10-30T04:41:12.215Z",
       "lastCheckedAt": "2026-10-31T14:00:56.589Z",
       "verification": "source-attested",
@@ -2297,13 +2298,14 @@
           "context": "Creator sharing and builder discussion, November 2, 2026"
         }
       ],
-      "cardSummary": "Browse agent profiles, service listings and payment-lane activity in an independent community economy on Ootle testnet.",
-      "cardStatus": "Web app · Testnet · Registration fees locked",
+      "cardSummary": "Browse cached agent profiles, service listings and payment-lane activity in an independent community economy on Ootle testnet.",
+      "cardStatus": "Web app · Testnet · Cached data · Registration fees locked",
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootlebook-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootlebook-20261031.png",
-        "source": "Source/docs walkthrough — public agent cards, board and community links; no registration or payment."
-      }
+        "source": "Docs walkthrough"
+      },
+      "lastAttemptAt": "2026-11-04T22:13:38.186097+00:00"
     },
     {
       "id": "tari-ootle:component:hexcrow",
@@ -2696,7 +2698,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "Minotari and Ootle explained",
-      "summary": "Community explanation of the base-layer and Ootle division of responsibilities: proof of work, validator registration, epoch timing, independent committee consensus and the one-way XTM burn. The author discloses AI assistance. This is a conceptual explanation, not a rollup or inherited-security claim.",
+      "summary": "Community explanation of the base-layer and Ootle division of responsibilities: proof of work, validator registration, epoch timing, independent committee consensus and the one-way XTM burn. The author discloses AI assistance. This is a conceptual explanation, not a rollup or inherited-security claim. November 4 source review: the full Medium article, empty response panel and original forum submission were read. The article distinguishes Minotari’s registration and epoch roles from Ootle’s own validator execution and finality, and includes an AI-assistance disclosure.",
       "status": "Community tutorial",
       "sourceUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/8",
       "repoUrl": null,
@@ -2711,7 +2713,7 @@
       "platform": "Reading",
       "upstreamRevision": "page-sha256:f4c23eeb21d120682c714750351fb502327bc859d0fd005fbabf93774bc059d7",
       "sourceUpdatedAt": "2026-10-30T22:21:13.359Z",
-      "lastCheckedAt": "2026-10-31T15:08:56.508147+00:00",
+      "lastCheckedAt": "2026-11-04T22:02:44.219Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2731,8 +2733,9 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-two-layers-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-two-layers-20261031.png",
-        "source": "Source/docs walkthrough — Creator article; no network actions."
-      }
+        "source": "Docs walkthrough"
+      },
+      "lastAttemptAt": "2026-11-04T22:13:38.186097+00:00"
     },
     {
       "id": "tari-ootle:learn:turbine-explainer",
@@ -2741,7 +2744,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "Ootle Turbine fee burn explained",
-      "summary": "Community explanation of irreversible XTM-to-TARI burns and fee accounting. The October 31 primary-source check found RFC-0323 marked Deprecated and a fixed 500-basis-point fee burn; protocol amounts and defaults are version-specific. The preview records the creator’s forum announcement linking this article, because the isolated Reddit recorder showed an access challenge. The article itself was read in the supported browser. No burn or claim was performed.",
+      "summary": "Community explanation of irreversible XTM-to-TARI burns and fee accounting. The October 31 primary-source check found RFC-0323 marked Deprecated and a fixed 500-basis-point fee burn; protocol amounts and defaults are version-specific. The preview records the creator’s forum announcement linking this article, because the isolated Reddit recorder showed an access challenge. The article itself was read in the supported browser. No burn or claim was performed. November 4 source review: the full Reddit post has no comments; the creator’s forum update at post 17 retains this article. The official Fees reference now lists 250 µT per new substate, rather than the article’s 25 µT example. Template publication also includes storage and compilation charges beyond the stated flat fee. The fixed 500-basis-point burn is rounded down; consult the current reference for network rates and dry-run estimates. The retained October 31 clip shows the creator’s forum announcement and article links.",
       "status": "Community tutorial",
       "sourceUrl": "https://www.reddit.com/r/tari/comments/1xj9m3e/ootles_turbine_burn_read_from_the_docs_the/",
       "repoUrl": null,
@@ -2756,7 +2759,7 @@
       "platform": "Reading",
       "upstreamRevision": "page-sha256:5edd13e095b2b7deeabc4cf0f4fa6a7fcdf20bab59c813f18f4cb7d9e98362b0",
       "sourceUpdatedAt": "2026-10-30T08:17:09.120000+00:00",
-      "lastCheckedAt": "2026-10-31T15:08:56.508147+00:00",
+      "lastCheckedAt": "2026-11-04T22:02:44.219Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2774,6 +2777,16 @@
           "url": "https://www.reddit.com/r/tari/comments/1xj9m3e/ootles_turbine_burn_read_from_the_docs_the/",
           "platform": "Reddit",
           "context": "Original article and discussion"
+        },
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+          "platform": "Tari Community forum",
+          "context": "Creator’s November3 update retaining the article"
+        },
+        {
+          "url": "https://ootle.tari.com/reference/fees/",
+          "platform": "Official reference",
+          "context": "Current fee rates; November4 correction to the article’s substate example"
         }
       ],
       "cardSummary": "Trace how burning XTM creates TARI and how Ootle transaction fees remove a fixed share from circulation.",
@@ -2781,8 +2794,9 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-turbine-focused-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-turbine-focused-20261031.png",
-        "source": "Source/docs walkthrough — Announcement from the creator forum post linking this article; article content read separately."
-      }
+        "source": "Announcement"
+      },
+      "lastAttemptAt": "2026-11-04T22:13:38.186097+00:00"
     },
     {
       "id": "tari-ootle:learn:sharding-explainer",
@@ -2791,7 +2805,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "Ootle shards and committees explained",
-      "summary": "Community explanation of state shards, shard groups, committee assignment, HotStuff and cross-group pledges. The article’s 256 shards and 40-validator committee examples describe documented configuration rather than a measurement of every network; development configuration differs. The preview is a separately recorded, focused view of the creator’s forum announcement linking this article. The full Reddit article was read in the supported browser; no consensus or transaction execution is demonstrated.",
+      "summary": "Community explanation of state shards, shard groups, committee assignment, HotStuff and cross-group pledges. The article’s 256 shards and 40-validator committee examples describe documented configuration rather than a measurement of every network; development configuration differs. The preview is a separately recorded, focused view of the creator’s forum announcement linking this article. The full Reddit article was read in the supported browser; no consensus or transaction execution is demonstrated. November 4 source review: the complete Reddit post has no comments; the creator’s forum update at post 17 was also read. The current official Architecture and Consensus pages support the described state-sharding and committee/quorum model. These are documentation descriptions, not measured throughput or latency results. The retained October 31 clip shows the creator’s forum announcement and article links.",
       "status": "Community tutorial",
       "sourceUrl": "https://www.reddit.com/r/tari/comments/1xj9tss/how_ootle_splits_the_work_256_shards_40validator/",
       "repoUrl": null,
@@ -2806,7 +2820,7 @@
       "platform": "Reading",
       "upstreamRevision": "page-sha256:bb81fd3655e45010bafd76d9ca60e9e738a0f2897b9b4c6cc28fe8bece69d860",
       "sourceUpdatedAt": "2026-10-30T08:31:12.178000+00:00",
-      "lastCheckedAt": "2026-10-31T15:08:56.508147+00:00",
+      "lastCheckedAt": "2026-11-04T22:02:44.219Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2824,6 +2838,11 @@
           "url": "https://www.reddit.com/r/tari/comments/1xj9tss/how_ootle_splits_the_work_256_shards_40validator/",
           "platform": "Reddit",
           "context": "Original article and discussion"
+        },
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+          "platform": "Tari Community forum",
+          "context": "Creator’s November3 update retaining the article"
         }
       ],
       "cardSummary": "Understand how Ootle assigns state to shards, forms validator committees and coordinates transactions that span groups.",
@@ -2831,8 +2850,9 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sharding-announcement-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sharding-announcement-20261031.png",
-        "source": "Source/docs walkthrough — Announcement from the creator forum post linking this article; article content read separately."
-      }
+        "source": "Announcement"
+      },
+      "lastAttemptAt": "2026-11-04T22:13:38.186097+00:00"
     },
     {
       "id": "tari-ootle:learn:nyam-mining",
@@ -2841,7 +2861,7 @@
       "ecosystem": "tari",
       "group": "Advanced",
       "title": "Tari mining lanes and the C29 incident",
-      "summary": "Dated community analysis of Tari’s four proof-of-work lanes and the September 2026 C29 incident, with links to official RFCs and the incident report. Historical incident figures are the author’s account and are not current network measurements. The author discloses AI assistance. The forum’s original article URL returned 404; the author’s own publication index supplied the corrected destination.",
+      "summary": "Dated community analysis of Tari’s four proof-of-work lanes and the September 2026 C29 incident, with links to official RFCs and the incident report. Historical incident figures are the author’s account and are not current network measurements. The author discloses AI assistance. The forum’s original article URL returned 404; the author’s own publication index supplied the corrected destination. November 4 source review: the complete Paragraph article and original forum submission were read and compared with Tari’s September 26 C29 incident report. Its incident timeline and 45-block window are historical reporting; its software-version recommendations describe the article’s publication date and are not current download instructions.",
       "status": "Community tutorial",
       "sourceUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/6",
       "repoUrl": null,
@@ -2856,7 +2876,7 @@
       "platform": "Reading",
       "upstreamRevision": "page-sha256:4e91ba87e03eccec98075def51a2c3d9ed8efbddc197cc4874b8ddceff9445f5",
       "sourceUpdatedAt": "2026-10-30",
-      "lastCheckedAt": "2026-10-31T15:08:56.508147+00:00",
+      "lastCheckedAt": "2026-11-04T22:02:44.219Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2876,8 +2896,9 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-nyam-mining-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-nyam-mining-20261031.png",
-        "source": "Source/docs walkthrough — Creator article; no network actions."
-      }
+        "source": "Docs walkthrough"
+      },
+      "lastAttemptAt": "2026-11-04T22:13:38.186097+00:00"
     },
     {
       "id": "tari-ootle:learn:local-ai-gpu",
@@ -3628,7 +3649,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "Tari’s two-layer architecture",
-      "summary": "KURARMOTA’s community article explains Minotari proof of work and validator registration, Ootle’s independent committee consensus, sharded state, Rust/WASM templates and the distinction between XTM and TARI. It describes the one-way 1:1 XTM burn and fee burn without claiming that Minotari re-executes Ootle contracts. The November 2 review read the full article, its zero-response panel and the creator’s original forum submission. The November 11 launch date is the announced schedule, not evidence that mainnet is already available. The recording is a short public article walkthrough.",
+      "summary": "KURARMOTA’s community article explains Minotari proof of work and validator registration, Ootle’s independent committee consensus, sharded state, Rust/WASM templates and the distinction between XTM and TARI. It describes the one-way 1:1 XTM burn and fee burn without claiming that Minotari re-executes Ootle contracts. The November 2 review read the full article, its zero-response panel and the creator’s original forum submission. The November 11 launch date is the announced schedule, not evidence that mainnet is already available. The recording is a short public article walkthrough. November 4 source review: the complete Medium article and empty response panel were read, together with the original forum submission. The cited official architecture and consensus sections distinguish Minotari registration and epoch timing from Ootle’s separate execution and finality. The article’s launch date is a dated schedule statement, not evidence that mainnet is live.",
       "status": "Community article",
       "sourceUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
       "repoUrl": null,
@@ -3643,7 +3664,7 @@
       "platform": "Reading",
       "upstreamRevision": "page-sha256:cc6f6988dade2a7a402bc1454ccd81a3f92f22a1be28f668225dead6528aae94",
       "sourceUpdatedAt": "2026-11-01T11:39:26.150Z",
-      "lastCheckedAt": "2026-11-03T00:18:11.825Z",
+      "lastCheckedAt": "2026-11-04T22:02:44.219Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3663,8 +3684,9 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-kurarmota-two-layer-architecture-20261102-ef78acc3d6.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-kurarmota-two-layer-architecture-20261102-ef78acc3d6.png",
-        "source": "Docs walkthrough — November 2 public article; no account, wallet or mining action."
-      }
+        "source": "Docs walkthrough"
+      },
+      "lastAttemptAt": "2026-11-04T22:13:38.186097+00:00"
     },
     {
       "id": "tari-ootle:learn:habib-four-lanes",
@@ -3673,7 +3695,7 @@
       "ecosystem": "tari",
       "group": "Advanced",
       "title": "Four lanes, no monoculture",
-      "summary": "Habib Ayomide’s community article covers Monero-merged RandomX, Tari RandomX, SHA3x and Cuckaroo29, with references to the mining RFC and a dated explorer snapshot. Read with this correction: the opening line says every block reward is split across four algorithms; the protocol instead targets a share of blocks for each algorithm. Its body explains the 480-second per-lane targets and short-window variation. A 25% target is not a guaranteed return for a miner. The full article and zero-response panel were read November 2, along with the original submission and linked Reddit post. Reddit displayed one comment but returned no accessible comment; its public API returned 403 and the old interface required login. That missing reply remains an access blocker, not a successful full discussion review. The recording is a public article walkthrough, not a mining demonstration.",
+      "summary": "Habib Ayomide’s community article covers Monero-merged RandomX, Tari RandomX, SHA3x and Cuckaroo29, with references to the mining RFC and a dated explorer snapshot. Read with this correction: the opening line says every block reward is split across four algorithms; the protocol instead targets a share of blocks for each algorithm. Its body explains the 480-second per-lane targets and short-window variation. A 25% target is not a guaranteed return for a miner. The full article and zero-response panel were read November 2, along with the original submission and linked Reddit post. On November 2 the Reddit reply was inaccessible; that earlier failure is retained in the maintenance history. The reply was recovered and read November 4. The recording is a public article walkthrough, not a mining demonstration. November 4 source review: the complete Medium article and its empty response panel, the Reddit adaptation and its single miner comment were read. Correction to the article’s 90-block difficulty-window description: Tari’s September 26 incident report says a 45-block window shipped with the fork at height 350,000. Explorer figures in this article are the author’s November 2 snapshot, not current network measurements.",
       "status": "Community article",
       "sourceUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16",
       "repoUrl": null,
@@ -3688,7 +3710,7 @@
       "platform": "Reading",
       "upstreamRevision": "page-sha256:ded6ecdef54d41ddd2fbe80e7357ce9bfe49136c239d696224a04e960b2d5a38",
       "sourceUpdatedAt": "2026-11-02T16:42:38.545Z",
-      "lastCheckedAt": null,
+      "lastCheckedAt": "2026-11-04T22:02:44.219Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3706,6 +3728,11 @@
           "url": "https://www.reddit.com/r/tari/comments/1xm1fa0/why_does_tari_need_four_mining_algorithms_a/",
           "platform": "Reddit",
           "context": "Why does Tari need four mining algorithms? A plain-English breakdown of multi-lane PoW"
+        },
+        {
+          "url": "https://community.tari.com/t/376/1",
+          "platform": "Tari incident report",
+          "context": "September26 report records the45-block difficulty window"
         }
       ],
       "cardSummary": "Explore Tari’s four mining algorithms, independent difficulty targets, hardware trade-offs and pool-concentration risks.",
@@ -3713,9 +3740,9 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-habib-four-lanes-20261102-22d11b40cb.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-habib-four-lanes-20261102-22d11b40cb.png",
-        "source": "Docs walkthrough — November 2 public article; no account, wallet or mining action."
+        "source": "Docs walkthrough"
       },
-      "lastAttemptAt": "2026-11-03T00:18:11.825Z"
+      "lastAttemptAt": "2026-11-04T22:13:38.186097+00:00"
     },
     {
       "id": "tari-ootle:component:rubic-swap-widget",

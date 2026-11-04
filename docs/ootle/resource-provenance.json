@@ -1839,7 +1839,14 @@
       ],
       "status": "published",
       "notes": "Public Reddit announcement, MIT README and head read. No transaction executed. Maintainer GIF remains attributed in recording scope.",
-      "publishedOn": "2026-10-23"
+      "publishedOn": "2026-10-23",
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
+          "evidence": "work/daily-2026-11-04/sealed-bids-at-midnight-review-outcome.json",
+          "scope": "November 4 availability review: the README remains at f8796ec7 and the release list is empty. The original Reddit post shows no comments. The documented Esmeralda component lookup now returns Substate not found; no replacement address was found in the reviewed README or announcement. The retained October 20 README walkthrough includes the creator’s historical terminal GIF, not a new auction execution."
+        }
+      ]
     },
     {
       "id": "seance-privacy",
@@ -2533,7 +2540,17 @@
         }
       ],
       "status": "qualified-publication-pending",
-      "notes": "Privacy Lab is the public demonstration of Ghost Gate access control. The current Crypt v3 policy checks a qualifying revealed/public native-tTARI output against a 100 tTARI threshold and issues a time-limited session. It does not provide a fully confidential aggregate-balance proof. The creator documents Sapient, embedded Web Tari Universe and Telegram admission; the operator and verifier remain trusted, and Telegram grants are not persistent across restart. October 31 review covered the original post, MIT source and live public policy page. The recording shows configuration and privacy limits without connecting a wallet, proving access or joining a group. Minotari XTM threshold-proof work remains research."
+      "notes": "Privacy Lab is the public demonstration of Ghost Gate access control. The current Crypt v3 policy checks a qualifying revealed/public native-tTARI output against a 100 tTARI threshold and issues a time-limited session. It does not provide a fully confidential aggregate-balance proof. The creator documents Sapient, embedded Web Tari Universe and Telegram admission; the operator and verifier remain trusted, and Telegram grants are not persistent across restart. October 31 review covered the original post, MIT source and live public policy page. The recording shows configuration and privacy limits without connecting a wallet, proving access or joining a group. Minotari XTM threshold-proof work remains research.",
+      "relatedSources": [
+        {
+          "url": "https://github.com/GSXRspartan/ggbp1-v3-external-review",
+          "revision": "2ff24577603002e294d89bc604b889db0380a728",
+          "discoveryPost": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
+          "foundOn": "2026-11-04",
+          "visibility": "public",
+          "context": "Standalone synthetic GGBP1v3 research; no chain authorization. README and boundary documents reviewed."
+        }
+      ]
     },
     {
       "id": "ootlebook",
@@ -2565,7 +2582,14 @@
       ],
       "status": "qualified-publication-pending",
       "notes": "Independent community experiment for AI-agent profiles, posts, service listings and voucher-based payment lanes on Esmeralda. The website presents public contract state and an agent manual; the source includes a client, encrypted-message tooling and a read-only Minotari explorer MCP. Registering requires an owner signature and a 10 tTARI name fee. Posts are permanent even when retracted, fees remain locked, and payment lanes use an escrow close window. October 31 review covered the original forum announcement, MIT README and public directory. No agent was registered, software installed, message posted or payment made. Not affiliated with or endorsed by Tari Labs.",
-      "additionalSharingPublicationStatus": "pending"
+      "additionalSharingPublicationStatus": "pending",
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
+          "evidence": "work/daily-2026-11-04/ootlebook-review-outcome.json",
+          "scope": "November 4 availability review: the public directory loads cached records and reports it could not reach Ootle, with its last read two days earlier. The live /skill.md endpoint returned HTTP 403 and a browser access error; the complete manual generator was reviewed in source at c4471697. The creator’s November 2 X post, direct reply and nested reply were read. Existing October 31 footage shows the directory at its capture date, not current chain freshness."
+        }
+      ]
     },
     {
       "id": "creator-contest-503",
@@ -2828,6 +2852,13 @@
           "context": "Ootle Launch Event: Creator Contest",
           "visibility": "public"
         }
+      ],
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
+          "evidence": "work/daily-2026-11-04/two-layers-review-outcome.json",
+          "scope": "November 4 source review: the full Medium article, empty response panel and original forum submission were read. The article distinguishes Minotari’s registration and epoch roles from Ootle’s own validator execution and finality, and includes an AI-assistance disclosure."
+        }
       ]
     },
     {
@@ -2853,6 +2884,22 @@
           "foundOn": "2026-10-31",
           "context": "Ootle Turbine fee burn explained",
           "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+          "platform": "Tari Community forum",
+          "author": "Rajesh",
+          "publishedAt": null,
+          "foundOn": "2026-11-04",
+          "context": "Creator’s November3 update retaining the original article",
+          "visibility": "public"
+        }
+      ],
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
+          "evidence": "work/daily-2026-11-04/turbine-explainer-review-outcome.json",
+          "scope": "November 4 source review: the full Reddit post has no comments; the creator’s forum update at post 17 retains this article. The official Fees reference now lists 250 µT per new substate, rather than the article’s 25 µT example. Template publication also includes storage and compilation charges beyond the stated flat fee. The fixed 500-basis-point burn is rounded down; consult the current reference for network rates and dry-run estimates."
         }
       ]
     },
@@ -2879,6 +2926,22 @@
           "foundOn": "2026-10-31",
           "context": "Ootle shards and committees explained",
           "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+          "platform": "Tari Community forum",
+          "author": "Rajesh",
+          "publishedAt": null,
+          "foundOn": "2026-11-04",
+          "context": "Creator’s November3 update retaining the original article",
+          "visibility": "public"
+        }
+      ],
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
+          "evidence": "work/daily-2026-11-04/sharding-explainer-review-outcome.json",
+          "scope": "November 4 source review: the complete Reddit post has no comments; the creator’s forum update at post 17 was also read. The current official Architecture and Consensus pages support the described state-sharding and committee/quorum model. These are documentation descriptions, not measured throughput or latency results."
         }
       ]
     },
@@ -2906,6 +2969,13 @@
           "replacement": "https://paragraph.com/@nyam/four-lanes-one-chain-what-taris-c29-incident-teaches-about",
           "replacementEvidence": "work/daily-2026-10-31/nyam-publication-current.txt",
           "failureEvidence": "work/daily-2026-10-31/nyam-article-current.txt"
+        }
+      ],
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
+          "evidence": "work/daily-2026-11-04/nyam-mining-review-outcome.json",
+          "scope": "November 4 source review: the complete Paragraph article and original forum submission were read and compared with Tari’s September 26 C29 incident report. Its incident timeline and 45-block window are historical reporting; its software-version recommendations describe the article’s publication date and are not current download instructions."
         }
       ]
     },
@@ -3714,6 +3784,7 @@
       "id": "kurarmota-two-layer-architecture",
       "title": "Tari’s two-layer architecture",
       "projectUrl": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
+      "repositoryUrl": null,
       "documentationUrl": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
       "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
       "foundOn": "2026-11-02",
@@ -3730,12 +3801,20 @@
           "visibility": "public"
         }
       ],
-      "evidence": "work/daily-2026-10-31/creator-reading-curation-nov2.json"
+      "evidence": "work/daily-2026-10-31/creator-reading-curation-nov2.json",
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
+          "evidence": "work/daily-2026-11-04/kurarmota-two-layer-architecture-review-outcome.json",
+          "scope": "November 4 source review: the complete Medium article and empty response panel were read, together with the original forum submission. The cited official architecture and consensus sections distinguish Minotari registration and epoch timing from Ootle’s separate execution and finality. The article’s launch date is a dated schedule statement, not evidence that mainnet is live."
+        }
+      ]
     },
     {
       "id": "habib-four-lanes",
       "title": "Four lanes, no monoculture",
       "projectUrl": "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16",
+      "repositoryUrl": null,
       "documentationUrl": "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16",
       "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16",
       "foundOn": "2026-11-02",
@@ -3757,12 +3836,20 @@
           "platform": "Reddit",
           "channel": "r/tari",
           "author": "MeekAnon",
+          "publishedAt": null,
           "foundOn": "2026-11-02",
           "context": "Why does Tari need four mining algorithms? A plain-English breakdown of multi-lane PoW",
           "visibility": "public"
         }
       ],
-      "evidence": "work/daily-2026-10-31/creator-reading-curation-nov2.json"
+      "evidence": "work/daily-2026-10-31/creator-reading-curation-nov2.json",
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
+          "evidence": "work/daily-2026-11-04/habib-four-lanes-review-outcome.json",
+          "scope": "November 4 source review: the complete Medium article and its empty response panel, the Reddit adaptation and its single miner comment were read. Correction to the article’s 90-block difficulty-window description: Tari’s September 26 incident report says a 45-block window shipped with the fork at height 350,000. Explorer figures in this article are the author’s November 2 snapshot, not current network measurements."
+        }
+      ]
     },
     {
       "id": "tari-l1-web-wallet",

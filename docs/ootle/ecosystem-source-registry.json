@@ -15385,63 +15385,117 @@
       "title": "Sealed Bids at Midnight",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16",
-        "https://github.com/xB0unty911/sealed-bid-auction"
+        "https://github.com/xB0unty911/sealed-bid-auction",
+        "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/xB0unty911/sealed-bid-auction#readme",
+        "https://github.com/xB0unty911/sealed-bid-auction/releases",
+        "https://ootle-indexer-a.tari.com/substates/component_7eb4f5f468cd23f01be92423459102b3e3d0760bdf1a578b93e64a00e159a184?local_search_only=false",
+        "https://github.com/xB0unty911/sealed-bid-auction/blob/b083b3f13f922bd9cc5d0bac06df3e0a74c1340c/docs/demo.gif"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T22:03:21.516Z",
       "sourceReviews": {
         "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/": {
           "url": "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
-          "hash": "0dfb6b316c1836753c8ac50cab01b2a4e549962311709a0a0c335cd8f11fc879",
-          "attemptedAt": "2026-11-04T10:07:35.892673+00:00",
-          "evidence": "work/daily-2026-11-04/494fa392e73b9e29-0dfb6b316c1836753c8ac50cab01b2a4e549962311709a0a0c335cd8f11fc879.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:35.892673+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:35.892673+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T21:51:15.919Z",
+          "hash": "0ee224bff47f859ef955ca4afbbdd819098060717c655eaef7d8610d6755e4c5",
+          "evidence": "work/daily-2026-11-04/sealed-bids-reddit-nov4.txt",
+          "complete": true,
+          "scope": "Full original and zero comments read via browser fallback.",
+          "lastAttemptAt": "2026-11-04T21:51:15.919Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:51:15.919Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/xB0unty911/sealed-bid-auction": {
           "url": "https://github.com/xB0unty911/sealed-bid-auction",
-          "hash": "087a45f1b4f111c566bb352fe810a5332bb8ee9ba5409eedbdfa78b5299377c6",
-          "revision": "f8796ec7d95590d09c8ffa56cd3623b04740759b",
           "attemptedAt": "2026-11-04T10:07:22.838683+00:00",
+          "hash": "087a45f1b4f111c566bb352fe810a5332bb8ee9ba5409eedbdfa78b5299377c6",
           "evidence": "work/daily-2026-11-04/c171a30364c13c64-087a45f1b4f111c566bb352fe810a5332bb8ee9ba5409eedbdfa78b5299377c6.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Full pinned README read, MIT; source only, no execution.",
           "lastAttemptAt": "2026-11-04T10:07:22.838683+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:22.838683+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Current original post, edits and relevant replies/reset notice read.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Current original post, edits and relevant replies/reset notice read.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/xB0unty911/sealed-bid-auction#readme": {
+          "url": "https://github.com/xB0unty911/sealed-bid-auction#readme",
+          "attemptedAt": "2026-11-04T10:07:22.838683+00:00",
+          "hash": "087a45f1b4f111c566bb352fe810a5332bb8ee9ba5409eedbdfa78b5299377c6",
+          "evidence": "work/daily-2026-11-04/c171a30364c13c64-087a45f1b4f111c566bb352fe810a5332bb8ee9ba5409eedbdfa78b5299377c6.txt",
+          "complete": true,
+          "scope": "Same complete pinned README content.",
+          "lastAttemptAt": "2026-11-04T10:07:22.838683+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:22.838683+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/xB0unty911/sealed-bid-auction/releases": {
+          "url": "https://github.com/xB0unty911/sealed-bid-auction/releases",
+          "attemptedAt": "2026-11-04T10:07:22.582782+00:00",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "evidence": "work/daily-2026-11-04/b9e50b57e05ab5c4-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "complete": true,
+          "scope": "Complete empty release listing, one page.",
+          "lastAttemptAt": "2026-11-04T10:07:22.582782+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:22.582782+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://ootle-indexer-a.tari.com/substates/component_7eb4f5f468cd23f01be92423459102b3e3d0760bdf1a578b93e64a00e159a184?local_search_only=false": {
+          "lastAttemptAt": "2026-11-04T21:52:01.542Z",
+          "status": "blocked",
+          "error": "Browser public lookup returns Substate not found for documented component.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/sealed-bids-contract-browser-nov4.txt",
+          "nextAction": "Revisit creator README and documented component after republish; retain old URL and failure history."
+        },
+        "https://github.com/xB0unty911/sealed-bid-auction/blob/b083b3f13f922bd9cc5d0bac06df3e0a74c1340c/docs/demo.gif": {
+          "url": "https://github.com/xB0unty911/sealed-bid-auction/blob/b083b3f13f922bd9cc5d0bac06df3e0a74c1340c/docs/demo.gif",
+          "attemptedAt": "2026-11-04T21:51:20.627Z",
+          "hash": "07af81422ab83d401912984e3fbe8cc01c0e21efae4c2113fcef4a1c532d91a8",
+          "evidence": "work/daily-2026-11-04/sealed-bids-creator-gif-nov4.txt",
+          "complete": true,
+          "scope": "Creator animation visibly advanced through setup, commitments, reveals and settlement; representative frames inspected, no independent auction.",
+          "lastAttemptAt": "2026-11-04T21:51:20.627Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:51:20.627Z",
+          "status": "read",
+          "error": null
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16",
         "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/xB0unty911/sealed-bid-auction#readme",
+        "https://github.com/xB0unty911/sealed-bid-auction/releases",
+        "https://github.com/xB0unty911/sealed-bid-auction/blob/b083b3f13f922bd9cc5d0bac06df3e0a74c1340c/docs/demo.gif"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -15466,8 +15520,9 @@
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://ootle-indexer-a.tari.com/substates/component_7eb4f5f468cd23f01be92423459102b3e3d0760bdf1a578b93e64a00e159a184?local_search_only=false"
+      ],
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -15495,6 +15550,10 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "lastAttemptObservation": "Browser public lookup returns Substate not found for documented component.",
+      "evidence": [
+        "work/daily-2026-11-04/sealed-bids-at-midnight-review-outcome.json"
       ]
     },
     "tari-ootle:component:sealed-bids-at-midnight": {
@@ -15504,75 +15563,114 @@
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16",
         "https://github.com/xB0unty911/sealed-bid-auction",
         "https://github.com/xB0unty911/sealed-bid-auction#readme",
-        "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/"
+        "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/xB0unty911/sealed-bid-auction/releases",
+        "https://ootle-indexer-a.tari.com/substates/component_7eb4f5f468cd23f01be92423459102b3e3d0760bdf1a578b93e64a00e159a184?local_search_only=false",
+        "https://github.com/xB0unty911/sealed-bid-auction/blob/b083b3f13f922bd9cc5d0bac06df3e0a74c1340c/docs/demo.gif"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T22:03:21.516Z",
       "sourceReviews": {
         "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/": {
           "url": "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
-          "hash": "0dfb6b316c1836753c8ac50cab01b2a4e549962311709a0a0c335cd8f11fc879",
-          "attemptedAt": "2026-11-04T10:07:35.892673+00:00",
-          "evidence": "work/daily-2026-11-04/494fa392e73b9e29-0dfb6b316c1836753c8ac50cab01b2a4e549962311709a0a0c335cd8f11fc879.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:35.892673+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:35.892673+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T21:51:15.919Z",
+          "hash": "0ee224bff47f859ef955ca4afbbdd819098060717c655eaef7d8610d6755e4c5",
+          "evidence": "work/daily-2026-11-04/sealed-bids-reddit-nov4.txt",
+          "complete": true,
+          "scope": "Full original and zero comments read via browser fallback.",
+          "lastAttemptAt": "2026-11-04T21:51:15.919Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:51:15.919Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/xB0unty911/sealed-bid-auction": {
           "url": "https://github.com/xB0unty911/sealed-bid-auction",
-          "hash": "087a45f1b4f111c566bb352fe810a5332bb8ee9ba5409eedbdfa78b5299377c6",
-          "revision": "f8796ec7d95590d09c8ffa56cd3623b04740759b",
           "attemptedAt": "2026-11-04T10:07:22.838683+00:00",
+          "hash": "087a45f1b4f111c566bb352fe810a5332bb8ee9ba5409eedbdfa78b5299377c6",
           "evidence": "work/daily-2026-11-04/c171a30364c13c64-087a45f1b4f111c566bb352fe810a5332bb8ee9ba5409eedbdfa78b5299377c6.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Full pinned README read, MIT; source only, no execution.",
           "lastAttemptAt": "2026-11-04T10:07:22.838683+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:22.838683+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/xB0unty911/sealed-bid-auction#readme": {
           "url": "https://github.com/xB0unty911/sealed-bid-auction#readme",
+          "attemptedAt": "2026-11-04T10:07:22.838683+00:00",
           "hash": "087a45f1b4f111c566bb352fe810a5332bb8ee9ba5409eedbdfa78b5299377c6",
-          "revision": "f8796ec7d95590d09c8ffa56cd3623b04740759b",
-          "attemptedAt": "2026-10-31T09:03:16.235734+00:00",
-          "evidence": "work/daily-2026-10-31/c171a30364c13c64.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:16.235734+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:16.235734+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "evidence": "work/daily-2026-11-04/c171a30364c13c64-087a45f1b4f111c566bb352fe810a5332bb8ee9ba5409eedbdfa78b5299377c6.txt",
+          "complete": true,
+          "scope": "Same complete pinned README content.",
+          "lastAttemptAt": "2026-11-04T10:07:22.838683+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:22.838683+00:00",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Current original post, edits and relevant replies/reset notice read.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Current original post, edits and relevant replies/reset notice read.",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/xB0unty911/sealed-bid-auction/releases": {
+          "url": "https://github.com/xB0unty911/sealed-bid-auction/releases",
+          "attemptedAt": "2026-11-04T10:07:22.582782+00:00",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "evidence": "work/daily-2026-11-04/b9e50b57e05ab5c4-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "complete": true,
+          "scope": "Complete empty release listing, one page.",
+          "lastAttemptAt": "2026-11-04T10:07:22.582782+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:22.582782+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://ootle-indexer-a.tari.com/substates/component_7eb4f5f468cd23f01be92423459102b3e3d0760bdf1a578b93e64a00e159a184?local_search_only=false": {
+          "lastAttemptAt": "2026-11-04T21:52:01.542Z",
+          "status": "blocked",
+          "error": "Browser public lookup returns Substate not found for documented component.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/sealed-bids-contract-browser-nov4.txt",
+          "nextAction": "Revisit creator README and documented component after republish; retain old URL and failure history."
+        },
+        "https://github.com/xB0unty911/sealed-bid-auction/blob/b083b3f13f922bd9cc5d0bac06df3e0a74c1340c/docs/demo.gif": {
+          "url": "https://github.com/xB0unty911/sealed-bid-auction/blob/b083b3f13f922bd9cc5d0bac06df3e0a74c1340c/docs/demo.gif",
+          "attemptedAt": "2026-11-04T21:51:20.627Z",
+          "hash": "07af81422ab83d401912984e3fbe8cc01c0e21efae4c2113fcef4a1c532d91a8",
+          "evidence": "work/daily-2026-11-04/sealed-bids-creator-gif-nov4.txt",
+          "complete": true,
+          "scope": "Creator animation visibly advanced through setup, commitments, reveals and settlement; representative frames inspected, no independent auction.",
+          "lastAttemptAt": "2026-11-04T21:51:20.627Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:51:20.627Z",
+          "status": "read",
+          "error": null
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16",
         "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/xB0unty911/sealed-bid-auction/releases",
+        "https://github.com/xB0unty911/sealed-bid-auction/blob/b083b3f13f922bd9cc5d0bac06df3e0a74c1340c/docs/demo.gif"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -15596,12 +15694,11 @@
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": false,
       "reviewedSourceCount": 4,
-      "pendingReviewSources": [
-        "https://github.com/xB0unty911/sealed-bid-auction#readme"
-      ],
+      "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://ootle-indexer-a.tari.com/substates/component_7eb4f5f468cd23f01be92423459102b3e3d0760bdf1a578b93e64a00e159a184?local_search_only=false"
+      ],
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -15629,6 +15726,10 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "lastAttemptObservation": "Browser public lookup returns Substate not found for documented component.",
+      "evidence": [
+        "work/daily-2026-11-04/sealed-bids-at-midnight-review-outcome.json"
       ]
     },
     "project:seance-privacy": {
@@ -20791,70 +20892,124 @@
       "sources": [
         "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
         "https://github.com/alex3000-ai/ootlebook",
-        "https://ootlebook.com/"
+        "https://ootlebook.com/",
+        "https://x.com/ootlefan_alex/status/2117328083070206197",
+        "https://github.com/alex3000-ai/ootlebook#readme",
+        "https://github.com/alex3000-ai/ootlebook/releases",
+        "https://ootlebook.com/skill.md",
+        "https://github.com/alex3000-ai/ootlebook/blob/c4471697bbbc0aeb17a47470b685ce66074cfeeb/site/src/skill.ts"
       ],
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
+      "outcome": "blocked",
       "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T22:03:21.516Z",
       "sourceReviews": {
         "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1": {
           "url": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
-          "hash": "c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67",
           "attemptedAt": "2026-11-04T10:07:06.350227+00:00",
+          "hash": "c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67",
           "evidence": "work/daily-2026-11-04/1e267faeb98b25a3-c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Current original post, edits and relevant replies/reset notice read.",
           "lastAttemptAt": "2026-11-04T10:07:06.350227+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.350227+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/alex3000-ai/ootlebook": {
           "url": "https://github.com/alex3000-ai/ootlebook",
-          "hash": "f3fd650445d6b0982a5daf426635a5f1bad631823c08343e4db6135efd76eaf4",
-          "revision": "c4471697bbbc0aeb17a47470b685ce66074cfeeb",
           "attemptedAt": "2026-11-04T10:06:59.484646+00:00",
+          "hash": "f3fd650445d6b0982a5daf426635a5f1bad631823c08343e4db6135efd76eaf4",
           "evidence": "work/daily-2026-11-04/aa43ad0740c69685-f3fd650445d6b0982a5daf426635a5f1bad631823c08343e4db6135efd76eaf4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Full pinned README read, MIT; source only, no execution.",
           "lastAttemptAt": "2026-11-04T10:06:59.484646+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:59.484646+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://ootlebook.com/": {
           "url": "https://ootlebook.com/",
           "hash": "33a392cf35694b619c0dd8500b5fedd6d2c0379c5ca399a20ec185384d3af350",
           "attemptedAt": "2026-11-04T10:07:30.204809+00:00",
-          "evidence": "work/daily-2026-11-04/4132a413c03e6c5b-33a392cf35694b619c0dd8500b5fedd6d2c0379c5ca399a20ec185384d3af350.txt",
+          "evidence": "work/daily-2026-11-04/ootlebook-agents-nov4.txt",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:30.204809+00:00",
+          "lastAttemptAt": "2026-11-04T21:46:22.614Z",
           "lastSuccessfulReadAt": "2026-11-04T10:07:30.204809+00:00",
-          "status": "read"
+          "status": "blocked",
+          "error": "Site renders cached directory but explicitly reports chain connection failure and last read two days ago.",
+          "failureKind": "unavailable-content",
+          "nextAction": "Revisit after creator restores public chain mirror; preserve cached-page observation."
         },
         "https://x.com/ootlefan_alex/status/2117328083070206197": {
           "url": "https://x.com/ootlefan_alex/status/2117328083070206197",
-          "hash": "b7f967bb200b42385addbdf260a34db205cdf82618bec81da15a4e26e2d59ba3",
-          "attemptedAt": "2026-11-04T10:07:42.643501+00:00",
-          "evidence": "work/daily-2026-11-04/9c5c61dfb7ee2031-b7f967bb200b42385addbdf260a34db205cdf82618bec81da15a4e26e2d59ba3.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:42.643501+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:42.643501+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T21:48:28.515Z",
+          "hash": "472c35165be3ee9e90854ba84157174e092f6ecff92ea5aa2d9a938853a8d7d5",
+          "evidence": "work/daily-2026-11-04/ootlebook-x-thread-nov4.txt",
+          "complete": true,
+          "scope": "Original plus one direct and one nested reply read. Parent bug bounty independently queued.",
+          "lastAttemptAt": "2026-11-04T21:48:28.515Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:48:28.515Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/alex3000-ai/ootlebook#readme": {
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "url": "https://github.com/alex3000-ai/ootlebook#readme",
+          "attemptedAt": "2026-11-04T10:06:59.484646+00:00",
+          "hash": "f3fd650445d6b0982a5daf426635a5f1bad631823c08343e4db6135efd76eaf4",
+          "evidence": "work/daily-2026-11-04/aa43ad0740c69685-f3fd650445d6b0982a5daf426635a5f1bad631823c08343e4db6135efd76eaf4.txt",
+          "complete": true,
+          "scope": "Full pinned README read, MIT; source only, no execution.",
+          "lastAttemptAt": "2026-11-04T10:06:59.484646+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:59.484646+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/alex3000-ai/ootlebook/releases": {
+          "url": "https://github.com/alex3000-ai/ootlebook/releases",
+          "attemptedAt": "2026-11-04T10:06:59.205157+00:00",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "evidence": "work/daily-2026-11-04/7477f6cade0e1f9c-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "complete": true,
+          "scope": "Complete empty release listing, one page.",
+          "lastAttemptAt": "2026-11-04T10:06:59.205157+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:59.205157+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://ootlebook.com/skill.md": {
+          "lastAttemptAt": "2026-11-04T21:46:26.084Z",
+          "status": "blocked",
+          "error": "Direct HTTP403; browser ERR_BLOCKED_BY_CLIENT.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/ootlebook-skill-browser-failure-nov4.txt",
+          "nextAction": "Retain pinned source-generator review; revisit live manual after access recovery without bypass."
+        },
+        "https://github.com/alex3000-ai/ootlebook/blob/c4471697bbbc0aeb17a47470b685ce66074cfeeb/site/src/skill.ts": {
+          "url": "https://github.com/alex3000-ai/ootlebook/blob/c4471697bbbc0aeb17a47470b685ce66074cfeeb/site/src/skill.ts",
+          "attemptedAt": "2026-11-04T21:48:06.546Z",
+          "hash": "22413275719e764dc6b3971b4edace73acd81ab96697512874fbd0375c48e415",
+          "evidence": "work/daily-2026-11-04/ootlebook-source-manual-c447169.ts",
+          "complete": true,
+          "scope": "Complete creator manual generator read; no embedded instructions executed.",
+          "lastAttemptAt": "2026-11-04T21:48:06.546Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:48:06.546Z",
+          "status": "read",
+          "error": null
         }
       },
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
       "pendingReviewSources": [],
-      "blockedSources": [],
-      "changedSources": [
-        "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
+      "blockedSources": [
         "https://ootlebook.com/",
-        "https://x.com/ootlefan_alex/status/2117328083070206197"
+        "https://ootlebook.com/skill.md"
+      ],
+      "changedSources": [
+        "https://x.com/ootlefan_alex/status/2117328083070206197",
+        "https://github.com/alex3000-ai/ootlebook#readme",
+        "https://github.com/alex3000-ai/ootlebook/releases",
+        "https://github.com/alex3000-ai/ootlebook/blob/c4471697bbbc0aeb17a47470b685ce66074cfeeb/site/src/skill.ts"
       ],
       "changedFields": [
         "sourceEvidence"
@@ -20867,7 +21022,6 @@
         "provenance"
       ],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/507.json",
@@ -20896,6 +21050,10 @@
           "attemptedAt": "2026-11-04T10:07:42.643501+00:00",
           "httpStatus": 200
         }
+      ],
+      "lastAttemptObservation": "Site renders cached directory but explicitly reports chain connection failure and last read two days ago.",
+      "evidence": [
+        "work/daily-2026-11-04/ootlebook-review-outcome.json"
       ]
     },
     "project:dead-drop-davidjsourcing": {
@@ -23289,70 +23447,138 @@
         "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
         "https://github.com/alex3000-ai/ootlebook",
         "https://github.com/alex3000-ai/ootlebook#readme",
-        "https://ootlebook.com/"
+        "https://ootlebook.com/",
+        "https://x.com/ootlefan_alex/status/2117328083070206197",
+        "https://github.com/alex3000-ai/ootlebook/releases",
+        "https://ootlebook.com/skill.md",
+        "https://github.com/alex3000-ai/ootlebook/blob/c4471697bbbc0aeb17a47470b685ce66074cfeeb/site/src/skill.ts"
       ],
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "reviewed",
-      "reviewRequired": false,
-      "lastAttemptAt": "2026-10-31T14:00:56.589Z",
+      "outcome": "blocked",
+      "reviewRequired": true,
+      "lastAttemptAt": "2026-11-04T22:03:21.516Z",
       "sourceReviews": {
         "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1": {
           "url": "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
-          "hash": "dba123320440339fad6d2510f3d8853ad8af784da5a52ad30d2e5b42bb6e5401",
-          "attemptedAt": "2026-10-31T09:25:30.953686+00:00",
-          "evidence": "work/daily-2026-10-31/1e267faeb98b25a3.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:25:30.953686+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:25:30.953686+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T10:07:06.350227+00:00",
+          "hash": "c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67",
+          "evidence": "work/daily-2026-11-04/1e267faeb98b25a3-c24ff624d92e9fa4e79fbd5a65fc071dc8066557a1280483133bddb2f30eca67.txt",
+          "complete": true,
+          "scope": "Current original post, edits and relevant replies/reset notice read.",
+          "lastAttemptAt": "2026-11-04T10:07:06.350227+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:06.350227+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/alex3000-ai/ootlebook": {
           "url": "https://github.com/alex3000-ai/ootlebook",
+          "attemptedAt": "2026-11-04T10:06:59.484646+00:00",
           "hash": "f3fd650445d6b0982a5daf426635a5f1bad631823c08343e4db6135efd76eaf4",
-          "revision": "f17d1372ac3d1b1b87047077cf5f4e0eaac0bc02",
-          "attemptedAt": "2026-10-31T09:53:07.152877+00:00",
-          "evidence": "work/daily-2026-10-31/aa43ad0740c69685.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:53:07.152877+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:53:07.152877+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/aa43ad0740c69685-f3fd650445d6b0982a5daf426635a5f1bad631823c08343e4db6135efd76eaf4.txt",
+          "complete": true,
+          "scope": "Full pinned README read, MIT; source only, no execution.",
+          "lastAttemptAt": "2026-11-04T10:06:59.484646+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:59.484646+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/alex3000-ai/ootlebook#readme": {
           "url": "https://github.com/alex3000-ai/ootlebook#readme",
+          "attemptedAt": "2026-11-04T10:06:59.484646+00:00",
           "hash": "f3fd650445d6b0982a5daf426635a5f1bad631823c08343e4db6135efd76eaf4",
-          "revision": "f17d1372ac3d1b1b87047077cf5f4e0eaac0bc02",
-          "attemptedAt": "2026-10-31T09:53:07.152877+00:00",
-          "evidence": "work/daily-2026-10-31/aa43ad0740c69685.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:53:07.152877+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:53:07.152877+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/aa43ad0740c69685-f3fd650445d6b0982a5daf426635a5f1bad631823c08343e4db6135efd76eaf4.txt",
+          "complete": true,
+          "scope": "Full pinned README read, MIT; source only, no execution.",
+          "lastAttemptAt": "2026-11-04T10:06:59.484646+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:59.484646+00:00",
+          "status": "read",
+          "error": null
         },
         "https://ootlebook.com/": {
           "url": "https://ootlebook.com/",
           "hash": "ea53c020859c02976f3b0a939dc9e1adb563def1daf188a0d10d665c490a50a5",
           "attemptedAt": "2026-10-31T14:00:56.589Z",
-          "evidence": "work/daily-2026-10-31/ootlebook-browser.txt",
+          "evidence": "work/daily-2026-11-04/ootlebook-agents-nov4.txt",
           "method": "Browser page and visible public content reviewed without wallet actions.",
-          "lastAttemptAt": "2026-10-31T14:00:56.589Z",
+          "lastAttemptAt": "2026-11-04T21:46:22.614Z",
           "lastSuccessfulReadAt": "2026-10-31T14:00:56.589Z",
-          "status": "read"
+          "status": "blocked",
+          "error": "Site renders cached directory but explicitly reports chain connection failure and last read two days ago.",
+          "failureKind": "unavailable-content",
+          "nextAction": "Revisit after creator restores public chain mirror; preserve cached-page observation."
+        },
+        "https://x.com/ootlefan_alex/status/2117328083070206197": {
+          "url": "https://x.com/ootlefan_alex/status/2117328083070206197",
+          "attemptedAt": "2026-11-04T21:48:28.515Z",
+          "hash": "472c35165be3ee9e90854ba84157174e092f6ecff92ea5aa2d9a938853a8d7d5",
+          "evidence": "work/daily-2026-11-04/ootlebook-x-thread-nov4.txt",
+          "complete": true,
+          "scope": "Original plus one direct and one nested reply read. Parent bug bounty independently queued.",
+          "lastAttemptAt": "2026-11-04T21:48:28.515Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:48:28.515Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/alex3000-ai/ootlebook/releases": {
+          "url": "https://github.com/alex3000-ai/ootlebook/releases",
+          "attemptedAt": "2026-11-04T10:06:59.205157+00:00",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "evidence": "work/daily-2026-11-04/7477f6cade0e1f9c-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "complete": true,
+          "scope": "Complete empty release listing, one page.",
+          "lastAttemptAt": "2026-11-04T10:06:59.205157+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:59.205157+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://ootlebook.com/skill.md": {
+          "lastAttemptAt": "2026-11-04T21:46:26.084Z",
+          "status": "blocked",
+          "error": "Direct HTTP403; browser ERR_BLOCKED_BY_CLIENT.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/ootlebook-skill-browser-failure-nov4.txt",
+          "nextAction": "Retain pinned source-generator review; revisit live manual after access recovery without bypass."
+        },
+        "https://github.com/alex3000-ai/ootlebook/blob/c4471697bbbc0aeb17a47470b685ce66074cfeeb/site/src/skill.ts": {
+          "url": "https://github.com/alex3000-ai/ootlebook/blob/c4471697bbbc0aeb17a47470b685ce66074cfeeb/site/src/skill.ts",
+          "attemptedAt": "2026-11-04T21:48:06.546Z",
+          "hash": "22413275719e764dc6b3971b4edace73acd81ab96697512874fbd0375c48e415",
+          "evidence": "work/daily-2026-11-04/ootlebook-source-manual-c447169.ts",
+          "complete": true,
+          "scope": "Complete creator manual generator read; no embedded instructions executed.",
+          "lastAttemptAt": "2026-11-04T21:48:06.546Z",
+          "lastSuccessfulReadAt": "2026-11-04T21:48:06.546Z",
+          "status": "read",
+          "error": null
         }
       },
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
       "pendingReviewSources": [],
-      "blockedSources": [],
+      "blockedSources": [
+        "https://ootlebook.com/",
+        "https://ootlebook.com/skill.md"
+      ],
       "changedSources": [
         "https://community.tari.com/t/ootlebook-multiplayer-expierience-for-ai/507/1",
-        "https://github.com/alex3000-ai/ootlebook",
-        "https://github.com/alex3000-ai/ootlebook#readme",
-        "https://ootlebook.com/"
+        "https://x.com/ootlefan_alex/status/2117328083070206197",
+        "https://github.com/alex3000-ai/ootlebook/releases",
+        "https://github.com/alex3000-ai/ootlebook/blob/c4471697bbbc0aeb17a47470b685ce66074cfeeb/site/src/skill.ts"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [],
-      "nextReviewAt": "2026-11-01T09:00:00Z"
+      "reviewQueue": [
+        "copy",
+        "actions",
+        "details",
+        "recording",
+        "provenance"
+      ],
+      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "lastAttemptObservation": "Site renders cached directory but explicitly reports chain connection failure and last read two days ago.",
+      "evidence": [
+        "work/daily-2026-11-04/ootlebook-review-outcome.json"
+      ]
     },
     "tari-ootle:component:hexcrow": {
       "id": "tari-ootle:component:hexcrow",
@@ -23617,52 +23843,47 @@
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/8",
         "https://medium.com/@penielgold/two-layers-two-jobs-how-minotari-and-ootle-work-together-to-make-tari-programmable-d8dd08334f2b"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "lastSuccessfulReviewAt": "2026-10-31T15:08:56.508147+00:00",
-      "outcome": "pending",
-      "reviewRequired": true,
+      "lastAttemptAt": "2026-11-04T22:02:44.219Z",
+      "lastSuccessfulReviewAt": "2026-11-04T22:02:44.219Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "observedAvailability": "October31 full creator article and original forum announcement/replies read; documentation resource, not an integration.",
+      "observedAvailability": "Full article and empty Medium response panel reviewed. Distinguishes L1 registration/epoch timing from separate HotStuff execution; original author AI-assistance disclosure retained.",
       "sourceReviews": {
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/8": {
           "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/8",
-          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Full article and empty Medium response panel reviewed. Distinguishes L1 registration/epoch timing from separate HotStuff execution; original author AI-assistance disclosure retained.",
           "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://medium.com/@penielgold/two-layers-two-jobs-how-minotari-and-ootle-work-together-to-make-tari-programmable-d8dd08334f2b": {
           "url": "https://medium.com/@penielgold/two-layers-two-jobs-how-minotari-and-ootle-work-together-to-make-tari-programmable-d8dd08334f2b",
-          "status": "pending",
-          "lastAttemptAt": "2026-10-31T15:08:56.508147+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T15:08:56.508147+00:00",
-          "evidence": "work/daily-2026-10-31/two-layers-medium-current.txt",
-          "hash": "f4c23eeb21d120682c714750351fb502327bc859d0fd005fbabf93774bc059d7",
-          "pendingReason": "HTTP reader failed; supported browser fallback pending"
+          "attemptedAt": "2026-11-04T22:00:42.574Z",
+          "hash": "025842dc3a36373ba318260770fbddf4ff24931478da58519e3350598bed957a",
+          "evidence": "work/daily-2026-11-04/penielgold-two-layers-medium-nov4.txt",
+          "complete": true,
+          "scope": "Full article and empty Medium response panel reviewed. Distinguishes L1 registration/epoch timing from separate HotStuff execution; original author AI-assistance disclosure retained.",
+          "lastAttemptAt": "2026-11-04T22:00:42.574Z",
+          "lastSuccessfulReadAt": "2026-11-04T22:00:42.574Z",
+          "status": "read",
+          "error": null
         }
       },
       "blockedSources": [],
-      "pendingReviewSources": [
-        "https://medium.com/@penielgold/two-layers-two-jobs-how-minotari-and-ootle-work-together-to-make-tari-programmable-d8dd08334f2b"
-      ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "pendingReviewSources": [],
+      "reviewQueue": [],
       "changedSources": [
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/8"
+        "https://medium.com/@penielgold/two-layers-two-jobs-how-minotari-and-ootle-work-together-to-make-tari-programmable-d8dd08334f2b"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/503.json",
@@ -23675,6 +23896,9 @@
           "attemptedAt": "2026-11-04T10:07:29.084287+00:00",
           "error": "HTTP Error 403: Forbidden"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/two-layers-review-outcome.json"
       ]
     },
     "tari-ootle:learn:turbine-explainer": {
@@ -23682,55 +23906,63 @@
       "title": "Ootle Turbine fee burn explained",
       "sources": [
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
-        "https://www.reddit.com/r/tari/comments/1xj9m3e/ootles_turbine_burn_read_from_the_docs_the/"
+        "https://www.reddit.com/r/tari/comments/1xj9m3e/ootles_turbine_burn_read_from_the_docs_the/",
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "lastSuccessfulReviewAt": "2026-10-31T15:08:56.508147+00:00",
-      "outcome": "pending",
-      "reviewRequired": true,
+      "lastAttemptAt": "2026-11-04T22:02:44.219Z",
+      "lastSuccessfulReviewAt": "2026-11-04T22:02:44.219Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "observedAvailability": "October31 full creator article and original forum announcement/replies read; documentation resource, not an integration.",
+      "observedAvailability": "Full original Reddit article, zero comments; forum503/4 plus creator update503/17 read. Fixed5%floor burn description matches current official documentation. Its25microtari substate example is outdated relative to Nov4 Fees reference250microtari, with publication additionally charged for storage and compilation; dated correction required.",
       "sourceReviews": {
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4": {
           "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
-          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Full original Reddit article, zero comments; forum503/4 plus creator update503/17 read. Fixed5%floor burn description matches current official documentation. Its25microtari substate example is outdated relative to Nov4 Fees reference250microtari, with publication additionally charged for storage and compilation; dated correction required.",
           "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://www.reddit.com/r/tari/comments/1xj9m3e/ootles_turbine_burn_read_from_the_docs_the/": {
           "url": "https://www.reddit.com/r/tari/comments/1xj9m3e/ootles_turbine_burn_read_from_the_docs_the/",
-          "hash": "1fbe2ccb44fdc2e6974c79d260743ec99b6f8677eb70c59c5765ba10e7e8cd9b",
-          "attemptedAt": "2026-11-04T10:07:36.344629+00:00",
-          "evidence": "work/daily-2026-11-04/7474db77a953cdb5-1fbe2ccb44fdc2e6974c79d260743ec99b6f8677eb70c59c5765ba10e7e8cd9b.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:36.344629+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:36.344629+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T22:00:51.380Z",
+          "hash": "ba99d25ccaa8c38548746916769948016f920396fba0fb9f4100105bf4b4298e",
+          "evidence": "work/daily-2026-11-04/turbine-reddit-nov4.txt",
+          "complete": true,
+          "scope": "Full original Reddit article, zero comments; forum503/4 plus creator update503/17 read. Fixed5%floor burn description matches current official documentation. Its25microtari substate example is outdated relative to Nov4 Fees reference250microtari, with publication additionally charged for storage and compilation; dated correction required.",
+          "lastAttemptAt": "2026-11-04T22:00:51.380Z",
+          "lastSuccessfulReadAt": "2026-11-04T22:00:51.380Z",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17": {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+          "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
+          "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
+          "complete": true,
+          "scope": "Full original Reddit article, zero comments; forum503/4 plus creator update503/17 read. Fixed5%floor burn description matches current official documentation. Its25microtari substate example is outdated relative to Nov4 Fees reference250microtari, with publication additionally charged for storage and compilation; dated correction required.",
+          "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
+          "status": "read",
+          "error": null
         }
       },
       "blockedSources": [],
       "pendingReviewSources": [],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "changedSources": [
         "https://www.reddit.com/r/tari/comments/1xj9m3e/ootles_turbine_burn_read_from_the_docs_the/",
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4"
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://www.reddit.com/r/tari/comments/1xj9m3e/ootles_turbine_burn_read_from_the_docs_the/",
@@ -23745,6 +23977,9 @@
           "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/turbine-explainer-review-outcome.json"
       ]
     },
     "tari-ootle:learn:sharding-explainer": {
@@ -23752,55 +23987,63 @@
       "title": "Ootle shards and committees explained",
       "sources": [
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
-        "https://www.reddit.com/r/tari/comments/1xj9tss/how_ootle_splits_the_work_256_shards_40validator/"
+        "https://www.reddit.com/r/tari/comments/1xj9tss/how_ootle_splits_the_work_256_shards_40validator/",
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "lastSuccessfulReviewAt": "2026-10-31T15:08:56.508147+00:00",
-      "outcome": "pending",
-      "reviewRequired": true,
+      "lastAttemptAt": "2026-11-04T22:02:44.219Z",
+      "lastSuccessfulReviewAt": "2026-11-04T22:02:44.219Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "observedAvailability": "October31 full creator article and original forum announcement/replies read; documentation resource, not an integration.",
+      "observedAvailability": "Full Reddit original, zero comments; forum503/4 plus creator update503/17 read. Current Architecture/Consensus supporting sections checked for256shards,40validator committee and27vote quorum; no runtime throughput certification.",
       "sourceReviews": {
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4": {
           "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
-          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Full Reddit original, zero comments; forum503/4 plus creator update503/17 read. Current Architecture/Consensus supporting sections checked for256shards,40validator committee and27vote quorum; no runtime throughput certification.",
           "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://www.reddit.com/r/tari/comments/1xj9tss/how_ootle_splits_the_work_256_shards_40validator/": {
           "url": "https://www.reddit.com/r/tari/comments/1xj9tss/how_ootle_splits_the_work_256_shards_40validator/",
-          "hash": "573dc144db9a05e17445af06a0e62e17ea79c2e32757855cae94272de4eade70",
-          "attemptedAt": "2026-11-04T10:07:36.425538+00:00",
-          "evidence": "work/daily-2026-11-04/9eae0973b8900ef5-573dc144db9a05e17445af06a0e62e17ea79c2e32757855cae94272de4eade70.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:36.425538+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:36.425538+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T22:00:55.823Z",
+          "hash": "08aed405603451666632593a62adcd88113dfb083b49794658c2fde1b47b68f6",
+          "evidence": "work/daily-2026-11-04/sharding-reddit-nov4.txt",
+          "complete": true,
+          "scope": "Full Reddit original, zero comments; forum503/4 plus creator update503/17 read. Current Architecture/Consensus supporting sections checked for256shards,40validator committee and27vote quorum; no runtime throughput certification.",
+          "lastAttemptAt": "2026-11-04T22:00:55.823Z",
+          "lastSuccessfulReadAt": "2026-11-04T22:00:55.823Z",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17": {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+          "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
+          "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
+          "complete": true,
+          "scope": "Full Reddit original, zero comments; forum503/4 plus creator update503/17 read. Current Architecture/Consensus supporting sections checked for256shards,40validator committee and27vote quorum; no runtime throughput certification.",
+          "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
+          "status": "read",
+          "error": null
         }
       },
       "blockedSources": [],
       "pendingReviewSources": [],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "changedSources": [
         "https://www.reddit.com/r/tari/comments/1xj9tss/how_ootle_splits_the_work_256_shards_40validator/",
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4"
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://www.reddit.com/r/tari/comments/1xj9tss/how_ootle_splits_the_work_256_shards_40validator/",
@@ -23815,6 +24058,9 @@
           "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/sharding-explainer-review-outcome.json"
       ]
     },
     "tari-ootle:learn:nyam-mining": {
@@ -23824,53 +24070,47 @@
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/6",
         "https://paragraph.com/@nyam/four-lanes-one-chain-what-taris-c29-incident-teaches-about"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "lastSuccessfulReviewAt": "2026-10-31T15:08:56.508147+00:00",
-      "outcome": "pending",
-      "reviewRequired": true,
+      "lastAttemptAt": "2026-11-04T22:02:44.219Z",
+      "lastSuccessfulReviewAt": "2026-11-04T22:02:44.219Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "observedAvailability": "October31 full creator article and original forum announcement/replies read; documentation resource, not an integration.",
+      "observedAvailability": "Complete Paragraph article read. No comment section exposed. Original forum503/6 and official September26 C29 incident report read; current software recommendation must remain dated to the article, not represented as current installation guidance.",
       "sourceReviews": {
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/6": {
           "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/6",
-          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Complete Paragraph article read. No comment section exposed. Original forum503/6 and official September26 C29 incident report read; current software recommendation must remain dated to the article, not represented as current installation guidance.",
           "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://paragraph.com/@nyam/four-lanes-one-chain-what-taris-c29-incident-teaches-about": {
           "url": "https://paragraph.com/@nyam/four-lanes-one-chain-what-taris-c29-incident-teaches-about",
-          "hash": "102458b561eb31ab223bbbabd66b0d2fb109825dc3388f8d22f627bbb82d9ad0",
-          "attemptedAt": "2026-11-04T10:07:33.248212+00:00",
-          "evidence": "work/daily-2026-11-04/38dbc4904da9f856-102458b561eb31ab223bbbabd66b0d2fb109825dc3388f8d22f627bbb82d9ad0.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:33.248212+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:33.248212+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T22:01:01.601Z",
+          "hash": "30f7404cc91b4833419816811183a34fe5516f1161d9fb7a90ed76d8934ffa7f",
+          "evidence": "work/daily-2026-11-04/nyam-mining-paragraph-nov4.txt",
+          "complete": true,
+          "scope": "Complete Paragraph article read. No comment section exposed. Original forum503/6 and official September26 C29 incident report read; current software recommendation must remain dated to the article, not represented as current installation guidance.",
+          "lastAttemptAt": "2026-11-04T22:01:01.601Z",
+          "lastSuccessfulReadAt": "2026-11-04T22:01:01.601Z",
+          "status": "read",
+          "error": null
         }
       },
       "blockedSources": [],
       "pendingReviewSources": [],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "changedSources": [
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/6",
         "https://paragraph.com/@nyam/four-lanes-one-chain-what-taris-c29-incident-teaches-about"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/503.json",
@@ -23885,6 +24125,9 @@
           "attemptedAt": "2026-11-04T10:07:33.248212+00:00",
           "httpStatus": 200
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/nyam-mining-review-outcome.json"
       ]
     },
     "tari-ootle:learn:local-ai-gpu": {
@@ -25843,53 +26086,47 @@
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
         "https://medium.com/@isahjaafar12/-8cbde86c94e3"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T22:02:44.219Z",
       "sourceReviews": {
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13": {
           "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
-          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Full article and empty Medium response panel reviewed. Official architecture links inspected; independent educational article, not an execution or adoption guarantee.",
           "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://medium.com/@isahjaafar12/-8cbde86c94e3": {
           "url": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
-          "hash": "8e2f4aa88eb72db7f1b4268e69a1024d8fb6fa360e83a5fe7c505682849da2b8",
-          "attemptedAt": "2026-11-04T10:07:29.841861+00:00",
-          "evidence": "work/daily-2026-11-04/81145f2206ca700e-8e2f4aa88eb72db7f1b4268e69a1024d8fb6fa360e83a5fe7c505682849da2b8.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:29.841861+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:29.841861+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T22:00:33.667Z",
+          "hash": "1236485be42ceee05e92e568aeafcb035ed702b94c93c666ee82a1f5cd8342a3",
+          "evidence": "work/daily-2026-11-04/kurarmota-medium-nov4.txt",
+          "complete": true,
+          "scope": "Full article and empty Medium response panel reviewed. Official architecture links inspected; independent educational article, not an execution or adoption guarantee.",
+          "lastAttemptAt": "2026-11-04T22:00:33.667Z",
+          "lastSuccessfulReadAt": "2026-11-04T22:00:33.667Z",
+          "status": "read",
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-03T00:18:11.825Z",
-      "observedAvailability": "Public community article",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-04T22:02:44.219Z",
+      "observedAvailability": "Full article and empty Medium response panel reviewed. Official architecture links inspected; independent educational article, not an execution or adoption guarantee.",
+      "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
         "https://medium.com/@isahjaafar12/-8cbde86c94e3"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/503.json",
@@ -25904,6 +26141,9 @@
           "attemptedAt": "2026-11-04T10:07:29.841861+00:00",
           "httpStatus": 200
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/kurarmota-two-layer-architecture-review-outcome.json"
       ]
     },
     "tari-ootle:learn:habib-four-lanes": {
@@ -25914,67 +26154,60 @@
         "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16",
         "https://www.reddit.com/r/tari/comments/1xm1fa0/why_does_tari_need_four_mining_algorithms_a/"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T22:02:44.219Z",
       "sourceReviews": {
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16": {
           "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16",
-          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "attemptedAt": "2026-11-04T10:07:06.651837+00:00",
+          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
           "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "complete": true,
+          "scope": "Full Medium article, empty responses, Reddit adaptation and its single MiniPurpe comment reviewed. The article cites a90block LWMA window; the official September26 incident report says the45block window shipped at block350000. Preserve that material correction in dated Details; historical Nov2 explorer figures are author observations.",
           "lastAttemptAt": "2026-11-04T10:07:06.651837+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.651837+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16": {
           "url": "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16",
-          "hash": "016d1759b13f60a7381596d6f633a9ae47d5ca5b345547b83d409cb621063ba4",
-          "attemptedAt": "2026-11-02T23:48:39.949Z",
-          "evidence": [
-            "work/daily-2026-10-31/habib-four-lanes-medium-nov2.txt",
-            "work/daily-2026-10-31/habib-four-lanes-responses-nov2.txt"
-          ],
-          "method": "Saved supported CUA full public article and response panel, reviewed for source accuracy",
-          "lastAttemptAt": "2026-11-02T23:48:39.949Z",
-          "lastSuccessfulReadAt": "2026-11-02T23:48:39.949Z",
-          "status": "pending",
-          "pendingReason": "HTTP reader failed; supported browser fallback pending"
+          "attemptedAt": "2026-11-04T22:00:14.530Z",
+          "hash": "c9d9b0a52299cb5125d14f8347131926ddf7357d58ebf7fff76b9bf8acff03d2",
+          "evidence": "work/daily-2026-11-04/habib-medium-nov4.txt",
+          "complete": true,
+          "scope": "Full Medium article, empty responses, Reddit adaptation and its single MiniPurpe comment reviewed. The article cites a90block LWMA window; the official September26 incident report says the45block window shipped at block350000. Preserve that material correction in dated Details; historical Nov2 explorer figures are author observations.",
+          "lastAttemptAt": "2026-11-04T22:00:14.530Z",
+          "lastSuccessfulReadAt": "2026-11-04T22:00:14.530Z",
+          "status": "read",
+          "error": null
         },
         "https://www.reddit.com/r/tari/comments/1xm1fa0/why_does_tari_need_four_mining_algorithms_a/": {
           "url": "https://www.reddit.com/r/tari/comments/1xm1fa0/why_does_tari_need_four_mining_algorithms_a/",
-          "hash": "f9cdd08b9d3f4d2395ce428bb8f53366c00ac121726573a02835de9513c72cd4",
-          "attemptedAt": "2026-11-04T10:07:36.505607+00:00",
-          "evidence": "work/daily-2026-11-04/c50611683d5d6bb0-f9cdd08b9d3f4d2395ce428bb8f53366c00ac121726573a02835de9513c72cd4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:36.505607+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:36.505607+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T22:00:24.370Z",
+          "hash": "a4d52e4ce9657d149c0f36f7c626908e4ae20816c66ff0e09840e6ea5f582ec8",
+          "evidence": "work/daily-2026-11-04/habib-reddit-nov4.txt",
+          "complete": true,
+          "scope": "Full Medium article, empty responses, Reddit adaptation and its single MiniPurpe comment reviewed. The article cites a90block LWMA window; the official September26 incident report says the45block window shipped at block350000. Preserve that material correction in dated Details; historical Nov2 explorer figures are author observations.",
+          "lastAttemptAt": "2026-11-04T22:00:24.370Z",
+          "lastSuccessfulReadAt": "2026-11-04T22:00:24.370Z",
+          "status": "read",
+          "error": null
         }
       },
-      "outcome": "pending",
-      "pendingReviewSources": [
-        "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16"
-      ],
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/16",
+        "https://medium.com/@habibayomide/four-lanes-no-monoculture-how-taris-multi-lane-mining-works-and-why-it-matters-c0a8aed0ff16",
         "https://www.reddit.com/r/tari/comments/1xm1fa0/why_does_tari_need_four_mining_algorithms_a/"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "lastSuccessfulReviewAt": "2026-11-04T22:02:44.219Z",
+      "observedAvailability": "Full Medium article, empty responses, Reddit adaptation and its single MiniPurpe comment reviewed. The article cites a90block LWMA window; the official September26 incident report says the45block window shipped at block350000. Preserve that material correction in dated Details; historical Nov2 explorer figures are author observations.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/503.json",
@@ -25994,6 +26227,9 @@
           "attemptedAt": "2026-11-04T10:07:36.505607+00:00",
           "httpStatus": 200
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/habib-four-lanes-review-outcome.json"
       ]
     },
     "tari-ootle:component:rubic-swap-widget": {
