@@ -7424,10 +7424,10 @@
         "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
         "https://github.com/tari-project/wasm-template/pull/72"
       ],
-      "lastSuccessfulReviewAt": "2026-11-02T22:06:47.224Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T18:50:37.536Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T18:50:37.536Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
@@ -7435,87 +7435,133 @@
       "sourceReviews": {
         "https://ootle.tari.com/guides/build-a-guessing-game/": {
           "url": "https://ootle.tari.com/guides/build-a-guessing-game/",
+          "file": "4b629bf5f3a9bef1-1bfbd16c2b49c811217b9d6ab8b89b7f6fd0dc6bb9afc3ef08f9540bf93f7441.txt",
           "hash": "1bfbd16c2b49c811217b9d6ab8b89b7f6fd0dc6bb9afc3ef08f9540bf93f7441",
           "attemptedAt": "2026-11-04T10:07:30.002157+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://ootle.tari.com/guides/build-a-guessing-game/",
+          "kind": "web",
+          "complete": false,
           "evidence": "work/daily-2026-11-04/4b629bf5f3a9bef1-1bfbd16c2b49c811217b9d6ab8b89b7f6fd0dc6bb9afc3ef08f9540bf93f7441.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:30.002157+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:30.002157+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/tari-project/wasm-template": {
           "url": "https://github.com/tari-project/wasm-template",
+          "file": "9a82ee9b152a4e8f-bc337cf273385ec5345f80a5873ef8b79afc2748f7bf28a81dcbe9e6946fe99d.txt",
           "hash": "bc337cf273385ec5345f80a5873ef8b79afc2748f7bf28a81dcbe9e6946fe99d",
-          "revision": "a28279252208582a36ede5cc007c252686857983",
           "attemptedAt": "2026-11-04T10:09:37.934502+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/tari-project/wasm-template/releases",
+            "file": "0d9a9949dd4e2e35-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:09:37.664680+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "a28279252208582a36ede5cc007c252686857983",
+          "readmeSha": "026d761fe1adaeba7ae53df7e5597bb6c0f86015",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "README.md",
+            "examples",
+            "project_templates",
+            "scripts",
+            "wasm_templates"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "https://github.com/tari-project/tari-cli"
+          ],
           "evidence": "work/daily-2026-11-04/9a82ee9b152a4e8f-bc337cf273385ec5345f80a5873ef8b79afc2748f7bf28a81dcbe9e6946fe99d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:09:37.934502+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:37.934502+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h": {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h",
-          "hash": "528ffb02bcfd5e788fe85c7d7a9f2ba48a38135512998eda07f0ff41df785973",
-          "attemptedAt": "2026-11-04T10:07:26.224446+00:00",
-          "evidence": "work/daily-2026-11-04/cd9b3529c590903c-528ffb02bcfd5e788fe85c7d7a9f2ba48a38135512998eda07f0ff41df785973.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.224446+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.224446+00:00",
-          "status": "read"
+          "file": "cd9b3529c590903c-e8bd66b2397ee3dc4832a33bd68c37f604fa08a65af03aabc7666e02ede7e080.txt",
+          "hash": "e8bd66b2397ee3dc4832a33bd68c37f604fa08a65af03aabc7666e02ede7e080",
+          "attemptedAt": "2026-11-04T10:06:52.433887+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Ftariproject.bsky.social%2Fapp.bsky.feed.post%2F3mxbx4cmymf2h&depth=100&parentHeight=100",
+          "evidence": "work/daily-2026-11-04/cd9b3529c590903c-e8bd66b2397ee3dc4832a33bd68c37f604fa08a65af03aabc7666e02ede7e080.txt",
+          "lastAttemptAt": "2026-11-04T10:06:52.433887+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:52.433887+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/tari-project/wasm-template/releases": {
           "url": "https://github.com/tari-project/wasm-template/releases",
+          "file": "0d9a9949dd4e2e35-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
           "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-          "attemptedAt": "2026-11-02T20:56:15.816895+00:00",
-          "evidence": "work/daily-2026-10-31/0d9a9949dd4e2e35-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
-          "method": "Public source content reviewed; source curation, not runtime certification.",
-          "lastAttemptAt": "2026-11-02T20:56:15.816895+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T20:56:15.816895+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T10:09:37.664680+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/0d9a9949dd4e2e35-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-04T10:09:37.664680+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:09:37.664680+00:00",
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c": {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
-          "hash": "4c70f35f4e5aba81008129b906623d1527047f7a196b46558905b57b1026d26e",
-          "attemptedAt": "2026-11-04T10:07:26.456395+00:00",
-          "evidence": "work/daily-2026-11-04/94268e4f91ed6ff4-4c70f35f4e5aba81008129b906623d1527047f7a196b46558905b57b1026d26e.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.456395+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.456395+00:00",
-          "status": "read"
+          "file": "94268e4f91ed6ff4-af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6.txt",
+          "hash": "af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6",
+          "attemptedAt": "2026-11-04T10:06:54.928415+00:00",
+          "httpStatus": 200,
+          "kind": "social-thread",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Ftariproject.bsky.social%2Fapp.bsky.feed.post%2F3my7vzljz7r2c&depth=100&parentHeight=100",
+          "evidence": "work/daily-2026-11-04/94268e4f91ed6ff4-af28595a0189d3499b7aaab42ef96f60d496b674b8ad07fe0464482d06878be6.txt",
+          "lastAttemptAt": "2026-11-04T10:06:54.928415+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:54.928415+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/tari-project/wasm-template/pull/72": {
           "url": "https://github.com/tari-project/wasm-template/pull/72",
-          "hash": "c9c62c1f9b4aad3569511bd581acfc04b80fd3c2c07f8565f3d575474b02c1fe",
-          "attemptedAt": "2026-11-02T21:45:05.759270+00:00",
-          "evidence": "work/daily-2026-10-31/e0849f27b2801e9d-c9c62c1f9b4aad3569511bd581acfc04b80fd3c2c07f8565f3d575474b02c1fe.txt",
-          "method": "Public source content reviewed; source curation, not runtime certification.",
-          "lastAttemptAt": "2026-11-02T21:45:05.759270+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T21:45:05.759270+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "file": "de04cf937dda042a-d01fb12fad8d030f49f10b7ece4c88f3f7b1880a699e8bcd738c77e51f4546b3.txt",
+          "hash": "d01fb12fad8d030f49f10b7ece4c88f3f7b1880a699e8bcd738c77e51f4546b3",
+          "attemptedAt": "2026-11-04T18:45:41.913056+00:00",
+          "kind": "primary-github",
+          "evidence": "work/daily-2026-11-04/de04cf937dda042a-d01fb12fad8d030f49f10b7ece4c88f3f7b1880a699e8bcd738c77e51f4546b3.txt",
+          "lastAttemptAt": "2026-11-04T18:45:41.913056+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T18:45:41.913056+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/tari-project/tari-cli/releases/tag/v0.34.1": {
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "url": "https://github.com/tari-project/tari-cli/releases/tag/v0.34.1",
+          "file": "b37f9801cff38a97-d4d21fb8c6a8bdc5174bee702e3a919f29473d9112a0497d2ca47194e4dc82eb.txt",
+          "hash": "d4d21fb8c6a8bdc5174bee702e3a919f29473d9112a0497d2ca47194e4dc82eb",
+          "attemptedAt": "2026-11-04T18:45:42.457996+00:00",
+          "kind": "primary-github",
+          "evidence": "work/daily-2026-11-04/b37f9801cff38a97-d4d21fb8c6a8bdc5174bee702e3a919f29473d9112a0497d2ca47194e4dc82eb.txt",
+          "lastAttemptAt": "2026-11-04T18:45:42.457996+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T18:45:42.457996+00:00",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "Official repository and guide reachable. PR72 merged November 2 updates template library 0.37, test tooling 0.49 and proof authorization. Two retained Bluesky posts each have zero replies. No template execution claimed.",
+      "observedAvailability": "November 4: official template README and guide match previously accepted content; empty release inventory remains unchanged. Both retained official Bluesky posts and their zero-reply threads were read. Merged template PR 72 has zero issue/review comments and confirms lib 0.37, tooling 0.49 and build 0.17.1. CLI v0.34.1 release notes confirm Ootle 0.49.1/serde 0.6.2. Existing November 2 summary and announcement recording accurately describe this source state; no template execution is claimed.",
       "changedSources": [
         "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h",
-        "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c"
+        "https://bsky.app/profile/tariproject.bsky.social/post/3my7vzljz7r2c",
+        "https://github.com/tari-project/wasm-template/pull/72",
+        "https://github.com/tari-project/tari-cli/releases/tag/v0.34.1"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://ootle.tari.com/guides/build-a-guessing-game/",
         "https://github.com/tari-project/wasm-template",
@@ -7525,10 +7571,7 @@
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "reviewedSourceCount": 3,
-      "pendingReviewSources": [
-        "https://github.com/tari-project/wasm-template/pull/72",
-        "https://github.com/tari-project/wasm-template/releases"
-      ],
+      "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
       "reviewHistory": [
@@ -7568,7 +7611,6 @@
         }
       ],
       "publicationStatus": "pending",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mxbx4cmymf2h",
@@ -7598,6 +7640,9 @@
           "attemptedAt": "2026-11-04T10:07:30.002157+00:00",
           "httpStatus": 200
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/official-templates-review.json"
       ]
     },
     "project:official-universe": {
@@ -13266,63 +13311,161 @@
       "title": "Sealed Coffin",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12",
-        "https://github.com/mak777uh/sealed-coffin"
+        "https://github.com/mak777uh/sealed-coffin",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/mak777uh/sealed-coffin/releases",
+        "https://github.com/mak777uh/sealed-coffin#readme",
+        "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T18:56:35.544Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/mak777uh/sealed-coffin": {
           "url": "https://github.com/mak777uh/sealed-coffin",
+          "file": "4d86f112d616dbeb-2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27.txt",
           "hash": "2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27",
-          "revision": "a9bd4612fb7d32f080d6e43278beeec10191f316",
           "attemptedAt": "2026-11-04T10:07:10.133252+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/mak777uh/sealed-coffin/releases",
+            "file": "01f331793d300b8a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:09.867034+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "a9bd4612fb7d32f080d6e43278beeec10191f316",
+          "readmeSha": "6f8d9cd4b59f95e5ada87142bdc0f7531d3e48be",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "ANNOUNCE.md",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "SUBMISSION.md",
+            "rustfmt.toml",
+            "src",
+            "tests"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [],
           "evidence": "work/daily-2026-11-04/4d86f112d616dbeb-2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:10.133252+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:10.133252+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/": {
           "url": "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
           "hash": "efb843d7430299f8c092a526159a38e55c5345bbc7f2f42926c939da38c4c195",
           "attemptedAt": "2026-11-04T10:07:35.788529+00:00",
-          "evidence": "work/daily-2026-11-04/7dfb9a80f007d6c9-efb843d7430299f8c092a526159a38e55c5345bbc7f2f42926c939da38c4c195.txt",
+          "evidence": "work/daily-2026-11-04/sealed-coffin-reddit-browser.txt",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:35.788529+00:00",
+          "lastAttemptAt": "2026-11-04T18:56:35.544Z",
           "lastSuccessfulReadAt": "2026-11-04T10:07:35.788529+00:00",
-          "status": "read"
+          "status": "blocked",
+          "error": "Authenticated browser shows Sorry, this post was removed by Reddit filters. Post body unavailable; Comments explicitly has no responses.",
+          "failureKind": "unavailable-content",
+          "nextAction": "Revisit only for restored post or creator-documented replacement; use retained full public forum submission in the meantime."
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/mak777uh/sealed-coffin/releases": {
+          "url": "https://github.com/mak777uh/sealed-coffin/releases",
+          "file": "01f331793d300b8a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:07:09.867034+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/01f331793d300b8a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-04T10:07:09.867034+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:09.867034+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/mak777uh/sealed-coffin#readme": {
+          "url": "https://github.com/mak777uh/sealed-coffin#readme",
+          "file": "4d86f112d616dbeb-2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27.txt",
+          "hash": "2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27",
+          "attemptedAt": "2026-11-04T10:07:10.133252+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/mak777uh/sealed-coffin/releases",
+            "file": "01f331793d300b8a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:09.867034+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "a9bd4612fb7d32f080d6e43278beeec10191f316",
+          "readmeSha": "6f8d9cd4b59f95e5ada87142bdc0f7531d3e48be",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "ANNOUNCE.md",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "SUBMISSION.md",
+            "rustfmt.toml",
+            "src",
+            "tests"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [],
+          "evidence": "work/daily-2026-11-04/4d86f112d616dbeb-2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27.txt",
+          "lastAttemptAt": "2026-11-04T10:07:10.133252+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:10.133252+00:00",
+          "status": "read",
+          "error": null
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12",
-        "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/mak777uh/sealed-coffin/releases",
+        "https://github.com/mak777uh/sealed-coffin#readme"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -13347,8 +13490,9 @@
       "reviewedSourceCount": 2,
       "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/"
+      ],
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -13376,7 +13520,11 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
-      ]
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/sealed-coffin-review.json"
+      ],
+      "partialMaterial": "November 4: full forum submission and organizer reset notice read; all 41 current thread posts present, no direct reply to submission 12. Complete current README remains a9bd4612fb7d32f080d6e43278beeec10191f316; no releases or public demo/homepage link in these sources. Source-only second-price auction, equal deposits, reveal-forfeit rule, one-time refund keys and off-chain lot remain accurately labeled. Reddit original remains filter-removed, with zero comments. No runtime testing or wallet actions."
     },
     "tari-ootle:integration:sealed-coffin": {
       "id": "tari-ootle:integration:sealed-coffin",
@@ -13385,75 +13533,158 @@
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12",
         "https://github.com/mak777uh/sealed-coffin",
         "https://github.com/mak777uh/sealed-coffin#readme",
-        "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/"
+        "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/mak777uh/sealed-coffin/releases"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T18:56:35.544Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/mak777uh/sealed-coffin": {
           "url": "https://github.com/mak777uh/sealed-coffin",
+          "file": "4d86f112d616dbeb-2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27.txt",
           "hash": "2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27",
-          "revision": "a9bd4612fb7d32f080d6e43278beeec10191f316",
           "attemptedAt": "2026-11-04T10:07:10.133252+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/mak777uh/sealed-coffin/releases",
+            "file": "01f331793d300b8a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:09.867034+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "a9bd4612fb7d32f080d6e43278beeec10191f316",
+          "readmeSha": "6f8d9cd4b59f95e5ada87142bdc0f7531d3e48be",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "ANNOUNCE.md",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "SUBMISSION.md",
+            "rustfmt.toml",
+            "src",
+            "tests"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [],
           "evidence": "work/daily-2026-11-04/4d86f112d616dbeb-2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:10.133252+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:10.133252+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/": {
           "url": "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
           "hash": "efb843d7430299f8c092a526159a38e55c5345bbc7f2f42926c939da38c4c195",
           "attemptedAt": "2026-11-04T10:07:35.788529+00:00",
-          "evidence": "work/daily-2026-11-04/7dfb9a80f007d6c9-efb843d7430299f8c092a526159a38e55c5345bbc7f2f42926c939da38c4c195.txt",
+          "evidence": "work/daily-2026-11-04/sealed-coffin-reddit-browser.txt",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:35.788529+00:00",
+          "lastAttemptAt": "2026-11-04T18:56:35.544Z",
           "lastSuccessfulReadAt": "2026-11-04T10:07:35.788529+00:00",
-          "status": "read"
+          "status": "blocked",
+          "error": "Authenticated browser shows Sorry, this post was removed by Reddit filters. Post body unavailable; Comments explicitly has no responses.",
+          "failureKind": "unavailable-content",
+          "nextAction": "Revisit only for restored post or creator-documented replacement; use retained full public forum submission in the meantime."
         },
         "https://github.com/mak777uh/sealed-coffin#readme": {
           "url": "https://github.com/mak777uh/sealed-coffin#readme",
+          "file": "4d86f112d616dbeb-2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27.txt",
           "hash": "2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27",
+          "attemptedAt": "2026-11-04T10:07:10.133252+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/mak777uh/sealed-coffin/releases",
+            "file": "01f331793d300b8a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:07:09.867034+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
           "revision": "a9bd4612fb7d32f080d6e43278beeec10191f316",
-          "attemptedAt": "2026-10-31T09:03:08.148691+00:00",
-          "evidence": "work/daily-2026-10-31/4d86f112d616dbeb.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:08.148691+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:08.148691+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "readmeSha": "6f8d9cd4b59f95e5ada87142bdc0f7531d3e48be",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "ANNOUNCE.md",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "SUBMISSION.md",
+            "rustfmt.toml",
+            "src",
+            "tests"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [],
+          "evidence": "work/daily-2026-11-04/4d86f112d616dbeb-2f1e6697eafd00bb55a6f87dc7c205f18b9eab09337e0d8594b3638f82039e27.txt",
+          "lastAttemptAt": "2026-11-04T10:07:10.133252+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:10.133252+00:00",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "file": "839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 41,
+          "title": "October Build Contest Thread: Spooky Secrets!",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/mak777uh/sealed-coffin/releases": {
+          "url": "https://github.com/mak777uh/sealed-coffin/releases",
+          "file": "01f331793d300b8a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:07:09.867034+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/01f331793d300b8a-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "lastAttemptAt": "2026-11-04T10:07:09.867034+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:09.867034+00:00",
+          "status": "read",
+          "error": null
         }
       },
       "lastSuccessfulReviewAt": "2026-10-20T14:28:48.138Z",
       "observedAvailability": "October 20: listed primary sources revisited with dated content digests, known forum posts/replies and repository metadata. Linked public availability was checked where observations show success. This is source curation, not a functional certification.",
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/12",
-        "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/mak777uh/sealed-coffin/releases"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -13477,12 +13708,11 @@
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": false,
       "reviewedSourceCount": 3,
-      "pendingReviewSources": [
-        "https://github.com/mak777uh/sealed-coffin#readme"
-      ],
+      "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/"
+      ],
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -13510,7 +13740,11 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
-      ]
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/sealed-coffin-review.json"
+      ],
+      "partialMaterial": "November 4: full forum submission and organizer reset notice read; all 41 current thread posts present, no direct reply to submission 12. Complete current README remains a9bd4612fb7d32f080d6e43278beeec10191f316; no releases or public demo/homepage link in these sources. Source-only second-price auction, equal deposits, reveal-forfeit rule, one-time refund keys and off-chain lot remain accurately labeled. Reddit original remains filter-removed, with zero comments. No runtime testing or wallet actions."
     },
     "tari:component:supportxtm-testnet-faucet": {
       "id": "tari:component:supportxtm-testnet-faucet",

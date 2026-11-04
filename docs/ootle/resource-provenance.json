@@ -4165,9 +4165,27 @@
       ],
       "originalPostStatus": "Public creator article and exact forum sharing post retained",
       "lastReviewedAt": "2026-11-04T13:14:54.974919+00:00"
+    },
+    {
+      "id": "tari-agent-pay",
+      "title": "Tari Agent Pay",
+      "projectUrl": "https://github.com/zvovanz-a1/tari-agent-pay",
+      "repositoryUrl": "https://github.com/zvovanz-a1/tari-agent-pay",
+      "discoveryUrl": "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/9",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/9",
+          "platform": "Tari Community forum",
+          "author": "Zvovanz",
+          "publishedAt": "2026-09-12T20:59:28.168Z",
+          "foundOn": "2026-11-04",
+          "context": "Creator announcement of agent payment gateway, approval queues and cosigned transfers",
+          "visibility": "public"
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-04T18:34:12.681701+00:00",
+  "updatedAt": "2026-11-04T18:44:12.584697+00:00",
   "publicExport": {
     "preparedAt": "2026-11-03T16:00:05.259492+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
