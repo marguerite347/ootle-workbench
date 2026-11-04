@@ -91,7 +91,7 @@ function runTests (browser: NightwatchBrowser) {
 
 function listSelectorContains (textsToFind: string[], selector: string, browser: NightwatchBrowser) {
   browser.execute(function (selector) {
-    const items = document.querySelectorAll(selector)
+    const items = document.querySelectorAll<HTMLElement>(selector)
     const ret = []
     for (let k = 0; k < items.length; k++) {
       ret.push(items[k].innerText)

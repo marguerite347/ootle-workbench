@@ -658,7 +658,7 @@ const test = {
         locateStrategy: 'xpath',
         timeout: 60000
       })
-      .executeAsync(function (convId, done) {
+      .executeAsync(function (convId: string, done: (result: boolean) => void) {
         const request = indexedDB.open('RemixAIChatHistory', 1)
         request.onerror = () => done(false)
         request.onsuccess = () => {
@@ -853,7 +853,7 @@ const test = {
     browser
       // Seed a conversation whose assistant messages have null / missing content
       // to simulate a corrupted or partially-written IndexedDB entry
-      .executeAsync(function (convId, done) {
+      .executeAsync(function (convId: string, done: (result: boolean) => void) {
         const request = indexedDB.open('RemixAIChatHistory', 1)
         request.onerror = () => done(false)
         request.onsuccess = () => {

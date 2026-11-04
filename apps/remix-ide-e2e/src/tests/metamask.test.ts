@@ -290,7 +290,7 @@ const tests = {
   }  // main network tests
   , 'Should connect to Ethereum Main Network using MetaMask': function (browser: NightwatchBrowser) {
     browser.waitForElementPresent('*[data-id="remixIdeSidePanel"]')
-      .execute((done) => {
+      .execute(() => {
         // @ts-ignore
         window.ethereum.request({
           method: 'wallet_switchEthereumChain',
