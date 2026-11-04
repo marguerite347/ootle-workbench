@@ -4112,6 +4112,61 @@
         "source": "Announcement"
       },
       "lastAttemptAt": "2026-11-04T15:12:49.349414+00:00"
+    },
+    {
+      "id": "tari-ootle:learn:rajesh-confidential-stealth",
+      "key": "rajesh-confidential-stealth",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Advanced",
+      "title": "Confidential vs stealth on Ootle",
+      "summary": "Recovered November 4 from the creator’s own blog index, linked by the creator’s first-template article. Full article read. Its phrase nothing to watch should be read with its own later threat model: transaction graphs, fees and identity-linked calls remain observable. Minotari provides registration and timing; Ootle runs separate consensus and execution. No wallets or privacy primitives were executed. The separate Reddit adaptation is unavailable and is not replaced by this article. The recording shows a public article excerpt, not demonstrated privacy functionality.",
+      "status": "Community tutorial",
+      "sourceUrl": "https://rajeshmullippa-collab.github.io/2026/10/30/tari-ootle-confidential-vs-stealth.html",
+      "repoUrl": null,
+      "docsUrl": "https://rajeshmullippa-collab.github.io/2026/10/30/tari-ootle-confidential-vs-stealth.html",
+      "demoUrl": null,
+      "creator": {
+        "name": "Rajesh Mullippa",
+        "url": "https://rajeshmullippa-collab.github.io/"
+      },
+      "license": null,
+      "network": "Ootle",
+      "platform": "Reading",
+      "upstreamRevision": "page-sha256:83facd208a6b8027ff77d9eaf6b81721dc4e3e10c19ca69fd8149324fec94e58",
+      "sourceUpdatedAt": "2026-10-30",
+      "lastCheckedAt": "2026-11-04T22:39:21.258880+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "docs"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+          "platform": "Tari Community forum",
+          "context": "Creator names this exact blog article in the contest submission; article URL recovered through the creator blog index."
+        },
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+          "platform": "Tari Community forum",
+          "context": "Creator names this exact blog article in the contest submission; article URL recovered through the creator blog index."
+        },
+        {
+          "url": "https://rajeshmullippa-collab.github.io/2026/10/30/tari-ootle-confidential-vs-stealth.html",
+          "platform": "Creator blog",
+          "context": "Confidential vs stealth on Ootle"
+        }
+      ],
+      "cardSummary": "Compare hidden balances, one-time output addresses and view keys while identifying transaction details that remain public.",
+      "cardStatus": "Tutorial",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rajesh-confidential-stealth-20261104.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rajesh-confidential-stealth-20261104.png",
+        "source": "Docs walkthrough"
+      }
     }
   ],
   "opportunities": [

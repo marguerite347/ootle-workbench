@@ -27035,6 +27035,83 @@
           ]
         }
       }
+    },
+    "tari-ootle:learn:rajesh-confidential-stealth": {
+      "id": "tari-ootle:learn:rajesh-confidential-stealth",
+      "title": "Confidential vs stealth on Ootle",
+      "sources": [
+        "https://rajeshmullippa-collab.github.io/2026/10/30/tari-ootle-confidential-vs-stealth.html",
+        "https://rajeshmullippa-collab.github.io/",
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17"
+      ],
+      "lastAttemptAt": "2026-11-04T22:39:21.258880+00:00",
+      "sourceReviews": {
+        "https://rajeshmullippa-collab.github.io/2026/10/30/tari-ootle-confidential-vs-stealth.html": {
+          "url": "https://rajeshmullippa-collab.github.io/2026/10/30/tari-ootle-confidential-vs-stealth.html",
+          "attemptedAt": "2026-11-04T22:24:41.217267+00:00",
+          "hash": "83facd208a6b8027ff77d9eaf6b81721dc4e3e10c19ca69fd8149324fec94e58",
+          "evidence": "work/daily-2026-11-04/rajesh-confidential-stealth-recovered-nov4.html",
+          "scope": "Full article and linked privacy reference reviewed; no public comment section exposed.",
+          "lastAttemptAt": "2026-11-04T22:24:41.217267+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T22:24:41.217267+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://rajeshmullippa-collab.github.io/": {
+          "url": "https://rajeshmullippa-collab.github.io/",
+          "attemptedAt": "2026-11-04T22:24:34.466326+00:00",
+          "hash": "43e62f7075e6ecba103caeac1fdb2d45d29f3666314c1ed00b45d4f2873e1294",
+          "evidence": "work/daily-2026-11-04/rajesh-blog-index-nov4.html",
+          "scope": "Complete two-post creator blog index reviewed; named article recovered.",
+          "lastAttemptAt": "2026-11-04T22:24:34.466326+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T22:24:34.466326+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4": {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+          "attemptedAt": "2026-11-04T10:06:48.884212+00:00",
+          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
+          "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
+          "scope": "Complete original 21-post thread including updates and replies reviewed; exact article title identified separately from removed Reddit adaptation.",
+          "lastAttemptAt": "2026-11-04T10:06:48.884212+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.884212+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17": {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+          "attemptedAt": "2026-11-04T10:06:48.884212+00:00",
+          "hash": "c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4",
+          "evidence": "work/daily-2026-11-04/0cc3d10ccc0b5219-c2b1e587c4dc0b7538fd14e7fd5a768593d56034fadb3d6097eb33e1f9ba55b4.txt",
+          "scope": "Complete original 21-post thread including updates and replies reviewed; exact article title identified separately from removed Reddit adaptation.",
+          "lastAttemptAt": "2026-11-04T10:06:48.884212+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.884212+00:00",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-04T22:39:21.258880+00:00",
+      "observedAvailability": "Recovered November 4 from the creator’s own blog index, linked by the creator’s first-template article. Full article read. Its phrase nothing to watch should be read with its own later threat model: transaction graphs, fees and identity-linked calls remain observable. Minotari provides registration and timing; Ootle runs separate consensus and execution. No wallets or privacy primitives were executed.",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://rajeshmullippa-collab.github.io/2026/10/30/tari-ootle-confidential-vs-stealth.html",
+        "https://rajeshmullippa-collab.github.io/",
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+        "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "evidence": [
+        "work/daily-2026-11-04/rajesh-privacy-resource-review.json"
+      ]
     }
   },
   "resourceReviewSummary": {
