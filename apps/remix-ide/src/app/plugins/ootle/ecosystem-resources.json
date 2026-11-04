@@ -1041,11 +1041,11 @@
       "ecosystem": "tari-ootle",
       "group": "Agents",
       "title": "Ghostline",
-      "summary": "Private pay-per-call channels for AI agents, with cumulative vouchers and one settlement. The October 23 recording runs five simulated browser calls and shows separate archived evidence; these clicks created no transaction. October 24 review of the creator’s recorded-runs page found a hosted Sapient run dated October 23 and CLI run dated October 22, each reporting five calls and a final settlement. Call counts come from service ledgers, not chain proof; the explorer availability labels are dated October 23 creator observations. The Sapient relay controls the test deposit and refund; browser voucher keys do not remove that custody. Requests, timing and fees remain visible. No wallet, relay payment or CLI was run here. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
-      "status": "Browser demo · CLI · Testnet",
+      "summary": "Pay-per-call channels for AI agents using cumulative off-chain vouchers and one settlement. November 4 review of the public demo observed five simulated calls and an overspend rejection; the refreshed recording shows only that walletless browser flow. Its displayed transaction is separately labeled creator evidence. The creator updated the original submission on November 3 after the Esmeralda reset, replacing retired October transaction links with a new template and recorded Sapient run. The site evidence page lists a separate November 3 run; call counts are service-ledger claims, not chain proof. Optional live mode requires Sapient 0.7.1 or later and a custodial relay that holds a 51 µT test deposit through settlement or refund. Fees, timing and requests remain visible. No wallet action, relay deposit, CLI execution or independent chain validation was performed in this review. The v0.4.0 CLI binaries support Linux x86-64 with glibc. Earlier recordings and transaction URLs remain in the maintenance history.",
+      "status": "Browser demo · Linux CLI · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
       "repoUrl": "https://github.com/AduAkorful/ghostline",
-      "docsUrl": "https://github.com/AduAkorful/ghostline/blob/0b0ff7dfc5f8a774a5f8176c375b191492757b00/docs/quickstart.md#guided-esmeralda-demo",
+      "docsUrl": "https://ghostline-ui.vercel.app/docs/install.html",
       "creator": {
         "name": "AduAkorful",
         "url": "https://github.com/AduAkorful"
@@ -1053,8 +1053,8 @@
       "license": "MIT",
       "network": "Esmeralda testnet",
       "platform": "Rust · TypeScript · Linux x86-64 CLI",
-      "upstreamRevision": "c7885a6f7b9d13d5ac3e4df97b98d557ed934c7e",
-      "sourceUpdatedAt": "2026-10-17T21:50:36.623Z",
+      "upstreamRevision": "5c31fa39e71185fa051ad888485a922256aa4fff",
+      "sourceUpdatedAt": "2026-11-03T16:20:39.772Z",
       "lastCheckedAt": "2026-10-29T20:23:07.120Z",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -1108,11 +1108,11 @@
         }
       ],
       "cardSummary": "Explore payment channels that let AI agents pay per API call using cumulative vouchers and one settlement.",
-      "cardStatus": "Browser demo · CLI · Testnet",
+      "cardStatus": "Browser demo · Linux CLI · Testnet",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261023.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261023.png",
-        "source": "App demo — Five simulated calls and separate archived chain evidence; no wallet or payment."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261104.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261104.jpg",
+        "source": "App demo — walletless simulation"
       }
     },
     {
@@ -2300,8 +2300,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Hexcrow",
-      "summary": "Milestone escrow held in a stealth output, with approval, timeout refund and two jointly signed mediator paths. A public invoice book records hashes, one-time keys, deadlines and status; role-specific copies disclose invoice text and amounts. The public website replays four recorded Esmeralda invoices and checks available book/output state through the indexer, using clearly archived transaction results where history is gone. October 31 inspection switched public and client copies and observed the displayed 250 tTARI invoice and Settled status. The recording switches public, client and accountant views; no new funding or transaction was submitted. Mediator judgment remains trusted, fees and timing remain visible, and published demo keys must not hold value. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
-      "status": "Replay demo · Testnet",
+      "summary": "Milestone escrow using a stealth output, an approval path, a timeout refund and jointly signed mediator paths. The public invoice book records hashes, one-time keys, deadlines and status; role-specific copies disclose invoice text and amounts. November 4 review found that the website explicitly replays the archived October 29 run: the November 2 Esmeralda reset removed its template, book and transactions. The creator reports updated source using ootle-rs 0.31 and tari_template_lib 0.37 with 19 engine tests, while a replacement deployment is waiting for test funds. The refreshed recording switches public, client and accountant copies of the archived invoice; it performs no funding, wallet action or new transaction. Mediator judgment remains trusted, fees and timing remain visible, and the demo’s published throwaway keys must not hold value.",
+      "status": "Archived replay · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
       "repoUrl": "https://github.com/kasbsquall/hexcrow",
       "docsUrl": "https://github.com/kasbsquall/hexcrow#readme",
@@ -2313,7 +2313,7 @@
       "license": "MIT",
       "network": "Esmeralda testnet",
       "platform": "Browser · Rust",
-      "upstreamRevision": "d58ea442900f65859e536a08e02f353afdf85164",
+      "upstreamRevision": "f7e939eebb5ad19206f2b3ed17b035c21a8b2e03",
       "sourceUpdatedAt": "2026-10-30T00:10:36.713Z",
       "lastCheckedAt": "2026-10-31T14:00:56.589Z",
       "verification": "source-attested",
@@ -2343,14 +2343,18 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "platform": "Tari Community forum",
           "context": "November 2 testnet reset and template republishing notice"
+        },
+        {
+          "url": "https://community.tari.com/t/530",
+          "platform": "Tari Community forum"
         }
       ],
       "cardSummary": "Replay confidential milestone invoices from public, client, contractor, mediator and accountant views to see who can read each detail.",
-      "cardStatus": "Replay demo · Testnet",
+      "cardStatus": "Archived replay · Testnet",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261031.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261031.png",
-        "source": "App demo — recorded-run replay with public, client and accountant disclosure views; no new transaction."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261104.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261104.jpg",
+        "source": "App demo — archived testnet replay"
       }
     },
     {
