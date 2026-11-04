@@ -3850,7 +3850,7 @@
       "id": "tari-ootle:component:tari-block-tools",
       "key": "tari-block-tools",
       "type": "component",
-      "ecosystem": "tari-ootle",
+      "ecosystem": "tari",
       "group": "Developer tools",
       "title": "Tari Block Tools",
       "summary": "Python/Rust source helpers for explorer block information, outputs, miner details and anonymous-ID hashing. The README and source header retain older Nextnet references, while the current explorer class targets textexplore.tari.com. Documentation identifies Python 3.13 and a Windows x64 wheel; other Python/OS combinations require rebuilding the Rust module. November 4, 2026 review found readable source and no published releases or specified license. No separate public original sharing post was found; the actual discovery link is Tari Tracker’s Download tools link. The recording shows the README, with no package installation or code execution.",
@@ -3864,7 +3864,7 @@
         "url": "https://github.com/kstrycharz"
       },
       "license": "Not specified",
-      "network": "Tari explorer; README retains older Nextnet references",
+      "network": "Tari L1",
       "platform": "Python 3.13 · Windows wheel; Rust rebuild for other platforms",
       "sourceUpdatedAt": "2025-05-17T04:47:10Z",
       "lastCheckedAt": "2026-11-04T19:44:48.094Z",
