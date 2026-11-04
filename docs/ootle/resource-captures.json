@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T16:58:47.410309+00:00",
+  "updatedAt": "2026-11-04T22:39:21.258880+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -8022,6 +8022,63 @@
         "work/daily-2026-11-04/held-recovery-release-acceptance.json"
       ],
       "liveVerifiedAt": "2026-11-04T15:35:52.340955+00:00"
+    },
+    {
+      "resourceId": "rajesh-confidential-stealth",
+      "title": "Confidential vs stealth on Ootle",
+      "targetUrl": "https://rajeshmullippa-collab.github.io/2026/10/30/tari-ootle-confidential-vs-stealth.html",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/4",
+          "platform": "Tari Community forum",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-10-30T07:00:47.718Z",
+          "foundOn": "2026-11-04",
+          "context": "Creator names this exact blog article in the contest submission; article URL recovered through the creator blog index.",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/17",
+          "platform": "Tari Community forum",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-11-03T00:52:51.885Z",
+          "foundOn": "2026-11-04",
+          "context": "Creator names this exact blog article in the contest submission; article URL recovered through the creator blog index.",
+          "visibility": "public"
+        },
+        {
+          "url": "https://rajeshmullippa-collab.github.io/2026/10/30/tari-ootle-confidential-vs-stealth.html",
+          "platform": "Creator blog",
+          "author": "Rajesh Mullippa",
+          "publishedAt": "2026-10-30",
+          "foundOn": "2026-11-04",
+          "context": "Confidential vs stealth on Ootle",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-04T22:28:18.522Z",
+      "observedRevision": "page-sha256:83facd208a6b8027ff77d9eaf6b81721dc4e3e10c19ca69fd8149324fec94e58",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rajesh-confidential-stealth-20261104.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rajesh-confidential-stealth-20261104.png",
+      "caption": "Docs walkthrough",
+      "method": "Existing genuine public-page capture pipeline with pre-capture scroll to settle paint. Full article reviewed separately. Earlier blank-opening export rejected and retained.",
+      "sha256": "686137c41540a485152a6bf31123a72d64cfaf446659d782cdc27f9031b4a867",
+      "status": "recording-reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0.5,
+          6,
+          11.3
+        ],
+        "localPlaybackEvidence": "work/daily-2026-11-04/rajesh-privacy-local-playback.json",
+        "livePlayback": "Pending publication and desktop/mobile verification"
+      }
     }
   ],
   "release": {
