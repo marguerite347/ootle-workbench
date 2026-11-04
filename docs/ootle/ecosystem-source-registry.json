@@ -25890,9 +25890,11 @@
       "canonicalResourceId": "minotari-cli-release",
       "sources": [
         "https://github.com/tari-project/minotari-cli",
-        "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2"
+        "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2",
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+        "https://github.com/tari-project/minotari-cli/releases"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T23:45:09.237Z",
       "sourceReviews": {
         "https://github.com/tari-project/minotari-cli": {
           "url": "https://github.com/tari-project/minotari-cli",
@@ -25901,59 +25903,61 @@
           "attemptedAt": "2026-11-04T10:09:31.120719+00:00",
           "evidence": "work/daily-2026-11-04/ccbb364a9f1e5d0f-fba374a3ab72184c2ab0e57da724e66a45646f47fc1faec194b1be8ad8f9bb40.txt",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full current README reviewed; CLI capabilities and default daemon authentication read; no execution",
           "lastAttemptAt": "2026-11-04T10:09:31.120719+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:09:31.120719+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2": {
           "url": "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2",
+          "attemptedAt": "2026-11-04T23:37:14.196083+00:00",
           "hash": "9320539c4c3c56df2a45cb19f8a236c5b522a365ee0f0139bfcf4a97d3ebdcdb",
-          "evidence": "work/daily-2026-10-31/9dab7fde8eab1663-9320539c4c3c56df2a45cb19f8a236c5b522a365ee0f0139bfcf4a97d3ebdcdb.txt",
-          "attemptedAt": "2026-11-02T19:13:18.527323+00:00",
-          "revision": "e695b6f4ae6568c1eac64cb99ef76580700efa58",
-          "method": "Complete returned release notes reviewed within maintenance lookback.",
-          "releaseEvidence": "work/daily-2026-10-31/9dab7fde8eab1663-9320539c4c3c56df2a45cb19f8a236c5b522a365ee0f0139bfcf4a97d3ebdcdb.txt",
-          "lastAttemptAt": "2026-11-02T19:13:18.527323+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T19:13:18.527323+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "evidence": "work/daily-2026-11-04/minotari-cli-releases-9320539c4c3c56df2a45cb19f8a236c5b522a365ee0f0139bfcf4a97d3ebdcdb.json",
+          "method": "Full sole release v0.5.2 in paginated release response",
+          "lastAttemptAt": "2026-11-04T23:37:14.196083+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:37:14.196083+00:00",
+          "status": "read",
+          "error": null
         },
         "https://www.youtube.com/watch?v=1PeZwRiqKa0": {
           "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-          "hash": "f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72",
-          "attemptedAt": "2026-11-04T10:07:37.410935+00:00",
-          "evidence": "work/daily-2026-11-04/14f7e70260180f4f-f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:37.410935+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:37.410935+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-04T23:34:01.535157+00:00",
+          "hash": "81c16145453ca7031051d39dc7fee53dcad81972eb480016a2cbf9ebddf9914b",
+          "evidence": "work/daily-2026-11-04/tari-show-oct27-transcript-review.json",
+          "method": "Complete retained transcript and current description, zero comments and complete replay reviewed; v0.5.1 statement retained as dated announcement",
+          "lastAttemptAt": "2026-11-04T23:34:01.535157+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:34:01.535157+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/minotari-cli/releases": {
+          "url": "https://github.com/tari-project/minotari-cli/releases",
+          "attemptedAt": "2026-11-04T23:37:14.196083+00:00",
+          "hash": "9320539c4c3c56df2a45cb19f8a236c5b522a365ee0f0139bfcf4a97d3ebdcdb",
+          "evidence": "work/daily-2026-11-04/minotari-cli-releases-9320539c4c3c56df2a45cb19f8a236c5b522a365ee0f0139bfcf4a97d3ebdcdb.json",
+          "method": "All release pages returned; complete release notes read. No download or wallet action.",
+          "lastAttemptAt": "2026-11-04T23:37:14.196083+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:37:14.196083+00:00",
+          "status": "read",
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
+      "lastSuccessfulReviewAt": "2026-11-04T23:45:09.237Z",
       "observedAvailability": "CLI · v0.5.2",
-      "outcome": "pending",
-      "pendingReviewSources": [
-        "https://github.com/tari-project/minotari-cli/releases/tag/v0.5.2"
-      ],
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
+        "https://github.com/tari-project/minotari-cli/releases",
         "https://www.youtube.com/watch?v=1PeZwRiqKa0"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/tari-project/minotari-cli",
@@ -25969,6 +25973,9 @@
           "attemptedAt": "2026-11-04T10:07:37.410935+00:00",
           "httpStatus": 200
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/minotari-cli-release-review.json"
       ]
     },
     "tari-ootle:integration:confidential-rcv-web": {
@@ -27318,6 +27325,158 @@
         }
       },
       "canonicalId": "tari-ootle:learn:witching-hour"
+    },
+    "tari-ootle:component:stable-coin-template": {
+      "id": "tari-ootle:component:stable-coin-template",
+      "title": "Tari stablecoin templates",
+      "sources": [
+        "https://github.com/tari-project/stable-coin",
+        "https://github.com/tari-project/stable-coin/releases",
+        "https://github.com/tari-project/stable-coin/blob/a6ade449deed39002efdc4acd109e19e6475ca3b/web/README.md"
+      ],
+      "lastAttemptAt": "2026-11-04T23:45:09.237Z",
+      "sourceReviews": {
+        "https://github.com/tari-project/stable-coin": {
+          "url": "https://github.com/tari-project/stable-coin",
+          "file": "05ba1062bec2766b-1e9c3233bffbd458b86344c0ce20924083d488f33c28f7cc9ec36af2fa7f91c7.txt",
+          "hash": "1e9c3233bffbd458b86344c0ce20924083d488f33c28f7cc9ec36af2fa7f91c7",
+          "attemptedAt": "2026-11-04T10:09:33.914976+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/tari-project/stable-coin/releases",
+            "file": "e319e8a3c32deaa8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:09:33.596692+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "a6ade449deed39002efdc4acd109e19e6475ca3b",
+          "readmeSha": "ed7548b6d660c4f9b7b04fa13418de9764d7a70f",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "Cargo.lock",
+            "Cargo.toml",
+            "README.md",
+            "applications",
+            "lints.toml",
+            "rust-toolchain.toml",
+            "templates"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "http://localhost:9000`",
+            "https://www.tari.com/"
+          ],
+          "evidence": "work/daily-2026-11-04/05ba1062bec2766b-1e9c3233bffbd458b86344c0ce20924083d488f33c28f7cc9ec36af2fa7f91c7.txt",
+          "method": "Complete source reviewed; source-only listing, no software execution",
+          "lastAttemptAt": "2026-11-04T10:09:33.914976+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:09:33.914976+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/stable-coin/releases": {
+          "url": "https://github.com/tari-project/stable-coin/releases",
+          "file": "e319e8a3c32deaa8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:09:33.596692+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/e319e8a3c32deaa8-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "method": "Complete source reviewed; source-only listing, no software execution",
+          "lastAttemptAt": "2026-11-04T10:09:33.596692+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:09:33.596692+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/stable-coin/blob/a6ade449deed39002efdc4acd109e19e6475ca3b/web/README.md": {
+          "url": "https://github.com/tari-project/stable-coin/blob/a6ade449deed39002efdc4acd109e19e6475ca3b/web/README.md",
+          "attemptedAt": "2026-11-04T23:17:01.214789+00:00",
+          "hash": "b7387c7083d0d9d1eb9e7135261aebadceb88d0b2f2d8a7fe5d6fe60d4d9d493",
+          "evidence": "work/daily-2026-11-04/stable-coin-web-readme-b7387c7083d0d9d1eb9e7135261aebadceb88d0b2f2d8a7fe5d6fe60d4d9d493.md",
+          "method": "Full nested web README reviewed; under-development source, no deployed application claim",
+          "lastAttemptAt": "2026-11-04T23:17:01.214789+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:17:01.214789+00:00",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-04T23:45:09.237Z",
+      "observedAvailability": "Source code · Work in progress",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://github.com/tari-project/stable-coin",
+        "https://github.com/tari-project/stable-coin/releases",
+        "https://github.com/tari-project/stable-coin/blob/a6ade449deed39002efdc4acd109e19e6475ca3b/web/README.md"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "evidence": [
+        "work/daily-2026-11-04/stable-coin-qualification.json"
+      ]
+    },
+    "tari:learn:tari-soon-creator-hub": {
+      "id": "tari:learn:tari-soon-creator-hub",
+      "title": "Tari / Soon Creator Hub",
+      "canonicalResourceId": "tari-soon-creator-hub",
+      "sources": [
+        "https://www.figma.com/community/file/1699482648074384411/tari-soon-community-creator-hub",
+        "https://www.youtube.com/watch?v=dxpNwx0bskI"
+      ],
+      "lastAttemptAt": "2026-11-04T23:47:36.650455+00:00",
+      "sourceReviews": {
+        "https://www.figma.com/community/file/1699482648074384411/tari-soon-community-creator-hub": {
+          "url": "https://www.figma.com/community/file/1699482648074384411/tari-soon-community-creator-hub",
+          "attemptedAt": "2026-11-04T23:43:19.850Z",
+          "hash": "64e03bca825bc0f74d5af7987b5890ffdd7ea2d108d6058fbc7454dc3c4ac622",
+          "evidence": "work/daily-2026-11-04/figma-community-current-read.json",
+          "method": "Public Community listing and license read, zero comments; anonymous capture also confirms public access. Linked-collection asset certification outside catalog review.",
+          "lastAttemptAt": "2026-11-04T23:43:19.850Z",
+          "lastSuccessfulReadAt": "2026-11-04T23:43:19.850Z",
+          "status": "read",
+          "error": null
+        },
+        "https://www.youtube.com/watch?v=dxpNwx0bskI": {
+          "url": "https://www.youtube.com/watch?v=dxpNwx0bskI",
+          "attemptedAt": "2026-11-04T23:40:15.356052+00:00",
+          "hash": "1ffd2c9d79fd48984d0fc736d302a235ee02f97271b9855c146340c124d2ffb7",
+          "evidence": "work/daily-2026-11-04/tari-show-nov3-review.json",
+          "method": "Complete transcript, current description, zero comments and complete available replay reviewed; public creator-hub mention at22:17.",
+          "lastAttemptAt": "2026-11-04T23:40:15.356052+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T23:40:15.356052+00:00",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-04T23:47:36.650455+00:00",
+      "observedAvailability": "Public Figma Community asset library",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "changedSources": [
+        "https://www.figma.com/community/file/1699482648074384411/tari-soon-community-creator-hub",
+        "https://www.youtube.com/watch?v=dxpNwx0bskI"
+      ],
+      "reviewRequired": false,
+      "changedFields": [
+        "sourceEvidence"
+      ],
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "evidence": [
+        "work/daily-2026-11-04/figma-community-qualification.json"
+      ]
     }
   },
   "resourceReviewSummary": {
