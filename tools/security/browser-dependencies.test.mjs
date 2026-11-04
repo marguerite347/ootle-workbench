@@ -5,6 +5,18 @@ import http from 'node:http'
 import fs from 'node:fs'
 const require = createRequire(import.meta.url)
 
+test('WalletConnect curve dependencies initialize with their resolved hash utilities', () => {
+  // Resolve from the actual consumer: a root-level import can pass while a stale
+  // nested hash package makes the eagerly loaded application module fail.
+  const walletConnectRequire = createRequire(require.resolve('@walletconnect/utils'))
+  const oxRequire = createRequire(walletConnectRequire.resolve('ox'))
+  const { secp256k1 } = oxRequire('@noble/curves/secp256k1')
+  const fixture = new Uint8Array(32)
+  fixture[31] = 1
+  assert.equal(Buffer.from(secp256k1.getPublicKey(fixture)).toString('hex'),
+    '0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798')
+})
+
 test('Bee upload/download retain their wire contract with repaired Axios', async () => {
   const { Bee } = require('@ethersphere/bee-js')
   const requests = []
