@@ -5762,12 +5762,16 @@
       "title": "Signal Vault",
       "sources": [
         "https://community.tari.com/t/september-contest-thread/324/4",
-        "https://github.com/Lrifton92/signal-vault"
+        "https://github.com/Lrifton92/signal-vault",
+        "https://community.tari.com/t/september-contest-thread/324/5",
+        "https://community.tari.com/t/september-contest-thread/324/38",
+        "https://community.tari.com/t/september-contest-thread/324/39",
+        "https://x.com/lrifton6240/status/2097119482540064775"
       ],
       "lastSuccessfulReviewAt": "2026-10-24T15:10:35.583Z",
-      "outcome": "pending",
+      "outcome": "blocked",
       "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T18:13:08.199Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
@@ -5775,11 +5779,11 @@
       "sourceReviews": {
         "https://community.tari.com/t/september-contest-thread/324/4": {
           "url": "https://community.tari.com/t/september-contest-thread/324/4",
+          "file": "7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
           "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
           "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
           "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Entire original, creator deployment update, official winners and creator audit-claim follow-up read from complete available thread.",
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
           "status": "read",
@@ -5789,19 +5793,69 @@
           "url": "https://github.com/Lrifton92/signal-vault",
           "hash": "b891f81621a9eee180c42cd61edd39ed5843ec9dc23c9d4b9e9f8b0711f01683",
           "revision": "3ed0df90f4f31a367acb9bd61121cd01b343d029",
-          "evidence": "work/daily-2026-10-31/signal-vault-browser.txt",
-          "lastAttemptAt": "2026-10-31T14:13:04.032Z",
+          "evidence": "work/daily-2026-11-04/signal-vault-repository-browser.txt",
+          "lastAttemptAt": "2026-11-04T18:13:08.199Z",
           "lastSuccessfulReadAt": "2026-10-24T15:10:35.583Z",
-          "error": "Repository returns 404 through GitHub API and browser. README, homepage and releases are unavailable.",
-          "status": "pending",
-          "failureKind": "http",
-          "nextAction": "Retry the original destination and supported authorized browser; preserve the last successful source review.",
+          "error": "GitHub API returned HTTP 404 and independent public browser rendered Page not found.",
+          "status": "blocked",
+          "failureKind": "unavailable-content",
+          "nextAction": "Check repository recovery or a creator-documented replacement; preserve original URL and last-good source evidence.",
           "pendingReason": "HTTP reader failed; supported browser fallback pending"
+        },
+        "https://community.tari.com/t/september-contest-thread/324/5": {
+          "url": "https://community.tari.com/t/september-contest-thread/324/5",
+          "file": "7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+          "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+          "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+          "method": "Entire original, creator deployment update, official winners and creator audit-claim follow-up read from complete available thread.",
+          "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/september-contest-thread/324/38": {
+          "url": "https://community.tari.com/t/september-contest-thread/324/38",
+          "file": "7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+          "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+          "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+          "method": "Entire original, creator deployment update, official winners and creator audit-claim follow-up read from complete available thread.",
+          "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/september-contest-thread/324/39": {
+          "url": "https://community.tari.com/t/september-contest-thread/324/39",
+          "file": "7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+          "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
+          "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
+          "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
+          "method": "Entire original, creator deployment update, official winners and creator audit-claim follow-up read from complete available thread.",
+          "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/lrifton6240/status/2097119482540064775": {
+          "url": "https://x.com/lrifton6240/status/2097119482540064775",
+          "attemptedAt": "2026-11-04T18:13:08.199Z",
+          "hash": "ca3732f8a4d58acefd51f20b686be8341a76eb0c945eb4185303b831a5b29b9f",
+          "evidence": "work/daily-2026-11-04/signal-vault-original-x.txt",
+          "method": "Authenticated read-only browser; full original announcement and zero-reply count visible.",
+          "lastAttemptAt": "2026-11-04T18:13:08.199Z",
+          "lastSuccessfulReadAt": "2026-11-04T18:13:08.199Z",
+          "status": "read",
+          "error": null
         }
       },
       "observedAvailability": "October 24 primary-source review: known forum threads read with returned replies and edits, repository README/root/releases and linked public pages fetched where evidence is listed. Source curation does not establish runtime or transaction behavior.",
       "changedSources": [
-        "https://community.tari.com/t/september-contest-thread/324/4"
+        "https://community.tari.com/t/september-contest-thread/324/5",
+        "https://community.tari.com/t/september-contest-thread/324/38",
+        "https://community.tari.com/t/september-contest-thread/324/39",
+        "https://x.com/lrifton6240/status/2097119482540064775"
       ],
       "reviewQueue": [
         "copy",
@@ -5818,12 +5872,11 @@
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": false,
       "reviewedSourceCount": 1,
-      "pendingReviewSources": [
+      "pendingReviewSources": [],
+      "supersededSources": {},
+      "blockedSources": [
         "https://github.com/Lrifton92/signal-vault"
       ],
-      "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/324.json",
@@ -5836,6 +5889,9 @@
           "attemptedAt": "2026-11-04T10:06:53.549355+00:00",
           "error": "gh: Not Found (HTTP 404)\n"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/signal-vault-review.json"
       ]
     },
     "tari-ootle:app:tari-l1-web-wallet": {
@@ -6150,12 +6206,16 @@
       "sources": [
         "https://community.tari.com/t/september-contest-thread/324/27",
         "https://github.com/Seal-Clubber/Threshold/tree/main/crates/threshold-bounty-template",
-        "https://seal-clubber.github.io/Threshold/bounties-archive.html"
+        "https://seal-clubber.github.io/Threshold/bounties-archive.html",
+        "https://github.com/Seal-Clubber/Threshold/blob/main/docs/bounty-program.md",
+        "https://bsky.app/profile/seal-clubber.bsky.social/post/3mwqpjqhzgc2b",
+        "https://github.com/Seal-Clubber/Threshold",
+        "https://github.com/Seal-Clubber/Threshold/releases"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T18:10:00.090Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T18:10:00.090Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
@@ -6163,11 +6223,11 @@
       "sourceReviews": {
         "https://community.tari.com/t/september-contest-thread/324/27": {
           "url": "https://community.tari.com/t/september-contest-thread/324/27",
+          "file": "7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
           "hash": "2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d",
           "attemptedAt": "2026-11-04T10:06:44.988017+00:00",
           "evidence": "work/daily-2026-11-04/7b6d5f1ba42db66e-2a2dace2f24376858299deef4fe509ab7d6e665e3086ed423a064d21f922117d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Complete source content reviewed; original forum post and Bluesky announcement with two nested replies, complete current README and bounty rule mapping, no releases, and public archive read in browser.",
           "lastAttemptAt": "2026-11-04T10:06:44.988017+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.988017+00:00",
           "status": "read",
@@ -6175,56 +6235,141 @@
         },
         "https://github.com/Seal-Clubber/Threshold/tree/main/crates/threshold-bounty-template": {
           "url": "https://github.com/Seal-Clubber/Threshold/tree/main/crates/threshold-bounty-template",
-          "hash": "154aeb1479082ac8a56d824ed530f4beb9a77a2a332207a3df81908ebe97dec2",
-          "revision": "4ccfd91688a3124c634436282f3aa25b873d9fe3",
-          "attemptedAt": "2026-10-31T09:03:01.894734+00:00",
-          "evidence": "work/daily-2026-10-31/774d535143eb74f1.txt",
-          "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
-          "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
-          "lastAttemptAt": "2026-10-31T09:03:01.894734+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:01.894734+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "file": "threshold-bounty-readme-b3f7d1824c3733d32c9e8e70db57164f68449fa6e18b6e242e70f5df77ae4695.txt",
+          "hash": "b3f7d1824c3733d32c9e8e70db57164f68449fa6e18b6e242e70f5df77ae4695",
+          "attemptedAt": "2026-11-04T18:03:50.446030+00:00",
+          "evidence": "work/daily-2026-11-04/threshold-bounty-readme-b3f7d1824c3733d32c9e8e70db57164f68449fa6e18b6e242e70f5df77ae4695.txt",
+          "method": "Complete source content reviewed; original forum post and Bluesky announcement with two nested replies, complete current README and bounty rule mapping, no releases, and public archive read in browser.",
+          "lastAttemptAt": "2026-11-04T18:03:50.446030+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T18:03:50.446030+00:00",
+          "status": "read",
+          "error": null
         },
         "https://seal-clubber.github.io/Threshold/bounties-archive.html": {
           "url": "https://seal-clubber.github.io/Threshold/bounties-archive.html",
-          "hash": "d544bc7ea715e1178aa0ffba81f117166f8afa8aba8b30a4b797bb3250fe1311",
-          "attemptedAt": "2026-11-04T10:07:32.678567+00:00",
-          "evidence": "work/daily-2026-11-04/78e742c2935a8f6b-d544bc7ea715e1178aa0ffba81f117166f8afa8aba8b30a4b797bb3250fe1311.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:32.678567+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:32.678567+00:00",
+          "attemptedAt": "2026-11-04T18:10:00.090Z",
+          "hash": "2cb8a205ef9e455139cfca906500c381acfa59961e8ceef41e4854930260c64d",
+          "evidence": "work/daily-2026-11-04/threshold-bounty-archive-browser.txt",
+          "method": "Independent CUA read-only public archive observation; all five synthetic historical bounty cards and limits read.",
+          "lastAttemptAt": "2026-11-04T18:10:00.090Z",
+          "lastSuccessfulReadAt": "2026-11-04T18:10:00.090Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/Seal-Clubber/Threshold/blob/main/docs/bounty-program.md": {
+          "url": "https://github.com/Seal-Clubber/Threshold/blob/main/docs/bounty-program.md",
+          "file": "threshold-bounty-mapping-db27ede4d761523feeff3896a0e8d61f87a30f32317746eb2b1c730a812268a7.txt",
+          "hash": "db27ede4d761523feeff3896a0e8d61f87a30f32317746eb2b1c730a812268a7",
+          "attemptedAt": "2026-11-04T18:03:50.836942+00:00",
+          "evidence": "work/daily-2026-11-04/threshold-bounty-mapping-db27ede4d761523feeff3896a0e8d61f87a30f32317746eb2b1c730a812268a7.txt",
+          "method": "Complete source content reviewed; original forum post and Bluesky announcement with two nested replies, complete current README and bounty rule mapping, no releases, and public archive read in browser.",
+          "lastAttemptAt": "2026-11-04T18:03:50.836942+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T18:03:50.836942+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://bsky.app/profile/seal-clubber.bsky.social/post/3mwqpjqhzgc2b": {
+          "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3mwqpjqhzgc2b",
+          "apiUrl": "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2Fseal-clubber.bsky.social%2Fapp.bsky.feed.post%2F3mwqpjqhzgc2b&depth=100&parentHeight=100",
+          "file": "threshold-bounty-bsky-6ae01e99eb564dafe81299d775af0d67eeabc518fadaba08735559c80d70e5c1.json",
+          "hash": "6ae01e99eb564dafe81299d775af0d67eeabc518fadaba08735559c80d70e5c1",
+          "attemptedAt": "2026-11-04T18:03:51.121458+00:00",
+          "evidence": "work/daily-2026-11-04/threshold-bounty-bsky-6ae01e99eb564dafe81299d775af0d67eeabc518fadaba08735559c80d70e5c1.json",
+          "method": "Complete source content reviewed; original forum post and Bluesky announcement with two nested replies, complete current README and bounty rule mapping, no releases, and public archive read in browser.",
+          "lastAttemptAt": "2026-11-04T18:03:51.121458+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T18:03:51.121458+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/Seal-Clubber/Threshold": {
+          "url": "https://github.com/Seal-Clubber/Threshold",
+          "file": "774d535143eb74f1-154aeb1479082ac8a56d824ed530f4beb9a77a2a332207a3df81908ebe97dec2.txt",
+          "hash": "154aeb1479082ac8a56d824ed530f4beb9a77a2a332207a3df81908ebe97dec2",
+          "attemptedAt": "2026-11-04T10:06:57.600062+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/Seal-Clubber/Threshold/releases",
+            "file": "4ea5af84ae343076-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+            "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "attemptedAt": "2026-11-04T10:06:57.316661+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "4ccfd91688a3124c634436282f3aa25b873d9fe3",
+          "readmeSha": "466a015556711c952d60b03413b4399c4a16f635",
+          "homepage": "https://seal-clubber.github.io/Threshold/",
+          "archived": false,
+          "root": [
+            ".github",
+            ".gitignore",
+            "Cargo.lock",
+            "Cargo.toml",
+            "LICENSE",
+            "README.md",
+            "app",
+            "crates",
+            "docs",
+            "evidence",
+            "scripts"
+          ],
+          "releases": [],
+          "complete": true,
+          "links": [
+            "http://127.0.0.1:4765/**.",
+            "http://127.0.0.1:4766/threshold/bounties-archive.html`",
+            "https://seal-clubber.github.io/Threshold/",
+            "https://seal-clubber.github.io/Threshold/bounties-archive.html"
+          ],
+          "evidence": "work/daily-2026-11-04/774d535143eb74f1-154aeb1479082ac8a56d824ed530f4beb9a77a2a332207a3df81908ebe97dec2.txt",
+          "method": "Complete source content reviewed; original forum post and Bluesky announcement with two nested replies, complete current README and bounty rule mapping, no releases, and public archive read in browser.",
+          "lastAttemptAt": "2026-11-04T10:06:57.600062+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:57.600062+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/Seal-Clubber/Threshold/releases": {
+          "url": "https://github.com/Seal-Clubber/Threshold/releases",
+          "file": "4ea5af84ae343076-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:06:57.316661+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/4ea5af84ae343076-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "method": "Complete source content reviewed; original forum post and Bluesky announcement with two nested replies, complete current README and bounty rule mapping, no releases, and public archive read in browser.",
+          "lastAttemptAt": "2026-11-04T10:06:57.316661+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:57.316661+00:00",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+      "observedAvailability": "November 4: reachable historical September 30 testnet archive of five synthetic bounty components; three open, one paid, one refunded at capture time. Page explicitly never queries current chain or submits transactions. Current README and council mapping retain independent-proposal status, reviewer quorum and no automatic deadline. Existing historical testnet label, archive destination and recording remain accurate; no material resource change and no runtime, wallet or funds action.",
       "changedSources": [
-        "https://community.tari.com/t/september-contest-thread/324/27"
+        "https://seal-clubber.github.io/Threshold/bounties-archive.html",
+        "https://github.com/Seal-Clubber/Threshold/tree/main/crates/threshold-bounty-template",
+        "https://github.com/Seal-Clubber/Threshold/blob/main/docs/bounty-program.md",
+        "https://bsky.app/profile/seal-clubber.bsky.social/post/3mwqpjqhzgc2b",
+        "https://github.com/Seal-Clubber/Threshold",
+        "https://github.com/Seal-Clubber/Threshold/releases"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/september-contest-thread/324/27",
         "https://github.com/Seal-Clubber/Threshold/tree/main/crates/threshold-bounty-template",
-        "https://seal-clubber.github.io/Threshold/bounties-archive.html"
+        "https://seal-clubber.github.io/Threshold/bounties-archive.html",
+        "https://github.com/Seal-Clubber/Threshold/blob/main/docs/bounty-program.md",
+        "https://bsky.app/profile/seal-clubber.bsky.social/post/3mwqpjqhzgc2b",
+        "https://github.com/Seal-Clubber/Threshold",
+        "https://github.com/Seal-Clubber/Threshold/releases"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+      "sourceObservation": "November 4: reachable historical September 30 testnet archive of five synthetic bounty components; three open, one paid, one refunded at capture time. Page explicitly never queries current chain or submits transactions. Current README and council mapping retain independent-proposal status, reviewer quorum and no automatic deadline. Existing historical testnet label, archive destination and recording remain accurate; no material resource change and no runtime, wallet or funds action.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
-      "reviewedSourceCount": 3,
-      "pendingReviewSources": [
-        "https://github.com/Seal-Clubber/Threshold/tree/main/crates/threshold-bounty-template"
-      ],
+      "reviewedSourceCount": 7,
+      "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/324.json",
@@ -6239,6 +6384,9 @@
           "attemptedAt": "2026-11-04T10:07:32.678567+00:00",
           "httpStatus": 200
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/threshold-bounty-review.json"
       ]
     },
     "tari-ootle:app:threshold": {
@@ -8869,12 +9017,14 @@
       "sources": [
         "https://github.com/tari-project/ootle-py",
         "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1",
-        "https://github.com/tari-project/ootle-py/blob/v0.4.0/CHANGELOG.md"
+        "https://github.com/tari-project/ootle-py/blob/v0.4.0/CHANGELOG.md",
+        "https://pypi.org/project/ootle-py/0.3.2/",
+        "https://pypi.org/project/ootle-py/0.4.0/"
       ],
-      "lastSuccessfulReviewAt": "2026-11-02T21:09:53.261411+00:00",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T17:54:57.548Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T17:54:57.548Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
@@ -8882,91 +9032,158 @@
       "sourceReviews": {
         "https://github.com/tari-project/ootle-py": {
           "url": "https://github.com/tari-project/ootle-py",
+          "file": "10eb25d7995126ab-981e9e36eae265b598a27af07fa8682b9f2525371ead11d8f4e6804366fca884.txt",
           "hash": "981e9e36eae265b598a27af07fa8682b9f2525371ead11d8f4e6804366fca884",
+          "attemptedAt": "2026-11-04T10:07:18.483631+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/tari-project/ootle-py/releases",
+            "file": "9d222848016432e8-6a8f03a672d3024ad3ec49f4e220e5bbaf87607516b709222b48f6682a97dd41.txt",
+            "hash": "6a8f03a672d3024ad3ec49f4e220e5bbaf87607516b709222b48f6682a97dd41",
+            "attemptedAt": "2026-11-04T10:07:18.200804+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
           "revision": "3ebac60c51114825177a07c8f3bf267b2f20ca09",
-          "attemptedAt": "2026-11-04T10:09:31.188191+00:00",
+          "readmeSha": "b64de57a7991b97fde598470ee8d4f3dbe66594b",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".env.example",
+            ".envrc",
+            ".github",
+            ".gitignore",
+            ".python-version",
+            "CHANGELOG.md",
+            "CLAUDE.md",
+            "CODEOWNERS",
+            "LICENSE",
+            "Makefile",
+            "README.md",
+            "docs",
+            "examples",
+            "justfile",
+            "pyproject.toml",
+            "scripts",
+            "src",
+            "tests",
+            "uv.lock"
+          ],
+          "releases": [
+            {
+              "tag": "v0.3.1",
+              "published": "2026-10-13T12:19:30Z",
+              "url": "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1"
+            },
+            {
+              "tag": "v0.3.0",
+              "published": "2026-10-02T08:51:06Z",
+              "url": "https://github.com/tari-project/ootle-py/releases/tag/v0.3.0"
+            },
+            {
+              "tag": "v0.1.1",
+              "published": "2026-05-25T07:59:29Z",
+              "url": "https://github.com/tari-project/ootle-py/releases/tag/v0.1.1"
+            }
+          ],
+          "complete": true,
+          "links": [
+            "http://localhost:12500",
+            "https://github.com/tari-project/ootle-py/blob/main/CHANGELOG.md",
+            "https://github.com/tari-project/ootle-py/blob/main/CLAUDE.md",
+            "https://github.com/tari-project/ootle-py/blob/main/LICENSE",
+            "https://github.com/tari-project/ootle-py/blob/main/examples/README.md",
+            "https://github.com/tari-project/ootle-py/blob/main/examples/balance_query.py",
+            "https://github.com/tari-project/ootle-py/blob/main/examples/balance_query_sync.py",
+            "https://github.com/tari-project/ootle-py/blob/main/examples/fungible_transfer.py",
+            "https://github.com/tari-project/ootle-py/blob/main/examples/stealth/README.md",
+            "https://github.com/tari-project/ootle-py/blob/main/scripts/unasync.py",
+            "https://www.npmjs.com/package/@tari-project/ootle-wasm",
+            "https://www.npmjs.com/package/@tari-project/ootle-wasm-bor"
+          ],
           "evidence": "work/daily-2026-11-04/10eb25d7995126ab-981e9e36eae265b598a27af07fa8682b9f2525371ead11d8f4e6804366fca884.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:09:31.188191+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:09:31.188191+00:00",
+          "method": "Current complete retained source content reviewed; availability and media reconciled.",
+          "lastAttemptAt": "2026-11-04T10:07:18.483631+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:18.483631+00:00",
           "status": "read",
           "error": null
         },
         "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1": {
           "url": "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1",
+          "file": "9d222848016432e8-6a8f03a672d3024ad3ec49f4e220e5bbaf87607516b709222b48f6682a97dd41.txt",
           "hash": "6a8f03a672d3024ad3ec49f4e220e5bbaf87607516b709222b48f6682a97dd41",
-          "attemptedAt": "2026-11-02T20:56:03.577069+00:00",
-          "evidence": "work/daily-2026-10-31/9d222848016432e8-6a8f03a672d3024ad3ec49f4e220e5bbaf87607516b709222b48f6682a97dd41.txt",
-          "method": "Full retained release body re-read from complete releases API response.",
-          "lastAttemptAt": "2026-11-02T20:56:03.577069+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T20:56:03.577069+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:07:18.200804+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/9d222848016432e8-6a8f03a672d3024ad3ec49f4e220e5bbaf87607516b709222b48f6682a97dd41.txt",
+          "method": "Current complete retained source content reviewed; availability and media reconciled.",
+          "lastAttemptAt": "2026-11-04T10:07:18.200804+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:18.200804+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/tari-project/ootle-py/blob/v0.4.0/CHANGELOG.md": {
           "url": "https://github.com/tari-project/ootle-py/blob/v0.4.0/CHANGELOG.md",
+          "file": "ootle-python-changelog-f017d075e50ef5bb5a192d998bf2164ce52182d574482a6b89c6f31234d91909.md",
           "hash": "f017d075e50ef5bb5a192d998bf2164ce52182d574482a6b89c6f31234d91909",
-          "attemptedAt": "2026-11-02T21:09:53.261411+00:00",
-          "evidence": "work/daily-2026-10-31/429f761615b27ccb-f017d075e50ef5bb5a192d998bf2164ce52182d574482a6b89c6f31234d91909.txt",
-          "method": "Full tagged changelog read and browser inspected.",
-          "lastAttemptAt": "2026-11-02T21:09:53.261411+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T21:09:53.261411+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T17:48:46.699478+00:00",
+          "revision": "326d091cc0d08673989052dd51c6a5abb4565b8a",
+          "evidence": "work/daily-2026-11-04/ootle-python-changelog-f017d075e50ef5bb5a192d998bf2164ce52182d574482a6b89c6f31234d91909.md",
+          "method": "Current complete retained source content reviewed; availability and media reconciled.",
+          "lastAttemptAt": "2026-11-04T17:48:46.699478+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T17:48:46.699478+00:00",
+          "status": "read",
+          "error": null
         },
         "https://pypi.org/project/ootle-py/0.3.2/": {
           "url": "https://pypi.org/project/ootle-py/0.3.2/",
-          "hash": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
-          "attemptedAt": "2026-11-04T10:07:32.281642+00:00",
-          "evidence": "work/daily-2026-11-04/96e753fd1638e5c7-32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:32.281642+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:32.281642+00:00",
+          "apiUrl": "https://pypi.org/pypi/ootle-py/0.3.2/json",
+          "file": "ootle-python-pypi-0.3.2-039cb53394211a89805a32521568727d60f96b76c7bc4cfef7154f2f5bcd6e35.json",
+          "hash": "039cb53394211a89805a32521568727d60f96b76c7bc4cfef7154f2f5bcd6e35",
+          "attemptedAt": "2026-11-04T17:48:46.699478+00:00",
+          "evidence": "work/daily-2026-11-04/ootle-python-pypi-0.3.2-039cb53394211a89805a32521568727d60f96b76c7bc4cfef7154f2f5bcd6e35.json",
+          "method": "Current complete retained source content reviewed; availability and media reconciled.",
+          "lastAttemptAt": "2026-11-04T17:48:46.699478+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T17:48:46.699478+00:00",
           "status": "read",
           "error": null
         },
         "https://pypi.org/project/ootle-py/0.4.0/": {
           "url": "https://pypi.org/project/ootle-py/0.4.0/",
-          "hash": "e0235c9048d2037391942991af744e81c354af879e5f290b61cec6c26437ecee",
-          "attemptedAt": "2026-11-04T10:07:32.275396+00:00",
-          "evidence": "work/daily-2026-11-04/a254618b6f216330-e0235c9048d2037391942991af744e81c354af879e5f290b61cec6c26437ecee.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:32.275396+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:32.275396+00:00",
+          "apiUrl": "https://pypi.org/pypi/ootle-py/0.4.0/json",
+          "file": "ootle-python-pypi-0.4.0-87136fb951f0a0a2b8d0345500193db9b6842cfec43bcb280c86dff3e19d6dde.json",
+          "hash": "87136fb951f0a0a2b8d0345500193db9b6842cfec43bcb280c86dff3e19d6dde",
+          "attemptedAt": "2026-11-04T17:48:46.699478+00:00",
+          "evidence": "work/daily-2026-11-04/ootle-python-pypi-0.4.0-87136fb951f0a0a2b8d0345500193db9b6842cfec43bcb280c86dff3e19d6dde.json",
+          "method": "Current complete retained source content reviewed; availability and media reconciled.",
+          "lastAttemptAt": "2026-11-04T17:48:46.699478+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T17:48:46.699478+00:00",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "Published SDK source and package",
+      "observedAvailability": "Published Python 0.4.0 SDK on PyPI; Python 3.13+, bundled hash-checked WASM, core 0.49.1. Current README, historical release, tagged 0.4 changelog and both retained PyPI publications reviewed; no version or material behavior change from the November 2 listing. This is source curation, not SDK execution.",
       "changedSources": [
         "https://pypi.org/project/ootle-py/0.3.2/",
         "https://pypi.org/project/ootle-py/0.4.0/"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://github.com/tari-project/ootle-py",
-        "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1"
+        "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1",
+        "https://github.com/tari-project/ootle-py/blob/v0.4.0/CHANGELOG.md",
+        "https://pypi.org/project/ootle-py/0.3.2/",
+        "https://pypi.org/project/ootle-py/0.4.0/"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+      "sourceObservation": "Published Python 0.4.0 SDK on PyPI; Python 3.13+, bundled hash-checked WASM, core 0.49.1. Current README, historical release, tagged 0.4 changelog and both retained PyPI publications reviewed; no version or material behavior change from the November 2 listing. This is source curation, not SDK execution.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
-      "reviewedSourceCount": 2,
-      "pendingReviewSources": [
-        "https://github.com/tari-project/ootle-py/releases/tag/v0.3.1",
-        "https://github.com/tari-project/ootle-py/blob/v0.4.0/CHANGELOG.md"
-      ],
+      "reviewedSourceCount": 5,
+      "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/tari-project/ootle-py",
@@ -8989,6 +9206,9 @@
           "attemptedAt": "2026-11-04T10:07:32.275396+00:00",
           "httpStatus": 200
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/python-go-source-acceptance.json"
       ]
     },
     "tari-ootle:component:ootle-go": {
@@ -8997,73 +9217,145 @@
       "sources": [
         "https://github.com/tari-project/ootle-go",
         "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0",
-        "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0"
+        "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0",
+        "https://github.com/tari-project/ootle-go/tree/v0.5.0"
       ],
-      "lastSuccessfulReviewAt": "2026-11-02T21:09:53.261411+00:00",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T17:54:57.548Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T17:54:57.548Z",
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "changedFields": [],
+      "changedFields": [
+        "sourceEvidence"
+      ],
       "sourceReviews": {
         "https://github.com/tari-project/ootle-go": {
           "url": "https://github.com/tari-project/ootle-go",
+          "file": "0bd982343a9d07d3-0a7aa2b04bb3bbf742f680592d145cb1cebe5dfcc909f946e5de3c23bb753d6d.txt",
           "hash": "0a7aa2b04bb3bbf742f680592d145cb1cebe5dfcc909f946e5de3c23bb753d6d",
+          "attemptedAt": "2026-11-04T10:07:19.794487+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/tari-project/ootle-go/releases",
+            "file": "6693f7bfa0a6ff60-95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7.txt",
+            "hash": "95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7",
+            "attemptedAt": "2026-11-04T10:07:19.496155+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
           "revision": "f11e68566025714544397f781ba025cd4d9b0914",
-          "attemptedAt": "2026-11-04T10:09:31.156970+00:00",
+          "readmeSha": "88167272e8148b27b764b7a023b24dcfe078f9a8",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".gitattributes",
+            ".github",
+            ".gitignore",
+            "CLAUDE.md",
+            "LICENSE",
+            "Makefile",
+            "README.md",
+            "docs",
+            "examples",
+            "go.mod",
+            "internal",
+            "ootle",
+            "scripts",
+            "transport"
+          ],
+          "releases": [
+            {
+              "tag": "v0.6.0",
+              "published": "2026-11-02T11:16:25Z",
+              "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0"
+            },
+            {
+              "tag": "v0.4.0",
+              "published": "2026-10-13T11:36:05Z",
+              "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0"
+            },
+            {
+              "tag": "v0.3.0",
+              "published": "2026-10-02T08:49:30Z",
+              "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.3.0"
+            },
+            {
+              "tag": "v0.2.0",
+              "published": "2026-09-17T05:51:50Z",
+              "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.2.0"
+            }
+          ],
+          "complete": true,
+          "links": [],
           "evidence": "work/daily-2026-11-04/0bd982343a9d07d3-0a7aa2b04bb3bbf742f680592d145cb1cebe5dfcc909f946e5de3c23bb753d6d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:09:31.156970+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:09:31.156970+00:00",
+          "method": "Current complete retained source content reviewed; availability and media reconciled.",
+          "lastAttemptAt": "2026-11-04T10:07:19.794487+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:19.794487+00:00",
           "status": "read",
           "error": null
         },
         "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0": {
           "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0",
+          "file": "6693f7bfa0a6ff60-95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7.txt",
           "hash": "95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7",
-          "attemptedAt": "2026-11-02T20:56:05.812903+00:00",
-          "evidence": "work/daily-2026-10-31/6693f7bfa0a6ff60-95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7.txt",
-          "method": "Full retained release body re-read from complete releases API response.",
-          "lastAttemptAt": "2026-11-02T20:56:05.812903+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T20:56:05.812903+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:07:19.496155+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/6693f7bfa0a6ff60-95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7.txt",
+          "method": "Current complete retained source content reviewed; availability and media reconciled.",
+          "lastAttemptAt": "2026-11-04T10:07:19.496155+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:19.496155+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0": {
           "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0",
+          "file": "6693f7bfa0a6ff60-95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7.txt",
           "hash": "95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7",
-          "attemptedAt": "2026-11-02T20:56:05.812903+00:00",
-          "evidence": "work/daily-2026-10-31/6693f7bfa0a6ff60-95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7.txt",
-          "method": "Full v0.6.0 release body read and browser inspected.",
-          "lastAttemptAt": "2026-11-02T20:56:05.812903+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T20:56:05.812903+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:07:19.496155+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "pages": 1,
+          "evidence": "work/daily-2026-11-04/6693f7bfa0a6ff60-95947b4806f0751873813efc3751f185148d90c8c668606275493d942518bbf7.txt",
+          "method": "Current complete retained source content reviewed; availability and media reconciled.",
+          "lastAttemptAt": "2026-11-04T10:07:19.496155+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:19.496155+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/tari-project/ootle-go/tree/v0.5.0": {
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "url": "https://github.com/tari-project/ootle-go/tree/v0.5.0",
+          "file": "go-v050-readme-660e54af61c7dd84e22520ea18a31cfc369e9f3b39f01cb07b3cb7ef5fe659e3.txt",
+          "hash": "660e54af61c7dd84e22520ea18a31cfc369e9f3b39f01cb07b3cb7ef5fe659e3",
+          "attemptedAt": "2026-11-04T17:53:44.094523+00:00",
+          "evidence": "work/daily-2026-11-04/go-v050-readme-660e54af61c7dd84e22520ea18a31cfc369e9f3b39f01cb07b3cb7ef5fe659e3.txt",
+          "method": "Current complete retained source content reviewed; availability and media reconciled.",
+          "lastAttemptAt": "2026-11-04T17:53:44.094523+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T17:53:44.094523+00:00",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "Published SDK source and package",
-      "changedSources": [],
+      "observedAvailability": "Published Go 0.6.0 SDK with cgo native libraries and core 0.49.1; requires 0.49 indexer. Full current README, retained 0.4 and 0.6 release notes, and retained 0.5 source-tag README reviewed; no material listing change. No SDK or wallet execution.",
+      "changedSources": [
+        "https://github.com/tari-project/ootle-go/tree/v0.5.0"
+      ],
       "reviewQueue": [],
       "checkedScope": [
         "https://github.com/tari-project/ootle-go",
-        "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0"
+        "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0",
+        "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0",
+        "https://github.com/tari-project/ootle-go/tree/v0.5.0"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
+      "sourceObservation": "Published Go 0.6.0 SDK with cgo native libraries and core 0.49.1; requires 0.49 indexer. Full current README, retained 0.4 and 0.6 release notes, and retained 0.5 source-tag README reviewed; no material listing change. No SDK or wallet execution.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
-      "reviewedSourceCount": 2,
-      "pendingReviewSources": [
-        "https://github.com/tari-project/ootle-go/releases/tag/v0.4.0",
-        "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0"
-      ],
+      "reviewedSourceCount": 4,
+      "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/tari-project/ootle-go",
@@ -9072,6 +9364,9 @@
           "attemptedAt": "2026-11-04T10:09:31.156970+00:00",
           "revision": "f11e68566025714544397f781ba025cd4d9b0914"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/python-go-source-acceptance.json"
       ]
     },
     "tari-ootle:component:erebus-ootle-sdk": {
@@ -11149,30 +11444,37 @@
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/39",
         "https://github.com/kstrycharz/hauntboard",
-        "https://hauntboard.taritracker.com/"
+        "https://hauntboard.taritracker.com/",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/kstrycharz/hauntboard/releases",
+        "https://hauntboard.taritracker.com/?category=general&thread=component_14ba1630afe627a87ac641b501fc74e5bbb6f505d0cc4148e2506a9eadcc58f0",
+        "https://www.reddit.com/r/tari/comments/1x4eany/i_built_hauntboard_for_taris_spooky_secrets/",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/13",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/31"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T18:00:54.798Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "evidence": "work/daily-2026-11-04/hauntboard-original-post-9-unavailable.json",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastAttemptAt": "2026-11-04T18:00:54.798Z",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read",
-          "error": null
+          "status": "blocked",
+          "error": "Original forum post 9 is absent from the complete public stream; direct browser navigation settles on the preceding available post.",
+          "failureKind": "unavailable-content",
+          "nextAction": "Recheck if forum restores the original or exposes a creator-documented replacement for that exact post; preserve historical source bytes and link."
         },
         "https://github.com/kstrycharz/hauntboard": {
           "url": "https://github.com/kstrycharz/hauntboard",
-          "hash": "8c3cf2c9672b7df58b7f7a686a93c86e5713715e32570ceb0e9dfc4a6f4d56b1",
-          "revision": "dcf10331aea5b035d33497cd79737a480cb9fc2d",
           "attemptedAt": "2026-11-04T10:07:06.339453+00:00",
+          "hash": "8c3cf2c9672b7df58b7f7a686a93c86e5713715e32570ceb0e9dfc4a6f4d56b1",
           "evidence": "work/daily-2026-11-04/33b4bd74108060a3-8c3cf2c9672b7df58b7f7a686a93c86e5713715e32570ceb0e9dfc4a6f4d56b1.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Complete README and all 16 short release notes reviewed; current README documents November2 replacement board.",
           "lastAttemptAt": "2026-11-04T10:07:06.339453+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:06.339453+00:00",
           "status": "read",
@@ -11180,33 +11482,37 @@
         },
         "https://hauntboard.taritracker.com/": {
           "url": "https://hauntboard.taritracker.com/",
-          "hash": "8517e9decfd3e074bafd976d0bff3e948945662c989a80b5a63eca9053d9a1e4",
-          "attemptedAt": "2026-11-04T10:07:28.136992+00:00",
-          "evidence": "work/daily-2026-11-04/6473df00f2b08ee1-8517e9decfd3e074bafd976d0bff3e948945662c989a80b5a63eca9053d9a1e4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:28.136992+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:28.136992+00:00",
+          "attemptedAt": "2026-11-04T18:00:54.798Z",
+          "hash": "9cbc084a33ae9f8930476407762b3f12538a077817add285eb9dbb6d9985936d",
+          "evidence": "work/daily-2026-11-04/hauntboard-reset-thread-current.txt",
+          "scope": "Current fresh board reachable on runtime0.49.1; full creator reset notice and zero replies read. No wallet or posting action.",
+          "lastAttemptAt": "2026-11-04T18:00:54.798Z",
+          "lastSuccessfulReadAt": "2026-11-04T18:00:54.798Z",
           "status": "read",
           "error": null
         },
         "https://www.reddit.com/r/tari/comments/1x4eany/i_built_hauntboard_for_taris_spooky_secrets/": {
           "url": "https://www.reddit.com/r/tari/comments/1x4eany/i_built_hauntboard_for_taris_spooky_secrets/",
-          "attemptedAt": "2026-10-29T20:05:18.354Z",
-          "evidence": "work/completion-2026-10-29/hauntboard.txt",
-          "hash": "60f3bc1b84dde7c5efd3b839ec7f36300f1ccf64f3d0d3ed6c8652bcc9b989c9",
-          "lastAttemptAt": "2026-10-29T20:05:18.354Z",
-          "lastSuccessfulReadAt": "2026-10-29T20:05:18.354Z",
-          "status": "read"
+          "attemptedAt": "2026-11-04T18:00:54.798Z",
+          "hash": "f700652425168cb3c0a7ff9bb9a6705bcf79b1939f6011dc1a45b980a24d14eb",
+          "evidence": "work/daily-2026-11-04/hauntboard-reddit-current.txt",
+          "scope": "Expanded original by Starz1428 and the sole reply by Okan01616161 read.",
+          "lastAttemptAt": "2026-11-04T18:00:54.798Z",
+          "lastSuccessfulReadAt": "2026-11-04T18:00:54.798Z",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/13": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/13",
           "hash": "98c4a1af89e5475adf3233fe755bd34a3ea0e024f660424fd945b5e6267996ff",
-          "evidence": "daily-2026-10-29/839dbc5a59cc28fd.txt",
-          "lastAttemptAt": "2026-10-29T10:44:24.044Z",
+          "evidence": "work/daily-2026-11-04/hauntboard-original-post-13-unavailable.json",
+          "lastAttemptAt": "2026-11-04T18:00:54.798Z",
           "lastSuccessfulReadAt": "2026-10-29T10:44:24.044Z",
           "attemptedAt": "2026-10-29T10:44:24.044Z",
-          "status": "read"
+          "status": "blocked",
+          "error": "Original forum post 13 is absent from the complete public stream; direct browser navigation settles on the preceding available post.",
+          "failureKind": "unavailable-content",
+          "nextAction": "Recheck if forum restores the original or exposes a creator-documented replacement for that exact post; preserve historical source bytes and link."
         },
         "https://hauntboard.taritracker.com/about": {
           "url": "https://hauntboard.taritracker.com/about",
@@ -11219,25 +11525,23 @@
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/39": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/39",
+          "attemptedAt": "2026-11-04T10:06:46.678420+00:00",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "scope": "All 41 available posts in complete thread read; current Hauntboard replacement entry and testnet-reset notice. Historical post numbers 9,13,31 are absent.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678420+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678420+00:00",
           "status": "read",
           "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "attemptedAt": "2026-11-04T10:06:46.678420+00:00",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "scope": "All 41 available posts in complete thread read; current Hauntboard replacement entry and testnet-reset notice. Historical post numbers 9,13,31 are absent.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678420+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678420+00:00",
           "status": "read",
           "error": null
         },
@@ -11245,25 +11549,47 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/31",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "evidence": "work/daily-2026-11-04/hauntboard-original-post-31-unavailable.json",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastAttemptAt": "2026-11-04T18:00:54.798Z",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "status": "blocked",
+          "error": "Original forum post 31 is absent from the complete public stream; direct browser navigation settles on the preceding available post.",
+          "failureKind": "unavailable-content",
+          "nextAction": "Recheck if forum restores the original or exposes a creator-documented replacement for that exact post; preserve historical source bytes and link."
+        },
+        "https://github.com/kstrycharz/hauntboard/releases": {
+          "url": "https://github.com/kstrycharz/hauntboard/releases",
+          "attemptedAt": "2026-11-04T10:07:06.074189+00:00",
+          "hash": "48b4471e2095eefcccf85f60e7a75c39c3f56c862f0d3e91b957acbf1aa5d2d7",
+          "evidence": "work/daily-2026-11-04/8839d8f2d73157fc-48b4471e2095eefcccf85f60e7a75c39c3f56c862f0d3e91b957acbf1aa5d2d7.txt",
+          "scope": "Complete README and all 16 short release notes reviewed; current README documents November2 replacement board.",
+          "lastAttemptAt": "2026-11-04T10:07:06.074189+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:06.074189+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://hauntboard.taritracker.com/?category=general&thread=component_14ba1630afe627a87ac641b501fc74e5bbb6f505d0cc4148e2506a9eadcc58f0": {
+          "url": "https://hauntboard.taritracker.com/?category=general&thread=component_14ba1630afe627a87ac641b501fc74e5bbb6f505d0cc4148e2506a9eadcc58f0",
+          "attemptedAt": "2026-11-04T18:00:54.798Z",
+          "hash": "9cbc084a33ae9f8930476407762b3f12538a077817add285eb9dbb6d9985936d",
+          "evidence": "work/daily-2026-11-04/hauntboard-reset-thread-current.txt",
+          "scope": "Current fresh board reachable on runtime0.49.1; full creator reset notice and zero replies read. No wallet or posting action.",
+          "lastAttemptAt": "2026-11-04T18:00:54.798Z",
+          "lastSuccessfulReadAt": "2026-11-04T18:00:54.798Z",
           "status": "read",
           "error": null
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/39",
-        "https://github.com/kstrycharz/hauntboard",
+        "https://github.com/kstrycharz/hauntboard/releases",
         "https://hauntboard.taritracker.com/",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/31"
+        "https://hauntboard.taritracker.com/?category=general&thread=component_14ba1630afe627a87ac641b501fc74e5bbb6f505d0cc4148e2506a9eadcc58f0",
+        "https://www.reddit.com/r/tari/comments/1x4eany/i_built_hauntboard_for_taris_spooky_secrets/"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -11291,8 +11617,11 @@
       "reviewedSourceCount": 6,
       "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/13",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/31"
+      ],
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -11332,6 +11661,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/hauntboard-history-review.json"
       ]
     },
     "tari-ootle:component:crypt": {
@@ -13146,15 +13478,15 @@
         "https://hauntboard.taritracker.com/?board=component_594f90d8cb8c2d0f70d941ba1c513769727feceeabd9d2137b5b6a130a6aa28e&category=general&thread=component_59df751bd774e777c97b4cab4dc7b6723ffcbb66cd3d8656ffcb87de99630011",
         "https://community.tari.com/t/tari-universe-on-web/354/16"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-04T17:56:52.401Z",
       "sourceReviews": {
         "https://community.tari.com/t/tari-universe-on-web/354/12": {
           "url": "https://community.tari.com/t/tari-universe-on-web/354/12",
+          "file": "27b8cd10d1ef7c69-4bf8b9296d5ca72caa9ba79f91aa680fd709427cb91d4aa8df487670206b6cb7.txt",
           "hash": "4bf8b9296d5ca72caa9ba79f91aa680fd709427cb91d4aa8df487670206b6cb7",
           "attemptedAt": "2026-11-04T10:06:44.899861+00:00",
           "evidence": "work/daily-2026-11-04/27b8cd10d1ef7c69-4bf8b9296d5ca72caa9ba79f91aa680fd709427cb91d4aa8df487670206b6cb7.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full forum thread, official burn guide or rendered public faucet form read. No faucet claim, burn or wallet action.",
           "lastAttemptAt": "2026-11-04T10:06:44.899861+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.899861+00:00",
           "status": "read",
@@ -13162,23 +13494,23 @@
         },
         "https://testnet-faucet.supportxtm.com/": {
           "url": "https://testnet-faucet.supportxtm.com/",
-          "hash": "8f8ffe8e207d33e260d922c71b5148e4a448ad0832e93dfd386e24e7a7f0753d",
-          "attemptedAt": "2026-11-04T10:07:34.839203+00:00",
-          "evidence": "work/daily-2026-11-04/1c8b04153e2e7e25-8f8ffe8e207d33e260d922c71b5148e4a448ad0832e93dfd386e24e7a7f0753d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:34.839203+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:34.839203+00:00",
+          "file": "hexcrow-linked-faucet-page.txt",
+          "attemptedAt": "2026-11-04T17:41:49.014Z",
+          "hash": "9bc3e2f4b39d921ca7bee516fd2e239a6d499306fdfbc3e08e57dcd111fafefb",
+          "evidence": "work/daily-2026-11-04/hexcrow-linked-faucet-page.txt",
+          "method": "Full forum thread, official burn guide or rendered public faucet form read. No faucet claim, burn or wallet action.",
+          "lastAttemptAt": "2026-11-04T17:41:49.014Z",
+          "lastSuccessfulReadAt": "2026-11-04T17:41:49.014Z",
           "status": "read",
           "error": null
         },
         "https://community.tari.com/t/tari-universe-on-web/354/16": {
           "url": "https://community.tari.com/t/tari-universe-on-web/354/16",
+          "file": "27b8cd10d1ef7c69-4bf8b9296d5ca72caa9ba79f91aa680fd709427cb91d4aa8df487670206b6cb7.txt",
           "hash": "4bf8b9296d5ca72caa9ba79f91aa680fd709427cb91d4aa8df487670206b6cb7",
           "attemptedAt": "2026-11-04T10:06:44.899861+00:00",
           "evidence": "work/daily-2026-11-04/27b8cd10d1ef7c69-4bf8b9296d5ca72caa9ba79f91aa680fd709427cb91d4aa8df487670206b6cb7.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full forum thread, official burn guide or rendered public faucet form read. No faucet claim, burn or wallet action.",
           "lastAttemptAt": "2026-11-04T10:06:44.899861+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:44.899861+00:00",
           "status": "read",
@@ -13186,11 +13518,12 @@
         },
         "https://ootle.tari.com/guides/burn-minotari/": {
           "url": "https://ootle.tari.com/guides/burn-minotari/",
+          "file": "c8a5a1b719e104c2-6aec155de5bf55dd71266964ccfaeaed3f8de2d17fce706b342ee35d0bf95b89.txt",
           "hash": "6aec155de5bf55dd71266964ccfaeaed3f8de2d17fce706b342ee35d0bf95b89",
           "attemptedAt": "2026-11-04T10:07:30.060058+00:00",
+          "httpStatus": 200,
           "evidence": "work/daily-2026-11-04/c8a5a1b719e104c2-6aec155de5bf55dd71266964ccfaeaed3f8de2d17fce706b342ee35d0bf95b89.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full forum thread, official burn guide or rendered public faucet form read. No faucet claim, burn or wallet action.",
           "lastAttemptAt": "2026-11-04T10:07:30.060058+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:30.060058+00:00",
           "status": "read",
@@ -13200,24 +13533,22 @@
           "url": "https://hauntboard.taritracker.com/?board=component_594f90d8cb8c2d0f70d941ba1c513769727feceeabd9d2137b5b6a130a6aa28e&category=general&thread=component_59df751bd774e777c97b4cab4dc7b6723ffcbb66cd3d8656ffcb87de99630011",
           "hash": "8517e9decfd3e074bafd976d0bff3e948945662c989a80b5a63eca9053d9a1e4",
           "attemptedAt": "2026-11-04T10:07:28.233199+00:00",
-          "evidence": "work/daily-2026-11-04/d8dae55ac7640e33-8517e9decfd3e074bafd976d0bff3e948945662c989a80b5a63eca9053d9a1e4.txt",
+          "evidence": "work/daily-2026-11-04/supportxtm-thread-browser-failure.txt",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:28.233199+00:00",
+          "lastAttemptAt": "2026-11-04T17:56:52.401Z",
           "lastSuccessfulReadAt": "2026-11-04T10:07:28.233199+00:00",
-          "status": "read",
-          "error": null
+          "status": "blocked",
+          "error": "Retained on-chain thread cannot load: provider runtime 0.49.1 returns no verified board state after initial load and one supported Retry loading action.",
+          "failureKind": "unavailable-content",
+          "nextAction": "Revisit when the board provider recovers or creator supplies a documented replacement. Preserve the old permalink and failure history."
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:13:04.032Z",
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
-        "https://community.tari.com/t/tari-universe-on-web/354/12",
-        "https://ootle.tari.com/guides/burn-minotari/",
-        "https://testnet-faucet.supportxtm.com/",
-        "https://hauntboard.taritracker.com/?board=component_594f90d8cb8c2d0f70d941ba1c513769727feceeabd9d2137b5b6a130a6aa28e&category=general&thread=component_59df751bd774e777c97b4cab4dc7b6723ffcbb66cd3d8656ffcb87de99630011",
-        "https://community.tari.com/t/tari-universe-on-web/354/16"
+        "https://testnet-faucet.supportxtm.com/"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -13244,8 +13575,9 @@
       "reviewedSourceCount": 5,
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://hauntboard.taritracker.com/?board=component_594f90d8cb8c2d0f70d941ba1c513769727feceeabd9d2137b5b6a130a6aa28e&category=general&thread=component_59df751bd774e777c97b4cab4dc7b6723ffcbb66cd3d8656ffcb87de99630011"
+      ],
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/354.json",
@@ -13280,6 +13612,9 @@
           "hash": "4bf8b9296d5ca72caa9ba79f91aa680fd709427cb91d4aa8df487670206b6cb7",
           "attemptedAt": "2026-11-04T10:06:44.899861+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/supportxtm-source-review.json"
       ]
     },
     "project:ghostline": {
@@ -19876,33 +20211,39 @@
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
         "https://github.com/kasbsquall/hexcrow",
-        "https://kasbsquall.github.io/hexcrow/"
+        "https://kasbsquall.github.io/hexcrow/",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://community.tari.com/t/486",
+        "https://github.com/kasbsquall/hexcrow/releases",
+        "https://github.com/kasbsquall/hexcrow#readme",
+        "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j",
+        "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/",
+        "https://community.tari.com/t/530",
+        "https://www.youtube.com/watch?v=mIA5McSGTiA",
+        "https://testnet-faucet.supportxtm.com/"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T17:41:49.014Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T17:41:49.014Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
+          "attemptedAt": "2026-11-04T10:06:46.678420+00:00",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "scope": "Full available thread; Hexcrow original, reset notice, or linked builder field notes reviewed.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678420+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678420+00:00",
           "status": "read",
           "error": null
         },
         "https://github.com/kasbsquall/hexcrow": {
           "url": "https://github.com/kasbsquall/hexcrow",
-          "hash": "b422773e3285d14bd05a0bd4e4aa1668f5fb23baf8d652177f33b857f83a2450",
-          "revision": "f7e939eebb5ad19206f2b3ed17b035c21a8b2e03",
           "attemptedAt": "2026-11-04T10:07:05.554774+00:00",
+          "hash": "b422773e3285d14bd05a0bd4e4aa1668f5fb23baf8d652177f33b857f83a2450",
           "evidence": "work/daily-2026-11-04/f446d6a538fac316-b422773e3285d14bd05a0bd4e4aa1668f5fb23baf8d652177f33b857f83a2450.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Repository metadata, README, release stream and linked current archived-replay destination reviewed.",
           "lastAttemptAt": "2026-11-04T10:07:05.554774+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.554774+00:00",
           "status": "read",
@@ -19910,76 +20251,134 @@
         },
         "https://kasbsquall.github.io/hexcrow/": {
           "url": "https://kasbsquall.github.io/hexcrow/",
-          "hash": "0214d8f27dace2e01abc07f6ff6a8a2f3de3d7b6683078e16bf19bba3a7568e0",
-          "attemptedAt": "2026-11-04T10:07:28.797565+00:00",
-          "evidence": "work/daily-2026-11-04/9fa80288b97861c1-0214d8f27dace2e01abc07f6ff6a8a2f3de3d7b6683078e16bf19bba3a7568e0.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:28.797565+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:28.797565+00:00",
+          "attemptedAt": "2026-11-04T11:07:32.176749+00:00",
+          "hash": "7ed4d373ffc170c70125d948651b274c5e2dc467da1a26953f5369e546b48082",
+          "evidence": "work/daily-2026-11-04/hexcrow-current-demo.txt",
+          "scope": "Public role-copy replay inspected and recorded; November2 reset prominently disclosed.",
+          "lastAttemptAt": "2026-11-04T11:07:32.176749+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T11:07:32.176749+00:00",
           "status": "read",
           "error": null
         },
         "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j": {
           "url": "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j",
-          "hash": "e4d42a3fc9dc9c3e750312cfe7b5e75d406a9dc0cafbd594caac7abb217111c1",
-          "attemptedAt": "2026-11-04T10:07:24.995178+00:00",
-          "evidence": "work/daily-2026-11-04/8737275479cf4b4e-e4d42a3fc9dc9c3e750312cfe7b5e75d406a9dc0cafbd594caac7abb217111c1.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:24.995178+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:24.995178+00:00",
+          "attemptedAt": "2026-11-04T10:06:45.880530+00:00",
+          "hash": "44e391615d5ce2d46d5e3282213a6239cf854b7e836f8f76c33dda3d21b212b4",
+          "evidence": "work/daily-2026-11-04/8737275479cf4b4e-44e391615d5ce2d46d5e3282213a6239cf854b7e836f8f76c33dda3d21b212b4.txt",
+          "scope": "Original Bluesky post and zero replies; seven rejected attacks was the older announcement, subsequent source claims ten.",
+          "lastAttemptAt": "2026-11-04T10:06:45.880530+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:45.880530+00:00",
           "status": "read",
           "error": null
         },
         "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/": {
           "url": "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/",
-          "hash": "09b349be3b136a7ce0afd04c3dd1123f283707c36a7ea62d0650e7409de2d94c",
-          "attemptedAt": "2026-11-04T10:07:36.294155+00:00",
-          "evidence": "work/daily-2026-11-04/8de5b749c3612f71-09b349be3b136a7ce0afd04c3dd1123f283707c36a7ea62d0650e7409de2d94c.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:36.294155+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:36.294155+00:00",
+          "attemptedAt": "2026-11-04T10:37:56.707943+00:00",
+          "hash": "9db02d04ebc197106385f11b7d0cb3f9fdc5a5597b408d52dffdc66b8e526ebf",
+          "evidence": "work/daily-2026-11-04/reddit-1xiwfz4.txt",
+          "scope": "Full original post with zero comments; creator report of October29 run, not independent security certification.",
+          "lastAttemptAt": "2026-11-04T10:37:56.707943+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:37:56.707943+00:00",
           "status": "read",
           "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "attemptedAt": "2026-11-04T10:06:46.678420+00:00",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "scope": "Full available thread; Hexcrow original, reset notice, or linked builder field notes reviewed.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678420+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678420+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/486": {
+          "url": "https://community.tari.com/t/486",
+          "attemptedAt": "2026-11-04T10:06:47.952185+00:00",
+          "hash": "35911f4e42efd6cfcf8a11fb5b7c21a5acff511ff3e06755c99ccb657cec0aa3",
+          "evidence": "work/daily-2026-11-04/4e3e685d286d546e-35911f4e42efd6cfcf8a11fb5b7c21a5acff511ff3e06755c99ccb657cec0aa3.txt",
+          "scope": "Full available thread; Hexcrow original, reset notice, or linked builder field notes reviewed.",
+          "lastAttemptAt": "2026-11-04T10:06:47.952185+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:47.952185+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/kasbsquall/hexcrow/releases": {
+          "url": "https://github.com/kasbsquall/hexcrow/releases",
+          "attemptedAt": "2026-11-04T10:07:05.285190+00:00",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "evidence": "work/daily-2026-11-04/08d6d5982c228e42-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Repository metadata, README, release stream and linked current archived-replay destination reviewed.",
+          "lastAttemptAt": "2026-11-04T10:07:05.285190+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:05.285190+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/kasbsquall/hexcrow#readme": {
+          "url": "https://github.com/kasbsquall/hexcrow#readme",
+          "attemptedAt": "2026-11-04T10:07:05.554774+00:00",
+          "hash": "b422773e3285d14bd05a0bd4e4aa1668f5fb23baf8d652177f33b857f83a2450",
+          "evidence": "work/daily-2026-11-04/f446d6a538fac316-b422773e3285d14bd05a0bd4e4aa1668f5fb23baf8d652177f33b857f83a2450.txt",
+          "scope": "Current README included in reviewed repository response.",
+          "lastAttemptAt": "2026-11-04T10:07:05.554774+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:05.554774+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/530": {
+          "url": "https://community.tari.com/t/530",
+          "attemptedAt": "2026-11-04T17:37:21.482789+00:00",
+          "hash": "080aa0a5d2c1b2f7499cfe83facffcca6b03f6727a65b2d5aa78a6661a6934da",
+          "evidence": "work/daily-2026-11-04/hexcrow-forum-530-080aa0a5d2c1b2f7499cfe83facffcca6b03f6727a65b2d5aa78a6661a6934da.json",
+          "scope": "All four posts including November4 16:43 faucet suggestion read. No evidence that Hexcrow has been republished.",
+          "lastAttemptAt": "2026-11-04T17:37:21.482789+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T17:37:21.482789+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://www.youtube.com/watch?v=mIA5McSGTiA": {
+          "url": "https://www.youtube.com/watch?v=mIA5McSGTiA",
+          "attemptedAt": "2026-11-04T17:41:49.014Z",
+          "hash": "a013b499d441a25399f8dc7f69d9b165296622d023b07e69c87e559a9bdb0af3",
+          "evidence": "work/daily-2026-11-04/hexcrow-creator-video-page.txt",
+          "scope": "October29 creator video description, chapters, zero comments and complete auto-generated transcript reviewed; sampled visual playback. Not a full audiovisual export acceptance or new network test.",
+          "lastAttemptAt": "2026-11-04T17:41:49.014Z",
+          "lastSuccessfulReadAt": "2026-11-04T17:41:49.014Z",
+          "status": "read",
+          "error": null
+        },
+        "https://testnet-faucet.supportxtm.com/": {
+          "url": "https://testnet-faucet.supportxtm.com/",
+          "attemptedAt": "2026-11-04T17:41:49.014Z",
+          "hash": "9bc3e2f4b39d921ca7bee516fd2e239a6d499306fdfbc3e08e57dcd111fafefb",
+          "evidence": "work/daily-2026-11-04/hexcrow-linked-faucet-page.txt",
+          "scope": "Public L1 testnet tXTM request page reachable and points to burn guide. Displayed balance is site-reported; no request, wallet or burn performed.",
+          "lastAttemptAt": "2026-11-04T17:41:49.014Z",
+          "lastSuccessfulReadAt": "2026-11-04T17:41:49.014Z",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "observedAvailability": "Milestone escrow using a stealth output, an approval path, a timeout refund and jointly signed mediator paths. The public invoice book records hashes, one-time keys, deadlines and status; role-specific copies disclose invoice text and amounts. November 4 review found that the website explicitly replays the archived October 29 run: the November 2 Esmeralda reset removed its template, book and transactions. The creator reports updated source using ootle-rs 0.31 and tari_template_lib 0.37 with 19 engine tests, while a replacement deployment is waiting for test funds. The refreshed recording switches public, client and accountant copies of the archived invoice; it performs no funding, wallet action or new transaction. Mediator judgment remains trusted, fees and timing remain visible, and the demo’s published throwaway keys must not hold value. All retained original sharing discussions reviewed. The November4 forum reply suggests an alternative L1 testnet faucet; it does not establish a new Hexcrow deployment. October29 creator video and transcript describe the historical run, with AI-generated media disclosure.",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
-        "https://github.com/kasbsquall/hexcrow",
-        "https://kasbsquall.github.io/hexcrow/",
+        "https://community.tari.com/t/486",
+        "https://github.com/kasbsquall/hexcrow/releases",
+        "https://github.com/kasbsquall/hexcrow#readme",
         "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j",
         "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://community.tari.com/t/530",
+        "https://kasbsquall.github.io/hexcrow/",
+        "https://www.youtube.com/watch?v=mIA5McSGTiA",
+        "https://testnet-faucet.supportxtm.com/"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -20021,6 +20420,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/hexcrow-full-source-acceptance.json"
       ]
     },
     "project:ootle-accord": {
@@ -20955,33 +21357,36 @@
         "https://github.com/kasbsquall/hexcrow#readme",
         "https://kasbsquall.github.io/hexcrow/",
         "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j",
-        "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/"
+        "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://community.tari.com/t/486",
+        "https://github.com/kasbsquall/hexcrow/releases",
+        "https://community.tari.com/t/530",
+        "https://www.youtube.com/watch?v=mIA5McSGTiA",
+        "https://testnet-faucet.supportxtm.com/"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastSuccessfulReviewAt": "2026-11-04T17:41:49.014Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-04T17:41:49.014Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
+          "attemptedAt": "2026-11-04T10:06:46.678420+00:00",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "scope": "Full available thread; Hexcrow original, reset notice, or linked builder field notes reviewed.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678420+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678420+00:00",
           "status": "read",
           "error": null
         },
         "https://github.com/kasbsquall/hexcrow": {
           "url": "https://github.com/kasbsquall/hexcrow",
-          "hash": "b422773e3285d14bd05a0bd4e4aa1668f5fb23baf8d652177f33b857f83a2450",
-          "revision": "f7e939eebb5ad19206f2b3ed17b035c21a8b2e03",
           "attemptedAt": "2026-11-04T10:07:05.554774+00:00",
+          "hash": "b422773e3285d14bd05a0bd4e4aa1668f5fb23baf8d652177f33b857f83a2450",
           "evidence": "work/daily-2026-11-04/f446d6a538fac316-b422773e3285d14bd05a0bd4e4aa1668f5fb23baf8d652177f33b857f83a2450.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "scope": "Repository metadata, README, release stream and linked current archived-replay destination reviewed.",
           "lastAttemptAt": "2026-11-04T10:07:05.554774+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.554774+00:00",
           "status": "read",
@@ -20989,90 +21394,134 @@
         },
         "https://github.com/kasbsquall/hexcrow#readme": {
           "url": "https://github.com/kasbsquall/hexcrow#readme",
-          "hash": "c7a1d14b5c7f349d5c3a9f4745eb9025f13ca754950bd2deb94a3f14d2ce6b16",
-          "revision": "d58ea442900f65859e536a08e02f353afdf85164",
-          "attemptedAt": "2026-10-31T09:25:22.272831+00:00",
-          "evidence": "work/daily-2026-10-31/f446d6a538fac316.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:25:22.272831+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:25:22.272831+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:07:05.554774+00:00",
+          "hash": "b422773e3285d14bd05a0bd4e4aa1668f5fb23baf8d652177f33b857f83a2450",
+          "evidence": "work/daily-2026-11-04/f446d6a538fac316-b422773e3285d14bd05a0bd4e4aa1668f5fb23baf8d652177f33b857f83a2450.txt",
+          "scope": "Current README included in reviewed repository response.",
+          "lastAttemptAt": "2026-11-04T10:07:05.554774+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:05.554774+00:00",
+          "status": "read",
+          "error": null
         },
         "https://kasbsquall.github.io/hexcrow/": {
           "url": "https://kasbsquall.github.io/hexcrow/",
-          "hash": "0214d8f27dace2e01abc07f6ff6a8a2f3de3d7b6683078e16bf19bba3a7568e0",
-          "attemptedAt": "2026-11-04T10:07:28.797565+00:00",
-          "evidence": "work/daily-2026-11-04/9fa80288b97861c1-0214d8f27dace2e01abc07f6ff6a8a2f3de3d7b6683078e16bf19bba3a7568e0.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:28.797565+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:28.797565+00:00",
+          "attemptedAt": "2026-11-04T11:07:32.176749+00:00",
+          "hash": "7ed4d373ffc170c70125d948651b274c5e2dc467da1a26953f5369e546b48082",
+          "evidence": "work/daily-2026-11-04/hexcrow-current-demo.txt",
+          "scope": "Public role-copy replay inspected and recorded; November2 reset prominently disclosed.",
+          "lastAttemptAt": "2026-11-04T11:07:32.176749+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T11:07:32.176749+00:00",
           "status": "read",
           "error": null
         },
         "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j": {
           "url": "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j",
-          "hash": "e4d42a3fc9dc9c3e750312cfe7b5e75d406a9dc0cafbd594caac7abb217111c1",
-          "attemptedAt": "2026-11-04T10:07:24.995178+00:00",
-          "evidence": "work/daily-2026-11-04/8737275479cf4b4e-e4d42a3fc9dc9c3e750312cfe7b5e75d406a9dc0cafbd594caac7abb217111c1.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:24.995178+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:24.995178+00:00",
+          "attemptedAt": "2026-11-04T10:06:45.880530+00:00",
+          "hash": "44e391615d5ce2d46d5e3282213a6239cf854b7e836f8f76c33dda3d21b212b4",
+          "evidence": "work/daily-2026-11-04/8737275479cf4b4e-44e391615d5ce2d46d5e3282213a6239cf854b7e836f8f76c33dda3d21b212b4.txt",
+          "scope": "Original Bluesky post and zero replies; seven rejected attacks was the older announcement, subsequent source claims ten.",
+          "lastAttemptAt": "2026-11-04T10:06:45.880530+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:45.880530+00:00",
           "status": "read",
           "error": null
         },
         "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/": {
           "url": "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/",
-          "hash": "09b349be3b136a7ce0afd04c3dd1123f283707c36a7ea62d0650e7409de2d94c",
-          "attemptedAt": "2026-11-04T10:07:36.294155+00:00",
-          "evidence": "work/daily-2026-11-04/8de5b749c3612f71-09b349be3b136a7ce0afd04c3dd1123f283707c36a7ea62d0650e7409de2d94c.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:36.294155+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:36.294155+00:00",
+          "attemptedAt": "2026-11-04T10:37:56.707943+00:00",
+          "hash": "9db02d04ebc197106385f11b7d0cb3f9fdc5a5597b408d52dffdc66b8e526ebf",
+          "evidence": "work/daily-2026-11-04/reddit-1xiwfz4.txt",
+          "scope": "Full original post with zero comments; creator report of October29 run, not independent security certification.",
+          "lastAttemptAt": "2026-11-04T10:37:56.707943+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:37:56.707943+00:00",
           "status": "read",
           "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "attemptedAt": "2026-11-04T10:06:46.678420+00:00",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "scope": "Full available thread; Hexcrow original, reset notice, or linked builder field notes reviewed.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678420+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678420+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/486": {
+          "url": "https://community.tari.com/t/486",
+          "attemptedAt": "2026-11-04T10:06:47.952185+00:00",
+          "hash": "35911f4e42efd6cfcf8a11fb5b7c21a5acff511ff3e06755c99ccb657cec0aa3",
+          "evidence": "work/daily-2026-11-04/4e3e685d286d546e-35911f4e42efd6cfcf8a11fb5b7c21a5acff511ff3e06755c99ccb657cec0aa3.txt",
+          "scope": "Full available thread; Hexcrow original, reset notice, or linked builder field notes reviewed.",
+          "lastAttemptAt": "2026-11-04T10:06:47.952185+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:47.952185+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/kasbsquall/hexcrow/releases": {
+          "url": "https://github.com/kasbsquall/hexcrow/releases",
+          "attemptedAt": "2026-11-04T10:07:05.285190+00:00",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "evidence": "work/daily-2026-11-04/08d6d5982c228e42-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Repository metadata, README, release stream and linked current archived-replay destination reviewed.",
+          "lastAttemptAt": "2026-11-04T10:07:05.285190+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:05.285190+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/530": {
+          "url": "https://community.tari.com/t/530",
+          "attemptedAt": "2026-11-04T17:37:21.482789+00:00",
+          "hash": "080aa0a5d2c1b2f7499cfe83facffcca6b03f6727a65b2d5aa78a6661a6934da",
+          "evidence": "work/daily-2026-11-04/hexcrow-forum-530-080aa0a5d2c1b2f7499cfe83facffcca6b03f6727a65b2d5aa78a6661a6934da.json",
+          "scope": "All four posts including November4 16:43 faucet suggestion read. No evidence that Hexcrow has been republished.",
+          "lastAttemptAt": "2026-11-04T17:37:21.482789+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T17:37:21.482789+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://www.youtube.com/watch?v=mIA5McSGTiA": {
+          "url": "https://www.youtube.com/watch?v=mIA5McSGTiA",
+          "attemptedAt": "2026-11-04T17:41:49.014Z",
+          "hash": "a013b499d441a25399f8dc7f69d9b165296622d023b07e69c87e559a9bdb0af3",
+          "evidence": "work/daily-2026-11-04/hexcrow-creator-video-page.txt",
+          "scope": "October29 creator video description, chapters, zero comments and complete auto-generated transcript reviewed; sampled visual playback. Not a full audiovisual export acceptance or new network test.",
+          "lastAttemptAt": "2026-11-04T17:41:49.014Z",
+          "lastSuccessfulReadAt": "2026-11-04T17:41:49.014Z",
+          "status": "read",
+          "error": null
+        },
+        "https://testnet-faucet.supportxtm.com/": {
+          "url": "https://testnet-faucet.supportxtm.com/",
+          "attemptedAt": "2026-11-04T17:41:49.014Z",
+          "hash": "9bc3e2f4b39d921ca7bee516fd2e239a6d499306fdfbc3e08e57dcd111fafefb",
+          "evidence": "work/daily-2026-11-04/hexcrow-linked-faucet-page.txt",
+          "scope": "Public L1 testnet tXTM request page reachable and points to burn guide. Displayed balance is site-reported; no request, wallet or burn performed.",
+          "lastAttemptAt": "2026-11-04T17:41:49.014Z",
+          "lastSuccessfulReadAt": "2026-11-04T17:41:49.014Z",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "pendingReviewSources": [
-        "https://github.com/kasbsquall/hexcrow#readme"
-      ],
+      "observedAvailability": "Milestone escrow using a stealth output, an approval path, a timeout refund and jointly signed mediator paths. The public invoice book records hashes, one-time keys, deadlines and status; role-specific copies disclose invoice text and amounts. November 4 review found that the website explicitly replays the archived October 29 run: the November 2 Esmeralda reset removed its template, book and transactions. The creator reports updated source using ootle-rs 0.31 and tari_template_lib 0.37 with 19 engine tests, while a replacement deployment is waiting for test funds. The refreshed recording switches public, client and accountant copies of the archived invoice; it performs no funding, wallet action or new transaction. Mediator judgment remains trusted, fees and timing remain visible, and the demo’s published throwaway keys must not hold value. All retained original sharing discussions reviewed. The November4 forum reply suggests an alternative L1 testnet faucet; it does not establish a new Hexcrow deployment. October29 creator video and transcript describe the historical run, with AI-generated media disclosure.",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
-        "https://github.com/kasbsquall/hexcrow",
-        "https://kasbsquall.github.io/hexcrow/",
+        "https://community.tari.com/t/486",
+        "https://github.com/kasbsquall/hexcrow/releases",
+        "https://github.com/kasbsquall/hexcrow#readme",
         "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j",
         "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://community.tari.com/t/530",
+        "https://kasbsquall.github.io/hexcrow/",
+        "https://www.youtube.com/watch?v=mIA5McSGTiA",
+        "https://testnet-faucet.supportxtm.com/"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -21114,6 +21563,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/hexcrow-full-source-acceptance.json"
       ]
     },
     "creator-contest-503": {

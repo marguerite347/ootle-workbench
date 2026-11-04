@@ -119,7 +119,7 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official Python SDK",
-      "summary": "Python SDK v0.4.0 was published on PyPI November 2, 2026 and requires Python 3.13+. Its tagged changelog tracks Ootle 0.49.1 and the 0.48/0.49 wire changes: CBOR indexer values, destination tags, view-secret stealth keys and proof-window instructions. Clients before v0.4.0 cannot read a 0.48+ indexer or sign for a 0.48+ network. The package includes hash-checked WASM and BOR blobs through Wasmtime. November 2 review covered the full README, tagged changelog and package metadata; the recording shows the changelog, without installing or executing the SDK.",
+      "summary": "Python SDK v0.4.0 was published on PyPI November 2, 2026 and requires Python 3.13+. Its tagged changelog tracks Ootle 0.49.1 and the 0.48/0.49 wire changes: CBOR indexer values, destination tags, view-secret stealth keys and proof-window instructions. Clients before v0.4.0 cannot read a 0.48+ indexer or sign for a 0.48+ network. The package includes hash-checked WASM and BOR blobs through Wasmtime. November 4 review covered the full README, tagged changelog and package metadata; the recording shows the changelog, without installing or executing the SDK.",
       "status": "SDK",
       "sourceUrl": "https://github.com/tari-project/ootle-py",
       "repoUrl": "https://github.com/tari-project/ootle-py",
@@ -133,7 +133,7 @@
       "platform": "Python ≥3.13",
       "upstreamRevision": "3ebac60c51114825177a07c8f3bf267b2f20ca09",
       "sourceUpdatedAt": "2026-11-02T11:16:56.050495Z",
-      "lastCheckedAt": "2026-11-02T21:09:53.261411+00:00",
+      "lastCheckedAt": "2026-11-04T17:54:57.548Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -157,7 +157,7 @@
         {
           "url": "https://pypi.org/project/ootle-py/0.3.2/",
           "platform": "Primary version publication",
-          "context": "Official package 0.3.2; GitHub release page still v0.3.1"
+          "context": "Historical official package 0.3.2 publication"
         },
         {
           "url": "https://pypi.org/project/ootle-py/0.4.0/",
@@ -182,7 +182,7 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official Go SDK",
-      "summary": "Go SDK v0.6.0, published November 2, 2026, uses the Ootle 0.49.1 Rust core and requires a 0.49 indexer. It adds CBOR decoding, co-signing and sr25519 signing, and changes stealth scanning to require a view secret and account public key. DestinationTag replaces PayRef. Use matching cgo native libraries for macOS amd64/arm64, Linux amd64/arm64 or Windows amd64. AuthorizeProof and DropProofAuthorization are not yet supported by this Go builder. November 2 review covered the README and complete release notes; the recording shows the public announcement, without installing or executing the SDK.",
+      "summary": "Go SDK v0.6.0, published November 2, 2026, uses the Ootle 0.49.1 Rust core and requires a 0.49 indexer. It adds CBOR decoding, co-signing and sr25519 signing, and changes stealth scanning to require a view secret and account public key. DestinationTag replaces PayRef. Use matching cgo native libraries for macOS amd64/arm64, Linux amd64/arm64 or Windows amd64. AuthorizeProof and DropProofAuthorization are not yet supported by this Go builder. November 4 review covered the README and complete release notes; the recording shows the public announcement, without installing or executing the SDK.",
       "status": "SDK",
       "sourceUrl": "https://github.com/tari-project/ootle-go",
       "repoUrl": "https://github.com/tari-project/ootle-go",
@@ -196,7 +196,7 @@
       "platform": "Go / cgo",
       "upstreamRevision": "f11e68566025714544397f781ba025cd4d9b0914",
       "sourceUpdatedAt": "2026-11-02T11:16:25Z",
-      "lastCheckedAt": "2026-11-02T21:09:53.261411+00:00",
+      "lastCheckedAt": "2026-11-04T17:54:57.548Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -220,7 +220,7 @@
         {
           "url": "https://github.com/tari-project/ootle-go/tree/v0.5.0",
           "platform": "Primary version publication",
-          "context": "Official v0.5.0 source tag; release page still v0.4.0"
+          "context": "Historical official v0.5.0 source tag"
         },
         {
           "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.6.0",
@@ -996,7 +996,7 @@
       "ecosystem": "tari",
       "group": "Developer tools",
       "title": "SupportXTM testnet faucet",
-      "summary": "Community faucet for L1 Esmeralda tXTM. The public form was reachable on October 16, 2026 and asks for a Tari L1 testnet address. Ootle L2 funding requires a separate irreversible burn and claim workflow, linked in the official guide. No claim, burn or wallet action was performed. Operator identity and source license are not established by the public page; 0xhra is the forum sharer, not an asserted operator. The recording walks through the September public discussion, including historical screenshots, not a live faucet claim.",
+      "summary": "Community faucet for L1 Esmeralda tXTM. The public form was reachable on November 4, 2026 and asks for a Tari L1 testnet address. Ootle L2 funding requires a separate irreversible burn and claim workflow, linked in the official guide. No claim, burn or wallet action was performed. Operator identity and source license are not established by the public page; 0xhra is the forum sharer, not an asserted operator. The recording walks through the September public discussion, including historical screenshots, not a live faucet claim. On November 4 the retained Hauntboard sharing thread could not load its board state after the supported retry; its original link and prior evidence are retained.",
       "status": "Web app · L1 testnet",
       "sourceUrl": "https://community.tari.com/t/tari-universe-on-web/354/12",
       "docsUrl": "https://ootle.tari.com/guides/burn-minotari/",
@@ -1036,7 +1036,7 @@
           "context": "Core contributor explanation: L1 tXTM faucet, separate Ootle burn"
         }
       ],
-      "cardSummary": "Request L1 test coins for development; funding Ootle requires a separate burn and claim workflow.",
+      "cardSummary": "Request L1 test coins for development; funding Ootle requires a separate irreversible burn and claim workflow.",
       "cardStatus": "Web app · L1 testnet",
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-supportxtm-testnet-faucet-20261016.mp4",
@@ -2325,7 +2325,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "f7e939eebb5ad19206f2b3ed17b035c21a8b2e03",
       "sourceUpdatedAt": "2026-10-30T00:10:36.713Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "lastCheckedAt": "2026-11-04T17:41:49.014Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
