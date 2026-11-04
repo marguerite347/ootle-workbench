@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T22:39:21.258880+00:00",
+  "updatedAt": "2026-11-04T23:47:36.650455+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -8078,6 +8078,46 @@
         ],
         "localPlaybackEvidence": "work/daily-2026-11-04/rajesh-privacy-local-playback.json",
         "livePlayback": "Pending publication and desktop/mobile verification"
+      }
+    },
+    {
+      "resourceId": "tari-soon-creator-hub",
+      "canonicalId": "tari:learn:tari-soon-creator-hub",
+      "title": "Tari / Soon Creator Hub",
+      "targetUrl": "https://www.figma.com/community/file/1699482648074384411/tari-soon-community-creator-hub",
+      "originalPosts": [
+        {
+          "url": "https://www.youtube.com/watch?v=dxpNwx0bskI",
+          "platform": "YouTube",
+          "author": "Tari Community / Coin Artist",
+          "publishedAt": "2026-11-03",
+          "foundOn": "2026-11-04",
+          "context": "Tari Show November 3, 22:17: Coin Artist describes the public Figma creator asset hub.",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-04T23:46:05.087Z",
+      "observedRevision": "listing-sha256:64e03bca825bc0f74d5af7987b5890ffdd7ea2d108d6058fbc7454dc3c4ac622",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-soon-creator-hub-20261104.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-soon-creator-hub-20261104.png",
+      "caption": "Docs walkthrough",
+      "method": "Reused creator-hub-demo-capture and existing capture-apps.mjs with installed playwright-core, anonymous Chrome context and real scrolling. No new installation or asset downloads. Opening/middle/closing frames and full local playback reviewed. Public listing walkthrough, not a demonstration of all linked collections.",
+      "sha256": "25a869a1a7348cec6274e1900fb52564f5c956ab81bd9d393efebeb7324c4cd7",
+      "status": "recording-reviewed-publication-pending",
+      "verification": {
+        "framesReviewed": [
+          0.5,
+          6,
+          11.2
+        ],
+        "localPlaybackEvidence": "work/daily-2026-11-04/figma-community-local-playback.json",
+        "livePlayback": "Pending deployed desktop/phone acceptance"
       }
     }
   ],

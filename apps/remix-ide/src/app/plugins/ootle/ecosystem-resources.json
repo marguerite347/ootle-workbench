@@ -3475,9 +3475,9 @@
       "license": null,
       "network": "Tari L1; select the matching mainnet or testnet build",
       "platform": "Linux / macOS / Windows; Rust 2024 edition for source builds",
-      "upstreamRevision": "v0.5.2",
+      "upstreamRevision": "0082093bfc809b869484e6889bdf654c73494612",
       "sourceUpdatedAt": "2026-10-29T23:19:53Z",
-      "lastCheckedAt": "2026-11-02T19:48:15.922Z",
+      "lastCheckedAt": "2026-11-04T23:45:09.237Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -4191,7 +4191,7 @@
       "platform": "Rust source; CLI and web interface sources",
       "upstreamRevision": "a6ade449deed39002efdc4acd109e19e6475ca3b",
       "sourceUpdatedAt": null,
-      "lastCheckedAt": "2026-11-04T23:17:01.214789+00:00",
+      "lastCheckedAt": "2026-11-04T23:45:09.237Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -4206,6 +4206,52 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-stable-coin-template-20261104.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-stable-coin-template-20261104.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari:learn:tari-soon-creator-hub",
+      "key": "tari-soon-creator-hub",
+      "type": "learn",
+      "ecosystem": "tari",
+      "group": "Advanced",
+      "title": "Tari / Soon Creator Hub",
+      "summary": "The public Figma Community listing describes 28 editable source collections spanning Soon art and game UI, Tari branding, product UI and campaign archives. Its November 4 update adds Maria Keller source artwork and TurtleFrens creative material. The Community file is labeled CC BY 4.0; consult individual source notices for linked material. Archived campaign wording and unfinished creative variations are retained as context. Some linked video sources require the original Envato account. Review covered the public listing, its license, zero-comment section and the November 3 Tari Show announcement; it did not certify every linked asset or change sharing permissions. The recording shows the public resource page and description.",
+      "status": "Public creator asset library",
+      "sourceUrl": "https://www.figma.com/community/file/1699482648074384411/tari-soon-community-creator-hub",
+      "repoUrl": null,
+      "docsUrl": "https://www.figma.com/community/file/1699482648074384411/tari-soon-community-creator-hub",
+      "demoUrl": null,
+      "creator": {
+        "name": "Marguerite deCourcelle / Coin Artist",
+        "url": "https://www.figma.com/@coin_artist"
+      },
+      "license": "CC BY 4.0 (Community file); linked sources retain their notices",
+      "network": "Tari / Soon creative resources",
+      "platform": "Figma; some linked videos require the original Envato account",
+      "upstreamRevision": "listing-sha256:64e03bca825bc0f74d5af7987b5890ffdd7ea2d108d6058fbc7454dc3c4ac622",
+      "sourceUpdatedAt": "2026-11-04",
+      "lastCheckedAt": "2026-11-04T23:47:36.650455+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "design",
+        "assets"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://www.youtube.com/watch?v=dxpNwx0bskI",
+          "platform": "YouTube",
+          "context": "Tari Show November 3, 22:17: Coin Artist describes the public Figma creator asset hub."
+        }
+      ],
+      "cardSummary": "Browse editable Tari and Soon artwork, branding, interface assets and creative source collections in Figma.",
+      "cardStatus": "Asset library · Figma",
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-soon-creator-hub-20261104.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-soon-creator-hub-20261104.png",
         "source": "Docs walkthrough"
       }
     }
