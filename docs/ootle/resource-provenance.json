@@ -1460,10 +1460,10 @@
     {
       "id": "witching-hour",
       "title": "The Witching Hour",
-      "projectUrl": "https://github.com/Danielkallala/witching-vault",
+      "projectUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
       "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
-      "status": "held-follow-up",
-      "reason": "October 16: creator-linked repository returns 404 in API and browser. Announcement retained; source/license/deployment claims not established. Retry public repository before qualification.",
+      "status": "qualified-announcement",
+      "reason": "The creator describes a testnet inheritance vault: a keeper’s heartbeat postpones a deadline, an heir claims after expiry, and the keeper can cancel while alive. The announcement describes stealth payouts but notes that the locked balance, heartbeat timing and claim timing remain public. November 4, 2026: the forum submission and Bluesky announcement were reviewed, including the returned reply stream. The linked repository returns 404 in both API and browser; no replacement destination was found in those sources. MIT licensing and six passing tests are creator statements from October 15, not independently confirmed source or test results. The announced template library 0.34 and test tooling 0.45 predate the November 2 Esmeralda reset notice; no current deployment was established. This recording shows the public announcement only, without application execution, wallets or transactions.",
       "sharingPosts": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
@@ -1483,7 +1483,40 @@
           "context": "Spooky Secrets 🎃 My entry for the @tariproject.bsky.social Ootle contest: Witching Hour 🕯️\n\nA private dead man's switch. Check in before the deadline, or a hidden heir inherits your XTM as stealth UTXOs. Nobody knows who the heir is until they claim.\n\ngithub.com/Danielkallala/witching-vault",
           "visibility": "public"
         }
-      ]
+      ],
+      "history": [
+        {
+          "id": "witching-hour",
+          "title": "The Witching Hour",
+          "projectUrl": "https://github.com/Danielkallala/witching-vault",
+          "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
+          "status": "held-follow-up",
+          "reason": "October 16: creator-linked repository returns 404 in API and browser. Announcement retained; source/license/deployment claims not established. Retry public repository before qualification.",
+          "sharingPosts": [
+            {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
+              "platform": "Tari Community forum",
+              "author": "sedetsenar",
+              "publishedAt": "2026-10-15T10:48:56.926Z",
+              "foundOn": "2026-10-16",
+              "context": "October contest dead-man-switch vault announcement",
+              "visibility": "public"
+            },
+            {
+              "url": "https://bsky.app/profile/remmylof.bsky.social/post/3mxth4knymk2f",
+              "platform": "Bluesky",
+              "author": "remmylof.bsky.social",
+              "publishedAt": "2026-10-14T11:31:18.289Z",
+              "foundOn": "2026-10-16",
+              "context": "Spooky Secrets 🎃 My entry for the @tariproject.bsky.social Ootle contest: Witching Hour 🕯️\n\nA private dead man's switch. Check in before the deadline, or a hidden heir inherits your XTM as stealth UTXOs. Nobody knows who the heir is until they claim.\n\ngithub.com/Danielkallala/witching-vault",
+              "visibility": "public"
+            }
+          ]
+        }
+      ],
+      "lastReviewedAt": "2026-11-04T15:12:49.349414+00:00",
+      "repositoryUrl": "https://github.com/Danielkallala/witching-vault",
+      "documentationUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11"
     },
     {
       "id": "bitcoin-takeover-tari-interview",

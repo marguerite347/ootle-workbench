@@ -4033,6 +4033,56 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-shelley-privacy-20261104.png",
         "source": "Docs walkthrough"
       }
+    },
+    {
+      "id": "tari-ootle:learn:witching-hour",
+      "key": "witching-hour",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Guides",
+      "title": "The Witching Hour",
+      "summary": "The creator describes a testnet inheritance vault: a keeper’s heartbeat postpones a deadline, an heir claims after expiry, and the keeper can cancel while alive. The announcement describes stealth payouts but notes that the locked balance, heartbeat timing and claim timing remain public. November 4, 2026: the forum submission and Bluesky announcement were reviewed, including the returned reply stream. The linked repository returns 404 in both API and browser; no replacement destination was found in those sources. MIT licensing and six passing tests are creator statements from October 15, not independently confirmed source or test results. The announced template library 0.34 and test tooling 0.45 predate the November 2 Esmeralda reset notice; no current deployment was established. This recording shows the public announcement only, without application execution, wallets or transactions.",
+      "status": "Concept · Testnet · Source unavailable",
+      "cardSummary": "Explore a testnet inheritance concept where periodic check-ins delay a hidden heir’s claim.",
+      "cardStatus": "Concept · Testnet · Source unavailable",
+      "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
+      "repoUrl": "https://github.com/Danielkallala/witching-vault",
+      "docsUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
+      "creator": {
+        "name": "sedetsenar",
+        "url": "https://community.tari.com/u/sedetsenar"
+      },
+      "license": null,
+      "network": "Esmeralda testnet concept",
+      "platform": null,
+      "upstreamRevision": "f70b7479b0b5f4818ad601c6247da917edb37f924985bc7a30af0511643dcda0",
+      "sourceUpdatedAt": "2026-10-15T10:48:56.926Z",
+      "lastCheckedAt": null,
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "inheritance",
+        "concept"
+      ],
+      "demoUrl": null,
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
+          "platform": "Tari Community forum"
+        },
+        {
+          "url": "https://bsky.app/profile/remmylof.bsky.social/post/3mxth4knymk2f",
+          "platform": "Bluesky"
+        }
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-witching-hour-20261104.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-witching-hour-20261104.png",
+        "source": "Announcement"
+      },
+      "lastAttemptAt": "2026-11-04T15:12:49.349414+00:00"
     }
   ],
   "opportunities": [
