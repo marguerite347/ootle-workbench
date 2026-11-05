@@ -892,7 +892,7 @@
       "ecosystem": "tari-ootle",
       "group": "Payments",
       "title": "Ootle Payment Gateway",
-      "summary": "WooCommerce gateway source for Tari Ootle payment sessions and signed webhooks. October 20 review followed the edited original contest post to a new HTTP-only test shop at http://172.105.101.24/shop/ and viewed its Test Product listing. The previous 172.105.4.177 address remained unreachable. The maintainer supplies an Esmeralda stealth-transfer receipt and WordPress screenshots; this review browsed the public shop only, without cart, checkout, wallet or payment actions. The shop is served without HTTPS; use its public browsing view only. This is a community test shop, not an official Tari storefront. README setup and daemon compatibility must be checked before integration. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "WooCommerce gateway source for Tari Ootle payment sessions and signed webhooks. November 5 review: README revision 3606ab2 still lists checkout wiring and stealth-output reconciliation as roadmap work. The 22-page October setup guide documents daemon 0.45.0, plugin settings and webhooks, with historical checkout screenshots; these do not establish a current completed integration. Its settings screenshot caption says stealth is enabled with merchant fields filled, but the pictured control is unchecked and those fields are empty. The creator-revised HTTP test shop timed out in the reader and returned a client-blocked navigation in the browser; this does not establish global downtime. Its original Bluesky post returned Post not found. The October 20 shop-browsing clip and last-good review date are retained as historical evidence; no cart, checkout, wallet or payment action was taken. This is a community test shop, not an official Tari storefront. Esmeralda was reset November 2; use the source and current daemon documentation before any integration.",
       "status": "WordPress plugin · Testnet · HTTP-only test shop",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/10",
       "repoUrl": "https://github.com/Luci666-Onyx/ootle-payment-gateway",
@@ -938,7 +938,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-payment-gateway-shop-20261020.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-payment-gateway-shop-20261020.jpg",
-        "source": "App demo — HTTP test shop browsing; no checkout or payment action."
+        "source": "App demo"
       }
     },
     {
@@ -1322,7 +1322,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Graveyard Shift",
-      "summary": "Confidential payroll template and interactive browser replay. October 23 inspection showed Alice’s recorded 3000 SHIFT pay stub, an auditor reconciliation to the 10000 SHIFT budget, and hidden coworker amounts. The page replays an engine transcript; it does not decrypt or pay through the browser. The original post’s empty-faucet limitation was superseded by the creator’s October 22 update linking a published Esmeralda template and two-paycheck shift transaction. The browser replay has three paychecks and is separate from that deployment evidence. Roster, roles, paid status and total budget remain public; the auditor key is fixed per payroll. MIT source; no wallet or payroll transaction performed here. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Confidential payroll template with an interactive browser explanation of public, employee, auditor and coworker views. November 5 review: the page still replays creator-generated engine results; switching views and the recorded payslip examples worked without a wallet. It does not decrypt or submit payroll in the browser. Repository revision a46223f is unchanged with no published releases. The October 22 creator reply documents an historical Esmeralda payroll, but that component now returns not found after the November 2 reset. The roster, role labels, payment status and total budget remain public; the fixed auditor key reveals amounts but cannot spend or read employee memos. Retained October footage is a concept overview of this replay, not a new payroll run. MIT source, testnet only.",
       "status": "Browser demo · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/20",
       "repoUrl": "https://github.com/XachP/graveyard-shift",
@@ -1377,12 +1377,12 @@
           "context": "November 2 testnet reset and template republishing notice"
         }
       ],
-      "cardSummary": "Explore confidential payroll from employee, auditor and public perspectives, with selective disclosure of individual payslips.",
-      "cardStatus": "Browser demo · Testnet",
+      "cardSummary": "Explore recorded payroll results from employee, auditor and public perspectives, with selective disclosure of individual payslips.",
+      "cardStatus": "Interactive walkthrough · Testnet",
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-graveyard-shift-20261023.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-graveyard-shift-20261023.png",
-        "source": "App demo — Interactive replay of the creator’s engine transcript; four perspectives, no browser decryption or payment."
+        "source": "Concept overview"
       }
     },
     {
@@ -1392,7 +1392,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "HideBox",
-      "summary": "Browser-encrypted file drive with link, word, address and pay-to-open sharing. The October 23 public how-it-works page describes browser-held keys, encrypted uploads and a SealLog record when a file leaves the drive. Losing the saved key loses access. The creator says the server observes padded sizes, timing and sharing rules; this is not a claim that all metadata is hidden. The public site and documentation were inspected without creating a drive, keys or wallet, uploading files, or making payments. MIT source; Esmeralda testnet. Recording shows the documentation and its illustrative UI, not an uploaded file. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Browser-encrypted file drive with link, word, address and pay-to-open sharing. November 5 review: creator revision 0b7e341 updates Ootle libraries to 0.49.2 after the November 2 Esmeralda reset. The public site reports that revision, and the creator-documented replacement SealLog component resolves in Veil with recent events. The public status endpoint reports green checks with a budget-reservation attention flag; this is the service’s own status report. Losing the saved browser key loses access. The server sees padded sizes, timing and sharing rules; sponsored sends can be linked, and a deletion receipt cannot prove no copy was kept. Refund-backed payments remain roadmap work. Original forum, Reddit and Bluesky discussions are readable; X exposes one of three counted replies. The retained October 23 recording shows the unchanged how-it-works page and illustrative UI, not a file upload or payment. No drive, keys, wallet, uploads or payments were created. MIT source; Esmeralda testnet only.",
       "status": "Web app · Testnet · Save your browser key",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/19",
       "repoUrl": "https://github.com/c7b/hidebox",
@@ -1457,7 +1457,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hidebox-20261023.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hidebox-20261023.png",
-        "source": "Source/docs walkthrough — Public how-it-works page and illustrative UI; no drive, key, upload or payment created."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -1467,7 +1467,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Familiar",
-      "summary": "Rust template and CLI for agent allowances, approved payees, pause and recall. The public walkthrough presents 27 recorded Esmeralda transactions, with 17 accepted and 10 refused according to the creator. October 23 browser inspection advanced between recorded steps 19 and 20; no agent or wallet was connected. Amount mode exposes payment amounts; coupon mode hides denominations while coupon counts and transaction fees remain public. The live-read control did not complete during inspection. MIT prototype; the footage is a source walkthrough of recorded results, not a new on-chain run. Downloaded binaries were not installed. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Rust template and CLI for agent allowances, approved payees, pause and recall. November 5 review: repository revision 73b01af and its October 21 release remain unchanged. The public page and both creator videos remain accessible; its 27-transaction walkthrough is historical October 21 evidence. The read-only indexer control now fails for both leashes with a missing up field. The original X announcement is readable, but one reply is unavailable. Amount mode exposes payment amounts; coupon mode hides denominations while coupon counts, linked accounts and transaction fees remain public. The retained October 23 clip walks through creator-recorded results, not a new agent or wallet run. MIT prototype; the available CLI binaries were not executed. Esmeralda was reset November 2, so the historical deployment and recordings do not establish current network availability.",
       "status": "Prototype · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/21",
       "repoUrl": "https://github.com/ttimesai-star/familiar-ootle",
@@ -1522,7 +1522,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-familiar-20261023.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-familiar-20261023.png",
-        "source": "Source/docs walkthrough — Creator’s recorded transaction walkthrough; no agent, wallet or new transaction."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -1652,7 +1652,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Grave Robber",
-      "summary": "Gothic 2D crypt explorer with a riddle ledger and local sandbox balance. October 24 inspection switched between explorer and ledger views; the recording shows Sandbox Sim with no wallet or bounty claim. MIT React/TypeScript source stores tomb state in browser localStorage and checks answers with SHA-256. The reviewed wallet helper requests sendPrivately or shield, but can return generated transaction IDs after non-rejection errors and labels a request result confirmed without a finality check. Its claim request does not submit the riddle preimage to a bounty template. Treat the current experience as a sandbox prototype; the advertised on-chain bounty and front-running protection are not established by this implementation. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Browser sandbox pairing a 2D catacomb explorer with a crypt-riddle ledger. November 5 review: the public page loads with a demo address, four sample crypts and a simulated balance; the Crypt Ledger and privacy explanation remain reachable. MIT source revision a20bccb is unchanged with no published releases. Creator documentation describes a separate Sapient wallet flow, but this review did not connect a wallet, create a crypt or claim a bounty. The retained October recording demonstrates the sandbox only. The original Reddit announcement remains removed by Reddit filters; its permalink, creator forum submissions and earlier evidence are preserved.",
       "status": "Sandbox game · Testnet prototype",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/18",
       "repoUrl": "https://github.com/grzdev/grave-robber",
@@ -1707,7 +1707,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-grave-robber-20261024.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-grave-robber-20261024.png",
-        "source": "App demo — Sandbox explorer and riddle ledger; no wallet, bounty claim or transaction."
+        "source": "App demo"
       }
     },
     {
