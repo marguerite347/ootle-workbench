@@ -4294,11 +4294,13 @@
       "decision": "linked-research-update",
       "reason": "Companion research source for existing Ghost Gate entry; retain distinct provenance and add a clearly scoped Details link. No separate public application is offered.",
       "checkedAt": "2026-11-05T11:42:37.397929+00:00",
-      "status": "source-reviewed-publication-pending",
+      "status": "reviewed",
       "evidence": [
         "work/daily-2026-11-04/ggbp1-v3-source-classification-nov5.json"
       ],
-      "nextAction": "Publish scoped companion research link with Ghost Gate dated update; preserve original forum post."
+      "nextAction": "Publish scoped companion research link with Ghost Gate dated update; preserve original forum post.",
+      "publicationStatus": "published-as-ghost-gate-research-link",
+      "publicationEvidence": "work/daily-2026-11-04/october-three-release-acceptance-nov5.json"
     }
   ],
   "resourceReviews": {
@@ -7390,80 +7392,323 @@
       "sources": [
         "https://github.com/JustAResearcher/TARI.Miner#readme",
         "https://github.com/JustAResearcher/TARI.Miner",
-        "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210"
+        "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210",
+        "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210/1",
+        "https://github.com/tari-project/TARI.Miner/releases/tag/v1.1.8",
+        "https://github.com/JustAResearcher/TARI.Miner/releases",
+        "https://github.com/tari-project/TARI.Miner/pull/11"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "lastSuccessfulReviewAt": "2026-11-05T12:46:45.709Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-05T12:46:45.709Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
       ],
       "sourceReviews": {
         "https://github.com/JustAResearcher/TARI.Miner#readme": {
           "url": "https://github.com/JustAResearcher/TARI.Miner#readme",
+          "file": "c7daf6e411a9ea7e-0db1f26b218852dca73035408a1923873644b6518e6b111d8ebc8ff740cfbf39.txt",
           "hash": "0db1f26b218852dca73035408a1923873644b6518e6b111d8ebc8ff740cfbf39",
+          "attemptedAt": "2026-11-04T10:06:53.503284+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/JustAResearcher/TARI.Miner/releases",
+            "file": "998a05db450c1d0a-37bb7887e86c94120a2929e7fca0478daf7a0542fa276340bd7c5c4e18c8b5bf.txt",
+            "hash": "37bb7887e86c94120a2929e7fca0478daf7a0542fa276340bd7c5c4e18c8b5bf",
+            "attemptedAt": "2026-11-04T10:06:53.207540+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
           "revision": "ae4446853edd191b01221be12b26f46854ba979c",
-          "attemptedAt": "2026-10-31T09:02:59.876715+00:00",
-          "evidence": "work/daily-2026-10-31/c7daf6e411a9ea7e.txt",
-          "comparisonEvidence": "work/daily-2026-10-31/review-deltas.json",
-          "method": "Current source bytes matched previously accepted source text; repository reader also retrieved release metadata.",
-          "lastAttemptAt": "2026-10-31T09:02:59.876715+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:02:59.876715+00:00",
-          "status": "read"
+          "readmeSha": "c64398c03b5b4ea472bb167fbcbf05030d1b77f8",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".gitattributes",
+            ".github",
+            ".gitignore",
+            "LICENSE",
+            "README.md",
+            "THIRD_PARTY_NOTICES.md",
+            "blake2b.h",
+            "build.bat",
+            "build_all.bat",
+            "build_all.sh",
+            "build_pool_miner.bat",
+            "build_pool_miner.sh",
+            "build_solver.bat",
+            "build_solver.sh",
+            "compat",
+            "compress.hpp",
+            "graph.hpp",
+            "hiveos",
+            "mean_c29.cu",
+            "package_release.ps1",
+            "packaging",
+            "start-c29.bat",
+            "start-c29.ps1",
+            "start-c29.sh",
+            "tari_c29.cpp",
+            "tari_c29.h",
+            "tari_c29_pool_miner.cu",
+            "tari_c29_selftest.cpp",
+            "tari_c29_solver.cu",
+            "tari_c29_verify_share.cpp",
+            "tari_miner_pipeline.h",
+            "tari_miner_reliability.h",
+            "tari_pool_protocol.h",
+            "tests",
+            "third_party",
+            "version.h"
+          ],
+          "releases": [
+            {
+              "tag": "v1.1.6",
+              "published": "2026-07-30T22:21:33Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.6"
+            },
+            {
+              "tag": "v1.1.5",
+              "published": "2026-07-30T00:34:59Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.5"
+            },
+            {
+              "tag": "v1.1.4",
+              "published": "2026-07-29T21:23:50Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.4"
+            },
+            {
+              "tag": "v1.1.3",
+              "published": "2026-07-29T18:49:44Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.3"
+            },
+            {
+              "tag": "v1.1.2",
+              "published": "2026-07-20T15:20:02Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.2"
+            },
+            {
+              "tag": "v1.1.1",
+              "published": "2026-07-19T22:44:24Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.1"
+            },
+            {
+              "tag": "v1.1.0",
+              "published": "2026-07-19T20:37:54Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.0"
+            },
+            {
+              "tag": "v1.0.0",
+              "published": "2026-07-19T20:05:38Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.0.0"
+            }
+          ],
+          "complete": true,
+          "links": [
+            "https://github.com/JustAResearcher/TARI.Miner/releases/download/v1.1.6/tari-miner-hiveos-1.1.6.tar.gz",
+            "https://github.com/JustAResearcher/TARI.Miner/releases/latest"
+          ],
+          "evidence": "work/daily-2026-11-04/c7daf6e411a9ea7e-0db1f26b218852dca73035408a1923873644b6518e6b111d8ebc8ff740cfbf39.txt",
+          "method": "Full original forum post, README and release text reviewed; aliases use the same source bytes.",
+          "lastAttemptAt": "2026-11-04T10:06:53.503284+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:53.503284+00:00",
+          "status": "read",
+          "error": null
         },
         "https://github.com/JustAResearcher/TARI.Miner": {
           "url": "https://github.com/JustAResearcher/TARI.Miner",
+          "file": "c7daf6e411a9ea7e-0db1f26b218852dca73035408a1923873644b6518e6b111d8ebc8ff740cfbf39.txt",
           "hash": "0db1f26b218852dca73035408a1923873644b6518e6b111d8ebc8ff740cfbf39",
-          "revision": "ae4446853edd191b01221be12b26f46854ba979c",
           "attemptedAt": "2026-11-04T10:06:53.503284+00:00",
+          "kind": "repository",
+          "releaseEvidence": {
+            "url": "https://github.com/JustAResearcher/TARI.Miner/releases",
+            "file": "998a05db450c1d0a-37bb7887e86c94120a2929e7fca0478daf7a0542fa276340bd7c5c4e18c8b5bf.txt",
+            "hash": "37bb7887e86c94120a2929e7fca0478daf7a0542fa276340bd7c5c4e18c8b5bf",
+            "attemptedAt": "2026-11-04T10:06:53.207540+00:00",
+            "kind": "repository-releases",
+            "complete": true,
+            "pages": 1
+          },
+          "revision": "ae4446853edd191b01221be12b26f46854ba979c",
+          "readmeSha": "c64398c03b5b4ea472bb167fbcbf05030d1b77f8",
+          "homepage": null,
+          "archived": false,
+          "root": [
+            ".gitattributes",
+            ".github",
+            ".gitignore",
+            "LICENSE",
+            "README.md",
+            "THIRD_PARTY_NOTICES.md",
+            "blake2b.h",
+            "build.bat",
+            "build_all.bat",
+            "build_all.sh",
+            "build_pool_miner.bat",
+            "build_pool_miner.sh",
+            "build_solver.bat",
+            "build_solver.sh",
+            "compat",
+            "compress.hpp",
+            "graph.hpp",
+            "hiveos",
+            "mean_c29.cu",
+            "package_release.ps1",
+            "packaging",
+            "start-c29.bat",
+            "start-c29.ps1",
+            "start-c29.sh",
+            "tari_c29.cpp",
+            "tari_c29.h",
+            "tari_c29_pool_miner.cu",
+            "tari_c29_selftest.cpp",
+            "tari_c29_solver.cu",
+            "tari_c29_verify_share.cpp",
+            "tari_miner_pipeline.h",
+            "tari_miner_reliability.h",
+            "tari_pool_protocol.h",
+            "tests",
+            "third_party",
+            "version.h"
+          ],
+          "releases": [
+            {
+              "tag": "v1.1.6",
+              "published": "2026-07-30T22:21:33Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.6"
+            },
+            {
+              "tag": "v1.1.5",
+              "published": "2026-07-30T00:34:59Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.5"
+            },
+            {
+              "tag": "v1.1.4",
+              "published": "2026-07-29T21:23:50Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.4"
+            },
+            {
+              "tag": "v1.1.3",
+              "published": "2026-07-29T18:49:44Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.3"
+            },
+            {
+              "tag": "v1.1.2",
+              "published": "2026-07-20T15:20:02Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.2"
+            },
+            {
+              "tag": "v1.1.1",
+              "published": "2026-07-19T22:44:24Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.1"
+            },
+            {
+              "tag": "v1.1.0",
+              "published": "2026-07-19T20:37:54Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.1.0"
+            },
+            {
+              "tag": "v1.0.0",
+              "published": "2026-07-19T20:05:38Z",
+              "url": "https://github.com/JustAResearcher/TARI.Miner/releases/tag/v1.0.0"
+            }
+          ],
+          "complete": true,
+          "links": [
+            "https://github.com/JustAResearcher/TARI.Miner/releases/download/v1.1.6/tari-miner-hiveos-1.1.6.tar.gz",
+            "https://github.com/JustAResearcher/TARI.Miner/releases/latest"
+          ],
           "evidence": "work/daily-2026-11-04/c7daf6e411a9ea7e-0db1f26b218852dca73035408a1923873644b6518e6b111d8ebc8ff740cfbf39.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full original forum post, README and release text reviewed; aliases use the same source bytes.",
           "lastAttemptAt": "2026-11-04T10:06:53.503284+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:53.503284+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210": {
           "url": "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210",
+          "file": "bbbac7b36c02b365-fab108dc383e24619154aac9e567a69f94e6fa6afc42174125a9d4d0261f76f6.txt",
           "hash": "fab108dc383e24619154aac9e567a69f94e6fa6afc42174125a9d4d0261f76f6",
           "attemptedAt": "2026-11-04T10:06:43.150584+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 1,
+          "title": "Open Source C29 GPU Miner for Tari Universe",
           "evidence": "work/daily-2026-11-04/bbbac7b36c02b365-fab108dc383e24619154aac9e567a69f94e6fa6afc42174125a9d4d0261f76f6.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full original forum post, README and release text reviewed; aliases use the same source bytes.",
           "lastAttemptAt": "2026-11-04T10:06:43.150584+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:43.150584+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210/1": {
           "url": "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210/1",
+          "file": "bbbac7b36c02b365-fab108dc383e24619154aac9e567a69f94e6fa6afc42174125a9d4d0261f76f6.txt",
           "hash": "fab108dc383e24619154aac9e567a69f94e6fa6afc42174125a9d4d0261f76f6",
           "attemptedAt": "2026-11-04T10:06:43.150584+00:00",
+          "kind": "forum",
+          "complete": true,
+          "posts": 1,
+          "title": "Open Source C29 GPU Miner for Tari Universe",
           "evidence": "work/daily-2026-11-04/bbbac7b36c02b365-fab108dc383e24619154aac9e567a69f94e6fa6afc42174125a9d4d0261f76f6.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Full original forum post, README and release text reviewed; aliases use the same source bytes.",
           "lastAttemptAt": "2026-11-04T10:06:43.150584+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:43.150584+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null
         },
         "https://github.com/tari-project/TARI.Miner/releases/tag/v1.1.8": {
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "file": "miner-official-releases-nov5-4ff315cd903a.json",
+          "attemptedAt": "2026-11-05T12:45:57.596601+00:00",
+          "kind": "repository-releases",
+          "complete": true,
+          "url": "https://github.com/tari-project/TARI.Miner/releases/tag/v1.1.8",
+          "hash": "4ff315cd903ab15fa541240e1b694a3d892e82a62c79585a3c5185bdffb9d4a8",
+          "evidence": "work/daily-2026-11-04/miner-official-releases-nov5-4ff315cd903a.json",
+          "method": "Full original forum post, README and release text reviewed; aliases use the same source bytes.",
+          "lastAttemptAt": "2026-11-05T12:45:57.596601+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T12:45:57.596601+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/JustAResearcher/TARI.Miner/releases": {
+          "url": "https://github.com/JustAResearcher/TARI.Miner/releases",
+          "file": "miner-original-releases-nov5-04f8d911d33a.json",
+          "evidence": "work/daily-2026-11-04/miner-original-releases-nov5-04f8d911d33a.json",
+          "hash": "04f8d911d33a14f9a8572c760806ca247358b0388cf19a7a16cc44588df82f57",
+          "attemptedAt": "2026-11-05T12:45:57.697797+00:00",
+          "complete": true,
+          "scope": "All eight release descriptions, one page, below per_page=100",
+          "lastAttemptAt": "2026-11-05T12:45:57.697797+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T12:45:57.697797+00:00",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/tari-project/TARI.Miner/pull/11": {
+          "url": "https://github.com/tari-project/TARI.Miner/pull/11",
+          "file": "miner-official-pr11-nov5-365114a04108.json",
+          "evidence": "work/daily-2026-11-04/miner-official-pr11-nov5-365114a04108.json",
+          "hash": "365114a041088c47fb16098ae033a57f883f915a93b2cee09de95573e221f91f",
+          "attemptedAt": "2026-11-05T12:45:57.697797+00:00",
+          "complete": true,
+          "scope": "Pull request description, not review-comment stream",
+          "lastAttemptAt": "2026-11-05T12:45:57.697797+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T12:45:57.697797+00:00",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+      "observedAvailability": "November 5 source review: original creator README and head remain ae4446853edd191b01221be12b26f46854ba979c, latest creator release v1.1.6. Original July20 forum announcement has one post and zero replies in November4 capture. GPL-3.0-or-later NVIDIA CUDA miner with Windows/Linux/HiveOS downloads. Separate tari-project fork latest v1.1.8 adds experimental AMD HIP RDNA2/3/4 support on Linux/HiveOS, requiring ROCm7.2+; PR11 explicitly reports no AMD hardware testing. Existing catalog correctly distinguishes the original and fork. No download or miner execution.",
       "changedSources": [
-        "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210/1",
-        "https://community.tari.com/t/open-source-c29-gpu-miner-for-tari-universe/210"
+        "https://github.com/tari-project/TARI.Miner/releases/tag/v1.1.8",
+        "https://github.com/JustAResearcher/TARI.Miner/releases",
+        "https://github.com/tari-project/TARI.Miner/pull/11"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://github.com/JustAResearcher/TARI.Miner#readme",
         "https://github.com/JustAResearcher/TARI.Miner",
@@ -7473,12 +7718,9 @@
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
       "reviewedSourceCount": 3,
-      "pendingReviewSources": [
-        "https://github.com/JustAResearcher/TARI.Miner#readme"
-      ],
+      "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/210.json",
@@ -7499,6 +7741,9 @@
           "hash": "fab108dc383e24619154aac9e567a69f94e6fa6afc42174125a9d4d0261f76f6",
           "attemptedAt": "2026-11-04T10:06:43.150584+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/miner-source-review-nov5.json"
       ]
     },
     "project:official-templates": {
@@ -14240,56 +14485,97 @@
       ]
     },
     "tari-ootle:integration:taritracker-faucet": {
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "lastSuccessfulReviewAt": "2026-11-05T13:00:02.217Z",
+      "observedAvailability": "November 5: public faucet interface offers private/public outputs,1–1000tXTR and hourly wallet limit. OPEN FOR CLAIMS and18,799.915077tXTR spendable displayed; private deposit discovery unavailable on the current indexer. No claim submitted. Original creator announcement recovered at forum530/5. Public backend API documentation reviewed; registration page says10 withdrawals/1000tXTR daily, while API limits paragraph says100/10000 for default keys, so actual assigned quota must govern and neither is presented as a universal allowance.",
       "id": "tari-ootle:integration:taritracker-faucet",
       "title": "TariTracker Faucet",
       "sources": [
         "https://github.com/kstrycharz/hauntboard#wallet-funding",
-        "https://testnet-faucet.taritracker.com/"
+        "https://testnet-faucet.taritracker.com/",
+        "https://testnet-faucet.taritracker.com/api-docs",
+        "https://testnet-faucet.taritracker.com/developers",
+        "https://community.tari.com/t/530/5"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T13:00:02.217Z",
       "sourceReviews": {
         "https://github.com/kstrycharz/hauntboard#wallet-funding": {
           "url": "https://github.com/kstrycharz/hauntboard#wallet-funding",
-          "hash": "c005d003089f53b81a1e064df53e8569764bae60369524e52d897120f944b57d",
-          "revision": "b558b1cb56ddf0e0a06b7154248260a95a89d083",
-          "attemptedAt": "2026-10-31T09:03:08.063166+00:00",
-          "evidence": "work/daily-2026-10-31/33b4bd74108060a3.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:08.063166+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:08.063166+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "file": "33b4bd74108060a3-03b0cfeb49abb3a2757bb9bd34c0cb5240e5c5db5256ff3dac93d9d681122786.txt",
+          "evidence": "work/daily-2026-11-04/33b4bd74108060a3-03b0cfeb49abb3a2757bb9bd34c0cb5240e5c5db5256ff3dac93d9d681122786.txt",
+          "hash": "03b0cfeb49abb3a2757bb9bd34c0cb5240e5c5db5256ff3dac93d9d681122786",
+          "attemptedAt": "2026-11-05T11:05:23.469612+00:00",
+          "complete": true,
+          "revision": "b1df1c674ac0512a364adeab512f3b6c3eaf09f1",
+          "scope": "Current README wallet-funding section; creator source previously fully reviewed.",
+          "lastAttemptAt": "2026-11-05T11:05:23.469612+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T11:05:23.469612+00:00",
+          "status": "read",
+          "error": null
         },
         "https://testnet-faucet.taritracker.com/": {
           "url": "https://testnet-faucet.taritracker.com/",
-          "hash": "a34e3844e02fd8f9479d2c90da77ce00ea53be3e9589ddd457862a9f7085cec4",
-          "attemptedAt": "2026-11-04T10:07:34.744000+00:00",
-          "evidence": "work/daily-2026-11-04/b341325d857ce02c-a34e3844e02fd8f9479d2c90da77ce00ea53be3e9589ddd457862a9f7085cec4.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:34.744000+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:34.744000+00:00",
-          "status": "read"
+          "file": "taritracker-faucet-public-nov5.txt",
+          "evidence": "work/daily-2026-11-04/taritracker-faucet-public-nov5.txt",
+          "hash": "6565bb7e04bbb24af3c8db80b6be0255519ab48bdcc2328fa183816902d974be",
+          "attemptedAt": "2026-11-05T12:52:17.749Z",
+          "complete": true,
+          "lastAttemptAt": "2026-11-05T12:52:17.749Z",
+          "lastSuccessfulReadAt": "2026-11-05T12:52:17.749Z",
+          "status": "read",
+          "error": null
+        },
+        "https://testnet-faucet.taritracker.com/api-docs": {
+          "url": "https://testnet-faucet.taritracker.com/api-docs",
+          "file": "taritracker-faucet-api-docs-nov5.txt",
+          "evidence": "work/daily-2026-11-04/taritracker-faucet-api-docs-nov5.txt",
+          "hash": "f6f41f872b363538afd9e52e14c7c20115e775f8990e7ca5d5ef320479ca7561",
+          "attemptedAt": "2026-11-05T12:52:40.762Z",
+          "complete": true,
+          "lastAttemptAt": "2026-11-05T12:52:40.762Z",
+          "lastSuccessfulReadAt": "2026-11-05T12:52:40.762Z",
+          "status": "read",
+          "error": null
+        },
+        "https://testnet-faucet.taritracker.com/developers": {
+          "url": "https://testnet-faucet.taritracker.com/developers",
+          "file": "taritracker-faucet-developer-page-nov5.txt",
+          "evidence": "work/daily-2026-11-04/taritracker-faucet-developer-page-nov5.txt",
+          "hash": "367688467ac2d97f8819c1f5e1240ddca2a6439ed1fcbe4076c16c79202ed622",
+          "attemptedAt": "2026-11-05T12:53:39.870Z",
+          "complete": true,
+          "lastAttemptAt": "2026-11-05T12:53:39.870Z",
+          "lastSuccessfulReadAt": "2026-11-05T12:53:39.870Z",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/530/5": {
+          "url": "https://community.tari.com/t/530/5",
+          "file": "c108b396ff07a9aa-8c6e807eb72d6da146aaed7a759e1aff7fb21fea88f6700eae2a9f2e82d1ea29.txt",
+          "evidence": "work/daily-2026-11-04/c108b396ff07a9aa-8c6e807eb72d6da146aaed7a759e1aff7fb21fea88f6700eae2a9f2e82d1ea29.txt",
+          "hash": "8c6e807eb72d6da146aaed7a759e1aff7fb21fea88f6700eae2a9f2e82d1ea29",
+          "attemptedAt": "2026-11-05T10:56:23.104607+00:00",
+          "complete": true,
+          "scope": "All five original thread posts and replies read; source creator post5 links this faucet.",
+          "lastAttemptAt": "2026-11-05T10:56:23.104607+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T10:56:23.104607+00:00",
+          "status": "read",
+          "error": null
         }
       },
-      "outcome": "pending",
+      "outcome": "reviewed",
       "changedSources": [
-        "https://testnet-faucet.taritracker.com/"
+        "https://github.com/kstrycharz/hauntboard#wallet-funding",
+        "https://testnet-faucet.taritracker.com/",
+        "https://testnet-faucet.taritracker.com/api-docs",
+        "https://testnet-faucet.taritracker.com/developers",
+        "https://community.tari.com/t/530/5"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "checkedScope": [
         "https://github.com/kstrycharz/hauntboard#wallet-funding",
         "https://testnet-faucet.taritracker.com/"
@@ -14298,12 +14584,9 @@
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
       "reviewedSourceCount": 2,
-      "pendingReviewSources": [
-        "https://github.com/kstrycharz/hauntboard#wallet-funding"
-      ],
+      "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://testnet-faucet.taritracker.com/",
@@ -14312,6 +14595,9 @@
           "attemptedAt": "2026-11-04T10:07:34.744000+00:00",
           "httpStatus": 200
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/faucet-dead-drop-source-reconciliation-nov5.json"
       ]
     },
     "project:ootle-payment-gateway": {
@@ -22789,12 +23075,17 @@
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
         "https://github.com/davidjsourcing/dead-drop",
-        "https://dead-drop.sites.tab.bot/"
+        "https://dead-drop.sites.tab.bot/",
+        "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/davidjsourcing/dead-drop/releases",
+        "https://github.com/davidjsourcing/dead-drop#readme",
+        "https://dead-drop.sites.tab.bot/dead-drop-demo.mp4"
       ],
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "outcome": "blocked",
       "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T21:40:36.605Z",
+      "lastAttemptAt": "2026-11-05T13:00:02.217Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
@@ -22857,15 +23148,15 @@
           "url": "https://dead-drop.sites.tab.bot/",
           "hash": "3cc6fc9f23dae19aed11ff4a06fbc5a47d31630f38f233bb3c45e28d7cd7203d",
           "attemptedAt": "2026-11-04T10:07:27.008025+00:00",
-          "evidence": "work/daily-2026-11-04/dead-drop-hunt-console-nov4.json",
+          "evidence": "work/daily-2026-11-04/dead-drop-hunt-current-nov5.json",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T21:40:36.605Z",
+          "lastAttemptAt": "2026-11-05T12:52:03.903Z",
           "lastSuccessfulReadAt": "2026-11-04T10:07:27.008025+00:00",
           "status": "blocked",
-          "error": "Hunt view remains reading the stones; browser console reports HTTP404 for the Crypt contract. Home explanations render.",
+          "error": "Hunt remains reading the stones; current browser console reports a Crypt contract read failure (404). Landing page navigation renders.",
           "failureKind": "unavailable-content",
-          "nextAction": "Revisit after creator republishes the referenced Esmeralda deployment or the public indexer recovers; preserve historical footage and failure evidence."
+          "nextAction": "Retry after creator republishes the Crypt deployment or provider recovers. Keep historical footage and last-good review date."
         },
         "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w": {
           "url": "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
@@ -22954,6 +23245,19 @@
           "lastSuccessfulReadAt": "2026-11-04T10:07:03.863253+00:00",
           "status": "read",
           "error": null
+        },
+        "https://dead-drop.sites.tab.bot/dead-drop-demo.mp4": {
+          "url": "https://dead-drop.sites.tab.bot/dead-drop-demo.mp4",
+          "file": "dead-drop-creator-video-review-nov5.json",
+          "evidence": "work/daily-2026-11-04/dead-drop-creator-video-review-nov5.json",
+          "hash": "4862fe55ddaa509d45f7b072af91a7335ae357351a885a83cc7d95aa5c873f5f",
+          "attemptedAt": "2026-11-05T12:51:56.923Z",
+          "complete": true,
+          "scope": "Recovered original creator video; transcript, representative frames and full playback reviewed. Historical pre-reset demonstration.",
+          "lastAttemptAt": "2026-11-05T12:51:56.923Z",
+          "lastSuccessfulReadAt": "2026-11-05T12:51:56.923Z",
+          "status": "read",
+          "error": null
         }
       },
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
@@ -22962,9 +23266,7 @@
         "https://dead-drop.sites.tab.bot/"
       ],
       "changedSources": [
-        "https://github.com/davidjsourcing/dead-drop/releases",
-        "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
-        "https://github.com/davidjsourcing/dead-drop#readme"
+        "https://dead-drop.sites.tab.bot/dead-drop-demo.mp4"
       ],
       "changedFields": [
         "sourceEvidence"
@@ -22976,7 +23278,7 @@
         "recording",
         "provenance"
       ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -23013,7 +23315,7 @@
         }
       ],
       "evidence": [
-        "work/daily-2026-11-04/dead-drop-davidjsourcing-review-outcome.json"
+        "work/daily-2026-11-04/faucet-dead-drop-source-reconciliation-nov5.json"
       ],
       "lastAttemptObservation": "November4: landing page reachable, but public Hunt cannot read its Crypt contract (404) and stays loading. README e68360ee and original forum/Bluesky posts reviewed; epoch13031 remains a historical documented target, not a current opening claim. No wallet/funding/claim action. Creator-linked150second video remains pending content review."
     },
@@ -24976,12 +25278,15 @@
         "https://github.com/davidjsourcing/dead-drop",
         "https://github.com/davidjsourcing/dead-drop#readme",
         "https://dead-drop.sites.tab.bot/",
-        "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w"
+        "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/davidjsourcing/dead-drop/releases",
+        "https://dead-drop.sites.tab.bot/dead-drop-demo.mp4"
       ],
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "outcome": "blocked",
       "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T21:40:36.605Z",
+      "lastAttemptAt": "2026-11-05T13:00:02.217Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
@@ -25085,15 +25390,15 @@
           "url": "https://dead-drop.sites.tab.bot/",
           "hash": "3cc6fc9f23dae19aed11ff4a06fbc5a47d31630f38f233bb3c45e28d7cd7203d",
           "attemptedAt": "2026-11-04T10:07:27.008025+00:00",
-          "evidence": "work/daily-2026-11-04/dead-drop-hunt-console-nov4.json",
+          "evidence": "work/daily-2026-11-04/dead-drop-hunt-current-nov5.json",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
           "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T21:40:36.605Z",
+          "lastAttemptAt": "2026-11-05T12:52:03.903Z",
           "lastSuccessfulReadAt": "2026-11-04T10:07:27.008025+00:00",
           "status": "blocked",
-          "error": "Hunt view remains reading the stones; browser console reports HTTP404 for the Crypt contract. Home explanations render.",
+          "error": "Hunt remains reading the stones; current browser console reports a Crypt contract read failure (404). Landing page navigation renders.",
           "failureKind": "unavailable-content",
-          "nextAction": "Revisit after creator republishes the referenced Esmeralda deployment or the public indexer recovers; preserve historical footage and failure evidence."
+          "nextAction": "Retry after creator republishes the Crypt deployment or provider recovers. Keep historical footage and last-good review date."
         },
         "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w": {
           "url": "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w",
@@ -25141,6 +25446,19 @@
           "lastSuccessfulReadAt": "2026-11-04T10:07:03.599182+00:00",
           "status": "read",
           "error": null
+        },
+        "https://dead-drop.sites.tab.bot/dead-drop-demo.mp4": {
+          "url": "https://dead-drop.sites.tab.bot/dead-drop-demo.mp4",
+          "file": "dead-drop-creator-video-review-nov5.json",
+          "evidence": "work/daily-2026-11-04/dead-drop-creator-video-review-nov5.json",
+          "hash": "4862fe55ddaa509d45f7b072af91a7335ae357351a885a83cc7d95aa5c873f5f",
+          "attemptedAt": "2026-11-05T12:51:56.923Z",
+          "complete": true,
+          "scope": "Recovered original creator video; transcript, representative frames and full playback reviewed. Historical pre-reset demonstration.",
+          "lastAttemptAt": "2026-11-05T12:51:56.923Z",
+          "lastSuccessfulReadAt": "2026-11-05T12:51:56.923Z",
+          "status": "read",
+          "error": null
         }
       },
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
@@ -25149,8 +25467,7 @@
         "https://dead-drop.sites.tab.bot/"
       ],
       "changedSources": [
-        "https://github.com/davidjsourcing/dead-drop/releases",
-        "https://bsky.app/profile/davidj-builds.bsky.social/post/3mz3u2ogb3f2w"
+        "https://dead-drop.sites.tab.bot/dead-drop-demo.mp4"
       ],
       "changedFields": [
         "sourceEvidence"
@@ -25162,7 +25479,7 @@
         "recording",
         "provenance"
       ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -25199,7 +25516,7 @@
         }
       ],
       "evidence": [
-        "work/daily-2026-11-04/dead-drop-davidjsourcing-review-outcome.json"
+        "work/daily-2026-11-04/faucet-dead-drop-source-reconciliation-nov5.json"
       ],
       "lastAttemptObservation": "November4: landing page reachable, but public Hunt cannot read its Crypt contract (404) and stays loading. README e68360ee and original forum/Bluesky posts reviewed; epoch13031 remains a historical documented target, not a current opening claim. No wallet/funding/claim action. Creator-linked150second video remains pending content review."
     },

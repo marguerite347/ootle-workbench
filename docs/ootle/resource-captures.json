@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T11:56:28.279736+00:00",
+  "updatedAt": "2026-11-05T13:02:02.316529+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -5471,6 +5471,14 @@
           "evidence": "work/daily-2026-11-04/retained-media-assessment-nov5.json",
           "decision": "Dated scope remains accurate; retain clip. Latest release acceptance tracked separately."
         }
+      ],
+      "publicationReviews": [
+        {
+          "checkedAt": "2026-11-05T12:16:29.139204+00:00",
+          "status": "accepted",
+          "evidence": "work/daily-2026-11-04/october-three-release-acceptance-nov5.json",
+          "scope": "Retained dated clip; current source/update scope in Details, playback and layout checked in applicable public surfaces."
+        }
       ]
     },
     {
@@ -5783,6 +5791,14 @@
           "at": "2026-11-05T11:56:28.279736+00:00",
           "evidence": "work/daily-2026-11-04/retained-media-assessment-nov5.json",
           "decision": "Dated scope remains accurate; retain clip. Latest release acceptance tracked separately."
+        }
+      ],
+      "publicationReviews": [
+        {
+          "checkedAt": "2026-11-05T12:16:29.139204+00:00",
+          "status": "accepted",
+          "evidence": "work/daily-2026-11-04/october-three-release-acceptance-nov5.json",
+          "scope": "Retained dated clip; current source/update scope in Details, playback and layout checked in applicable public surfaces."
         }
       ]
     },
@@ -8708,7 +8724,49 @@
           "evidence": "work/daily-2026-11-04/retained-media-assessment-nov5.json",
           "decision": "Dated scope remains accurate; retain clip. Latest release acceptance tracked separately."
         }
+      ],
+      "publicationReviews": [
+        {
+          "checkedAt": "2026-11-05T12:16:29.139204+00:00",
+          "status": "accepted",
+          "evidence": "work/daily-2026-11-04/october-three-release-acceptance-nov5.json",
+          "scope": "Retained dated clip; current source/update scope in Details, playback and layout checked in applicable public surfaces."
+        }
       ]
+    },
+    {
+      "resourceId": "taritracker-faucet",
+      "title": "TariTracker Faucet",
+      "targetUrl": "https://testnet-faucet.taritracker.com/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/530/5",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-11-04T19:43:13.459Z",
+          "foundOn": "2026-11-05",
+          "context": "Esmeralda faucet recovery: creator offers both public and stealth outputs",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-11-05T12:53:52.518Z",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261105.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261105.png",
+      "sha256": "2ec9eafcc011bcb6fe5e2c97b5b350d01cc47f77047bc742a5a6699f7415c1f1",
+      "posterSha256": "7894fedce17fc572089ff3d9d69e176d4097d68f4c31437bd127890c46eea88d",
+      "caption": "App demo",
+      "method": "Genuine public interface scroll showing receive options and limits. No address, CAPTCHA, claim, API key or wallet action. Opening, middle and closing frames reviewed; local playback reached 12-second end.",
+      "status": "reviewed-publication-pending",
+      "verification": {
+        "evidence": "work/daily-2026-11-04/faucet-retained-media-assessment-nov5.json",
+        "localPlayback": "work/daily-2026-11-04/taritracker-faucet-local-playback-nov5.json"
+      }
     }
   ],
   "release": {
