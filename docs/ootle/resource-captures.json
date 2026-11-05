@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T01:20:14.470627+00:00",
+  "updatedAt": "2026-11-05T01:40:44.933962+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -6937,7 +6937,17 @@
       "resourceId": "veinpool",
       "title": "VeinPool",
       "targetUrl": "https://veinpool.fr/en/coin/xtm",
-      "originalPosts": [],
+      "originalPosts": [
+        {
+          "url": "https://www.youtube.com/watch?v=KZUPOZHfSYs",
+          "platform": "YouTube",
+          "author": "VEIN",
+          "publishedAt": "2026-10-28",
+          "foundOn": "2026-11-04",
+          "context": "Tari Mining Tutorial: CPU Setup in 5 Minutes (RandomXT, XMRig)",
+          "visibility": "public"
+        }
+      ],
       "captureType": "docs-walkthrough",
       "capturedAt": "2026-11-02T18:41:13.380Z",
       "viewport": {
@@ -6950,7 +6960,7 @@
       "sha256": "f2560f40bc8dfb48d5b5bf914f33cba099c9f534bb49d6c4f97fd7b35c93299c",
       "caption": "Docs walkthrough",
       "method": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner’s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
-      "status": "published-live-verified",
+      "status": "recording-reviewed-publication-pending",
       "verification": {
         "framesReviewed": [
           1,
@@ -6958,8 +6968,9 @@
           11
         ],
         "localPlayback": "work/daily-2026-10-31/general-leads-local-playback.json",
-        "livePlayback": "work/daily-2026-10-31/general-resources-release-acceptance.json",
-        "checkedAt": "2026-11-02T19:15:25.993313+00:00"
+        "livePlayback": "pending November4 refresh acceptance",
+        "checkedAt": "2026-11-02T19:15:25.993313+00:00",
+        "currentSourceComparison": "work/daily-2026-11-04/mining-source-review-outcome.json"
       },
       "surfaceIds": [
         "tari-ootle:learn:veinpool"
@@ -6969,6 +6980,39 @@
           "status": "reviewed-publication-pending",
           "method": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner’s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
           "updatedAt": "2026-11-02T19:15:25.993313+00:00"
+        },
+        {
+          "resourceId": "veinpool",
+          "title": "VeinPool",
+          "targetUrl": "https://veinpool.fr/en/coin/xtm",
+          "originalPosts": [],
+          "captureType": "docs-walkthrough",
+          "capturedAt": "2026-11-02T18:41:13.380Z",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veinpool-20261102-f2560f40bc.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veinpool-20261102-f2560f40bc.png",
+          "sha256": "f2560f40bc8dfb48d5b5bf914f33cba099c9f534bb49d6c4f97fd7b35c93299c",
+          "caption": "Docs walkthrough",
+          "method": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner’s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
+          "status": "published-live-verified",
+          "verification": {
+            "framesReviewed": [
+              1,
+              6,
+              11
+            ],
+            "localPlayback": "work/daily-2026-10-31/general-leads-local-playback.json",
+            "livePlayback": "work/daily-2026-10-31/general-resources-release-acceptance.json",
+            "checkedAt": "2026-11-02T19:15:25.993313+00:00"
+          },
+          "surfaceIds": [
+            "tari-ootle:learn:veinpool"
+          ],
+          "releaseEvidence": "work/daily-2026-10-31/general-resources-release-acceptance.json"
         }
       ],
       "releaseEvidence": "work/daily-2026-10-31/general-resources-release-acceptance.json"
@@ -6977,30 +7021,40 @@
       "resourceId": "bzminer",
       "title": "BzMiner",
       "targetUrl": "https://github.com/bzminer/bzminer",
-      "originalPosts": [],
+      "originalPosts": [
+        {
+          "url": "https://github.com/bzminer/bzminer/releases/tag/v100.70",
+          "platform": "GitHub",
+          "author": "bzminer",
+          "publishedAt": "2026-11-05T00:40:10Z",
+          "foundOn": "2026-11-04",
+          "context": "BzMiner v100.70 release announcement",
+          "visibility": "public"
+        }
+      ],
       "captureType": "docs-walkthrough",
-      "capturedAt": "2026-11-02T18:40:38.260Z",
-      "observedRevision": "v100.60",
+      "capturedAt": "2026-11-05T01:35:07.275Z",
+      "observedRevision": "v100.70",
       "viewport": {
         "width": 1280,
         "height": 800
       },
       "durationSeconds": 12,
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261102-63423e82b3.mp4",
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261102-63423e82b3.png",
-      "sha256": "63423e82b3737abeb7b8eabc2ddd4eb61e0104a5d2e28c2a0f4072c92ad99e88",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261104-v10070.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261104-v10070.png",
+      "sha256": "73869edb4b5c94adfb77574097c43aa1181ab8f535961b88c826d3f394adfc97",
       "caption": "Docs walkthrough",
-      "method": "Multi-coin miner with hardware monitoring and a local dashboard. On November 2, 2026, the Tari C29 guide documented NVIDIA GPUs and experimental RX 7900 XTX / RX 9070 XT support, about 10 GB free VRAM on NVIDIA or 8.5 GB on those AMD cards, and a 1% algorithm development fee. Its guide excludes Intel, CPU and macOS C29 mining; the repository README instead lists Intel Arc Battlemage, so Intel support remains contradictory in the publisher’s documentation. Automatic tuning and measured performance qualification are RTX 3090-specific. Creator posts shared v100.46, v100.50 and v100.51; the latest reviewed release is v100.60, published October 30. Its new performance notes concern Pearl and Quantus. No open-source license was established for the miner. The recording shows the README and its Tari support table; no binary was downloaded or executed.",
-      "status": "published-live-verified",
+      "method": "Genuine continuous README walkthrough captured with the existing browser pipeline; no miner execution. Opening, middle and closing frames and complete local playback reviewed.",
+      "status": "recording-reviewed-publication-pending",
       "verification": {
         "framesReviewed": [
-          1,
+          0.5,
           6,
-          11
+          11.2
         ],
-        "localPlayback": "work/daily-2026-10-31/general-leads-local-playback.json",
-        "livePlayback": "work/daily-2026-10-31/general-resources-release-acceptance.json",
-        "checkedAt": "2026-11-02T19:15:25.993313+00:00"
+        "localPlayback": "work/daily-2026-11-04/bzminer-refresh-local-playback.json",
+        "livePlayback": "pending",
+        "checkedAt": "2026-11-05T01:40:44.933962+00:00"
       },
       "surfaceIds": [
         "tari-ootle:learn:bzminer"
@@ -7010,6 +7064,40 @@
           "status": "reviewed-publication-pending",
           "method": "Multi-coin miner with hardware monitoring and a local dashboard. The November 2, 2026 README identifies Tari Cuckaroo29 support for NVIDIA, Intel Arc Battlemage and AMD GPUs, approximately 10 GiB free VRAM and a 1% Tari algorithm development fee. Tari C29 CPU mining is not implemented in that README; macOS availability for other algorithms does not establish Tari GPU support. Automatic tuning and measured performance qualification are RTX 3090-specific. Creator posts shared v100.46, v100.50 and v100.51; the latest reviewed release is v100.60, published October 30. Its new performance notes concern Pearl and Quantus. No open-source license was established for the miner. The recording shows its public README and Tari support table; no binary was downloaded or executed.",
           "updatedAt": "2026-11-02T19:15:25.993313+00:00"
+        },
+        {
+          "resourceId": "bzminer",
+          "title": "BzMiner",
+          "targetUrl": "https://github.com/bzminer/bzminer",
+          "originalPosts": [],
+          "captureType": "docs-walkthrough",
+          "capturedAt": "2026-11-02T18:40:38.260Z",
+          "observedRevision": "v100.60",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261102-63423e82b3.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261102-63423e82b3.png",
+          "sha256": "63423e82b3737abeb7b8eabc2ddd4eb61e0104a5d2e28c2a0f4072c92ad99e88",
+          "caption": "Docs walkthrough",
+          "method": "Multi-coin miner with hardware monitoring and a local dashboard. On November 2, 2026, the Tari C29 guide documented NVIDIA GPUs and experimental RX 7900 XTX / RX 9070 XT support, about 10 GB free VRAM on NVIDIA or 8.5 GB on those AMD cards, and a 1% algorithm development fee. Its guide excludes Intel, CPU and macOS C29 mining; the repository README instead lists Intel Arc Battlemage, so Intel support remains contradictory in the publisher’s documentation. Automatic tuning and measured performance qualification are RTX 3090-specific. Creator posts shared v100.46, v100.50 and v100.51; the latest reviewed release is v100.60, published October 30. Its new performance notes concern Pearl and Quantus. No open-source license was established for the miner. The recording shows the README and its Tari support table; no binary was downloaded or executed.",
+          "status": "published-live-verified",
+          "verification": {
+            "framesReviewed": [
+              1,
+              6,
+              11
+            ],
+            "localPlayback": "work/daily-2026-10-31/general-leads-local-playback.json",
+            "livePlayback": "work/daily-2026-10-31/general-resources-release-acceptance.json",
+            "checkedAt": "2026-11-02T19:15:25.993313+00:00"
+          },
+          "surfaceIds": [
+            "tari-ootle:learn:bzminer"
+          ],
+          "releaseEvidence": "work/daily-2026-10-31/general-resources-release-acceptance.json"
         }
       ],
       "releaseEvidence": "work/daily-2026-10-31/general-resources-release-acceptance.json"

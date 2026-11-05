@@ -3202,7 +3202,7 @@
       "ecosystem": "tari",
       "group": "Advanced",
       "title": "VeinPool",
-      "summary": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner’s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
+      "summary": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. Reviewed November 4, 2026: the guide and FAQ list a 1% pool fee, 0.1 XTM automatic payout minimum and 360 confirmations before payout (about 12 hours). The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The small-miner bonus is up to 5%, depends on pool-share distribution and is funded by pool fees; it is not guaranteed earnings. The Squads beta FAQ names other coins, not Tari. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The October 28 creator tutorial covers CPU setup; its reward and earnings examples are dated illustrations. Current Windows, Linux, HiveOS and MMPOS guide panels were reviewed. The retained November 2 recording still accurately shows the Windows/Linux guide tabs. No address was entered, software downloaded or mining started. The pool’s BzMiner CPU setup and BzMiner’s separate C29 GPU guide describe distinct configurations.",
       "status": "Mining pool · 1% fee · 0.1 XTM minimum",
       "cardSummary": "Browse a European Tari CPU mining pool with PPLNS and solo modes, setup guides and payout information.",
       "cardStatus": "Mining pool · 1% fee · 0.1 XTM minimum",
@@ -3217,9 +3217,9 @@
       "license": null,
       "network": "Tari L1 mainnet",
       "platform": "Browser · CPU mining pool",
-      "upstreamRevision": "public-page-sha256:e6e4fca9e1e6fe9542e0a890e745b5a1adcdcc66ecee34ce86e3e99a3c0448ee",
+      "upstreamRevision": "public-page-sha256:0cbb9871e76ac8a4356a7e2a64266a51f2c3e029a4255ee6bdce463ba29c0bb0",
       "sourceUpdatedAt": null,
-      "lastCheckedAt": "2026-11-02T18:47:12.075861+00:00",
+      "lastCheckedAt": "2026-11-05T01:40:44.933962+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3237,12 +3237,17 @@
           "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562066322416992285",
           "platform": "Discord",
           "context": "Creator correction: minimum payout is 0.1 XTM"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=KZUPOZHfSYs",
+          "platform": "YouTube",
+          "context": "Tari Mining Tutorial: CPU Setup in 5 Minutes (RandomXT, XMRig)"
         }
       ],
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veinpool-20261102-f2560f40bc.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veinpool-20261102-f2560f40bc.png",
-        "source": "Source/docs walkthrough — public guide; no wallet or mining execution."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -3252,7 +3257,7 @@
       "ecosystem": "tari",
       "group": "Advanced",
       "title": "BzMiner",
-      "summary": "Multi-coin miner with hardware monitoring and a local dashboard. On November 2, 2026, the Tari C29 guide documented NVIDIA GPUs and experimental RX 7900 XTX / RX 9070 XT support, about 10 GB free VRAM on NVIDIA or 8.5 GB on those AMD cards, and a 1% algorithm development fee. Its guide excludes Intel, CPU and macOS C29 mining; the repository README instead lists Intel Arc Battlemage, so Intel support remains contradictory in the publisher’s documentation. Automatic tuning and measured performance qualification are RTX 3090-specific. Creator posts shared v100.46, v100.50 and v100.51; the latest reviewed release is v100.60, published October 30. Its new performance notes concern Pearl and Quantus. No open-source license was established for the miner. The recording shows the README and its Tari support table; no binary was downloaded or executed.",
+      "summary": "Multi-coin miner with hardware monitoring and a local dashboard. Reviewed November 4, 2026: v100.70 (published November 5 UTC, November 4 Eastern) adds pool-directed MoneroOcean algorithm switching, improves Pearl efficiency and fixes mmpOS GPU hashrate display. Switching is one pool connection choosing algorithms, not a local price calculator or simultaneous Pearl+C29 dual mining. The current Tari C29 guide documents NVIDIA and experimental RX 7900 XTX / RX 9070 XT support, about 10 GB free NVIDIA VRAM or 8.5 GB on those AMD cards, and a 1% algorithm development fee. The guide excludes Intel, CPU and macOS C29; the README still lists Intel Arc Battlemage and contains inconsistent AMD dual-route statements. These publisher conflicts do not establish broader support. Automatic tuning and measured performance qualification are RTX 3090-specific. The local dashboard defaults to unauthenticated localhost access. No open-source license was established for the miner. Original v100.46, v100.50 and v100.51 sharing posts are retained. The refreshed recording shows the public README and current release badge. No miner binary was downloaded or executed.",
       "status": "Desktop app · NVIDIA / experimental AMD · 1% dev fee",
       "cardSummary": "Mine Tari with supported graphics cards using a multi-coin miner that includes hardware monitoring and a local dashboard.",
       "cardStatus": "Desktop app · NVIDIA / experimental AMD · 1% dev fee",
@@ -3267,9 +3272,9 @@
       "license": null,
       "network": "Tari L1 mainnet",
       "platform": "Windows/Linux · ~10 GB NVIDIA / 8.5 GB AMD VRAM",
-      "upstreamRevision": "v100.60",
-      "sourceUpdatedAt": "2026-10-30T22:47:09Z",
-      "lastCheckedAt": "2026-11-02T18:47:12.075861+00:00",
+      "upstreamRevision": "v100.70",
+      "sourceUpdatedAt": "2026-11-05T00:40:10Z",
+      "lastCheckedAt": "2026-11-05T01:40:44.933962+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3292,12 +3297,17 @@
           "url": "https://discord.com/channels/892738558316662855/892738558996148236/1559317481578045460",
           "platform": "Discord",
           "context": "Creator shared v100.46"
+        },
+        {
+          "url": "https://github.com/bzminer/bzminer/releases/tag/v100.70",
+          "platform": "GitHub",
+          "context": "BzMiner v100.70 release announcement"
         }
       ],
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261102-63423e82b3.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261102-63423e82b3.png",
-        "source": "Source/docs walkthrough — public guide; no wallet or mining execution."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261104-v10070.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261104-v10070.png",
+        "source": "Docs walkthrough"
       }
     },
     {
