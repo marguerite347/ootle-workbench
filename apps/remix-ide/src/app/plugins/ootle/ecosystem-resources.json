@@ -1250,7 +1250,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Seance — privacy demo",
-      "summary": "Compare what strangers, recipients and auditors can learn from private Esmeralda payments. The creator’s v2 searches the latest 40 indexer transactions locally before asking for a user-entered ID; an explicit Ask for it anyway action can disclose that ID. The initial example remains a labeled saved October 20 copy. October 31 Summon inspection returned a current Commit receipt through a public indexer read. The page reported six requests to two hosts and zero ID requests; this is its own report, not an independent network audit. An optional Sapient transfer goes to a demonstration recipient whose view key is public. Timing, fees and spend links remain visible. Old transaction bodies are unavailable from the indexers; receipts alone cannot reverify their encrypted bytes. The recording covers the picker and request explanation without a wallet or payment. v1 remains at its earlier URL; this is distinct from DevXTools’ sealed polls. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Compare what strangers, recipients and auditors can learn from private Esmeralda payments. The creator’s v2 searches the latest 40 indexer transactions locally before asking for a user-entered ID; an explicit Ask for it anyway action can disclose that ID. November 5 review read both live versions, the original announcements and creator videos. The initial example remains a labeled saved October 20 copy. A read-only Summon inspection during this review returned a current Commit receipt; request counters are the page’s own report. The creator’s November 4 update identifies a republished SeanceAuditorToken template after the November 2 reset; its indexer ABI page was reachable. Old token state and payments were removed, while the saved ledger remains available. Receipts alone cannot reverify missing encrypted transaction bodies. Optional Sapient payments go to a demonstration recipient whose view key is public. Timing, fees and spend links remain visible; the quantum discussion is a simulation using published demo keys. The unchanged October 31 recording covers the transaction picker and request disclosure, with no wallet or payment. Historical creator wallet footage is not a new transaction test. v1 remains available at its earlier URL; this project is distinct from DevXTools’ sealed polls.",
       "status": "Web app · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
       "repoUrl": "https://github.com/Kylne700/seance-v2",
@@ -1264,8 +1264,8 @@
       "network": "Esmeralda testnet",
       "platform": "Browser",
       "upstreamRevision": "b8c7bc8eb270433857fdc72778309ad09bf41cd2",
-      "sourceUpdatedAt": "2026-10-31T03:34:14.888Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "sourceUpdatedAt": "2026-11-04T10:53:56.487Z",
+      "lastCheckedAt": "2026-11-05T11:55:34.397Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1305,7 +1305,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-v2-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-v2-20261031.png",
-        "source": "Source/docs walkthrough — Transaction picker and request disclosure; no wallet or payment."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -2209,7 +2209,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Ghost Gate",
-      "summary": "Privacy Lab is the public demonstration of Ghost Gate access control. The current Crypt v3 policy checks a qualifying revealed/public native-tTARI output against a 100 tTARI threshold and issues a time-limited session. It does not provide a fully confidential aggregate-balance proof. The creator documents Sapient, embedded Web Tari Universe and Telegram admission; the operator and verifier remain trusted, and Telegram grants are not persistent across restart. October 31 review covered the original post, MIT source and live public policy page. The recording shows configuration and privacy limits without connecting a wallet, proving access or joining a group. Minotari XTM threshold-proof work remains research. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Privacy Lab demonstrates Ghost Gate access control on Esmeralda testnet. The Crypt v3 policy checks a qualifying revealed/public native-tTARI output against a 100 tTARI threshold and issues a time-limited session; it is not a confidential aggregate-balance proof. November 5 review read the updated creator submission, current MIT README and live Simple/Technical policy views. The creator reports November 4 compatibility updates for Sapient, embedded Web Tari Universe and Telegram admission. The operator and verifier remain trusted; Telegram grants are not persistent across restart. The linked GGBP1 v3 external-review package is synthetic threshold-proof research: it does not establish wallet ownership, chain inclusion, unspentness or admission authority. It is not integrated wallet support. The dated October 31 recording remains a walkthrough of the same public threshold policy and privacy limits; its browser-wallet capability error describes that capture environment. No wallet, proof, group admission or research code was executed during this review.",
       "status": "Web app · Testnet · Public qualifying output",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/40",
       "repoUrl": "https://github.com/GSXRspartan/Ghost-Gate",
@@ -2222,9 +2222,9 @@
       "license": "MIT",
       "network": "Esmeralda testnet",
       "platform": "Browser · Rust",
-      "upstreamRevision": "f960d1575c7175f98625d2ae0015a300980b0b68",
-      "sourceUpdatedAt": "2026-10-31T05:00:17.372Z",
-      "lastCheckedAt": "2026-11-04T21:34:42.257Z",
+      "upstreamRevision": "e38cf9b58a9ccbdcdfa835a61e4d538994a93e5b",
+      "sourceUpdatedAt": "2026-11-05T02:42:58.388Z",
+      "lastCheckedAt": "2026-11-05T11:55:34.397Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2247,6 +2247,11 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "platform": "Tari Community forum",
           "context": "November 2 testnet reset and template republishing notice"
+        },
+        {
+          "url": "https://github.com/GSXRspartan/ggbp1-v3-external-review",
+          "platform": "GGBP1 v3 research README",
+          "context": "Creator-linked synthetic research companion; not wallet or admission support. Original announcement retained separately."
         }
       ],
       "cardSummary": "Check a testnet token threshold for access while keeping total wallet holdings outside the application’s request.",
@@ -2254,7 +2259,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-gate-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-gate-20261031.png",
-        "source": "Source/docs walkthrough — public Crypt threshold policy and privacy limits; no wallet or admission action."
+        "source": "Docs walkthrough"
       }
     },
     {

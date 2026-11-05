@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T02:20:47.747609+00:00",
+  "updatedAt": "2026-11-05T11:56:28.279736+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -5464,7 +5464,14 @@
           "work/daily-2026-10-31/workbench-live-verification.json"
         ],
         "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
-      }
+      },
+      "laterContentReviews": [
+        {
+          "at": "2026-11-05T11:56:28.279736+00:00",
+          "evidence": "work/daily-2026-11-04/retained-media-assessment-nov5.json",
+          "decision": "Dated scope remains accurate; retain clip. Latest release acceptance tracked separately."
+        }
+      ]
     },
     {
       "resourceId": "ootlebook",
@@ -5770,7 +5777,14 @@
           "work/daily-2026-10-31/workbench-live-verification.json"
         ],
         "verifiedAt": "2026-10-31T15:07:01.978315+00:00"
-      }
+      },
+      "laterContentReviews": [
+        {
+          "at": "2026-11-05T11:56:28.279736+00:00",
+          "evidence": "work/daily-2026-11-04/retained-media-assessment-nov5.json",
+          "decision": "Dated scope remains accurate; retain clip. Latest release acceptance tracked separately."
+        }
+      ]
     },
     {
       "resourceId": "taritracker-faucet",
@@ -5868,6 +5882,21 @@
           "checkedAt": "2026-11-05T04:19:25.000358+00:00",
           "evidence": "work/daily-2026-11-04/guide-retained-media-reuse.json",
           "decision": "Retain dated genuine source footage; current paired playback pending."
+        },
+        {
+          "checkedAt": "2026-11-05T04:36:09.849836+00:00",
+          "decision": "Retained dated genuine source footage; opening/middle/closing frames and paired desktop/phone playback accepted.",
+          "evidence": "work/daily-2026-11-04/guide-reconciliation-release-acceptance.json"
+        }
+      ],
+      "playbackReviewHistory": [
+        {
+          "checkedAt": "2026-11-05T04:36:09.849836+00:00",
+          "evidence": "work/daily-2026-11-04/guide-reconciliation-release-acceptance.json",
+          "lobbyRevision": "4484ee30cda769443f8d62028c70d62000a1bc40",
+          "workbenchRevision": "d3c88ae86484f1eb5861ead6adca6cb95e2723bc",
+          "desktop": true,
+          "mobile": true
         }
       ]
     },
@@ -6429,6 +6458,21 @@
           "checkedAt": "2026-11-05T04:19:25.000358+00:00",
           "evidence": "work/daily-2026-11-04/guide-retained-media-reuse.json",
           "decision": "Retain dated genuine source footage; current paired playback pending."
+        },
+        {
+          "checkedAt": "2026-11-05T04:36:09.849836+00:00",
+          "decision": "Retained dated genuine source footage; opening/middle/closing frames and paired desktop/phone playback accepted.",
+          "evidence": "work/daily-2026-11-04/guide-reconciliation-release-acceptance.json"
+        }
+      ],
+      "playbackReviewHistory": [
+        {
+          "checkedAt": "2026-11-05T04:36:09.849836+00:00",
+          "evidence": "work/daily-2026-11-04/guide-reconciliation-release-acceptance.json",
+          "lobbyRevision": "4484ee30cda769443f8d62028c70d62000a1bc40",
+          "workbenchRevision": "d3c88ae86484f1eb5861ead6adca6cb95e2723bc",
+          "desktop": true,
+          "mobile": true
         }
       ]
     },
@@ -7281,6 +7325,21 @@
           "checkedAt": "2026-11-05T04:19:25.000358+00:00",
           "evidence": "work/daily-2026-11-04/guide-retained-media-reuse.json",
           "decision": "Retain dated genuine source footage; current paired playback pending."
+        },
+        {
+          "checkedAt": "2026-11-05T04:36:09.849836+00:00",
+          "decision": "Retained dated genuine source footage; opening/middle/closing frames and paired desktop/phone playback accepted.",
+          "evidence": "work/daily-2026-11-04/guide-reconciliation-release-acceptance.json"
+        }
+      ],
+      "playbackReviewHistory": [
+        {
+          "checkedAt": "2026-11-05T04:36:09.849836+00:00",
+          "evidence": "work/daily-2026-11-04/guide-reconciliation-release-acceptance.json",
+          "lobbyRevision": "4484ee30cda769443f8d62028c70d62000a1bc40",
+          "workbenchRevision": "d3c88ae86484f1eb5861ead6adca6cb95e2723bc",
+          "desktop": true,
+          "mobile": true
         }
       ]
     },
@@ -7325,6 +7384,21 @@
           "checkedAt": "2026-11-05T04:19:25.000358+00:00",
           "evidence": "work/daily-2026-11-04/guide-retained-media-reuse.json",
           "decision": "Retain dated genuine source footage; current paired playback pending."
+        },
+        {
+          "checkedAt": "2026-11-05T04:36:09.849836+00:00",
+          "decision": "Retained dated genuine source footage; opening/middle/closing frames and paired desktop/phone playback accepted.",
+          "evidence": "work/daily-2026-11-04/guide-reconciliation-release-acceptance.json"
+        }
+      ],
+      "playbackReviewHistory": [
+        {
+          "checkedAt": "2026-11-05T04:36:09.849836+00:00",
+          "evidence": "work/daily-2026-11-04/guide-reconciliation-release-acceptance.json",
+          "lobbyRevision": "4484ee30cda769443f8d62028c70d62000a1bc40",
+          "workbenchRevision": "d3c88ae86484f1eb5861ead6adca6cb95e2723bc",
+          "desktop": true,
+          "mobile": true
         }
       ]
     },
@@ -7380,6 +7454,21 @@
           "checkedAt": "2026-11-05T04:19:25.000358+00:00",
           "evidence": "work/daily-2026-11-04/guide-retained-media-reuse.json",
           "decision": "Retain dated genuine source footage; current paired playback pending."
+        },
+        {
+          "checkedAt": "2026-11-05T04:36:09.849836+00:00",
+          "decision": "Retained dated genuine source footage; opening/middle/closing frames and paired desktop/phone playback accepted.",
+          "evidence": "work/daily-2026-11-04/guide-reconciliation-release-acceptance.json"
+        }
+      ],
+      "playbackReviewHistory": [
+        {
+          "checkedAt": "2026-11-05T04:36:09.849836+00:00",
+          "evidence": "work/daily-2026-11-04/guide-reconciliation-release-acceptance.json",
+          "lobbyRevision": "4484ee30cda769443f8d62028c70d62000a1bc40",
+          "workbenchRevision": "d3c88ae86484f1eb5861ead6adca6cb95e2723bc",
+          "desktop": true,
+          "mobile": true
         }
       ]
     },
@@ -8457,6 +8546,169 @@
         "localPlaybackEvidence": "work/daily-2026-11-04/dnode-contest-local-playback.json",
         "livePlayback": "pending desktop and phone acceptance"
       }
+    },
+    {
+      "resourceId": "hexcrow",
+      "title": "Hexcrow",
+      "targetUrl": "https://kasbsquall.github.io/hexcrow/",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
+          "platform": "Tari Community forum",
+          "author": "kasbsquall",
+          "publishedAt": "2026-10-29T17:51:40.929Z",
+          "foundOn": "2026-10-31",
+          "context": "October contest submission",
+          "visibility": "public"
+        },
+        {
+          "url": "https://bsky.app/profile/artemita95.bsky.social/post/3myzqfug3nc2j",
+          "platform": "Bluesky",
+          "author": "artemita95",
+          "foundOn": "2026-10-31",
+          "context": "Creator announcement",
+          "visibility": "public",
+          "publishedAt": "2026-10-29T16:58:44.241Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xiwfz4/what_stays_private_on_tari_ootle_notes_from/",
+          "platform": "Reddit",
+          "author": "artemita95",
+          "publishedAt": "2026-10-29T21:14:27.700Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator design explanation and privacy limits",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-11-05T10:56:14.089Z",
+      "observedRevision": "c1986a3a95dff9a745aba42c0154ae0bf0babde4",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 20,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-republished-20261105.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-republished-20261105.png",
+      "sha256": "3d98d56a8a87b35a1466504dd1015641d9b89e1fc8cf97ec89c4883f42a35a20",
+      "caption": "App demo",
+      "method": "Existing capture-apps.mjs, installed Chrome, public replay tabs only. No signing, wallet connection, payment or new transaction. Silent genuine continuous capture. Source site’s security claims are creator claims.",
+      "status": "published-and-accepted",
+      "verification": {
+        "framesReviewed": [
+          0,
+          12,
+          19.5
+        ],
+        "localPlayback": "Reached end at 20 seconds",
+        "livePlayback": "Advanced on desktop and phone in Lobby gallery/Discover and Workbench; exact timings in release receipt",
+        "evidence": [
+          "work/daily-2026-11-04/hexcrow-republished-recording-review-nov5.json",
+          "work/daily-2026-11-04/hexcrow-arkimals-release-acceptance-nov5.json"
+        ]
+      },
+      "captureId": "resource-hexcrow-republished-20261105",
+      "previousPublishedRecording": {
+        "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261104.mp4",
+        "posterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261104.jpg",
+        "capturedAt": "2026-11-04T11:07:32.176749+00:00",
+        "sourceRevision": "f7e939eebb5ad19206f2b3ed17b035c21a8b2e03",
+        "kind": "public-page",
+        "credit": "App demo — archived testnet replay"
+      },
+      "publishedAt": "2026-11-05T11:34:42.122282+00:00"
+    },
+    {
+      "resourceId": "hauntboard",
+      "title": "Hauntboard",
+      "targetUrl": "https://hauntboard.taritracker.com/?category=general&thread=component_14ba1630afe627a87ac641b501fc74e5bbb6f505d0cc4148e2506a9eadcc58f0",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/9",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-12T22:16:52.102Z",
+          "foundOn": "2026-10-13",
+          "context": "October Build Contest Thread: Spooky Secrets!",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1x4eany/i_built_hauntboard_for_taris_spooky_secrets/",
+          "platform": "Reddit",
+          "author": "u/Starz1428",
+          "foundOn": "2026-10-13",
+          "context": "Creator Hauntboard announcement in r/tari; one returned reply read October 16",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/13",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-16T17:39:46.303Z",
+          "foundOn": "2026-10-16",
+          "context": "Sealed-message update and explicit public-metadata limits",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/31",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-28T04:30:39.563Z",
+          "foundOn": "2026-10-29",
+          "context": "Room-access and SDK recovery update",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/39",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-10-31T04:07:09.155Z",
+          "foundOn": "2026-10-31",
+          "context": "Creator replacement entry and Sapient update",
+          "visibility": "public"
+        }
+      ],
+      "captureType": "app-demo",
+      "capturedAt": "2026-11-04T11:07:32.176749+00:00",
+      "observedRevision": "dcf10331aea5b035d33497cd79737a480cb9fc2d",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 20,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261104.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261104.jpg",
+      "sha256": "d77c5186794274efb292be322efbd362209ab608f8a457cb1da1c18558ed0710",
+      "posterSha256": "5624c8ccc2f197676be297a2d53079ce6a5eefe7501a5ff572a9a896c4370c10",
+      "caption": "App demo",
+      "method": "Genuine November4 read-only reset-notice and privacy disclosure walkthrough. No wallet, posting or transaction. Opening/middle/closing frames rechecked November5.",
+      "status": "published-live-verified",
+      "verification": {
+        "evidence": "work/daily-2026-11-04/lobby-source-refresh-acceptance.json",
+        "verifiedAt": "2026-11-04T11:52:27.461736+00:00",
+        "scope": "Lobby gallery desktop and390pxphone reached20second end;820pxtablet reviewed. No Workbench catalog entry exists."
+      },
+      "manifestRepair": {
+        "at": "2026-11-05T11:56:28.279736+00:00",
+        "reason": "Already-published November4 clip was missing from durable manifest; restored from tracked media, existing capture and deployed acceptance evidence. No new capture claimed."
+      },
+      "laterContentReviews": [
+        {
+          "at": "2026-11-05T11:56:28.279736+00:00",
+          "evidence": "work/daily-2026-11-04/retained-media-assessment-nov5.json",
+          "decision": "Dated scope remains accurate; retain clip. Latest release acceptance tracked separately."
+        },
+        {
+          "at": "2026-11-05T11:56:28.279736+00:00",
+          "evidence": "work/daily-2026-11-04/retained-media-assessment-nov5.json",
+          "decision": "Dated scope remains accurate; retain clip. Latest release acceptance tracked separately."
+        },
+        {
+          "at": "2026-11-05T11:56:28.279736+00:00",
+          "evidence": "work/daily-2026-11-04/retained-media-assessment-nov5.json",
+          "decision": "Dated scope remains accurate; retain clip. Latest release acceptance tracked separately."
+        }
+      ]
     }
   ],
   "release": {
