@@ -2351,7 +2351,15 @@
       ],
       "status": "published",
       "notes": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
-      "publicationEvidence": "outputs/daily-2026-10-29/release.json"
+      "publicationEvidence": "outputs/daily-2026-10-29/release.json",
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-05T02:20:47.747609+00:00",
+          "availability": "The recorded October28 testnet replay is reachable. The Live game tab reports404/Substate not found for the recorded component after the November2 reset notice. This does not make the replay unavailable or prove the reset caused the error. No new game was played.",
+          "evidence": "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json"
+        }
+      ],
+      "lastReviewedAt": "2026-11-05T02:20:47.747609+00:00"
     },
     {
       "id": "moonmail",
@@ -2380,7 +2388,15 @@
       ],
       "status": "published",
       "notes": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
-      "publicationEvidence": "outputs/daily-2026-10-29/release.json"
+      "publicationEvidence": "outputs/daily-2026-10-29/release.json",
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-05T02:20:47.747609+00:00",
+          "availability": "Landing and privacy interface are reachable; the public mail hall reports that the post office cannot be reached and no live mail loaded. README targets Ootle0.47 and Sapient0.6.14; organizer reset notice is dated November2. Root cause not established. No sample mail substituted for live mail.",
+          "evidence": "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json"
+        }
+      ],
+      "lastReviewedAt": "2026-11-05T02:20:47.747609+00:00"
     },
     {
       "id": "tari-agent-registry",
@@ -4448,7 +4464,7 @@
       "maintenanceStatus": "publication-pending"
     }
   ],
-  "updatedAt": "2026-11-05T01:40:44.933962+00:00",
+  "updatedAt": "2026-11-05T02:20:47.747609+00:00",
   "publicExport": {
     "preparedAt": "2026-11-03T16:00:05.259492+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
