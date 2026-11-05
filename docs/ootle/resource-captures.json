@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T15:07:18.121752+00:00",
+  "updatedAt": "2026-11-05T16:34:09.496874+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -264,7 +264,8 @@
           "closing"
         ],
         "localPlayback": "work/daily-2026-11-04/caravel-burn-local-playback-nov5.json",
-        "livePlayback": "pending"
+        "livePlayback": "12 seconds desktop and390pxphone bothproducts;servedvideo/posterhashmatch",
+        "liveAcceptance": "work/daily-2026-11-04/caravel-reset-release-acceptance-nov5.json"
       },
       "previousCaptures": [
         {
@@ -314,7 +315,7 @@
       ],
       "method": "Genuine README scrolling. Historical documented deployment is unavailable in current indexer; see dated Details. No wallet or deposit. Closing frame chosen as fully loaded real poster.",
       "posterSha256": "1c8ed335f6b379cc9803f83872ebddbfecd45c8bf9d286b4ae31faa23c8c298a",
-      "status": "publication-pending"
+      "status": "published-live-verified"
     },
     {
       "resourceId": "community-templates",
@@ -4100,7 +4101,7 @@
           "publishedAt": "2026-10-21T20:16:07.908Z"
         }
       ],
-      "captureType": "app-demo",
+      "captureType": "concept-overview",
       "capturedAt": "2026-10-23T17:44:32.845Z",
       "observedRevision": "a46223faac256a746a33671ff93b4c2b0c7e0d0d",
       "viewport": {
@@ -4111,7 +4112,7 @@
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-graveyard-shift-20261023.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-graveyard-shift-20261023.png",
       "sha256": "70597445045c238b20f948a6f18f56fa071e4ecab5b0208ad9e83657e199d25c",
-      "caption": "App demo",
+      "caption": "Concept overview",
       "method": "App demo — Interactive replay of the creator’s engine transcript; four perspectives, no browser decryption or payment.",
       "status": "published-playback-verified",
       "verification": {
@@ -4231,7 +4232,16 @@
           "lobby": "16c3a94bc99f4fa28e04f21d3fc7ebd3244c250a",
           "workbench": "3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2"
         }
-      }
+      },
+      "classificationHistory": [
+        {
+          "changedAt": "2026-11-05T16:37:59.237511+00:00",
+          "priorCaptureType": "app-demo",
+          "priorCaption": "App demo",
+          "reason": "Browser replays creator engine results; clarified concept scope without changing historical footage.",
+          "evidence": "work/daily-2026-11-04/graveyard-source-review-nov5.json"
+        }
+      ]
     },
     {
       "resourceId": "hidebox",
@@ -9202,6 +9212,17 @@
       ],
       "evidence": [
         "work/daily-2026-11-04/caravel-faucet-release-acceptance-nov5.json"
+      ]
+    },
+    {
+      "recordedAt": "2026-11-05T16:34:09.496874+00:00",
+      "resources": [
+        "caravel-burn-wallet",
+        "caravel-trade",
+        "ootle-steam-kit"
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/caravel-reset-release-acceptance-nov5.json"
       ]
     }
   ],
