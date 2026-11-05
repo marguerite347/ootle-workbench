@@ -1404,10 +1404,20 @@
       "projectUrl": "https://testnet-faucet.taritracker.com/",
       "discoveryUrl": "https://github.com/kstrycharz/hauntboard#wallet-funding",
       "foundOn": "2026-10-14",
-      "sharingPosts": [],
-      "originalPostStatus": "No separate public announcement found in reviewed sources. Actual discovery page retained.",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/530/5",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "publishedAt": "2026-11-04T19:43:13.459Z",
+          "foundOn": "2026-11-05",
+          "context": "Esmeralda faucet recovery: creator offers both public and stealth outputs",
+          "visibility": "public"
+        }
+      ],
+      "originalPostStatus": "Public creator sharing post found November5; earlier README discovery retained.",
       "discoveryContext": "Hauntboard README wallet funding link",
-      "sourceUrl": "https://github.com/kstrycharz/hauntboard#wallet-funding"
+      "sourceUrl": "https://community.tari.com/t/530/5"
     },
     {
       "id": "ootle-payment-gateway",
@@ -4464,7 +4474,7 @@
       "maintenanceStatus": "publication-pending"
     }
   ],
-  "updatedAt": "2026-11-05T02:20:47.747609+00:00",
+  "updatedAt": "2026-11-05T13:00:02.217Z",
   "publicExport": {
     "preparedAt": "2026-11-03T16:00:05.259492+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."

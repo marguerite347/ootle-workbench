@@ -840,21 +840,21 @@
       "ecosystem": "tari-ootle",
       "group": "Testnet",
       "title": "TariTracker Faucet",
-      "summary": "Community-funded Esmeralda Ootle testnet faucet. The October 31 public page offered private or public receive outputs, a 1–1,000 tXTR amount selector and one withdrawal per wallet each hour. It showed an open-claims state and an available-claims balance; that display is not proof of a successful claim. No address, CAPTCHA or request was submitted. The page identifies tXTR as native Ootle L2 testnet TARI and notes observable funding transfers and timing. Discovered through Hauntboard’s wallet-funding README; no separate public announcement found. The faucet deployment revision is not exposed.",
+      "summary": "Community-funded Esmeralda Ootle testnet faucet. November 5 public review found private/public receive options, 1–1000 tXTR and one withdrawal per wallet each hour. The interface displayed open claims and a spendable balance; no address, CAPTCHA, claim or API key was submitted. Private deposit discovery was unavailable on the current indexer, although the displayed spendable account balance was available. Funding transfers and timing remain observable. The creator shared the recovered faucet in forum topic 530, post 5 on November 4; original discovery through Hauntboard wallet-funding documentation is retained. Public backend API documentation explains saved receipts, shared limits and retrying the same payload. Registration and API documentation state different default daily quotas; check the assigned key allowance. The November 5 recording shows the public interface only. Deployment revision and license are not published.",
       "status": "Web app · Testnet",
-      "sourceUrl": "https://github.com/kstrycharz/hauntboard#wallet-funding",
+      "sourceUrl": "https://community.tari.com/t/530/5",
       "repoUrl": null,
-      "docsUrl": "https://github.com/kstrycharz/hauntboard#wallet-funding",
+      "docsUrl": "https://testnet-faucet.taritracker.com/api-docs",
       "creator": {
-        "name": "TariTracker",
+        "name": "_squared / TariTracker",
         "url": "https://taritracker.com/"
       },
       "license": null,
       "network": "Esmeralda testnet",
       "platform": "Browser",
-      "upstreamRevision": "c493fe76c0d016c414fdc38e75a378507b71b7a3",
-      "sourceUpdatedAt": null,
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "upstreamRevision": "Public website and API documentation reviewed 2026-11-05; deployment revision not published",
+      "sourceUpdatedAt": "2026-11-04T19:43:13.459Z",
+      "lastCheckedAt": "2026-11-05T13:00:02.217Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -868,14 +868,21 @@
           "url": "https://github.com/kstrycharz/hauntboard#wallet-funding",
           "platform": "GitHub",
           "context": "Discovery page in Hauntboard documentation; not a separate announcement"
+        },
+        {
+          "url": "https://community.tari.com/t/530/5",
+          "platform": "Tari Community forum",
+          "author": "_squared",
+          "context": "November4 creator announcement: public and stealth outputs after testnet reset",
+          "publishedAt": "2026-11-04T19:43:13.459Z"
         }
       ],
       "cardSummary": "Request community-funded testnet TARI for an Esmeralda Ootle wallet, with an hourly wallet limit.",
       "cardStatus": "Web app · Testnet",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261031.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261031.png",
-        "source": "App demo — Public faucet interface, receive choices and hourly limit; no wallet, CAPTCHA or claim."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261105.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritracker-faucet-20261105.png",
+        "source": "App demo"
       }
     },
     {
@@ -2097,7 +2104,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Dead Drop",
-      "summary": "November 4 availability: the public landing page loads, but the Hunt screen stays at “reading the stones” and its contract read returns HTTP 404. The documented epoch-13031 target and October 31 walkthrough are historical; they do not establish a working post-reset hunt. No wallet, funding or claim action was performed. David J’s riddle-and-stealth-output app combines an encrypted memo, answer-derived signing key and time conditions. Correct answers decrypt locally; claiming and returning funds require transactions. Public riddles can be guessed offline, first valid claim wins, and browser-stored keys need a backup. The Midnight Grave uses epoch 13031; the creator revised its estimated opening to early November rather than a fixed Halloween time. October 31 review covered the source, original announcement and public landing page. The recording shows the public explanation only; no funding, claim or return was attempted. This is a separate community project from the Workbench Dead Drop social-deduction game. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "November 5 availability: the public landing page loads, but the Hunt screen stays at “reading the stones” and its contract read returns HTTP 404. The documented epoch-13031 target and October 31 walkthrough are historical; they do not establish a working post-reset hunt. No wallet, funding or claim action was performed. David J’s riddle-and-stealth-output app combines an encrypted memo, answer-derived signing key and time conditions. Correct answers decrypt locally; claiming and returning funds require transactions. Public riddles can be guessed offline, first valid claim wins, and browser-stored keys need a backup. The Midnight Grave uses epoch 13031; the creator revised its estimated opening to early November rather than a fixed Halloween time. October 31 review covered the source, original announcement and public landing page. The recording shows the public explanation only; no funding, claim or return was attempted. This is a separate community project from the Workbench Dead Drop social-deduction game. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates. November 5 review also covered the complete creator video: its recorded claims and Halloween timing are historical pre-reset evidence, not a recovered live Hunt. The retained October 31 recording is a public landing-page walkthrough.",
       "status": "Web app · Testnet · Hunt unavailable",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/37",
       "repoUrl": "https://github.com/davidjsourcing/dead-drop",
@@ -2142,9 +2149,9 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dead-drop-davidjsourcing-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dead-drop-davidjsourcing-20261031.png",
-        "source": "Source/docs walkthrough — public landing page, privacy layers and timed hunt explanation; no wallet actions."
+        "source": "Docs walkthrough"
       },
-      "lastAttemptedAt": "2026-11-04T21:41:01.467644+00:00"
+      "lastAttemptAt": "2026-11-05T12:52:03.903Z"
     },
     {
       "id": "tari-ootle:component:ootle-accord",
