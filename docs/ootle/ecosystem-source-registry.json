@@ -10065,13 +10065,18 @@
       "title": "Caravel Faucet",
       "sources": [
         "https://github.com/okansaglam016161-pixel/caravel-faucet",
-        "https://x.com/DNodeCapital/status/2108867690085421447"
+        "https://x.com/DNodeCapital/status/2108867690085421447",
+        "https://x.com/Caravelxyz/status/2106759449213845779",
+        "https://x.com/Caravelxyz/status/2106761553022423505",
+        "https://x.com/DNodeCapital/status/2106768971013976308",
+        "https://api.github.com/repos/okansaglam016161-pixel/caravel-faucet/releases?per_page=100",
+        "https://caravellabs.net"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "lastSuccessfulReviewAt": "2026-11-05T14:15:34.117Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-05T14:15:34.117Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
       ],
@@ -10083,82 +10088,101 @@
           "attemptedAt": "2026-11-04T10:07:11.718996+00:00",
           "evidence": "work/daily-2026-11-04/f4a30911a2416527-38250bd3b9fd79b2ceb769b1343fd26f36768027b6b4d1c3b2a63e65a8088aae.txt",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Current-run full README semantically reviewed; source timestamp retained.",
           "lastAttemptAt": "2026-11-04T10:07:11.718996+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:11.718996+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null,
+          "complete": true
         },
         "https://x.com/DNodeCapital/status/2108867690085421447": {
           "url": "https://x.com/DNodeCapital/status/2108867690085421447",
-          "hash": "04b5a90fd9d47857ea0eaa8bae6f5e9bb50ba4196d504e577b0d6742eb908e95",
-          "attemptedAt": "2026-11-04T10:07:41.732658+00:00",
-          "evidence": "work/daily-2026-11-04/dcd5acce80781f57-04b5a90fd9d47857ea0eaa8bae6f5e9bb50ba4196d504e577b0d6742eb908e95.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:41.732658+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:41.732658+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-faucet-dnode-thread-nov5.txt",
+          "hash": "f397906b403cc5e669daef8dc481f7ac9674c9c92f49f37a8868de8bf970808d",
+          "attemptedAt": "2026-11-05T14:11:41.507Z",
+          "scope": "Original sharing post; zero declared replies. Parent giveaway context not a current opportunity.",
+          "lastAttemptAt": "2026-11-05T14:11:41.507Z",
+          "lastSuccessfulReadAt": "2026-11-05T14:11:41.507Z",
+          "status": "read",
+          "error": null
         },
         "https://x.com/Caravelxyz/status/2106759449213845779": {
           "url": "https://x.com/Caravelxyz/status/2106759449213845779",
-          "hash": "084dbd015e54e01fbb87e10ad31dfd8e390665e728a20377e120d781b5a79adc",
-          "attemptedAt": "2026-11-04T10:07:40.104011+00:00",
-          "evidence": "work/daily-2026-11-04/60354f388aa48e30-084dbd015e54e01fbb87e10ad31dfd8e390665e728a20377e120d781b5a79adc.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:40.104011+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:40.104011+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-faucet-original-thread-nov5.txt",
+          "hash": "0d5490da1fff4cc1c85b90ce1823deea4e4f2e5c60d882970c689f124fffb963",
+          "attemptedAt": "2026-11-05T14:11:00.065Z",
+          "scope": "Original, four direct replies and nested creator reply expanded and read.",
+          "lastAttemptAt": "2026-11-05T14:11:00.065Z",
+          "lastSuccessfulReadAt": "2026-11-05T14:11:00.065Z",
+          "status": "read",
+          "error": null
         },
         "https://x.com/DNodeCapital/status/2106768971013976308": {
           "url": "https://x.com/DNodeCapital/status/2106768971013976308",
-          "hash": "ec5630afe4eaafd3bc618a65977d095c9ab4877d6010da40c428c6ad923ee11f",
-          "attemptedAt": "2026-11-04T10:07:41.238145+00:00",
-          "evidence": "work/daily-2026-11-04/d7970951be22541b-ec5630afe4eaafd3bc618a65977d095c9ab4877d6010da40c428c6ad923ee11f.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:41.238145+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:41.238145+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-faucet-repost-nov5.txt",
+          "hash": "778757e4379295c3a1ebe1258253ebe4badfe647a447603fd6fab5eca7861f15",
+          "attemptedAt": "2026-11-05T14:12:32.091Z",
+          "scope": "Found-through quote post; zero declared replies.",
+          "lastAttemptAt": "2026-11-05T14:12:32.091Z",
+          "lastSuccessfulReadAt": "2026-11-05T14:12:32.091Z",
+          "status": "read",
+          "error": null
         },
         "https://x.com/Caravelxyz/status/2106761553022423505": {
           "url": "https://x.com/Caravelxyz/status/2106761553022423505",
-          "hash": "b9f6026645733870376acfbfa43ea459563ae1c1f23eb38e12a4b38f0bb2409a",
-          "attemptedAt": "2026-11-04T10:07:40.264080+00:00",
-          "evidence": "work/daily-2026-11-04/04fbd54e0e33ddf1-b9f6026645733870376acfbfa43ea459563ae1c1f23eb38e12a4b38f0bb2409a.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:40.264080+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:40.264080+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-faucet-original-thread-nov5.txt",
+          "hash": "0d5490da1fff4cc1c85b90ce1823deea4e4f2e5c60d882970c689f124fffb963",
+          "attemptedAt": "2026-11-05T14:11:00.065Z",
+          "scope": "Creator reply read in original thread; no separate current frontend promise.",
+          "lastAttemptAt": "2026-11-05T14:11:00.065Z",
+          "lastSuccessfulReadAt": "2026-11-05T14:11:00.065Z",
+          "status": "read",
+          "error": null
+        },
+        "https://api.github.com/repos/okansaglam016161-pixel/caravel-faucet/releases?per_page=100": {
+          "url": "https://api.github.com/repos/okansaglam016161-pixel/caravel-faucet/releases?per_page=100",
+          "evidence": "work/daily-2026-11-04/caravel-faucet-head-releases-nov5.json",
+          "hash": "0b96cf072a581543bfb1013afb30e2f62db630f3cea472aba0934a3a69f4e87b",
+          "attemptedAt": "2026-11-05T14:13:51.840Z",
+          "scope": "Empty release list exhausted; current HEAD574c7d9 matches reviewed README.",
+          "lastAttemptAt": "2026-11-05T14:13:51.840Z",
+          "lastSuccessfulReadAt": "2026-11-05T14:13:51.840Z",
+          "status": "read",
+          "error": null
+        },
+        "https://caravellabs.net": {
+          "url": "https://caravellabs.net",
+          "evidence": "work/daily-2026-11-04/caravel-entry-boundary-nov5.txt",
+          "hash": "f904f4452596dc103712a8477a42deab5d80e858cd417564ab868c77f63ffa3c",
+          "attemptedAt": "2026-11-05T14:13:29.942Z",
+          "scope": "Public marketing page and Launch entry reviewed; create/import wallet boundary, no wallet operation.",
+          "lastAttemptAt": "2026-11-05T14:13:29.942Z",
+          "lastSuccessfulReadAt": "2026-11-05T14:13:29.942Z",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "observedAvailability": "Reusable Esmeralda testnet faucet template. The November5 review of revision574c7d9 documents Ootle0.47, ProtocolV2 from epoch12220, SDK0.11 and WASM0.47. It pays a configurable amount, initially1,000tTARI, once per public key across apps; keys are not a per-person identity limit. The fee can come from the claim. The administrator can pause, change the amount and withdraw. README deployment/dry-run results are maintainer-reported historical0.42–0.47 evidence, not confirmation on a later reset network. The October4 original thread and all visible replies were reviewed, including the unanswered October31 frontend question. Caravel’s public entry requires wallet creation/import. The November5 recording walks through the current README; no wallet was created or claim submitted.",
       "changedSources": [
-        "https://x.com/DNodeCapital/status/2108867690085421447",
         "https://x.com/Caravelxyz/status/2106759449213845779",
+        "https://x.com/Caravelxyz/status/2106761553022423505",
+        "https://x.com/DNodeCapital/status/2108867690085421447",
         "https://x.com/DNodeCapital/status/2106768971013976308",
-        "https://x.com/Caravelxyz/status/2106761553022423505"
+        "https://api.github.com/repos/okansaglam016161-pixel/caravel-faucet/releases?per_page=100",
+        "https://caravellabs.net"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://github.com/okansaglam016161-pixel/caravel-faucet",
         "https://x.com/DNodeCapital/status/2108867690085421447"
       ],
-      "sourceObservation": "October 29 original posts and accessible replies, source repository and linked public destinations reviewed. Listing describes observed public availability; no wallet, financial or runtime certification implied.",
+      "sourceObservation": "Reusable Esmeralda testnet faucet template. The November5 review of revision574c7d9 documents Ootle0.47, ProtocolV2 from epoch12220, SDK0.11 and WASM0.47. It pays a configurable amount, initially1,000tTARI, once per public key across apps; keys are not a per-person identity limit. The fee can come from the claim. The administrator can pause, change the amount and withdraw. README deployment/dry-run results are maintainer-reported historical0.42–0.47 evidence, not confirmation on a later reset network. The October4 original thread and all visible replies were reviewed, including the unanswered October31 frontend question. Caravel’s public entry requires wallet creation/import. The November5 recording walks through the current README; no wallet was created or claim submitted.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
-      "copyUpdated": false,
+      "copyUpdated": true,
       "reviewedSourceCount": 2,
       "pendingReviewSources": [],
       "supersededSources": {},
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/okansaglam016161-pixel/caravel-faucet",
@@ -10195,6 +10219,9 @@
           "attemptedAt": "2026-11-04T10:07:40.264080+00:00",
           "httpStatus": 200
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/caravel-faucet-source-review-nov5.json"
       ]
     },
     "tari-ootle:component:ons": {

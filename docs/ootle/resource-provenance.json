@@ -206,7 +206,14 @@
       "evidence": "work/daily-2026-10-31/x-caravel-faucet-expanded-nov2.txt",
       "originalPostUrl": "https://x.com/Caravelxyz/status/2106759449213845779",
       "lastAttemptAt": "2026-11-03T01:10:11.452525+00:00",
-      "reviewNote": "Read original, parent announcement and visible replies including probable spam. October31 reply asks whether a frontend was added; no creator answer displayed. Dated absence is not a present availability claim. Catalog original-post backfill queued."
+      "reviewNote": "Read original, parent announcement and visible replies including probable spam. October31 reply asks whether a frontend was added; no creator answer displayed. Dated absence is not a present availability claim. Catalog original-post backfill queued.",
+      "reviewHistory": [
+        {
+          "reviewedAt": "2026-11-05T14:16:25.397195+00:00",
+          "evidence": "work/daily-2026-11-04/caravel-faucet-source-review-nov5.json",
+          "scope": "Reusable Esmeralda testnet faucet template. The November 5 review of revision 574c7d9 documents Ootle 0.47, Protocol V2 from epoch 12220, SDK 0.11 and WASM 0.47. It pays a configurable amount, initially 1,000 tTARI, once per public key across apps; keys are not a per-person identity limit. The fee can come from the claim. The administrator can pause, change the amount and withdraw. README deployment/dry-run results are maintainer-reported historical 0.42–0.47 evidence, not confirmation on a later reset network. The October 4 original thread and all visible replies were reviewed, including the unanswered October 31 frontend question. Caravel’s public entry requires wallet creation/import. The November 5 recording walks through the current README; no wallet was created or claim submitted."
+        }
+      ]
     },
     {
       "id": "erebus-ootle-sdk",
@@ -4486,7 +4493,7 @@
       "repositoryAvailability": "November5 API and signed-in browser404; last-good data retained."
     }
   ],
-  "updatedAt": "2026-11-05T13:40:32.922603+00:00",
+  "updatedAt": "2026-11-05T14:16:25.397195+00:00",
   "publicExport": {
     "preparedAt": "2026-11-03T16:00:05.259492+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."

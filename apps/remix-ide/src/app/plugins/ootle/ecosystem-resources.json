@@ -288,8 +288,8 @@
       "ecosystem": "tari-ootle",
       "group": "Testnet",
       "title": "Caravel Faucet",
-      "summary": "Reusable Esmeralda testnet faucet template. The October 14 README documents Ootle 0.46, Protocol V2 activation at epoch 12220, SDK 0.9 and WASM 0.46.1. One claim per key; the administrator can pause claims. Deployment and dry-run claims are the maintainer’s evidence; no claim was performed here. In the October 4 announcement reply, the creator said no frontend existed at that date. A later October 31 reply asks about a frontend without a displayed creator answer; this is not a current absolute availability claim.",
-      "status": "Testnet only · claim untested",
+      "summary": "Reusable Esmeralda testnet faucet template. The November 5 review of revision 574c7d9 documents Ootle 0.47, Protocol V2 from epoch 12220, SDK 0.11 and WASM 0.47. It pays a configurable amount, initially 1,000 tTARI, once per public key across apps; keys are not a per-person identity limit. The fee can come from the claim. The administrator can pause, change the amount and withdraw. README deployment/dry-run results are maintainer-reported historical 0.42–0.47 evidence, not confirmation on a later reset network. The October 4 original thread and all visible replies were reviewed, including the unanswered October 31 frontend question. Caravel’s public entry requires wallet creation/import. The November 5 recording walks through the current README; no wallet was created or claim submitted.",
+      "status": "Testnet only",
       "sourceUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
       "repoUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet",
       "docsUrl": null,
@@ -300,9 +300,9 @@
       "license": "MIT",
       "network": "Ootle Esmeralda testnet",
       "platform": "Rust template",
-      "upstreamRevision": "c3a2a50af4f4088ff4ecb8fcf83bdbbd2bd00d4e",
-      "sourceUpdatedAt": "2026-10-07T12:47:22Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "upstreamRevision": "574c7d9d19554c69ffd50b0b31d29077afbff46d",
+      "sourceUpdatedAt": "2026-10-21T20:18:42Z",
+      "lastCheckedAt": "2026-11-05T14:15:34.117Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -312,9 +312,9 @@
       ],
       "demoUrl": null,
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261014.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261014.jpg",
-        "source": "Source/docs walkthrough — Public repository README scrolling; no software installation or execution."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261105.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261105.jpg",
+        "source": "Docs walkthrough"
       },
       "discussionLinks": [
         {
@@ -337,7 +337,7 @@
           "context": "Creator reply: no frontend at that date; could be built depending on demand"
         }
       ],
-      "cardSummary": "Review a reusable faucet template with one claim per key and administrator pause controls.",
+      "cardSummary": "Distribute test TARI from a reusable faucet template with one claim per key and administrator controls.",
       "cardStatus": "Testnet only"
     },
     {

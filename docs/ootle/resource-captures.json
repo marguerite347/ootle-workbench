@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T13:38:43.869Z",
+  "updatedAt": "2026-11-05T14:15:34.117Z",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -2225,8 +2225,8 @@
         }
       ],
       "captureType": "docs-walkthrough",
-      "capturedAt": "2026-10-14T13:39:47.323Z",
-      "observedRevision": "c3a2a50af4f4088ff4ecb8fcf83bdbbd2bd00d4e",
+      "capturedAt": "2026-11-05T14:12:52.751Z",
+      "observedRevision": "574c7d9d19554c69ffd50b0b31d29077afbff46d",
       "viewport": {
         "width": 1280,
         "height": 800
@@ -2238,13 +2238,21 @@
         "pix_fmt": "yuv420p"
       },
       "durationSeconds": 12,
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261014.mp4",
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261014.jpg",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261105.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261105.jpg",
       "caption": "Docs walkthrough",
-      "method": "Public repository README scrolling; no software installation or execution.",
-      "sha256": "c70f94253d2630585c7a7b639d8a438b3f06c8c92fb5d1fc569da8f1a69fa0ab",
+      "method": "Genuine public README browser scroll; current documented0.47 rules. No wallet, claim, software execution or network compatibility test.",
+      "sha256": "e79d791a70de0a114dc36e469327a72c544d7f683c01eade2c83e175d455779b",
       "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
-      "verification": "published; desktop and phone playback verified; served media/poster bytes match reviewed files",
+      "verification": {
+        "frames": [
+          "opening",
+          "middle",
+          "closing"
+        ],
+        "localPlayback": "work/daily-2026-11-04/caravel-faucet-local-playback-nov5.json",
+        "livePlayback": "pending"
+      },
       "previousCaptures": [
         {
           "resourceId": "caravel-faucet",
@@ -2290,20 +2298,58 @@
             "mediaHashMatched": true,
             "checkedAt": "2026-10-10T13:04:24.362462+00:00"
           }
+        },
+        {
+          "resourceId": "caravel-faucet",
+          "title": "Caravel Faucet",
+          "targetUrl": "https://github.com/okansaglam016161-pixel/caravel-faucet#readme",
+          "originalPosts": [
+            {
+              "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+              "platform": "X",
+              "author": "DNodeCapital",
+              "foundOn": "2026-10-10",
+              "context": "Resource link in the DNode announcement thread",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "docs-walkthrough",
+          "capturedAt": "2026-10-14T13:39:47.323Z",
+          "observedRevision": "c3a2a50af4f4088ff4ecb8fcf83bdbbd2bd00d4e",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "exportDimensions": {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 800,
+            "pix_fmt": "yuv420p"
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261014.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261014.jpg",
+          "caption": "Docs walkthrough",
+          "method": "Public repository README scrolling; no software installation or execution.",
+          "sha256": "c70f94253d2630585c7a7b639d8a438b3f06c8c92fb5d1fc569da8f1a69fa0ab",
+          "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
+          "verification": "published; desktop and phone playback verified; served media/poster bytes match reviewed files",
+          "liveVerification": {
+            "checkedAt": "2026-10-14T14:05:41.280703+00:00",
+            "lobbyDesktop": true,
+            "lobbyMobile": true,
+            "workbenchDesktop": true,
+            "workbenchMobile": true,
+            "mediaHashMatched": true,
+            "posterHashMatched": true,
+            "lobbyRevision": "bbb606fd504d8eeeb88a56ff500a1084d00c25e4",
+            "workbenchRevision": "b9f647ed9abe6fe4090016d16ea0bf2becb738b7",
+            "evidence": "daily-2026-10-14/playback.json"
+          }
         }
       ],
-      "liveVerification": {
-        "checkedAt": "2026-10-14T14:05:41.280703+00:00",
-        "lobbyDesktop": true,
-        "lobbyMobile": true,
-        "workbenchDesktop": true,
-        "workbenchMobile": true,
-        "mediaHashMatched": true,
-        "posterHashMatched": true,
-        "lobbyRevision": "bbb606fd504d8eeeb88a56ff500a1084d00c25e4",
-        "workbenchRevision": "b9f647ed9abe6fe4090016d16ea0bf2becb738b7",
-        "evidence": "daily-2026-10-14/playback.json"
-      }
+      "posterSha256": "a103836aae59061c7a431884f4f0a8acbda7f343010a06b0d965c9cc77c62570",
+      "status": "publication-pending"
     },
     {
       "resourceId": "ootle-ts",
@@ -2833,7 +2879,8 @@
           "middle",
           "closing"
         ],
-        "livePlayback": "pending"
+        "livePlayback": "desktop and390px phone reached12sec; served media/poster hashes match",
+        "liveAcceptance": "work/daily-2026-11-04/shadow-release-acceptance-nov5.json"
       },
       "frameReview": "Opening/middle/closing visually inspected.",
       "previousCaptures": [
@@ -2906,7 +2953,7 @@
         }
       ],
       "posterSha256": "74e5cbbbc17eb03dfde0be3afa5fd25ae1a79ef02e8c17926bc5788760bf7626",
-      "status": "publication-pending"
+      "status": "published-live-verified"
     },
     {
       "resourceId": "ootle-payment-gateway",
@@ -9085,6 +9132,17 @@
       "scope": "New faucet clip plus retained Dead Drop/Miner media accepted on corresponding production surfaces.",
       "evidence": [
         "work/daily-2026-11-04/faucet-release-acceptance-nov5.json"
+      ]
+    },
+    {
+      "recordedAt": "2026-11-05T14:00:46.597552+00:00",
+      "resources": [
+        "liquidity",
+        "sooon-fun",
+        "tari-market"
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/shadow-release-acceptance-nov5.json"
       ]
     }
   ],
