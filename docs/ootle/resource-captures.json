@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T23:47:36.650455+00:00",
+  "updatedAt": "2026-11-05T00:54:36.180500+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -8118,6 +8118,154 @@
         ],
         "localPlaybackEvidence": "work/daily-2026-11-04/figma-community-local-playback.json",
         "livePlayback": "Pending deployed desktop/phone acceptance"
+      }
+    },
+    {
+      "resourceId": "gamedev-ebitengine-game",
+      "canonicalId": "gamedev-ebitengine-game",
+      "title": "Ebitengine game",
+      "targetUrl": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/ebitengine/ebitengine-game/SKILL.md",
+      "originalPosts": [],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-05T00:35:13.284Z",
+      "observedRevision": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-gamedev-ebitengine-game-20261104.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-gamedev-ebitengine-game-20261104.png",
+      "caption": "Docs walkthrough",
+      "method": "Reused capture-apps.mjs SHA256 59ae4af16acdd34e0284aca7df71ef5a3a0da7c459eac048eea3e3fc9700c2c7 and installed playwright-core in Developer lobby checkout, anonymous browser with genuine scrolling. Earlier same-run Figma production playback was the representative pipeline trial. Opening 0.5s, middle 6s and closing 11.2s visually reviewed; public source guidance only.",
+      "sha256": "67a2971618041d44f4070f1a79fd33d73543b02cff80c183cc4a044a56f9458e",
+      "status": "published-playback-verified",
+      "verification": {
+        "framesReviewed": [
+          0.5,
+          6,
+          11.2
+        ],
+        "localPlayback": "Representative Ebitengine clip played through; all four verified on production.",
+        "livePlayback": "Desktop and phone playback reached 12 seconds; tablet layout checked.",
+        "checkedAt": "2026-11-05T00:53:07.972866+00:00",
+        "evidence": "work/daily-2026-11-04/gamedev-release-acceptance.json"
+      },
+      "publication": {
+        "revision": "f1144099ce9fa0fc66055cc71926a8bf158c0f2a",
+        "deploymentId": "dpl_FGFT4UW79xmkAKa1hQHMwdWeZPaF",
+        "checkedAt": "2026-11-05T00:53:07.972866+00:00"
+      }
+    },
+    {
+      "resourceId": "gamedev-godot-gdscript-headless-testing",
+      "canonicalId": "gamedev-godot-gdscript-headless-testing",
+      "title": "Godot GDScript headless testing (4.x)",
+      "targetUrl": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/godot/godot-gdscript-headless-testing/SKILL.md",
+      "originalPosts": [],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-05T00:35:31.276Z",
+      "observedRevision": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-gamedev-godot-gdscript-headless-testing-20261104.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-gamedev-godot-gdscript-headless-testing-20261104.png",
+      "caption": "Docs walkthrough",
+      "method": "Reused capture-apps.mjs SHA256 59ae4af16acdd34e0284aca7df71ef5a3a0da7c459eac048eea3e3fc9700c2c7 and installed playwright-core in Developer lobby checkout, anonymous browser with genuine scrolling. Earlier same-run Figma production playback was the representative pipeline trial. Opening 0.5s, middle 6s and closing 11.2s visually reviewed; public source guidance only.",
+      "sha256": "cb4632f97be99ed9a98773f59cf8c7adaa22050345bf7d3bd3ddfe665e4706af",
+      "status": "published-playback-verified",
+      "verification": {
+        "framesReviewed": [
+          0.5,
+          6,
+          11.2
+        ],
+        "localPlayback": "Representative Ebitengine clip played through; all four verified on production.",
+        "livePlayback": "Desktop and phone playback reached 12 seconds; tablet layout checked.",
+        "checkedAt": "2026-11-05T00:53:07.972866+00:00",
+        "evidence": "work/daily-2026-11-04/gamedev-release-acceptance.json"
+      },
+      "publication": {
+        "revision": "f1144099ce9fa0fc66055cc71926a8bf158c0f2a",
+        "deploymentId": "dpl_FGFT4UW79xmkAKa1hQHMwdWeZPaF",
+        "checkedAt": "2026-11-05T00:53:07.972866+00:00"
+      }
+    },
+    {
+      "resourceId": "gamedev-defold-core",
+      "canonicalId": "gamedev-defold-core",
+      "title": "Defold Core",
+      "targetUrl": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/defold-core/SKILL.md",
+      "originalPosts": [],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-05T00:35:49.494Z",
+      "observedRevision": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-gamedev-defold-core-20261104.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-gamedev-defold-core-20261104.png",
+      "caption": "Docs walkthrough",
+      "method": "Reused capture-apps.mjs SHA256 59ae4af16acdd34e0284aca7df71ef5a3a0da7c459eac048eea3e3fc9700c2c7 and installed playwright-core in Developer lobby checkout, anonymous browser with genuine scrolling. Earlier same-run Figma production playback was the representative pipeline trial. Opening 0.5s, middle 6s and closing 11.2s visually reviewed; public source guidance only.",
+      "sha256": "0a94abfe2a8819794b623a37ad275437927990dc0dce134a4c0d1ee9d9bce3db",
+      "status": "published-playback-verified",
+      "verification": {
+        "framesReviewed": [
+          0.5,
+          6,
+          11.2
+        ],
+        "localPlayback": "Representative Ebitengine clip played through; all four verified on production.",
+        "livePlayback": "Desktop and phone playback reached 12 seconds; tablet layout checked.",
+        "checkedAt": "2026-11-05T00:53:07.972866+00:00",
+        "evidence": "work/daily-2026-11-04/gamedev-release-acceptance.json"
+      },
+      "publication": {
+        "revision": "f1144099ce9fa0fc66055cc71926a8bf158c0f2a",
+        "deploymentId": "dpl_FGFT4UW79xmkAKa1hQHMwdWeZPaF",
+        "checkedAt": "2026-11-05T00:53:07.972866+00:00"
+      }
+    },
+    {
+      "resourceId": "gamedev-roblox-simulator-economy",
+      "canonicalId": "gamedev-roblox-simulator-economy",
+      "title": "Roblox simulator economy",
+      "targetUrl": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9/skills/other-engines/roblox-simulator-economy/SKILL.md",
+      "originalPosts": [],
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-05T00:36:07.468Z",
+      "observedRevision": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "durationSeconds": 12,
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-gamedev-roblox-simulator-economy-20261104.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-gamedev-roblox-simulator-economy-20261104.png",
+      "caption": "Docs walkthrough",
+      "method": "Reused capture-apps.mjs SHA256 59ae4af16acdd34e0284aca7df71ef5a3a0da7c459eac048eea3e3fc9700c2c7 and installed playwright-core in Developer lobby checkout, anonymous browser with genuine scrolling. Earlier same-run Figma production playback was the representative pipeline trial. Opening 0.5s, middle 6s and closing 11.2s visually reviewed; public source guidance only.",
+      "sha256": "f90ed94d9d8ac0d04141d28c3bdf7b32cf8d84d37a4cdb48c2868f2824f70fdb",
+      "status": "published-playback-verified",
+      "verification": {
+        "framesReviewed": [
+          0.5,
+          6,
+          11.2
+        ],
+        "localPlayback": "Representative Ebitengine clip played through; all four verified on production.",
+        "livePlayback": "Desktop and phone playback reached 12 seconds; tablet layout checked.",
+        "checkedAt": "2026-11-05T00:53:07.972866+00:00",
+        "evidence": "work/daily-2026-11-04/gamedev-release-acceptance.json"
+      },
+      "publication": {
+        "revision": "f1144099ce9fa0fc66055cc71926a8bf158c0f2a",
+        "deploymentId": "dpl_FGFT4UW79xmkAKa1hQHMwdWeZPaF",
+        "checkedAt": "2026-11-05T00:53:07.972866+00:00"
       }
     }
   ],
