@@ -1710,7 +1710,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Arkimals — Halloween on Tari",
-      "summary": "Halloween canine game on Esmeralda. Incubation delivers a surprise through an encrypted Tari memo; the player can preview it privately in Sapient before voluntarily revealing and minting a canine NFT. The operator knows the outcome and can delay delivery; timing, fees and account activity remain public. The October 29 public landing and rules views loaded without a wallet. The rules also describe breeding, staking and rebirth, which permanently retires the submitted canine. Current prices are shown before wallet approval. The recorded walkthrough shows public pages only; no incubation, private memo, mint or transaction was exercised. MIT code; existing Arkimals artwork has separate provenance in the repository. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Halloween canine game on Esmeralda. Incubation delivers a surprise through an encrypted Tari memo; the player can preview it privately in Sapient before voluntarily revealing and minting a canine NFT. The operator knows the outcome and can delay delivery; timing, fees and account activity remain public. The October 29 public landing and rules views loaded without a wallet. The rules also describe breeding, staking and rebirth, which permanently retires the submitted canine. Current prices are shown before wallet approval. The recorded walkthrough shows public pages only; no incubation, private memo, mint or transaction was exercised. MIT code; existing Arkimals artwork has separate provenance in the repository. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates. November 5 source review: public landing and game rules remain reachable at the same repository revision. Esmeralda and Sapient restrictions still apply; rebirth permanently retires the submitted canine. The existing recording remains a dated walkthrough of public pages.",
       "status": "Web game · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
       "repoUrl": "https://github.com/BlackTurtle123/tari-midnight-kennel",
@@ -1725,7 +1725,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "d927e586f4e0a8830a290a32096f2351e780fae5",
       "sourceUpdatedAt": "2026-10-26T16:45:58.142Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "lastCheckedAt": "2026-11-05T10:41:56.540Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2315,8 +2315,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Hexcrow",
-      "summary": "Milestone escrow using a stealth output, an approval path, a timeout refund and jointly signed mediator paths. The public invoice book records hashes, one-time keys, deadlines and status; role-specific copies disclose invoice text and amounts. November 4 review found that the website explicitly replays the archived October 29 run: the November 2 Esmeralda reset removed its template, book and transactions. The creator reports updated source using ootle-rs 0.31 and tari_template_lib 0.37 with 19 engine tests, while a replacement deployment is waiting for test funds. The refreshed recording switches public, client and accountant copies of the archived invoice; it performs no funding, wallet action or new transaction. Mediator judgment remains trusted, fees and timing remain visible, and the demo’s published throwaway keys must not hold value.",
-      "status": "Archived replay · Testnet",
+      "summary": "Milestone escrow with confidential invoice amounts, approval, timeout refunds and jointly signed mediator paths. November 5 review found a public replay of the creator’s November 4 run on the reset Esmeralda network, replacing the earlier waiting-for-test-funds state. The creator reports four invoices and ten refused attacks using the same v4 rules, ootle-rs 0.31 and tari_template_lib 0.37. The public invoice book exposes hashes, one-time keys, deadlines and status; client and accountant copies show invoice details. The recording switches those public replay views without a wallet or new transaction. Mediator judgment remains trusted; fees and timing remain visible. The browser reads an indexer without verifying its proofs, and demo throwaway keys must not hold value. The October 29 run and prior recordings remain historical evidence.",
+      "status": "Web app · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/35",
       "repoUrl": "https://github.com/kasbsquall/hexcrow",
       "docsUrl": "https://github.com/kasbsquall/hexcrow#readme",
@@ -2328,9 +2328,9 @@
       "license": "MIT",
       "network": "Esmeralda testnet",
       "platform": "Browser · Rust",
-      "upstreamRevision": "f7e939eebb5ad19206f2b3ed17b035c21a8b2e03",
-      "sourceUpdatedAt": "2026-10-30T00:10:36.713Z",
-      "lastCheckedAt": "2026-11-04T17:41:49.014Z",
+      "upstreamRevision": "c1986a3a95dff9a745aba42c0154ae0bf0babde4",
+      "sourceUpdatedAt": "2026-11-05T04:02:01.833Z",
+      "lastCheckedAt": "2026-11-05T11:00:07.681Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2365,11 +2365,11 @@
         }
       ],
       "cardSummary": "Replay confidential milestone invoices from public, client, contractor, mediator and accountant views to see who can read each detail.",
-      "cardStatus": "Archived replay · Testnet",
+      "cardStatus": "Web app · Testnet",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261104.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261104.jpg",
-        "source": "App demo — archived testnet replay"
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-republished-20261105.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-republished-20261105.png",
+        "source": "App demo"
       }
     },
     {
