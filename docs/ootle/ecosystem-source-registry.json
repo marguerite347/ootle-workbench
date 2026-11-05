@@ -27989,6 +27989,38 @@
       "evidence": [
         "work/daily-2026-11-04/figma-community-qualification.json"
       ]
+    },
+    "dnode-make-me-laugh-november": {
+      "id": "dnode-make-me-laugh-november",
+      "title": "DNode Make Me Laugh contest",
+      "sources": [
+        "https://x.com/DNodeCapital/status/2117932964285730872"
+      ],
+      "outcome": "reviewed",
+      "lastAttemptAt": "2026-11-05T01:06:03.449883+00:00",
+      "lastSuccessfulReviewAt": "2026-11-05T01:06:03.449883+00:00",
+      "reviewRequired": false,
+      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "evidence": [
+        "work/daily-2026-11-04/dnode-november-contest-review.json"
+      ],
+      "observedAvailability": "Public dated announcement; entry by reply; forum poll not yet linked; exact deadline time/timezone unstated",
+      "sourceReviews": {
+        "https://x.com/DNodeCapital/status/2117932964285730872": {
+          "url": "https://x.com/DNodeCapital/status/2117932964285730872",
+          "attemptedAt": "2026-11-05T01:06:03.449883+00:00",
+          "lastAttemptAt": "2026-11-05T01:06:03.449883+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T01:06:03.449883+00:00",
+          "status": "read",
+          "hash": "a714ffe98ff0e7df6f2130240da7d8a1f553b3e946b6f7c1e625076ddf63887a",
+          "evidence": "work/daily-2026-11-04/dnode-november-contest-page1.txt",
+          "scope": "Full original text and artwork, visible thread replies to Discover more, nested two-reply branch, and all observed submission images read. Current mayerlau branch includes both organizer and Martina replies. Earlier Retry error is a cashtag quote widget, not submission images; all three nested images rendered. No social writes."
+        }
+      },
+      "pendingReviewSources": [],
+      "blockedSources": [],
+      "reviewQueue": [],
+      "publicationStatus": "pending"
     }
   },
   "resourceReviewSummary": {
