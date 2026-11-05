@@ -24562,76 +24562,99 @@
       "sources": [
         "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
         "https://nodes.taritalk.xyz/",
-        "https://github.com/xt1085/taritalk-node-deploy"
+        "https://github.com/xt1085/taritalk-node-deploy",
+        "https://x.com/tari_zh/status/2117114726429999611",
+        "https://github.com/xt1085/taritalk-node-deploy/releases",
+        "https://www.youtube.com/watch?v=dxpNwx0bskI"
       ],
-      "outcome": "pending",
-      "reviewRequired": true,
+      "outcome": "reviewed",
+      "reviewRequired": false,
       "canonicalResourceId": "taritalk-nodes",
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T00:06:08.835Z",
       "sourceReviews": {
         "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1": {
           "url": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
           "hash": "9e8cb25538955be51ee015e7aae3b5f1917d9399e194810fbd6bc898806651e9",
-          "attemptedAt": "2026-11-04T10:07:06.969484+00:00",
           "evidence": "work/daily-2026-11-04/f2b439cb33d3fb0f-9e8cb25538955be51ee015e7aae3b5f1917d9399e194810fbd6bc898806651e9.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:06.969484+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:06.969484+00:00",
-          "status": "read"
+          "method": "Full three-post forum thread including Chinese version and reply reviewed",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
         },
         "https://nodes.taritalk.xyz/": {
           "url": "https://nodes.taritalk.xyz/",
-          "hash": "310840eed28531010449f67cb59374d0f25390df543a3af2169796e93024184e",
-          "attemptedAt": "2026-11-04T10:07:29.432134+00:00",
-          "evidence": "work/daily-2026-11-04/11efd5925e545e64-310840eed28531010449f67cb59374d0f25390df543a3af2169796e93024184e.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:29.432134+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:29.432134+00:00",
-          "status": "read"
+          "hash": "e99d319a2857e1ed9a81e2b38ba1f6685ff2438942b2e1d9fb71d47933e8efb2",
+          "evidence": "work/daily-2026-11-04/taritalk-nodes-current-browser.txt",
+          "method": "Complete directory, map, guide and privacy tabs reviewed; no installation",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/xt1085/taritalk-node-deploy": {
-          "lastAttemptAt": "2026-11-02T16:28:10.604Z",
-          "status": "blocked",
-          "error": "Linked deployment repository returns HTTP 404 through GitHub API and public browser.",
-          "failureKind": "http",
-          "evidence": "work/daily-2026-10-31/taritalk-repo-browser-nov2.txt",
-          "nextAction": "Retry the creator-linked repository; retain map and guide as accessible partial material, do not infer repository availability."
+          "url": "https://github.com/xt1085/taritalk-node-deploy",
+          "hash": "fd040b19f24876281f07a3c3a31a5e6a5eead9d21c3792372df7d603a72b75f1",
+          "evidence": "work/daily-2026-11-04/4a535478fce39644-fd040b19f24876281f07a3c3a31a5e6a5eead9d21c3792372df7d603a72b75f1.txt",
+          "method": "Full pinned README reviewed; recovered formerly 404 repository",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
         },
         "https://x.com/tari_zh/status/2117114726429999611": {
           "url": "https://x.com/tari_zh/status/2117114726429999611",
-          "hash": "a96c22045f7086ce823b85f8151b2871672bbdf85945d783f6200b607f3d6ec9",
-          "attemptedAt": "2026-11-04T10:07:44.697869+00:00",
-          "evidence": "work/daily-2026-11-04/3b2474e39638e8b4-a96c22045f7086ce823b85f8151b2871672bbdf85945d783f6200b607f3d6ec9.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:44.697869+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:44.697869+00:00",
-          "status": "read"
+          "hash": "ede86a7e779eb03a345fb210118fdcd37c40d81c396338c5d75ac20318506a53",
+          "evidence": "work/daily-2026-11-04/taritalk-nodes-x-current.txt",
+          "method": "Original post, attachment and all three replies reviewed",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/xt1085/taritalk-node-deploy/releases": {
+          "url": "https://github.com/xt1085/taritalk-node-deploy/releases",
+          "hash": "8a01ee776459459332dc057ca9810a17321a0e5cab35fc8a9ff1294d41dbb54a",
+          "evidence": "work/daily-2026-11-04/2a609d6d7b92e2cf-8a01ee776459459332dc057ca9810a17321a0e5cab35fc8a9ff1294d41dbb54a.txt",
+          "method": "Complete sole release inventory reviewed; no asset downloaded",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
+        },
+        "https://www.youtube.com/watch?v=dxpNwx0bskI": {
+          "url": "https://www.youtube.com/watch?v=dxpNwx0bskI",
+          "hash": "1ffd2c9d79fd48984d0fc736d302a235ee02f97271b9855c146340c124d2ffb7",
+          "evidence": "work/daily-2026-11-04/tari-show-nov3-review.json",
+          "method": "Complete transcript, description, comments and replay reviewed; node directory sharing at 7:25",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
         }
       },
-      "pendingReviewSources": [
-        "https://github.com/xt1085/taritalk-node-deploy"
-      ],
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
-        "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
         "https://nodes.taritalk.xyz/",
-        "https://x.com/tari_zh/status/2117114726429999611"
+        "https://x.com/tari_zh/status/2117114726429999611",
+        "https://github.com/xt1085/taritalk-node-deploy",
+        "https://github.com/xt1085/taritalk-node-deploy/releases",
+        "https://www.youtube.com/watch?v=dxpNwx0bskI"
       ],
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "lastSuccessfulReviewAt": "2026-11-05T00:06:08.835Z",
+      "observedAvailability": "Public community map and guide; deployment-tool source and v0.1.0 release available",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/522.json",
@@ -24653,6 +24676,119 @@
           "attemptedAt": "2026-11-04T10:07:44.697869+00:00",
           "httpStatus": 200
         }
+      ],
+      "reviewHistory": [
+        {
+          "recordedAt": "2026-11-05T00:06:08.835Z",
+          "priorReview": {
+            "id": "project:taritalk-nodes",
+            "title": "TariTalk Nodes",
+            "sources": [
+              "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+              "https://nodes.taritalk.xyz/",
+              "https://github.com/xt1085/taritalk-node-deploy"
+            ],
+            "outcome": "pending",
+            "reviewRequired": true,
+            "canonicalResourceId": "taritalk-nodes",
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "sourceReviews": {
+              "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1": {
+                "url": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+                "hash": "9e8cb25538955be51ee015e7aae3b5f1917d9399e194810fbd6bc898806651e9",
+                "attemptedAt": "2026-11-04T10:07:06.969484+00:00",
+                "evidence": "work/daily-2026-11-04/f2b439cb33d3fb0f-9e8cb25538955be51ee015e7aae3b5f1917d9399e194810fbd6bc898806651e9.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:06.969484+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:06.969484+00:00",
+                "status": "read",
+                "error": null
+              },
+              "https://nodes.taritalk.xyz/": {
+                "url": "https://nodes.taritalk.xyz/",
+                "hash": "310840eed28531010449f67cb59374d0f25390df543a3af2169796e93024184e",
+                "attemptedAt": "2026-11-04T10:07:29.432134+00:00",
+                "evidence": "work/daily-2026-11-04/11efd5925e545e64-310840eed28531010449f67cb59374d0f25390df543a3af2169796e93024184e.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:29.432134+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:29.432134+00:00",
+                "status": "read",
+                "error": null
+              },
+              "https://github.com/xt1085/taritalk-node-deploy": {
+                "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+                "status": "blocked",
+                "error": "Linked deployment repository returns HTTP 404 through GitHub API and public browser.",
+                "failureKind": "http",
+                "evidence": "work/daily-2026-10-31/taritalk-repo-browser-nov2.txt",
+                "nextAction": "Retry the creator-linked repository; retain map and guide as accessible partial material, do not infer repository availability."
+              },
+              "https://x.com/tari_zh/status/2117114726429999611": {
+                "url": "https://x.com/tari_zh/status/2117114726429999611",
+                "hash": "a96c22045f7086ce823b85f8151b2871672bbdf85945d783f6200b607f3d6ec9",
+                "attemptedAt": "2026-11-04T10:07:44.697869+00:00",
+                "evidence": "work/daily-2026-11-04/3b2474e39638e8b4-a96c22045f7086ce823b85f8151b2871672bbdf85945d783f6200b607f3d6ec9.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:44.697869+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:44.697869+00:00",
+                "status": "read",
+                "error": null
+              }
+            },
+            "pendingReviewSources": [
+              "https://github.com/xt1085/taritalk-node-deploy"
+            ],
+            "blockedSources": [],
+            "changedSources": [
+              "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+              "https://nodes.taritalk.xyz/",
+              "https://x.com/tari_zh/status/2117114726429999611"
+            ],
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "lastSuccessfulReviewAt": null,
+            "observedAvailability": null,
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://community.tari.com/t/522.json",
+                "file": "f2b439cb33d3fb0f-9e8cb25538955be51ee015e7aae3b5f1917d9399e194810fbd6bc898806651e9.txt",
+                "hash": "9e8cb25538955be51ee015e7aae3b5f1917d9399e194810fbd6bc898806651e9",
+                "attemptedAt": "2026-11-04T10:07:06.969484+00:00"
+              },
+              {
+                "url": "https://nodes.taritalk.xyz/",
+                "file": "11efd5925e545e64-310840eed28531010449f67cb59374d0f25390df543a3af2169796e93024184e.txt",
+                "hash": "310840eed28531010449f67cb59374d0f25390df543a3af2169796e93024184e",
+                "attemptedAt": "2026-11-04T10:07:29.432134+00:00",
+                "httpStatus": 200
+              },
+              {
+                "url": "https://x.com/tari_zh/status/2117114726429999611",
+                "file": "3b2474e39638e8b4-a96c22045f7086ce823b85f8151b2871672bbdf85945d783f6200b607f3d6ec9.txt",
+                "hash": "a96c22045f7086ce823b85f8151b2871672bbdf85945d783f6200b607f3d6ec9",
+                "attemptedAt": "2026-11-04T10:07:44.697869+00:00",
+                "httpStatus": 200
+              }
+            ]
+          }
+        }
+      ],
+      "publicationStatus": "pending",
+      "evidence": [
+        "work/daily-2026-11-04/taritalk-nodes-review-outcome.json"
       ]
     },
     "project:danse-macabre": {
@@ -24851,57 +24987,167 @@
       "sources": [
         "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
         "https://nodes.taritalk.xyz/",
-        "https://github.com/xt1085/taritalk-node-deploy"
+        "https://github.com/xt1085/taritalk-node-deploy",
+        "https://x.com/tari_zh/status/2117114726429999611",
+        "https://github.com/xt1085/taritalk-node-deploy/releases",
+        "https://www.youtube.com/watch?v=dxpNwx0bskI"
       ],
-      "outcome": "blocked",
-      "reviewRequired": true,
+      "outcome": "reviewed",
+      "reviewRequired": false,
       "canonicalResourceId": "taritalk-nodes",
-      "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+      "lastAttemptAt": "2026-11-05T00:06:08.835Z",
       "sourceReviews": {
         "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1": {
           "url": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
-          "hash": "4ffc8d2818fc89d173d4e9f2272405d05ce3329f3a17cef53d204bc3c004f2c5",
-          "evidence": "work/daily-2026-10-31/f2b439cb33d3fb0f-4ffc8d2818fc89d173d4e9f2272405d05ce3329f3a17cef53d204bc3c004f2c5.txt",
-          "attemptedAt": "2026-11-02T13:55:19.847Z",
-          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
-          "lastAttemptAt": "2026-11-02T13:55:19.847Z",
-          "lastSuccessfulReadAt": "2026-11-02T13:55:19.847Z",
-          "status": "read"
+          "hash": "9e8cb25538955be51ee015e7aae3b5f1917d9399e194810fbd6bc898806651e9",
+          "evidence": "work/daily-2026-11-04/f2b439cb33d3fb0f-9e8cb25538955be51ee015e7aae3b5f1917d9399e194810fbd6bc898806651e9.txt",
+          "method": "Full three-post forum thread including Chinese version and reply reviewed",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
         },
         "https://nodes.taritalk.xyz/": {
           "url": "https://nodes.taritalk.xyz/",
-          "hash": "b7bb1547af019729ee241e7e8bbcee391e8ba86ab2fec4ed686fe5cfabbfd37a",
-          "evidence": "work/daily-2026-10-31/d9008c3504c6392e-b7bb1547af019729ee241e7e8bbcee391e8ba86ab2fec4ed686fe5cfabbfd37a.txt",
-          "attemptedAt": "2026-11-02T13:56:49.380Z",
-          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
-          "browserEvidence": "work/daily-2026-10-31/taritalk-nodes-guide-text-nov2.txt",
-          "lastAttemptAt": "2026-11-02T13:56:49.380Z",
-          "lastSuccessfulReadAt": "2026-11-02T13:56:49.380Z",
-          "status": "read"
+          "hash": "e99d319a2857e1ed9a81e2b38ba1f6685ff2438942b2e1d9fb71d47933e8efb2",
+          "evidence": "work/daily-2026-11-04/taritalk-nodes-current-browser.txt",
+          "method": "Complete directory, map, guide and privacy tabs reviewed; no installation",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/xt1085/taritalk-node-deploy": {
-          "lastAttemptAt": "2026-11-02T16:28:10.604Z",
-          "status": "blocked",
-          "error": "Linked deployment repository returns HTTP 404 through GitHub API and public browser.",
-          "failureKind": "http",
-          "evidence": "work/daily-2026-10-31/taritalk-repo-browser-nov2.txt",
-          "nextAction": "Retry the creator-linked repository; retain map and guide as accessible partial material, do not infer repository availability."
+          "url": "https://github.com/xt1085/taritalk-node-deploy",
+          "hash": "fd040b19f24876281f07a3c3a31a5e6a5eead9d21c3792372df7d603a72b75f1",
+          "evidence": "work/daily-2026-11-04/4a535478fce39644-fd040b19f24876281f07a3c3a31a5e6a5eead9d21c3792372df7d603a72b75f1.txt",
+          "method": "Full pinned README reviewed; recovered formerly 404 repository",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/tari_zh/status/2117114726429999611": {
+          "url": "https://x.com/tari_zh/status/2117114726429999611",
+          "hash": "ede86a7e779eb03a345fb210118fdcd37c40d81c396338c5d75ac20318506a53",
+          "evidence": "work/daily-2026-11-04/taritalk-nodes-x-current.txt",
+          "method": "Original post, attachment and all three replies reviewed",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/xt1085/taritalk-node-deploy/releases": {
+          "url": "https://github.com/xt1085/taritalk-node-deploy/releases",
+          "hash": "8a01ee776459459332dc057ca9810a17321a0e5cab35fc8a9ff1294d41dbb54a",
+          "evidence": "work/daily-2026-11-04/2a609d6d7b92e2cf-8a01ee776459459332dc057ca9810a17321a0e5cab35fc8a9ff1294d41dbb54a.txt",
+          "method": "Complete sole release inventory reviewed; no asset downloaded",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
+        },
+        "https://www.youtube.com/watch?v=dxpNwx0bskI": {
+          "url": "https://www.youtube.com/watch?v=dxpNwx0bskI",
+          "hash": "1ffd2c9d79fd48984d0fc736d302a235ee02f97271b9855c146340c124d2ffb7",
+          "evidence": "work/daily-2026-11-04/tari-show-nov3-review.json",
+          "method": "Complete transcript, description, comments and replay reviewed; node directory sharing at 7:25",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
         }
       },
       "pendingReviewSources": [],
-      "blockedSources": [
-        "https://github.com/xt1085/taritalk-node-deploy"
+      "blockedSources": [],
+      "changedSources": [
+        "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+        "https://nodes.taritalk.xyz/",
+        "https://x.com/tari_zh/status/2117114726429999611",
+        "https://github.com/xt1085/taritalk-node-deploy",
+        "https://github.com/xt1085/taritalk-node-deploy/releases",
+        "https://www.youtube.com/watch?v=dxpNwx0bskI"
       ],
-      "changedSources": [],
-      "changedFields": [],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
+      "changedFields": [
+        "sourceEvidence"
       ],
-      "nextReviewAt": "2026-11-03T10:00:00Z"
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "lastSuccessfulReviewAt": "2026-11-05T00:06:08.835Z",
+      "observedAvailability": "Public community map and guide; deployment-tool source and v0.1.0 release available",
+      "reviewHistory": [
+        {
+          "recordedAt": "2026-11-05T00:06:08.835Z",
+          "priorReview": {
+            "id": "tari:component:taritalk-nodes",
+            "title": "TariTalk Nodes",
+            "sources": [
+              "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+              "https://nodes.taritalk.xyz/",
+              "https://github.com/xt1085/taritalk-node-deploy"
+            ],
+            "outcome": "blocked",
+            "reviewRequired": true,
+            "canonicalResourceId": "taritalk-nodes",
+            "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+            "sourceReviews": {
+              "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1": {
+                "url": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
+                "hash": "4ffc8d2818fc89d173d4e9f2272405d05ce3329f3a17cef53d204bc3c004f2c5",
+                "evidence": "work/daily-2026-10-31/f2b439cb33d3fb0f-4ffc8d2818fc89d173d4e9f2272405d05ce3329f3a17cef53d204bc3c004f2c5.txt",
+                "attemptedAt": "2026-11-02T13:55:19.847Z",
+                "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+                "lastAttemptAt": "2026-11-02T13:55:19.847Z",
+                "lastSuccessfulReadAt": "2026-11-02T13:55:19.847Z",
+                "status": "read"
+              },
+              "https://nodes.taritalk.xyz/": {
+                "url": "https://nodes.taritalk.xyz/",
+                "hash": "b7bb1547af019729ee241e7e8bbcee391e8ba86ab2fec4ed686fe5cfabbfd37a",
+                "evidence": "work/daily-2026-10-31/d9008c3504c6392e-b7bb1547af019729ee241e7e8bbcee391e8ba86ab2fec4ed686fe5cfabbfd37a.txt",
+                "attemptedAt": "2026-11-02T13:56:49.380Z",
+                "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
+                "browserEvidence": "work/daily-2026-10-31/taritalk-nodes-guide-text-nov2.txt",
+                "lastAttemptAt": "2026-11-02T13:56:49.380Z",
+                "lastSuccessfulReadAt": "2026-11-02T13:56:49.380Z",
+                "status": "read"
+              },
+              "https://github.com/xt1085/taritalk-node-deploy": {
+                "lastAttemptAt": "2026-11-02T16:28:10.604Z",
+                "status": "blocked",
+                "error": "Linked deployment repository returns HTTP 404 through GitHub API and public browser.",
+                "failureKind": "http",
+                "evidence": "work/daily-2026-10-31/taritalk-repo-browser-nov2.txt",
+                "nextAction": "Retry the creator-linked repository; retain map and guide as accessible partial material, do not infer repository availability."
+              }
+            },
+            "pendingReviewSources": [],
+            "blockedSources": [
+              "https://github.com/xt1085/taritalk-node-deploy"
+            ],
+            "changedSources": [],
+            "changedFields": [],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "nextReviewAt": "2026-11-03T10:00:00Z"
+          }
+        }
+      ],
+      "publicationStatus": "pending",
+      "evidence": [
+        "work/daily-2026-11-04/taritalk-nodes-review-outcome.json"
+      ]
     },
     "tari-ootle:learn:book-to-skill": {
       "id": "tari-ootle:learn:book-to-skill",
@@ -26408,97 +26654,80 @@
         "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php",
         "http://172.105.101.24/swap/"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T00:06:08.835Z",
       "sourceReviews": {
         "https://github.com/Luci666-Onyx/rubic-swap-widget": {
           "url": "https://github.com/Luci666-Onyx/rubic-swap-widget",
           "hash": "a5d10511bb5eba4c574853e396aaf5159e504e922f5da9703cc84da4cf46fc41",
-          "revision": "4522c14568134df7c06853c466c1b5236621a613",
-          "attemptedAt": "2026-11-04T10:06:55.460626+00:00",
           "evidence": "work/daily-2026-11-04/d3d82dc635913997-a5d10511bb5eba4c574853e396aaf5159e504e922f5da9703cc84da4cf46fc41.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:06:55.460626+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:06:55.460626+00:00",
-          "status": "read"
+          "method": "Complete current README reviewed",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md": {
           "url": "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md",
           "hash": "a5d10511bb5eba4c574853e396aaf5159e504e922f5da9703cc84da4cf46fc41",
-          "attemptedAt": "2026-11-03T05:59:07.620270+00:00",
-          "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
-          "method": "Rendered public repository and complete README inspected in browser; earlier API evidence retained separately.",
-          "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
-          "lastSuccessfulReadAt": "2026-11-03T05:59:07.620270+00:00",
-          "status": "pending",
-          "supportingEvidence": [
-            "work/daily-2026-10-31/rubic-swap-widget-readme-nov2.md"
-          ],
-          "hashEvidence": "work/daily-2026-10-31/rubic-swap-widget-readme-nov2.md",
-          "hashAlgorithm": "sha256",
-          "observationEvidenceSha256": "668ba4910008c864aa85bc267a50daa7f8ea2759052618af5fe9a642b43b18b8",
-          "pendingReason": "Source read pending"
+          "evidence": "work/daily-2026-11-04/286bd3475ba72f91-a5d10511bb5eba4c574853e396aaf5159e504e922f5da9703cc84da4cf46fc41.txt",
+          "method": "Pinned raw README matches current fetched README by SHA256",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/Luci666-Onyx/rubic-swap-widget/releases": {
           "url": "https://github.com/Luci666-Onyx/rubic-swap-widget/releases",
-          "hash": "b976d73591d9b1c3830cf2b397b99c3f423b5c634999b3312cade5dcb3f2507d",
-          "attemptedAt": "2026-11-03T05:59:07.620270+00:00",
-          "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
-          "method": "Rendered public repository and complete README inspected in browser; earlier API evidence retained separately.",
-          "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
-          "lastSuccessfulReadAt": "2026-11-03T05:59:07.620270+00:00",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "evidence": "work/daily-2026-11-04/5f0efddab2d50daf-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "method": "Complete empty releases inventory reviewed",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
           "status": "read",
-          "supportingEvidence": [
-            "work/daily-2026-10-31/rubic-repository-metadata-nov2.json"
-          ],
-          "hashEvidence": "work/daily-2026-10-31/rubic-repository-metadata-nov2.json",
-          "hashAlgorithm": "sha256",
-          "observationEvidenceSha256": "668ba4910008c864aa85bc267a50daa7f8ea2759052618af5fe9a642b43b18b8"
+          "error": null
         },
         "https://community.tari.com/t/introducing-caravel/276/20": {
           "url": "https://community.tari.com/t/introducing-caravel/276/20",
           "hash": "9acce3c3495f24915cc7fd751ebf43f63315ec167e35bdec3a8576ad4deb9f72",
-          "attemptedAt": "2026-11-04T10:07:04.017715+00:00",
           "evidence": "work/daily-2026-11-04/d6b1e1da464c2e59-9acce3c3495f24915cc7fd751ebf43f63315ec167e35bdec3a8576ad4deb9f72.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:04.017715+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:04.017715+00:00",
-          "status": "read"
+          "method": "Full retained forum stream, creator post and latest replies reviewed",
+          "attemptedAt": "2026-11-05T00:06:08.835Z",
+          "lastAttemptAt": "2026-11-05T00:06:08.835Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:06:08.835Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php": {
           "url": "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php",
+          "attemptedAt": "2026-11-05T00:05:24.584020+00:00",
           "hash": "bab842dd9351ce422e196881f97ccf0aa7882ec5c1da4d206fb2109412d6bab4",
-          "attemptedAt": "2026-11-03T05:57:20.785421+00:00",
-          "evidence": "work/daily-2026-10-31/rubic-swap-plugin-source-nov3.txt",
-          "method": "Public primary source read; curated listing, no integration or execution.",
-          "lastAttemptAt": "2026-11-03T05:57:20.785421+00:00",
-          "lastSuccessfulReadAt": "2026-11-03T05:57:20.785421+00:00",
+          "evidence": "work/daily-2026-11-04/rubic-php-current-bab842dd9351.txt",
+          "method": "Current pinned PHP header reviewed for version2.0.0 and GPL-2.0-or-later; no functional/security certification",
+          "lastAttemptAt": "2026-11-05T00:05:24.584020+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T00:05:24.584020+00:00",
           "status": "read",
-          "artifactSavedAt": "2026-11-03T05:57:20.785421+00:00",
-          "timestampBasis": "Saved source receipt timestamp; content reviewed again during current curation."
+          "error": null
         },
         "http://172.105.101.24/swap/": {
-          "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
+          "lastAttemptAt": "2026-11-04T23:59:27.508399+00:00",
           "status": "blocked",
-          "error": "Browser navigation rejected with net::ERR_BLOCKED_BY_CLIENT; HTTP HTML is available separately.",
+          "error": "Browser ERR_BLOCKED_BY_CLIENT and separate HTTP25second timeout",
           "failureKind": "unavailable-client",
-          "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
-          "nextAction": "Retry permitted browser access after client access changes; do not bypass protections."
+          "evidence": "work/daily-2026-11-04/rubic-browser-failure-nov4.json",
+          "nextAction": "Revisit if creator supplies HTTPS destination or client restriction resolves; preserve source/docs recording and no wallet interaction."
         }
       },
       "observedAvailability": "Public source and docs footage available; creator demo HTML readable but browser navigation blocked.",
-      "outcome": "pending",
-      "pendingReviewSources": [
-        "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md",
-        "https://github.com/Luci666-Onyx/rubic-swap-widget/releases",
-        "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php",
+      "outcome": "blocked",
+      "pendingReviewSources": [],
+      "blockedSources": [
         "http://172.105.101.24/swap/"
       ],
-      "blockedSources": [],
       "changedSources": [
-        "https://github.com/Luci666-Onyx/rubic-swap-widget",
-        "https://community.tari.com/t/introducing-caravel/276/20"
+        "https://github.com/Luci666-Onyx/rubic-swap-widget/releases"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -26513,9 +26742,9 @@
       ],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "copyUpdated": true,
-      "publicationStatus": "published-and-live-verified",
+      "publicationStatus": "pending",
       "publicationEvidence": "work/daily-2026-10-31/rubic-release-acceptance-nov3.json",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "lastSuccessfulReviewAt": null,
       "attemptReceipts": [
         {
           "url": "https://github.com/Luci666-Onyx/rubic-swap-widget",
@@ -26530,6 +26759,152 @@
           "hash": "9acce3c3495f24915cc7fd751ebf43f63315ec167e35bdec3a8576ad4deb9f72",
           "attemptedAt": "2026-11-04T10:07:04.017715+00:00"
         }
+      ],
+      "reviewHistory": [
+        {
+          "recordedAt": "2026-11-05T00:06:08.835Z",
+          "priorReview": {
+            "id": "tari-ootle:component:rubic-swap-widget",
+            "title": "Rubic Swap Widget for WordPress",
+            "sources": [
+              "https://github.com/Luci666-Onyx/rubic-swap-widget",
+              "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md",
+              "https://github.com/Luci666-Onyx/rubic-swap-widget/releases",
+              "https://community.tari.com/t/introducing-caravel/276/20",
+              "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php",
+              "http://172.105.101.24/swap/"
+            ],
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "sourceReviews": {
+              "https://github.com/Luci666-Onyx/rubic-swap-widget": {
+                "url": "https://github.com/Luci666-Onyx/rubic-swap-widget",
+                "hash": "a5d10511bb5eba4c574853e396aaf5159e504e922f5da9703cc84da4cf46fc41",
+                "revision": "4522c14568134df7c06853c466c1b5236621a613",
+                "attemptedAt": "2026-11-04T10:06:55.460626+00:00",
+                "evidence": "work/daily-2026-11-04/d3d82dc635913997-a5d10511bb5eba4c574853e396aaf5159e504e922f5da9703cc84da4cf46fc41.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:06:55.460626+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:06:55.460626+00:00",
+                "status": "read",
+                "error": null
+              },
+              "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md": {
+                "url": "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md",
+                "hash": "a5d10511bb5eba4c574853e396aaf5159e504e922f5da9703cc84da4cf46fc41",
+                "attemptedAt": "2026-11-03T05:59:07.620270+00:00",
+                "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+                "method": "Rendered public repository and complete README inspected in browser; earlier API evidence retained separately.",
+                "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
+                "lastSuccessfulReadAt": "2026-11-03T05:59:07.620270+00:00",
+                "status": "pending",
+                "supportingEvidence": [
+                  "work/daily-2026-10-31/rubic-swap-widget-readme-nov2.md"
+                ],
+                "hashEvidence": "work/daily-2026-10-31/rubic-swap-widget-readme-nov2.md",
+                "hashAlgorithm": "sha256",
+                "observationEvidenceSha256": "668ba4910008c864aa85bc267a50daa7f8ea2759052618af5fe9a642b43b18b8",
+                "pendingReason": "Source read pending"
+              },
+              "https://github.com/Luci666-Onyx/rubic-swap-widget/releases": {
+                "url": "https://github.com/Luci666-Onyx/rubic-swap-widget/releases",
+                "hash": "b976d73591d9b1c3830cf2b397b99c3f423b5c634999b3312cade5dcb3f2507d",
+                "attemptedAt": "2026-11-03T05:59:07.620270+00:00",
+                "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+                "method": "Rendered public repository and complete README inspected in browser; earlier API evidence retained separately.",
+                "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
+                "lastSuccessfulReadAt": "2026-11-03T05:59:07.620270+00:00",
+                "status": "read",
+                "supportingEvidence": [
+                  "work/daily-2026-10-31/rubic-repository-metadata-nov2.json"
+                ],
+                "hashEvidence": "work/daily-2026-10-31/rubic-repository-metadata-nov2.json",
+                "hashAlgorithm": "sha256",
+                "observationEvidenceSha256": "668ba4910008c864aa85bc267a50daa7f8ea2759052618af5fe9a642b43b18b8"
+              },
+              "https://community.tari.com/t/introducing-caravel/276/20": {
+                "url": "https://community.tari.com/t/introducing-caravel/276/20",
+                "hash": "9acce3c3495f24915cc7fd751ebf43f63315ec167e35bdec3a8576ad4deb9f72",
+                "attemptedAt": "2026-11-04T10:07:04.017715+00:00",
+                "evidence": "work/daily-2026-11-04/d6b1e1da464c2e59-9acce3c3495f24915cc7fd751ebf43f63315ec167e35bdec3a8576ad4deb9f72.txt",
+                "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+                "method": "Current source fetched; semantic review and reconciliation pending",
+                "lastAttemptAt": "2026-11-04T10:07:04.017715+00:00",
+                "lastSuccessfulReadAt": "2026-11-04T10:07:04.017715+00:00",
+                "status": "read",
+                "error": null
+              },
+              "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php": {
+                "url": "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php",
+                "hash": "bab842dd9351ce422e196881f97ccf0aa7882ec5c1da4d206fb2109412d6bab4",
+                "attemptedAt": "2026-11-03T05:57:20.785421+00:00",
+                "evidence": "work/daily-2026-10-31/rubic-swap-plugin-source-nov3.txt",
+                "method": "Public primary source read; curated listing, no integration or execution.",
+                "lastAttemptAt": "2026-11-03T05:57:20.785421+00:00",
+                "lastSuccessfulReadAt": "2026-11-03T05:57:20.785421+00:00",
+                "status": "read",
+                "artifactSavedAt": "2026-11-03T05:57:20.785421+00:00",
+                "timestampBasis": "Saved source receipt timestamp; content reviewed again during current curation."
+              },
+              "http://172.105.101.24/swap/": {
+                "lastAttemptAt": "2026-11-03T05:59:07.620270+00:00",
+                "status": "blocked",
+                "error": "Browser navigation rejected with net::ERR_BLOCKED_BY_CLIENT; HTTP HTML is available separately.",
+                "failureKind": "unavailable-client",
+                "evidence": "work/daily-2026-10-31/rubic-browser-read-nov3.json",
+                "nextAction": "Retry permitted browser access after client access changes; do not bypass protections."
+              }
+            },
+            "observedAvailability": "Public source and docs footage available; creator demo HTML readable but browser navigation blocked.",
+            "outcome": "pending",
+            "pendingReviewSources": [
+              "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/README.md",
+              "https://github.com/Luci666-Onyx/rubic-swap-widget/releases",
+              "https://github.com/Luci666-Onyx/rubic-swap-widget/blob/master/rubic-swap-widget.php",
+              "http://172.105.101.24/swap/"
+            ],
+            "blockedSources": [],
+            "changedSources": [
+              "https://github.com/Luci666-Onyx/rubic-swap-widget",
+              "https://community.tari.com/t/introducing-caravel/276/20"
+            ],
+            "reviewRequired": true,
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "copyUpdated": true,
+            "publicationStatus": "published-and-live-verified",
+            "publicationEvidence": "work/daily-2026-10-31/rubic-release-acceptance-nov3.json",
+            "lastSuccessfulReviewAt": null,
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://github.com/Luci666-Onyx/rubic-swap-widget",
+                "file": "d3d82dc635913997-a5d10511bb5eba4c574853e396aaf5159e504e922f5da9703cc84da4cf46fc41.txt",
+                "hash": "a5d10511bb5eba4c574853e396aaf5159e504e922f5da9703cc84da4cf46fc41",
+                "attemptedAt": "2026-11-04T10:06:55.460626+00:00",
+                "revision": "4522c14568134df7c06853c466c1b5236621a613"
+              },
+              {
+                "url": "https://community.tari.com/t/276.json",
+                "file": "d6b1e1da464c2e59-9acce3c3495f24915cc7fd751ebf43f63315ec167e35bdec3a8576ad4deb9f72.txt",
+                "hash": "9acce3c3495f24915cc7fd751ebf43f63315ec167e35bdec3a8576ad4deb9f72",
+                "attemptedAt": "2026-11-04T10:07:04.017715+00:00"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/rubic-swap-widget-review-outcome.json"
       ]
     },
     "tari-ootle:component:rubic-widget-skill": {
