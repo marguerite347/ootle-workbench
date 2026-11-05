@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T14:15:34.117Z",
+  "updatedAt": "2026-11-05T15:07:18.121752+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -236,9 +236,9 @@
           "visibility": "public"
         }
       ],
-      "captureType": "source-docs-walkthrough",
-      "capturedAt": "2026-10-10T12:50:04.551362+00:00",
-      "observedRevision": "1f1b29765487cdd36aa58b92c0320551f4a0dfd3",
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-05T15:24:02.713Z",
+      "observedRevision": "a1d156b5332f0b11fe87403bedfb6c38c14b22b8",
       "viewport": {
         "width": 1280,
         "height": 800
@@ -250,22 +250,71 @@
         "pix_fmt": "yuv420p"
       },
       "durationSeconds": 12,
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.mp4",
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.jpg",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261105.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261105.jpg",
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:caravel-burn-wallet",
       "workbenchUrl": "https://ootle-workbench.vercel.app/",
-      "caption": "Source/docs walkthrough — application not demonstrated",
-      "sha256": "57c6e1fc1d05c6965628907bb90c1aaa435eec41a9884953facaf7ce40eb7276",
+      "caption": "Docs walkthrough",
+      "sha256": "769cd4267c1da2c7b0593aaf23e55f9c6d41a434d8ed78fe69bddba396c41d7c",
       "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
-      "verification": "published; desktop and mobile playback verified",
-      "liveVerification": {
-        "lobbyDesktop": true,
-        "lobbyMobile": true,
-        "workbenchDesktop": true,
-        "workbenchMobile": true,
-        "mediaHashMatched": true,
-        "checkedAt": "2026-10-10T13:04:24.362462+00:00"
-      }
+      "verification": {
+        "frames": [
+          "opening",
+          "middle",
+          "closing"
+        ],
+        "localPlayback": "work/daily-2026-11-04/caravel-burn-local-playback-nov5.json",
+        "livePlayback": "pending"
+      },
+      "previousCaptures": [
+        {
+          "resourceId": "caravel-burn-wallet",
+          "title": "Caravel Burn Wallet",
+          "targetUrl": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
+          "originalPosts": [
+            {
+              "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
+              "platform": "Reddit · r/tari",
+              "foundOn": "2026-10-10",
+              "context": "Burn wallet builder announcement",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "source-docs-walkthrough",
+          "capturedAt": "2026-10-10T12:50:04.551362+00:00",
+          "observedRevision": "1f1b29765487cdd36aa58b92c0320551f4a0dfd3",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "exportDimensions": {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "pix_fmt": "yuv420p"
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.jpg",
+          "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:caravel-burn-wallet",
+          "workbenchUrl": "https://ootle-workbench.vercel.app/",
+          "caption": "Source/docs walkthrough — application not demonstrated",
+          "sha256": "57c6e1fc1d05c6965628907bb90c1aaa435eec41a9884953facaf7ce40eb7276",
+          "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+          "verification": "published; desktop and mobile playback verified",
+          "liveVerification": {
+            "lobbyDesktop": true,
+            "lobbyMobile": true,
+            "workbenchDesktop": true,
+            "workbenchMobile": true,
+            "mediaHashMatched": true,
+            "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+          }
+        }
+      ],
+      "method": "Genuine README scrolling. Historical documented deployment is unavailable in current indexer; see dated Details. No wallet or deposit. Closing frame chosen as fully loaded real poster.",
+      "posterSha256": "1c8ed335f6b379cc9803f83872ebddbfecd45c8bf9d286b4ae31faa23c8c298a",
+      "status": "publication-pending"
     },
     {
       "resourceId": "community-templates",
@@ -2251,7 +2300,8 @@
           "closing"
         ],
         "localPlayback": "work/daily-2026-11-04/caravel-faucet-local-playback-nov5.json",
-        "livePlayback": "pending"
+        "livePlayback": "desktop and390pxphone bothproducts reached12seconds; served video/poster hashes match",
+        "liveAcceptance": "work/daily-2026-11-04/caravel-faucet-release-acceptance-nov5.json"
       },
       "previousCaptures": [
         {
@@ -2349,7 +2399,7 @@
         }
       ],
       "posterSha256": "a103836aae59061c7a431884f4f0a8acbda7f343010a06b0d965c9cc77c62570",
-      "status": "publication-pending"
+      "status": "published-live-verified"
     },
     {
       "resourceId": "ootle-ts",
@@ -9143,6 +9193,15 @@
       ],
       "evidence": [
         "work/daily-2026-11-04/shadow-release-acceptance-nov5.json"
+      ]
+    },
+    {
+      "recordedAt": "2026-11-05T15:07:18.121752+00:00",
+      "resources": [
+        "caravel-faucet"
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/caravel-faucet-release-acceptance-nov5.json"
       ]
     }
   ],

@@ -10343,115 +10343,176 @@
         "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
         "https://x.com/Caravelxyz/status/2108591594236481966",
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24",
-        "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/"
+        "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/",
+        "https://x.com/Caravelxyz/status/2113545415282855958",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet#readme",
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet/releases",
+        "https://x.com/Caravelxyz/status/2108591597726433743",
+        "https://x.com/Caravelxyz/status/2108591601333502346",
+        "https://explorer.tari.mw/substate/component_2e91fb78b73440dd114bdbb887d256d760fa3be3276d7b833f4ab1b23d796029"
       ],
       "lastSuccessfulReviewAt": "2026-10-31T14:13:04.032Z",
-      "outcome": "pending",
+      "outcome": "blocked",
       "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "lastAttemptAt": "2026-11-05T15:28:49.848Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
       ],
       "sourceReviews": {
         "https://github.com/okansaglam016161-pixel/caravel-burn-wallet": {
           "url": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
-          "hash": "61d573aae5866891ac97964e4257faa534229fa8971fa589dfc521c1d3303fda",
-          "revision": "a1d156b5332f0b11fe87403bedfb6c38c14b22b8",
-          "attemptedAt": "2026-11-04T10:07:10.636524+00:00",
           "evidence": "work/daily-2026-11-04/b8771c4338da15ee-61d573aae5866891ac97964e4257faa534229fa8971fa589dfc521c1d3303fda.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:10.636524+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:10.636524+00:00",
-          "status": "read"
+          "hash": "61d573aae5866891ac97964e4257faa534229fa8971fa589dfc521c1d3303fda",
+          "attemptedAt": "2026-11-04T10:07:10.636Z",
+          "scope": "Full current-run README read; Nov5 HEAD matches; releases empty.",
+          "lastAttemptAt": "2026-11-04T10:07:10.636Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:10.636Z",
+          "status": "read",
+          "error": null
         },
         "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/": {
           "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
-          "hash": "330e557bfd23e844cc20b9ab0d074b607c9b94eb9f42603c9a59b499303caa70",
-          "attemptedAt": "2026-11-04T10:07:35.738891+00:00",
-          "evidence": "work/daily-2026-11-04/01ae9ea1f9f1bb38-330e557bfd23e844cc20b9ab0d074b607c9b94eb9f42603c9a59b499303caa70.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:35.738891+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:35.738891+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-burn-reddit-bounty-nov5.txt",
+          "hash": "a3aacd0a1ebcb3b62e077c16f27b8d8858d197c9fec82d16f2174bc8b853462b",
+          "attemptedAt": "2026-11-05T15:17:57.040Z",
+          "scope": "Complete original body; zero comments. Historical10,000XTM bounty, testnet only.",
+          "lastAttemptAt": "2026-11-05T15:17:57.040Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:17:57.040Z",
+          "status": "read",
+          "error": null
         },
         "https://x.com/Caravelxyz/status/2108591594236481966": {
           "url": "https://x.com/Caravelxyz/status/2108591594236481966",
-          "hash": "93bd318c01e93f86b6bfe5074d7e0a7dd161cc9ec3141abc4ebf24297ea02466",
-          "attemptedAt": "2026-11-04T10:07:40.567050+00:00",
-          "evidence": "work/daily-2026-11-04/60b556ed963d3710-93bd318c01e93f86b6bfe5074d7e0a7dd161cc9ec3141abc4ebf24297ea02466.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:40.567050+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:40.567050+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-burn-original-start-nov5.txt",
+          "hash": "37ea454873961d10a54d9995fb1b745ba8c8d04157e3bc031234f0571008200c",
+          "attemptedAt": "2026-11-05T15:18:40.338Z",
+          "scope": "Original and three direct reply branches read, including expanded nested replies saved separately.",
+          "lastAttemptAt": "2026-11-05T15:18:40.338Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:18:40.338Z",
+          "status": "read",
+          "error": null
         },
         "https://caravellabs.net": {
           "url": "https://caravellabs.net",
-          "hash": "765c98c28b0e43bcc2de8fb3c557969954add187e54ad356f7cc7fd676a99d3a",
-          "attemptedAt": "2026-11-04T10:07:26.961368+00:00",
-          "evidence": "work/daily-2026-11-04/f5c10d89cb03ec53-765c98c28b0e43bcc2de8fb3c557969954add187e54ad356f7cc7fd676a99d3a.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.961368+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.961368+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-entry-boundary-nov5.txt",
+          "hash": "f904f4452596dc103712a8477a42deab5d80e858cd417564ab868c77f63ffa3c",
+          "attemptedAt": "2026-11-05T14:13:29.942Z",
+          "scope": "Current-run public entry reaches Create wallet/recovery; no wallet operation.",
+          "lastAttemptAt": "2026-11-05T14:13:29.942Z",
+          "lastSuccessfulReadAt": "2026-11-05T14:13:29.942Z",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:06:46.678Z",
+          "scope": "Original entry including edits read; complete topic stream contains zero direct replies to this entry.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678Z",
+          "status": "read",
+          "error": null
         },
         "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/": {
           "url": "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/",
-          "hash": "067fcd745b37594098dc0c79181719384ff086eda1416373ea535173d41f5b58",
-          "attemptedAt": "2026-11-04T10:07:36.145783+00:00",
-          "evidence": "work/daily-2026-11-04/a88ee802a68a5729-067fcd745b37594098dc0c79181719384ff086eda1416373ea535173d41f5b58.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:36.145783+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:36.145783+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-burn-reddit-entry-nov5.txt",
+          "hash": "95961a3018e63eb7d8375aff990deb6df8f77ce86aef48ccb6f9f33327dc463c",
+          "attemptedAt": "2026-11-05T15:17:42.094Z",
+          "scope": "Complete creator contest entry; zero comments. Historical25,000XTM bounty and13,128.73total.",
+          "lastAttemptAt": "2026-11-05T15:17:42.094Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:17:42.094Z",
+          "status": "read",
+          "error": null
         },
         "https://x.com/Caravelxyz/status/2113545415282855958": {
           "url": "https://x.com/Caravelxyz/status/2113545415282855958",
-          "hash": "536763afad13378aa9c5ff0011727c96103aa8de66ceb9462423261ae1974df8",
-          "attemptedAt": "2026-11-04T10:07:41.023354+00:00",
-          "evidence": "work/daily-2026-11-04/383c813c1306ee56-536763afad13378aa9c5ff0011727c96103aa8de66ceb9462423261ae1974df8.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:41.023354+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:41.023354+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-contest-x-nov5.txt",
+          "hash": "535cecbceb9440065654cc9011c2522cebd66b36d8249f19c79e45321414d9a0",
+          "attemptedAt": "2026-11-05T15:20:24.183Z",
+          "scope": "October23 announcement links both original Reddit entries; zero replies.",
+          "lastAttemptAt": "2026-11-05T15:20:24.183Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:20:24.183Z",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:06:46.678Z",
+          "scope": "Complete current-run forum stream; November2 reset notice read.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet#readme": {
+          "url": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet#readme",
+          "evidence": "work/daily-2026-11-04/b8771c4338da15ee-61d573aae5866891ac97964e4257faa534229fa8971fa589dfc521c1d3303fda.txt",
+          "hash": "61d573aae5866891ac97964e4257faa534229fa8971fa589dfc521c1d3303fda",
+          "attemptedAt": "2026-11-04T10:07:10.636Z",
+          "scope": "Same canonical README representation.",
+          "lastAttemptAt": "2026-11-04T10:07:10.636Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:10.636Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet/releases": {
+          "url": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet/releases",
+          "evidence": "work/daily-2026-11-04/caravel-burn-trade-heads-nov5.json",
+          "hash": "9023b9be6a192192be59cf43e85090827e68369f37934ee00411991cbccb0849",
+          "attemptedAt": "2026-11-05T15:18:16.582Z",
+          "scope": "Empty GitHub release list exhausted.",
+          "lastAttemptAt": "2026-11-05T15:18:16.582Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:18:16.582Z",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/Caravelxyz/status/2108591597726433743": {
+          "url": "https://x.com/Caravelxyz/status/2108591597726433743",
+          "evidence": "work/daily-2026-11-04/caravel-burn-original-replies-nov5.txt",
+          "hash": "2e12f90a41e7f148f00345d90aa67c8f4bd7084cd15607bf4fae9e82e71a0ae7",
+          "attemptedAt": "2026-11-05T15:19:56.254Z",
+          "scope": "Creator rules post and nested replies read; no report or bounty action taken.",
+          "lastAttemptAt": "2026-11-05T15:19:56.254Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:19:56.254Z",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/Caravelxyz/status/2108591601333502346": {
+          "url": "https://x.com/Caravelxyz/status/2108591601333502346",
+          "evidence": "work/daily-2026-11-04/caravel-burn-original-replies-nov5.txt",
+          "hash": "2e12f90a41e7f148f00345d90aa67c8f4bd7084cd15607bf4fae9e82e71a0ae7",
+          "attemptedAt": "2026-11-05T15:19:56.254Z",
+          "scope": "Creator repository post read.",
+          "lastAttemptAt": "2026-11-05T15:19:56.254Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:19:56.254Z",
+          "status": "read",
+          "error": null
+        },
+        "https://explorer.tari.mw/substate/component_2e91fb78b73440dd114bdbb887d256d760fa3be3276d7b833f4ab1b23d796029": {
+          "lastAttemptAt": "2026-11-05T15:20:44.001Z",
+          "status": "blocked",
+          "error": "Veil returned: Substate component_2e91fb78b73440dd114bdbb887d256d760fa3be3276d7b833f4ab1b23d796029 not found",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/caravel-burn-explorer-nov5.txt",
+          "nextAction": "Check creator repository and original discussions for a republished component after the reset; inspect a documented replacement before changing destination."
         }
       },
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
       "changedSources": [
-        "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
-        "https://x.com/Caravelxyz/status/2108591594236481966",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24",
-        "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/",
+        "https://caravellabs.net",
         "https://x.com/Caravelxyz/status/2113545415282855958",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet#readme",
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet/releases",
+        "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
+        "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/",
+        "https://x.com/Caravelxyz/status/2108591594236481966",
+        "https://x.com/Caravelxyz/status/2108591597726433743",
+        "https://x.com/Caravelxyz/status/2108591601333502346"
       ],
       "reviewQueue": [
         "copy",
@@ -10470,12 +10531,13 @@
       ],
       "sourceObservation": "October 29 original posts and accessible replies, source repository and linked public destinations reviewed. Listing describes observed public availability; no wallet, financial or runtime certification implied.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
-      "copyUpdated": false,
+      "copyUpdated": true,
       "reviewedSourceCount": 6,
       "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://explorer.tari.mw/substate/component_2e91fb78b73440dd114bdbb887d256d760fa3be3276d7b833f4ab1b23d796029"
+      ],
       "attemptReceipts": [
         {
           "url": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
@@ -10531,6 +10593,10 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "latestAttemptObservation": "Deposit-only Ootle template with no owner or withdrawal method; deposits cannot be recovered. November 5 source review: README revision a1d156b documents SDK 0.11 and WASM 0.47 integration examples. Its published October component returned “not found” in Veil at epoch 12,882, following the November 2 testnet reset notice. The public Caravel entry reaches wallet creation or recovery before Burn. The new recording is a walkthrough of the current README, including its historical deployment claims; it does not demonstrate a deposit or establish a replacement deployment. October bounty amounts and burned totals remain dated creator statements in the original discussions.",
+      "evidence": [
+        "work/daily-2026-11-04/caravel-reset-source-review-nov5.json"
       ]
     },
     "tari-ootle:integration:community-templates": {
@@ -14338,116 +14404,145 @@
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25",
         "https://github.com/okansaglam016161-pixel/caravel-trade",
-        "https://caravellabs.net"
-      ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "sourceReviews": {
-        "https://github.com/okansaglam016161-pixel/caravel-trade#readme": {
-          "url": "https://github.com/okansaglam016161-pixel/caravel-trade#readme",
-          "hash": "7c9a6e2281462940b4781067acda8c8d595cd48af9b871208b39521fe6c2c5db",
-          "revision": "4f755d3366a32cede06e11fc32f56a325ba38eb2",
-          "evidence": "daily-2026-10-29/5c21d4a2b142efe8.txt",
-          "lastAttemptAt": "2026-10-29T11:13:49.185Z",
-          "lastSuccessfulReadAt": "2026-10-29T11:13:49.185Z"
-        },
-        "https://github.com/okansaglam016161-pixel/caravel-trade": {
-          "url": "https://github.com/okansaglam016161-pixel/caravel-trade",
-          "hash": "7c9a6e2281462940b4781067acda8c8d595cd48af9b871208b39521fe6c2c5db",
-          "revision": "4f755d3366a32cede06e11fc32f56a325ba38eb2",
-          "attemptedAt": "2026-11-04T10:07:12.456870+00:00",
-          "evidence": "work/daily-2026-11-04/5c21d4a2b142efe8-7c9a6e2281462940b4781067acda8c8d595cd48af9b871208b39521fe6c2c5db.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:12.456870+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:12.456870+00:00",
-          "status": "read"
-        },
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25": {
-          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
-        },
-        "https://caravellabs.net": {
-          "url": "https://caravellabs.net",
-          "hash": "765c98c28b0e43bcc2de8fb3c557969954add187e54ad356f7cc7fd676a99d3a",
-          "attemptedAt": "2026-11-04T10:07:26.961368+00:00",
-          "evidence": "work/daily-2026-11-04/f5c10d89cb03ec53-765c98c28b0e43bcc2de8fb3c557969954add187e54ad356f7cc7fd676a99d3a.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.961368+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.961368+00:00",
-          "status": "read"
-        },
-        "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/": {
-          "url": "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/",
-          "hash": "398cb36a5934b02da65490fbaefa05b4f48e5e6ba88ea214d0b30a15457d8a8c",
-          "attemptedAt": "2026-11-04T10:07:36.194669+00:00",
-          "evidence": "work/daily-2026-11-04/9107bd4da6c3d537-398cb36a5934b02da65490fbaefa05b4f48e5e6ba88ea214d0b30a15457d8a8c.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:36.194669+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:36.194669+00:00",
-          "status": "read"
-        },
-        "https://x.com/Caravelxyz/status/2113244021204131930": {
-          "url": "https://x.com/Caravelxyz/status/2113244021204131930",
-          "hash": "cca66e95a562982888dbbf52e7967b475c585b0029b5a10c72df4a3ad51066ec",
-          "attemptedAt": "2026-11-04T10:07:40.838231+00:00",
-          "evidence": "work/daily-2026-11-04/d746a8fe2d3fdc92-cca66e95a562982888dbbf52e7967b475c585b0029b5a10c72df4a3ad51066ec.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:40.838231+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:40.838231+00:00",
-          "status": "read"
-        },
-        "https://www.youtube.com/watch?v=1PeZwRiqKa0": {
-          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-          "hash": "f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72",
-          "attemptedAt": "2026-11-04T10:07:37.410935+00:00",
-          "evidence": "work/daily-2026-11-04/14f7e70260180f4f-f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:37.410935+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:37.410935+00:00",
-          "status": "read"
-        },
-        "https://x.com/Caravelxyz/status/2113545415282855958": {
-          "url": "https://x.com/Caravelxyz/status/2113545415282855958",
-          "hash": "536763afad13378aa9c5ff0011727c96103aa8de66ceb9462423261ae1974df8",
-          "attemptedAt": "2026-11-04T10:07:41.023354+00:00",
-          "evidence": "work/daily-2026-11-04/383c813c1306ee56-536763afad13378aa9c5ff0011727c96103aa8de66ceb9462423261ae1974df8.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:41.023354+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:41.023354+00:00",
-          "status": "read"
-        },
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
-          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
-        }
-      },
-      "outcome": "pending",
-      "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25",
+        "https://caravellabs.net",
+        "https://github.com/okansaglam016161-pixel/caravel-trade#readme",
         "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/",
         "https://x.com/Caravelxyz/status/2113244021204131930",
         "https://www.youtube.com/watch?v=1PeZwRiqKa0",
         "https://x.com/Caravelxyz/status/2113545415282855958",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/okansaglam016161-pixel/caravel-trade/releases",
+        "https://explorer.tari.mw/substate/component_278c4da6fd49c03d2735355241bbb29e01748712e2377657769bfbcc365c3bdc"
+      ],
+      "lastAttemptAt": "2026-11-05T15:28:49.848Z",
+      "sourceReviews": {
+        "https://github.com/okansaglam016161-pixel/caravel-trade#readme": {
+          "url": "https://github.com/okansaglam016161-pixel/caravel-trade#readme",
+          "evidence": "work/daily-2026-11-04/5c21d4a2b142efe8-7c9a6e2281462940b4781067acda8c8d595cd48af9b871208b39521fe6c2c5db.txt",
+          "hash": "7c9a6e2281462940b4781067acda8c8d595cd48af9b871208b39521fe6c2c5db",
+          "attemptedAt": "2026-11-04T10:07:12.457Z",
+          "scope": "Same canonical README representation.",
+          "lastAttemptAt": "2026-11-04T10:07:12.457Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:12.457Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/okansaglam016161-pixel/caravel-trade": {
+          "url": "https://github.com/okansaglam016161-pixel/caravel-trade",
+          "evidence": "work/daily-2026-11-04/5c21d4a2b142efe8-7c9a6e2281462940b4781067acda8c8d595cd48af9b871208b39521fe6c2c5db.txt",
+          "hash": "7c9a6e2281462940b4781067acda8c8d595cd48af9b871208b39521fe6c2c5db",
+          "attemptedAt": "2026-11-04T10:07:12.457Z",
+          "scope": "Full current-run README read; Nov5 HEAD matches; releases empty.",
+          "lastAttemptAt": "2026-11-04T10:07:12.457Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:12.457Z",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25": {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:06:46.678Z",
+          "scope": "Original entry including edits read; complete topic stream contains zero direct replies to this entry.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678Z",
+          "status": "read",
+          "error": null
+        },
+        "https://caravellabs.net": {
+          "url": "https://caravellabs.net",
+          "evidence": "work/daily-2026-11-04/caravel-entry-boundary-nov5.txt",
+          "hash": "f904f4452596dc103712a8477a42deab5d80e858cd417564ab868c77f63ffa3c",
+          "attemptedAt": "2026-11-05T14:13:29.942Z",
+          "scope": "Current-run public entry reaches Create wallet/recovery; no wallet operation.",
+          "lastAttemptAt": "2026-11-05T14:13:29.942Z",
+          "lastSuccessfulReadAt": "2026-11-05T14:13:29.942Z",
+          "status": "read",
+          "error": null
+        },
+        "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/": {
+          "url": "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/",
+          "evidence": "work/daily-2026-11-04/caravel-trade-reddit-nov5.txt",
+          "hash": "147ecf4fb1f658b8e56eeb501f0d5ddc01917324943593f4f32eb43be4a33f71",
+          "attemptedAt": "2026-11-05T15:21:31.797Z",
+          "scope": "Complete creator entry and zero-comment section read.",
+          "lastAttemptAt": "2026-11-05T15:21:31.797Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:21:31.797Z",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/Caravelxyz/status/2113244021204131930": {
+          "url": "https://x.com/Caravelxyz/status/2113244021204131930",
+          "evidence": "work/daily-2026-11-04/caravel-trade-x-thread-nov5.txt",
+          "hash": "3d38ce3e659f19dcea9ff43d735c376dfd51b3b865969e74743ae48ed9d1153f",
+          "attemptedAt": "2026-11-05T15:22:35.603Z",
+          "scope": "Original plus both replies, including expanded probable-spam branch. Privacy visibility question remains unanswered.",
+          "lastAttemptAt": "2026-11-05T15:22:35.603Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:22:35.603Z",
+          "status": "read",
+          "error": null
+        },
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0": {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "evidence": "work/daily-2026-11-04/tari-show-oct27-source-context-nov5.json",
+          "hash": "ef40362799012f2c43a5589cbca8d0e79ea6ef12c72a10ba592e70fce18ca99c",
+          "attemptedAt": "2026-11-05T10:41:40.415Z",
+          "scope": "Reused completed current-run full transcript, description, zero-comment/exhausted replay review and representative visual review. No new acquisition.",
+          "lastAttemptAt": "2026-11-05T10:41:40.415Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:41:40.415Z",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/Caravelxyz/status/2113545415282855958": {
+          "url": "https://x.com/Caravelxyz/status/2113545415282855958",
+          "evidence": "work/daily-2026-11-04/caravel-contest-x-nov5.txt",
+          "hash": "535cecbceb9440065654cc9011c2522cebd66b36d8249f19c79e45321414d9a0",
+          "attemptedAt": "2026-11-05T15:20:24.183Z",
+          "scope": "October23 announcement links both original Reddit entries; zero replies.",
+          "lastAttemptAt": "2026-11-05T15:20:24.183Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:20:24.183Z",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:06:46.678Z",
+          "scope": "Complete current-run forum stream; November2 reset notice read.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/okansaglam016161-pixel/caravel-trade/releases": {
+          "url": "https://github.com/okansaglam016161-pixel/caravel-trade/releases",
+          "evidence": "work/daily-2026-11-04/caravel-burn-trade-heads-nov5.json",
+          "hash": "9023b9be6a192192be59cf43e85090827e68369f37934ee00411991cbccb0849",
+          "attemptedAt": "2026-11-05T15:18:16.582Z",
+          "scope": "Empty GitHub release list exhausted.",
+          "lastAttemptAt": "2026-11-05T15:18:16.582Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:18:16.582Z",
+          "status": "read",
+          "error": null
+        },
+        "https://explorer.tari.mw/substate/component_278c4da6fd49c03d2735355241bbb29e01748712e2377657769bfbcc365c3bdc": {
+          "lastAttemptAt": "2026-11-05T15:23:45.567Z",
+          "status": "blocked",
+          "error": "Veil returned: Substate component_278c4da6fd49c03d2735355241bbb29e01748712e2377657769bfbcc365c3bdc not found",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/caravel-trade-board-explorer-nov5.txt",
+          "nextAction": "Check creator repository and original discussions for a republished component after the reset; inspect a documented replacement before changing destination."
+        }
+      },
+      "outcome": "blocked",
+      "changedSources": [
+        "https://caravellabs.net",
+        "https://x.com/Caravelxyz/status/2113545415282855958",
+        "https://github.com/okansaglam016161-pixel/caravel-trade/releases",
+        "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/",
+        "https://x.com/Caravelxyz/status/2113244021204131930",
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -14460,7 +14555,7 @@
         "recording",
         "provenance"
       ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "checkedScope": [
         "https://github.com/okansaglam016161-pixel/caravel-trade#readme",
         "https://github.com/okansaglam016161-pixel/caravel-trade",
@@ -14469,12 +14564,13 @@
       ],
       "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
-      "copyUpdated": false,
+      "copyUpdated": true,
       "reviewedSourceCount": 4,
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://explorer.tari.mw/substate/component_278c4da6fd49c03d2735355241bbb29e01748712e2377657769bfbcc365c3bdc"
+      ],
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -14530,6 +14626,10 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "latestAttemptObservation": "Private peer-to-peer order-book templates exchanging testnet TARI and cUSD, a placeholder token with no value. Source describes whole-order fills, owner cancellation and a 1% TARI fee split: 0.7% Caravel and 0.3% burned. November 5 review: README revision 4f755d3 remains unchanged, documenting source tooling 0.47 and historical deployed 0.46.1 binaries. Its published order-board component returned “not found” in Veil at epoch 12,882 after the November 2 reset notice. The public Caravel entry reaches wallet creation or recovery before Trade. The October 23 README recording remains an accurate source walkthrough; its deployment claims are historical. No wallet, order or trade was created. The linked October 27 Tari Show discusses projects; it is not a Trade application demo.",
+      "evidence": [
+        "work/daily-2026-11-04/caravel-reset-source-review-nov5.json"
       ]
     },
     "tari-ootle:integration:taritracker-faucet": {
@@ -17956,110 +18056,174 @@
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24",
         "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
-        "https://caravellabs.net"
-      ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "sourceReviews": {
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24": {
-          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
-        },
-        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet": {
-          "url": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
-          "hash": "61d573aae5866891ac97964e4257faa534229fa8971fa589dfc521c1d3303fda",
-          "revision": "a1d156b5332f0b11fe87403bedfb6c38c14b22b8",
-          "attemptedAt": "2026-11-04T10:07:10.636524+00:00",
-          "evidence": "work/daily-2026-11-04/b8771c4338da15ee-61d573aae5866891ac97964e4257faa534229fa8971fa589dfc521c1d3303fda.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:10.636524+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:10.636524+00:00",
-          "status": "read"
-        },
-        "https://caravellabs.net": {
-          "url": "https://caravellabs.net",
-          "hash": "765c98c28b0e43bcc2de8fb3c557969954add187e54ad356f7cc7fd676a99d3a",
-          "attemptedAt": "2026-11-04T10:07:26.961368+00:00",
-          "evidence": "work/daily-2026-11-04/f5c10d89cb03ec53-765c98c28b0e43bcc2de8fb3c557969954add187e54ad356f7cc7fd676a99d3a.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.961368+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.961368+00:00",
-          "status": "read"
-        },
-        "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/": {
-          "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
-          "hash": "330e557bfd23e844cc20b9ab0d074b607c9b94eb9f42603c9a59b499303caa70",
-          "attemptedAt": "2026-11-04T10:07:35.738891+00:00",
-          "evidence": "work/daily-2026-11-04/01ae9ea1f9f1bb38-330e557bfd23e844cc20b9ab0d074b607c9b94eb9f42603c9a59b499303caa70.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:35.738891+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:35.738891+00:00",
-          "status": "read"
-        },
-        "https://x.com/Caravelxyz/status/2108591594236481966": {
-          "url": "https://x.com/Caravelxyz/status/2108591594236481966",
-          "hash": "93bd318c01e93f86b6bfe5074d7e0a7dd161cc9ec3141abc4ebf24297ea02466",
-          "attemptedAt": "2026-11-04T10:07:40.567050+00:00",
-          "evidence": "work/daily-2026-11-04/60b556ed963d3710-93bd318c01e93f86b6bfe5074d7e0a7dd161cc9ec3141abc4ebf24297ea02466.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:40.567050+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:40.567050+00:00",
-          "status": "read"
-        },
-        "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/": {
-          "url": "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/",
-          "hash": "067fcd745b37594098dc0c79181719384ff086eda1416373ea535173d41f5b58",
-          "attemptedAt": "2026-11-04T10:07:36.145783+00:00",
-          "evidence": "work/daily-2026-11-04/a88ee802a68a5729-067fcd745b37594098dc0c79181719384ff086eda1416373ea535173d41f5b58.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:36.145783+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:36.145783+00:00",
-          "status": "read"
-        },
-        "https://x.com/Caravelxyz/status/2113545415282855958": {
-          "url": "https://x.com/Caravelxyz/status/2113545415282855958",
-          "hash": "536763afad13378aa9c5ff0011727c96103aa8de66ceb9462423261ae1974df8",
-          "attemptedAt": "2026-11-04T10:07:41.023354+00:00",
-          "evidence": "work/daily-2026-11-04/383c813c1306ee56-536763afad13378aa9c5ff0011727c96103aa8de66ceb9462423261ae1974df8.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:41.023354+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:41.023354+00:00",
-          "status": "read"
-        },
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
-          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
-        }
-      },
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
-      "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24",
+        "https://caravellabs.net",
         "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
         "https://x.com/Caravelxyz/status/2108591594236481966",
         "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/",
         "https://x.com/Caravelxyz/status/2113545415282855958",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet#readme",
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet/releases",
+        "https://x.com/Caravelxyz/status/2108591597726433743",
+        "https://x.com/Caravelxyz/status/2108591601333502346",
+        "https://explorer.tari.mw/substate/component_2e91fb78b73440dd114bdbb887d256d760fa3be3276d7b833f4ab1b23d796029"
+      ],
+      "lastAttemptAt": "2026-11-05T15:28:49.848Z",
+      "sourceReviews": {
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24": {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:06:46.678Z",
+          "scope": "Original entry including edits read; complete topic stream contains zero direct replies to this entry.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet": {
+          "url": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
+          "evidence": "work/daily-2026-11-04/b8771c4338da15ee-61d573aae5866891ac97964e4257faa534229fa8971fa589dfc521c1d3303fda.txt",
+          "hash": "61d573aae5866891ac97964e4257faa534229fa8971fa589dfc521c1d3303fda",
+          "attemptedAt": "2026-11-04T10:07:10.636Z",
+          "scope": "Full current-run README read; Nov5 HEAD matches; releases empty.",
+          "lastAttemptAt": "2026-11-04T10:07:10.636Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:10.636Z",
+          "status": "read",
+          "error": null
+        },
+        "https://caravellabs.net": {
+          "url": "https://caravellabs.net",
+          "evidence": "work/daily-2026-11-04/caravel-entry-boundary-nov5.txt",
+          "hash": "f904f4452596dc103712a8477a42deab5d80e858cd417564ab868c77f63ffa3c",
+          "attemptedAt": "2026-11-05T14:13:29.942Z",
+          "scope": "Current-run public entry reaches Create wallet/recovery; no wallet operation.",
+          "lastAttemptAt": "2026-11-05T14:13:29.942Z",
+          "lastSuccessfulReadAt": "2026-11-05T14:13:29.942Z",
+          "status": "read",
+          "error": null
+        },
+        "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/": {
+          "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
+          "evidence": "work/daily-2026-11-04/caravel-burn-reddit-bounty-nov5.txt",
+          "hash": "a3aacd0a1ebcb3b62e077c16f27b8d8858d197c9fec82d16f2174bc8b853462b",
+          "attemptedAt": "2026-11-05T15:17:57.040Z",
+          "scope": "Complete original body; zero comments. Historical10,000XTM bounty, testnet only.",
+          "lastAttemptAt": "2026-11-05T15:17:57.040Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:17:57.040Z",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/Caravelxyz/status/2108591594236481966": {
+          "url": "https://x.com/Caravelxyz/status/2108591594236481966",
+          "evidence": "work/daily-2026-11-04/caravel-burn-original-start-nov5.txt",
+          "hash": "37ea454873961d10a54d9995fb1b745ba8c8d04157e3bc031234f0571008200c",
+          "attemptedAt": "2026-11-05T15:18:40.338Z",
+          "scope": "Original and three direct reply branches read, including expanded nested replies saved separately.",
+          "lastAttemptAt": "2026-11-05T15:18:40.338Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:18:40.338Z",
+          "status": "read",
+          "error": null
+        },
+        "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/": {
+          "url": "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/",
+          "evidence": "work/daily-2026-11-04/caravel-burn-reddit-entry-nov5.txt",
+          "hash": "95961a3018e63eb7d8375aff990deb6df8f77ce86aef48ccb6f9f33327dc463c",
+          "attemptedAt": "2026-11-05T15:17:42.094Z",
+          "scope": "Complete creator contest entry; zero comments. Historical25,000XTM bounty and13,128.73total.",
+          "lastAttemptAt": "2026-11-05T15:17:42.094Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:17:42.094Z",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/Caravelxyz/status/2113545415282855958": {
+          "url": "https://x.com/Caravelxyz/status/2113545415282855958",
+          "evidence": "work/daily-2026-11-04/caravel-contest-x-nov5.txt",
+          "hash": "535cecbceb9440065654cc9011c2522cebd66b36d8249f19c79e45321414d9a0",
+          "attemptedAt": "2026-11-05T15:20:24.183Z",
+          "scope": "October23 announcement links both original Reddit entries; zero replies.",
+          "lastAttemptAt": "2026-11-05T15:20:24.183Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:20:24.183Z",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:06:46.678Z",
+          "scope": "Complete current-run forum stream; November2 reset notice read.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet#readme": {
+          "url": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet#readme",
+          "evidence": "work/daily-2026-11-04/b8771c4338da15ee-61d573aae5866891ac97964e4257faa534229fa8971fa589dfc521c1d3303fda.txt",
+          "hash": "61d573aae5866891ac97964e4257faa534229fa8971fa589dfc521c1d3303fda",
+          "attemptedAt": "2026-11-04T10:07:10.636Z",
+          "scope": "Same canonical README representation.",
+          "lastAttemptAt": "2026-11-04T10:07:10.636Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:10.636Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet/releases": {
+          "url": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet/releases",
+          "evidence": "work/daily-2026-11-04/caravel-burn-trade-heads-nov5.json",
+          "hash": "9023b9be6a192192be59cf43e85090827e68369f37934ee00411991cbccb0849",
+          "attemptedAt": "2026-11-05T15:18:16.582Z",
+          "scope": "Empty GitHub release list exhausted.",
+          "lastAttemptAt": "2026-11-05T15:18:16.582Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:18:16.582Z",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/Caravelxyz/status/2108591597726433743": {
+          "url": "https://x.com/Caravelxyz/status/2108591597726433743",
+          "evidence": "work/daily-2026-11-04/caravel-burn-original-replies-nov5.txt",
+          "hash": "2e12f90a41e7f148f00345d90aa67c8f4bd7084cd15607bf4fae9e82e71a0ae7",
+          "attemptedAt": "2026-11-05T15:19:56.254Z",
+          "scope": "Creator rules post and nested replies read; no report or bounty action taken.",
+          "lastAttemptAt": "2026-11-05T15:19:56.254Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:19:56.254Z",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/Caravelxyz/status/2108591601333502346": {
+          "url": "https://x.com/Caravelxyz/status/2108591601333502346",
+          "evidence": "work/daily-2026-11-04/caravel-burn-original-replies-nov5.txt",
+          "hash": "2e12f90a41e7f148f00345d90aa67c8f4bd7084cd15607bf4fae9e82e71a0ae7",
+          "attemptedAt": "2026-11-05T15:19:56.254Z",
+          "scope": "Creator repository post read.",
+          "lastAttemptAt": "2026-11-05T15:19:56.254Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:19:56.254Z",
+          "status": "read",
+          "error": null
+        },
+        "https://explorer.tari.mw/substate/component_2e91fb78b73440dd114bdbb887d256d760fa3be3276d7b833f4ab1b23d796029": {
+          "lastAttemptAt": "2026-11-05T15:20:44.001Z",
+          "status": "blocked",
+          "error": "Veil returned: Substate component_2e91fb78b73440dd114bdbb887d256d760fa3be3276d7b833f4ab1b23d796029 not found",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/caravel-burn-explorer-nov5.txt",
+          "nextAction": "Check creator repository and original discussions for a republished component after the reset; inspect a documented replacement before changing destination."
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+      "outcome": "blocked",
+      "changedSources": [
+        "https://caravellabs.net",
+        "https://x.com/Caravelxyz/status/2113545415282855958",
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet#readme",
+        "https://github.com/okansaglam016161-pixel/caravel-burn-wallet/releases",
+        "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
+        "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/",
+        "https://x.com/Caravelxyz/status/2108591594236481966",
+        "https://x.com/Caravelxyz/status/2108591597726433743",
+        "https://x.com/Caravelxyz/status/2108591601333502346"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -18072,7 +18236,7 @@
         "recording",
         "provenance"
       ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "checkedScope": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24",
         "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
@@ -18080,12 +18244,13 @@
       ],
       "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
-      "copyUpdated": false,
+      "copyUpdated": true,
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://explorer.tari.mw/substate/component_2e91fb78b73440dd114bdbb887d256d760fa3be3276d7b833f4ab1b23d796029"
+      ],
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -18141,6 +18306,10 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "latestAttemptObservation": "Deposit-only Ootle template with no owner or withdrawal method; deposits cannot be recovered. November 5 source review: README revision a1d156b documents SDK 0.11 and WASM 0.47 integration examples. Its published October component returned “not found” in Veil at epoch 12,882, following the November 2 testnet reset notice. The public Caravel entry reaches wallet creation or recovery before Burn. The new recording is a walkthrough of the current README, including its historical deployment claims; it does not demonstrate a deposit or establish a replacement deployment. October bounty amounts and burned totals remain dated creator statements in the original discussions.",
+      "evidence": [
+        "work/daily-2026-11-04/caravel-reset-source-review-nov5.json"
       ]
     },
     "project:familiar": {
@@ -19508,122 +19677,144 @@
         "https://github.com/okansaglam016161-pixel/caravel-trade#readme",
         "https://caravellabs.net",
         "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/",
-        "https://x.com/Caravelxyz/status/2113244021204131930"
+        "https://x.com/Caravelxyz/status/2113244021204131930",
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+        "https://x.com/Caravelxyz/status/2113545415282855958",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/okansaglam016161-pixel/caravel-trade/releases",
+        "https://explorer.tari.mw/substate/component_278c4da6fd49c03d2735355241bbb29e01748712e2377657769bfbcc365c3bdc"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T15:28:49.848Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:06:46.678Z",
+          "scope": "Original entry including edits read; complete topic stream contains zero direct replies to this entry.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/okansaglam016161-pixel/caravel-trade": {
           "url": "https://github.com/okansaglam016161-pixel/caravel-trade",
-          "hash": "7c9a6e2281462940b4781067acda8c8d595cd48af9b871208b39521fe6c2c5db",
-          "revision": "4f755d3366a32cede06e11fc32f56a325ba38eb2",
-          "attemptedAt": "2026-11-04T10:07:12.456870+00:00",
           "evidence": "work/daily-2026-11-04/5c21d4a2b142efe8-7c9a6e2281462940b4781067acda8c8d595cd48af9b871208b39521fe6c2c5db.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:12.456870+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:12.456870+00:00",
-          "status": "read"
+          "hash": "7c9a6e2281462940b4781067acda8c8d595cd48af9b871208b39521fe6c2c5db",
+          "attemptedAt": "2026-11-04T10:07:12.457Z",
+          "scope": "Full current-run README read; Nov5 HEAD matches; releases empty.",
+          "lastAttemptAt": "2026-11-04T10:07:12.457Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:12.457Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/okansaglam016161-pixel/caravel-trade#readme": {
           "url": "https://github.com/okansaglam016161-pixel/caravel-trade#readme",
+          "evidence": "work/daily-2026-11-04/5c21d4a2b142efe8-7c9a6e2281462940b4781067acda8c8d595cd48af9b871208b39521fe6c2c5db.txt",
           "hash": "7c9a6e2281462940b4781067acda8c8d595cd48af9b871208b39521fe6c2c5db",
-          "revision": "4f755d3366a32cede06e11fc32f56a325ba38eb2",
-          "attemptedAt": "2026-10-31T09:03:11.545825+00:00",
-          "evidence": "work/daily-2026-10-31/5c21d4a2b142efe8.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:11.545825+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:11.545825+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:07:12.457Z",
+          "scope": "Same canonical README representation.",
+          "lastAttemptAt": "2026-11-04T10:07:12.457Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:12.457Z",
+          "status": "read",
+          "error": null
         },
         "https://caravellabs.net": {
           "url": "https://caravellabs.net",
-          "hash": "765c98c28b0e43bcc2de8fb3c557969954add187e54ad356f7cc7fd676a99d3a",
-          "attemptedAt": "2026-11-04T10:07:26.961368+00:00",
-          "evidence": "work/daily-2026-11-04/f5c10d89cb03ec53-765c98c28b0e43bcc2de8fb3c557969954add187e54ad356f7cc7fd676a99d3a.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.961368+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.961368+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-entry-boundary-nov5.txt",
+          "hash": "f904f4452596dc103712a8477a42deab5d80e858cd417564ab868c77f63ffa3c",
+          "attemptedAt": "2026-11-05T14:13:29.942Z",
+          "scope": "Current-run public entry reaches Create wallet/recovery; no wallet operation.",
+          "lastAttemptAt": "2026-11-05T14:13:29.942Z",
+          "lastSuccessfulReadAt": "2026-11-05T14:13:29.942Z",
+          "status": "read",
+          "error": null
         },
         "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/": {
           "url": "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/",
-          "hash": "398cb36a5934b02da65490fbaefa05b4f48e5e6ba88ea214d0b30a15457d8a8c",
-          "attemptedAt": "2026-11-04T10:07:36.194669+00:00",
-          "evidence": "work/daily-2026-11-04/9107bd4da6c3d537-398cb36a5934b02da65490fbaefa05b4f48e5e6ba88ea214d0b30a15457d8a8c.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:36.194669+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:36.194669+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-trade-reddit-nov5.txt",
+          "hash": "147ecf4fb1f658b8e56eeb501f0d5ddc01917324943593f4f32eb43be4a33f71",
+          "attemptedAt": "2026-11-05T15:21:31.797Z",
+          "scope": "Complete creator entry and zero-comment section read.",
+          "lastAttemptAt": "2026-11-05T15:21:31.797Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:21:31.797Z",
+          "status": "read",
+          "error": null
         },
         "https://x.com/Caravelxyz/status/2113244021204131930": {
           "url": "https://x.com/Caravelxyz/status/2113244021204131930",
-          "hash": "cca66e95a562982888dbbf52e7967b475c585b0029b5a10c72df4a3ad51066ec",
-          "attemptedAt": "2026-11-04T10:07:40.838231+00:00",
-          "evidence": "work/daily-2026-11-04/d746a8fe2d3fdc92-cca66e95a562982888dbbf52e7967b475c585b0029b5a10c72df4a3ad51066ec.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:40.838231+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:40.838231+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-trade-x-thread-nov5.txt",
+          "hash": "3d38ce3e659f19dcea9ff43d735c376dfd51b3b865969e74743ae48ed9d1153f",
+          "attemptedAt": "2026-11-05T15:22:35.603Z",
+          "scope": "Original plus both replies, including expanded probable-spam branch. Privacy visibility question remains unanswered.",
+          "lastAttemptAt": "2026-11-05T15:22:35.603Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:22:35.603Z",
+          "status": "read",
+          "error": null
         },
         "https://www.youtube.com/watch?v=1PeZwRiqKa0": {
           "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-          "hash": "f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72",
-          "attemptedAt": "2026-11-04T10:07:37.410935+00:00",
-          "evidence": "work/daily-2026-11-04/14f7e70260180f4f-f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:37.410935+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:37.410935+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/tari-show-oct27-source-context-nov5.json",
+          "hash": "ef40362799012f2c43a5589cbca8d0e79ea6ef12c72a10ba592e70fce18ca99c",
+          "attemptedAt": "2026-11-05T10:41:40.415Z",
+          "scope": "Reused completed current-run full transcript, description, zero-comment/exhausted replay review and representative visual review. No new acquisition.",
+          "lastAttemptAt": "2026-11-05T10:41:40.415Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:41:40.415Z",
+          "status": "read",
+          "error": null
         },
         "https://x.com/Caravelxyz/status/2113545415282855958": {
           "url": "https://x.com/Caravelxyz/status/2113545415282855958",
-          "hash": "536763afad13378aa9c5ff0011727c96103aa8de66ceb9462423261ae1974df8",
-          "attemptedAt": "2026-11-04T10:07:41.023354+00:00",
-          "evidence": "work/daily-2026-11-04/383c813c1306ee56-536763afad13378aa9c5ff0011727c96103aa8de66ceb9462423261ae1974df8.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:41.023354+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:41.023354+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/caravel-contest-x-nov5.txt",
+          "hash": "535cecbceb9440065654cc9011c2522cebd66b36d8249f19c79e45321414d9a0",
+          "attemptedAt": "2026-11-05T15:20:24.183Z",
+          "scope": "October23 announcement links both original Reddit entries; zero replies.",
+          "lastAttemptAt": "2026-11-05T15:20:24.183Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:20:24.183Z",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:06:46.678Z",
+          "scope": "Complete current-run forum stream; November2 reset notice read.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/okansaglam016161-pixel/caravel-trade/releases": {
+          "url": "https://github.com/okansaglam016161-pixel/caravel-trade/releases",
+          "evidence": "work/daily-2026-11-04/caravel-burn-trade-heads-nov5.json",
+          "hash": "9023b9be6a192192be59cf43e85090827e68369f37934ee00411991cbccb0849",
+          "attemptedAt": "2026-11-05T15:18:16.582Z",
+          "scope": "Empty GitHub release list exhausted.",
+          "lastAttemptAt": "2026-11-05T15:18:16.582Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:18:16.582Z",
+          "status": "read",
+          "error": null
+        },
+        "https://explorer.tari.mw/substate/component_278c4da6fd49c03d2735355241bbb29e01748712e2377657769bfbcc365c3bdc": {
+          "lastAttemptAt": "2026-11-05T15:23:45.567Z",
+          "status": "blocked",
+          "error": "Veil returned: Substate component_278c4da6fd49c03d2735355241bbb29e01748712e2377657769bfbcc365c3bdc not found",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/caravel-trade-board-explorer-nov5.txt",
+          "nextAction": "Check creator repository and original discussions for a republished component after the reset; inspect a documented replacement before changing destination."
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:59:07.441292+00:00",
       "observedAvailability": "October 29 original posts and accessible replies, source repository and linked public destinations reviewed. Listing describes observed public availability; no wallet, financial or runtime certification implied.",
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25",
+        "https://caravellabs.net",
+        "https://x.com/Caravelxyz/status/2113545415282855958",
+        "https://github.com/okansaglam016161-pixel/caravel-trade/releases",
         "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/",
         "https://x.com/Caravelxyz/status/2113244021204131930",
-        "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-        "https://x.com/Caravelxyz/status/2113545415282855958",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -19636,7 +19827,7 @@
         "recording",
         "provenance"
       ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "checkedScope": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25",
         "https://github.com/okansaglam016161-pixel/caravel-trade",
@@ -19647,13 +19838,13 @@
       ],
       "sourceObservation": "October 31 authenticated X fallback recovered all 2 declared replies. No material listing change.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
-      "copyUpdated": false,
+      "copyUpdated": true,
       "reviewedSourceCount": 6,
-      "pendingReviewSources": [
-        "https://github.com/okansaglam016161-pixel/caravel-trade#readme"
-      ],
+      "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
+      "blockedSources": [
+        "https://explorer.tari.mw/substate/component_278c4da6fd49c03d2735355241bbb29e01748712e2377657769bfbcc365c3bdc"
+      ],
       "sourceReviewHistory": [
         {
           "url": "https://x.com/Caravelxyz/status/2113244021204131930",
@@ -19668,7 +19859,6 @@
           "nextAction": "Retry the original destination and supported authorized browser; preserve the last successful source review."
         }
       ],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -19724,6 +19914,10 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "latestAttemptObservation": "Private peer-to-peer order-book templates exchanging testnet TARI and cUSD, a placeholder token with no value. Source describes whole-order fills, owner cancellation and a 1% TARI fee split: 0.7% Caravel and 0.3% burned. November 5 review: README revision 4f755d3 remains unchanged, documenting source tooling 0.47 and historical deployed 0.46.1 binaries. Its published order-board component returned “not found” in Veil at epoch 12,882 after the November 2 reset notice. The public Caravel entry reaches wallet creation or recovery before Trade. The October 23 README recording remains an accurate source walkthrough; its deployment claims are historical. No wallet, order or trade was created. The linked October 27 Tari Show discusses projects; it is not a Trade application demo.",
+      "evidence": [
+        "work/daily-2026-11-04/caravel-reset-source-review-nov5.json"
       ]
     },
     "project:grave-robber": {
@@ -20922,106 +21116,126 @@
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
         "https://github.com/1igaming/ootle-steam-kit",
-        "https://ootle.sbox.trading/#/how"
-      ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "sourceReviews": {
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30": {
-          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
-        },
-        "https://github.com/1igaming/ootle-steam-kit": {
-          "url": "https://github.com/1igaming/ootle-steam-kit",
-          "hash": "25fca85f0d89845802df2c62588daf45f6d8ed72f5d8830bc954e69cda491552",
-          "revision": "d54da6654ed0100405e9413cabc3738a418d1b99",
-          "attemptedAt": "2026-11-04T10:06:51.379082+00:00",
-          "evidence": "work/daily-2026-11-04/5ee3844490f3780c-25fca85f0d89845802df2c62588daf45f6d8ed72f5d8830bc954e69cda491552.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:06:51.379082+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:06:51.379082+00:00",
-          "status": "read"
-        },
-        "https://ootle.sbox.trading/#/how": {
-          "url": "https://ootle.sbox.trading/#/how",
-          "hash": "093a14bd036d1135c2284c607d4fc82cb9335c9ea07f0fd8ffb87fb82582949d",
-          "attemptedAt": "2026-11-04T10:07:29.652383+00:00",
-          "evidence": "work/daily-2026-11-04/c564f84bffc8f54b-093a14bd036d1135c2284c607d4fc82cb9335c9ea07f0fd8ffb87fb82582949d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:29.652383+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:29.652383+00:00",
-          "status": "read"
-        },
-        "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522": {
-          "url": "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522",
-          "hash": "39b26ad3874e0af3139a2ba4db8ac48748af4b8b7751fdde1ff482bb8c35e64e",
-          "attemptedAt": "2026-11-04T10:07:25.287524+00:00",
-          "evidence": "work/daily-2026-11-04/fcec92e8792c6364-39b26ad3874e0af3139a2ba4db8ac48748af4b8b7751fdde1ff482bb8c35e64e.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.287524+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.287524+00:00",
-          "status": "read"
-        },
-        "https://www.youtube.com/watch?v=1PeZwRiqKa0": {
-          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-          "hash": "f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72",
-          "attemptedAt": "2026-11-04T10:07:37.410935+00:00",
-          "evidence": "work/daily-2026-11-04/14f7e70260180f4f-f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:37.410935+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:37.410935+00:00",
-          "status": "read"
-        },
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
-          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
-        }
-      },
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
-      "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
         "https://ootle.sbox.trading/#/how",
         "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522",
         "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/1igaming/ootle-steam-kit/releases",
+        "https://github.com/1igaming/ootle-steam-kit#readme"
       ],
-      "reviewRequired": true,
+      "lastAttemptAt": "2026-11-05T15:46:02.653Z",
+      "sourceReviews": {
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30": {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
+          "attemptedAt": "2026-11-05T15:43:41.004Z",
+          "evidence": "work/daily-2026-11-04/steam-kit-forum-nov5.txt",
+          "hash": "e62af6b60cae195676b0487c2ae842cb5efa1d9a92d801bcce13bd92794edaf8",
+          "scope": "Complete current original body read; zero direct replies. Four historical screenshot images inspected, showing PIN, wallet balances, item listing and testnet crash game.",
+          "lastAttemptAt": "2026-11-05T15:43:41.004Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:43:41.004Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/1igaming/ootle-steam-kit": {
+          "url": "https://github.com/1igaming/ootle-steam-kit",
+          "attemptedAt": "2026-11-04T10:06:51.379Z",
+          "evidence": "work/daily-2026-11-04/5ee3844490f3780c-25fca85f0d89845802df2c62588daf45f6d8ed72f5d8830bc954e69cda491552.txt",
+          "hash": "25fca85f0d89845802df2c62588daf45f6d8ed72f5d8830bc954e69cda491552",
+          "scope": "Full README read; Nov5 HEAD remains d54da6654ed0100405e9413cabc3738a418d1b99.",
+          "lastAttemptAt": "2026-11-04T10:06:51.379Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:51.379Z",
+          "status": "read",
+          "error": null
+        },
+        "https://ootle.sbox.trading/#/how": {
+          "url": "https://ootle.sbox.trading/#/how",
+          "attemptedAt": "2026-11-05T15:42:31.805Z",
+          "evidence": "work/daily-2026-11-04/steam-kit-public-guide-nov5.txt",
+          "hash": "fd78aa010340fb382ec9e1ff1e2c20669febbe9c51e69b4d041f436738e0d1b1",
+          "scope": "Complete public guide rendered and read; Games, Trade and Predict disabled before sign-in. No wallet or Steam actions.",
+          "lastAttemptAt": "2026-11-05T15:42:31.805Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:42:31.805Z",
+          "status": "read",
+          "error": null
+        },
+        "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522": {
+          "url": "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522",
+          "attemptedAt": "2026-11-05T15:36:34.528Z",
+          "evidence": "work/daily-2026-11-04/steam-kit-bluesky-thread-nov5.json",
+          "hash": "df2c828c862f1faa030c724a97277d2af1a94d4be317e9b9cbcd11aa448714e9",
+          "scope": "Complete public thread depth100, zero replies; announcement image visually reviewed in browser.",
+          "lastAttemptAt": "2026-11-05T15:36:34.528Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:36:34.528Z",
+          "status": "read",
+          "error": null
+        },
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0": {
+          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+          "attemptedAt": "2026-11-05T10:41:40.415Z",
+          "evidence": "work/daily-2026-11-04/tari-show-oct27-source-context-nov5.json",
+          "hash": "ef40362799012f2c43a5589cbca8d0e79ea6ef12c72a10ba592e70fce18ca99c",
+          "scope": "Reuse complete current-run transcript/description/reply review with representative visual inspection; not a Steam transaction demonstration.",
+          "lastAttemptAt": "2026-11-05T10:41:40.415Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:41:40.415Z",
+          "status": "read",
+          "error": null
+        },
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
+          "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+          "attemptedAt": "2026-11-04T10:06:46.678Z",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "scope": "Organizer reset notice read in complete cached stream and live forum.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/1igaming/ootle-steam-kit/releases": {
+          "url": "https://github.com/1igaming/ootle-steam-kit/releases",
+          "attemptedAt": "2026-11-05T15:43:24.171Z",
+          "evidence": "work/daily-2026-11-04/steam-kit-repo-current-nov5.json",
+          "hash": "510c0ea66c0831dcc6355f1c10b83dd01ebf49f04618883771982a1289dd3a83",
+          "scope": "Current HEAD checked; empty releases exhausted.",
+          "lastAttemptAt": "2026-11-05T15:43:24.171Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:43:24.171Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/1igaming/ootle-steam-kit#readme": {
+          "url": "https://github.com/1igaming/ootle-steam-kit#readme",
+          "attemptedAt": "2026-11-04T10:06:51.379Z",
+          "evidence": "work/daily-2026-11-04/5ee3844490f3780c-25fca85f0d89845802df2c62588daf45f6d8ed72f5d8830bc954e69cda491552.txt",
+          "hash": "25fca85f0d89845802df2c62588daf45f6d8ed72f5d8830bc954e69cda491552",
+          "scope": "Same canonical README representation; full body read at unchanged revision.",
+          "lastAttemptAt": "2026-11-04T10:06:51.379Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:51.379Z",
+          "status": "read",
+          "error": null
+        }
+      },
+      "lastSuccessfulReviewAt": "2026-11-05T15:46:02.653Z",
+      "observedAvailability": "Steam-linked Ootle integration kit with wallet, trading, games and prediction modules. November 5 public guide: Games, Trade and Predict are disabled before Steam sign-in. The site currently watches deliveries and settles holds itself; template-enforced trade escrow is a future destination. On Esmeralda, the site escrow signs the on-chain leg, with in-wallet signing described as planned for mainnet. Stealth hides amounts but not the account; voucher deposits and fees remain public. MIT source revision d54da665 remains unchanged and supports optional wallet-daemon integration and local ledger mode. The October 29 recording remains a Docs walkthrough of the settlement guide, not a completed trade or payment. No Steam login, wallet action or gameplay was performed. November 2 organizer notice records the Esmeralda reset; historical screenshots and footage retain their original dates.",
+      "outcome": "reviewed",
+      "changedSources": [
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
+        "https://github.com/1igaming/ootle-steam-kit/releases",
+        "https://ootle.sbox.trading/#/how",
+        "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522",
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+        "https://github.com/1igaming/ootle-steam-kit#readme"
+      ],
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
-      "sourceObservation": "Steam-linked Ootle integration kit with wallet, trade, games and prediction modules. The October 29 public guide loaded; Games, Trade and Predict were disabled before Steam sign-in. The guide says the site currently watches deliveries and settles holds itself, while template-enforced trade escrow is a future destination. Source supports optional wallet-daemon integration and a local ledger mode. Do not interpret the guide or its recording as a completed Steam trade or independently enforced settlement. MIT source reviewed; no Steam login, wallet connection, payment or gameplay was exercised.",
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-06T10:00:00Z",
+      "sourceObservation": "Steam-linked Ootle integration kit with wallet, trading, games and prediction modules. November 5 public guide: Games, Trade and Predict are disabled before Steam sign-in. The site currently watches deliveries and settles holds itself; template-enforced trade escrow is a future destination. On Esmeralda, the site escrow signs the on-chain leg, with in-wallet signing described as planned for mainnet. Stealth hides amounts but not the account; voucher deposits and fees remain public. MIT source revision d54da665 remains unchanged and supports optional wallet-daemon integration and local ledger mode. The October 29 recording remains a Docs walkthrough of the settlement guide, not a completed trade or payment. No Steam login, wallet action or gameplay was performed. November 2 organizer notice records the Esmeralda reset; historical screenshots and footage retain their original dates.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "pendingReviewSources": [],
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -21063,6 +21277,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/steam-kit-source-review-nov5.json"
       ]
     },
     "tari-ootle:component:arkimals": {
@@ -21244,120 +21461,123 @@
         "https://github.com/1igaming/ootle-steam-kit",
         "https://github.com/1igaming/ootle-steam-kit#readme",
         "https://ootle.sbox.trading/#/how",
-        "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522"
+        "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522",
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/1igaming/ootle-steam-kit/releases"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T15:46:02.653Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T15:43:41.004Z",
+          "evidence": "work/daily-2026-11-04/steam-kit-forum-nov5.txt",
+          "hash": "e62af6b60cae195676b0487c2ae842cb5efa1d9a92d801bcce13bd92794edaf8",
+          "scope": "Complete current original body read; zero direct replies. Four historical screenshot images inspected, showing PIN, wallet balances, item listing and testnet crash game.",
+          "lastAttemptAt": "2026-11-05T15:43:41.004Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:43:41.004Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/1igaming/ootle-steam-kit": {
           "url": "https://github.com/1igaming/ootle-steam-kit",
-          "hash": "25fca85f0d89845802df2c62588daf45f6d8ed72f5d8830bc954e69cda491552",
-          "revision": "d54da6654ed0100405e9413cabc3738a418d1b99",
-          "attemptedAt": "2026-11-04T10:06:51.379082+00:00",
+          "attemptedAt": "2026-11-04T10:06:51.379Z",
           "evidence": "work/daily-2026-11-04/5ee3844490f3780c-25fca85f0d89845802df2c62588daf45f6d8ed72f5d8830bc954e69cda491552.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:06:51.379082+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:06:51.379082+00:00",
-          "status": "read"
+          "hash": "25fca85f0d89845802df2c62588daf45f6d8ed72f5d8830bc954e69cda491552",
+          "scope": "Full README read; Nov5 HEAD remains d54da6654ed0100405e9413cabc3738a418d1b99.",
+          "lastAttemptAt": "2026-11-04T10:06:51.379Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:51.379Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/1igaming/ootle-steam-kit#readme": {
           "url": "https://github.com/1igaming/ootle-steam-kit#readme",
+          "attemptedAt": "2026-11-04T10:06:51.379Z",
+          "evidence": "work/daily-2026-11-04/5ee3844490f3780c-25fca85f0d89845802df2c62588daf45f6d8ed72f5d8830bc954e69cda491552.txt",
           "hash": "25fca85f0d89845802df2c62588daf45f6d8ed72f5d8830bc954e69cda491552",
-          "revision": "d54da6654ed0100405e9413cabc3738a418d1b99",
-          "attemptedAt": "2026-10-31T09:02:58.042949+00:00",
-          "evidence": "work/daily-2026-10-31/5ee3844490f3780c.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:02:58.042949+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:02:58.042949+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "scope": "Same canonical README representation; full body read at unchanged revision.",
+          "lastAttemptAt": "2026-11-04T10:06:51.379Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:51.379Z",
+          "status": "read",
+          "error": null
         },
         "https://ootle.sbox.trading/#/how": {
           "url": "https://ootle.sbox.trading/#/how",
-          "hash": "093a14bd036d1135c2284c607d4fc82cb9335c9ea07f0fd8ffb87fb82582949d",
-          "attemptedAt": "2026-11-04T10:07:29.652383+00:00",
-          "evidence": "work/daily-2026-11-04/c564f84bffc8f54b-093a14bd036d1135c2284c607d4fc82cb9335c9ea07f0fd8ffb87fb82582949d.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:29.652383+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:29.652383+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T15:42:31.805Z",
+          "evidence": "work/daily-2026-11-04/steam-kit-public-guide-nov5.txt",
+          "hash": "fd78aa010340fb382ec9e1ff1e2c20669febbe9c51e69b4d041f436738e0d1b1",
+          "scope": "Complete public guide rendered and read; Games, Trade and Predict disabled before sign-in. No wallet or Steam actions.",
+          "lastAttemptAt": "2026-11-05T15:42:31.805Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:42:31.805Z",
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522": {
           "url": "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522",
-          "hash": "39b26ad3874e0af3139a2ba4db8ac48748af4b8b7751fdde1ff482bb8c35e64e",
-          "attemptedAt": "2026-11-04T10:07:25.287524+00:00",
-          "evidence": "work/daily-2026-11-04/fcec92e8792c6364-39b26ad3874e0af3139a2ba4db8ac48748af4b8b7751fdde1ff482bb8c35e64e.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.287524+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.287524+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T15:36:34.528Z",
+          "evidence": "work/daily-2026-11-04/steam-kit-bluesky-thread-nov5.json",
+          "hash": "df2c828c862f1faa030c724a97277d2af1a94d4be317e9b9cbcd11aa448714e9",
+          "scope": "Complete public thread depth100, zero replies; announcement image visually reviewed in browser.",
+          "lastAttemptAt": "2026-11-05T15:36:34.528Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:36:34.528Z",
+          "status": "read",
+          "error": null
         },
         "https://www.youtube.com/watch?v=1PeZwRiqKa0": {
           "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-          "hash": "f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72",
-          "attemptedAt": "2026-11-04T10:07:37.410935+00:00",
-          "evidence": "work/daily-2026-11-04/14f7e70260180f4f-f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:37.410935+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:37.410935+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:41:40.415Z",
+          "evidence": "work/daily-2026-11-04/tari-show-oct27-source-context-nov5.json",
+          "hash": "ef40362799012f2c43a5589cbca8d0e79ea6ef12c72a10ba592e70fce18ca99c",
+          "scope": "Reuse complete current-run transcript/description/reply review with representative visual inspection; not a Steam transaction demonstration.",
+          "lastAttemptAt": "2026-11-05T10:41:40.415Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:41:40.415Z",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "attemptedAt": "2026-11-04T10:06:46.678Z",
           "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "scope": "Organizer reset notice read in complete cached stream and live forum.",
+          "lastAttemptAt": "2026-11-04T10:06:46.678Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:46.678Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/1igaming/ootle-steam-kit/releases": {
+          "url": "https://github.com/1igaming/ootle-steam-kit/releases",
+          "attemptedAt": "2026-11-05T15:43:24.171Z",
+          "evidence": "work/daily-2026-11-04/steam-kit-repo-current-nov5.json",
+          "hash": "510c0ea66c0831dcc6355f1c10b83dd01ebf49f04618883771982a1289dd3a83",
+          "scope": "Current HEAD checked; empty releases exhausted.",
+          "lastAttemptAt": "2026-11-05T15:43:24.171Z",
+          "lastSuccessfulReadAt": "2026-11-05T15:43:24.171Z",
+          "status": "read",
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-05T15:46:02.653Z",
+      "observedAvailability": "Steam-linked Ootle integration kit with wallet, trading, games and prediction modules. November 5 public guide: Games, Trade and Predict are disabled before Steam sign-in. The site currently watches deliveries and settles holds itself; template-enforced trade escrow is a future destination. On Esmeralda, the site escrow signs the on-chain leg, with in-wallet signing described as planned for mainnet. Stealth hides amounts but not the account; voucher deposits and fees remain public. MIT source revision d54da665 remains unchanged and supports optional wallet-daemon integration and local ledger mode. The October 29 recording remains a Docs walkthrough of the settlement guide, not a completed trade or payment. No Steam login, wallet action or gameplay was performed. November 2 organizer notice records the Esmeralda reset; historical screenshots and footage retain their original dates.",
+      "outcome": "reviewed",
       "changedSources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
+        "https://github.com/1igaming/ootle-steam-kit/releases",
         "https://ootle.sbox.trading/#/how",
         "https://bsky.app/profile/did:plc:wdihq3fssx5hiu67qrqvxjwr/post/3mysfpgcbx522",
-        "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
-      "sourceObservation": "Steam-linked Ootle integration kit with wallet, trade, games and prediction modules. The October 29 public guide loaded; Games, Trade and Predict were disabled before Steam sign-in. The guide says the site currently watches deliveries and settles holds itself, while template-enforced trade escrow is a future destination. Source supports optional wallet-daemon integration and a local ledger mode. Do not interpret the guide or its recording as a completed Steam trade or independently enforced settlement. MIT source reviewed; no Steam login, wallet connection, payment or gameplay was exercised.",
+      "reviewQueue": [],
+      "nextReviewAt": "2026-11-06T10:00:00Z",
+      "sourceObservation": "Steam-linked Ootle integration kit with wallet, trading, games and prediction modules. November 5 public guide: Games, Trade and Predict are disabled before Steam sign-in. The site currently watches deliveries and settles holds itself; template-enforced trade escrow is a future destination. On Esmeralda, the site escrow signs the on-chain leg, with in-wallet signing described as planned for mainnet. Stealth hides amounts but not the account; voucher deposits and fees remain public. MIT source revision d54da665 remains unchanged and supports optional wallet-daemon integration and local ledger mode. The October 29 recording remains a Docs walkthrough of the settlement guide, not a completed trade or payment. No Steam login, wallet action or gameplay was performed. November 2 organizer notice records the Esmeralda reset; historical screenshots and footage retain their original dates.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
-      "pendingReviewSources": [
-        "https://github.com/1igaming/ootle-steam-kit#readme"
-      ],
+      "pendingReviewSources": [],
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -21399,6 +21619,9 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/steam-kit-source-review-nov5.json"
       ]
     },
     "tari-ootle:component:cursed-pumpkin": {
