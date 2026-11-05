@@ -1140,7 +1140,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Séance",
-      "summary": "Sealed group polls with anonymous eligibility, replaceable ballots and scheduled reveal. October 23 browser inspection cast a local Treat ballot, rejected an outsider and revealed a 0/1/0 tally; the page also read two historical Esmeralda polls and displayed matching recomputed hashes. The local browser exercise creates no chain transaction. The recorded clip tours this public interface. October 29 Radicle review identified current source a1ef9667b34ba8a009ee850ecd23df22bbf2565e and Made by DevX branding; earlier recording remains dated to its original source revision. Fee-pot contributions cannot be withdrawn. Receipt loss prevents counting; revealed choices and timing/funding links can expose information. MIT source, Esmeralda testnet. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Sealed group polls with anonymous eligibility, replaceable ballots and scheduled reveal. November 5 review: the public browser interface loads, while both historical Esmeralda polls fall back to explicitly labeled recorded snapshots; their component addresses are not found in the current explorer after the testnet reset. Radicle source a1ef9667 remains available with no published releases; its README pins template library 0.34.0 and test tooling 0.46.1. The creator’s October proof and test counts describe historical runs. The November 5 recording tours the browser interface and its explicit historical snapshot fallback, separately from chain voting; earlier October footage is preserved in the media history. Fee-pot contributions cannot be withdrawn. Lost receipts prevent counting, revealed choices become public, and timing or funding links can expose information. MIT source; Esmeralda testnet.",
       "status": "Browser demo · Testnet · Fee-pot deposits irreversible",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
       "repoUrl": "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
@@ -1183,14 +1183,19 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "platform": "Tari Community forum",
           "context": "November 2 testnet reset and template republishing notice"
+        },
+        {
+          "url": "https://bsky.app/profile/devxtools.margin.cafe/post/3mygcr27mwn22",
+          "platform": "Bluesky",
+          "context": "Creator follow-up announcement for anonymous one-voice sealed polls and sponsored voting; linked from forum reply 22."
         }
       ],
       "cardSummary": "Create sealed group polls with anonymous eligibility, replaceable ballots and a scheduled reveal of choices.",
       "cardStatus": "Browser demo · Testnet · Fee-pot deposits irreversible",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.png",
-        "source": "App demo — Browser poll interface overview; local interactions and historical poll reads are separate from chain voting."
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261105.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261105.jpg",
+        "source": "App demo"
       },
       "demoUrl": "https://seance.madebydevx.com"
     },
@@ -1323,7 +1328,7 @@
       "group": "Templates",
       "title": "Graveyard Shift",
       "summary": "Confidential payroll template with an interactive browser explanation of public, employee, auditor and coworker views. November 5 review: the page still replays creator-generated engine results; switching views and the recorded payslip examples worked without a wallet. It does not decrypt or submit payroll in the browser. Repository revision a46223f is unchanged with no published releases. The October 22 creator reply documents an historical Esmeralda payroll, but that component now returns not found after the November 2 reset. The roster, role labels, payment status and total budget remain public; the fixed auditor key reveals amounts but cannot spend or read employee memos. Retained October footage is a concept overview of this replay, not a new payroll run. MIT source, testnet only.",
-      "status": "Browser demo · Testnet",
+      "status": "Interactive walkthrough · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/20",
       "repoUrl": "https://github.com/XachP/graveyard-shift",
       "docsUrl": "https://github.com/XachP/graveyard-shift#readme",
@@ -1532,8 +1537,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Hearth",
-      "summary": "Confidential humanitarian cash-aid prototype with household enrollment, duplicate-entitlement checks and replacement wallets. The browser replays the creator’s recorded Esmeralda verifier results; it decrypts nothing itself. October 23 inspection showed Household A’s 3000 HEARTH grant and the auditor’s different view of all amounts, with public household counts and total funding. MIT source, template and transaction links are provided by the creator. No grant or wallet transaction was performed. Cohorts, timing and public counts remain visible; privacy and duplicate-enrollment claims depend on the documented registration model. Shared for Web3 for Social Good, not presented as an October contest entry.",
-      "status": "Browser demo · Testnet",
+      "summary": "Humanitarian cash-aid template with household enrollment, duplicate-tag checks and wallet replacement. November 5 review: the public page replays the creator’s recorded Esmeralda verifier results and decrypts nothing itself; all five viewpoints remain accessible. The historical programme component is not found after the testnet reset. MIT source cfcc3324 is unchanged with no releases. The public sees household counts, cohorts and total funding; the auditor sees grant amounts without spending power, while households see their own notices. Registration uniqueness depends on trustworthy field registration and salt handling; it does not prove that a person is real. The six-page pitch and creator entry describe merchant voucher mode, governance changes, feature-phone access and an NGO pilot as future work. The October recording is retained as a concept overview of these recorded results. Creator-video narration remains unavailable to this review because no transcript or supported media download is provided. No enrollment, aid payment or wallet action was performed.",
+      "status": "Interactive walkthrough · Testnet",
       "sourceUrl": "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
       "repoUrl": "https://github.com/XachP/hearth-aid",
       "docsUrl": "https://github.com/XachP/hearth-aid#readme",
@@ -1565,14 +1570,24 @@
           "url": "https://x.com/LUNNTHEDEV/status/2113090097620906275",
           "platform": "X",
           "context": "Hearth sharing post retained alongside creator announcement"
+        },
+        {
+          "url": "https://dorahacks.io/build/50120",
+          "platform": "DoraHacks",
+          "context": "Creator Web3 for Social Good entry with pitch deck and video; linked by original Reddit and X posts."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ye-5upF1rfM",
+          "platform": "YouTube",
+          "context": "Creator pitch video publicly linked from the DoraHacks entry; description and sampled visual review retained, narration unavailable to current readers."
         }
       ],
       "cardSummary": "Explore confidential aid grants from household, donor and auditor perspectives while keeping individual amounts selectively visible.",
-      "cardStatus": "Browser demo · Testnet",
+      "cardStatus": "Interactive walkthrough · Testnet",
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hearth-20261023.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hearth-20261023.png",
-        "source": "App demo — Interactive replay of recorded testnet verifier results; no browser decryption or aid payment."
+        "source": "Concept overview"
       }
     },
     {
@@ -3109,7 +3124,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Danse Macabre",
-      "summary": "Werewolf without a game master: five players jointly shuffle one wolf into a hidden deck, then submit sealed night actions whose total reveals the victim. The public site offers a solo browser session with four ghosts and an invite-link group mode on Esmeralda testnet. The creator notes that solo ghosts share the host tab, so privacy matters between separate players; table existence, seats, timing and fees remain public. November 2 review covered the MIT repository, public explanation and linked proof/threat-model pages. The recording is a website walkthrough, not a completed game or an independent cryptographic audit. The November 2 Ootle testnet reset may require creator redeployment. Optional stakes can be forfeited by a seat that stalls the table; the creator documents a 48–96 minute closure window. No game, stake or transaction was started during this review. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Werewolf without a game master: five players jointly shuffle hidden roles, then submit sealed night actions whose total reveals the victim. November 5 review: the public explanation and solo/group entry points load, while the historical game component linked in PROOF.md is not found after the testnet reset. MIT source 2341dc3 has no new releases. The creator’s October 31 video explains the design; its narration describes 33 engine tests, while the repository specifies 25 engine tests plus eight prover tests. These are creator-reported results. Solo ghosts share the host tab, so privacy matters between separate people; table existence, seat keys, posting, timing, fees and dead players’ roles remain public. A stalled seat can forfeit optional stakes, with a documented 48–96 minute closure window. The November 2 recording remains a walkthrough of the public explanation and privacy model. No game, stake or transaction was started during this review.",
       "status": "Web game · Testnet · Optional stakes can be forfeited",
       "cardSummary": "Play five-seat Werewolf with jointly shuffled hidden roles and sealed night actions on Tari Ootle.",
       "cardStatus": "Web game · Testnet · Optional stakes can be forfeited",
@@ -3159,7 +3174,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-danse-macabre-20261102-3e2ff4d607.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-danse-macabre-20261102-3e2ff4d607.jpg",
-        "source": "Source/docs walkthrough — public game design, privacy limits and proof links; no gameplay or transaction performed."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -3864,7 +3879,7 @@
       "ecosystem": "tari-ootle",
       "group": "Developer tools",
       "title": "Tari Tracker",
-      "summary": "Independent community dashboard with Tari hashrates, chain height, developer activity filters and linked ecosystem tools. On November 3, 2026 the public overview loaded live data; Refresh data and the tari/All projects filters were observed responding. The recording shows those controls, with figures fixed at capture time. The site footer’s linked source repository returned 404; the linked Telegram destination exposed a public landing page but no readable message history. Neither limits access to the dashboard itself. No wallet, donation or download action was performed.",
+      "summary": "Independent community dashboard with Tari hashrates, chain height, developer activity filters and linked ecosystem tools. On November 5, 2026 the public overview loaded network data, and Refresh data plus the tari/All projects filters responded. The November 3 recording remains an app demo of those controls; its figures are fixed at capture time. The footer-linked source repository still returned 404 in both the source reader and browser. The public Telegram landing offered no message history, and the browser client required a new device login, so that channel’s messages were not reviewed. The dashboard remains accessible. No wallet, donation or download action was performed.",
       "cardSummary": "Follow Tari network hashrates, chain height and developer activity, with links to community tools and resources.",
       "cardStatus": "Web app",
       "status": "Web app",

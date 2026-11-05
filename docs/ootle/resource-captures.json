@@ -3634,131 +3634,28 @@
         }
       ],
       "captureType": "app-demo",
-      "capturedAt": "2026-10-23T17:54:33.632Z",
-      "observedRevision": "4e0dde7758593b58087bbd4d045d6d3c6f87a836",
+      "capturedAt": "2026-11-05T17:00:53.746Z",
+      "observedRevision": "a1ef9667b34ba8a009ee850ecd23df22bbf2565e",
       "viewport": {
         "width": 1280,
         "height": 800
       },
       "durationSeconds": 12,
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.png",
-      "sha256": "93de1622ede170d24bc57d8343cc7b26db3748cdc506f84f7ea9785ffe0ebcc4",
+      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261105.mp4",
+      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261105.jpg",
+      "sha256": "2fb76b70bbd987bcf64c063fbb641652c132f0ead8de515281137672c968e521",
       "caption": "App demo",
-      "method": "App demo — Browser poll interface overview; local interactions and historical poll reads are separate from chain voting.",
-      "status": "published-playback-verified",
+      "method": "Genuine public-page scroll of browser poll interface and explicit historical recorded-snapshot fallback. No chain vote, wallet or fee-pot action.",
+      "status": "publication-pending",
       "verification": {
         "framesReviewed": [
-          0,
+          0.5,
           6,
-          11
+          11.5
         ],
-        "livePlayback": "Passed in Lobby and Workbench, desktop and phone; all eight clips advanced to the end.",
-        "verifiedAt": "2026-10-23T18:24:41.786604+00:00",
-        "cases": {
-          "lobby-playback-desktop": {
-            "title": "Séance",
-            "start": {
-              "paused": false,
-              "src": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
-              "time": 0
-            },
-            "end": {
-              "controls": true,
-              "duration": 12,
-              "paused": true,
-              "time": 12
-            }
-          },
-          "lobby-playback-phone": {
-            "title": "Séance",
-            "start": {
-              "paused": false,
-              "time": 0.012182
-            },
-            "layout": {
-              "left": 20,
-              "right": 370,
-              "scrollWidth": 390,
-              "viewport": 390
-            },
-            "end": {
-              "controls": true,
-              "duration": 12,
-              "paused": true,
-              "time": 12
-            }
-          },
-          "workbench-playback-desktop": {
-            "title": "Séance",
-            "start": {
-              "paused": false,
-              "src": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
-              "time": 0
-            },
-            "links": [
-              "Séance ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Tari Community forum ↗"
-            ],
-            "end": {
-              "controls": true,
-              "duration": 12,
-              "paused": true,
-              "time": 12
-            }
-          },
-          "workbench-playback-phone": {
-            "title": "Séance",
-            "start": {
-              "paused": false,
-              "src": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
-              "time": 0
-            },
-            "bounds": {
-              "clientWidth": 298,
-              "rect": {
-                "bottom": 992.3984375,
-                "height": 609.4453125,
-                "left": 66,
-                "right": 366,
-                "top": 382.953125,
-                "width": 300,
-                "x": 66,
-                "y": 382.953125
-              },
-              "scrollWidth": 298
-            },
-            "links": [
-              "Séance ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Tari Community forum ↗"
-            ],
-            "end": {
-              "controls": true,
-              "duration": 12,
-              "paused": true,
-              "time": 12
-            }
-          }
-        },
-        "mediaBytes": {
-          "resourceId": "seance",
-          "video": {
-            "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
-            "sha256": "93de1622ede170d24bc57d8343cc7b26db3748cdc506f84f7ea9785ffe0ebcc4",
-            "matches": true
-          },
-          "poster": {
-            "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.png",
-            "sha256": "851f32847e052647f07af1214abbe040e27db70c81283483f13cb0ef38751ea6",
-            "matches": true
-          }
-        },
-        "catalogRevision": {
-          "lobby": "16c3a94bc99f4fa28e04f21d3fc7ebd3244c250a",
-          "workbench": "3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2"
-        }
+        "selectionEvidence": "work/daily-2026-11-04/seance-capture-selection-nov5.json",
+        "localPlayback": "work/daily-2026-11-04/seance-capture-playback-nov5.json",
+        "livePlayback": "pending"
       },
       "history": [
         {
@@ -3815,7 +3712,218 @@
             ]
           }
         }
-      ]
+      ],
+      "previousCaptures": [
+        {
+          "resourceId": "seance",
+          "title": "Séance",
+          "targetUrl": "https://seance.madebydevx.com",
+          "originalPosts": [
+            {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
+              "platform": "Tari Community forum",
+              "author": "DevXTools",
+              "publishedAt": "2026-10-20T11:25:58.437Z",
+              "foundOn": "2026-10-20",
+              "context": "October contest submission for Séance sealed group polls, with source and network proof links",
+              "visibility": "public"
+            },
+            {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22",
+              "platform": "Tari Community forum",
+              "author": "DevXTools",
+              "publishedAt": "2026-10-21T23:36:52.632Z",
+              "foundOn": "2026-10-23",
+              "context": "Creator submission or material update",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "app-demo",
+          "capturedAt": "2026-10-23T17:54:33.632Z",
+          "observedRevision": "4e0dde7758593b58087bbd4d045d6d3c6f87a836",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.png",
+          "sha256": "93de1622ede170d24bc57d8343cc7b26db3748cdc506f84f7ea9785ffe0ebcc4",
+          "caption": "App demo",
+          "method": "App demo — Browser poll interface overview; local interactions and historical poll reads are separate from chain voting.",
+          "status": "published-playback-verified",
+          "verification": {
+            "framesReviewed": [
+              0,
+              6,
+              11
+            ],
+            "livePlayback": "Passed in Lobby and Workbench, desktop and phone; all eight clips advanced to the end.",
+            "verifiedAt": "2026-10-23T18:24:41.786604+00:00",
+            "cases": {
+              "lobby-playback-desktop": {
+                "title": "Séance",
+                "start": {
+                  "paused": false,
+                  "src": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
+                  "time": 0
+                },
+                "end": {
+                  "controls": true,
+                  "duration": 12,
+                  "paused": true,
+                  "time": 12
+                }
+              },
+              "lobby-playback-phone": {
+                "title": "Séance",
+                "start": {
+                  "paused": false,
+                  "time": 0.012182
+                },
+                "layout": {
+                  "left": 20,
+                  "right": 370,
+                  "scrollWidth": 390,
+                  "viewport": 390
+                },
+                "end": {
+                  "controls": true,
+                  "duration": 12,
+                  "paused": true,
+                  "time": 12
+                }
+              },
+              "workbench-playback-desktop": {
+                "title": "Séance",
+                "start": {
+                  "paused": false,
+                  "src": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
+                  "time": 0
+                },
+                "links": [
+                  "Séance ↗",
+                  "Discussion · Tari Community forum ↗",
+                  "Discussion · Tari Community forum ↗"
+                ],
+                "end": {
+                  "controls": true,
+                  "duration": 12,
+                  "paused": true,
+                  "time": 12
+                }
+              },
+              "workbench-playback-phone": {
+                "title": "Séance",
+                "start": {
+                  "paused": false,
+                  "src": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
+                  "time": 0
+                },
+                "bounds": {
+                  "clientWidth": 298,
+                  "rect": {
+                    "bottom": 992.3984375,
+                    "height": 609.4453125,
+                    "left": 66,
+                    "right": 366,
+                    "top": 382.953125,
+                    "width": 300,
+                    "x": 66,
+                    "y": 382.953125
+                  },
+                  "scrollWidth": 298
+                },
+                "links": [
+                  "Séance ↗",
+                  "Discussion · Tari Community forum ↗",
+                  "Discussion · Tari Community forum ↗"
+                ],
+                "end": {
+                  "controls": true,
+                  "duration": 12,
+                  "paused": true,
+                  "time": 12
+                }
+              }
+            },
+            "mediaBytes": {
+              "resourceId": "seance",
+              "video": {
+                "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
+                "sha256": "93de1622ede170d24bc57d8343cc7b26db3748cdc506f84f7ea9785ffe0ebcc4",
+                "matches": true
+              },
+              "poster": {
+                "url": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.png",
+                "sha256": "851f32847e052647f07af1214abbe040e27db70c81283483f13cb0ef38751ea6",
+                "matches": true
+              }
+            },
+            "catalogRevision": {
+              "lobby": "16c3a94bc99f4fa28e04f21d3fc7ebd3244c250a",
+              "workbench": "3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2"
+            }
+          },
+          "history": [
+            {
+              "resourceId": "seance",
+              "title": "Séance",
+              "targetUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
+              "originalPosts": [
+                {
+                  "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
+                  "platform": "Tari Community forum",
+                  "author": "DevXTools",
+                  "publishedAt": "2026-10-20T11:25:58.437Z",
+                  "foundOn": "2026-10-20",
+                  "context": "October contest submission for Séance sealed group polls, with source and network proof links",
+                  "visibility": "public"
+                }
+              ],
+              "captureType": "announcement",
+              "capturedAt": "2026-10-20T14:02:39.052Z",
+              "observedRevision": "4e0dde7758593b58087bbd4d045d6d3c6f87a836",
+              "viewport": {
+                "width": 1280,
+                "height": 800
+              },
+              "durationSeconds": 12,
+              "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-announcement-20261020.mp4",
+              "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-announcement-20261020.jpg",
+              "sha256": "28fd8ec11c721f32a2aa78b752ea02e0bc75bf78772c8f04d3d1b57374c80790",
+              "caption": "Announcement",
+              "method": "Continuous original forum announcement scroll; opening, middle and 11-second closing frames inspected. Earlier Radicle capture retained but rejected because outer-page scrolling did not move the inner content pane.",
+              "status": "published-verified",
+              "verification": {
+                "framesReviewed": [
+                  0,
+                  6,
+                  11
+                ],
+                "livePlayback": "Actual native-control input and advancing playback on desktop and phone in Lobby gallery/builder cards and Workbench; all reached 12 seconds. Phantom Workbench phone observation covers 9.134 through 12 seconds."
+              },
+              "liveVerification": {
+                "checkedAt": "2026-10-20T14:55:12.721438+00:00",
+                "lobbyDesktop": true,
+                "lobbyMobile": true,
+                "workbenchDesktop": true,
+                "workbenchMobile": true,
+                "mediaHashMatched": true,
+                "posterHashMatched": true,
+                "lobbyRevision": "4b664b558e4bda35dff5c6d742d2f4149f71982e",
+                "workbenchRevision": "7cc45e815bb4d15fa47a39638f3a1362b224bffc",
+                "evidence": [
+                  "daily-2026-10-20/live-cua-evidence.json",
+                  "daily-2026-10-20/workbench-playback.json",
+                  "daily-2026-10-20/served-media-hashes.json"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "posterSha256": "140b6b4f57a799798f9abf1d638ec51beacd2650b0478b59b186f122c60df75e"
     },
     {
       "resourceId": "sealed-bids-at-midnight",
@@ -4589,7 +4697,7 @@
           "visibility": "public"
         }
       ],
-      "captureType": "app-demo",
+      "captureType": "concept-overview",
       "capturedAt": "2026-10-23T17:54:15.146Z",
       "observedRevision": "cfcc3324dc5fac51daf4bc61df935abd65fc8dce",
       "viewport": {
@@ -4600,8 +4708,8 @@
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hearth-20261023.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hearth-20261023.png",
       "sha256": "8df78b7470e5c91a1135478bd363e001a9a44737802421ff7ce29e353d27606d",
-      "caption": "App demo",
-      "method": "App demo — Interactive replay of recorded testnet verifier results; no browser decryption or aid payment.",
+      "caption": "Concept overview",
+      "method": "Interactive replay of creator-recorded testnet verifier results; no browser decryption or aid payment. Historical component not found November 5.",
       "status": "published-playback-verified",
       "verification": {
         "framesReviewed": [
@@ -4715,7 +4823,16 @@
           "lobby": "16c3a94bc99f4fa28e04f21d3fc7ebd3244c250a",
           "workbench": "3fc4ecb1ff7321a0705b3ff2cb239e646a89acb2"
         }
-      }
+      },
+      "classificationHistory": [
+        {
+          "at": "2026-11-05T17:01:36.651504+00:00",
+          "previousType": "app-demo",
+          "previousCaption": "App demo",
+          "reason": "Existing footage shows creator-recorded verifier results; label as concept overview without implying a new aid transaction.",
+          "evidence": "work/daily-2026-11-04/hearth-source-review-nov5.json"
+        }
+      ]
     },
     {
       "resourceId": "grave-robber",
@@ -6746,7 +6863,14 @@
       "surfacesAccepted": [
         "lobby",
         "workbench"
-      ]
+      ],
+      "caption": "Docs walkthrough",
+      "currentSourceReview": {
+        "checkedAt": "2026-11-05T17:20:18.053Z",
+        "evidence": "work/daily-2026-11-04/danse-macabre-source-review-nov5.json",
+        "frames": "Opening/middle/closing inspected; retained footage matches current page purpose and controls. Exact current figures are dated to capture.",
+        "pairedPlayback": "pending current release acceptance"
+      }
     },
     {
       "resourceId": "november-mvp",
@@ -8133,7 +8257,13 @@
         "work/daily-2026-10-31/tracker-lobby-release-acceptance-nov3.json",
         "work/daily-2026-10-31/tracker-workbench-release-acceptance-nov3.json"
       ],
-      "verifiedAt": "2026-11-03T14:46:03.555345+00:00"
+      "verifiedAt": "2026-11-03T14:46:03.555345+00:00",
+      "currentSourceReview": {
+        "checkedAt": "2026-11-05T17:20:18.053Z",
+        "evidence": "work/daily-2026-11-04/tari-tracker-source-review-nov5.json",
+        "frames": "Opening/middle/closing inspected; retained footage matches current page purpose and controls. Exact current figures are dated to capture.",
+        "pairedPlayback": "pending current release acceptance"
+      }
     },
     {
       "resourceId": "tari-block-tools",
