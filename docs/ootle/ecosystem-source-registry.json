@@ -25758,43 +25758,46 @@
       "title": "VeinPool",
       "canonicalResourceId": "veinpool",
       "sources": [
-        "https://veinpool.fr/en/coin/xtm"
+        "https://veinpool.fr/en/coin/xtm",
+        "https://www.youtube.com/watch?v=KZUPOZHfSYs"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T01:40:44.933962+00:00",
       "sourceReviews": {
         "https://veinpool.fr/en/coin/xtm": {
           "url": "https://veinpool.fr/en/coin/xtm",
-          "hash": "bbd08ded9e09fb6de949aa030c072a721a0a3a6781c354f67cb73111499ea884",
-          "attemptedAt": "2026-11-04T10:07:35.448732+00:00",
-          "evidence": "work/daily-2026-11-04/92ac89d049690d06-bbd08ded9e09fb6de949aa030c072a721a0a3a6781c354f67cb73111499ea884.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:35.448732+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:35.448732+00:00",
-          "status": "read"
+          "hash": "0cbb9871e76ac8a4356a7e2a64266a51f2c3e029a4255ee6bdce463ba29c0bb0",
+          "attemptedAt": "2026-11-05T01:40:44.933962+00:00",
+          "lastAttemptAt": "2026-11-05T01:40:44.933962+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T01:40:44.933962+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/veinpool-current-browser.txt",
+          "scope": "Current guide, full FAQ, four platform panels, original announcement/correction and loaded adjacent replies; full creator-video transcript and selected frames during playback to end. No full-audio or reproduced-mining claim."
+        },
+        "https://www.youtube.com/watch?v=KZUPOZHfSYs": {
+          "url": "https://www.youtube.com/watch?v=KZUPOZHfSYs",
+          "hash": "8cf2a92d5b8a7708aab62f4f8f20f107c4edff60a890acb470c75593e365ae9f",
+          "attemptedAt": "2026-11-05T01:40:44.933962+00:00",
+          "lastAttemptAt": "2026-11-05T01:40:44.933962+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T01:40:44.933962+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/veinpool-creator-video-review.json",
+          "scope": "Current guide, full FAQ, four platform panels, original announcement/correction and loaded adjacent replies; full creator-video transcript and selected frames during playback to end. No full-audio or reproduced-mining claim."
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
+      "lastSuccessfulReviewAt": "2026-11-05T01:40:44.933962+00:00",
       "observedAvailability": "Mining pool · 1% fee · 0.1 XTM minimum",
-      "outcome": "pending",
+      "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
         "https://veinpool.fr/en/coin/xtm"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://veinpool.fr/en/coin/xtm",
@@ -25803,6 +25806,38 @@
           "attemptedAt": "2026-11-04T10:07:35.448732+00:00",
           "httpStatus": 200
         }
+      ],
+      "reviewHistory": [
+        {
+          "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+          "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
+          "outcome": "pending",
+          "sourceReviews": {
+            "https://veinpool.fr/en/coin/xtm": {
+              "url": "https://veinpool.fr/en/coin/xtm",
+              "hash": "bbd08ded9e09fb6de949aa030c072a721a0a3a6781c354f67cb73111499ea884",
+              "attemptedAt": "2026-11-04T10:07:35.448732+00:00",
+              "evidence": "work/daily-2026-11-04/92ac89d049690d06-bbd08ded9e09fb6de949aa030c072a721a0a3a6781c354f67cb73111499ea884.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:35.448732+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:35.448732+00:00",
+              "status": "read"
+            }
+          },
+          "pendingReviewSources": [],
+          "reviewQueue": [
+            "copy",
+            "actions",
+            "details",
+            "recording",
+            "provenance"
+          ]
+        }
+      ],
+      "publicationStatus": "pending",
+      "evidence": [
+        "work/daily-2026-11-04/mining-source-review-outcome.json"
       ]
     },
     "tari-ootle:learn:bzminer": {
@@ -25811,57 +25846,67 @@
       "canonicalResourceId": "bzminer",
       "sources": [
         "https://github.com/bzminer/bzminer",
-        "https://www.bzminer.com/guides/c29.php"
+        "https://www.bzminer.com/guides/c29.php",
+        "https://github.com/bzminer/bzminer/releases/tag/v100.70",
+        "https://www.bzminer.com/"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T01:40:44.933962+00:00",
       "sourceReviews": {
         "https://github.com/bzminer/bzminer": {
           "url": "https://github.com/bzminer/bzminer",
-          "hash": "f655dc9111a82612fe18a3df4371595c270e9f3a02723346e8f2154cea72486b",
-          "revision": "003a0ff2992c300018d665d344537c78db543238",
-          "attemptedAt": "2026-11-04T10:07:01.753448+00:00",
-          "evidence": "work/daily-2026-11-04/1f92b8a721ea2ee0-f655dc9111a82612fe18a3df4371595c270e9f3a02723346e8f2154cea72486b.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:01.753448+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:01.753448+00:00",
-          "status": "read"
+          "hash": "15cca1239a1c519a819ba98a0051a296caa1ec3575d81d23b9187586f0bf43dd",
+          "attemptedAt": "2026-11-05T01:40:44.933962+00:00",
+          "lastAttemptAt": "2026-11-05T01:40:44.933962+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T01:40:44.933962+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/bzminer-current-readme.json",
+          "scope": "Current homepage, latest release body, all C29 guide platform tabs; whole README compared against accepted November2 text and every changed hunk read, unchanged text reused. Three original messages and loaded adjacent conversations revisited; no dedicated BzMiner thread controls or relevant replies observed in those ranges, not a full-channel assertion."
         },
         "https://www.bzminer.com/guides/c29.php": {
           "url": "https://www.bzminer.com/guides/c29.php",
-          "hash": "3fdd4272c4cb5c8b8ec296b1dbce02432e25baeb387cc8ce5457ad1524561f4a",
-          "evidence": "work/daily-2026-10-31/bzminer-c29-guide-browser-nov2.txt",
-          "attemptedAt": "2026-11-02T18:47:12.075861+00:00",
-          "method": "Full public Tari C29 guide read with CUA; publisher hardware conflict retained in Details.",
-          "lastAttemptAt": "2026-11-02T18:47:12.075861+00:00",
-          "lastSuccessfulReadAt": "2026-11-02T18:47:12.075861+00:00",
-          "status": "pending",
-          "pendingReason": "HTTP reader failed; supported browser fallback pending"
+          "hash": "ebbf91152f8123f932ff59ae5ff740ae355bb1311c687d6b0d561ffa735940d5",
+          "attemptedAt": "2026-11-05T01:40:44.933962+00:00",
+          "lastAttemptAt": "2026-11-05T01:40:44.933962+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T01:40:44.933962+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/bzminer-c29-current-browser.json",
+          "scope": "Current homepage, latest release body, all C29 guide platform tabs; whole README compared against accepted November2 text and every changed hunk read, unchanged text reused. Three original messages and loaded adjacent conversations revisited; no dedicated BzMiner thread controls or relevant replies observed in those ranges, not a full-channel assertion."
+        },
+        "https://github.com/bzminer/bzminer/releases/tag/v100.70": {
+          "url": "https://github.com/bzminer/bzminer/releases/tag/v100.70",
+          "hash": "20585896386741953ac3277aba290bbfd42c9e3ec26f4b0e811ee9d482ac35c5",
+          "attemptedAt": "2026-11-05T01:40:44.933962+00:00",
+          "lastAttemptAt": "2026-11-05T01:40:44.933962+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T01:40:44.933962+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/bzminer-current-releases.json",
+          "scope": "Current homepage, latest release body, all C29 guide platform tabs; whole README compared against accepted November2 text and every changed hunk read, unchanged text reused. Three original messages and loaded adjacent conversations revisited; no dedicated BzMiner thread controls or relevant replies observed in those ranges, not a full-channel assertion."
+        },
+        "https://www.bzminer.com/": {
+          "url": "https://www.bzminer.com/",
+          "hash": "2c9e59d00666aba1596fa2e1b3c2e0b6441d3b7ebdd60fff1ba9a31a85f57e86",
+          "attemptedAt": "2026-11-05T01:40:44.933962+00:00",
+          "lastAttemptAt": "2026-11-05T01:40:44.933962+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T01:40:44.933962+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/bzminer-current-homepage.txt",
+          "scope": "Current homepage, latest release body, all C29 guide platform tabs; whole README compared against accepted November2 text and every changed hunk read, unchanged text reused. Three original messages and loaded adjacent conversations revisited; no dedicated BzMiner thread controls or relevant replies observed in those ranges, not a full-channel assertion."
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
+      "lastSuccessfulReviewAt": "2026-11-05T01:40:44.933962+00:00",
       "observedAvailability": "Desktop app · NVIDIA / experimental AMD · 1% dev fee",
-      "outcome": "pending",
-      "pendingReviewSources": [
-        "https://www.bzminer.com/guides/c29.php"
-      ],
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
         "https://github.com/bzminer/bzminer"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://github.com/bzminer/bzminer",
@@ -25875,6 +25920,52 @@
           "attemptedAt": "2026-11-04T10:08:00.881447+00:00",
           "error": "The read operation timed out"
         }
+      ],
+      "reviewHistory": [
+        {
+          "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+          "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
+          "outcome": "pending",
+          "sourceReviews": {
+            "https://github.com/bzminer/bzminer": {
+              "url": "https://github.com/bzminer/bzminer",
+              "hash": "f655dc9111a82612fe18a3df4371595c270e9f3a02723346e8f2154cea72486b",
+              "revision": "003a0ff2992c300018d665d344537c78db543238",
+              "attemptedAt": "2026-11-04T10:07:01.753448+00:00",
+              "evidence": "work/daily-2026-11-04/1f92b8a721ea2ee0-f655dc9111a82612fe18a3df4371595c270e9f3a02723346e8f2154cea72486b.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:01.753448+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:01.753448+00:00",
+              "status": "read"
+            },
+            "https://www.bzminer.com/guides/c29.php": {
+              "url": "https://www.bzminer.com/guides/c29.php",
+              "hash": "3fdd4272c4cb5c8b8ec296b1dbce02432e25baeb387cc8ce5457ad1524561f4a",
+              "evidence": "work/daily-2026-10-31/bzminer-c29-guide-browser-nov2.txt",
+              "attemptedAt": "2026-11-02T18:47:12.075861+00:00",
+              "method": "Full public Tari C29 guide read with CUA; publisher hardware conflict retained in Details.",
+              "lastAttemptAt": "2026-11-02T18:47:12.075861+00:00",
+              "lastSuccessfulReadAt": "2026-11-02T18:47:12.075861+00:00",
+              "status": "pending",
+              "pendingReason": "HTTP reader failed; supported browser fallback pending"
+            }
+          },
+          "pendingReviewSources": [
+            "https://www.bzminer.com/guides/c29.php"
+          ],
+          "reviewQueue": [
+            "copy",
+            "actions",
+            "details",
+            "recording",
+            "provenance"
+          ]
+        }
+      ],
+      "publicationStatus": "pending",
+      "evidence": [
+        "work/daily-2026-11-04/mining-source-review-outcome.json"
       ]
     },
     "tari-ootle:learn:official-universe": {
