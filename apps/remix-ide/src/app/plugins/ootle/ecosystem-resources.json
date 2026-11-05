@@ -386,8 +386,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Caravel Burn Wallet",
-      "summary": "Deposit-only Ootle burn template with no withdrawal method. Funds sent into it cannot be recovered. October 23 source and creator submission describe the integrated Caravel Burn page, public totals and private transfers. The public app reaches wallet setup before the Burn page; no wallet or deposit was created. Esmeralda testnet only. Existing footage is a source walkthrough, not a burn transaction. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
-      "status": "Testnet only · irreversible deposits · runtime untested",
+      "summary": "Deposit-only Ootle template with no owner or withdrawal method; deposits cannot be recovered. November 5 source review: README revision a1d156b documents SDK 0.11 and WASM 0.47 integration examples. Its published October component returned “not found” in Veil at epoch 12,882, following the November 2 testnet reset notice. The public Caravel entry reaches wallet creation or recovery before Burn. The new recording is a walkthrough of the current README, including its historical deployment claims; it does not demonstrate a deposit or establish a replacement deployment. October bounty amounts and burned totals remain dated creator statements in the original discussions.",
+      "status": "Source code · Testnet · Irreversible deposits",
       "sourceUrl": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
       "repoUrl": "https://github.com/okansaglam016161-pixel/caravel-burn-wallet",
       "docsUrl": null,
@@ -410,9 +410,9 @@
       ],
       "demoUrl": "https://caravellabs.net",
       "preview": {
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.jpg",
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.mp4",
-        "source": "Source/docs walkthrough — application not demonstrated"
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261105.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261105.mp4",
+        "source": "Docs walkthrough"
       },
       "discussionLinks": [
         {
@@ -445,7 +445,7 @@
         }
       ],
       "cardSummary": "Explore a deposit-only Ootle template with public burn totals and private transfers into an irreversible vault.",
-      "cardStatus": "Testnet · Irreversible deposits"
+      "cardStatus": "Source code · Testnet · Irreversible deposits"
     },
     {
       "id": "tari-ootle:component:official-templates",
@@ -1582,8 +1582,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Caravel Trade",
-      "summary": "Caravel Trade has progressed from its October 14 README-only listing to implemented Rust templates, TypeScript integration and a creator-reported Esmeralda deployment. The October 23 source describes full-order TARI/cUSD trades, owner cancellation and a 1% fee split: 0.7% Caravel, 0.3% burn. cUSD is a test token with no value. The public app reaches wallet creation or recovery before Trade; no wallet was created and no order was placed. Source now builds against template_lib 0.35 and test tooling 0.47; deployed templates retain their older 0.46.1 build according to the maintainer. Recording is a README walkthrough, not a trade. Original repository discovery and earlier concept footage are retained. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
-      "status": "Web app · Testnet · Wallet required",
+      "summary": "Private peer-to-peer order-book templates exchanging testnet TARI and cUSD, a placeholder token with no value. Source describes whole-order fills, owner cancellation and a 1% TARI fee split: 0.7% Caravel and 0.3% burned. November 5 review: README revision 4f755d3 remains unchanged, documenting source tooling 0.47 and historical deployed 0.46.1 binaries. Its published order-board component returned “not found” in Veil at epoch 12,882 after the November 2 reset notice. The public Caravel entry reaches wallet creation or recovery before Trade. The October 23 README recording remains an accurate source walkthrough; its deployment claims are historical. No wallet, order or trade was created. The linked October 27 Tari Show discusses projects; it is not a Trade application demo.",
+      "status": "Source code · Testnet · Wallet required",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/25",
       "repoUrl": "https://github.com/okansaglam016161-pixel/caravel-trade",
       "docsUrl": "https://github.com/okansaglam016161-pixel/caravel-trade#readme",
@@ -1638,11 +1638,11 @@
         }
       ],
       "cardSummary": "Explore private peer-to-peer orders exchanging testnet TARI and cUSD, with full-order fills and owner cancellation.",
-      "cardStatus": "Web app · Testnet · Wallet required",
+      "cardStatus": "Source code · Testnet · Wallet required",
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-trade-20261023.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-trade-20261023.png",
-        "source": "Source/docs walkthrough — Updated README, implementation and deployment documentation; no wallet or trade."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -1778,7 +1778,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Ootle Steam Kit",
-      "summary": "Steam-linked Ootle integration kit with wallet, trade, games and prediction modules. The October 29 public guide loaded; Games, Trade and Predict were disabled before Steam sign-in. The guide says the site currently watches deliveries and settles holds itself, while template-enforced trade escrow is a future destination. Source supports optional wallet-daemon integration and a local ledger mode. Do not interpret the guide or its recording as a completed Steam trade or independently enforced settlement. MIT source reviewed; no Steam login, wallet connection, payment or gameplay was exercised. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Steam-linked Ootle integration kit with wallet, trading, games and prediction modules. November 5 public guide: Games, Trade and Predict are disabled before Steam sign-in. The site currently watches deliveries and settles holds itself; template-enforced trade escrow is a future destination. On Esmeralda, the site escrow signs the on-chain leg, with in-wallet signing described as planned for mainnet. Stealth hides amounts but not the account; voucher deposits and fees remain public. MIT source revision d54da665 remains unchanged and supports optional wallet-daemon integration and local ledger mode. The October 29 recording remains a Docs walkthrough of the settlement guide, not a completed trade or payment. No Steam login, wallet action or gameplay was performed. November 2 organizer notice records the Esmeralda reset; historical screenshots and footage retain their original dates.",
       "status": "Alpha · Testnet · Steam account",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/30",
       "repoUrl": "https://github.com/1igaming/ootle-steam-kit",
@@ -1793,7 +1793,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "d54da6654ed0100405e9413cabc3738a418d1b99",
       "sourceUpdatedAt": "2026-10-26T19:06:41.496Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "lastCheckedAt": "2026-11-05T15:46:02.653Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1828,7 +1828,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-steam-kit-20261029.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-steam-kit-20261029.png",
-        "source": "Source/docs walkthrough — public settlement guide; no steam login, trade or payment."
+        "source": "Docs walkthrough"
       }
     },
     {

@@ -211,7 +211,7 @@
         {
           "reviewedAt": "2026-11-05T14:16:25.397195+00:00",
           "evidence": "work/daily-2026-11-04/caravel-faucet-source-review-nov5.json",
-          "scope": "Reusable Esmeralda testnet faucet template. The November 5 review of revision 574c7d9 documents Ootle 0.47, Protocol V2 from epoch 12220, SDK 0.11 and WASM 0.47. It pays a configurable amount, initially 1,000 tTARI, once per public key across apps; keys are not a per-person identity limit. The fee can come from the claim. The administrator can pause, change the amount and withdraw. README deployment/dry-run results are maintainer-reported historical 0.42–0.47 evidence, not confirmation on a later reset network. The October 4 original thread and all visible replies were reviewed, including the unanswered October 31 frontend question. Caravel’s public entry requires wallet creation/import. The November 5 recording walks through the current README; no wallet was created or claim submitted."
+          "scope": "Reusable Esmeralda testnet faucet template. The November 5 review of revision 574c7d9 documents Ootle 0.47, Protocol V2 from epoch 12220, SDK 0.11 and WASM 0.47. It pays a configurable amount, initially 1,000 tTARI, once per public key across apps; keys are not a per-person identity limit. The fee can come from the claim. The administrator can pause, change the amount and withdraw. README deployment/dry-run results are maintainer-reported historical 0.42\u20130.47 evidence, not confirmation on a later reset network. The October 4 original thread and all visible replies were reviewed, including the unanswered October 31 frontend question. Caravel\u2019s public entry requires wallet creation/import. The November 5 recording walks through the current README; no wallet was created or claim submitted."
         }
       ]
     },
@@ -395,7 +395,7 @@
           "author": "tariproject.bsky.social",
           "publishedAt": "2026-10-19T10:30:01.438Z",
           "foundOn": "2026-10-29",
-          "context": "The blank page is the scariest part.\r\nStart with Tari’s WASM templates for tokens, NFTs, swaps, LPs, and more. Explore the code, then turn it into your own confidential concoction.\r\nPick your starting point:\r\nhttps://github.com/tari-project/wasm-template/tree/main/wasm_templates",
+          "context": "The blank page is the scariest part.\r\nStart with Tari\u2019s WASM templates for tokens, NFTs, swaps, LPs, and more. Explore the code, then turn it into your own confidential concoction.\r\nPick your starting point:\r\nhttps://github.com/tari-project/wasm-template/tree/main/wasm_templates",
           "visibility": "public"
         }
       ],
@@ -443,7 +443,7 @@
           "author": "hycorange",
           "publishedAt": "2026-10-12T13:55:52.735Z",
           "foundOn": "2026-10-13",
-          "context": "Phantom Drop submission links proof transactions on the recovered Veil hostname; not Veil’s original announcement",
+          "context": "Phantom Drop submission links proof transactions on the recovered Veil hostname; not Veil\u2019s original announcement",
           "visibility": "public"
         },
         {
@@ -524,10 +524,11 @@
       "sharingPosts": [
         {
           "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "foundOn": "2026-10-10",
           "context": "Burn wallet builder announcement",
-          "visibility": "public"
+          "visibility": "public",
+          "author": "Okan01616161"
         },
         {
           "url": "https://x.com/Caravelxyz/status/2108591594236481966",
@@ -535,8 +536,15 @@
           "author": "Caravel (@Caravelxyz)",
           "publishedAt": "2026-10-09",
           "foundOn": "2026-10-12",
-          "context": "Creator announcement linked as full rules from the original Reddit post; replies unavailable without sign-in.",
-          "visibility": "public"
+          "context": "Creator burn-wallet announcement; dated bounty rules and nested discussion reviewed November5.",
+          "visibility": "public",
+          "reviewHistory": [
+            {
+              "checkedAt": "2026-11-05T15:29:18.678413+00:00",
+              "previousContext": "Creator announcement linked as full rules from the original Reddit post; replies unavailable without sign-in.",
+              "observation": "Original and all three direct reply branches with nested replies read through authorized browser November5."
+            }
+          ]
         },
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/24",
@@ -549,7 +557,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1xchqoz/caravel_burn_wallet_a_private_verifiable_burn/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "Okan01616161",
           "foundOn": "2026-10-23",
           "context": "Updated creator announcement",
@@ -565,11 +573,32 @@
           "context": "Creator announces Caravel Burn Wallet and Caravel Trade October submissions, linking both Reddit originals and caravellabs.net.",
           "visibility": "public",
           "evidence": "work/daily-2026-10-31/x-caravel-contest-original-nov2.txt"
+        },
+        {
+          "url": "https://x.com/Caravelxyz/status/2108591597726433743",
+          "platform": "X",
+          "author": "Caravel (@Caravelxyz)",
+          "publishedAt": "2026-10-09",
+          "foundOn": "2026-11-05",
+          "context": "Creator reply with historical Esmeralda bounty rules",
+          "visibility": "public",
+          "evidence": "work/daily-2026-11-04/caravel-burn-original-replies-nov5.txt"
+        },
+        {
+          "url": "https://x.com/Caravelxyz/status/2108591601333502346",
+          "platform": "X",
+          "author": "Caravel (@Caravelxyz)",
+          "publishedAt": "2026-10-09",
+          "foundOn": "2026-11-05",
+          "context": "Creator reply sharing the open-source burn wallet repository",
+          "visibility": "public",
+          "evidence": "work/daily-2026-11-04/caravel-burn-original-replies-nov5.txt"
         }
       ],
       "originalPostStatus": "Known public sharing posts retained; earliest internet origin not asserted.",
       "foundOn": "2026-10-10",
-      "evidence": "October 10 browser-read Reddit post recorded in the completed maintenance run; not newly rechecked"
+      "evidence": "October 10 browser-read Reddit post recorded in the completed maintenance run; not newly rechecked",
+      "latestReviewEvidence": "work/daily-2026-11-04/caravel-reset-source-review-nov5.json"
     },
     {
       "id": "liquidity",
@@ -710,7 +739,7 @@
           "publishedAt": "2026-10-12",
           "eventDate": "2026-10-06",
           "foundOn": "2026-11-02",
-          "context": "17:31–18:26: September contest second-place announcement.",
+          "context": "17:31\u201318:26: September contest second-place announcement.",
           "visibility": "public",
           "relationship": "additional public discussion; original creator post retained",
           "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
@@ -768,7 +797,7 @@
           "publishedAt": "2026-10-12",
           "eventDate": "2026-10-06",
           "foundOn": "2026-11-02",
-          "context": "16:28–19:50: September contest first-place announcement and Council voting-wallet use, as reported by speakers.",
+          "context": "16:28\u201319:50: September contest first-place announcement and Council voting-wallet use, as reported by speakers.",
           "visibility": "public",
           "relationship": "additional public discussion; original creator post retained",
           "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
@@ -829,7 +858,7 @@
           "publishedAt": "2026-10-12",
           "eventDate": "2026-10-06",
           "foundOn": "2026-11-02",
-          "context": "16:50–17:26 and 25:04: September third-place announcement and historical v0.4 Android app mention.",
+          "context": "16:50\u201317:26 and 25:04: September third-place announcement and historical v0.4 Android app mention.",
           "visibility": "public",
           "relationship": "additional public discussion; original creator post retained",
           "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
@@ -976,7 +1005,7 @@
         }
       ],
       "status": "reviewed-publication-pending",
-      "reason": "Official desktop mining application and companion wallet. Release v1.6.20, published October 29, 2026, fixes non-text payment IDs and bundles Minotari v0.5.2. The release says oversized payment IDs are refused before reserving funds and history reflects the ID actually sent. v1.6.18 introduced the embedded wallet and Ootle Esmeralda testnet wallet; its NVIDIA TARI Miner integration supports one GPU, and Linux Flatpak requires manual updates. November 2 review covered the public README and complete v1.6.18–v1.6.20 release notes. The recording is an announcement walkthrough of v1.6.20, not a demonstrated wallet or mining session. Earlier source footage and official social announcements are retained in the discovery trail.",
+      "reason": "Official desktop mining application and companion wallet. Release v1.6.20, published October 29, 2026, fixes non-text payment IDs and bundles Minotari v0.5.2. The release says oversized payment IDs are refused before reserving funds and history reflects the ID actually sent. v1.6.18 introduced the embedded wallet and Ootle Esmeralda testnet wallet; its NVIDIA TARI Miner integration supports one GPU, and Linux Flatpak requires manual updates. November 2 review covered the public README and complete v1.6.18\u2013v1.6.20 release notes. The recording is an announcement walkthrough of v1.6.20, not a demonstrated wallet or mining session. Earlier source footage and official social announcements are retained in the discovery trail.",
       "reviewEvidence": [
         "work/daily-2026-10-31/wallet-resource-refresh-nov2.json",
         "work/daily-2026-10-31/wallet-local-playback-nov2.json",
@@ -1107,7 +1136,7 @@
           "author": "tariproject.bsky.social",
           "publishedAt": "2026-10-27T13:00:13.338Z",
           "foundOn": "2026-10-29",
-          "context": "A ghost sells you a secret. What happens when it delivers a fake? 👻\r\n\r\nCrypt turns encrypted sales and escrow disputes into a playable browser demo for Tari’s Spooky Secrets contest.\r\n\r\nNo wallet needed. Enter the crypt:\r\nhttps://lrifton92.github.io/crypt/",
+          "context": "A ghost sells you a secret. What happens when it delivers a fake? \ud83d\udc7b\r\n\r\nCrypt turns encrypted sales and escrow disputes into a playable browser demo for Tari\u2019s Spooky Secrets contest.\r\n\r\nNo wallet needed. Enter the crypt:\r\nhttps://lrifton92.github.io/crypt/",
           "visibility": "public"
         },
         {
@@ -1136,7 +1165,7 @@
       ],
       "sourceArchiveUrl": "https://tari-crypt.vercel.app/crypt-source-683bc4e.zip",
       "sourceArchiveSha256": "ec64b4e5acde3ef73819371871d54a7190aa7d32388b1a19229081e6049bb96f",
-      "notes": "Secret-trading template and documented browser simulation. The creator’s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil’s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README’s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
+      "notes": "Secret-trading template and documented browser simulation. The creator\u2019s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil\u2019s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README\u2019s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
       "publicationStatus": "update-publication-pending",
       "destinationHistory": [
         {
@@ -1163,7 +1192,7 @@
           ],
           "sourceArchiveUrl": "https://tari-crypt.vercel.app/crypt-source-683bc4e.zip",
           "sourceArchiveSha256": "ec64b4e5acde3ef73819371871d54a7190aa7d32388b1a19229081e6049bb96f",
-          "notes": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 31 reviewed forum entry identifies ogboy92ii/crypt as the full-history mirror of the restricted Lrifton92/crypt repository; the replacement demo and earlier source archive remain available. BSD-3-Clause source. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The October 29 recording shows the mirror’s requirements and title screen, with no wallet or transaction. Earlier simulation footage and retired URLs remain in the maintenance history.",
+          "notes": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator\u2019s October 31 reviewed forum entry identifies ogboy92ii/crypt as the full-history mirror of the restricted Lrifton92/crypt repository; the replacement demo and earlier source archive remain available. BSD-3-Clause source. The mirrored ON-CHAIN \u00b7 SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The October 29 recording shows the mirror\u2019s requirements and title screen, with no wallet or transaction. Earlier simulation footage and retired URLs remain in the maintenance history.",
           "publicationStatus": "published-live-verified",
           "destinationHistory": [
             {
@@ -1213,7 +1242,7 @@
           "author": "tariproject.bsky.social",
           "publishedAt": "2026-10-30T13:00:01.495Z",
           "foundOn": "2026-10-31",
-          "context": "A claim link. A riddle. A countdown. 👻\r\n\r\nPhantom Drop explores secret-linked testnet claims, optional riddle locks and expiry reclaim for Tari’s Spooky Secrets contest.\r\n\r\nMeet the project:\r\nhttps://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8\r\n\r\n",
+          "context": "A claim link. A riddle. A countdown. \ud83d\udc7b\r\n\r\nPhantom Drop explores secret-linked testnet claims, optional riddle locks and expiry reclaim for Tari\u2019s Spooky Secrets contest.\r\n\r\nMeet the project:\r\nhttps://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/8\r\n\r\n",
           "visibility": "public"
         },
         {
@@ -1296,7 +1325,7 @@
           "visibility": "public"
         }
       ],
-      "notes": "Public message board on Ootle testnet with public threads and encrypted sealed rooms. October 31 inspection loaded six general threads, runtime 0.46.0 and a Sapient wallet option. The creator’s October 30 update adds Sapient posting alongside the browser wallet; funded extension posting remains outstanding in the creator’s evidence. Classic invitations share a key in the URL fragment; recipient invitations, a separate recovery vault and future-message rotation are also described. Old keys and plaintext cannot be revoked, wallet recovery does not restore room keys, and messages do not authenticate individual authors. Titles, fees, spent-output links, timing and network metadata remain public; accepted posts cannot be edited or deleted. The refreshed recording shows public pages and privacy documentation, with no wallet or private-room action.",
+      "notes": "Public message board on Ootle testnet with public threads and encrypted sealed rooms. October 31 inspection loaded six general threads, runtime 0.46.0 and a Sapient wallet option. The creator\u2019s October 30 update adds Sapient posting alongside the browser wallet; funded extension posting remains outstanding in the creator\u2019s evidence. Classic invitations share a key in the URL fragment; recipient invitations, a separate recovery vault and future-message rotation are also described. Old keys and plaintext cannot be revoked, wallet recovery does not restore room keys, and messages do not authenticate individual authors. Titles, fees, spent-output links, timing and network metadata remain public; accepted posts cannot be edited or deleted. The refreshed recording shows public pages and privacy documentation, with no wallet or private-room action.",
       "status": "update-publication-pending",
       "publicationEvidence": "outputs/daily-2026-10-29/release.json",
       "destinationHistory": [
@@ -1362,7 +1391,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "Okan01616161",
           "foundOn": "2026-10-23",
           "context": "Creator Trade announcement",
@@ -1518,7 +1547,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "u/Serious-Bad8845",
           "foundOn": "2026-10-16",
           "context": "Creator-linked Sealed Coffin announcement; body removed by Reddit filters when inspected October16",
@@ -1543,7 +1572,7 @@
       "projectUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
       "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
       "status": "qualified-announcement",
-      "reason": "The creator describes a testnet inheritance vault: a keeper’s heartbeat postpones a deadline, an heir claims after expiry, and the keeper can cancel while alive. The announcement describes stealth payouts but notes that the locked balance, heartbeat timing and claim timing remain public. November 4, 2026: the forum submission and Bluesky announcement were reviewed, including the returned reply stream. The linked repository returns 404 in both API and browser; no replacement destination was found in those sources. MIT licensing and six passing tests are creator statements from October 15, not independently confirmed source or test results. The announced template library 0.34 and test tooling 0.45 predate the November 2 Esmeralda reset notice; no current deployment was established. This recording shows the public announcement only, without application execution, wallets or transactions.",
+      "reason": "The creator describes a testnet inheritance vault: a keeper\u2019s heartbeat postpones a deadline, an heir claims after expiry, and the keeper can cancel while alive. The announcement describes stealth payouts but notes that the locked balance, heartbeat timing and claim timing remain public. November 4, 2026: the forum submission and Bluesky announcement were reviewed, including the returned reply stream. The linked repository returns 404 in both API and browser; no replacement destination was found in those sources. MIT licensing and six passing tests are creator statements from October 15, not independently confirmed source or test results. The announced template library 0.34 and test tooling 0.45 predate the November 2 Esmeralda reset notice; no current deployment was established. This recording shows the public announcement only, without application execution, wallets or transactions.",
       "sharingPosts": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/11",
@@ -1560,7 +1589,7 @@
           "author": "remmylof.bsky.social",
           "publishedAt": "2026-10-14T11:31:18.289Z",
           "foundOn": "2026-10-16",
-          "context": "Spooky Secrets 🎃 My entry for the @tariproject.bsky.social Ootle contest: Witching Hour 🕯️\n\nA private dead man's switch. Check in before the deadline, or a hidden heir inherits your XTM as stealth UTXOs. Nobody knows who the heir is until they claim.\n\ngithub.com/Danielkallala/witching-vault",
+          "context": "Spooky Secrets \ud83c\udf83 My entry for the @tariproject.bsky.social Ootle contest: Witching Hour \ud83d\udd6f\ufe0f\n\nA private dead man's switch. Check in before the deadline, or a hidden heir inherits your XTM as stealth UTXOs. Nobody knows who the heir is until they claim.\n\ngithub.com/Danielkallala/witching-vault",
           "visibility": "public"
         }
       ],
@@ -1588,7 +1617,7 @@
               "author": "remmylof.bsky.social",
               "publishedAt": "2026-10-14T11:31:18.289Z",
               "foundOn": "2026-10-16",
-              "context": "Spooky Secrets 🎃 My entry for the @tariproject.bsky.social Ootle contest: Witching Hour 🕯️\n\nA private dead man's switch. Check in before the deadline, or a hidden heir inherits your XTM as stealth UTXOs. Nobody knows who the heir is until they claim.\n\ngithub.com/Danielkallala/witching-vault",
+              "context": "Spooky Secrets \ud83c\udf83 My entry for the @tariproject.bsky.social Ootle contest: Witching Hour \ud83d\udd6f\ufe0f\n\nA private dead man's switch. Check in before the deadline, or a hidden heir inherits your XTM as stealth UTXOs. Nobody knows who the heir is until they claim.\n\ngithub.com/Danielkallala/witching-vault",
               "visibility": "public"
             }
           ]
@@ -1724,7 +1753,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "u/Awkward_Remote_1070",
           "publishedAt": "2026-10-17T21:40:57.460Z",
           "foundOn": "2026-10-19",
@@ -1755,7 +1784,7 @@
           "author": "tariproject.bsky.social",
           "publishedAt": "2026-10-29T13:00:00.476Z",
           "foundOn": "2026-10-31",
-          "context": "An AI agent makes another API call. How should it pay? 👻\r\n\r\nGhostline explores pay-per-call channels on Tari Ootle: off-chain vouchers, then settlement of the accepted total.\r\n\r\nSee the explainer and testnet evidence:\r\nhttps://ghostline-ui.vercel.app/\r\n\r\n",
+          "context": "An AI agent makes another API call. How should it pay? \ud83d\udc7b\r\n\r\nGhostline explores pay-per-call channels on Tari Ootle: off-chain vouchers, then settlement of the accepted total.\r\n\r\nSee the explainer and testnet evidence:\r\nhttps://ghostline-ui.vercel.app/\r\n\r\n",
           "visibility": "public"
         },
         {
@@ -1770,7 +1799,7 @@
         }
       ],
       "status": "published",
-      "notes": "Private pay-per-call channels for AI agents, with cumulative vouchers and one settlement. The October 23 recording runs five simulated browser calls and shows separate archived evidence; these clicks created no transaction. October 24 review of the creator’s recorded-runs page found a hosted Sapient run dated October 23 and CLI run dated October 22, each reporting five calls and a final settlement. Call counts come from service ledgers, not chain proof; the explorer availability labels are dated October 23 creator observations. The Sapient relay controls the test deposit and refund; browser voucher keys do not remove that custody. Requests, timing and fees remain visible. No wallet, relay payment or CLI was run here.",
+      "notes": "Private pay-per-call channels for AI agents, with cumulative vouchers and one settlement. The October 23 recording runs five simulated browser calls and shows separate archived evidence; these clicks created no transaction. October 24 review of the creator\u2019s recorded-runs page found a hosted Sapient run dated October 23 and CLI run dated October 22, each reporting five calls and a final settlement. Call counts come from service ledgers, not chain proof; the explorer availability labels are dated October 23 creator observations. The Sapient relay controls the test deposit and refund; browser voucher keys do not remove that custody. Requests, timing and fees remain visible. No wallet, relay payment or CLI was run here.",
       "publicationEvidence": "daily-2026-10-19/release.json",
       "originalPostStatus": "Public creator announcements retained alongside the original discovery page.",
       "documentationUrls": [
@@ -1788,7 +1817,7 @@
     },
     {
       "id": "seance",
-      "title": "Séance",
+      "title": "S\u00e9ance",
       "projectUrl": "https://seance.madebydevx.com",
       "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
       "sharingPosts": [
@@ -1798,7 +1827,7 @@
           "author": "DevXTools",
           "publishedAt": "2026-10-20T11:25:58.437Z",
           "foundOn": "2026-10-20",
-          "context": "October contest submission for Séance sealed group polls, with source and network proof links",
+          "context": "October contest submission for S\u00e9ance sealed group polls, with source and network proof links",
           "visibility": "public"
         },
         {
@@ -1837,7 +1866,7 @@
       "sharingPosts": [
         {
           "url": "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "u/Competitive-Heart387",
           "publishedAt": "2026-10-20T13:32:56.682Z",
           "foundOn": "2026-10-20",
@@ -1861,13 +1890,13 @@
         {
           "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
           "evidence": "work/daily-2026-11-04/sealed-bids-at-midnight-review-outcome.json",
-          "scope": "November 4 availability review: the README remains at f8796ec7 and the release list is empty. The original Reddit post shows no comments. The documented Esmeralda component lookup now returns Substate not found; no replacement address was found in the reviewed README or announcement. The retained October 20 README walkthrough includes the creator’s historical terminal GIF, not a new auction execution."
+          "scope": "November 4 availability review: the README remains at f8796ec7 and the release list is empty. The original Reddit post shows no comments. The documented Esmeralda component lookup now returns Substate not found; no replacement address was found in the reviewed README or announcement. The retained October 20 README walkthrough includes the creator\u2019s historical terminal GIF, not a new auction execution."
         }
       ]
     },
     {
       "id": "seance-privacy",
-      "title": "Seance — privacy demo",
+      "title": "Seance \u2014 privacy demo",
       "projectUrl": "https://kylne700.github.io/seance-v2/",
       "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
       "sharingPosts": [
@@ -1895,7 +1924,7 @@
           "author": "tariproject.bsky.social",
           "publishedAt": "2026-10-28T13:00:00.509Z",
           "foundOn": "2026-10-29",
-          "context": "What can a stranger see in a private payment? 👻\r\n\r\nSeance lets you compare the public view, a recipient’s view and an auditor’s view using Tari testnet examples. It also shows what still leaks.\r\n\r\nExplore:\r\nhttps://kylne700.github.io/seance/",
+          "context": "What can a stranger see in a private payment? \ud83d\udc7b\r\n\r\nSeance lets you compare the public view, a recipient\u2019s view and an auditor\u2019s view using Tari testnet examples. It also shows what still leaks.\r\n\r\nExplore:\r\nhttps://kylne700.github.io/seance/",
           "visibility": "public"
         },
         {
@@ -1910,7 +1939,7 @@
         }
       ],
       "status": "update-publication-pending",
-      "notes": "Compare what strangers, recipients and auditors can learn from private Esmeralda payments. The creator’s v2 searches the latest 40 indexer transactions locally before asking for a user-entered ID; an explicit Ask for it anyway action can disclose that ID. The initial example remains a labeled saved October 20 copy. October 31 Summon inspection returned a current Commit receipt through a public indexer read. The page reported six requests to two hosts and zero ID requests; this is its own report, not an independent network audit. An optional Sapient transfer goes to a demonstration recipient whose view key is public. Timing, fees and spend links remain visible. Old transaction bodies are unavailable from the indexers; receipts alone cannot reverify their encrypted bytes. The recording covers the picker and request explanation without a wallet or payment. v1 remains at its earlier URL; this is distinct from DevXTools’ sealed polls.",
+      "notes": "Compare what strangers, recipients and auditors can learn from private Esmeralda payments. The creator\u2019s v2 searches the latest 40 indexer transactions locally before asking for a user-entered ID; an explicit Ask for it anyway action can disclose that ID. The initial example remains a labeled saved October 20 copy. October 31 Summon inspection returned a current Commit receipt through a public indexer read. The page reported six requests to two hosts and zero ID requests; this is its own report, not an independent network audit. An optional Sapient transfer goes to a demonstration recipient whose view key is public. Timing, fees and spend links remain visible. Old transaction bodies are unavailable from the indexers; receipts alone cannot reverify their encrypted bytes. The recording covers the picker and request explanation without a wallet or payment. v1 remains at its earlier URL; this is distinct from DevXTools\u2019 sealed polls.",
       "publicationEvidence": "outputs/daily-2026-10-29/release.json",
       "destinationHistory": [
         {
@@ -1999,7 +2028,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1xc4cdg/graveyard_shift_payroll_where_the_salaries_stay/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "deeznertsz",
           "publishedAt": "2026-10-22T00:38:19.603Z",
           "foundOn": "2026-10-23",
@@ -2021,7 +2050,7 @@
         }
       ],
       "status": "published",
-      "notes": "Confidential payroll template and interactive browser replay. October 23 inspection showed Alice’s recorded 3000 SHIFT pay stub, an auditor reconciliation to the 10000 SHIFT budget, and hidden coworker amounts. The page replays an engine transcript; it does not decrypt or pay through the browser. The original post’s empty-faucet limitation was superseded by the creator’s October 22 update linking a published Esmeralda template and two-paycheck shift transaction. The browser replay has three paychecks and is separate from that deployment evidence. Roster, roles, paid status and total budget remain public; the auditor key is fixed per payroll. MIT source; no wallet or payroll transaction performed here.",
+      "notes": "Confidential payroll template and interactive browser replay. October 23 inspection showed Alice\u2019s recorded 3000 SHIFT pay stub, an auditor reconciliation to the 10000 SHIFT budget, and hidden coworker amounts. The page replays an engine transcript; it does not decrypt or pay through the browser. The original post\u2019s empty-faucet limitation was superseded by the creator\u2019s October 22 update linking a published Esmeralda template and two-paycheck shift transaction. The browser replay has three paychecks and is separate from that deployment evidence. Roster, roles, paid status and total budget remain public; the auditor key is fixed per payroll. MIT source; no wallet or payroll transaction performed here.",
       "publishedOn": "2026-10-23"
     },
     {
@@ -2041,7 +2070,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1xbv9r6/i_built_a_private_cloud_storage_on_the_tari_ootle/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "c7b",
           "context": "Creator announcement",
           "foundOn": "2026-10-23",
@@ -2061,7 +2090,7 @@
           "author": "tariproject.bsky.social",
           "publishedAt": "2026-10-30T00:20:00.519Z",
           "foundOn": "2026-10-31",
-          "context": "Send a file. Let the link open once. 📦\r\n\r\nHideBox brings browser-encrypted sharing, expiring access and testnet pay-to-open experiments to Tari’s Spooky Secrets submissions.\r\n\r\nExplore the beta with a sample file:\r\nhttps://hidebox.app/\r\n\r\n",
+          "context": "Send a file. Let the link open once. \ud83d\udce6\r\n\r\nHideBox brings browser-encrypted sharing, expiring access and testnet pay-to-open experiments to Tari\u2019s Spooky Secrets submissions.\r\n\r\nExplore the beta with a sample file:\r\nhttps://hidebox.app/\r\n\r\n",
           "visibility": "public"
         },
         {
@@ -2158,7 +2187,7 @@
       "sharingPosts": [
         {
           "url": "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "deeznertsz / XachP",
           "publishedAt": "2026-10-22T02:09:38.621Z",
           "foundOn": "2026-10-23",
@@ -2175,7 +2204,7 @@
         }
       ],
       "status": "published",
-      "notes": "Confidential humanitarian cash-aid prototype with household enrollment, duplicate-entitlement checks and replacement wallets. The browser replays the creator’s recorded Esmeralda verifier results; it decrypts nothing itself. October 23 inspection showed Household A’s 3000 HEARTH grant and the auditor’s different view of all amounts, with public household counts and total funding. MIT source, template and transaction links are provided by the creator. No grant or wallet transaction was performed. Cohorts, timing and public counts remain visible; privacy and duplicate-enrollment claims depend on the documented registration model. Shared for Web3 for Social Good, not presented as an October contest entry.",
+      "notes": "Confidential humanitarian cash-aid prototype with household enrollment, duplicate-entitlement checks and replacement wallets. The browser replays the creator\u2019s recorded Esmeralda verifier results; it decrypts nothing itself. October 23 inspection showed Household A\u2019s 3000 HEARTH grant and the auditor\u2019s different view of all amounts, with public household counts and total funding. MIT source, template and transaction links are provided by the creator. No grant or wallet transaction was performed. Cohorts, timing and public counts remain visible; privacy and duplicate-enrollment claims depend on the documented registration model. Shared for Web3 for Social Good, not presented as an October contest entry.",
       "publishedOn": "2026-10-23"
     },
     {
@@ -2204,7 +2233,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/s/Z9ZhhA4BZ2",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "zayyyyyyyyy_",
           "foundOn": "2026-10-24",
           "context": "Short sharing link retained from forum submission",
@@ -2212,7 +2241,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1xbopnt/i_built_grave_robber_a_2d_gothic_crypt_heist_on/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "zayyyyyyyyy_",
           "foundOn": "2026-10-24",
           "context": "Resolved original post; public page says removed by Reddit filters on October 24",
@@ -2256,11 +2285,11 @@
         }
       ],
       "status": "existing-listing-refresh-pending",
-      "notes": "Prediction markets, token launching and games on Ootle testnet. The creator’s October 21 v2 announcement adds Call It UP/DOWN trading and longer-dated prediction markets after the announced v0.47 upgrade. October 24 public entry inspection reached a wallet gate; no wallet was created or unlocked and no trade was placed. The refreshed recording shows the public entry screen in an isolated browser, not market execution. The earlier community-directory walkthrough remains in media history."
+      "notes": "Prediction markets, token launching and games on Ootle testnet. The creator\u2019s October 21 v2 announcement adds Call It UP/DOWN trading and longer-dated prediction markets after the announced v0.47 upgrade. October 24 public entry inspection reached a wallet gate; no wallet was created or unlocked and no trade was placed. The refreshed recording shows the public entry screen in an isolated browser, not market execution. The earlier community-directory walkthrough remains in media history."
     },
     {
       "id": "arkimals",
-      "title": "Arkimals — Halloween on Tari",
+      "title": "Arkimals \u2014 Halloween on Tari",
       "projectUrl": "https://tari.staging.arkimals-game.com/",
       "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
       "sharingPosts": [
@@ -2367,7 +2396,7 @@
         }
       ],
       "status": "published",
-      "notes": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
+      "notes": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator\u2019s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host\u2019s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
       "publicationEvidence": "outputs/daily-2026-10-29/release.json",
       "reviewHistory": [
         {
@@ -2404,7 +2433,7 @@
         }
       ],
       "status": "published",
-      "notes": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
+      "notes": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources\u2019 private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
       "publicationEvidence": "outputs/daily-2026-10-29/release.json",
       "reviewHistory": [
         {
@@ -2461,7 +2490,7 @@
         }
       ],
       "status": "qualified-publication-pending",
-      "notes": "Selective-disclosure credentials on Tari Ootle Esmeralda, with issuer, holder, verifier and public observer views. The issuer creates stealth outputs with a public tier floor and can freeze or revoke them; the holder answers a fresh ownership challenge. The issuer can read exact values, repeated presentations of the same output are linkable, and the verifier trusts its indexer. The hosted issuer desk is closed; issuance requires the separate local issuer service. October 31 review covered the creator’s forum and Bluesky announcements, MIT repository and public website. The recording shows public explanations and deployment links; no wallet connection, credential issuance or proof signing was performed."
+      "notes": "Selective-disclosure credentials on Tari Ootle Esmeralda, with issuer, holder, verifier and public observer views. The issuer creates stealth outputs with a public tier floor and can freeze or revoke them; the holder answers a fresh ownership challenge. The issuer can read exact values, repeated presentations of the same output are linkable, and the verifier trusts its indexer. The hosted issuer desk is closed; issuance requires the separate local issuer service. October 31 review covered the creator\u2019s forum and Bluesky announcements, MIT repository and public website. The recording shows public explanations and deployment links; no wallet connection, credential issuance or proof signing was performed."
     },
     {
       "id": "ghost-candy-cards",
@@ -2517,7 +2546,7 @@
         }
       ],
       "status": "qualified-publication-pending",
-      "notes": "David J’s riddle-and-stealth-output app combines an encrypted memo, answer-derived signing key and time conditions. Correct answers decrypt locally; claiming and returning funds require transactions. Public riddles can be guessed offline, first valid claim wins, and browser-stored keys need a backup. The Midnight Grave uses epoch 13031; the creator revised its estimated opening to early November rather than a fixed Halloween time. October 31 review covered the source, original announcement and public landing page. The recording shows the public explanation only; no funding, claim or return was attempted. This is a separate community project from the Workbench Dead Drop social-deduction game."
+      "notes": "David J\u2019s riddle-and-stealth-output app combines an encrypted memo, answer-derived signing key and time conditions. Correct answers decrypt locally; claiming and returning funds require transactions. Public riddles can be guessed offline, first valid claim wins, and browser-stored keys need a backup. The Midnight Grave uses epoch 13031; the creator revised its estimated opening to early November rather than a fixed Halloween time. October 31 review covered the source, original announcement and public landing page. The recording shows the public explanation only; no funding, claim or return was attempted. This is a separate community project from the Workbench Dead Drop social-deduction game."
     },
     {
       "id": "ootle-accord",
@@ -2545,7 +2574,7 @@
         }
       ],
       "status": "qualified-publication-pending",
-      "notes": "Community milestone escrow with capped native-TARI funding, a percentage quorum and a mandatory reviewer. Contribution amounts, reviewer identities and votes are public; fixed-destination payouts and refunds use private outputs with encrypted recovery memos. The current community accord displays a completed 10 tTARI payout and three approvals; four designated reviewers share a test operator. Create exports terms rather than deploying another escrow. October 31 review inspected the creator’s README, original submission and public accord/review screens; no wallet connection or transaction was performed. The app trusts its pinned indexer; the creator distinguishes installed-extension validation from SDK tests."
+      "notes": "Community milestone escrow with capped native-TARI funding, a percentage quorum and a mandatory reviewer. Contribution amounts, reviewer identities and votes are public; fixed-destination payouts and refunds use private outputs with encrypted recovery memos. The current community accord displays a completed 10 tTARI payout and three approvals; four designated reviewers share a test operator. Create exports terms rather than deploying another escrow. October 31 review inspected the creator\u2019s README, original submission and public accord/review screens; no wallet connection or transaction was performed. The app trusts its pinned indexer; the creator distinguishes installed-extension validation from SDK tests."
     },
     {
       "id": "ghost-gate",
@@ -2620,7 +2649,7 @@
         {
           "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
           "evidence": "work/daily-2026-11-04/ootlebook-review-outcome.json",
-          "scope": "November 4 availability review: the public directory loads cached records and reports it could not reach Ootle, with its last read two days earlier. The live /skill.md endpoint returned HTTP 403 and a browser access error; the complete manual generator was reviewed in source at c4471697. The creator’s November 2 X post, direct reply and nested reply were read. Existing October 31 footage shows the directory at its capture date, not current chain freshness."
+          "scope": "November 4 availability review: the public directory loads cached records and reports it could not reach Ootle, with its last read two days earlier. The live /skill.md endpoint returned HTTP 403 and a browser access error; the complete manual generator was reviewed in source at c4471697. The creator\u2019s November 2 X post, direct reply and nested reply were read. Existing October 31 footage shows the directory at its capture date, not current chain freshness."
         }
       ]
     },
@@ -2890,7 +2919,7 @@
         {
           "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
           "evidence": "work/daily-2026-11-04/two-layers-review-outcome.json",
-          "scope": "November 4 source review: the full Medium article, empty response panel and original forum submission were read. The article distinguishes Minotari’s registration and epoch roles from Ootle’s own validator execution and finality, and includes an AI-assistance disclosure."
+          "scope": "November 4 source review: the full Medium article, empty response panel and original forum submission were read. The article distinguishes Minotari\u2019s registration and epoch roles from Ootle\u2019s own validator execution and finality, and includes an AI-assistance disclosure."
         }
       ]
     },
@@ -2924,7 +2953,7 @@
           "author": "Rajesh",
           "publishedAt": null,
           "foundOn": "2026-11-04",
-          "context": "Creator’s November3 update retaining the original article",
+          "context": "Creator\u2019s November3 update retaining the original article",
           "visibility": "public"
         }
       ],
@@ -2932,7 +2961,7 @@
         {
           "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
           "evidence": "work/daily-2026-11-04/turbine-explainer-review-outcome.json",
-          "scope": "November 4 source review: the full Reddit post has no comments; the creator’s forum update at post 17 retains this article. The official Fees reference now lists 250 µT per new substate, rather than the article’s 25 µT example. Template publication also includes storage and compilation charges beyond the stated flat fee. The fixed 500-basis-point burn is rounded down; consult the current reference for network rates and dry-run estimates."
+          "scope": "November 4 source review: the full Reddit post has no comments; the creator\u2019s forum update at post 17 retains this article. The official Fees reference now lists 250 \u00b5T per new substate, rather than the article\u2019s 25 \u00b5T example. Template publication also includes storage and compilation charges beyond the stated flat fee. The fixed 500-basis-point burn is rounded down; consult the current reference for network rates and dry-run estimates."
         }
       ]
     },
@@ -2966,7 +2995,7 @@
           "author": "Rajesh",
           "publishedAt": null,
           "foundOn": "2026-11-04",
-          "context": "Creator’s November3 update retaining the original article",
+          "context": "Creator\u2019s November3 update retaining the original article",
           "visibility": "public"
         }
       ],
@@ -2974,7 +3003,7 @@
         {
           "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
           "evidence": "work/daily-2026-11-04/sharding-explainer-review-outcome.json",
-          "scope": "November 4 source review: the complete Reddit post has no comments; the creator’s forum update at post 17 was also read. The current official Architecture and Consensus pages support the described state-sharding and committee/quorum model. These are documentation descriptions, not measured throughput or latency results."
+          "scope": "November 4 source review: the complete Reddit post has no comments; the creator\u2019s forum update at post 17 was also read. The current official Architecture and Consensus pages support the described state-sharding and committee/quorum model. These are documentation descriptions, not measured throughput or latency results."
         }
       ]
     },
@@ -3008,13 +3037,13 @@
         {
           "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
           "evidence": "work/daily-2026-11-04/nyam-mining-review-outcome.json",
-          "scope": "November 4 source review: the complete Paragraph article and original forum submission were read and compared with Tari’s September 26 C29 incident report. Its incident timeline and 45-block window are historical reporting; its software-version recommendations describe the article’s publication date and are not current download instructions."
+          "scope": "November 4 source review: the complete Paragraph article and original forum submission were read and compared with Tari\u2019s September 26 C29 incident report. Its incident timeline and 45-block window are historical reporting; its software-version recommendations describe the article\u2019s publication date and are not current download instructions."
         }
       ]
     },
     {
       "id": "dnc-public-strategy",
-      "title": "The Road to $1 Billion — DNC community proposal",
+      "title": "The Road to $1 Billion \u2014 DNC community proposal",
       "projectUrl": "https://docs.google.com/document/d/1S0VFv3q9A3t1m1M0qaJj32sBaRjG7Irb2EULiTVAS40/edit",
       "alternateLanguageUrl": "https://docs.google.com/document/d/1yfnp-YUwsBu3g3RhPn4Ig10pOIoEXgMHL3cxurd9XQo/edit",
       "discoveryUrl": "https://x.com/DNodeCapital/status/2116521503646781501",
@@ -3107,7 +3136,7 @@
       "sourceNote": "Official repository/release discovery. Catalog and recording pending.",
       "foundOn": "2026-11-02",
       "status": "reviewed-publication-pending",
-      "reason": "Lightweight command-line wallet and daemon with view-key scanning, account history, SQLite storage and encrypted wallet keys. v0.5.2, published October 29, 2026, fixes sending an address’s embedded payment ID as bytes. Release assets include separate mainnet and Esmeralda builds. The README describes view-only scanning, but its authenticated daemon also exposes operations that can move funds; the scanning description is not a claim that every mode is read-only. The daemon binds to loopback and requires an API token by default. November 2 review covered the full README and release notes. Footage is an announcement walkthrough; no keys, wallet, daemon or transaction was operated.",
+      "reason": "Lightweight command-line wallet and daemon with view-key scanning, account history, SQLite storage and encrypted wallet keys. v0.5.2, published October 29, 2026, fixes sending an address\u2019s embedded payment ID as bytes. Release assets include separate mainnet and Esmeralda builds. The README describes view-only scanning, but its authenticated daemon also exposes operations that can move funds; the scanning description is not a claim that every mode is read-only. The daemon binds to loopback and requires an API token by default. November 2 review covered the full README and release notes. Footage is an announcement walkthrough; no keys, wallet, daemon or transaction was operated.",
       "reviewEvidence": [
         "work/daily-2026-10-31/wallet-resource-refresh-nov2.json",
         "work/daily-2026-10-31/wallet-local-playback-nov2.json",
@@ -3178,7 +3207,7 @@
     },
     {
       "id": "road-to-billion-video",
-      "title": "The Road to $1 Billion — community strategy video",
+      "title": "The Road to $1 Billion \u2014 community strategy video",
       "projectUrl": "https://www.youtube.com/watch?v=t7Cn7n5t_Y4",
       "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/11",
       "sharingPosts": [
@@ -3189,7 +3218,7 @@
           "publishedAt": "2026-10-31T15:10:34.477Z",
           "updatedAt": "2026-10-31T21:14:43.484Z",
           "foundOn": "2026-11-02",
-          "context": "The Road to $1 Billion — community strategy video",
+          "context": "The Road to $1 Billion \u2014 community strategy video",
           "visibility": "public"
         },
         {
@@ -3240,7 +3269,7 @@
     },
     {
       "id": "two-layer-architecture-kurarmota",
-      "title": "Tari’s Two-Layer Architecture: Understanding Minotari and Ootle",
+      "title": "Tari\u2019s Two-Layer Architecture: Understanding Minotari and Ootle",
       "projectUrl": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
       "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
       "sharingPosts": [
@@ -3251,7 +3280,7 @@
           "publishedAt": "2026-11-01T11:39:26.150Z",
           "updatedAt": "2026-11-01T11:39:26.150Z",
           "foundOn": "2026-11-02",
-          "context": "Tari’s Two-Layer Architecture: Understanding Minotari and Ootle",
+          "context": "Tari\u2019s Two-Layer Architecture: Understanding Minotari and Ootle",
           "visibility": "public"
         }
       ],
@@ -3323,7 +3352,7 @@
     },
     {
       "id": "dnc-turbine-short",
-      "title": "Why Tari can’t just print more tokens",
+      "title": "Why Tari can\u2019t just print more tokens",
       "projectUrl": "https://www.youtube.com/shorts/974KLD3OODg",
       "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/14",
       "sharingPosts": [
@@ -3334,7 +3363,7 @@
           "publishedAt": "2026-11-01T12:31:15.482Z",
           "updatedAt": "2026-11-02T00:01:49.066Z",
           "foundOn": "2026-11-02",
-          "context": "Why Tari can’t just print more tokens",
+          "context": "Why Tari can\u2019t just print more tokens",
           "visibility": "public"
         }
       ],
@@ -3349,7 +3378,7 @@
     },
     {
       "id": "dnc-turbine-reddit",
-      "title": "Tari’s Turbine Model: a burn-and-mint design",
+      "title": "Tari\u2019s Turbine Model: a burn-and-mint design",
       "projectUrl": "https://www.reddit.com/r/CryptoTechnology/comments/1xl8nrz/taris_turbine_model_a_burnandmint_design_linking/",
       "discoveryUrl": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/14",
       "sharingPosts": [
@@ -3360,7 +3389,7 @@
           "publishedAt": "2026-11-01T12:31:15.482Z",
           "updatedAt": "2026-11-02T00:01:49.066Z",
           "foundOn": "2026-11-02",
-          "context": "Tari’s Turbine Model: a burn-and-mint design",
+          "context": "Tari\u2019s Turbine Model: a burn-and-mint design",
           "visibility": "public"
         }
       ],
@@ -3448,7 +3477,7 @@
           "publishedAt": "2026-11-02T05:29:03.691Z",
           "updatedAt": "2026-11-02T12:01:13.332Z",
           "foundOn": "2026-11-02",
-          "context": "TariTalk Nodes — Chinese version",
+          "context": "TariTalk Nodes \u2014 Chinese version",
           "visibility": "public"
         },
         {
@@ -3586,7 +3615,7 @@
       "title": "VeinPool Tari mining pool",
       "projectUrl": "https://veinpool.fr/en/coin/xtm",
       "status": "reviewed-publication-pending",
-      "reason": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. Reviewed November 4, 2026: the guide and FAQ list a 1% pool fee, 0.1 XTM automatic payout minimum and 360 confirmations before payout (about 12 hours). The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The small-miner bonus is up to 5%, depends on pool-share distribution and is funded by pool fees; it is not guaranteed earnings. The Squads beta FAQ names other coins, not Tari. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The October 28 creator tutorial covers CPU setup; its reward and earnings examples are dated illustrations. Current Windows, Linux, HiveOS and MMPOS guide panels were reviewed. The retained November 2 recording still accurately shows the Windows/Linux guide tabs. No address was entered, software downloaded or mining started. The pool’s BzMiner CPU setup and BzMiner’s separate C29 GPU guide describe distinct configurations.",
+      "reason": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. Reviewed November 4, 2026: the guide and FAQ list a 1% pool fee, 0.1 XTM automatic payout minimum and 360 confirmations before payout (about 12 hours). The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The small-miner bonus is up to 5%, depends on pool-share distribution and is funded by pool fees; it is not guaranteed earnings. The Squads beta FAQ names other coins, not Tari. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The October 28 creator tutorial covers CPU setup; its reward and earnings examples are dated illustrations. Current Windows, Linux, HiveOS and MMPOS guide panels were reviewed. The retained November 2 recording still accurately shows the Windows/Linux guide tabs. No address was entered, software downloaded or mining started. The pool\u2019s BzMiner CPU setup and BzMiner\u2019s separate C29 GPU guide describe distinct configurations.",
       "sharingPosts": [
         {
           "url": "https://www.youtube.com/watch?v=KZUPOZHfSYs",
@@ -3609,12 +3638,12 @@
       "history": [
         {
           "status": "reviewed-publication-pending",
-          "reason": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner’s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
+          "reason": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner\u2019s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
           "updatedAt": "2026-11-02T19:15:25.993313+00:00"
         },
         {
           "updatedAt": "2026-11-05T01:40:44.933962+00:00",
-          "reason": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner’s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
+          "reason": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner\u2019s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
           "status": "published-live-verified",
           "releaseEvidence": "work/daily-2026-10-31/general-resources-release-acceptance.json"
         }
@@ -3656,7 +3685,7 @@
         },
         {
           "updatedAt": "2026-11-05T01:40:44.933962+00:00",
-          "reason": "Multi-coin miner with hardware monitoring and a local dashboard. On November 2, 2026, the Tari C29 guide documented NVIDIA GPUs and experimental RX 7900 XTX / RX 9070 XT support, about 10 GB free VRAM on NVIDIA or 8.5 GB on those AMD cards, and a 1% algorithm development fee. Its guide excludes Intel, CPU and macOS C29 mining; the repository README instead lists Intel Arc Battlemage, so Intel support remains contradictory in the publisher’s documentation. Automatic tuning and measured performance qualification are RTX 3090-specific. Creator posts shared v100.46, v100.50 and v100.51; the latest reviewed release is v100.60, published October 30. Its new performance notes concern Pearl and Quantus. No open-source license was established for the miner. The recording shows the README and its Tari support table; no binary was downloaded or executed.",
+          "reason": "Multi-coin miner with hardware monitoring and a local dashboard. On November 2, 2026, the Tari C29 guide documented NVIDIA GPUs and experimental RX 7900 XTX / RX 9070 XT support, about 10 GB free VRAM on NVIDIA or 8.5 GB on those AMD cards, and a 1% algorithm development fee. Its guide excludes Intel, CPU and macOS C29 mining; the repository README instead lists Intel Arc Battlemage, so Intel support remains contradictory in the publisher\u2019s documentation. Automatic tuning and measured performance qualification are RTX 3090-specific. Creator posts shared v100.46, v100.50 and v100.51; the latest reviewed release is v100.60, published October 30. Its new performance notes concern Pearl and Quantus. No open-source license was established for the miner. The recording shows the README and its Tari support table; no binary was downloaded or executed.",
           "status": "published-live-verified",
           "releaseEvidence": "work/daily-2026-10-31/general-resources-release-acceptance.json"
         }
@@ -3851,7 +3880,7 @@
     },
     {
       "id": "kurarmota-two-layer-architecture",
-      "title": "Tari’s two-layer architecture",
+      "title": "Tari\u2019s two-layer architecture",
       "projectUrl": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
       "repositoryUrl": null,
       "documentationUrl": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
@@ -3875,7 +3904,7 @@
         {
           "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
           "evidence": "work/daily-2026-11-04/kurarmota-two-layer-architecture-review-outcome.json",
-          "scope": "November 4 source review: the complete Medium article and empty response panel were read, together with the original forum submission. The cited official architecture and consensus sections distinguish Minotari registration and epoch timing from Ootle’s separate execution and finality. The article’s launch date is a dated schedule statement, not evidence that mainnet is live."
+          "scope": "November 4 source review: the complete Medium article and empty response panel were read, together with the original forum submission. The cited official architecture and consensus sections distinguish Minotari registration and epoch timing from Ootle\u2019s separate execution and finality. The article\u2019s launch date is a dated schedule statement, not evidence that mainnet is live."
         }
       ]
     },
@@ -3916,7 +3945,7 @@
         {
           "reviewedAt": "2026-11-04T22:13:50.926191+00:00",
           "evidence": "work/daily-2026-11-04/habib-four-lanes-review-outcome.json",
-          "scope": "November 4 source review: the complete Medium article and its empty response panel, the Reddit adaptation and its single miner comment were read. Correction to the article’s 90-block difficulty-window description: Tari’s September 26 incident report says a 45-block window shipped with the fork at height 350,000. Explorer figures in this article are the author’s November 2 snapshot, not current network measurements."
+          "scope": "November 4 source review: the complete Medium article and its empty response panel, the Reddit adaptation and its single miner comment were read. Correction to the article\u2019s 90-block difficulty-window description: Tari\u2019s September 26 incident report says a 45-block window shipped with the fork at height 350,000. Explorer figures in this article are the author\u2019s November 2 snapshot, not current network measurements."
         }
       ]
     },
@@ -4493,7 +4522,7 @@
       "repositoryAvailability": "November5 API and signed-in browser404; last-good data retained."
     }
   ],
-  "updatedAt": "2026-11-05T14:16:25.397195+00:00",
+  "updatedAt": "2026-11-05T15:29:18.678413+00:00",
   "publicExport": {
     "preparedAt": "2026-11-03T16:00:05.259492+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
