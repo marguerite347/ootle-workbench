@@ -4889,6 +4889,13 @@
           "sourceEvidence": "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json",
           "decision": "Retain dated replay or privacy documentation; neither shows live current service operations. Original frame and playback evidence preserved; current publication playback pending."
         }
+      ],
+      "playbackReviewHistory": [
+        {
+          "checkedAt": "2026-11-05T04:19:25.000358+00:00",
+          "evidence": "work/daily-2026-11-04/pumpkin-moonmail-release-acceptance.json",
+          "result": "Accepted on desktop and phone in October gallery, Discover and Workbench."
+        }
       ]
     },
     {
@@ -4948,6 +4955,13 @@
           "checkedAt": "2026-11-05T02:20:47.747609+00:00",
           "sourceEvidence": "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json",
           "decision": "Retain dated replay or privacy documentation; neither shows live current service operations. Original frame and playback evidence preserved; current publication playback pending."
+        }
+      ],
+      "playbackReviewHistory": [
+        {
+          "checkedAt": "2026-11-05T04:19:25.000358+00:00",
+          "evidence": "work/daily-2026-11-04/pumpkin-moonmail-release-acceptance.json",
+          "result": "Accepted on desktop and phone in October gallery, Discover and Workbench."
         }
       ]
     },
@@ -5848,7 +5862,14 @@
           "desktop": true,
           "mobile": true
         }
-      }
+      },
+      "retentionReviews": [
+        {
+          "checkedAt": "2026-11-05T04:19:25.000358+00:00",
+          "evidence": "work/daily-2026-11-04/guide-retained-media-reuse.json",
+          "decision": "Retain dated genuine source footage; current paired playback pending."
+        }
+      ]
     },
     {
       "resourceId": "hycorange-burn",
@@ -6402,7 +6423,14 @@
         "lobbyRevision": "64494fc1ca4bea395f5841e6cb88f67825aaa206",
         "workbenchRevision": "d0ac05696bdd9ac72ccb0ff79ea9a35696132266",
         "result": "Both desktop and390px playback ended12s,errornull; source and Details inspected."
-      }
+      },
+      "retentionReviews": [
+        {
+          "checkedAt": "2026-11-05T04:19:25.000358+00:00",
+          "evidence": "work/daily-2026-11-04/guide-retained-media-reuse.json",
+          "decision": "Retain dated genuine source footage; current paired playback pending."
+        }
+      ]
     },
     {
       "resourceId": "danse-macabre",
@@ -7247,7 +7275,14 @@
       "surfaceIds": [
         "tari-ootle:learn:cw-tari-wallet"
       ],
-      "publishedAt": "2026-11-02T20:18:14.134094+00:00"
+      "publishedAt": "2026-11-02T20:18:14.134094+00:00",
+      "retentionReviews": [
+        {
+          "checkedAt": "2026-11-05T04:19:25.000358+00:00",
+          "evidence": "work/daily-2026-11-04/guide-retained-media-reuse.json",
+          "decision": "Retain dated genuine source footage; current paired playback pending."
+        }
+      ]
     },
     {
       "resourceId": "cw-tari-ootle-wallet",
@@ -7284,7 +7319,14 @@
       "surfaceIds": [
         "tari-ootle:learn:cw-tari-ootle-wallet"
       ],
-      "publishedAt": "2026-11-02T20:18:14.134094+00:00"
+      "publishedAt": "2026-11-02T20:18:14.134094+00:00",
+      "retentionReviews": [
+        {
+          "checkedAt": "2026-11-05T04:19:25.000358+00:00",
+          "evidence": "work/daily-2026-11-04/guide-retained-media-reuse.json",
+          "decision": "Retain dated genuine source footage; current paired playback pending."
+        }
+      ]
     },
     {
       "resourceId": "minotari-cli-release",
@@ -7332,7 +7374,14 @@
       "surfaceIds": [
         "tari-ootle:learn:minotari-cli-release"
       ],
-      "publishedAt": "2026-11-02T20:18:14.134094+00:00"
+      "publishedAt": "2026-11-02T20:18:14.134094+00:00",
+      "retentionReviews": [
+        {
+          "checkedAt": "2026-11-05T04:19:25.000358+00:00",
+          "evidence": "work/daily-2026-11-04/guide-retained-media-reuse.json",
+          "decision": "Retain dated genuine source footage; current paired playback pending."
+        }
+      ]
     },
     {
       "resourceId": "official-templates",

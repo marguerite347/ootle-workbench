@@ -2379,7 +2379,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "AT Protocol identity on Ootle",
-      "summary": "Public integration guide describing PLC identities, signed repository records, post proofs, verifier components and escrow policies on Esmeralda. It separates proof scope from handle ownership, current membership, key-history completeness and token expiry; some claims require external attestations. Skydrop is the worked example. The page labels the system testnet-only and not audited for production. Its component-immutability assumptions should be checked against the target Ootle version before reuse; this listing is documentation, not an integration or audit.",
+      "summary": "Public integration guide describing PLC identities, signed repository records, post proofs, verifier components and escrow policies on Esmeralda. It separates proof scope from handle ownership, current membership, key-history completeness and token expiry; some claims require external attestations. Skydrop is the worked example. The page labels the system testnet-only and not audited for production. Its component-immutability assumptions should be checked against the target Ootle version before reuse; this listing is documentation, not an integration or audit. November 4, 2026: the complete guide, original creator thread and linked Skydrop explanation were reviewed. Skydrop supports did:plc identities and still labels private stealth-address payouts as planned. The recording remains a documentation walkthrough, not a demonstrated payment or identity integration.",
       "status": "Docs · Testnet",
       "sourceUrl": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
       "repoUrl": null,
@@ -2392,9 +2392,9 @@
       "license": null,
       "network": "Esmeralda testnet",
       "platform": "Reading",
-      "upstreamRevision": "page-sha256:df66a678414871990abb6a7a8ea29be5ef14cf917e1572d997c7522a9acbc0f0",
+      "upstreamRevision": "page-sha256:9dc5e43e2372c99da2c4f3333b35c684f1c1fd95e91d2317798258c6a6b65ed2",
       "sourceUpdatedAt": "2026-10-30T02:56:26.540Z",
-      "lastCheckedAt": "2026-10-31T13:09:50.003Z",
+      "lastCheckedAt": "2026-11-05T04:19:25.000358+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2414,7 +2414,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261031.png",
-        "source": "Source/docs walkthrough — public documentation, not an application demonstration."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -2944,7 +2944,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-local-ai-gpu-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-local-ai-gpu-20261031.png",
-        "source": "Source/docs walkthrough — public README and hardware requirements; no installation or inference demonstrated."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -3426,7 +3426,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-wallet-20261102-4e0ec4ca7d.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-wallet-20261102-4e0ec4ca7d.png",
-        "source": "Source/docs walkthrough — public README or release notes; no wallet execution."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -3465,7 +3465,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-ootle-wallet-20261102-c7b9334a25.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-ootle-wallet-20261102-c7b9334a25.png",
-        "source": "Source/docs walkthrough — public README or release notes; no wallet execution."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -3515,7 +3515,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-minotari-cli-release-20261102-d6d3e0eb4f.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-minotari-cli-release-20261102-d6d3e0eb4f.png",
-        "source": "Announcement walkthrough — public release notes; no wallet execution."
+        "source": "Announcement"
       }
     },
     {

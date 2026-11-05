@@ -19241,10 +19241,11 @@
           ]
         }
       ],
-      "publicationStatus": "pending",
+      "publicationStatus": "deployed-and-accepted",
       "evidence": [
         "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json"
-      ]
+      ],
+      "publicationEvidence": "work/daily-2026-11-04/pumpkin-moonmail-release-acceptance.json"
     },
     "project:moonmail": {
       "id": "project:moonmail",
@@ -19455,10 +19456,11 @@
           ]
         }
       ],
-      "publicationStatus": "pending",
+      "publicationStatus": "deployed-and-accepted",
       "evidence": [
         "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json"
-      ]
+      ],
+      "publicationEvidence": "work/daily-2026-11-04/pumpkin-moonmail-release-acceptance.json"
     },
     "project:ootle-steam-kit": {
       "id": "project:ootle-steam-kit",
@@ -20176,10 +20178,11 @@
           ]
         }
       ],
-      "publicationStatus": "pending",
+      "publicationStatus": "deployed-and-accepted",
       "evidence": [
         "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json"
-      ]
+      ],
+      "publicationEvidence": "work/daily-2026-11-04/pumpkin-moonmail-release-acceptance.json"
     },
     "tari-ootle:component:moonmail": {
       "id": "tari-ootle:component:moonmail",
@@ -20414,10 +20417,11 @@
           ]
         }
       ],
-      "publicationStatus": "pending",
+      "publicationStatus": "deployed-and-accepted",
       "evidence": [
         "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json"
-      ]
+      ],
+      "publicationEvidence": "work/daily-2026-11-04/pumpkin-moonmail-release-acceptance.json"
     },
     "tari-ootle:component:tari-agent-registry": {
       "id": "tari-ootle:component:tari-agent-registry",
@@ -20624,53 +20628,57 @@
         "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
         "https://atproto.tari.mw/"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T04:19:25.000358+00:00",
       "sourceReviews": {
         "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m": {
           "url": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
-          "hash": "1d9769cb0dd8d9c63860f85e2e666b0ed674acbb776e9b6dacc637760799c94e",
-          "attemptedAt": "2026-11-04T10:07:24.995042+00:00",
-          "evidence": "work/daily-2026-11-04/81ca90ca8c937463-1d9769cb0dd8d9c63860f85e2e666b0ed674acbb776e9b6dacc637760799c94e.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:24.995042+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:24.995042+00:00",
-          "status": "read"
+          "status": "read",
+          "lastAttemptAt": "2026-11-05T04:19:25.000358+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T04:19:25.000358+00:00",
+          "attemptedAt": "2026-11-05T04:19:25.000358+00:00",
+          "hash": "3635cd7681ec148c5614f7bb2f375cca25152bb549a642cafc7c1ce91428c63f",
+          "evidence": "work/daily-2026-11-04/81ca90ca8c937463-3635cd7681ec148c5614f7bb2f375cca25152bb549a642cafc7c1ce91428c63f.txt",
+          "scope": "Complete original thread with one direct reply; parent context read. No claim that sibling branches were reviewed.",
+          "note": "Review completed now from current-run acquired source and independently rendered observations; acquisition timestamps retained in source receipt."
         },
         "https://atproto.tari.mw/": {
           "url": "https://atproto.tari.mw/",
+          "status": "read",
+          "lastAttemptAt": "2026-11-05T04:19:25.000358+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T04:19:25.000358+00:00",
+          "attemptedAt": "2026-11-05T04:19:25.000358+00:00",
           "hash": "9dc5e43e2372c99da2c4f3333b35c684f1c1fd95e91d2317798258c6a6b65ed2",
-          "attemptedAt": "2026-11-04T10:07:24.838209+00:00",
           "evidence": "work/daily-2026-11-04/1e3b58eec7b586c6-9dc5e43e2372c99da2c4f3333b35c684f1c1fd95e91d2317798258c6a6b65ed2.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:24.838209+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:24.838209+00:00",
-          "status": "read"
+          "scope": "Complete guide and code examples; rendered page independently reviewed.",
+          "note": "Review completed now from current-run acquired source and independently rendered observations; acquisition timestamps retained in source receipt."
+        },
+        "https://skydrop.tari.mw/": {
+          "url": "https://skydrop.tari.mw/",
+          "status": "read",
+          "lastAttemptAt": "2026-11-05T04:19:25.000358+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T04:19:25.000358+00:00",
+          "attemptedAt": "2026-11-05T04:19:25.000358+00:00",
+          "hash": "d03ae948d50a288344a0b3c84c4e6f768e4ca3050dad2c7cb2ba2caf71f1fa05",
+          "evidence": "work/daily-2026-11-04/atproto-skydrop-explanation.txt",
+          "scope": "Landing and all seven How it works disclosures; no wallet or transaction controls used.",
+          "note": "Review completed now from current-run acquired source and independently rendered observations; acquisition timestamps retained in source receipt."
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T13:09:50.003Z",
-      "observedAvailability": "Public documentation read October 31. Per-resource source scope and limitations retained in Details; a docs recording does not demonstrate the described application.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-05T04:19:25.000358+00:00",
+      "observedAvailability": "Full public integration guide and linked Skydrop explanation reachable; guide remains Docs / Testnet. Skydrop private stealth payouts are planned.",
+      "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
         "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
         "https://atproto.tari.mw/"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
@@ -20686,6 +20694,83 @@
           "attemptedAt": "2026-11-04T10:07:24.838209+00:00",
           "httpStatus": 200
         }
+      ],
+      "reviewHistory": [
+        {
+          "id": "tari-ootle:learn:atproto-identity",
+          "title": "AT Protocol identity on Ootle",
+          "sources": [
+            "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
+            "https://atproto.tari.mw/"
+          ],
+          "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+          "sourceReviews": {
+            "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m": {
+              "url": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
+              "hash": "1d9769cb0dd8d9c63860f85e2e666b0ed674acbb776e9b6dacc637760799c94e",
+              "attemptedAt": "2026-11-04T10:07:24.995042+00:00",
+              "evidence": "work/daily-2026-11-04/81ca90ca8c937463-1d9769cb0dd8d9c63860f85e2e666b0ed674acbb776e9b6dacc637760799c94e.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:24.995042+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:24.995042+00:00",
+              "status": "read"
+            },
+            "https://atproto.tari.mw/": {
+              "url": "https://atproto.tari.mw/",
+              "hash": "9dc5e43e2372c99da2c4f3333b35c684f1c1fd95e91d2317798258c6a6b65ed2",
+              "attemptedAt": "2026-11-04T10:07:24.838209+00:00",
+              "evidence": "work/daily-2026-11-04/1e3b58eec7b586c6-9dc5e43e2372c99da2c4f3333b35c684f1c1fd95e91d2317798258c6a6b65ed2.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:24.838209+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:24.838209+00:00",
+              "status": "read"
+            }
+          },
+          "lastSuccessfulReviewAt": "2026-10-31T13:09:50.003Z",
+          "observedAvailability": "Public documentation read October 31. Per-resource source scope and limitations retained in Details; a docs recording does not demonstrate the described application.",
+          "outcome": "pending",
+          "pendingReviewSources": [],
+          "blockedSources": [],
+          "changedSources": [
+            "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
+            "https://atproto.tari.mw/"
+          ],
+          "reviewRequired": true,
+          "changedFields": [
+            "sourceEvidence"
+          ],
+          "reviewQueue": [
+            "copy",
+            "actions",
+            "details",
+            "recording",
+            "provenance"
+          ],
+          "nextReviewAt": "2026-11-05T10:00:00Z",
+          "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+          "attemptReceipts": [
+            {
+              "url": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
+              "file": "81ca90ca8c937463-1d9769cb0dd8d9c63860f85e2e666b0ed674acbb776e9b6dacc637760799c94e.txt",
+              "hash": "1d9769cb0dd8d9c63860f85e2e666b0ed674acbb776e9b6dacc637760799c94e",
+              "attemptedAt": "2026-11-04T10:07:24.995042+00:00",
+              "httpStatus": 200
+            },
+            {
+              "url": "https://atproto.tari.mw/",
+              "file": "1e3b58eec7b586c6-9dc5e43e2372c99da2c4f3333b35c684f1c1fd95e91d2317798258c6a6b65ed2.txt",
+              "hash": "9dc5e43e2372c99da2c4f3333b35c684f1c1fd95e91d2317798258c6a6b65ed2",
+              "attemptedAt": "2026-11-04T10:07:24.838209+00:00",
+              "httpStatus": 200
+            }
+          ]
+        }
+      ],
+      "publicationStatus": "pending",
+      "evidence": [
+        "work/daily-2026-11-04/atproto-current-source-review.json"
       ]
     },
     "tari-ootle:learn:hycorange-burn": {
@@ -26484,7 +26569,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-04T14:26:03.116Z",
-      "observedAvailability": "Flutter/Rust L1 wallet bridge source reachable, BSD-family Tari source licensing; README documents frozen Dart API consumed by Cake Wallet and additive-change/codegen requirements. No GitHub releases or hosted demo claimed.",
+      "observedAvailability": "Flutter/Rust L1 wallet bridge source reachable. README documents frozen Dart API consumed by Cake Wallet and additive-change/codegen requirements. No GitHub releases or hosted demo found. License not established: no root LICENSE and no Cargo license declaration in retained evidence.",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -26565,6 +26650,11 @@
               }
             ]
           }
+        },
+        {
+          "preservedAt": "2026-11-05T04:19:25.000358+00:00",
+          "reason": "Remove unsupported generic license inference from maintenance observation; public catalog already correctly has license null.",
+          "observedAvailability": "Flutter/Rust L1 wallet bridge source reachable, BSD-family Tari source licensing; README documents frozen Dart API consumed by Cake Wallet and additive-change/codegen requirements. No GitHub releases or hosted demo claimed."
         }
       ],
       "evidence": [
