@@ -7267,13 +7267,15 @@
       "title": "Shadow Swap",
       "sources": [
         "https://community.tari.com/t/tari-local-opensource-swap-platform/182/15",
-        "https://github.com/GSXRspartan/shadow-swap"
+        "https://github.com/GSXRspartan/shadow-swap",
+        "https://x.com/phillip_d33221/status/2114140382430961761",
+        "https://api.github.com/repos/GSXRspartan/shadow-swap/releases?per_page=100"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T12:44:57.707Z",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "lastSuccessfulReviewAt": "2026-11-05T13:38:43.869Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-05T13:38:43.869Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
       ],
@@ -7307,10 +7309,12 @@
           "attemptedAt": "2026-11-04T10:06:43.526728+00:00",
           "evidence": "work/daily-2026-11-04/a1e641d5292d1123-754ae58fe09f98c41b8b382dba199212dbf9687b161a5c240b84d638be92df7b.txt",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Saved current-run source content fully reviewed; original acquisition time preserved.",
           "lastAttemptAt": "2026-11-04T10:06:43.526728+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:43.526728+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null,
+          "complete": true
         },
         "https://github.com/GSXRspartan/shadow-swap": {
           "url": "https://github.com/GSXRspartan/shadow-swap",
@@ -7319,50 +7323,55 @@
           "attemptedAt": "2026-11-04T10:06:53.185495+00:00",
           "evidence": "work/daily-2026-11-04/b8e92e02dfebf707-64934cd821efa158e823c57ffc891c1badf37d84c459fb78b24eadee28c50db9.txt",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Saved current-run source content fully reviewed; original acquisition time preserved.",
           "lastAttemptAt": "2026-11-04T10:06:53.185495+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:53.185495+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null,
+          "complete": true
         },
         "https://x.com/phillip_d33221/status/2114140382430961761": {
           "url": "https://x.com/phillip_d33221/status/2114140382430961761",
-          "hash": "8c255107aed90cb43971a3d6371dcbb281e9a604e905581cc374c3a376c62d87",
-          "attemptedAt": "2026-11-04T10:07:42.849707+00:00",
-          "evidence": "work/daily-2026-11-04/16a6d228e652e700-8c255107aed90cb43971a3d6371dcbb281e9a604e905581cc374c3a376c62d87.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:42.849707+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:42.849707+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/shadow-swap-x-thread-nov5.txt",
+          "hash": "e4a87eabf930ca4daef1d216c9b6aa3a13a7512d876662f2a7859d7fe439ff5f",
+          "attemptedAt": "2026-11-05T13:29:45.650Z",
+          "scope": "Original sharing post and visible parent context; original declares zero replies. Ancestor threads are not represented as fully reviewed.",
+          "lastAttemptAt": "2026-11-05T13:29:45.650Z",
+          "lastSuccessfulReadAt": "2026-11-05T13:29:45.650Z",
+          "status": "read",
+          "error": null
+        },
+        "https://api.github.com/repos/GSXRspartan/shadow-swap/releases?per_page=100": {
+          "url": "https://api.github.com/repos/GSXRspartan/shadow-swap/releases?per_page=100",
+          "evidence": "work/daily-2026-11-04/shadow-swap-releases-head-nov5.json",
+          "hash": "79fb4e44f4c9fbd4c36b17787291026a2d81134a40f213e13f9f3e9485e6f3b3",
+          "attemptedAt": "2026-11-05T13:30:18.265Z",
+          "scope": "Repository metadata and unchanged HEAD confirmed; releases empty, exhausted.",
+          "lastAttemptAt": "2026-11-05T13:30:18.265Z",
+          "lastSuccessfulReadAt": "2026-11-05T13:30:18.265Z",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "October 31 current reads matched the previously accepted original discussion, repository and linked public destination text. Complete forum post bodies were compared independently of volatile page metadata. This is a source curation review; no wallet, transaction or runtime functionality is asserted.",
+      "observedAvailability": "November5: current README at 1d65d87ebcdc749f333f9e5703f0bb5f269d5d79 documents Ootle v0.48 reset cohort6a25dbc. No public deployment is live; historical v0.46 settlements and template publications are pre-reset. Current source remains testnet-only; mainnet disabled. Original forum17/17 posts and current sharing post reviewed. New docs recording prepared.",
       "changedSources": [
-        "https://community.tari.com/t/tari-local-opensource-swap-platform/182/15",
-        "https://github.com/GSXRspartan/shadow-swap",
-        "https://x.com/phillip_d33221/status/2114140382430961761"
+        "https://x.com/phillip_d33221/status/2114140382430961761",
+        "https://api.github.com/repos/GSXRspartan/shadow-swap/releases?per_page=100"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://github.com/GSXRspartan/tari-ootle-liquidity-protocol#readme",
         "https://github.com/GSXRspartan/tari-ootle-liquidity-protocol",
         "https://community.tari.com/t/tari-local-opensource-swap-platform/182/15",
         "https://github.com/GSXRspartan/shadow-swap"
       ],
-      "sourceObservation": "October 29 source comparison with the last accepted evidence found no material listing change. Exact bytes or complete forum post bodies were compared; remaining changed page text was inspected. This records source curation, not runtime or transaction testing.",
-      "copyUpdated": false,
+      "sourceObservation": "November5: current README at 1d65d87ebcdc749f333f9e5703f0bb5f269d5d79 documents Ootle v0.48 reset cohort6a25dbc. No public deployment is live; historical v0.46 settlements and template publications are pre-reset. Current source remains testnet-only; mainnet disabled. Original forum17/17 posts and current sharing post reviewed. New docs recording prepared.",
+      "copyUpdated": true,
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "reviewedSourceCount": 4,
       "pendingReviewSources": [],
       "comparisonEvidence": "daily-2026-10-29/review-deltas.json",
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/182.json",
@@ -7384,6 +7393,9 @@
           "attemptedAt": "2026-11-04T10:07:42.849707+00:00",
           "httpStatus": 200
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/shadow-sooon-market-source-review-nov5.json"
       ]
     },
     "project:miner": {
@@ -8193,11 +8205,11 @@
         "https://sooon.fun/",
         "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1"
       ],
-      "lastSuccessfulReviewAt": "2026-10-31T14:59:07.441292+00:00",
-      "outcome": "pending",
-      "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "lastSuccessfulReviewAt": "2026-11-05T13:38:43.869Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
+      "lastAttemptAt": "2026-11-05T13:38:43.869Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "changedFields": [
         "sourceEvidence"
       ],
@@ -8208,55 +8220,50 @@
           "attemptedAt": "2026-11-04T10:06:43.617145+00:00",
           "evidence": "work/daily-2026-11-04/d92a51e555d8868e-de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f.txt",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Saved current-run source content fully reviewed; original acquisition time preserved.",
           "lastAttemptAt": "2026-11-04T10:06:43.617145+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:43.617145+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null,
+          "complete": true
         },
         "https://sooon.fun/": {
           "url": "https://sooon.fun/",
-          "hash": "bc6009aab2af08fe7024535dd516cf6c75235a7ff1cda7dd3322c78b1bec84ea",
-          "attemptedAt": "2026-11-04T10:07:33.506188+00:00",
-          "evidence": "work/daily-2026-11-04/dd7a9bc551c726a2-bc6009aab2af08fe7024535dd516cf6c75235a7ff1cda7dd3322c78b1bec84ea.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:33.506188+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:33.506188+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/sooon-public-state-nov5.json",
+          "hash": "2da906ae0e0e616dd34db2d4da0d5c752526396b3e7bab715cd78c65f70ef08d",
+          "attemptedAt": "2026-11-05T13:27:39.764Z",
+          "scope": "Public shell and wallet entry only; no wallet interaction.",
+          "lastAttemptAt": "2026-11-05T13:27:39.764Z",
+          "lastSuccessfulReadAt": "2026-11-05T13:27:39.764Z",
+          "status": "read",
+          "error": null
         },
         "https://x.com/sooonfun/status/2113043736620077141": {
           "url": "https://x.com/sooonfun/status/2113043736620077141",
-          "hash": "b45cb95cb22ef85f12d13b1d5723db3c4e8b52dcbdcd74bfee3826fc557484b5",
-          "attemptedAt": "2026-11-04T10:07:43.260047+00:00",
-          "evidence": "work/daily-2026-11-04/a854d8d867a0aae6-b45cb95cb22ef85f12d13b1d5723db3c4e8b52dcbdcd74bfee3826fc557484b5.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:43.260047+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:43.260047+00:00",
-          "status": "read"
+          "evidence": "work/daily-2026-11-04/sooon-original-thread-nov5.txt",
+          "hash": "39cc1b1922ab63d0ffab181e4ab9cf3fcc7fc4cd012e33381bc1e6bda2bdc226",
+          "attemptedAt": "2026-11-05T13:28:08.253Z",
+          "scope": "Original and all three declared replies read; both creator images inspected.",
+          "lastAttemptAt": "2026-11-05T13:28:08.253Z",
+          "lastSuccessfulReadAt": "2026-11-05T13:28:08.253Z",
+          "status": "read",
+          "error": null
         }
       },
-      "observedAvailability": "October 24 primary-source review: known forum threads read with returned replies and edits, repository README/root/releases and linked public pages fetched where evidence is listed. Source curation does not establish runtime or transaction behavior.",
+      "observedAvailability": "November5: creator v2 announcement, all3 replies and2 images reviewed. Public shell exposes Pump/Predict/Trade/Airdrop and requires wallet access; no wallet operation performed. Source describes Call It UP/DOWN and longer prediction markets; public entry footage remains applicable.",
       "changedSources": [
         "https://x.com/sooonfun/status/2113043736620077141",
-        "https://sooon.fun/",
-        "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1"
+        "https://sooon.fun/"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "checkedScope": [
         "https://community.tari.com/t/ootle-testnet-community-apps-directory/281/1",
         "https://sooon.fun/",
         "https://x.com/sooonfun/status/2113043736620077141"
       ],
-      "sourceObservation": "October 31 authenticated X fallback recovered all 3 declared replies. No material listing change.",
+      "sourceObservation": "November5: creator v2 announcement, all3 replies and2 images reviewed. Public shell exposes Pump/Predict/Trade/Airdrop and requires wallet access; no wallet operation performed. Source describes Call It UP/DOWN and longer prediction markets; public entry footage remains applicable.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
-      "copyUpdated": false,
+      "copyUpdated": true,
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
       "supersededSources": {},
@@ -8272,7 +8279,6 @@
           "nextAction": "Retry the original destination and supported authorized browser; preserve the last successful source review."
         }
       ],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://x.com/sooonfun/status/2113043736620077141",
@@ -8294,6 +8300,9 @@
           "hash": "de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f",
           "attemptedAt": "2026-11-04T10:06:43.617145+00:00"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/shadow-sooon-market-source-review-nov5.json"
       ]
     },
     "project:tari-agent-pay": {
@@ -8464,15 +8473,14 @@
       "title": "Tari Market",
       "sources": [
         "https://wiki.tari.com/resources:app_directory:tari_market",
-        "https://tari-market.johnnytsunami14.chatgpt.site/"
+        "https://tari-market.johnnytsunami14.chatgpt.site/",
+        "https://github.com/johnnysessa/Tari-Market"
       ],
-      "outcome": "pending",
+      "outcome": "blocked",
       "reviewRequired": true,
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
-      "nextReviewAt": "2026-11-05T10:00:00Z",
-      "changedFields": [
-        "sourceEvidence"
-      ],
+      "lastAttemptAt": "2026-11-05T13:38:43.869Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
+      "changedFields": [],
       "sourceReviews": {
         "https://wiki.tari.com/resources:app_directory:tari_market": {
           "url": "https://wiki.tari.com/resources:app_directory:tari_market",
@@ -8480,27 +8488,35 @@
           "attemptedAt": "2026-11-04T10:07:35.412005+00:00",
           "evidence": "work/daily-2026-11-04/020b50a9bfd59955-9676c7124bc98bfd4f6cd275d3d2a70983b74c1d9aca78da2f34270da690ec57.txt",
           "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
+          "method": "Saved current-run source content fully reviewed; original acquisition time preserved.",
           "lastAttemptAt": "2026-11-04T10:07:35.412005+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:35.412005+00:00",
-          "status": "read"
+          "status": "read",
+          "error": null,
+          "complete": true
         },
         "https://tari-market.johnnytsunami14.chatgpt.site/": {
           "url": "https://tari-market.johnnytsunami14.chatgpt.site/",
           "hash": "6328877ab9c43ef93652386a6fb60755626a229dea7de20a1050df4bbcbd41cc",
-          "evidence": "work/daily-2026-10-31/tari-market-browser.txt",
-          "lastAttemptAt": "2026-10-31T14:13:04.032Z",
+          "evidence": "work/daily-2026-11-04/tari-market-access-nov5.json",
+          "lastAttemptAt": "2026-11-05T13:27:10.058Z",
           "lastSuccessfulReadAt": "2026-10-12T10:26:16.089Z",
-          "error": "Public destination requires ChatGPT authentication; only the login screen and public wiki description were accessible.",
-          "status": "pending",
+          "error": "Public destination requires sign-in and a new profile-sharing authorization; public app content unavailable.",
+          "status": "blocked",
           "failureKind": "authentication",
-          "nextAction": "Retry the original destination and supported authorized browser; preserve the last successful source review.",
+          "nextAction": "Revisit public availability or an already-authorized session without granting new access.",
           "pendingReason": "HTTP reader failed; supported browser fallback pending"
+        },
+        "https://github.com/johnnysessa/Tari-Market": {
+          "lastAttemptAt": "2026-11-05T13:29:16.112Z",
+          "status": "blocked",
+          "error": "GitHub API and signed-in browser return 404 for the creator-linked repository.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/tari-market-repository404-nov5.txt",
+          "nextAction": "Revisit after creator restores access or documents a replacement; retain old URL and failure history."
         }
       },
-      "changedSources": [
-        "https://wiki.tari.com/resources:app_directory:tari_market"
-      ],
+      "changedSources": [],
       "reviewQueue": [
         "copy",
         "actions",
@@ -8512,16 +8528,18 @@
         "https://wiki.tari.com/resources:app_directory:tari_market",
         "https://tari-market.johnnytsunami14.chatgpt.site/"
       ],
-      "sourceObservation": "Source retrieval attempted; full editorial re-review of this existing listing remains pending. Do not treat retrieval as fresh acceptance.",
+      "sourceObservation": "November5: public wiki concept description reviewed. Linked app requires sign-in/new access; linked GitHub repository returns404 in API and authorized browser. No replacement or public original announcement established.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
-      "copyUpdated": false,
+      "copyUpdated": true,
       "reviewedSourceCount": 1,
-      "pendingReviewSources": [
-        "https://tari-market.johnnytsunami14.chatgpt.site/"
-      ],
+      "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://tari-market.johnnytsunami14.chatgpt.site/",
+        "https://github.com/johnnysessa/Tari-Market"
+      ],
+      "lastSuccessfulReviewAt": null,
+      "observedAvailability": null,
       "attemptReceipts": [
         {
           "url": "https://wiki.tari.com/resources:app_directory:tari_market",
@@ -8535,6 +8553,9 @@
           "attemptedAt": "2026-11-04T10:07:34.120380+00:00",
           "error": "HTTP Error 401: Unauthorized"
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/shadow-sooon-market-source-review-nov5.json"
       ]
     },
     "project:candy-summoner": {
@@ -30253,56 +30274,58 @@
         "https://github.com/kstrycharz/azurestatictesting",
         "https://t.me/taritracker"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T13:15:57.420Z",
       "sourceReviews": {
         "https://taritracker.com/": {
           "url": "https://taritracker.com/",
-          "hash": "a70e25cdd00fdca54ed92508a5078c73834012fcc2f31bda79122e610a05d83b",
-          "attemptedAt": "2026-11-04T10:07:34.562483+00:00",
-          "evidence": "work/daily-2026-11-04/c5ab3cd533926762-a70e25cdd00fdca54ed92508a5078c73834012fcc2f31bda79122e610a05d83b.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:34.562483+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:34.562483+00:00",
-          "status": "read"
+          "hash": "7904f0150cf5a5e12b75b117c25ce8bb86d3e0c7c0837b45b36e17c67925a7a5",
+          "attemptedAt": "2026-11-05T13:06:34.755Z",
+          "evidence": "work/daily-2026-11-04/taritracker-home-current-nov5.txt",
+          "complete": true,
+          "lastAttemptAt": "2026-11-05T13:06:34.755Z",
+          "lastSuccessfulReadAt": "2026-11-05T13:06:34.755Z",
+          "status": "read",
+          "error": null
         },
         "https://x.com/WorldWarSquared/status/2112894915046993957": {
           "url": "https://x.com/WorldWarSquared/status/2112894915046993957",
-          "hash": "095f21b0e481968c47c4dbddc78b8a337c78a9bad1b882b9b944550a23088205",
-          "attemptedAt": "2026-11-04T10:07:42.399120+00:00",
-          "evidence": "work/daily-2026-11-04/f525d21b2284b705-095f21b0e481968c47c4dbddc78b8a337c78a9bad1b882b9b944550a23088205.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:42.399120+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:42.399120+00:00",
-          "status": "read"
+          "hash": "e473dbd79534f6a98fd59ca1a568e3902baf83c85637eda3562f7a35ad200605",
+          "attemptedAt": "2026-11-05T13:05:54.151Z",
+          "evidence": "work/daily-2026-11-04/taritracker-original-post-expanded-nov5.txt",
+          "complete": true,
+          "lastAttemptAt": "2026-11-05T13:05:54.151Z",
+          "lastSuccessfulReadAt": "2026-11-05T13:05:54.151Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/kstrycharz/azurestatictesting": {
-          "lastAttemptAt": "2026-11-03T13:33:07.514Z",
+          "lastAttemptAt": "2026-11-05T13:06:07.156Z",
           "status": "blocked",
-          "error": "GitHub metadata and browser both returned repository not found / 404.",
+          "error": "Creator-linked repository renders GitHub404 in authorized browser.",
           "failureKind": "http",
-          "evidence": "work/daily-2026-10-31/tari-tracker-source-repository-404-nov3.txt",
-          "nextAction": "Retry creator-linked repository; retain dashboard availability and failed URL."
+          "evidence": "work/daily-2026-11-04/taritracker-repository-404-nov5.txt",
+          "nextAction": "Revisit after creator restores access or documents a replacement; preserve failed URL."
         },
         "https://t.me/taritracker": {
           "lastAttemptAt": "2026-11-03T13:33:07.514Z",
-          "status": "blocked",
+          "status": "pending",
           "error": "Public Telegram landing page available; no message history exposed in authorized browser.",
           "failureKind": "unavailable-content",
           "evidence": "work/daily-2026-10-31/tari-tracker-telegram-landing-nov3.txt",
-          "nextAction": "Retry public history through existing authorized client; do not join or request new access."
+          "nextAction": "Retry public history through existing authorized client; do not join or request new access.",
+          "pendingReason": "Public landing reviewed; authorized client history not yet inspected."
         }
       },
       "outcome": "pending",
       "pendingReviewSources": [
-        "https://github.com/kstrycharz/azurestatictesting",
         "https://t.me/taritracker"
       ],
-      "blockedSources": [],
+      "blockedSources": [
+        "https://github.com/kstrycharz/azurestatictesting"
+      ],
       "changedSources": [
-        "https://x.com/WorldWarSquared/status/2112894915046993957",
-        "https://taritracker.com/"
+        "https://taritracker.com/",
+        "https://x.com/WorldWarSquared/status/2112894915046993957"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -30315,9 +30338,11 @@
         "recording",
         "provenance"
       ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "copyUpdated": true,
       "publicationStatus": "pending",
+      "lastSuccessfulReviewAt": null,
+      "observedAvailability": null,
       "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
@@ -30333,7 +30358,18 @@
           "hash": "a70e25cdd00fdca54ed92508a5078c73834012fcc2f31bda79122e610a05d83b",
           "attemptedAt": "2026-11-04T10:07:34.562483+00:00",
           "httpStatus": 200
+        },
+        {
+          "url": "https://t.me/taritracker",
+          "hash": "ae7463ad9338e9a5420b0f27e13a7c0e72ef4c28fe63bb8027c70947938dbfea",
+          "attemptedAt": "2026-11-05T13:06:18.644Z",
+          "evidence": "work/daily-2026-11-04/taritracker-telegram-landing-nov5.txt",
+          "complete": false,
+          "scope": "Three-member public group landing; no history exposed."
         }
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/taritracker-source-progress-nov5.json"
       ]
     },
     "tari-ootle:component:tari-block-tools": {
