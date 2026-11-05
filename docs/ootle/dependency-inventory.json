@@ -32220,5 +32220,33 @@
   "publicExport": {
     "preparedAt": "2026-11-03T16:00:05.259492+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
+  },
+  "bundledGamedev": {
+    "checkedAt": "2026-11-05T00:53:07.972866+00:00",
+    "previousRevision": "b105e1cf617adf0b68ed98790a716bbb60993179",
+    "targetRevision": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+    "source": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+    "disposition": "compatible-update-published-and-accepted",
+    "scope": "77 topic guides plus router in Lobby downloadable bundles; no engine runtime dependency added to Workbench. Shared ledger synchronized.",
+    "validation": {
+      "fixtureTests": {
+        "passed": 186,
+        "skipped": 1,
+        "skipReason": "Case-sensitive filename fixture on case-insensitive filesystem"
+      },
+      "upstreamValidator": "One reviewed false positive: fenced Lua screen[name](screen, ...) is mistaken for a Markdown link; separate fence-aware link pass passed.",
+      "productTests": "99 root tests and focused marketplace/content checks passed; real Vite build and packaged runtime verified all 200 downloads.",
+      "runtimeScope": "Offline helpers and website packaging; no third-party game engines or wallets executed."
+    },
+    "evidence": [
+      "work/daily-2026-11-04/gamedev-compatibility-assessment-0043.json",
+      "work/daily-2026-11-04/gamedev-final-tests.log",
+      "work/daily-2026-11-04/gamedev-build-badge-fix.log",
+      "work/daily-2026-11-04/gamedev-local-browser-review.json"
+    ],
+    "publication": {
+      "revision": "f1144099ce9fa0fc66055cc71926a8bf158c0f2a",
+      "evidence": "work/daily-2026-11-04/gamedev-release-acceptance.json"
+    }
   }
 }

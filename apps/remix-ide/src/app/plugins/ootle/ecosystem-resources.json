@@ -2954,7 +2954,7 @@
       "ecosystem": "tari-ootle",
       "group": "Releases",
       "title": "Ootle v0.49.2 upgrade notes",
-      "summary": "Official pre-release bundling the 0.48 and 0.49 changes with working binaries. The notes require a coordinated testnet reset and rebuilding and republishing templates against tari_template_lib 0.37. They document new proof-authorization windows, opt-in template upgrades, sr25519 transactions, view-only wallet accounts and multiple passkeys. Read the full release-specific migration instructions before upgrading. This listing records the official notes and November 2 developer announcement; no software was installed and no node, wallet or database was changed.",
+      "summary": "Official pre-release bundling the 0.48 and 0.49 changes with working binaries. The notes require a coordinated testnet reset and rebuilding and republishing templates against tari_template_lib 0.37. They document new proof-authorization windows, opt-in template upgrades, sr25519 transactions, view-only wallet accounts and multiple passkeys. Read the full release-specific migration instructions before upgrading. This listing records the official notes and November 2 developer announcement; no software was installed and no node, wallet or database was changed. Review on November 4, 2026 covered the current release, developer announcement and 0.48–0.49.2 changelog; 38 release assets were listed.",
       "status": "Official pre-release",
       "sourceUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2",
       "repoUrl": null,
@@ -2968,8 +2968,8 @@
       "network": "Ootle testnet · Reset required",
       "platform": "Validator, indexer, wallet and template development",
       "upstreamRevision": "v0.49.2",
-      "sourceUpdatedAt": "2026-11-02T12:09:00Z",
-      "lastCheckedAt": "2026-11-02T16:28:10.604Z",
+      "sourceUpdatedAt": "2026-11-02T12:09:52Z",
+      "lastCheckedAt": "2026-11-05T00:54:36.180500+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -2989,7 +2989,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-release-0492-20261102-7270ccff9a.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-release-0492-20261102-7270ccff9a.jpg",
-        "source": "Source/docs walkthrough — official pre-release notes; no upgrade performed."
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -3157,7 +3157,7 @@
       "ecosystem": "tari",
       "group": "Advanced",
       "title": "Wallet Operations FAQ",
-      "summary": "Illustrated community guide to six Tari Universe wallet interface topics: settings, seed replacement, bridge navigation, loading balances and transaction history. The page displays a November 1, 2025 publication date; Terence shared it on October 30, 2026 Eastern time (October 31 UTC). Its illustrations show Universe 1.6.12 and may differ from later releases. The recording shows the article and its settings illustration, not an operated wallet. No wallet settings, seed words, bridges or transactions were changed.",
+      "summary": "Illustrated community guide to six Tari Universe wallet interface topics: settings, seed replacement, bridge navigation, loading balances and transaction history. The page displays a November 1, 2025 publication date; Terence shared it on October 30, 2026 Eastern time (October 31 UTC). Its illustrations show Universe 1.6.12 and may differ from later releases. The recording shows the article and its settings illustration, not an operated wallet. No wallet settings, seed words, bridges or transactions were changed. The public article and original sharing discussion were revisited on November 4, 2026; the older interface scope remains unchanged.",
       "status": "Guide · Universe 1.6.12",
       "cardSummary": "Find illustrated steps for Tari Universe wallet settings, bridge navigation, balance loading and transaction history refresh.",
       "cardStatus": "Guide · Universe 1.6.12",
@@ -3174,7 +3174,7 @@
       "platform": "Reading · Universe 1.6.12 illustrations",
       "upstreamRevision": "Illustrated Universe 1.6.12 interface",
       "sourceUpdatedAt": "2025-11-01T00:00:00Z",
-      "lastCheckedAt": "2026-11-02T18:47:12.075861+00:00",
+      "lastCheckedAt": "2026-11-05T00:54:36.180500+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3192,7 +3192,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritalk-wallet-operations-faq-20261102-bbdcedb909.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritalk-wallet-operations-faq-20261102-bbdcedb909.png",
-        "source": "Source/docs walkthrough — public guide; no wallet or mining execution."
+        "source": "Docs walkthrough"
       }
     },
     {

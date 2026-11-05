@@ -24941,45 +24941,121 @@
       "id": "tari-ootle:learn:release-0492",
       "title": "Ootle v0.49.2 upgrade notes",
       "sources": [
-        "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2"
+        "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2",
+        "https://github.com/tari-project/tari-ootle/blob/development/CHANGELOG.md"
       ],
-      "lastSuccessfulReviewAt": "2026-11-02T16:28:10.604Z",
-      "outcome": "pending",
-      "reviewRequired": true,
+      "lastSuccessfulReviewAt": "2026-11-05T00:54:36.180500+00:00",
+      "outcome": "reviewed",
+      "reviewRequired": false,
       "canonicalResourceId": "release-0492",
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T00:48:49.881844+00:00",
       "sourceReviews": {
         "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2": {
           "url": "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2",
-          "hash": "8d4aab0d734b76ebc7b5362c890e9fe59091b1735a6ad6e1c349a3b9a6968366",
-          "evidence": "work/daily-2026-10-31/ootle-0492-release-nov2.json",
-          "attemptedAt": "2026-11-02T15:07:13.399Z",
-          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
-          "lastAttemptAt": "2026-11-02T15:07:13.399Z",
-          "lastSuccessfulReadAt": "2026-11-02T15:07:13.399Z",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "hash": "65e2e99b1095299f41da30c4c4d9d1a20ee4376888f7f703d854bb105a1061e4",
+          "evidence": "work/daily-2026-11-04/ootle-0492-current-release.json",
+          "attemptedAt": "2026-11-05T00:48:49.881844+00:00",
+          "lastAttemptAt": "2026-11-05T00:48:49.881844+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T00:48:49.881844+00:00",
+          "status": "read",
+          "method": "Full release body and asset inventory reviewed; current CHANGELOG 0.48 through 0.49.2 and both comparison pages covering 191 commit subjects read. No software upgrade performed."
+        },
+        "https://github.com/tari-project/tari-ootle/blob/development/CHANGELOG.md": {
+          "url": "https://github.com/tari-project/tari-ootle/blob/development/CHANGELOG.md",
+          "hash": "72ba5622f5576bee4ed3c85f1e19840dc042d536eec63ab56aea6a7638d3d5a4",
+          "revision": "9c84ec641ce60b820239dc66f07059019a2a2282",
+          "evidence": "work/daily-2026-11-04/sources/053ab1c6b470d131-72ba5622f5576bee4ed3c85f1e19840dc042d536eec63ab56aea6a7638d3d5a4.txt",
+          "attemptedAt": "2026-11-05T00:46:32.092450+00:00",
+          "lastAttemptAt": "2026-11-05T00:46:32.092450+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T00:46:32.092450+00:00",
+          "status": "read",
+          "method": "Complete current 0.48.0 through 0.49.2 changelog sections read; earlier release history outside this release-specific review."
         }
       },
-      "observedAvailability": "public source documentation",
-      "pendingReviewSources": [
-        "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2"
-      ],
+      "observedAvailability": "Official prerelease notes; coordinated testnet reset",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [],
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
-      "attemptReceipts": []
+      "attemptReceipts": [
+        {
+          "file": "a5f83ca976c24f71-f7f3f988a191e844636bd1714b7ddb3030ae63a0e922b0fb1d81a01d336a65fd.txt",
+          "hash": "f7f3f988a191e844636bd1714b7ddb3030ae63a0e922b0fb1d81a01d336a65fd",
+          "attemptedAt": "2026-11-04T10:07:26.979520+00:00",
+          "httpStatus": 200
+        }
+      ],
+      "reviewHistory": [
+        {
+          "recordedAt": "2026-11-05T00:54:36.180500+00:00",
+          "priorReview": {
+            "id": "tari-ootle:learn:release-0492",
+            "title": "Ootle v0.49.2 upgrade notes",
+            "sources": [
+              "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2"
+            ],
+            "lastSuccessfulReviewAt": "2026-11-02T16:28:10.604Z",
+            "outcome": "pending",
+            "reviewRequired": true,
+            "canonicalResourceId": "release-0492",
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "sourceReviews": {
+              "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2": {
+                "url": "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2",
+                "hash": "65e2e99b1095299f41da30c4c4d9d1a20ee4376888f7f703d854bb105a1061e4",
+                "evidence": "work/daily-2026-11-04/ootle-0492-current-release.json",
+                "attemptedAt": "2026-11-05T00:48:49.881844+00:00",
+                "lastAttemptAt": "2026-11-05T00:48:49.881844+00:00",
+                "lastSuccessfulReadAt": "2026-11-05T00:48:49.881844+00:00",
+                "status": "read",
+                "method": "Full release body and asset inventory reviewed; current CHANGELOG 0.48 through 0.49.2 and both comparison pages covering 191 commit subjects read. No software upgrade performed."
+              },
+              "https://github.com/tari-project/tari-ootle/blob/development/CHANGELOG.md": {
+                "url": "https://github.com/tari-project/tari-ootle/blob/development/CHANGELOG.md",
+                "hash": "72ba5622f5576bee4ed3c85f1e19840dc042d536eec63ab56aea6a7638d3d5a4",
+                "revision": "9c84ec641ce60b820239dc66f07059019a2a2282",
+                "evidence": "work/daily-2026-11-04/sources/053ab1c6b470d131-72ba5622f5576bee4ed3c85f1e19840dc042d536eec63ab56aea6a7638d3d5a4.txt",
+                "attemptedAt": "2026-11-05T00:46:32.092450+00:00",
+                "lastAttemptAt": "2026-11-05T00:46:32.092450+00:00",
+                "lastSuccessfulReadAt": "2026-11-05T00:46:32.092450+00:00",
+                "status": "read",
+                "method": "Complete current 0.48.0 through 0.49.2 changelog sections read; earlier release history outside this release-specific review."
+              }
+            },
+            "observedAvailability": "public source documentation",
+            "pendingReviewSources": [
+              "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2"
+            ],
+            "blockedSources": [],
+            "changedSources": [],
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "file": "a5f83ca976c24f71-f7f3f988a191e844636bd1714b7ddb3030ae63a0e922b0fb1d81a01d336a65fd.txt",
+                "hash": "f7f3f988a191e844636bd1714b7ddb3030ae63a0e922b0fb1d81a01d336a65fd",
+                "attemptedAt": "2026-11-04T10:07:26.979520+00:00",
+                "httpStatus": 200
+              }
+            ]
+          }
+        }
+      ],
+      "publicationStatus": "pending"
     },
     "tari:component:taritalk-nodes": {
       "id": "tari:component:taritalk-nodes",
@@ -25571,41 +25647,33 @@
       "sources": [
         "https://taritalk.xyz/posts/wallet-operations-faq/"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T00:12:12.966798+00:00",
       "sourceReviews": {
         "https://taritalk.xyz/posts/wallet-operations-faq/": {
           "url": "https://taritalk.xyz/posts/wallet-operations-faq/",
-          "hash": "46f9189d18132e2225a1d4782e472510ddc7155c5a577b5af6fa2adb859fa29b",
-          "attemptedAt": "2026-11-04T10:07:34.404080+00:00",
-          "evidence": "work/daily-2026-11-04/ab11745dc130dd86-46f9189d18132e2225a1d4782e472510ddc7155c5a577b5af6fa2adb859fa29b.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:34.404080+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:34.404080+00:00",
-          "status": "read"
+          "hash": "08427c31242b1fcb7561406262c1fdf8fe493bd16b6cadb85d03843377c8cc78",
+          "evidence": "work/daily-2026-11-04/taritalk-faq-current-browser.txt",
+          "attemptedAt": "2026-11-05T00:12:12.966798+00:00",
+          "lastAttemptAt": "2026-11-05T00:12:12.966798+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T00:12:12.966798+00:00",
+          "status": "read",
+          "method": "All six guide sections and illustrations reviewed in browser. Illustrations remain Universe 1.6.12; source publication date is November 1, 2025. No wallet action performed."
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
-      "observedAvailability": "Guide · Universe 1.6.12",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-05T00:54:36.180500+00:00",
+      "observedAvailability": "Guide with Universe 1.6.12 illustrations",
+      "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
         "https://taritalk.xyz/posts/wallet-operations-faq/"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://taritalk.xyz/posts/wallet-operations-faq/",
@@ -25613,8 +25681,77 @@
           "hash": "46f9189d18132e2225a1d4782e472510ddc7155c5a577b5af6fa2adb859fa29b",
           "attemptedAt": "2026-11-04T10:07:34.404080+00:00",
           "httpStatus": 200
+        },
+        {
+          "file": "dfc84398467737e3-e3c3896af3dfc888edfddf1fab38ff8721562f498e141642d499b3f0eac06e07.txt",
+          "hash": "e3c3896af3dfc888edfddf1fab38ff8721562f498e141642d499b3f0eac06e07",
+          "attemptedAt": "2026-11-04T10:07:27.136777+00:00",
+          "httpStatus": 200
         }
-      ]
+      ],
+      "reviewHistory": [
+        {
+          "recordedAt": "2026-11-05T00:54:36.180500+00:00",
+          "priorReview": {
+            "id": "tari-ootle:learn:taritalk-wallet-operations-faq",
+            "title": "Wallet Operations FAQ",
+            "canonicalResourceId": "taritalk-wallet-operations-faq",
+            "sources": [
+              "https://taritalk.xyz/posts/wallet-operations-faq/"
+            ],
+            "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+            "sourceReviews": {
+              "https://taritalk.xyz/posts/wallet-operations-faq/": {
+                "url": "https://taritalk.xyz/posts/wallet-operations-faq/",
+                "hash": "08427c31242b1fcb7561406262c1fdf8fe493bd16b6cadb85d03843377c8cc78",
+                "evidence": "work/daily-2026-11-04/taritalk-faq-current-browser.txt",
+                "attemptedAt": "2026-11-05T00:12:12.966798+00:00",
+                "lastAttemptAt": "2026-11-05T00:12:12.966798+00:00",
+                "lastSuccessfulReadAt": "2026-11-05T00:12:12.966798+00:00",
+                "status": "read",
+                "method": "All six guide sections and illustrations reviewed in browser. Illustrations remain Universe 1.6.12; source publication date is November 1, 2025. No wallet action performed."
+              }
+            },
+            "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
+            "observedAvailability": "Guide · Universe 1.6.12",
+            "outcome": "pending",
+            "pendingReviewSources": [],
+            "blockedSources": [],
+            "changedSources": [
+              "https://taritalk.xyz/posts/wallet-operations-faq/"
+            ],
+            "reviewRequired": true,
+            "changedFields": [
+              "sourceEvidence"
+            ],
+            "reviewQueue": [
+              "copy",
+              "actions",
+              "details",
+              "recording",
+              "provenance"
+            ],
+            "nextReviewAt": "2026-11-05T10:00:00Z",
+            "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+            "attemptReceipts": [
+              {
+                "url": "https://taritalk.xyz/posts/wallet-operations-faq/",
+                "file": "ab11745dc130dd86-46f9189d18132e2225a1d4782e472510ddc7155c5a577b5af6fa2adb859fa29b.txt",
+                "hash": "46f9189d18132e2225a1d4782e472510ddc7155c5a577b5af6fa2adb859fa29b",
+                "attemptedAt": "2026-11-04T10:07:34.404080+00:00",
+                "httpStatus": 200
+              },
+              {
+                "file": "dfc84398467737e3-e3c3896af3dfc888edfddf1fab38ff8721562f498e141642d499b3f0eac06e07.txt",
+                "hash": "e3c3896af3dfc888edfddf1fab38ff8721562f498e141642d499b3f0eac06e07",
+                "attemptedAt": "2026-11-04T10:07:27.136777+00:00",
+                "httpStatus": 200
+              }
+            ]
+          }
+        }
+      ],
+      "publicationStatus": "pending"
     },
     "tari-ootle:learn:veinpool": {
       "id": "tari-ootle:learn:veinpool",
