@@ -1851,12 +1851,22 @@
           "visibility": "public",
           "relationship": "additional public discussion; original creator post retained",
           "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+        },
+        {
+          "url": "https://bsky.app/profile/devxtools.margin.cafe/post/3mygcr27mwn22",
+          "platform": "Bluesky",
+          "author": "DevX (@devxtools.margin.cafe)",
+          "publishedAt": "2026-10-21T23:33:51.186119Z",
+          "foundOn": "2026-11-05",
+          "context": "Creator follow-up announcement for anonymous one-voice sealed polls and sponsored voting; linked from forum reply 22.",
+          "visibility": "public"
         }
       ],
       "status": "published",
-      "notes": "Read pinned Radicle source and license. Maintainer network proof is attributed; no CLI, vote or fee-pot action performed.",
+      "notes": "Sealed group polls with anonymous eligibility, replaceable ballots and scheduled reveal. November 5 review: the public browser interface loads, while both historical Esmeralda polls fall back to explicitly labeled recorded snapshots; their component addresses are not found in the current explorer after the testnet reset. Radicle source a1ef9667 remains available with no published releases; its README pins template library 0.34.0 and test tooling 0.46.1. The creator\u2019s October proof and test counts describe historical runs. The retained October 23 video demonstrates the browser interface at that date, separately from chain voting; updated footage is pending to show today\u2019s snapshot fallback. Fee-pot contributions cannot be withdrawn. Lost receipts prevent counting, revealed choices become public, and timing or funding links can expose information. MIT source; Esmeralda testnet.",
       "originalPostStatus": "Public creator announcements retained alongside the original discovery page.",
-      "publishedOn": "2026-10-23"
+      "publishedOn": "2026-10-23",
+      "latestReviewEvidence": "work/daily-2026-11-04/seance-devx-source-review-nov5.json"
     },
     {
       "id": "sealed-bids-at-midnight",
@@ -2201,11 +2211,29 @@
           "context": "Hearth sharing post retained alongside creator announcement",
           "foundOn": "2026-10-23",
           "visibility": "public"
+        },
+        {
+          "url": "https://dorahacks.io/build/50120",
+          "platform": "DoraHacks",
+          "author": "Zachary Plumey / XachP",
+          "foundOn": "2026-11-05",
+          "context": "Creator Web3 for Social Good entry with pitch deck and video; linked by original Reddit and X posts.",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ye-5upF1rfM",
+          "platform": "YouTube",
+          "author": "Zachary P",
+          "publishedAt": "2026-10-21",
+          "foundOn": "2026-11-05",
+          "context": "Creator pitch video publicly linked from the DoraHacks entry; description and sampled visual review retained, narration unavailable to current readers.",
+          "visibility": "public"
         }
       ],
       "status": "published",
       "notes": "Confidential humanitarian cash-aid prototype with household enrollment, duplicate-entitlement checks and replacement wallets. The browser replays the creator\u2019s recorded Esmeralda verifier results; it decrypts nothing itself. October 23 inspection showed Household A\u2019s 3000 HEARTH grant and the auditor\u2019s different view of all amounts, with public household counts and total funding. MIT source, template and transaction links are provided by the creator. No grant or wallet transaction was performed. Cohorts, timing and public counts remain visible; privacy and duplicate-enrollment claims depend on the documented registration model. Shared for Web3 for Social Good, not presented as an October contest entry.",
-      "publishedOn": "2026-10-23"
+      "publishedOn": "2026-10-23",
+      "latestReviewEvidence": "work/daily-2026-11-04/hearth-source-review-nov5.json"
     },
     {
       "id": "grave-robber",
@@ -3174,9 +3202,18 @@
           "foundOn": "2026-11-02",
           "context": "Creator reply about submission moderation queue",
           "visibility": "public"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q",
+          "platform": "YouTube",
+          "author": "YASASWI PARUCHURI / @hackwithme-hwm",
+          "publishedAt": "2026-10-31",
+          "foundOn": "2026-11-05",
+          "context": "Creator explanation publicly linked from original contest submission; full auto-generated transcript and video context reviewed.",
+          "visibility": "public"
         }
       ],
-      "maintenanceStatus": "review-pending",
+      "maintenanceStatus": "reviewed-with-component-access-exception",
       "repositoryUrl": "https://github.com/YASASWIP012/danse-macabre",
       "documentationUrl": "https://github.com/YASASWIP012/danse-macabre#readme",
       "surfaceIds": [
@@ -3203,7 +3240,8 @@
             ]
           }
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-05T17:20:47.438149+00:00"
     },
     {
       "id": "road-to-billion-video",
@@ -4522,7 +4560,7 @@
       "repositoryAvailability": "November5 API and signed-in browser404; last-good data retained."
     }
   ],
-  "updatedAt": "2026-11-05T15:29:18.678413+00:00",
+  "updatedAt": "2026-11-05T17:20:47.438149+00:00",
   "publicExport": {
     "preparedAt": "2026-11-03T16:00:05.259492+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."

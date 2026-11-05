@@ -16171,86 +16171,147 @@
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
-        "https://seance.madebydevx.com"
+        "https://seance.madebydevx.com",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22",
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/releases",
+        "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/tree/PROOF.md",
+        "https://bsky.app/profile/devxtools.margin.cafe/post/3mygcr27mwn22",
+        "https://explorer.tari.mw/substate/component_7d774657721325da52bc23d13524c2030f1e0b73b5fdb359e67e8211512e081f",
+        "https://explorer.tari.mw/substate/component_47d783b1b727d5268d870ab6cc4f538365ec044c99e9e0ece1ffd3f337a0073c"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T16:52:16.962Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:46:58.370Z",
+          "evidence": "work/daily-2026-11-04/october-forum-nov5-1.json",
+          "hash": "d7b60647cc5906acaf1b891a3bfeee15208ba55b92ae8ef8e82ce432025b658d",
+          "scope": "Original submission and sole creator reply 22 read.",
+          "lastAttemptAt": "2026-11-05T10:46:58.370Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:46:58.370Z",
+          "status": "read",
+          "error": null
         },
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA": {
           "url": "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
-          "hash": "fdb6251f21e8f054c1694117a6f95e9b2a69971eb1ff62bcf36f77020053af9f",
-          "attemptedAt": "2026-11-04T10:07:32.439287+00:00",
-          "evidence": "work/daily-2026-11-04/89b5bf48c1392fb6-fdb6251f21e8f054c1694117a6f95e9b2a69971eb1ff62bcf36f77020053af9f.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:32.439287+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:32.439287+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T16:41:56.771Z",
+          "evidence": "work/daily-2026-11-04/seance-devx-radicle-readme-nov5.txt",
+          "hash": "47876f6d47c7b7988028dbc89e2b066481cdff555370ba54ab515becf9afdebe",
+          "scope": "Complete current README; a1ef9667 source, MIT, historical version pins.",
+          "lastAttemptAt": "2026-11-05T16:41:56.771Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:41:56.771Z",
+          "status": "read",
+          "error": null
         },
         "https://seance.madebydevx.com": {
           "url": "https://seance.madebydevx.com",
-          "hash": "d7916fbf0911ffca25c6574d1010e798732354595a20d673992d6563ec8a99e0",
-          "attemptedAt": "2026-11-04T10:07:32.781943+00:00",
-          "evidence": "work/daily-2026-11-04/ae080f341d7ec399-d7916fbf0911ffca25c6574d1010e798732354595a20d673992d6563ec8a99e0.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:32.781943+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:32.781943+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T16:41:26.387Z",
+          "evidence": "work/daily-2026-11-04/seance-devx-public-loaded-nov5.txt",
+          "hash": "334e740634ce82a91b3942cb02f497530a1345078683c61276b35f3acdc9159d",
+          "scope": "Public browser interface loads; both historical polls fall back to recorded snapshots because indexers cannot retrieve them.",
+          "lastAttemptAt": "2026-11-05T16:41:26.387Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:41:26.387Z",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:46:58.370Z",
+          "evidence": "work/daily-2026-11-04/october-forum-nov5-1.json",
+          "hash": "d7b60647cc5906acaf1b891a3bfeee15208ba55b92ae8ef8e82ce432025b658d",
+          "scope": "Creator follow-up, explicitly not a second submission.",
+          "lastAttemptAt": "2026-11-05T10:46:58.370Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:46:58.370Z",
+          "status": "read",
+          "error": null
         },
         "https://www.youtube.com/watch?v=1PeZwRiqKa0": {
           "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-          "hash": "f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72",
-          "attemptedAt": "2026-11-04T10:07:37.410935+00:00",
-          "evidence": "work/daily-2026-11-04/14f7e70260180f4f-f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:37.410935+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:37.410935+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:41:40.415Z",
+          "evidence": "work/daily-2026-11-04/tari-show-oct27-source-context-nov5.json",
+          "hash": "ef40362799012f2c43a5589cbca8d0e79ea6ef12c72a10ba592e70fce18ca99c",
+          "scope": "Current-run full source context, transcript and description review; audiovisual boundaries retained.",
+          "lastAttemptAt": "2026-11-05T10:41:40.415Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:41:40.415Z",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:46:58.775Z",
+          "evidence": "work/daily-2026-11-04/october-forum-nov5-3.json",
+          "hash": "ea1d889646c2e8d1c310d21b07f5bb7edbb9b6927edaf51f6b6a34b3664aea34",
+          "scope": "Organizer reset notice.",
+          "lastAttemptAt": "2026-11-05T10:46:58.775Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:46:58.775Z",
+          "status": "read",
+          "error": null
+        },
+        "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/releases": {
+          "url": "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/releases",
+          "attemptedAt": "2026-11-05T16:42:58.514Z",
+          "evidence": "work/daily-2026-11-04/seance-devx-releases-nov5.txt",
+          "hash": "1c51b4e48856964ee765b5ec1e045cab712c2e873f338f0b94d2a07c5207e572",
+          "scope": "No releases.",
+          "lastAttemptAt": "2026-11-05T16:42:58.514Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:42:58.514Z",
+          "status": "read",
+          "error": null
+        },
+        "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/tree/PROOF.md": {
+          "url": "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/tree/PROOF.md",
+          "attemptedAt": "2026-11-05T16:42:13.222Z",
+          "evidence": "work/daily-2026-11-04/seance-devx-proof-nov5.txt",
+          "hash": "74715a7b009c6765f2c8fbf65a4194655608be43a727c84f577a8a71e6893b1b",
+          "scope": "Complete creator historical testnet proof, attributed; not independent transaction verification.",
+          "lastAttemptAt": "2026-11-05T16:42:13.222Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:42:13.222Z",
+          "status": "read",
+          "error": null
+        },
+        "https://bsky.app/profile/devxtools.margin.cafe/post/3mygcr27mwn22": {
+          "url": "https://bsky.app/profile/devxtools.margin.cafe/post/3mygcr27mwn22",
+          "attemptedAt": "2026-11-05T16:42:07.195Z",
+          "evidence": "work/daily-2026-11-04/seance-devx-bluesky-nov5.json",
+          "hash": "494503bdda6788dcb25f5d5734e6bb481c1bba3683787f2709ef5f15c591e193",
+          "scope": "Complete creator announcement with zero replies; linked screenshot also inspected.",
+          "lastAttemptAt": "2026-11-05T16:42:07.195Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:42:07.195Z",
+          "status": "read",
+          "error": null
+        },
+        "https://explorer.tari.mw/substate/component_7d774657721325da52bc23d13524c2030f1e0b73b5fdb359e67e8211512e081f": {
+          "lastAttemptAt": "2026-11-05T16:52:16.962Z",
+          "status": "blocked",
+          "error": "Historical poll component not found in current explorer at epoch 12884.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/seance-devx-poll-one-nov5.txt",
+          "nextAction": "Review creator-republished polls when announced; retain original component links and recorded snapshot history."
+        },
+        "https://explorer.tari.mw/substate/component_47d783b1b727d5268d870ab6cc4f538365ec044c99e9e0ece1ffd3f337a0073c": {
+          "lastAttemptAt": "2026-11-05T16:52:16.962Z",
+          "status": "blocked",
+          "error": "Historical poll component not found in current explorer at epoch 12884.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/seance-devx-poll-two-nov5.txt",
+          "nextAction": "Review creator-republished polls when announced; retain original component links and recorded snapshot history."
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
+        "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/releases",
+        "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/tree/PROOF.md",
+        "https://seance.madebydevx.com",
+        "https://bsky.app/profile/devxtools.margin.cafe/post/3mygcr27mwn22",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22",
-        "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -16263,7 +16324,7 @@
         "recording",
         "provenance"
       ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "checkedScope": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
@@ -16271,12 +16332,14 @@
       ],
       "sourceObservation": "October 29 original posts and accessible replies, source repository and linked public destinations reviewed. Listing describes observed public availability; no wallet, financial or runtime certification implied.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
-      "copyUpdated": false,
+      "copyUpdated": true,
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://explorer.tari.mw/substate/component_7d774657721325da52bc23d13524c2030f1e0b73b5fdb359e67e8211512e081f",
+        "https://explorer.tari.mw/substate/component_47d783b1b727d5268d870ab6cc4f538365ec044c99e9e0ece1ffd3f337a0073c"
+      ],
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -16317,7 +16380,11 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
-      ]
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/seance-devx-source-review-nov5.json"
+      ],
+      "latestAttemptObservation": "Sealed group polls with anonymous eligibility, replaceable ballots and scheduled reveal. November 5 review: the public browser interface loads, while both historical Esmeralda polls fall back to explicitly labeled recorded snapshots; their component addresses are not found in the current explorer after the testnet reset. Radicle source a1ef9667 remains available with no published releases; its README pins template library 0.34.0 and test tooling 0.46.1. The creator’s October proof and test counts describe historical runs. The retained October 23 video demonstrates the browser interface at that date, separately from chain voting; updated footage is pending to show today’s snapshot fallback. Fee-pot contributions cannot be withdrawn. Lost receipts prevent counting, revealed choices become public, and timing or funding links can expose information. MIT source; Esmeralda testnet."
     },
     "tari-ootle:component:seance": {
       "id": "tari-ootle:component:seance",
@@ -16326,86 +16393,146 @@
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
         "https://seance.madebydevx.com",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22"
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22",
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/releases",
+        "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/tree/PROOF.md",
+        "https://bsky.app/profile/devxtools.margin.cafe/post/3mygcr27mwn22",
+        "https://explorer.tari.mw/substate/component_7d774657721325da52bc23d13524c2030f1e0b73b5fdb359e67e8211512e081f",
+        "https://explorer.tari.mw/substate/component_47d783b1b727d5268d870ab6cc4f538365ec044c99e9e0ece1ffd3f337a0073c"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T16:52:16.962Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:46:58.370Z",
+          "evidence": "work/daily-2026-11-04/october-forum-nov5-1.json",
+          "hash": "d7b60647cc5906acaf1b891a3bfeee15208ba55b92ae8ef8e82ce432025b658d",
+          "scope": "Original submission and sole creator reply 22 read.",
+          "lastAttemptAt": "2026-11-05T10:46:58.370Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:46:58.370Z",
+          "status": "read",
+          "error": null
         },
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA": {
           "url": "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
-          "hash": "fdb6251f21e8f054c1694117a6f95e9b2a69971eb1ff62bcf36f77020053af9f",
-          "attemptedAt": "2026-11-04T10:07:32.439287+00:00",
-          "evidence": "work/daily-2026-11-04/89b5bf48c1392fb6-fdb6251f21e8f054c1694117a6f95e9b2a69971eb1ff62bcf36f77020053af9f.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:32.439287+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:32.439287+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T16:41:56.771Z",
+          "evidence": "work/daily-2026-11-04/seance-devx-radicle-readme-nov5.txt",
+          "hash": "47876f6d47c7b7988028dbc89e2b066481cdff555370ba54ab515becf9afdebe",
+          "scope": "Complete current README; a1ef9667 source, MIT, historical version pins.",
+          "lastAttemptAt": "2026-11-05T16:41:56.771Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:41:56.771Z",
+          "status": "read",
+          "error": null
         },
         "https://seance.madebydevx.com": {
           "url": "https://seance.madebydevx.com",
-          "hash": "d7916fbf0911ffca25c6574d1010e798732354595a20d673992d6563ec8a99e0",
-          "attemptedAt": "2026-11-04T10:07:32.781943+00:00",
-          "evidence": "work/daily-2026-11-04/ae080f341d7ec399-d7916fbf0911ffca25c6574d1010e798732354595a20d673992d6563ec8a99e0.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:32.781943+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:32.781943+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T16:41:26.387Z",
+          "evidence": "work/daily-2026-11-04/seance-devx-public-loaded-nov5.txt",
+          "hash": "334e740634ce82a91b3942cb02f497530a1345078683c61276b35f3acdc9159d",
+          "scope": "Public browser interface loads; both historical polls fall back to recorded snapshots because indexers cannot retrieve them.",
+          "lastAttemptAt": "2026-11-05T16:41:26.387Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:41:26.387Z",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:46:58.370Z",
+          "evidence": "work/daily-2026-11-04/october-forum-nov5-1.json",
+          "hash": "d7b60647cc5906acaf1b891a3bfeee15208ba55b92ae8ef8e82ce432025b658d",
+          "scope": "Creator follow-up, explicitly not a second submission.",
+          "lastAttemptAt": "2026-11-05T10:46:58.370Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:46:58.370Z",
+          "status": "read",
+          "error": null
         },
         "https://www.youtube.com/watch?v=1PeZwRiqKa0": {
           "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-          "hash": "f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72",
-          "attemptedAt": "2026-11-04T10:07:37.410935+00:00",
-          "evidence": "work/daily-2026-11-04/14f7e70260180f4f-f849d87a10d51ac64975de9ae63e01c90a35feba8c79505c070a1d0ee4c52e72.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:37.410935+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:37.410935+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:41:40.415Z",
+          "evidence": "work/daily-2026-11-04/tari-show-oct27-source-context-nov5.json",
+          "hash": "ef40362799012f2c43a5589cbca8d0e79ea6ef12c72a10ba592e70fce18ca99c",
+          "scope": "Current-run full source context, transcript and description review; audiovisual boundaries retained.",
+          "lastAttemptAt": "2026-11-05T10:41:40.415Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:41:40.415Z",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:46:58.775Z",
+          "evidence": "work/daily-2026-11-04/october-forum-nov5-3.json",
+          "hash": "ea1d889646c2e8d1c310d21b07f5bb7edbb9b6927edaf51f6b6a34b3664aea34",
+          "scope": "Organizer reset notice.",
+          "lastAttemptAt": "2026-11-05T10:46:58.775Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:46:58.775Z",
+          "status": "read",
+          "error": null
+        },
+        "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/releases": {
+          "url": "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/releases",
+          "attemptedAt": "2026-11-05T16:42:58.514Z",
+          "evidence": "work/daily-2026-11-04/seance-devx-releases-nov5.txt",
+          "hash": "1c51b4e48856964ee765b5ec1e045cab712c2e873f338f0b94d2a07c5207e572",
+          "scope": "No releases.",
+          "lastAttemptAt": "2026-11-05T16:42:58.514Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:42:58.514Z",
+          "status": "read",
+          "error": null
+        },
+        "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/tree/PROOF.md": {
+          "url": "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/tree/PROOF.md",
+          "attemptedAt": "2026-11-05T16:42:13.222Z",
+          "evidence": "work/daily-2026-11-04/seance-devx-proof-nov5.txt",
+          "hash": "74715a7b009c6765f2c8fbf65a4194655608be43a727c84f577a8a71e6893b1b",
+          "scope": "Complete creator historical testnet proof, attributed; not independent transaction verification.",
+          "lastAttemptAt": "2026-11-05T16:42:13.222Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:42:13.222Z",
+          "status": "read",
+          "error": null
+        },
+        "https://bsky.app/profile/devxtools.margin.cafe/post/3mygcr27mwn22": {
+          "url": "https://bsky.app/profile/devxtools.margin.cafe/post/3mygcr27mwn22",
+          "attemptedAt": "2026-11-05T16:42:07.195Z",
+          "evidence": "work/daily-2026-11-04/seance-devx-bluesky-nov5.json",
+          "hash": "494503bdda6788dcb25f5d5734e6bb481c1bba3683787f2709ef5f15c591e193",
+          "scope": "Complete creator announcement with zero replies; linked screenshot also inspected.",
+          "lastAttemptAt": "2026-11-05T16:42:07.195Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:42:07.195Z",
+          "status": "read",
+          "error": null
+        },
+        "https://explorer.tari.mw/substate/component_7d774657721325da52bc23d13524c2030f1e0b73b5fdb359e67e8211512e081f": {
+          "lastAttemptAt": "2026-11-05T16:52:16.962Z",
+          "status": "blocked",
+          "error": "Historical poll component not found in current explorer at epoch 12884.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/seance-devx-poll-one-nov5.txt",
+          "nextAction": "Review creator-republished polls when announced; retain original component links and recorded snapshot history."
+        },
+        "https://explorer.tari.mw/substate/component_47d783b1b727d5268d870ab6cc4f538365ec044c99e9e0ece1ffd3f337a0073c": {
+          "lastAttemptAt": "2026-11-05T16:52:16.962Z",
+          "status": "blocked",
+          "error": "Historical poll component not found in current explorer at epoch 12884.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/seance-devx-poll-two-nov5.txt",
+          "nextAction": "Review creator-republished polls when announced; retain original component links and recorded snapshot history."
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
+        "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/releases",
+        "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA/tree/PROOF.md",
+        "https://seance.madebydevx.com",
+        "https://bsky.app/profile/devxtools.margin.cafe/post/3mygcr27mwn22",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/22",
-        "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://www.youtube.com/watch?v=1PeZwRiqKa0"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -16418,7 +16545,7 @@
         "recording",
         "provenance"
       ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "checkedScope": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
@@ -16427,12 +16554,14 @@
       ],
       "sourceObservation": "October 29 original posts and accessible replies, source repository and linked public destinations reviewed. Listing describes observed public availability; no wallet, financial or runtime certification implied.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
-      "copyUpdated": false,
+      "copyUpdated": true,
       "reviewedSourceCount": 4,
       "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://explorer.tari.mw/substate/component_7d774657721325da52bc23d13524c2030f1e0b73b5fdb359e67e8211512e081f",
+        "https://explorer.tari.mw/substate/component_47d783b1b727d5268d870ab6cc4f538365ec044c99e9e0ece1ffd3f337a0073c"
+      ],
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -16473,7 +16602,11 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
-      ]
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/seance-devx-source-review-nov5.json"
+      ],
+      "latestAttemptObservation": "Sealed group polls with anonymous eligibility, replaceable ballots and scheduled reveal. November 5 review: the public browser interface loads, while both historical Esmeralda polls fall back to explicitly labeled recorded snapshots; their component addresses are not found in the current explorer after the testnet reset. Radicle source a1ef9667 remains available with no published releases; its README pins template library 0.34.0 and test tooling 0.46.1. The creator’s October proof and test counts describe historical runs. The retained October 23 video demonstrates the browser interface at that date, separately from chain voting; updated footage is pending to show today’s snapshot fallback. Fee-pot contributions cannot be withdrawn. Lost receipts prevent counting, revealed choices become public, and timing or funding links can expose information. MIT source; Esmeralda testnet."
     },
     "project:sealed-bids-at-midnight": {
       "id": "project:sealed-bids-at-midnight",
@@ -18036,50 +18169,133 @@
       "sources": [
         "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
         "https://github.com/XachP/hearth-aid",
-        "https://xachp.github.io/hearth-aid/"
+        "https://xachp.github.io/hearth-aid/",
+        "https://github.com/XachP/hearth-aid#readme",
+        "https://github.com/XachP/hearth-aid/releases",
+        "https://x.com/LUNNTHEDEV/status/2113090097620906275",
+        "https://dorahacks.io/build/50120",
+        "https://github.com/XachP/hearth-aid/blob/main/pitch/hearth-deck.pdf",
+        "https://explorer.tari.mw/substate/component_3f3565e50bd991406173ee18662f5e17b1282be42e4f2eed85d82f69445157b7",
+        "https://www.youtube.com/watch?v=Ye-5upF1rfM"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T17:00:02.487Z",
       "sourceReviews": {
         "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/": {
           "url": "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
-          "hash": "4dea06bb6bc10bb4bd4787c558620e723b0f81a99ea11a3ff55dd31d4e0e5604",
-          "attemptedAt": "2026-11-04T10:07:36.096085+00:00",
-          "evidence": "work/daily-2026-11-04/7bc7cad23951b40d-4dea06bb6bc10bb4bd4787c558620e723b0f81a99ea11a3ff55dd31d4e0e5604.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:36.096085+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:36.096085+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T16:56:24.087Z",
+          "evidence": "work/daily-2026-11-04/hearth-reddit-nov5.txt",
+          "hash": "b82ebc6e724298549c56168c2dff84602d3f69bfc45bf3d2076473fcc699f256",
+          "scope": "Original full announcement and zero-comment state.",
+          "lastAttemptAt": "2026-11-05T16:56:24.087Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:56:24.087Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/XachP/hearth-aid": {
           "url": "https://github.com/XachP/hearth-aid",
-          "hash": "39c52d3a805177bf00313a5cf2297608a49a147247e30eeb8c19963c4c580fc1",
-          "revision": "cfcc3324dc5fac51daf4bc61df935abd65fc8dce",
-          "attemptedAt": "2026-11-04T10:06:58.471870+00:00",
+          "attemptedAt": "2026-11-04T10:06:58.472Z",
           "evidence": "work/daily-2026-11-04/a791bfd7bf75c8cc-39c52d3a805177bf00313a5cf2297608a49a147247e30eeb8c19963c4c580fc1.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:06:58.471870+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:06:58.471870+00:00",
-          "status": "read"
+          "hash": "39c52d3a805177bf00313a5cf2297608a49a147247e30eeb8c19963c4c580fc1",
+          "scope": "Complete README reviewed; current cfcc3324 revision unchanged from retained recording.",
+          "lastAttemptAt": "2026-11-04T10:06:58.472Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:58.472Z",
+          "status": "read",
+          "error": null
         },
         "https://xachp.github.io/hearth-aid/": {
           "url": "https://xachp.github.io/hearth-aid/",
-          "hash": "eebd9f32418f3aaf6b991ab74f8a89ee241fc6daaf2005a8c548f2af7f570fe0",
-          "attemptedAt": "2026-11-04T10:07:44.936223+00:00",
-          "evidence": "work/daily-2026-11-04/b010f5553690f6ef-eebd9f32418f3aaf6b991ab74f8a89ee241fc6daaf2005a8c548f2af7f570fe0.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:44.936223+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:44.936223+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T16:55:46.292Z",
+          "evidence": "work/daily-2026-11-04/hearth-public-nov5.txt",
+          "hash": "ddb60c45cc60ff8189723c8133308663a949af0e1ca0865499b3e92b26862cff",
+          "scope": "Public explanation plus all five recorded viewpoints read; page explicitly decrypts nothing.",
+          "lastAttemptAt": "2026-11-05T16:55:46.292Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:55:46.292Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/XachP/hearth-aid#readme": {
+          "url": "https://github.com/XachP/hearth-aid#readme",
+          "attemptedAt": "2026-11-04T10:06:58.472Z",
+          "evidence": "work/daily-2026-11-04/a791bfd7bf75c8cc-39c52d3a805177bf00313a5cf2297608a49a147247e30eeb8c19963c4c580fc1.txt",
+          "hash": "39c52d3a805177bf00313a5cf2297608a49a147247e30eeb8c19963c4c580fc1",
+          "scope": "README alias.",
+          "lastAttemptAt": "2026-11-04T10:06:58.472Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:58.472Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/XachP/hearth-aid/releases": {
+          "url": "https://github.com/XachP/hearth-aid/releases",
+          "attemptedAt": "2026-11-05T16:55:08.248Z",
+          "evidence": "work/daily-2026-11-04/hearth-repo-current-nov5.json",
+          "hash": "f1941bf696e49649f887f2550ae82fec91bda65da999f7f6a9cf5c45cb64d795",
+          "scope": "Empty release stream exhausted.",
+          "lastAttemptAt": "2026-11-05T16:55:08.248Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:55:08.248Z",
+          "status": "read",
+          "error": null
+        },
+        "https://x.com/LUNNTHEDEV/status/2113090097620906275": {
+          "url": "https://x.com/LUNNTHEDEV/status/2113090097620906275",
+          "attemptedAt": "2026-11-05T16:57:20.565Z",
+          "evidence": "work/daily-2026-11-04/hearth-x-original-nov5.txt",
+          "hash": "f17f4f6a2f4cda4da29fb8df69e478c4182907f24e2c31d4e21f0680d23cd9f4",
+          "scope": "Original sharing post and zero replies.",
+          "lastAttemptAt": "2026-11-05T16:57:20.565Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:57:20.565Z",
+          "status": "read",
+          "error": null
+        },
+        "https://dorahacks.io/build/50120": {
+          "url": "https://dorahacks.io/build/50120",
+          "attemptedAt": "2026-11-05T16:56:51.978Z",
+          "evidence": "work/daily-2026-11-04/hearth-dorahacks-nov5.txt",
+          "hash": "ff7bd84c064c576d27796126f54f34a4824f97c50258bd68ee7a30549ae311f6",
+          "scope": "Complete creator entry including proposed pilot/governance/feature-phone roadmap.",
+          "lastAttemptAt": "2026-11-05T16:56:51.978Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:56:51.978Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/XachP/hearth-aid/blob/main/pitch/hearth-deck.pdf": {
+          "url": "https://github.com/XachP/hearth-aid/blob/main/pitch/hearth-deck.pdf",
+          "attemptedAt": "2026-11-05T00:20:41.971Z",
+          "evidence": "work/daily-2026-11-04/hearth-pdf-review.json",
+          "hash": "fae20ac7ff699c613f529f5f0c015267e7f20e8057832095375b89ac4ba05d17",
+          "scope": "Previously acquired current-run six-page text review reused; matching blob and SHA256 verified again, no duplicate download.",
+          "lastAttemptAt": "2026-11-05T00:20:41.971Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:20:41.971Z",
+          "status": "read",
+          "error": null
+        },
+        "https://explorer.tari.mw/substate/component_3f3565e50bd991406173ee18662f5e17b1282be42e4f2eed85d82f69445157b7": {
+          "lastAttemptAt": "2026-11-05T17:00:02.487Z",
+          "status": "blocked",
+          "error": "Historical programme component not found at epoch12884 after reset.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/hearth-component-nov5.txt",
+          "nextAction": "Review creator-republished programme when available; preserve historical references."
+        },
+        "https://www.youtube.com/watch?v=Ye-5upF1rfM": {
+          "lastAttemptAt": "2026-11-05T17:00:02.487Z",
+          "status": "blocked",
+          "error": "Full narration inaccessible through available readers: YouTube has no captions/transcript; export reports no transcript, and supported video download rejects blob media. Full description and zero comments read; earlier opening/middle/closing visual review retained.",
+          "failureKind": "unavailable-client",
+          "evidence": "work/daily-2026-11-04/hearth-video-download-attempt-nov5.txt",
+          "nextAction": "Review narration when creator provides captions or a supported media source; do not redownload/retry unchanged blob without actionable recovery."
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
-        "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/"
+        "https://github.com/XachP/hearth-aid#readme",
+        "https://github.com/XachP/hearth-aid/releases",
+        "https://xachp.github.io/hearth-aid/",
+        "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
+        "https://x.com/LUNNTHEDEV/status/2113090097620906275",
+        "https://dorahacks.io/build/50120",
+        "https://github.com/XachP/hearth-aid/blob/main/pitch/hearth-deck.pdf"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -18092,7 +18308,7 @@
         "recording",
         "provenance"
       ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "checkedScope": [
         "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
         "https://github.com/XachP/hearth-aid",
@@ -18100,12 +18316,14 @@
       ],
       "sourceObservation": "October 29 original posts and accessible replies, source repository and linked public destinations reviewed. Listing describes observed public availability; no wallet, financial or runtime certification implied.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
-      "copyUpdated": false,
+      "copyUpdated": true,
       "reviewedSourceCount": 3,
       "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://explorer.tari.mw/substate/component_3f3565e50bd991406173ee18662f5e17b1282be42e4f2eed85d82f69445157b7",
+        "https://www.youtube.com/watch?v=Ye-5upF1rfM"
+      ],
       "attemptReceipts": [
         {
           "url": "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
@@ -18128,7 +18346,11 @@
           "attemptedAt": "2026-11-04T10:07:44.936223+00:00",
           "httpStatus": 200
         }
-      ]
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/hearth-source-review-nov5.json"
+      ],
+      "latestAttemptObservation": "Humanitarian cash-aid template with household enrollment, duplicate-tag checks and wallet replacement. November 5 review: the public page replays the creator’s recorded Esmeralda verifier results and decrypts nothing itself; all five viewpoints remain accessible. The historical programme component is not found after the testnet reset. MIT source cfcc3324 is unchanged with no releases. The public sees household counts, cohorts and total funding; the auditor sees grant amounts without spending power, while households see their own notices. Registration uniqueness depends on trustworthy field registration and salt handling; it does not prove that a person is real. The six-page pitch and creator entry describe merchant voucher mode, governance changes, feature-phone access and an NGO pilot as future work. The October recording is retained as a concept overview of these recorded results. Creator-video narration remains unavailable to this review because no transcript or supported media download is provided. No enrollment, aid payment or wallet action was performed."
     },
     "project:caravel-burn-wallet": {
       "id": "project:caravel-burn-wallet",
@@ -19943,74 +20165,130 @@
         "https://github.com/XachP/hearth-aid",
         "https://github.com/XachP/hearth-aid#readme",
         "https://xachp.github.io/hearth-aid/",
-        "https://x.com/LUNNTHEDEV/status/2113090097620906275"
+        "https://x.com/LUNNTHEDEV/status/2113090097620906275",
+        "https://github.com/XachP/hearth-aid/releases",
+        "https://dorahacks.io/build/50120",
+        "https://github.com/XachP/hearth-aid/blob/main/pitch/hearth-deck.pdf",
+        "https://explorer.tari.mw/substate/component_3f3565e50bd991406173ee18662f5e17b1282be42e4f2eed85d82f69445157b7",
+        "https://www.youtube.com/watch?v=Ye-5upF1rfM"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T17:00:02.487Z",
       "sourceReviews": {
         "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/": {
           "url": "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
-          "hash": "4dea06bb6bc10bb4bd4787c558620e723b0f81a99ea11a3ff55dd31d4e0e5604",
-          "attemptedAt": "2026-11-04T10:07:36.096085+00:00",
-          "evidence": "work/daily-2026-11-04/7bc7cad23951b40d-4dea06bb6bc10bb4bd4787c558620e723b0f81a99ea11a3ff55dd31d4e0e5604.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:36.096085+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:36.096085+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T16:56:24.087Z",
+          "evidence": "work/daily-2026-11-04/hearth-reddit-nov5.txt",
+          "hash": "b82ebc6e724298549c56168c2dff84602d3f69bfc45bf3d2076473fcc699f256",
+          "scope": "Original full announcement and zero-comment state.",
+          "lastAttemptAt": "2026-11-05T16:56:24.087Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:56:24.087Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/XachP/hearth-aid": {
           "url": "https://github.com/XachP/hearth-aid",
-          "hash": "39c52d3a805177bf00313a5cf2297608a49a147247e30eeb8c19963c4c580fc1",
-          "revision": "cfcc3324dc5fac51daf4bc61df935abd65fc8dce",
-          "attemptedAt": "2026-11-04T10:06:58.471870+00:00",
+          "attemptedAt": "2026-11-04T10:06:58.472Z",
           "evidence": "work/daily-2026-11-04/a791bfd7bf75c8cc-39c52d3a805177bf00313a5cf2297608a49a147247e30eeb8c19963c4c580fc1.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:06:58.471870+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:06:58.471870+00:00",
-          "status": "read"
+          "hash": "39c52d3a805177bf00313a5cf2297608a49a147247e30eeb8c19963c4c580fc1",
+          "scope": "Complete README reviewed; current cfcc3324 revision unchanged from retained recording.",
+          "lastAttemptAt": "2026-11-04T10:06:58.472Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:58.472Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/XachP/hearth-aid#readme": {
           "url": "https://github.com/XachP/hearth-aid#readme",
+          "attemptedAt": "2026-11-04T10:06:58.472Z",
+          "evidence": "work/daily-2026-11-04/a791bfd7bf75c8cc-39c52d3a805177bf00313a5cf2297608a49a147247e30eeb8c19963c4c580fc1.txt",
           "hash": "39c52d3a805177bf00313a5cf2297608a49a147247e30eeb8c19963c4c580fc1",
-          "revision": "cfcc3324dc5fac51daf4bc61df935abd65fc8dce",
-          "attemptedAt": "2026-10-31T09:03:02.183611+00:00",
-          "evidence": "work/daily-2026-10-31/a791bfd7bf75c8cc.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:02.183611+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:02.183611+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "scope": "README alias.",
+          "lastAttemptAt": "2026-11-04T10:06:58.472Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:58.472Z",
+          "status": "read",
+          "error": null
         },
         "https://xachp.github.io/hearth-aid/": {
           "url": "https://xachp.github.io/hearth-aid/",
-          "hash": "eebd9f32418f3aaf6b991ab74f8a89ee241fc6daaf2005a8c548f2af7f570fe0",
-          "attemptedAt": "2026-11-04T10:07:44.936223+00:00",
-          "evidence": "work/daily-2026-11-04/b010f5553690f6ef-eebd9f32418f3aaf6b991ab74f8a89ee241fc6daaf2005a8c548f2af7f570fe0.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:44.936223+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:44.936223+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T16:55:46.292Z",
+          "evidence": "work/daily-2026-11-04/hearth-public-nov5.txt",
+          "hash": "ddb60c45cc60ff8189723c8133308663a949af0e1ca0865499b3e92b26862cff",
+          "scope": "Public explanation plus all five recorded viewpoints read; page explicitly decrypts nothing.",
+          "lastAttemptAt": "2026-11-05T16:55:46.292Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:55:46.292Z",
+          "status": "read",
+          "error": null
         },
         "https://x.com/LUNNTHEDEV/status/2113090097620906275": {
           "url": "https://x.com/LUNNTHEDEV/status/2113090097620906275",
-          "hash": "2fc4a536f7411c36c46531c268e7823635291ac0df63533eeba484a98ecc4655",
-          "attemptedAt": "2026-11-04T10:07:42.115734+00:00",
-          "evidence": "work/daily-2026-11-04/f9ce9e1bad488761-2fc4a536f7411c36c46531c268e7823635291ac0df63533eeba484a98ecc4655.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:42.115734+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:42.115734+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T16:57:20.565Z",
+          "evidence": "work/daily-2026-11-04/hearth-x-original-nov5.txt",
+          "hash": "f17f4f6a2f4cda4da29fb8df69e478c4182907f24e2c31d4e21f0680d23cd9f4",
+          "scope": "Original sharing post and zero replies.",
+          "lastAttemptAt": "2026-11-05T16:57:20.565Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:57:20.565Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/XachP/hearth-aid/releases": {
+          "url": "https://github.com/XachP/hearth-aid/releases",
+          "attemptedAt": "2026-11-05T16:55:08.248Z",
+          "evidence": "work/daily-2026-11-04/hearth-repo-current-nov5.json",
+          "hash": "f1941bf696e49649f887f2550ae82fec91bda65da999f7f6a9cf5c45cb64d795",
+          "scope": "Empty release stream exhausted.",
+          "lastAttemptAt": "2026-11-05T16:55:08.248Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:55:08.248Z",
+          "status": "read",
+          "error": null
+        },
+        "https://dorahacks.io/build/50120": {
+          "url": "https://dorahacks.io/build/50120",
+          "attemptedAt": "2026-11-05T16:56:51.978Z",
+          "evidence": "work/daily-2026-11-04/hearth-dorahacks-nov5.txt",
+          "hash": "ff7bd84c064c576d27796126f54f34a4824f97c50258bd68ee7a30549ae311f6",
+          "scope": "Complete creator entry including proposed pilot/governance/feature-phone roadmap.",
+          "lastAttemptAt": "2026-11-05T16:56:51.978Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:56:51.978Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/XachP/hearth-aid/blob/main/pitch/hearth-deck.pdf": {
+          "url": "https://github.com/XachP/hearth-aid/blob/main/pitch/hearth-deck.pdf",
+          "attemptedAt": "2026-11-05T00:20:41.971Z",
+          "evidence": "work/daily-2026-11-04/hearth-pdf-review.json",
+          "hash": "fae20ac7ff699c613f529f5f0c015267e7f20e8057832095375b89ac4ba05d17",
+          "scope": "Previously acquired current-run six-page text review reused; matching blob and SHA256 verified again, no duplicate download.",
+          "lastAttemptAt": "2026-11-05T00:20:41.971Z",
+          "lastSuccessfulReadAt": "2026-11-05T00:20:41.971Z",
+          "status": "read",
+          "error": null
+        },
+        "https://explorer.tari.mw/substate/component_3f3565e50bd991406173ee18662f5e17b1282be42e4f2eed85d82f69445157b7": {
+          "lastAttemptAt": "2026-11-05T17:00:02.487Z",
+          "status": "blocked",
+          "error": "Historical programme component not found at epoch12884 after reset.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/hearth-component-nov5.txt",
+          "nextAction": "Review creator-republished programme when available; preserve historical references."
+        },
+        "https://www.youtube.com/watch?v=Ye-5upF1rfM": {
+          "lastAttemptAt": "2026-11-05T17:00:02.487Z",
+          "status": "blocked",
+          "error": "Full narration inaccessible through available readers: YouTube has no captions/transcript; export reports no transcript, and supported video download rejects blob media. Full description and zero comments read; earlier opening/middle/closing visual review retained.",
+          "failureKind": "unavailable-client",
+          "evidence": "work/daily-2026-11-04/hearth-video-download-attempt-nov5.txt",
+          "nextAction": "Review narration when creator provides captions or a supported media source; do not redownload/retry unchanged blob without actionable recovery."
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
       "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "outcome": "blocked",
       "changedSources": [
+        "https://github.com/XachP/hearth-aid/releases",
+        "https://xachp.github.io/hearth-aid/",
         "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
-        "https://x.com/LUNNTHEDEV/status/2113090097620906275"
+        "https://x.com/LUNNTHEDEV/status/2113090097620906275",
+        "https://dorahacks.io/build/50120",
+        "https://github.com/XachP/hearth-aid/blob/main/pitch/hearth-deck.pdf"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -20023,7 +20301,7 @@
         "recording",
         "provenance"
       ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "checkedScope": [
         "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
         "https://github.com/XachP/hearth-aid",
@@ -20033,14 +20311,14 @@
       ],
       "sourceObservation": "October 29 original posts and accessible replies, source repository and linked public destinations reviewed. Listing describes observed public availability; no wallet, financial or runtime certification implied.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
-      "copyUpdated": false,
+      "copyUpdated": true,
       "reviewedSourceCount": 5,
-      "pendingReviewSources": [
-        "https://github.com/XachP/hearth-aid#readme"
-      ],
+      "pendingReviewSources": [],
       "supersededSources": {},
-      "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "blockedSources": [
+        "https://explorer.tari.mw/substate/component_3f3565e50bd991406173ee18662f5e17b1282be42e4f2eed85d82f69445157b7",
+        "https://www.youtube.com/watch?v=Ye-5upF1rfM"
+      ],
       "attemptReceipts": [
         {
           "url": "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
@@ -20070,7 +20348,11 @@
           "attemptedAt": "2026-11-04T10:07:42.115734+00:00",
           "httpStatus": 200
         }
-      ]
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/hearth-source-review-nov5.json"
+      ],
+      "latestAttemptObservation": "Humanitarian cash-aid template with household enrollment, duplicate-tag checks and wallet replacement. November 5 review: the public page replays the creator’s recorded Esmeralda verifier results and decrypts nothing itself; all five viewpoints remain accessible. The historical programme component is not found after the testnet reset. MIT source cfcc3324 is unchanged with no releases. The public sees household counts, cohorts and total funding; the auditor sees grant amounts without spending power, while households see their own notices. Registration uniqueness depends on trustworthy field registration and salt handling; it does not prove that a person is real. The six-page pitch and creator entry describe merchant voucher mode, governance changes, feature-phone access and an NGO pilot as future work. The October recording is retained as a concept overview of these recorded results. Creator-video narration remains unavailable to this review because no transcript or supported media download is provided. No enrollment, aid payment or wallet action was performed."
     },
     "tari-ootle:component:caravel-trade": {
       "id": "tari-ootle:component:caravel-trade",
@@ -28476,90 +28758,169 @@
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
         "https://github.com/YASASWIP012/danse-macabre",
-        "https://danse-macabre.vercel.app/"
+        "https://danse-macabre.vercel.app/",
+        "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
+        "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/YASASWIP012/danse-macabre#readme",
+        "https://github.com/YASASWIP012/danse-macabre/releases",
+        "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz7afhjelk2p",
+        "https://explorer.tari.mw/substate/component_3ce57c95a3a7644274d539ad76ff5d270e3b852ba537db7fc8c2a07f7d2fe976",
+        "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/PROOF.md",
+        "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/THREAT_MODEL.md"
       ],
       "lastSuccessfulReviewAt": "2026-11-02T16:28:10.604Z",
-      "outcome": "pending",
+      "outcome": "blocked",
       "reviewRequired": true,
       "canonicalResourceId": "danse-macabre",
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T17:20:18.053Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:46:58.591Z",
+          "evidence": "work/daily-2026-11-04/october-forum-nov5-2.json",
+          "hash": "2be35c78ed901fee606456d39835e5d643356f81bde38a5c5d7d8e0b68741184",
+          "scope": "Full original contest post, version 1 and zero replies; complete paginated topic evidence retained.",
+          "lastAttemptAt": "2026-11-05T10:46:58.591Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:46:58.591Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/YASASWIP012/danse-macabre": {
           "url": "https://github.com/YASASWIP012/danse-macabre",
-          "hash": "f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab",
-          "revision": "2341dc39b67f2f3491699a079bdd0103f1efedb5",
-          "attemptedAt": "2026-11-04T10:06:59.403642+00:00",
+          "attemptedAt": "2026-11-04T10:06:59.404Z",
           "evidence": "work/daily-2026-11-04/0db69bc53ebab53b-f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:06:59.403642+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:06:59.403642+00:00",
-          "status": "read"
+          "hash": "f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab",
+          "scope": "Complete current README reviewed at unchanged 2341dc39 revision.",
+          "lastAttemptAt": "2026-11-04T10:06:59.404Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:59.404Z",
+          "status": "read",
+          "error": null
         },
         "https://danse-macabre.vercel.app/": {
           "url": "https://danse-macabre.vercel.app/",
-          "hash": "b0983d6d8a4fb0dd313e85e4b2e01863ca7cbc3bb7871fda79c12ad016a2f654",
-          "attemptedAt": "2026-11-04T10:07:26.919593+00:00",
-          "evidence": "work/daily-2026-11-04/ce95a4f21573d879-b0983d6d8a4fb0dd313e85e4b2e01863ca7cbc3bb7871fda79c12ad016a2f654.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.919593+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.919593+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T17:13:27.691Z",
+          "evidence": "work/daily-2026-11-04/danse-public-nov5.txt",
+          "hash": "c79f0476763042112476bb678b805d12678022c10cab386974c298aaf3527192",
+          "scope": "Complete public explanation read; no transaction-backed game started.",
+          "lastAttemptAt": "2026-11-05T17:13:27.691Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:13:27.691Z",
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k": {
           "url": "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
-          "hash": "66a2646e3e7aa64febe6dee40f5f687d8dc25fbd57042a099995224e7ee7f560",
-          "attemptedAt": "2026-11-04T10:07:26.791681+00:00",
-          "evidence": "work/daily-2026-11-04/fc91c45326abf9b4-66a2646e3e7aa64febe6dee40f5f687d8dc25fbd57042a099995224e7ee7f560.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.791681+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.791681+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T17:13:54.731Z",
+          "evidence": "work/daily-2026-11-04/danse-bluesky-nov5.txt",
+          "hash": "f35774a73e5fd9399fe463e8efce38dd6b5e05db1a628416d9a2923e8ade1bbc",
+          "scope": "Complete original announcement and sole creator reply read.",
+          "lastAttemptAt": "2026-11-05T17:13:54.731Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:13:54.731Z",
+          "status": "read",
+          "error": null
         },
         "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q": {
           "url": "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q",
-          "hash": "ac181f2b5944fca502a0e75499648e3e1687487ac669f9aad7ce0908ea96f8e6",
-          "attemptedAt": "2026-11-04T10:07:38.891488+00:00",
-          "evidence": "work/daily-2026-11-04/cc0f88136faa62fc-ac181f2b5944fca502a0e75499648e3e1687487ac669f9aad7ce0908ea96f8e6.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:38.891488+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:38.891488+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T17:14:33.960Z",
+          "evidence": "work/daily-2026-11-04/danse-video-transcript-nov5.txt",
+          "hash": "60c36d53943d907209a5330820e4478ea5ab235ea5c36a101ca909cd549a205d",
+          "scope": "Complete English auto-generated transcript read; full description, zero comments, sampled opening/middle/closing frames and actual advancing playback reviewed separately.",
+          "lastAttemptAt": "2026-11-05T17:14:33.960Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:14:33.960Z",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:46:58.775Z",
+          "evidence": "work/daily-2026-11-04/october-forum-nov5-3.json",
+          "hash": "ea1d889646c2e8d1c310d21b07f5bb7edbb9b6927edaf51f6b6a34b3664aea34",
+          "scope": "Organizer testnet reset and republishing notice.",
+          "lastAttemptAt": "2026-11-05T10:46:58.775Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:46:58.775Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/YASASWIP012/danse-macabre#readme": {
+          "url": "https://github.com/YASASWIP012/danse-macabre#readme",
+          "attemptedAt": "2026-11-04T10:06:59.404Z",
+          "evidence": "work/daily-2026-11-04/0db69bc53ebab53b-f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab.txt",
+          "hash": "f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab",
+          "scope": "Complete current README reviewed at unchanged 2341dc39 revision.",
+          "lastAttemptAt": "2026-11-04T10:06:59.404Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:59.404Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/YASASWIP012/danse-macabre/releases": {
+          "url": "https://github.com/YASASWIP012/danse-macabre/releases",
+          "attemptedAt": "2026-11-05T16:55:08.248Z",
+          "evidence": "work/daily-2026-11-04/danse-repo-current-nov5.json",
+          "hash": "664303da08b2f4554e1facbb457e02539d283a8833ad4ba1dac653775a21bb18",
+          "scope": "Release pagination exhausted: no releases.",
+          "lastAttemptAt": "2026-11-05T16:55:08.248Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:55:08.248Z",
+          "status": "read",
+          "error": null
+        },
+        "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz7afhjelk2p": {
+          "url": "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz7afhjelk2p",
+          "attemptedAt": "2026-11-05T17:13:54.731Z",
+          "evidence": "work/daily-2026-11-04/danse-bluesky-nov5.txt",
+          "hash": "f35774a73e5fd9399fe463e8efce38dd6b5e05db1a628416d9a2923e8ade1bbc",
+          "scope": "Creator follow-up about moderation queue; zero nested replies.",
+          "lastAttemptAt": "2026-11-05T17:13:54.731Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:13:54.731Z",
+          "status": "read",
+          "error": null
+        },
+        "https://explorer.tari.mw/substate/component_3ce57c95a3a7644274d539ad76ff5d270e3b852ba537db7fc8c2a07f7d2fe976": {
+          "lastAttemptAt": "2026-11-05T17:13:43.190Z",
+          "status": "blocked",
+          "error": "Historical game component not found in the current public indexer.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/danse-component-nov5.txt",
+          "nextAction": "Review creator-republished game component when available; preserve historical proof and failed destination."
+        },
+        "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/PROOF.md": {
+          "url": "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/PROOF.md",
+          "attemptedAt": "2026-11-05T17:13:16.139Z",
+          "evidence": "work/daily-2026-11-04/e92d3a309826ce0e-69265c6dc7cb484f7911e9bdda062fa953f8e2d9bfa29700fe485509fd3dc6f8.txt",
+          "hash": "69265c6dc7cb484f7911e9bdda062fa953f8e2d9bfa29700fe485509fd3dc6f8",
+          "scope": "Complete repository document reviewed at current pinned revision.",
+          "lastAttemptAt": "2026-11-05T17:13:16.139Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:13:16.139Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/THREAT_MODEL.md": {
+          "url": "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/THREAT_MODEL.md",
+          "attemptedAt": "2026-11-05T17:13:16.140Z",
+          "evidence": "work/daily-2026-11-04/d7e3df941f28ede1-5fdca8fa1aa0182fae269c813c5704a650ddd8a22b86f12847926def6eaab069.txt",
+          "hash": "5fdca8fa1aa0182fae269c813c5704a650ddd8a22b86f12847926def6eaab069",
+          "scope": "Complete repository document reviewed at current pinned revision.",
+          "lastAttemptAt": "2026-11-05T17:13:16.140Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:13:16.140Z",
+          "status": "read",
+          "error": null
         }
       },
       "observedAvailability": "public testnet interface and source",
       "pendingReviewSources": [],
-      "blockedSources": [],
+      "blockedSources": [
+        "https://explorer.tari.mw/substate/component_3ce57c95a3a7644274d539ad76ff5d270e3b852ba537db7fc8c2a07f7d2fe976"
+      ],
       "changedSources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/YASASWIP012/danse-macabre#readme",
+        "https://github.com/YASASWIP012/danse-macabre/releases",
+        "https://danse-macabre.vercel.app/",
         "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
+        "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz7afhjelk2p",
         "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/PROOF.md",
+        "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/THREAT_MODEL.md"
       ],
       "changedFields": [
         "sourceEvidence"
@@ -28571,8 +28932,7 @@
         "recording",
         "provenance"
       ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -28614,7 +28974,12 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
-      ]
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/danse-macabre-source-review-nov5.json"
+      ],
+      "latestAttemptObservation": "Werewolf without a game master: five players jointly shuffle hidden roles, then submit sealed night actions whose total reveals the victim. November 5 review: the public explanation and solo/group entry points load, while the historical game component linked in PROOF.md is not found after the testnet reset. MIT source 2341dc3 has no new releases. The creator’s October 31 video explains the design; its narration describes 33 engine tests, while the repository specifies 25 engine tests plus eight prover tests. These are creator-reported results. Solo ghosts share the host tab, so privacy matters between separate people; table existence, seat keys, posting, timing, fees and dead players’ roles remain public. A stalled seat can forfeit optional stakes, with a documented 48–96 minute closure window. The November 2 recording remains a walkthrough of the public explanation and privacy model. No game, stake or transaction was started during this review.",
+      "copyUpdated": true
     },
     "tari-ootle:learn:release-0492": {
       "id": "tari-ootle:learn:release-0492",
@@ -29165,104 +29530,165 @@
         "https://github.com/YASASWIP012/danse-macabre#readme",
         "https://danse-macabre.vercel.app/",
         "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
-        "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q"
+        "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/YASASWIP012/danse-macabre/releases",
+        "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz7afhjelk2p",
+        "https://explorer.tari.mw/substate/component_3ce57c95a3a7644274d539ad76ff5d270e3b852ba537db7fc8c2a07f7d2fe976",
+        "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/PROOF.md",
+        "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/THREAT_MODEL.md"
       ],
       "lastSuccessfulReviewAt": "2026-11-02T16:28:10.604Z",
-      "outcome": "pending",
+      "outcome": "blocked",
       "reviewRequired": true,
       "canonicalResourceId": "danse-macabre",
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T17:20:18.053Z",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:46:58.591Z",
+          "evidence": "work/daily-2026-11-04/october-forum-nov5-2.json",
+          "hash": "2be35c78ed901fee606456d39835e5d643356f81bde38a5c5d7d8e0b68741184",
+          "scope": "Full original contest post, version 1 and zero replies; complete paginated topic evidence retained.",
+          "lastAttemptAt": "2026-11-05T10:46:58.591Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:46:58.591Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/YASASWIP012/danse-macabre": {
           "url": "https://github.com/YASASWIP012/danse-macabre",
-          "hash": "f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab",
-          "revision": "2341dc39b67f2f3491699a079bdd0103f1efedb5",
-          "attemptedAt": "2026-11-04T10:06:59.403642+00:00",
+          "attemptedAt": "2026-11-04T10:06:59.404Z",
           "evidence": "work/daily-2026-11-04/0db69bc53ebab53b-f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:06:59.403642+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:06:59.403642+00:00",
-          "status": "read"
+          "hash": "f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab",
+          "scope": "Complete current README reviewed at unchanged 2341dc39 revision.",
+          "lastAttemptAt": "2026-11-04T10:06:59.404Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:59.404Z",
+          "status": "read",
+          "error": null
         },
         "https://github.com/YASASWIP012/danse-macabre#readme": {
           "url": "https://github.com/YASASWIP012/danse-macabre#readme",
+          "attemptedAt": "2026-11-04T10:06:59.404Z",
+          "evidence": "work/daily-2026-11-04/0db69bc53ebab53b-f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab.txt",
           "hash": "f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab",
-          "evidence": "work/daily-2026-10-31/0db69bc53ebab53b-f0b7b936841c29c24341e9992c5fd0aa0210c58041cc120c2df785a1a55837ab.txt",
-          "attemptedAt": "2026-11-02T13:35:19.072Z",
-          "method": "Primary source read, with preserved source representation and separately recorded editorial/playback acceptance.",
-          "revision": "2341dc39b67f2f3491699a079bdd0103f1efedb5",
-          "lastAttemptAt": "2026-11-02T13:35:19.072Z",
-          "lastSuccessfulReadAt": "2026-11-02T13:35:19.072Z",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "scope": "Complete current README reviewed at unchanged 2341dc39 revision.",
+          "lastAttemptAt": "2026-11-04T10:06:59.404Z",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:59.404Z",
+          "status": "read",
+          "error": null
         },
         "https://danse-macabre.vercel.app/": {
           "url": "https://danse-macabre.vercel.app/",
-          "hash": "b0983d6d8a4fb0dd313e85e4b2e01863ca7cbc3bb7871fda79c12ad016a2f654",
-          "attemptedAt": "2026-11-04T10:07:26.919593+00:00",
-          "evidence": "work/daily-2026-11-04/ce95a4f21573d879-b0983d6d8a4fb0dd313e85e4b2e01863ca7cbc3bb7871fda79c12ad016a2f654.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.919593+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.919593+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T17:13:27.691Z",
+          "evidence": "work/daily-2026-11-04/danse-public-nov5.txt",
+          "hash": "c79f0476763042112476bb678b805d12678022c10cab386974c298aaf3527192",
+          "scope": "Complete public explanation read; no transaction-backed game started.",
+          "lastAttemptAt": "2026-11-05T17:13:27.691Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:13:27.691Z",
+          "status": "read",
+          "error": null
         },
         "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k": {
           "url": "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
-          "hash": "66a2646e3e7aa64febe6dee40f5f687d8dc25fbd57042a099995224e7ee7f560",
-          "attemptedAt": "2026-11-04T10:07:26.791681+00:00",
-          "evidence": "work/daily-2026-11-04/fc91c45326abf9b4-66a2646e3e7aa64febe6dee40f5f687d8dc25fbd57042a099995224e7ee7f560.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.791681+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.791681+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T17:13:54.731Z",
+          "evidence": "work/daily-2026-11-04/danse-bluesky-nov5.txt",
+          "hash": "f35774a73e5fd9399fe463e8efce38dd6b5e05db1a628416d9a2923e8ade1bbc",
+          "scope": "Complete original announcement and sole creator reply read.",
+          "lastAttemptAt": "2026-11-05T17:13:54.731Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:13:54.731Z",
+          "status": "read",
+          "error": null
         },
         "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q": {
           "url": "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q",
-          "hash": "ac181f2b5944fca502a0e75499648e3e1687487ac669f9aad7ce0908ea96f8e6",
-          "attemptedAt": "2026-11-04T10:07:38.891488+00:00",
-          "evidence": "work/daily-2026-11-04/cc0f88136faa62fc-ac181f2b5944fca502a0e75499648e3e1687487ac669f9aad7ce0908ea96f8e6.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:38.891488+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:38.891488+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T17:14:33.960Z",
+          "evidence": "work/daily-2026-11-04/danse-video-transcript-nov5.txt",
+          "hash": "60c36d53943d907209a5330820e4478ea5ab235ea5c36a101ca909cd549a205d",
+          "scope": "Complete English auto-generated transcript read; full description, zero comments, sampled opening/middle/closing frames and actual advancing playback reviewed separately.",
+          "lastAttemptAt": "2026-11-05T17:14:33.960Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:14:33.960Z",
+          "status": "read",
+          "error": null
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
-          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "attemptedAt": "2026-11-05T10:46:58.775Z",
+          "evidence": "work/daily-2026-11-04/october-forum-nov5-3.json",
+          "hash": "ea1d889646c2e8d1c310d21b07f5bb7edbb9b6927edaf51f6b6a34b3664aea34",
+          "scope": "Organizer testnet reset and republishing notice.",
+          "lastAttemptAt": "2026-11-05T10:46:58.775Z",
+          "lastSuccessfulReadAt": "2026-11-05T10:46:58.775Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/YASASWIP012/danse-macabre/releases": {
+          "url": "https://github.com/YASASWIP012/danse-macabre/releases",
+          "attemptedAt": "2026-11-05T16:55:08.248Z",
+          "evidence": "work/daily-2026-11-04/danse-repo-current-nov5.json",
+          "hash": "664303da08b2f4554e1facbb457e02539d283a8833ad4ba1dac653775a21bb18",
+          "scope": "Release pagination exhausted: no releases.",
+          "lastAttemptAt": "2026-11-05T16:55:08.248Z",
+          "lastSuccessfulReadAt": "2026-11-05T16:55:08.248Z",
+          "status": "read",
+          "error": null
+        },
+        "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz7afhjelk2p": {
+          "url": "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz7afhjelk2p",
+          "attemptedAt": "2026-11-05T17:13:54.731Z",
+          "evidence": "work/daily-2026-11-04/danse-bluesky-nov5.txt",
+          "hash": "f35774a73e5fd9399fe463e8efce38dd6b5e05db1a628416d9a2923e8ade1bbc",
+          "scope": "Creator follow-up about moderation queue; zero nested replies.",
+          "lastAttemptAt": "2026-11-05T17:13:54.731Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:13:54.731Z",
+          "status": "read",
+          "error": null
+        },
+        "https://explorer.tari.mw/substate/component_3ce57c95a3a7644274d539ad76ff5d270e3b852ba537db7fc8c2a07f7d2fe976": {
+          "lastAttemptAt": "2026-11-05T17:13:43.190Z",
+          "status": "blocked",
+          "error": "Historical game component not found in the current public indexer.",
+          "failureKind": "unavailable-content",
+          "evidence": "work/daily-2026-11-04/danse-component-nov5.txt",
+          "nextAction": "Review creator-republished game component when available; preserve historical proof and failed destination."
+        },
+        "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/PROOF.md": {
+          "url": "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/PROOF.md",
+          "attemptedAt": "2026-11-05T17:13:16.139Z",
+          "evidence": "work/daily-2026-11-04/e92d3a309826ce0e-69265c6dc7cb484f7911e9bdda062fa953f8e2d9bfa29700fe485509fd3dc6f8.txt",
+          "hash": "69265c6dc7cb484f7911e9bdda062fa953f8e2d9bfa29700fe485509fd3dc6f8",
+          "scope": "Complete repository document reviewed at current pinned revision.",
+          "lastAttemptAt": "2026-11-05T17:13:16.139Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:13:16.139Z",
+          "status": "read",
+          "error": null
+        },
+        "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/THREAT_MODEL.md": {
+          "url": "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/THREAT_MODEL.md",
+          "attemptedAt": "2026-11-05T17:13:16.140Z",
+          "evidence": "work/daily-2026-11-04/d7e3df941f28ede1-5fdca8fa1aa0182fae269c813c5704a650ddd8a22b86f12847926def6eaab069.txt",
+          "hash": "5fdca8fa1aa0182fae269c813c5704a650ddd8a22b86f12847926def6eaab069",
+          "scope": "Complete repository document reviewed at current pinned revision.",
+          "lastAttemptAt": "2026-11-05T17:13:16.140Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:13:16.140Z",
+          "status": "read",
+          "error": null
         }
       },
       "observedAvailability": "public testnet interface and source",
-      "pendingReviewSources": [
-        "https://github.com/YASASWIP012/danse-macabre#readme"
+      "pendingReviewSources": [],
+      "blockedSources": [
+        "https://explorer.tari.mw/substate/component_3ce57c95a3a7644274d539ad76ff5d270e3b852ba537db7fc8c2a07f7d2fe976"
       ],
-      "blockedSources": [],
       "changedSources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/41",
+        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+        "https://github.com/YASASWIP012/danse-macabre/releases",
+        "https://danse-macabre.vercel.app/",
         "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz77r73oe52k",
+        "https://bsky.app/profile/yasaswip012.bsky.social/post/3mz7afhjelk2p",
         "https://www.youtube.com/watch?v=Mh5FU2Hlr4Q",
-        "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
+        "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/PROOF.md",
+        "https://github.com/YASASWIP012/danse-macabre/blob/2341dc39b67f2f3491699a079bdd0103f1efedb5/THREAT_MODEL.md"
       ],
       "changedFields": [
         "sourceEvidence"
@@ -29274,8 +29700,7 @@
         "recording",
         "provenance"
       ],
-      "nextReviewAt": "2026-11-05T10:00:00Z",
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
+      "nextReviewAt": "2026-11-06T10:00:00Z",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -29317,7 +29742,12 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
-      ]
+      ],
+      "evidence": [
+        "work/daily-2026-11-04/danse-macabre-source-review-nov5.json"
+      ],
+      "latestAttemptObservation": "Werewolf without a game master: five players jointly shuffle hidden roles, then submit sealed night actions whose total reveals the victim. November 5 review: the public explanation and solo/group entry points load, while the historical game component linked in PROOF.md is not found after the testnet reset. MIT source 2341dc3 has no new releases. The creator’s October 31 video explains the design; its narration describes 33 engine tests, while the repository specifies 25 engine tests plus eight prover tests. These are creator-reported results. Solo ghosts share the host tab, so privacy matters between separate people; table existence, seat keys, posting, timing, fees and dead players’ roles remain public. A stalled seat can forfeit optional stakes, with a documented 48–96 minute closure window. The November 2 recording remains a walkthrough of the public explanation and privacy model. No game, stake or transaction was started during this review.",
+      "copyUpdated": true
     },
     "tari-ootle:learn:taritalk-wallet-operations-faq": {
       "id": "tari-ootle:learn:taritalk-wallet-operations-faq",
@@ -30987,58 +31417,56 @@
         "https://github.com/kstrycharz/azurestatictesting",
         "https://t.me/taritracker"
       ],
-      "lastAttemptAt": "2026-11-05T13:15:57.420Z",
+      "lastAttemptAt": "2026-11-05T17:20:18.053Z",
       "sourceReviews": {
         "https://taritracker.com/": {
           "url": "https://taritracker.com/",
-          "hash": "7904f0150cf5a5e12b75b117c25ce8bb86d3e0c7c0837b45b36e17c67925a7a5",
-          "attemptedAt": "2026-11-05T13:06:34.755Z",
-          "evidence": "work/daily-2026-11-04/taritracker-home-current-nov5.txt",
-          "complete": true,
-          "lastAttemptAt": "2026-11-05T13:06:34.755Z",
-          "lastSuccessfulReadAt": "2026-11-05T13:06:34.755Z",
+          "attemptedAt": "2026-11-05T17:18:26.275Z",
+          "evidence": "work/daily-2026-11-04/tracker-controls-reviewed-nov5.txt",
+          "hash": "0ae808a78dfde898f7ab540012960a0a328ed06e7553a4a509c40493f01a723c",
+          "scope": "Complete current public dashboard and permitted Refresh/tari/All projects controls reviewed; figures are capture-time observations.",
+          "lastAttemptAt": "2026-11-05T17:18:26.275Z",
+          "lastSuccessfulReadAt": "2026-11-05T17:18:26.275Z",
           "status": "read",
           "error": null
         },
         "https://x.com/WorldWarSquared/status/2112894915046993957": {
           "url": "https://x.com/WorldWarSquared/status/2112894915046993957",
-          "hash": "e473dbd79534f6a98fd59ca1a568e3902baf83c85637eda3562f7a35ad200605",
           "attemptedAt": "2026-11-05T13:05:54.151Z",
           "evidence": "work/daily-2026-11-04/taritracker-original-post-expanded-nov5.txt",
-          "complete": true,
+          "hash": "e473dbd79534f6a98fd59ca1a568e3902baf83c85637eda3562f7a35ad200605",
+          "scope": "Full original sharing post, parent context and both displayed replies read in this run.",
           "lastAttemptAt": "2026-11-05T13:05:54.151Z",
           "lastSuccessfulReadAt": "2026-11-05T13:05:54.151Z",
           "status": "read",
           "error": null
         },
         "https://github.com/kstrycharz/azurestatictesting": {
-          "lastAttemptAt": "2026-11-05T13:06:07.156Z",
+          "lastAttemptAt": "2026-11-05T17:12:45.169Z",
           "status": "blocked",
-          "error": "Creator-linked repository renders GitHub404 in authorized browser.",
+          "error": "Retained footer-linked source repository returned404 through API and authenticated browser; no documented replacement found.",
           "failureKind": "http",
-          "evidence": "work/daily-2026-11-04/taritracker-repository-404-nov5.txt",
-          "nextAction": "Revisit after creator restores access or documents a replacement; preserve failed URL."
+          "evidence": "work/daily-2026-11-04/tracker-github-browser-nov5.txt",
+          "nextAction": "Revisit when creator republishes this repository or documents a replacement; preserve original URL and failure history."
         },
         "https://t.me/taritracker": {
-          "lastAttemptAt": "2026-11-03T13:33:07.514Z",
-          "status": "pending",
-          "error": "Public Telegram landing page available; no message history exposed in authorized browser.",
-          "failureKind": "unavailable-content",
-          "evidence": "work/daily-2026-10-31/tari-tracker-telegram-landing-nov3.txt",
-          "nextAction": "Retry public history through existing authorized client; do not join or request new access.",
+          "lastAttemptAt": "2026-11-05T17:17:37.588Z",
+          "status": "blocked",
+          "error": "Public landing has no message history; web client requires QR device login. Existing native client has unrelated unsent work, which was preserved.",
+          "failureKind": "authentication",
+          "evidence": "work/daily-2026-11-04/tracker-telegram-web-access-nov5.txt",
+          "nextAction": "Read existing authorized client when its unrelated draft is safely handed off, or use an already authenticated browser session; no new device grant authorized.",
           "pendingReason": "Public landing reviewed; authorized client history not yet inspected."
         }
       },
-      "outcome": "pending",
-      "pendingReviewSources": [
+      "outcome": "blocked",
+      "pendingReviewSources": [],
+      "blockedSources": [
+        "https://github.com/kstrycharz/azurestatictesting",
         "https://t.me/taritracker"
       ],
-      "blockedSources": [
-        "https://github.com/kstrycharz/azurestatictesting"
-      ],
       "changedSources": [
-        "https://taritracker.com/",
-        "https://x.com/WorldWarSquared/status/2112894915046993957"
+        "https://taritracker.com/"
       ],
       "reviewRequired": true,
       "changedFields": [
@@ -31056,7 +31484,6 @@
       "publicationStatus": "pending",
       "lastSuccessfulReviewAt": null,
       "observedAvailability": null,
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://x.com/WorldWarSquared/status/2112894915046993957",
@@ -31082,8 +31509,9 @@
         }
       ],
       "evidence": [
-        "work/daily-2026-11-04/taritracker-source-progress-nov5.json"
-      ]
+        "work/daily-2026-11-04/tari-tracker-source-review-nov5.json"
+      ],
+      "latestAttemptObservation": "Independent community dashboard with Tari hashrates, chain height, developer activity filters and linked ecosystem tools. On November 5, 2026 the public overview loaded network data, and Refresh data plus the tari/All projects filters responded. The November 3 recording remains an app demo of those controls; its figures are fixed at capture time. The footer-linked source repository still returned 404 in both the source reader and browser. The public Telegram landing offered no message history, and the browser client required a new device login, so that channel’s messages were not reviewed. The dashboard remains accessible. No wallet, donation or download action was performed."
     },
     "tari-ootle:component:tari-block-tools": {
       "id": "tari-ootle:component:tari-block-tools",
