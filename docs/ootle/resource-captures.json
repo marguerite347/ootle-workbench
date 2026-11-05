@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T01:40:44.933962+00:00",
+  "updatedAt": "2026-11-05T02:20:47.747609+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -4882,7 +4882,14 @@
           "scope": "Native video Space key; desktop and 390x844 phone viewport; playback advanced from 0 to at least 10.97s of 12s on Lobby desktop, all clips ended at12s on phone and Workbench. Hauntboard only has a Lobby surface.",
           "evidence": "work/daily-2026-10-29/playback.json"
         }
-      }
+      },
+      "retentionReviews": [
+        {
+          "checkedAt": "2026-11-05T02:20:47.747609+00:00",
+          "sourceEvidence": "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json",
+          "decision": "Retain dated replay or privacy documentation; neither shows live current service operations. Original frame and playback evidence preserved; current publication playback pending."
+        }
+      ]
     },
     {
       "resourceId": "moonmail",
@@ -4935,7 +4942,14 @@
           "scope": "Native video Space key; desktop and 390x844 phone viewport; playback advanced from 0 to at least 10.97s of 12s on Lobby desktop, all clips ended at12s on phone and Workbench. Hauntboard only has a Lobby surface.",
           "evidence": "work/daily-2026-10-29/playback.json"
         }
-      }
+      },
+      "retentionReviews": [
+        {
+          "checkedAt": "2026-11-05T02:20:47.747609+00:00",
+          "sourceEvidence": "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json",
+          "decision": "Retain dated replay or privacy documentation; neither shows live current service operations. Original frame and playback evidence preserved; current publication playback pending."
+        }
+      ]
     },
     {
       "resourceId": "tari-agent-registry",

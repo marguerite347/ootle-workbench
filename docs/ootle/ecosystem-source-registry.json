@@ -19038,85 +19038,93 @@
         "https://github.com/Mzee04/cursed-pumpkin",
         "https://mzee04.github.io/cursed-pumpkin/"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T02:20:47.747609+00:00",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://github.com/Mzee04/cursed-pumpkin": {
           "url": "https://github.com/Mzee04/cursed-pumpkin",
           "hash": "41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582",
-          "revision": "5858ddfd31e36ad961379aff379e1618240619bc",
           "attemptedAt": "2026-11-04T10:06:55.939624+00:00",
-          "evidence": "work/daily-2026-11-04/4bcfa63a178fce47-41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:06:55.939624+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:55.939624+00:00",
-          "status": "read"
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/4bcfa63a178fce47-41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://mzee04.github.io/cursed-pumpkin/": {
           "url": "https://mzee04.github.io/cursed-pumpkin/",
-          "hash": "3f76d2998f17f616db2bd577ec25fc1e38347def63165fb07e44c86010b8b4ea",
-          "attemptedAt": "2026-11-04T10:07:29.234391+00:00",
-          "evidence": "work/daily-2026-11-04/3547ed7368c1b297-3f76d2998f17f616db2bd577ec25fc1e38347def63165fb07e44c86010b8b4ea.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:29.234391+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:29.234391+00:00",
-          "status": "read"
+          "status": "read",
+          "hash": "e6d1d1a0408281248edf62d3649650feb9096509757336b7f5cfdc2fc3c7fb5e",
+          "attemptedAt": "2026-11-05T02:10:14.616746+00:00",
+          "lastAttemptAt": "2026-11-05T02:10:14.616746+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T02:10:14.616746+00:00",
+          "evidence": "work/daily-2026-11-04/cursed-pumpkin-current-live.txt",
+          "scope": "The recorded October28 testnet replay is reachable. The Live game tab reports404/Substate not found for the recorded component after the November2 reset notice. This does not make the replay unavailable or prove the reset caused the error. No new game was played."
         },
         "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y": {
           "url": "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y",
-          "hash": "0210096dc7a62886b1c8c6a361be6e15d95fcc53a46c82dc03dde75de8b26ad5",
-          "attemptedAt": "2026-11-04T10:07:25.659931+00:00",
-          "evidence": "work/daily-2026-11-04/c641cca30db800d8-0210096dc7a62886b1c8c6a361be6e15d95fcc53a46c82dc03dde75de8b26ad5.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.659931+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.659931+00:00",
-          "status": "read"
+          "hash": "5d881cfb34cef82d7bd1f259793d5a820b981acf8ea44f1ac089427ccc3ea516",
+          "attemptedAt": "2026-11-04T10:06:48.337621+00:00",
+          "lastAttemptAt": "2026-11-04T10:06:48.337621+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.337621+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/c641cca30db800d8-5d881cfb34cef82d7bd1f259793d5a820b981acf8ea44f1ac089427ccc3ea516.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
+        },
+        "https://community.tari.com/t/396.json": {
+          "url": "https://community.tari.com/t/396.json",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
+        },
+        "https://github.com/Mzee04/cursed-pumpkin/releases": {
+          "url": "https://github.com/Mzee04/cursed-pumpkin/releases",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:06:55.523243+00:00",
+          "lastAttemptAt": "2026-11-04T10:06:55.523243+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:55.523243+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/d4ad1a4abcea1c2f-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-05T02:20:47.747609+00:00",
+      "observedAvailability": "The recorded October28 testnet replay is reachable. The Live game tab reports404/Substate not found for the recorded component after the November2 reset notice. This does not make the replay unavailable or prove the reset caused the error. No new game was played.",
+      "outcome": "reviewed",
       "changedSources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
         "https://mzee04.github.io/cursed-pumpkin/",
         "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y",
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
@@ -19125,7 +19133,6 @@
       "pendingReviewSources": [],
       "blockedSources": [],
       "reviewedSourceCount": 3,
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -19160,6 +19167,83 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "reviewHistory": [
+        {
+          "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+          "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+          "outcome": "pending",
+          "sourceReviews": {
+            "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32": {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
+              "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+              "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+              "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+              "status": "read"
+            },
+            "https://github.com/Mzee04/cursed-pumpkin": {
+              "url": "https://github.com/Mzee04/cursed-pumpkin",
+              "hash": "41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582",
+              "revision": "5858ddfd31e36ad961379aff379e1618240619bc",
+              "attemptedAt": "2026-11-04T10:06:55.939624+00:00",
+              "evidence": "work/daily-2026-11-04/4bcfa63a178fce47-41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:06:55.939624+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:06:55.939624+00:00",
+              "status": "read"
+            },
+            "https://mzee04.github.io/cursed-pumpkin/": {
+              "url": "https://mzee04.github.io/cursed-pumpkin/",
+              "hash": "3f76d2998f17f616db2bd577ec25fc1e38347def63165fb07e44c86010b8b4ea",
+              "attemptedAt": "2026-11-04T10:07:29.234391+00:00",
+              "evidence": "work/daily-2026-11-04/3547ed7368c1b297-3f76d2998f17f616db2bd577ec25fc1e38347def63165fb07e44c86010b8b4ea.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:29.234391+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:29.234391+00:00",
+              "status": "read"
+            },
+            "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y": {
+              "url": "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y",
+              "hash": "0210096dc7a62886b1c8c6a361be6e15d95fcc53a46c82dc03dde75de8b26ad5",
+              "attemptedAt": "2026-11-04T10:07:25.659931+00:00",
+              "evidence": "work/daily-2026-11-04/c641cca30db800d8-0210096dc7a62886b1c8c6a361be6e15d95fcc53a46c82dc03dde75de8b26ad5.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:25.659931+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:25.659931+00:00",
+              "status": "read"
+            },
+            "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+              "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+              "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+              "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+              "status": "read"
+            }
+          },
+          "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+          "reviewQueue": [
+            "copy",
+            "actions",
+            "details",
+            "recording",
+            "provenance"
+          ]
+        }
+      ],
+      "publicationStatus": "pending",
+      "evidence": [
+        "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json"
       ]
     },
     "project:moonmail": {
@@ -19170,92 +19254,99 @@
         "https://github.com/Seal-Clubber/MoonMail",
         "https://seal-clubber.github.io/MoonMail/"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T02:20:47.747609+00:00",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://github.com/Seal-Clubber/MoonMail": {
           "url": "https://github.com/Seal-Clubber/MoonMail",
           "hash": "5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402",
-          "revision": "dbf816853e811f7581151202192b952f4d40ad3b",
           "attemptedAt": "2026-11-04T10:06:57.455500+00:00",
-          "evidence": "work/daily-2026-11-04/6a7f73c3104dd49f-5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:06:57.455500+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:57.455500+00:00",
-          "status": "read"
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/6a7f73c3104dd49f-5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://seal-clubber.github.io/MoonMail/": {
           "url": "https://seal-clubber.github.io/MoonMail/",
-          "hash": "ccc103f7ca58c420eba2aee804d979d49c372c5d8768d4140b4299896ce54288",
-          "attemptedAt": "2026-11-04T10:07:32.564701+00:00",
-          "evidence": "work/daily-2026-11-04/4c97be4c0695e6f8-ccc103f7ca58c420eba2aee804d979d49c372c5d8768d4140b4299896ce54288.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:32.564701+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:32.564701+00:00",
-          "status": "read"
+          "status": "read",
+          "hash": "e4e553495bd2aa646a551e465220f72824e85cbd724fe3f5efe9b4164d707e0e",
+          "attemptedAt": "2026-11-05T02:10:14.616746+00:00",
+          "lastAttemptAt": "2026-11-05T02:10:14.616746+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T02:10:14.616746+00:00",
+          "evidence": "work/daily-2026-11-04/moonmail-current-public-hall.txt",
+          "scope": "Landing and privacy interface are reachable; the public mail hall reports that the post office cannot be reached and no live mail loaded. README targets Ootle0.47 and Sapient0.6.14; organizer reset notice is dated November2. Root cause not established. No sample mail substituted for live mail."
         },
         "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s": {
           "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s",
-          "hash": "eb4a1f07f09b61300bc348e3f8dbcad2265a1f92cd54729dc5171a5e6d988868",
-          "attemptedAt": "2026-11-04T10:07:26.141680+00:00",
-          "evidence": "work/daily-2026-11-04/ee4ec528d060a97d-eb4a1f07f09b61300bc348e3f8dbcad2265a1f92cd54729dc5171a5e6d988868.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.141680+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.141680+00:00",
-          "status": "read"
+          "hash": "bd8b030b9f4fecbe4574cd93bfb9f5f6c3c93c1886a45cb0b9fd58656ae3e4c2",
+          "attemptedAt": "2026-11-04T10:06:51.613171+00:00",
+          "lastAttemptAt": "2026-11-04T10:06:51.613171+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:51.613171+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/ee4ec528d060a97d-bd8b030b9f4fecbe4574cd93bfb9f5f6c3c93c1886a45cb0b9fd58656ae3e4c2.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
+        },
+        "https://community.tari.com/t/396.json": {
+          "url": "https://community.tari.com/t/396.json",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
+        },
+        "https://github.com/Seal-Clubber/MoonMail/releases": {
+          "url": "https://github.com/Seal-Clubber/MoonMail/releases",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:06:57.166415+00:00",
+          "lastAttemptAt": "2026-11-04T10:06:57.166415+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:57.166415+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/fdbe7c3db50fefba-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-05T02:20:47.747609+00:00",
+      "observedAvailability": "Landing and privacy interface are reachable; the public mail hall reports that the post office cannot be reached and no live mail loaded. README targets Ootle0.47 and Sapient0.6.14; organizer reset notice is dated November2. Root cause not established. No sample mail substituted for live mail.",
+      "outcome": "reviewed",
       "changedSources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
         "https://seal-clubber.github.io/MoonMail/",
         "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s",
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "pendingReviewSources": [],
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -19290,6 +19381,83 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "reviewHistory": [
+        {
+          "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+          "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+          "outcome": "pending",
+          "sourceReviews": {
+            "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33": {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
+              "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+              "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+              "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+              "status": "read"
+            },
+            "https://github.com/Seal-Clubber/MoonMail": {
+              "url": "https://github.com/Seal-Clubber/MoonMail",
+              "hash": "5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402",
+              "revision": "dbf816853e811f7581151202192b952f4d40ad3b",
+              "attemptedAt": "2026-11-04T10:06:57.455500+00:00",
+              "evidence": "work/daily-2026-11-04/6a7f73c3104dd49f-5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:06:57.455500+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:06:57.455500+00:00",
+              "status": "read"
+            },
+            "https://seal-clubber.github.io/MoonMail/": {
+              "url": "https://seal-clubber.github.io/MoonMail/",
+              "hash": "ccc103f7ca58c420eba2aee804d979d49c372c5d8768d4140b4299896ce54288",
+              "attemptedAt": "2026-11-04T10:07:32.564701+00:00",
+              "evidence": "work/daily-2026-11-04/4c97be4c0695e6f8-ccc103f7ca58c420eba2aee804d979d49c372c5d8768d4140b4299896ce54288.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:32.564701+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:32.564701+00:00",
+              "status": "read"
+            },
+            "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s": {
+              "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s",
+              "hash": "eb4a1f07f09b61300bc348e3f8dbcad2265a1f92cd54729dc5171a5e6d988868",
+              "attemptedAt": "2026-11-04T10:07:26.141680+00:00",
+              "evidence": "work/daily-2026-11-04/ee4ec528d060a97d-eb4a1f07f09b61300bc348e3f8dbcad2265a1f92cd54729dc5171a5e6d988868.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:26.141680+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:26.141680+00:00",
+              "status": "read"
+            },
+            "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+              "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+              "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+              "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+              "status": "read"
+            }
+          },
+          "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+          "reviewQueue": [
+            "copy",
+            "actions",
+            "details",
+            "recording",
+            "provenance"
+          ]
+        }
+      ],
+      "publicationStatus": "pending",
+      "evidence": [
+        "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json"
       ]
     },
     "project:ootle-steam-kit": {
@@ -19783,108 +19951,111 @@
         "https://mzee04.github.io/cursed-pumpkin/",
         "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T02:20:47.747609+00:00",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://github.com/Mzee04/cursed-pumpkin": {
           "url": "https://github.com/Mzee04/cursed-pumpkin",
           "hash": "41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582",
-          "revision": "5858ddfd31e36ad961379aff379e1618240619bc",
           "attemptedAt": "2026-11-04T10:06:55.939624+00:00",
-          "evidence": "work/daily-2026-11-04/4bcfa63a178fce47-41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:06:55.939624+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:55.939624+00:00",
-          "status": "read"
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/4bcfa63a178fce47-41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://github.com/Mzee04/cursed-pumpkin#readme": {
           "url": "https://github.com/Mzee04/cursed-pumpkin#readme",
           "hash": "41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582",
-          "revision": "5858ddfd31e36ad961379aff379e1618240619bc",
-          "attemptedAt": "2026-10-31T09:03:01.950990+00:00",
-          "evidence": "work/daily-2026-10-31/4bcfa63a178fce47.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:01.950990+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:01.950990+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:06:55.939624+00:00",
+          "lastAttemptAt": "2026-11-04T10:06:55.939624+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:55.939624+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/4bcfa63a178fce47-41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://mzee04.github.io/cursed-pumpkin/": {
           "url": "https://mzee04.github.io/cursed-pumpkin/",
-          "hash": "3f76d2998f17f616db2bd577ec25fc1e38347def63165fb07e44c86010b8b4ea",
-          "attemptedAt": "2026-11-04T10:07:29.234391+00:00",
-          "evidence": "work/daily-2026-11-04/3547ed7368c1b297-3f76d2998f17f616db2bd577ec25fc1e38347def63165fb07e44c86010b8b4ea.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:29.234391+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:29.234391+00:00",
-          "status": "read"
+          "status": "read",
+          "hash": "e6d1d1a0408281248edf62d3649650feb9096509757336b7f5cfdc2fc3c7fb5e",
+          "attemptedAt": "2026-11-05T02:10:14.616746+00:00",
+          "lastAttemptAt": "2026-11-05T02:10:14.616746+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T02:10:14.616746+00:00",
+          "evidence": "work/daily-2026-11-04/cursed-pumpkin-current-live.txt",
+          "scope": "The recorded October28 testnet replay is reachable. The Live game tab reports404/Substate not found for the recorded component after the November2 reset notice. This does not make the replay unavailable or prove the reset caused the error. No new game was played."
         },
         "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y": {
           "url": "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y",
-          "hash": "0210096dc7a62886b1c8c6a361be6e15d95fcc53a46c82dc03dde75de8b26ad5",
-          "attemptedAt": "2026-11-04T10:07:25.659931+00:00",
-          "evidence": "work/daily-2026-11-04/c641cca30db800d8-0210096dc7a62886b1c8c6a361be6e15d95fcc53a46c82dc03dde75de8b26ad5.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:25.659931+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:25.659931+00:00",
-          "status": "read"
+          "hash": "5d881cfb34cef82d7bd1f259793d5a820b981acf8ea44f1ac089427ccc3ea516",
+          "attemptedAt": "2026-11-04T10:06:48.337621+00:00",
+          "lastAttemptAt": "2026-11-04T10:06:48.337621+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.337621+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/c641cca30db800d8-5d881cfb34cef82d7bd1f259793d5a820b981acf8ea44f1ac089427ccc3ea516.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
+        },
+        "https://community.tari.com/t/396.json": {
+          "url": "https://community.tari.com/t/396.json",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
+        },
+        "https://github.com/Mzee04/cursed-pumpkin/releases": {
+          "url": "https://github.com/Mzee04/cursed-pumpkin/releases",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:06:55.523243+00:00",
+          "lastAttemptAt": "2026-11-04T10:06:55.523243+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:55.523243+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/d4ad1a4abcea1c2f-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-05T02:20:47.747609+00:00",
+      "observedAvailability": "The recorded October28 testnet replay is reachable. The Live game tab reports404/Substate not found for the recorded component after the November2 reset notice. This does not make the replay unavailable or prove the reset caused the error. No new game was played.",
+      "outcome": "reviewed",
       "changedSources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
         "https://mzee04.github.io/cursed-pumpkin/",
         "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y",
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "supersededSources": {},
-      "pendingReviewSources": [
-        "https://github.com/Mzee04/cursed-pumpkin#readme"
-      ],
+      "pendingReviewSources": [],
       "blockedSources": [],
       "reviewedSourceCount": 5,
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -19919,6 +20090,95 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "reviewHistory": [
+        {
+          "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+          "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+          "outcome": "pending",
+          "sourceReviews": {
+            "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32": {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
+              "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+              "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+              "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+              "status": "read"
+            },
+            "https://github.com/Mzee04/cursed-pumpkin": {
+              "url": "https://github.com/Mzee04/cursed-pumpkin",
+              "hash": "41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582",
+              "revision": "5858ddfd31e36ad961379aff379e1618240619bc",
+              "attemptedAt": "2026-11-04T10:06:55.939624+00:00",
+              "evidence": "work/daily-2026-11-04/4bcfa63a178fce47-41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:06:55.939624+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:06:55.939624+00:00",
+              "status": "read"
+            },
+            "https://github.com/Mzee04/cursed-pumpkin#readme": {
+              "url": "https://github.com/Mzee04/cursed-pumpkin#readme",
+              "hash": "41feb41e67da3027ee4cd5a847cb49bd89ce60341701d177fedfca89cee69582",
+              "revision": "5858ddfd31e36ad961379aff379e1618240619bc",
+              "attemptedAt": "2026-10-31T09:03:01.950990+00:00",
+              "evidence": "work/daily-2026-10-31/4bcfa63a178fce47.txt",
+              "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
+              "lastAttemptAt": "2026-10-31T09:03:01.950990+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T09:03:01.950990+00:00",
+              "status": "pending",
+              "pendingReason": "Source read pending"
+            },
+            "https://mzee04.github.io/cursed-pumpkin/": {
+              "url": "https://mzee04.github.io/cursed-pumpkin/",
+              "hash": "3f76d2998f17f616db2bd577ec25fc1e38347def63165fb07e44c86010b8b4ea",
+              "attemptedAt": "2026-11-04T10:07:29.234391+00:00",
+              "evidence": "work/daily-2026-11-04/3547ed7368c1b297-3f76d2998f17f616db2bd577ec25fc1e38347def63165fb07e44c86010b8b4ea.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:29.234391+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:29.234391+00:00",
+              "status": "read"
+            },
+            "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y": {
+              "url": "https://bsky.app/profile/iammzee.bsky.social/post/3myvhysm5ss2y",
+              "hash": "0210096dc7a62886b1c8c6a361be6e15d95fcc53a46c82dc03dde75de8b26ad5",
+              "attemptedAt": "2026-11-04T10:07:25.659931+00:00",
+              "evidence": "work/daily-2026-11-04/c641cca30db800d8-0210096dc7a62886b1c8c6a361be6e15d95fcc53a46c82dc03dde75de8b26ad5.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:25.659931+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:25.659931+00:00",
+              "status": "read"
+            },
+            "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+              "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+              "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+              "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+              "status": "read"
+            }
+          },
+          "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+          "reviewQueue": [
+            "copy",
+            "actions",
+            "details",
+            "recording",
+            "provenance"
+          ]
+        }
+      ],
+      "publicationStatus": "pending",
+      "evidence": [
+        "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json"
       ]
     },
     "tari-ootle:component:moonmail": {
@@ -19931,106 +20191,109 @@
         "https://seal-clubber.github.io/MoonMail/",
         "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s"
       ],
-      "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+      "lastAttemptAt": "2026-11-05T02:20:47.747609+00:00",
       "sourceReviews": {
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://github.com/Seal-Clubber/MoonMail": {
           "url": "https://github.com/Seal-Clubber/MoonMail",
           "hash": "5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402",
-          "revision": "dbf816853e811f7581151202192b952f4d40ad3b",
           "attemptedAt": "2026-11-04T10:06:57.455500+00:00",
-          "evidence": "work/daily-2026-11-04/6a7f73c3104dd49f-5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:06:57.455500+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:06:57.455500+00:00",
-          "status": "read"
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/6a7f73c3104dd49f-5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://github.com/Seal-Clubber/MoonMail#readme": {
           "url": "https://github.com/Seal-Clubber/MoonMail#readme",
           "hash": "5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402",
-          "revision": "dbf816853e811f7581151202192b952f4d40ad3b",
-          "attemptedAt": "2026-10-31T09:03:01.913779+00:00",
-          "evidence": "work/daily-2026-10-31/6a7f73c3104dd49f.txt",
-          "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
-          "lastAttemptAt": "2026-10-31T09:03:01.913779+00:00",
-          "lastSuccessfulReadAt": "2026-10-31T09:03:01.913779+00:00",
-          "status": "pending",
-          "pendingReason": "Source read pending"
+          "attemptedAt": "2026-11-04T10:06:57.455500+00:00",
+          "lastAttemptAt": "2026-11-04T10:06:57.455500+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:57.455500+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/6a7f73c3104dd49f-5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://seal-clubber.github.io/MoonMail/": {
           "url": "https://seal-clubber.github.io/MoonMail/",
-          "hash": "ccc103f7ca58c420eba2aee804d979d49c372c5d8768d4140b4299896ce54288",
-          "attemptedAt": "2026-11-04T10:07:32.564701+00:00",
-          "evidence": "work/daily-2026-11-04/4c97be4c0695e6f8-ccc103f7ca58c420eba2aee804d979d49c372c5d8768d4140b4299896ce54288.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:32.564701+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:32.564701+00:00",
-          "status": "read"
+          "status": "read",
+          "hash": "e4e553495bd2aa646a551e465220f72824e85cbd724fe3f5efe9b4164d707e0e",
+          "attemptedAt": "2026-11-05T02:10:14.616746+00:00",
+          "lastAttemptAt": "2026-11-05T02:10:14.616746+00:00",
+          "lastSuccessfulReadAt": "2026-11-05T02:10:14.616746+00:00",
+          "evidence": "work/daily-2026-11-04/moonmail-current-public-hall.txt",
+          "scope": "Landing and privacy interface are reachable; the public mail hall reports that the post office cannot be reached and no live mail loaded. README targets Ootle0.47 and Sapient0.6.14; organizer reset notice is dated November2. Root cause not established. No sample mail substituted for live mail."
         },
         "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s": {
           "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s",
-          "hash": "eb4a1f07f09b61300bc348e3f8dbcad2265a1f92cd54729dc5171a5e6d988868",
-          "attemptedAt": "2026-11-04T10:07:26.141680+00:00",
-          "evidence": "work/daily-2026-11-04/ee4ec528d060a97d-eb4a1f07f09b61300bc348e3f8dbcad2265a1f92cd54729dc5171a5e6d988868.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
-          "lastAttemptAt": "2026-11-04T10:07:26.141680+00:00",
-          "lastSuccessfulReadAt": "2026-11-04T10:07:26.141680+00:00",
-          "status": "read"
+          "hash": "bd8b030b9f4fecbe4574cd93bfb9f5f6c3c93c1886a45cb0b9fd58656ae3e4c2",
+          "attemptedAt": "2026-11-04T10:06:51.613171+00:00",
+          "lastAttemptAt": "2026-11-04T10:06:51.613171+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:51.613171+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/ee4ec528d060a97d-bd8b030b9f4fecbe4574cd93bfb9f5f6c3c93c1886a45cb0b9fd58656ae3e4c2.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         },
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
-          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
-          "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
-          "method": "Current source fetched; semantic review and reconciliation pending",
           "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
           "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-          "status": "read"
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
+        },
+        "https://community.tari.com/t/396.json": {
+          "url": "https://community.tari.com/t/396.json",
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
+        },
+        "https://github.com/Seal-Clubber/MoonMail/releases": {
+          "url": "https://github.com/Seal-Clubber/MoonMail/releases",
+          "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "attemptedAt": "2026-11-04T10:06:57.166415+00:00",
+          "lastAttemptAt": "2026-11-04T10:06:57.166415+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:57.166415+00:00",
+          "status": "read",
+          "evidence": "work/daily-2026-11-04/fdbe7c3db50fefba-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Full README/release or applicable original post and direct replies reviewed; see per-resource review outcome."
         }
       },
-      "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
-      "outcome": "pending",
+      "lastSuccessfulReviewAt": "2026-11-05T02:20:47.747609+00:00",
+      "observedAvailability": "Landing and privacy interface are reachable; the public mail hall reports that the post office cannot be reached and no live mail loaded. README targets Ootle0.47 and Sapient0.6.14; organizer reset notice is dated November2. Root cause not established. No sample mail substituted for live mail.",
+      "outcome": "reviewed",
       "changedSources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
         "https://seal-clubber.github.io/MoonMail/",
         "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s",
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44"
       ],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [
         "sourceEvidence"
       ],
-      "reviewQueue": [
-        "copy",
-        "actions",
-        "details",
-        "recording",
-        "provenance"
-      ],
+      "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
       "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
-      "pendingReviewSources": [
-        "https://github.com/Seal-Clubber/MoonMail#readme"
-      ],
+      "pendingReviewSources": [],
       "blockedSources": [],
-      "pendingAssessment": "Fetched material requires semantic review and listing/media reconciliation; failed HTTP reads require available browser fallback.",
       "attemptReceipts": [
         {
           "url": "https://community.tari.com/t/396.json",
@@ -20065,6 +20328,95 @@
           "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
+      ],
+      "reviewHistory": [
+        {
+          "lastAttemptAt": "2026-11-04T10:24:12.071Z",
+          "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
+          "outcome": "pending",
+          "sourceReviews": {
+            "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33": {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
+              "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+              "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+              "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+              "status": "read"
+            },
+            "https://github.com/Seal-Clubber/MoonMail": {
+              "url": "https://github.com/Seal-Clubber/MoonMail",
+              "hash": "5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402",
+              "revision": "dbf816853e811f7581151202192b952f4d40ad3b",
+              "attemptedAt": "2026-11-04T10:06:57.455500+00:00",
+              "evidence": "work/daily-2026-11-04/6a7f73c3104dd49f-5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:06:57.455500+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:06:57.455500+00:00",
+              "status": "read"
+            },
+            "https://github.com/Seal-Clubber/MoonMail#readme": {
+              "url": "https://github.com/Seal-Clubber/MoonMail#readme",
+              "hash": "5469cbd0d058ae86e9496dff9088b7af76b256ab091c9da2962de5fbf542a402",
+              "revision": "dbf816853e811f7581151202192b952f4d40ad3b",
+              "attemptedAt": "2026-10-31T09:03:01.913779+00:00",
+              "evidence": "work/daily-2026-10-31/6a7f73c3104dd49f.txt",
+              "method": "Current source read reviewed; release metadata or full forum post stream included where applicable.",
+              "lastAttemptAt": "2026-10-31T09:03:01.913779+00:00",
+              "lastSuccessfulReadAt": "2026-10-31T09:03:01.913779+00:00",
+              "status": "pending",
+              "pendingReason": "Source read pending"
+            },
+            "https://seal-clubber.github.io/MoonMail/": {
+              "url": "https://seal-clubber.github.io/MoonMail/",
+              "hash": "ccc103f7ca58c420eba2aee804d979d49c372c5d8768d4140b4299896ce54288",
+              "attemptedAt": "2026-11-04T10:07:32.564701+00:00",
+              "evidence": "work/daily-2026-11-04/4c97be4c0695e6f8-ccc103f7ca58c420eba2aee804d979d49c372c5d8768d4140b4299896ce54288.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:32.564701+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:32.564701+00:00",
+              "status": "read"
+            },
+            "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s": {
+              "url": "https://bsky.app/profile/seal-clubber.bsky.social/post/3myxwvhl5522s",
+              "hash": "eb4a1f07f09b61300bc348e3f8dbcad2265a1f92cd54729dc5171a5e6d988868",
+              "attemptedAt": "2026-11-04T10:07:26.141680+00:00",
+              "evidence": "work/daily-2026-11-04/ee4ec528d060a97d-eb4a1f07f09b61300bc348e3f8dbcad2265a1f92cd54729dc5171a5e6d988868.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:26.141680+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:26.141680+00:00",
+              "status": "read"
+            },
+            "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44": {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
+              "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+              "attemptedAt": "2026-11-04T10:07:05.507906+00:00",
+              "evidence": "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt",
+              "comparisonEvidence": "work/daily-2026-11-04/resource-source-comparison.json",
+              "method": "Current source fetched; semantic review and reconciliation pending",
+              "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+              "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+              "status": "read"
+            }
+          },
+          "observedAvailability": "October31 source curation: original discussions including accessible replies, repository README/release metadata and linked public destination reviewed. Public access and documented restrictions matched the catalog; no wallet or transaction test is asserted.",
+          "reviewQueue": [
+            "copy",
+            "actions",
+            "details",
+            "recording",
+            "provenance"
+          ]
+        }
+      ],
+      "publicationStatus": "pending",
+      "evidence": [
+        "work/daily-2026-11-04/pumpkin-moonmail-review-outcome.json"
       ]
     },
     "tari-ootle:component:tari-agent-registry": {

@@ -1831,7 +1831,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "The Cursed Pumpkin",
-      "summary": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. Reviewed November 4, 2026: the public browser still replays the creator’s October 28 four-player Esmeralda game with 23 recorded transaction links. The separate Live game view reports 404 / Substate not found for its recorded component. The cause is not established; the November 2 organizer reset notice asked entrants to republish templates. No replacement deployment was established by these sources. New games use the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. The retained October 29 clip accurately demonstrates the historical replay. MIT source; no wallet access, ownership signing or payments were performed.",
       "status": "Replay demo · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
       "repoUrl": "https://github.com/Mzee04/cursed-pumpkin",
@@ -1846,7 +1846,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "5858ddfd31e36ad961379aff379e1618240619bc",
       "sourceUpdatedAt": "2026-10-28T20:07:16.080Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "lastCheckedAt": "2026-11-05T02:20:47.747609+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1876,7 +1876,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cursed-pumpkin-20261029.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cursed-pumpkin-20261029.png",
-        "source": "App demo — Interactive replay of the creator’s recorded October 28 testnet game; no new transactions."
+        "source": "App demo"
       }
     },
     {
@@ -1886,8 +1886,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "MoonMail",
-      "summary": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
-      "status": "Web app · Testnet · Sapient",
+      "summary": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and preferences; it does not send ordinary email. November 4, 2026: the landing and privacy pages load, but the public hall cannot reach its post office and no live mail loaded. The cause is not established. Sapient private-view access is a separate account-wide grant exposing other resources’ private amounts and memos; spending needs separate approval. Public postbox identities, signers, timing, fees and size buckets remain observable. Historical mailbox-key compromise has no forward-secrecy protection. Private payments require three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README targets Ootle 0.47 and Sapient 0.6.14, separating historical funded tests from dated read-only recovery and local tests. The November 2 organizer notice asked entrants to republish templates after the Esmeralda reset. The retained October 29 recording shows public privacy documentation, not current mail delivery or payment. MIT source; no wallet grant or transaction exercised.",
+      "status": "Testnet · Sapient · Live mail unavailable",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
       "repoUrl": "https://github.com/Seal-Clubber/MoonMail",
       "docsUrl": "https://github.com/Seal-Clubber/MoonMail#readme",
@@ -1901,7 +1901,7 @@
       "platform": "Browser · Rust",
       "upstreamRevision": "dbf816853e811f7581151202192b952f4d40ad3b",
       "sourceUpdatedAt": "2026-10-29T00:03:01.603Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "lastCheckedAt": "2026-11-05T02:20:47.747609+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1927,11 +1927,11 @@
         }
       ],
       "cardSummary": "Exchange encrypted letters between Ootle postboxes and recover conversations, sent mail and saved settings through Sapient.",
-      "cardStatus": "Web app · Testnet · Sapient",
+      "cardStatus": "Testnet · Sapient · Live mail unavailable",
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-moonmail-20261029.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-moonmail-20261029.png",
-        "source": "Source/docs walkthrough — public privacy page; no mailbox grant, letter delivery or payment."
+        "source": "Docs walkthrough"
       }
     },
     {
