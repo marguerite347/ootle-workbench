@@ -2993,13 +2993,13 @@
       }
     },
     {
-      "repoUrl": null,
+      "repoUrl": "https://github.com/xt1085/taritalk-node-deploy",
       "demoUrl": "https://nodes.taritalk.xyz/",
-      "license": null,
+      "license": "MIT (deployment tool); site assets retain their notices",
       "network": "Minotari mainnet",
       "platform": "Browser",
-      "sourceUpdatedAt": "2026-11-02T04:36:55.562Z",
-      "lastCheckedAt": "2026-11-02T14:42:20.218139+00:00",
+      "sourceUpdatedAt": "2026-11-04T08:16:23Z",
+      "lastCheckedAt": "2026-11-05T00:06:08.835Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3012,7 +3012,7 @@
       "ecosystem": "tari",
       "group": "Nodes",
       "title": "TariTalk Nodes",
-      "summary": "Independent community map of voluntarily registered, manually reviewed Minotari mainnet full nodes, with approximate locations, sync status and a deployment guide. Includes separately labeled anonymous Tari Netmap locations; it is not a complete network map. The site credits TariTalk; the forum announcement credits Zhao Xi with the website. November 2 review covered the map, regional filtering, deployment guide and privacy notes. The deployment-tool repository linked by the guide returned 404, so installation was not verified. No node was registered, software installed or query endpoint exposed. Base nodes are not miners or seed nodes; no rewards are implied.",
+      "summary": "Independent community map of voluntarily registered, manually reviewed Minotari mainnet full nodes, with approximate locations, sync status and a deployment guide. The November 4 review covered all 42 directory entries, the guide, privacy notes and original discussion; the directory is not a complete network map. The deployment-tool repository that returned 404 on November 2 is now public, with MIT-licensed v0.1.0 source released November 4. Its guide requires a clean Debian 12/13 or Ubuntu 24.04/26.04 VPS, AMD64/ARM64, root access and public IPv4. Optional wallet-query and gRPC exposure are described in the source. The retained November 2 recording shows the map and guide; no software was installed, node registered or query endpoint exposed. Base nodes are not miners or seed nodes; no rewards are implied.",
       "status": "Community map and guide",
       "sourceUrl": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
       "docsUrl": "https://nodes.taritalk.xyz/",
@@ -3020,7 +3020,7 @@
         "name": "TariTalk · Zhao Xi",
         "url": "https://nodes.taritalk.xyz/"
       },
-      "upstreamRevision": "public-site-2026-11-02",
+      "upstreamRevision": "b1b4766dbe0c80dd508fe89fc99cf907cf8250c3",
       "discussionLinks": [
         {
           "url": "https://community.tari.com/t/introducing-taritalk-nodes-a-community-map-and-deployment-guide-for-tari-full-nodes/522/1",
@@ -3031,6 +3031,11 @@
           "url": "https://x.com/tari_zh/status/2117114726429999611",
           "platform": "X",
           "context": "TariTalk original announcement and community discussion, November 2, 2026"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dxpNwx0bskI",
+          "platform": "YouTube",
+          "context": "November 3 Tari Show at 7:25: community node directory and deployment guide"
         }
       ],
       "cardSummary": "Explore a community map of Tari full nodes and a guide to running your own.",
@@ -3038,7 +3043,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritalk-nodes-20261102-f774b9116a.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritalk-nodes-20261102-f774b9116a.jpg",
-        "source": "Source/docs walkthrough — node map, deployment guide and privacy notes"
+        "source": "Docs walkthrough"
       }
     },
     {
@@ -3752,7 +3757,7 @@
       "ecosystem": "tari-ootle",
       "group": "Developer tools",
       "title": "Rubic Swap Widget for WordPress",
-      "summary": "WordPress plugin source for an inline Rubic swap interface, defaulting to wXTM on Ethereum. The README describes Rubic REST API v2 quotes, ethers.js v6 signing, six EVM chains and optional WalletConnect configuration. Requires WordPress 5.0+ and PHP 7.4+; swaps require a compatible wallet. The PHP header declares version 2.0.0 and GPL-2.0-or-later. On November 3, 2026 the creator-linked HTTP test page was readable as HTML, but independent browser navigation was blocked by the client. The recording shows the public README; no plugin installation, wallet connection or swap was performed.",
+      "summary": "WordPress plugin source for an inline Rubic swap interface, defaulting to wXTM on Ethereum. The README describes Rubic REST API v2 quotes, ethers.js v6 signing, six EVM chains and optional WalletConnect configuration. Requires WordPress 5.0+ and PHP 7.4+; swaps require a compatible wallet. The PHP header declares version 2.0.0 and GPL-2.0-or-later. On November 3, 2026 the creator-linked HTTP test page was readable as HTML, but independent browser navigation was blocked by the client. On November 4, the browser still blocked the test page and a separate HTTP read timed out; its current app availability could not be established. The recording shows the public README; no plugin installation, wallet connection or swap was performed.",
       "cardSummary": "Embed a wXTM-focused cross-chain swap interface in WordPress using Rubic quotes and browser wallets.",
       "cardStatus": "Source code · WordPress",
       "status": "Source code · WordPress",
@@ -3780,7 +3785,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rubic-swap-widget-20261103-14e5351712.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-rubic-swap-widget-20261103-14e5351712.png",
-        "source": "Docs walkthrough — public repository README; no installation, wallet connection or transaction execution."
+        "source": "Docs walkthrough"
       },
       "discussionLinks": [
         {
