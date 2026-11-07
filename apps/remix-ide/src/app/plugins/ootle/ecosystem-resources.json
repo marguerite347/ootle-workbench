@@ -4063,7 +4063,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "What Tari privacy can hide",
-      "summary": "Community reading guide to confidential amounts, stealth ownership, Pedersen commitments, Bulletproofs+, one-time addresses and view keys. Reviewed November 4, 2026 against the official privacy reference. The article describes fees, revealed amounts, public identity checks and transaction patterns as privacy limits. It is an explanation of documented architecture, not a claim that every application hides all information. The recording shows an excerpt from the public article; no account, asset or transaction was created.",
+      "summary": "Community reading guide to confidential amounts, stealth ownership, Pedersen commitments, Bulletproofs+, one-time addresses and view keys. Reviewed November 4, 2026 against the official privacy reference. The article describes fees, revealed amounts, public identity checks and transaction patterns as privacy limits. It is an explanation of documented architecture, not a claim that every application hides all information. The recording shows an excerpt from the public article; no account, asset or transaction was created. November 7, 2026: the creator resubmitted the same privacy article in forum post /503/26 after deleting /503/21 because it could no longer be edited. The earlier submission permalink remains in the maintenance provenance history; this link correction does not renew the article-content review date.",
       "status": "Community tutorial",
       "sourceUrl": "https://medium.com/@shelleymae/i-looked-into-taris-privacy-architecture-here-s-what-a-blockchain-can-actually-hide-6493f18c6fd2",
       "repoUrl": null,
@@ -4088,9 +4088,9 @@
       ],
       "discussionLinks": [
         {
-          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/21",
+          "url": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/26",
           "platform": "Tari Community forum",
-          "context": "Creator Contest submission"
+          "context": "Creator resubmission November7; replaces deleted submission /21"
         },
         {
           "url": "https://medium.com/@shelleymae/i-looked-into-taris-privacy-architecture-here-s-what-a-blockchain-can-actually-hide-6493f18c6fd2",
