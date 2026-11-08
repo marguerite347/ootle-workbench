@@ -18,7 +18,7 @@ Open `http://127.0.0.1:8080`. `vercel.json` supplies the same install/build/outp
 
 ## Real local compilation and tests
 
-Install a Rust toolchain compatible with edition 2024 and the WASM target. The checked-in Counter pins `tari_template_lib = 0.37.0`, `tari_template_test_tooling = 0.49.2` and its Cargo.lock. It is deliberately not silently upgraded to the latest moving SDK.
+Install a Rust toolchain compatible with edition 2024 and the WASM target. The checked-in Counter pins `tari_template_lib = 0.38.0`, `tari_template_test_tooling = 0.50.1` and its Cargo.lock. It is deliberately not silently upgraded to the latest moving SDK.
 
 ```sh
 rustup toolchain install 1.99.1 --profile minimal --target wasm32-unknown-unknown
