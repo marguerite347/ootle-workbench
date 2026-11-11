@@ -557,8 +557,8 @@
       "ecosystem": "tari-ootle",
       "group": "Inspect",
       "title": "Veil Ootle Explorer",
-      "summary": "Browse Ootle Esmeralda transactions, templates and substates. On November 2, 2026, the public explorer displayed current network data and Commit, Abort and Rejected transaction rows. Its November 2 source update adds Ootle 0.49 CBOR decoding and receipt handling; proof-verification behavior is a creator source claim, not an independent cryptographic audit. The recording shows the live overview and transaction list without submitting a transaction. On October 13, 2026, the former ootle-explorer.vercel.app address returned HTTP 402; that historical failure is retained and was not rechecked today. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
-      "status": "Public testnet explorer",
+      "summary": "Browse Ootle mainnet transactions, templates and substates. November 11, 2026: the live explorer displays mainnet components and committed transactions matching both official indexers on network byte 0. The separate testnet explorer remains available at testnet-explorer.tari.mw. FeeIntentCommit means only the fee committed and is not a successful app operation. The retained November 2 recording is historical testnet footage. No transaction was submitted during this read-only check. Historical availability: on October 13, 2026 the former ootle-explorer.vercel.app address returned HTTP 402; this does not describe the current explorer. Prior dated review retained for context: Browse Ootle Esmeralda transactions, templates and substates. On November 2, 2026, the public explorer displayed current network data and Commit, Abort and Rejected transaction rows. Its November 2 source update adds Ootle 0.49 CBOR decoding and receipt handling; proof-verification behavior is a creator source claim, not an independent cryptographic audit. The recording shows the live overview and transaction list without submitting a transaction. On October 13, 2026, the former ootle-explorer.vercel.app address returned HTTP 402; that historical failure is retained and was not rechecked today. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "status": "Mainnet · Live explorer",
       "sourceUrl": "https://github.com/chironbuilds/ootle-explorer",
       "repoUrl": "https://github.com/chironbuilds/ootle-explorer",
       "docsUrl": null,
@@ -567,11 +567,11 @@
         "url": "https://github.com/chironbuilds/ootle-explorer"
       },
       "license": null,
-      "network": "Ootle L2",
+      "network": "Ootle mainnet and Esmeralda testnet",
       "platform": "Web",
       "upstreamRevision": "94c7cd51c971cfcf38d5c0635a7c37bbdc4d3f23",
       "sourceUpdatedAt": "2026-11-02T17:04:53Z",
-      "lastCheckedAt": "2026-11-02T22:06:47.224Z",
+      "lastCheckedAt": "2026-11-11T12:16:00Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -583,7 +583,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261102-85379551cf.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261102-85379551cf.png",
-        "source": "App demo — November 2 public overview and transaction-list scrolling; no wallet or transaction submission."
+        "source": "App demo — Historical Esmeralda testnet overview recorded November 2, 2026; current mainnet classification is documented separately in Details."
       },
       "discussionLinks": [
         {
@@ -602,10 +602,30 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "platform": "Tari Community forum",
           "context": "November 2 testnet reset and template republishing notice"
+        },
+        {
+          "url": "https://community.tari.com/t/veil-explorer-is-ready-for-ootle-mainnet/568/1",
+          "platform": "Tari Community forum",
+          "context": "Creator explorer announcement"
+        },
+        {
+          "url": "https://testnet-explorer.tari.mw/",
+          "platform": "Testnet explorer",
+          "context": "Separate Esmeralda destination"
         }
       ],
-      "cardSummary": "Browse Ootle testnet transactions, templates and substates through a public network explorer.",
-      "cardStatus": "Web app · Testnet"
+      "cardSummary": "Explore Ootle mainnet transactions, templates and live network activity. A separate testnet explorer is also available.",
+      "cardStatus": "Web explorer · Mainnet / Testnet",
+      "networkEvidence": {
+        "checkedAt": "2026-11-11T12:16:00Z",
+        "sourceUrl": "https://indexer-b.ootle.tari.com/info",
+        "detail": "November 11 live explorer shows mainnet transactions and components matching both official indexers, network byte 0. The separate testnet explorer remains available.",
+        "deploymentEvidence": {
+          "url": "https://explorer.tari.mw/tx/f5d8b2dc047a6ddbb9f82801448e1128996812a2d97e0eec236ffdd5e3bc0745",
+          "observedAt": "2026-11-11T12:16:00Z",
+          "detail": "Explorer displays the committed OotleAccord fund transaction also returned by official mainnet indexers."
+        }
+      }
     },
     {
       "id": "tari:component:tari-l1-wasm",
@@ -1908,8 +1928,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "MoonMail",
-      "summary": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and preferences; it does not send ordinary email. November 4, 2026: the landing and privacy pages load, but the public hall cannot reach its post office and no live mail loaded. The cause is not established. Sapient private-view access is a separate account-wide grant exposing other resources’ private amounts and memos; spending needs separate approval. Public postbox identities, signers, timing, fees and size buckets remain observable. Historical mailbox-key compromise has no forward-secrecy protection. Private payments require three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README targets Ootle 0.47 and Sapient 0.6.14, separating historical funded tests from dated read-only recovery and local tests. The November 2 organizer notice asked entrants to republish templates after the Esmeralda reset. The retained October 29 recording shows public privacy documentation, not current mail delivery or payment. MIT source; no wallet grant or transaction exercised.",
-      "status": "Testnet · Sapient · Live mail unavailable",
+      "summary": "Encrypted Ootle letters and postboxes. November 11, 2026: the MoonMail template is published on mainnet, but the current app reports Mainnet office pending and the public post office unavailable. No live mail operation was verified. Wallet private-view access is an account-wide permission; spending requires separate approval. Public postbox identities, timing and fees remain observable. The retained October recording covers documentation, not current delivery. Prior dated review retained for context: Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and preferences; it does not send ordinary email. November 4, 2026: the landing and privacy pages load, but the public hall cannot reach its post office and no live mail loaded. The cause is not established. Sapient private-view access is a separate account-wide grant exposing other resources’ private amounts and memos; spending needs separate approval. Public postbox identities, signers, timing, fees and size buckets remain observable. Historical mailbox-key compromise has no forward-secrecy protection. Private payments require three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README targets Ootle 0.47 and Sapient 0.6.14, separating historical funded tests from dated read-only recovery and local tests. The November 2 organizer notice asked entrants to republish templates after the Esmeralda reset. The retained October 29 recording shows public privacy documentation, not current mail delivery or payment. MIT source; no wallet grant or transaction exercised.",
+      "status": "Mainnet watch · Office pending",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
       "repoUrl": "https://github.com/Seal-Clubber/MoonMail",
       "docsUrl": "https://github.com/Seal-Clubber/MoonMail#readme",
@@ -1919,11 +1939,11 @@
         "url": "https://github.com/Seal-Clubber"
       },
       "license": "MIT",
-      "network": "Esmeralda testnet",
+      "network": "Mainnet template; office pending",
       "platform": "Browser · Rust",
       "upstreamRevision": "dbf816853e811f7581151202192b952f4d40ad3b",
       "sourceUpdatedAt": "2026-10-29T00:03:01.603Z",
-      "lastCheckedAt": "2026-11-05T02:20:47.747609+00:00",
+      "lastCheckedAt": "2026-11-11T12:16:00Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -1948,12 +1968,18 @@
           "context": "November 2 testnet reset and template republishing notice"
         }
       ],
-      "cardSummary": "Exchange encrypted letters between Ootle postboxes and recover conversations, sent mail and saved settings through Sapient.",
-      "cardStatus": "Testnet · Sapient · Live mail unavailable",
+      "cardSummary": "Explore encrypted Ootle letters and postboxes. The mainnet post office is pending; live mail is unavailable.",
+      "cardStatus": "Mainnet watch · Office pending",
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-moonmail-20261029.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-moonmail-20261029.png",
         "source": "Docs walkthrough"
+      },
+      "networkEvidence": {
+        "checkedAt": "2026-11-11T12:16:00Z",
+        "sourceUrl": "https://seal-clubber.github.io/MoonMail/",
+        "detail": "MoonMail template exists on mainnet. November 11 live app reports Mainnet office pending and post office unavailable. No successful mail operation was verified.",
+        "deploymentEvidence": null
       }
     },
     {
@@ -2175,8 +2201,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "OotleAccord",
-      "summary": "November 4 availability: accord and Review pages load, but Refresh balance fails. The displayed 10 tTARI payout and three approvals are the recorded epoch-12740 checkpoint, not a successful current balance read. The October 31 recording shows that historical public checkpoint; no wallet connection, funding, approval or payout was performed. Community milestone escrow with capped native-TARI funding, a percentage quorum and a mandatory reviewer. Contribution amounts, reviewer identities and votes are public; fixed-destination payouts and refunds use private outputs with encrypted recovery memos. The current community accord displays a completed 10 tTARI payout and three approvals; four designated reviewers share a test operator. Create exports terms rather than deploying another escrow. October 31 review inspected the creator’s README, original submission and public accord/review screens; no wallet connection or transaction was performed. The app trusts its pinned indexer; the creator distinguishes installed-extension validation from SDK tests. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
-      "status": "Web app · Testnet · Balance refresh unavailable",
+      "summary": "Community milestone escrow with public funding and reviewer approvals. November 11, 2026: two successful mainnet funding transactions match the deployed SapientEscrow component; the live app reads 3.5 of 10 TARI funded. Funding is confirmed, while payout and refund execution were not independently tested. Four demo reviewers share one operator. The retained October recording shows an older testnet checkpoint, not the current mainnet deployment. Prior dated review retained for context: November 4 availability: accord and Review pages load, but Refresh balance fails. The displayed 10 tTARI payout and three approvals are the recorded epoch-12740 checkpoint, not a successful current balance read. The October 31 recording shows that historical public checkpoint; no wallet connection, funding, approval or payout was performed. Community milestone escrow with capped native-TARI funding, a percentage quorum and a mandatory reviewer. Contribution amounts, reviewer identities and votes are public; fixed-destination payouts and refunds use private outputs with encrypted recovery memos. The current community accord displays a completed 10 tTARI payout and three approvals; four designated reviewers share a test operator. Create exports terms rather than deploying another escrow. October 31 review inspected the creator’s README, original submission and public accord/review screens; no wallet connection or transaction was performed. The app trusts its pinned indexer; the creator distinguishes installed-extension validation from SDK tests. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "status": "Mainnet · Funding confirmed",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
       "repoUrl": "https://github.com/Seal-Clubber/ootle-accord",
       "docsUrl": "https://github.com/Seal-Clubber/ootle-accord#readme",
@@ -2186,17 +2212,17 @@
         "url": "https://github.com/Seal-Clubber"
       },
       "license": "MIT",
-      "network": "Esmeralda testnet",
+      "network": "Ootle mainnet",
       "platform": "Browser · Rust",
       "upstreamRevision": "622b71b73c4cf9038d8e60c183babb3be4d62326",
       "sourceUpdatedAt": "2026-10-30T20:10:40.548Z",
-      "lastCheckedAt": "2026-10-31T14:00:56.589Z",
+      "lastCheckedAt": "2026-11-11T12:16:00Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
         "ecosystem-resources",
         "privacy",
-        "testnet"
+        "mainnet"
       ],
       "discussionLinks": [
         {
@@ -2215,14 +2241,24 @@
           "context": "November 2 testnet reset and template republishing notice"
         }
       ],
-      "cardSummary": "Review recorded community funding, public approvals and private payout design in an Esmeralda milestone escrow demonstration.",
-      "cardStatus": "Web app · Testnet · Balance refresh unavailable",
+      "cardSummary": "Fund milestone escrows and inspect public approvals on Ootle mainnet. Funding activity is confirmed.",
+      "cardStatus": "Mainnet · Funding confirmed",
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-accord-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-accord-20261031.png",
         "source": "App demo — read-only public completed accord and review screen; no funding, approval or payout submitted."
       },
-      "lastAttemptedAt": "2026-11-04T21:41:01.467644+00:00"
+      "lastAttemptedAt": "2026-11-04T21:41:01.467644+00:00",
+      "networkEvidence": {
+        "checkedAt": "2026-11-11T12:16:00Z",
+        "sourceUrl": "https://explorer.tari.mw/tx/f5d8b2dc047a6ddbb9f82801448e1128996812a2d97e0eec236ffdd5e3bc0745",
+        "detail": "Two successful mainnet fund calls match the app SapientEscrow component. Live app reads 3.5 of 10 TARI funded. New payout and refund execution were not tested.",
+        "deploymentEvidence": {
+          "url": "https://explorer.tari.mw/tx/f5d8b2dc047a6ddbb9f82801448e1128996812a2d97e0eec236ffdd5e3bc0745",
+          "observedAt": "2026-11-11T12:16:00Z",
+          "detail": "Two successful mainnet fund calls match the app SapientEscrow component. Live app reads 3.5 of 10 TARI funded. New payout and refund execution were not tested."
+        }
+      }
     },
     {
       "id": "tari-ootle:component:ghost-gate",
