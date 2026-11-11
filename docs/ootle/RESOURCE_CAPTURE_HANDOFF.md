@@ -34,3 +34,9 @@ Each recording is a source/docs walkthrough, concept overview or announcement wa
 Opening, middle and closing frames were inspected for every export. Source text and UI screenshots belong to the upstream authors; the media describes their documentation, not an independent security assessment. Continuous raw recordings and contact sheets are retained in the owning maintenance workspace outside Git. The per-resource manifest there records timestamps, revisions, media hashes, paths, captions and live-playback results.
 
 Relevant local tests and production builds are required before release. The existing unrelated `previews.test.mjs` generic-cover fixture still expects null for a now-recorded pre-existing resource; it already failed in the initial maintenance run. This backfill does not remove that valid older recording to satisfy the stale fixture.
+
+## November 11 network-label synchronization
+
+Veil, MoonMail and OotleAccord now match the owner-reviewed Lobby network classifications at Lobby revision 8de4d5dd61a86cc0ad820d55c4ee3bdb7b4b7dbc. Veil links to current Ootle mainnet and documents the separate testnet explorer. MoonMail has a mainnet template while the post office is pending; OotleAccord has confirmed funding, with payout/refund acceptance outside the recorded scope. Original posts and historical media remain intact. Retained clips are dated historical testnet footage; refreshing material footage remains pending. This catalog correction makes no new wallet or transaction claim.
+
+Acceptance: catalog-front tests and exact merged-revision CI build, then live desktop/mobile card labels, source links and retained playback. Full daily maintenance remains open in the dedicated workspace.
