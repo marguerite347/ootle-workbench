@@ -2483,20 +2483,20 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "AT Protocol identity on Ootle",
-      "summary": "Public integration guide describing PLC identities, signed repository records, post proofs, verifier components and escrow policies on Esmeralda. It separates proof scope from handle ownership, current membership, key-history completeness and token expiry; some claims require external attestations. Skydrop is the worked example. The page labels the system testnet-only and not audited for production. Its component-immutability assumptions should be checked against the target Ootle version before reuse; this listing is documentation, not an integration or audit. November 4, 2026: the complete guide, original creator thread and linked Skydrop explanation were reviewed. Skydrop supports did:plc identities and still labels private stealth-address payouts as planned. The recording remains a documentation walkthrough, not a demonstrated payment or identity integration.",
-      "status": "Docs · Testnet",
+      "summary": "Rust verification layer and developer documentation for PLC identities, signed repository records and post proofs, alongside campaign templates that reward verifiable Bluesky actions. Skydrop is the related gift and participant interface. On November 12, the creator announced both products on mainnet. Read-only checks found atproto.tari.mw/__network reporting mainnet and testnet-atproto.tari.mw/__network reporting esmeralda. The pinned deployment configuration at 4625a9f selects separate mainnet and testnet indexers and templates. Veil currently lists the matching mainnet Campaign v3 template fea387ae…13fba75, published at epoch 38471, with 14 functions; this establishes template deployment, not a completed campaign or payout. The older README and extracted documentation still say Esmeralda, so they are retained as historical documentation rather than evidence against the current network metadata. The verification layer proves signed account and record facts; DNS handle resolution, account hosting status and completeness of a key history have separate trust boundaries. Free Bluesky accounts can be used to farm rewards, as the creator explains. MIT source. The November 12 video is a genuine browser recording of the creator announcement, including its campaign explanation. No wallet connection, campaign funding, proof execution, download or third-party code execution was performed.",
+      "status": "Mainnet templates · Testnet",
       "sourceUrl": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
-      "repoUrl": null,
+      "repoUrl": "https://github.com/chironbuilds/skydrop",
       "docsUrl": "https://atproto.tari.mw/",
       "demoUrl": null,
       "creator": {
         "name": "0xhra",
         "url": "https://bsky.app/profile/0xhra.bsky.social"
       },
-      "license": null,
-      "network": "Esmeralda testnet",
+      "license": "MIT",
+      "network": "Ootle mainnet and Esmeralda testnet",
       "platform": "Reading",
-      "upstreamRevision": "page-sha256:9dc5e43e2372c99da2c4f3333b35c684f1c1fd95e91d2317798258c6a6b65ed2",
+      "upstreamRevision": "4625a9f860bf36dc08ab54fdbaa603707b30ecee",
       "sourceUpdatedAt": "2026-10-30T02:56:26.540Z",
       "lastCheckedAt": "2026-11-05T04:19:25.000358+00:00",
       "verification": "source-attested",
@@ -2511,15 +2511,41 @@
           "url": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
           "platform": "Bluesky",
           "context": "Creator announcement of identity integration guide"
+        },
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/10",
+          "platform": "Tari Community forum",
+          "context": "Creator announcement of Skydrop and ATProto campaigns"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/5",
+          "platform": "Tari Community forum",
+          "context": "Creator-linked mainnet template publication receipts"
+        },
+        {
+          "url": "https://bsky.app/profile/0xhra.bsky.social/post/3n24hrltgwc2v",
+          "platform": "Bluesky",
+          "context": "Public announcement linked by the creator"
+        },
+        {
+          "url": "https://github.com/chironbuilds/skydrop/blob/4625a9f860bf36dc08ab54fdbaa603707b30ecee/web-atproto/src/data/deployment.ts",
+          "platform": "Network configuration",
+          "context": "Pinned mainnet and Esmeralda deployments"
+        },
+        {
+          "url": "https://explorer.tari.mw/template/fea387ae896b72b9be93426ffa34da7498336f81c023fc2a65e556cfc13fba75",
+          "platform": "Mainnet template",
+          "context": "Current Campaign v3 template observation"
         }
       ],
-      "cardSummary": "Explore a testnet guide to verifying Bluesky identities and signed posts in Ootle contracts, with Skydrop examples.",
-      "cardStatus": "Docs · Testnet",
+      "cardSummary": "Verify Bluesky identities and signed posts in Ootle contracts, and define rewards for provable social actions.",
+      "cardStatus": "Mainnet templates · Testnet",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261031.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261031.png",
-        "source": "Docs walkthrough"
-      }
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261112.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261112.jpg",
+        "source": "Announcement"
+      },
+      "lastAttemptAt": "2026-11-12T17:29:51.553414+00:00"
     },
     {
       "id": "tari-ootle:learn:hycorange-burn",
