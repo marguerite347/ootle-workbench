@@ -4427,6 +4427,51 @@
         "source": "Docs walkthrough"
       },
       "lastCheckedAt": null
+    },
+    {
+      "id": "tari-ootle:component:launch-commitments",
+      "key": "launch-commitments",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Launch Commitments",
+      "summary": "Rust token-factory template and CLI for fixed-supply, ownerless tokens with allocations locked through Ootle Lockbox until a chosen epoch. The November 12 creator announcement links a mainnet launch page; the reviewed README does not include a deployment receipt, so this listing documents the source without placing it in the live-mainnet collection. The template fixes its fee and destinations at build time; the README gives a 2,500 TARI mainnet fee example. Allocation labels are creator-declared: locks do not establish team identity or ownership of the remaining supply. The recording is a README walkthrough at revision bd8cf1f, not a token launch. MIT source; tari_template_lib 0.38. No wallet, transaction or third-party code was used for this review.",
+      "status": "Source code · Allocations locked until epoch",
+      "cardSummary": "Explore fixed-supply token launches that combine immutable issuer rules with epoch-based allocation locks through Ootle Lockbox.",
+      "cardStatus": "Source code · Allocations locked until epoch",
+      "sourceUrl": "https://www.reddit.com/r/tari/comments/1xu5frf/launch_commitments_launch_a_token_on_tari_ootle/",
+      "repoUrl": "https://github.com/ManishModak/ootle-launch-commitments",
+      "docsUrl": "https://github.com/ManishModak/ootle-launch-commitments#readme",
+      "creator": {
+        "name": "ManishModak",
+        "url": "https://github.com/ManishModak"
+      },
+      "license": "MIT",
+      "network": "Mainnet claimed by creator; deployment unconfirmed",
+      "platform": "Rust template · CLI",
+      "upstreamRevision": "bd8cf1ff358075fa4ef6722b8bf9ae5fe3caa175",
+      "sourceUpdatedAt": "2026-11-11T09:57:06Z",
+      "lastAttemptAt": "2026-11-12T15:42:19.796816+00:00",
+      "lastCheckedAt": null,
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "templates",
+        "token-launches"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xu5frf/launch_commitments_launch_a_token_on_tari_ootle/",
+          "platform": "Reddit · r/tari",
+          "context": "Original creator announcement"
+        }
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-launch-commitments-20261112.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-launch-commitments-20261112.jpg",
+        "source": "Docs walkthrough"
+      }
     }
   ],
   "opportunities": [
