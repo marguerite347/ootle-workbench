@@ -712,11 +712,11 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Crypt",
-      "summary": "Secret-trading template and documented browser simulation. The creator’s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil’s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README’s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
-      "status": "Source code · Testnet · Demo unavailable",
+      "summary": "Encrypted secret sales with escrow and delivery disputes. The November 7 creator edit points to the open draft PR #1 README at abce0fe; the default branch still documents an older version. On November 12, Veil’s Esmeralda explorer displayed Crypt template 466c4da9…6deacbb, 23 functions and publication epoch 12934. The current README identifies template library 0.38 and Ootle 0.50.1. Its reported honest and disputed sales belong to the earlier November 3 template ed8116a0…03496c82 and used one demo wallet, not independent users. Disputes expose the secret; losing the sale key can prevent payouts. On November 12, server-side text extraction returned only a loading screen for the Vercel demo and could not retrieve the GitHub Pages demo; this does not establish their current interactive behavior. The November 3 browser checks found missing demo assets and a GitHub Pages 404. Earlier October 29 footage recorded a browser payout-signing limitation with 15 testnet XTM left in settled escrow. Those dated failures and prior recordings remain in maintenance history. This November 12 clip walks through the current README and its embedded creator animation; it is not a live application or transaction demonstration. BSD-3-Clause source. No wallet, executable download or local third-party code was used.",
+      "status": "Source code · Testnet · Disputes reveal secrets",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/7",
       "repoUrl": "https://github.com/ogboy92ii/crypt",
-      "docsUrl": "https://github.com/ogboy92ii/crypt/blob/432249f119e73a4606ffdb9cf2f0088885f7378f/README.md",
+      "docsUrl": "https://github.com/ogboy92ii/crypt/blob/abce0fedd2ab883f94cf1dc4ca9a8a7e5ad48eff/README.md",
       "creator": {
         "name": "Og.boy",
         "url": "https://github.com/Lrifton92"
@@ -724,8 +724,8 @@
       "license": "BSD-3-Clause",
       "network": "Ootle Esmeralda testnet",
       "platform": "Rust / CLI; documented browser simulation",
-      "upstreamRevision": "432249f119e73a4606ffdb9cf2f0088885f7378f",
-      "sourceUpdatedAt": "2026-11-03T01:30:07.869Z",
+      "upstreamRevision": "abce0fedd2ab883f94cf1dc4ca9a8a7e5ad48eff",
+      "sourceUpdatedAt": "2026-11-07T14:26:38.431Z",
       "lastCheckedAt": "2026-10-31T14:00:56.589Z",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -779,15 +779,24 @@
           "url": "https://github.com/ogboy92ii/crypt/pull/1",
           "platform": "GitHub",
           "context": "Creator’s republished-template source branch; open at review"
+        },
+        {
+          "url": "https://github.com/ogboy92ii/crypt/blob/abce0fedd2ab883f94cf1dc4ca9a8a7e5ad48eff/README.md",
+          "platform": "Source README"
+        },
+        {
+          "url": "https://testnet-explorer.tari.mw/template/466c4da9938489b61b66ae0abbc39e850f162b540b76a29e88941c4d96deacbb",
+          "platform": "Esmeralda template"
         }
       ],
       "cardSummary": "Explore encrypted secret sales, escrow and delivery disputes through a Rust template and its documented browser game.",
-      "cardStatus": "Source code · Testnet · Demo unavailable",
+      "cardStatus": "Source code · Testnet · Disputes reveal secrets",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261103-952605ab1c.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261103-952605ab1c.png",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261112.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261112.jpg",
         "source": "Docs walkthrough"
-      }
+      },
+      "lastAttemptAt": "2026-11-12T16:44:40.637999+00:00"
     },
     {
       "id": "tari-ootle:component:phantom-drop",
@@ -1079,11 +1088,11 @@
       "ecosystem": "tari-ootle",
       "group": "Agents",
       "title": "Ghostline",
-      "summary": "Pay-per-call channels for AI agents using cumulative off-chain vouchers and one settlement. November 4 review of the public demo observed five simulated calls and an overspend rejection; the refreshed recording shows only that walletless browser flow. Its displayed transaction is separately labeled creator evidence. The creator updated the original submission on November 3 after the Esmeralda reset, replacing retired October transaction links with a new template and recorded Sapient run. The site evidence page lists a separate November 3 run; call counts are service-ledger claims, not chain proof. Optional live mode requires Sapient 0.7.1 or later and a custodial relay that holds a 51 µT test deposit through settlement or refund. Fees, timing and requests remain visible. No wallet action, relay deposit, CLI execution or independent chain validation was performed in this review. The v0.4.0 CLI binaries support Linux x86-64 with glibc. Earlier recordings and transaction URLs remain in the maintenance history.",
-      "status": "Browser demo · Linux CLI · Testnet",
+      "summary": "Pay-per-call channels for AI agents using cumulative off-chain vouchers and one settlement. On November 12, Veil’s Esmeralda explorer displayed GhostlineChannel template 21a4b999…3131ac05, three functions and publication epoch 12938. The current source evidence identifies its November 7 publication with template library 0.38. In the November 9 original-post edit, the creator reports a 51 µT deposit, five paid calls, an overspend rejection and one settlement; those counts are attributed service-ledger evidence, not independent chain proof. The README explicitly limits current payments to Esmeralda testnet; mainnet remains a future goal. Optional browser live mode requires Sapient 0.7.1 or later and a custodial relay that holds the test deposit through settlement or refund. Fees, timing, channel metadata and requests remain observable; the batch prototype is not coordinator-private. The v0.4.0 CLI requires Linux x86-64 with glibc. The new November 12 recording is a README walkthrough. The November 4 walletless simulation recording, its observed five calls and rejection, and earlier transaction URLs remain in maintenance history. No wallet action, deposit, CLI execution or active application review was performed for this source refresh. MIT source.",
+      "status": "Testnet · Linux CLI · Custodial relay",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
       "repoUrl": "https://github.com/AduAkorful/ghostline",
-      "docsUrl": "https://ghostline-ui.vercel.app/docs/install.html",
+      "docsUrl": "https://github.com/AduAkorful/ghostline/blob/a9e41e3423be935b08370f717f15970efe3aae0e/README.md",
       "creator": {
         "name": "AduAkorful",
         "url": "https://github.com/AduAkorful"
@@ -1091,8 +1100,8 @@
       "license": "MIT",
       "network": "Esmeralda testnet",
       "platform": "Rust · TypeScript · Linux x86-64 CLI",
-      "upstreamRevision": "5c31fa39e71185fa051ad888485a922256aa4fff",
-      "sourceUpdatedAt": "2026-11-03T16:20:39.772Z",
+      "upstreamRevision": "a9e41e3423be935b08370f717f15970efe3aae0e",
+      "sourceUpdatedAt": "2026-11-09T12:35:11.987Z",
       "lastCheckedAt": "2026-11-04T17:08:16.831Z",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -1143,15 +1152,24 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "platform": "Tari Community forum",
           "context": "November 2 testnet reset and template republishing notice"
+        },
+        {
+          "url": "https://github.com/AduAkorful/ghostline/blob/a9e41e3423be935b08370f717f15970efe3aae0e/README.md",
+          "platform": "Source README"
+        },
+        {
+          "url": "https://testnet-explorer.tari.mw/template/21a4b9991eecbe50edfc72fd874b4d072b2fc5e44767dad83fa9dfef3131ac05",
+          "platform": "Esmeralda template"
         }
       ],
       "cardSummary": "Explore payment channels that let AI agents pay per API call using cumulative vouchers and one settlement.",
-      "cardStatus": "Browser demo · Linux CLI · Testnet",
+      "cardStatus": "Testnet · Linux CLI · Custodial relay",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261104.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261104.jpg",
-        "source": "App demo — walletless simulation"
-      }
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261112.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261112.jpg",
+        "source": "Docs walkthrough"
+      },
+      "lastAttemptAt": "2026-11-12T16:44:40.637999+00:00"
     },
     {
       "id": "tari-ootle:component:seance",
