@@ -1878,8 +1878,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "The Cursed Pumpkin",
-      "summary": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. Reviewed November 4, 2026: the public browser still replays the creator’s October 28 four-player Esmeralda game with 23 recorded transaction links. The separate Live game view reports 404 / Substate not found for its recorded component. The cause is not established; the November 2 organizer reset notice asked entrants to republish templates. No replacement deployment was established by these sources. New games use the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. The retained October 29 clip accurately demonstrates the historical replay. MIT source; no wallet access, ownership signing or payments were performed.",
-      "status": "Replay demo · Testnet",
+      "summary": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. On November 12, Veil showed the mainnet template publish committed at 05:38:14 UTC and its game creation committed at 06:35:02 UTC, both with network byte 0. The receipt matches template dc7d2ed8…abe56b44 and official game component f0a10a09…988357a2. The mainnet game requires a 1 TARI bond; losing guesses or a holder who fails to reveal can forfeit some or all of that bond. The creator’s current README and extracted public page distinguish a mainnet board from the recorded November 7 Esmeralda game; the Python client remains testnet-only. Timing, pass counts, off-chain information and the final holder remain observable. The new recording is a November 12 README walkthrough, not a live game or wallet session. Earlier October 28 replay footage and the November 4 failed-component observation remain in the maintenance history, superseded by these new deployment receipts. MIT source; template library 0.38. No wallets, transactions or third-party code were used in this review.",
+      "status": "Mainnet / Testnet · Bonds at risk",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
       "repoUrl": "https://github.com/Mzee04/cursed-pumpkin",
       "docsUrl": "https://github.com/Mzee04/cursed-pumpkin#readme",
@@ -1889,10 +1889,10 @@
         "url": "https://github.com/Mzee04"
       },
       "license": "MIT",
-      "network": "Esmeralda testnet",
+      "network": "Ootle mainnet and Esmeralda testnet",
       "platform": "Browser · Rust",
-      "upstreamRevision": "5858ddfd31e36ad961379aff379e1618240619bc",
-      "sourceUpdatedAt": "2026-10-28T20:07:16.080Z",
+      "upstreamRevision": "10e698d",
+      "sourceUpdatedAt": "2026-11-12T06:53:21Z",
       "lastCheckedAt": "2026-11-05T02:20:47.747609+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -1916,15 +1916,33 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "platform": "Tari Community forum",
           "context": "November 2 testnet reset and template republishing notice"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/7",
+          "platform": "Tari Community forum",
+          "context": "Creator mainnet submission"
+        },
+        {
+          "url": "https://explorer.tari.mw/tx/ed9b31ee6e1d88837018c4756d61e98bcb01856564198e0ba4d1e6ad91243600",
+          "platform": "Mainnet publish receipt"
+        },
+        {
+          "url": "https://explorer.tari.mw/tx/7ff685e08faad7af4dc3e209c91f2ac710974466fdcc6cc7cecc205b385ab351",
+          "platform": "Mainnet game receipt"
+        },
+        {
+          "url": "https://github.com/Mzee04/cursed-pumpkin/blob/main/MAINNET_LAUNCH.md",
+          "platform": "Creator deployment notes"
         }
       ],
-      "cardSummary": "Replay a secret hot-potato game and compare public transaction clues with the hidden route of its single pumpkin.",
-      "cardStatus": "Replay demo · Testnet",
+      "cardSummary": "Follow a stealth hot-potato game with sealed guesses, epoch-timed reveals and bonds shared among successful guessers.",
+      "cardStatus": "Mainnet / Testnet · Bonds at risk",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cursed-pumpkin-20261029.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cursed-pumpkin-20261029.png",
-        "source": "App demo"
-      }
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cursed-pumpkin-20261112.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cursed-pumpkin-20261112.jpg",
+        "source": "Docs walkthrough"
+      },
+      "lastAttemptAt": "2026-11-12T16:21:39.038451+00:00"
     },
     {
       "id": "tari-ootle:component:moonmail",
