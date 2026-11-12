@@ -1226,8 +1226,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Sealed Bids at Midnight",
-      "summary": "Rust Ootle auction template and headless CLI with signer-bound, domain-separated commit/reveal bids and equal bonds. Epochs define sealing, reveal and settlement, followed by separate lot, proceeds and refund claims. Unrevealed bids and bids below reserve permanently forfeit bonds, which stay locked in the component. Revealed amounts and bidder keys are public; multiple commitments let bidders choose what to reveal. MIT source pins tari_template_lib 0.34. The maintainer reports 17 tests and an Esmeralda v2 lifecycle; no bids, bridging or payouts were executed for this listing. The README timeline says forfeited bonds go to the seller, conflicting with its detailed v2 description and announcement. November 4 review: README unchanged at f8796ec7, no releases, and the original Reddit post shows no comments. The documented Esmeralda component returns Substate not found; no replacement address was found in the reviewed README or announcement. The November 2 organizer notice asked entrants to republish after the testnet reset. The retained October 20 README walkthrough includes the creator’s historical terminal GIF; it does not show a new auction execution. Earlier evidence remains in the maintenance history.",
-      "status": "Source code · Testnet · Forfeited bonds locked forever",
+      "summary": "Rust Ootle auction template and headless CLI with signer-bound sealed bids, equal bonds, timed reveals and separate claims. November 12 review: Veil returned a committed mainnet template publication at 08:01:23 UTC and a committed settlement at 11:02:28 UTC, network byte 0, matching the creator’s published template and auction component. The settlement event reports a winning bid of 20 and one locked ghost bond. Unrevealed bids and bids below reserve permanently forfeit bonds. Revealed amounts and bidder keys are public. The README also documents a republished Esmeralda deployment and pins tari_template_lib 0.40. The new recording is a mainnet documentation walkthrough, not an auction performed here. The October testnet recording and failed component lookup remain in maintenance history.",
+      "status": "Mainnet template · Forfeited bonds locked forever",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/16",
       "repoUrl": "https://github.com/xB0unty911/sealed-bid-auction",
       "docsUrl": "https://github.com/xB0unty911/sealed-bid-auction#readme",
@@ -1236,10 +1236,10 @@
         "url": "https://github.com/xB0unty911"
       },
       "license": "MIT",
-      "network": "Esmeralda testnet",
+      "network": "Ootle mainnet and Esmeralda testnet",
       "platform": "Rust CLI · Ootle template",
-      "upstreamRevision": "f8796ec7d95590d09c8ffa56cd3623b04740759b",
-      "sourceUpdatedAt": "2026-10-20T13:32:56.682Z",
+      "upstreamRevision": "Mainnet README reviewed November 12, 2026",
+      "sourceUpdatedAt": "2026-11-12T14:00:24.251Z",
       "lastCheckedAt": "2026-10-31T14:00:56.589Z",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -1264,16 +1264,21 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "platform": "Tari Community forum",
           "context": "November 2 testnet reset and template republishing notice"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/8",
+          "platform": "Tari Community forum",
+          "context": "Creator mainnet publication and settlement receipts"
         }
       ],
       "cardSummary": "Run sealed-bid auctions with equal entry bonds, timed reveals and separate claims for winners, sellers and losing bidders.",
-      "cardStatus": "Source code · Testnet · Forfeited bonds locked forever",
+      "cardStatus": "Mainnet template · Forfeited bonds locked forever",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261020.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261020.jpg",
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261112.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261112.jpg",
         "source": "Docs walkthrough"
       },
-      "lastAttemptAt": "2026-11-04T22:13:38.186097+00:00"
+      "lastAttemptAt": "2026-11-12T14:25:58.946725+00:00"
     },
     {
       "id": "tari-ootle:component:seance-privacy",
@@ -4330,6 +4335,94 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-soon-creator-hub-20261104.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-soon-creator-hub-20261104.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:allowance",
+      "key": "allowance",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Allowance",
+      "summary": "Spend-limited AI-agent account template with per-payment caps, per-epoch budgets and payment counts, approved payees, owner-reviewed requests and a panic freeze. The MIT repository includes Rust template source, an Esmeralda status page and a Python MCP server. The November 12 README describes a testnet deployment and creator-run tests using a freely mintable demo token with no value. Budgets reset by network epoch, not wall-clock hour; protecting the agent key remains necessary. The recording shows the README and its Esmeralda scope. No wallet, MCP server or third-party code was installed or run for this listing.",
+      "status": "Source code · Testnet",
+      "cardSummary": "Set payment caps, epoch budgets and approved payees for AI agents, with owner-reviewed requests and a panic freeze.",
+      "cardStatus": "Source code · Testnet",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/9",
+      "repoUrl": "https://github.com/boowenchen/ootle-allowance",
+      "docsUrl": "https://github.com/boowenchen/ootle-allowance#readme",
+      "creator": {
+        "name": "boowenchen",
+        "url": "https://github.com/boowenchen"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet",
+      "platform": "Rust template · Python MCP",
+      "upstreamRevision": "Public README reviewed November 12, 2026",
+      "sourceUpdatedAt": "2026-11-12T11:58:13.504Z",
+      "lastAttemptAt": "2026-11-12T14:25:58.946725+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "templates",
+        "allowance"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/9",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        }
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-allowance-20261112.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-allowance-20261112.jpg",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:ootleinvoice",
+      "key": "ootleinvoice",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "OotleInvoice",
+      "summary": "Pay-by-link invoice prototype with exact amounts, expiry and receipt NFTs. The creator publishes an MIT-licensed Rust template and a walletless browser simulation. The November 12 README explicitly states that the browser demo does not connect to a Tari network or process real payments, and the template has not been deployed to testnet or mainnet. This recording walks through the public README, its simulation limits and template API; it does not demonstrate on-chain payments.",
+      "status": "Browser simulation · Rust source",
+      "cardSummary": "Explore pay-by-link invoices, exact payment amounts and receipt checks in a walletless browser simulation.",
+      "cardStatus": "Browser simulation · Rust source",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/8",
+      "repoUrl": "https://github.com/lisaaai200/ootleinvoice",
+      "docsUrl": "https://github.com/lisaaai200/ootleinvoice#readme",
+      "creator": {
+        "name": "GenieBuilds",
+        "url": "https://github.com/lisaaai200"
+      },
+      "license": "MIT",
+      "network": "Walletless simulation; no network deployment",
+      "platform": "Rust template · JavaScript simulation",
+      "upstreamRevision": "Public README reviewed November 12, 2026",
+      "sourceUpdatedAt": "2026-11-12T04:02:53.568Z",
+      "lastAttemptAt": "2026-11-12T14:25:58.946725+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "templates",
+        "ootleinvoice"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/8",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        }
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootleinvoice-20261112.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootleinvoice-20261112.jpg",
         "source": "Docs walkthrough"
       }
     }
