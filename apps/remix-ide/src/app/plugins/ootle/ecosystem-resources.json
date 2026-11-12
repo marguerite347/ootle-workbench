@@ -4471,10 +4471,10 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Launch Commitments",
-      "summary": "Rust token-factory template and CLI for fixed-supply, ownerless tokens with allocations locked through Ootle Lockbox until a chosen epoch. The November 12 creator announcement links a mainnet launch page; the reviewed README does not include a deployment receipt, so this listing documents the source without placing it in the live-mainnet collection. The template fixes its fee and destinations at build time; the README gives a 2,500 TARI mainnet fee example. Allocation labels are creator-declared: locks do not establish team identity or ownership of the remaining supply. The recording is a README walkthrough at revision bd8cf1f, not a token launch. MIT source; tari_template_lib 0.38. No wallet, transaction or third-party code was used for this review.",
-      "status": "Source code · Allocations locked until epoch",
+      "summary": "Rust token-factory template and CLI for fixed-supply, ownerless tokens with allocations locked through Ootle Lockbox until a chosen epoch. On November 12, Veil displayed the creator-linked publish receipt as RevealedCommit with network byte 0, epoch 38501, finalized at 04:48:44 UTC, and matching Launch Commitments template b18fc1ae…bcc9963. Lockbox’s current web configuration at ed3ff37 selects that mainnet template and a 2,500 TARI launch fee, with a separate Esmeralda configuration. Publication of the template is confirmed; no token launch or fee payment was performed here. Allocations remain locked until their epochs. Labels are creator-declared and do not establish team identity or ownership of the remaining supply. The existing November 12 recording remains a README walkthrough at bd8cf1f. Lockbox’s older README deployment table has not caught up with the current mainnet configuration and receipts. MIT source; template library 0.38. No wallet or third-party code was used.",
+      "status": "Mainnet template · 2,500 TARI launch fee",
       "cardSummary": "Explore fixed-supply token launches that combine immutable issuer rules with epoch-based allocation locks through Ootle Lockbox.",
-      "cardStatus": "Source code · Allocations locked until epoch",
+      "cardStatus": "Mainnet template · 2,500 TARI launch fee",
       "sourceUrl": "https://www.reddit.com/r/tari/comments/1xu5frf/launch_commitments_launch_a_token_on_tari_ootle/",
       "repoUrl": "https://github.com/ManishModak/ootle-launch-commitments",
       "docsUrl": "https://github.com/ManishModak/ootle-launch-commitments#readme",
@@ -4483,11 +4483,11 @@
         "url": "https://github.com/ManishModak"
       },
       "license": "MIT",
-      "network": "Mainnet claimed by creator; deployment unconfirmed",
+      "network": "Ootle mainnet and Esmeralda testnet",
       "platform": "Rust template · CLI",
       "upstreamRevision": "bd8cf1ff358075fa4ef6722b8bf9ae5fe3caa175",
       "sourceUpdatedAt": "2026-11-11T09:57:06Z",
-      "lastAttemptAt": "2026-11-12T15:42:19.796816+00:00",
+      "lastAttemptAt": "2026-11-12T17:06:48.505452+00:00",
       "lastCheckedAt": null,
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -4501,11 +4501,87 @@
           "url": "https://www.reddit.com/r/tari/comments/1xu5frf/launch_commitments_launch_a_token_on_tari_ootle/",
           "platform": "Reddit · r/tari",
           "context": "Original creator announcement"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/6",
+          "platform": "Tari Community forum"
+        },
+        {
+          "url": "https://explorer.tari.mw/tx/6930fcd46f6f3de375c30521c9a832a6c31d95cc993a6c2273426460168fa80b",
+          "platform": "Mainnet publish receipt"
+        },
+        {
+          "url": "https://github.com/ManishModak/ootle-lockbox/blob/ed3ff374ac3e9d8794e96357240aa6b8ecce5f37/web/src/config.ts",
+          "platform": "Network configuration"
         }
       ],
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-launch-commitments-20261112.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-launch-commitments-20261112.jpg",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:ootle-lockbox",
+      "key": "ootle-lockbox",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Ootle Lockbox",
+      "summary": "Time-lock tokens for a beneficiary and inspect public proof pages for release conditions and token issuer powers. On November 12, the creator’s First-to-Launch post linked a mainnet publish receipt that Veil displayed as RevealedCommit with network byte 0, epoch 38500, finalized at 04:37:12 UTC, and the matching Lockbox template 968740ec…b20ec72. The current web configuration at ed3ff37 contains that template, a mainnet indexer and a mainnet default; it also retains a separate Esmeralda configuration. These checks establish template publication, not an independently exercised lock or claim. Tokens remain locked until their unlock epoch, and token issuer recall, freeze or withdrawal powers can still apply. Calendar dates are estimates derived from block epochs. Public fungible tokens, NFTs and LP tokens are supported by the documented template; blinded commitments are refused. The creator reports Esmeralda creation and claims through Sapient and the CLI. The README deployment tables lag behind the current configuration and creator receipts, including an outdated Launch Commitments testnet-only statement. This November 12 recording shows the pinned README introduction and limitations, not a running app. MIT source; template library 0.38 and Ootle 0.50.1. No wallet, funds, downloaded submission artifact or third-party code execution was used.",
+      "status": "Mainnet template · Testnet · Epoch locks",
+      "cardSummary": "Time-lock tokens and inspect public proof pages for release conditions and token issuer powers.",
+      "cardStatus": "Mainnet template · Testnet · Epoch locks",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/7",
+      "repoUrl": "https://github.com/ManishModak/ootle-lockbox",
+      "docsUrl": "https://github.com/ManishModak/ootle-lockbox/blob/ed3ff374ac3e9d8794e96357240aa6b8ecce5f37/README.md",
+      "creator": {
+        "name": "Zein / ManishModak",
+        "url": "https://github.com/ManishModak"
+      },
+      "license": "MIT",
+      "network": "Ootle mainnet and Esmeralda testnet",
+      "platform": "Rust template · Web source",
+      "upstreamRevision": "ed3ff374ac3e9d8794e96357240aa6b8ecce5f37",
+      "sourceUpdatedAt": "2026-11-12T06:24:37.738Z",
+      "lastAttemptAt": "2026-11-12T17:06:48.505452+00:00",
+      "lastCheckedAt": null,
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "templates",
+        "token-locks"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/7",
+          "platform": "Tari Community forum"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/6",
+          "platform": "Tari Community forum"
+        },
+        {
+          "url": "https://explorer.tari.mw/tx/33f102de036d354ce4a7ee4090fea35af3bd946d15d8cf038783b60b2edcecc5",
+          "platform": "Mainnet publish receipt"
+        },
+        {
+          "url": "https://github.com/ManishModak/ootle-lockbox/blob/ed3ff374ac3e9d8794e96357240aa6b8ecce5f37/README.md",
+          "platform": "Source README"
+        },
+        {
+          "url": "https://github.com/ManishModak/ootle-lockbox/blob/ed3ff374ac3e9d8794e96357240aa6b8ecce5f37/web/src/config.ts",
+          "platform": "Network configuration"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xsufvb/ootle_lockbox_timelock_tokens_on_tari_ootle_with/",
+          "platform": "Reddit · r/tari"
+        }
+      ],
+      "preview": {
+        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-lockbox-20261112.mp4",
+        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-lockbox-20261112.jpg",
         "source": "Docs walkthrough"
       }
     }
