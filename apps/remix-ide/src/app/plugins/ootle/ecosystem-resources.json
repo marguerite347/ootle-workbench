@@ -1088,19 +1088,19 @@
       "ecosystem": "tari-ootle",
       "group": "Agents",
       "title": "Ghostline",
-      "summary": "Pay-per-call channels for AI agents using cumulative off-chain vouchers and one settlement. On November 12, Veil’s Esmeralda explorer displayed GhostlineChannel template 21a4b999…3131ac05, three functions and publication epoch 12938. The current source evidence identifies its November 7 publication with template library 0.38. In the November 9 original-post edit, the creator reports a 51 µT deposit, five paid calls, an overspend rejection and one settlement; those counts are attributed service-ledger evidence, not independent chain proof. The README explicitly limits current payments to Esmeralda testnet; mainnet remains a future goal. Optional browser live mode requires Sapient 0.7.1 or later and a custodial relay that holds the test deposit through settlement or refund. Fees, timing, channel metadata and requests remain observable; the batch prototype is not coordinator-private. The v0.4.0 CLI requires Linux x86-64 with glibc. The new November 12 recording is a README walkthrough. The November 4 walletless simulation recording, its observed five calls and rejection, and earlier transaction URLs remain in maintenance history. No wallet action, deposit, CLI execution or active application review was performed for this source refresh. MIT source.",
-      "status": "Testnet · Linux CLI · Custodial relay",
+      "summary": "Pay-per-call channels for AI agents using cumulative off-chain vouchers and one settlement. November 14 source review: the current v0.5.0 README and November 13 creator posts identify Ootle mainnet. Veil displays GhostlineChannel template ae13cead…3cef9c at epoch 38576 with new, settle and settle_batch functions. Settlement pays the service, returns payer change and directs a 1% protocol fee to the treasury. The CLI/MCP route requires Linux x86-64 and a separately configured wallet; the archived October Esmeralda demo targets a retired template. The service sees requests, vouchers and deposit limits. Fees, timing, open/close links and the three-output settlement shape remain public; call counts come from service ledgers rather than chain proof. The batch coordinator is an SDK prototype, not coordinator-private or demonstrated on mainnet. MIT source. The November 14 recording is a README walkthrough, with no CLI, wallet or payment execution; prior testnet footage and receipts remain in maintenance history.",
+      "status": "Mainnet · Linux CLI/MCP · 1% protocol fee",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
       "repoUrl": "https://github.com/AduAkorful/ghostline",
-      "docsUrl": "https://github.com/AduAkorful/ghostline/blob/a9e41e3423be935b08370f717f15970efe3aae0e/README.md",
+      "docsUrl": "https://github.com/AduAkorful/ghostline#readme",
       "creator": {
         "name": "AduAkorful",
         "url": "https://github.com/AduAkorful"
       },
       "license": "MIT",
-      "network": "Esmeralda testnet",
+      "network": "Ootle mainnet",
       "platform": "Rust · TypeScript · Linux x86-64 CLI",
-      "upstreamRevision": "a9e41e3423be935b08370f717f15970efe3aae0e",
+      "upstreamRevision": "71abd68b1be7b5bfef590d578c8e1b8039cf6f31",
       "sourceUpdatedAt": "2026-11-09T12:35:11.987Z",
       "lastCheckedAt": "2026-11-04T17:08:16.831Z",
       "verification": "source-attested",
@@ -1109,9 +1109,9 @@
         "ecosystem-resources",
         "agents",
         "payments",
-        "testnet"
+        "mainnet"
       ],
-      "demoUrl": "https://ghostline-ui.vercel.app/play.html",
+      "demoUrl": "https://ghostline-ui.vercel.app/docs/",
       "discussionLinks": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/14",
@@ -1160,16 +1160,28 @@
         {
           "url": "https://testnet-explorer.tari.mw/template/21a4b9991eecbe50edfc72fd874b4d072b2fc5e44767dad83fa9dfef3131ac05",
           "platform": "Esmeralda template"
+        },
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/15",
+          "platform": "Tari Community forum"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/14",
+          "platform": "Mainnet announcement"
+        },
+        {
+          "url": "https://explorer.tari.mw/template/ae13cead3c34052116c49fc09e4645f3a62edf55857c0e2e45226dd7093cef9c",
+          "platform": "Ootle mainnet template"
         }
       ],
-      "cardSummary": "Explore payment channels that let AI agents pay per API call using cumulative vouchers and one settlement.",
-      "cardStatus": "Testnet · Linux CLI · Custodial relay",
+      "cardSummary": "Let AI agents pay per API call using cumulative off-chain vouchers and a single channel settlement.",
+      "cardStatus": "Mainnet · Linux CLI/MCP · 1% protocol fee",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261112.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261112.jpg",
+        "video": "https://lobby.tari.com/previews/community/resource-ghostline-20261114.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ghostline-20261114.jpg",
         "source": "Docs walkthrough"
       },
-      "lastAttemptAt": "2026-11-12T16:44:40.637999+00:00"
+      "lastAttemptAt": "2026-11-14T15:34:48.664803+00:00"
     },
     {
       "id": "tari-ootle:component:seance",
@@ -1440,20 +1452,20 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "HideBox",
-      "summary": "Browser-encrypted file drive with link, word, address and pay-to-open sharing. November 5 review: creator revision 0b7e341 updates Ootle libraries to 0.49.2 after the November 2 Esmeralda reset. The public site reports that revision, and the creator-documented replacement SealLog component resolves in Veil with recent events. The public status endpoint reports green checks with a budget-reservation attention flag; this is the service’s own status report. Losing the saved browser key loses access. The server sees padded sizes, timing and sharing rules; sponsored sends can be linked, and a deletion receipt cannot prove no copy was kept. Refund-backed payments remain roadmap work. Original forum, Reddit and Bluesky discussions are readable; X exposes one of three counted replies. The retained October 23 recording shows the unchanged how-it-works page and illustrative UI, not a file upload or payment. No drive, keys, wallet, uploads or payments were created. MIT source; Esmeralda testnet only.",
-      "status": "Web app · Testnet · Save your browser key",
+      "summary": "Browser-encrypted file drive and paid-access shops. November 14 read-only service metadata identifies hidebox.app as Ootle mainnet (network byte 0, testnet false), with SealLog component 45efaa40…4690; Veil displays SealLog template 494d34a5…c8472 at epoch 38542. The separate testnet.hidebox.app metadata identifies Esmeralda (byte 38, testnet true). The newer November 12 creator announcement describes mainnet market and offline shop delivery; the repository README still describes the earlier Esmeralda stage. Mainnet beta purchases have no refunds. Save the browser key: losing it loses access. The server sees padded sizes, timing and sharing rules; offline shop delivery is server-visible, and the server can open public-shop files. Sponsored sends can be linked, and deletion receipts cannot prove no copy was kept. MIT source. The November 14 recording walks through the creator announcement, not an upload, purchase or wallet interaction. Earlier testnet footage and observations remain in maintenance history.",
+      "status": "Mainnet beta · No refunds · Save your key",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/19",
       "repoUrl": "https://github.com/c7b/hidebox",
       "docsUrl": "https://github.com/c7b/hidebox#readme",
-      "demoUrl": "https://hidebox.app",
+      "demoUrl": "https://hidebox.app/",
       "creator": {
         "name": "c7b",
         "url": "https://github.com/c7b"
       },
       "license": "MIT",
-      "network": "Esmeralda testnet",
+      "network": "Ootle mainnet and Esmeralda testnet",
       "platform": "Browser · Rust",
-      "upstreamRevision": "c696c5466a1f6827fdc239a44a6c87bf0a93971c",
+      "upstreamRevision": "bbbfe9e22b747ed85862655052efaa1a3942b83a",
       "sourceUpdatedAt": "2026-10-22T01:01:13.307Z",
       "lastCheckedAt": "2026-10-31T14:00:56.589Z",
       "verification": "source-attested",
@@ -1461,7 +1473,7 @@
       "tags": [
         "ecosystem-resources",
         "privacy",
-        "testnet"
+        "mainnet"
       ],
       "discussionLinks": [
         {
@@ -1498,15 +1510,28 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "platform": "Tari Community forum",
           "context": "November 2 testnet reset and template republishing notice"
+        },
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/12",
+          "platform": "Tari Community forum"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/10",
+          "platform": "Mainnet announcement"
+        },
+        {
+          "url": "https://explorer.tari.mw/template/494d34a5f55bcef614655c9f8b7fdcb672f1d086467fc96816c0a93a4a5c8472",
+          "platform": "Ootle mainnet template"
         }
       ],
-      "cardSummary": "Store encrypted files and share them through links, recipient addresses or paid access on Ootle testnet.",
-      "cardStatus": "Web app · Testnet · Save your browser key",
+      "cardSummary": "Store encrypted files and share access through links, recipient addresses, paid unlocks and digital shops.",
+      "cardStatus": "Mainnet beta · No refunds · Save your key",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hidebox-20261023.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hidebox-20261023.png",
-        "source": "Docs walkthrough"
-      }
+        "video": "https://lobby.tari.com/previews/community/resource-hidebox-20261114.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-hidebox-20261114.jpg",
+        "source": "Announcement"
+      },
+      "lastAttemptAt": "2026-11-14T15:34:48.664803+00:00"
     },
     {
       "id": "tari-ootle:component:familiar",
@@ -4663,6 +4688,60 @@
         "source": "Docs walkthrough"
       },
       "lastCheckedAt": null
+    },
+    {
+      "id": "tari-ootle:integration:specter",
+      "key": "specter",
+      "type": "integration",
+      "ecosystem": "tari-ootle",
+      "group": "Developer tools",
+      "title": "Specter",
+      "summary": "MIT-licensed transaction inspector for selected public Ootle instruction fields, known account references, revealed amounts and report comparisons. The November 12 creator submission and current README describe mainnet inspection and optional report-hash receipts through Sapient. The creator’s dated proof page reports a committed receipt on November 11 at 20:25:52 UTC; a receipt does not establish report accuracy or anonymity, and its signer and transaction link are public. November 14 source review found an older MAINNET-RELEASE.md still describing the earlier read-only release without a Specter contract. The current explorer text extraction did not expose the claimed receipt template ABI or transaction details, so a live-mainnet promotion remains pending reconciliation. The recording is a current README walkthrough, including explicitly marked original prototype notes; it demonstrates no application, wallet or contract execution.",
+      "status": "Web app · Transaction inspector",
+      "cardStatus": "Web app · Transaction inspector",
+      "cardSummary": "Inspect public transaction fields and compare report evidence, with optional report-hash receipts described by the creator.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/11",
+      "repoUrl": "https://github.com/yeziR4/specter-tari",
+      "docsUrl": "https://github.com/yeziR4/specter-tari#readme",
+      "creator": {
+        "name": "yezo4 / yeziR4",
+        "url": "https://github.com/yeziR4"
+      },
+      "license": "MIT",
+      "network": "Creator-reported Ootle mainnet; deployment reconciliation pending",
+      "platform": "Browser · JavaScript · Rust",
+      "upstreamRevision": "README blob 21ded36bd75e9680aa032b1f0086499790800b71, reviewed November 14, 2026",
+      "sourceUpdatedAt": "2026-11-12T18:23:43.183Z",
+      "lastAttemptAt": "2026-11-14T15:24:11.123353+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "developer-tools",
+        "privacy"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/11",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/9",
+          "platform": "Tari Community forum"
+        },
+        {
+          "url": "https://yezir4.github.io/specter-tari/sapient-proof.html",
+          "platform": "Creator deployment evidence"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-specter-20261114.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-specter-20261114.jpg",
+        "source": "Docs walkthrough"
+      },
+      "lastCheckedAt": null,
+      "demoUrl": "https://yezir4.github.io/specter-tari/"
     }
   ],
   "opportunities": [
