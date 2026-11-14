@@ -4610,6 +4610,59 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-lockbox-20261112.jpg",
         "source": "Docs walkthrough"
       }
+    },
+    {
+      "id": "tari-ootle:component:stake",
+      "key": "stake",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Stake",
+      "summary": "MIT-licensed Rust commitment-contract source with a walletless browser simulation. A private goal is represented by a salted hash; a chosen referee decides whether the proposed locked funds return to the staker or go to a chosen recipient. A deadline and grace window determine the timeout default. The referee can lie, and the proposed on-chain amount is public. The November 14 README and creator submission describe no deployed template: the current demo runs without a wallet or network. This recording walks through the public README, referee limits and simulation scope; no third-party application or contract was executed.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore private-goal commitments, trusted referee decisions and timeout rules through a walletless simulation and reusable Rust source.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/14",
+      "repoUrl": "https://github.com/Mzee04/stake",
+      "docsUrl": "https://github.com/Mzee04/stake#readme",
+      "creator": {
+        "name": "iammzee / Toyyib Muhammed",
+        "url": "https://github.com/Mzee04"
+      },
+      "license": "MIT",
+      "network": "Walletless simulation; no network deployment",
+      "platform": "Rust template · JavaScript simulation",
+      "upstreamRevision": "README blob fbf892d5ec301734d112dea63fbebf886fd76875, reviewed November 14, 2026",
+      "sourceUpdatedAt": "2026-11-13T21:40:56.425Z",
+      "lastAttemptAt": "2026-11-14T14:42:23.776640+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "templates",
+        "stake"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/14",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://bsky.app/profile/iammzee.bsky.social/post/3n27ulws2gk2i",
+          "platform": "Bluesky"
+        },
+        {
+          "url": "https://medium.com/@allahumuhyy767/i-built-a-commitment-contract-on-tari-and-left-the-goal-off-the-chain-b61785f0e38c",
+          "platform": "Medium"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-stake-20261114.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-stake-20261114.jpg",
+        "source": "Docs walkthrough"
+      },
+      "lastCheckedAt": null
     }
   ],
   "opportunities": [
