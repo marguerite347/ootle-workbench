@@ -4663,6 +4663,60 @@
         "source": "Docs walkthrough"
       },
       "lastCheckedAt": null
+    },
+    {
+      "id": "tari-ootle:integration:specter",
+      "key": "specter",
+      "type": "integration",
+      "ecosystem": "tari-ootle",
+      "group": "Developer tools",
+      "title": "Specter",
+      "summary": "MIT-licensed transaction inspector for selected public Ootle instruction fields, known account references, revealed amounts and report comparisons. The November 12 creator submission and current README describe mainnet inspection and optional report-hash receipts through Sapient. The creator’s dated proof page reports a committed receipt on November 11 at 20:25:52 UTC; a receipt does not establish report accuracy or anonymity, and its signer and transaction link are public. November 14 source review found an older MAINNET-RELEASE.md still describing the earlier read-only release without a Specter contract. The current explorer text extraction did not expose the claimed receipt template ABI or transaction details, so a live-mainnet promotion remains pending reconciliation. The recording is a current README walkthrough, including explicitly marked original prototype notes; it demonstrates no application, wallet or contract execution.",
+      "status": "Web app · Transaction inspector",
+      "cardStatus": "Web app · Transaction inspector",
+      "cardSummary": "Inspect public transaction fields and compare report evidence, with optional report-hash receipts described by the creator.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/11",
+      "repoUrl": "https://github.com/yeziR4/specter-tari",
+      "docsUrl": "https://github.com/yeziR4/specter-tari#readme",
+      "creator": {
+        "name": "yezo4 / yeziR4",
+        "url": "https://github.com/yeziR4"
+      },
+      "license": "MIT",
+      "network": "Creator-reported Ootle mainnet; deployment reconciliation pending",
+      "platform": "Browser · JavaScript · Rust",
+      "upstreamRevision": "README blob 21ded36bd75e9680aa032b1f0086499790800b71, reviewed November 14, 2026",
+      "sourceUpdatedAt": "2026-11-12T18:23:43.183Z",
+      "lastAttemptAt": "2026-11-14T15:24:11.123353+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "developer-tools",
+        "privacy"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/11",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/9",
+          "platform": "Tari Community forum"
+        },
+        {
+          "url": "https://yezir4.github.io/specter-tari/sapient-proof.html",
+          "platform": "Creator deployment evidence"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-specter-20261114.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-specter-20261114.jpg",
+        "source": "Docs walkthrough"
+      },
+      "lastCheckedAt": null,
+      "demoUrl": "https://yezir4.github.io/specter-tari/"
     }
   ],
   "opportunities": [
