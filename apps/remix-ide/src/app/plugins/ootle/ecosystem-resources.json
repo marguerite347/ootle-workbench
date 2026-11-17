@@ -5041,6 +5041,104 @@
         "source": "Announcement"
       },
       "demoUrl": "https://harbourrelay.itch.io/ootle-fee-check"
+    },
+    {
+      "id": "tari-ootle:component:arisan-circle",
+      "key": "arisan-circle",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Arisan Circle",
+      "summary": "MIT-licensed rotating savings-circle template source and walletless browser simulation. The creator describes fixed contributions and a full pot paid in member order after everyone contributes; late recipients wait until they pay. The hosted Indonesian-language page identifies itself as a simulation, and the README says it is disconnected from wallets and networks. No current Ootle deployment is established by these sources. The recording shows the README, including simulation scope. Creator test claims are attributed source statements; no template was executed here.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore rotating savings contributions, late-member rules and sequential pot payouts through Rust source and a walletless browser simulation.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/22",
+      "repoUrl": "https://github.com/buahrasa01-hub/tari-arisan-circle",
+      "docsUrl": "https://github.com/buahrasa01-hub/tari-arisan-circle#readme",
+      "creator": {
+        "name": "buahrasa",
+        "url": "https://github.com/buahrasa01-hub"
+      },
+      "license": "MIT",
+      "network": "Walletless simulation; no network deployment confirmed",
+      "platform": "Rust template · JavaScript simulation",
+      "upstreamRevision": "363ae2d7768d4b8154add60d83b9ac5de3238909",
+      "sourceUpdatedAt": "2026-11-15T22:10:14.409Z",
+      "lastAttemptAt": "2026-11-17T14:10:40.323938+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "arisan-circle"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/22",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://medium.com/@buahrasa01/arisan-circle-a-rotating-savings-circle-where-nobody-holds-the-money-c91d562d1e78",
+          "platform": "Medium"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-arisan-circle-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-arisan-circle-20261117.jpg",
+        "source": "Docs walkthrough"
+      },
+      "lastCheckedAt": null,
+      "demoUrl": "https://buahrasa01-hub.github.io/tari-arisan-circle/"
+    },
+    {
+      "id": "tari-ootle:component:bountyvault",
+      "key": "bountyvault",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "BountyVault",
+      "summary": "MIT-licensed bug-bounty escrow template source and walletless browser simulation. The proposed flow records report hashes, lets sponsors approve or reopen a bounty, and lets a fixed trusted referee resolve disputes; timeout refunds the sponsor. The referee still judges report validity. The current README explicitly says the template is unpublished on Esmeralda and mainnet, and its Live tab is a placeholder. November 17, 2026: server-side extraction of the linked demo returned empty content; the creator-provided simulation destination is retained, with the README as the source walkthrough. No wallet or template was executed.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore bug-bounty escrow, sponsor decisions, fixed-referee disputes and timeout refunds through Rust source and a walletless browser simulation.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/23",
+      "repoUrl": "https://github.com/zxuan001/tari-bounty-vault",
+      "docsUrl": "https://github.com/zxuan001/tari-bounty-vault#readme",
+      "creator": {
+        "name": "notz",
+        "url": "https://github.com/zxuan001"
+      },
+      "license": "MIT",
+      "network": "Walletless simulation; no network deployment confirmed",
+      "platform": "Rust template · JavaScript simulation",
+      "upstreamRevision": "3e4e4e2f4ce1a98c6180a25b0c68ffa5d6b32530",
+      "sourceUpdatedAt": "2026-11-15T22:10:26.571Z",
+      "lastAttemptAt": "2026-11-17T14:10:40.323938+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "bountyvault"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/23",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://medium.com/@Notzyou/bountyvault-bug-bounty-escrow-on-tari-ootle-november-build-contest-entry-6eed385c9700",
+          "platform": "Medium"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-bountyvault-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-bountyvault-20261117.jpg",
+        "source": "Docs walkthrough"
+      },
+      "lastCheckedAt": null,
+      "demoUrl": "https://zxuan001.github.io/tari-bounty-vault/"
     }
   ],
   "opportunities": [

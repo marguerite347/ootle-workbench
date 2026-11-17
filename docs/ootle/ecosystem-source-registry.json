@@ -8,20 +8,17 @@
       "id": "396",
       "url": "https://community.tari.com/t/396.json",
       "status": "complete",
-      "posts": 41,
-      "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
-      "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
-      "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
-      "completedWatermark": "2026-11-04T10:07:05.507906+00:00",
+      "posts": 47,
+      "hash": "a5fc461290c86d3c86e3903a4cb0b28110166f7c9cf319ad4cd8ef0646682e99",
+      "lastAttemptAt": "2026-11-17T14:01:54.316Z",
+      "lastSuccessfulReadAt": "2026-11-17T14:01:54.316Z",
+      "completedWatermark": "2026-11-17T14:01:54.316Z",
       "lookbackStart": "2026-10-17",
-      "coverageNote": "Complete applies only to this named topic and all accessible post-stream IDs; linked-resource review and whole-channel discovery are separate.",
-      "note": "All 41 returned post IDs including full post text, edits and replies read in bounded batches; stream IDs exactly matched. Supersedes the older 24-entry count. Linked destinations and repository/demo checks remain separate pending tasks.",
-      "reviewedAt": "2026-11-04T14:12:18.597724+00:00",
-      "evidence": [
-        "work/daily-2026-11-04/october-thread-review.json",
-        "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt"
-      ],
-      "observedEntryPosts": 29,
+      "coverageNote": "Complete is limited to this topic stream, not linked-project reviews or whole-channel discovery.",
+      "note": "All accessible post-stream IDs read with complete pagination; candidate dispositions and held follow-ups remain separately tracked.",
+      "reviewedAt": "2026-11-17T14:01:54.316Z",
+      "evidence": "work/daily-2026-11-15/forum-continuation-nov17.json",
+      "observedEntryPosts": 42,
       "entryPostNumbers": [
         5,
         6,
@@ -319,6 +316,58 @@
               "file": "c0101439456c4b4c-90e1c6b5f333abdf50740a20bdfdfebc53fb0403606e0abee9feaa9f7d6d508a.txt"
             }
           ]
+        },
+        {
+          "id": "396",
+          "url": "https://community.tari.com/t/396.json",
+          "status": "complete",
+          "posts": 41,
+          "hash": "b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595",
+          "lastAttemptAt": "2026-11-04T10:07:05.507906+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:07:05.507906+00:00",
+          "completedWatermark": "2026-11-04T10:07:05.507906+00:00",
+          "lookbackStart": "2026-10-17",
+          "coverageNote": "Complete applies only to this named topic and all accessible post-stream IDs; linked-resource review and whole-channel discovery are separate.",
+          "note": "All 41 returned post IDs including full post text, edits and replies read in bounded batches; stream IDs exactly matched. Supersedes the older 24-entry count. Linked destinations and repository/demo checks remain separate pending tasks.",
+          "reviewedAt": "2026-11-04T14:12:18.597724+00:00",
+          "evidence": [
+            "work/daily-2026-11-04/october-thread-review.json",
+            "work/daily-2026-11-04/839dbc5a59cc28fd-b58ca662921abf0fc0969a36728ed15c533afa15ce39cb96438310136e0a7595.txt"
+          ],
+          "observedEntryPosts": 29,
+          "entryPostNumbers": [
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            24,
+            25,
+            29,
+            30,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "countEvidence": "work/daily-2026-11-04/october-thread-review.json",
+          "coverageComplete": true
         }
       ],
       "countEvidence": "work/daily-2026-11-04/october-thread-review.json",
@@ -3358,23 +3407,39 @@
             "work/daily-2026-10-31/forum-catchup-nov2.json",
             "work/daily-2026-10-31/nov2-discovery-followups.json"
           ]
+        },
+        {
+          "id": "503",
+          "url": "https://community.tari.com/t/503.json",
+          "status": "complete",
+          "posts": 15,
+          "hash": "b35a70eadfd67357e61c4ee539014ed55a480cd49ea502c0c52a9a98e77c9974",
+          "lastAttemptAt": "2026-11-02T13:33:29.380651+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T13:33:29.380651+00:00",
+          "completedWatermark": "2026-11-02T13:33:29.380651+00:00",
+          "reviewedAt": "2026-11-02T13:49:47.458066+00:00",
+          "coverageNote": "Complete applies only to this named topic and all accessible post-stream IDs; linked-resource review and whole-channel discovery are separate.",
+          "note": "Named topic stream only; linked destinations and editorial work remain separate pending items.",
+          "evidence": [
+            "work/daily-2026-10-31/0cc3d10ccc0b5219-b35a70eadfd67357e61c4ee539014ed55a480cd49ea502c0c52a9a98e77c9974.txt",
+            "work/daily-2026-10-31/forum-catchup-nov2.json",
+            "work/daily-2026-10-31/nov2-discovery-followups.json"
+          ],
+          "coverageComplete": true
         }
       ],
       "status": "complete",
-      "posts": 15,
-      "hash": "b35a70eadfd67357e61c4ee539014ed55a480cd49ea502c0c52a9a98e77c9974",
-      "lastAttemptAt": "2026-11-02T13:33:29.380651+00:00",
-      "lastSuccessfulReadAt": "2026-11-02T13:33:29.380651+00:00",
-      "completedWatermark": "2026-11-02T13:33:29.380651+00:00",
-      "reviewedAt": "2026-11-02T13:49:47.458066+00:00",
-      "coverageNote": "Complete applies only to this named topic and all accessible post-stream IDs; linked-resource review and whole-channel discovery are separate.",
-      "note": "Named topic stream only; linked destinations and editorial work remain separate pending items.",
-      "evidence": [
-        "work/daily-2026-10-31/0cc3d10ccc0b5219-b35a70eadfd67357e61c4ee539014ed55a480cd49ea502c0c52a9a98e77c9974.txt",
-        "work/daily-2026-10-31/forum-catchup-nov2.json",
-        "work/daily-2026-10-31/nov2-discovery-followups.json"
-      ],
-      "coverageComplete": true
+      "posts": 48,
+      "hash": "58456b4d7a353d094b1829127d2737f0168928b5e31485de1f57d81e7a75ea4d",
+      "lastAttemptAt": "2026-11-17T14:01:55.653Z",
+      "lastSuccessfulReadAt": "2026-11-17T14:01:55.653Z",
+      "completedWatermark": "2026-11-17T14:01:55.653Z",
+      "reviewedAt": "2026-11-17T14:01:55.653Z",
+      "coverageNote": "Complete is limited to this topic stream, not linked-project reviews or whole-channel discovery.",
+      "note": "All accessible post-stream IDs read with complete pagination; candidate dispositions and held follow-ups remain separately tracked.",
+      "evidence": "work/daily-2026-11-15/forum-continuation-nov17.json",
+      "coverageComplete": true,
+      "observedEntryPosts": 46
     },
     {
       "id": "507",
@@ -3500,21 +3565,37 @@
           ],
           "note": "Complete topic content and returned replies read; linked resources separately pending. Topic524 is strategic discussion, not a shipped resource.",
           "coverageComplete": true
+        },
+        {
+          "id": "520",
+          "url": "https://community.tari.com/t/520.json",
+          "status": "complete",
+          "posts": 3,
+          "hash": "35bf3a5a5c56de7bcf8a3d87e0491896a4a5260afee5932759a6248d7d332f66",
+          "lastAttemptAt": "2026-11-04T10:06:48.593646+00:00",
+          "lastSuccessfulReadAt": "2026-11-04T10:06:48.593646+00:00",
+          "completedWatermark": "2026-11-04T10:06:48.593646+00:00",
+          "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
+          "coverageNote": "Named topic and every available post-stream ID only; linked resources assessed separately.",
+          "evidence": [
+            "work/daily-2026-11-04/additional-forum-source-review.json"
+          ],
+          "note": "November MVP rules and QuietTicket submission read, including edited/deleted post positions. QuietTicket publication already accepted separately.",
+          "coverageComplete": true
         }
       ],
       "status": "complete",
-      "posts": 3,
-      "hash": "35bf3a5a5c56de7bcf8a3d87e0491896a4a5260afee5932759a6248d7d332f66",
-      "lastAttemptAt": "2026-11-04T10:06:48.593646+00:00",
-      "lastSuccessfulReadAt": "2026-11-04T10:06:48.593646+00:00",
-      "completedWatermark": "2026-11-04T10:06:48.593646+00:00",
-      "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
-      "coverageNote": "Named topic and every available post-stream ID only; linked resources assessed separately.",
-      "evidence": [
-        "work/daily-2026-11-04/additional-forum-source-review.json"
-      ],
-      "note": "November MVP rules and QuietTicket submission read, including edited/deleted post positions. QuietTicket publication already accepted separately.",
-      "coverageComplete": true
+      "posts": 23,
+      "hash": "363063c38809b16722880cc98e4110be9a9245c3e6a061aa6af4be22991f17a2",
+      "lastAttemptAt": "2026-11-17T14:01:54.760Z",
+      "lastSuccessfulReadAt": "2026-11-17T14:01:54.760Z",
+      "completedWatermark": "2026-11-17T14:01:54.760Z",
+      "reviewedAt": "2026-11-17T14:01:54.760Z",
+      "coverageNote": "Complete is limited to this topic stream, not linked-project reviews or whole-channel discovery.",
+      "evidence": "work/daily-2026-11-15/forum-continuation-nov17.json",
+      "note": "All accessible post-stream IDs read with complete pagination; candidate dispositions and held follow-ups remain separately tracked.",
+      "coverageComplete": true,
+      "observedEntryPosts": 21
     },
     {
       "id": "521",
@@ -3539,22 +3620,38 @@
             "work/daily-2026-10-31/9c75a8691b74d6f1-ed4fe7ba5984a6afc61a0f2ab765aeaeaef46859d78006e16ee97d9d093dd4cc.txt",
             "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
           ]
+        },
+        {
+          "id": "521",
+          "url": "https://community.tari.com/t/521.json",
+          "status": "complete",
+          "posts": 2,
+          "hash": "ed4fe7ba5984a6afc61a0f2ab765aeaeaef46859d78006e16ee97d9d093dd4cc",
+          "lastAttemptAt": "2026-11-02T13:58:55.158800+00:00",
+          "lastSuccessfulReadAt": "2026-11-02T13:58:55.158800+00:00",
+          "completedWatermark": "2026-11-02T13:55:19.579329+00:00",
+          "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
+          "coverageNote": "Named full accessible topic only; linked resources tracked separately.",
+          "evidence": [
+            "work/daily-2026-10-31/9c75a8691b74d6f1-ed4fe7ba5984a6afc61a0f2ab765aeaeaef46859d78006e16ee97d9d093dd4cc.txt",
+            "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
+          ],
+          "note": "Complete topic content and returned replies read; linked resources separately pending. Topic524 is strategic discussion, not a shipped resource.",
+          "coverageComplete": true
         }
       ],
       "status": "complete",
-      "posts": 2,
-      "hash": "ed4fe7ba5984a6afc61a0f2ab765aeaeaef46859d78006e16ee97d9d093dd4cc",
-      "lastAttemptAt": "2026-11-02T13:58:55.158800+00:00",
-      "lastSuccessfulReadAt": "2026-11-02T13:58:55.158800+00:00",
-      "completedWatermark": "2026-11-02T13:55:19.579329+00:00",
-      "reviewedAt": "2026-11-02T13:58:55.158800+00:00",
-      "coverageNote": "Named full accessible topic only; linked resources tracked separately.",
-      "evidence": [
-        "work/daily-2026-10-31/9c75a8691b74d6f1-ed4fe7ba5984a6afc61a0f2ab765aeaeaef46859d78006e16ee97d9d093dd4cc.txt",
-        "work/daily-2026-10-31/forum-lookback-nov2-changes.json"
-      ],
-      "note": "Complete topic content and returned replies read; linked resources separately pending. Topic524 is strategic discussion, not a shipped resource.",
-      "coverageComplete": true
+      "posts": 16,
+      "hash": "f1589f898ce0ea43036b42bd85dc8bb5c9aeff4f5530e0f9a6cd02d78cc03399",
+      "lastAttemptAt": "2026-11-17T14:01:55.029Z",
+      "lastSuccessfulReadAt": "2026-11-17T14:01:55.029Z",
+      "completedWatermark": "2026-11-17T14:01:55.029Z",
+      "reviewedAt": "2026-11-17T14:01:55.029Z",
+      "coverageNote": "Complete is limited to this topic stream, not linked-project reviews or whole-channel discovery.",
+      "evidence": "work/daily-2026-11-15/forum-continuation-nov17.json",
+      "note": "All accessible post-stream IDs read with complete pagination; candidate dispositions and held follow-ups remain separately tracked.",
+      "coverageComplete": true,
+      "observedEntryPosts": 14
     },
     {
       "id": "522",
@@ -7057,7 +7154,7 @@
           "kind": "forum",
           "complete": true,
           "posts": 10,
-          "title": "[Ootle Testnet] — Community Apps Directory",
+          "title": "[Ootle Testnet] \u2014 Community Apps Directory",
           "evidence": "work/daily-2026-11-04/d92a51e555d8868e-de3f18f6c9af832816496058100880ee5d234f892fc9635c45a485a4e521387f.txt",
           "scope": "Full ten-post thread body comparison matches previously accepted content; original post five reread.",
           "lastAttemptAt": "2026-11-04T10:06:43.617145+00:00",
@@ -8117,7 +8214,7 @@
           "status": "read"
         }
       },
-      "observedAvailability": "Desktop app · Ootle wallet: testnet",
+      "observedAvailability": "Desktop app \u00b7 Ootle wallet: testnet",
       "changedSources": [
         "https://bsky.app/profile/tariproject.bsky.social/post/3mxehm2upov22",
         "https://github.com/tari-project/universe",
@@ -10162,7 +10259,7 @@
           "error": null
         }
       },
-      "observedAvailability": "Reusable Esmeralda testnet faucet template. The November5 review of revision574c7d9 documents Ootle0.47, ProtocolV2 from epoch12220, SDK0.11 and WASM0.47. It pays a configurable amount, initially1,000tTARI, once per public key across apps; keys are not a per-person identity limit. The fee can come from the claim. The administrator can pause, change the amount and withdraw. README deployment/dry-run results are maintainer-reported historical0.42–0.47 evidence, not confirmation on a later reset network. The October4 original thread and all visible replies were reviewed, including the unanswered October31 frontend question. Caravel’s public entry requires wallet creation/import. The November5 recording walks through the current README; no wallet was created or claim submitted.",
+      "observedAvailability": "Reusable Esmeralda testnet faucet template. The November5 review of revision574c7d9 documents Ootle0.47, ProtocolV2 from epoch12220, SDK0.11 and WASM0.47. It pays a configurable amount, initially1,000tTARI, once per public key across apps; keys are not a per-person identity limit. The fee can come from the claim. The administrator can pause, change the amount and withdraw. README deployment/dry-run results are maintainer-reported historical0.42\u20130.47 evidence, not confirmation on a later reset network. The October4 original thread and all visible replies were reviewed, including the unanswered October31 frontend question. Caravel\u2019s public entry requires wallet creation/import. The November5 recording walks through the current README; no wallet was created or claim submitted.",
       "changedSources": [
         "https://x.com/Caravelxyz/status/2106759449213845779",
         "https://x.com/Caravelxyz/status/2106761553022423505",
@@ -10176,7 +10273,7 @@
         "https://github.com/okansaglam016161-pixel/caravel-faucet",
         "https://x.com/DNodeCapital/status/2108867690085421447"
       ],
-      "sourceObservation": "Reusable Esmeralda testnet faucet template. The November5 review of revision574c7d9 documents Ootle0.47, ProtocolV2 from epoch12220, SDK0.11 and WASM0.47. It pays a configurable amount, initially1,000tTARI, once per public key across apps; keys are not a per-person identity limit. The fee can come from the claim. The administrator can pause, change the amount and withdraw. README deployment/dry-run results are maintainer-reported historical0.42–0.47 evidence, not confirmation on a later reset network. The October4 original thread and all visible replies were reviewed, including the unanswered October31 frontend question. Caravel’s public entry requires wallet creation/import. The November5 recording walks through the current README; no wallet was created or claim submitted.",
+      "sourceObservation": "Reusable Esmeralda testnet faucet template. The November5 review of revision574c7d9 documents Ootle0.47, ProtocolV2 from epoch12220, SDK0.11 and WASM0.47. It pays a configurable amount, initially1,000tTARI, once per public key across apps; keys are not a per-person identity limit. The fee can come from the claim. The administrator can pause, change the amount and withdraw. README deployment/dry-run results are maintainer-reported historical0.42\u20130.47 evidence, not confirmation on a later reset network. The October4 original thread and all visible replies were reviewed, including the unanswered October31 frontend question. Caravel\u2019s public entry requires wallet creation/import. The November5 recording walks through the current README; no wallet was created or claim submitted.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "reviewedSourceCount": 2,
@@ -10594,7 +10691,7 @@
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
       ],
-      "latestAttemptObservation": "Deposit-only Ootle template with no owner or withdrawal method; deposits cannot be recovered. November 5 source review: README revision a1d156b documents SDK 0.11 and WASM 0.47 integration examples. Its published October component returned “not found” in Veil at epoch 12,882, following the November 2 testnet reset notice. The public Caravel entry reaches wallet creation or recovery before Burn. The new recording is a walkthrough of the current README, including its historical deployment claims; it does not demonstrate a deposit or establish a replacement deployment. October bounty amounts and burned totals remain dated creator statements in the original discussions.",
+      "latestAttemptObservation": "Deposit-only Ootle template with no owner or withdrawal method; deposits cannot be recovered. November 5 source review: README revision a1d156b documents SDK 0.11 and WASM 0.47 integration examples. Its published October component returned \u201cnot found\u201d in Veil at epoch 12,882, following the November 2 testnet reset notice. The public Caravel entry reaches wallet creation or recovery before Burn. The new recording is a walkthrough of the current README, including its historical deployment claims; it does not demonstrate a deposit or establish a replacement deployment. October bounty amounts and burned totals remain dated creator statements in the original discussions.",
       "evidence": [
         "work/daily-2026-11-04/caravel-reset-source-review-nov5.json"
       ]
@@ -12036,7 +12133,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "Secret-trading template and documented browser simulation. The creator’s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil’s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README’s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
+      "observedAvailability": "Secret-trading template and documented browser simulation. The creator\u2019s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil\u2019s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README\u2019s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
       "outcome": "blocked",
       "changedSources": [
         "https://github.com/ogboy92ii/crypt/releases",
@@ -12072,7 +12169,7 @@
         "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
         "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l"
       ],
-      "sourceObservation": "Secret-trading template and documented browser simulation. The creator’s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil’s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README’s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
+      "sourceObservation": "Secret-trading template and documented browser simulation. The creator\u2019s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil\u2019s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README\u2019s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "reviewedSourceCount": 6,
@@ -12221,7 +12318,7 @@
             "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
             "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l"
           ],
-          "sourceObservation": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
+          "sourceObservation": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator\u2019s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN \u00b7 SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
           "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
           "copyUpdated": true,
           "reviewedSourceCount": 6,
@@ -13161,7 +13258,7 @@
     },
     "tari-ootle:component:crypt": {
       "lastSuccessfulReviewAt": "2026-10-31T14:00:56.589Z",
-      "observedAvailability": "Secret-trading template and documented browser simulation. The creator’s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil’s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README’s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
+      "observedAvailability": "Secret-trading template and documented browser simulation. The creator\u2019s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil\u2019s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README\u2019s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
       "id": "tari-ootle:component:crypt",
       "title": "Crypt",
       "sources": [
@@ -13686,7 +13783,7 @@
         "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
         "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l"
       ],
-      "sourceObservation": "Secret-trading template and documented browser simulation. The creator’s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil’s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README’s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
+      "sourceObservation": "Secret-trading template and documented browser simulation. The creator\u2019s November 3, 2026 forum edit reports republishing after the Ootle 0.49 Esmeralda reset. The updated README is in open pull request #1 at revision 432249f; the default-branch README still describes the earlier version. Veil\u2019s public explorer displayed the new Crypt template ed8116a0633c05c27ec588ca2fcaa7b2b105c5caca52a77fc7b3453003496c82, its 23 functions and publication epoch 12815. The README links creator-reported honest and disputed sales, funded from one demo wallet. On November 3 the Vercel demo remained on its loading screen in two browsers, with its referenced script and stylesheet returning 404; the README\u2019s GitHub Pages demo also returned 404. Use the source and documentation links while those services are unavailable. The new clip is a walkthrough of that README, including its embedded creator animation; it does not demonstrate an application session or transaction. Disputes reveal the secret. Earlier October 29 browser footage warned that 15 testnet XTM remained in settled escrow because that browser path could not sign stealth payouts; that historical warning and footage are retained, separately from the new CLI sale reports. BSD-3-Clause source. No wallet or transaction was used for this review.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "reviewedSourceCount": 7,
@@ -13896,7 +13993,7 @@
             "https://bsky.app/profile/ogboy92.bsky.social/post/3my5n2j23ps2y",
             "https://bsky.app/profile/ogboy92.bsky.social/post/3my5p2qkhhs2l"
           ],
-          "sourceObservation": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator’s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN · SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
+          "sourceObservation": "Secret-trading game with a wallet-free simulation and an experimental Sapient path. The creator\u2019s October 28 forum edit supplies a replacement demo and source archive after GitHub became unavailable; both mirrors were reachable on October 29. The archive is labeled snapshot 683bc4e and contains a BSD-3-Clause license. The former repository is https://github.com/Lrifton92/crypt. The mirrored ON-CHAIN \u00b7 SAPIENT screen warns that 15 testnet XTM remain in settled escrow because the browser wallet cannot sign the Rust SDK stealth payout; reloading mid-sale abandons the session. Disputes reveal secrets and public metadata remains visible. The refreshed recording shows these requirements and the title screen; no wallet or transaction was used. Earlier simulation footage remains in capture history.",
           "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
           "copyUpdated": true,
           "reviewedSourceCount": 7,
@@ -14627,14 +14724,14 @@
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
       ],
-      "latestAttemptObservation": "Private peer-to-peer order-book templates exchanging testnet TARI and cUSD, a placeholder token with no value. Source describes whole-order fills, owner cancellation and a 1% TARI fee split: 0.7% Caravel and 0.3% burned. November 5 review: README revision 4f755d3 remains unchanged, documenting source tooling 0.47 and historical deployed 0.46.1 binaries. Its published order-board component returned “not found” in Veil at epoch 12,882 after the November 2 reset notice. The public Caravel entry reaches wallet creation or recovery before Trade. The October 23 README recording remains an accurate source walkthrough; its deployment claims are historical. No wallet, order or trade was created. The linked October 27 Tari Show discusses projects; it is not a Trade application demo.",
+      "latestAttemptObservation": "Private peer-to-peer order-book templates exchanging testnet TARI and cUSD, a placeholder token with no value. Source describes whole-order fills, owner cancellation and a 1% TARI fee split: 0.7% Caravel and 0.3% burned. November 5 review: README revision 4f755d3 remains unchanged, documenting source tooling 0.47 and historical deployed 0.46.1 binaries. Its published order-board component returned \u201cnot found\u201d in Veil at epoch 12,882 after the November 2 reset notice. The public Caravel entry reaches wallet creation or recovery before Trade. The October 23 README recording remains an accurate source walkthrough; its deployment claims are historical. No wallet, order or trade was created. The linked October 27 Tari Show discusses projects; it is not a Trade application demo.",
       "evidence": [
         "work/daily-2026-11-04/caravel-reset-source-review-nov5.json"
       ]
     },
     "tari-ootle:integration:taritracker-faucet": {
       "lastSuccessfulReviewAt": "2026-11-05T13:00:02.217Z",
-      "observedAvailability": "November 5: public faucet interface offers private/public outputs,1–1000tXTR and hourly wallet limit. OPEN FOR CLAIMS and18,799.915077tXTR spendable displayed; private deposit discovery unavailable on the current indexer. No claim submitted. Original creator announcement recovered at forum530/5. Public backend API documentation reviewed; registration page says10 withdrawals/1000tXTR daily, while API limits paragraph says100/10000 for default keys, so actual assigned quota must govern and neither is presented as a universal allowance.",
+      "observedAvailability": "November 5: public faucet interface offers private/public outputs,1\u20131000tXTR and hourly wallet limit. OPEN FOR CLAIMS and18,799.915077tXTR spendable displayed; private deposit discovery unavailable on the current indexer. No claim submitted. Original creator announcement recovered at forum530/5. Public backend API documentation reviewed; registration page says10 withdrawals/1000tXTR daily, while API limits paragraph says100/10000 for default keys, so actual assigned quota must govern and neither is presented as a universal allowance.",
       "id": "tari-ootle:integration:taritracker-faucet",
       "title": "TariTracker Faucet",
       "sources": [
@@ -15833,7 +15930,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-04T17:08:16.831Z",
-      "observedAvailability": "Pay-per-call channels for AI agents using cumulative off-chain vouchers and one settlement. November 4 review of the public demo observed five simulated calls and an overspend rejection; the refreshed recording shows only that walletless browser flow. Its displayed transaction is separately labeled creator evidence. The creator updated the original submission on November 3 after the Esmeralda reset, replacing retired October transaction links with a new template and recorded Sapient run. The site evidence page lists a separate November 3 run; call counts are service-ledger claims, not chain proof. Optional live mode requires Sapient 0.7.1 or later and a custodial relay that holds a 51 µT test deposit through settlement or refund. Fees, timing and requests remain visible. No wallet action, relay deposit, CLI execution or independent chain validation was performed in this review. The v0.4.0 CLI binaries support Linux x86-64 with glibc. Earlier recordings and transaction URLs remain in the maintenance history. Original Reddit discussion and two comments, Bluesky original with zero replies, and official X feature post with all five replies reviewed. Questions about timeout retries and channel expiry are retained as questions, not verified functionality. The pinned v0.3.2 quickstart remains historical operator guidance; no commands were executed.",
+      "observedAvailability": "Pay-per-call channels for AI agents using cumulative off-chain vouchers and one settlement. November 4 review of the public demo observed five simulated calls and an overspend rejection; the refreshed recording shows only that walletless browser flow. Its displayed transaction is separately labeled creator evidence. The creator updated the original submission on November 3 after the Esmeralda reset, replacing retired October transaction links with a new template and recorded Sapient run. The site evidence page lists a separate November 3 run; call counts are service-ledger claims, not chain proof. Optional live mode requires Sapient 0.7.1 or later and a custodial relay that holds a 51 \u00b5T test deposit through settlement or refund. Fees, timing and requests remain visible. No wallet action, relay deposit, CLI execution or independent chain validation was performed in this review. The v0.4.0 CLI binaries support Linux x86-64 with glibc. Earlier recordings and transaction URLs remain in the maintenance history. Original Reddit discussion and two comments, Bluesky original with zero replies, and official X feature post with all five replies reviewed. Questions about timeout retries and channel expiry are retained as questions, not verified functionality. The pinned v0.3.2 quickstart remains historical operator guidance; no commands were executed.",
       "outcome": "reviewed",
       "changedSources": [
         "https://ghostline-ui.vercel.app/play.html"
@@ -16068,7 +16165,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-04T17:08:16.831Z",
-      "observedAvailability": "Pay-per-call channels for AI agents using cumulative off-chain vouchers and one settlement. November 4 review of the public demo observed five simulated calls and an overspend rejection; the refreshed recording shows only that walletless browser flow. Its displayed transaction is separately labeled creator evidence. The creator updated the original submission on November 3 after the Esmeralda reset, replacing retired October transaction links with a new template and recorded Sapient run. The site evidence page lists a separate November 3 run; call counts are service-ledger claims, not chain proof. Optional live mode requires Sapient 0.7.1 or later and a custodial relay that holds a 51 µT test deposit through settlement or refund. Fees, timing and requests remain visible. No wallet action, relay deposit, CLI execution or independent chain validation was performed in this review. The v0.4.0 CLI binaries support Linux x86-64 with glibc. Earlier recordings and transaction URLs remain in the maintenance history. Original Reddit discussion and two comments, Bluesky original with zero replies, and official X feature post with all five replies reviewed. Questions about timeout retries and channel expiry are retained as questions, not verified functionality. The pinned v0.3.2 quickstart remains historical operator guidance; no commands were executed.",
+      "observedAvailability": "Pay-per-call channels for AI agents using cumulative off-chain vouchers and one settlement. November 4 review of the public demo observed five simulated calls and an overspend rejection; the refreshed recording shows only that walletless browser flow. Its displayed transaction is separately labeled creator evidence. The creator updated the original submission on November 3 after the Esmeralda reset, replacing retired October transaction links with a new template and recorded Sapient run. The site evidence page lists a separate November 3 run; call counts are service-ledger claims, not chain proof. Optional live mode requires Sapient 0.7.1 or later and a custodial relay that holds a 51 \u00b5T test deposit through settlement or refund. Fees, timing and requests remain visible. No wallet action, relay deposit, CLI execution or independent chain validation was performed in this review. The v0.4.0 CLI binaries support Linux x86-64 with glibc. Earlier recordings and transaction URLs remain in the maintenance history. Original Reddit discussion and two comments, Bluesky original with zero replies, and official X feature post with all five replies reviewed. Questions about timeout retries and channel expiry are retained as questions, not verified functionality. The pinned v0.3.2 quickstart remains historical operator guidance; no commands were executed.",
       "outcome": "reviewed",
       "changedSources": [
         "https://github.com/AduAkorful/ghostline/blob/0b0ff7dfc5f8a774a5f8176c375b191492757b00/docs/quickstart.md#guided-esmeralda-demo",
@@ -16167,7 +16264,7 @@
     },
     "project:seance": {
       "id": "project:seance",
-      "title": "Séance",
+      "title": "S\u00e9ance",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
@@ -16384,11 +16481,11 @@
       "evidence": [
         "work/daily-2026-11-04/seance-devx-source-review-nov5.json"
       ],
-      "latestAttemptObservation": "Sealed group polls with anonymous eligibility, replaceable ballots and scheduled reveal. November 5 review: the public browser interface loads, while both historical Esmeralda polls fall back to explicitly labeled recorded snapshots; their component addresses are not found in the current explorer after the testnet reset. Radicle source a1ef9667 remains available with no published releases; its README pins template library 0.34.0 and test tooling 0.46.1. The creator’s October proof and test counts describe historical runs. The retained October 23 video demonstrates the browser interface at that date, separately from chain voting; updated footage is pending to show today’s snapshot fallback. Fee-pot contributions cannot be withdrawn. Lost receipts prevent counting, revealed choices become public, and timing or funding links can expose information. MIT source; Esmeralda testnet."
+      "latestAttemptObservation": "Sealed group polls with anonymous eligibility, replaceable ballots and scheduled reveal. November 5 review: the public browser interface loads, while both historical Esmeralda polls fall back to explicitly labeled recorded snapshots; their component addresses are not found in the current explorer after the testnet reset. Radicle source a1ef9667 remains available with no published releases; its README pins template library 0.34.0 and test tooling 0.46.1. The creator\u2019s October proof and test counts describe historical runs. The retained October 23 video demonstrates the browser interface at that date, separately from chain voting; updated footage is pending to show today\u2019s snapshot fallback. Fee-pot contributions cannot be withdrawn. Lost receipts prevent counting, revealed choices become public, and timing or funding links can expose information. MIT source; Esmeralda testnet."
     },
     "tari-ootle:component:seance": {
       "id": "tari-ootle:component:seance",
-      "title": "Séance",
+      "title": "S\u00e9ance",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
         "https://radicle.network/nodes/iris.radicle.network/rad:zqLEV4RxeFNAuZxxwwNtjJdFvRuA",
@@ -16606,7 +16703,7 @@
       "evidence": [
         "work/daily-2026-11-04/seance-devx-source-review-nov5.json"
       ],
-      "latestAttemptObservation": "Sealed group polls with anonymous eligibility, replaceable ballots and scheduled reveal. November 5 review: the public browser interface loads, while both historical Esmeralda polls fall back to explicitly labeled recorded snapshots; their component addresses are not found in the current explorer after the testnet reset. Radicle source a1ef9667 remains available with no published releases; its README pins template library 0.34.0 and test tooling 0.46.1. The creator’s October proof and test counts describe historical runs. The retained October 23 video demonstrates the browser interface at that date, separately from chain voting; updated footage is pending to show today’s snapshot fallback. Fee-pot contributions cannot be withdrawn. Lost receipts prevent counting, revealed choices become public, and timing or funding links can expose information. MIT source; Esmeralda testnet."
+      "latestAttemptObservation": "Sealed group polls with anonymous eligibility, replaceable ballots and scheduled reveal. November 5 review: the public browser interface loads, while both historical Esmeralda polls fall back to explicitly labeled recorded snapshots; their component addresses are not found in the current explorer after the testnet reset. Radicle source a1ef9667 remains available with no published releases; its README pins template library 0.34.0 and test tooling 0.46.1. The creator\u2019s October proof and test counts describe historical runs. The retained October 23 video demonstrates the browser interface at that date, separately from chain voting; updated footage is pending to show today\u2019s snapshot fallback. Fee-pot contributions cannot be withdrawn. Lost receipts prevent counting, revealed choices become public, and timing or funding links can expose information. MIT source; Esmeralda testnet."
     },
     "project:sealed-bids-at-midnight": {
       "id": "project:sealed-bids-at-midnight",
@@ -16962,7 +17059,7 @@
     },
     "project:seance-privacy": {
       "id": "project:seance-privacy",
-      "title": "Seance — privacy demo",
+      "title": "Seance \u2014 privacy demo",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
         "https://github.com/Kylne700/seance-v2",
@@ -17187,7 +17284,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-05T11:55:34.397Z",
-      "observedAvailability": "Compare what strangers, recipients and auditors can learn from private Esmeralda payments. The creator’s v2 searches the latest 40 indexer transactions locally before asking for a user-entered ID; an explicit Ask for it anyway action can disclose that ID. November 5 review read both live versions, the original announcements and creator videos. The initial example remains a labeled saved October 20 copy. A read-only Summon inspection during this review returned a current Commit receipt; request counters are the page’s own report. The creator’s November 4 update identifies a republished SeanceAuditorToken template after the November 2 reset; its indexer ABI page was reachable. Old token state and payments were removed, while the saved ledger remains available. Receipts alone cannot reverify missing encrypted transaction bodies. Optional Sapient payments go to a demonstration recipient whose view key is public. Timing, fees and spend links remain visible; the quantum discussion is a simulation using published demo keys. The unchanged October 31 recording covers the transaction picker and request disclosure, with no wallet or payment. Historical creator wallet footage is not a new transaction test. v1 remains available at its earlier URL; this project is distinct from DevXTools’ sealed polls.",
+      "observedAvailability": "Compare what strangers, recipients and auditors can learn from private Esmeralda payments. The creator\u2019s v2 searches the latest 40 indexer transactions locally before asking for a user-entered ID; an explicit Ask for it anyway action can disclose that ID. November 5 review read both live versions, the original announcements and creator videos. The initial example remains a labeled saved October 20 copy. A read-only Summon inspection during this review returned a current Commit receipt; request counters are the page\u2019s own report. The creator\u2019s November 4 update identifies a republished SeanceAuditorToken template after the November 2 reset; its indexer ABI page was reachable. Old token state and payments were removed, while the saved ledger remains available. Receipts alone cannot reverify missing encrypted transaction bodies. Optional Sapient payments go to a demonstration recipient whose view key is public. Timing, fees and spend links remain visible; the quantum discussion is a simulation using published demo keys. The unchanged October 31 recording covers the transaction picker and request disclosure, with no wallet or payment. Historical creator wallet footage is not a new transaction test. v1 remains available at its earlier URL; this project is distinct from DevXTools\u2019 sealed polls.",
       "outcome": "reviewed",
       "changedSources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
@@ -17216,7 +17313,7 @@
         "https://github.com/Kylne700/seance",
         "https://kylne700.github.io/seance/"
       ],
-      "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0–0.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools’ sealed-poll project.",
+      "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0\u20130.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools\u2019 sealed-poll project.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "reviewedSourceCount": 3,
@@ -17285,7 +17382,7 @@
           "preservedAt": "2026-11-05T11:55:34.397Z",
           "record": {
             "id": "project:seance-privacy",
-            "title": "Seance — privacy demo",
+            "title": "Seance \u2014 privacy demo",
             "sources": [
               "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
               "https://github.com/Kylne700/seance-v2",
@@ -17412,7 +17509,7 @@
               "https://github.com/Kylne700/seance",
               "https://kylne700.github.io/seance/"
             ],
-            "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0–0.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools’ sealed-poll project.",
+            "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0\u20130.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools\u2019 sealed-poll project.",
             "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
             "copyUpdated": true,
             "reviewedSourceCount": 3,
@@ -17492,7 +17589,7 @@
     },
     "tari-ootle:component:seance-privacy": {
       "id": "tari-ootle:component:seance-privacy",
-      "title": "Seance — privacy demo",
+      "title": "Seance \u2014 privacy demo",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
         "https://github.com/Kylne700/seance-v2",
@@ -17717,7 +17814,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-05T11:55:34.397Z",
-      "observedAvailability": "Compare what strangers, recipients and auditors can learn from private Esmeralda payments. The creator’s v2 searches the latest 40 indexer transactions locally before asking for a user-entered ID; an explicit Ask for it anyway action can disclose that ID. November 5 review read both live versions, the original announcements and creator videos. The initial example remains a labeled saved October 20 copy. A read-only Summon inspection during this review returned a current Commit receipt; request counters are the page’s own report. The creator’s November 4 update identifies a republished SeanceAuditorToken template after the November 2 reset; its indexer ABI page was reachable. Old token state and payments were removed, while the saved ledger remains available. Receipts alone cannot reverify missing encrypted transaction bodies. Optional Sapient payments go to a demonstration recipient whose view key is public. Timing, fees and spend links remain visible; the quantum discussion is a simulation using published demo keys. The unchanged October 31 recording covers the transaction picker and request disclosure, with no wallet or payment. Historical creator wallet footage is not a new transaction test. v1 remains available at its earlier URL; this project is distinct from DevXTools’ sealed polls.",
+      "observedAvailability": "Compare what strangers, recipients and auditors can learn from private Esmeralda payments. The creator\u2019s v2 searches the latest 40 indexer transactions locally before asking for a user-entered ID; an explicit Ask for it anyway action can disclose that ID. November 5 review read both live versions, the original announcements and creator videos. The initial example remains a labeled saved October 20 copy. A read-only Summon inspection during this review returned a current Commit receipt; request counters are the page\u2019s own report. The creator\u2019s November 4 update identifies a republished SeanceAuditorToken template after the November 2 reset; its indexer ABI page was reachable. Old token state and payments were removed, while the saved ledger remains available. Receipts alone cannot reverify missing encrypted transaction bodies. Optional Sapient payments go to a demonstration recipient whose view key is public. Timing, fees and spend links remain visible; the quantum discussion is a simulation using published demo keys. The unchanged October 31 recording covers the transaction picker and request disclosure, with no wallet or payment. Historical creator wallet footage is not a new transaction test. v1 remains available at its earlier URL; this project is distinct from DevXTools\u2019 sealed polls.",
       "outcome": "reviewed",
       "changedSources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
@@ -17746,7 +17843,7 @@
         "https://github.com/Kylne700/seance#readme",
         "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22"
       ],
-      "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0–0.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools’ sealed-poll project.",
+      "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0\u20130.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools\u2019 sealed-poll project.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "reviewedSourceCount": 5,
@@ -17815,7 +17912,7 @@
           "preservedAt": "2026-11-05T11:55:34.397Z",
           "record": {
             "id": "tari-ootle:component:seance-privacy",
-            "title": "Seance — privacy demo",
+            "title": "Seance \u2014 privacy demo",
             "sources": [
               "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
               "https://github.com/Kylne700/seance-v2",
@@ -17967,7 +18064,7 @@
               "https://github.com/Kylne700/seance#readme",
               "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22"
             ],
-            "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0–0.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools’ sealed-poll project.",
+            "sourceObservation": "Read-only browser comparison of what strangers, recipients and auditors can learn from private Esmeralda payments. October 29 inspection confirmed the initial example is explicitly a saved October 20 copy, even while the request mode says Live. A separate Summon a recent transaction action returned Commit for 17d6b433db0d47106f90c5d84460a984166bd057969ff751dc8a22cc72cacb7e; that is a public indexer read, not a payment we sent. Public demonstration keys opened the saved memo and counted amounts locally. The refreshed recording shows that saved-example mode. Timing, fees and the spend graph remain visible; the Poltergeist comparison uses eleven recorded payments and a synthetic transparent ledger. Audit search is bounded to 0\u20130.0005 SEANCE. Source at 0642c4ad5fc1; no personal keys or wallet actions used. Distinct from DevXTools\u2019 sealed-poll project.",
             "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
             "copyUpdated": true,
             "reviewedSourceCount": 5,
@@ -18350,7 +18447,7 @@
       "evidence": [
         "work/daily-2026-11-04/hearth-source-review-nov5.json"
       ],
-      "latestAttemptObservation": "Humanitarian cash-aid template with household enrollment, duplicate-tag checks and wallet replacement. November 5 review: the public page replays the creator’s recorded Esmeralda verifier results and decrypts nothing itself; all five viewpoints remain accessible. The historical programme component is not found after the testnet reset. MIT source cfcc3324 is unchanged with no releases. The public sees household counts, cohorts and total funding; the auditor sees grant amounts without spending power, while households see their own notices. Registration uniqueness depends on trustworthy field registration and salt handling; it does not prove that a person is real. The six-page pitch and creator entry describe merchant voucher mode, governance changes, feature-phone access and an NGO pilot as future work. The October recording is retained as a concept overview of these recorded results. Creator-video narration remains unavailable to this review because no transcript or supported media download is provided. No enrollment, aid payment or wallet action was performed."
+      "latestAttemptObservation": "Humanitarian cash-aid template with household enrollment, duplicate-tag checks and wallet replacement. November 5 review: the public page replays the creator\u2019s recorded Esmeralda verifier results and decrypts nothing itself; all five viewpoints remain accessible. The historical programme component is not found after the testnet reset. MIT source cfcc3324 is unchanged with no releases. The public sees household counts, cohorts and total funding; the auditor sees grant amounts without spending power, while households see their own notices. Registration uniqueness depends on trustworthy field registration and salt handling; it does not prove that a person is real. The six-page pitch and creator entry describe merchant voucher mode, governance changes, feature-phone access and an NGO pilot as future work. The October recording is retained as a concept overview of these recorded results. Creator-video narration remains unavailable to this review because no transcript or supported media download is provided. No enrollment, aid payment or wallet action was performed."
     },
     "project:caravel-burn-wallet": {
       "id": "project:caravel-burn-wallet",
@@ -18609,7 +18706,7 @@
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
       ],
-      "latestAttemptObservation": "Deposit-only Ootle template with no owner or withdrawal method; deposits cannot be recovered. November 5 source review: README revision a1d156b documents SDK 0.11 and WASM 0.47 integration examples. Its published October component returned “not found” in Veil at epoch 12,882, following the November 2 testnet reset notice. The public Caravel entry reaches wallet creation or recovery before Burn. The new recording is a walkthrough of the current README, including its historical deployment claims; it does not demonstrate a deposit or establish a replacement deployment. October bounty amounts and burned totals remain dated creator statements in the original discussions.",
+      "latestAttemptObservation": "Deposit-only Ootle template with no owner or withdrawal method; deposits cannot be recovered. November 5 source review: README revision a1d156b documents SDK 0.11 and WASM 0.47 integration examples. Its published October component returned \u201cnot found\u201d in Veil at epoch 12,882, following the November 2 testnet reset notice. The public Caravel entry reaches wallet creation or recovery before Burn. The new recording is a walkthrough of the current README, including its historical deployment claims; it does not demonstrate a deposit or establish a replacement deployment. October bounty amounts and burned totals remain dated creator statements in the original discussions.",
       "evidence": [
         "work/daily-2026-11-04/caravel-reset-source-review-nov5.json"
       ]
@@ -19380,7 +19477,7 @@
       "evidence": [
         "work/daily-2026-11-04/hidebox-source-review-nov5.json"
       ],
-      "latestAttemptObservation": "Browser-encrypted file drive with link, word, address and pay-to-open sharing. November 5 review: creator revision 0b7e341 updates Ootle libraries to 0.49.2 after the November 2 Esmeralda reset. The public site reports that revision, and the creator-documented replacement SealLog component resolves in Veil with recent events. The public status endpoint reports green checks with a budget-reservation attention flag; this is the service’s own status report. Losing the saved browser key loses access. The server sees padded sizes, timing and sharing rules; sponsored sends can be linked, and a deletion receipt cannot prove no copy was kept. Refund-backed payments remain roadmap work. Original forum, Reddit and Bluesky discussions are readable; X exposes one of three counted replies. The retained October 23 recording shows the unchanged how-it-works page and illustrative UI, not a file upload or payment. No drive, keys, wallet, uploads or payments were created. MIT source; Esmeralda testnet only."
+      "latestAttemptObservation": "Browser-encrypted file drive with link, word, address and pay-to-open sharing. November 5 review: creator revision 0b7e341 updates Ootle libraries to 0.49.2 after the November 2 Esmeralda reset. The public site reports that revision, and the creator-documented replacement SealLog component resolves in Veil with recent events. The public status endpoint reports green checks with a budget-reservation attention flag; this is the service\u2019s own status report. Losing the saved browser key loses access. The server sees padded sizes, timing and sharing rules; sponsored sends can be linked, and a deletion receipt cannot prove no copy was kept. Refund-backed payments remain roadmap work. Original forum, Reddit and Bluesky discussions are readable; X exposes one of three counted replies. The retained October 23 recording shows the unchanged how-it-works page and illustrative UI, not a file upload or payment. No drive, keys, wallet, uploads or payments were created. MIT source; Esmeralda testnet only."
     },
     "tari-ootle:component:graveyard-shift": {
       "id": "tari-ootle:component:graveyard-shift",
@@ -19944,7 +20041,7 @@
       "evidence": [
         "work/daily-2026-11-04/hidebox-source-review-nov5.json"
       ],
-      "latestAttemptObservation": "Browser-encrypted file drive with link, word, address and pay-to-open sharing. November 5 review: creator revision 0b7e341 updates Ootle libraries to 0.49.2 after the November 2 Esmeralda reset. The public site reports that revision, and the creator-documented replacement SealLog component resolves in Veil with recent events. The public status endpoint reports green checks with a budget-reservation attention flag; this is the service’s own status report. Losing the saved browser key loses access. The server sees padded sizes, timing and sharing rules; sponsored sends can be linked, and a deletion receipt cannot prove no copy was kept. Refund-backed payments remain roadmap work. Original forum, Reddit and Bluesky discussions are readable; X exposes one of three counted replies. The retained October 23 recording shows the unchanged how-it-works page and illustrative UI, not a file upload or payment. No drive, keys, wallet, uploads or payments were created. MIT source; Esmeralda testnet only."
+      "latestAttemptObservation": "Browser-encrypted file drive with link, word, address and pay-to-open sharing. November 5 review: creator revision 0b7e341 updates Ootle libraries to 0.49.2 after the November 2 Esmeralda reset. The public site reports that revision, and the creator-documented replacement SealLog component resolves in Veil with recent events. The public status endpoint reports green checks with a budget-reservation attention flag; this is the service\u2019s own status report. Losing the saved browser key loses access. The server sees padded sizes, timing and sharing rules; sponsored sends can be linked, and a deletion receipt cannot prove no copy was kept. Refund-backed payments remain roadmap work. Original forum, Reddit and Bluesky discussions are readable; X exposes one of three counted replies. The retained October 23 recording shows the unchanged how-it-works page and illustrative UI, not a file upload or payment. No drive, keys, wallet, uploads or payments were created. MIT source; Esmeralda testnet only."
     },
     "tari-ootle:component:familiar": {
       "id": "tari-ootle:component:familiar",
@@ -20352,7 +20449,7 @@
       "evidence": [
         "work/daily-2026-11-04/hearth-source-review-nov5.json"
       ],
-      "latestAttemptObservation": "Humanitarian cash-aid template with household enrollment, duplicate-tag checks and wallet replacement. November 5 review: the public page replays the creator’s recorded Esmeralda verifier results and decrypts nothing itself; all five viewpoints remain accessible. The historical programme component is not found after the testnet reset. MIT source cfcc3324 is unchanged with no releases. The public sees household counts, cohorts and total funding; the auditor sees grant amounts without spending power, while households see their own notices. Registration uniqueness depends on trustworthy field registration and salt handling; it does not prove that a person is real. The six-page pitch and creator entry describe merchant voucher mode, governance changes, feature-phone access and an NGO pilot as future work. The October recording is retained as a concept overview of these recorded results. Creator-video narration remains unavailable to this review because no transcript or supported media download is provided. No enrollment, aid payment or wallet action was performed."
+      "latestAttemptObservation": "Humanitarian cash-aid template with household enrollment, duplicate-tag checks and wallet replacement. November 5 review: the public page replays the creator\u2019s recorded Esmeralda verifier results and decrypts nothing itself; all five viewpoints remain accessible. The historical programme component is not found after the testnet reset. MIT source cfcc3324 is unchanged with no releases. The public sees household counts, cohorts and total funding; the auditor sees grant amounts without spending power, while households see their own notices. Registration uniqueness depends on trustworthy field registration and salt handling; it does not prove that a person is real. The six-page pitch and creator entry describe merchant voucher mode, governance changes, feature-phone access and an NGO pilot as future work. The October recording is retained as a concept overview of these recorded results. Creator-video narration remains unavailable to this review because no transcript or supported media download is provided. No enrollment, aid payment or wallet action was performed."
     },
     "tari-ootle:component:caravel-trade": {
       "id": "tari-ootle:component:caravel-trade",
@@ -20601,7 +20698,7 @@
           "attemptedAt": "2026-11-04T10:07:05.507906+00:00"
         }
       ],
-      "latestAttemptObservation": "Private peer-to-peer order-book templates exchanging testnet TARI and cUSD, a placeholder token with no value. Source describes whole-order fills, owner cancellation and a 1% TARI fee split: 0.7% Caravel and 0.3% burned. November 5 review: README revision 4f755d3 remains unchanged, documenting source tooling 0.47 and historical deployed 0.46.1 binaries. Its published order-board component returned “not found” in Veil at epoch 12,882 after the November 2 reset notice. The public Caravel entry reaches wallet creation or recovery before Trade. The October 23 README recording remains an accurate source walkthrough; its deployment claims are historical. No wallet, order or trade was created. The linked October 27 Tari Show discusses projects; it is not a Trade application demo.",
+      "latestAttemptObservation": "Private peer-to-peer order-book templates exchanging testnet TARI and cUSD, a placeholder token with no value. Source describes whole-order fills, owner cancellation and a 1% TARI fee split: 0.7% Caravel and 0.3% burned. November 5 review: README revision 4f755d3 remains unchanged, documenting source tooling 0.47 and historical deployed 0.46.1 binaries. Its published order-board component returned \u201cnot found\u201d in Veil at epoch 12,882 after the November 2 reset notice. The public Caravel entry reaches wallet creation or recovery before Trade. The October 23 README recording remains an accurate source walkthrough; its deployment claims are historical. No wallet, order or trade was created. The linked October 27 Tari Show discusses projects; it is not a Trade application demo.",
       "evidence": [
         "work/daily-2026-11-04/caravel-reset-source-review-nov5.json"
       ]
@@ -21255,7 +21352,7 @@
     },
     "project:arkimals": {
       "id": "project:arkimals",
-      "title": "Arkimals — Halloween on Tari",
+      "title": "Arkimals \u2014 Halloween on Tari",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
         "https://github.com/BlackTurtle123/tari-midnight-kennel",
@@ -21519,7 +21616,7 @@
       ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
+      "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator\u2019s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host\u2019s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "supersededSources": {},
@@ -21736,7 +21833,7 @@
       ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
+      "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources\u2019 private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "pendingReviewSources": [],
@@ -22029,7 +22126,7 @@
     },
     "tari-ootle:component:arkimals": {
       "id": "tari-ootle:component:arkimals",
-      "title": "Arkimals — Halloween on Tari",
+      "title": "Arkimals \u2014 Halloween on Tari",
       "sources": [
         "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/29",
         "https://github.com/BlackTurtle123/tari-midnight-kennel",
@@ -22477,7 +22574,7 @@
       ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator’s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host’s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
+      "sourceObservation": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. The public browser replays the creator\u2019s October 28 four-player Esmeralda game and links each of 23 recorded transactions; October 29 inspection confirmed replay steps advance. A separate live view and Sapient ownership-check tab are provided. Playing new games uses the Python client and testnet bonds; the browser replay is not a new multiplayer match. Timing, pass counts, the host\u2019s first hop, off-chain information and the final revealed holder remain observable. A holder who never reveals causes partial bond refunds. MIT source reviewed; no wallet access, ownership signing or payments were performed.",
       "reviewScope": "All recorded active source destinations and public discussion bodies/replies; explicitly unavailable bodies or reply branches remain evidenced exceptions.",
       "copyUpdated": true,
       "supersededSources": {},
@@ -22718,7 +22815,7 @@
       ],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-05T10:00:00Z",
-      "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources’ private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
+      "sourceObservation": "Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and encrypted preferences; it does not send ordinary email. October 29 landing and privacy pages loaded. Sapient private-view access is a separate account-wide grant that can expose other resources\u2019 private amounts and memos; spending still needs approval. Public postbox identities, signers, timing, fees and size buckets remain observable, and historical mailbox-key compromise has no forward-secrecy protection. Private payment requests use three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README separates historical funded tests from current read-only recovery and local tests. The recording shows public privacy documentation, not mail delivery or a payment. MIT source; no wallet grant or transaction exercised.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": true,
       "pendingReviewSources": [],
@@ -23595,7 +23692,7 @@
         "https://medium.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet-blocks-showed-me-e9674e87502c": {
           "replacementUrl": "https://paragraph.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet",
           "evidence": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
-          "reason": "Creator explicitly moved articles 3–5 unchanged after Medium account restriction. Current creator index and full replacement article reviewed November 4.",
+          "reason": "Creator explicitly moved articles 3\u20135 unchanged after Medium account restriction. Current creator index and full replacement article reviewed November 4.",
           "reviewedAt": "2026-11-04T20:59:30.931Z",
           "failureHistory": {
             "url": "https://medium.com/@hycorange/how-taris-multi-lane-mining-works-and-what-100-real-mainnet-blocks-showed-me-e9674e87502c",
@@ -23743,7 +23840,7 @@
         "https://medium.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to-permissions-in-tari-ootle-templates-264de72b4b83": {
           "replacementUrl": "https://paragraph.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to",
           "evidence": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
-          "reason": "Creator explicitly moved articles 3–5 unchanged after Medium account restriction. Current creator index and full replacement article reviewed November 4.",
+          "reason": "Creator explicitly moved articles 3\u20135 unchanged after Medium account restriction. Current creator index and full replacement article reviewed November 4.",
           "reviewedAt": "2026-11-04T20:59:30.931Z",
           "failureHistory": {
             "url": "https://medium.com/@hycorange/methods-functions-and-who-may-call-them-a-field-guide-to-permissions-in-tari-ootle-templates-264de72b4b83",
@@ -23891,7 +23988,7 @@
         "https://medium.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop-taught-me-about-ootles-native-d87a14931168": {
           "replacementUrl": "https://paragraph.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop",
           "evidence": "https://community.tari.com/t/ootle-launch-event-creator-contest/503/9",
-          "reason": "Creator explicitly moved articles 3–5 unchanged after Medium account restriction. Current creator index and full replacement article reviewed November 4.",
+          "reason": "Creator explicitly moved articles 3\u20135 unchanged after Medium account restriction. Current creator index and full replacement article reviewed November 4.",
           "reviewedAt": "2026-11-04T20:59:30.931Z",
           "failureHistory": {
             "url": "https://medium.com/@hycorange/stealth-airdrops-without-a-custom-template-what-phantom-drop-taught-me-about-ootles-native-d87a14931168",
@@ -25367,7 +25464,7 @@
           "error": null
         }
       },
-      "observedAvailability": "Milestone escrow with confidential invoice amounts, approval, timeout refunds and jointly signed mediator paths. November 5 review found a public replay of the creator’s November 4 run on the reset Esmeralda network, replacing the earlier waiting-for-test-funds state. The creator reports four invoices and ten refused attacks using the same v4 rules, ootle-rs 0.31 and tari_template_lib 0.37. The public invoice book exposes hashes, one-time keys, deadlines and status; client and accountant copies show invoice details. The recording switches those public replay views without a wallet or new transaction. Mediator judgment remains trusted; fees and timing remain visible. The browser reads an indexer without verifying its proofs, and demo throwaway keys must not hold value. The October 29 run and prior recordings remain historical evidence.",
+      "observedAvailability": "Milestone escrow with confidential invoice amounts, approval, timeout refunds and jointly signed mediator paths. November 5 review found a public replay of the creator\u2019s November 4 run on the reset Esmeralda network, replacing the earlier waiting-for-test-funds state. The creator reports four invoices and ten refused attacks using the same v4 rules, ootle-rs 0.31 and tari_template_lib 0.37. The public invoice book exposes hashes, one-time keys, deadlines and status; client and accountant copies show invoice details. The recording switches those public replay views without a wallet or new transaction. Mediator judgment remains trusted; fees and timing remain visible. The browser reads an indexer without verifying its proofs, and demo throwaway keys must not hold value. The October 29 run and prior recordings remain historical evidence.",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
@@ -25586,7 +25683,7 @@
                 "status": "read"
               }
             },
-            "observedAvailability": "Milestone escrow using a stealth output, an approval path, a timeout refund and jointly signed mediator paths. The public invoice book records hashes, one-time keys, deadlines and status; role-specific copies disclose invoice text and amounts. November 4 review found that the website explicitly replays the archived October 29 run: the November 2 Esmeralda reset removed its template, book and transactions. The creator reports updated source using ootle-rs 0.31 and tari_template_lib 0.37 with 19 engine tests, while a replacement deployment is waiting for test funds. The refreshed recording switches public, client and accountant copies of the archived invoice; it performs no funding, wallet action or new transaction. Mediator judgment remains trusted, fees and timing remain visible, and the demo’s published throwaway keys must not hold value. All retained original sharing discussions reviewed. The November4 forum reply suggests an alternative L1 testnet faucet; it does not establish a new Hexcrow deployment. October29 creator video and transcript describe the historical run, with AI-generated media disclosure.",
+            "observedAvailability": "Milestone escrow using a stealth output, an approval path, a timeout refund and jointly signed mediator paths. The public invoice book records hashes, one-time keys, deadlines and status; role-specific copies disclose invoice text and amounts. November 4 review found that the website explicitly replays the archived October 29 run: the November 2 Esmeralda reset removed its template, book and transactions. The creator reports updated source using ootle-rs 0.31 and tari_template_lib 0.37 with 19 engine tests, while a replacement deployment is waiting for test funds. The refreshed recording switches public, client and accountant copies of the archived invoice; it performs no funding, wallet action or new transaction. Mediator judgment remains trusted, fees and timing remain visible, and the demo\u2019s published throwaway keys must not hold value. All retained original sharing discussions reviewed. The November4 forum reply suggests an alternative L1 testnet faucet; it does not establish a new Hexcrow deployment. October29 creator video and transcript describe the historical run, with AI-generated media disclosure.",
             "pendingReviewSources": [],
             "blockedSources": [],
             "changedSources": [
@@ -27591,7 +27688,7 @@
           "error": null
         }
       },
-      "observedAvailability": "Milestone escrow with confidential invoice amounts, approval, timeout refunds and jointly signed mediator paths. November 5 review found a public replay of the creator’s November 4 run on the reset Esmeralda network, replacing the earlier waiting-for-test-funds state. The creator reports four invoices and ten refused attacks using the same v4 rules, ootle-rs 0.31 and tari_template_lib 0.37. The public invoice book exposes hashes, one-time keys, deadlines and status; client and accountant copies show invoice details. The recording switches those public replay views without a wallet or new transaction. Mediator judgment remains trusted; fees and timing remain visible. The browser reads an indexer without verifying its proofs, and demo throwaway keys must not hold value. The October 29 run and prior recordings remain historical evidence.",
+      "observedAvailability": "Milestone escrow with confidential invoice amounts, approval, timeout refunds and jointly signed mediator paths. November 5 review found a public replay of the creator\u2019s November 4 run on the reset Esmeralda network, replacing the earlier waiting-for-test-funds state. The creator reports four invoices and ten refused attacks using the same v4 rules, ootle-rs 0.31 and tari_template_lib 0.37. The public invoice book exposes hashes, one-time keys, deadlines and status; client and accountant copies show invoice details. The recording switches those public replay views without a wallet or new transaction. Mediator judgment remains trusted; fees and timing remain visible. The browser reads an indexer without verifying its proofs, and demo throwaway keys must not hold value. The October 29 run and prior recordings remain historical evidence.",
       "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [
@@ -27810,7 +27907,7 @@
                 "status": "read"
               }
             },
-            "observedAvailability": "Milestone escrow using a stealth output, an approval path, a timeout refund and jointly signed mediator paths. The public invoice book records hashes, one-time keys, deadlines and status; role-specific copies disclose invoice text and amounts. November 4 review found that the website explicitly replays the archived October 29 run: the November 2 Esmeralda reset removed its template, book and transactions. The creator reports updated source using ootle-rs 0.31 and tari_template_lib 0.37 with 19 engine tests, while a replacement deployment is waiting for test funds. The refreshed recording switches public, client and accountant copies of the archived invoice; it performs no funding, wallet action or new transaction. Mediator judgment remains trusted, fees and timing remain visible, and the demo’s published throwaway keys must not hold value. All retained original sharing discussions reviewed. The November4 forum reply suggests an alternative L1 testnet faucet; it does not establish a new Hexcrow deployment. October29 creator video and transcript describe the historical run, with AI-generated media disclosure.",
+            "observedAvailability": "Milestone escrow using a stealth output, an approval path, a timeout refund and jointly signed mediator paths. The public invoice book records hashes, one-time keys, deadlines and status; role-specific copies disclose invoice text and amounts. November 4 review found that the website explicitly replays the archived October 29 run: the November 2 Esmeralda reset removed its template, book and transactions. The creator reports updated source using ootle-rs 0.31 and tari_template_lib 0.37 with 19 engine tests, while a replacement deployment is waiting for test funds. The refreshed recording switches public, client and accountant copies of the archived invoice; it performs no funding, wallet action or new transaction. Mediator judgment remains trusted, fees and timing remain visible, and the demo\u2019s published throwaway keys must not hold value. All retained original sharing discussions reviewed. The November4 forum reply suggests an alternative L1 testnet faucet; it does not establish a new Hexcrow deployment. October29 creator video and transcript describe the historical run, with AI-generated media disclosure.",
             "pendingReviewSources": [],
             "blockedSources": [],
             "changedSources": [
@@ -28978,7 +29075,7 @@
       "evidence": [
         "work/daily-2026-11-04/danse-macabre-source-review-nov5.json"
       ],
-      "latestAttemptObservation": "Werewolf without a game master: five players jointly shuffle hidden roles, then submit sealed night actions whose total reveals the victim. November 5 review: the public explanation and solo/group entry points load, while the historical game component linked in PROOF.md is not found after the testnet reset. MIT source 2341dc3 has no new releases. The creator’s October 31 video explains the design; its narration describes 33 engine tests, while the repository specifies 25 engine tests plus eight prover tests. These are creator-reported results. Solo ghosts share the host tab, so privacy matters between separate people; table existence, seat keys, posting, timing, fees and dead players’ roles remain public. A stalled seat can forfeit optional stakes, with a documented 48–96 minute closure window. The November 2 recording remains a walkthrough of the public explanation and privacy model. No game, stake or transaction was started during this review.",
+      "latestAttemptObservation": "Werewolf without a game master: five players jointly shuffle hidden roles, then submit sealed night actions whose total reveals the victim. November 5 review: the public explanation and solo/group entry points load, while the historical game component linked in PROOF.md is not found after the testnet reset. MIT source 2341dc3 has no new releases. The creator\u2019s October 31 video explains the design; its narration describes 33 engine tests, while the repository specifies 25 engine tests plus eight prover tests. These are creator-reported results. Solo ghosts share the host tab, so privacy matters between separate people; table existence, seat keys, posting, timing, fees and dead players\u2019 roles remain public. A stalled seat can forfeit optional stakes, with a documented 48\u201396 minute closure window. The November 2 recording remains a walkthrough of the public explanation and privacy model. No game, stake or transaction was started during this review.",
       "copyUpdated": true
     },
     "tari-ootle:learn:release-0492": {
@@ -29746,7 +29843,7 @@
       "evidence": [
         "work/daily-2026-11-04/danse-macabre-source-review-nov5.json"
       ],
-      "latestAttemptObservation": "Werewolf without a game master: five players jointly shuffle hidden roles, then submit sealed night actions whose total reveals the victim. November 5 review: the public explanation and solo/group entry points load, while the historical game component linked in PROOF.md is not found after the testnet reset. MIT source 2341dc3 has no new releases. The creator’s October 31 video explains the design; its narration describes 33 engine tests, while the repository specifies 25 engine tests plus eight prover tests. These are creator-reported results. Solo ghosts share the host tab, so privacy matters between separate people; table existence, seat keys, posting, timing, fees and dead players’ roles remain public. A stalled seat can forfeit optional stakes, with a documented 48–96 minute closure window. The November 2 recording remains a walkthrough of the public explanation and privacy model. No game, stake or transaction was started during this review.",
+      "latestAttemptObservation": "Werewolf without a game master: five players jointly shuffle hidden roles, then submit sealed night actions whose total reveals the victim. November 5 review: the public explanation and solo/group entry points load, while the historical game component linked in PROOF.md is not found after the testnet reset. MIT source 2341dc3 has no new releases. The creator\u2019s October 31 video explains the design; its narration describes 33 engine tests, while the repository specifies 25 engine tests plus eight prover tests. These are creator-reported results. Solo ghosts share the host tab, so privacy matters between separate people; table existence, seat keys, posting, timing, fees and dead players\u2019 roles remain public. A stalled seat can forfeit optional stakes, with a documented 48\u201396 minute closure window. The November 2 recording remains a walkthrough of the public explanation and privacy model. No game, stake or transaction was started during this review.",
       "copyUpdated": true
     },
     "tari-ootle:learn:taritalk-wallet-operations-faq": {
@@ -29822,7 +29919,7 @@
               }
             },
             "lastSuccessfulReviewAt": "2026-11-02T18:47:12.075861+00:00",
-            "observedAvailability": "Guide · Universe 1.6.12",
+            "observedAvailability": "Guide \u00b7 Universe 1.6.12",
             "outcome": "pending",
             "pendingReviewSources": [],
             "blockedSources": [],
@@ -29894,7 +29991,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-05T01:40:44.933962+00:00",
-      "observedAvailability": "Mining pool · 1% fee · 0.1 XTM minimum",
+      "observedAvailability": "Mining pool \u00b7 1% fee \u00b7 0.1 XTM minimum",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -30003,7 +30100,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-05T01:40:44.933962+00:00",
-      "observedAvailability": "Desktop app · NVIDIA / experimental AMD · 1% dev fee",
+      "observedAvailability": "Desktop app \u00b7 NVIDIA / experimental AMD \u00b7 1% dev fee",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -30169,7 +30266,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-      "observedAvailability": "Desktop app · Ootle wallet: testnet",
+      "observedAvailability": "Desktop app \u00b7 Ootle wallet: testnet",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -30300,7 +30397,7 @@
               }
             },
             "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-            "observedAvailability": "Source code · Flutter / Rust",
+            "observedAvailability": "Source code \u00b7 Flutter / Rust",
             "outcome": "pending",
             "pendingReviewSources": [
               "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet"
@@ -30453,7 +30550,7 @@
               }
             },
             "lastSuccessfulReviewAt": "2026-11-02T19:48:15.922Z",
-            "observedAvailability": "Source code · Testnet · v0.47 pins",
+            "observedAvailability": "Source code \u00b7 Testnet \u00b7 v0.47 pins",
             "outcome": "pending",
             "pendingReviewSources": [
               "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet"
@@ -30550,7 +30647,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-04T23:45:09.237Z",
-      "observedAvailability": "CLI · v0.5.2",
+      "observedAvailability": "CLI \u00b7 v0.5.2",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -30861,7 +30958,7 @@
     },
     "tari-ootle:learn:kurarmota-two-layer-architecture": {
       "id": "tari-ootle:learn:kurarmota-two-layer-architecture",
-      "title": "Tari’s two-layer architecture",
+      "title": "Tari\u2019s two-layer architecture",
       "sources": [
         "https://community.tari.com/t/ootle-launch-event-creator-contest/503/13",
         "https://medium.com/@isahjaafar12/-8cbde86c94e3"
@@ -31511,7 +31608,7 @@
       "evidence": [
         "work/daily-2026-11-04/tari-tracker-source-review-nov5.json"
       ],
-      "latestAttemptObservation": "Independent community dashboard with Tari hashrates, chain height, developer activity filters and linked ecosystem tools. On November 5, 2026 the public overview loaded network data, and Refresh data plus the tari/All projects filters responded. The November 3 recording remains an app demo of those controls; its figures are fixed at capture time. The footer-linked source repository still returned 404 in both the source reader and browser. The public Telegram landing offered no message history, and the browser client required a new device login, so that channel’s messages were not reviewed. The dashboard remains accessible. No wallet, donation or download action was performed."
+      "latestAttemptObservation": "Independent community dashboard with Tari hashrates, chain height, developer activity filters and linked ecosystem tools. On November 5, 2026 the public overview loaded network data, and Refresh data plus the tari/All projects filters responded. The November 3 recording remains an app demo of those controls; its figures are fixed at capture time. The footer-linked source repository still returned 404 in both the source reader and browser. The public Telegram landing offered no message history, and the browser client required a new device login, so that channel\u2019s messages were not reviewed. The dashboard remains accessible. No wallet, donation or download action was performed."
     },
     "tari-ootle:component:tari-block-tools": {
       "id": "tari-ootle:component:tari-block-tools",
@@ -32015,7 +32112,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-04T22:39:21.258880+00:00",
-      "observedAvailability": "Recovered November 4 from the creator’s own blog index, linked by the creator’s first-template article. Full article read. Its phrase nothing to watch should be read with its own later threat model: transaction graphs, fees and identity-linked calls remain observable. Minotari provides registration and timing; Ootle runs separate consensus and execution. No wallets or privacy primitives were executed.",
+      "observedAvailability": "Recovered November 4 from the creator\u2019s own blog index, linked by the creator\u2019s first-template article. Full article read. Its phrase nothing to watch should be read with its own later threat model: transaction graphs, fees and identity-linked calls remain observable. Minotari provides registration and timing; Ootle runs separate consensus and execution. No wallets or privacy primitives were executed.",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -32164,7 +32261,7 @@
         }
       },
       "lastSuccessfulReviewAt": "2026-11-04T23:45:09.237Z",
-      "observedAvailability": "Source code · Work in progress",
+      "observedAvailability": "Source code \u00b7 Work in progress",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -33400,7 +33497,7 @@
       },
       {
         "canonicalId": "project:seance",
-        "title": "Séance",
+        "title": "S\u00e9ance",
         "surfaceIds": [
           "project:seance",
           "tari-ootle:component:seance"
@@ -33451,7 +33548,7 @@
       },
       {
         "canonicalId": "project:seance-privacy",
-        "title": "Seance — privacy demo",
+        "title": "Seance \u2014 privacy demo",
         "surfaceIds": [
           "project:seance-privacy",
           "tari-ootle:component:seance-privacy"
@@ -33666,7 +33763,7 @@
       },
       {
         "canonicalId": "project:arkimals",
-        "title": "Arkimals — Halloween on Tari",
+        "title": "Arkimals \u2014 Halloween on Tari",
         "surfaceIds": [
           "project:arkimals",
           "tari-ootle:component:arkimals"
@@ -34456,7 +34553,7 @@
       },
       {
         "canonicalId": "tari-ootle:learn:kurarmota-two-layer-architecture",
-        "title": "Tari’s two-layer architecture",
+        "title": "Tari\u2019s two-layer architecture",
         "surfaceIds": [
           "tari-ootle:learn:kurarmota-two-layer-architecture"
         ],
