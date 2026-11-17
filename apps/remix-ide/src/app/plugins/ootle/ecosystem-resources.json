@@ -4742,6 +4742,56 @@
       },
       "lastCheckedAt": null,
       "demoUrl": "https://yezir4.github.io/specter-tari/"
+    },
+    {
+      "id": "tari-ootle:component:ootle-crowdfund",
+      "key": "ootle-crowdfund",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Ootle Crowdfund",
+      "summary": "MIT-licensed Rust crowdfunding template source and walletless browser simulation. The documented mechanism combines all-or-nothing funding with a creator bond, three release tranches and a pledge-weighted veto. Released funds cannot be clawed back, creator promises are not enforced, and minority backers depend on majority action. The current README explicitly states that no template is published to Esmeralda or mainnet and live wallet mode is a stub. This November 15 recording shows the public README and simulation instructions; no submission code or contract was executed.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore crowdfunding goals, creator bonds, staged payouts and backer vetoes through Rust source and a walletless simulation.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/17",
+      "repoUrl": "https://github.com/Yogii123-qw/ootle-crowdfund",
+      "docsUrl": "https://github.com/Yogii123-qw/ootle-crowdfund#readme",
+      "creator": {
+        "name": "Monch / Yogii123-qw",
+        "url": "https://github.com/Yogii123-qw"
+      },
+      "license": "MIT",
+      "network": "Walletless simulation; no network deployment",
+      "platform": "Rust template · JavaScript simulation",
+      "upstreamRevision": "README blob e5fee0dfdb847eee251977ede446b09152d975ce; source rechecked November 16, 2026",
+      "sourceUpdatedAt": "2026-11-15T04:00:24.376Z",
+      "lastAttemptAt": "2026-11-16T21:37:22.262213+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "templates",
+        "ootle-crowdfund"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/17",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xwaouw/ootle_crowdfund_my_entry_for_the_tari_november/",
+          "platform": "Reddit"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-crowdfund-20261115.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-crowdfund-20261115.jpg",
+        "source": "Docs walkthrough"
+      },
+      "lastCheckedAt": null,
+      "demoUrl": "https://yogii123-qw.github.io/ootle-crowdfund/"
     }
   ],
   "opportunities": [
