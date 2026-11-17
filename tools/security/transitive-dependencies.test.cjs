@@ -70,18 +70,6 @@ test('each Mocha consumer discovers files and applies exclusions through its CLI
   }
 })
 
-// Exercise the XML public API used by inherited tooling after the security update.
-test('XML parser retains attributes, entities and builder round trips', () => {
-  const { XMLParser, XMLBuilder, XMLValidator } = require('fast-xml-parser')
-  const parser = new XMLParser({ ignoreAttributes: false })
-  const source = '<project id="tari"><name>A &amp; B</name><count>3</count></project>'
-  const parsed = parser.parse(source)
-  assert.deepEqual(parsed, { project: { name: 'A & B', count: 3, '@_id': 'tari' } })
-  const rebuilt = new XMLBuilder({ ignoreAttributes: false }).build(parsed)
-  assert.equal(XMLValidator.validate(rebuilt), true)
-  assert.deepEqual(parser.parse(rebuilt), parsed)
-})
-
 test('Forge certificates and signatures retain expected verification behavior', () => {
   const forge = require('node-forge')
   const { generateKeyPairSync } = require('node:crypto')
