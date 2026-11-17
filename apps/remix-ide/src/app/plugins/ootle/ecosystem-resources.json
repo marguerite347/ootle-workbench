@@ -5139,6 +5139,153 @@
       },
       "lastCheckedAt": null,
       "demoUrl": "https://zxuan001.github.io/tari-bounty-vault/"
+    },
+    {
+      "id": "tari-ootle:component:public-grant-ledger",
+      "key": "public-grant-ledger",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Developer tools",
+      "title": "Public Grant Ledger",
+      "summary": "BSD-3-Clause Rust reconciliation tool with a hosted read-only review page. It compares payment outcomes, assets, integer amounts and payees, keeping receipt provenance in CSV output. Its samples distinguish local-engine grant payments from archived Ootle mainnet auction proceeds and escrow funding; those archives do not establish a deployed grant contract. The README explicitly excludes wallet signing and on-chain deployment. November 17, 2026: server-side extraction returned the hosted review interface and its offline/read-only boundary. The recording is a walkthrough of the Chinese-language README, not an application run or independent verification of the archived receipts.",
+      "status": "Read-only web app · Rust CLI",
+      "cardStatus": "Read-only web app · Rust CLI",
+      "cardSummary": "Compare approved payments with archived transaction receipts, flag discrepancies and duplicate entries, and export evidence-linked reconciliation rows.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/24",
+      "repoUrl": "https://github.com/feitianbf751026-dotcom/tari-ootle-public-grant-ledger",
+      "docsUrl": "https://github.com/feitianbf751026-dotcom/tari-ootle-public-grant-ledger#readme",
+      "creator": {
+        "name": "feitianbf",
+        "url": "https://github.com/feitianbf751026-dotcom"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Archived Ootle mainnet receipts; local-engine grant samples; no grant contract deployment",
+      "platform": "Rust CLI · Read-only web interface",
+      "upstreamRevision": "3af533b6bf3c14a9a9a5cc277f1d930e2e1b26b9",
+      "sourceUpdatedAt": "2026-11-17T14:09:10.045Z",
+      "lastAttemptAt": "2026-11-17T14:35:57.771225+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "public-grant-ledger"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/24",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xyhxfk/public_grant_ledger_tari_ootle_november_mvp_entry/",
+          "platform": "Reddit"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-public-grant-ledger-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-public-grant-ledger-20261117.jpg",
+        "source": "Docs walkthrough"
+      },
+      "lastCheckedAt": null,
+      "demoUrl": "https://tari-ootle-dao-grant-audit.onrender.com/"
+    },
+    {
+      "id": "tari-ootle:component:ootle-forge",
+      "key": "ootle-forge",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Ootle Forge",
+      "summary": "MIT-licensed collectible-crafting game source and walletless simulation. The proposed Rust template burns EMBER and a forge fee to mint tiered relics, combines three matching relics into a higher tier, and melts duplicates into materials. The admin-badge holder controls fee withdrawals. The README and hosted page explicitly say the template is unpublished on Esmeralda and mainnet. Simulation amounts and NFTs have no real value; creator engine-test claims remain attributed source statements. The source warns that its randomness is game-grade. This recording shows the README and deployment limits; no game or template was executed.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Gather crafting materials, forge collectible relics, combine matching tiers and recycle duplicates in a walletless browser simulation.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/25",
+      "repoUrl": "https://github.com/Rismahamja04/ootle-forge",
+      "docsUrl": "https://github.com/Rismahamja04/ootle-forge#readme",
+      "creator": {
+        "name": "Mystiy",
+        "url": "https://github.com/Rismahamja04"
+      },
+      "license": "MIT",
+      "network": "Walletless simulation; unpublished on Esmeralda and mainnet",
+      "platform": "Rust template · JavaScript simulation",
+      "upstreamRevision": "9abf20fb0b42b5d168fa04719f0b6572fba95702",
+      "sourceUpdatedAt": "2026-11-17T14:22:24.853Z",
+      "lastAttemptAt": "2026-11-17T14:35:57.771225+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "ootle-forge"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/25",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://medium.com/@rismahamja01/ootle-forge-a-collectible-crafting-game-on-tari-ootle-november-build-contest-entry-3e6d3d9cd8f6",
+          "platform": "Medium"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-forge-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-forge-20261117.jpg",
+        "source": "Docs walkthrough"
+      },
+      "lastCheckedAt": null,
+      "demoUrl": "https://rismahamja04.github.io/ootle-forge/"
+    },
+    {
+      "id": "tari-ootle:component:tari-arisan",
+      "key": "tari-arisan",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Tari Arisan",
+      "summary": "MIT-licensed rotating savings-circle source with a walletless simulation and a documented Esmeralda deployment. Fixed members contribute each round; unpaid contributions become arrears, and a recipient in arrears misses that round's payout. The creator documents template f230b6fbe6409c10c8f3d9dbf47a722a0b7ab956d32ed5b57a1fd35e9e8399a5 and circle component_fe42c4e6f21f2066cac7acdabb5fabcd9bd365af8aadd154ece22dd0d2f601e8. November 17, 2026: the official Esmeralda indexer returned that circle as an up substate at version 3. The hosted page opens in simulation mode and its extracted live-mode instructions still contain older Phase 3 setup text; use the dated creator proof for deployment scope. No mainnet deployment is claimed. This README walkthrough does not demonstrate wallet interaction or independently replay the creator's payout tests.",
+      "status": "Testnet · Browser simulation",
+      "cardStatus": "Testnet · Browser simulation",
+      "cardSummary": "Explore rotating savings contributions, missed-payment arrears and scheduled pot payouts through an Esmeralda contract and browser simulation.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/26",
+      "repoUrl": "https://github.com/itaro9110/tari-arisan",
+      "docsUrl": "https://github.com/itaro9110/tari-arisan#readme",
+      "creator": {
+        "name": "gmXBT",
+        "url": "https://github.com/itaro9110"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet; browser simulation; no mainnet deployment",
+      "platform": "Rust template · JavaScript simulation",
+      "upstreamRevision": "c09a0140184780a9ecb0dcb69640c7f2ea2b246e",
+      "sourceUpdatedAt": "2026-11-17T14:23:03.636Z",
+      "lastAttemptAt": "2026-11-17T14:35:57.771225+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "tari-arisan"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/26",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xwpfq5/tari_arisan_a_rotating_savings_circle_arisan/",
+          "platform": "Reddit"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-tari-arisan-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-tari-arisan-20261117.jpg",
+        "source": "Docs walkthrough"
+      },
+      "lastCheckedAt": null,
+      "demoUrl": "https://itaro9110.github.io/tari-arisan/"
     }
   ],
   "opportunities": [
