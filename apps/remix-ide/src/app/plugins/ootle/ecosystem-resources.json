@@ -1994,8 +1994,8 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "MoonMail",
-      "summary": "Encrypted Ootle letters and postboxes. November 11, 2026: the MoonMail template is published on mainnet, but the current app reports Mainnet office pending and the public post office unavailable. No live mail operation was verified. Wallet private-view access is an account-wide permission; spending requires separate approval. Public postbox identities, timing and fees remain observable. The retained October recording covers documentation, not current delivery. Prior dated review retained for context: Browser mailbox for encrypted Ootle letters, recoverable Inbox/Sent and preferences; it does not send ordinary email. November 4, 2026: the landing and privacy pages load, but the public hall cannot reach its post office and no live mail loaded. The cause is not established. Sapient private-view access is a separate account-wide grant exposing other resources’ private amounts and memos; spending needs separate approval. Public postbox identities, signers, timing, fees and size buckets remain observable. Historical mailbox-key compromise has no forward-secrecy protection. Private payments require three approvals with non-atomic transfer and receipt delivery. Public/link gifts expose vault amounts and have no expiry or sender refund; complete private links grant bearer access. The README targets Ootle 0.47 and Sapient 0.6.14, separating historical funded tests from dated read-only recovery and local tests. The November 2 organizer notice asked entrants to republish templates after the Esmeralda reset. The retained October 29 recording shows public privacy documentation, not current mail delivery or payment. MIT source; no wallet grant or transaction exercised.",
-      "status": "Mainnet watch · Office pending",
+      "summary": "Encrypted Ootle letters, recoverable postboxes and native private-payment requests using Sapient. November 17, 2026: the current deployment manifest selects mainnet and names the registry and template; the official mainnet indexer returned the registry substate at version 7, and Veil displayed the matching MoonMail template. The README makes mainnet the default and offers Esmeralda in Settings. Mainnet transactions use real TARI. Private-view access is account-wide and can reveal amounts and memos for other resources; spending requires separate approval. Public signers, postbox registrations, timing and fees remain observable. This source review supersedes the November 11 office-pending observation; earlier evidence is retained. The new recording shows current documentation, not a demonstrated delivery or payment.",
+      "status": "Mainnet and Testnet · Sapient",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/33",
       "repoUrl": "https://github.com/Seal-Clubber/MoonMail",
       "docsUrl": "https://github.com/Seal-Clubber/MoonMail#readme",
@@ -2005,17 +2005,18 @@
         "url": "https://github.com/Seal-Clubber"
       },
       "license": "MIT",
-      "network": "Mainnet template; office pending",
+      "network": "Ootle mainnet default; Esmeralda in Settings",
       "platform": "Browser · Rust",
-      "upstreamRevision": "dbf816853e811f7581151202192b952f4d40ad3b",
-      "sourceUpdatedAt": "2026-10-29T00:03:01.603Z",
+      "upstreamRevision": "df0da950b471d780ef49b268ce8d814f3b40b9b0",
+      "sourceUpdatedAt": "2026-11-15T03:32:46.648Z",
       "lastCheckedAt": "2026-11-11T12:16:00Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
         "ecosystem-resources",
         "privacy",
-        "testnet"
+        "testnet",
+        "mainnet"
       ],
       "discussionLinks": [
         {
@@ -2032,13 +2033,18 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "platform": "Tari Community forum",
           "context": "November 2 testnet reset and template republishing notice"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/16",
+          "platform": "Tari Community forum",
+          "context": "November mainnet creator update"
         }
       ],
-      "cardSummary": "Explore encrypted Ootle letters and postboxes. The mainnet post office is pending; live mail is unavailable.",
-      "cardStatus": "Mainnet watch · Office pending",
+      "cardSummary": "Send encrypted Ootle letters and recover your mailbox with Sapient, with mainnet and Esmeralda network options.",
+      "cardStatus": "Mainnet and Testnet · Sapient",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-moonmail-20261029.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-moonmail-20261029.png",
+        "video": "https://lobby.tari.com/previews/community/resource-moonmail-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-moonmail-20261117.jpg",
         "source": "Docs walkthrough"
       },
       "networkEvidence": {
@@ -2046,7 +2052,8 @@
         "sourceUrl": "https://seal-clubber.github.io/MoonMail/",
         "detail": "MoonMail template exists on mainnet. November 11 live app reports Mainnet office pending and post office unavailable. No successful mail operation was verified.",
         "deploymentEvidence": null
-      }
+      },
+      "lastAttemptAt": "2026-11-17T13:54:27.899727+00:00"
     },
     {
       "id": "tari-ootle:component:tari-agent-registry",
@@ -4791,6 +4798,249 @@
         "source": "Docs walkthrough"
       },
       "lastCheckedAt": null
+    },
+    {
+      "id": "tari-ootle:component:tarifund",
+      "key": "tarifund",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "TariFund",
+      "summary": "MIT-licensed Rust crowdfunding template source and a walletless browser simulation. The documented rules pay the creator after a reached goal or return each contribution after a missed goal. There is no milestone release or partial-funding payout. The current README explicitly says the template has not been published to Esmeralda or mainnet. The linked creator video is retained through the original submission. This recording shows the public README; no template or simulation was executed.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore goal-or-refund crowdfunding, campaign deadlines and contributor refunds through Rust source and a walletless browser simulation.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/18",
+      "docsUrl": "https://github.com/0xfats/tarifund#readme",
+      "creator": {
+        "name": "0xfats",
+        "url": "https://github.com/0xfats"
+      },
+      "license": "MIT",
+      "network": "Walletless simulation; no network deployment",
+      "platform": "Rust template · Browser simulation",
+      "upstreamRevision": "0189ac7ebd37653fc649e313fd0e8ac15201fdb0",
+      "sourceUpdatedAt": "2026-11-14T20:03:23.169Z",
+      "lastAttemptAt": "2026-11-17T13:54:27.899727+00:00",
+      "lastCheckedAt": null,
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "tarifund"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/18",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/CryptoCurrency/s/F88pobUDKH",
+          "platform": "Reddit"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-tarifund-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-tarifund-20261117.jpg",
+        "source": "Docs walkthrough"
+      },
+      "repoUrl": "https://github.com/0xfats/tarifund"
+    },
+    {
+      "id": "tari-ootle:component:taribill",
+      "key": "taribill",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "TariBill",
+      "summary": "MIT-licensed merchant payment-link and invoice prototype with a browser simulation and Rust template design. The hosted page labels payments as simulation and identifies its merchant and transactions as fictional seed data. Payments are recorded locally; real wallet signing and mainnet settlement are future work in the README. The recording walks through documentation and its labeled interface diagrams, not a working payment transaction.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore merchant payment links, invoice checkout and receipt tracking through a walletless browser simulation and Rust template source.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/19",
+      "docsUrl": "https://github.com/Klowor2002/taribill#readme",
+      "creator": {
+        "name": "kingklowor",
+        "url": "https://github.com/Klowor2002"
+      },
+      "license": "MIT",
+      "network": "Walletless simulation; no network deployment",
+      "platform": "Rust template · Browser simulation",
+      "upstreamRevision": "e48d4c5280c91a6e86e59f9a374e70405b769bc8",
+      "sourceUpdatedAt": "2026-11-14T21:22:12.751Z",
+      "lastAttemptAt": "2026-11-17T13:54:27.899727+00:00",
+      "lastCheckedAt": null,
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "taribill"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/19",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://bsky.app/profile/kingklowor.bsky.social/post/3n2cc7n373n27",
+          "platform": "Bluesky"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-taribill-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-taribill-20261117.jpg",
+        "source": "Docs walkthrough"
+      },
+      "repoUrl": "https://github.com/Klowor2002/taribill",
+      "demoUrl": "https://klowor2002.github.io/taribill/"
+    },
+    {
+      "id": "tari-ootle:component:ootle-bounty",
+      "key": "ootle-bounty",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Ootle Bounty",
+      "summary": "MIT-licensed bug-bounty escrow template source with a walletless browser simulation. Researchers submit report commitments and sponsors decide validity; accepted findings draw from a proposed locked pool. The model cannot force honest sponsor triage or detect reworded duplicate reports. The browser uses a temporary demo encryption key, not a production key-management system, and sends no real funds. The recording shows the README and documented template methods. No deployed network contract is established by these sources.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore bug-bounty pools, report commitments, sponsor triage and payouts through Rust source and a walletless browser simulation.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/20",
+      "docsUrl": "https://github.com/taufik52/ootle-bounty#readme",
+      "creator": {
+        "name": "Cape",
+        "url": "https://github.com/taufik52"
+      },
+      "license": "MIT",
+      "network": "Walletless simulation; no network deployment",
+      "platform": "Rust template · Browser simulation",
+      "upstreamRevision": "4a4601d0a8ee7b66f893ae44eae692e7429fd848",
+      "sourceUpdatedAt": "2026-11-14T21:22:17.469Z",
+      "lastAttemptAt": "2026-11-17T13:54:27.899727+00:00",
+      "lastCheckedAt": null,
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "ootle-bounty"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/20",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://medium.com/@capedong6/tari-web3-bug-bounty-blockchain-ootle-95ffb991428c",
+          "platform": "Medium"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-bounty-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-bounty-20261117.jpg",
+        "source": "Docs walkthrough"
+      },
+      "repoUrl": "https://github.com/taufik52/ootle-bounty",
+      "demoUrl": "https://taufik52.github.io/ootle-bounty/"
+    },
+    {
+      "id": "tari-ootle:component:ajo-ootle",
+      "key": "ajo-ootle",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Templates",
+      "title": "Ajo on Ootle",
+      "summary": "MIT-licensed rotating savings-circle template, CLI and walletless browser simulation. Every member contributes each round and receives one pot; a one-round deposit can cover a missed contribution. The creator documents template 3519aefd3d17e2bb88f061e1490a8107925381cf7c4af3f5911c4c1668e01b11 and the Uselu circle on Esmeralda. A November 17 read of the linked official testnet indexer returned the circle substate. The hosted browser page is explicitly a simulation. This is testnet evidence, not Ootle mainnet deployment. The recording shows the README and network-specific documentation.",
+      "status": "Testnet · Browser simulation",
+      "cardStatus": "Testnet · Browser simulation",
+      "cardSummary": "Explore rotating savings circles, member deposits and scheduled payouts through an Esmeralda template and walletless browser simulation.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/21",
+      "docsUrl": "https://github.com/G-ojies/ajo-ootle#readme",
+      "creator": {
+        "name": "greatojies",
+        "url": "https://github.com/G-ojies"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet; walletless browser simulation",
+      "platform": "Rust template · Browser simulation",
+      "upstreamRevision": "6d85b94df434fa2e15d32bbbbaeb44ad5dc1d911",
+      "sourceUpdatedAt": "2026-11-15T05:53:57.432Z",
+      "lastAttemptAt": "2026-11-17T13:54:27.899727+00:00",
+      "lastCheckedAt": null,
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "ajo-ootle"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/21",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://medium.com/@greatojies/ajo-on-ootle-savings-circles-where-nobody-has-to-hold-the-money-3e2a2dbf6430",
+          "platform": "Medium"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-ajo-ootle-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ajo-ootle-20261117.jpg",
+        "source": "Docs walkthrough"
+      },
+      "repoUrl": "https://github.com/G-ojies/ajo-ootle",
+      "demoUrl": "https://g-ojies.github.io/ajo-ootle/"
+    },
+    {
+      "id": "tari-ootle:component:ootle-fee-check",
+      "key": "ootle-fee-check",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Developer tools",
+      "title": "Ootle Fee Check",
+      "summary": "MIT-licensed fee-reconciliation tool by HarbourRelay. The current hosted description offers a mainnet browser tool for up to 20 public transaction IDs and a PowerShell 7 CLI supporting mainnet and Esmeralda. Missing or conflicting replies leave the amount blank for review. Both indexers are operated by Tari, so their agreement is an operational comparison, not independent settlement proof. The browser sends entered transaction IDs and normal connection metadata to those public indexers. This recording shows the creator announcement. The source archive and JavaScript attachment were not downloaded or executed.",
+      "status": "Web app · PowerShell CLI",
+      "cardStatus": "Web app · PowerShell CLI",
+      "cardSummary": "Compare transaction fees from two Tari indexers and export a dated CSV, leaving conflicting or missing amounts blank.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/16",
+      "docsUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/16",
+      "creator": {
+        "name": "HarbourRelay",
+        "url": "https://community.tari.com/u/HarbourRelay"
+      },
+      "license": "MIT",
+      "network": "Ootle mainnet browser; mainnet and Esmeralda CLI",
+      "platform": "Browser · PowerShell 7",
+      "upstreamRevision": "ae9e26f11b08a2f96d3e8e5b1cdf9269e99f01b0f8787af87c87aa5a74a9669d",
+      "sourceUpdatedAt": "2026-11-14T19:21:32.711Z",
+      "lastAttemptAt": "2026-11-17T13:54:27.899727+00:00",
+      "lastCheckedAt": null,
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "ootle-fee-check"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/16",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1xv7dzb/i_built_a_csv_fee_checker_for_tari_ootles_two/",
+          "platform": "Reddit"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-fee-check-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-fee-check-20261117.jpg",
+        "source": "Announcement"
+      },
+      "demoUrl": "https://harbourrelay.itch.io/ootle-fee-check"
     }
   ],
   "opportunities": [
