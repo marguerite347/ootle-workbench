@@ -14820,17 +14820,7 @@ fast-xml-builder@^1.2.0:
     path-expression-matcher "^1.6.2"
     xml-naming "^0.3.0"
 
-fast-xml-parser@5.11.2:
-  version "5.11.2"
-  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.11.2.tgz#0d4987adf4e7934af11d82a73b2841eca9928a42"
-  integrity sha512-R9iDuNrQYeQut46cn2r2wHKn4HYzVDvDm5J1wW+koZewykv0yuO2HChTYeZtrULyHIDM9cj9TUXloCsueCQUog==
-  dependencies:
-    "@nodable/entities" "^3.0.1"
-    fast-xml-builder "^1.2.0"
-    is-unsafe "^2.0.0"
-    path-expression-matcher "^1.6.2"
-    strnum "^2.4.2"
-    xml-naming "^0.3.0"
+
 
 fastest-levenshtein@^1.0.16, fastest-levenshtein@^1.0.7:
   version "1.0.16"
@@ -20931,9 +20921,9 @@ node-fetch@^2.6.7:
     whatwg-url "^5.0.0"
 
 node-forge@^1, node-forge@^1.3.1:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-1.4.2.tgz#9988b154241e3b401a969a76cfb7aca7ddb5e70b"
-  integrity sha512-rRtAR5XLJ8gCKd9du4qrKAsgCG1ObGP4gLeNJMa4vYSeq4bmBMOJk5IHkrviBV0q7uoAJlVd8HEQYQSVUb4FGQ==
+  version "1.4.3"
+  resolved "https://registry.npmjs.org/node-forge/-/node-forge-1.4.3.tgz"
+  integrity "sha512-P6wzfh6t70avmV8FrVEAd/36sOPJQ+hkaJVX1Laap9J/77m7M0eyozDvc8SwnDf4P7MP94gwbAAo0rg3YVXT+g=="
 
 node-getopt@^0.2.3:
   version "0.2.4"
@@ -28567,3 +28557,40 @@ zwitch@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/zwitch/-/zwitch-2.0.4.tgz#c827d4b0acb76fc3e685a4c6ec2902d51070e9d7"
   integrity sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==
+
+"@nodable/entities@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/@nodable/entities/-/entities-3.1.0.tgz"
+  integrity sha512-LsS/DjHr+uDM647Gru/cA8+J3a3HfhttwCKLyuoyN7yXTFCxKBtSgMQBvrW9yNPa2/zDRUNuGPaH5QUFoa4arQ==
+
+fast-xml-builder@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.npmjs.org/fast-xml-builder/-/fast-xml-builder-1.3.2.tgz"
+  integrity sha512-OX91VSlShLPDgRZV7tk/YQ4l8tT75QziF5Ixg8g4PFbCVPjuTWwN+yQfAxLJ0dufJpprdOd6HlM74Jhd39TcBQ==
+  dependencies:
+    path-expression-matcher "^1.6.2"
+    xml-naming "^0.3.0"
+
+fast-xml-parser@5.12.1:
+  version "5.12.1"
+  resolved "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-5.12.1.tgz"
+  integrity sha512-wR8dO/fx+z8C5exuem1e7BKOWvjsuzvjS/tvA/Xu3Z1zQqJGcXrPzXbcAiaMgp2KjreEROcTkmnnisrcmJ2hYQ==
+  dependencies:
+    "@nodable/entities" "^3.1.0"
+    fast-xml-builder "^1.3.2"
+    is-unsafe "^2.0.3"
+    path-expression-matcher "^1.6.2"
+    strnum "^2.5.1"
+    xml-naming "^0.3.0"
+
+is-unsafe@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.npmjs.org/is-unsafe/-/is-unsafe-2.0.3.tgz"
+  integrity sha512-ZBllczCCO267vgdFb6Tq3pv+LhHaCiGMdr+ZsuL+OopruAg7S+3ZDs1vD0RPC0uSrkjzbraxaGjtX1YBxjPeFQ==
+
+strnum@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.npmjs.org/strnum/-/strnum-2.5.1.tgz"
+  integrity sha512-UM4nTLWzQiDBseVxUGxN0wJzIk0UU89Qi7pKXz9qISo+lhviJikTuikBsK/oFRlpvYHvSdz0TVoLyQ+sEpYwxA==
+  dependencies:
+    anynum "^1.0.1"

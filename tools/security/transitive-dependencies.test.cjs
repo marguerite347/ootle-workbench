@@ -69,3 +69,36 @@ test('each Mocha consumer discovers files and applies exclusions through its CLI
     fs.rmSync(directory, { recursive: true, force: true })
   }
 })
+
+// Exercise the XML public API used by inherited tooling after the security update.
+test('XML parser retains attributes, entities and builder round trips', () => {
+  const { XMLParser, XMLBuilder, XMLValidator } = require('fast-xml-parser')
+  const parser = new XMLParser({ ignoreAttributes: false })
+  const source = '<project id="tari"><name>A &amp; B</name><count>3</count></project>'
+  const parsed = parser.parse(source)
+  assert.deepEqual(parsed, { project: { name: 'A & B', count: 3, '@_id': 'tari' } })
+  const rebuilt = new XMLBuilder({ ignoreAttributes: false }).build(parsed)
+  assert.equal(XMLValidator.validate(rebuilt), true)
+  assert.deepEqual(parser.parse(rebuilt), parsed)
+})
+
+test('Forge certificates and signatures retain expected verification behavior', () => {
+  const forge = require('node-forge')
+  const { generateKeyPairSync } = require('node:crypto')
+  const keys = generateKeyPairSync('rsa', { modulusLength: 2048, publicKeyEncoding: { type: 'spki', format: 'pem' }, privateKeyEncoding: { type: 'pkcs1', format: 'pem' } })
+  const cert = forge.pki.createCertificate()
+  cert.publicKey = forge.pki.publicKeyFromPem(keys.publicKey)
+  cert.serialNumber = '01'
+  cert.validity.notBefore = new Date('2026-01-01')
+  cert.validity.notAfter = new Date('2027-01-01')
+  const attrs = [{ name: 'commonName', value: 'localhost' }]
+  cert.setSubject(attrs); cert.setIssuer(attrs)
+  cert.sign(forge.pki.privateKeyFromPem(keys.privateKey), forge.md.sha256.create())
+  const restored = forge.pki.certificateFromPem(forge.pki.certificateToPem(cert))
+  assert.equal(restored.verify(restored), true)
+  const ed = forge.pki.ed25519
+  const pair = ed.generateKeyPair({ seed: new Uint8Array(32).fill(7) })
+  const signature = ed.sign({ message: 'ootle fixture', encoding: 'utf8', privateKey: pair.privateKey })
+  assert.equal(ed.verify({ message: 'ootle fixture', encoding: 'utf8', signature, publicKey: pair.publicKey }), true)
+  assert.equal(ed.verify({ message: 'changed fixture', encoding: 'utf8', signature, publicKey: pair.publicKey }), false)
+})
