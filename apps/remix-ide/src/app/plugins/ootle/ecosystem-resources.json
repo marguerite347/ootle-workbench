@@ -1921,7 +1921,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "The Cursed Pumpkin",
-      "summary": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. On November 12, Veil showed the mainnet template publish committed at 05:38:14 UTC and its game creation committed at 06:35:02 UTC, both with network byte 0. The receipt matches template dc7d2ed8…abe56b44 and official game component f0a10a09…988357a2. The mainnet game requires a 1 TARI bond; losing guesses or a holder who fails to reveal can forfeit some or all of that bond. The creator’s current README and extracted public page distinguish a mainnet board from the recorded November 7 Esmeralda game; the Python client remains testnet-only. Timing, pass counts, off-chain information and the final holder remain observable. The new recording is a November 12 README walkthrough, not a live game or wallet session. Earlier October 28 replay footage and the November 4 failed-component observation remain in the maintenance history, superseded by these new deployment receipts. MIT source; template library 0.38. No wallets, transactions or third-party code were used in this review.",
+      "summary": "Stealth-resource hot-potato game with sealed guesses and an epoch-timed holder reveal. On November 12, Veil showed the mainnet template publish committed at 05:38:14 UTC and its game creation committed at 06:35:02 UTC, both with network byte 0. The receipt matches template dc7d2ed8…abe56b44 and official game component f0a10a09…988357a2. The mainnet game requires a 1 TARI bond; losing guesses or a holder who fails to reveal can forfeit some or all of that bond. The creator’s current README and extracted public page distinguish a mainnet board from the recorded November 7 Esmeralda game; the Python client remains testnet-only. Timing, pass counts, off-chain information and the final holder remain observable. The new recording is a November 12 README walkthrough, not a live game or wallet session. Earlier October 28 replay footage and the November 4 failed-component observation remain in the maintenance history, superseded by these new deployment receipts. MIT source; template library 0.38. No wallets, transactions or third-party code were used in this review. November 17, 2026: the official mainnet indexer returned the same game component as an up substate at version 0. Current public-page text explicitly sets mainnet as its default and retains an Esmeralda replay. The November 12 source recording still accurately describes these separate networks.",
       "status": "Mainnet / Testnet · Bonds at risk",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/32",
       "repoUrl": "https://github.com/Mzee04/cursed-pumpkin",
@@ -1985,7 +1985,7 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cursed-pumpkin-20261112.jpg",
         "source": "Docs walkthrough"
       },
-      "lastAttemptAt": "2026-11-12T16:21:39.038451+00:00"
+      "lastAttemptAt": "2026-11-17T14:52:58.557383+00:00"
     },
     {
       "id": "tari-ootle:component:moonmail",
@@ -2515,8 +2515,8 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "AT Protocol identity on Ootle",
-      "summary": "Rust verification layer and developer documentation for PLC identities, signed repository records and post proofs, alongside campaign templates that reward verifiable Bluesky actions. Skydrop is the related gift and participant interface. On November 12, the creator announced both products on mainnet. Read-only checks found atproto.tari.mw/__network reporting mainnet and testnet-atproto.tari.mw/__network reporting esmeralda. The pinned deployment configuration at 4625a9f selects separate mainnet and testnet indexers and templates. Veil currently lists the matching mainnet Campaign v3 template fea387ae…13fba75, published at epoch 38471, with 14 functions; this establishes template deployment, not a completed campaign or payout. The older README and extracted documentation still say Esmeralda, so they are retained as historical documentation rather than evidence against the current network metadata. The verification layer proves signed account and record facts; DNS handle resolution, account hosting status and completeness of a key history have separate trust boundaries. Free Bluesky accounts can be used to farm rewards, as the creator explains. MIT source. The November 12 video is a genuine browser recording of the creator announcement, including its campaign explanation. No wallet connection, campaign funding, proof execution, download or third-party code execution was performed.",
-      "status": "Mainnet templates · Testnet",
+      "summary": "Rust verification layer and developer documentation for PLC identities, signed repository records and post proofs, alongside campaign templates that reward verifiable Bluesky actions. Skydrop is the related gift and participant interface. On November 12, the creator announced both products on mainnet. Read-only checks found atproto.tari.mw/__network reporting mainnet and testnet-atproto.tari.mw/__network reporting esmeralda. The pinned deployment configuration at 4625a9f selects separate mainnet and testnet indexers and templates. Veil currently lists the matching mainnet Campaign v3 template fea387ae…13fba75, published at epoch 38471, with 14 functions; this establishes template deployment, not a completed campaign or payout. November 17, 2026: the current public page presents a campaign builder, proof checker and developer policy guides on Ootle mainnet; the separate testnet endpoint reports Esmeralda. It describes 13 campaign playbooks and nine proof types. Old signed proofs can remain valid after a record is deleted, and account-signed timestamps do not establish independent freshness. The verification layer proves signed account and record facts; DNS handle resolution, account hosting status and completeness of a key history have separate trust boundaries. Free Bluesky accounts can be used to farm rewards, as the creator explains. MIT source. The November 12 video is a genuine browser recording of the creator announcement, including its campaign explanation. No wallet connection, campaign funding, proof execution, download or third-party code execution was performed.",
+      "status": "Mainnet / Testnet · Campaign tools",
       "sourceUrl": "https://bsky.app/profile/0xhra.bsky.social/post/3mz2rsnekzs2m",
       "repoUrl": "https://github.com/chironbuilds/skydrop",
       "docsUrl": "https://atproto.tari.mw/",
@@ -2527,7 +2527,7 @@
       },
       "license": "MIT",
       "network": "Ootle mainnet and Esmeralda testnet",
-      "platform": "Reading",
+      "platform": "Web tools and Rust source",
       "upstreamRevision": "4625a9f860bf36dc08ab54fdbaa603707b30ecee",
       "sourceUpdatedAt": "2026-10-30T02:56:26.540Z",
       "lastCheckedAt": "2026-11-05T04:19:25.000358+00:00",
@@ -2571,13 +2571,13 @@
         }
       ],
       "cardSummary": "Verify Bluesky identities and signed posts in Ootle contracts, and define rewards for provable social actions.",
-      "cardStatus": "Mainnet templates · Testnet",
+      "cardStatus": "Mainnet / Testnet · Campaign tools",
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261112.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261112.jpg",
         "source": "Announcement"
       },
-      "lastAttemptAt": "2026-11-12T17:29:51.553414+00:00"
+      "lastAttemptAt": "2026-11-17T14:52:58.557383+00:00"
     },
     {
       "id": "tari-ootle:learn:hycorange-burn",
