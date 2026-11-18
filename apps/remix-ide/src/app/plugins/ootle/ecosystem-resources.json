@@ -54,8 +54,8 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official TypeScript SDK",
-      "summary": "Core SDK, indexer and signer clients for browser and Node applications. Reviewed November 4, 2026: v0.13.0 adds ExternalKeySigner for externally held HSM, MPC or hardware keys. Its callback returns a raw 64-byte sr25519 signature, which the SDK verifies; the documentation requires a dedicated Ootle key or derivation path. The preceding 0.12 migration targets Ootle 0.49.1, changes transaction signatures, main-signer handling, CBOR decoding and stealth keys; transactions are incompatible with earlier network versions. Match network and versioned examples before integrating. This listing does not change Workbench runtime pins. The recording shows public documentation; no signing or wallet operation was performed.",
-      "status": "SDK · Pre-1.0",
+      "summary": "Official browser and Node SDK with indexer and signer clients. Reviewed November 18, 2026: v0.18.0 adds estimatedFee with a fee-estimate allowance. The preceding v0.17.0 package set targets Ootle v0.53.5; v0.14.0 and v0.15.0 include breaking package-set upgrades. Follow versioned release notes and match the target network before integration. Earlier ExternalKeySigner support remains documented in the retained v0.13.0 source. The new recording shows the v0.18.0 release announcement. This catalog update does not change Workbench runtime pins and does not claim signing or transaction tests.",
+      "status": "SDK · v0.18.0 · Pre-1.0",
       "sourceUrl": "https://github.com/tari-project/ootle.ts",
       "repoUrl": "https://github.com/tari-project/ootle.ts",
       "docsUrl": "https://tari-project.github.io/ootle.ts/",
@@ -67,7 +67,7 @@
       "network": "Ootle L2",
       "platform": "TypeScript / browser / Node",
       "upstreamRevision": "316861b938c664b24a3fa79538ac3ef2837bbbbe",
-      "sourceUpdatedAt": "2026-11-03T09:17:07Z",
+      "sourceUpdatedAt": "2026-11-17T09:30:47Z",
       "lastCheckedAt": "2026-11-04T13:51:28.816Z",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -78,9 +78,9 @@
       ],
       "demoUrl": null,
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261104.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261104.png",
-        "source": "Docs walkthrough"
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-ts-20261118.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-ts-20261118.png",
+        "source": "Announcement"
       },
       "discussionLinks": [
         {
@@ -108,10 +108,36 @@
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.13.0",
           "platform": "GitHub",
           "context": "0.13.0 update"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.14.0",
+          "platform": "GitHub release",
+          "context": "v0.14.0 release notes"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.15.0",
+          "platform": "GitHub release",
+          "context": "v0.15.0 release notes"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.16.0",
+          "platform": "GitHub release",
+          "context": "v0.16.0 release notes"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.17.0",
+          "platform": "GitHub release",
+          "context": "v0.17.0 release notes"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.18.0",
+          "platform": "GitHub release",
+          "context": "v0.18.0 release notes"
         }
       ],
       "cardSummary": "Build browser and Node integrations with Ootle clients for indexing, signing and core operations.",
-      "cardStatus": "SDK · Pre-1.0"
+      "cardStatus": "SDK · v0.18.0 · Pre-1.0",
+      "lastAttemptAt": "2026-11-18T15:08:44.008657+00:00"
     },
     {
       "id": "tari-ootle:component:ootle-python",
