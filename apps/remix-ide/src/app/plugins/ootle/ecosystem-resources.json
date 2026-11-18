@@ -503,7 +503,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Ootle WASM Templates",
-      "summary": "Official Rust/WASM starting points for games, tokens, NFTs, swaps and counters. The November 2, 2026 update uses tari_template_lib 0.37, test tooling 0.49 and template build 0.17.1. The guessing-game CLI uses ootle-rs 0.31. Stablecoin tests now authorize a proof explicitly before withdrawal. The recording shows the merged dependency-update discussion, not template execution. Earlier guide footage and sharing posts remain in the maintenance history. Related tooling: Tari CLI v0.34.1, released November 2, 2026, uses Ootle 0.49.1 and ootle_serde 0.6.2. The v0.34 line uses wallet 0.51. Since v0.33, template validation is left to the network; since v0.30, publishing no longer reads wallet-daemon-url from project configuration.",
+      "summary": "Official Rust/WASM starting points for games, tokens, NFTs, swaps and counters. The November 10, 2026 merged source update uses tari_template_lib 0.40, test tooling 0.53 and template build 0.20. The guessing-game CLI uses ootle-rs 0.35. Current counter and guessing-game manifests were read on November 18. The recording shows the merged dependency-update discussion; templates were not executed. Related tooling: Tari CLI v0.35.3, released November 16, uses Ootle 0.53.5; the v0.35 line uses wallet 0.55. Its current README documents network-specific configuration and API-key authentication for wallet-daemon publishing, and excludes wallet-daemon URLs from project configuration. Earlier guide footage and all original sharing posts remain in the maintenance history.",
       "status": "Official source templates",
       "sourceUrl": "https://github.com/tari-project/wasm-template",
       "repoUrl": "https://github.com/tari-project/wasm-template",
@@ -513,11 +513,11 @@
         "url": "https://github.com/tari-project"
       },
       "license": null,
-      "network": "Ootle L2 · 0.49 test tooling",
+      "network": "Ootle L2 · 0.53 test tooling",
       "platform": "Rust / WASM",
-      "upstreamRevision": "856c7802cfe2e102fe24a4b248e2db0da2cc1db3",
-      "sourceUpdatedAt": "2026-11-02T12:13:05Z",
-      "lastCheckedAt": "2026-11-04T18:50:37.536Z",
+      "upstreamRevision": "672a25e206244ecfa5c12534ed0e8fe9c2a54f01",
+      "sourceUpdatedAt": "2026-11-10T13:10:19Z",
+      "lastCheckedAt": "2026-11-18T18:13:18.372296+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -527,9 +527,9 @@
       ],
       "demoUrl": null,
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-templates-20261102-24c0cbfba0.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-templates-20261102-24c0cbfba0.jpg",
-        "source": "Announcement walkthrough — November 2 merged template dependency and proof-authorization update; no template execution."
+        "video": "https://lobby.tari.com/previews/community/resource-official-templates-20261118.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-official-templates-20261118.png",
+        "source": "Announcement"
       },
       "discussionLinks": [
         {
@@ -547,10 +547,18 @@
         {
           "url": "https://github.com/tari-project/tari-cli/releases/tag/v0.34.1",
           "platform": "GitHub release"
+        },
+        {
+          "url": "https://github.com/tari-project/wasm-template/pull/80",
+          "platform": "GitHub source update"
+        },
+        {
+          "url": "https://github.com/tari-project/tari-cli/releases/tag/v0.35.3",
+          "platform": "GitHub release"
         }
       ],
       "cardSummary": "Start Ootle apps with official Rust templates for games, tokens, NFTs, swaps and counters.",
-      "cardStatus": "Source code · Ootle 0.49"
+      "cardStatus": "Source code · Ootle 0.53"
     },
     {
       "id": "tari-ootle:integration:community-templates",
