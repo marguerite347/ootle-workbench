@@ -1,11 +1,14 @@
 // Evidence of installed dependency paths and main-bundle inclusion, not exploitability.
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { createRequire } from 'node:module'
+import { assertCurrentAdvisories } from './advisory-evidence.mjs'
 const require = createRequire(import.meta.url)
 const { parse } = require('@yarnpkg/lockfile'), semver = require('semver')
-const lock = parse(await readFile('yarn.lock', 'utf8')).object
+const lockText = await readFile('yarn.lock', 'utf8')
+const lock = parse(lockText).object
 const root = JSON.parse(await readFile('package.json', 'utf8'))
-const audit = JSON.parse(await readFile('docs/ootle/security/node-advisories-followup.json', 'utf8'))
+const audit = JSON.parse(await readFile('reports/security/node-advisories.json', 'utf8'))
+const lockSha256 = assertCurrentAdvisories(audit, lockText)
 const names = new Set()
 let stats
 try { stats = JSON.parse(await readFile('reports/security/browser-stats.json', 'utf8')) } catch (e) { if (e.code !== 'ENOENT') throw e }
@@ -34,5 +37,5 @@ for (const [name, advisories] of Object.entries(audit.advisories)) {
   findings.push({ name, versions, mainBundleVulnerableVersions: stats ? versions.filter(version => names.has(`${name}@${version}`)) : null, advisories: advisories.map(a => ({ url: a.url, title: a.title, severity: a.severity })), paths: Object.fromEntries(versions.map(v => [v, paths.get(`${name}@${v}`) || []])) })
 }
 await mkdir('reports/security', { recursive: true })
-await writeFile('reports/security/dependency-paths.json', JSON.stringify({ checkedAt: new Date().toISOString(), advisoryCheckedAt: audit.checkedAt, scope: 'Lockfile paths plus package presence in the emitted main webpack bundle. Presence is not vulnerable-call reachability; absence does not cover copied static plugin applications or developer tooling.', bundleEvidenceAvailable: !!stats, findings }, null, 2) + '\n')
+await writeFile('reports/security/dependency-paths.json', JSON.stringify({ checkedAt: new Date().toISOString(), advisoryCheckedAt: audit.checkedAt, lockSha256, scope: 'Lockfile paths plus package presence in the emitted main webpack bundle. Presence is not vulnerable-call reachability; absence does not cover copied static plugin applications or developer tooling.', bundleEvidenceAvailable: !!stats, findings }, null, 2) + '\n')
 console.log(JSON.stringify({ assessedPackageNames: findings.length, mainBundlePackageMatches: stats ? findings.filter(f => f.mainBundleVulnerableVersions.length).map(f => f.name) : null }))
