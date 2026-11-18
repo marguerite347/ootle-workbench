@@ -9,7 +9,7 @@
       "ecosystem": "tari-ootle",
       "group": "Guides",
       "title": "Official docs & agent setup",
-      "summary": "Read official developer guides and the machine-readable documentation index. The index and agent API-key guide were accessible on October 11, 2026. The linked skill index and Codex skill returned 404 on October 11, following 404 and 403 observations on October 10; their last successful review date is retained. The same two skill URLs returned 404 on October 12; the index and API-key guide remain accessible.",
+      "summary": "Read official developer guides and the machine-readable documentation index. The index and agent API-key guide were accessible on October 11, 2026. The linked skill index and Codex skill returned 404 on October 11, following 404 and 403 observations on October 10; their last successful review date is retained. The same two skill URLs returned 404 on October 12; the index and API-key guide remain accessible. November 18, 2026: reviewed the updated API-key guide at Git blob 79646e951e16d41ce6aa5eadf3bbd4138809c731. It documents optional expiry, least-privilege scopes, and an interactive WebAuthn user session for creating, listing or revoking keys; even Admin-scoped API keys cannot manage other keys. The existing dated recording remains a general documentation walkthrough. No credential or wallet operation was performed.",
       "status": "Official documentation",
       "sourceUrl": "https://ootle.tari.com/llms.txt",
       "repoUrl": null,
@@ -21,7 +21,7 @@
       "license": null,
       "network": "Ootle L2",
       "platform": null,
-      "upstreamRevision": "d3967ba75429b439bba0b237706272043e8048f4509b285dc84469f6f3da6464",
+      "upstreamRevision": "79646e951e16d41ce6aa5eadf3bbd4138809c731",
       "sourceUpdatedAt": null,
       "lastCheckedAt": "2026-10-31T14:00:56.589Z",
       "verification": "source-attested",
@@ -44,7 +44,8 @@
         }
       ],
       "cardSummary": "Find official guidance for Ootle templates, transactions, wallets and agent setup.",
-      "cardStatus": "Docs"
+      "cardStatus": "Docs",
+      "lastAttemptAt": "2026-11-18T14:07:12.602340+00:00"
     },
     {
       "id": "tari-ootle:component:ootle-ts",
@@ -557,7 +558,7 @@
       "ecosystem": "tari-ootle",
       "group": "Inspect",
       "title": "Veil Ootle Explorer",
-      "summary": "Browse Ootle mainnet transactions, templates and substates. November 11, 2026: the live explorer displays mainnet components and committed transactions matching both official indexers on network byte 0. The separate testnet explorer remains available at testnet-explorer.tari.mw. FeeIntentCommit means only the fee committed and is not a successful app operation. The retained November 2 recording is historical testnet footage. No transaction was submitted during this read-only check. Historical availability: on October 13, 2026 the former ootle-explorer.vercel.app address returned HTTP 402; this does not describe the current explorer. Prior dated review retained for context: Browse Ootle Esmeralda transactions, templates and substates. On November 2, 2026, the public explorer displayed current network data and Commit, Abort and Rejected transaction rows. Its November 2 source update adds Ootle 0.49 CBOR decoding and receipt handling; proof-verification behavior is a creator source claim, not an independent cryptographic audit. The recording shows the live overview and transaction list without submitting a transaction. On October 13, 2026, the former ootle-explorer.vercel.app address returned HTTP 402; that historical failure is retained and was not rechecked today. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Browse Ootle mainnet transactions, templates and substates. November 11, 2026: the live explorer displays mainnet components and committed transactions matching both official indexers on network byte 0. The separate testnet explorer remains available at testnet-explorer.tari.mw. FeeIntentCommit means only the fee committed and is not a successful app operation. The retained November 2 recording is historical testnet footage. No transaction was submitted during this read-only check. Historical availability: on October 13, 2026 the former ootle-explorer.vercel.app address returned HTTP 402; this does not describe the current explorer.",
       "status": "Mainnet · Live explorer",
       "sourceUrl": "https://github.com/chironbuilds/ootle-explorer",
       "repoUrl": "https://github.com/chironbuilds/ootle-explorer",
@@ -567,7 +568,7 @@
         "url": "https://github.com/chironbuilds/ootle-explorer"
       },
       "license": null,
-      "network": "Ootle mainnet and Esmeralda testnet",
+      "network": "Ootle mainnet",
       "platform": "Web",
       "upstreamRevision": "94c7cd51c971cfcf38d5c0635a7c37bbdc4d3f23",
       "sourceUpdatedAt": "2026-11-02T17:04:53Z",
@@ -583,7 +584,7 @@
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261102-85379551cf.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261102-85379551cf.png",
-        "source": "App demo — Historical Esmeralda testnet overview recorded November 2, 2026; current mainnet classification is documented separately in Details."
+        "source": "App demo — November 2 public overview and transaction-list scrolling; no wallet or transaction submission."
       },
       "discussionLinks": [
         {
@@ -602,30 +603,10 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "platform": "Tari Community forum",
           "context": "November 2 testnet reset and template republishing notice"
-        },
-        {
-          "url": "https://community.tari.com/t/veil-explorer-is-ready-for-ootle-mainnet/568/1",
-          "platform": "Tari Community forum",
-          "context": "Creator explorer announcement"
-        },
-        {
-          "url": "https://testnet-explorer.tari.mw/",
-          "platform": "Testnet explorer",
-          "context": "Separate Esmeralda destination"
         }
       ],
       "cardSummary": "Explore Ootle mainnet transactions, templates and live network activity. A separate testnet explorer is also available.",
-      "cardStatus": "Web explorer · Mainnet / Testnet",
-      "networkEvidence": {
-        "checkedAt": "2026-11-11T12:16:00Z",
-        "sourceUrl": "https://indexer-b.ootle.tari.com/info",
-        "detail": "November 11 live explorer shows mainnet transactions and components matching both official indexers, network byte 0. The separate testnet explorer remains available.",
-        "deploymentEvidence": {
-          "url": "https://explorer.tari.mw/tx/f5d8b2dc047a6ddbb9f82801448e1128996812a2d97e0eec236ffdd5e3bc0745",
-          "observedAt": "2026-11-11T12:16:00Z",
-          "detail": "Explorer displays the committed OotleAccord fund transaction also returned by official mainnet indexers."
-        }
-      }
+      "cardStatus": "Mainnet · Live explorer"
     },
     {
       "id": "tari:component:tari-l1-wasm",
@@ -1304,8 +1285,8 @@
       "cardSummary": "Run sealed-bid auctions with equal entry bonds, timed reveals and separate claims for winners, sellers and losing bidders.",
       "cardStatus": "Mainnet template · Forfeited bonds locked forever",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261112.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sealed-bids-at-midnight-20261112.jpg",
+        "video": "https://lobby.tari.com/previews/community/resource-sealed-bids-at-midnight-20261112.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-sealed-bids-at-midnight-20261112.jpg",
         "source": "Docs walkthrough"
       },
       "lastAttemptAt": "2026-11-12T14:25:58.946725+00:00"
@@ -2274,7 +2255,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "OotleAccord",
-      "summary": "Community milestone escrow with public funding and reviewer approvals. November 11, 2026: two successful mainnet funding transactions match the deployed SapientEscrow component; the live app reads 3.5 of 10 TARI funded. Funding is confirmed, while payout and refund execution were not independently tested. Four demo reviewers share one operator. The retained October recording shows an older testnet checkpoint, not the current mainnet deployment. Prior dated review retained for context: November 4 availability: accord and Review pages load, but Refresh balance fails. The displayed 10 tTARI payout and three approvals are the recorded epoch-12740 checkpoint, not a successful current balance read. The October 31 recording shows that historical public checkpoint; no wallet connection, funding, approval or payout was performed. Community milestone escrow with capped native-TARI funding, a percentage quorum and a mandatory reviewer. Contribution amounts, reviewer identities and votes are public; fixed-destination payouts and refunds use private outputs with encrypted recovery memos. The current community accord displays a completed 10 tTARI payout and three approvals; four designated reviewers share a test operator. Create exports terms rather than deploying another escrow. October 31 review inspected the creator’s README, original submission and public accord/review screens; no wallet connection or transaction was performed. The app trusts its pinned indexer; the creator distinguishes installed-extension validation from SDK tests. November 2 organizer notice: Esmeralda testnet was reset; entrants were asked to republish templates and update their submission versions where applicable. Earlier recordings document their capture dates.",
+      "summary": "Community milestone escrow with public funding and reviewer approvals. November 11, 2026: two successful mainnet funding transactions match the deployed SapientEscrow component; the live app reads 3.5 of 10 TARI funded. Funding is confirmed, while payout and refund execution were not independently tested. Four demo reviewers share one operator. The retained October recording shows an older testnet checkpoint, not the current mainnet deployment.",
       "status": "Mainnet · Funding confirmed",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/38",
       "repoUrl": "https://github.com/Seal-Clubber/ootle-accord",
@@ -2321,17 +2302,7 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-accord-20261031.png",
         "source": "App demo — read-only public completed accord and review screen; no funding, approval or payout submitted."
       },
-      "lastAttemptedAt": "2026-11-04T21:41:01.467644+00:00",
-      "networkEvidence": {
-        "checkedAt": "2026-11-11T12:16:00Z",
-        "sourceUrl": "https://explorer.tari.mw/tx/f5d8b2dc047a6ddbb9f82801448e1128996812a2d97e0eec236ffdd5e3bc0745",
-        "detail": "Two successful mainnet fund calls match the app SapientEscrow component. Live app reads 3.5 of 10 TARI funded. New payout and refund execution were not tested.",
-        "deploymentEvidence": {
-          "url": "https://explorer.tari.mw/tx/f5d8b2dc047a6ddbb9f82801448e1128996812a2d97e0eec236ffdd5e3bc0745",
-          "observedAt": "2026-11-11T12:16:00Z",
-          "detail": "Two successful mainnet fund calls match the app SapientEscrow component. Live app reads 3.5 of 10 TARI funded. New payout and refund execution were not tested."
-        }
-      }
+      "lastAttemptedAt": "2026-11-04T21:41:01.467644+00:00"
     },
     {
       "id": "tari-ootle:component:ghost-gate",
@@ -3152,7 +3123,8 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-release-0492-20261102-7270ccff9a.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-release-0492-20261102-7270ccff9a.jpg",
         "source": "Docs walkthrough"
-      }
+      },
+      "archived": true
     },
     {
       "repoUrl": "https://github.com/xt1085/taritalk-node-deploy",
@@ -4471,8 +4443,8 @@
         }
       ],
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-allowance-20261112.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-allowance-20261112.jpg",
+        "video": "https://lobby.tari.com/previews/community/resource-allowance-20261112.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-allowance-20261112.jpg",
         "source": "Docs walkthrough"
       },
       "lastCheckedAt": null
@@ -4516,8 +4488,8 @@
         }
       ],
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootleinvoice-20261112.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootleinvoice-20261112.jpg",
+        "video": "https://lobby.tari.com/previews/community/resource-ootleinvoice-20261112.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootleinvoice-20261112.jpg",
         "source": "Docs walkthrough"
       },
       "lastCheckedAt": null
@@ -5245,7 +5217,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Tari Arisan",
-      "summary": "MIT-licensed rotating savings-circle source with a walletless simulation and a documented Esmeralda deployment. Fixed members contribute each round; unpaid contributions become arrears, and a recipient in arrears misses that round's payout. The creator documents template f230b6fbe6409c10c8f3d9dbf47a722a0b7ab956d32ed5b57a1fd35e9e8399a5 and circle component_fe42c4e6f21f2066cac7acdabb5fabcd9bd365af8aadd154ece22dd0d2f601e8. November 17, 2026: the official Esmeralda indexer returned that circle as an up substate at version 3. The hosted page opens in simulation mode and its extracted live-mode instructions still contain older Phase 3 setup text; use the dated creator proof for deployment scope. No mainnet deployment is claimed. This README walkthrough does not demonstrate wallet interaction or independently replay the creator's payout tests.",
+      "summary": "MIT-licensed rotating savings-circle source with a walletless simulation and a documented Esmeralda deployment. Fixed members contribute each round; unpaid contributions become arrears, and a recipient in arrears misses that round's payout. The creator documents template f230b6fbe6409c10c8f3d9dbf47a722a0b7ab956d32ed5b57a1fd35e9e8399a5 and circle component_fe42c4e6f21f2066cac7acdabb5fabcd9bd365af8aadd154ece22dd0d2f601e8. November 17, 2026: the official Esmeralda indexer returned that circle as an up substate at version 3. The hosted page opens in simulation mode and its extracted live-mode instructions still contain older Phase 3 setup text; use the dated creator proof for deployment scope. No mainnet deployment is claimed. This README walkthrough does not demonstrate wallet interaction or independently replay the creator's payout tests. The creator’s November 17 follow-up notes that the public Esmeralda indexer no longer serves the older transaction pages; the template/component pages and published walletd receipts remain their verification references.",
       "status": "Testnet · Browser simulation",
       "cardStatus": "Testnet · Browser simulation",
       "cardSummary": "Explore rotating savings contributions, missed-payment arrears and scheduled pot payouts through an Esmeralda contract and browser simulation.",
@@ -5286,6 +5258,350 @@
       },
       "lastCheckedAt": null,
       "demoUrl": "https://itaro9110.github.io/tari-arisan/"
+    },
+    {
+      "id": "tari-ootle:learn:ootle-releases",
+      "key": "ootle-releases",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Releases",
+      "title": "Ootle v0.54.0 release notes",
+      "summary": "Ootle v0.54.0, published November 17, removes in-place component template changes. Validators and indexers must upgrade together; UpdateComponentTemplate is rejected without an activation epoch. In tari_template_lib 0.41.0, remove ComponentBuilder::with_upgrade_rule when compiling. Previously deployed templates run unchanged. Review the full release notes before upgrading. No software was installed during this source review. The November 17 recording walks through the original source page, with page scripts and downloads disabled.",
+      "status": "Official stable release",
+      "sourceUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.54.0",
+      "repoUrl": null,
+      "docsUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.54.0",
+      "demoUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle mainnet and Esmeralda",
+      "platform": "Documentation",
+      "upstreamRevision": "v0.54.0",
+      "sourceUpdatedAt": "2026-11-17T09:32:16Z",
+      "lastCheckedAt": "2026-11-17T19:04:56.458Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "official",
+        "guide"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://github.com/tari-project/tari-ootle/pull/3824",
+          "platform": "GitHub",
+          "context": "Release change: disable in-place component template updates"
+        }
+      ],
+      "cardSummary": "Check the latest Ootle upgrade requirements and changes affecting validators, indexers and template authors.",
+      "cardStatus": "Stable release · v0.54.0",
+      "sourceContentSha256": "9ae8f5780e234d0e15fdfed1fafd66231c72719e90cf6efec30c560186f08bfd",
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261117.jpg",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:learn:fungible-tokens",
+      "key": "fungible-tokens",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Guides",
+      "title": "Create a token on Ootle",
+      "summary": "The official guide maps ERC-20 concepts to native Ootle resources and provides a reusable Rust token template. It covers fixed supply, minting, transfers, allowances and owner/access rules. Read the guide’s owner-rule qualifications before choosing a token policy. This is documentation, not a deployed token or a transaction service. The November 17 recording walks through the original source page, with page scripts and downloads disabled.",
+      "status": "Official documentation",
+      "sourceUrl": "https://ootle.tari.com/guides/fungible-tokens/",
+      "repoUrl": null,
+      "docsUrl": "https://ootle.tari.com/guides/fungible-tokens/",
+      "demoUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle mainnet and Esmeralda",
+      "platform": "Documentation",
+      "upstreamRevision": "30a1b70aa61fd82506cb62356238da3a3ee2dc4c",
+      "lastCheckedAt": "2026-11-17T19:04:56.458Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "official",
+        "guide"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://github.com/tari-project/tari-ootle/pull/3756",
+          "platform": "GitHub",
+          "context": "Original guide announcement"
+        }
+      ],
+      "cardSummary": "Create fixed-supply or mintable tokens, then learn how transfers and allowances work on Ootle.",
+      "cardStatus": "Official guide",
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-fungible-tokens-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-fungible-tokens-20261117.jpg",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:learn:run-validator",
+      "key": "run-validator",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Guides",
+      "title": "Run an Ootle validator",
+      "summary": "Official installation and configuration guide for an Ootle validator, including identity backups, a Minotari base-node connection and a separate fee wallet. Starting a node does not automatically enroll it: its public key must be included in the network’s configured validator set. The guide covers mainnet and Esmeralda; no node was installed or started during this review. The November 17 recording walks through the original source page, with page scripts and downloads disabled.",
+      "status": "Official documentation",
+      "sourceUrl": "https://ootle.tari.com/validators/run-a-validator-node/",
+      "repoUrl": null,
+      "docsUrl": "https://ootle.tari.com/validators/run-a-validator-node/",
+      "demoUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle mainnet and Esmeralda",
+      "platform": "Documentation",
+      "upstreamRevision": "df9631d4c570ff2b62208dc58199ffbce222734e",
+      "lastCheckedAt": "2026-11-17T19:04:56.458Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "official",
+        "guide"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://github.com/tari-project/tari-ootle/pull/3756",
+          "platform": "GitHub",
+          "context": "Original guide announcement"
+        }
+      ],
+      "cardSummary": "Set up a validator identity, choose your network, and understand the requirements for joining the validator set.",
+      "cardStatus": "Official guide",
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-run-validator-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-run-validator-20261117.jpg",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:learn:validator-networking",
+      "key": "validator-networking",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Guides",
+      "title": "Validator networking and ports",
+      "summary": "Official guide to validator P2P, firewall rules, private operator endpoints and Docker networking. JSON-RPC exposes privileged operator functions and must remain private; the guide distinguishes it from the public peer port. Reviewed as documentation, without changing a node or firewall. The November 17 recording walks through the original source page, with page scripts and downloads disabled.",
+      "status": "Official documentation",
+      "sourceUrl": "https://ootle.tari.com/validators/networking-and-ports/",
+      "repoUrl": null,
+      "docsUrl": "https://ootle.tari.com/validators/networking-and-ports/",
+      "demoUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle mainnet and Esmeralda",
+      "platform": "Documentation",
+      "upstreamRevision": "6ba38693efb97cb49d406f9f5e20cf706c97f422",
+      "lastCheckedAt": "2026-11-17T19:04:56.458Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "official",
+        "guide"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://github.com/tari-project/tari-ootle/pull/3756",
+          "platform": "GitHub",
+          "context": "Original guide announcement"
+        }
+      ],
+      "cardSummary": "Configure public peer connections while keeping your validator’s operator API and metrics private.",
+      "cardStatus": "Official guide",
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-validator-networking-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-validator-networking-20261117.jpg",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:learn:validator-operations",
+      "key": "validator-operations",
+      "type": "learn",
+      "ecosystem": "tari-ootle",
+      "group": "Guides",
+      "title": "Operate an Ootle validator",
+      "summary": "Official operating guide covering identity and state backups, restoration, release upgrades, health checks, logs and fee claims. Fee availability depends on the network burn rate. For version-specific activation behavior, consult the current release notes; v0.54.0 requires validators and indexers to upgrade together. No validator, wallet or claim was operated. The November 17 recording walks through the original source page, with page scripts and downloads disabled.",
+      "status": "Official documentation",
+      "sourceUrl": "https://ootle.tari.com/validators/operating-a-validator/",
+      "repoUrl": null,
+      "docsUrl": "https://ootle.tari.com/validators/operating-a-validator/",
+      "demoUrl": null,
+      "creator": {
+        "name": "Tari contributors",
+        "url": "https://github.com/tari-project"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Ootle mainnet and Esmeralda",
+      "platform": "Documentation",
+      "upstreamRevision": "b499478030f2194705e201dc179d29486d54b014",
+      "lastCheckedAt": "2026-11-17T19:04:56.458Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "official",
+        "guide"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://github.com/tari-project/tari-ootle/pull/3756",
+          "platform": "GitHub",
+          "context": "Original guide announcement"
+        }
+      ],
+      "cardSummary": "Plan validator backups, upgrades and health checks, with guidance on state recovery and fee claims.",
+      "cardStatus": "Official guide",
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-validator-operations-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-validator-operations-20261117.jpg",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari:learn:wxtm-uniswap-guide",
+      "key": "wxtm-uniswap-guide",
+      "type": "learn",
+      "ecosystem": "tari",
+      "group": "Community guides",
+      "title": "Buy wXTM on Uniswap: video guide",
+      "summary": "Okz shared Digital Node Capital’s step-by-step video on November 15. It covers an Ethereum wallet, ETH for the swap and gas, and verifying the official WrappedXTM contract. The forum follow-up distinguishes Ethereum wXTM from native XTM and Ootle TARI and discusses price impact and minimum received. This is a community tutorial, not an endorsement of a trade. No wallet was connected or transaction submitted. The November 17 recording walks through the original source page, with page scripts and downloads disabled.",
+      "status": "Community guide",
+      "sourceUrl": "https://community.tari.com/t/guide-how-to-buy-wxtm-on-uniswap-ethereum-step-by-step/643/1",
+      "repoUrl": null,
+      "docsUrl": "https://community.tari.com/t/guide-how-to-buy-wxtm-on-uniswap-ethereum-step-by-step/643/1",
+      "demoUrl": null,
+      "creator": {
+        "name": "Okz / Digital Node Capital",
+        "url": "https://community.tari.com/u/Okz"
+      },
+      "license": null,
+      "network": "Ethereum · wrapped XTM",
+      "platform": "Documentation",
+      "upstreamRevision": "forum-643-post-1-reviewed-2026-11-17",
+      "sourceUpdatedAt": "2026-11-16T01:22:09.669Z",
+      "lastCheckedAt": "2026-11-17T19:04:56.458Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "guide"
+      ],
+      "discussionLinks": [],
+      "cardSummary": "Follow Okz’s video introduction to swapping for wrapped XTM on Ethereum with Uniswap.",
+      "cardStatus": "Video guide · Ethereum wXTM",
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-wxtm-uniswap-guide-20261117.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-wxtm-uniswap-guide-20261117.jpg",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:integration:supportxtm-mainnet-faucet",
+      "key": "supportxtm-mainnet-faucet",
+      "type": "integration",
+      "ecosystem": "tari-ootle",
+      "group": "Developer tools",
+      "title": "SupportXTM Ootle mainnet faucet",
+      "summary": "Community faucet offering a random 1–10 TARI to a mainnet Ootle (L2) address. The public form and displayed spendable balance were reachable on November 11, 2026. This is separate from SupportXTM’s L1 XTM faucets. The page links the official burn guide to explain how its Ootle funds originate from L1. No address was submitted and no payout was independently verified during this read-only check. A source repository and license are not published on the inspected page.",
+      "status": "Web faucet · Ootle mainnet",
+      "sourceUrl": "https://faucet-ootle.supportxtm.com/",
+      "repoUrl": null,
+      "docsUrl": "https://ootle.tari.com/guides/burn-minotari/",
+      "demoUrl": "https://faucet-ootle.supportxtm.com/",
+      "creator": {
+        "name": "SupportXTM",
+        "url": "https://faucet-ootle.supportxtm.com/"
+      },
+      "license": "Not stated",
+      "network": "Ootle L2 mainnet (site-labelled)",
+      "platform": "Web",
+      "upstreamRevision": "f5f1eca69e71a5248fbd3671ef9f1c20417388245ffe55f08965e80e27275a96",
+      "sourceUpdatedAt": null,
+      "lastCheckedAt": "2026-11-11T12:37:57.536833+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "faucet",
+        "mainnet",
+        "l2"
+      ],
+      "cardSummary": "Request 1–10 TARI for an Ootle mainnet address from this community faucet.",
+      "cardStatus": "Web faucet · Ootle mainnet"
+    },
+    {
+      "id": "tari-ootle:component:piecework",
+      "key": "piecework",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "PieceWork",
+      "summary": "MIT-licensed Rust milestone-escrow template source with a walletless browser simulation. The creator describes a fixed payee, client funding and approval, payee delivery marking, and refunds of unreleased funds after an epoch deadline. November 18, 2026: the public README explicitly says the template is unpublished on Esmeralda and mainnet, and the simulation uses pretend balances. The creator reports engine tests; no code, wallet or transaction was run here. The linked demo could not be extracted by the server-side reader in this review. This recording is a continuous walkthrough of the public README.",
+      "status": "Source code · Simulation",
+      "cardStatus": "Source code · Simulation",
+      "cardSummary": "Model freelance milestone payments with client approval, fixed payees and refunds for unreleased funds after the agreement deadline.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/27",
+      "repoUrl": "https://github.com/tegar07257/piecework",
+      "docsUrl": "https://github.com/tegar07257/piecework#readme",
+      "creator": {
+        "name": "tegar07257",
+        "url": "https://github.com/tegar07257"
+      },
+      "license": "MIT",
+      "network": "Ootle template source; walletless simulation",
+      "platform": "Rust · Browser simulation",
+      "upstreamRevision": "5241b3c108765374a7d31921868231a69167fff1",
+      "sourceUpdatedAt": "2026-11-18T05:36:23.303Z",
+      "lastAttemptAt": "2026-11-18T14:07:12.602340+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "piecework"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/27",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Qg4zfUy4w5E",
+          "platform": "YouTube announcement"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-piecework-20261118.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-piecework-20261118.png",
+        "source": "Docs walkthrough"
+      },
+      "lastCheckedAt": null,
+      "demoUrl": "https://tegar07257.github.io/piecework/"
     }
   ],
   "opportunities": [
