@@ -374,11 +374,11 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Ootle Name Service",
-      "summary": "Ootle name-service template and client. The October 14 source pins template library 0.34, template build 0.15 and test tooling 0.46. The creator reports the existing 0.42 deployment running on Ootle 0.46. Source review does not independently verify registrations.",
-      "status": "Source reviewed · on-chain use untested",
+      "summary": "Rust template and TypeScript client for bound Ootle usernames and public key-value records. Reviewed November 18, 2026: the README pins template library 0.35, template build 0.16 and test tooling 0.47. Its deployment account is dated October 21: a 0.42-era Esmeralda template exercised on 0.47. That historical account does not establish current deployment availability or mainnet operation. The linked client documents keyless reads and optional signer-based writes; it is not published to npm. No public original sharing post was found; the repository remains the discovery page. Footage shows the current README, without registration or wallet actions.",
+      "status": "Source code · Testnet",
       "sourceUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service",
       "repoUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service",
-      "docsUrl": null,
+      "docsUrl": "https://github.com/okansaglam016161-pixel/ootle-name-service/blob/502de25e0b638ffecfd513bda5107bed3fecab8b/client/README.md",
       "creator": {
         "name": "Caravel contributors",
         "url": "https://github.com/okansaglam016161-pixel/ootle-name-service"
@@ -386,9 +386,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle Esmeralda testnet",
       "platform": "Rust / TypeScript",
-      "upstreamRevision": "3f88161c2e18df2a3cb31d904b709c65b0a12af5",
-      "sourceUpdatedAt": "2026-10-08T11:52:18Z",
-      "lastCheckedAt": "2026-11-04T11:59:29.167Z",
+      "upstreamRevision": "502de25e0b638ffecfd513bda5107bed3fecab8b",
+      "sourceUpdatedAt": "2026-10-21T20:18:38Z",
+      "lastCheckedAt": "2026-11-18T16:51:59.747068+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -398,13 +398,14 @@
       ],
       "demoUrl": null,
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261014.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261014.jpg",
-        "source": "Source/docs walkthrough — Public repository README scrolling; no software installation or execution."
+        "video": "https://lobby.tari.com/previews/community/resource-ons-20261118.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ons-20261118.png",
+        "source": "Docs walkthrough"
       },
       "discussionLinks": [],
-      "cardSummary": "Explore an Ootle name registry with a Rust template and TypeScript client.",
-      "cardStatus": "Testnet"
+      "cardSummary": "Resolve bound Ootle usernames and public records with a Rust registry template and TypeScript client.",
+      "cardStatus": "Source code · Testnet",
+      "lastAttemptAt": "2026-11-18T16:51:59.747068+00:00"
     },
     {
       "id": "tari-ootle:component:caravel-burn-wallet",
@@ -3557,10 +3558,10 @@
       "ecosystem": "tari",
       "group": "Advanced",
       "title": "Cake Wallet Tari L1 backend",
-      "summary": "Rust wallet backend consumed by Cake Wallet, with generated Dart bindings through Flutter Rust Bridge 2.11.1. The public README documents wallet lifecycle, scanning, balance/history, fees, streaming sends and base-node queries, plus an additive-only Dart API contract. The reviewed Cargo manifest pins Minotari commit 86503ff8360041aa13c7911fd6bd7a6d30591dbb and Tari 6.3.0-pre.1 components. It is backend source rather than a standalone wallet download. The repository had no published releases at the November 2 review; its root LICENSE read returned 404 and the manifest declares no license. No public original sharing post was found in the reviewed sources; retain the actual GitHub repository discovery page. Footage shows its README only.",
-      "status": "Source code · Flutter / Rust",
+      "summary": "Rust wallet backend consumed by Cake Wallet, with Dart bindings through Flutter Rust Bridge 2.11.1. Reviewed November 18, 2026: v0.4.0 provides native libraries and matching Dart bindings for Android, iOS, Linux, macOS and Windows. Release libraries target Tari L1 MainNet and StageNet; Esmeralda requires a separate testnet build. These are L1 networks, not Ootle mainnet. The current manifest pins Minotari 6743f501ffc51eaa6c7a683bfbb5fc5db7c9cd0d and Tari 6.3.0-pre.4. This is a backend library, not a standalone wallet. No public original sharing post was found; the repository remains the discovery page. Footage shows the release announcement; no libraries were acquired or executed.",
+      "status": "Library · Tari L1 · v0.4.0",
       "cardSummary": "Connect Flutter apps to Minotari wallet functions through a Rust library and generated Dart bindings.",
-      "cardStatus": "Source code · Flutter / Rust",
+      "cardStatus": "Library · Tari L1 · v0.4.0",
       "sourceUrl": "https://github.com/tari-project/cw_tari_wallet",
       "repoUrl": "https://github.com/tari-project/cw_tari_wallet",
       "docsUrl": "https://github.com/tari-project/cw_tari_wallet#cw_tari_wallet",
@@ -3570,11 +3571,11 @@
         "url": "https://github.com/tari-project"
       },
       "license": null,
-      "network": "Tari L1",
+      "network": "Tari L1 MainNet / StageNet release libraries; Esmeralda requires separate build",
       "platform": "Rust stable / Dart ≥3.3 / Flutter Rust Bridge 2.11.1",
-      "upstreamRevision": "6d4c9757731e60ef298bd16c852ccceb9e084186",
-      "sourceUpdatedAt": null,
-      "lastCheckedAt": "2026-11-04T14:26:03.116Z",
+      "upstreamRevision": "8763dbc55e93e466228d9996e5c09e71f2ac3f1d",
+      "sourceUpdatedAt": "2026-11-11T13:55:14Z",
+      "lastCheckedAt": "2026-11-18T16:51:59.747068+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3582,12 +3583,19 @@
         "wallets",
         "docs"
       ],
-      "discussionLinks": [],
+      "discussionLinks": [
+        {
+          "url": "https://github.com/tari-project/cw_tari_wallet/releases/tag/v0.4.0",
+          "platform": "GitHub release",
+          "context": "v0.4.0 native-library release announcement"
+        }
+      ],
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-wallet-20261102-4e0ec4ca7d.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-wallet-20261102-4e0ec4ca7d.png",
-        "source": "Docs walkthrough"
-      }
+        "video": "https://lobby.tari.com/previews/community/resource-cw-tari-wallet-20261118.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-cw-tari-wallet-20261118.png",
+        "source": "Announcement"
+      },
+      "lastAttemptAt": "2026-11-18T16:51:59.747068+00:00"
     },
     {
       "id": "tari-ootle:learn:cw-tari-ootle-wallet",
@@ -3596,7 +3604,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "Cake Wallet Ootle backend",
-      "summary": "Cake Wallet Ootle backend using Flutter Rust Bridge 2.11.1 and ootle-rs over HTTPS, without a local node or wallet daemon. The November 2 README and Cargo manifest retain Ootle v0.47-era pins, while the official Ootle release stream has advanced to v0.49; this listing does not establish compatibility with the reset testnet. The README scopes availability to Esmeralda and says no mainnet indexer is available. Android requires CwTariOotlePlugin.initTls(context); the documented ARM translation issue affects x86_64 emulators. The repository has no published releases. Its October 29 faucet-balance note is historical. No public original sharing post was found in reviewed sources; the GitHub repository remains the discovery page. Footage shows the README and version limits, without creating wallets, obtaining test funds or sending transactions.",
+      "summary": "Cake Wallet Ootle backend using Flutter Rust Bridge 2.11.1 and ootle-rs over HTTPS, without a local node or wallet daemon. Reviewed November 18, 2026: the unchanged README and manifest retain Ootle v0.47-era pins and describe Esmeralda testnet support. Its older statement about mainnet indexer availability is historical and is not a current network-wide finding. Android requires CwTariOotlePlugin.initTls(context); the documented ARM translation issue affects x86_64 emulators. No repository releases or public original sharing post were found in this review; the GitHub repository remains the discovery page. The retained November 2 recording shows its README and version limits. No wallets, funding, transactions or current-engine compatibility tests were performed.",
       "status": "Source code · Testnet · v0.47 pins",
       "cardSummary": "Connect Flutter apps to Ootle light-wallet functions through Rust, Dart bindings and an HTTPS indexer.",
       "cardStatus": "Source code · Testnet · v0.47 pins",
@@ -3613,7 +3621,7 @@
       "platform": "Flutter / Rust / Dart; Android TLS initialization required",
       "upstreamRevision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
       "sourceUpdatedAt": null,
-      "lastCheckedAt": "2026-11-04T14:26:03.116Z",
+      "lastCheckedAt": "2026-11-18T16:38:45.671072+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3626,7 +3634,8 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-ootle-wallet-20261102-c7b9334a25.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-ootle-wallet-20261102-c7b9334a25.png",
         "source": "Docs walkthrough"
-      }
+      },
+      "lastAttemptAt": "2026-11-18T16:51:59.747068+00:00"
     },
     {
       "id": "tari-ootle:learn:minotari-cli-release",
