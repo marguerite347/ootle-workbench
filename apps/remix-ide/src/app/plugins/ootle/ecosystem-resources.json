@@ -4360,22 +4360,22 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Tari stablecoin templates",
-      "summary": "The README identifies issuer-no-user-badge as the current template and describes older template variants as potentially out of date. Admin badges gate pause, UTXO freeze/unfreeze, token recall, user blacklisting and exchange limits. A CLI and Vite/React interface exist in source; the web README is marked under development and references the older tari-dan checkout. The November 4 review covered the pinned README, nested web README and empty release listing, without building, issuing assets or using a wallet. November 4: no public original announcement was found in reviewed evidence; the repository is the actual discovery page. The recording is a pinned README walkthrough, not a working issuance application.",
-      "status": "Official work-in-progress template sources",
+      "summary": "Official work-in-progress stealth-token templates with signer-key roles for issuance, treasury and compliance controls. Reviewed November 18, 2026: the root README identifies issuer-no-user-badge as the working template, while the new operator CLI and local dashboard support issuer-minimal only. The minimal template has no holder registration or wrapped token; its issuer can reveal amounts, recall and freeze tokens, and burn holder UTXOs with the required authority and view key. Pausing stops issuer operations, not peer-to-peer transfers. The operator tool holds an unlocked key in memory, signs transactions directly through an Ootle indexer and supports one signing key per transaction; threshold roles and view-key scanning are not implemented. Its README calls it a proof of concept, not hardened for production. No public deployed application, release or original sharing post was found in the reviewed repository evidence; the repository remains the discovery page. The recording walks through the pinned operator README without running code, creating keys or issuing assets.",
+      "status": "Official work-in-progress template sources and operator tool",
       "sourceUrl": "https://github.com/tari-project/stable-coin",
       "repoUrl": "https://github.com/tari-project/stable-coin",
-      "docsUrl": "https://github.com/tari-project/stable-coin/tree/a6ade449deed39002efdc4acd109e19e6475ca3b#readme",
+      "docsUrl": "https://github.com/tari-project/stable-coin/blob/b8ee49912a352061cd41861b88521190fefd8b6f/applications/stablecoin/README.md",
       "demoUrl": null,
       "creator": {
         "name": "Tari Project",
         "url": "https://github.com/tari-project"
       },
       "license": "BSD-3-Clause (README declaration)",
-      "network": "Ootle",
-      "platform": "Rust source; CLI and web interface sources",
-      "upstreamRevision": "a6ade449deed39002efdc4acd109e19e6475ca3b",
+      "network": "Ootle; deployment network unconfirmed",
+      "platform": "Rust source; operator CLI and local web dashboard",
+      "upstreamRevision": "b8ee49912a352061cd41861b88521190fefd8b6f",
       "sourceUpdatedAt": null,
-      "lastCheckedAt": "2026-11-04T23:45:09.237Z",
+      "lastCheckedAt": "2026-11-18T17:40:29.608087+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -4385,13 +4385,14 @@
         "templates"
       ],
       "discussionLinks": [],
-      "cardSummary": "Explore stealth-token issuance templates with administrator controls, wrapped-token exchange and configurable fees on Tari Ootle.",
-      "cardStatus": "Source code · Work in progress",
+      "cardSummary": "Explore Ootle issuance templates with signer-key controls and a proof-of-concept issuer CLI and local dashboard.",
+      "cardStatus": "Source code · Proof of concept",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-stable-coin-template-20261104.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-stable-coin-template-20261104.png",
+        "video": "https://lobby.tari.com/previews/community/resource-stable-coin-template-20261118.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-stable-coin-template-20261118.png",
         "source": "Docs walkthrough"
-      }
+      },
+      "lastAttemptAt": "2026-11-18T17:40:29.608087+00:00"
     },
     {
       "id": "tari:learn:tari-soon-creator-hub",
