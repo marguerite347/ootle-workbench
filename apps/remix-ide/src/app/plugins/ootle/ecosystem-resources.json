@@ -9,7 +9,7 @@
       "ecosystem": "tari-ootle",
       "group": "Guides",
       "title": "Official docs & agent setup",
-      "summary": "Read official developer guides and the machine-readable documentation index. The index and agent API-key guide were accessible on October 11, 2026. The linked skill index and Codex skill returned 404 on October 11, following 404 and 403 observations on October 10; their last successful review date is retained. The same two skill URLs returned 404 on October 12; the index and API-key guide remain accessible. November 18, 2026: reviewed the updated API-key guide at Git blob 79646e951e16d41ce6aa5eadf3bbd4138809c731. It documents optional expiry, least-privilege scopes, and an interactive WebAuthn user session for creating, listing or revoking keys; even Admin-scoped API keys cannot manage other keys. The existing dated recording remains a general documentation walkthrough. No credential or wallet operation was performed.",
+      "summary": "Read official developer guides and the machine-readable documentation index. The index and agent API-key guide were accessible on October 11, 2026. The linked skill index and Codex skill returned 404 on October 11, following 404 and 403 observations on October 10; their last successful review date is retained. The same two skill URLs returned 404 on October 12; the index and API-key guide remain accessible. November 18, 2026: reviewed the updated API-key guide at Git blob 79646e951e16d41ce6aa5eadf3bbd4138809c731. It documents optional expiry, least-privilege scopes, and an interactive WebAuthn user session for creating, listing or revoking keys; even Admin-scoped API keys cannot manage other keys. The November 18 recording shows the current API-key guide; its index includes expiry and audit/revocation sections. No credential or wallet operation was performed.",
       "status": "Official documentation",
       "sourceUrl": "https://ootle.tari.com/llms.txt",
       "repoUrl": null,
@@ -33,9 +33,9 @@
       ],
       "demoUrl": null,
       "preview": {
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-agent-docs-20261010.jpg",
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-agent-docs-20261010.mp4",
-        "source": "Source/docs walkthrough — application not demonstrated"
+        "video": "https://lobby.tari.com/previews/community/resource-official-agent-docs-20261118.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-official-agent-docs-20261118.png",
+        "source": "Docs walkthrough"
       },
       "discussionLinks": [
         {
@@ -5119,9 +5119,9 @@
       "ecosystem": "tari-ootle",
       "group": "Developer tools",
       "title": "Public Grant Ledger",
-      "summary": "BSD-3-Clause Rust reconciliation tool with a hosted read-only review page. It compares payment outcomes, assets, integer amounts and payees, keeping receipt provenance in CSV output. Its samples distinguish local-engine grant payments from archived Ootle mainnet auction proceeds and escrow funding; those archives do not establish a deployed grant contract. The README explicitly excludes wallet signing and on-chain deployment. November 17, 2026: server-side extraction returned the hosted review interface and its offline/read-only boundary. The recording is a walkthrough of the Chinese-language README, not an application run or independent verification of the archived receipts.",
-      "status": "Read-only web app · Rust CLI",
-      "cardStatus": "Read-only web app · Rust CLI",
+      "summary": "BSD-3-Clause Rust reconciliation tool and hosted read-only reviewer. It compares approved payments with archived receipts, flags discrepancies and duplicate payments, and exports evidence-linked CSV rows. November 18, 2026: both official Ootle mainnet catalogues list its PublicGrant template at 098accfc8e69ea08ea14e676ad0973fc1ccd6f3d8f677d5bb4cfc144049562b0, epoch 38890, with matching binary hash and author key. This confirms published template code, not an executed grant payment. The creator’s demo distinguishes archived mainnet auction/escrow receipts from local-engine grant samples labeled local_demo. The transaction-proof endpoint returned HTTP 403 in this review; that receipt was not independently verified. The refreshed recording shows the current Chinese-language README and its deployment/sample boundaries. No wallet, signing or template execution was performed.",
+      "status": "Mainnet template · Read-only app",
+      "cardStatus": "Mainnet template · Read-only app",
       "cardSummary": "Compare approved payments with archived transaction receipts, flag discrepancies and duplicate entries, and export evidence-linked reconciliation rows.",
       "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/24",
       "repoUrl": "https://github.com/feitianbf751026-dotcom/tari-ootle-public-grant-ledger",
@@ -5131,11 +5131,11 @@
         "url": "https://github.com/feitianbf751026-dotcom"
       },
       "license": "BSD-3-Clause",
-      "network": "Archived Ootle mainnet receipts; local-engine grant samples; no grant contract deployment",
+      "network": "Ootle mainnet template; archived and local demo samples",
       "platform": "Rust CLI · Read-only web interface",
-      "upstreamRevision": "3af533b6bf3c14a9a9a5cc277f1d930e2e1b26b9",
-      "sourceUpdatedAt": "2026-11-17T14:09:10.045Z",
-      "lastAttemptAt": "2026-11-17T14:35:57.771225+00:00",
+      "upstreamRevision": "18f0914eacc787de1832d763f1a565af7d2c831d",
+      "sourceUpdatedAt": "2026-11-18T00:49:10.858Z",
+      "lastAttemptAt": "2026-11-18T14:14:59.581988+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -5151,11 +5151,23 @@
         {
           "url": "https://www.reddit.com/r/tari/comments/1xyhxfk/public_grant_ledger_tari_ootle_november_mvp_entry/",
           "platform": "Reddit"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/17",
+          "platform": "First to Launch announcement"
+        },
+        {
+          "url": "https://bsky.app/profile/did:plc:ku2k2bt7z5lmacl5mrmfg7xk/post/3n2kcgohowv2q",
+          "platform": "Bluesky"
+        },
+        {
+          "url": "https://explorer.tari.mw/template/098accfc8e69ea08ea14e676ad0973fc1ccd6f3d8f677d5bb4cfc144049562b0",
+          "platform": "Mainnet template"
         }
       ],
       "preview": {
-        "video": "https://lobby.tari.com/previews/community/resource-public-grant-ledger-20261117.mp4",
-        "image": "https://lobby.tari.com/previews/community/resource-public-grant-ledger-20261117.jpg",
+        "video": "https://lobby.tari.com/previews/community/resource-public-grant-ledger-20261118.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-public-grant-ledger-20261118.png",
         "source": "Docs walkthrough"
       },
       "lastCheckedAt": null,
