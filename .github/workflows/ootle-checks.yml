@@ -32,6 +32,7 @@ jobs:
       - run: node --test tools/security/typecheck-failure.test.cjs tools/catalog/fronts.test.mjs tools/tari-companion/server.test.mjs tools/security/regression.test.mjs tools/security/local-server-transport.test.cjs tools/security/cli-watcher.test.cjs tools/security/compiler-tools.test.cjs tools/security/transitive-dependencies.test.cjs tools/security/workspace-startup.test.mjs tools/security/build-utilities.test.mjs tools/security/config-utilities.test.mjs tools/security/ui-dependencies.test.mjs tools/security/browser-dependencies.test.mjs tools/security/yaml-env-utilities.test.mjs tools/security/rust-audit-gate.test.mjs
       - run: node tools/security/simulator-http-transport.cjs
       - run: node tools/security/template-parity.mjs
+      - run: node --test tools/security/advisory-evidence.test.mjs
       - run: yarn build:libs
         env:
           NX_NO_CLOUD: 'true'
@@ -39,6 +40,7 @@ jobs:
       - run: yarn build:production
         env:
           ANALYZE: security
+      - run: node tools/security/audit-node.mjs reports/security/node-advisories.json
       - run: node tools/security/dependency-paths.mjs --require-bundle
       - run: node tools/package-web.mjs
         env:
@@ -55,7 +57,10 @@ jobs:
         if: github.event_name == 'push'
         with:
           name: node-exposure-${{ github.sha }}
-          path: reports/security/dependency-paths.json
+          path: |
+            reports/security/dependency-paths.json
+            reports/security/node-advisories.json
+            reports/security/browser-stats.json
           retention-days: 30
   tari:
     runs-on: ubuntu-latest
