@@ -15,6 +15,10 @@ await writeFile(`${out}/assets/ootle/agents.json`, JSON.stringify({ serviceUrl }
 const { readdir, readFile } = await import('node:fs/promises')
 const { createHash } = await import('node:crypto')
 const { join } = await import('node:path')
+// CI uploads this directory without the repository root. Carry its response policies
+// into the static deployment, without asking Vercel to reinstall or rebuild the app.
+const deploymentConfig = JSON.parse(await readFile('vercel.json', 'utf8'))
+await writeFile(`${out}/vercel.json`, JSON.stringify({ ...deploymentConfig, framework: null, installCommand: '', buildCommand: '', outputDirectory: '.' }, null, 2))
 const digest = (bytes, algorithm = 'sha256', encoding = 'hex') => createHash(algorithm).update(bytes).digest(encoding)
 let html = await readFile(`${out}/index.html`, 'utf8')
 for (const match of [...html.replace(/<!--[\s\S]*?-->/g, '').matchAll(/<script\b[^>]*\bsrc="([^"]+)"[^>]*>/g)]) {
