@@ -8,6 +8,28 @@ import os from 'node:os'
 import path from 'node:path'
 const require = createRequire(import.meta.url)
 
+test('Desktop Git declaration resolves through its own lockfile', () => {
+  const { parse } = require('@yarnpkg/lockfile')
+  const read = relative => fs.readFileSync(new URL(`../../${relative}`, import.meta.url), 'utf8')
+  const manifest = JSON.parse(read('apps/remixdesktop/package.json'))
+  const desktop = parse(read('apps/remixdesktop/yarn.lock'))
+  const root = parse(read('yarn.lock'))
+  assert.equal(desktop.type, 'success')
+  assert.equal(root.type, 'success')
+  const selector = `isomorphic-git@${manifest.dependencies['isomorphic-git']}`
+  assert.ok(desktop.object[selector], `Desktop lock must resolve ${selector}`)
+  assert.deepEqual(desktop.object[selector], root.object[selector])
+  const seen = new Set()
+  const visit = key => {
+    if (seen.has(key)) return
+    seen.add(key)
+    const entry = desktop.object[key]
+    assert.ok(entry, `Desktop Git dependency is missing: ${key}`)
+    for (const [name, range] of Object.entries(entry.dependencies || {})) visit(`${name}@${range}`)
+  }
+  visit(selector)
+})
+
 test('Git storage retains local commit, checkout and blob round trips', async () => {
   const git = require('isomorphic-git')
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ootle-git-compat-'))
