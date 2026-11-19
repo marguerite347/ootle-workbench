@@ -6,6 +6,16 @@ import { createRequire } from 'node:module'
 import { spawnSync } from 'node:child_process'
 const require = createRequire(import.meta.url)
 
+test('Base64 preserves Unicode source text and arbitrary byte payloads', () => {
+  const base64 = require('js-base64')
+  const source = 'fn main() { /* privacy: café 日本語 🐢 */ }\n'
+  assert.equal(base64.decode(base64.encode(source)), source)
+  const bytes = Uint8Array.from([0, 1, 127, 128, 254, 255])
+  assert.deepEqual(base64.toUint8Array(base64.fromUint8Array(bytes)), bytes)
+  assert.equal(base64.fromUint8Array(bytes), Buffer.from(bytes).toString('base64'))
+  assert.equal(base64.decode(base64.encodeURI(source)), source)
+})
+
 test('TOML formatter settings retain values and reject invalid or unsafe values', () => {
   const toml = require('toml')
   const parsed = toml.parse('printWidth = 100\nuseTabs = false\nplugins = ["solidity"]')
