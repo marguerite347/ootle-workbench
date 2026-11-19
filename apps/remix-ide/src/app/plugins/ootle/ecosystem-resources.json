@@ -3242,7 +3242,7 @@
       "license": "MIT",
       "network": "Not network-specific",
       "platform": "Agent Skills-compatible hosts",
-      "sourceUpdatedAt": null,
+      "sourceUpdatedAt": "2026-11-19T13:22:36Z",
       "lastCheckedAt": "2026-11-04T19:44:48.094Z",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -3256,7 +3256,7 @@
       "ecosystem": "tari-ootle",
       "group": "Agents",
       "title": "book-to-skill",
-      "summary": "General-purpose document-to-agent-skill tool shared by Luci666 in the Tari public general channel. Its MIT README describes converting books, document folders and source collections into an index, chapter references, glossary and patterns for compatible agent hosts, including Codex and Claude Code. Source material rights and output quality remain the user’s responsibility. This is a source review, not a verified Tari integration or an installation; performance and accuracy claims are the maintainer’s. The preview shows the public README only.",
+      "summary": "Convert technical books, document folders and source collections into an agent-loadable index, chapter references, glossary and patterns. The MIT-licensed v2.0.0 release, published November 19, adds broader agent-host support, multilingual chapter detection and an optional host-mediated Search & Read mode. Local extraction and remote provider handling are distinct; remote providers may temporarily cache source files and transmit text. Generated skills still require review and source-rights compliance. The release also reports parser and working-directory hardening. This listing reviews the README and release text; no converter or generated skill was installed or executed. The recording shows the v2.0.0 announcement.",
       "status": "Community-shared agent tool",
       "sourceUrl": "https://github.com/virgiliojr94/book-to-skill",
       "docsUrl": "https://github.com/virgiliojr94/book-to-skill#readme",
@@ -3264,21 +3264,27 @@
         "name": "virgiliojr94",
         "url": "https://github.com/virgiliojr94"
       },
-      "upstreamRevision": "e7bb659d3261491c8b28793dcb9102fa64a46c22",
+      "upstreamRevision": "a0fcb8cd004b017d07acf066510276311211d6a7",
       "discussionLinks": [
         {
           "url": "https://discord.com/channels/892738558316662855/892738558996148236/1565479700816728236",
           "platform": "Discord",
           "context": "Shared by Luci666 on October 29, 2026"
+        },
+        {
+          "url": "https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.0",
+          "platform": "GitHub",
+          "context": "v2.0.0 release announcement"
         }
       ],
       "cardSummary": "Turn technical documents into structured references an AI coding agent can load as needed.",
       "cardStatus": "Agent tool · Source code",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-book-to-skill-20261102-f8d0575d58.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-book-to-skill-20261102-f8d0575d58.jpg",
-        "source": "Docs walkthrough"
-      }
+        "video": "https://lobby.tari.com/previews/community/resource-book-to-skill-v2-20261119.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-book-to-skill-v2-20261119.png",
+        "source": "Announcement"
+      },
+      "lastAttemptAt": "2026-11-19T14:38:04.287325+00:00"
     },
     {
       "id": "tari-ootle:component:danse-macabre",
@@ -3447,7 +3453,7 @@
       "ecosystem": "tari",
       "group": "Advanced",
       "title": "BzMiner",
-      "summary": "Multi-coin miner with hardware monitoring and a local dashboard. Reviewed November 4, 2026: v100.70 (published November 5 UTC, November 4 Eastern) adds pool-directed MoneroOcean algorithm switching, improves Pearl efficiency and fixes mmpOS GPU hashrate display. Switching is one pool connection choosing algorithms, not a local price calculator or simultaneous Pearl+C29 dual mining. The current Tari C29 guide documents NVIDIA and experimental RX 7900 XTX / RX 9070 XT support, about 10 GB free NVIDIA VRAM or 8.5 GB on those AMD cards, and a 1% algorithm development fee. The guide excludes Intel, CPU and macOS C29; the README still lists Intel Arc Battlemage and contains inconsistent AMD dual-route statements. These publisher conflicts do not establish broader support. Automatic tuning and measured performance qualification are RTX 3090-specific. The local dashboard defaults to unauthenticated localhost access. No open-source license was established for the miner. Original v100.46, v100.50 and v100.51 sharing posts are retained. The refreshed recording shows the public README and current release badge. No miner binary was downloaded or executed.",
+      "summary": "Multi-coin miner with hardware monitoring and a local dashboard. November 19, 2026: v100.82 release notes announce Pearl performance improvements, a Windows memory-clock fix and faster startup. These are publisher claims, not new Tari performance measurements. The current Tari C29 guide still specifies NVIDIA or experimental RX 7900 XTX / RX 9070 XT support, about 10 GB free NVIDIA VRAM or 8.5 GB on those AMD cards, and a 1% algorithm development fee. It excludes Intel, CPU and macOS C29, despite stale cross-platform examples and conflicting general README claims. The guide examples still reference v100.70. The local dashboard defaults to unauthenticated localhost access. No open-source license was established for the miner. Original sharing posts remain retained; the recording shows the v100.82 announcement. No miner was downloaded or executed.",
       "status": "Desktop app · NVIDIA / experimental AMD · 1% dev fee",
       "cardSummary": "Mine Tari with supported graphics cards using a multi-coin miner that includes hardware monitoring and a local dashboard.",
       "cardStatus": "Desktop app · NVIDIA / experimental AMD · 1% dev fee",
@@ -3462,8 +3468,8 @@
       "license": null,
       "network": "Tari L1 mainnet",
       "platform": "Windows/Linux · ~10 GB NVIDIA / 8.5 GB AMD VRAM",
-      "upstreamRevision": "v100.70",
-      "sourceUpdatedAt": "2026-11-05T00:40:10Z",
+      "upstreamRevision": "v100.82",
+      "sourceUpdatedAt": "2026-11-18T18:58:01Z",
       "lastCheckedAt": "2026-11-05T01:40:44.933962+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -3492,13 +3498,19 @@
           "url": "https://github.com/bzminer/bzminer/releases/tag/v100.70",
           "platform": "GitHub",
           "context": "BzMiner v100.70 release announcement"
+        },
+        {
+          "url": "https://github.com/bzminer/bzminer/releases/tag/v100.82",
+          "platform": "GitHub",
+          "context": "BzMiner v100.82 release announcement"
         }
       ],
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261104-v10070.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261104-v10070.png",
-        "source": "Docs walkthrough"
-      }
+        "video": "https://lobby.tari.com/previews/community/resource-bzminer-10082-20261119.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-bzminer-10082-20261119.png",
+        "source": "Announcement"
+      },
+      "lastAttemptAt": "2026-11-19T14:38:04.287325+00:00"
     },
     {
       "id": "tari-ootle:learn:official-universe",
