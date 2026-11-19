@@ -3668,10 +3668,10 @@ isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==
 
-isomorphic-git@1.44.10:
-  version "1.44.10"
-  resolved "https://registry.yarnpkg.com/isomorphic-git/-/isomorphic-git-1.44.10.tgz#b04d42725afeae6f8a54ee996470d99f1f2051c6"
-  integrity sha512-OMlkGP84A84E01mEuXXTzaVJtBqDpK8n8KevA229oVscY4SqgkQ20ByGudME5V6Y2wPpHbH7gYjY5dMK1PXFkQ==
+isomorphic-git@1.44.17:
+  version "1.44.17"
+  resolved "https://registry.yarnpkg.com/isomorphic-git/-/isomorphic-git-1.44.17.tgz#cfb7bd26202927164d149c4f814e67a985b0416c"
+  integrity sha512-jVTvfct/ZDqutRKOWSnTTLtbkKSXlvV5bWOkRpW143tsDfUxZsnNqSPq8BgNpsviuD9OuQ/1Sz8reNb/+daVSQ==
   dependencies:
     async-lock "^1.4.1"
     clean-git-ref "^2.0.1"
@@ -3681,7 +3681,6 @@ isomorphic-git@1.44.10:
     minimisted "^2.0.0"
     pako "^1.0.10"
     pify "^4.0.1"
-    readable-stream "^4.0.0"
     sha.js "^2.4.12"
     simple-get "^4.0.1"
 
