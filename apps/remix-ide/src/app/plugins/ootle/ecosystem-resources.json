@@ -5687,6 +5687,57 @@
       },
       "lastCheckedAt": null,
       "demoUrl": "https://tegar07257.github.io/piecework/"
+    },
+    {
+      "id": "tari-ootle:component:poolsplit",
+      "key": "poolsplit",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "PoolSplit",
+      "summary": "MIT-licensed Python payout engine, CLI and walletless browser calculator for Tari mining co-ops. It allocates an operator fee and proportional member payouts using integer microTari and the largest-remainder method, then produces a SHA-256 payout manifest. November 19, 2026: the README and announcement describe off-chain computation; the demo holds no keys and makes no chain calls. An Ootle vault/share-table template is a roadmap item, not a deployed component. Review covered the full README, MIT license, submission, Bluesky announcement, repository metadata and public demo text. No releases are listed. Creator-reported tests were not rerun. The recording is a continuous README walkthrough with page scripts and downloads disabled.",
+      "status": "Off-chain tool",
+      "cardStatus": "Off-chain tool",
+      "cardSummary": "Calculate mining co-op payouts by contributed shares and publish a checksum manifest members can independently recompute.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/28",
+      "repoUrl": "https://github.com/Darkernity/poolsplit",
+      "docsUrl": "https://github.com/Darkernity/poolsplit#readme",
+      "demoUrl": "https://darkernity.github.io/poolsplit/web/",
+      "creator": {
+        "name": "lestermorgan702 / Darkernity",
+        "url": "https://github.com/Darkernity"
+      },
+      "license": "MIT",
+      "network": "Off-chain XTM payout calculations; Ootle port planned",
+      "platform": "Python · Browser",
+      "upstreamRevision": "384d8300eb4ca4f491f0bd3301fcbfb5b9fc4099",
+      "sourceUpdatedAt": "2026-11-19T07:16:20.647Z",
+      "lastAttemptAt": "2026-11-19T14:14:49.404631+00:00",
+      "lastCheckedAt": "2026-11-19T14:14:49.404631+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "poolsplit"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/28",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://bsky.app/profile/darkernity-tari.bsky.social/post/3n2njltfthe2x",
+          "platform": "Bluesky",
+          "context": "Creator announcement",
+          "publishedAt": "2026-11-19"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-poolsplit-20261119.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-poolsplit-20261119.png",
+        "source": "Docs walkthrough"
+      }
     }
   ],
   "opportunities": [
@@ -5782,23 +5833,37 @@
     },
     {
       "id": "dnode-make-me-laugh-november",
-      "title": "DNode Make Me Laugh contest",
-      "summary": "DNodeCapital’s November 4 announcement offers 75,000 XTM for a Tari-related meme, photo, short video or hype montage. Submit by replying to the original X post. The organizer says entries will be collected into a Tari Community forum poll; no poll destination is linked yet. Submissions are open until November 18, 2026, with no exact closing time or timezone stated. The post’s dollar headline is not a guaranteed valuation. Review covered the public announcement, artwork, visible replies and nested submission images. This is a community-run opportunity; the recording shows the announcement, not an entry or a completed poll.",
-      "sourceUrl": "https://x.com/DNodeCapital/status/2117932964285730872",
+      "title": "DNode meme contest voting",
+      "summary": "The organizer opened voting on November 19 after submissions closed. Reply to the Tari Community thread naming one entrant; one vote per account and no self-voting. Voting closes November 26, 2026, with no exact closing time or timezone specified. The announced prize is 75,000 XTM. The organizer replaced the proposed forum poll with voting by reply because the entry count exceeds the poll limit. No winner has been announced. The November 19 recording walks through the public voting announcement without submitting a vote.",
+      "sourceUrl": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/21",
       "publishedAt": "2026-11-04",
       "expiresAt": null,
-      "status": "Dated community contest; November 18 closing date, exact time and timezone unspecified",
-      "cardSummary": "Create a Tari meme, photo or short video and reply to the organizer’s post to enter.",
-      "cardStatus": "75,000 XTM · Until Nov 18 · Timezone unspecified",
+      "status": "Voting open through November 26; exact closing time and timezone unspecified",
+      "cardSummary": "Choose a Tari meme contest entrant by replying to the organizer’s voting thread, with one vote per account.",
+      "cardStatus": "Voting · Until Nov 26 · Timezone unspecified",
       "creator": {
         "name": "DNodeCapital"
       },
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-make-me-laugh-20261104.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-make-me-laugh-20261104.png",
+        "video": "https://lobby.tari.com/previews/community/resource-dnode-voting-20261119.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-dnode-voting-20261119.png",
         "source": "Announcement"
       },
-      "lastCheckedAt": "2026-11-05T01:06:03.449883+00:00"
+      "lastCheckedAt": "2026-11-05T01:06:03.449883+00:00",
+      "sourceUpdatedAt": "2026-11-19T13:08:51.196Z",
+      "lastAttemptAt": "2026-11-19T14:14:49.404631+00:00",
+      "discussionLinks": [
+        {
+          "url": "https://x.com/DNodeCapital/status/2117932964285730872",
+          "platform": "X",
+          "context": "Original contest announcement"
+        },
+        {
+          "url": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/21",
+          "platform": "Tari Community forum",
+          "context": "Organizer voting rules"
+        }
+      ]
     }
   ]
 }
