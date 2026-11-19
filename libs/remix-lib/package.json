@@ -34,7 +34,7 @@
     "from-exponential": "1.1.1",
     "permissionless": "0.2.25",
     "rlp": "^3.0.0",
-    "solc": "0.8.38",
+    "solc": "0.8.39",
     "string-similarity": "^4.0.4",
     "viem": "2.22.3",
     "xstate": "^5"
@@ -48,7 +48,7 @@
     "@babel/preset-stage-0": "^7.0.0",
     "babel-eslint": "^7.1.1",
     "babelify": "^10.0.0",
-    "tape": "5.10.3"
+    "tape": "5.11.0"
   },
   "publishConfig": {
     "access": "public"

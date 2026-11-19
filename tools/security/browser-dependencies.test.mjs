@@ -2,8 +2,54 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { createRequire } from 'node:module'
 import http from 'node:http'
+import net from 'node:net'
 import fs from 'node:fs'
 const require = createRequire(import.meta.url)
+
+test('get-uri retains FTP download and modification-time behavior with its scoped FTP patch', { timeout: 5000 }, async () => {
+  const sockets = new Set()
+  const commands = []
+  let dataSocket
+  const track = socket => { sockets.add(socket); socket.on('close', () => sockets.delete(socket)) }
+  const dataServer = net.createServer(socket => { track(socket); dataSocket = socket })
+  await new Promise(resolve => dataServer.listen(0, '127.0.0.1', resolve))
+  const control = net.createServer(socket => {
+    track(socket)
+    socket.write('220 Local compatibility fixture\r\n')
+    let buffer = ''
+    socket.on('data', chunk => {
+      buffer += chunk.toString()
+      while (buffer.includes('\r\n')) {
+        const end = buffer.indexOf('\r\n')
+        const command = buffer.slice(0, end)
+        buffer = buffer.slice(end + 2)
+        commands.push(command)
+        if (command.startsWith('USER ')) socket.write('230 Logged in\r\n')
+        else if (command === 'FEAT') socket.write('211 End\r\n')
+        else if (command.startsWith('MDTM ')) socket.write('213 20261119000000\r\n')
+        else if (command === 'EPSV') socket.write(`229 Entering Extended Passive Mode (|||${dataServer.address().port}|)\r\n`)
+        else if (command.startsWith('RETR ')) {
+          socket.write('150 Opening data stream\r\n')
+          dataSocket.end('local-download-fixture', () => socket.write('226 Transfer complete\r\n'))
+        } else if (command === 'QUIT') socket.end('221 Goodbye\r\n')
+        else socket.write('200 Accepted\r\n')
+      }
+    })
+  })
+  await new Promise(resolve => control.listen(0, '127.0.0.1', resolve))
+  try {
+    const { getUri } = require('get-uri')
+    const stream = await getUri(`ftp://127.0.0.1:${control.address().port}/fixture.txt`)
+    const chunks = []
+    for await (const chunk of stream) chunks.push(chunk)
+    assert.equal(Buffer.concat(chunks).toString(), 'local-download-fixture')
+    assert.equal(stream.lastModified.toISOString(), '2026-11-19T00:00:00.000Z')
+    assert.ok(commands.includes('RETR /fixture.txt'))
+  } finally {
+    for (const socket of sockets) socket.destroy()
+    await Promise.all([new Promise(resolve => control.close(resolve)), new Promise(resolve => dataServer.close(resolve))])
+  }
+})
 
 test('WalletConnect curve dependencies initialize with their resolved hash utilities', () => {
   // Resolve from the actual consumer: a root-level import can pass while a stale
