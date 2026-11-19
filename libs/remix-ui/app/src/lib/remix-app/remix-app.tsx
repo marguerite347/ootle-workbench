@@ -406,6 +406,9 @@ const RemixApp = (props: IRemixAppUi) => {
                     <RemixUIMainPanel layout={props.app.layout}></RemixUIMainPanel>
                   </div>
                   <div id="right-side-panel" ref={pinnedPanelRef} data-id="remixIdePinnedPanel" className={`flex-row-reverse pinnedpanel border-end border-start ${hidePinnedPanel ? 'd-none' : 'd-flex'}`}>
+                    <button className="ootle-mobile-sidebar-close" onClick={() => props.app.rightSidePanel.togglePanel()}>
+                      Close right panel
+                    </button>
                     {props.app.rightSidePanel.render()}
                   </div>
                   {
