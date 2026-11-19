@@ -5356,10 +5356,10 @@
     semver "^7.5.4"
     uuid "^9.0.1"
 
-"@microlink/react-json-view@1.31.46":
-  version "1.31.46"
-  resolved "https://registry.yarnpkg.com/@microlink/react-json-view/-/react-json-view-1.31.46.tgz#ae52130f76a2a2ee59a34e537d9d956a900935b3"
-  integrity sha512-RKkHZYOpccM2J1+q09nZ3lq6NeGkdflBLGE+ZDAUubla7M4o6W79fHQH1MfHEYb6pSZ4oTigZ+jfUP4t7EU2pw==
+"@microlink/react-json-view@1.31.51":
+  version "1.31.51"
+  resolved "https://registry.yarnpkg.com/@microlink/react-json-view/-/react-json-view-1.31.51.tgz#9f1834f00ebb70c155313c958feeb37659f8fdd6"
+  integrity sha512-rWmxKwSiVsvbHXo7iHA5ht1Z+PBw13NhJ5UNHMXx22baJgLkFuSFzmnnjlrUce2SAbRh7tfh79gzSL0JRz9y6g==
   dependencies:
     react-base16-styling "~0.10.0"
     react-lifecycles-compat "~3.0.4"
@@ -11086,10 +11086,10 @@ boolbase@^1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==
 
-bootstrap@5.3.8:
-  version "5.3.8"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.3.8.tgz#6401a10057a22752d21f4e19055508980656aeed"
-  integrity sha512-HP1SZDqaLDPwsNiqRqi5NcP0SSXciX2s9E+RyqJIIqGo+vJeN5AJVM98CXmW/Wux0nQ5L7jeWUdplCEf0Ee+tg==
+bootstrap@5.3.9:
+  version "5.3.9"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.3.9.tgz#08e4c0e371fc43ab2c501cd2d3be445739cd8b13"
+  integrity sha512-20cU0rcfw8WdxtVbmfU+xT2EjvVTw9Ror/h1Qvd7DXCujRg8OO9mdBCsmTHdJFf3BuadmBNJtgIuUXsBqSkk/w==
 
 borc@^2.1.2:
   version "2.1.2"
@@ -16744,10 +16744,10 @@ html-escaper@^3.0.3:
   resolved "https://registry.yarnpkg.com/html-escaper/-/html-escaper-3.0.3.tgz#4d336674652beb1dcbc29ef6b6ba7f6be6fdfed6"
   integrity sha512-RuMffC89BOWQoY0WKGpIhn5gX3iI54O6nRA0yC124NYVtzjmFWBIiFd8M0x+ZdX0P9R4lADg1mgP8C7PxGOWuQ==
 
-html-react-parser@6.1.9:
-  version "6.1.9"
-  resolved "https://registry.yarnpkg.com/html-react-parser/-/html-react-parser-6.1.9.tgz#b87b5292efb4c94b5831f1db6454b78215a42fc0"
-  integrity sha512-5lQzzUQXrFe1+OR7GOGkATsm/2h3UIIWQvPkl+84+A9vYG6zbGxhZJjrCDlGvmQs7qPMbffO3XYizVrHekLZbA==
+html-react-parser@6.1.10:
+  version "6.1.10"
+  resolved "https://registry.yarnpkg.com/html-react-parser/-/html-react-parser-6.1.10.tgz#53b1a55c9877d71474db541fd2072903780d20cd"
+  integrity sha512-MMsfO02B6eUl+Tvl5zR07nU8BgvBZwP6tcrjHOGjyzAy4/kQ6ltnVdplrCbJYj8LuxJ3NrgAvezlSJiNkiPa8A==
   dependencies:
     domhandler "6.0.1"
     html-dom-parser "8.0.2"
@@ -18766,10 +18766,10 @@ jose@^6.2.0:
   resolved "https://registry.yarnpkg.com/jose/-/jose-6.2.14.tgz#f275808d68c833735d484a96606e7e5d937bc03e"
   integrity sha512-3JasLuki1NRLQvY4wCoC37KZk4qxoBx2k2aFqLxT84IezqW0bkJKnNtxnZj/Fu1xsQivoc/lytxaRHJoGLjJ1A==
 
-js-base64@3.9.6:
-  version "3.9.6"
-  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.9.6.tgz#f4a84265b5d56fd2870f368a4ea6ba7bbdff7157"
-  integrity sha512-LjkzbLtU6Lx6fjXMYGEACEB7rdtqZtxkBe9aS1ZpDNUyWgUivw3yBEIhQ37OVygJYRt+C+9e9fVT8PpFzH2Hww==
+js-base64@3.9.7:
+  version "3.9.7"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.9.7.tgz#1e785286e6be004a60b976e165d9b82a6e86d942"
+  integrity sha512-UT2XYOCbXOXYoymbytretRDFnb6E6vYPqC1blehA/alnG6vRC0mNTQ6ijXYAPtiCG9o1FDNJXJvQtCwbChFDRQ==
 
 js-beautify@2.0.3:
   version "2.0.3"
@@ -24276,10 +24276,10 @@ react-transition-group@^4.3.0, react-transition-group@^4.4.5:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react-virtuoso@4.18.20:
-  version "4.18.20"
-  resolved "https://registry.yarnpkg.com/react-virtuoso/-/react-virtuoso-4.18.20.tgz#115d90706ce1ed73b1ef2a9b545bbdf0663a4b73"
-  integrity sha512-2G/Hdi/QHRtJtzSZOkAwJFdUzBmhNIQCAmw6gLGUZTGbjVL6+TOBIFJOCnpm6xgWGBfrrMiZV5rJNkQ9gEgAdQ==
+react-virtuoso@4.18.23:
+  version "4.18.23"
+  resolved "https://registry.yarnpkg.com/react-virtuoso/-/react-virtuoso-4.18.23.tgz#06ce594005f04fa2d786e210560a2850b1374e6f"
+  integrity sha512-J/FpyeLUbU6uEXiMsTKjlJaSMqpjxPCanjSYRxFKobLhP73Wo4gloFldDD7osmFUEv2VMF8Ki/YScofwa3ymyw==
 
 react-zoom-pan-pinch@4.4.0:
   version "4.4.0"
