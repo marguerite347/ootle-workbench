@@ -4,7 +4,54 @@ import { createRequire } from 'node:module'
 import http from 'node:http'
 import net from 'node:net'
 import fs from 'node:fs'
+import os from 'node:os'
+import path from 'node:path'
 const require = createRequire(import.meta.url)
+
+test('Git storage retains local commit, checkout and blob round trips', async () => {
+  const git = require('isomorphic-git')
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ootle-git-compat-'))
+  try {
+    await git.init({ fs, dir, defaultBranch: 'main' })
+    fs.writeFileSync(path.join(dir, 'fixture.txt'), 'first revision\n')
+    await git.add({ fs, dir, filepath: 'fixture.txt' })
+    const oid = await git.commit({ fs, dir, message: 'Local compatibility fixture', author: { name: 'Local Test', email: 'test@example.invalid', timestamp: 0, timezoneOffset: 0 } })
+    const blob = await git.readBlob({ fs, dir, oid, filepath: 'fixture.txt' })
+    assert.equal(Buffer.from(blob.blob).toString(), 'first revision\n')
+    fs.writeFileSync(path.join(dir, 'fixture.txt'), 'unsaved fixture\n')
+    assert.equal(await git.status({ fs, dir, filepath: 'fixture.txt' }), '*modified')
+    await git.checkout({ fs, dir, ref: 'main', force: true })
+    assert.equal(fs.readFileSync(path.join(dir, 'fixture.txt'), 'utf8'), 'first revision\n')
+    assert.equal(await git.status({ fs, dir, filepath: 'fixture.txt' }), 'unmodified')
+  } finally { fs.rmSync(dir, { recursive: true, force: true }) }
+})
+
+test('Viem encodes application inputs and reads a local RPC without wallet calls', async () => {
+  const { createPublicClient, http: rpcHttp, encodePacked, encodeAbiParameters, decodeAbiParameters, namehash, toHex } = require('viem')
+  assert.equal(toHex(42), '0x2a')
+  assert.equal(namehash(''), '0x' + '00'.repeat(32))
+  assert.equal(encodePacked(['uint16', 'string'], [42, 'ootle']), '0x002a6f6f746c65')
+  const schema = [{ type: 'uint256' }, { type: 'string' }]
+  const encoded = encodeAbiParameters(schema, [42n, 'ootle'])
+  assert.deepEqual(decodeAbiParameters(schema, encoded), [42n, 'ootle'])
+  assert.throws(() => decodeAbiParameters(schema, encoded.slice(0, 66)))
+  const methods = []
+  const server = http.createServer(async (req, res) => {
+    const chunks = []
+    for await (const chunk of req) chunks.push(chunk)
+    const body = JSON.parse(Buffer.concat(chunks).toString())
+    methods.push(body.method)
+    res.setHeader('Content-Type', 'application/json')
+    res.end(JSON.stringify({ jsonrpc: '2.0', id: body.id, result: body.method === 'eth_chainId' ? '0x1' : '0x2a' }))
+  })
+  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve))
+  try {
+    const client = createPublicClient({ transport: rpcHttp(`http://127.0.0.1:${server.address().port}`, { retryCount: 0 }) })
+    assert.equal(await client.getChainId(), 1)
+    assert.equal(await client.getBlockNumber(), 42n)
+    assert.deepEqual(methods, ['eth_chainId', 'eth_blockNumber'])
+  } finally { server.closeAllConnections(); await new Promise(resolve => server.close(resolve)) }
+})
 
 test('get-uri retains FTP download and modification-time behavior with its scoped FTP patch', { timeout: 5000 }, async () => {
   const sockets = new Set()
