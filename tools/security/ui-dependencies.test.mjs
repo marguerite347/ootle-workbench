@@ -53,6 +53,28 @@ test('UML transform render-props retain controls and image content', () => {
   assert.match(markup, /z-index:2/)
 })
 
+test('UML generator converts parsed contracts through the product DOT renderer into SVG', () => {
+  const parser = require('@solidity-parser/parser')
+  const { convertAST2UmlClasses } = require('sol2uml/lib/converterAST2Classes')
+  const source = fs.readFileSync(new URL('../../apps/remix-ide/src/app/plugins/solidity-umlgen.tsx', import.meta.url), 'utf8')
+  const code = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.React, esModuleInterop: true } }).outputText
+  const module = { exports: {} }
+  vm.runInNewContext(code, { module, exports: module.exports, window: { SolidityParser: parser }, require: id => {
+    if (id === '@remixproject/engine-web') return { ViewPlugin: class {} }
+    if (id.startsWith('@remix-ui/') || id === '@remix-api' || id.startsWith('libs/')) return {}
+    return require(id)
+  } })
+  const ast = parser.parse('pragma solidity ^0.8.0; contract Base { uint256 public count; } contract Counter is Base { function increment() public { count++; } }')
+  const classes = convertAST2UmlClasses(ast, 'Counter.sol', [])
+  assert.deepEqual(classes.map(item => item.name).sort(), ['Base', 'Counter'])
+  const dot = module.exports.convertUmlClasses2Dot(classes, false, { backColor: '#ffffff', textColor: '#000000', shapeColor: '#000000', fillColor: '#ffffff' })
+  const svg = require('@aduh95/viz.js/sync')(dot)
+  assert.match(svg, /<svg/)
+  assert.match(svg, />Base</)
+  assert.match(svg, />Counter</)
+  assert.match(svg, /increment/)
+})
+
 test('status popover keeps keyboard trigger semantics and floating accessibility/position props', () => {
   const Trigger = loadStatusComponent('scamAlertStatus')
   const Details = loadStatusComponent('scamDetails')
