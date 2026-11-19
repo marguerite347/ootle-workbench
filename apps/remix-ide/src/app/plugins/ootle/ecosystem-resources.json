@@ -5624,7 +5624,7 @@
       "ecosystem": "tari-ootle",
       "group": "Developer tools",
       "title": "SupportXTM Ootle mainnet faucet",
-      "summary": "Community faucet offering a random 1–10 TARI to a mainnet Ootle (L2) address. The public form and displayed spendable balance were reachable on November 11, 2026. This is separate from SupportXTM’s L1 XTM faucets. The page links the official burn guide to explain how its Ootle funds originate from L1. No address was submitted and no payout was independently verified during this read-only check. A source repository and license are not published on the inspected page.",
+      "summary": "Community faucet offering a random 1–10 TARI to a mainnet Ootle (L2) address. Its public page, request form and displayed spendable balance were reachable on November 19, 2026 with scripts disabled. This is separate from SupportXTM’s L1 XTM faucets. The page links the official burn guide for the origin of its Ootle funds. The recording shows only the public page; no address was submitted and no payout was independently verified. A source repository, license and public original announcement were not found on the inspected page; the linked faucet page is the retained discovery source.",
       "status": "Web faucet · Ootle mainnet",
       "sourceUrl": "https://faucet-ootle.supportxtm.com/",
       "repoUrl": null,
@@ -5639,7 +5639,7 @@
       "platform": "Web",
       "upstreamRevision": "f5f1eca69e71a5248fbd3671ef9f1c20417388245ffe55f08965e80e27275a96",
       "sourceUpdatedAt": null,
-      "lastCheckedAt": "2026-11-11T12:37:57.536833+00:00",
+      "lastCheckedAt": "2026-11-19T15:47:58.887898+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -5649,7 +5649,12 @@
         "l2"
       ],
       "cardSummary": "Request 1–10 TARI for an Ootle mainnet address from this community faucet.",
-      "cardStatus": "Web faucet · Ootle mainnet"
+      "cardStatus": "Web faucet · Ootle mainnet",
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-supportxtm-mainnet-20261119.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-supportxtm-mainnet-20261119.png",
+        "source": "Docs walkthrough"
+      }
     },
     {
       "id": "tari-ootle:component:piecework",
