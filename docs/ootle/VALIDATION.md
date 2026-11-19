@@ -145,3 +145,9 @@ Reuse the existing engine tests, template parity check, companion smoke test and
 - Scoped basic-ftp 6.2.5 to get-uri; an actual loopback FTP exchange checks file bytes and modification-time behavior without third-party downloads.
 - 58 maintenance integration checks, four advisory-evidence checks, library builds and the corrected production build pass locally on Node 24.19.0 / Yarn 1.22.22. The first full UML build exposed missing editor type packages and a changed function signature; both were corrected before this commit. Existing production warnings remain. No native Electron, provider authentication, wallet or network transaction test is claimed.
 - The current exact-lock npm advisory inventory contains eight affected package groups; this is not an all-clear audit. CI must regenerate bundle presence evidence. Merged-revision deployment and desktop/mobile acceptance are separate publication steps.
+
+## Phone right-panel layout — 2026-11-19
+
+A restored open right panel left Home only 32 pixels wide at a 390-pixel viewport, reducing catalog video width to zero. Reuse the existing 750-pixel phone sidebar overlay and panel toggle for the right panel, with a visible Close right panel control. The persisted plugin and workspace remain managed by the existing panel implementation. Desktop panel sizing is unchanged.
+
+Seven catalog and UI dependency checks pass. The production build and browser acceptance on phone, tablet and desktop are tracked in the dated maintenance handoff; this source change alone does not establish deployed acceptance.

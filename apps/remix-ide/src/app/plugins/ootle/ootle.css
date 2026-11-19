@@ -39,6 +39,9 @@
 @media(max-width:750px){
   .remixIDE #side-panel{position:absolute;inset:0 0 0 50px;width:calc(100% - 50px)!important;max-width:none;min-width:0;z-index:20;background:var(--bs-body-bg,#222336);flex-direction:column}
   .remixIDE #side-panel>.panel{flex:1;min-height:0;position:relative}
+  .remixIDE #right-side-panel{position:absolute;inset:0 0 0 50px;width:calc(100% - 50px)!important;max-width:none;min-width:0;z-index:21;background:var(--bs-body-bg,#222336);flex-direction:column!important}
+  .remixIDE #right-side-panel>.panel{flex:1;min-height:0;position:relative}
+  .remixIDE:has(#right-side-panel:not(.d-none)) #main-panel{visibility:hidden}
   .remixIDE:has(#side-panel:not(.d-none)) #main-panel{visibility:hidden}
   .remixIDE #sidepanel-dragbar-draggable{display:none}
   .ootle-mobile-sidebar-close{display:block;flex-shrink:0;align-self:flex-end;min-height:2.75rem;margin:.5rem;padding:.5rem .75rem;border:1px solid var(--secondary,#594879);border-radius:5px;background:var(--light,#302b42);color:var(--text,#eee);font-size:.875rem}
