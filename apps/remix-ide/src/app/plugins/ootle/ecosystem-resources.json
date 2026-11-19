@@ -280,7 +280,7 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Erebus / Chiron Ootle SDK",
-      "summary": "Community TypeScript account, transaction and private-transfer helpers used by Sapient. Reviewed November 18, 2026: readable source version 0.5.1 updates official Ootle TypeScript dependencies to 0.15 and WASM/BOR bindings to 0.53.2, correcting a nested older encoder that failed burn-claim transaction serialization. The README documents mainnet, Esmeralda and Igor configuration, network-specific local storage, HTLC journals and private fee sources. The maintainer reports mainnet and Esmeralda dry-run results; this catalog did not repeat them. The early 0.x SDK includes vendored WASM patches. npm lists 0.5.2, but its referenced source commit returned unavailable during this review, so this listing describes the independently readable 0.5.1 source. The recording walks through that pinned source change without installation, wallet use or transactions.",
+      "summary": "Community TypeScript account, transaction and private-transfer helpers extracted from Sapient and a Tari web wallet. Reviewed November 19, 2026: npm publication 0.5.4 points to readable creator commit 6ceee2761086, updating official Ootle clients to 0.18 and WASM/BOR to 0.53.5. The default repository branch still shows 0.5.1; the linked publication commit and package manifest establish the newer version. The README documents mainnet, Esmeralda and Igor configuration, separate network storage and HTLC journals. Configuration support is not a deployed app. The maintainer reports Esmeralda test results; this catalog did not repeat them. This early 0.x package retains a vendored legacy WASM dependency. The November 19 announcement recording shows the 0.5.4 source change without installation, wallet use or transactions.",
       "status": "Early community SDK",
       "sourceUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
       "repoUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
@@ -292,9 +292,9 @@
       "license": "MIT",
       "network": "Ootle L2 · Mainnet, Esmeralda and Igor configuration",
       "platform": "TypeScript",
-      "upstreamRevision": "f3c18cffffad35d5b69987421654512a2df6b355",
-      "sourceUpdatedAt": "2026-11-11T18:22:07Z",
-      "lastCheckedAt": "2026-11-18T17:57:57.401208+00:00",
+      "upstreamRevision": "6ceee27610862ef264224df06b8b0f107fc5de03",
+      "sourceUpdatedAt": "2026-11-18T23:47:56Z",
+      "lastCheckedAt": "2026-11-19T19:08:07.500210+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -304,9 +304,9 @@
       ],
       "demoUrl": null,
       "preview": {
-        "video": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-20261118.mp4",
-        "image": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-20261118.png",
-        "source": "Docs walkthrough"
+        "video": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-20261119.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-20261119.png",
+        "source": "Announcement"
       },
       "discussionLinks": [
         {
@@ -321,13 +321,24 @@
         {
           "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/f3c18cffffad35d5b69987421654512a2df6b355",
           "platform": "GitHub source change",
-          "context": "Current readable source version",
+          "context": "Historical 0.5.1 source change",
           "publishedAt": "2026-11-11T18:22:07Z"
+        },
+        {
+          "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/6ceee27610862ef264224df06b8b0f107fc5de03",
+          "platform": "GitHub source change",
+          "context": "npm 0.5.4 publication source",
+          "publishedAt": "2026-11-18T23:47:56Z"
+        },
+        {
+          "url": "https://www.npmjs.com/package/@chironbuilder/ootle-sdk/v/0.5.4",
+          "platform": "npm publication",
+          "publishedAt": "2026-11-18T23:52:10.725Z"
         }
       ],
-      "cardSummary": "Build Ootle account, transaction and private-transfer flows with community TypeScript helpers used by Sapient.",
-      "cardStatus": "Early SDK · Source v0.5.1",
-      "lastAttemptAt": "2026-11-18T17:57:57.401208+00:00"
+      "cardSummary": "Build Ootle account, transaction and private-transfer flows with community TypeScript helpers extracted from wallet projects.",
+      "cardStatus": "Early SDK · v0.5.4",
+      "lastAttemptAt": "2026-11-19T19:08:07.500210+00:00"
     },
     {
       "id": "tari-ootle:component:caravel-faucet",
