@@ -341,6 +341,53 @@
       "lastAttemptAt": "2026-11-19T19:08:07.500210+00:00"
     },
     {
+      "id": "tari-ootle:component:tari-cipherseed",
+      "key": "tari-cipherseed",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "SDKs",
+      "title": "Tari Cipherseed",
+      "summary": "Unofficial TypeScript library for Tari CipherSeed recovery phrases and Ristretto account/view-key derivation. Reviewed November 20, 2026: the source manifest declares version 0.2.0 and the BSD-3-Clause license explicitly disclaims Tari Project affiliation. The README documents seven mnemonic languages, Tari-specific encoding rather than BIP-39, and a patched vendored Argon2d implementation. Custom seed passphrases require the lower-level API; Japanese and Korean text normalization can affect imports. The maintainer describes Rust golden-vector checks; this catalog did not execute them or verify cryptographic compatibility. The recording shows public README text with scripts and downloads disabled. No recovery phrase, wallet or funds were used. This library is source tooling, not a mainnet deployment.",
+      "status": "Unofficial community library",
+      "sourceUrl": "https://github.com/chironbuilds/tari-cipherseed",
+      "repoUrl": "https://github.com/chironbuilds/tari-cipherseed",
+      "docsUrl": "https://github.com/chironbuilds/tari-cipherseed#readme",
+      "creator": {
+        "name": "Chiron / Erebus",
+        "url": "https://github.com/chironbuilds"
+      },
+      "license": "BSD-3-Clause",
+      "network": "Tari seed format and Ootle account-key derivation; network-independent source library",
+      "platform": "TypeScript",
+      "upstreamRevision": "a3f3b4000801eaae5ba16294ddf35eee3d14cacd",
+      "sourceUpdatedAt": "2026-08-16T06:31:27Z",
+      "lastCheckedAt": "2026-11-20T14:35:51.799738+00:00",
+      "lastAttemptAt": "2026-11-20T14:35:51.799738+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "sdks",
+        "community"
+      ],
+      "demoUrl": null,
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-tari-cipherseed-20261120.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-tari-cipherseed-20261120.png",
+        "source": "Docs walkthrough"
+      },
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/cc-nomination-0xhra/695/1",
+          "platform": "Tari Community forum",
+          "context": "Fox lists the library among 0xhra’s contributions",
+          "publishedAt": "2026-11-19T16:44:39.908Z"
+        }
+      ],
+      "cardSummary": "Encode Tari recovery phrases and derive account keys with an unofficial TypeScript library supporting seven mnemonic languages.",
+      "cardStatus": "Source library · TypeScript · v0.2.0"
+    },
+    {
       "id": "tari-ootle:component:caravel-faucet",
       "key": "caravel-faucet",
       "type": "component",
