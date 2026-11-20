@@ -1365,7 +1365,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Seance — privacy demo",
-      "summary": "Compare what strangers, recipients and auditors can learn from private Esmeralda payments. The creator’s v2 searches the latest 40 indexer transactions locally before asking for a user-entered ID; an explicit Ask for it anyway action can disclose that ID. November 5 review read both live versions, the original announcements and creator videos. The initial example remains a labeled saved October 20 copy. A read-only Summon inspection during this review returned a current Commit receipt; request counters are the page’s own report. The creator’s November 4 update identifies a republished SeanceAuditorToken template after the November 2 reset; its indexer ABI page was reachable. Old token state and payments were removed, while the saved ledger remains available. Receipts alone cannot reverify missing encrypted transaction bodies. Optional Sapient payments go to a demonstration recipient whose view key is public. Timing, fees and spend links remain visible; the quantum discussion is a simulation using published demo keys. The unchanged October 31 recording covers the transaction picker and request disclosure, with no wallet or payment. Historical creator wallet footage is not a new transaction test. v1 remains available at its earlier URL; this project is distinct from DevXTools’ sealed polls.",
+      "summary": "Compare stranger, recipient and auditor views of private Esmeralda payments. November 20, 2026: the creator submitted SeanceAuditorToken to First to Launch; public Ootle mainnet metadata confirms its template publication committed at 13:36:30 UTC. The creator says the app is being switched; the reviewed app text and README still identify Esmeralda, so the browser app remains labeled Testnet. The v2 searches 40 recent indexer transactions locally before asking for an ID; Ask for it anyway can disclose that ID. The saved October 20 example remains historical. November 5 read-only review returned a Commit receipt, but receipts cannot reconstruct missing encrypted bodies. The November 2 reset removed old payments and token state. Optional Sapient payments use a demo recipient with a public view key; timing, fees and spend links remain visible. The quantum discussion uses published demo keys. The retained October 31 walkthrough covers the picker and request disclosure without a wallet or payment; it does not demonstrate the planned mainnet app. This project is distinct from DevXTools’ sealed polls.",
       "status": "Web app · Testnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
       "repoUrl": "https://github.com/Kylne700/seance-v2",
@@ -1379,7 +1379,7 @@
       "network": "Esmeralda testnet",
       "platform": "Browser",
       "upstreamRevision": "b8c7bc8eb270433857fdc72778309ad09bf41cd2",
-      "sourceUpdatedAt": "2026-11-04T10:53:56.487Z",
+      "sourceUpdatedAt": "2026-11-20T13:42:24.267Z",
       "lastCheckedAt": "2026-11-05T11:55:34.397Z",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -1413,6 +1413,11 @@
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/44",
           "platform": "Tari Community forum",
           "context": "November 2 testnet reset and template republishing notice"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/18",
+          "platform": "Tari Community forum",
+          "context": "Mainnet template publication; browser app switch still planned"
         }
       ],
       "cardSummary": "Compare what strangers, recipients and auditors can read from private testnet payments, including the metadata that remains public.",
@@ -1421,7 +1426,8 @@
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-v2-20261031.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-v2-20261031.png",
         "source": "Docs walkthrough"
-      }
+      },
+      "lastAttemptAt": "2026-11-20T14:17:53.326280+00:00"
     },
     {
       "id": "tari-ootle:component:graveyard-shift",
@@ -5373,12 +5379,12 @@
       "type": "learn",
       "ecosystem": "tari-ootle",
       "group": "Releases",
-      "title": "Ootle v0.54.0 release notes",
-      "summary": "Ootle v0.54.0, published November 17, removes in-place component template changes. Validators and indexers must upgrade together; UpdateComponentTemplate is rejected without an activation epoch. In tari_template_lib 0.41.0, remove ComponentBuilder::with_upgrade_rule when compiling. Previously deployed templates run unchanged. Review the full release notes before upgrading. No software was installed during this source review. The November 17 recording walks through the original source page, with page scripts and downloads disabled.",
+      "title": "Ootle v0.55.0 release notes",
+      "summary": "Ootle v0.55.0, published November 20, introduces transaction schema V2 while accepting V1 transactions, per-component rules updaters and paged validator catch-up. Wallet key management removes keys.create, keys.list and keys.set_active; validator-fee permissions change to vn_fees:read and vn_fees:claim. Template library 0.42.0 defaults new components to RulesUpdater::Locked. The release also changes the WalletNetworkInterface SDK requirement and FFI ABI to ootle-sdk-ffi-c/20, and patches libz-sys for RUSTSEC-2026-0544. Review the complete notes before upgrading. The previous v0.54.0 prohibition on in-place template changes remains documented at its retained link. Source review only; no node, wallet or template upgrade was performed. The November 20 recording is a scripts-disabled walkthrough of these release notes.",
       "status": "Official stable release",
-      "sourceUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.54.0",
+      "sourceUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.55.0",
       "repoUrl": null,
-      "docsUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.54.0",
+      "docsUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.55.0",
       "demoUrl": null,
       "creator": {
         "name": "Tari contributors",
@@ -5387,9 +5393,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle mainnet and Esmeralda",
       "platform": "Documentation",
-      "upstreamRevision": "v0.54.0",
-      "sourceUpdatedAt": "2026-11-17T09:32:16Z",
-      "lastCheckedAt": "2026-11-17T19:04:56.458Z",
+      "upstreamRevision": "v0.55.0",
+      "sourceUpdatedAt": "2026-11-20T06:21:53Z",
+      "lastCheckedAt": "2026-11-20T14:00:54.768Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -5402,14 +5408,19 @@
           "url": "https://github.com/tari-project/tari-ootle/pull/3824",
           "platform": "GitHub",
           "context": "Release change: disable in-place component template updates"
+        },
+        {
+          "url": "https://github.com/tari-project/tari-ootle/releases/tag/v0.54.0",
+          "platform": "GitHub",
+          "context": "Previous stable release v0.54.0 and its compatibility notes"
         }
       ],
       "cardSummary": "Check the latest Ootle upgrade requirements and changes affecting validators, indexers and template authors.",
-      "cardStatus": "Stable release · v0.54.0",
-      "sourceContentSha256": "9ae8f5780e234d0e15fdfed1fafd66231c72719e90cf6efec30c560186f08bfd",
+      "cardStatus": "Stable release · v0.55.0",
+      "sourceContentSha256": "083ce5fbffe7351784c364337baddda0cee05a7c7eefe58454fba857c52ac477",
       "preview": {
-        "video": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261117.mp4",
-        "image": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261117.jpg",
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261120.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261120.png",
         "source": "Docs walkthrough"
       }
     },
@@ -5766,6 +5777,171 @@
         "image": "https://lobby.tari.com/previews/community/resource-poolsplit-20261119.png",
         "source": "Docs walkthrough"
       }
+    },
+    {
+      "id": "tari-ootle:component:splitbill",
+      "key": "splitbill",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "SplitBill",
+      "summary": "MIT-licensed group-expense template and walletless browser simulation. Members pay equal shares; the organizer can claim only when all required shares are paid, while contributors can request refunds after an incomplete bill reaches its deadline. November 20, 2026: the creator explicitly states that the template is not published to a network and the Live tab is a placeholder. The README pins tari_template_lib 0.40; its 15 engine-test results are creator-reported. Local personas and simulated balances are separate from a deployed application. Review used the original forum post, full README, MIT license, public page text and available deployment metadata. No third-party code was installed or executed, and no wallet or transaction was operated. The recording is a continuous README walkthrough with page scripts and downloads disabled.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Model equal group expenses, exact share payments and deadline refunds through a walletless simulation and Rust template source.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/29",
+      "repoUrl": "https://github.com/sandi215/splitbill",
+      "docsUrl": "https://github.com/sandi215/splitbill#readme",
+      "demoUrl": "https://sandi215.github.io/splitbill/",
+      "creator": {
+        "name": "Sandixhunter / Sandi Priatna",
+        "url": "https://github.com/sandi215"
+      },
+      "license": "MIT",
+      "network": "Unpublished template; walletless simulation",
+      "platform": "Rust · Browser",
+      "upstreamRevision": "590c9ca7dee7b3d26c4603b0db07eaeaf0c99a5e",
+      "sourceUpdatedAt": "2026-11-19T17:02:40.062Z",
+      "lastAttemptAt": "2026-11-20T14:13:21.060080+00:00",
+      "lastCheckedAt": "2026-11-20T14:13:21.060080+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "splitbill"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/29",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://bsky.app/profile/sandixhunter.bsky.social/post/3n2o26mpfqu2t",
+          "platform": "Bluesky",
+          "context": "Creator announcement linked in original submission"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-splitbill-20261120.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-splitbill-20261120.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:stillhere",
+      "key": "stillhere",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "StillHere",
+      "summary": "MIT-licensed dead-man’s-switch vault with an owner badge, beneficiary, epoch deadline and walletless simulation. The badge holder can check in, withdraw, change the beneficiary or close the vault; after the deadline anyone may trigger payment directly to the beneficiary. A late check-in before release revives the vault. November 20, 2026: the official Esmeralda indexer records the submitted template publication as committed on November 19, network byte 38. The browser is a simulation, not a wallet interface. The README reports 55 engine tests; these were not rerun. Review used the original forum post, full README, MIT license, public page text and available deployment metadata. No third-party code was installed or executed, and no wallet or transaction was operated. The recording is a continuous README walkthrough with page scripts and downloads disabled.",
+      "status": "Testnet template · Browser simulation",
+      "cardStatus": "Testnet template · Browser simulation",
+      "cardSummary": "Explore heartbeat check-ins and beneficiary releases through an Esmeralda vault template and walletless browser simulation.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/30",
+      "repoUrl": "https://github.com/Godson-droid/stillhere",
+      "docsUrl": "https://github.com/Godson-droid/stillhere#readme",
+      "demoUrl": "https://godson-droid.github.io/stillhere/sim/",
+      "creator": {
+        "name": "Godson-droid",
+        "url": "https://github.com/Godson-droid"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet; walletless browser simulation",
+      "platform": "Rust · Browser",
+      "upstreamRevision": "0a7b5cada6d6f5012dccc4b5fae2a1123b47755f",
+      "sourceUpdatedAt": "2026-11-20T08:10:19.334Z",
+      "lastAttemptAt": "2026-11-20T14:13:21.060080+00:00",
+      "lastCheckedAt": "2026-11-20T14:13:21.060080+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "stillhere"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/30",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FG9eTxrUMZw",
+          "platform": "YouTube",
+          "context": "Creator video linked in original submission"
+        },
+        {
+          "url": "https://esme-indexer-a.ootle.tari.com/transactions/217ce22b3f7ee37a4df0efb5c728d255dfe546dd30deb93e45b9163cdf766e4b",
+          "platform": "Esmeralda indexer",
+          "context": "Template publication metadata"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-stillhere-20261120.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-stillhere-20261120.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:semvi",
+      "key": "semvi",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "Semvi",
+      "summary": "MIT-licensed Ootle vault and read-only proof interface for at-most-once business payments. The contract consumes a job ID together with payment, across fresh transactions and different relayers. November 20, 2026: official mainnet metadata confirms the Semvi template publication, constructor transaction and a committed execute call on the creator’s published vault at 10:24:57 UTC; the retry at 10:25:07 finalized with only its fee intent committed. The creator’s proof describes OperationConsumed and both relayers belong to one demo wallet. This does not establish independent-user adoption or guaranteed delivery. Each vault has a permanent 256-job limit; amounts, recipients and job IDs are public. Refused retries can cost fees, signed intents cannot be revoked before expiry, and losing the payer key prevents recovery. Template library 0.41.0 and engine tooling 0.54.0 are declared in the README. Review used the original forum post, full README, MIT license, public page text and available deployment metadata. No third-party code was installed or executed, and no wallet or transaction was operated. The recording is a continuous README walkthrough with page scripts and downloads disabled.",
+      "status": "Mainnet · Public payment records · Retry fees",
+      "cardStatus": "Mainnet · Public payment records · Retry fees",
+      "cardSummary": "Inspect a payment vault that consumes business job IDs once, with public records for checking payments and retries.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/31",
+      "repoUrl": "https://github.com/emmaGH1/semvi",
+      "docsUrl": "https://github.com/emmaGH1/semvi#readme",
+      "demoUrl": "https://emmagh1.github.io/semvi/",
+      "creator": {
+        "name": "heisemma / emmaGH1",
+        "url": "https://github.com/emmaGH1"
+      },
+      "license": "MIT",
+      "network": "Ootle mainnet",
+      "platform": "Rust · Browser",
+      "upstreamRevision": "60957dcd58c494365bfaca2f7cfd6ab920229d7d",
+      "sourceUpdatedAt": "2026-11-20T13:42:48.517Z",
+      "lastAttemptAt": "2026-11-20T14:13:21.060080+00:00",
+      "lastCheckedAt": "2026-11-20T14:13:21.060080+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "semvi"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/31",
+          "platform": "Tari Community forum",
+          "context": "Original November MVP submission"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/19",
+          "platform": "Tari Community forum",
+          "context": "Same project submitted to First to Launch"
+        },
+        {
+          "url": "https://youtu.be/wkOu1xMxNpE",
+          "platform": "YouTube",
+          "context": "Creator announcement video"
+        },
+        {
+          "url": "https://explorer.tari.mw/tx/568fae79b3f70690c1434ce9487dd7c12c6a2cb40c547d4a86995d9cd0c785ab",
+          "platform": "Mainnet explorer",
+          "context": "Committed execute call matching the published vault"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-semvi-20261120.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-semvi-20261120.png",
+        "source": "Docs walkthrough"
+      }
     }
   ],
   "opportunities": [
@@ -5861,25 +6037,25 @@
     },
     {
       "id": "dnode-make-me-laugh-november",
-      "title": "DNode meme contest voting",
-      "summary": "The organizer opened voting on November 19 after submissions closed. Reply to the Tari Community thread naming one entrant; one vote per account and no self-voting. Voting closes November 26, 2026, with no exact closing time or timezone specified. The announced prize is 75,000 XTM. The organizer replaced the proposed forum poll with voting by reply because the entry count exceeds the poll limit. No winner has been announced. The November 19 recording walks through the public voting announcement without submitting a vote.",
-      "sourceUrl": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/21",
+      "title": "DNode meme contest",
+      "summary": "November 20, 2026: Fox temporarily locked the voting thread while discussing an alternative voting method with Okz to avoid email noise. The earlier November 19 rules requested one reply vote per account, prohibited self-voting and set November 26 as the deadline without an exact time or timezone. Those reply instructions are paused; no replacement method, revised deadline or winner was confirmed in the reviewed thread. The announced prize remains 75,000 XTM. This recording shows the public pause announcement; no vote was submitted.",
+      "sourceUrl": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/31",
       "publishedAt": "2026-11-04",
       "expiresAt": null,
-      "status": "Voting open through November 26; exact closing time and timezone unspecified",
-      "cardSummary": "Choose a Tari meme contest entrant by replying to the organizer’s voting thread, with one vote per account.",
-      "cardStatus": "Voting · Until Nov 26 · Timezone unspecified",
+      "status": "Voting paused; awaiting organizer update",
+      "cardSummary": "Follow the Tari meme contest entries while organizers review an alternative voting method after pausing the thread.",
+      "cardStatus": "Voting paused",
       "creator": {
         "name": "DNodeCapital"
       },
       "preview": {
-        "video": "https://lobby.tari.com/previews/community/resource-dnode-voting-20261119.mp4",
-        "image": "https://lobby.tari.com/previews/community/resource-dnode-voting-20261119.png",
+        "video": "https://lobby.tari.com/previews/community/resource-dnode-pause-20261120.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-dnode-pause-20261120.png",
         "source": "Announcement"
       },
       "lastCheckedAt": "2026-11-05T01:06:03.449883+00:00",
-      "sourceUpdatedAt": "2026-11-19T13:08:51.196Z",
-      "lastAttemptAt": "2026-11-19T14:14:49.404631+00:00",
+      "sourceUpdatedAt": "2026-11-20T12:48:22.048Z",
+      "lastAttemptAt": "2026-11-20T14:17:53.326280+00:00",
       "discussionLinks": [
         {
           "url": "https://x.com/DNodeCapital/status/2117932964285730872",
@@ -5890,6 +6066,11 @@
           "url": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/21",
           "platform": "Tari Community forum",
           "context": "Organizer voting rules"
+        },
+        {
+          "url": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/31",
+          "platform": "Tari Community forum",
+          "context": "Fox temporarily paused the voting thread on November 20"
         }
       ]
     }
