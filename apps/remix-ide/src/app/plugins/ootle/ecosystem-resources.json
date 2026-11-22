@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-11-04T23:25:59.355615+00:00",
+  "reviewedAt": "2026-11-22T18:20:20.370790+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -5987,6 +5987,316 @@
       "preview": {
         "video": "https://lobby.tari.com/previews/community/resource-semvi-20261120.mp4",
         "image": "https://lobby.tari.com/previews/community/resource-semvi-20261120.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:cappurse",
+      "key": "cappurse",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "CapPurse",
+      "summary": "November 22, 2026: A payer funds a vault and grants a helper spending limits, optional expiry and merchant restrictions. Limits do not reserve funds; payment also depends on the available vault balance. Amounts and memos are public and refunds are not provided. The creator explicitly says the template has not been published to Esmeralda or mainnet. Review used original submission text, README, license metadata and extracted public-page text. Creator test results were not rerun. This recording is a continuous README walkthrough with page scripts and downloads disabled; no wallet, funds or third-party code was operated.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore delegated spending caps, merchant allowlists and revocation through a walletless simulation and Rust vault template.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/32",
+      "repoUrl": "https://github.com/halfabillion/cappurse",
+      "docsUrl": "https://github.com/halfabillion/cappurse#readme",
+      "demoUrl": "https://halfabillion.github.io/cappurse/web/",
+      "creator": {
+        "name": "cappurse_dev / Ali Ghaedi",
+        "url": "https://github.com/halfabillion"
+      },
+      "license": "MIT",
+      "network": "Unpublished template; walletless simulation",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "963f64cc7d919b8ab0e1fe984892ca6b01437169",
+      "sourceUpdatedAt": "2026-11-20T20:34:47.496Z",
+      "lastAttemptAt": "2026-11-22T18:20:20.370790+00:00",
+      "lastCheckedAt": "2026-11-22T18:20:20.370790+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "cappurse"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/32",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y0bs1m/cappurse_a_spendcapped_allowance_vault_on_tari/",
+          "platform": "Creator-linked source",
+          "context": "Announcement linked by the creator"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-cappurse-20261122.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-cappurse-20261122.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:ootle-split",
+      "key": "ootle-split",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "Ootle Split",
+      "summary": "November 22, 2026: Shares total 10,000 basis points; anyone may deposit and request distribution, and rounding dust remains in the vault. Recipient accounts must accept deposits: an incompatible fixed recipient can lock funds. Recipients and amounts are public. The browser offers experimental Sapient distribution; creation and deposits use wallet CLI tooling. The README still contains a placeholder demo component. Current official catalogue metadata confirms the Split template; the submitted publication transaction was not known to the queried indexer, and no funded application flow was established by this review. Review used original submission text, README, license metadata and extracted public-page text. Creator test results were not rerun. This recording is a continuous README walkthrough with page scripts and downloads disabled; no wallet, funds or third-party code was operated.",
+      "status": "Mainnet template · Fixed recipients",
+      "cardStatus": "Mainnet template · Fixed recipients",
+      "cardSummary": "Inspect a fixed-share payment splitter with up to 32 recipients, public distributions and immutable recipient settings.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/34",
+      "repoUrl": "https://github.com/Techkeyy/ootle-split",
+      "docsUrl": "https://github.com/Techkeyy/ootle-split#readme",
+      "demoUrl": "https://techkeyy.github.io/ootle-split/",
+      "creator": {
+        "name": "praise / Techkeyy",
+        "url": "https://github.com/Techkeyy"
+      },
+      "license": "MIT",
+      "network": "Ootle mainnet template; browser interface",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "3680564e6144c8d52fbbf2d59ccf9287b540eb67",
+      "sourceUpdatedAt": "2026-11-21T06:32:55.228Z",
+      "lastAttemptAt": "2026-11-22T18:20:20.370790+00:00",
+      "lastCheckedAt": "2026-11-22T18:20:20.370790+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "ootle-split"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/34",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://bsky.app/profile/praiseprodigyy.bsky.social/post/3n2rfl6he7c2b",
+          "platform": "Creator-linked source",
+          "context": "Announcement linked by the creator"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/21",
+          "platform": "Tari Community forum",
+          "context": "Same project submitted to First to Launch"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-split-20261122.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-split-20261122.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:steady",
+      "key": "steady",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "Steady",
+      "summary": "November 22, 2026: The Payroll contract locks an aggregate budget and lets the employer release it; it does not enforce individual employee payments. Separate stealth payouts are outside that contract. Monthly total, headcount and roster hash are public, so small-team inference remains possible. Employer and claim interfaces are simulations; the proof page reads indexer metadata. The creator supplies a funded-vault and release history, but those submitted transaction IDs were not known to the queried indexer today. Both official catalogues independently confirm the deployed Payroll template. Review used original submission text, README, license metadata and extracted public-page text. Creator test results were not rerun. This recording is a continuous README walkthrough with page scripts and downloads disabled; no wallet, funds or third-party code was operated.",
+      "status": "Mainnet template · Payroll simulation",
+      "cardStatus": "Mainnet template · Payroll simulation",
+      "cardSummary": "Explore aggregate payroll funding and release records alongside simulated employer and employee views and a public proof page.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/35",
+      "repoUrl": "https://github.com/Devendurance/steady",
+      "docsUrl": "https://github.com/Devendurance/steady#readme",
+      "demoUrl": "https://devendurance.github.io/steady/",
+      "creator": {
+        "name": "geniusendy / Devendurance",
+        "url": "https://github.com/Devendurance"
+      },
+      "license": "MIT",
+      "network": "Ootle mainnet template; simulated employer and employee flows",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "e298436e6f26d5777e3a4b8af2b514c1fe8c406d",
+      "sourceUpdatedAt": "2026-11-21T06:33:02.151Z",
+      "lastAttemptAt": "2026-11-22T18:20:20.370790+00:00",
+      "lastCheckedAt": "2026-11-22T18:20:20.370790+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "steady"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/35",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://youtu.be/RFDgqCkQnB0",
+          "platform": "Creator-linked source",
+          "context": "Announcement linked by the creator"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/22",
+          "platform": "Tari Community forum",
+          "context": "Same project submitted to First to Launch"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-steady-20261122.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-steady-20261122.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:paidseal",
+      "key": "paidseal",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "PaidSeal",
+      "summary": "November 22, 2026: A receipt generator uses the receiver’s wallet export secret; this review did not operate it or acquire any secret. The browser verifier distinguishes chain amount/time evidence from a signed memo. A receipt does not establish the payer, an unspent balance or completion of promised work. Public-node queries expose the queried receipt, and receipts can be linked through the spend public key. The creator’s example is Tari L1 Esmeralda, separate from Ootle. GitHub’s license endpoint returned 404; the README claims MIT. Review used original submission text, README, license metadata and extracted public-page text. Creator test results were not rerun. This recording is a continuous README walkthrough with page scripts and downloads disabled; no wallet, funds or third-party code was operated.",
+      "status": "Tari L1 testnet · Receipt tool",
+      "cardStatus": "Tari L1 testnet · Receipt tool",
+      "cardSummary": "Inspect receiver-issued Tari payment receipts with separate chain evidence, signed notes and explicit privacy limits.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/36",
+      "repoUrl": "https://github.com/Heisdave/paidseal",
+      "docsUrl": "https://github.com/Heisdave/paidseal#readme",
+      "demoUrl": "https://heisdave.github.io/paidseal/verify.html",
+      "creator": {
+        "name": "Heisdave",
+        "url": "https://github.com/Heisdave"
+      },
+      "license": "MIT claimed in README; license file not found",
+      "network": "Tari L1 Esmeralda; not an Ootle deployment",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "7612ab3604e616796dc88f7cdf7b4bab78e26c20",
+      "sourceUpdatedAt": "2026-11-21T12:32:21.249Z",
+      "lastAttemptAt": "2026-11-22T18:20:20.370790+00:00",
+      "lastCheckedAt": "2026-11-22T18:20:20.370790+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "paidseal"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/36",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://youtu.be/to6edoNX_yk",
+          "platform": "Creator-linked source",
+          "context": "Announcement linked by the creator"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-paidseal-20261122.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-paidseal-20261122.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:undibukti",
+      "key": "undibukti",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "UndiBukti",
+      "summary": "November 22, 2026: The Rust draw template derives a result from the first eight epoch-hash bytes interpreted little-endian, modulo the public entry count. This is reproducible but not a claim of unbiased randomness: consensus influence and multiple accounts remain relevant. One account is not one person. The creator states no network template has been published. No draw, entry or transaction was performed. Review used original submission text, README, license metadata and extracted public-page text. Creator test results were not rerun. This recording is a continuous README walkthrough with page scripts and downloads disabled; no wallet, funds or third-party code was operated.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore community draws whose results can be recomputed from public entries and epoch hashes in a walletless simulation.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/38",
+      "repoUrl": "https://github.com/kungker/undibukti",
+      "docsUrl": "https://github.com/kungker/undibukti#readme",
+      "demoUrl": "https://kungker.github.io/undibukti/",
+      "creator": {
+        "name": "biggals",
+        "url": "https://github.com/kungker"
+      },
+      "license": "MIT",
+      "network": "Unpublished template; walletless simulation",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "40905d6f241cdd1dd6ac847cbfad691942c8b139",
+      "sourceUpdatedAt": "2026-11-21T15:57:35.384Z",
+      "lastAttemptAt": "2026-11-22T18:20:20.370790+00:00",
+      "lastCheckedAt": "2026-11-22T18:20:20.370790+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "undibukti"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/38",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y076hd/i_built_undibukti_a_tari_ootle_draw_where_anyone/",
+          "platform": "Creator-linked source",
+          "context": "Announcement linked by the creator"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-undibukti-20261122.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-undibukti-20261122.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:contari",
+      "key": "contari",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "Contari",
+      "summary": "November 22, 2026: React/Vite and Supabase preview for encrypted note lockers with wallet allowlists. Although note encryption happens in the client, the server holds a master key and the operator can decrypt notes; this is not operator-blind end-to-end encryption. Legacy URL-key lockers refuse unlocking. The README says contract publication/instantiation and wallet integration testing remain pending. Sapient or a compatible web-wallet provider is required for intended wallet flows. No locker was created or accessed. Review used original submission text, README, license metadata and extracted public-page text. Creator test results were not rerun. This recording is a continuous README walkthrough with page scripts and downloads disabled; no wallet, funds or third-party code was operated.",
+      "status": "Web preview · Wallet provider required",
+      "cardStatus": "Web preview · Wallet provider required",
+      "cardSummary": "Explore encrypted note sharing with wallet-based access lists in a preview that uses operator-managed decryption keys.",
+      "sourceUrl": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/23",
+      "repoUrl": "https://github.com/fawazfff/Contari",
+      "docsUrl": "https://github.com/fawazfff/Contari#readme",
+      "demoUrl": "https://contari-ten.vercel.app",
+      "creator": {
+        "name": "fawaztechyt",
+        "url": "https://github.com/fawazfff"
+      },
+      "license": "MIT",
+      "network": "Preview; no published or instantiated Ootle contract",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "fe7fadcef27d3acb18b791331fbfadcb910d570e",
+      "sourceUpdatedAt": "2026-11-21T13:44:40.212Z",
+      "lastAttemptAt": "2026-11-22T18:20:20.370790+00:00",
+      "lastCheckedAt": "2026-11-22T18:20:20.370790+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "contari"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/23",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://community.tari.com/t/november-mvp-build/732",
+          "platform": "Tari Community forum",
+          "context": "Announcement linked by the creator"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-contari-20261122.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-contari-20261122.png",
         "source": "Docs walkthrough"
       }
     }
