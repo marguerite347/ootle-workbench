@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-11-22T18:20:20.370790+00:00",
+  "reviewedAt": "2026-11-23T14:48:03.487809+00:00",
   "records": [
     {
       "id": "tari-ootle:learn:official-agent-docs",
@@ -6297,6 +6297,106 @@
       "preview": {
         "video": "https://lobby.tari.com/previews/community/resource-contari-20261122.mp4",
         "image": "https://lobby.tari.com/previews/community/resource-contari-20261122.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:ootle-street-nights",
+      "key": "ootle-street-nights",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "Ootle Street: Nights Edition",
+      "summary": "November 23, 2026: The creator describes browser racing with islands, bridges, ghost-mode timing and collisions. The browser demo runs client-side; its displayed escrow balances are not blockchain payment evidence. The README identifies companion Esmeralda template f96acf40ccf1dd2084b89c964a7ed1d2130b3fbb5a5aba2fb264dbb583da4a71 and reports nine engine tests. These results were not rerun; current deployment confirmation remains pending. Review covered the complete submission, README and MIT license metadata. Public app text extraction failed; app availability and operation were not established today. The recording shows the README with page scripts and downloads disabled. No wallet, funds or third-party code was operated.",
+      "status": "Browser prototype · Testnet companion",
+      "cardStatus": "Browser prototype · Testnet companion",
+      "cardSummary": "Explore a Miami street-racing prototype with local escrow simulation and a separately described Esmeralda contract.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/40",
+      "repoUrl": "https://github.com/Snateri999/ootle-street-nights-1.0",
+      "docsUrl": "https://github.com/Snateri999/ootle-street-nights-1.0#readme",
+      "demoUrl": "https://snateri999.github.io/ootle-street-nights-1.0/",
+      "creator": {
+        "name": "Snateri",
+        "url": "https://github.com/Snateri999"
+      },
+      "license": "MIT",
+      "network": "Local racing simulation; creator-reported Esmeralda escrow template",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "README-blob:bd38f23df369e0f3246e44cc8d1f95f999a369d8",
+      "sourceUpdatedAt": "2026-11-22T17:04:30.864Z",
+      "lastAttemptAt": "2026-11-23T14:48:03.487809+00:00",
+      "lastCheckedAt": "2026-11-23T14:48:03.487809+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "ootle-street-nights"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/40",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y2m4i2/november_build_mvp_ootle_street_nights_edition/",
+          "platform": "Creator-linked source",
+          "context": "Announcement linked by creator"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-street-nights-20261123.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-street-nights-20261123.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:rentvault",
+      "key": "rentvault",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "RentVault",
+      "summary": "November 23, 2026: Rental terms are fixed at creation. Both parties can confirm a full refund, owners can claim after the rental ends, renters can dispute within the window, and anyone can trigger settlement after eligible deadlines. A timely dispute always refunds the renter in full; the template does not adjudicate damage or split a contested claim. Deposit amounts and events are public. The creator reports twenty engine tests and explicitly states that the template is unpublished on Esmeralda and mainnet, with no wallet-connected frontend. Review covered the complete submission, README and MIT license metadata. Public app text extraction failed; app availability and operation were not established today. The recording shows the README with page scripts and downloads disabled. No wallet, funds or third-party code was operated.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore rental-deposit escrow rules with mutual release, claims, dispute refunds and deadlines in a walletless simulation.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/41",
+      "repoUrl": "https://github.com/factoruuu/rentvault",
+      "docsUrl": "https://github.com/factoruuu/rentvault#readme",
+      "demoUrl": "https://longan.celurut.online/rentvault/",
+      "creator": {
+        "name": "cherry / factoruuu",
+        "url": "https://github.com/factoruuu"
+      },
+      "license": "MIT",
+      "network": "Unpublished template; walletless simulation",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "7e956ac124ee27548d3c9ca4921de8733b0fe652",
+      "sourceUpdatedAt": "2026-11-22T23:55:01.779Z",
+      "lastAttemptAt": "2026-11-23T14:48:03.487809+00:00",
+      "lastCheckedAt": "2026-11-23T14:48:03.487809+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "rentvault"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/41",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://medium.com/@v_sraddha/rentvault-the-rental-deposit-without-the-argument-7c71c7451f39",
+          "platform": "Creator-linked source",
+          "context": "Announcement linked by creator"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-rentvault-20261123.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-rentvault-20261123.png",
         "source": "Docs walkthrough"
       }
     }
