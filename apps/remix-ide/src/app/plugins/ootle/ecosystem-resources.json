@@ -5887,10 +5887,10 @@
       "ecosystem": "tari-ootle",
       "group": "Community projects",
       "title": "StillHere",
-      "summary": "MIT-licensed dead-man’s-switch vault with an owner badge, beneficiary, epoch deadline and walletless simulation. The badge holder can check in, withdraw, change the beneficiary or close the vault; after the deadline anyone may trigger payment directly to the beneficiary. A late check-in before release revives the vault. November 20, 2026: the official Esmeralda indexer records the submitted template publication as committed on November 19, network byte 38. The browser is a simulation, not a wallet interface. The README reports 55 engine tests; these were not rerun. Review used the original forum post, full README, MIT license, public page text and available deployment metadata. No third-party code was installed or executed, and no wallet or transaction was operated. The recording is a continuous README walkthrough with page scripts and downloads disabled.",
-      "status": "Testnet template · Browser simulation",
-      "cardStatus": "Testnet template · Browser simulation",
-      "cardSummary": "Explore heartbeat check-ins and beneficiary releases through an Esmeralda vault template and walletless browser simulation.",
+      "summary": "MIT-licensed dead-man’s-switch vault with an owner badge, beneficiary, epoch deadline and walletless simulation. The badge holder can check in, withdraw, change the beneficiary or close the vault; after the deadline anyone may trigger payment directly to the beneficiary. A late check-in before release revives the vault. November 20, 2026: the official Esmeralda indexer records the submitted template publication as committed on November 19, network byte 38. The browser is a simulation, not a wallet interface. The README reports 55 engine tests; these were not rerun. Review used the original forum post, full README, MIT license, public page text and available deployment metadata. No third-party code was installed or executed, and no wallet or transaction was operated. The recording is a continuous README walkthrough with page scripts and downloads disabled. November 25, 2026: the updated original submission identifies a mainnet template, and current Veil metadata independently shows StillHere at address 207a50d20c6bac05cac441fa3560377e92ed493217fbac3147f72405c27b38bb, published at epoch 39124 with 15 functions and a 144.1 KB binary. The official mainnet indexer serves the matching publish transaction receipt. This establishes template publication, not a wallet-connected app or a tested vault. Esmeralda template evidence remains retained. The browser demo is a simulation. Current README revision 0a7b5cada6d6f5012dccc4b5fae2a1123b47755f remains identical to the November 20 source recording and still describes the earlier testnet deployment; the newer mainnet evidence is the creator edit and explorer record. No wallet, deposit, third-party code execution or independent engine-test run was performed.",
+      "status": "Mainnet template · Testnet · Browser simulation",
+      "cardStatus": "Mainnet template · Testnet · Browser simulation",
+      "cardSummary": "Explore heartbeat check-ins and beneficiary releases through Ootle mainnet and testnet templates and a walletless simulation.",
       "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/30",
       "repoUrl": "https://github.com/Godson-droid/stillhere",
       "docsUrl": "https://github.com/Godson-droid/stillhere#readme",
@@ -5900,11 +5900,11 @@
         "url": "https://github.com/Godson-droid"
       },
       "license": "MIT",
-      "network": "Esmeralda testnet; walletless browser simulation",
+      "network": "Ootle mainnet and Esmeralda testnet templates; walletless browser simulation",
       "platform": "Rust · Browser",
       "upstreamRevision": "0a7b5cada6d6f5012dccc4b5fae2a1123b47755f",
-      "sourceUpdatedAt": "2026-11-20T08:10:19.334Z",
-      "lastAttemptAt": "2026-11-20T14:13:21.060080+00:00",
+      "sourceUpdatedAt": "2026-11-21T13:08:07.893Z",
+      "lastAttemptAt": "2026-11-25T15:14:04.662355+00:00",
       "lastCheckedAt": "2026-11-20T14:13:21.060080+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -5927,6 +5927,16 @@
           "url": "https://esme-indexer-a.ootle.tari.com/transactions/217ce22b3f7ee37a4df0efb5c728d255dfe546dd30deb93e45b9163cdf766e4b",
           "platform": "Esmeralda indexer",
           "context": "Template publication metadata"
+        },
+        {
+          "url": "https://explorer.tari.mw/template/207a50d20c6bac05cac441fa3560377e92ed493217fbac3147f72405c27b38bb",
+          "platform": "Mainnet template",
+          "context": "November 25 read-only deployment evidence"
+        },
+        {
+          "url": "https://indexer-b.ootle.tari.com/transaction-receipts/7da7290cd8bb0f116c7ec53c70bd12d43e1a2566efe240375f26e295f343991d",
+          "platform": "Official mainnet publish receipt",
+          "context": "November 25 read-only deployment evidence"
         }
       ],
       "preview": {
