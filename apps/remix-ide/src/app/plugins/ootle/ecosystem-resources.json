@@ -6530,44 +6530,51 @@
     {
       "id": "november-first-launch",
       "title": "November First to Launch bonus",
-      "summary": "Fox’s November 1 organizer announcement offers an additional 100,000 XTM to each of the first twenty contest entrants to publish their contract on Ootle mainnet and reconfigure their app to use it. Entrants must provide transaction-timestamp evidence. The source says “by midnight November 11:11:11 November 21st UTC (one week after the launch)”; the mixed midnight/time wording is ambiguous. No exact deadline is inferred here. Read the original thread for organizer clarification before relying on eligibility. Terms and all available replies reviewed November 4, 2026; this listing does not demonstrate a mainnet deployment.",
+      "summary": "Checked November 25, 2026: Fox’s November 20 reply clarified the First to Launch cutoff as November 21 at 11:11:11 UTC in post 20. Entries are closed. The bonus offered 100,000 XTM to each of the first twenty qualifying contest entrants to publish a contract on Ootle mainnet and configure their app for it, ranked by transaction timestamp. The Council determines eligibility and awards; this listing does not confirm a payout or deployment.",
       "sourceUrl": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/1",
       "publishedAt": "2026-11-01T13:36:08.192Z",
-      "expiresAt": null,
-      "status": "Dated mainnet bonus announcement; exact deadline unclear in the original post; clarification review due November 5, 2026",
-      "cardSummary": "Earn an additional launch bonus by moving a contest app and its contract onto Ootle mainnet.",
-      "cardStatus": "100,000 XTM · First 20 · Mainnet · Deadline unclear",
+      "expiresAt": "2026-11-21T11:11:11Z",
+      "status": "Entries closed; organizer-confirmed cutoff",
+      "cardSummary": "Review the mainnet launch bonus rules and submitted projects after the organizer-confirmed November 21 cutoff.",
+      "cardStatus": "Entries closed · Nov 21, 11:11:11 UTC",
       "creator": {
         "name": "Fox"
       },
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-november-first-launch-20261102-8775272f27.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-november-first-launch-20261102-baa641d4dd.png",
-        "source": "Announcement — continuous walkthrough of Fox’s First to Launch bonus terms, including the first-twenty limit, mainnet evidence and ambiguous deadline wording; recorded November 2, 2026. No contract deployment or transaction was performed."
+        "video": "https://lobby.tari.com/previews/community/resource-first-launch-cutoff-20261125.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-first-launch-cutoff-20261125.png",
+        "source": "Announcement"
       },
-      "lastCheckedAt": "2026-11-04T16:44:52.831Z"
+      "lastCheckedAt": "2026-11-25T14:23:23.260931+00:00",
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/20",
+          "platform": "Tari Community forum",
+          "context": "Organizer cutoff clarification"
+        }
+      ]
     },
     {
       "id": "dnode-make-me-laugh-november",
       "title": "DNode meme contest",
-      "summary": "November 20, 2026: Fox temporarily locked the voting thread while discussing an alternative voting method with Okz to avoid email noise. The earlier November 19 rules requested one reply vote per account, prohibited self-voting and set November 26 as the deadline without an exact time or timezone. Those reply instructions are paused; no replacement method, revised deadline or winner was confirmed in the reviewed thread. The announced prize remains 75,000 XTM. This recording shows the public pause announcement; no vote was submitted.",
-      "sourceUrl": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/31",
+      "summary": "Checked November 25, 2026: organizer Okz’s November 20 post replaced reply voting with a single shortlist poll in post 34. Each creator’s most-liked entry was considered for twenty finalists. Earlier reply votes do not count; participants may select up to two entries in the poll. The stated closing date is November 26, without an exact time or timezone. The prize remains 75,000 XTM. No vote was submitted.",
+      "sourceUrl": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/34",
       "publishedAt": "2026-11-04",
       "expiresAt": null,
-      "status": "Voting paused; awaiting organizer update",
-      "cardSummary": "Follow the Tari meme contest entries while organizers review an alternative voting method after pausing the thread.",
-      "cardStatus": "Voting paused",
+      "status": "Shortlist poll open; closes November 26, exact timezone unspecified",
+      "cardSummary": "Choose up to two shortlisted Tari memes in the organizer’s replacement poll, with voting closing November 26.",
+      "cardStatus": "Shortlist voting · Closes Nov 26",
       "creator": {
         "name": "DNodeCapital"
       },
       "preview": {
-        "video": "https://lobby.tari.com/previews/community/resource-dnode-pause-20261120.mp4",
-        "image": "https://lobby.tari.com/previews/community/resource-dnode-pause-20261120.png",
+        "video": "https://lobby.tari.com/previews/community/resource-dnode-poll-20261125.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-dnode-poll-20261125.png",
         "source": "Announcement"
       },
-      "lastCheckedAt": "2026-11-05T01:06:03.449883+00:00",
-      "sourceUpdatedAt": "2026-11-20T12:48:22.048Z",
-      "lastAttemptAt": "2026-11-20T14:17:53.326280+00:00",
+      "lastCheckedAt": "2026-11-25T14:23:23.260931+00:00",
+      "sourceUpdatedAt": "2026-11-20T19:18:28.447Z",
+      "lastAttemptAt": "2026-11-25T14:23:23.260931+00:00",
       "discussionLinks": [
         {
           "url": "https://x.com/DNodeCapital/status/2117932964285730872",
@@ -6583,6 +6590,11 @@
           "url": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/31",
           "platform": "Tari Community forum",
           "context": "Fox temporarily paused the voting thread on November 20"
+        },
+        {
+          "url": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/34",
+          "platform": "Tari Community forum",
+          "context": "Organizer replacement voting poll"
         }
       ]
     }
