@@ -5426,12 +5426,12 @@
       "type": "learn",
       "ecosystem": "tari-ootle",
       "group": "Releases",
-      "title": "Ootle v0.55.0 release notes",
-      "summary": "Ootle v0.55.0, published November 20, introduces transaction schema V2 while accepting V1 transactions, per-component rules updaters and paged validator catch-up. Wallet key management removes keys.create, keys.list and keys.set_active; validator-fee permissions change to vn_fees:read and vn_fees:claim. Template library 0.42.0 defaults new components to RulesUpdater::Locked. The release also changes the WalletNetworkInterface SDK requirement and FFI ABI to ootle-sdk-ffi-c/20, and patches libz-sys for RUSTSEC-2026-0544. Review the complete notes before upgrading. The previous v0.54.0 prohibition on in-place template changes remains documented at its retained link. Source review only; no node, wallet or template upgrade was performed. The November 20 recording is a scripts-disabled walkthrough of these release notes.",
+      "title": "Ootle v0.56.0 release notes",
+      "summary": "Ootle v0.56.0, published November 24, adds an aarch64 template guard for CVE-2026-115893, component-scoped vault reads, stricter stealth-output validation and bounded decoding. Validators and indexers must upgrade together because engine changes take effect on deployment; cached templates recompile on first use. Wallet fixes cover stealth-resource scanning and transaction inputs. Manifest validation, template metadata and library APIs also change; review the full notes before upgrading. The release removes gix-hash for the listed RustSec advisories. Source review only: no node, wallet or dependency upgrade was performed. The November25 recording shows these release notes with page scripts and downloads disabled.",
       "status": "Official stable release",
-      "sourceUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.55.0",
+      "sourceUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.56.0",
       "repoUrl": null,
-      "docsUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.55.0",
+      "docsUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.56.0",
       "demoUrl": null,
       "creator": {
         "name": "Tari contributors",
@@ -5440,9 +5440,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle mainnet and Esmeralda",
       "platform": "Documentation",
-      "upstreamRevision": "v0.55.0",
-      "sourceUpdatedAt": "2026-11-20T06:21:53Z",
-      "lastCheckedAt": "2026-11-20T14:00:54.768Z",
+      "upstreamRevision": "v0.56.0",
+      "sourceUpdatedAt": "2026-11-24T09:36:57Z",
+      "lastCheckedAt": "2026-11-25T14:05:34.705Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -5460,14 +5460,19 @@
           "url": "https://github.com/tari-project/tari-ootle/releases/tag/v0.54.0",
           "platform": "GitHub",
           "context": "Previous stable release v0.54.0 and its compatibility notes"
+        },
+        {
+          "url": "https://github.com/tari-project/tari-ootle/releases/tag/v0.55.0",
+          "platform": "GitHub",
+          "context": "Previous stable release and compatibility history"
         }
       ],
       "cardSummary": "Check the latest Ootle upgrade requirements and changes affecting validators, indexers and template authors.",
-      "cardStatus": "Stable release · v0.55.0",
-      "sourceContentSha256": "083ce5fbffe7351784c364337baddda0cee05a7c7eefe58454fba857c52ac477",
+      "cardStatus": "Stable release · v0.56.0",
+      "sourceContentSha256": "ed84323468971811e962f3d14657814ce51e2ae18849b98f9eca50f8139e6936",
       "preview": {
-        "video": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261120.mp4",
-        "image": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261120.png",
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261125.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261125.png",
         "source": "Docs walkthrough"
       }
     },
@@ -6307,7 +6312,7 @@
       "ecosystem": "tari-ootle",
       "group": "Community projects",
       "title": "Ootle Street: Nights Edition",
-      "summary": "November 23, 2026: The creator describes browser racing with islands, bridges, ghost-mode timing and collisions. The browser demo runs client-side; its displayed escrow balances are not blockchain payment evidence. The README identifies companion Esmeralda template f96acf40ccf1dd2084b89c964a7ed1d2130b3fbb5a5aba2fb264dbb583da4a71 and reports nine engine tests. These results were not rerun; current deployment confirmation remains pending. Review covered the complete submission, README and MIT license metadata. Public app text extraction failed; app availability and operation were not established today. The recording shows the README with page scripts and downloads disabled. No wallet, funds or third-party code was operated.",
+      "summary": "November 23, 2026: The creator describes browser racing with islands, bridges, ghost-mode timing and collisions. The browser demo runs client-side; its displayed escrow balances are not blockchain payment evidence. The README identifies companion Esmeralda template f96acf40ccf1dd2084b89c964a7ed1d2130b3fbb5a5aba2fb264dbb583da4a71 and reports nine engine tests. These results were not rerun; current deployment confirmation remains pending. Review covered the complete submission, README and MIT license metadata. Public app text extraction failed; app availability and operation were not established today. The recording shows the README with page scripts and downloads disabled. No wallet, funds or third-party code was operated. November25: the creator reports a v14 browser update with revised mobile controls, camera look-ahead and an in-game controls guide in the linked follow-up. This is an attributed update, not a new runtime test; the November23 README recording remains a dated source overview.",
       "status": "Browser prototype · Testnet companion",
       "cardStatus": "Browser prototype · Testnet companion",
       "cardSummary": "Explore a Miami street-racing prototype with local escrow simulation and a separately described Esmeralda contract.",
@@ -6342,6 +6347,11 @@
           "url": "https://www.reddit.com/r/tari/comments/1y2m4i2/november_build_mvp_ootle_street_nights_edition/",
           "platform": "Creator-linked source",
           "context": "Announcement linked by creator"
+        },
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/42",
+          "platform": "Tari Community forum",
+          "context": "Creator v14 update, November24"
         }
       ],
       "preview": {
@@ -6397,6 +6407,51 @@
       "preview": {
         "video": "https://lobby.tari.com/previews/community/resource-rentvault-20261123.mp4",
         "image": "https://lobby.tari.com/previews/community/resource-rentvault-20261123.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:ootlegig",
+      "key": "ootlegig",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "OotleGig",
+      "summary": "November 25, 2026: The creator describes a client-funded job escrow with signer-checked acceptance and delivery, client approval, a review-window timeout payout and collectible delivery-receipt NFTs. Cancellation refunds an open job. Arbitration is outside v1; amounts and parties are public, while task and delivery texts remain off-chain. The creator reports eleven engine integration tests; these were not rerun. The README explicitly says the template is unpublished on Esmeralda and mainnet and the browser demo is a walletless simulation. The submission and README were read, and MIT license metadata confirmed. Public demo text extraction failed, so availability and operation were not established. The recording shows the source README with scripts and downloads disabled. No submission code, wallet or funds were operated.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore freelance job escrow, review-window payouts and delivery receipts through a walletless simulation and Rust template source.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/43",
+      "repoUrl": "https://github.com/GHEA12/ootlegig",
+      "docsUrl": "https://github.com/GHEA12/ootlegig#readme",
+      "demoUrl": "https://ghea12.github.io/ootlegig/",
+      "creator": {
+        "name": "Indra Dwi Junianto / IndraDJ",
+        "url": "https://github.com/GHEA12"
+      },
+      "license": "MIT",
+      "network": "Unpublished template; walletless simulation",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "README-blob:a83ac5579118d52564a595887e8ad5c4b8195b87",
+      "sourceUpdatedAt": "2026-11-25T10:28:55.057Z",
+      "lastAttemptAt": "2026-11-25T14:05:34.705Z",
+      "lastCheckedAt": "2026-11-25T14:05:34.705Z",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "ootlegig"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/43",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-ootlegig-20261125.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootlegig-20261125.png",
         "source": "Docs walkthrough"
       }
     }
