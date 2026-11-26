@@ -6464,6 +6464,56 @@
         "image": "https://lobby.tari.com/previews/community/resource-ootlegig-20261125.png",
         "source": "Docs walkthrough"
       }
+    },
+    {
+      "id": "tari-ootle:component:onescan",
+      "key": "onescan",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "OneScan",
+      "summary": "November 26, 2026: OneScan compares published Ootle template bytes with public source rebuilds and displays verifier-key attestations. The current mainnet explorer shows its SourceRegistry component, template 5b0efecc709ce6885b69738ce8f774f086ef0c6cb7b2a58920f8bab3e38f8b13 and SourceAttested events. The creator reports eight matching third-party templates out of thirteen checked, with warnings on some builds; those rebuilds and security tests were not rerun. Source matching is not a code audit. The site explains that Windows rebuilds lack its Linux container isolation and that an attestation is a statement by its verifier key. Current README, public site text and explorer metadata were reviewed. The recording is a genuine README walkthrough with scripts and downloads disabled; no template binaries, repository code, wallet or verification jobs were executed.",
+      "status": "Web tool · Mainnet registry",
+      "cardStatus": "Web tool · Mainnet registry",
+      "cardSummary": "Compare Ootle mainnet templates with public source rebuilds and inspect on-chain attestations, build settings and warnings.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/44",
+      "repoUrl": "https://github.com/Techkeyy/onescan-ootle",
+      "docsUrl": "https://github.com/Techkeyy/onescan-ootle#readme",
+      "demoUrl": "https://techkeyy.github.io/onescan-ootle/",
+      "creator": {
+        "name": "praise / Techkeyy",
+        "url": "https://github.com/Techkeyy"
+      },
+      "license": "MIT",
+      "network": "Ootle mainnet",
+      "platform": "Browser · Rust source",
+      "upstreamRevision": "README-blob:cbc23b9a26da6f5d4156843fabba3be79ae31677",
+      "sourceUpdatedAt": "2026-11-25T15:30:25.263Z",
+      "lastAttemptAt": "2026-11-26T17:40:08.150236+00:00",
+      "lastCheckedAt": "2026-11-26T17:40:08.150236+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "source-verification"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/44",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://bsky.app/profile/praiseprodigyy.bsky.social/post/3n35egw7lvs2l",
+          "platform": "Bluesky",
+          "context": "Creator announcement linked from the submission"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-onescan-20261126.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-onescan-20261126.png",
+        "source": "Docs walkthrough"
+      }
     }
   ],
   "opportunities": [
@@ -6567,13 +6617,13 @@
     {
       "id": "dnode-make-me-laugh-november",
       "title": "DNode meme contest",
-      "summary": "Checked November 25, 2026: organizer Okz’s November 20 post replaced reply voting with a single shortlist poll in post 34. Each creator’s most-liked entry was considered for twenty finalists. Earlier reply votes do not count; participants may select up to two entries in the poll. The stated closing date is November 26, without an exact time or timezone. The prize remains 75,000 XTM. No vote was submitted.",
-      "sourceUrl": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/34",
+      "summary": "November 26, 2026: organizer Okz closed voting in post 45 on November 25 and announced an equal 75,000 XTM split: 25,000 XTM each for ekelebe_stuner, edwrdtzy and AilceY49165. Post 47 retains that decision and post 49 links the completed community montage. These are organizer-announced results; payment completion was not established. The earlier poll recording is retained as dated archival footage.",
+      "sourceUrl": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/45",
       "publishedAt": "2026-11-04",
-      "expiresAt": null,
-      "status": "Shortlist poll open; closes November 26, exact timezone unspecified",
-      "cardSummary": "Choose up to two shortlisted Tari memes in the organizer’s replacement poll, with voting closing November 26.",
-      "cardStatus": "Shortlist voting · Closes Nov 26",
+      "expiresAt": "2026-11-25T23:32:03.040Z",
+      "status": "Closed · Winners announced",
+      "cardSummary": "Read the organizer’s three announced winners and community meme montage, with the prize split equally between them.",
+      "cardStatus": "Closed · Winners announced",
       "creator": {
         "name": "DNodeCapital"
       },
@@ -6582,9 +6632,9 @@
         "image": "https://lobby.tari.com/previews/community/resource-dnode-poll-20261125.png",
         "source": "Announcement"
       },
-      "lastCheckedAt": "2026-11-25T14:23:23.260931+00:00",
-      "sourceUpdatedAt": "2026-11-20T19:18:28.447Z",
-      "lastAttemptAt": "2026-11-25T14:23:23.260931+00:00",
+      "lastCheckedAt": "2026-11-26T17:40:08.150236+00:00",
+      "sourceUpdatedAt": "2026-11-26T10:27:40.479Z",
+      "lastAttemptAt": "2026-11-26T17:40:08.150236+00:00",
       "discussionLinks": [
         {
           "url": "https://x.com/DNodeCapital/status/2117932964285730872",
@@ -6605,6 +6655,16 @@
           "url": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/34",
           "platform": "Tari Community forum",
           "context": "Organizer replacement voting poll"
+        },
+        {
+          "url": "https://community.tari.com/t/make-me-laugh-win-75k-xtm-100/531/49",
+          "platform": "Tari Community forum",
+          "context": "Organizer result and montage"
+        },
+        {
+          "url": "https://x.com/DNodeCapital/status/2125898046093283756",
+          "platform": "X",
+          "context": "Montage linked by organizer"
         }
       ]
     }
