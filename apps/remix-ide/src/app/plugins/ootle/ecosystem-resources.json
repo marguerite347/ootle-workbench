@@ -5329,7 +5329,7 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Ootle Forge",
-      "summary": "MIT-licensed collectible-crafting game source and walletless simulation. The proposed Rust template burns EMBER and a forge fee to mint tiered relics, combines three matching relics into a higher tier, and melts duplicates into materials. The admin-badge holder controls fee withdrawals. The README and hosted page explicitly say the template is unpublished on Esmeralda and mainnet. Simulation amounts and NFTs have no real value; creator engine-test claims remain attributed source statements. The source warns that its randomness is game-grade. This recording shows the README and deployment limits; no game or template was executed.",
+      "summary": "MIT-licensed collectible-crafting game source and walletless simulation. The proposed Rust template burns EMBER and a forge fee to mint tiered relics, combines three matching relics into a higher tier, and melts duplicates into materials. The admin-badge holder controls fee withdrawals. The README and hosted page explicitly say the template is unpublished on Esmeralda and mainnet. Simulation amounts and NFTs have no real value; creator engine-test claims remain attributed source statements. The source warns that its randomness is game-grade. This recording shows the README and deployment limits; no game or template was executed. November 26: repeated submission, current README text and hosted-page text retain the unpublished simulation status. The original listing, source post and November 17 walkthrough are preserved; the new post does not identify a material product change.",
       "status": "Browser simulation · Rust source",
       "cardStatus": "Browser simulation · Rust source",
       "cardSummary": "Gather crafting materials, forge collectible relics, combine matching tiers and recycle duplicates in a walletless browser simulation.",
@@ -5345,7 +5345,7 @@
       "platform": "Rust template · JavaScript simulation",
       "upstreamRevision": "9abf20fb0b42b5d168fa04719f0b6572fba95702",
       "sourceUpdatedAt": "2026-11-17T14:22:24.853Z",
-      "lastAttemptAt": "2026-11-17T14:35:57.771225+00:00",
+      "lastAttemptAt": "2026-11-26T19:30:54.119564+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -5361,6 +5361,11 @@
         {
           "url": "https://medium.com/@rismahamja01/ootle-forge-a-collectible-crafting-game-on-tari-ootle-november-build-contest-entry-3e6d3d9cd8f6",
           "platform": "Medium"
+        },
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/46",
+          "platform": "Tari Community forum",
+          "context": "November 26 repeated creator submission; same project and simulation status"
         }
       ],
       "preview": {
@@ -5368,7 +5373,7 @@
         "image": "https://lobby.tari.com/previews/community/resource-ootle-forge-20261117.jpg",
         "source": "Docs walkthrough"
       },
-      "lastCheckedAt": null,
+      "lastCheckedAt": "2026-11-26T19:30:54.119564+00:00",
       "demoUrl": "https://rismahamja04.github.io/ootle-forge/"
     },
     {
@@ -6427,7 +6432,7 @@
       "ecosystem": "tari-ootle",
       "group": "Community projects",
       "title": "OotleGig",
-      "summary": "November 25, 2026: The creator describes a client-funded job escrow with signer-checked acceptance and delivery, client approval, a review-window timeout payout and collectible delivery-receipt NFTs. Cancellation refunds an open job. Arbitration is outside v1; amounts and parties are public, while task and delivery texts remain off-chain. The creator reports eleven engine integration tests; these were not rerun. The README explicitly says the template is unpublished on Esmeralda and mainnet and the browser demo is a walletless simulation. The submission and README were read, and MIT license metadata confirmed. Public demo text extraction failed, so availability and operation were not established. The recording shows the source README with scripts and downloads disabled. No submission code, wallet or funds were operated.",
+      "summary": "November 26, 2026: The creator describes a client-funded job escrow with signer-checked acceptance and delivery, client approval, a review-window timeout payout and collectible delivery-receipt NFTs. Cancellation refunds an open job. Arbitration is outside v1; amounts and parties are public, while task and delivery texts remain off-chain. The creator reports eleven engine integration tests; these were not rerun. The README explicitly says the template is unpublished on Esmeralda and mainnet and the browser demo is a walletless simulation. The submission and README were read, and MIT license metadata confirmed. Public demo text extraction recovered on November 26 and confirms the simulation label, role controls, epoch clock and receipt flow. This was a read-only text review; simulation operation was not tested. The earlier failed read remains in the private review history. The recording shows the source README with scripts and downloads disabled. No submission code, wallet or funds were operated.",
       "status": "Browser simulation · Rust source",
       "cardStatus": "Browser simulation · Rust source",
       "cardSummary": "Explore freelance job escrow, review-window payouts and delivery receipts through a walletless simulation and Rust template source.",
@@ -6443,9 +6448,9 @@
       "network": "Unpublished template; walletless simulation",
       "platform": "Browser · Source code",
       "upstreamRevision": "README-blob:a83ac5579118d52564a595887e8ad5c4b8195b87",
-      "sourceUpdatedAt": "2026-11-25T10:28:55.057Z",
-      "lastAttemptAt": "2026-11-25T14:05:34.705Z",
-      "lastCheckedAt": "2026-11-25T14:05:34.705Z",
+      "sourceUpdatedAt": "2026-11-25T21:48:36.597Z",
+      "lastAttemptAt": "2026-11-26T19:30:54.119564+00:00",
+      "lastCheckedAt": "2026-11-26T19:30:54.119564+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -6457,6 +6462,11 @@
           "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/43",
           "platform": "Tari Community forum",
           "context": "Original creator submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y53ua1/i_built_ootlegig_escrow_for_freelance_gigs_as_an/",
+          "platform": "Reddit",
+          "context": "Creator announcement added to submission"
         }
       ],
       "preview": {
@@ -6512,6 +6522,55 @@
       "preview": {
         "video": "https://lobby.tari.com/previews/community/resource-onescan-20261126.mp4",
         "image": "https://lobby.tari.com/previews/community/resource-onescan-20261126.png",
+        "source": "Docs walkthrough"
+      }
+    },
+    {
+      "id": "tari-ootle:component:ootle-circle",
+      "key": "ootle-circle",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "Ootle Circle",
+      "summary": "November 26, 2026: The creator describes rotating savings circles with equal round contributions, one scheduled recipient per round and collateral to cover missed payments. The organizer can arrange the payout order and start or cancel a circle, but cannot withdraw its funds. Amounts are public. The current README and public page explicitly identify a walletless simulation and a template not published to Esmeralda or mainnet. Creator-reported engine and simulation tests were not rerun. MIT source and README were reviewed; the genuine recording scrolls the README with scripts and downloads disabled. No repository code, wallet, funds or simulation controls were operated.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore rotating savings circles, scheduled pot payouts and collateral rules through a walletless simulation and Rust template source.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/45",
+      "repoUrl": "https://github.com/Khazmi-lab/ootle-circle",
+      "docsUrl": "https://github.com/Khazmi-lab/ootle-circle#readme",
+      "demoUrl": "https://khazmi-lab.github.io/ootle-circle/",
+      "creator": {
+        "name": "Metaz Al Khazmi / Khazmi-lab",
+        "url": "https://github.com/Khazmi-lab"
+      },
+      "license": "MIT",
+      "network": "Unpublished template; walletless simulation",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "README-blob:08848b17ff59d4136d32eda205f4e617f2143422",
+      "sourceUpdatedAt": "2026-11-25T19:20:41.149Z",
+      "lastAttemptAt": "2026-11-26T19:30:54.119564+00:00",
+      "lastCheckedAt": "2026-11-26T19:30:54.119564+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "ootle-circle"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/45",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y5djxl/ootle_circle_a_jamiya_tontine_susu_savings_circle/",
+          "platform": "Reddit"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-circle-20261126.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-circle-20261126.png",
         "source": "Docs walkthrough"
       }
     }
