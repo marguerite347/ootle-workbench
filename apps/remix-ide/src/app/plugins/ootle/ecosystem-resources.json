@@ -7015,6 +7015,54 @@
       "lastAttemptAt": "2026-11-27T17:27:56.682859+00:00",
       "upstreamRevision": "forum-post:2517;version:1",
       "sourceContentSha256": "58385d29ee87dcb5e44143996b740916f5fe93582c7d3ed0692a5fa32fdbfa43"
+    },
+    {
+      "id": "tari-ootle:component:ootle-indexer-check",
+      "key": "ootle-indexer-check",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Developer tools",
+      "title": "Ootle Indexer Check",
+      "summary": "November 27, 2026: LuxeDigitalNest publishes an MIT-licensed browser diagnostic tool for the two official Ootle indexers on mainnet and Esmeralda. Current hosted HTML returned HTTP 200 and exposes both network options, live-check and explicitly captured-testnet modes, retention estimates and JSON export. The two indexers share one provider; agreement is not independent consensus or proof of settlement. Configured retention does not establish whether an individual record exists. Creator-reported November 26 tests and live requests were not rerun. This is off-chain read-only tooling, not a deployed smart contract. The Reddit announcement has no comments and says its forum entry is still being prepared. The genuine recording shows the README with scripts and downloads disabled; no submission code, wallet, transaction or report download was executed.",
+      "status": "Web app · Read-only diagnostics",
+      "cardStatus": "Web app · Read-only diagnostics",
+      "cardSummary": "Compare public Ootle indexer health, readiness and retention windows, then export dated diagnostic observations without connecting a wallet.",
+      "sourceUrl": "https://www.reddit.com/r/tari/comments/1y615sr/november_mvp_ootle_indexer_check_free_readonly/",
+      "docsUrl": "https://github.com/luxedigitalnest/ldn-ootle-indexer-check#readme",
+      "creator": {
+        "name": "LuxeDigitalNest",
+        "url": "https://github.com/luxedigitalnest"
+      },
+      "license": "MIT",
+      "network": "Ootle mainnet and Esmeralda; off-chain read-only diagnostics",
+      "platform": "Browser",
+      "upstreamRevision": "f08e464a378dee34f4e661a282af94ac6267fce9",
+      "sourceUpdatedAt": "2026-11-26",
+      "lastAttemptAt": "2026-11-27T18:47:28.826542+00:00",
+      "lastCheckedAt": "2026-11-27T18:47:28.826542+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "diagnostics",
+        "indexer"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y615sr/november_mvp_ootle_indexer_check_free_readonly/",
+          "platform": "Reddit",
+          "context": "Original creator announcement; forum submission not yet established",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-indexer-check-20261127.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-indexer-check-20261127.png",
+        "source": "Docs walkthrough"
+      },
+      "demoUrl": "https://luxedigitalnest.github.io/ldn-ootle-indexer-check/",
+      "repoUrl": "https://github.com/luxedigitalnest/ldn-ootle-indexer-check",
+      "sourceContentSha256": "92936047fdff6e67aaa0fe5f6db3a6f0f3d2253a44db83e78cb97dcf23181977"
     }
   ],
   "opportunities": [
