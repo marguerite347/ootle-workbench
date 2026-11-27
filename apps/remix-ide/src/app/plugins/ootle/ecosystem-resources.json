@@ -5431,12 +5431,12 @@
       "type": "learn",
       "ecosystem": "tari-ootle",
       "group": "Releases",
-      "title": "Ootle v0.56.0 release notes",
-      "summary": "Ootle v0.56.0, published November 24, adds an aarch64 template guard for CVE-2026-115893, component-scoped vault reads, stricter stealth-output validation and bounded decoding. Validators and indexers must upgrade together because engine changes take effect on deployment; cached templates recompile on first use. Wallet fixes cover stealth-resource scanning and transaction inputs. Manifest validation, template metadata and library APIs also change; review the full notes before upgrading. The release removes gix-hash for the listed RustSec advisories. Source review only: no node, wallet or dependency upgrade was performed. The November25 recording shows these release notes with page scripts and downloads disabled.",
+      "title": "Ootle v0.57.0 release notes",
+      "summary": "Ootle v0.57.0, published November 27, improves recovery after quorum loss, meters confidential commitments and rejects repeated stealth commitments before execution is charged. It supports full-width revealed amounts and fixes wallet change accounting and batched substate validation. Validators and indexers must coordinate this engine/consensus upgrade. SDK consumers must review the U128 amount changes and FFI ABI ootle-sdk-ffi-c/21 before adopting it. The full release notes describe compatibility boundaries and remaining details. This is a source review; no node, wallet or product dependency upgrade was performed. The November 27 recording is a genuine release-notes walkthrough with scripts and downloads disabled.",
       "status": "Official stable release",
-      "sourceUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.56.0",
+      "sourceUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.57.0",
       "repoUrl": null,
-      "docsUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.56.0",
+      "docsUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.57.0",
       "demoUrl": null,
       "creator": {
         "name": "Tari contributors",
@@ -5445,9 +5445,9 @@
       "license": "BSD-3-Clause",
       "network": "Ootle mainnet and Esmeralda",
       "platform": "Documentation",
-      "upstreamRevision": "v0.56.0",
-      "sourceUpdatedAt": "2026-11-24T09:36:57Z",
-      "lastCheckedAt": "2026-11-25T14:05:34.705Z",
+      "upstreamRevision": "v0.57.0",
+      "sourceUpdatedAt": "2026-11-27T12:31:58Z",
+      "lastCheckedAt": "2026-11-27T14:35:20.066340+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -5470,16 +5470,22 @@
           "url": "https://github.com/tari-project/tari-ootle/releases/tag/v0.55.0",
           "platform": "GitHub",
           "context": "Previous stable release and compatibility history"
+        },
+        {
+          "url": "https://github.com/tari-project/tari-ootle/releases/tag/v0.56.0",
+          "platform": "GitHub",
+          "context": "Previous stable release and compatibility history"
         }
       ],
       "cardSummary": "Check the latest Ootle upgrade requirements and changes affecting validators, indexers and template authors.",
-      "cardStatus": "Stable release · v0.56.0",
-      "sourceContentSha256": "ed84323468971811e962f3d14657814ce51e2ae18849b98f9eca50f8139e6936",
+      "cardStatus": "Stable release · v0.57.0",
+      "sourceContentSha256": "d85fbeb2f6e59676112abb8db3164a58a803b3f541c01aaad2524b021cd41856",
       "preview": {
-        "video": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261125.mp4",
-        "image": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261125.png",
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261127.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261127.png",
         "source": "Docs walkthrough"
-      }
+      },
+      "lastAttemptAt": "2026-11-27T14:35:20.066340+00:00"
     },
     {
       "id": "tari-ootle:learn:fungible-tokens",
