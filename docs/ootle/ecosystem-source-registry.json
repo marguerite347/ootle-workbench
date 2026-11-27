@@ -17436,8 +17436,8 @@
       "note": "Original forum text reviewed. Other listed sources remain independently pending; full resource success date preserved."
     },
     "project:macotaur": {
-      "lastSuccessfulReviewAt": "2026-11-19T17:09:56.708Z",
-      "observedAvailability": "Full unchanged GUI README and v0.1.0 release reviewed, plus current linked core README and both releases throughv0.2.0. Tari L1 C29 miner for Apple Silicon/macOS15+, ad-hoc signed/not notarized; existing type/platform/README recording remain accurate. No download, mining, execution or protection changes.",
+      "lastSuccessfulReviewAt": "2026-11-27T19:23:35.345Z",
+      "observedAvailability": "GUI0.1.0 and core0.2.0 release notes remain available, requiring Apple Silicon/macOS15+, with ad-hoc signing and no notarization. Tari L1 mining tool, not an Ootle deployment. Release metadata only: no binaries acquired, protections changed or mining performed.",
       "id": "project:macotaur",
       "title": "Macotaur",
       "sources": [
@@ -17445,29 +17445,27 @@
         "https://github.com/big-chief-1889/MacotaurGUI",
         "https://github.com/big-chief-1889/MacotaurGUI/blob/main/README.md"
       ],
-      "lastAttemptAt": "2026-11-27T17:52:00.924Z",
+      "lastAttemptAt": "2026-11-27T19:23:35.345Z",
       "sourceReviews": {
         "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0": {
           "url": "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0",
-          "status": "read",
-          "attemptedAt": "2026-11-19T14:32:43.471795+00:00",
           "hash": "719941ffc65274ab67753f855d1b2820a9319292ced864c43faf945c76c71ccd",
+          "attemptedAt": "2026-11-27T17:33:38.865197+00:00",
+          "evidence": "work/daily-2026-11-27/c19ddae9147cfc79-719941ffc65274ab67753f855d1b2820a9319292ced864c43faf945c76c71ccd.txt",
           "revision": "480dcca4757d8c3415670a976b5f1485cce64884",
-          "evidence": "work/daily-2026-11-19/c19ddae9147cfc79-719941ffc65274ab67753f855d1b2820a9319292ced864c43faf945c76c71ccd.txt",
-          "scope": "Full current release inventory includes retained tag",
-          "lastAttemptAt": "2026-11-19T14:32:43.471795+00:00",
-          "lastSuccessfulReadAt": "2026-11-19T14:32:43.471795+00:00",
+          "scope": "Complete release notes and metadata; no release artifact acquired.",
+          "lastAttemptAt": "2026-11-27T17:33:38.865197+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T17:33:38.865197+00:00",
+          "status": "read",
           "error": null
         },
         "https://github.com/big-chief-1889/MacotaurGUI": {
           "url": "https://github.com/big-chief-1889/MacotaurGUI",
-          "attemptedAt": "2026-11-27T17:33:39.150443+00:00",
           "hash": "5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791",
+          "attemptedAt": "2026-11-27T17:33:39.150443+00:00",
           "evidence": "work/daily-2026-11-27/2ed8fe5463dbe799-5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791.txt",
           "revision": "480dcca4757d8c3415670a976b5f1485cce64884",
-          "readmeSha": "4ac5e1cb551a878534d3e9704777e634763d57b6",
-          "scope": "Current immutable README and repository metadata acquired; editorial reconciliation and linked paths remain separate.",
-          "releaseEvidence": "work/daily-2026-11-27/c19ddae9147cfc79-719941ffc65274ab67753f855d1b2820a9319292ced864c43faf945c76c71ccd.txt",
+          "scope": "Full current README and repository metadata reviewed; equivalent README URL mapped to exact default-branch revision.",
           "lastAttemptAt": "2026-11-27T17:33:39.150443+00:00",
           "lastSuccessfulReadAt": "2026-11-27T17:33:39.150443+00:00",
           "status": "read",
@@ -17475,20 +17473,20 @@
         },
         "https://github.com/big-chief-1889/MacotaurGUI/blob/main/README.md": {
           "url": "https://github.com/big-chief-1889/MacotaurGUI/blob/main/README.md",
-          "status": "read",
-          "attemptedAt": "2026-11-19T14:32:43.471795+00:00",
           "hash": "5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791",
+          "attemptedAt": "2026-11-27T17:33:39.150443+00:00",
+          "evidence": "work/daily-2026-11-27/2ed8fe5463dbe799-5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791.txt",
           "revision": "480dcca4757d8c3415670a976b5f1485cce64884",
-          "evidence": "work/daily-2026-11-19/2ed8fe5463dbe799-5b538af7c6cce90d0feea4fe0f6133e66d87062bfe933eb70332aac5edb13791.txt",
-          "scope": "Canonical repository README identity and current source text; fragment/blob aliases reconciled to the same README",
-          "lastAttemptAt": "2026-11-19T14:32:43.471795+00:00",
-          "lastSuccessfulReadAt": "2026-11-19T14:32:43.471795+00:00",
+          "scope": "Full current README and repository metadata reviewed; equivalent README URL mapped to exact default-branch revision.",
+          "lastAttemptAt": "2026-11-27T17:33:39.150443+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T17:33:39.150443+00:00",
+          "status": "read",
           "error": null
         }
       },
-      "outcome": "pending",
+      "outcome": "reviewed",
       "changedSources": [],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-28T14:00:00Z",
@@ -17497,14 +17495,11 @@
         "https://github.com/big-chief-1889/MacotaurGUI",
         "https://github.com/big-chief-1889/MacotaurGUI/blob/main/README.md"
       ],
-      "sourceObservation": "Full unchanged GUI README and v0.1.0 release reviewed, plus current linked core README and both releases throughv0.2.0. Tari L1 C29 miner for Apple Silicon/macOS15+, ad-hoc signed/not notarized; existing type/platform/README recording remain accurate. No download, mining, execution or protection changes.",
+      "sourceObservation": "GUI0.1.0 and core0.2.0 release notes remain available, requiring Apple Silicon/macOS15+, with ad-hoc signing and no notarization. Tari L1 mining tool, not an Ootle deployment. Release metadata only: no binaries acquired, protections changed or mining performed.",
       "reviewScope": "Exact original threads, repository README/releases and linked public destinations. Browser and publication acceptance separately recorded.",
       "copyUpdated": false,
       "reviewedSourceCount": 3,
-      "pendingReviewSources": [
-        "https://github.com/big-chief-1889/MacotaurGUI/releases/tag/v0.1.0",
-        "https://github.com/big-chief-1889/MacotaurGUI/blob/main/README.md"
-      ],
+      "pendingReviewSources": [],
       "comparisonEvidence": "work/daily-2026-11-18/macotaur-cake-source-review.json",
       "blockedSources": [],
       "attemptReceipts": [
@@ -17612,11 +17607,14 @@
           "attemptedAt": "2026-11-19T17:09:56.708Z",
           "previousLastSuccessfulReviewAt": "2026-11-18T16:38:45.671072+00:00",
           "evidence": "work/daily-2026-11-19/wallet-miner-source-review.json"
+        },
+        {
+          "attemptedAt": "2026-11-27T19:23:35.345Z",
+          "evidence": "work/daily-2026-11-27/seven-resource-review.json"
         }
       ],
       "evidence": [
-        "work/daily-2026-11-18/macotaur-cake-source-review.json",
-        "work/daily-2026-11-19/wallet-miner-source-review.json"
+        "work/daily-2026-11-27/seven-resource-review.json"
       ],
       "networkClassificationReview": {
         "checkedAt": "2026-11-11T13:14:48.171Z",
@@ -33775,21 +33773,19 @@
         "https://github.com/penielgold-hub/Ghost-Lantern/blob/main/README.md",
         "https://github.com/penielgold-hub/Ghost-Lantern/releases"
       ],
-      "lastSuccessfulReviewAt": "2026-11-19T16:35:53.539Z",
-      "outcome": "pending",
-      "reviewRequired": true,
+      "lastSuccessfulReviewAt": "2026-11-27T19:23:35.345Z",
+      "outcome": "reviewed",
+      "reviewRequired": false,
       "canonicalResourceId": "ghost-lantern",
-      "lastAttemptAt": "2026-11-27T17:52:00.924Z",
+      "lastAttemptAt": "2026-11-27T19:23:35.345Z",
       "sourceReviews": {
         "https://github.com/penielgold-hub/Ghost-Lantern": {
           "url": "https://github.com/penielgold-hub/Ghost-Lantern",
-          "attemptedAt": "2026-11-27T17:33:59.874533+00:00",
           "hash": "98b76ff068f83b8de2441ec182e3821c352c59d36f2c5bfdb2e4cf7d2b383bf5",
+          "attemptedAt": "2026-11-27T17:33:59.874533+00:00",
           "evidence": "work/daily-2026-11-27/aefe9303d27fb998-98b76ff068f83b8de2441ec182e3821c352c59d36f2c5bfdb2e4cf7d2b383bf5.txt",
           "revision": "e6609ebfe7a451f2690f73b6959e9a67c9755b5e",
-          "readmeSha": "b4a8f889c873ae49bb8c11a4d25cb7ead43dfaab",
-          "scope": "Current immutable README and repository metadata acquired; editorial reconciliation and linked paths remain separate.",
-          "releaseEvidence": "work/daily-2026-11-27/ce603f9d73a0095b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Full current README and repository metadata reviewed; equivalent README URL mapped to exact default-branch revision.",
           "lastAttemptAt": "2026-11-27T17:33:59.874533+00:00",
           "lastSuccessfulReadAt": "2026-11-27T17:33:59.874533+00:00",
           "status": "read",
@@ -33797,34 +33793,31 @@
         },
         "https://github.com/penielgold-hub/Ghost-Lantern/blob/main/README.md": {
           "url": "https://github.com/penielgold-hub/Ghost-Lantern/blob/main/README.md",
-          "attemptedAt": "2026-11-19T15:52:35.712905+00:00",
           "hash": "98b76ff068f83b8de2441ec182e3821c352c59d36f2c5bfdb2e4cf7d2b383bf5",
-          "revision": "b4a8f889c873ae49bb8c11a4d25cb7ead43dfaab",
-          "evidence": "work/daily-2026-11-19/aefe9303d27fb998-98b76ff068f83b8de2441ec182e3821c352c59d36f2c5bfdb2e4cf7d2b383bf5.txt",
-          "scope": "Full README read; current branch/path proven by GitHub metadata and exact blob SHA.",
-          "comparisonEvidence": "work/daily-2026-11-19/readme-alias-verification.json",
-          "lastAttemptAt": "2026-11-19T15:52:35.712905+00:00",
-          "lastSuccessfulReadAt": "2026-11-19T15:52:35.712905+00:00",
+          "attemptedAt": "2026-11-27T17:33:59.874533+00:00",
+          "evidence": "work/daily-2026-11-27/aefe9303d27fb998-98b76ff068f83b8de2441ec182e3821c352c59d36f2c5bfdb2e4cf7d2b383bf5.txt",
+          "revision": "e6609ebfe7a451f2690f73b6959e9a67c9755b5e",
+          "scope": "Full current README and repository metadata reviewed; equivalent README URL mapped to exact default-branch revision.",
+          "lastAttemptAt": "2026-11-27T17:33:59.874533+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T17:33:59.874533+00:00",
           "status": "read",
           "error": null
         },
         "https://github.com/penielgold-hub/Ghost-Lantern/releases": {
           "url": "https://github.com/penielgold-hub/Ghost-Lantern/releases",
-          "attemptedAt": "2026-11-19T14:32:55.687331+00:00",
           "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-          "evidence": "work/daily-2026-11-19/ce603f9d73a0095b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
-          "scope": "Complete paginated release text and metadata reviewed; no asset download.",
-          "lastAttemptAt": "2026-11-19T14:32:55.687331+00:00",
-          "lastSuccessfulReadAt": "2026-11-19T14:32:55.687331+00:00",
+          "attemptedAt": "2026-11-27T17:33:59.582641+00:00",
+          "evidence": "work/daily-2026-11-27/ce603f9d73a0095b-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "revision": "e6609ebfe7a451f2690f73b6959e9a67c9755b5e",
+          "scope": "Complete release notes and metadata; no release artifact acquired.",
+          "lastAttemptAt": "2026-11-27T17:33:59.582641+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T17:33:59.582641+00:00",
           "status": "read",
           "error": null
         }
       },
-      "observedAvailability": "Educational source prototype with local Sender/Recipient simulations and a public Esmeralda Observer; no separate deployment or public original post established.",
-      "pendingReviewSources": [
-        "https://github.com/penielgold-hub/Ghost-Lantern/blob/main/README.md",
-        "https://github.com/penielgold-hub/Ghost-Lantern/releases"
-      ],
+      "observedAvailability": "Current complete README and empty release inventory retain local Sender/Recipient simulations and read-only public Esmeralda Observer records. Source-only educational prototype; no hosted app or official contest permalink in these primary sources. Existing source walkthrough remains accurate.",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [],
       "changedFields": [],
@@ -33841,9 +33834,7 @@
         }
       ],
       "evidence": [
-        "work/daily-2026-11-04/unchanged-resource-acceptance.json",
-        "work/daily-2026-11-19/clew-ghost-source-review.json",
-        "work/daily-2026-11-19/lobby-network-labels-live-acceptance.json"
+        "work/daily-2026-11-27/seven-resource-review.json"
       ],
       "reviewHistory": [
         {
@@ -33911,6 +33902,10 @@
           "previousLastSuccessfulReviewAt": "2026-11-04T11:59:29.167Z",
           "evidence": "work/daily-2026-11-19/clew-ghost-source-review.json",
           "scope": "Read full README and complete empty release inventory. Repository homepage absent; linked official protocol references are background references, not a hosted project destination. Existing November2 source walkthrough describes the same README and limitations. Live card network/type/source labels accepted in PR295; no application execution claimed."
+        },
+        {
+          "attemptedAt": "2026-11-27T19:23:35.345Z",
+          "evidence": "work/daily-2026-11-27/seven-resource-review.json"
         }
       ],
       "networkClassificationReview": {
@@ -33922,7 +33917,7 @@
           "work/daily-2026-11-19/lobby-network-labels-live-acceptance.json"
         ]
       },
-      "sourceObservation": "Read full README and complete empty release inventory. Repository homepage absent; linked official protocol references are background references, not a hosted project destination. Existing November2 source walkthrough describes the same README and limitations. Live card network/type/source labels accepted in PR295; no application execution claimed."
+      "sourceObservation": "Current complete README and empty release inventory retain local Sender/Recipient simulations and read-only public Esmeralda Observer records. Source-only educational prototype; no hosted app or official contest permalink in these primary sources. Existing source walkthrough remains accurate."
     },
     "project:taritalk-nodes": {
       "id": "project:taritalk-nodes",
@@ -35988,17 +35983,15 @@
         "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet",
         "https://github.com/tari-project/cw_tari_ootle_wallet/blob/main/README.md"
       ],
-      "lastAttemptAt": "2026-11-27T17:52:00.924Z",
+      "lastAttemptAt": "2026-11-27T19:23:35.345Z",
       "sourceReviews": {
         "https://github.com/tari-project/cw_tari_ootle_wallet": {
           "url": "https://github.com/tari-project/cw_tari_ootle_wallet",
-          "attemptedAt": "2026-11-27T17:34:03.690696+00:00",
           "hash": "dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4",
+          "attemptedAt": "2026-11-27T17:34:03.690696+00:00",
           "evidence": "work/daily-2026-11-27/cdae3a5efbb8aab7-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
           "revision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
-          "readmeSha": "4db0c42ed192c02ea6edf729897cdf0feecfa8cd",
-          "scope": "Current immutable README and repository metadata acquired; editorial reconciliation and linked paths remain separate.",
-          "releaseEvidence": "work/daily-2026-11-27/c3f6ebd2bce3efec-4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945.txt",
+          "scope": "Full current README and repository metadata reviewed; equivalent README URL mapped to exact default-branch revision.",
           "lastAttemptAt": "2026-11-27T17:34:03.690696+00:00",
           "lastSuccessfulReadAt": "2026-11-27T17:34:03.690696+00:00",
           "status": "read",
@@ -36006,39 +35999,36 @@
         },
         "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet": {
           "url": "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet",
-          "status": "read",
-          "attemptedAt": "2026-11-19T14:32:58.099825+00:00",
           "hash": "dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4",
+          "attemptedAt": "2026-11-27T17:34:03.690696+00:00",
+          "evidence": "work/daily-2026-11-27/cdae3a5efbb8aab7-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
           "revision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
-          "evidence": "work/daily-2026-11-19/cdae3a5efbb8aab7-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
-          "scope": "Canonical repository README identity and current source text; fragment/blob aliases reconciled to the same README",
-          "lastAttemptAt": "2026-11-19T14:32:58.099825+00:00",
-          "lastSuccessfulReadAt": "2026-11-19T14:32:58.099825+00:00",
+          "scope": "Full current README and repository metadata reviewed; equivalent README URL mapped to exact default-branch revision.",
+          "lastAttemptAt": "2026-11-27T17:34:03.690696+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T17:34:03.690696+00:00",
+          "status": "read",
           "error": null
         },
         "https://github.com/tari-project/cw_tari_ootle_wallet/blob/main/README.md": {
           "url": "https://github.com/tari-project/cw_tari_ootle_wallet/blob/main/README.md",
-          "status": "read",
-          "attemptedAt": "2026-11-19T14:32:58.099825+00:00",
           "hash": "dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4",
+          "attemptedAt": "2026-11-27T17:34:03.690696+00:00",
+          "evidence": "work/daily-2026-11-27/cdae3a5efbb8aab7-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
           "revision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
-          "evidence": "work/daily-2026-11-19/cdae3a5efbb8aab7-dfaa2b0756de09346c982740a23587e8b482221e3732474684d03833d9d998c4.txt",
-          "scope": "Canonical repository README identity and current source text; fragment/blob aliases reconciled to the same README",
-          "lastAttemptAt": "2026-11-19T14:32:58.099825+00:00",
-          "lastSuccessfulReadAt": "2026-11-19T14:32:58.099825+00:00",
+          "scope": "Full current README and repository metadata reviewed; equivalent README URL mapped to exact default-branch revision.",
+          "lastAttemptAt": "2026-11-27T17:34:03.690696+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T17:34:03.690696+00:00",
+          "status": "read",
           "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-19T17:09:56.708Z",
-      "observedAvailability": "Full unchanged README and empty release inventory reviewed. Repository remains Esmeralda-only with Ootle v0.47-era pins. Its historical no-mainnet-indexer sentence is not a current network-wide statement. Existing Source code/Testnet labels and README footage remain accurate; no wallet, code or transaction execution.",
-      "outcome": "pending",
-      "pendingReviewSources": [
-        "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet",
-        "https://github.com/tari-project/cw_tari_ootle_wallet/blob/main/README.md"
-      ],
+      "lastSuccessfulReviewAt": "2026-11-27T19:23:35.345Z",
+      "observedAvailability": "Current complete README at unchanged e88bb134fbcd0bddeb816982d1f43325b8ef452b retains v0.47-era Esmeralda support and Android TLS initialization. Its old no-mainnet-indexer statement is historical, not a current network-wide finding. No releases, wallet or integration execution.",
+      "outcome": "reviewed",
+      "pendingReviewSources": [],
       "blockedSources": [],
       "changedSources": [],
-      "reviewRequired": true,
+      "reviewRequired": false,
       "changedFields": [],
       "reviewQueue": [],
       "nextReviewAt": "2026-11-28T14:00:00Z",
@@ -36140,11 +36130,14 @@
           "attemptedAt": "2026-11-19T17:09:56.708Z",
           "previousLastSuccessfulReviewAt": "2026-11-18T16:38:45.671072+00:00",
           "evidence": "work/daily-2026-11-19/wallet-miner-source-review.json"
+        },
+        {
+          "attemptedAt": "2026-11-27T19:23:35.345Z",
+          "evidence": "work/daily-2026-11-27/seven-resource-review.json"
         }
       ],
       "evidence": [
-        "work/daily-2026-11-18/macotaur-cake-source-review.json",
-        "work/daily-2026-11-19/wallet-miner-source-review.json"
+        "work/daily-2026-11-27/seven-resource-review.json"
       ],
       "publicationHistory": [
         {
@@ -36164,7 +36157,7 @@
         ]
       },
       "pendingAssessment": null,
-      "sourceObservation": "Full unchanged README and empty release inventory reviewed. Repository remains Esmeralda-only with Ootle v0.47-era pins. Its historical no-mainnet-indexer sentence is not a current network-wide statement. Existing Source code/Testnet labels and README footage remain accurate; no wallet, code or transaction execution.",
+      "sourceObservation": "Current complete README at unchanged e88bb134fbcd0bddeb816982d1f43325b8ef452b retains v0.47-era Esmeralda support and Android TLS initialization. Its old no-mainnet-indexer statement is historical, not a current network-wide finding. No releases, wallet or integration execution.",
       "checkedScope": [
         "https://github.com/tari-project/cw_tari_ootle_wallet",
         "https://github.com/tari-project/cw_tari_ootle_wallet#cw_tari_ootle_wallet",
@@ -41109,31 +41102,33 @@
         "https://ootle.tari.com/guides/fungible-tokens/",
         "https://github.com/tari-project/tari-ootle/pull/3756"
       ],
-      "lastAttemptAt": "2026-11-19T18:15:47.173Z",
+      "lastAttemptAt": "2026-11-27T19:23:35.345Z",
       "sourceReviews": {
         "https://ootle.tari.com/guides/fungible-tokens/": {
           "url": "https://ootle.tari.com/guides/fungible-tokens/",
+          "hash": "17aeb0e8237ecd5b2f28d6f6f3176ebc7d1e0518dce843afd953aafe6a958c19",
+          "attemptedAt": "2026-11-27T19:10:46.279092+00:00",
+          "evidence": "work/daily-2026-11-27/official-b3e271f46fd6-17aeb0e8237ecd5b2f28d6f6f3176ebc7d1e0518dce843afd953aafe6a958c19.txt",
+          "scope": "Full current text semantically reviewed against existing listing.",
+          "lastAttemptAt": "2026-11-27T19:10:46.279092+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T19:10:46.279092+00:00",
           "status": "read",
-          "attemptedAt": "2026-11-19T18:14:20.959Z",
-          "hash": "0ae9c5c8134b8206fc0f86cd0eb9466d903afd68857d70bb70aefb3dc74cf8d2",
-          "evidence": "work/daily-2026-11-19/official-validator-guides-current.json",
-          "scope": "Full current server-extracted primary guide text semantically reviewed; code examples treated as evidence only.",
-          "lastAttemptAt": "2026-11-19T18:14:20.959Z",
-          "lastSuccessfulReadAt": "2026-11-19T18:14:20.959Z"
+          "error": null
         },
         "https://github.com/tari-project/tari-ootle/pull/3756": {
           "url": "https://github.com/tari-project/tari-ootle/pull/3756",
+          "hash": "2f9ce4b81b5c7974eb236ef2dc1fabe4d52c9e379a68149a030144b31c1bb081",
+          "attemptedAt": "2026-11-27T19:19:05.991012+00:00",
+          "evidence": "work/daily-2026-11-27/official-guides-pr3756.json",
+          "scope": "Merged PR body and all issue comments, review bodies and inline comments paginated and reviewed.",
+          "lastAttemptAt": "2026-11-27T19:19:05.991012+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T19:19:05.991012+00:00",
           "status": "read",
-          "attemptedAt": "2026-11-19T18:14:23.692244+00:00",
-          "hash": "b379dae3056ffb8550ac99448df1ffbee97fbeb8f8a91fb879c7d20b44b6fa14",
-          "evidence": "work/daily-2026-11-19/official-guide-release-discussions.json",
-          "scope": "Original merged pull request and fully paginated issue/review comments reviewed.",
-          "lastAttemptAt": "2026-11-19T18:14:23.692244+00:00",
-          "lastSuccessfulReadAt": "2026-11-19T18:14:23.692244+00:00"
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-19T18:15:47.173Z",
-      "observedAvailability": "Full live official guide and merged announcement PR3756 reviewed: tokens are native resources; fixed-supply and mintable examples require deliberate OwnerRule and LOCKED access rules; allowances use expected-current checks. Existing source-walkthrough description remains accurate. No transaction submitted.",
+      "lastSuccessfulReviewAt": "2026-11-27T19:23:35.345Z",
+      "observedAvailability": "Official guide remains reachable and explains native resources, fixed/mintable supply, owner bypass and expected-current allowances. Mainnet/Esmeralda documentation, not a deployed token.",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -41146,17 +41141,21 @@
         "sourceEvidence"
       ],
       "reviewQueue": [],
-      "nextReviewAt": "2026-11-20T14:00:00Z",
+      "nextReviewAt": "2026-11-28T14:00:00Z",
       "reviewHistory": [
         {
           "attemptedAt": "2026-11-19T18:15:47.173Z",
           "evidence": "work/daily-2026-11-19/official-guides-source-review.json"
+        },
+        {
+          "attemptedAt": "2026-11-27T19:23:35.345Z",
+          "evidence": "work/daily-2026-11-27/seven-resource-review.json"
         }
       ],
       "evidence": [
-        "work/daily-2026-11-19/official-guides-source-review.json"
+        "work/daily-2026-11-27/seven-resource-review.json"
       ],
-      "sourceObservation": "Full live official guide and merged announcement PR3756 reviewed: tokens are native resources; fixed-supply and mintable examples require deliberate OwnerRule and LOCKED access rules; allowances use expected-current checks. Existing source-walkthrough description remains accurate. No transaction submitted."
+      "sourceObservation": "Official guide remains reachable and explains native resources, fixed/mintable supply, owner bypass and expected-current allowances. Mainnet/Esmeralda documentation, not a deployed token."
     },
     "tari-ootle:learn:run-validator": {
       "id": "tari-ootle:learn:run-validator",
@@ -41165,31 +41164,33 @@
         "https://ootle.tari.com/validators/run-a-validator-node/",
         "https://github.com/tari-project/tari-ootle/pull/3756"
       ],
-      "lastAttemptAt": "2026-11-19T18:15:47.173Z",
+      "lastAttemptAt": "2026-11-27T19:23:35.345Z",
       "sourceReviews": {
         "https://ootle.tari.com/validators/run-a-validator-node/": {
           "url": "https://ootle.tari.com/validators/run-a-validator-node/",
+          "hash": "ce3ead75a6286016f5391c4f9b35827c1f1b6c35bedc06c7a1ea6562bca7bf21",
+          "attemptedAt": "2026-11-27T19:10:46.279494+00:00",
+          "evidence": "work/daily-2026-11-27/official-b6ea61bc8a28-ce3ead75a6286016f5391c4f9b35827c1f1b6c35bedc06c7a1ea6562bca7bf21.txt",
+          "scope": "Full current text semantically reviewed against existing listing.",
+          "lastAttemptAt": "2026-11-27T19:10:46.279494+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T19:10:46.279494+00:00",
           "status": "read",
-          "attemptedAt": "2026-11-19T18:14:20.959Z",
-          "hash": "0ae9c5c8134b8206fc0f86cd0eb9466d903afd68857d70bb70aefb3dc74cf8d2",
-          "evidence": "work/daily-2026-11-19/official-validator-guides-current.json",
-          "scope": "Full current server-extracted primary guide text semantically reviewed; code examples treated as evidence only.",
-          "lastAttemptAt": "2026-11-19T18:14:20.959Z",
-          "lastSuccessfulReadAt": "2026-11-19T18:14:20.959Z"
+          "error": null
         },
         "https://github.com/tari-project/tari-ootle/pull/3756": {
           "url": "https://github.com/tari-project/tari-ootle/pull/3756",
+          "hash": "2f9ce4b81b5c7974eb236ef2dc1fabe4d52c9e379a68149a030144b31c1bb081",
+          "attemptedAt": "2026-11-27T19:19:05.991012+00:00",
+          "evidence": "work/daily-2026-11-27/official-guides-pr3756.json",
+          "scope": "Merged PR body and all issue comments, review bodies and inline comments paginated and reviewed.",
+          "lastAttemptAt": "2026-11-27T19:19:05.991012+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T19:19:05.991012+00:00",
           "status": "read",
-          "attemptedAt": "2026-11-19T18:14:23.692244+00:00",
-          "hash": "b379dae3056ffb8550ac99448df1ffbee97fbeb8f8a91fb879c7d20b44b6fa14",
-          "evidence": "work/daily-2026-11-19/official-guide-release-discussions.json",
-          "scope": "Original merged pull request and fully paginated issue/review comments reviewed.",
-          "lastAttemptAt": "2026-11-19T18:14:23.692244+00:00",
-          "lastSuccessfulReadAt": "2026-11-19T18:14:23.692244+00:00"
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-19T18:15:47.173Z",
-      "observedAvailability": "Full live official setup guide and merged announcement PR3756 reviewed: mainnet and Esmeralda, separate fee wallet, identity backup and fixed public peer port; configured validator-set inclusion is required. Documentation remains reachable. No installation or identity generation.",
+      "lastSuccessfulReviewAt": "2026-11-27T19:23:35.345Z",
+      "observedAvailability": "Official setup guide retains explicit network choice, backed-up identity and configured validator-set membership. Mainnet and Esmeralda documentation, not evidence of a validator operated here.",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -41202,17 +41203,21 @@
         "sourceEvidence"
       ],
       "reviewQueue": [],
-      "nextReviewAt": "2026-11-20T14:00:00Z",
+      "nextReviewAt": "2026-11-28T14:00:00Z",
       "reviewHistory": [
         {
           "attemptedAt": "2026-11-19T18:15:47.173Z",
           "evidence": "work/daily-2026-11-19/official-guides-source-review.json"
+        },
+        {
+          "attemptedAt": "2026-11-27T19:23:35.345Z",
+          "evidence": "work/daily-2026-11-27/seven-resource-review.json"
         }
       ],
       "evidence": [
-        "work/daily-2026-11-19/official-guides-source-review.json"
+        "work/daily-2026-11-27/seven-resource-review.json"
       ],
-      "sourceObservation": "Full live official setup guide and merged announcement PR3756 reviewed: mainnet and Esmeralda, separate fee wallet, identity backup and fixed public peer port; configured validator-set inclusion is required. Documentation remains reachable. No installation or identity generation."
+      "sourceObservation": "Official setup guide retains explicit network choice, backed-up identity and configured validator-set membership. Mainnet and Esmeralda documentation, not evidence of a validator operated here."
     },
     "tari-ootle:learn:validator-networking": {
       "id": "tari-ootle:learn:validator-networking",
@@ -41221,31 +41226,33 @@
         "https://ootle.tari.com/validators/networking-and-ports/",
         "https://github.com/tari-project/tari-ootle/pull/3756"
       ],
-      "lastAttemptAt": "2026-11-19T18:15:47.173Z",
+      "lastAttemptAt": "2026-11-27T19:23:35.345Z",
       "sourceReviews": {
         "https://ootle.tari.com/validators/networking-and-ports/": {
           "url": "https://ootle.tari.com/validators/networking-and-ports/",
+          "hash": "f28eb1ea4b983e81b72c2ad197aebeb2b5b64135131f1ce19e290675e0115fae",
+          "attemptedAt": "2026-11-27T19:10:46.279589+00:00",
+          "evidence": "work/daily-2026-11-27/official-b421a4684da7-f28eb1ea4b983e81b72c2ad197aebeb2b5b64135131f1ce19e290675e0115fae.txt",
+          "scope": "Full current text semantically reviewed against existing listing.",
+          "lastAttemptAt": "2026-11-27T19:10:46.279589+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T19:10:46.279589+00:00",
           "status": "read",
-          "attemptedAt": "2026-11-19T18:14:20.959Z",
-          "hash": "0ae9c5c8134b8206fc0f86cd0eb9466d903afd68857d70bb70aefb3dc74cf8d2",
-          "evidence": "work/daily-2026-11-19/official-validator-guides-current.json",
-          "scope": "Full current server-extracted primary guide text semantically reviewed; code examples treated as evidence only.",
-          "lastAttemptAt": "2026-11-19T18:14:20.959Z",
-          "lastSuccessfulReadAt": "2026-11-19T18:14:20.959Z"
+          "error": null
         },
         "https://github.com/tari-project/tari-ootle/pull/3756": {
           "url": "https://github.com/tari-project/tari-ootle/pull/3756",
+          "hash": "2f9ce4b81b5c7974eb236ef2dc1fabe4d52c9e379a68149a030144b31c1bb081",
+          "attemptedAt": "2026-11-27T19:19:05.991012+00:00",
+          "evidence": "work/daily-2026-11-27/official-guides-pr3756.json",
+          "scope": "Merged PR body and all issue comments, review bodies and inline comments paginated and reviewed.",
+          "lastAttemptAt": "2026-11-27T19:19:05.991012+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T19:19:05.991012+00:00",
           "status": "read",
-          "attemptedAt": "2026-11-19T18:14:23.692244+00:00",
-          "hash": "b379dae3056ffb8550ac99448df1ffbee97fbeb8f8a91fb879c7d20b44b6fa14",
-          "evidence": "work/daily-2026-11-19/official-guide-release-discussions.json",
-          "scope": "Original merged pull request and fully paginated issue/review comments reviewed.",
-          "lastAttemptAt": "2026-11-19T18:14:23.692244+00:00",
-          "lastSuccessfulReadAt": "2026-11-19T18:14:23.692244+00:00"
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-19T18:15:47.173Z",
-      "observedAvailability": "Full live official networking guide and merged announcement PR3756 reviewed: TCP/UDP peer port public, unauthenticated JSON-RPC and metrics private, Docker loopback publication caveat retained. Documentation remains reachable. No firewall or service changes.",
+      "lastSuccessfulReviewAt": "2026-11-27T19:23:35.345Z",
+      "observedAvailability": "Official guide retains public TCP/UDP peer ports and private privileged JSON-RPC/metrics guidance. Mainnet and Esmeralda operator documentation.",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -41258,17 +41265,21 @@
         "sourceEvidence"
       ],
       "reviewQueue": [],
-      "nextReviewAt": "2026-11-20T14:00:00Z",
+      "nextReviewAt": "2026-11-28T14:00:00Z",
       "reviewHistory": [
         {
           "attemptedAt": "2026-11-19T18:15:47.173Z",
           "evidence": "work/daily-2026-11-19/official-guides-source-review.json"
+        },
+        {
+          "attemptedAt": "2026-11-27T19:23:35.345Z",
+          "evidence": "work/daily-2026-11-27/seven-resource-review.json"
         }
       ],
       "evidence": [
-        "work/daily-2026-11-19/official-guides-source-review.json"
+        "work/daily-2026-11-27/seven-resource-review.json"
       ],
-      "sourceObservation": "Full live official networking guide and merged announcement PR3756 reviewed: TCP/UDP peer port public, unauthenticated JSON-RPC and metrics private, Docker loopback publication caveat retained. Documentation remains reachable. No firewall or service changes."
+      "sourceObservation": "Official guide retains public TCP/UDP peer ports and private privileged JSON-RPC/metrics guidance. Mainnet and Esmeralda operator documentation."
     },
     "tari-ootle:learn:validator-operations": {
       "id": "tari-ootle:learn:validator-operations",
@@ -41277,31 +41288,33 @@
         "https://ootle.tari.com/validators/operating-a-validator/",
         "https://github.com/tari-project/tari-ootle/pull/3756"
       ],
-      "lastAttemptAt": "2026-11-19T18:15:47.173Z",
+      "lastAttemptAt": "2026-11-27T19:23:35.345Z",
       "sourceReviews": {
         "https://ootle.tari.com/validators/operating-a-validator/": {
           "url": "https://ootle.tari.com/validators/operating-a-validator/",
+          "hash": "bf73246474d4dbfdae67a85819c7967b9729db06887214da26237563f9cedf98",
+          "attemptedAt": "2026-11-27T19:10:46.279647+00:00",
+          "evidence": "work/daily-2026-11-27/official-0a9a34a848d6-bf73246474d4dbfdae67a85819c7967b9729db06887214da26237563f9cedf98.txt",
+          "scope": "Full current text semantically reviewed against existing listing.",
+          "lastAttemptAt": "2026-11-27T19:10:46.279647+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T19:10:46.279647+00:00",
           "status": "read",
-          "attemptedAt": "2026-11-19T18:14:20.959Z",
-          "hash": "0ae9c5c8134b8206fc0f86cd0eb9466d903afd68857d70bb70aefb3dc74cf8d2",
-          "evidence": "work/daily-2026-11-19/official-validator-guides-current.json",
-          "scope": "Full current server-extracted primary guide text semantically reviewed; code examples treated as evidence only.",
-          "lastAttemptAt": "2026-11-19T18:14:20.959Z",
-          "lastSuccessfulReadAt": "2026-11-19T18:14:20.959Z"
+          "error": null
         },
         "https://github.com/tari-project/tari-ootle/pull/3756": {
           "url": "https://github.com/tari-project/tari-ootle/pull/3756",
+          "hash": "2f9ce4b81b5c7974eb236ef2dc1fabe4d52c9e379a68149a030144b31c1bb081",
+          "attemptedAt": "2026-11-27T19:19:05.991012+00:00",
+          "evidence": "work/daily-2026-11-27/official-guides-pr3756.json",
+          "scope": "Merged PR body and all issue comments, review bodies and inline comments paginated and reviewed.",
+          "lastAttemptAt": "2026-11-27T19:19:05.991012+00:00",
+          "lastSuccessfulReadAt": "2026-11-27T19:19:05.991012+00:00",
           "status": "read",
-          "attemptedAt": "2026-11-19T18:14:23.692244+00:00",
-          "hash": "b379dae3056ffb8550ac99448df1ffbee97fbeb8f8a91fb879c7d20b44b6fa14",
-          "evidence": "work/daily-2026-11-19/official-guide-release-discussions.json",
-          "scope": "Original merged pull request and fully paginated issue/review comments reviewed.",
-          "lastAttemptAt": "2026-11-19T18:14:23.692244+00:00",
-          "lastSuccessfulReadAt": "2026-11-19T18:14:23.692244+00:00"
+          "error": null
         }
       },
-      "lastSuccessfulReviewAt": "2026-11-19T18:15:47.173Z",
-      "observedAvailability": "Full live official operations guide and merged announcement PR3756 reviewed: separate keys/configuration and optional state backups, epoch-aware restore, upgrade/release caveats and fee claims. Current release-specific no-activation-epoch warning remains applicable. No node or wallet operation.",
+      "lastSuccessfulReviewAt": "2026-11-27T19:23:35.345Z",
+      "observedAvailability": "Official guide covers identity/state backups, safe restore, coordinated release upgrades, logs and fee claims. No node, wallet or claim operated.",
       "outcome": "reviewed",
       "pendingReviewSources": [],
       "blockedSources": [],
@@ -41314,17 +41327,21 @@
         "sourceEvidence"
       ],
       "reviewQueue": [],
-      "nextReviewAt": "2026-11-20T14:00:00Z",
+      "nextReviewAt": "2026-11-28T14:00:00Z",
       "reviewHistory": [
         {
           "attemptedAt": "2026-11-19T18:15:47.173Z",
           "evidence": "work/daily-2026-11-19/official-guides-source-review.json"
+        },
+        {
+          "attemptedAt": "2026-11-27T19:23:35.345Z",
+          "evidence": "work/daily-2026-11-27/seven-resource-review.json"
         }
       ],
       "evidence": [
-        "work/daily-2026-11-19/official-guides-source-review.json"
+        "work/daily-2026-11-27/seven-resource-review.json"
       ],
-      "sourceObservation": "Full live official operations guide and merged announcement PR3756 reviewed: separate keys/configuration and optional state backups, epoch-aware restore, upgrade/release caveats and fee claims. Current release-specific no-activation-epoch warning remains applicable. No node or wallet operation."
+      "sourceObservation": "Official guide covers identity/state backups, safe restore, coordinated release upgrades, logs and fee claims. No node, wallet or claim operated."
     },
     "project:semvi": {
       "id": "project:semvi",
@@ -45631,5 +45648,5 @@
       "resourcesAttempted": 153
     }
   ],
-  "updatedAt": "2026-11-25T14:58:07.292850+00:00"
+  "updatedAt": "2026-11-27T19:23:35.345Z"
 }
