@@ -6593,7 +6593,7 @@
       "ecosystem": "tari-ootle",
       "group": "Community projects",
       "title": "The Invisible Payment",
-      "summary": "November 27, 2026: A sender locks a payment with an epoch deadline, secret hash and receiver key, with cancellation before the reveal epoch. The README changed during review: it now reports a November 27 Esmeralda deployment, although older unpublished-status sections remain. Current testnet explorer metadata identifies InvisiblePayment template 7cc97df35dd28e88dc3932e9fc0a2e49fd59b84d760defa1b4482b72a6e3746d and a committed claim transaction with a PaymentRevealed event for 1,000,000 micro-TARI. The event exposes its amount and receiver, so the creator’s blanket invisibility claim is not adopted. The public demo defaults to simulation; its wallet-connected behavior was not operated. MIT source and public creator evidence were reviewed. The genuine recording is a source/docs walkthrough with scripts and downloads disabled. No repository code, installed software, wallet or transaction was executed.",
+      "summary": "November 27, 2026: A sender locks a payment with an epoch deadline, secret hash and receiver key, with cancellation before the reveal epoch. The README changed during review: it now reports a November 27 Esmeralda deployment, although older unpublished-status sections remain. Current testnet explorer metadata identifies the published InvisiblePayment template and a committed claim transaction with a PaymentRevealed event for 1,000,000 micro-TARI. The event exposes its amount and receiver, so the creator’s blanket invisibility claim is not adopted. The public demo defaults to simulation; its wallet-connected behavior was not operated. MIT source and public creator evidence were reviewed. The genuine recording is a source/docs walkthrough with scripts and downloads disabled. No repository code, installed software, wallet or transaction was executed.",
       "status": "Testnet · Browser simulation",
       "cardStatus": "Testnet · Browser simulation",
       "cardSummary": "Explore payments unlocked by time, a secret and a recipient key, with a testnet contract and walletless simulation.",
@@ -6647,7 +6647,7 @@
       "ecosystem": "tari-ootle",
       "group": "Community projects",
       "title": "Asiri",
-      "summary": "November 27, 2026: Buying circles lock budgets before sealed bidding; revealed prices determine the award, with a documented threshold-approval override. Budgets, escrow and revealed prices are public. Unrevealed bids can forfeit bonds at award, including a permanently locked half; the creator documents full bond returns on expiry without a valid reveal. Current mainnet explorer data shows the Heartland Provisions Circle tender at version 16 with committed, revealed, awarded, awaiting-delivery and settled events under template 267d1d73da73ec990e8711e492bccb9112076051d396922bdef2b9d667c684eb. The creator also describes Esmeralda deployments and tests; those tests were not rerun. The README notes one incomplete live evidence check because historical reveal bodies were pruned. The app requires Sapient for transactions; none were performed. MIT source and public creator evidence were reviewed. The genuine recording is a source/docs walkthrough with scripts and downloads disabled. No repository code, installed software, wallet or transaction was executed.",
+      "summary": "November 27, 2026: Buying circles lock budgets before sealed bidding; revealed prices determine the award, with a documented threshold-approval override. Budgets, escrow and revealed prices are public. Unrevealed bids can forfeit bonds at award, including a permanently locked half; the creator documents full bond returns on expiry without a valid reveal. Current mainnet explorer data shows the Heartland Provisions Circle tender at version 16 with committed, revealed, awarded, awaiting-delivery and settled events under the published Tender template. The creator also describes Esmeralda deployments and tests; those tests were not rerun. The README notes one incomplete live evidence check because historical reveal bodies were pruned. The app requires Sapient for transactions; none were performed. MIT source and public creator evidence were reviewed. The genuine recording is a source/docs walkthrough with scripts and downloads disabled. No repository code, installed software, wallet or transaction was executed.",
       "status": "Mainnet / Testnet · Unrevealed bonds at risk",
       "cardStatus": "Mainnet / Testnet · Unrevealed bonds at risk",
       "cardSummary": "Run buying-circle tenders with sealed bids, locked budgets and delivery escrow, with public mainnet settlement records.",
@@ -6793,6 +6793,207 @@
         "source": "Docs walkthrough"
       },
       "sourceContentSha256": "38566c12e51330ac03d983a44c7b5d6ab9ceb627ee5e3c9d3201f9cce9cfa277"
+    },
+    {
+      "id": "tari-ootle:component:sadar-badge",
+      "key": "sadar-badge",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "Sadar Badge",
+      "summary": "November 27, 2026: The creator proposes non-transferable literacy badges with facilitator issue and revoke controls and public verification using opaque learner identifiers. The public page explicitly identifies a simulation. No mainnet or Esmeralda deployment is established. The README retains stale not-submitted and not-hosted statements despite the current public submission and page; it also discloses first-come-first-served administrator bootstrap and an unfinished issued-epoch field. Creator-reported engine tests were not rerun. The recording shows the README concept section, not a working on-chain badge service. MIT source and public creator evidence were reviewed. The genuine recording is a source/docs walkthrough with scripts and downloads disabled. No repository code, installed software, wallet or transaction was executed.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore issuing, verifying and revoking literacy-achievement badges through a walletless simulation and facilitator-controlled NFT template.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/50",
+      "repoUrl": "https://github.com/real0xSI/sadar-badge",
+      "docsUrl": "https://github.com/real0xSI/sadar-badge#readme",
+      "demoUrl": "https://real0xsi.github.io/sadar-badge/",
+      "creator": {
+        "name": "real0xs / real0xSI",
+        "url": "https://github.com/real0xSI"
+      },
+      "license": "MIT",
+      "network": "Unpublished template; walletless simulation",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "README-blob:5c5647567870060014f8a9a86d15c10c866c3419",
+      "sourceUpdatedAt": "2026-11-27T04:31:18.205Z",
+      "lastAttemptAt": "2026-11-27T17:26:44.645002+00:00",
+      "lastCheckedAt": "2026-11-27T17:26:44.645002+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "sadar-badge"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/50",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=scu5kgF-ruc",
+          "platform": "YouTube"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-sadar-badge-20261127.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-sadar-badge-20261127.png",
+        "source": "Docs walkthrough"
+      },
+      "sourceContentSha256": "db55212edcadf2cb807c29af8d52fca1eb86642d50479ac382f8c5be7fe476de"
+    },
+    {
+      "id": "tari-ootle:component:arisan",
+      "key": "arisan",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "Arisan",
+      "summary": "November 27, 2026: Members contribute equal amounts each round, with payouts fixed by joining order and the creator receiving the first pot. An epoch deadline lets anyone settle a default: remove the nonpayer, refund that round’s payers and continue with remaining members. An early recipient can still stop contributing after receiving a pot; the contract does not eliminate this loss. Contribution amounts and payout order are public. No published network deployment is established. Creator-reported engine and simulation parity tests were not rerun. This is distinct from the existing Arisan Circle, Tari Arisan and Ootle Circle projects. MIT source and public creator evidence were reviewed. The genuine recording is a source/docs walkthrough with scripts and downloads disabled. No repository code, installed software, wallet or transaction was executed.",
+      "status": "Browser simulation · Rust source",
+      "cardStatus": "Browser simulation · Rust source",
+      "cardSummary": "Explore rotating savings pots, fixed payout order and missed-payment refunds through a walletless simulation and Rust template.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/53",
+      "repoUrl": "https://github.com/sandirumput/arisan",
+      "docsUrl": "https://github.com/sandirumput/arisan#readme",
+      "demoUrl": "https://sandirumput.github.io/arisan/",
+      "creator": {
+        "name": "sandirumput",
+        "url": "https://github.com/sandirumput"
+      },
+      "license": "MIT",
+      "network": "Unpublished template; walletless simulation",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "README-blob:23e2e239dfdc342de1a3a7d0eae3a12b66dfa8fb",
+      "sourceUpdatedAt": "2026-11-27T14:36:52.316Z",
+      "lastAttemptAt": "2026-11-27T17:26:44.645002+00:00",
+      "lastCheckedAt": "2026-11-27T17:26:44.645002+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "arisan"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/53",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://medium.com/@sandirumput0415/arisan-rotating-savings-circles-on-tari-ootle-d200c54b742a",
+          "platform": "Medium"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-arisan-20261127.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-arisan-20261127.png",
+        "source": "Docs walkthrough"
+      },
+      "sourceContentSha256": "7211b276e4fcd012ff5460567f71d67099f278869cc93f8799c5c5c8857b8ee2"
+    },
+    {
+      "id": "tari-ootle:component:stubmark",
+      "key": "stubmark",
+      "type": "component",
+      "ecosystem": "tari-ootle",
+      "group": "Community projects",
+      "title": "Stubmark",
+      "summary": "November 27, 2026: Transferable ticket NFTs can be refunded by their current holder before the cutoff, or after organizer cancellation. Refunds do not reopen seats. The organizer or authorized staff can check in each ticket once and issue a non-transferable attendance badge; organizer payout waits until the event ends. QR rotation is an off-chain application feature. Current Esmeralda explorer data confirms a committed template publication on November 27 with network byte 38 and a 2.29495 tTARI fee. Individual check-in receipt reads timed out or returned empty content, so the creator’s complete event-cycle claims are not independently established here. Creator-reported engine tests were not rerun. The linked demo is a walletless simulation; mainnet fee figures in the README are estimates, not measurements. MIT source and public creator evidence were reviewed. The genuine recording is a source/docs walkthrough with scripts and downloads disabled. No repository code, installed software, wallet or transaction was executed.",
+      "status": "Testnet · Browser simulation",
+      "cardStatus": "Testnet · Browser simulation",
+      "cardSummary": "Explore event tickets, holder refunds, one-time check-in and attendance badges through an Esmeralda template and walletless simulation.",
+      "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/54",
+      "repoUrl": "https://github.com/dannytungadi5/stubmark",
+      "docsUrl": "https://github.com/dannytungadi5/stubmark#readme",
+      "demoUrl": "https://stubmark.pages.dev/demo/",
+      "creator": {
+        "name": "dannytungadi5",
+        "url": "https://github.com/dannytungadi5"
+      },
+      "license": "MIT",
+      "network": "Esmeralda testnet; walletless simulation",
+      "platform": "Browser · Source code",
+      "upstreamRevision": "README-blob:712c54c630a15f1675f049c0dfa4e09a1b7005f7",
+      "sourceUpdatedAt": "2026-11-27T17:16:13.320Z",
+      "lastAttemptAt": "2026-11-27T17:26:44.645002+00:00",
+      "lastCheckedAt": "2026-11-27T17:26:44.645002+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "stubmark"
+      ],
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/54",
+          "platform": "Tari Community forum",
+          "context": "Original creator submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y6mrj8/i_built_stubmark_event_tickets_on_tari_ootle_with/",
+          "platform": "Reddit"
+        },
+        {
+          "url": "https://testnet-explorer.tari.mw/tx/a4daa677c64833430ccb48e9f2da7a087e68da4b7c3acedccec77bed71f3ab12",
+          "platform": "Network explorer"
+        }
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-stubmark-20261127.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-stubmark-20261127.png",
+        "source": "Docs walkthrough"
+      },
+      "sourceContentSha256": "5879a1bfdbeed432424e661b2dfcc2b020653c03341a425927a2a76e956e15fe"
+    },
+    {
+      "id": "tari:component:tari-mining-calculator",
+      "key": "tari-mining-calculator",
+      "type": "component",
+      "ecosystem": "tari",
+      "group": "Developer tools",
+      "title": "Tari Mining Calculator",
+      "summary": "November 27, 2026: Okz / DNC describes a free mining calculator for SHA3X, Cuckaroo C29 and Tari RandomX, using user-entered hashrate, power draw and electricity price. The current public text offers XTM yield, electricity costs and break-even estimates, with network data attributed to Veil / Erebus Labs and price data to CoinGecko. The page displayed a dated network sample; its interactive calculations were not operated. This is Tari L1 tooling, not an Ootle mainnet deployment. The genuine recording shows the original announcement with scripts and downloads disabled. No mining software, wallet or transaction was used.",
+      "cardSummary": "Estimate Tari mining yield, electricity costs and break-even prices across SHA3X, Cuckaroo C29 and Tari RandomX.",
+      "cardStatus": "Web calculator · Tari L1",
+      "status": "Web calculator · Tari L1",
+      "sourceUrl": "https://community.tari.com/t/tari-mining-calculator-live-profitability-for-all-three-lanes/761/1",
+      "docsUrl": "https://mining.tari.mw",
+      "creator": {
+        "name": "Okz / Digital Node Capital",
+        "url": "https://community.tari.com/u/Okz"
+      },
+      "license": "Not specified",
+      "network": "Tari L1 mining; off-chain calculator",
+      "platform": "Browser",
+      "sourceUpdatedAt": "2026-11-25T14:36:40.879Z",
+      "lastCheckedAt": "2026-11-27T17:27:56.682859+00:00",
+      "verification": "source-attested",
+      "readiness": "conceptual",
+      "tags": [
+        "ecosystem-resources",
+        "community",
+        "mining"
+      ],
+      "preview": {
+        "video": "https://lobby.tari.com/previews/community/resource-tari-mining-calculator-20261127.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-tari-mining-calculator-20261127.png",
+        "source": "Announcement"
+      },
+      "discussionLinks": [
+        {
+          "url": "https://community.tari.com/t/tari-mining-calculator-live-profitability-for-all-three-lanes/761/1",
+          "platform": "Tari Community forum",
+          "context": "Original creator announcement",
+          "publishedAt": "2026-11-25T14:36:40.879Z"
+        }
+      ],
+      "demoUrl": "https://mining.tari.mw",
+      "lastAttemptAt": "2026-11-27T17:27:56.682859+00:00",
+      "upstreamRevision": "forum-post:2517;version:1",
+      "sourceContentSha256": "58385d29ee87dcb5e44143996b740916f5fe93582c7d3ed0692a5fa32fdbfa43"
     }
   ],
   "opportunities": [
