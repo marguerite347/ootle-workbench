@@ -3730,7 +3730,7 @@
       "ecosystem": "tari-ootle",
       "group": "Advanced",
       "title": "Cake Wallet Ootle backend",
-      "summary": "Cake Wallet Ootle backend using Flutter Rust Bridge 2.11.1 and ootle-rs over HTTPS, without a local node or wallet daemon. Reviewed November 18, 2026: the unchanged README and manifest retain Ootle v0.47-era pins and describe Esmeralda testnet support. Its older statement about mainnet indexer availability is historical and is not a current network-wide finding. Android requires CwTariOotlePlugin.initTls(context); the documented ARM translation issue affects x86_64 emulators. No repository releases or public original sharing post were found in this review; the GitHub repository remains the discovery page. The retained November 2 recording shows its README and version limits. No wallets, funding, transactions or current-engine compatibility tests were performed.",
+      "summary": "Cake Wallet Ootle backend using Flutter Rust Bridge 2.11.1 and ootle-rs over HTTPS, without a local node or wallet daemon. Reviewed November 27, 2026: the unchanged README and manifest retain Ootle v0.47-era pins and describe Esmeralda testnet support. Its older statement about mainnet indexer availability is historical and is not a current network-wide finding. Android requires CwTariOotlePlugin.initTls(context); the documented ARM translation issue affects x86_64 emulators. No repository releases or public original sharing post were found in this review; the GitHub repository remains the discovery page. The retained November 2 recording shows its README and version limits. No wallets, funding, transactions or current-engine compatibility tests were performed.",
       "status": "Source code · Testnet · v0.47 pins",
       "cardSummary": "Connect Flutter apps to Ootle light-wallet functions through Rust, Dart bindings and an HTTPS indexer.",
       "cardStatus": "Source code · Testnet · v0.47 pins",
@@ -3747,7 +3747,7 @@
       "platform": "Flutter / Rust / Dart; Android TLS initialization required",
       "upstreamRevision": "e88bb134fbcd0bddeb816982d1f43325b8ef452b",
       "sourceUpdatedAt": null,
-      "lastCheckedAt": "2026-11-18T16:38:45.671072+00:00",
+      "lastCheckedAt": "2026-11-27T19:23:35.345Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -3761,7 +3761,7 @@
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cw-tari-ootle-wallet-20261102-c7b9334a25.png",
         "source": "Docs walkthrough"
       },
-      "lastAttemptAt": "2026-11-18T16:51:59.747068+00:00"
+      "lastAttemptAt": "2026-11-27T19:23:35.345Z"
     },
     {
       "id": "tari-ootle:learn:minotari-cli-release",
@@ -5529,7 +5529,7 @@
       "network": "Ootle mainnet and Esmeralda",
       "platform": "Documentation",
       "upstreamRevision": "30a1b70aa61fd82506cb62356238da3a3ee2dc4c",
-      "lastCheckedAt": "2026-11-19T18:15:47.173Z",
+      "lastCheckedAt": "2026-11-27T19:23:35.345Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -5550,7 +5550,8 @@
         "video": "https://lobby.tari.com/previews/community/resource-fungible-tokens-20261117.mp4",
         "image": "https://lobby.tari.com/previews/community/resource-fungible-tokens-20261117.jpg",
         "source": "Docs walkthrough"
-      }
+      },
+      "lastAttemptAt": "2026-11-27T19:23:35.345Z"
     },
     {
       "id": "tari-ootle:learn:run-validator",
@@ -5573,7 +5574,7 @@
       "network": "Ootle mainnet and Esmeralda",
       "platform": "Documentation",
       "upstreamRevision": "df9631d4c570ff2b62208dc58199ffbce222734e",
-      "lastCheckedAt": "2026-11-19T18:15:47.173Z",
+      "lastCheckedAt": "2026-11-27T19:23:35.345Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -5594,7 +5595,8 @@
         "video": "https://lobby.tari.com/previews/community/resource-run-validator-20261117.mp4",
         "image": "https://lobby.tari.com/previews/community/resource-run-validator-20261117.jpg",
         "source": "Docs walkthrough"
-      }
+      },
+      "lastAttemptAt": "2026-11-27T19:23:35.345Z"
     },
     {
       "id": "tari-ootle:learn:validator-networking",
@@ -5617,7 +5619,7 @@
       "network": "Ootle mainnet and Esmeralda",
       "platform": "Documentation",
       "upstreamRevision": "6ba38693efb97cb49d406f9f5e20cf706c97f422",
-      "lastCheckedAt": "2026-11-19T18:15:47.173Z",
+      "lastCheckedAt": "2026-11-27T19:23:35.345Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -5638,7 +5640,8 @@
         "video": "https://lobby.tari.com/previews/community/resource-validator-networking-20261117.mp4",
         "image": "https://lobby.tari.com/previews/community/resource-validator-networking-20261117.jpg",
         "source": "Docs walkthrough"
-      }
+      },
+      "lastAttemptAt": "2026-11-27T19:23:35.345Z"
     },
     {
       "id": "tari-ootle:learn:validator-operations",
@@ -5661,7 +5664,7 @@
       "network": "Ootle mainnet and Esmeralda",
       "platform": "Documentation",
       "upstreamRevision": "b499478030f2194705e201dc179d29486d54b014",
-      "lastCheckedAt": "2026-11-19T18:15:47.173Z",
+      "lastCheckedAt": "2026-11-27T19:23:35.345Z",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -5682,7 +5685,8 @@
         "video": "https://lobby.tari.com/previews/community/resource-validator-operations-20261117.mp4",
         "image": "https://lobby.tari.com/previews/community/resource-validator-operations-20261117.jpg",
         "source": "Docs walkthrough"
-      }
+      },
+      "lastAttemptAt": "2026-11-27T19:23:35.345Z"
     },
     {
       "id": "tari:learn:wxtm-uniswap-guide",
