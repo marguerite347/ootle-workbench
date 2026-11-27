@@ -54,8 +54,8 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official TypeScript SDK",
-      "summary": "Official browser and Node SDK with indexer and signer clients. Reviewed November 18, 2026: v0.18.0 adds estimatedFee with a fee-estimate allowance. The preceding v0.17.0 package set targets Ootle v0.53.5; v0.14.0 and v0.15.0 include breaking package-set upgrades. Follow versioned release notes and match the target network before integration. Earlier ExternalKeySigner support remains documented in the retained v0.13.0 source. The new recording shows the v0.18.0 release announcement. This catalog update does not change Workbench runtime pins and does not claim signing or transaction tests.",
-      "status": "SDK · v0.18.0 · Pre-1.0",
+      "summary": "Reviewed November 27, 2026: Official browser and Node SDK with indexer and signer clients. Version 0.23.0 updates the Tari package set to Ootle 0.57.0. The preceding 0.22.0 release changes the missing-substate contract for Provider.getSubstate and fixes rejected-transaction results, concurrent transaction watchers and signer validation. The README documents browser support and Node 22+; network selection and matching endpoints remain explicit. This pre-1.0 SDK may change APIs. The recording shows the current release announcement. Review covered the immutable README and primary release notes; no SDK, native library, wallet or transaction was executed. Catalog links do not change Workbench integration pins.",
+      "status": "SDK · v0.23.0 · Node 22+",
       "sourceUrl": "https://github.com/tari-project/ootle.ts",
       "repoUrl": "https://github.com/tari-project/ootle.ts",
       "docsUrl": "https://tari-project.github.io/ootle.ts/",
@@ -64,11 +64,11 @@
         "url": "https://github.com/tari-project"
       },
       "license": "BSD-3-Clause",
-      "network": "Ootle L2",
-      "platform": "TypeScript / browser / Node",
-      "upstreamRevision": "316861b938c664b24a3fa79538ac3ef2837bbbbe",
-      "sourceUpdatedAt": "2026-11-17T09:30:47Z",
-      "lastCheckedAt": "2026-11-04T13:51:28.816Z",
+      "network": "Ootle L2 · package set for core 0.57.0",
+      "platform": "TypeScript / browser / Node 22+",
+      "upstreamRevision": "d2f350c9b84086d40409fb8b8ec2e43326d0afd1",
+      "sourceUpdatedAt": "2026-11-27T12:27:32Z",
+      "lastCheckedAt": "2026-11-27T17:52:44.853819+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -78,8 +78,8 @@
       ],
       "demoUrl": null,
       "preview": {
-        "video": "https://lobby.tari.com/previews/community/resource-ootle-ts-20261118.mp4",
-        "image": "https://lobby.tari.com/previews/community/resource-ootle-ts-20261118.png",
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-ts-20261127.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-ts-20261127.png",
         "source": "Announcement"
       },
       "discussionLinks": [
@@ -133,11 +133,18 @@
           "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.18.0",
           "platform": "GitHub release",
           "context": "v0.18.0 release notes"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle.ts/releases/tag/v0.23.0",
+          "platform": "GitHub release",
+          "context": "Current version release notes",
+          "publishedAt": "2026-11-27T12:27:32Z"
         }
       ],
       "cardSummary": "Build browser and Node integrations with Ootle clients for indexing, signing and core operations.",
-      "cardStatus": "SDK · v0.18.0 · Pre-1.0",
-      "lastAttemptAt": "2026-11-18T15:08:44.008657+00:00"
+      "cardStatus": "SDK · v0.23.0 · Node 22+",
+      "lastAttemptAt": "2026-11-27T17:52:44.853819+00:00",
+      "sourceContentSha256": "45a169656a2587fa449914b825af9430ffc132224497073d67103f36ac7d4929"
     },
     {
       "id": "tari-ootle:component:ootle-python",
@@ -146,8 +153,8 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official Python SDK",
-      "summary": "Official Python SDK v0.7.0 was published November 17, 2026 and requires Python 3.13+. Its synchronous and asynchronous clients provide transaction builders, event streams and embedded Wasmtime-based Ootle bindings. The current changelog tracks WASM and BOR 0.53.5. Version 0.7.0 adds the 12 micro-TARI engine allowance to estimated_fee and exposes the raw dry-run charge separately as fees_charged, or None when no fee receipt is present. Earlier 0.6.x changes corrected fee-breakdown decoding and capped persisted substates at 1,000. This pre-1.0 SDK may change APIs. November 18 review covered the full README, changelog, release notes and PyPI metadata. The recording shows the 0.7.0 release announcement; the SDK and its bundled WASM were not installed or executed.",
-      "status": "SDK",
+      "summary": "Reviewed November 27, 2026: Official Python SDK with synchronous and asynchronous clients, transaction builders and event streams. Version 0.8.2 tracks Ootle 0.57.0, updates the bundled WASM/BOR modules, and supports the full 128-bit revealed-amount width. Python 3.13+ is required. The README documents LocalNet examples; clients must select an appropriate indexer and network. The pre-1.0 API may change. The recording shows the current release announcement. Review covered the immutable README and primary release notes; no SDK, native library, wallet or transaction was executed. Catalog links do not change Workbench integration pins.",
+      "status": "SDK · v0.8.2 · Python 3.13+",
       "sourceUrl": "https://github.com/tari-project/ootle-py",
       "repoUrl": "https://github.com/tari-project/ootle-py",
       "docsUrl": null,
@@ -156,11 +163,11 @@
         "url": "https://github.com/tari-project"
       },
       "license": "BSD-3-Clause",
-      "network": "Ootle L2 · WASM/BOR 0.53.5 bindings",
+      "network": "Ootle L2 · WASM/BOR 0.57.0 bindings",
       "platform": "Python ≥3.13",
-      "upstreamRevision": "4be4d26c95c972e20a3fdd8f626312bf719512b0",
-      "sourceUpdatedAt": "2026-11-17T09:24:11Z",
-      "lastCheckedAt": "2026-11-18T17:57:57.401208+00:00",
+      "upstreamRevision": "841e4e7012d7c7eb746acca96a81a8ba67c654d1",
+      "sourceUpdatedAt": "2026-11-27T12:33:09Z",
+      "lastCheckedAt": "2026-11-27T17:52:44.853819+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -170,8 +177,8 @@
       ],
       "demoUrl": null,
       "preview": {
-        "video": "https://lobby.tari.com/previews/community/resource-ootle-python-20261118.mp4",
-        "image": "https://lobby.tari.com/previews/community/resource-ootle-python-20261118.png",
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-python-20261127.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-python-20261127.png",
         "source": "Announcement"
       },
       "discussionLinks": [
@@ -203,11 +210,18 @@
           "platform": "GitHub release",
           "context": "Current release announcement",
           "publishedAt": "2026-11-17T09:24:11Z"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle-py/releases/tag/v0.8.2",
+          "platform": "GitHub release",
+          "context": "Current version release notes",
+          "publishedAt": "2026-11-27T12:33:09Z"
         }
       ],
       "cardSummary": "Access Ootle from Python with synchronous and asynchronous clients, event streams and transaction builders.",
-      "cardStatus": "SDK · v0.7.0 · Python 3.13+",
-      "lastAttemptAt": "2026-11-18T17:57:57.401208+00:00"
+      "cardStatus": "SDK · v0.8.2 · Python 3.13+",
+      "lastAttemptAt": "2026-11-27T17:52:44.853819+00:00",
+      "sourceContentSha256": "981e9e36eae265b598a27af07fa8682b9f2525371ead11d8f4e6804366fca884"
     },
     {
       "id": "tari-ootle:component:ootle-go",
@@ -216,8 +230,8 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Official Go SDK",
-      "summary": "Official Go SDK v0.8.2, published November 16, 2026, updates its Rust core to Ootle 0.53.5 while retaining the ootle-sdk-ffi-c/19 ABI. It provides typed two-phase transaction builders, event decoding and resumable server-sent event streams through cgo. Matching native libraries are supplied for macOS amd64/arm64, Linux amd64/arm64 and Windows amd64; Windows now links the synchronization library. Transactions use a bounded validity window, subject to the network maximum. November 18 review covered the full README, complete available release notes and Go module registry metadata. The recording shows the v0.8.2 release announcement; native libraries were not downloaded, installed or executed.",
-      "status": "SDK",
+      "summary": "Reviewed November 27, 2026: Official Go SDK over the Ootle Rust core using cgo, typed results and event streams. Version 0.10.0 targets core 0.57.0 and C ABI 21. This is a breaking update: revealed balances, revealed input/output amounts and AccountBalance now use U128 instead of uint64. The transfer builder retains uint64 inputs while summing at 128 bits. A committed result missing execution_result becomes a PARSE error. The documented native libraries cover macOS and Linux amd64/arm64 and Windows amd64. The recording shows the current release announcement. Review covered the immutable README and primary release notes; no SDK, native library, wallet or transaction was executed. Catalog links do not change Workbench integration pins.",
+      "status": "SDK · v0.10.0 · cgo",
       "sourceUrl": "https://github.com/tari-project/ootle-go",
       "repoUrl": "https://github.com/tari-project/ootle-go",
       "docsUrl": null,
@@ -226,11 +240,11 @@
         "url": "https://github.com/tari-project"
       },
       "license": "BSD-3-Clause",
-      "network": "Ootle L2 · core 0.53.5 · C ABI 19",
+      "network": "Ootle L2 · core 0.57.0 · C ABI 21",
       "platform": "Go / cgo",
-      "upstreamRevision": "5aac442f9934895f2cc89f9a23cfd49a5c461204",
-      "sourceUpdatedAt": "2026-11-16T13:28:32Z",
-      "lastCheckedAt": "2026-11-18T17:57:57.401208+00:00",
+      "upstreamRevision": "52770261d78d951ae2003b00590f23a7c10dbf49",
+      "sourceUpdatedAt": "2026-11-27T12:35:12Z",
+      "lastCheckedAt": "2026-11-27T17:52:44.853819+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -240,8 +254,8 @@
       ],
       "demoUrl": null,
       "preview": {
-        "video": "https://lobby.tari.com/previews/community/resource-ootle-go-20261118.mp4",
-        "image": "https://lobby.tari.com/previews/community/resource-ootle-go-20261118.png",
+        "video": "https://lobby.tari.com/previews/community/resource-ootle-go-20261127.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-ootle-go-20261127.png",
         "source": "Announcement"
       },
       "discussionLinks": [
@@ -267,11 +281,18 @@
           "platform": "GitHub release",
           "context": "Current release announcement",
           "publishedAt": "2026-11-16T13:28:32Z"
+        },
+        {
+          "url": "https://github.com/tari-project/ootle-go/releases/tag/v0.10.0",
+          "platform": "GitHub release",
+          "context": "Current version release notes",
+          "publishedAt": "2026-11-27T12:35:12Z"
         }
       ],
       "cardSummary": "Connect Go applications to Ootle through a Rust core, with typed results and streamed events.",
-      "cardStatus": "SDK · v0.8.2 · cgo",
-      "lastAttemptAt": "2026-11-18T17:57:57.401208+00:00"
+      "cardStatus": "SDK · v0.10.0 · cgo",
+      "lastAttemptAt": "2026-11-27T17:52:44.853819+00:00",
+      "sourceContentSha256": "0a7aa2b04bb3bbf742f680592d145cb1cebe5dfcc909f946e5de3c23bb753d6d"
     },
     {
       "id": "tari-ootle:component:erebus-ootle-sdk",
