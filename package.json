@@ -373,7 +373,7 @@
     "csslint": "^1.0.2",
     "dotenv": "^18.0.10",
     "dotenv-cli": "^11.1.0",
-    "eslint": "^8.26.0",
+    "eslint": "8.57.1",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-node": "11.1.0",
@@ -401,7 +401,7 @@
     "mocha": "12.0.3",
     "monaco-editor": "0.44.0",
     "nanohtml": "1.10.0",
-    "nightwatch": "^2.3",
+    "nightwatch": "2.3.9",
     "nodemon": "3.1.14",
     "npm-link-local": "^1.1.0",
     "npm-run-all": "^4.0.2",
@@ -558,7 +558,8 @@
     "**/istanbul-lib-processinfo/rimraf/glob": "14.0.3",
     "**/spawn-wrap/rimraf/glob": "14.0.3",
     "**/run/minimatch": "3.1.5",
-    "**/hardhat/undici": "6.29.1"
+    "**/hardhat/undici": "6.29.1",
+    "**/nightwatch/ejs": "3.1.10"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
