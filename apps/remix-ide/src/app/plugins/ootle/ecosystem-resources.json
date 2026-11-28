@@ -301,7 +301,7 @@
       "ecosystem": "tari-ootle",
       "group": "SDKs",
       "title": "Erebus / Chiron Ootle SDK",
-      "summary": "Community TypeScript account, transaction and private-transfer helpers extracted from Sapient and a Tari web wallet. Reviewed November 19, 2026: npm publication 0.5.4 points to readable creator commit 6ceee2761086, updating official Ootle clients to 0.18 and WASM/BOR to 0.53.5. The default repository branch still shows 0.5.1; the linked publication commit and package manifest establish the newer version. The README documents mainnet, Esmeralda and Igor configuration, separate network storage and HTLC journals. Configuration support is not a deployed app. The maintainer reports Esmeralda test results; this catalog did not repeat them. This early 0.x package retains a vendored legacy WASM dependency. The November 19 announcement recording shows the 0.5.4 source change without installation, wallet use or transactions.",
+      "summary": "Community TypeScript account, transaction and private-transfer helpers extracted from Sapient and a Tari web wallet. Reviewed November 28, 2026: npm publication 0.7.0 points to creator commit 1e541ae3aedf, updating official Ootle clients to 0.23.0, WASM/BOR to 0.57.0 and bindings to 1.66.2. The README documents mainnet, Esmeralda and Igor configuration, separate network storage and HTLC journals. Configuration support is not a deployed app. The maintainer reports 229 unit tests and an Esmeralda signing smoke test; those results were not independently repeated. This early 0.x package retains a vendored legacy WASM dependency. The recording shows the 0.7.0 source announcement without installation, wallet use or transactions. This catalog update does not change Workbench integration pins.",
       "status": "Early community SDK",
       "sourceUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
       "repoUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
@@ -313,9 +313,9 @@
       "license": "MIT",
       "network": "Ootle L2 · Mainnet, Esmeralda and Igor configuration",
       "platform": "TypeScript",
-      "upstreamRevision": "6ceee27610862ef264224df06b8b0f107fc5de03",
-      "sourceUpdatedAt": "2026-11-18T23:47:56Z",
-      "lastCheckedAt": "2026-11-19T19:08:07.500210+00:00",
+      "upstreamRevision": "1e541ae3aedf497d0bd08860f2b67fd3340ed20c",
+      "sourceUpdatedAt": "2026-11-28T05:01:14.209Z",
+      "lastCheckedAt": "2026-11-28T14:51:43.957373+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -325,8 +325,8 @@
       ],
       "demoUrl": null,
       "preview": {
-        "video": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-20261119.mp4",
-        "image": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-20261119.png",
+        "video": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-070-20261128.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-070-20261128.png",
         "source": "Announcement"
       },
       "discussionLinks": [
@@ -355,11 +355,23 @@
           "url": "https://www.npmjs.com/package/@chironbuilder/ootle-sdk/v/0.5.4",
           "platform": "npm publication",
           "publishedAt": "2026-11-18T23:52:10.725Z"
+        },
+        {
+          "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/1e541ae3aedf497d0bd08860f2b67fd3340ed20c",
+          "platform": "GitHub source change",
+          "context": "npm0.7.0 publication source",
+          "publishedAt": "2026-11-28T05:01:14.209Z"
+        },
+        {
+          "url": "https://www.npmjs.com/package/@chironbuilder/ootle-sdk/v/0.7.0",
+          "platform": "npm publication",
+          "context": "Current0.7.0 package metadata",
+          "publishedAt": "2026-11-28T05:01:14.209Z"
         }
       ],
       "cardSummary": "Build Ootle account, transaction and private-transfer flows with community TypeScript helpers extracted from wallet projects.",
-      "cardStatus": "Early SDK · v0.5.4",
-      "lastAttemptAt": "2026-11-19T19:08:07.500210+00:00"
+      "cardStatus": "Early SDK · v0.7.0",
+      "lastAttemptAt": "2026-11-28T14:51:43.957373+00:00"
     },
     {
       "id": "tari-ootle:component:tari-cipherseed",
