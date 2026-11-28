@@ -237,11 +237,90 @@
           "foundOn": "2026-11-04",
           "context": "Erebus / Chiron Ootle SDK 0.2.2 update",
           "visibility": "public"
+        },
+        {
+          "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/6ceee27610862ef264224df06b8b0f107fc5de03",
+          "platform": "GitHub commit",
+          "author": "chironbuilds",
+          "publishedAt": "2026-11-18T23:47:56Z",
+          "foundOn": "2026-11-19",
+          "context": "npm0.5.4 publication source",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.npmjs.com/package/@chironbuilder/ootle-sdk/v/0.5.4",
+          "platform": "npm",
+          "author": "chironbuilder",
+          "publishedAt": "2026-11-18T23:52:10.725Z",
+          "foundOn": "2026-11-19",
+          "context": "Version publication matched to accessible gitHead",
+          "visibility": "public"
+        },
+        {
+          "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/1e541ae3aedf497d0bd08860f2b67fd3340ed20c",
+          "platform": "GitHub commit",
+          "author": "chironbuilds",
+          "context": "erebus-ootle-sdk 0.7.0 announcement",
+          "foundOn": "2026-11-28",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.npmjs.com/package/@chironbuilder/ootle-sdk/v/0.7.0",
+          "platform": "npm",
+          "author": "chironbuilder",
+          "context": "Version publication matched to gitHead",
+          "publishedAt": "2026-11-28T05:01:14.209Z",
+          "foundOn": "2026-11-28",
+          "visibility": "public"
         }
       ],
       "originalPostStatus": "Known public sharing posts retained; earliest internet origin not asserted.",
       "foundOn": "2026-10-10",
-      "evidence": "October 10 retained discovery tracker; not newly rechecked"
+      "evidence": "October 10 retained discovery tracker; not newly rechecked",
+      "reviewHistory": [
+        {
+          "checkedAt": "2026-11-18T18:12:20.440637+00:00",
+          "evidence": "work/daily-2026-11-18/sdk-source-acceptance.json"
+        },
+        {
+          "checkedAt": "2026-11-28T15:09:59.711270+00:00",
+          "scope": "Release announcement and production listing/media",
+          "evidence": "work/daily-2026-11-28/third-publication-accepted.json"
+        }
+      ],
+      "status": "published-live-verified",
+      "lastReviewedAt": "2026-11-19T19:10:31.503Z",
+      "lastObservedAt": "2026-11-28T15:09:59.711270+00:00",
+      "history": [
+        {
+          "id": "erebus-ootle-sdk",
+          "title": "Erebus / Chiron Ootle SDK",
+          "projectUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
+          "discoveryUrl": "https://www.npmjs.com/package/@chironbuilder/ootle-sdk",
+          "sharingPosts": [
+            {
+              "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+              "platform": "X",
+              "author": "Digital Node Capital (@DNodeCapital)",
+              "publishedAt": "2026-10-10",
+              "foundOn": "2026-10-12",
+              "context": "Thread post 2 recommends the Erebus/Chiron SDK.",
+              "visibility": "public"
+            },
+            {
+              "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/e203233e0e3642c3c19d694258fd3342db32aac0",
+              "platform": "GitHub commit",
+              "author": "chironbuilds",
+              "foundOn": "2026-11-04",
+              "context": "Erebus / Chiron Ootle SDK 0.2.2 update",
+              "visibility": "public"
+            }
+          ],
+          "originalPostStatus": "Known public sharing posts retained; earliest internet origin not asserted.",
+          "foundOn": "2026-10-10",
+          "evidence": "October 10 retained discovery tracker; not newly rechecked"
+        }
+      ]
     },
     {
       "id": "ootle-ts",
@@ -822,6 +901,136 @@
           "foundOn": "2026-11-04",
           "context": "Sapient 0.7.2 update",
           "visibility": "public"
+        },
+        {
+          "url": "https://github.com/chironbuilds/tari-wallet/releases/tag/android-v0.10.1",
+          "platform": "GitHub release",
+          "publishedAt": "2026-11-18T14:43:24Z",
+          "foundOn": "2026-11-18",
+          "context": "Sapient Android release",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/622/3",
+          "platform": "Tari Community forum",
+          "author": "0xhra",
+          "publishedAt": "2026-11-13T04:32:09.268Z",
+          "foundOn": "2026-11-18",
+          "context": "Creator confirms mainnet in wallet-layer discussion",
+          "visibility": "public",
+          "evidence": "work/daily-2026-11-18/latest-wallet-proposal-topics.json"
+        },
+        {
+          "url": "https://github.com/chironbuilds/tari-wallet/releases/tag/android-v0.10.2",
+          "platform": "GitHub",
+          "author": "chironbuilds",
+          "foundOn": "2026-11-19",
+          "context": "Current release announcement reviewed as source text",
+          "visibility": "public"
+        },
+        {
+          "url": "https://github.com/chironbuilds/tari-wallet/releases/tag/android-v0.11.4",
+          "platform": "GitHub release",
+          "author": "chironbuilds",
+          "context": "sapient Android0.11.4 announcement",
+          "publishedAt": "2026-11-28T05:10:13Z",
+          "foundOn": "2026-11-28",
+          "visibility": "public"
+        },
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/51",
+          "platform": "Tari Community forum",
+          "author": "Chiron / Erebus",
+          "context": "Original creator source",
+          "publishedAt": "2026-11-27T06:47:47.985Z",
+          "foundOn": "2026-11-27",
+          "visibility": "public",
+          "sourceUpdatedAt": "2026-11-27T06:47:47.985Z",
+          "sourcePostId": 2548
+        },
+        {
+          "url": "https://github.com/chironbuilds/tari-wallet/releases/tag/android-v0.11.3",
+          "platform": "GitHub release",
+          "author": "Chiron / Erebus",
+          "context": "Android 0.11.3 announcement",
+          "foundOn": "2026-11-27",
+          "visibility": "public"
+        }
+      ],
+      "reviewHistory": [
+        {
+          "checkedAt": "2026-11-19T15:00:22.552350+00:00",
+          "evidence": "work/daily-2026-11-19/lobby-release-refresh-acceptance.json",
+          "scope": "Release update and genuine announcement recording published in Lobby; Workbench acceptance pending where applicable."
+        },
+        {
+          "checkedAt": "2026-11-28T15:09:59.711270+00:00",
+          "scope": "Release announcement and production listing/media",
+          "evidence": "work/daily-2026-11-28/third-publication-accepted.json"
+        }
+      ],
+      "lastObservedAt": "2026-11-28T15:09:59.711270+00:00",
+      "history": [
+        {
+          "id": "sapient",
+          "title": "Sapient",
+          "projectUrl": "https://sapient.tari.mw",
+          "repositoryUrl": "https://github.com/chironbuilds/tari-wallet",
+          "discoveryUrl": "https://community.tari.com/t/september-contest-thread/324/16",
+          "sharingPosts": [
+            {
+              "url": "https://community.tari.com/t/september-contest-thread/324/16",
+              "platform": "Tari Community forum",
+              "author": "0xhra",
+              "publishedAt": "2026-09-15T19:28:26.887Z",
+              "foundOn": "2026-10-12",
+              "context": "September contest submission",
+              "visibility": "public"
+            },
+            {
+              "url": "https://community.tari.com/t/september-contest-thread/324/38",
+              "platform": "Tari Community forum",
+              "author": "Fox",
+              "publishedAt": "2026-10-11T23:59:13.578Z",
+              "foundOn": "2026-10-12",
+              "context": "September contest results: 1st place",
+              "visibility": "public"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=AZzkThgc5dY",
+              "platform": "YouTube",
+              "channel": "Tari Community",
+              "author": "Tari Community",
+              "publishedAt": "2026-10-12",
+              "eventDate": "2026-10-06",
+              "foundOn": "2026-11-02",
+              "context": "16:28\u201319:50: September contest first-place announcement and Council voting-wallet use, as reported by speakers.",
+              "visibility": "public",
+              "relationship": "additional public discussion; original creator post retained",
+              "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+              "platform": "YouTube",
+              "channel": "Tari Community",
+              "author": "Tari Community",
+              "publishedAt": "2026-10-27",
+              "eventDate": "2026-10-27",
+              "foundOn": "2026-11-02",
+              "context": "13:37: Council voting-wallet discussion.",
+              "visibility": "public",
+              "relationship": "additional public discussion; original creator post retained",
+              "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+            },
+            {
+              "url": "https://github.com/chironbuilds/tari-wallet/commit/06c56a9c358c9e744a32497887aab73009340ebb",
+              "platform": "GitHub commit",
+              "author": "chironbuilds",
+              "foundOn": "2026-11-04",
+              "context": "Sapient 0.7.2 update",
+              "visibility": "public"
+            }
+          ]
         }
       ]
     },
@@ -1907,7 +2116,7 @@
     {
       "id": "seance-privacy",
       "title": "Seance \u2014 privacy demo",
-      "projectUrl": "https://kylne700.github.io/seance-v2/",
+      "projectUrl": "https://kylne700.github.io/seance/",
       "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
       "sharingPosts": [
         {
@@ -1917,7 +2126,15 @@
           "publishedAt": "2026-10-20T18:35:07.259Z",
           "foundOn": "2026-10-21",
           "context": "October contest submission for the three-observer privacy demo",
-          "visibility": "public"
+          "visibility": "public",
+          "editHistory": [
+            {
+              "observedAt": "2026-11-05T11:55:34.397Z",
+              "updatedAt": "2026-11-04T10:53:56.487Z",
+              "evidence": "work/daily-2026-11-04/october-count-and-edits-nov5.json"
+            }
+          ],
+          "updatedAt": "2026-11-04T10:53:56.487Z"
         },
         {
           "url": "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22",
@@ -1946,6 +2163,15 @@
           "context": "Official project feature announcement; original creator submission retained",
           "visibility": "public",
           "evidence": "work/daily-2026-10-31/x-seance-expanded-nov2.txt"
+        },
+        {
+          "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/18",
+          "platform": "Tari Community forum",
+          "author": "Kylne700",
+          "foundOn": "2026-11-20",
+          "context": "Mainnet template publication; app migration planned and app still labeled Testnet.",
+          "visibility": "public",
+          "evidence": "work/daily-2026-11-20/submissions-live-acceptance.json"
         }
       ],
       "status": "update-publication-pending",
@@ -1969,6 +2195,85 @@
           "source": "https://x.com/tari/status/2115428367486836872",
           "evidence": "work/daily-2026-10-31/x-seance-expanded-nov2.txt",
           "finding": "Read original and all displayed replies including probable-spam expansion; no new project links. Commenter questions and claims do not establish implemented behavior."
+        }
+      ],
+      "latestReviewEvidence": "work/daily-2026-11-04/october-three-source-review-nov5.json",
+      "projectUrlHistory": [
+        {
+          "url": "https://kylne700.github.io/seance-v2/",
+          "supersededAt": "2026-11-28T14:42:31.239396+00:00",
+          "sourceUrl": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/18"
+        }
+      ],
+      "lastPublicationEvidence": "work/daily-2026-11-28/first-publication-accepted.json",
+      "history": [
+        {
+          "id": "seance-privacy",
+          "title": "Seance \u2014 privacy demo",
+          "projectUrl": "https://kylne700.github.io/seance-v2/",
+          "discoveryUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+          "sharingPosts": [
+            {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+              "platform": "Tari Community forum",
+              "author": "Kylne700",
+              "publishedAt": "2026-10-20T18:35:07.259Z",
+              "foundOn": "2026-10-21",
+              "context": "October contest submission for the three-observer privacy demo",
+              "visibility": "public"
+            },
+            {
+              "url": "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22",
+              "platform": "Bluesky",
+              "author": "Kylne700",
+              "publishedAt": "2026-10-20T18:09:16.314Z",
+              "foundOn": "2026-10-21",
+              "context": "Original creator announcement and demo recording",
+              "visibility": "public"
+            },
+            {
+              "url": "https://bsky.app/profile/tariproject.bsky.social/post/3mywsm2tpqm2b",
+              "platform": "Bluesky",
+              "author": "tariproject.bsky.social",
+              "publishedAt": "2026-10-28T13:00:00.509Z",
+              "foundOn": "2026-10-29",
+              "context": "What can a stranger see in a private payment? \ud83d\udc7b\r\n\r\nSeance lets you compare the public view, a recipient\u2019s view and an auditor\u2019s view using Tari testnet examples. It also shows what still leaks.\r\n\r\nExplore:\r\nhttps://kylne700.github.io/seance/",
+              "visibility": "public"
+            },
+            {
+              "url": "https://x.com/tari/status/2115428367486836872",
+              "platform": "X",
+              "author": "Tari (@tari)",
+              "publishedAt": "2026-10-28",
+              "foundOn": "2026-11-02",
+              "context": "Official project feature announcement; original creator submission retained",
+              "visibility": "public",
+              "evidence": "work/daily-2026-10-31/x-seance-expanded-nov2.txt"
+            }
+          ],
+          "status": "update-publication-pending",
+          "notes": "Compare what strangers, recipients and auditors can learn from private Esmeralda payments. The creator\u2019s v2 searches the latest 40 indexer transactions locally before asking for a user-entered ID; an explicit Ask for it anyway action can disclose that ID. The initial example remains a labeled saved October 20 copy. October 31 Summon inspection returned a current Commit receipt through a public indexer read. The page reported six requests to two hosts and zero ID requests; this is its own report, not an independent network audit. An optional Sapient transfer goes to a demonstration recipient whose view key is public. Timing, fees and spend links remain visible. Old transaction bodies are unavailable from the indexers; receipts alone cannot reverify their encrypted bytes. The recording covers the picker and request explanation without a wallet or payment. v1 remains at its earlier URL; this is distinct from DevXTools\u2019 sealed polls.",
+          "publicationEvidence": "outputs/daily-2026-10-29/release.json",
+          "destinationHistory": [
+            {
+              "observedAt": "2026-10-31T11:03:46.010783+00:00",
+              "previousRepoUrl": "https://github.com/Kylne700/seance",
+              "previousDemoUrl": "https://kylne700.github.io/seance/",
+              "replacementRepoUrl": "https://github.com/Kylne700/seance-v2",
+              "replacementDemoUrl": "https://kylne700.github.io/seance-v2/",
+              "evidence": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+              "reason": "Creator-provided current destination; older URLs and observations retained."
+            }
+          ],
+          "repoUrl": "https://github.com/Kylne700/seance-v2",
+          "followupHistory": [
+            {
+              "checkedAt": "2026-11-03T01:59:13.022902+00:00",
+              "source": "https://x.com/tari/status/2115428367486836872",
+              "evidence": "work/daily-2026-10-31/x-seance-expanded-nov2.txt",
+              "finding": "Read original and all displayed replies including probable-spam expansion; no new project links. Commenter questions and claims do not establish implemented behavior."
+            }
+          ]
         }
       ]
     },
@@ -4558,9 +4863,63 @@
       "reviewedAt": "2026-11-05T13:40:32.922603+00:00",
       "reviewEvidence": "work/daily-2026-11-04/shadow-sooon-market-source-review-nov5.json",
       "repositoryAvailability": "November5 API and signed-in browser404; last-good data retained."
+    },
+    {
+      "id": "tari-ootle:component:stubmark",
+      "sharingPosts": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/54",
+          "platform": "Tari Community forum",
+          "author": "dannytungadi5",
+          "context": "Original creator source",
+          "publishedAt": "2026-11-27T16:52:08.065Z",
+          "foundOn": "2026-11-27",
+          "visibility": "public",
+          "sourceUpdatedAt": "2026-11-27T17:16:13.320Z",
+          "sourcePostId": 2555
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y6mrj8/i_built_stubmark_event_tickets_on_tari_ootle_with/",
+          "platform": "Reddit",
+          "author": "dannytungadi5",
+          "context": "Stubmark primary source",
+          "foundOn": "2026-11-27",
+          "visibility": "public"
+        },
+        {
+          "url": "https://testnet-explorer.tari.mw/tx/a4daa677c64833430ccb48e9f2da7a087e68da4b7c3acedccec77bed71f3ab12",
+          "platform": "Network explorer",
+          "author": "dannytungadi5",
+          "context": "Stubmark primary source",
+          "foundOn": "2026-11-27",
+          "visibility": "public"
+        },
+        {
+          "url": "https://medium.com/@dannytungadi5/tickets-that-keep-their-own-rules-building-stubmark-on-tari-ootle-8432b72b714d",
+          "platform": "Medium",
+          "author": "dannytungadi5",
+          "context": "Creator announcement linked from the original submission",
+          "foundOn": "2026-11-28",
+          "visibility": "public"
+        },
+        {
+          "url": "https://youtu.be/cFXifmyB5Rs",
+          "platform": "YouTube",
+          "author": "dannytungadi5",
+          "context": "Creator announcement linked from the original submission",
+          "foundOn": "2026-11-28",
+          "visibility": "public"
+        }
+      ],
+      "title": "Stubmark",
+      "projectUrl": "https://stubmark.pages.dev/",
+      "repositoryUrl": "https://github.com/dannytungadi5/stubmark",
+      "documentationUrl": "https://github.com/dannytungadi5/stubmark#readme",
+      "discoveryUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/54",
+      "lastObservedAt": "2026-11-28T15:17:42.523077+00:00"
     }
   ],
-  "updatedAt": "2026-11-05T17:20:47.438149+00:00",
+  "updatedAt": "2026-11-28T15:17:42.523077+00:00",
   "publicExport": {
     "preparedAt": "2026-11-03T16:00:05.259492+00:00",
     "scope": "Public-source metadata only. Private channel content/permalinks and local media paths are retained solely in the private maintenance workspace. Publication fields describe their recorded milestone, not an inferred final release."
