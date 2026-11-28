@@ -17,11 +17,17 @@ test('builder catalog fronts use reader-facing type and availability, keeping fu
  assert.doesNotMatch(read('apps/remix-ide/src/app/plugins/ootle/ecosystem-resources.tsx'),internalReviewWording);
 });
 
-const privateEvidenceLocation = /(?:https?:\/\/)?(?:\w+\.)?discord(?:app)?\.(?:com|net)\/(?:channels|attachments)|(?:cdn|media)\.discordapp\.(?:com|net)|\/Users\/|\/private\/var\/|\/var\/folders\//i;
+const privateEvidenceLocation = /(?:https?:\/\/)?(?:\w+\.)?discord(?:app)?\.(?:com|net)\/(?:channels|attachments)|(?:cdn|media)\.discordapp\.(?:com|net)|(?:^|[\s"'])\/(?:Users|private\/var|var\/folders)\//i;
 test('public maintenance exports exclude private channel links and workstation paths', () => {
-  for (const name of ['ecosystem-source-registry', 'resource-provenance', 'resource-captures']) {
-    const body = read(`docs/ootle/${name}.json`);
-    assert.doesNotMatch(body, privateEvidenceLocation, `${name}: keep private evidence in the maintenance workspace`);
+  for (const name of ['docs/ootle/ecosystem-source-registry.json', 'docs/ootle/resource-provenance.json', 'docs/ootle/resource-captures.json', 'apps/remix-ide/src/app/plugins/ootle/ecosystem-resources.json']) {
+    const body = read(name);
+    assert.equal(privateEvidenceLocation.test(body), false, `${name}: keep private evidence in the maintenance workspace`);
     assert.doesNotMatch(body, /"visibility"\s*:\s*"(?:private|restricted|internal)"/i);
   }
+});
+
+test("privacy guard distinguishes public user profiles from workstation paths", () => {
+  assert.equal(privateEvidenceLocation.test("https://content.luanti.org/users/Wuzzy"), false);
+  assert.equal(privateEvidenceLocation.test(JSON.stringify({path: "/Users/example/private.json"})), true);
+  assert.equal(privateEvidenceLocation.test("https://discord.com/channels/1/2/3"), true);
 });

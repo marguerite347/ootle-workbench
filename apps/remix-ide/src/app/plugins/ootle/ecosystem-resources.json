@@ -3241,7 +3241,7 @@
       "ecosystem": "tari-ootle",
       "group": "Releases",
       "title": "Ootle v0.49.2 upgrade notes",
-      "summary": "Official pre-release bundling the 0.48 and 0.49 changes with working binaries. The notes require a coordinated testnet reset and rebuilding and republishing templates against tari_template_lib 0.37. They document new proof-authorization windows, opt-in template upgrades, sr25519 transactions, view-only wallet accounts and multiple passkeys. Read the full release-specific migration instructions before upgrading. This listing records the official notes and November 2 developer announcement; no software was installed and no node, wallet or database was changed. Review on November 4, 2026 covered the current release, developer announcement and 0.48–0.49.2 changelog; 38 release assets were listed.",
+      "summary": "Official pre-release bundling the 0.48 and 0.49 changes with working binaries. The notes require a coordinated testnet reset and rebuilding and republishing templates against tari_template_lib 0.37. They document new proof-authorization windows, opt-in template upgrades, sr25519 transactions, view-only wallet accounts and multiple passkeys. Read the full release-specific migration instructions before upgrading. This listing records the official public release notes; no software was installed and no node, wallet or database was changed. Review on November 4, 2026 covered the release and 0.48–0.49.2 changelog; 38 release assets were listed.",
       "status": "Official pre-release",
       "sourceUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2",
       "repoUrl": null,
@@ -3266,9 +3266,9 @@
       ],
       "discussionLinks": [
         {
-          "url": "https://discord.com/channels/892738558316662855/1478870438334431313/1566787045630812192",
-          "platform": "Discord",
-          "context": "Developer release announcement"
+          "url": "https://github.com/tari-project/tari-ootle/releases/tag/v0.49.2",
+          "platform": "GitHub release",
+          "context": "Official public release announcement"
         }
       ],
       "cardSummary": "Read the testnet reset, wallet changes and template migration steps for Ootle v0.49.2.",
@@ -3365,11 +3365,6 @@
       "upstreamRevision": "a0fcb8cd004b017d07acf066510276311211d6a7",
       "discussionLinks": [
         {
-          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1565479700816728236",
-          "platform": "Discord",
-          "context": "Shared by Luci666 on October 29, 2026"
-        },
-        {
           "url": "https://github.com/virgiliojr94/book-to-skill/releases/tag/v2.0.0",
           "platform": "GitHub",
           "context": "v2.0.0 release announcement"
@@ -3451,7 +3446,7 @@
       "ecosystem": "tari",
       "group": "Advanced",
       "title": "Wallet Operations FAQ",
-      "summary": "Illustrated community guide to six Tari Universe wallet interface topics: settings, seed replacement, bridge navigation, loading balances and transaction history. The page displays a November 1, 2025 publication date; Terence shared it on October 30, 2026 Eastern time (October 31 UTC). Its illustrations show Universe 1.6.12 and may differ from later releases. The recording shows the article and its settings illustration, not an operated wallet. No wallet settings, seed words, bridges or transactions were changed. The public article and original sharing discussion were revisited on November 4, 2026; the older interface scope remains unchanged.",
+      "summary": "Illustrated community guide to six Tari Universe wallet interface topics: settings, seed replacement, bridge navigation, loading balances and transaction history. The public article displays a November 1, 2025 publication date. Its illustrations show Universe 1.6.12 and may differ from later releases. The recording shows the article and its settings illustration, not an operated wallet. No wallet settings, seed words, bridges or transactions were changed. The public article was revisited on November 4, 2026; the older interface scope remains unchanged.",
       "status": "Guide · Universe 1.6.12",
       "cardSummary": "Find illustrated steps for Tari Universe wallet settings, bridge navigation, balance loading and transaction history refresh.",
       "cardStatus": "Guide · Universe 1.6.12",
@@ -3476,18 +3471,13 @@
         "community",
         "docs"
       ],
-      "discussionLinks": [
-        {
-          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1565918482644734074",
-          "platform": "Discord",
-          "context": "Wallet Operations FAQ"
-        }
-      ],
+      "discussionLinks": [],
       "preview": {
         "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritalk-wallet-operations-faq-20261102-bbdcedb909.mp4",
         "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-taritalk-wallet-operations-faq-20261102-bbdcedb909.png",
         "source": "Docs walkthrough"
-      }
+      },
+      "publicOriginalPostStatus": "No separate public sharing post established; the public article remains the discovery source."
     },
     {
       "id": "tari-ootle:learn:veinpool",
@@ -3496,7 +3486,7 @@
       "ecosystem": "tari",
       "group": "Advanced",
       "title": "VeinPool",
-      "summary": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. Reviewed November 4, 2026: the guide and FAQ list a 1% pool fee, 0.1 XTM automatic payout minimum and 360 confirmations before payout (about 12 hours). The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The small-miner bonus is up to 5%, depends on pool-share distribution and is funded by pool fees; it is not guaranteed earnings. The Squads beta FAQ names other coins, not Tari. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The October 28 creator tutorial covers CPU setup; its reward and earnings examples are dated illustrations. Current Windows, Linux, HiveOS and MMPOS guide panels were reviewed. The retained November 2 recording still accurately shows the Windows/Linux guide tabs. No address was entered, software downloaded or mining started. The pool’s BzMiner CPU setup and BzMiner’s separate C29 GPU guide describe distinct configurations.",
+      "summary": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. Reviewed November 4, 2026: the guide and FAQ list a 1% pool fee, 0.1 XTM automatic payout minimum and 360 confirmations before payout (about 12 hours). Mining software fees are separate. The small-miner bonus is up to 5%, depends on pool-share distribution and is funded by pool fees; it is not guaranteed earnings. The Squads beta FAQ names other coins, not Tari. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The October 28 creator tutorial covers CPU setup; its reward and earnings examples are dated illustrations. Current Windows, Linux, HiveOS and MMPOS guide panels were reviewed. The retained November 2 recording still accurately shows the Windows/Linux guide tabs. No address was entered, software downloaded or mining started. The pool’s BzMiner CPU setup and BzMiner’s separate C29 GPU guide describe distinct configurations.",
       "status": "Mining pool · 1% fee · 0.1 XTM minimum",
       "cardSummary": "Browse a European Tari CPU mining pool with PPLNS and solo modes, setup guides and payout information.",
       "cardStatus": "Mining pool · 1% fee · 0.1 XTM minimum",
@@ -3522,16 +3512,6 @@
         "docs"
       ],
       "discussionLinks": [
-        {
-          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562062366366244875",
-          "platform": "Discord",
-          "context": "VeinPool Tari mining pool"
-        },
-        {
-          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562066322416992285",
-          "platform": "Discord",
-          "context": "Creator correction: minimum payout is 0.1 XTM"
-        },
         {
           "url": "https://www.youtube.com/watch?v=KZUPOZHfSYs",
           "platform": "YouTube",
@@ -3577,21 +3557,6 @@
         "docs"
       ],
       "discussionLinks": [
-        {
-          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1563540177790701698",
-          "platform": "Discord",
-          "context": "BzMiner"
-        },
-        {
-          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1562623685511090289",
-          "platform": "Discord",
-          "context": "Creator shared v100.50"
-        },
-        {
-          "url": "https://discord.com/channels/892738558316662855/892738558996148236/1559317481578045460",
-          "platform": "Discord",
-          "context": "Creator shared v100.46"
-        },
         {
           "url": "https://github.com/bzminer/bzminer/releases/tag/v100.70",
           "platform": "GitHub",
@@ -6685,7 +6650,7 @@
       "ecosystem": "tari-ootle",
       "group": "Community projects",
       "title": "Asiri",
-      "summary": "November 27, 2026: Buying circles lock budgets before sealed bidding; revealed prices determine the award, with a documented threshold-approval override. Budgets, escrow and revealed prices are public. Unrevealed bids can forfeit bonds at award, including a permanently locked half; the creator documents full bond returns on expiry without a valid reveal. Current mainnet explorer data shows the Heartland Provisions Circle tender at version 16 with committed, revealed, awarded, awaiting-delivery and settled events under the published Tender template. The creator also describes Esmeralda deployments and tests; those tests were not rerun. The README notes one incomplete live evidence check because historical reveal bodies were pruned. The app requires Sapient for transactions; none were performed. MIT source and public creator evidence were reviewed. The genuine recording is a source/docs walkthrough with scripts and downloads disabled. No repository code, installed software, wallet or transaction was executed.",
+      "summary": "November 28, 2026: Buying circles lock budgets before sealed bidding; revealed prices determine the award, with a documented threshold-approval override. Budgets, escrow and revealed prices are public. Unrevealed bids can forfeit bonds at award, including a permanently locked half; the creator documents full bond returns on expiry without a valid reveal. The November 27 mainnet explorer observation showed the Heartland Provisions Circle tender at version 16 with committed, revealed, awarded, awaiting-delivery and settled events under the published Tender template. The creator also describes Esmeralda deployments and tests; those tests were not rerun. The November 28 README now reports 513 tests and two independent testers completing the full mainnet app loop; these are creator reports, not independently repeated results. Its live verifier returns 10 to 12 of 13 checks, with unavailable historical reveal bodies recorded as could not be read rather than failures. The app requires Sapient for transactions; none were performed. MIT source and public creator evidence were reviewed. The genuine recording is a source/docs walkthrough with scripts and downloads disabled. No repository code, installed software, wallet or transaction was executed.",
       "status": "Mainnet / Testnet · Unrevealed bonds at risk",
       "cardStatus": "Mainnet / Testnet · Unrevealed bonds at risk",
       "cardSummary": "Run buying-circle tenders with sealed bids, locked budgets and delivery escrow, with public mainnet settlement records.",
@@ -6700,10 +6665,10 @@
       "license": "MIT",
       "network": "Ootle mainnet and Esmeralda",
       "platform": "Browser · Source code",
-      "upstreamRevision": "README-blob:4445b961a7ce838dfc860678e1e552895eefd223",
+      "upstreamRevision": "b64aa862618b84427f526dc42f2876931ab96b33",
       "sourceUpdatedAt": "2026-11-27T09:01:30.078Z",
-      "lastAttemptAt": "2026-11-27T17:08:04.580595+00:00",
-      "lastCheckedAt": "2026-11-27T17:08:04.580595+00:00",
+      "lastAttemptAt": "2026-11-28T15:13:08.134862+00:00",
+      "lastCheckedAt": "2026-11-28T15:13:08.134862+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
@@ -6730,7 +6695,7 @@
         "image": "https://lobby.tari.com/previews/community/resource-asiri-20261127.png",
         "source": "Docs walkthrough"
       },
-      "sourceContentSha256": "100b782ebcc1af8893589357b80c26357d086c6eccf6ad75a8a0be4d40d80945"
+      "sourceContentSha256": "31c5c913b100d53c186903b4072b889c349c2d3a904c1f616b901c9e5df458ba"
     },
     {
       "id": "tari:component:tari-bounty-desk",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T16:34:09.496874+00:00",
+  "updatedAt": "2026-11-28T15:17:42.523077+00:00",
   "records": [
     {
       "resourceId": "candy-summoner",
@@ -34,7 +34,7 @@
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-candy-summoner-20261010.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-candy-summoner-20261010.jpg",
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-candy-summoner",
-      "caption": "Concept overview — application not demonstrated",
+      "caption": "Concept overview \u2014 application not demonstrated",
       "sha256": "047995d4c71d63404a32df759a5fbe726aa56e347e3f61897a0226849a466f9c",
       "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
       "verification": "published; desktop and mobile playback verified",
@@ -77,7 +77,7 @@
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-clew-20261010.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-clew-20261010.jpg",
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-clew",
-      "caption": "Source/docs walkthrough — application not demonstrated",
+      "caption": "Source/docs walkthrough \u2014 application not demonstrated",
       "sha256": "800f5bd58e12857e4f362e02d8803cd4c0dbc0810a6378270979749b932e9568",
       "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
       "verification": "published; desktop and mobile playback verified",
@@ -111,7 +111,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-agent-docs-20261010.jpg",
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:learn:official-agent-docs",
       "workbenchUrl": "https://ootle-workbench.vercel.app/",
-      "caption": "Source/docs walkthrough — application not demonstrated",
+      "caption": "Source/docs walkthrough \u2014 application not demonstrated",
       "sha256": "235db140cfca2945cdcb8111a5504a7674a9f79a686409224cfac2ea1e2c4572",
       "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
       "verification": "published; desktop and mobile playback verified",
@@ -127,7 +127,7 @@
     {
       "resourceId": "erebus-ootle-sdk",
       "title": "Erebus / Chiron Ootle SDK",
-      "targetUrl": "https://github.com/chironbuilds/ootle-sdk-ts/commit/e203233e0e3642c3c19d694258fd3342db32aac0",
+      "targetUrl": "https://github.com/chironbuilds/ootle-sdk-ts/commit/1e541ae3aedf497d0bd08860f2b67fd3340ed20c",
       "originalPosts": [
         {
           "url": "https://x.com/DNodeCapital/status/2108867690085421447",
@@ -145,44 +145,64 @@
           "foundOn": "2026-11-04",
           "context": "Erebus / Chiron Ootle SDK 0.2.2 update",
           "visibility": "public"
+        },
+        {
+          "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/6ceee27610862ef264224df06b8b0f107fc5de03",
+          "platform": "GitHub commit",
+          "author": "chironbuilds",
+          "publishedAt": "2026-11-18T23:47:56Z",
+          "foundOn": "2026-11-19",
+          "context": "npm0.5.4 publication source; retrieved through registry gitHead",
+          "visibility": "public"
+        },
+        {
+          "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/1e541ae3aedf497d0bd08860f2b67fd3340ed20c",
+          "platform": "GitHub commit",
+          "author": "chironbuilds",
+          "context": "erebus-ootle-sdk 0.7.0 announcement",
+          "foundOn": "2026-11-28",
+          "visibility": "public"
+        },
+        {
+          "url": "https://www.npmjs.com/package/@chironbuilder/ootle-sdk/v/0.7.0",
+          "platform": "npm",
+          "author": "chironbuilder",
+          "context": "Version publication matched to gitHead",
+          "publishedAt": "2026-11-28T05:01:14.209Z",
+          "foundOn": "2026-11-28",
+          "visibility": "public"
         }
       ],
-      "captureType": "docs-walkthrough",
-      "capturedAt": "2026-11-04T13:42:17.352Z",
-      "observedRevision": "e203233e0e3642c3c19d694258fd3342db32aac0",
-      "version": "0.2.2",
+      "captureType": "announcement",
+      "capturedAt": "2026-11-28T14:50:46.262Z",
+      "observedRevision": "1e541ae3aedf497d0bd08860f2b67fd3340ed20c",
+      "version": "0.7.0",
       "viewport": {
         "width": 1280,
         "height": 800
       },
       "durationSeconds": 12,
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261104.mp4",
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261104.png",
-      "caption": "Docs walkthrough",
-      "method": "Existing continuous browser capture pipeline; public documentation or commit view with scroll. No code executed, extension installed, keys created or wallet interaction.",
-      "sha256": "40b35ec1d3fe01008072d43773bae730519fae017280c95d9e71faa32493fe8e",
-      "posterSha256": "e81c47b18b3b536af24e5bae8dc94fabf8f8b30ff8ddd4e558d06b534afa0510",
-      "status": "published-live-verified",
+      "publicMediaUrl": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-070-20261128.mp4",
+      "publicPosterUrl": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-070-20261128.png",
+      "caption": "Announcement",
+      "method": "Static source-page walkthrough; JavaScript and downloads disabled; no wallet or commands operated.",
+      "sha256": "af7977ca054277f4ab41f8c93c8d1799d1ac23569a3c74f133128cc6ae45946e",
+      "posterSha256": "3ac4f21735d7a83dbedffa4ac0cf3a632c4c13ee6d84acb3cd047b0821714ca2",
+      "status": "published-and-live-verified",
       "verification": {
         "framesReviewed": [
-          0.48,
+          0,
           6,
           11
         ],
-        "localPlaybackEvidence": "work/daily-2026-11-04/sdk-wallet-local-playback.json",
-        "livePlayback": {
-          "checkedAt": "2026-11-04T14:11:02.279915+00:00",
-          "evidence": "work/daily-2026-11-04/sdk-refresh-live-ui.json",
-          "products": [
-            "Lobby",
-            "Workbench"
-          ],
-          "viewports": [
-            "desktop",
-            "phone"
-          ],
-          "result": "12-second playback reached end without media errors; tablet layout separately reviewed."
-        }
+        "frameReview": "Opening/middle/closing visually inspected.",
+        "desktopPlayback": true,
+        "phonePlayback": true,
+        "products": [
+          "Lobby",
+          "Workbench"
+        ],
+        "acceptanceEvidence": "work/daily-2026-11-28/third-publication-accepted.json"
       },
       "previousCaptures": [
         {
@@ -208,7 +228,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.jpg",
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:erebus-ootle-sdk",
           "workbenchUrl": "https://ootle-workbench.vercel.app/",
-          "caption": "Source/docs walkthrough — application not demonstrated",
+          "caption": "Source/docs walkthrough \u2014 application not demonstrated",
           "sha256": "dca2316555bf248018c7abe4c2cba778b5671ef887c05fb2ff6479614fa7453f",
           "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
           "verification": "published; desktop and mobile playback verified",
@@ -221,7 +241,388 @@
             "checkedAt": "2026-10-10T13:04:24.362462+00:00"
           }
         }
-      ]
+      ],
+      "history": [
+        {
+          "resourceId": "erebus-ootle-sdk",
+          "title": "Erebus / Chiron Ootle SDK",
+          "targetUrl": "https://github.com/chironbuilds/ootle-sdk-ts/commit/e203233e0e3642c3c19d694258fd3342db32aac0",
+          "originalPosts": [
+            {
+              "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+              "platform": "X",
+              "author": "Digital Node Capital (@DNodeCapital)",
+              "publishedAt": "2026-10-10",
+              "foundOn": "2026-10-12",
+              "context": "Thread post 2 recommends the Erebus/Chiron SDK.",
+              "visibility": "public"
+            },
+            {
+              "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/e203233e0e3642c3c19d694258fd3342db32aac0",
+              "platform": "GitHub commit",
+              "author": "chironbuilds",
+              "foundOn": "2026-11-04",
+              "context": "Erebus / Chiron Ootle SDK 0.2.2 update",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "docs-walkthrough",
+          "capturedAt": "2026-11-04T13:42:17.352Z",
+          "observedRevision": "e203233e0e3642c3c19d694258fd3342db32aac0",
+          "version": "0.2.2",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261104.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261104.png",
+          "caption": "Docs walkthrough",
+          "method": "Existing continuous browser capture pipeline; public documentation or commit view with scroll. No code executed, extension installed, keys created or wallet interaction.",
+          "sha256": "40b35ec1d3fe01008072d43773bae730519fae017280c95d9e71faa32493fe8e",
+          "posterSha256": "e81c47b18b3b536af24e5bae8dc94fabf8f8b30ff8ddd4e558d06b534afa0510",
+          "status": "published-live-verified",
+          "verification": {
+            "framesReviewed": [
+              0.48,
+              6,
+              11
+            ],
+            "localPlaybackEvidence": "work/daily-2026-11-04/sdk-wallet-local-playback.json",
+            "livePlayback": {
+              "checkedAt": "2026-11-04T14:11:02.279915+00:00",
+              "evidence": "work/daily-2026-11-04/sdk-refresh-live-ui.json",
+              "products": [
+                "Lobby",
+                "Workbench"
+              ],
+              "viewports": [
+                "desktop",
+                "phone"
+              ],
+              "result": "12-second playback reached end without media errors; tablet layout separately reviewed."
+            }
+          },
+          "previousCaptures": [
+            {
+              "resourceId": "erebus-ootle-sdk",
+              "title": "Erebus / Chiron Ootle SDK",
+              "targetUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
+              "originalPosts": [],
+              "captureType": "source-docs-walkthrough",
+              "capturedAt": "2026-10-10T12:49:12.215444+00:00",
+              "observedRevision": "6c3f6b54d5af881bef1162cf416fdf2e4a6c3bca",
+              "viewport": {
+                "width": 1280,
+                "height": 800
+              },
+              "exportDimensions": {
+                "codec_name": "h264",
+                "width": 1280,
+                "height": 720,
+                "pix_fmt": "yuv420p"
+              },
+              "durationSeconds": 12,
+              "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.mp4",
+              "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.jpg",
+              "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:erebus-ootle-sdk",
+              "workbenchUrl": "https://ootle-workbench.vercel.app/",
+              "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+              "sha256": "dca2316555bf248018c7abe4c2cba778b5671ef887c05fb2ff6479614fa7453f",
+              "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+              "verification": "published; desktop and mobile playback verified",
+              "liveVerification": {
+                "lobbyDesktop": true,
+                "lobbyMobile": true,
+                "workbenchDesktop": true,
+                "workbenchMobile": true,
+                "mediaHashMatched": true,
+                "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+              }
+            }
+          ],
+          "currentSourceReview": {
+            "attemptedAt": "2026-11-08T18:32:35.681751+00:00",
+            "status": "recording-scope-review-pending",
+            "reason": "November 8 primary text changed version, network or replay details. Compare existing footage to current text before relabeling or replacing it.",
+            "evidence": "work/daily-2026-11-08/repository-change-review.json",
+            "nextReviewAt": "2026-11-09T14:00:00Z",
+            "safety": "Use safe text walkthrough; no third-party app execution, artifact acquisition or local parsing authorized."
+          }
+        },
+        {
+          "resourceId": "erebus-ootle-sdk",
+          "title": "Erebus / Chiron Ootle SDK",
+          "targetUrl": "https://github.com/chironbuilds/ootle-sdk-ts/commit/f3c18cffffad35d5b69987421654512a2df6b355",
+          "originalPosts": [
+            {
+              "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+              "platform": "X",
+              "author": "Digital Node Capital (@DNodeCapital)",
+              "publishedAt": "2026-10-10",
+              "foundOn": "2026-10-12",
+              "context": "Thread post 2 recommends the Erebus/Chiron SDK.",
+              "visibility": "public"
+            },
+            {
+              "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/e203233e0e3642c3c19d694258fd3342db32aac0",
+              "platform": "GitHub commit",
+              "author": "chironbuilds",
+              "foundOn": "2026-11-04",
+              "context": "Erebus / Chiron Ootle SDK 0.2.2 update",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "docs-walkthrough",
+          "capturedAt": "2026-11-18T17:50:03.585Z",
+          "observedRevision": "f3c18cffffad35d5b69987421654512a2df6b355",
+          "version": "0.2.2",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-20261118.mp4",
+          "publicPosterUrl": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-20261118.png",
+          "caption": "Docs walkthrough",
+          "method": "Static source-page walkthrough; JavaScript and downloads disabled; no wallet or commands operated.",
+          "sha256": "b34c14d23ed2223da06d246b6f05db34c5ce6d14e4b0484d3fd7e4f022ea6bec",
+          "posterSha256": "e81c47b18b3b536af24e5bae8dc94fabf8f8b30ff8ddd4e558d06b534afa0510",
+          "status": "published-live-verified",
+          "verification": {
+            "framesReviewed": [
+              "opening",
+              "middle",
+              "closing"
+            ],
+            "livePlayback": "work/daily-2026-11-18/sdk-source-acceptance.json",
+            "revisions": {
+              "lobby": "493747e9f6fbbef768a74bd8df091de13435b324",
+              "workbench": "c043de58ada4155014adc5ee583fc4c01dea2b11"
+            }
+          },
+          "previousCaptures": [
+            {
+              "resourceId": "erebus-ootle-sdk",
+              "title": "Erebus / Chiron Ootle SDK",
+              "targetUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
+              "originalPosts": [],
+              "captureType": "source-docs-walkthrough",
+              "capturedAt": "2026-10-10T12:49:12.215444+00:00",
+              "observedRevision": "6c3f6b54d5af881bef1162cf416fdf2e4a6c3bca",
+              "viewport": {
+                "width": 1280,
+                "height": 800
+              },
+              "exportDimensions": {
+                "codec_name": "h264",
+                "width": 1280,
+                "height": 720,
+                "pix_fmt": "yuv420p"
+              },
+              "durationSeconds": 12,
+              "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.mp4",
+              "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.jpg",
+              "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:erebus-ootle-sdk",
+              "workbenchUrl": "https://ootle-workbench.vercel.app/",
+              "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+              "sha256": "dca2316555bf248018c7abe4c2cba778b5671ef887c05fb2ff6479614fa7453f",
+              "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+              "verification": "published; desktop and mobile playback verified",
+              "liveVerification": {
+                "lobbyDesktop": true,
+                "lobbyMobile": true,
+                "workbenchDesktop": true,
+                "workbenchMobile": true,
+                "mediaHashMatched": true,
+                "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+              }
+            }
+          ],
+          "currentSourceReview": {
+            "attemptedAt": "2026-11-08T18:32:35.681751+00:00",
+            "status": "recording-scope-review-pending",
+            "reason": "November 8 primary text changed version, network or replay details. Compare existing footage to current text before relabeling or replacing it.",
+            "evidence": "work/daily-2026-11-08/repository-change-review.json",
+            "nextReviewAt": "2026-11-09T14:00:00Z",
+            "safety": "Use safe text walkthrough; no third-party app execution, artifact acquisition or local parsing authorized."
+          }
+        },
+        {
+          "resourceId": "erebus-ootle-sdk",
+          "title": "Erebus / Chiron Ootle SDK",
+          "targetUrl": "https://github.com/chironbuilds/ootle-sdk-ts/commit/6ceee27610862ef264224df06b8b0f107fc5de03",
+          "originalPosts": [
+            {
+              "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+              "platform": "X",
+              "author": "Digital Node Capital (@DNodeCapital)",
+              "publishedAt": "2026-10-10",
+              "foundOn": "2026-10-12",
+              "context": "Thread post 2 recommends the Erebus/Chiron SDK.",
+              "visibility": "public"
+            },
+            {
+              "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/e203233e0e3642c3c19d694258fd3342db32aac0",
+              "platform": "GitHub commit",
+              "author": "chironbuilds",
+              "foundOn": "2026-11-04",
+              "context": "Erebus / Chiron Ootle SDK 0.2.2 update",
+              "visibility": "public"
+            },
+            {
+              "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/6ceee27610862ef264224df06b8b0f107fc5de03",
+              "platform": "GitHub commit",
+              "author": "chironbuilds",
+              "publishedAt": "2026-11-18T23:47:56Z",
+              "foundOn": "2026-11-19",
+              "context": "npm0.5.4 publication source; retrieved through registry gitHead",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "announcement",
+          "capturedAt": "2026-11-19T19:07:23.553Z",
+          "observedRevision": "6ceee27610862ef264224df06b8b0f107fc5de03",
+          "version": "0.5.4",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-20261119.mp4",
+          "publicPosterUrl": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-20261119.png",
+          "caption": "Announcement",
+          "method": "Continuous browser capture of the public creator commit, JavaScript disabled, downloads disabled, no credentials or wallet interactions.",
+          "sha256": "c4528666e7c2d08fcbe57856380feb92dd19bc5a7431c209be6b16feb70438af",
+          "posterSha256": "3ac4f21735d7a83dbedffa4ac0cf3a632c4c13ee6d84acb3cd047b0821714ca2",
+          "status": "published-and-live-verified",
+          "verification": {
+            "framesReviewed": [
+              0.04,
+              6,
+              11.6
+            ],
+            "frameReview": "Opening and closing identify commit0.5.4; middle shows package version/dependency diff. Current genuine source recording; live playback pending."
+          },
+          "previousCaptures": [
+            {
+              "resourceId": "erebus-ootle-sdk",
+              "title": "Erebus / Chiron Ootle SDK",
+              "targetUrl": "https://github.com/chironbuilds/ootle-sdk-ts",
+              "originalPosts": [],
+              "captureType": "source-docs-walkthrough",
+              "capturedAt": "2026-10-10T12:49:12.215444+00:00",
+              "observedRevision": "6c3f6b54d5af881bef1162cf416fdf2e4a6c3bca",
+              "viewport": {
+                "width": 1280,
+                "height": 800
+              },
+              "exportDimensions": {
+                "codec_name": "h264",
+                "width": 1280,
+                "height": 720,
+                "pix_fmt": "yuv420p"
+              },
+              "durationSeconds": 12,
+              "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.mp4",
+              "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-erebus-ootle-sdk-20261010.jpg",
+              "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:erebus-ootle-sdk",
+              "workbenchUrl": "https://ootle-workbench.vercel.app/",
+              "caption": "Source/docs walkthrough \u2014 application not demonstrated",
+              "sha256": "dca2316555bf248018c7abe4c2cba778b5671ef887c05fb2ff6479614fa7453f",
+              "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
+              "verification": "published; desktop and mobile playback verified",
+              "liveVerification": {
+                "lobbyDesktop": true,
+                "lobbyMobile": true,
+                "workbenchDesktop": true,
+                "workbenchMobile": true,
+                "mediaHashMatched": true,
+                "checkedAt": "2026-10-10T13:04:24.362462+00:00"
+              }
+            }
+          ],
+          "liveVerification": {
+            "checkedAt": "2026-11-19T19:43:52.885328+00:00",
+            "lobbyRevision": "51b91d76c3af225b63d42ad4c6342bd2deae521f",
+            "workbenchRevision": "1e23c48bda17c7f2f2caf8475b80f1e8607bfec7",
+            "evidence": [
+              "work/daily-2026-11-19/workbench-final-live-acceptance.json",
+              "work/daily-2026-11-19/erebus-lobby-live-acceptance.json"
+            ],
+            "desktop": "12/12 seconds ended on both products",
+            "phone": "12/12 seconds ended on both products at390px"
+          }
+        },
+        {
+          "resourceId": "erebus-ootle-sdk",
+          "title": "Erebus / Chiron Ootle SDK",
+          "targetUrl": "https://github.com/chironbuilds/ootle-sdk-ts/commit/6ceee27610862ef264224df06b8b0f107fc5de03",
+          "originalPosts": [
+            {
+              "url": "https://x.com/DNodeCapital/status/2108867690085421447",
+              "platform": "X",
+              "author": "Digital Node Capital (@DNodeCapital)",
+              "publishedAt": "2026-10-10",
+              "foundOn": "2026-10-12",
+              "context": "Thread post 2 recommends the Erebus/Chiron SDK.",
+              "visibility": "public"
+            },
+            {
+              "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/e203233e0e3642c3c19d694258fd3342db32aac0",
+              "platform": "GitHub commit",
+              "author": "chironbuilds",
+              "foundOn": "2026-11-04",
+              "context": "Erebus / Chiron Ootle SDK 0.2.2 update",
+              "visibility": "public"
+            },
+            {
+              "url": "https://github.com/chironbuilds/ootle-sdk-ts/commit/6ceee27610862ef264224df06b8b0f107fc5de03",
+              "platform": "GitHub commit",
+              "author": "chironbuilds",
+              "publishedAt": "2026-11-18T23:47:56Z",
+              "foundOn": "2026-11-19",
+              "context": "npm0.5.4 publication source; retrieved through registry gitHead",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "announcement",
+          "capturedAt": "2026-11-19T19:07:23.553Z",
+          "observedRevision": "6ceee27610862ef264224df06b8b0f107fc5de03",
+          "version": "0.5.4",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-20261119.mp4",
+          "publicPosterUrl": "https://lobby.tari.com/previews/community/resource-erebus-ootle-sdk-20261119.png",
+          "caption": "Announcement",
+          "method": "Continuous browser capture of the public creator commit, JavaScript disabled, downloads disabled, no credentials or wallet interactions.",
+          "sha256": "c4528666e7c2d08fcbe57856380feb92dd19bc5a7431c209be6b16feb70438af",
+          "posterSha256": "3ac4f21735d7a83dbedffa4ac0cf3a632c4c13ee6d84acb3cd047b0821714ca2",
+          "status": "captured-publication-pending",
+          "verification": {
+            "framesReviewed": [
+              0.04,
+              6,
+              11.6
+            ],
+            "frameReview": "Opening and closing identify commit0.5.4; middle shows package version/dependency diff. Current genuine source recording; live playback pending."
+          }
+        }
+      ],
+      "liveVerification": {
+        "checkedAt": "2026-11-19T19:43:52.885328+00:00",
+        "lobbyRevision": "51b91d76c3af225b63d42ad4c6342bd2deae521f",
+        "workbenchRevision": "1e23c48bda17c7f2f2caf8475b80f1e8607bfec7",
+        "evidence": [
+          "work/daily-2026-11-19/workbench-final-live-acceptance.json",
+          "work/daily-2026-11-19/erebus-lobby-live-acceptance.json"
+        ],
+        "desktop": "12/12 seconds ended on both products",
+        "phone": "12/12 seconds ended on both products at390px"
+      }
     },
     {
       "resourceId": "caravel-burn-wallet",
@@ -230,7 +631,7 @@
       "originalPosts": [
         {
           "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "foundOn": "2026-10-10",
           "context": "Burn wallet builder announcement",
           "visibility": "public"
@@ -275,7 +676,7 @@
           "originalPosts": [
             {
               "url": "https://www.reddit.com/r/tari/comments/1x1pnzz/we_built_a_burn_wallet_on_the_ootle_that_nobody/",
-              "platform": "Reddit · r/tari",
+              "platform": "Reddit \u00b7 r/tari",
               "foundOn": "2026-10-10",
               "context": "Burn wallet builder announcement",
               "visibility": "public"
@@ -299,7 +700,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-burn-wallet-20261010.jpg",
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:caravel-burn-wallet",
           "workbenchUrl": "https://ootle-workbench.vercel.app/",
-          "caption": "Source/docs walkthrough — application not demonstrated",
+          "caption": "Source/docs walkthrough \u2014 application not demonstrated",
           "sha256": "57c6e1fc1d05c6965628907bb90c1aaa435eec41a9884953facaf7ce40eb7276",
           "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
           "verification": "published; desktop and mobile playback verified",
@@ -328,7 +729,7 @@
           "author": "tariproject.bsky.social",
           "publishedAt": "2026-10-19T10:30:01.438Z",
           "foundOn": "2026-10-29",
-          "context": "The blank page is the scariest part.\r\nStart with Tari’s WASM templates for tokens, NFTs, swaps, LPs, and more. Explore the code, then turn it into your own confidential concoction.\r\nPick your starting point:\r\nhttps://github.com/tari-project/wasm-template/tree/main/wasm_templates",
+          "context": "The blank page is the scariest part.\r\nStart with Tari\u2019s WASM templates for tokens, NFTs, swaps, LPs, and more. Explore the code, then turn it into your own confidential concoction.\r\nPick your starting point:\r\nhttps://github.com/tari-project/wasm-template/tree/main/wasm_templates",
           "visibility": "public"
         }
       ],
@@ -386,7 +787,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-community-templates-20261010.jpg",
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:integration:community-templates",
           "workbenchUrl": "https://ootle-workbench.vercel.app/",
-          "caption": "Source/docs walkthrough — application not demonstrated",
+          "caption": "Source/docs walkthrough \u2014 application not demonstrated",
           "sha256": "65cdfdd0f974c7783452af8e2872660d497895ed68cf9fc45ae046bfa280298a",
           "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
           "verification": "published; desktop and mobile playback verified",
@@ -474,7 +875,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-l1-wasm-20261010.jpg",
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari:component:tari-l1-wasm",
       "workbenchUrl": "https://ootle-workbench.vercel.app/",
-      "caption": "Source/docs walkthrough — application not demonstrated",
+      "caption": "Source/docs walkthrough \u2014 application not demonstrated",
       "sha256": "fa517856d4ce2ee3f9160cc8571616f1e08029b02a6d9e96913ebe046824a454",
       "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
       "verification": "published; desktop and mobile playback verified",
@@ -510,7 +911,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-notes-20261010.jpg",
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:learn:ootle-notes",
       "workbenchUrl": "https://ootle-workbench.vercel.app/",
-      "caption": "Source/docs walkthrough — application not demonstrated",
+      "caption": "Source/docs walkthrough \u2014 application not demonstrated",
       "sha256": "2d02a5f13fe7013d5cb5dc2f335566443314aeac7b4bc6ea68e86eb643fc62ef",
       "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
       "verification": "published; desktop and mobile playback verified",
@@ -562,7 +963,7 @@
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dnode-giveaway-20261010.jpg",
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#resource-dnode-giveaway",
-      "caption": "Announcement walkthrough — recorded October 10, 2026",
+      "caption": "Announcement walkthrough \u2014 recorded October 10, 2026",
       "sha256": "2f61b0a332ad805700f52626ba16d4d2e2d8b6ddbd80961ec3c4da81a82eebf0",
       "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
       "verification": "published; desktop and mobile playback verified",
@@ -650,7 +1051,7 @@
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostkey-20261010.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostkey-20261010.jpg",
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/?chat=closed#project-october-ghostkey",
-      "caption": "Source/docs walkthrough — application not demonstrated",
+      "caption": "Source/docs walkthrough \u2014 application not demonstrated",
       "sha256": "9f5651cfb004deefe7ce7583ec70587d640b91c23f281478177ef7684ea2b4c5",
       "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
       "verification": "published; desktop and mobile playback verified",
@@ -692,7 +1093,7 @@
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-skydrop-20261012.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-skydrop-20261012.jpg",
       "lobbyUrl": "https://ootle-lobby-preview.vercel.app/#community-projects",
-      "caption": "Source/docs walkthrough — transfers not demonstrated",
+      "caption": "Source/docs walkthrough \u2014 transfers not demonstrated",
       "sha256": "daa1c7759c7fd383690ce8dacf00aca20105af7726fc9f7926b22b1b88bcc0f4",
       "frameReview": "daily-2026-10-12/skydrop-final-frames.jpg",
       "verification": "published; production desktop playback advanced and final-revision phone playback reached 12 seconds without media error",
@@ -760,7 +1161,7 @@
           "author": "tariproject.bsky.social",
           "publishedAt": "2026-10-27T13:00:13.338Z",
           "foundOn": "2026-10-29",
-          "context": "A ghost sells you a secret. What happens when it delivers a fake? 👻\r\n\r\nCrypt turns encrypted sales and escrow disputes into a playable browser demo for Tari’s Spooky Secrets contest.\r\n\r\nNo wallet needed. Enter the crypt:\r\nhttps://lrifton92.github.io/crypt/",
+          "context": "A ghost sells you a secret. What happens when it delivers a fake? \ud83d\udc7b\r\n\r\nCrypt turns encrypted sales and escrow disputes into a playable browser demo for Tari\u2019s Spooky Secrets contest.\r\n\r\nNo wallet needed. Enter the crypt:\r\nhttps://lrifton92.github.io/crypt/",
           "visibility": "public"
         },
         {
@@ -795,7 +1196,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261103-952605ab1c.png",
       "sha256": "952605ab1c25acfc1cca5c3ffca40f3839e473f01cf7412f7d51c7a5e1c3f5a8",
       "caption": "Docs walkthrough",
-      "method": "Genuine public README browser capture with scroll; includes creator’s embedded animation. No application session, wallet or transaction.",
+      "method": "Genuine public README browser capture with scroll; includes creator\u2019s embedded animation. No application session, wallet or transaction.",
       "status": "published",
       "verification": {
         "framesReviewed": [
@@ -959,7 +1360,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261019.jpg",
           "sha256": "575d115fcca441b320767a7a25a8cac9dce05d93a798ea6128204a8a58ccd8c1",
           "caption": "App demo",
-          "method": "Real public-demo button clicks: PLAY, BUYER, HONEST, BUY. Wallet-free local simulation; ghost seller faded after payment. Frames 0/12/23 inspected. Separate manual play reached the Forger’s Curse; not represented as this recording outcome.",
+          "method": "Real public-demo button clicks: PLAY, BUYER, HONEST, BUY. Wallet-free local simulation; ghost seller faded after payment. Frames 0/12/23 inspected. Separate manual play reached the Forger\u2019s Curse; not represented as this recording outcome.",
           "status": "published-playback-verified",
           "verification": "Published; desktop and phone playback verified in Lobby builder catalog and Workbench. Home gallery checked separately; Ghostline home used trial revision.",
           "previousCaptures": [
@@ -1110,7 +1511,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261023.png",
           "sha256": "4755a9465f4a21641058d04b65aef1283944ccf37cbfe9ff65a9ae8a5b5ac9bb",
           "caption": "App demo",
-          "method": "App demo — Wallet-path requirements and payout warning, then title screen; no wallet connected or transaction performed.",
+          "method": "App demo \u2014 Wallet-path requirements and payout warning, then title screen; no wallet connected or transaction performed.",
           "status": "published-playback-verified",
           "verification": {
             "framesReviewed": [
@@ -1162,12 +1563,12 @@
                   "time": 0
                 },
                 "links": [
-                  "Crypt ↗",
-                  "Discussion · Tari Community forum ↗",
-                  "Discussion · Bluesky ↗",
-                  "Discussion · Bluesky ↗",
-                  "Discussion · Bluesky ↗",
-                  "Discussion · Bluesky ↗"
+                  "Crypt \u2197",
+                  "Discussion \u00b7 Tari Community forum \u2197",
+                  "Discussion \u00b7 Bluesky \u2197",
+                  "Discussion \u00b7 Bluesky \u2197",
+                  "Discussion \u00b7 Bluesky \u2197",
+                  "Discussion \u00b7 Bluesky \u2197"
                 ],
                 "end": {
                   "controls": true,
@@ -1198,12 +1599,12 @@
                   "scrollWidth": 298
                 },
                 "links": [
-                  "Crypt ↗",
-                  "Discussion · Tari Community forum ↗",
-                  "Discussion · Bluesky ↗",
-                  "Discussion · Bluesky ↗",
-                  "Discussion · Bluesky ↗",
-                  "Discussion · Bluesky ↗"
+                  "Crypt \u2197",
+                  "Discussion \u00b7 Tari Community forum \u2197",
+                  "Discussion \u00b7 Bluesky \u2197",
+                  "Discussion \u00b7 Bluesky \u2197",
+                  "Discussion \u00b7 Bluesky \u2197",
+                  "Discussion \u00b7 Bluesky \u2197"
                 ],
                 "end": {
                   "controls": true,
@@ -1308,7 +1709,7 @@
           "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261029.mp4",
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261029.png",
           "observedRevision": "683bc4e",
-          "caption": "App demo — Replacement mirror’s testnet payout warning and title screen; no wallet or transaction.",
+          "caption": "App demo \u2014 Replacement mirror\u2019s testnet payout warning and title screen; no wallet or transaction.",
           "scope": "Previously published October29 recording, retained when selecting November3 docs walkthrough."
         }
       ],
@@ -1470,7 +1871,7 @@
           "author": "hycorange",
           "publishedAt": "2026-10-12T13:55:52.735Z",
           "foundOn": "2026-10-13",
-          "context": "Phantom Drop submission links proof transactions on the recovered Veil hostname; not Veil’s original announcement",
+          "context": "Phantom Drop submission links proof transactions on the recovered Veil hostname; not Veil\u2019s original announcement",
           "visibility": "public"
         },
         {
@@ -1526,7 +1927,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veil-20261010.jpg",
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:integration:veil",
           "workbenchUrl": "https://ootle-workbench.vercel.app/",
-          "caption": "Source/docs walkthrough — application not demonstrated",
+          "caption": "Source/docs walkthrough \u2014 application not demonstrated",
           "sha256": "b0734332b8692a56710344e92eebb816adbf732c4d6f343a09b395a93c3b8bea",
           "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
           "verification": "published; desktop and mobile playback verified",
@@ -1550,7 +1951,7 @@
               "author": "hycorange",
               "publishedAt": "2026-10-12T13:55:52.735Z",
               "foundOn": "2026-10-13",
-              "context": "Phantom Drop submission links proof transactions on the recovered Veil hostname; not Veil’s original announcement",
+              "context": "Phantom Drop submission links proof transactions on the recovered Veil hostname; not Veil\u2019s original announcement",
               "visibility": "public"
             }
           ],
@@ -1707,7 +2108,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1xci5og/caravel_trade_a_private_peer_to_peer_otc_platform/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "Okan01616161",
           "foundOn": "2026-10-23",
           "context": "Creator Trade announcement",
@@ -1739,7 +2140,7 @@
       "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-trade-20261023.mp4",
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-trade-20261023.png",
       "caption": "Docs walkthrough",
-      "method": "Source/docs walkthrough — Updated README, implementation and deployment documentation; no wallet or trade.",
+      "method": "Source/docs walkthrough \u2014 Updated README, implementation and deployment documentation; no wallet or trade.",
       "sha256": "95b850b2c3c3027aaff30daeae40fcefca21338325b738f8c17b66c737b11b0c",
       "frameReview": "Opening, middle and closing frames visually inspected; real public content with continuous scrolling.",
       "verification": {
@@ -1792,10 +2193,10 @@
               "time": 0
             },
             "links": [
-              "Caravel Trade ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Reddit · r/tari ↗",
-              "Discussion · X ↗"
+              "Caravel Trade \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197",
+              "Discussion \u00b7 Reddit \u00b7 r/tari \u2197",
+              "Discussion \u00b7 X \u2197"
             ],
             "end": {
               "controls": true,
@@ -1826,10 +2227,10 @@
               "scrollWidth": 298
             },
             "links": [
-              "Caravel Trade ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Reddit · r/tari ↗",
-              "Discussion · X ↗"
+              "Caravel Trade \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197",
+              "Discussion \u00b7 Reddit \u00b7 r/tari \u2197",
+              "Discussion \u00b7 X \u2197"
             ],
             "end": {
               "controls": true,
@@ -1997,7 +2398,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261016.jpg",
       "sha256": "110c3d9eda10f2db59b1d89266a974b05d63339d207525965ea3e28a5b213438",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — Public privacy explanation for sealed messages; no invitation, wallet or posting action. Continuous page scroll; frames 0, 6 and 11 seconds inspected.",
+      "method": "Docs walkthrough \u2014 Public privacy explanation for sealed messages; no invitation, wallet or posting action. Continuous page scroll; frames 0, 6 and 11 seconds inspected.",
       "status": "published-playback-verified",
       "verification": {
         "framesReviewed": [
@@ -2233,7 +2634,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ons-20261010.jpg",
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ons",
           "workbenchUrl": "https://ootle-workbench.vercel.app/",
-          "caption": "Source/docs walkthrough — application not demonstrated",
+          "caption": "Source/docs walkthrough \u2014 application not demonstrated",
           "sha256": "80c6b68baa3cf14e7098944223ee927b7d2642edbf95cf16853cf6c005865aaf",
           "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
           "verification": "published; desktop and mobile playback verified",
@@ -2337,7 +2738,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-caravel-faucet-20261010.jpg",
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:caravel-faucet",
           "workbenchUrl": "https://ootle-workbench.vercel.app/",
-          "caption": "Source/docs walkthrough — application not demonstrated",
+          "caption": "Source/docs walkthrough \u2014 application not demonstrated",
           "sha256": "cc0d43c69cf301cd1541fcbaacdde406aeeee7f72c0102e6c557d4900e2d7db5",
           "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
           "verification": "published; desktop and mobile playback verified",
@@ -2503,7 +2904,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-ts-20261010.jpg",
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-ts",
           "workbenchUrl": "https://ootle-workbench.vercel.app/",
-          "caption": "Source/docs walkthrough — application not demonstrated",
+          "caption": "Source/docs walkthrough \u2014 application not demonstrated",
           "sha256": "685e3cbbb258a774413d84582a949b043c8163c1c6b1b4a8d7c8f621a283c2f6",
           "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
           "verification": "published; desktop and mobile playback verified",
@@ -2625,7 +3026,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.jpg",
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-python",
           "workbenchUrl": "https://ootle-workbench.vercel.app/",
-          "caption": "Source/docs walkthrough — application not demonstrated",
+          "caption": "Source/docs walkthrough \u2014 application not demonstrated",
           "sha256": "ff3f37410040e242369fd4bedcecd02b8546972bdf48bcb64fcc7464a33e9584",
           "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
           "verification": "published; desktop and mobile playback verified",
@@ -2708,7 +3109,7 @@
               "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-python-20261010.jpg",
               "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-python",
               "workbenchUrl": "https://ootle-workbench.vercel.app/",
-              "caption": "Source/docs walkthrough — application not demonstrated",
+              "caption": "Source/docs walkthrough \u2014 application not demonstrated",
               "sha256": "ff3f37410040e242369fd4bedcecd02b8546972bdf48bcb64fcc7464a33e9584",
               "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
               "verification": "published; desktop and mobile playback verified",
@@ -2798,7 +3199,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.jpg",
           "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-go",
           "workbenchUrl": "https://ootle-workbench.vercel.app/",
-          "caption": "Source/docs walkthrough — application not demonstrated",
+          "caption": "Source/docs walkthrough \u2014 application not demonstrated",
           "sha256": "31e3bcd44418be5bb15d2e44518b5904c369ae7b9d03994e7453a899f3e7382b",
           "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
           "verification": "published; desktop and mobile playback verified",
@@ -2881,7 +3282,7 @@
               "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-go-20261010.jpg",
               "lobbyUrl": "https://ootle-lobby-preview.vercel.app/resource/tari-ootle:component:ootle-go",
               "workbenchUrl": "https://ootle-workbench.vercel.app/",
-              "caption": "Source/docs walkthrough — application not demonstrated",
+              "caption": "Source/docs walkthrough \u2014 application not demonstrated",
               "sha256": "31e3bcd44418be5bb15d2e44518b5904c369ae7b9d03994e7453a899f3e7382b",
               "frameReview": "opening/middle/closing inspected; genuine source content, no black or frozen capture",
               "verification": "published; desktop and mobile playback verified",
@@ -2938,7 +3339,7 @@
         {
           "image": "/previews/community/liquidity.jpg",
           "video": "/previews/community/liquidity.mp4",
-          "label": "Repository walkthrough · testnet interface screenshots",
+          "label": "Repository walkthrough \u00b7 testnet interface screenshots",
           "sourceUrl": "https://github.com/GSXRspartan/tari-ootle-liquidity-protocol#readme",
           "capturedAt": "2026-10-04T15:32:57.764526Z",
           "reviewedAt": "2026-10-04T15:32:57.764526Z",
@@ -3144,7 +3545,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1x6u7q5/i_built_sealed_coffin_a_private_sealedbid_auction/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "u/Serious-Bad8845",
           "foundOn": "2026-10-16",
           "context": "Creator-linked Sealed Coffin announcement; body removed by Reddit filters when inspected October16",
@@ -3225,7 +3626,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-supportxtm-testnet-faucet-20261016.jpg",
       "sha256": "a608dac71004c187c6821ff9bbf7e69ae9bf127e0bb458ebba0fecfde3e0daa7",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — Public faucet discussion explains L1 test funds and the separate Ootle burn step; no wallet or claim. Continuous page scroll; frames 0, 6 and 11 seconds inspected.",
+      "method": "Docs walkthrough \u2014 Public faucet discussion explains L1 test funds and the separate Ootle burn step; no wallet or claim. Continuous page scroll; frames 0, 6 and 11 seconds inspected.",
       "status": "published-playback-verified",
       "verification": {
         "framesReviewed": [
@@ -3260,7 +3661,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "u/Awkward_Remote_1070",
           "publishedAt": "2026-10-17T21:40:57.460Z",
           "foundOn": "2026-10-19",
@@ -3298,7 +3699,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghostline-20261023.png",
       "sha256": "f6159411ee7f4072a2de2caabc7486b6b3a3b417e337b68c335f75e275526a09",
       "caption": "App demo",
-      "method": "App demo — Five simulated calls and separate archived chain evidence; no wallet or payment.",
+      "method": "App demo \u2014 Five simulated calls and separate archived chain evidence; no wallet or payment.",
       "status": "published-playback-verified",
       "verification": {
         "framesReviewed": [
@@ -3350,11 +3751,11 @@
               "time": 0
             },
             "links": [
-              "Ghostline ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Reddit · r/tari ↗",
-              "Discussion · GitHub release ↗",
-              "Discussion · GitHub release ↗"
+              "Ghostline \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197",
+              "Discussion \u00b7 Reddit \u00b7 r/tari \u2197",
+              "Discussion \u00b7 GitHub release \u2197",
+              "Discussion \u00b7 GitHub release \u2197"
             ],
             "end": {
               "controls": true,
@@ -3385,11 +3786,11 @@
               "scrollWidth": 298
             },
             "links": [
-              "Ghostline ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Reddit · r/tari ↗",
-              "Discussion · GitHub release ↗",
-              "Discussion · GitHub release ↗"
+              "Ghostline \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197",
+              "Discussion \u00b7 Reddit \u00b7 r/tari \u2197",
+              "Discussion \u00b7 GitHub release \u2197",
+              "Discussion \u00b7 GitHub release \u2197"
             ],
             "end": {
               "controls": true,
@@ -3434,7 +3835,7 @@
             },
             {
               "url": "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/",
-              "platform": "Reddit · r/tari",
+              "platform": "Reddit \u00b7 r/tari",
               "author": "u/Awkward_Remote_1070",
               "publishedAt": "2026-10-17T21:40:57.460Z",
               "foundOn": "2026-10-19",
@@ -3487,7 +3888,7 @@
             },
             {
               "url": "https://www.reddit.com/r/tari/comments/1x8m0xh/ghostline_private_paypercall_payments_for_ai/",
-              "platform": "Reddit · r/tari",
+              "platform": "Reddit \u00b7 r/tari",
               "author": "u/Awkward_Remote_1070",
               "publishedAt": "2026-10-17T21:40:57.460Z",
               "foundOn": "2026-10-19",
@@ -3611,7 +4012,7 @@
     },
     {
       "resourceId": "seance",
-      "title": "Séance",
+      "title": "S\u00e9ance",
       "targetUrl": "https://seance.madebydevx.com",
       "originalPosts": [
         {
@@ -3620,7 +4021,7 @@
           "author": "DevXTools",
           "publishedAt": "2026-10-20T11:25:58.437Z",
           "foundOn": "2026-10-20",
-          "context": "October contest submission for Séance sealed group polls, with source and network proof links",
+          "context": "October contest submission for S\u00e9ance sealed group polls, with source and network proof links",
           "visibility": "public"
         },
         {
@@ -3660,7 +4061,7 @@
       "history": [
         {
           "resourceId": "seance",
-          "title": "Séance",
+          "title": "S\u00e9ance",
           "targetUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
           "originalPosts": [
             {
@@ -3669,7 +4070,7 @@
               "author": "DevXTools",
               "publishedAt": "2026-10-20T11:25:58.437Z",
               "foundOn": "2026-10-20",
-              "context": "October contest submission for Séance sealed group polls, with source and network proof links",
+              "context": "October contest submission for S\u00e9ance sealed group polls, with source and network proof links",
               "visibility": "public"
             }
           ],
@@ -3716,7 +4117,7 @@
       "previousCaptures": [
         {
           "resourceId": "seance",
-          "title": "Séance",
+          "title": "S\u00e9ance",
           "targetUrl": "https://seance.madebydevx.com",
           "originalPosts": [
             {
@@ -3725,7 +4126,7 @@
               "author": "DevXTools",
               "publishedAt": "2026-10-20T11:25:58.437Z",
               "foundOn": "2026-10-20",
-              "context": "October contest submission for Séance sealed group polls, with source and network proof links",
+              "context": "October contest submission for S\u00e9ance sealed group polls, with source and network proof links",
               "visibility": "public"
             },
             {
@@ -3750,7 +4151,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.png",
           "sha256": "93de1622ede170d24bc57d8343cc7b26db3748cdc506f84f7ea9785ffe0ebcc4",
           "caption": "App demo",
-          "method": "App demo — Browser poll interface overview; local interactions and historical poll reads are separate from chain voting.",
+          "method": "App demo \u2014 Browser poll interface overview; local interactions and historical poll reads are separate from chain voting.",
           "status": "published-playback-verified",
           "verification": {
             "framesReviewed": [
@@ -3762,7 +4163,7 @@
             "verifiedAt": "2026-10-23T18:24:41.786604+00:00",
             "cases": {
               "lobby-playback-desktop": {
-                "title": "Séance",
+                "title": "S\u00e9ance",
                 "start": {
                   "paused": false,
                   "src": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
@@ -3776,7 +4177,7 @@
                 }
               },
               "lobby-playback-phone": {
-                "title": "Séance",
+                "title": "S\u00e9ance",
                 "start": {
                   "paused": false,
                   "time": 0.012182
@@ -3795,16 +4196,16 @@
                 }
               },
               "workbench-playback-desktop": {
-                "title": "Séance",
+                "title": "S\u00e9ance",
                 "start": {
                   "paused": false,
                   "src": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
                   "time": 0
                 },
                 "links": [
-                  "Séance ↗",
-                  "Discussion · Tari Community forum ↗",
-                  "Discussion · Tari Community forum ↗"
+                  "S\u00e9ance \u2197",
+                  "Discussion \u00b7 Tari Community forum \u2197",
+                  "Discussion \u00b7 Tari Community forum \u2197"
                 ],
                 "end": {
                   "controls": true,
@@ -3814,7 +4215,7 @@
                 }
               },
               "workbench-playback-phone": {
-                "title": "Séance",
+                "title": "S\u00e9ance",
                 "start": {
                   "paused": false,
                   "src": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-20261023.mp4",
@@ -3835,9 +4236,9 @@
                   "scrollWidth": 298
                 },
                 "links": [
-                  "Séance ↗",
-                  "Discussion · Tari Community forum ↗",
-                  "Discussion · Tari Community forum ↗"
+                  "S\u00e9ance \u2197",
+                  "Discussion \u00b7 Tari Community forum \u2197",
+                  "Discussion \u00b7 Tari Community forum \u2197"
                 ],
                 "end": {
                   "controls": true,
@@ -3868,7 +4269,7 @@
           "history": [
             {
               "resourceId": "seance",
-              "title": "Séance",
+              "title": "S\u00e9ance",
               "targetUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/15",
               "originalPosts": [
                 {
@@ -3877,7 +4278,7 @@
                   "author": "DevXTools",
                   "publishedAt": "2026-10-20T11:25:58.437Z",
                   "foundOn": "2026-10-20",
-                  "context": "October contest submission for Séance sealed group polls, with source and network proof links",
+                  "context": "October contest submission for S\u00e9ance sealed group polls, with source and network proof links",
                   "visibility": "public"
                 }
               ],
@@ -3932,7 +4333,7 @@
       "originalPosts": [
         {
           "url": "https://www.reddit.com/r/tari/comments/1xas9x4/sealed_bids_at_midnight_a_tari_auction_where/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "u/Competitive-Heart387",
           "publishedAt": "2026-10-20T13:32:56.682Z",
           "foundOn": "2026-10-20",
@@ -3981,8 +4382,8 @@
     },
     {
       "resourceId": "seance-privacy",
-      "title": "Seance — privacy demo",
-      "targetUrl": "https://kylne700.github.io/seance/#tx=891b43606b33d8cdfcc37a44793210ef4a517312c3180772b154d86fc08a2ace",
+      "title": "Seance \u2014 privacy demo",
+      "targetUrl": "https://github.com/Kylne700/seance#readme",
       "originalPosts": [
         {
           "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
@@ -4003,19 +4404,19 @@
           "visibility": "public"
         }
       ],
-      "captureType": "app-demo",
-      "capturedAt": "2026-10-21T13:31:11.431Z",
-      "observedRevision": "e98765a19aa0e4d335eaccb04a68aaeb98956033",
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-28T14:15:42.220Z",
+      "observedRevision": "ebd23c2a24c82292d21ca79e216130568607807c",
       "viewport": {
         "width": 1280,
         "height": 800
       },
       "durationSeconds": 12,
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.mp4",
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.jpg",
-      "sha256": "690a421e3b86a3600a0b412846110cfa134ab1fbd5fd1ae5820a409fc75a733a",
-      "caption": "App demo",
-      "method": "Continuous prepared public transaction inspection. Bounded 780px scroll keeps observer cards readable. Frames 0,6,11 inspected; no wallet or payment. Earlier overscrolled take retained outside Git.",
+      "publicMediaUrl": "https://lobby.tari.com/previews/community/resource-seance-mainnet-20261128.mp4",
+      "publicPosterUrl": "https://lobby.tari.com/previews/community/resource-seance-mainnet-20261128.png",
+      "sha256": "7ad0b7b72a961b47a2bb866bf666851bd030862394ad856efbb8821fa764454d",
+      "caption": "Docs walkthrough",
+      "method": "Genuine separate continuous 12-second README walkthrough; JavaScript and downloads disabled; no wallet, transaction or project code executed.",
       "status": "published-playback-verified",
       "verification": {
         "framesReviewed": [
@@ -4023,75 +4424,240 @@
           6,
           11
         ],
-        "livePlayback": "advanced on desktop and phone in both products; exact observations retained in finalPlayback",
-        "finalPlayback": {
-          "checkedAt": "2026-10-21T14:06:21.504467+00:00",
-          "evidence": "daily-2026-10-21/live-cua-evidence.json",
-          "cases": [
+        "lobby": "work/daily-2026-11-28/lobby-seance-ui.json",
+        "workbench": "work/daily-2026-11-28/workbench-seance-ui.json"
+      },
+      "history": [
+        {
+          "resourceId": "seance-privacy",
+          "title": "Seance \u2014 privacy demo",
+          "targetUrl": "https://kylne700.github.io/seance/#tx=891b43606b33d8cdfcc37a44793210ef4a517312c3180772b154d86fc08a2ace",
+          "originalPosts": [
             {
-              "surface": "lobby-builder",
-              "viewport": "desktop",
-              "resource": "seance-privacy",
-              "observedStart": 0,
-              "observedLater": 12,
-              "duration": 12,
-              "endedObserved": true,
-              "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+              "platform": "Tari Community forum",
+              "author": "Kylne700",
+              "publishedAt": "2026-10-20T18:35:07.259Z",
+              "foundOn": "2026-10-21",
+              "context": "October contest submission for the three-observer privacy demo",
+              "visibility": "public"
             },
             {
-              "surface": "lobby-builder",
-              "viewport": "phone",
-              "resource": "seance-privacy",
-              "observedStart": 0,
-              "observedLater": 12,
-              "duration": 12,
-              "endedObserved": true,
-              "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
-            },
-            {
-              "surface": "lobby-gallery",
-              "viewport": "desktop",
-              "resource": "seance-privacy",
-              "observedStart": 0,
-              "observedLater": 12,
-              "duration": 12,
-              "endedObserved": true,
-              "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
-            },
-            {
-              "surface": "lobby-gallery",
-              "viewport": "phone",
-              "resource": "seance-privacy",
-              "observedStart": 0,
-              "observedLater": 12,
-              "duration": 12,
-              "endedObserved": true,
-              "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
-            },
-            {
-              "surface": "workbench",
-              "viewport": "desktop",
-              "resource": "seance-privacy",
-              "observedStart": 0,
-              "observedLater": 12,
-              "duration": 12,
-              "endedObserved": true,
-              "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
-            },
-            {
-              "surface": "workbench",
-              "viewport": "phone",
-              "resource": "seance-privacy",
-              "observedStart": 0,
-              "observedLater": 12,
-              "duration": 12,
-              "endedObserved": true,
-              "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+              "url": "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22",
+              "platform": "Bluesky",
+              "author": "Kylne700",
+              "publishedAt": "2026-10-20T18:09:16.314Z",
+              "foundOn": "2026-10-21",
+              "context": "Original creator announcement and demo recording",
+              "visibility": "public"
             }
           ],
-          "servedVideoAndPosterHashesMatch": true
+          "captureType": "app-demo",
+          "capturedAt": "2026-10-21T13:31:11.431Z",
+          "observedRevision": "e98765a19aa0e4d335eaccb04a68aaeb98956033",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.jpg",
+          "sha256": "690a421e3b86a3600a0b412846110cfa134ab1fbd5fd1ae5820a409fc75a733a",
+          "caption": "App demo",
+          "method": "Continuous prepared public transaction inspection. Bounded 780px scroll keeps observer cards readable. Frames 0,6,11 inspected; no wallet or payment. Earlier overscrolled take retained outside Git.",
+          "status": "published-playback-verified",
+          "verification": {
+            "framesReviewed": [
+              0,
+              6,
+              11
+            ],
+            "livePlayback": "advanced on desktop and phone in both products; exact observations retained in finalPlayback",
+            "finalPlayback": {
+              "checkedAt": "2026-10-21T14:06:21.504467+00:00",
+              "evidence": "daily-2026-10-21/live-cua-evidence.json",
+              "cases": [
+                {
+                  "surface": "lobby-builder",
+                  "viewport": "desktop",
+                  "resource": "seance-privacy",
+                  "observedStart": 0,
+                  "observedLater": 12,
+                  "duration": 12,
+                  "endedObserved": true,
+                  "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+                },
+                {
+                  "surface": "lobby-builder",
+                  "viewport": "phone",
+                  "resource": "seance-privacy",
+                  "observedStart": 0,
+                  "observedLater": 12,
+                  "duration": 12,
+                  "endedObserved": true,
+                  "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+                },
+                {
+                  "surface": "lobby-gallery",
+                  "viewport": "desktop",
+                  "resource": "seance-privacy",
+                  "observedStart": 0,
+                  "observedLater": 12,
+                  "duration": 12,
+                  "endedObserved": true,
+                  "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+                },
+                {
+                  "surface": "lobby-gallery",
+                  "viewport": "phone",
+                  "resource": "seance-privacy",
+                  "observedStart": 0,
+                  "observedLater": 12,
+                  "duration": 12,
+                  "endedObserved": true,
+                  "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+                },
+                {
+                  "surface": "workbench",
+                  "viewport": "desktop",
+                  "resource": "seance-privacy",
+                  "observedStart": 0,
+                  "observedLater": 12,
+                  "duration": 12,
+                  "endedObserved": true,
+                  "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+                },
+                {
+                  "surface": "workbench",
+                  "viewport": "phone",
+                  "resource": "seance-privacy",
+                  "observedStart": 0,
+                  "observedLater": 12,
+                  "duration": 12,
+                  "endedObserved": true,
+                  "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+                }
+              ],
+              "servedVideoAndPosterHashesMatch": true
+            }
+          }
+        },
+        {
+          "resourceId": "seance-privacy",
+          "title": "Seance \u2014 privacy demo",
+          "targetUrl": "https://kylne700.github.io/seance/#tx=891b43606b33d8cdfcc37a44793210ef4a517312c3180772b154d86fc08a2ace",
+          "originalPosts": [
+            {
+              "url": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
+              "platform": "Tari Community forum",
+              "author": "Kylne700",
+              "publishedAt": "2026-10-20T18:35:07.259Z",
+              "foundOn": "2026-10-21",
+              "context": "October contest submission for the three-observer privacy demo",
+              "visibility": "public"
+            },
+            {
+              "url": "https://bsky.app/profile/kylne700.bsky.social/post/3myda5pbxgk22",
+              "platform": "Bluesky",
+              "author": "Kylne700",
+              "publishedAt": "2026-10-20T18:09:16.314Z",
+              "foundOn": "2026-10-21",
+              "context": "Original creator announcement and demo recording",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "app-demo",
+          "capturedAt": "2026-10-21T13:31:11.431Z",
+          "observedRevision": "e98765a19aa0e4d335eaccb04a68aaeb98956033",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261021.jpg",
+          "sha256": "690a421e3b86a3600a0b412846110cfa134ab1fbd5fd1ae5820a409fc75a733a",
+          "caption": "App demo",
+          "method": "Continuous prepared public transaction inspection. Bounded 780px scroll keeps observer cards readable. Frames 0,6,11 inspected; no wallet or payment. Earlier overscrolled take retained outside Git.",
+          "status": "published-playback-verified",
+          "verification": {
+            "framesReviewed": [
+              0,
+              6,
+              11
+            ],
+            "livePlayback": "advanced on desktop and phone in both products; exact observations retained in finalPlayback",
+            "finalPlayback": {
+              "checkedAt": "2026-10-21T14:06:21.504467+00:00",
+              "evidence": "daily-2026-10-21/live-cua-evidence.json",
+              "cases": [
+                {
+                  "surface": "lobby-builder",
+                  "viewport": "desktop",
+                  "resource": "seance-privacy",
+                  "observedStart": 0,
+                  "observedLater": 12,
+                  "duration": 12,
+                  "endedObserved": true,
+                  "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+                },
+                {
+                  "surface": "lobby-builder",
+                  "viewport": "phone",
+                  "resource": "seance-privacy",
+                  "observedStart": 0,
+                  "observedLater": 12,
+                  "duration": 12,
+                  "endedObserved": true,
+                  "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+                },
+                {
+                  "surface": "lobby-gallery",
+                  "viewport": "desktop",
+                  "resource": "seance-privacy",
+                  "observedStart": 0,
+                  "observedLater": 12,
+                  "duration": 12,
+                  "endedObserved": true,
+                  "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+                },
+                {
+                  "surface": "lobby-gallery",
+                  "viewport": "phone",
+                  "resource": "seance-privacy",
+                  "observedStart": 0,
+                  "observedLater": 12,
+                  "duration": 12,
+                  "endedObserved": true,
+                  "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+                },
+                {
+                  "surface": "workbench",
+                  "viewport": "desktop",
+                  "resource": "seance-privacy",
+                  "observedStart": 0,
+                  "observedLater": 12,
+                  "duration": 12,
+                  "endedObserved": true,
+                  "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+                },
+                {
+                  "surface": "workbench",
+                  "viewport": "phone",
+                  "resource": "seance-privacy",
+                  "observedStart": 0,
+                  "observedLater": 12,
+                  "duration": 12,
+                  "endedObserved": true,
+                  "method": "CUA native video control click or keyboard Space; DOM media state read afterward"
+                }
+              ],
+              "servedVideoAndPosterHashesMatch": true
+            }
+          }
         }
-      }
+      ],
+      "publicationEvidence": "work/daily-2026-11-28/first-publication-accepted.json"
     },
     {
       "resourceId": "sapient-bonus-contest",
@@ -4221,7 +4787,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-graveyard-shift-20261023.png",
       "sha256": "70597445045c238b20f948a6f18f56fa071e4ecab5b0208ad9e83657e199d25c",
       "caption": "Concept overview",
-      "method": "App demo — Interactive replay of the creator’s engine transcript; four perspectives, no browser decryption or payment.",
+      "method": "App demo \u2014 Interactive replay of the creator\u2019s engine transcript; four perspectives, no browser decryption or payment.",
       "status": "published-playback-verified",
       "verification": {
         "framesReviewed": [
@@ -4274,11 +4840,11 @@
               "time": 0
             },
             "links": [
-              "Graveyard Shift ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Bluesky ↗",
-              "Discussion · Reddit · r/tari ↗"
+              "Graveyard Shift \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197",
+              "Discussion \u00b7 Bluesky \u2197",
+              "Discussion \u00b7 Reddit \u00b7 r/tari \u2197"
             ],
             "end": {
               "controls": true,
@@ -4309,11 +4875,11 @@
               "scrollWidth": 298
             },
             "links": [
-              "Graveyard Shift ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Bluesky ↗",
-              "Discussion · Reddit · r/tari ↗"
+              "Graveyard Shift \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197",
+              "Discussion \u00b7 Bluesky \u2197",
+              "Discussion \u00b7 Reddit \u00b7 r/tari \u2197"
             ],
             "end": {
               "controls": true,
@@ -4367,7 +4933,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1xbv9r6/i_built_a_private_cloud_storage_on_the_tari_ootle/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "c7b",
           "context": "Creator announcement",
           "foundOn": "2026-10-23",
@@ -4394,7 +4960,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hidebox-20261023.png",
       "sha256": "0c3bd34895d31ca7f46aad83026479a093012ad62f3c413e3c9cb4b166d42fb1",
       "caption": "Docs walkthrough",
-      "method": "Source/docs walkthrough — Public how-it-works page and illustrative UI; no drive, key, upload or payment created.",
+      "method": "Source/docs walkthrough \u2014 Public how-it-works page and illustrative UI; no drive, key, upload or payment created.",
       "status": "published-playback-verified",
       "verification": {
         "framesReviewed": [
@@ -4446,10 +5012,10 @@
               "time": 0
             },
             "links": [
-              "HideBox ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Reddit · r/tari ↗",
-              "Discussion · Tari Community forum ↗"
+              "HideBox \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197",
+              "Discussion \u00b7 Reddit \u00b7 r/tari \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197"
             ],
             "end": {
               "controls": true,
@@ -4480,10 +5046,10 @@
               "scrollWidth": 298
             },
             "links": [
-              "HideBox ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Reddit · r/tari ↗",
-              "Discussion · Tari Community forum ↗"
+              "HideBox \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197",
+              "Discussion \u00b7 Reddit \u00b7 r/tari \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197"
             ],
             "end": {
               "controls": true,
@@ -4556,7 +5122,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-familiar-20261023.png",
       "sha256": "212d9728f76595c0dfb3a7e0b8ff8dd645adaddd0731f2407b2a149e417dcf59",
       "caption": "Docs walkthrough",
-      "method": "Source/docs walkthrough — Creator’s recorded transaction walkthrough; no agent, wallet or new transaction.",
+      "method": "Source/docs walkthrough \u2014 Creator\u2019s recorded transaction walkthrough; no agent, wallet or new transaction.",
       "status": "published-playback-verified",
       "verification": {
         "framesReviewed": [
@@ -4608,10 +5174,10 @@
               "time": 0
             },
             "links": [
-              "Familiar ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Bluesky ↗",
-              "Discussion · X ↗"
+              "Familiar \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197",
+              "Discussion \u00b7 Bluesky \u2197",
+              "Discussion \u00b7 X \u2197"
             ],
             "end": {
               "controls": true,
@@ -4642,10 +5208,10 @@
               "scrollWidth": 298
             },
             "links": [
-              "Familiar ↗",
-              "Discussion · Tari Community forum ↗",
-              "Discussion · Bluesky ↗",
-              "Discussion · X ↗"
+              "Familiar \u2197",
+              "Discussion \u00b7 Tari Community forum \u2197",
+              "Discussion \u00b7 Bluesky \u2197",
+              "Discussion \u00b7 X \u2197"
             ],
             "end": {
               "controls": true,
@@ -4681,7 +5247,7 @@
       "originalPosts": [
         {
           "url": "https://www.reddit.com/r/tari/comments/1xc689n/hearth_confidential_humanitarian_cash_aid_built/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "deeznertsz / XachP",
           "publishedAt": "2026-10-22T02:09:38.621Z",
           "foundOn": "2026-10-23",
@@ -4761,9 +5327,9 @@
               "time": 0
             },
             "links": [
-              "Hearth ↗",
-              "Discussion · Reddit · r/tari ↗",
-              "Discussion · X ↗"
+              "Hearth \u2197",
+              "Discussion \u00b7 Reddit \u00b7 r/tari \u2197",
+              "Discussion \u00b7 X \u2197"
             ],
             "end": {
               "controls": true,
@@ -4794,9 +5360,9 @@
               "scrollWidth": 298
             },
             "links": [
-              "Hearth ↗",
-              "Discussion · Reddit · r/tari ↗",
-              "Discussion · X ↗"
+              "Hearth \u2197",
+              "Discussion \u00b7 Reddit \u00b7 r/tari \u2197",
+              "Discussion \u00b7 X \u2197"
             ],
             "end": {
               "controls": true,
@@ -4859,7 +5425,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/s/Z9ZhhA4BZ2",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "zayyyyyyyyy_",
           "foundOn": "2026-10-24",
           "context": "Short sharing link retained from forum submission",
@@ -4867,7 +5433,7 @@
         },
         {
           "url": "https://www.reddit.com/r/tari/comments/1xbopnt/i_built_grave_robber_a_2d_gothic_crypt_heist_on/",
-          "platform": "Reddit · r/tari",
+          "platform": "Reddit \u00b7 r/tari",
           "author": "zayyyyyyyyy_",
           "foundOn": "2026-10-24",
           "context": "Resolved original post; public page says removed by Reddit filters on October 24",
@@ -4886,7 +5452,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-grave-robber-20261024.png",
       "sha256": "aea1c23bc0dce2cb452dec43302b8bc882b4dedd66b72427578f87a86b940c30",
       "caption": "App demo",
-      "method": "App demo — Sandbox explorer and riddle ledger; no wallet, bounty claim or transaction. Bottom 88-pixel recorder padding cropped; raw recording retained.",
+      "method": "App demo \u2014 Sandbox explorer and riddle ledger; no wallet, bounty claim or transaction. Bottom 88-pixel recorder padding cropped; raw recording retained.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -4993,7 +5559,7 @@
     },
     {
       "resourceId": "arkimals",
-      "title": "Arkimals — Halloween on Tari",
+      "title": "Arkimals \u2014 Halloween on Tari",
       "targetUrl": "https://tari.staging.arkimals-game.com/",
       "originalPosts": [
         {
@@ -5026,7 +5592,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-arkimals-20261029.png",
       "sha256": "c5167ecb6bfd0022024e4f230c27f23f31ab1b97cf351dbdbb3c3d68f6067748",
       "caption": "App demo",
-      "method": "App demo — Public landing and game rules only; no wallet or incubation.",
+      "method": "App demo \u2014 Public landing and game rules only; no wallet or incubation.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5079,7 +5645,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-steam-kit-20261029.png",
       "sha256": "99668c6dad72584218a17d62509f5700fecea7034f2ebcd3034e7928827945d0",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — Public settlement guide; no Steam login, trade or payment.",
+      "method": "Docs walkthrough \u2014 Public settlement guide; no Steam login, trade or payment.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5132,7 +5698,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-cursed-pumpkin-20261029.png",
       "sha256": "a56bc6b5aa3731ebe827747684a7671232497b5ca387f57bb1c531d6ef60362a",
       "caption": "App demo",
-      "method": "App demo — Interactive replay of the creator’s recorded October 28 testnet game; no new transactions.",
+      "method": "App demo \u2014 Interactive replay of the creator\u2019s recorded October 28 testnet game; no new transactions.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5199,7 +5765,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-moonmail-20261029.png",
       "sha256": "d161f0bde247870ab2b07daaf8f84e2b53d91accc0df723328f62def66ff083d",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — Public privacy page; no mailbox grant, letter delivery or payment.",
+      "method": "Docs walkthrough \u2014 Public privacy page; no mailbox grant, letter delivery or payment.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5257,7 +5823,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-tari-agent-registry-20261029.png",
       "sha256": "9a1d6ebf510899ec59af24fd23d7508506ee6b6a5fb5981c1d14a7536b30c458",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — Registry README, package structure and contribution scope; no installation.",
+      "method": "Docs walkthrough \u2014 Registry README, package structure and contribution scope; no installation.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5327,7 +5893,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-20261029.png",
       "sha256": "272756cb20963b9973ee9fe9f271c686ac534b38af5688211ab0831b22375d3d",
       "caption": "App demo",
-      "method": "App demo — Public board and room-privacy explanation; no wallet or private-room access.",
+      "method": "App demo \u2014 Public board and room-privacy explanation; no wallet or private-room access.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5345,7 +5911,7 @@
     },
     {
       "resourceId": "seance-privacy",
-      "title": "Seance — privacy demo",
+      "title": "Seance \u2014 privacy demo",
       "targetUrl": "https://kylne700.github.io/seance/",
       "originalPosts": [
         {
@@ -5379,8 +5945,8 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-privacy-20261029.png",
       "sha256": "73a24597d8f822ce969a2f9baba80a0a71773a582dcb7539ce9816683327f070",
       "caption": "App demo",
-      "method": "App demo — Public saved example and disclosure panels; deliberately public test keys, no wallet.",
-      "status": "published-live-verified",
+      "method": "App demo \u2014 Public saved example and disclosure panels; deliberately public test keys, no wallet.",
+      "status": "historical",
       "verification": {
         "framesReviewed": [
           0,
@@ -5394,7 +5960,9 @@
           "scope": "Native video Space key; desktop and 390x844 phone viewport; playback advanced from 0 to at least 10.97s of 12s on Lobby desktop, all clips ended at12s on phone and Workbench. Hauntboard only has a Lobby surface.",
           "evidence": "work/daily-2026-10-29/playback.json"
         }
-      }
+      },
+      "supersededBy": "https://lobby.tari.com/previews/community/resource-seance-mainnet-20261128.mp4",
+      "supersededAt": "2026-11-28T15:17:42.523077+00:00"
     },
     {
       "resourceId": "crypt",
@@ -5418,7 +5986,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-crypt-20261029.png",
       "sha256": "c556963c2dc12758addfc4b943dcf4bc379b59acc50da20bf8d335eac5bba47a",
       "caption": "App demo",
-      "method": "App demo — Replacement mirror’s testnet payout warning and title screen; no wallet or transaction.",
+      "method": "App demo \u2014 Replacement mirror\u2019s testnet payout warning and title screen; no wallet or transaction.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5468,7 +6036,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-haunted-passport-20261031.png",
       "sha256": "9fcf30d8b5a6218668eeda92ce86d89ffdf1fc0aca7a5e7bf55e2356fc3aba90",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — Public credential roles, disclosure model and deployment links; no wallet actions.",
+      "method": "Docs walkthrough \u2014 Public credential roles, disclosure model and deployment links; no wallet actions.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5525,7 +6093,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-candy-cards-20261031.png",
       "sha256": "8e88e83b397ba78ef44ecbe11b353de865d8ea27d4324c3123231c50956cf2c8",
       "caption": "Docs walkthrough",
-      "method": "Source/docs walkthrough — README, printable example cards and claim design; no card redemption.",
+      "method": "Source/docs walkthrough \u2014 README, printable example cards and claim design; no card redemption.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5582,7 +6150,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-dead-drop-davidjsourcing-20261031.png",
       "sha256": "8603320ce3fb77ff7479515eb8045e03092e041f3b4a917c62a56ef514da3516",
       "caption": "Docs walkthrough",
-      "method": "Source/docs walkthrough — public landing page, privacy layers and timed hunt explanation; no wallet actions.",
+      "method": "Source/docs walkthrough \u2014 public landing page, privacy layers and timed hunt explanation; no wallet actions.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5646,7 +6214,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootle-accord-20261031.png",
       "sha256": "440c82efbb32c533b65d3a33b544c50dae54d81083d3a78a8bb2ba817f7f5cd6",
       "caption": "App demo",
-      "method": "App demo — read-only public completed accord and review screen; no funding, approval or payout submitted.",
+      "method": "App demo \u2014 read-only public completed accord and review screen; no funding, approval or payout submitted.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5710,7 +6278,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ghost-gate-20261031.png",
       "sha256": "d0a0f840afb9fd2fd231b40a78f502e79a6726cb4754f66fe32c212abce9094a",
       "caption": "Docs walkthrough",
-      "method": "Source/docs walkthrough — public Crypt threshold policy and privacy limits; no wallet or admission action.",
+      "method": "Source/docs walkthrough \u2014 public Crypt threshold policy and privacy limits; no wallet or admission action.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5773,7 +6341,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-ootlebook-20261031.png",
       "sha256": "1972ada3b26d7ceda0ddf6780c8edc3985080f89cbe9a407f25cb99535eaf064",
       "caption": "Docs walkthrough",
-      "method": "Source/docs walkthrough — public agent cards, board and community links; no registration or payment.",
+      "method": "Source/docs walkthrough \u2014 public agent cards, board and community links; no registration or payment.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5820,7 +6388,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-creator-contest-503-20261031.png",
       "sha256": "37e1c567953eceae87984dcf8afcdf70e6910bbc1f155864fbda76c8a0fa34aa",
       "caption": "Announcement",
-      "method": "Announcement — original Tari Creator Contest terms, point categories and November 12 deadline; recorded October 31, 2026.",
+      "method": "Announcement \u2014 original Tari Creator Contest terms, point categories and November 12 deadline; recorded October 31, 2026.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5886,7 +6454,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-20261031.png",
       "sha256": "30b11d6c4403299eea37cc82453aa5b804e72c5ca0b25dd175ce984d9579bca9",
       "caption": "App demo",
-      "method": "App demo — recorded-run replay with public, client and accountant disclosure views; no new transaction.",
+      "method": "App demo \u2014 recorded-run replay with public, client and accountant disclosure views; no new transaction.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5969,7 +6537,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hauntboard-update-20261031.png",
       "sha256": "c8316252eecf01aa6c434709eb8455fb1b9bcff4d89f24e811370ed1de12096b",
       "caption": "App demo",
-      "method": "App demo — Public board and room-privacy explanation; no wallet, private-room access or posting.",
+      "method": "App demo \u2014 Public board and room-privacy explanation; no wallet, private-room access or posting.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -5988,7 +6556,7 @@
     },
     {
       "resourceId": "seance-privacy",
-      "title": "Seance — privacy demo",
+      "title": "Seance \u2014 privacy demo",
       "targetUrl": "https://kylne700.github.io/seance-v2/",
       "originalPosts": [
         {
@@ -6015,7 +6583,7 @@
           "author": "tariproject.bsky.social",
           "publishedAt": "2026-10-28T13:00:00.509Z",
           "foundOn": "2026-10-29",
-          "context": "What can a stranger see in a private payment? 👻\r\n\r\nSeance lets you compare the public view, a recipient’s view and an auditor’s view using Tari testnet examples. It also shows what still leaks.\r\n\r\nExplore:\r\nhttps://kylne700.github.io/seance/",
+          "context": "What can a stranger see in a private payment? \ud83d\udc7b\r\n\r\nSeance lets you compare the public view, a recipient\u2019s view and an auditor\u2019s view using Tari testnet examples. It also shows what still leaks.\r\n\r\nExplore:\r\nhttps://kylne700.github.io/seance/",
           "visibility": "public"
         }
       ],
@@ -6031,8 +6599,8 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-v2-20261031.png",
       "sha256": "db984f52961f25a916ce52d3f00c610d1378cda1eef9dba2e41ff32adecfd0e3",
       "caption": "Docs walkthrough",
-      "method": "Source/docs walkthrough — Transaction picker and request disclosure; no wallet or payment.",
-      "status": "published-live-verified",
+      "method": "Source/docs walkthrough \u2014 Transaction picker and request disclosure; no wallet or payment.",
+      "status": "historical",
       "verification": {
         "framesReviewed": [
           0,
@@ -6065,7 +6633,9 @@
           "evidence": "work/daily-2026-11-04/october-three-release-acceptance-nov5.json",
           "scope": "Retained dated clip; current source/update scope in Details, playback and layout checked in applicable public surfaces."
         }
-      ]
+      ],
+      "supersededBy": "https://lobby.tari.com/previews/community/resource-seance-mainnet-20261128.mp4",
+      "supersededAt": "2026-11-28T15:17:42.523077+00:00"
     },
     {
       "resourceId": "taritracker-faucet",
@@ -6134,7 +6704,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-atproto-identity-20261031.png",
       "sha256": "1d46e30478657c18bdca48aa6068f9fef6afdcb6ba32c5b4f8fcc90816bb64b4",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — public AT Protocol identity verification guide and Skydrop example; no code execution, wallet, account linking or transaction.",
+      "method": "Docs walkthrough \u2014 public AT Protocol identity verification guide and Skydrop example; no code execution, wallet, account linking or transaction.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -6207,7 +6777,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-burn-20261031.png",
       "sha256": "538be4d99fc7461939908d52572e2112f6263b5ac43b9be9f349c7b713657403",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — creator tutorial, no commands executed or wallet actions.",
+      "method": "Docs walkthrough \u2014 creator tutorial, no commands executed or wallet actions.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -6258,7 +6828,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-privacy-20261031.png",
       "sha256": "87b0a06ec69cdc182933d1f8898a7ee1dc70c1308b409b822fc77eddbd9636b6",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — creator tutorial, no commands executed or wallet actions.",
+      "method": "Docs walkthrough \u2014 creator tutorial, no commands executed or wallet actions.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -6309,7 +6879,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-mining-20261031.png",
       "sha256": "e98923331587edbde6c8858e09d8331ba8028f1745656751df26a71a038bd453",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — creator tutorial, no commands executed or wallet actions.",
+      "method": "Docs walkthrough \u2014 creator tutorial, no commands executed or wallet actions.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -6360,7 +6930,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-permissions-20261031.png",
       "sha256": "e5633e88b041a75f8365dd73305f2f5c9b652d6fbb000cdd3aa1e565fa802212",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — creator tutorial, no commands executed or wallet actions.",
+      "method": "Docs walkthrough \u2014 creator tutorial, no commands executed or wallet actions.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -6411,7 +6981,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hycorange-airdrops-20261031.png",
       "sha256": "9b6665ded544207d28c1ac6eec87b06fed611c0c76c65a9a682b6319129a0a07",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — creator tutorial, no commands executed or wallet actions.",
+      "method": "Docs walkthrough \u2014 creator tutorial, no commands executed or wallet actions.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -6463,7 +7033,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-two-layers-20261031.png",
       "sha256": "e977a03e4a5f9047597bea27cd386168d219b1c87549fa289aa29baa47664c8f",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — public article after dismissing its optional signup overlay; no account action.",
+      "method": "Docs walkthrough \u2014 public article after dismissing its optional signup overlay; no account action.",
       "status": "published",
       "verification": {
         "framesReviewed": [
@@ -6471,7 +7041,7 @@
           6,
           11
         ],
-        "livePlayback": "Desktop and phone actual 0–12 second playback passed in both Lobby and Workbench.",
+        "livePlayback": "Desktop and phone actual 0\u201312 second playback passed in both Lobby and Workbench.",
         "workbenchAcceptanceAt": "2026-11-01T16:12:48.504671+00:00",
         "workbenchEvidence": [
           "work/daily-2026-10-31/workbench-two-layers-desktop-nov1.json",
@@ -6516,7 +7086,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-turbine-focused-20261031.png",
       "sha256": "48dd65ebe4f90e61db151fb436ae7a3d82f3665c9fdd3b6b9703be9b56579e45",
       "caption": "Announcement",
-      "method": "Announcement — creator contest submission linking to the Turbine and sharding explanations; Reddit capture challenged.",
+      "method": "Announcement \u2014 creator contest submission linking to the Turbine and sharding explanations; Reddit capture challenged.",
       "status": "published",
       "verification": {
         "framesReviewed": [
@@ -6525,7 +7095,7 @@
           11
         ],
         "localPlayback": "work/daily-2026-10-31/turbine-focused-local-playback.json",
-        "livePlayback": "Desktop and phone actual 0–12 second playback passed in both Lobby and Workbench.",
+        "livePlayback": "Desktop and phone actual 0\u201312 second playback passed in both Lobby and Workbench.",
         "workbenchAcceptanceAt": "2026-11-01T16:12:48.504671+00:00",
         "workbenchEvidence": [
           "work/daily-2026-10-31/workbench-turbine-desktop-nov1.json",
@@ -6571,7 +7141,7 @@
             "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-turbine-announcement-20261031.png",
             "sha256": "4c2440c8aa5d36bc8d15b431652e72d6ed60d2453de1844d1df2043ae9ac580b",
             "caption": "Announcement",
-            "method": "Announcement — creator contest submission linking to the Turbine and sharding explanations; Reddit capture challenged.",
+            "method": "Announcement \u2014 creator contest submission linking to the Turbine and sharding explanations; Reddit capture challenged.",
             "status": "reviewed-publication-pending",
             "verification": {
               "framesReviewed": [
@@ -6623,7 +7193,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sharding-announcement-20261031.png",
       "sha256": "c42ad6ca03975f3e68a5ba7662225b67badd0ff8ed9a066d930cd9a7759e10d2",
       "caption": "Announcement",
-      "method": "Announcement — creator post linking the sharding explainer; does not demonstrate protocol execution.",
+      "method": "Announcement \u2014 creator post linking the sharding explainer; does not demonstrate protocol execution.",
       "status": "published",
       "verification": {
         "framesReviewed": [
@@ -6631,7 +7201,7 @@
           6,
           11
         ],
-        "livePlayback": "Desktop and phone actual 0–12 second playback passed in both Lobby and Workbench.",
+        "livePlayback": "Desktop and phone actual 0\u201312 second playback passed in both Lobby and Workbench.",
         "workbenchAcceptanceAt": "2026-11-01T16:12:48.504671+00:00",
         "workbenchEvidence": [
           "work/daily-2026-10-31/workbench-sharding-desktop-nov1.json",
@@ -6667,7 +7237,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-nyam-mining-20261031.png",
       "sha256": "31ca5737bee0c2904a2729e7cf9362568e28c2ad88e8b680c94e7dc6f938d44a",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — dated community analysis of the C29 incident.",
+      "method": "Docs walkthrough \u2014 dated community analysis of the C29 incident.",
       "status": "published",
       "verification": {
         "framesReviewed": [
@@ -6675,7 +7245,7 @@
           6,
           11
         ],
-        "livePlayback": "Desktop and phone actual 0–12 second playback passed in both Lobby and Workbench.",
+        "livePlayback": "Desktop and phone actual 0\u201312 second playback passed in both Lobby and Workbench.",
         "workbenchAcceptanceAt": "2026-11-01T16:12:48.504671+00:00",
         "workbenchEvidence": [
           "work/daily-2026-10-31/workbench-nyam-desktop-nov1.json",
@@ -6711,7 +7281,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-local-ai-gpu-20261031.png",
       "sha256": "d0a30a78fe07b35b551ee4d94a597bf2609fdb20d2e9c82bc177e6b2890f18d4",
       "caption": "Docs walkthrough",
-      "method": "Docs walkthrough — public README and hardware requirements for a local agent model; no installation or inference demonstrated.",
+      "method": "Docs walkthrough \u2014 public README and hardware requirements for a local agent model; no installation or inference demonstrated.",
       "status": "published",
       "verification": {
         "framesReviewed": [
@@ -6817,7 +7387,7 @@
             "height": 800
           },
           "caption": "Docs walkthrough",
-          "method": "Docs walkthrough — public README describing Werewolf on Tari Ootle; no game, wallet, stake or transaction was started.",
+          "method": "Docs walkthrough \u2014 public README describing Werewolf on Tari Ootle; no game, wallet, stake or transaction was started.",
           "sha256": "e2e755e2874bf04808ec7f3ee1505f25371cb1e426320556df2f66a137c58b07",
           "status": "reviewed-publication-pending",
           "verification": {
@@ -6884,7 +7454,7 @@
         "height": 800
       },
       "caption": "Announcement",
-      "method": "Announcement — November MVP contest rules and submission requirements.",
+      "method": "Announcement \u2014 November MVP contest rules and submission requirements.",
       "sha256": "9d3eff81132a0688e5fdd60832665beba025e92c12d1063392c8cbe920eb37bb",
       "status": "published-live-verified",
       "verification": {
@@ -6945,7 +7515,7 @@
         "height": 800
       },
       "caption": "Announcement",
-      "method": "Announcement — mainnet launch bonus terms; deadline wording requires organizer clarification.",
+      "method": "Announcement \u2014 mainnet launch bonus terms; deadline wording requires organizer clarification.",
       "sha256": "8775272f27be790945879cecbb257ea0551ad45dcec5515fefa5ab3e47c1df52",
       "status": "published-live-verified",
       "verification": {
@@ -7056,7 +7626,7 @@
             "height": 800
           },
           "caption": "App demo",
-          "method": "App overview — public community node map and coverage labels; no registration, installation or network configuration.",
+          "method": "App overview \u2014 public community node map and coverage labels; no registration, installation or network configuration.",
           "sha256": "a493a4a3b8055b83ce8823057483b9296bc58e33436f8c5f833d0758ee9da67a",
           "status": "reviewed-publication-pending",
           "verification": {
@@ -7333,7 +7903,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veinpool-20261102-f2560f40bc.png",
       "sha256": "f2560f40bc8dfb48d5b5bf914f33cba099c9f534bb49d6c4f97fd7b35c93299c",
       "caption": "Docs walkthrough",
-      "method": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner’s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
+      "method": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner\u2019s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
       "status": "recording-reviewed-publication-pending",
       "verification": {
         "framesReviewed": [
@@ -7352,7 +7922,7 @@
       "history": [
         {
           "status": "reviewed-publication-pending",
-          "method": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner’s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
+          "method": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner\u2019s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
           "updatedAt": "2026-11-02T19:15:25.993313+00:00"
         },
         {
@@ -7371,7 +7941,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-veinpool-20261102-f2560f40bc.png",
           "sha256": "f2560f40bc8dfb48d5b5bf914f33cba099c9f534bb49d6c4f97fd7b35c93299c",
           "caption": "Docs walkthrough",
-          "method": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner’s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
+          "method": "European Tari RandomXT CPU mining pool with PPLNS and solo modes. On November 2, 2026, its public guide listed a 1% pool fee, a 0.1 XTM automatic payout threshold and 360 confirmations before payout. The creator corrected the original 1 XTM minimum in a follow-up reply. Mining software fees are separate. The old /coin/xtm?lang=en URL redirects to /en/coin/xtm. The recording switches the public Windows and Linux setup tabs without entering an address, downloading software or starting mining. The pool guide lists BzMiner CPU setup; BzMiner\u2019s separately reviewed Tari C29 documentation describes GPU support. These are distinct configurations, not interchangeable claims.",
           "status": "published-live-verified",
           "verification": {
             "framesReviewed": [
@@ -7456,7 +8026,7 @@
           "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-bzminer-20261102-63423e82b3.png",
           "sha256": "63423e82b3737abeb7b8eabc2ddd4eb61e0104a5d2e28c2a0f4072c92ad99e88",
           "caption": "Docs walkthrough",
-          "method": "Multi-coin miner with hardware monitoring and a local dashboard. On November 2, 2026, the Tari C29 guide documented NVIDIA GPUs and experimental RX 7900 XTX / RX 9070 XT support, about 10 GB free VRAM on NVIDIA or 8.5 GB on those AMD cards, and a 1% algorithm development fee. Its guide excludes Intel, CPU and macOS C29 mining; the repository README instead lists Intel Arc Battlemage, so Intel support remains contradictory in the publisher’s documentation. Automatic tuning and measured performance qualification are RTX 3090-specific. Creator posts shared v100.46, v100.50 and v100.51; the latest reviewed release is v100.60, published October 30. Its new performance notes concern Pearl and Quantus. No open-source license was established for the miner. The recording shows the README and its Tari support table; no binary was downloaded or executed.",
+          "method": "Multi-coin miner with hardware monitoring and a local dashboard. On November 2, 2026, the Tari C29 guide documented NVIDIA GPUs and experimental RX 7900 XTX / RX 9070 XT support, about 10 GB free VRAM on NVIDIA or 8.5 GB on those AMD cards, and a 1% algorithm development fee. Its guide excludes Intel, CPU and macOS C29 mining; the repository README instead lists Intel Arc Battlemage, so Intel support remains contradictory in the publisher\u2019s documentation. Automatic tuning and measured performance qualification are RTX 3090-specific. Creator posts shared v100.46, v100.50 and v100.51; the latest reviewed release is v100.60, published October 30. Its new performance notes concern Pearl and Quantus. No open-source license was established for the miner. The recording shows the README and its Tari support table; no binary was downloaded or executed.",
           "status": "published-live-verified",
           "verification": {
             "framesReviewed": [
@@ -7542,7 +8112,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-official-universe-20261102-3547274cd7.png",
       "sha256": "3547274cd7c2cc9a632556e51b0bc9becd8397bfec46836f92b64e8c0ded7bcc",
       "caption": "Announcement",
-      "method": "Official desktop mining application and companion wallet. Release v1.6.20, published October 29, 2026, fixes non-text payment IDs and bundles Minotari v0.5.2. The release says oversized payment IDs are refused before reserving funds and history reflects the ID actually sent. v1.6.18 introduced the embedded wallet and Ootle Esmeralda testnet wallet; its NVIDIA TARI Miner integration supports one GPU, and Linux Flatpak requires manual updates. November 2 review covered the public README and complete v1.6.18–v1.6.20 release notes. The recording is an announcement walkthrough of v1.6.20, not a demonstrated wallet or mining session. Earlier source footage and official social announcements are retained in the discovery trail.",
+      "method": "Official desktop mining application and companion wallet. Release v1.6.20, published October 29, 2026, fixes non-text payment IDs and bundles Minotari v0.5.2. The release says oversized payment IDs are refused before reserving funds and history reflects the ID actually sent. v1.6.18 introduced the embedded wallet and Ootle Esmeralda testnet wallet; its NVIDIA TARI Miner integration supports one GPU, and Linux Flatpak requires manual updates. November 2 review covered the public README and complete v1.6.18\u2013v1.6.20 release notes. The recording is an announcement walkthrough of v1.6.20, not a demonstrated wallet or mining session. Earlier source footage and official social announcements are retained in the discovery trail.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -7718,7 +8288,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-minotari-cli-release-20261102-d6d3e0eb4f.png",
       "sha256": "d6d3e0eb4fdba8da1b35ba13fa0c53950aa3b7d0ddc05505a5214a9aa90a415b",
       "caption": "Announcement",
-      "method": "Lightweight command-line wallet and daemon with view-key scanning, account history, SQLite storage and encrypted wallet keys. v0.5.2, published October 29, 2026, fixes sending an address’s embedded payment ID as bytes. Release assets include separate mainnet and Esmeralda builds. The README describes view-only scanning, but its authenticated daemon also exposes operations that can move funds; the scanning description is not a claim that every mode is read-only. The daemon binds to loopback and requires an API token by default. November 2 review covered the full README and release notes. Footage is an announcement walkthrough; no keys, wallet, daemon or transaction was operated.",
+      "method": "Lightweight command-line wallet and daemon with view-key scanning, account history, SQLite storage and encrypted wallet keys. v0.5.2, published October 29, 2026, fixes sending an address\u2019s embedded payment ID as bytes. Release assets include separate mainnet and Esmeralda builds. The README describes view-only scanning, but its authenticated daemon also exposes operations that can move funds; the scanning description is not a claim that every mode is read-only. The daemon binds to loopback and requires an API token by default. November 2 review covered the full README and release notes. Footage is an announcement walkthrough; no keys, wallet, daemon or transaction was operated.",
       "status": "published-live-verified",
       "verification": {
         "framesReviewed": [
@@ -7767,7 +8337,7 @@
         {
           "image": "/previews/community/official-templates.jpg",
           "video": "/previews/community/official-templates.mp4",
-          "label": "Official guide walkthrough · guessing-game example",
+          "label": "Official guide walkthrough \u00b7 guessing-game example",
           "sourceUrl": "https://ootle.tari.com/guides/build-a-guessing-game/",
           "capturedAt": "2026-10-04T16:02:52.616125Z",
           "reviewedAt": "2026-10-04T16:02:52.616125Z",
@@ -8006,7 +8576,7 @@
     },
     {
       "resourceId": "kurarmota-two-layer-architecture",
-      "title": "Tari’s two-layer architecture",
+      "title": "Tari\u2019s two-layer architecture",
       "targetUrl": "https://medium.com/@isahjaafar12/-8cbde86c94e3",
       "captureType": "docs-walkthrough",
       "capturedAt": "2026-11-03T00:13:34.509887+00:00",
@@ -8412,98 +8982,238 @@
     },
     {
       "resourceId": "sapient",
-      "title": "Sapient",
-      "targetUrl": "https://github.com/chironbuilds/tari-wallet/commit/06c56a9c358c9e744a32497887aab73009340ebb",
+      "title": "Sapient Android release",
+      "targetUrl": "https://github.com/chironbuilds/tari-wallet/releases/tag/android-v0.11.4",
       "originalPosts": [
         {
-          "url": "https://community.tari.com/t/september-contest-thread/324/16",
-          "platform": "Tari Community forum",
-          "author": "0xhra",
-          "publishedAt": "2026-09-15T19:28:26.887Z",
-          "foundOn": "2026-10-12",
-          "context": "September contest submission",
-          "visibility": "public"
-        },
-        {
-          "url": "https://community.tari.com/t/september-contest-thread/324/38",
-          "platform": "Tari Community forum",
-          "author": "Fox",
-          "publishedAt": "2026-10-11T23:59:13.578Z",
-          "foundOn": "2026-10-12",
-          "context": "September contest results: 1st place",
-          "visibility": "public"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=AZzkThgc5dY",
-          "platform": "YouTube",
-          "channel": "Tari Community",
-          "author": "Tari Community",
-          "publishedAt": "2026-10-12",
-          "eventDate": "2026-10-06",
-          "foundOn": "2026-11-02",
-          "context": "16:28–19:50: September contest first-place announcement and Council voting-wallet use, as reported by speakers.",
-          "visibility": "public",
-          "relationship": "additional public discussion; original creator post retained",
-          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
-          "platform": "YouTube",
-          "channel": "Tari Community",
-          "author": "Tari Community",
-          "publishedAt": "2026-10-27",
-          "eventDate": "2026-10-27",
-          "foundOn": "2026-11-02",
-          "context": "13:37: Council voting-wallet discussion.",
-          "visibility": "public",
-          "relationship": "additional public discussion; original creator post retained",
-          "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
-        },
-        {
-          "url": "https://github.com/chironbuilds/tari-wallet/commit/06c56a9c358c9e744a32497887aab73009340ebb",
-          "platform": "GitHub commit",
+          "url": "https://github.com/chironbuilds/tari-wallet/releases/tag/android-v0.10.2",
+          "platform": "GitHub",
           "author": "chironbuilds",
-          "foundOn": "2026-11-04",
-          "context": "Sapient 0.7.2 update",
+          "foundOn": "2026-11-19",
+          "context": "Sapient Android release android-v0.10.2 release",
+          "visibility": "public"
+        },
+        {
+          "url": "https://github.com/chironbuilds/tari-wallet/releases/tag/android-v0.11.4",
+          "platform": "GitHub release",
+          "author": "chironbuilds",
+          "context": "sapient Android0.11.4 announcement",
+          "publishedAt": "2026-11-28T05:10:13Z",
+          "foundOn": "2026-11-28",
           "visibility": "public"
         }
       ],
-      "captureType": "docs-walkthrough",
-      "capturedAt": "2026-11-04T13:42:35.758Z",
-      "observedRevision": "06c56a9c358c9e744a32497887aab73009340ebb",
-      "version": "0.7.2",
+      "captureType": "announcement",
+      "capturedAt": "2026-11-28T14:47:36.159Z",
+      "observedRevision": "android-v0.11.4",
+      "version": "Android0.11.4",
       "viewport": {
         "width": 1280,
         "height": 800
       },
       "durationSeconds": 12,
-      "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sapient-20261104.mp4",
-      "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sapient-20261104.png",
-      "caption": "Docs walkthrough",
-      "method": "Existing continuous browser capture pipeline; public documentation or commit view with scroll. No code executed, extension installed, keys created or wallet interaction.",
-      "sha256": "9c27bc5bf1c4413c1556cfdf6afc76ffade0c51045804984c6af8bf2ee1c15c4",
-      "posterSha256": "ef203018857623c8eb2834f018c7e624154b9d65ac157638ca6ef7784cb15a09",
-      "status": "published-live-verified",
+      "publicMediaUrl": "https://lobby.tari.com/previews/community/resource-sapient-android-0114-20261128.mp4",
+      "publicPosterUrl": "https://lobby.tari.com/previews/community/resource-sapient-android-0114-20261128.png",
+      "caption": "Announcement",
+      "method": "Static source-page walkthrough; JavaScript and downloads disabled; no wallet or commands operated.",
+      "sha256": "8d5ef3640365d27f4fbf3514a405a899098c4b9a301171e95063e6be54a8aec6",
+      "posterSha256": "085f6d13091f1a7f58fab48419ed7fee46d11001a40d079c1ca6a49c634bd9c1",
+      "status": "published-and-live-verified",
       "verification": {
         "framesReviewed": [
-          0.48,
+          0,
           6,
           11
         ],
-        "localPlaybackEvidence": "work/daily-2026-11-04/sdk-wallet-local-playback.json",
-        "livePlayback": {
-          "checkedAt": "2026-11-04T14:11:02.279915+00:00",
-          "evidence": "work/daily-2026-11-04/sdk-refresh-live-ui.json",
-          "products": [
-            "Lobby"
+        "frameReview": "Opening/middle/closing visually inspected.",
+        "desktopPlayback": true,
+        "phonePlayback": true,
+        "products": [
+          "Lobby"
+        ],
+        "acceptanceEvidence": "work/daily-2026-11-28/third-publication-accepted.json"
+      },
+      "canonicalId": "tari-ootle:app:sapient",
+      "history": [
+        {
+          "resourceId": "sapient",
+          "canonicalId": "tari-ootle:app:sapient",
+          "title": "Sapient Android release",
+          "targetUrl": "https://github.com/chironbuilds/tari-wallet/releases/tag/android-v0.10.1",
+          "captureType": "announcement",
+          "caption": "Announcement",
+          "capturedAt": "2026-11-18T15:06:54.219Z",
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://lobby.tari.com/previews/community/resource-sapient-android-20261118.mp4",
+          "publicPosterUrl": "https://lobby.tari.com/previews/community/resource-sapient-android-20261118.png",
+          "sha256": "67c527c72bbc4068c1bf4e1bba7e47334ed207dabc1d83d4f02707709be1b04e",
+          "posterSha256": "085f6d13091f1a7f58fab48419ed7fee46d11001a40d079c1ca6a49c634bd9c1",
+          "method": "Static source-page walkthrough; JavaScript and downloads disabled; no wallet or commands operated.",
+          "status": "published-live-verified",
+          "verification": {
+            "checkedAt": "2026-11-18T15:28:06.241082+00:00",
+            "lobby": true,
+            "workbench": false,
+            "evidence": [
+              "work/daily-2026-11-18/release-playback-lobby.json"
+            ],
+            "scope": "Genuine source recording, six frames inspected, desktop/mobile playback reached 12 seconds. Sapient remains a Lobby-only record."
+          }
+        },
+        {
+          "resourceId": "sapient",
+          "canonicalId": "tari-ootle:app:sapient",
+          "title": "Sapient Android release",
+          "targetUrl": "https://github.com/chironbuilds/tari-wallet/releases/tag/android-v0.10.2",
+          "captureType": "announcement",
+          "caption": "Announcement",
+          "capturedAt": "2026-11-19T14:37:12.638Z",
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://lobby.tari.com/previews/community/resource-sapient-android-0102-20261119.mp4",
+          "publicPosterUrl": "https://lobby.tari.com/previews/community/resource-sapient-android-0102-20261119.png",
+          "sha256": "311576432109a4d9719724ba63d3a36d314697fbc47567ebfd90a1a700421d40",
+          "posterSha256": "085f6d13091f1a7f58fab48419ed7fee46d11001a40d079c1ca6a49c634bd9c1",
+          "method": "Static source-page walkthrough; JavaScript and downloads disabled; no wallet or commands operated.",
+          "status": "published-lobby-verified",
+          "verification": {
+            "framesReviewed": [
+              0.48,
+              6,
+              11
+            ],
+            "lobbyDesktop": true,
+            "lobbyMobile": true,
+            "workbench": "not-applicable",
+            "checkedAt": "2026-11-19T14:59:56.948420+00:00"
+          },
+          "observedRevision": "android-v0.10.2",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "acceptanceEvidence": "work/daily-2026-11-19/lobby-release-refresh-acceptance.json",
+          "acceptedAt": "2026-11-19T14:59:56.948420+00:00",
+          "surfaceIds": [
+            "tari-ootle:app:sapient"
           ],
-          "viewports": [
-            "desktop",
-            "phone"
+          "surfacesAccepted": [
+            "lobby"
           ],
-          "result": "12-second playback reached end without media errors; tablet layout separately reviewed."
+          "originalPosts": [
+            {
+              "url": "https://github.com/chironbuilds/tari-wallet/releases/tag/android-v0.10.2",
+              "platform": "GitHub",
+              "author": "chironbuilds",
+              "foundOn": "2026-11-19",
+              "context": "Sapient Android release android-v0.10.2 release",
+              "visibility": "public"
+            }
+          ]
+        },
+        {
+          "resourceId": "sapient",
+          "title": "Sapient",
+          "targetUrl": "https://github.com/chironbuilds/tari-wallet/commit/06c56a9c358c9e744a32497887aab73009340ebb",
+          "originalPosts": [
+            {
+              "url": "https://community.tari.com/t/september-contest-thread/324/16",
+              "platform": "Tari Community forum",
+              "author": "0xhra",
+              "publishedAt": "2026-09-15T19:28:26.887Z",
+              "foundOn": "2026-10-12",
+              "context": "September contest submission",
+              "visibility": "public"
+            },
+            {
+              "url": "https://community.tari.com/t/september-contest-thread/324/38",
+              "platform": "Tari Community forum",
+              "author": "Fox",
+              "publishedAt": "2026-10-11T23:59:13.578Z",
+              "foundOn": "2026-10-12",
+              "context": "September contest results: 1st place",
+              "visibility": "public"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=AZzkThgc5dY",
+              "platform": "YouTube",
+              "channel": "Tari Community",
+              "author": "Tari Community",
+              "publishedAt": "2026-10-12",
+              "eventDate": "2026-10-06",
+              "foundOn": "2026-11-02",
+              "context": "16:28\u201319:50: September contest first-place announcement and Council voting-wallet use, as reported by speakers.",
+              "visibility": "public",
+              "relationship": "additional public discussion; original creator post retained",
+              "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=1PeZwRiqKa0",
+              "platform": "YouTube",
+              "channel": "Tari Community",
+              "author": "Tari Community",
+              "publishedAt": "2026-10-27",
+              "eventDate": "2026-10-27",
+              "foundOn": "2026-11-02",
+              "context": "13:37: Council voting-wallet discussion.",
+              "visibility": "public",
+              "relationship": "additional public discussion; original creator post retained",
+              "reviewMethod": "Full automatic English transcript plus expanded description; not a full audiovisual review"
+            },
+            {
+              "url": "https://github.com/chironbuilds/tari-wallet/commit/06c56a9c358c9e744a32497887aab73009340ebb",
+              "platform": "GitHub commit",
+              "author": "chironbuilds",
+              "foundOn": "2026-11-04",
+              "context": "Sapient 0.7.2 update",
+              "visibility": "public"
+            }
+          ],
+          "captureType": "docs-walkthrough",
+          "capturedAt": "2026-11-04T13:42:35.758Z",
+          "observedRevision": "06c56a9c358c9e744a32497887aab73009340ebb",
+          "version": "0.7.2",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "durationSeconds": 12,
+          "publicMediaUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sapient-20261104.mp4",
+          "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-sapient-20261104.png",
+          "caption": "Docs walkthrough",
+          "method": "Existing continuous browser capture pipeline; public documentation or commit view with scroll. No code executed, extension installed, keys created or wallet interaction.",
+          "sha256": "9c27bc5bf1c4413c1556cfdf6afc76ffade0c51045804984c6af8bf2ee1c15c4",
+          "posterSha256": "ef203018857623c8eb2834f018c7e624154b9d65ac157638ca6ef7784cb15a09",
+          "status": "published-live-verified",
+          "verification": {
+            "framesReviewed": [
+              0.48,
+              6,
+              11
+            ],
+            "localPlaybackEvidence": "work/daily-2026-11-04/sdk-wallet-local-playback.json",
+            "livePlayback": {
+              "checkedAt": "2026-11-04T14:11:02.279915+00:00",
+              "evidence": "work/daily-2026-11-04/sdk-refresh-live-ui.json",
+              "products": [
+                "Lobby"
+              ],
+              "viewports": [
+                "desktop",
+                "phone"
+              ],
+              "result": "12-second playback reached end without media errors; tablet layout separately reviewed."
+            }
+          }
         }
-      }
+      ],
+      "acceptanceEvidence": "work/daily-2026-11-19/lobby-release-refresh-acceptance.json",
+      "acceptedAt": "2026-11-19T14:59:56.948420+00:00",
+      "surfaceIds": [
+        "tari-ootle:app:sapient"
+      ],
+      "surfacesAccepted": [
+        "lobby"
+      ]
     },
     {
       "resourceId": "witching-hour",
@@ -8525,7 +9235,7 @@
           "author": "remmylof.bsky.social",
           "publishedAt": "2026-10-14T11:31:18.289Z",
           "foundOn": "2026-10-16",
-          "context": "Spooky Secrets 🎃 My entry for the @tariproject.bsky.social Ootle contest: Witching Hour 🕯️\n\nA private dead man's switch. Check in before the deadline, or a hidden heir inherits your XTM as stealth UTXOs. Nobody knows who the heir is until they claim.\n\ngithub.com/Danielkallala/witching-vault",
+          "context": "Spooky Secrets \ud83c\udf83 My entry for the @tariproject.bsky.social Ootle contest: Witching Hour \ud83d\udd6f\ufe0f\n\nA private dead man's switch. Check in before the deadline, or a hidden heir inherits your XTM as stealth UTXOs. Nobody knows who the heir is until they claim.\n\ngithub.com/Danielkallala/witching-vault",
           "visibility": "public"
         }
       ],
@@ -8886,7 +9596,7 @@
       "publicPosterUrl": "https://ootle-lobby-preview.vercel.app/previews/community/resource-hexcrow-republished-20261105.png",
       "sha256": "3d98d56a8a87b35a1466504dd1015641d9b89e1fc8cf97ec89c4883f42a35a20",
       "caption": "App demo",
-      "method": "Existing capture-apps.mjs, installed Chrome, public replay tabs only. No signing, wallet connection, payment or new transaction. Silent genuine continuous capture. Source site’s security claims are creator claims.",
+      "method": "Existing capture-apps.mjs, installed Chrome, public replay tabs only. No signing, wallet connection, payment or new transaction. Silent genuine continuous capture. Source site\u2019s security claims are creator claims.",
       "status": "published-and-accepted",
       "verification": {
         "framesReviewed": [
@@ -8908,7 +9618,7 @@
         "capturedAt": "2026-11-04T11:07:32.176749+00:00",
         "sourceRevision": "f7e939eebb5ad19206f2b3ed17b035c21a8b2e03",
         "kind": "public-page",
-        "credit": "App demo — archived testnet replay"
+        "credit": "App demo \u2014 archived testnet replay"
       },
       "publishedAt": "2026-11-05T11:34:42.122282+00:00"
     },
@@ -8996,11 +9706,6 @@
           "at": "2026-11-05T11:56:28.279736+00:00",
           "evidence": "work/daily-2026-11-04/retained-media-assessment-nov5.json",
           "decision": "Dated scope remains accurate; retain clip. Latest release acceptance tracked separately."
-        },
-        {
-          "at": "2026-11-05T11:56:28.279736+00:00",
-          "evidence": "work/daily-2026-11-04/retained-media-assessment-nov5.json",
-          "decision": "Dated scope remains accurate; retain clip. Latest release acceptance tracked separately."
         }
       ],
       "publicationReviews": [
@@ -9046,6 +9751,154 @@
         "localPlayback": "work/daily-2026-11-04/taritracker-faucet-local-playback-nov5.json",
         "liveAcceptance": "work/daily-2026-11-04/faucet-release-acceptance-nov5.json"
       }
+    },
+    {
+      "resourceId": "tari-ootle:learn:fungible-tokens",
+      "title": "Create a token on Ootle",
+      "targetUrl": "https://ootle.tari.com/guides/fungible-tokens/",
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-17T19:08:50.942Z",
+      "observedRevision": "30a1b70aa61fd82506cb62356238da3a3ee2dc4c",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "videoUrl": "https://lobby.tari.com/previews/community/resource-fungible-tokens-20261117.mp4",
+      "imageUrl": "https://lobby.tari.com/previews/community/resource-fungible-tokens-20261117.jpg",
+      "durationSeconds": 12.0,
+      "sha256": "f85ae487bab02b1c91dcbba1a58287597f55b9d999cdc6b51cebda893ab234a8",
+      "scope": "Static source-page walkthrough; JavaScript and downloads disabled; no wallet or commands operated."
+    },
+    {
+      "resourceId": "tari-ootle:learn:ootle-releases",
+      "title": "Ootle v0.54.0 release notes",
+      "targetUrl": "https://github.com/tari-project/tari-ootle/releases/tag/v0.54.0",
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-17T19:09:19.120Z",
+      "observedRevision": "v0.54.0",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "videoUrl": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261117.mp4",
+      "imageUrl": "https://lobby.tari.com/previews/community/resource-ootle-releases-20261117.jpg",
+      "durationSeconds": 12.0,
+      "sha256": "830a3b1589761001cf237bbba4bd3a8310f38af8bc931259a64fb346c2a58f5d",
+      "scope": "Static source-page walkthrough; JavaScript and downloads disabled; no wallet or commands operated."
+    },
+    {
+      "resourceId": "tari-ootle:learn:run-validator",
+      "title": "Run an Ootle validator",
+      "targetUrl": "https://ootle.tari.com/validators/run-a-validator-node/",
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-17T19:09:36.056Z",
+      "observedRevision": "df9631d4c570ff2b62208dc58199ffbce222734e",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "videoUrl": "https://lobby.tari.com/previews/community/resource-run-validator-20261117.mp4",
+      "imageUrl": "https://lobby.tari.com/previews/community/resource-run-validator-20261117.jpg",
+      "durationSeconds": 12.0,
+      "sha256": "385eec13c79be745bf926586424179f2de0467b77f52f83ccbf82ecc49791c31",
+      "scope": "Static source-page walkthrough; JavaScript and downloads disabled; no wallet or commands operated."
+    },
+    {
+      "resourceId": "tari-ootle:learn:validator-networking",
+      "title": "Validator networking and ports",
+      "targetUrl": "https://ootle.tari.com/validators/networking-and-ports/",
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-17T19:09:52.743Z",
+      "observedRevision": "6ba38693efb97cb49d406f9f5e20cf706c97f422",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "videoUrl": "https://lobby.tari.com/previews/community/resource-validator-networking-20261117.mp4",
+      "imageUrl": "https://lobby.tari.com/previews/community/resource-validator-networking-20261117.jpg",
+      "durationSeconds": 12.0,
+      "sha256": "6be5bd7aa8228134caf6c7c0784edd285383dc4fdd7550dbed9bcb7a900baa4d",
+      "scope": "Static source-page walkthrough; JavaScript and downloads disabled; no wallet or commands operated."
+    },
+    {
+      "resourceId": "tari-ootle:learn:validator-operations",
+      "title": "Operate an Ootle validator",
+      "targetUrl": "https://ootle.tari.com/validators/operating-a-validator/",
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-17T19:10:09.543Z",
+      "observedRevision": "b499478030f2194705e201dc179d29486d54b014",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "videoUrl": "https://lobby.tari.com/previews/community/resource-validator-operations-20261117.mp4",
+      "imageUrl": "https://lobby.tari.com/previews/community/resource-validator-operations-20261117.jpg",
+      "durationSeconds": 12.0,
+      "sha256": "6442d4836f05bdcb5bd363df52f997eeb1b088121d50d8447fc3934356cad0a3",
+      "scope": "Static source-page walkthrough; JavaScript and downloads disabled; no wallet or commands operated."
+    },
+    {
+      "resourceId": "tari:learn:wxtm-uniswap-guide",
+      "title": "Buy wXTM on Uniswap: video guide",
+      "targetUrl": "https://community.tari.com/t/guide-how-to-buy-wxtm-on-uniswap-ethereum-step-by-step/643/1",
+      "captureType": "docs-walkthrough",
+      "capturedAt": "2026-11-17T19:10:27.896Z",
+      "observedRevision": "forum-643-post-1-reviewed-2026-11-17",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "videoUrl": "https://lobby.tari.com/previews/community/resource-wxtm-uniswap-guide-20261117.mp4",
+      "imageUrl": "https://lobby.tari.com/previews/community/resource-wxtm-uniswap-guide-20261117.jpg",
+      "durationSeconds": 12.0,
+      "sha256": "dfdee7aae4bfe1fae1c075a821e09b009ce1be6252fde1e1049770e9330fb3f6",
+      "scope": "Static source-page walkthrough; JavaScript and downloads disabled; no wallet or commands operated."
+    },
+    {
+      "resourceId": "tari-ootle:component:stubmark",
+      "title": "Stubmark",
+      "targetUrl": "https://github.com/dannytungadi5/stubmark#readme",
+      "observedRevision": "67e64cae8e83ab34c183502e848825c0e5974689",
+      "captureType": "docs-walkthrough",
+      "caption": "Docs walkthrough",
+      "capturedAt": "2026-11-27T17:19:10.280Z",
+      "publicMediaUrl": "https://lobby.tari.com/previews/community/resource-stubmark-20261127.mp4",
+      "publicPosterUrl": "https://lobby.tari.com/previews/community/resource-stubmark-20261127.png",
+      "sha256": "c92810bb9568a58452d24a2cadf8e8c2e310f4f3b76491490ccf9c9b32a196c1",
+      "durationSeconds": 12,
+      "frameReview": "Opening, middle and closing frames inspected.",
+      "verification": "published; required desktop and phone playback accepted",
+      "originalPosts": [
+        {
+          "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/54",
+          "platform": "Tari Community forum",
+          "author": "dannytungadi5",
+          "context": "Original creator source",
+          "publishedAt": "2026-11-27T16:52:08.065Z",
+          "foundOn": "2026-11-27",
+          "visibility": "public",
+          "sourceUpdatedAt": "2026-11-27T17:16:13.320Z",
+          "sourcePostId": 2555
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y6mrj8/i_built_stubmark_event_tickets_on_tari_ootle_with/",
+          "platform": "Reddit",
+          "author": "dannytungadi5",
+          "context": "Stubmark primary source",
+          "foundOn": "2026-11-27",
+          "visibility": "public"
+        },
+        {
+          "url": "https://testnet-explorer.tari.mw/tx/a4daa677c64833430ccb48e9f2da7a087e68da4b7c3acedccec77bed71f3ab12",
+          "platform": "Network explorer",
+          "author": "dannytungadi5",
+          "context": "Stubmark primary source",
+          "foundOn": "2026-11-27",
+          "visibility": "public"
+        }
+      ],
+      "method": "Genuine source-page capture with JavaScript and downloads disabled; no repository execution or wallet actions.",
+      "acceptanceEvidence": "work/daily-2026-11-27/third-publication-accepted.json"
     }
   ],
   "release": {
