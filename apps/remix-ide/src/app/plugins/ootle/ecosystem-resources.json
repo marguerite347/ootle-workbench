@@ -5868,7 +5868,7 @@
       "platform": "Rust · Browser",
       "upstreamRevision": "590c9ca7dee7b3d26c4603b0db07eaeaf0c99a5e",
       "sourceUpdatedAt": "2026-11-19T17:02:40.062Z",
-      "lastAttemptAt": "2026-11-20T14:13:21.060080+00:00",
+      "lastAttemptAt": "2026-11-28T15:40:34.398937+00:00",
       "lastCheckedAt": "2026-11-20T14:13:21.060080+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -5886,6 +5886,11 @@
           "url": "https://bsky.app/profile/sandixhunter.bsky.social/post/3n2o26mpfqu2t",
           "platform": "Bluesky",
           "context": "Creator announcement linked in original submission"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y07h1r/splitbill_split_group_expenses_onchain_with_tari/",
+          "platform": "Reddit",
+          "context": "Original creator announcement; explicitly labels the walletless simulation"
         }
       ],
       "preview": {
@@ -6342,7 +6347,7 @@
       "ecosystem": "tari-ootle",
       "group": "Community projects",
       "title": "Ootle Street: Nights Edition",
-      "summary": "November 23, 2026: The creator describes browser racing with islands, bridges, ghost-mode timing and collisions. The browser demo runs client-side; its displayed escrow balances are not blockchain payment evidence. The README identifies companion Esmeralda template f96acf40ccf1dd2084b89c964a7ed1d2130b3fbb5a5aba2fb264dbb583da4a71 and reports nine engine tests. These results were not rerun; current deployment confirmation remains pending. Review covered the complete submission, README and MIT license metadata. Public app text extraction failed; app availability and operation were not established today. The recording shows the README with page scripts and downloads disabled. No wallet, funds or third-party code was operated. November25: the creator reports a v14 browser update with revised mobile controls, camera look-ahead and an in-game controls guide in the linked follow-up. This is an attributed update, not a new runtime test; the November23 README recording remains a dated source overview.",
+      "summary": "November 23, 2026: The creator describes browser racing with islands, bridges, ghost-mode timing and collisions. The browser demo runs client-side; its displayed escrow balances are not blockchain payment evidence. The README identifies companion Esmeralda template f96acf40ccf1dd2084b89c964a7ed1d2130b3fbb5a5aba2fb264dbb583da4a71 and reports nine engine tests. These results were not rerun; current deployment confirmation remains pending. Review covered the complete submission, README and MIT license metadata. Public app text extraction failed; app availability and operation were not established today. The recording shows the README with page scripts and downloads disabled. No wallet, funds or third-party code was operated. November25: the creator reports a v14 browser update with revised mobile controls, camera look-ahead and an in-game controls guide in the linked follow-up. This is an attributed update, not a new runtime test; the November23 README recording remains a dated source overview. November 28, 2026: In the linked public review comment, Bloqarl reports that a payout component rejecting a deposit could revert the shared cancellation/refund loop. No creator response was visible in the thread at review. This is an unconfirmed reviewer report; the refund path was not executed or independently security-tested.",
       "status": "Browser prototype · Testnet companion",
       "cardStatus": "Browser prototype · Testnet companion",
       "cardSummary": "Explore a Miami street-racing prototype with local escrow simulation and a separately described Esmeralda contract.",
@@ -6359,7 +6364,7 @@
       "platform": "Browser · Source code",
       "upstreamRevision": "README-blob:bd38f23df369e0f3246e44cc8d1f95f999a369d8",
       "sourceUpdatedAt": "2026-11-22T17:04:30.864Z",
-      "lastAttemptAt": "2026-11-23T14:48:03.487809+00:00",
+      "lastAttemptAt": "2026-11-28T15:40:34.398937+00:00",
       "lastCheckedAt": "2026-11-23T14:48:03.487809+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -6382,6 +6387,11 @@
           "url": "https://community.tari.com/t/november-build-contest-thread-mvp/520/42",
           "platform": "Tari Community forum",
           "context": "Creator v14 update, November24"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y2m4i2/comment/19t2ilz8cvcmc/",
+          "platform": "Reddit",
+          "context": "Public refund review comment by Bloqarl; read November28"
         }
       ],
       "preview": {
@@ -6547,7 +6557,7 @@
       "ecosystem": "tari-ootle",
       "group": "Community projects",
       "title": "Ootle Circle",
-      "summary": "November 26, 2026: The creator describes rotating savings circles with equal round contributions, one scheduled recipient per round and collateral to cover missed payments. The organizer can arrange the payout order and start or cancel a circle, but cannot withdraw its funds. Amounts are public. The current README and public page explicitly identify a walletless simulation and a template not published to Esmeralda or mainnet. Creator-reported engine and simulation tests were not rerun. MIT source and README were reviewed; the genuine recording scrolls the README with scripts and downloads disabled. No repository code, wallet, funds or simulation controls were operated.",
+      "summary": "November 26, 2026: The creator describes rotating savings circles with equal round contributions, one scheduled recipient per round and collateral to cover missed payments. The organizer can arrange the payout order and start or cancel a circle, but cannot withdraw its funds. Amounts are public. The current README and public page explicitly identify a walletless simulation and a template not published to Esmeralda or mainnet. Creator-reported engine and simulation tests were not rerun. MIT source and README were reviewed; the genuine recording scrolls the README with scripts and downloads disabled. No repository code, wallet, funds or simulation controls were operated. November 28, 2026: In the linked public review comment, Bloqarl questions whether the required collateral covers all remaining contributions if an early recipient stops paying. No creator response was visible in the thread at review. This is an unconfirmed reviewer report; the template was not executed or independently security-tested.",
       "status": "Browser simulation · Rust source",
       "cardStatus": "Browser simulation · Rust source",
       "cardSummary": "Explore rotating savings circles, scheduled pot payouts and collateral rules through a walletless simulation and Rust template source.",
@@ -6564,7 +6574,7 @@
       "platform": "Browser · Source code",
       "upstreamRevision": "README-blob:08848b17ff59d4136d32eda205f4e617f2143422",
       "sourceUpdatedAt": "2026-11-25T19:20:41.149Z",
-      "lastAttemptAt": "2026-11-26T19:30:54.119564+00:00",
+      "lastAttemptAt": "2026-11-28T15:40:34.398937+00:00",
       "lastCheckedAt": "2026-11-26T19:30:54.119564+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -6581,6 +6591,11 @@
         {
           "url": "https://www.reddit.com/r/tari/comments/1y5djxl/ootle_circle_a_jamiya_tontine_susu_savings_circle/",
           "platform": "Reddit"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y5djxl/comment/19t7msydkwlxg/",
+          "platform": "Reddit",
+          "context": "Public collateral review comment by Bloqarl; read November28"
         }
       ],
       "preview": {
@@ -7001,10 +7016,15 @@
           "platform": "Tari Community forum",
           "context": "Original creator announcement",
           "publishedAt": "2026-11-25T14:36:40.879Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/tari/comments/1y58yfd/we_built_a_free_live_tari_mining_calculator_see/",
+          "platform": "Reddit",
+          "context": "Creator mining-calculator announcement, November25"
         }
       ],
       "demoUrl": "https://mining.tari.mw",
-      "lastAttemptAt": "2026-11-27T17:27:56.682859+00:00",
+      "lastAttemptAt": "2026-11-28T15:40:34.398937+00:00",
       "upstreamRevision": "forum-post:2517;version:1",
       "sourceContentSha256": "58385d29ee87dcb5e44143996b740916f5fe93582c7d3ed0692a5fa32fdbfa43"
     },
