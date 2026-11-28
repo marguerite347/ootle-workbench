@@ -1433,28 +1433,28 @@
       "ecosystem": "tari-ootle",
       "group": "Templates",
       "title": "Seance — privacy demo",
-      "summary": "Compare stranger, recipient and auditor views of private Esmeralda payments. November 20, 2026: the creator submitted SeanceAuditorToken to First to Launch; public Ootle mainnet metadata confirms its template publication committed at 13:36:30 UTC. The creator says the app is being switched; the reviewed app text and README still identify Esmeralda, so the browser app remains labeled Testnet. The v2 searches 40 recent indexer transactions locally before asking for an ID; Ask for it anyway can disclose that ID. The saved October 20 example remains historical. November 5 read-only review returned a Commit receipt, but receipts cannot reconstruct missing encrypted bodies. The November 2 reset removed old payments and token state. Optional Sapient payments use a demo recipient with a public view key; timing, fees and spend links remain visible. The quantum discussion uses published demo keys. The retained October 31 walkthrough covers the picker and request disclosure without a wallet or payment; it does not demonstrate the planned mainnet app. This project is distinct from DevXTools’ sealed polls.",
-      "status": "Web app · Testnet",
+      "summary": "November 28, 2026: The creator’s current Seance website and README identify Ootle mainnet. Both official mainnet template catalogues list SeanceAuditorToken at ca8e5e00366732b59856e9a4a12874b55d464bc39d42547da869155611ffea41 with matching binary hash 87652a6addebad6bba11f47d3074160ee5ea1b348ecf57f88a92acd954bfc939. The current creator announcement identifies the November 20 publication and replacement mainnet demo payments. The page offers stranger, recipient and token-auditor views and explicitly distinguishes saved demo answers from live indexer reads. Demo view keys are public; timing, fees and spend links remain visible. The app trusts indexer answers, and transaction-ID lookups disclose the requested ID to that service. Historical October figures and footage describe Esmeralda; some lower README sections retain outdated testnet wording. Today’s individual receipt and resource reads returned HTTP 403, and explorer text extraction returned empty content; those reads do not establish current receipt availability. The current deployment classification uses the hosted page, creator migration evidence and matching current template catalogues. The new genuine recording is a scrolling README walkthrough with scripts and downloads disabled, not a decryption or payment test. The previous seance-v2 source, destination and October recording remain in the provenance history. This project is distinct from DevXTools’ sealed polls.",
+      "status": "Web app · Mainnet",
       "sourceUrl": "https://community.tari.com/t/october-build-contest-thread-spooky-secrets/396/17",
-      "repoUrl": "https://github.com/Kylne700/seance-v2",
-      "docsUrl": "https://github.com/Kylne700/seance-v2#readme",
-      "demoUrl": "https://kylne700.github.io/seance-v2/",
+      "repoUrl": "https://github.com/Kylne700/seance",
+      "docsUrl": "https://github.com/Kylne700/seance#readme",
+      "demoUrl": "https://kylne700.github.io/seance/",
       "creator": {
         "name": "Kylne700",
         "url": "https://github.com/Kylne700"
       },
       "license": "MIT",
-      "network": "Esmeralda testnet",
+      "network": "Ootle mainnet",
       "platform": "Browser",
-      "upstreamRevision": "b8c7bc8eb270433857fdc72778309ad09bf41cd2",
-      "sourceUpdatedAt": "2026-11-20T13:42:24.267Z",
-      "lastCheckedAt": "2026-11-05T11:55:34.397Z",
+      "upstreamRevision": "ebd23c2a24c82292d21ca79e216130568607807c",
+      "sourceUpdatedAt": "2026-11-20T14:23:43.422Z",
+      "lastCheckedAt": "2026-11-28T14:18:23.674810+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
       "tags": [
         "ecosystem-resources",
         "privacy",
-        "testnet"
+        "mainnet"
       ],
       "discussionLinks": [
         {
@@ -1485,17 +1485,18 @@
         {
           "url": "https://community.tari.com/t/november-bonus-contest-first-to-launch/521/18",
           "platform": "Tari Community forum",
-          "context": "Mainnet template publication; browser app switch still planned"
+          "context": "Creator mainnet migration announcement and deployment evidence"
         }
       ],
-      "cardSummary": "Compare what strangers, recipients and auditors can read from private testnet payments, including the metadata that remains public.",
-      "cardStatus": "Web app · Testnet",
+      "cardSummary": "Compare stranger, recipient and auditor views of private Ootle mainnet payments, including the metadata that remains public.",
+      "cardStatus": "Web app · Mainnet",
       "preview": {
-        "video": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-v2-20261031.mp4",
-        "image": "https://ootle-lobby-preview.vercel.app/previews/community/resource-seance-v2-20261031.png",
+        "video": "https://lobby.tari.com/previews/community/resource-seance-mainnet-20261128.mp4",
+        "image": "https://lobby.tari.com/previews/community/resource-seance-mainnet-20261128.png",
         "source": "Docs walkthrough"
       },
-      "lastAttemptAt": "2026-11-20T14:17:53.326280+00:00"
+      "lastAttemptAt": "2026-11-28T14:18:23.674810+00:00",
+      "sourceContentSha256": "7f0800c005c6740ce7f7cf7f4cc897582cf0aec6941a8c40c87b86b458a26a06"
     },
     {
       "id": "tari-ootle:component:graveyard-shift",
@@ -6926,14 +6927,14 @@
       "ecosystem": "tari-ootle",
       "group": "Community projects",
       "title": "Stubmark",
-      "summary": "November 27, 2026: Transferable ticket NFTs can be refunded by their current holder before the cutoff, or after organizer cancellation. Refunds do not reopen seats. The organizer or authorized staff can check in each ticket once and issue a non-transferable attendance badge; organizer payout waits until the event ends. QR rotation is an off-chain application feature. Current Esmeralda explorer data confirms a committed template publication on November 27 with network byte 38 and a 2.29495 tTARI fee. Individual check-in receipt reads timed out or returned empty content, so the creator’s complete event-cycle claims are not independently established here. Creator-reported engine tests were not rerun. The linked demo is a walletless simulation; mainnet fee figures in the README are estimates, not measurements. MIT source and public creator evidence were reviewed. The genuine recording is a source/docs walkthrough with scripts and downloads disabled. No repository code, installed software, wallet or transaction was executed.",
+      "summary": "November 28, 2026: The edited creator post now directs readers to the project website, which links its walletless demo and explicitly identifies Esmeralda testnet. The project remains Testnet · Browser simulation. November 27, 2026: Transferable ticket NFTs can be refunded by their current holder before the cutoff, or after organizer cancellation. Refunds do not reopen seats. The organizer or authorized staff can check in each ticket once and issue a non-transferable attendance badge; organizer payout waits until the event ends. QR rotation is an off-chain application feature. Current Esmeralda explorer data confirms a committed template publication on November 27 with network byte 38 and a 2.29495 tTARI fee. Individual check-in receipt reads timed out or returned empty content, so the creator’s complete event-cycle claims are not independently established here. Creator-reported engine tests were not rerun. The linked demo is a walletless simulation; mainnet fee figures in the README are estimates, not measurements. MIT source and public creator evidence were reviewed. The genuine recording is a source/docs walkthrough with scripts and downloads disabled. No repository code, installed software, wallet or transaction was executed.",
       "status": "Testnet · Browser simulation",
       "cardStatus": "Testnet · Browser simulation",
       "cardSummary": "Explore event tickets, holder refunds, one-time check-in and attendance badges through an Esmeralda template and walletless simulation.",
       "sourceUrl": "https://community.tari.com/t/november-build-contest-thread-mvp/520/54",
       "repoUrl": "https://github.com/dannytungadi5/stubmark",
       "docsUrl": "https://github.com/dannytungadi5/stubmark#readme",
-      "demoUrl": "https://stubmark.pages.dev/demo/",
+      "demoUrl": "https://stubmark.pages.dev/",
       "creator": {
         "name": "dannytungadi5",
         "url": "https://github.com/dannytungadi5"
@@ -6942,8 +6943,8 @@
       "network": "Esmeralda testnet; walletless simulation",
       "platform": "Browser · Source code",
       "upstreamRevision": "README-blob:712c54c630a15f1675f049c0dfa4e09a1b7005f7",
-      "sourceUpdatedAt": "2026-11-27T17:16:13.320Z",
-      "lastAttemptAt": "2026-11-27T17:26:44.645002+00:00",
+      "sourceUpdatedAt": "2026-11-27T17:23:09.372Z",
+      "lastAttemptAt": "2026-11-28T14:18:23.674810+00:00",
       "lastCheckedAt": "2026-11-27T17:26:44.645002+00:00",
       "verification": "source-attested",
       "readiness": "conceptual",
@@ -6964,6 +6965,16 @@
         {
           "url": "https://testnet-explorer.tari.mw/tx/a4daa677c64833430ccb48e9f2da7a087e68da4b7c3acedccec77bed71f3ab12",
           "platform": "Network explorer"
+        },
+        {
+          "url": "https://medium.com/@dannytungadi5/tickets-that-keep-their-own-rules-building-stubmark-on-tari-ootle-8432b72b714d",
+          "platform": "Medium",
+          "context": "Creator announcement linked from the original submission"
+        },
+        {
+          "url": "https://youtu.be/cFXifmyB5Rs",
+          "platform": "YouTube",
+          "context": "Creator announcement linked from the original submission"
         }
       ],
       "preview": {
